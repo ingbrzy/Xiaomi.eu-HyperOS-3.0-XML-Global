@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">1時間前</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">%d時間前</item>
     </plurals>
@@ -29,6 +26,21 @@
     </plurals>
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="other">%1$s件のメッセージを削除しますか？</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="other">%d 秒後に別のメッセージを受信できます</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="other">" (残り %d 件のメッセージ)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="other">%d 秒後に別のメッセージを送信できます</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="other">%d件のメッセージ</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">%d件のメッセージが同期されていません</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">選択した%1$s件の会話を削除しますか？</item>
@@ -57,9 +69,6 @@
     <plurals name="in_num_minutes">
         <item quantity="other">%d分後</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="other">たった今</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="other">%1$d人が%2$sとしてマークしました</item>
     </plurals>
@@ -69,11 +78,18 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d個を選択済み</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 件の新しい通知</item>
+        <item quantity="other">%d 件の新しい通知</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="other">"%s件のメッセージ | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d分前</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="other">%s 件の衛星メッセージ</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="other">撤回 (%d秒)</item>
@@ -84,8 +100,8 @@
     <plurals name="search_results_title">
         <item quantity="other">\"%2$s\"に対する%1$s結果</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="other">%d秒</item>
+    <plurals name="select_dialog_item">
+        <item quantity="other">%s秒</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="other">%1$s件のメッセージを送信しました</item>
@@ -104,5 +120,11 @@
     </plurals>
     <plurals name="to_count">
         <item quantity="other">受信者%d人</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="other">心拍数: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="other">血中酸素レベル: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

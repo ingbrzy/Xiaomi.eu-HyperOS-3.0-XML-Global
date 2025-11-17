@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">לפני שעה אחת</item>
-        <item quantity="two">לפני שעה אחת</item>
-        <item quantity="many">לפני שעה אחת</item>
-        <item quantity="other">לפני שעה אחת</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">לפני שעה %d</item>
         <item quantity="two">לפני %d שעות</item>
@@ -59,6 +53,36 @@
         <item quantity="two">למחוק %1$s הודעות?</item>
         <item quantity="many">למחוק %1$s הודעות?</item>
         <item quantity="other">למחוק %1$s הודעות?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">You can receive another message in %ds</item>
+        <item quantity="two">You can receive another message in %ds</item>
+        <item quantity="many">You can receive another message in %ds</item>
+        <item quantity="other">You can receive another message in %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d message remaining)"</item>
+        <item quantity="two">" (%d messages remaining)"</item>
+        <item quantity="many">" (%d messages remaining)"</item>
+        <item quantity="other">" (%d messages remaining)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">You can send another message in %ds</item>
+        <item quantity="two">You can send another message in %ds</item>
+        <item quantity="many">You can send another message in %ds</item>
+        <item quantity="other">You can send another message in %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">הודעה %d</item>
+        <item quantity="two">%d הודעות</item>
+        <item quantity="many">%d הודעות</item>
+        <item quantity="other">%d הודעות</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">הודעה %d לא סונכרנה</item>
+        <item quantity="two">%d הודעות לא סונכרנו</item>
+        <item quantity="many">%d הודעות לא סונכרנו</item>
+        <item quantity="other">%d הודעות לא סונכרנו</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">למחוק שיחה %1$s שנבחרה?</item>
@@ -114,12 +138,6 @@
         <item quantity="many">בעוד %d דקות</item>
         <item quantity="other">בעוד %d דקות</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">ממש עכשיו</item>
-        <item quantity="two">ממש עכשיו</item>
-        <item quantity="many">ממש עכשיו</item>
-        <item quantity="other">ממש עכשיו</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">סומן כ%2$s על ידי אדם אחד (%1$d)</item>
         <item quantity="two">סומן כ%2$s על ידי %1$d אנשים</item>
@@ -144,11 +162,17 @@
         <item quantity="many">"%s הודעות | "</item>
         <item quantity="other">"%s הודעות | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">לפני דקה אחת</item>
-        <item quantity="two">לפני %d דקות</item>
-        <item quantity="many">לפני %d דקות</item>
-        <item quantity="other">לפני %d דקות</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="two">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">הודעת לוויין %s</item>
+        <item quantity="two">%s הודעות לוויין</item>
+        <item quantity="many">%s הודעות לוויין</item>
+        <item quantity="other">%s הודעות לוויין</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">ביטול (%ds)</item>
@@ -168,11 +192,11 @@
         <item quantity="many">%1$s תוצאות עבור \"%2$s\"</item>
         <item quantity="other">%1$s תוצאות עבור \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">שנייה %d</item>
-        <item quantity="two">%d שניות</item>
-        <item quantity="many">%d שניות</item>
-        <item quantity="other">%d שניות</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">שנייה %s</item>
+        <item quantity="two">%s שניות</item>
+        <item quantity="many">%s שניות</item>
+        <item quantity="other">%s שניות</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">הודעה %1$s נשלחה</item>
@@ -209,5 +233,17 @@
         <item quantity="two">%d נמענים</item>
         <item quantity="many">%d נמענים</item>
         <item quantity="other">%d נמענים</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">קצב הלב: פעימה %1$d/דקה (%2$s)</item>
+        <item quantity="two">קצב הלב: %1$d פעימות/דקה (%2$s)</item>
+        <item quantity="many">קצב הלב: %1$d פעימות/דקה (%2$s)</item>
+        <item quantity="other">קצב הלב: %1$d פעימות/דקה (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="two">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="many">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

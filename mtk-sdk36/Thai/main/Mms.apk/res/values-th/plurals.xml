@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">1 ชั่วโมงที่แล้ว</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">%d ชั่วโมงที่แล้ว</item>
     </plurals>
@@ -29,6 +26,21 @@
     </plurals>
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="other">ลบ %1$s ข้อความ?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="other">คุณสามารถรับข้อความอื่นได้ใน %d วิ</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="other">" (%d ข้อความคงเหลือ)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="other">คุณสามารถส่งข้อความอื่นได้ใน %d วิ</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="other">%d ข้อความ</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">%d ข้อความยังไม่ได้ซิงค์</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">ลบ %1$s บทสนทนาที่เลือกหรือไม่?</item>
@@ -57,9 +69,6 @@
     <plurals name="in_num_minutes">
         <item quantity="other">ใน%d นาที</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="other">เมื่อสักครู่</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="other">ทำเครื่องหมาย %2$s โดย %1$d คน</item>
     </plurals>
@@ -69,11 +78,18 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d รายการที่เลือกไว้</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="other">"%s ข้อความ | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">%d นาทีที่ผ่านมา</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="other">%s ข้อความดาวเทียม</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="other">เพิกถอน (%d วิ)</item>
@@ -84,8 +100,8 @@
     <plurals name="search_results_title">
         <item quantity="other">%1$s ผลลัพธ์สำหรับ \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="other">%d วินาที</item>
+    <plurals name="select_dialog_item">
+        <item quantity="other">%s วิ</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="other">ส่ง %1$s ข้อความ</item>
@@ -104,5 +120,11 @@
     </plurals>
     <plurals name="to_count">
         <item quantity="other">%d ผู้รับ</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="other">อัตราการเต้นของหัวใจ: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

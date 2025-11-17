@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Pred 1 hodinou</item>
-        <item quantity="few">Pred 1 hodinou</item>
-        <item quantity="many">Pred 1 hodinou</item>
-        <item quantity="other">Pred 1 hodinou</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">Pred %d hod.</item>
         <item quantity="few">Pred %d hod.</item>
@@ -59,6 +53,36 @@
         <item quantity="few">Vymazať %1$s správy?</item>
         <item quantity="many">Vymazať %1$s správy?</item>
         <item quantity="other">Vymazať %1$s správ?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">Ďalšiu správu môžete prijať za %ds</item>
+        <item quantity="few">Ďalšiu správu môžete prijať za %ds</item>
+        <item quantity="many">Ďalšiu správu môžete prijať za %ds</item>
+        <item quantity="other">Ďalšiu správu môžete prijať za %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (zostáva %d správa)"</item>
+        <item quantity="few">" (zostávajú %d správy)"</item>
+        <item quantity="many">" (zostáva %d správy)"</item>
+        <item quantity="other">" (zostáva %d správ)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">Ďalšiu správu môžete odoslať za %ds</item>
+        <item quantity="few">Ďalšiu správu môžete odoslať za %ds</item>
+        <item quantity="many">Ďalšiu správu môžete odoslať za %ds</item>
+        <item quantity="other">Ďalšiu správu môžete odoslať za %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d správa</item>
+        <item quantity="few">%d správy</item>
+        <item quantity="many">%d správy</item>
+        <item quantity="other">%d správ</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d správa nebola synchronizovaná</item>
+        <item quantity="few">%d správy neboli synchronizované</item>
+        <item quantity="many">%d správy nebolo synchronizovanej</item>
+        <item quantity="other">%d správ nebolo synchronizovaných</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Vymazať %1$s vyznačenú konverzáciu?</item>
@@ -114,12 +138,6 @@
         <item quantity="many">do %d minúty</item>
         <item quantity="other">do %d minút</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Práve teraz</item>
-        <item quantity="few">Práve teraz</item>
-        <item quantity="many">Práve teraz</item>
-        <item quantity="other">Práve teraz</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Označené ako %2$s %1$d osobou</item>
         <item quantity="few">Označené ako %2$s %1$d osobami</item>
@@ -138,17 +156,29 @@
         <item quantity="many">Vybraných %d položiek</item>
         <item quantity="other">Vybraných %d položiek</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové upozornenie</item>
+        <item quantity="few">%d nové upozornenia</item>
+        <item quantity="many">%d new notifications</item>
+        <item quantity="other">%d nových upozornení</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s správa | "</item>
         <item quantity="few">"%s správy | "</item>
         <item quantity="many">"%s správy | "</item>
         <item quantity="other">"%s správ | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Pred 1 minútou</item>
-        <item quantity="few">Pred %d minútami</item>
-        <item quantity="many">Pred %d minútou</item>
-        <item quantity="other">Pred %d minútami</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s satelitná správa</item>
+        <item quantity="few">%s satelitné správy</item>
+        <item quantity="many">%s satelitnej správy</item>
+        <item quantity="other">%s satelitných správ</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Odvolať (%d sek.)</item>
@@ -168,11 +198,11 @@
         <item quantity="many">%1$s výsledku pre \"%2$s\"</item>
         <item quantity="other">%1$s výsledkov pre \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d sekunda</item>
-        <item quantity="few">%d sekundy</item>
-        <item quantity="many">%d sekundy</item>
-        <item quantity="other">%d sekúnd</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s sek.</item>
+        <item quantity="few">%s sek.</item>
+        <item quantity="many">%s sek.</item>
+        <item quantity="other">%s sek.</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Odoslaná %1$s správa</item>
@@ -209,5 +239,17 @@
         <item quantity="few">%d príjemcovia</item>
         <item quantity="many">%d príjemcu</item>
         <item quantity="other">%d príjemcov</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Srdcový tep: %1$d úderov/min. (%2$s)</item>
+        <item quantity="few">Srdcový tep: %1$d úderov/min. (%2$s)</item>
+        <item quantity="many">Srdcový tep: %1$d úderov/min. (%2$s)</item>
+        <item quantity="other">Srdcový tep: %1$d úderov/min. (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="few">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="many">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="zero">منذ ساعة واحدة</item>
-        <item quantity="one">منذ ساعة واحدة</item>
-        <item quantity="two">منذ ساعة واحدة</item>
-        <item quantity="few">منذ ساعة واحدة</item>
-        <item quantity="many">منذ ساعة واحدة</item>
-        <item quantity="other">منذ ساعة واحدة</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="zero">قبل %d ساعة</item>
         <item quantity="one">قبل %d ساعة</item>
@@ -79,6 +71,46 @@
         <item quantity="few">حذف %1$s رسائل؟</item>
         <item quantity="many">حذف %1$s رسالة؟</item>
         <item quantity="other">حذف %1$s رسالة؟</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="zero">يمكنك تلقي رسالة أخرى خلال %d ث</item>
+        <item quantity="one">يمكنك تلقي رسالة أخرى خلال %d ث</item>
+        <item quantity="two">يمكنك تلقي رسالة أخرى خلال %d ث</item>
+        <item quantity="few">يمكنك تلقي رسالة أخرى خلال %d ث</item>
+        <item quantity="many">يمكنك تلقي رسالة أخرى خلال %d ث</item>
+        <item quantity="other">يمكنك تلقي رسالة أخرى خلال %d ث</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="zero">" (%d رسالة متبقية)"</item>
+        <item quantity="one">" (%d رسالة متبقية)"</item>
+        <item quantity="two">" (%d رسائل متبقية)"</item>
+        <item quantity="few">" (%d رسائل متبقية)"</item>
+        <item quantity="many">" (%d رسالة متبقية)"</item>
+        <item quantity="other">" (%d رسالة متبقية)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="zero">يمكنك إرسال رسالة أخرى خلال %d ث</item>
+        <item quantity="one">يمكنك إرسال رسالة أخرى خلال %d ث</item>
+        <item quantity="two">يمكنك إرسال رسالة أخرى خلال %d ث</item>
+        <item quantity="few">يمكنك إرسال رسالة أخرى خلال %d ث</item>
+        <item quantity="many">يمكنك إرسال رسالة أخرى خلال %d ث</item>
+        <item quantity="other">يمكنك إرسال رسالة أخرى خلال %d ث</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="zero">%d رسالة</item>
+        <item quantity="one">%d رسالة</item>
+        <item quantity="two">%d رسائل</item>
+        <item quantity="few">%d رسائل</item>
+        <item quantity="many">%d رسالة</item>
+        <item quantity="other">%d رسالة</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="zero">لم تتم مزامنة %d رسالة</item>
+        <item quantity="one">لم تتم مزامنة %d رسالة</item>
+        <item quantity="two">لم تتم مزامنة %d رسائل</item>
+        <item quantity="few">لم تتم مزامنة %d رسائل</item>
+        <item quantity="many">لم تتم مزامنة %d رسالة</item>
+        <item quantity="other">لم تتم مزامنة %d رسالة</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="zero">حذف %1$s محادثة؟</item>
@@ -152,14 +184,6 @@
         <item quantity="many">في %d دقيقة</item>
         <item quantity="other">في %d دقيقة</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="zero">الآن</item>
-        <item quantity="one">الآن</item>
-        <item quantity="two">الآن</item>
-        <item quantity="few">الآن</item>
-        <item quantity="many">الآن</item>
-        <item quantity="other">الآن</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="zero">تم وضع علامة عليها كـ %2$s من %1$d شخص</item>
         <item quantity="one">تم وضع علامة عليها كـ %2$s من %1$d شخص</item>
@@ -184,6 +208,14 @@
         <item quantity="many">%d عنصر محدد</item>
         <item quantity="other">%d عنصر محدد</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="zero">"%s رسالة| "</item>
         <item quantity="one">"%s رسالة| "</item>
@@ -192,13 +224,21 @@
         <item quantity="many">"%s رسالة| "</item>
         <item quantity="other">"%s رسالة| "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="zero">منذ %d دق</item>
-        <item quantity="one">منذ دقيقة</item>
-        <item quantity="two">منذ %d دق</item>
-        <item quantity="few">منذ %d دق</item>
-        <item quantity="many">منذ %d دق</item>
-        <item quantity="other">منذ %d دق</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="zero">%s</item>
+        <item quantity="one">%s</item>
+        <item quantity="two">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="zero">%s رسالة عبر القمر الصناعي</item>
+        <item quantity="one">%s رسالة عبر القمر الصناعي</item>
+        <item quantity="two">%s رسائل عبر القمر الصناعي</item>
+        <item quantity="few">%s رسائل عبر القمر الصناعي</item>
+        <item quantity="many">%s رسالة عبر القمر الصناعي</item>
+        <item quantity="other">%s رسالة عبر القمر الصناعي</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="zero">سحب (%d ث)</item>
@@ -224,13 +264,13 @@
         <item quantity="many">%1$s نتيجة لـ \"%2$s\"</item>
         <item quantity="other">%1$s نتيجة لـ \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="zero">%d ثانية</item>
-        <item quantity="one">%d ثانية</item>
-        <item quantity="two">%d ثواني</item>
-        <item quantity="few">%d ثواني</item>
-        <item quantity="many">%d ثانية</item>
-        <item quantity="other">%d ثانية</item>
+    <plurals name="select_dialog_item">
+        <item quantity="zero">%s ثانية</item>
+        <item quantity="one">%s ثانية</item>
+        <item quantity="two">%s ثواني</item>
+        <item quantity="few">%s ثواني</item>
+        <item quantity="many">%s ثانية</item>
+        <item quantity="other">%s ثانية</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="zero">تم إرسال %1$s رسالة</item>
@@ -279,5 +319,21 @@
         <item quantity="few">%d مستلمين</item>
         <item quantity="many">%d مستلم</item>
         <item quantity="other">%d مستلم</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="zero">معدل نبض القلب: %1$d نبضة/دق (%2$s)</item>
+        <item quantity="one">معدل نبض القلب: %1$d نبضة/دق (%2$s)</item>
+        <item quantity="two">معدل نبض القلب: %1$d نبضة/دق (%2$s)</item>
+        <item quantity="few">معدل نبض القلب: %1$d نبضة/دق (%2$s)</item>
+        <item quantity="many">معدل نبض القلب: %1$d نبضة/دق (%2$s)</item>
+        <item quantity="other">معدل نبض القلب: %1$d نبضة/دق (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="zero">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="two">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="few">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="many">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

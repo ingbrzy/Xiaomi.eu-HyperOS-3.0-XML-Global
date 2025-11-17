@@ -282,7 +282,7 @@
     <string name="app_behavior_desc_other_perm_allowed">Latest activity: %s</string>
     <string name="app_behavior_desc_other_perm_denied">Activity within last %d hours</string>
     <string name="app_behavior_door">App behaviour records</string>
-    <string name="app_behavior_header_time">MMMM dd</string>
+    <string name="app_behavior_header_time">dd MMMM</string>
     <string name="app_behavior_key_audio">Recording audio</string>
     <string name="app_behavior_key_camera">Taking photos</string>
     <string name="app_behavior_key_location">Location</string>
@@ -375,10 +375,14 @@
     <string name="app_manager_default_open_title">Clear defaults</string>
     <string name="app_manager_defaults_setting">Default apps</string>
     <string name="app_manager_deleted_system_app_title">Uninstalled system apps</string>
-    <string name="app_manager_details_electric_title">Battery</string>
+    <string name="app_manager_details_electric_title">Power</string>
+    <string name="app_manager_details_electric_title_new">Power</string>
+    <string name="app_manager_details_electric_title_value">Battery usage %s</string>
     <string name="app_manager_details_storage_title">Storage</string>
     <string name="app_manager_details_title">App info</string>
-    <string name="app_manager_details_traffic_title">Data usage</string>
+    <string name="app_manager_details_traffic_title">Network access</string>
+    <string name="app_manager_details_traffic_title_new">Network access</string>
+    <string name="app_manager_details_traffic_title_value">Data usage %1$s</string>
     <string name="app_manager_disable">"Don't allow"</string>
     <string name="app_manager_disable_dlg_title">Disable system app?</string>
     <string name="app_manager_disable_text">Disable</string>
@@ -2509,6 +2513,8 @@ Press and hold the indicator to move the window around."</string>
     <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
     <string name="gs_sign_notification_new">Remind to check in at %d PM daily</string>
     <string name="gs_slip_gamebox_detail">Use slider or swipe from the top side edge of the screen to make the shortcut panel appear</string>
+    <string name="gt_function_close">Less</string>
+    <string name="gt_function_more">More</string>
     <string name="gtb_after_acceleration">After</string>
     <string name="gtb_auto_memory_clean">Clear memory automatically</string>
     <string name="gtb_before_acceleration">Before</string>
@@ -2758,6 +2764,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
     <string name="lockpattern_tutorial_continue_label">Next</string>
     <string name="lockpattern_tutorial_continue_label_confirm">Tap \"OK\"</string>
     <string name="lockpattern_tutorial_continue_label_next">Tap \"Next\"</string>
+    <string name="lockscreen_access_pattern_area">Pattern area</string>
     <string name="lockscreen_access_pattern_cell_added">Cell added</string>
     <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
     <string name="lockscreen_access_pattern_detected">Pattern completed</string>
@@ -3385,6 +3392,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_battery_charging_error_title">Charging error</string>
     <string name="pc_battery_chart_loading">Just a sec…</string>
     <string name="pc_battery_date_year_month_format">MMM yyyy</string>
+    <string name="pc_battery_detail">Battery details</string>
     <string name="pc_battery_detail_curve_reference_now">Now</string>
     <string name="pc_battery_detail_device_item_title">Battery usage stats</string>
     <string name="pc_battery_health_revise_title">Calibrate battery health info</string>
@@ -3616,7 +3624,7 @@ Ultra battery saver"</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">Battery protection</string>
     <string name="pc_smart_charge_pogo_project_notification_content">"To extend battery life span, this device's battery won't go above the current level while connected to the car"</string>
     <string name="pc_smart_charge_pogo_project_notification_title">Battery protection</string>
-    <string name="pc_smart_charge_title">Smart charging</string>
+    <string name="pc_smart_charge_title">Intelligent charging</string>
     <string name="pc_smart_discharge_checkbox_summary">When using navigation features, charging will stop automatically at a specified percentage. Battery saver will be turned off.</string>
     <string name="pc_smart_discharge_checkbox_title">Charging auto-disconnect</string>
     <string name="pc_smart_discharge_drop_down_title">Auto-disconnect settings</string>
@@ -4739,6 +4747,10 @@ Withdraw consent now?"</string>
     <string name="section_title_clear_acc">Clear cache</string>
     <string name="section_title_security_defend">Security</string>
     <string name="section_title_system">System security</string>
+    <string name="security_access">Private access</string>
+    <string name="security_access_contact_tip">This app supports Private access. Only contacts you select can be accessed in order to protect your privacy.</string>
+    <string name="security_access_file_tip">This app supports Private access. Only files you select can be accessed in order to protect your privacy.</string>
+    <string name="security_access_media_tip">This app supports Private access. Only photos and videos you select can be accessed in order to protect your privacy.</string>
     <string name="security_bottom_guide_to_pm_text">Release to open utilities</string>
     <string name="security_center_slogan">Keep your device fast and secure</string>
     <string name="security_guide_bubble_text">Open</string>
@@ -5219,7 +5231,7 @@ To use this ^1 with this device, you have to set it up first."</string>
     <string name="storage_file_list_btn">Delete %1$s</string>
     <string name="storage_file_list_form_default">SD card</string>
     <string name="storage_file_list_from">From %s</string>
-    <string name="storage_fob_date_format">MM/dd</string>
+    <string name="storage_fob_date_format">dd/MM</string>
     <string name="storage_format_failure">"Couldn't format %1$s"</string>
     <string name="storage_format_success">Formatted %1$s successfully</string>
     <string name="storage_item_apk_name">APKs</string>
@@ -5318,8 +5330,8 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="superpower_notification_low_temp_title">Turn on Ultra battery saver?</string>
     <string name="superpower_notification_new_title_new">Less than %s of battery remaining</string>
     <string name="superpower_notification_summary">Charge your device or turn on Ultra battery saver</string>
-    <string name="superpower_notification_time_12">EEEE, MMMM dd</string>
-    <string name="superpower_notification_time_24">EEEE, MMMM dd</string>
+    <string name="superpower_notification_time_12">EEEE, dd MMMM</string>
+    <string name="superpower_notification_time_24">EEEE, dd MMMM</string>
     <string name="superpower_notification_title_new">Less than %s of battery remaining</string>
     <string name="superpower_progress_content">Turning on Ultra battery saver…</string>
     <string name="superpower_progress_left_time">%1$dh %2$dm</string>

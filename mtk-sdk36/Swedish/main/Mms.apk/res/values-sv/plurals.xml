@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 timme sedan</item>
-        <item quantity="other">1 timme sedan</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">%d timma sedan</item>
         <item quantity="other">%d timmar sedan</item>
@@ -39,6 +35,26 @@
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="one">Ta bort %1$s meddelande?</item>
         <item quantity="other">Ta bort %1$s meddelanden?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">You can receive another message in %ds</item>
+        <item quantity="other">You can receive another message in %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d message remaining)"</item>
+        <item quantity="other">" (%d messages remaining)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">You can send another message in %ds</item>
+        <item quantity="other">You can send another message in %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d meddelande</item>
+        <item quantity="other">%d meddelanden</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d meddelande blev inte synkroniserade</item>
+        <item quantity="other">%d meddelanden blev inte synkroniserade</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Ta bort %1$s vald konversation?</item>
@@ -76,10 +92,6 @@
         <item quantity="one">om 1 minut</item>
         <item quantity="other">om %d minuter</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Nyss</item>
-        <item quantity="other">Nyss</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Markerad som %2$s av %1$d människor</item>
         <item quantity="other">Markerats som %2$s %1$d personer</item>
@@ -92,13 +104,21 @@
         <item quantity="one">%d objekt valt</item>
         <item quantity="other">%d objekt valda</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ny avisering</item>
+        <item quantity="other">%d nya aviseringar</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s meddelande | "</item>
         <item quantity="other">"%s meddelanden | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 minut sedan</item>
-        <item quantity="other">%d minuter sedan</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s satellitmeddelande</item>
+        <item quantity="other">%s satellitmeddelanden</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Dra tillbaka (%d sek)</item>
@@ -112,9 +132,9 @@
         <item quantity="one">%1$s resultat för \"%2$s\"</item>
         <item quantity="other">%1$s resultat för \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d sekund</item>
-        <item quantity="other">%d sekunder</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s sek</item>
+        <item quantity="other">%s sek</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Skickat %1$s meddelande</item>
@@ -139,5 +159,13 @@
     <plurals name="to_count">
         <item quantity="one">%d mottagare</item>
         <item quantity="other">%d mottagare</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Puls: %1$d slag/min (%2$s)</item>
+        <item quantity="other">Puls: %1$d slag/min (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

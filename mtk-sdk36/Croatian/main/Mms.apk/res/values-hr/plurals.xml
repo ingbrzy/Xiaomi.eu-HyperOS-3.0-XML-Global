@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">prije 1 sat</item>
-        <item quantity="few">prije 1 sat</item>
-        <item quantity="other">prije 1 sat</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">Pred %d sat</item>
         <item quantity="few">Pred %d sata</item>
@@ -49,6 +44,31 @@
         <item quantity="one">Izbrisati %1$s poruku?</item>
         <item quantity="few">Izbrisati %1$s poruka?</item>
         <item quantity="other">Izbrisati %1$s poruka?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">Možete primiti drugu poruku za %ds</item>
+        <item quantity="few">Možete primiti drugu poruku za %ds</item>
+        <item quantity="other">Možete primiti drugu poruku za %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d poruka preostala)"</item>
+        <item quantity="few">" (%d poruke preostale)"</item>
+        <item quantity="other">" (%d poruka preostalo)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">Možete poslati drugu poruku za %ds</item>
+        <item quantity="few">Možete poslati drugu poruku za %ds</item>
+        <item quantity="other">Možete poslati drugu poruku za %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">SMS: %d</item>
+        <item quantity="few">SMS-a: %d</item>
+        <item quantity="other">SMS-a: %d</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d poruka nije sinkronizirana</item>
+        <item quantity="few">%d poruka nije sinkronizirano</item>
+        <item quantity="other">%d poruka nije sinkronizirano</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Obrisati %1$s odabrani razgovor?</item>
@@ -95,11 +115,6 @@
         <item quantity="few">za%d minute</item>
         <item quantity="other">za%d minuta</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Upravo sada</item>
-        <item quantity="few">Upravo sada</item>
-        <item quantity="other">Upravo sada</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Označeno kao %2$s od %1$d osoba</item>
         <item quantity="few">Označeno kao %2$s od %1$d osoba</item>
@@ -115,15 +130,25 @@
         <item quantity="few">%d odabrane stavke</item>
         <item quantity="other">%d odabranih stavki</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+        <item quantity="other">%d novih obavijesti</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s poruka | "</item>
         <item quantity="few">"%s poruke | "</item>
         <item quantity="other">"%s poruka | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Prije 1 minute</item>
-        <item quantity="few">prije %d min</item>
-        <item quantity="other">prije %d min</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s satelitska poruka</item>
+        <item quantity="few">%s satelitske poruke</item>
+        <item quantity="other">%s satelitskih poruka</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Opozivanje (%ds)</item>
@@ -140,10 +165,10 @@
         <item quantity="few">%1$s rezultata za %2$s</item>
         <item quantity="other">%1$s rezultata za %2$s</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d sekunda</item>
-        <item quantity="few">%d sekunde</item>
-        <item quantity="other">%d sekundi</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s sek</item>
+        <item quantity="few">%s sek</item>
+        <item quantity="other">%s sek</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Poslano poruka: %1$s</item>
@@ -174,5 +199,15 @@
         <item quantity="one">%d primatelj</item>
         <item quantity="few">%d primatelja</item>
         <item quantity="other">%d primatelja</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Broj otkucaja srca: %1$d BPM (%2$s)</item>
+        <item quantity="few">Broj otkucaja srca: %1$d BPM (%2$s)</item>
+        <item quantity="other">Broj otkucaja srca: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="few">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

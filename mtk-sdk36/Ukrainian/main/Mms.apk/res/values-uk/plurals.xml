@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Годину тому</item>
-        <item quantity="few">Годину тому</item>
-        <item quantity="many">Годину тому</item>
-        <item quantity="other">Годину тому</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">%d год назад</item>
         <item quantity="few">%d год назад</item>
@@ -59,6 +53,36 @@
         <item quantity="few">Видалити %1$s повідомлення?</item>
         <item quantity="many">Видалити %1$s повідомлень?</item>
         <item quantity="other">Видалити %1$s повідомлень?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">Ви можете отримати інше повідомлення через %d сек</item>
+        <item quantity="few">Ви можете отримати інше повідомлення через %d сек</item>
+        <item quantity="many">Ви можете отримати інше повідомлення через %d сек</item>
+        <item quantity="other">Ви можете отримати інше повідомлення через %d сек</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (Залишилося %d повідомлення)"</item>
+        <item quantity="few">" (Залишилося %d повідомлення)"</item>
+        <item quantity="many">" (Залишилося %d повідомлень)"</item>
+        <item quantity="other">" (Залишилося %d повідомлень)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">Ви можете відправити інше повідомлення через %d сек</item>
+        <item quantity="few">Ви можете відправити інше повідомлення через %d сек</item>
+        <item quantity="many">Ви можете відправити інше повідомлення через %d сек</item>
+        <item quantity="other">Ви можете відправити інше повідомлення через %d сек</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d повідомлення</item>
+        <item quantity="few">%d повідомлення</item>
+        <item quantity="many">%d повідомлень</item>
+        <item quantity="other">%d повідомлень</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d повідомлення не синхронізоване</item>
+        <item quantity="few">%d повідомлення не синхронізовані</item>
+        <item quantity="many">%d повідомлень не синхронізовані</item>
+        <item quantity="other">%d повідомлень не синхронізовані</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Видалити %1$s вибраний діалог?</item>
@@ -114,12 +138,6 @@
         <item quantity="many">через %d хв</item>
         <item quantity="other">через %d хв</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Тільки що</item>
-        <item quantity="few">Тільки що</item>
-        <item quantity="many">Тільки що</item>
-        <item quantity="other">Тільки що</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Позначено як %2$s %1$d людиною</item>
         <item quantity="few">Позначено як %2$s %1$d людьми</item>
@@ -138,17 +156,29 @@
         <item quantity="many">"Вибрано %d об'єктів"</item>
         <item quantity="other">"Вибрано %d об'єктів"</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+        <item quantity="other">%d нового сповіщення</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s повідомлення | "</item>
         <item quantity="few">"%s повідомлення | "</item>
         <item quantity="many">"%s повідомлень | "</item>
         <item quantity="other">"%s повідомлень | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 хв тому</item>
-        <item quantity="few">%d хв тому</item>
-        <item quantity="many">%d хв тому</item>
-        <item quantity="other">%d хв тому</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s супутникове повідомлення</item>
+        <item quantity="few">%s супутникових повідомлення</item>
+        <item quantity="many">%s супутникових повідомлень</item>
+        <item quantity="other">%s супутникових повідомлень</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Відкликати (%d сек)</item>
@@ -168,11 +198,11 @@
         <item quantity="many">Результатів для \"%2$s\": %1$s</item>
         <item quantity="other">Результатів для \"%2$s\": %1$s</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d сек</item>
-        <item quantity="few">%d сек</item>
-        <item quantity="many">%d сек</item>
-        <item quantity="other">%d сек</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s сек</item>
+        <item quantity="few">%s сек</item>
+        <item quantity="many">%s сек</item>
+        <item quantity="other">%s сек</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Відправлено повідомлень: %1$s</item>
@@ -209,5 +239,17 @@
         <item quantity="few">%d отримувача</item>
         <item quantity="many">%d отримувачів</item>
         <item quantity="other">%d отримувачів</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Пульс: %1$d уд/хв (%2$s)</item>
+        <item quantity="few">Пульс: %1$d уд/хв (%2$s)</item>
+        <item quantity="many">Пульс: %1$d уд/хв (%2$s)</item>
+        <item quantity="other">Пульс: %1$d уд/хв (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="few">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="many">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>
