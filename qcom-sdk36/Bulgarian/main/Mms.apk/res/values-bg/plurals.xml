@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Преди 1 час</item>
-        <item quantity="other">Преди 1 час</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">Преди %d час</item>
         <item quantity="other">Преди %d часа</item>
@@ -39,6 +35,26 @@
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="one">Изтриване на %1$s съобщение?</item>
         <item quantity="other">Изтриване на %1$s съобщения?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">You can receive another message in %ds</item>
+        <item quantity="other">You can receive another message in %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d message remaining)"</item>
+        <item quantity="other">" (%d messages remaining)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">You can send another message in %ds</item>
+        <item quantity="other">You can send another message in %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d съобщение</item>
+        <item quantity="other">%d съобщения</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d съобщение не е синхронизирано</item>
+        <item quantity="other">%d съобщения не са синхронизирани</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Изтрий %1$sизбран разговор?</item>
@@ -76,10 +92,6 @@
         <item quantity="one">след 1 минута</item>
         <item quantity="other">след %d минути</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Току що</item>
-        <item quantity="other">Току що</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Маркирано като %2$s от %1$d човек</item>
         <item quantity="other">Маркирано като %2$s от %1$d човека</item>
@@ -92,13 +104,21 @@
         <item quantity="one">Избран е %d елемент</item>
         <item quantity="other">Избрани са %d елемента</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s съобщение | "</item>
         <item quantity="other">"%s съобщения | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">Преди 1 минута</item>
-        <item quantity="other">Преди %d минути</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s сателитно съобщение</item>
+        <item quantity="other">%s сателитни съобщения</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Оттегляне (%d сек)</item>
@@ -112,9 +132,9 @@
         <item quantity="one">%1$s резултат за \"%2$s\"</item>
         <item quantity="other">%1$s резултата за \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d секунда</item>
-        <item quantity="other">%d секунди</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s сек</item>
+        <item quantity="other">%s сек</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Изпратено %1$s съобщение</item>
@@ -139,5 +159,13 @@
     <plurals name="to_count">
         <item quantity="one">%d получател</item>
         <item quantity="other">%d получатели</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Пулс: %1$d BPM (%2$s)</item>
+        <item quantity="other">Пулс: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

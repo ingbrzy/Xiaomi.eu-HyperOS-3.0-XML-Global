@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="other">လွန်ခဲ့သော ၁ နာရီက</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="other">%d နာရီအကြာက</item>
     </plurals>
@@ -29,6 +26,21 @@
     </plurals>
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="other">မက်ဆေ့(ချ်) %1$s ခုအား ဖျက်မည်လား။</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="other">You can receive another message in %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="other">" (%d messages remaining)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="other">You can send another message in %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="other">မက်ဆေ့(ချ်) %d ခု</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">မက်ဆေ့(ချ်) %d ခုအား ဆင့်ခ်မလုပ်ရသေးပါ</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">ရွေးထားသော စကားပြော %1$s ခုကို ဖျက်လိုသလား။</item>
@@ -57,9 +69,6 @@
     <plurals name="in_num_minutes">
         <item quantity="other">%d မိနစ် အကြာမှာ</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="other">ယခုလေးတင်</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="other">%1$d ဦးမှ %2$s အဖြစ် အမှတ်အသားပြုထားသည်</item>
     </plurals>
@@ -72,8 +81,11 @@
     <plurals name="notification_multiple">
         <item quantity="other">"မက်ဆေ့(ချ်) %s စောင် | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="other">လွန်ခဲ့သော %d မိနစ်က</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="other">ဂြိုဟ်တုမက်ဆေ့(ချ်) %s စောင်</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="other">ရုပ်သိမ်းရန် (%dစက္ကန့်)</item>
@@ -84,8 +96,8 @@
     <plurals name="search_results_title">
         <item quantity="other">\"%2$s\" အတွက် ရလဒ် %1$s ခု</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="other">%d စက္ကန့်</item>
+    <plurals name="select_dialog_item">
+        <item quantity="other">%s စက္ကန့်</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="other">မက်ဆေ့(ချ်) %1$s စောင် ပို့ထားသည်</item>
@@ -104,5 +116,11 @@
     </plurals>
     <plurals name="to_count">
         <item quantity="other">%d လက်ခံသူ</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="other">နှလုံးခုန်နှုန်း - %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="other">SpO₂ - %1$d%% (%2$s)</item>
     </plurals>
 </resources>

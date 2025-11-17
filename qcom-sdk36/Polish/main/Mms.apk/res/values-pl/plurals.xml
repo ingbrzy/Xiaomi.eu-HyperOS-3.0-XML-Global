@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">Godzinę temu</item>
-        <item quantity="few">Godzinę temu</item>
-        <item quantity="many">Godzinę temu</item>
-        <item quantity="other">Godzinę temu</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">%d godz. temu</item>
         <item quantity="few">%d godz. temu</item>
@@ -59,6 +53,36 @@
         <item quantity="few">Usunąć %1$s wiadomości?</item>
         <item quantity="many">Usunąć %1$s wiadomości?</item>
         <item quantity="other">Usunąć %1$s wiadomości?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">Możesz otrzymać kolejną wiadomość za %d sek.</item>
+        <item quantity="few">Możesz otrzymać kolejną wiadomość za %d sek.</item>
+        <item quantity="many">Możesz otrzymać kolejną wiadomość za %d sek.</item>
+        <item quantity="other">Możesz otrzymać kolejną wiadomość za %d sek.</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (pozostała %d wiadomość)"</item>
+        <item quantity="few">" (pozostały %d wiadomości)"</item>
+        <item quantity="many">" (pozostało %d wiadomości)"</item>
+        <item quantity="other">" (pozostało %d wiadomości)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">Możesz wysłać kolejną wiadomość za %d sek.</item>
+        <item quantity="few">Możesz wysłać kolejną wiadomość za %d sek.</item>
+        <item quantity="many">Możesz wysłać kolejną wiadomość za %d sek.</item>
+        <item quantity="other">Możesz wysłać kolejną wiadomość za %d sek.</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d wiadomość</item>
+        <item quantity="few">%d wiadomości</item>
+        <item quantity="many">%d wiadomości</item>
+        <item quantity="other">%d wiadomości</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d wiadomość nie została zsynchronizowana</item>
+        <item quantity="few">%d wiadomości nie zostały zsynchronizowane</item>
+        <item quantity="many">%d wiadomości nie zostało zsynchronizowanych</item>
+        <item quantity="other">%d wiadomości nie zostało zsynchronizowanych</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Usunąć %1$s wybraną konwersację?</item>
@@ -114,12 +138,6 @@
         <item quantity="many">za %d minut</item>
         <item quantity="other">za %d minut</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Teraz</item>
-        <item quantity="few">Teraz</item>
-        <item quantity="many">Teraz</item>
-        <item quantity="other">Teraz</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Oznaczono jako %2$s przez %1$d osobę</item>
         <item quantity="few">Oznaczono jako %2$s przez %1$d osoby</item>
@@ -138,17 +156,29 @@
         <item quantity="many">%d zaznaczonych elementów</item>
         <item quantity="other">%d zaznaczonych elementów</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+        <item quantity="other">%d nowego powiadomienia</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s wiadomość | "</item>
         <item quantity="few">"%s wiadomości | "</item>
         <item quantity="many">"%s wiadomości | "</item>
         <item quantity="other">"%s wiadomości | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 minutę temu</item>
-        <item quantity="few">%d minuty temu</item>
-        <item quantity="many">%d minut temu</item>
-        <item quantity="other">%d minut temu</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="few">%s</item>
+        <item quantity="many">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s wiadomość satelitarna</item>
+        <item quantity="few">%s wiadomości satelitarne</item>
+        <item quantity="many">%s wiadomości satelitarnych</item>
+        <item quantity="other">%s wiadomości satelitarnej</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Wycofaj (%ds)</item>
@@ -168,11 +198,11 @@
         <item quantity="many">%1$s wyników dla zapytania „%2$s”</item>
         <item quantity="other">%1$s wyników dla zapytania „%2$s”</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d sekunda</item>
-        <item quantity="few">%d sekundy</item>
-        <item quantity="many">%d sekund</item>
-        <item quantity="other">%d sekundy</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s sek.</item>
+        <item quantity="few">%s sek.</item>
+        <item quantity="many">%s sek.</item>
+        <item quantity="other">%s sek.</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Wysłano %1$s wiadomość</item>
@@ -209,5 +239,17 @@
         <item quantity="few">%d odbiorców</item>
         <item quantity="many">%d odbiorców</item>
         <item quantity="other">%d odbiorców</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Tętno: %1$d BPM (%2$s)</item>
+        <item quantity="few">Tętno: %1$d BPM (%2$s)</item>
+        <item quantity="many">Tętno: %1$d BPM (%2$s)</item>
+        <item quantity="other">Tętno: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="few">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="many">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

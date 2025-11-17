@@ -379,9 +379,13 @@
     <string name="app_manager_defaults_setting">แอปที่เป็นค่าเริ่มต้น</string>
     <string name="app_manager_deleted_system_app_title">แอประบบที่ถอนการติดตั้งแล้ว</string>
     <string name="app_manager_details_electric_title">แบตเตอรี่</string>
+    <string name="app_manager_details_electric_title_new">เปิด/ปิด</string>
+    <string name="app_manager_details_electric_title_value">การใช้แบตเตอรี่ %s</string>
     <string name="app_manager_details_storage_title">ที่จัดเก็บข้อมูล</string>
     <string name="app_manager_details_title">ข้อมูลแอป</string>
     <string name="app_manager_details_traffic_title">การใช้งานข้อมูล</string>
+    <string name="app_manager_details_traffic_title_new">การเข้าถึงเครือข่าย</string>
+    <string name="app_manager_details_traffic_title_value">การใช้ข้อมูล %1$s</string>
     <string name="app_manager_disable">ไม่อนุญาต</string>
     <string name="app_manager_disable_dlg_title">ปิดใช้งานแอประบบหรือไม่?</string>
     <string name="app_manager_disable_text">ปิดใช้งาน</string>
@@ -2551,6 +2555,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="gs_sign_notification">เตือนความจำเพื่อเช็คอิน 8 PM ทุกวัน</string>
     <string name="gs_sign_notification_new">เตือนให้เช็คอินตอน %d PM ทุกวัน</string>
     <string name="gs_slip_gamebox_detail">ใช้สไลด์หรือเลื่อนจากขอบด้านบนของหน้าจอเพื่อทำให้แผงปุ่มลัดปรากฏขึ้น</string>
+    <string name="gt_function_close">ลดลง</string>
+    <string name="gt_function_more">เพิ่มเติม</string>
     <string name="gtb_after_acceleration">หลัง</string>
     <string name="gtb_auto_memory_clean">ล้างหน่วยความจำอัตโนมัติ</string>
     <string name="gtb_before_acceleration">ก่อน</string>
@@ -2802,6 +2808,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="lockpattern_tutorial_continue_label">ถัดไป</string>
     <string name="lockpattern_tutorial_continue_label_confirm">แตะ \"ตกลง\"</string>
     <string name="lockpattern_tutorial_continue_label_next">แตะ \"ถัดไป\"</string>
+    <string name="lockscreen_access_pattern_area">พื้นที่รูปแบบ</string>
     <string name="lockscreen_access_pattern_cell_added">เพิ่มตารางแล้ว</string>
     <string name="lockscreen_access_pattern_cleared">รูปแบบถูกล้าง</string>
     <string name="lockscreen_access_pattern_detected">วาดรูปแบบเสร็จสิ้น</string>
@@ -3538,6 +3545,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_battery_charging_error_title">ข้อผิดพลาดจากการชาร์จ</string>
     <string name="pc_battery_chart_loading">รอสักครู่…</string>
     <string name="pc_battery_date_year_month_format">MMM yyyy</string>
+    <string name="pc_battery_detail">รายละเอียดแบตเตอรี่</string>
     <string name="pc_battery_detail_curve_reference_now">ขณะนี้</string>
     <string name="pc_battery_detail_device_item_title">สถิติการใช้แบตเตอรี่</string>
     <string name="pc_battery_health_revise_title">ปรับเทียบข้อมูลสุขภาพของแบตเตอรี่</string>
@@ -3769,7 +3777,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_smart_charge_pogo_project_dialog_title">การป้องกันแบตเตอรี่</string>
     <string name="pc_smart_charge_pogo_project_notification_content">เพื่อยืดอายุการใช้งานแบตเตอรี่ แบตเตอรี่ของอุปกรณ์นี้จะไม่เกินระดับปัจจุบันขณะเชื่อมต่อกับรถยนต์</string>
     <string name="pc_smart_charge_pogo_project_notification_title">การป้องกันแบตเตอรี่</string>
-    <string name="pc_smart_charge_title">การชาร์จอัจฉริยะ</string>
+    <string name="pc_smart_charge_title">Intelligent charging</string>
     <string name="pc_smart_discharge_checkbox_summary">เมื่อใช้คุณสมบัติการนำทาง การชาร์จจะหยุดโดยอัตโนมัติตามเปอร์เซ็นต์ที่กำหนด โหมดประหยัดแบตเตอรี่จะถูกปิด</string>
     <string name="pc_smart_discharge_checkbox_title">ตัดการเชื่อมต่ออัตโนมัติการชาร์จ</string>
     <string name="pc_smart_discharge_drop_down_title">การตั้งค่าตัดการเชื่อมต่ออัตโนมัติ</string>
@@ -4896,6 +4904,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="section_title_clear_acc">ล้างแคช</string>
     <string name="section_title_security_defend">ความปลอดภัย</string>
     <string name="section_title_system">ความปลอดภัยของระบบ</string>
+    <string name="security_access">การเข้าถึงส่วนตัว</string>
+    <string name="security_access_contact_tip">แอปนี้รองรับการเข้าถึงแบบส่วนตัว เฉพาะรายชื่อติดต่อที่คุณเลือกเท่านั้นจึงจะสามารถเข้าถึงได้ เพื่อปกป้องความเป็นส่วนตัวของคุณ</string>
+    <string name="security_access_file_tip">แอปนี้รองรับการเข้าถึงแบบส่วนตัว เข้าถึงได้เฉพาะไฟล์ที่คุณเลือกเท่านั้น เพื่อปกป้องความเป็นส่วนตัวของคุณ</string>
+    <string name="security_access_media_tip">แอปนี้รองรับการเข้าถึงแบบส่วนตัว เข้าถึงได้เฉพาะรูปภาพและวิดีโอที่คุณเลือกเท่านั้น เพื่อปกป้องความเป็นส่วนตัวของคุณ</string>
     <string name="security_bottom_guide_to_pm_text">ปล่อยเพื่อเปิดคุณประโยชน์</string>
     <string name="security_center_slogan">ทำให้อุปกรณ์ของคุณปลอดภัยและรวดเร็ว</string>
     <string name="security_guide_bubble_text">เปิด</string>

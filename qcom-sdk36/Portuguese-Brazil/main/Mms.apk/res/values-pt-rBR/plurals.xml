@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 hora atrás</item>
-        <item quantity="other">1 hora atrás</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">%d hora atrás</item>
         <item quantity="other">%d hora atrás</item>
@@ -39,6 +35,26 @@
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="one">Excluir %1$s mensagem?</item>
         <item quantity="other">Excluir %1$s mensagens?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">Você pode receber outra mensagem em %ds</item>
+        <item quantity="other">Você pode receber outra mensagem em %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d mensagem restante)"</item>
+        <item quantity="other">" (%d mensagens restantes)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">Você pode enviar outra mensagem em %ds</item>
+        <item quantity="other">Você pode enviar outra mensagem em %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d mensagem</item>
+        <item quantity="other">%d mensagens</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d mensagem não foi sincronizada</item>
+        <item quantity="other">%d mensagens não foram sincronizadas</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Excluir %1$s conversa selecionada?</item>
@@ -76,10 +92,6 @@
         <item quantity="one">em 1 minuto</item>
         <item quantity="other">em %d minutos</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Agora mesmo</item>
-        <item quantity="other">Agora mesmo</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Marcado como %2$s por %1$d pessoa</item>
         <item quantity="other">Marcado como %2$s por %1$d pessoas</item>
@@ -92,13 +104,21 @@
         <item quantity="one">%d item selecionado</item>
         <item quantity="other">%d itens selecionados</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s mensagem | "</item>
         <item quantity="other">"%s mensagens | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 minuto atrás</item>
-        <item quantity="other">%d minutos atrás</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s mensagem de satélite</item>
+        <item quantity="other">%s mensagem de satélite</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Retirar (%d s)</item>
@@ -112,9 +132,9 @@
         <item quantity="one">%1$s resultado para \"%2$s\"</item>
         <item quantity="other">%1$s resultados para \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d segundo</item>
-        <item quantity="other">%d segundos</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s s</item>
+        <item quantity="other">%s s</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">%1$s mensagem enviada</item>
@@ -139,5 +159,13 @@
     <plurals name="to_count">
         <item quantity="one">%d destinatário</item>
         <item quantity="other">%d destinatários</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Frequência cardíaca: %1$d BPM (%2$s)</item>
+        <item quantity="other">Frequência cardíaca: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

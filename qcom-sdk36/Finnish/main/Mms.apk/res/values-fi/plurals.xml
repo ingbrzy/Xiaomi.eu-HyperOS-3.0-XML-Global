@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 tunti sitten</item>
-        <item quantity="other">1 tunti sitten</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">%d tunti sitten</item>
         <item quantity="other">%d tunti sitten</item>
@@ -39,6 +35,26 @@
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="one">Poistetaanko %1$s viesti?</item>
         <item quantity="other">Poistetaanko %1$s viestiä?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">Voit vastaanottaa toisen viestin %d s kuluttua</item>
+        <item quantity="other">Voit vastaanottaa toisen viestin %d s kuluttua</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d viesti jäljellä)"</item>
+        <item quantity="other">" (%d viestiä jäljellä)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">Voit lähettää toisen viestin %d s kuluttua</item>
+        <item quantity="other">Voit lähettää toisen viestin %d s kuluttua</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d viesti</item>
+        <item quantity="other">%d viestiä</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d viesti ei ole synkronoitu</item>
+        <item quantity="other">%d viestiä ei ole synkronoitu</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Poistetaanko %1$s valittu keskustelu?</item>
@@ -76,10 +92,6 @@
         <item quantity="one">1 minuutin kuluttua</item>
         <item quantity="other">%d minuutin kuluttua</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Juuri nyt</item>
-        <item quantity="other">Juuri nyt</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Merkitty %2$s%1$d ihmisen johdosta</item>
         <item quantity="other">Merkitty %2$s%1$d ihmisen johdosta</item>
@@ -92,13 +104,21 @@
         <item quantity="one">%d kohde valittu</item>
         <item quantity="other">%d kohdetta valittu</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d uusi ilmoitus</item>
+        <item quantity="other">%d uutta ilmoitusta</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s viesti | "</item>
         <item quantity="other">"%s viestiä | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 minuutti sitten</item>
-        <item quantity="other">%d minuuttia sitten</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s satelliittiviesti</item>
+        <item quantity="other">%s satelliittiviestiä</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Peruuta (%ds)</item>
@@ -112,9 +132,9 @@
         <item quantity="one">%1$s tulos haulle \"%2$s\"</item>
         <item quantity="other">%1$s tulosta haulle \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d sekunti</item>
-        <item quantity="other">%d sekuntia</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s sek</item>
+        <item quantity="other">%s sek</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Lähetettiin %1$s viesti</item>
@@ -139,5 +159,13 @@
     <plurals name="to_count">
         <item quantity="one">%d vastaanottaja</item>
         <item quantity="other">%d vastaanottajaa</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Syke: %1$d BPM (%2$s)</item>
+        <item quantity="other">Syke: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d %% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d %% (%2$s)</item>
     </plurals>
 </resources>

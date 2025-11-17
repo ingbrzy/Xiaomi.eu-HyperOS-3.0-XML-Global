@@ -20,6 +20,26 @@
         <item quantity="one">Delete %1$s message?</item>
         <item quantity="other">Delete %1$s messages?</item>
     </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">You can receive another message in %ds</item>
+        <item quantity="other">You can receive another message in %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d message remaining)"</item>
+        <item quantity="other">" (%d messages remaining)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">You can send another message in %ds</item>
+        <item quantity="other">You can send another message in %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d message</item>
+        <item quantity="other">%d messages</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">"%d message hasn't been synced"</item>
+        <item quantity="other">"%d messages haven't been synced"</item>
+    </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Delete %1$s selected conversation?</item>
         <item quantity="other">Delete %1$s selected conversations?</item>
@@ -48,6 +68,14 @@
         <item quantity="one">"%s message | "</item>
         <item quantity="other">"%s messages | "</item>
     </plurals>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s satellite message</item>
+        <item quantity="other">%s satellite messages</item>
+    </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Withdraw (%ds)</item>
         <item quantity="other">Withdraw (%ds)</item>
@@ -60,9 +88,9 @@
         <item quantity="one">%1$s result for \"%2$s\"</item>
         <item quantity="other">%1$s results for \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d second</item>
-        <item quantity="other">%d seconds</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s sec</item>
+        <item quantity="other">%s secs</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Sent %1$s message</item>
@@ -87,5 +115,13 @@
     <plurals name="to_count">
         <item quantity="one">%d recipient</item>
         <item quantity="other">%d recipients</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Heart rate: %1$d BPM (%2$s)</item>
+        <item quantity="other">Heart rate: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="a_hour_ago">
-        <item quantity="one">1 time siden</item>
-        <item quantity="other">1 time siden</item>
-    </plurals>
     <plurals name="abbrev_a_hour_ago">
         <item quantity="one">%d-time siden</item>
         <item quantity="other">%d-timer siden</item>
@@ -39,6 +35,26 @@
     <plurals name="batch_delete_confirm_dialog_message">
         <item quantity="one">Slett %1$s meldinger?</item>
         <item quantity="other">Delete %1$s messages?</item>
+    </plurals>
+    <plurals name="beidou_receive_remain_time">
+        <item quantity="one">You can receive another message in %ds</item>
+        <item quantity="other">You can receive another message in %ds</item>
+    </plurals>
+    <plurals name="beidou_remain_times">
+        <item quantity="one">" (%d message remaining)"</item>
+        <item quantity="other">" (%d messages remaining)"</item>
+    </plurals>
+    <plurals name="beidou_send_remain_time">
+        <item quantity="one">You can send another message in %ds</item>
+        <item quantity="other">You can send another message in %ds</item>
+    </plurals>
+    <plurals name="cloud_sms_count">
+        <item quantity="one">%d melding</item>
+        <item quantity="other">%d meldinger</item>
+    </plurals>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="one">%d melding har ikke blitt synkronisert</item>
+        <item quantity="other">%d meldinger har ikke blitt synkronisert</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="one">Slette %1$s valgt samtale?</item>
@@ -76,10 +92,6 @@
         <item quantity="one">om 1 minutt</item>
         <item quantity="other">om %d minutter</item>
     </plurals>
-    <plurals name="less_than_one_minute_ago">
-        <item quantity="one">Akkurat nå</item>
-        <item quantity="other">Akkurat nå</item>
-    </plurals>
     <plurals name="mark_number_dialog_subtitle">
         <item quantity="one">Markert som %2$s av %1$d person</item>
         <item quantity="other">Markert som %2$s av %1$d personer</item>
@@ -92,13 +104,21 @@
         <item quantity="one">%d element valgt</item>
         <item quantity="other">%d elementer valgt</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
     <plurals name="notification_multiple">
         <item quantity="one">"%s melding | "</item>
         <item quantity="other">"%s meldinger | "</item>
     </plurals>
-    <plurals name="num_minutes_ago">
-        <item quantity="one">1 minutt siden</item>
-        <item quantity="other">%d minutter siden</item>
+    <plurals name="notification_multiple_num">
+        <item quantity="one">%s</item>
+        <item quantity="other">%s</item>
+    </plurals>
+    <plurals name="notification_multiple_satellite">
+        <item quantity="one">%s satellittmelding</item>
+        <item quantity="other">%s satellittmeldinger</item>
     </plurals>
     <plurals name="privacy_state_revoked_revoked_1">
         <item quantity="one">Tilbakekall (%ds)</item>
@@ -112,9 +132,9 @@
         <item quantity="one">%1$s resultat for \"%2$s\"</item>
         <item quantity="other">%1$s resultater for \"%2$s\"</item>
     </plurals>
-    <plurals name="select_duration_time">
-        <item quantity="one">%d sekund</item>
-        <item quantity="other">%d sekunder</item>
+    <plurals name="select_dialog_item">
+        <item quantity="one">%s sek</item>
+        <item quantity="other">%s sek</item>
     </plurals>
     <plurals name="send_to_count">
         <item quantity="one">Sendt %1$s meldinger</item>
@@ -139,5 +159,13 @@
     <plurals name="to_count">
         <item quantity="one">%d mottaker</item>
         <item quantity="other">%d mottakere</item>
+    </plurals>
+    <plurals name="vital_signs_data_bpm">
+        <item quantity="one">Puls: %1$d BPM (%2$s)</item>
+        <item quantity="other">Puls: %1$d BPM (%2$s)</item>
+    </plurals>
+    <plurals name="vital_signs_data_spo2">
+        <item quantity="one">SpO₂: %1$d%1$ %2$ (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%1$ %2$ (%2$s)</item>
     </plurals>
 </resources>
