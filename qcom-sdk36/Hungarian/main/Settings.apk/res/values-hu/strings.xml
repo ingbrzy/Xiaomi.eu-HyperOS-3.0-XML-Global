@@ -421,6 +421,7 @@ Csak a tervekről szeretnék érdeklődni. Készen lesznek, mielőtt hozzákezd�
     <string name="accessibility_toggle_audio_description_preference_title">Audionarráció</string>
     <string name="accessibility_toggle_high_text_contrast_preference_summary">A szöveg színének módosítása feketére vagy fehérre, hogy maximálisan elkülönüljön a háttértől.</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title">Nagy kontrasztú szöveg</string>
+    <string name="accessibility_toggle_large_pointer_icon_title">Nagy egérmutató</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_summary">Fekete vagy fehér háttér hozzáadása a kontraszt növeléséhez</string>
     <string name="accessibility_toggle_maximize_text_contrast_preference_title">Szöveg körvonalazása</string>
     <string name="accessibility_toggle_primary_balance_left_label">Balra</string>
@@ -5581,8 +5582,8 @@ Nyissa meg a Xiaomi Cloudot, és állítsa vissza az elemeket onnan."</string>
     <string name="live_caption_summary">Automatikus feliratozás</string>
     <string name="live_caption_title">Élő feliratozás</string>
     <string name="live_notifications">Élő értesítések</string>
-    <string name="live_notifications_desc">A kitűzött értesítések alkalmazásokból származó élő információkat jelenítenek meg, és mindig az állapotsoron és a lezárási képernyőn jelennek meg</string>
-    <string name="live_notifications_switch">Élő információk megjelenítése</string>
+    <string name="live_notifications_desc">Kapcsolja be, ha élő értesítéseket szeretne rögzíteni az alkalmazások Értesítési felületén</string>
+    <string name="live_notifications_switch">Élő frissítések</string>
     <string name="load_error">Nem sikerült betölteni</string>
     <string name="load_esim_info">eSIM információ beolvasása…</string>
     <string name="load_esim_info_error">Nem sikerült betölteni az eSIM információkat. Várjon néhány percet, majd próbálja újra.</string>
@@ -6031,11 +6032,11 @@ Az engedély elutasításával a rendszer korlátozza majd annak időtartamát, 
     <string name="low_label">Alacsony</string>
     <string name="low_storage_summary">Kevés a tárhely. Felhasznált: %1$s – Szabad: %2$s</string>
     <string name="lyra_account_ap_summary">Engedélyezze a Xiaomi fiókjába bejelentkezett közelben lévő tabletek és számítógépek számára, hogy bekapcsolják a a készüléken a hotspotot, és csatlakozzanak hozzá</string>
-    <string name="lyra_account_ap_summary_v2">"Nearby tablets and computers signed in to the same account can directly use your phone's network"</string>
+    <string name="lyra_account_ap_summary_v2">Az azonos fiókba bejelentkezett, közeli tabletek és számítógépek közvetlenül használhatják a telefon hálózatát.</string>
     <string name="lyra_account_ap_title">Hálózati segítség</string>
     <string name="lyra_account_ap_title_v2">Megosztott kapcsolódás</string>
     <string name="lyra_auto_connect_summary">Automatikusan bekapcsolja a hotspotot és csatlakozik a közelen lévő, a Xiaomi fiókba bejelentkezett eszközökhöz, ha azok nem kapcsolódnak hálózathoz</string>
-    <string name="lyra_auto_connect_summary_v2">"Nearby tablets and computers signed in to the same account will automatically use your phone's network when no internet is available"</string>
+    <string name="lyra_auto_connect_summary_v2">Az azonos fiókhoz bejelentkezett, közeli tabletek és számítógépek automatikusan a telefon hálózatát használják, ha nincs internet</string>
     <string name="lyra_auto_connect_title">Hotspot automatikus bekapcsolása</string>
     <string name="lyra_auto_connect_title_v2">Automatikus megosztás</string>
     <string name="m3_loading_indicator_content_description">Betöltés</string>
@@ -7092,7 +7093,7 @@ Válassza ki a PC operációs rendszerét:"</string>
     <string name="natural_haptic">Természetes érintés</string>
     <string name="natural_haptic_summary">Az új haptikus visszajelzés-minták új dimenzióba helyeznek mindent, amit a képernyőn lát és megérint.</string>
     <string name="natural_scroll">Természetes görgetés</string>
-    <string name="natural_scroll_summary">A tartalom az ujjával együtt gördül</string>
+    <string name="natural_scroll_summary">Az oldal ugyanabban az irányban görgethető, mint a csúsztatás kézmozdulat</string>
     <string name="nature_color">Alapértelmezett</string>
     <string name="nav_tutorial_button_description">Kézmozdulatokkal való navigáció útmutatójának indítása.</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">Húzza fel a kijelző aljáról, majd húzza el balra vagy jobbra</string>
@@ -9208,6 +9209,7 @@ Alkalmazáskitűzés használata: \u0009
     <string name="search_pref_volume_wake_title">Felébresztés hangerőgombokkal;hangerőgombok</string>
     <string name="search_preferred_network_type_title">Preferált hálózattípus;Előnyben részesített hálózat;Hálózat típusa</string>
     <string name="search_privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="search_privacy_protection">Engedélyek</string>
     <string name="search_privacy_settings">Mentés és visszaállítás;Mentés;Visszaállítás;törlés</string>
     <string name="search_region_hint">Keresés régiója</string>
     <string name="search_result_feedback_text">Nem találta meg, amire szüksége van? Koppintson a jelentéshez.</string>
@@ -10097,6 +10099,9 @@ Az Előzmények megnyitásához koppintson duplán."</string>
     <string name="smart_home_value_none">Semmi</string>
     <string name="smart_home_value_unknown">Ismeretlen</string>
     <string name="smart_rotate_text_headline">Az arcfelismerés az előlapi kamerát használja az automatikus forgatás pontosságának javításához. A rendszer a képeket semmilyen esetben nem tárolja, és nem is küldi el őket a Google-nak.</string>
+    <string name="smart_storage_backup_title">Xiaomi okos tárhely</string>
+    <string name="smart_storage_summary">Készítsen biztonsági mentést eszközéről, vagy állítsa vissza az adatokat az okos tárhely segítségével</string>
+    <string name="smart_storage_title">Okos tárhely</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Okostok mód</string>
     <string name="smartcover_sensitive_summary">Zárolja vagy oldja fel a készüléket automatikusan okostokkal</string>
     <string name="smartcover_sensitive_title">Okostok</string>
