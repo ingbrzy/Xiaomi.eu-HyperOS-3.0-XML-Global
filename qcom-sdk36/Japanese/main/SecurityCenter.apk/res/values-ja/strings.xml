@@ -572,6 +572,9 @@
     <string name="applock_lock_mode_locked">デバイスロック時</string>
     <string name="applock_lock_mode_locked_or_exit">デバイスロック時またはアプリ終了後</string>
     <string name="applock_lock_mode_locked_or_exit_or_wait">デバイスロック時またはアプリ終了%d分後</string>
+    <string name="applock_lock_mode_locked_or_exit_or_wait_summary">アプリを離れる、終了する、または別のアプリに切り替えた後、%1$d分後にロックします</string>
+    <string name="applock_lock_mode_locked_or_exit_summary">アプリを離れる、終了する、または別のアプリに切り替えるときは常にロックする</string>
+    <string name="applock_lock_mode_locked_summary">デバイスがロックされるまで認証を要求しない</string>
     <string name="applock_login_and_add_account">サインインして追加</string>
     <string name="applock_mixtype_hidepwd_icon">パスワードを非表示</string>
     <string name="applock_mixtype_showpwd_icon">パスワードを表示</string>
@@ -1131,6 +1134,7 @@
     <string name="clear_instant_app_data">アプリを消去</string>
     <string name="clear_text_end_icon_content_description">テキストを消去</string>
     <string name="clearable_edittext_clear_description">消去</string>
+    <string name="click_page_to_recognition">タップして認識を続ける</string>
     <string name="click_to_charge_bill">チャージ</string>
     <string name="click_to_set_carrier">タップして設定</string>
     <string name="click_to_set_personalized_reminder">警告を設定</string>
@@ -2508,6 +2512,7 @@
     <string name="go_to">続行</string>
     <string name="go_to_mi_sim">Tap to use Mi SIM.</string>
     <string name="go_to_send">送信</string>
+    <string name="go_to_setting">設定</string>
     <string name="go_to_setting_fingerprint">設定</string>
     <string name="google_base_app_install_choice">アプリケーションが正常に動作するには、Googleサービスフレームワークが必要です。ダウンロードおよびインストールしますか？</string>
     <string name="google_base_app_installed">正常にインストールされました</string>
@@ -3225,6 +3230,10 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="nd_result_title_auxiliary">ネットワーク構成</string>
     <string name="nd_result_title_network">ネットワーク接続</string>
     <string name="nd_result_title_optimize">ネットワークの最適化</string>
+    <string name="need_input_face">顔データを追加</string>
+    <string name="need_input_face_subtitle">まず設定で顔データを追加してください。</string>
+    <string name="need_input_finger">指紋を追加</string>
+    <string name="need_input_finger_subtitle">まず設定で指紋を追加してください。</string>
     <string name="net_booster">ネットワークスピードブースト</string>
     <string name="net_booster_expire_notification">ネットワークスピードブーストのセッションはもうすぐ終了します</string>
     <string name="net_booster_overdue_notification">ネットワークスピードブーストのセッションはもうすぐ終了します</string>
@@ -3549,6 +3558,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="package_setted_error_notification_summary">タップすると、データ使用量の詳細が表示されます。</string>
     <string name="package_setted_error_notification_titile">データプランを設定できませんでした</string>
     <string name="packages_subtitle">同梱パッケージ</string>
+    <string name="page_lose_focus_cant_recognition">問題が発生したため、生体認証できませんでした</string>
     <string name="passwordIncorrect">ユーザー名かパスワードが間違っています</string>
     <string name="password_forget_pattern_confirm">了解</string>
     <string name="password_forget_pattern_message">セキュリティ上の理由により、ファクトリーデータリセットを実行しない限りパスワードをリセットすることはできません。リセットするにはタップしてください。</string>
@@ -4474,6 +4484,8 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="privacy_apps_go_to_use">開始</string>
     <string name="privacy_apps_manager_dialog_message">このアプリを隠すと、このアプリのアイコンはホーム画面に表示されません。今すぐこのアプリを隠しますか？</string>
     <string name="privacy_apps_next_stup">次へ</string>
+    <string name="privacy_apps_password_auth_summary">隠しアプリにアクセスする前にIDを認証する</string>
+    <string name="privacy_apps_password_auth_title">ID認証</string>
     <string name="privacy_apps_password_enable_summay">アプリロックでプライベートファイルを保護</string>
     <string name="privacy_apps_password_enable_title">アプリロック</string>
     <string name="privacy_apps_shield_message_summary">隠しアプリからの通知を表示しない</string>
@@ -4773,6 +4785,8 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="provision_skip_underline">スキップ</string>
     <string name="qq_lucky_warning">QQの赤い封筒</string>
     <string name="qucick_replay_instrument">選択したメッセンジャー（WhatsApp、WeChat、QQなど）の通知にクイック返信を使用する</string>
+    <string name="quick_mode_closed">オフ</string>
+    <string name="quick_mode_opened">オン</string>
     <string name="quick_optimize_checking">スキャン中</string>
     <string name="quick_optimize_no_fix_issue_subtitle">バッテリー駆動時間を延長できませんでした</string>
     <string name="quick_optimize_no_fix_issue_title">消費電力の高い項目を最適化できませんでした</string>
@@ -4934,6 +4948,9 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="search_keyword_apply">アプリ</string>
     <string name="search_keyword_applybar">アプリドック</string>
     <string name="search_keyword_call">通話</string>
+    <string name="search_keyword_firewall_1">データ接続を管理</string>
+    <string name="search_keyword_firewall_2">ネットワーク接続方法</string>
+    <string name="search_keyword_firewall_3">ネットワーク設定</string>
     <string name="search_keyword_sidebar">サイドバー</string>
     <string name="search_keyword_tool">ツール</string>
     <string name="search_keyword_tools">ツールボックス</string>
