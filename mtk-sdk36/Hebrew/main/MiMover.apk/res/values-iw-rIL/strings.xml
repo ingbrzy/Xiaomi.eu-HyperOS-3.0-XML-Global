@@ -15,6 +15,7 @@
     <string name="am">AM</string>
     <string name="antispam">רשימת החסומים</string>
     <string name="app_name">Mi Mover</string>
+    <string name="app_update_64_dialog_title_formatted">לעדכן לארכיטקטורת %1$d-ביט</string>
     <string name="apple_calendar">אירועי לוח השנה</string>
     <string name="apple_contacts">אנשי קשר</string>
     <string name="apple_image">תמונות</string>
@@ -27,6 +28,7 @@
     <string name="apple_video">סרטונים</string>
     <string name="appname_app_data_suffix">%1$s נתוני היישומים</string>
     <string name="apps_cannot_be_transfered_next_button">הבא</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">לא ניתן להעביר את יישומי %1$d-ביט אלה למכשיר של %2$d-ביט. ניתן להוריד אותם ישירות מ-GetApps אחרי ההעברה.</string>
     <string name="audio">שמע</string>
     <string name="audio_video_document">שמע, וידאו ומסמכים</string>
     <string name="back">הקודם</string>
@@ -103,9 +105,6 @@
     <string name="connect_wifi_tip">לא ניתן היה להתחבר לרשת. התחבר לרשת האלחוטית על מנת שתוכל לייבא פריטים מ-iCloud.</string>
     <string name="connecting">מתחבר…</string>
     <string name="connection_tips_activity_label">פתרון בעיות</string>
-    <string name="connection_tips_other_message">"%1$d. עליך לוודא כי מותקנת במכשיר הישן שלך הגרסה האחרונה של Mi Mover. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps או להשתמש בקישור זה: %2$s.
-%3$d. אם הנקודה החמה של המכשיר החדש לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות Wi-Fi ולבדוק האם ניתן לראות אותה שם. אם כן, אין להקיש עליה.
-%4$d. צריך לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
     <string name="connection_tips_other_message_global">אם חולף זמן רב ולא הצלחת למצוא את הנקודה החמה במכשיר הישן, חזור לדף ההתחלה במכשיר החדש, הקש על \"אני שולח\" ונסה שוב.</string>
     <string name="connection_tips_other_title">אם המכשיר הישן שלך הוא טלפון Android של חברה אחרת:</string>
     <string name="connection_tips_other_title_global">חבר את שני המכשירים:</string>
@@ -282,8 +281,6 @@
     <string name="host_boot_installation_message">בחר את הדף שאתה רואה במכשיר הישן שלך. אם אתה משתמש בגירסה הישנה של Mi Mover, אנו נגיד לך כיצד לעדכן אותה.</string>
     <string name="host_boot_installation_second_title">אשר את גרסת Mi Mover</string>
     <string name="host_boot_installation_step_one_messege">עבור להגדרות, כתוב \"Mi Mover\" בסרגל החיפוש, והקש על \"Mi Mover\" בתוצאות החיפוש.</string>
-    <string name="host_boot_installation_step_one_title">%d. יש לפתוח את Mi Mover מהמכשיר הישן שלך</string>
-    <string name="host_boot_installation_step_two_title">%d. יש לבחור בעמוד המופיע במכשיר הישן שלך</string>
     <string name="host_boot_installation_tips">לא הצלחת למצוא את Mi Mover? הקש כדי להוריד.</string>
     <string name="host_connect_timeout_tip">כבר זמן רב שלא ניתן להתחבר</string>
     <string name="host_dialog_install_button">התקן במכשיר אחר</string>
@@ -353,10 +350,10 @@
     <string name="lack_perm_msg">Mi Mover זקוקה להרשאות הבאות כדי לתפקד כהלכה: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">נדרשת הרשאה</string>
     <string name="launcher">"פריסת 'מסך הבית'"</string>
-    <string name="less_than_1_minute">פחות מדקה %d</string>
     <string name="loading_data">רק רגע…</string>
     <string name="location_permission_desc">כדי למצוא מכשירים בסביבתך</string>
     <string name="location_permission_request">כדי להתחבר למכשירים אחרים בסביבה הקרובה</string>
+    <string name="lockscreen_access">Pattern area</string>
     <string name="login">היכנס</string>
     <string name="login_failed">לא ניתן היה להיכנס. נסה שוב.</string>
     <string name="logining">מתחבר…</string>
@@ -398,6 +395,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">לבטל בחירת הכול</string>
     <string name="miuix_appcompat_action_mode_select_all">בחר הכל</string>
     <string name="miuix_appcompat_action_mode_title_empty">בחר פריטים</string>
+    <string name="miuix_appcompat_action_sheet_default_message">בחירה</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">עוד</string>
     <string name="miuix_appcompat_cancel_description">ביטול</string>
     <string name="miuix_appcompat_confirm_description">אישור</string>
@@ -630,6 +628,9 @@
     <string name="receiver_finish_not_transferred">לא הועבר</string>
     <string name="receiver_finish_title">הכל מוכן!</string>
     <string name="receiver_finish_transferred">הועברו</string>
+    <string name="recent_one_year_formatted">שנה %d אחרונה</string>
+    <string name="recent_seven_days_formatted">%d הימים האחרונים</string>
+    <string name="recent_thirty_days_formatted">%d הימים האחרונים</string>
     <string name="reconnect">התחבר שוב</string>
     <string name="recreate_soft_ap_tips">לחץ על הכפתור למעלה על מנת לנסות שוב.</string>
     <string name="refuse_accept">לא מסכימ/ה</string>

@@ -42,6 +42,7 @@
     <string name="am">ΠΜ</string>
     <string name="antispam">Λίστα αποκλεισμού</string>
     <string name="app_name">Μεταφορά Mi</string>
+    <string name="app_update_64_dialog_title_formatted">Ενημέρωση στην αρχιτεκτονική %1$d-bit</string>
     <string name="apple_calendar">Συμβάντα ημερολογίου</string>
     <string name="apple_contacts">Επαφές</string>
     <string name="apple_image">Φωτογραφίες</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">Βίντεο</string>
     <string name="appname_app_data_suffix">%1$s δεδομένα εφαρμογής</string>
     <string name="apps_cannot_be_transfered_next_button">Επόμενο</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Αυτές οι εφαρμογές %1$d-bit δεν μπορούν να μεταφερθούν σε μια συσκευή %2$d-bit. Μπορείτε να τις κατεβάσετε απευθείας από το GetApps μετά τη μεταφορά.</string>
     <string name="audio">Ήχος</string>
     <string name="audio_video_document">Ήχοι, βίντεο, και έγγραφα</string>
     <string name="back">Πίσω</string>
@@ -138,9 +140,6 @@
     <string name="connect_wifi_tip">Αδυναμία σύνδεσης στο δίκτυο. Συνδεθείτε σε Wi-Fi για εισαγωγή αντικειμένων από iCloud.</string>
     <string name="connecting">Γίνεται σύνδεση…</string>
     <string name="connection_tips_activity_label">Επίλυση προβλημάτων</string>
-    <string name="connection_tips_other_message">"%1$d. Βεβαιωθείτε ότι η πιο πρόσφατη έκδοση του Μεταφορά Mi είναι εγκατεστημένη στην παλιά σας συσκευή. Μπορείτε να κάνετε λήψη της πιο πρόσφατης έκδοσης του Μεταφορά Mir στο GetApps ή να χρησιμοποιήσετε αυτόν τον σύνδεσμο: %2$s.
-%3$d. Εάν το σημείο πρόσβασης της νέας συσκευής δεν εμφανίζεται στη Μεταφορά Mi, ανοίξτε τις ρυθμίσεις Wi-Fi και ελέγξτε αν μπορείτε να το δείτε εκεί. Εάν το δείτε, μην το πατήσετε.
-%4$d. Επιστρέψτε στη Μεταφορά Mi και πατήστε το όνομα του σημείου πρόσβασης."</string>
     <string name="connection_tips_other_message_global">Εάν δεν μπορείτε να βρείτε το σημείο πρόσβασης στην παλιά συσκευή για μεγάλο χρονικό διάστημα, επιστρέψτε στην αρχική σελίδα της νέας συσκευής, πατήστε \"Είμαι αποστολέας\" και δοκιμάστε ξανά.</string>
     <string name="connection_tips_other_title">Εάν η συσκευή σας είναι τηλέφωνο με Android τρίτου κατασκευαστή:</string>
     <string name="connection_tips_other_title_global">Συνδέστε τις δύο συσκευές:</string>
@@ -319,8 +318,6 @@
     <string name="host_boot_installation_message">Επιλέξτε τη σελίδα που βλέπετε στην παλαιά συσκευή. Εάν χρησιμοποιείτε την παλιά έκδοση της Μεταφοράς Mi, θα σας πούμε πως να την ενημερώσετε.</string>
     <string name="host_boot_installation_second_title">Επιβεβαίωση έκδοσης της Μεταφοράς Mi</string>
     <string name="host_boot_installation_step_one_messege">Μεταβείτε στις Ρυθμίσεις, εισαγάγετε \"Μεταφορά Mi\" και στα αποτελέσματα αναζήτησης πατήστε τη \"Μεταφορά Mi\".</string>
-    <string name="host_boot_installation_step_one_title">%d. Ανοίξτε τη Μεταφορά Mi στην παλιά σας συσκευή</string>
-    <string name="host_boot_installation_step_two_title">%d. Επιλέξτε τη σελίδα που βλέπετε στην παλιά σας συσκευή</string>
     <string name="host_boot_installation_tips">Αδυναμία εύρεσης της Μεταφορά Mi; Πατήστε για λήψη.</string>
     <string name="host_connect_timeout_tip">Αδυναμία σύνδεσης για μεγάλο χρονικό διάστημα</string>
     <string name="host_dialog_install_button">Εγκατάσταση σε άλλη συσκευή</string>
@@ -390,10 +387,10 @@
     <string name="lack_perm_msg">Η Μεταφορά Mi απαιτεί τις παρακάτω άδειες για να λειτουργεί κανονικά: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Απαιτούνται άδειες</string>
     <string name="launcher">Διάταξη αρχικής οθόνης</string>
-    <string name="less_than_1_minute">Απομένει λιγότερο από %d λεπτό</string>
     <string name="loading_data">Μια στιγμή…</string>
     <string name="location_permission_desc">Για τον εντοπισμό συσκευών σε κοντινή απόσταση</string>
     <string name="location_permission_request">Για σύνδεση σε άλλες κοντινές συσκευές</string>
+    <string name="lockscreen_access">Ζώνη μοτίβου</string>
     <string name="login">Σύνδεση</string>
     <string name="login_failed">Αδυναμία σύνδεσης. Προσπαθήστε ξανά.</string>
     <string name="logining">Γίνεται σύνδεση…</string>
@@ -435,6 +432,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">Αποεπιλογή όλων</string>
     <string name="miuix_appcompat_action_mode_select_all">Επιλογή όλων</string>
     <string name="miuix_appcompat_action_mode_title_empty">Επιλογή αντικειμένων</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Επιλογή</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Περισσότερα</string>
     <string name="miuix_appcompat_cancel_description">Ακύρωση</string>
     <string name="miuix_appcompat_confirm_description">Επιβεβαίωση</string>
@@ -578,7 +576,7 @@
     <string name="notification_trans_send_message">Αποστολή δεδομένων τώρα. Μην απενεργοποιείτε τη σύνδεση με Wi-Fi ή την εναλλαγή μεταξύ δικτύων.</string>
     <string name="notification_trans_send_title">Γίνεται αποστολή δεδομένων…</string>
     <string name="ok">OK</string>
-    <string name="old_app_name">Παλαιά έκδοση</string>
+    <string name="old_app_name">Παλιά έκδοση</string>
     <string name="old_task_cleared">Επιτυχής αφαίρεση παλαιών εργασιών</string>
     <string name="old_wait_link">Επιλέξτε αντικείμενα που θα μεταφερθούν στην παλαιά συσκευή</string>
     <string name="old_wait_link_extra">Αγγίξτε \"Μεταφορά\"</string>
@@ -669,6 +667,9 @@
     <string name="receiver_finish_not_transferred">Δεν έγινε μεταφορά</string>
     <string name="receiver_finish_title">Είστε έτοιμοι!</string>
     <string name="receiver_finish_transferred">Έγινε μεταφορά</string>
+    <string name="recent_one_year_formatted">Τελευταίο %d έτος</string>
+    <string name="recent_seven_days_formatted">Τελευταίες %d μέρες</string>
+    <string name="recent_thirty_days_formatted">Τελευταίες %d μέρες</string>
     <string name="reconnect">Συνδεθείτε ξανά</string>
     <string name="recreate_soft_ap_tips">Πατήστε το πιο κάτω κουμπί για να ξαναπροσπαθήσετε.</string>
     <string name="refuse_accept">Απόρριψη</string>

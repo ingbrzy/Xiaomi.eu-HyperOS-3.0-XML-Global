@@ -42,6 +42,7 @@
     <string name="am">午前</string>
     <string name="antispam">ブロックリスト</string>
     <string name="app_name">Mi Mover</string>
+    <string name="app_update_64_dialog_title_formatted">%1$dビットアーキテクチャにアップデート</string>
     <string name="apple_calendar">カレンダーのイベント</string>
     <string name="apple_contacts">連絡先</string>
     <string name="apple_image">写真</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">ビデオ</string>
     <string name="appname_app_data_suffix">%1$sのアプリデータ</string>
     <string name="apps_cannot_be_transfered_next_button">次へ</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">これらの%1$dビットアプリは%2$dビットデバイスに転送できません。転送後に GetApps から直接ダウンロードできます。</string>
     <string name="audio">オーディオ</string>
     <string name="audio_video_document">オーディオ、ビデオ、ドキュメント</string>
     <string name="back">戻る</string>
@@ -138,9 +140,6 @@ https://appleid.apple.com/#!&amp;page=signin にアクセスしてオフにし�
     <string name="connect_wifi_tip">ネットワークに接続できませんでした。iCloudからアイテムをインポートするにはWi-Fiに接続してください。</string>
     <string name="connecting">接続中…</string>
     <string name="connection_tips_activity_label">トラブルシューティング</string>
-    <string name="connection_tips_other_message">"%1$d. Mi Moverの最新バージョンが古いデバイスにインストールされていることを確認します。GetAppsまたはこちらのリンク (%2$s) からMi Moverの最新バージョンをダウンロードできます。
-%3$d. 新しいデバイスのホットスポットがMi Moverに表示されない場合は、Wi-Fi設定を開き、そこにホットスポットが表示されるかを確認します。表示された場合は、タップしないでください。
-%4$d. Mi Moverに戻り、ホットスポットの名前をタップします。"</string>
     <string name="connection_tips_other_message_global">古いデバイスでホットスポットが長時間見つからない場合は、新しいデバイスでスタートページに戻り、\"私は送信者です\"をタップしてからもう一度お試しください。</string>
     <string name="connection_tips_other_title">古いデバイスがサードパーティのAndroidスマートフォンの場合：</string>
     <string name="connection_tips_other_title_global">2つのデバイスを接続します。</string>
@@ -319,8 +318,6 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="host_boot_installation_message">古いデバイスに表示されているページを選択します。古いバージョンのMi Moverを使用している場合は、そのアップデート方法を説明します。</string>
     <string name="host_boot_installation_second_title">Mi Moverのバージョンを確認</string>
     <string name="host_boot_installation_step_one_messege">設定に移動し、検索バーに \"Mi Mover\" と入力します。検索結果にある \"Mi Mover\" をタップします。</string>
-    <string name="host_boot_installation_step_one_title">%d. 古いデバイスでMi Moverを開きます。</string>
-    <string name="host_boot_installation_step_two_title">%d. 古いデバイスに表示されているページを選択します。</string>
     <string name="host_boot_installation_tips">Mi Moverが見つかりませんでしたか？タップしてダウンロードします。</string>
     <string name="host_connect_timeout_tip">長時間接続できません</string>
     <string name="host_dialog_install_button">別のデバイスでインストール</string>
@@ -390,10 +387,10 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="lack_perm_msg">Mi Moverが正常に機能するには、次のアクセス許可が必要です：&lt;b>%s&lt;/b>。</string>
     <string name="lack_perm_title">アクセス許可が必要です</string>
     <string name="launcher">ホーム画面のレイアウト</string>
-    <string name="less_than_1_minute">%d分未満</string>
     <string name="loading_data">お待ちください…</string>
     <string name="location_permission_desc">付近のデバイスを検索するため</string>
     <string name="location_permission_request">付近にある他のデバイスに接続するため</string>
+    <string name="lockscreen_access">パターンエリア</string>
     <string name="login">サインイン</string>
     <string name="login_failed">サインインできませんでした。もう一度お試しください。</string>
     <string name="logining">サインイン中…</string>
@@ -435,6 +432,7 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="miuix_appcompat_action_mode_deselect_all">すべての選択を解除</string>
     <string name="miuix_appcompat_action_mode_select_all">すべて選択</string>
     <string name="miuix_appcompat_action_mode_title_empty">アイテムを選択</string>
+    <string name="miuix_appcompat_action_sheet_default_message">選択</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">その他</string>
     <string name="miuix_appcompat_cancel_description">キャンセル</string>
     <string name="miuix_appcompat_confirm_description">確認</string>
@@ -669,6 +667,9 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="receiver_finish_not_transferred">転送されませんでした</string>
     <string name="receiver_finish_title">これで準備完了です</string>
     <string name="receiver_finish_transferred">転送されました</string>
+    <string name="recent_one_year_formatted">過去%d年間</string>
+    <string name="recent_seven_days_formatted">過去%d日間</string>
+    <string name="recent_thirty_days_formatted">過去%d日間</string>
     <string name="reconnect">もう一度接続</string>
     <string name="recreate_soft_ap_tips">下のボタンをタップしてもう一度お試しください。</string>
     <string name="refuse_accept">同意しない</string>

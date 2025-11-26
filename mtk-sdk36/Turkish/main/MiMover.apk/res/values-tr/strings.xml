@@ -42,6 +42,7 @@
     <string name="am">ÖÖ</string>
     <string name="antispam">Engellenenler listesi</string>
     <string name="app_name">Mi Taşıyıcı</string>
+    <string name="app_update_64_dialog_title_formatted">%1$d-bit mimariye güncelle</string>
     <string name="apple_calendar">Takvim etkinlikleri</string>
     <string name="apple_contacts">Kişiler</string>
     <string name="apple_image">Fotoğraflar</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">Videolar</string>
     <string name="appname_app_data_suffix">%1$s uygulama verileri</string>
     <string name="apps_cannot_be_transfered_next_button">Sonraki</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">"Bu %1$d-bit uygulamalar %2$d-bit bir cihaza aktarılamaz. Aktarımdan sonra doğrudan GetApps'den indirebilirsiniz."</string>
     <string name="audio">Ses</string>
     <string name="audio_video_document">Ses, video ve dökümanlar</string>
     <string name="back">Geri</string>
@@ -138,9 +140,6 @@ Kapatmak için https://appleid.apple.com/#!&amp;page=signin adresini ziyaret edi
     <string name="connect_wifi_tip">"Ağa bağlanılamıyor. iCloud alanından içe aktarım yapmak için Wi-Fi'ye bağlanın."</string>
     <string name="connecting">Bağlanıyor…</string>
     <string name="connection_tips_activity_label">Sorun giderme</string>
-    <string name="connection_tips_other_message">"%1$d. Mi Taşıyıcı'nın son sürümünün eski cihazınızda yüklü olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü GetApps'ten veya bu linki kullanarak indirebilirsiniz: %2$s. 
-%3$d. Yeni cihazın bağlantı noktası Mi Taşıyıcı'da görünmüyorsa, Wi-Fi ayarlarını açın ve orada görünüp görünmediğini kontrol edin. Görünüyorsa, dokunmayın.
-%4$d. Mi Taşıyıcı'ya geri gidin ve nağlantı noktasının adına dokunun."</string>
     <string name="connection_tips_other_message_global">"Eski cihazınızda uzun bir süre bağlantı noktasını bulamazsanız yeni cihazınızda başlangıç sayfasına geri gidin ve ''Göndericiyim'' seçeneğine dokunun ve tekrar deneyin."</string>
     <string name="connection_tips_other_title">Eğer eski cihazınız üçüncü taraf bir Android telefon ise:</string>
     <string name="connection_tips_other_title_global">İki cihaza bağlan:</string>
@@ -219,7 +218,7 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="err_unknown">Bilinmeyen hata</string>
     <string name="err_user_abort">Kullanıcı tarafından iptal edildi.</string>
     <string name="err_version_too_old">Yedek dosyası çok eski.</string>
-    <string name="err_version_unsupported">Yedek sürümü desteklenmiyor.</string>
+    <string name="err_version_unsupported">Yedek sürüm desteklenmiyor.</string>
     <string name="error_permissions">"Bu uygulama, Takvim'e erişebilmek için gerekli olan izinlere sahip değil. Devam etmek için Ayarlar menüsüne gidin ve izinleri kontrol edin."</string>
     <string name="evening">Öğleden sonra</string>
     <string name="expand_button_title">Gelişmiş</string>
@@ -319,8 +318,6 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="host_boot_installation_message">"Eski cihazınızda gördüğünüz sayfayı seçin. Eğer Mi Taşıyıcı'nın eski sürümünü kullanıyorsanız, size nasıl güncelleme yapılacağını anlatacağız."</string>
     <string name="host_boot_installation_second_title">"Mi Taşıyıcı'nın sürümünü onaylayın"</string>
     <string name="host_boot_installation_step_one_messege">Ayarlar menüsüne gidin. Arama kısmına \"Mi Taşıyıcı\" yazın ve arama sonuçlarında \"Mi Taşıyıcı\"ya dokunun.</string>
-    <string name="host_boot_installation_step_one_title">"%d. Mi Taşıyıcı'yı eski cihazınızda açın"</string>
-    <string name="host_boot_installation_step_two_title">%d. Eski cihazınızda gördüğünüz sayfayı seçin</string>
     <string name="host_boot_installation_tips">Mi Taşıyıcı bulunamadı? İndirmek için dokunun.</string>
     <string name="host_connect_timeout_tip">Uzun süre bağlanamadı</string>
     <string name="host_dialog_install_button">Başka bir cihazda kur</string>
@@ -390,10 +387,10 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="lack_perm_msg">Mi Taşıyıcı normal çalışabilmek için belirtilen izinlere ihtiyaç duyar: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">İzin gerekli</string>
     <string name="launcher">Ana ekran düzeni</string>
-    <string name="less_than_1_minute">%d dakikadan daha az</string>
     <string name="loading_data">Yalnızca bir sn…</string>
     <string name="location_permission_desc">Yakınlardaki cihazları bulmak için</string>
     <string name="location_permission_request">Yakındaki diğer cihazlara bağlanmak için</string>
+    <string name="lockscreen_access">Desen bölgesi</string>
     <string name="login">Oturum açın</string>
     <string name="login_failed">Oturum açılamadı. Tekrar deneyin.</string>
     <string name="logining">Oturum açılıyor…</string>
@@ -435,6 +432,7 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="miuix_appcompat_action_mode_deselect_all">Tüm seçimleri kaldır</string>
     <string name="miuix_appcompat_action_mode_select_all">Tümünü seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Ögeleri seç</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Seç</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daha fazla</string>
     <string name="miuix_appcompat_cancel_description">İptal</string>
     <string name="miuix_appcompat_confirm_description">Onayla</string>
@@ -669,6 +667,9 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="receiver_finish_not_transferred">Aktarılmadı</string>
     <string name="receiver_finish_title">Artık hazırsınız!</string>
     <string name="receiver_finish_transferred">Aktarıldı</string>
+    <string name="recent_one_year_formatted">Son %d yıl</string>
+    <string name="recent_seven_days_formatted">Son %d gün</string>
+    <string name="recent_thirty_days_formatted">Son %d gün</string>
     <string name="reconnect">Yeniden bağlan</string>
     <string name="recreate_soft_ap_tips">Tekrar denemek için aşağıdaki tuşa dokunun.</string>
     <string name="refuse_accept">Reddet</string>
@@ -934,7 +935,7 @@ Mi Taşıyıcı'yı indirin ve yükleyin."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Aktarım işlemi kaydedilecek. Bir dahaki sefere iki cihazı bağladığınızda aktarım işlemine kaldığınız yerden devam edebileceksiniz.</string>
-    <string name="transfer_quit_alert_title">Dikkat</string>
+    <string name="transfer_quit_alert_title">Uyarı</string>
     <string name="transfer_snap_error">Aktarılamadı</string>
     <string name="transfer_snap_new_receiving">Alınıyor…</string>
     <string name="transfer_snap_new_restore_finish">Aktarım başarıyla tamamlandı</string>

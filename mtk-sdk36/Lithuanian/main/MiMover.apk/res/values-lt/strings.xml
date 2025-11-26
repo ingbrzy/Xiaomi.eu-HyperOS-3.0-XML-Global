@@ -42,6 +42,7 @@
     <string name="am">Priešpiet</string>
     <string name="antispam">Blokuojamų sąrašas</string>
     <string name="app_name">„Mi Mover“</string>
+    <string name="app_update_64_dialog_title_formatted">Atnaujinkite į %1$d bitų architektūrą</string>
     <string name="apple_calendar">Kalendoriaus įvykiai</string>
     <string name="apple_contacts">Kontaktai</string>
     <string name="apple_image">Nuotraukos</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">Vaizdo įrašai</string>
     <string name="appname_app_data_suffix">%1$s programėlės duomenys</string>
     <string name="apps_cannot_be_transfered_next_button">Kitas</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Šių %1$d bitų programų negalima perkelti į %2$d bitų įrenginį. Po perkėlimo galite jas tiesiogiai atsisiųsti iš „GetApps“.</string>
     <string name="audio">Garsai</string>
     <string name="audio_video_document">Garsai, vaizdo įrašai ir dokumentai</string>
     <string name="back">Grįžti</string>
@@ -138,9 +140,6 @@ Apsilankykite https://appleid.apple.com/#!&amp;page=signin, norėdami išjungti"
     <string name="connect_wifi_tip">Nepavyko prisijungti prie tinklo. Elementų importavimui iš „iCloud“ – prisijunkite prie „Wi-Fi“.</string>
     <string name="connecting">Jungiamasi…</string>
     <string name="connection_tips_activity_label">Trikčių diagnostika</string>
-    <string name="connection_tips_other_message">"%1$d. Įsitikinkite, kad jūsų senajame įrenginyje įdiegta naujausia „Mi Mover“ versija. Galite atsisiųsti naujausią „Mi Mover“ versiją iš „GetApps“ arba pasinaudoję šia nuoroda: %2$s.
-%3$d. Jei naujojo įrenginio aktyvioji sritis neatsiranda „Mi Mover“ programoje, atsidarykite „Wi-Fi“ parametrus ir patikrinkite, ar ji ten pateikta. Jei taip, nebakstelėkite ant jos.
-%4$d. Grįžkite į „Mi Mover“ ir bakstelėkite ant aktyviosios srities pavadinimo."</string>
     <string name="connection_tips_other_message_global">Jei senajame įrenginyje ilgą laiką nepavyksta aptikti aktyviosios srities, grįžkite į naujojo įrenginio pradžios puslapį, bakstelėkite „Aš esu siuntėjas“ ir pabandykite dar kartą.</string>
     <string name="connection_tips_other_title">Jei jūsų įrenginys yra trečiųjų šalių „Android“ telefonas:</string>
     <string name="connection_tips_other_title_global">Prijunkite abu įrenginius:</string>
@@ -319,8 +318,6 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="host_boot_installation_message">Pasirinkite puslapį, kurį norite matyti senajame įrenginyje. Jei naudojate seną „Mi Mover“ versiją, mes jums paaiškinsime, kaip ją atnaujinti.</string>
     <string name="host_boot_installation_second_title">Patvirtinkite „Mi Mover“ versiją</string>
     <string name="host_boot_installation_step_one_messege">Eikite į parametrus, paieškos juostoje įveskite „Mi Mover“ ir paieškos rezultatuose bakstelėkite „Mi Mover“.</string>
-    <string name="host_boot_installation_step_one_title">%d. Atidarykite „Mi Mover“ senajame įrenginyje</string>
-    <string name="host_boot_installation_step_two_title">%d. Pasirinkite senajame įrenginyje matomą puslapį</string>
     <string name="host_boot_installation_tips">Nepavyko rasti „Mi Mover“? Bakstelėkite, norėdami atsisiųsti.</string>
     <string name="host_connect_timeout_tip">Ilgą laiką nepavyksta prisijungti</string>
     <string name="host_dialog_install_button">Įdiegti kitame įrenginyje</string>
@@ -390,10 +387,10 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="lack_perm_msg">„Mi Mover“ funkcionalumui užtikrinti reikalingi šie leidimai: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Reikalingi leidimai</string>
     <string name="launcher">Pagrindinio ekrano išdėstymas</string>
-    <string name="less_than_1_minute">Liko mažiau nei %d minutė</string>
     <string name="loading_data">Sekundėlę…</string>
     <string name="location_permission_desc">Netoliese esančių įrenginių aptikimas</string>
     <string name="location_permission_request">Prisijungimas prie kitų įrenginių netoliese</string>
+    <string name="lockscreen_access">Pattern area</string>
     <string name="login">Prisijungti</string>
     <string name="login_failed">Nepavyko prisijungti. Bandykite dar kartą.</string>
     <string name="logining">Prisijungiama…</string>
@@ -435,6 +432,7 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="miuix_appcompat_action_mode_deselect_all">Atžymėti viską</string>
     <string name="miuix_appcompat_action_mode_select_all">Pasirinkti viską</string>
     <string name="miuix_appcompat_action_mode_title_empty">Pasirinkti elementus</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Pasirinkti</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daugiau</string>
     <string name="miuix_appcompat_cancel_description">Atšaukti</string>
     <string name="miuix_appcompat_confirm_description">Patvirtinti</string>
@@ -669,6 +667,9 @@ Atidarykite „WeChat“ ir eikite į „Me“ > „Settings“ > „General“ 
     <string name="receiver_finish_not_transferred">Nepersiųsta</string>
     <string name="receiver_finish_title">Viskas nustatyta!</string>
     <string name="receiver_finish_transferred">Persiųsta</string>
+    <string name="recent_one_year_formatted">Pastaruosius %d metus</string>
+    <string name="recent_seven_days_formatted">Pastarąsias %d d.</string>
+    <string name="recent_thirty_days_formatted">Pastarąsias %d d.</string>
     <string name="reconnect">Prisijungti dar kartą</string>
     <string name="recreate_soft_ap_tips">Bakstelėkite toliau esantį mygtuką, kad pabandytumėte.</string>
     <string name="refuse_accept">Nesutinku</string>

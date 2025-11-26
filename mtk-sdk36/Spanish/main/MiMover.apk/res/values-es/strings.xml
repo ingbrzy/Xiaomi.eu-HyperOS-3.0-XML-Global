@@ -42,6 +42,7 @@
     <string name="am">AM</string>
     <string name="antispam">Lista negra</string>
     <string name="app_name">Mi Mover</string>
+    <string name="app_update_64_dialog_title_formatted">Actualizar a la arquitectura de %1$d bits</string>
     <string name="apple_calendar">Eventos de calendario</string>
     <string name="apple_contacts">Contactos</string>
     <string name="apple_image">Fotos</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">Vídeos</string>
     <string name="appname_app_data_suffix">%1$s datos de la aplicación</string>
     <string name="apps_cannot_be_transfered_next_button">Siguiente</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Estas aplicaciones de %1$d bits no se pueden transferir a un dispositivo de %2$d bits. Puedes descargarlas directamente desde GetApps después de la transferencia.</string>
     <string name="audio">Audio</string>
     <string name="audio_video_document">Audio, vídeo y documentos</string>
     <string name="back">Atrás</string>
@@ -138,9 +140,6 @@ Visita https://appleid.apple.com/#!&amp;page=signin para desactiavr"</string>
     <string name="connect_wifi_tip">No se pudo conectar a la red. Conéctese a Wi-Fi para importar elementos desde iCloud.</string>
     <string name="connecting">Conectando…</string>
     <string name="connection_tips_activity_label">Resolución de problemas</string>
-    <string name="connection_tips_other_message">"%1$d. Asegúrate de que la última versión de Mi Mover esté instalada en tu dispositivo anterior. Puedes descargar la última versión de Mi Mover en GetApps o usar este enlace: %2$s.
-%3$d. Si el punto de acceso del nuevo dispositivo no aparece en Mi Mover, abre los ajustes del Wi-Fi y comprueba si puedes verlo allí. Si es así, no lo pulses.
-%4$d. Vuelve a Mi Mover y pulsa sobre el nombre del punto de acceso."</string>
     <string name="connection_tips_other_message_global">Si no puedes encontrar el punto de acceso en el dispositivo anterior durante mucho tiempo, vuelve a la página de inicio del nuevo dispositivo, pulsa \"Soy un remitente\" y vuelve a intentarlo.</string>
     <string name="connection_tips_other_title">Si tu dispositivo antiguo es un teléfono Android de terceros:</string>
     <string name="connection_tips_other_title_global">Conectar los dos dispositivos:</string>
@@ -319,8 +318,6 @@ Abre WeChat y ve a Yo > Ajustes > General > Copia de seguridad &amp; migrar chat
     <string name="host_boot_installation_message">Selecciona la página que ves en tu dispositivo antiguo. Si estás usando la versión antiguo de Mi Mover, te diremos como actualizarla.</string>
     <string name="host_boot_installation_second_title">Confirmar versión de Mi Mover</string>
     <string name="host_boot_installation_step_one_messege">Ve a Ajustes, introduce \"Mi Mover\" en la barra de búsqueda y pulsa \"Mi Mover\" en los resultados de búsqueda.</string>
-    <string name="host_boot_installation_step_one_title">%d. Abre Mi Mover en tu dispositivo antiguo</string>
-    <string name="host_boot_installation_step_two_title">%d. Selecciona la página que ves en tu dispositivo antiguo</string>
     <string name="host_boot_installation_tips">¿No se pudo encontrar Mi Mover? Pulsa para descargar.</string>
     <string name="host_connect_timeout_tip">No se puede conectar por un largo periodo de tiempo</string>
     <string name="host_dialog_install_button">Intalar en otro dispositivo</string>
@@ -390,10 +387,10 @@ Abre WeChat y ve a Yo > Ajustes > General > Copia de seguridad &amp; migrar chat
     <string name="lack_perm_msg">Mi Mover necesita los siguientes permisos para funcionar con normalidad: &lt;b>%s&lt;/b></string>
     <string name="lack_perm_title">Permisos requeridos</string>
     <string name="launcher">Diseño de Pantalla de inicio</string>
-    <string name="less_than_1_minute">Menos de %d minuto</string>
     <string name="loading_data">Un momento…</string>
     <string name="location_permission_desc">Para encontrar dispositivos cercanos</string>
     <string name="location_permission_request">Para conectarse a otros dispositivos cercanos</string>
+    <string name="lockscreen_access">Área del patrón</string>
     <string name="login">Iniciar sesión</string>
     <string name="login_failed">No se pudo iniciar sesión. Inténtalo de nuevo.</string>
     <string name="logining">Iniciando sesión…</string>
@@ -435,6 +432,7 @@ Abre WeChat y ve a Yo > Ajustes > General > Copia de seguridad &amp; migrar chat
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleccionar todo</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleccionar todo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Seleccionar elementos</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Seleccionar</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Más</string>
     <string name="miuix_appcompat_cancel_description">Cancelar</string>
     <string name="miuix_appcompat_confirm_description">Confirmar</string>
@@ -669,6 +667,9 @@ Abre WeChat y ve a Yo > Ajustes > General > Copia de seguridad &amp; migrar chat
     <string name="receiver_finish_not_transferred">No transferido</string>
     <string name="receiver_finish_title">¡Ya está todo listo!</string>
     <string name="receiver_finish_transferred">Transferido</string>
+    <string name="recent_one_year_formatted">Último %d año</string>
+    <string name="recent_seven_days_formatted">Últimos %d días</string>
+    <string name="recent_thirty_days_formatted">Últimos %d días</string>
     <string name="reconnect">Conectar de nuevo</string>
     <string name="recreate_soft_ap_tips">Pulsa el botón de más abajo para volver a intentarlo.</string>
     <string name="refuse_accept">No aceptar</string>

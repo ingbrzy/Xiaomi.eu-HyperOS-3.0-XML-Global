@@ -15,6 +15,7 @@
     <string name="am">GƏ</string>
     <string name="antispam">Əngəlli siyahısı</string>
     <string name="app_name">Mi Daşıyıcı</string>
+    <string name="app_update_64_dialog_title_formatted">%1$d bitlik memarlığa yenilə</string>
     <string name="apple_calendar">Təqvim tədbirləri</string>
     <string name="apple_contacts">Kontaktlar</string>
     <string name="apple_image">Şəkillər</string>
@@ -27,6 +28,7 @@
     <string name="apple_video">Videolar</string>
     <string name="appname_app_data_suffix">%1$s tətbiq məlumatları</string>
     <string name="apps_cannot_be_transfered_next_button">Növbəti</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Bu %1$d bitlik tətbiqlər %2$d bitlik cihaza köçürülə bilməz. Köçürmədən sonra onları birbaşa GetApps dan endirə bilərsiniz.</string>
     <string name="audio">Səs</string>
     <string name="audio_video_document">Səs, video və sənədlər</string>
     <string name="back">Geri</string>
@@ -103,9 +105,6 @@ Söndürmək üçün https://appleid.apple.com/#!&amp;page=signin ünvanını zi
     <string name="connect_wifi_tip">Şəbəkəyə qoşula bilmədi. iCloud hesabınızdan daxilə köçürmə etmək üçün Wi-Fi-a qoşulun.</string>
     <string name="connecting">Qoşulur…</string>
     <string name="connection_tips_activity_label">Problem həll etmə</string>
-    <string name="connection_tips_other_message">"%1$d. Mi Daşıyıcı-nın ən son versiyasının köhnə cihazınızda quraşdırıldığından əmin olun. Siz GetApps-da Mi Daşıyıcı-nın ən son versiyasını endirə və ya bu keçiddən istifadə edə bilərsiniz: %2$s.
-%3$d. Yeni cihazın giriş nöqtəsinə Mi Daşıyıcı-da görünmürsə, Wi-Fi tənzimləmələrini açın və onu orada görə biləcəyinizi yoxlayın. Əgər edirsinizsə, ona toxunmayın.
-%4$d. Mi Daşıyıcı-ya qayıdın və giriş nöqtəsinin adına toxunun."</string>
     <string name="connection_tips_other_message_global">Köhnə cihazda giriş nöqtəsini uzun müddət tapa bilmirsinizsə, yeni cihazdakı başlanğıc səhifəsinə qayıdın, \"Mən göndərənəm\" seçiminə toxunun və yenidən cəhd edin.</string>
     <string name="connection_tips_other_title">Köhnə cihazınız üçüncü tərəf bir Android telefonudursa:</string>
     <string name="connection_tips_other_title_global">İki cihazları qoş:</string>
@@ -282,8 +281,6 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="host_boot_installation_message">Köhnə cihazınızda gördüynüz səhifəni seçin. Mi Daşıyıcı-nın köhnə versiyasını istifadə edirsinizsə, sizə necə yeniləyəcəyinizi söyləyəcəyik.</string>
     <string name="host_boot_installation_second_title">Mi Daşıyıcı versiyasını təsdiqləyin</string>
     <string name="host_boot_installation_step_one_messege">Tənzimləmələrə gedin, axtarış çubuğuna \"Mi Daşıyıcı\" daxil edin və axtarış nəticələrində \"Mi Daçıyıcı\" seçiminə toxunun.</string>
-    <string name="host_boot_installation_step_one_title">%d. Köhnə cihazınızda Mi Daşıyıcı-yı açın</string>
-    <string name="host_boot_installation_step_two_title">%d. Köhnə cihazınızda gördüyünüz səhifəni seçin</string>
     <string name="host_boot_installation_tips">Mi Daşıyıcını tapa bilmədiniz? Endirmək üçün toxunun.</string>
     <string name="host_connect_timeout_tip">Uzun müddət üçün qoşula bilmir</string>
     <string name="host_dialog_install_button">Digər cihazda quraşdır</string>
@@ -353,10 +350,10 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="lack_perm_msg">Mi Daşıyıcı-nın normal işləməsi üçün aşağıdakı icazələrə ehtiyacı var: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">İcazələr tələb edilir</string>
     <string name="launcher">Əsas ekran düzülüşü</string>
-    <string name="less_than_1_minute">%d dəqiqədən az</string>
     <string name="loading_data">Bir saniyə…</string>
     <string name="location_permission_desc">Yaxınlıqdakı cihazları tapmaq üçün</string>
     <string name="location_permission_request">Yaxınlıqdakı digər cihazlara qoşulmaq üçün</string>
+    <string name="lockscreen_access">Pattern area</string>
     <string name="login">Daxil ol</string>
     <string name="login_failed">Daxil ola bilmədiniz. Yenidən cəhd edin.</string>
     <string name="logining">Daxil olunur…</string>
@@ -398,6 +395,7 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="miuix_appcompat_action_mode_deselect_all">Bütün seçimi ləğv et</string>
     <string name="miuix_appcompat_action_mode_select_all">Hamısını seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Elementləri seç</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Seç</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Daha çox</string>
     <string name="miuix_appcompat_cancel_description">Ləğv et</string>
     <string name="miuix_appcompat_confirm_description">Təsdiqlə</string>
@@ -630,6 +628,9 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="receiver_finish_not_transferred">Köçürülməyib</string>
     <string name="receiver_finish_title">Artıq hazırsınız!</string>
     <string name="receiver_finish_transferred">Köçürüldü</string>
+    <string name="recent_one_year_formatted">Son %d il</string>
+    <string name="recent_seven_days_formatted">Son %d gün</string>
+    <string name="recent_thirty_days_formatted">Son %d gün</string>
     <string name="reconnect">Yenidən qoşul</string>
     <string name="recreate_soft_ap_tips">Yenidən cəhd etmək üçün aşağıdakı düyməyə toxunun.</string>
     <string name="refuse_accept">Rədd et</string>
