@@ -42,6 +42,7 @@
     <string name="am">오전</string>
     <string name="antispam">차단 목록</string>
     <string name="app_name">Mi Mover</string>
+    <string name="app_update_64_dialog_title_formatted">%1$d 비트 아키텍처로 업데이트</string>
     <string name="apple_calendar">캘린더 일정</string>
     <string name="apple_contacts">연락처</string>
     <string name="apple_image">사진</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">동영상</string>
     <string name="appname_app_data_suffix">%1$s 앱 데이터</string>
     <string name="apps_cannot_be_transfered_next_button">다음</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">이러한 %1$d 비트 앱은 %2$d 비트 기기로 전송할 수 없습니다. 이러한 앱은 전송 후 GetApps에서 직접 다운로드하실 수 있습니다.</string>
     <string name="audio">오디오</string>
     <string name="audio_video_document">오디오, 동영상, 문서</string>
     <string name="back">뒤로</string>
@@ -138,9 +140,6 @@ https://appleid.apple.com/#!&amp;page=signin를 방문하여 끄세요."</string
     <string name="connect_wifi_tip">네트워크에 연결할 수 없습니다. Wi-Fi에 연결하여 iCloud의 항목을 가져오세요.</string>
     <string name="connecting">연결 중…</string>
     <string name="connection_tips_activity_label">오류진단</string>
-    <string name="connection_tips_other_message">"%1$d. 이전 기기에 최신 버전의 Mi Mover가 설치되어 있는지 확인해 주세요. GetApps 또는 %2$s 링크를 통해 최신 버전의 Mi Mover를 다운로드하실 수 있습니다.
-%3$d. Mi Mover에 새 기기의 핫스팟이 나타나지 않는 경우, Wi-Fi 설정을 여시고 핫스팟의 이름을 확인만 하시고 탭하지 마세요.
-%4$d. Mi Mover로 돌아와서 해당 이름의 핫스팟을 탭하세요."</string>
     <string name="connection_tips_other_message_global">이전 기기의 핫스팟을 장시간 찾을 수 없는 경우, 새 기기의 시작 페이지로 돌아가신 후, \"이전 기기\"를 탭하시고 다시 시도하세요.</string>
     <string name="connection_tips_other_title">이전 기기가 서드파티의 Android 휴대전화인 경우:</string>
     <string name="connection_tips_other_title_global">두 기기 연결:</string>
@@ -319,8 +318,6 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="host_boot_installation_message">이전 휴대전화에 표시되는 페이지를 선택하세요. 이전 버전의 Mi Mover를 사용 중이신 경우, 업데트 방법을 알려드릴 것입니다.</string>
     <string name="host_boot_installation_second_title">Mi Mover의 버전 확인</string>
     <string name="host_boot_installation_step_one_messege">설정으로 이동하여 검색 바에 \"Mi Mover\"를 입력하시고 검색 결과에서 \"Mi Mover\"를 탭하세요.</string>
-    <string name="host_boot_installation_step_one_title">%d. 이전 기기에서 Mi Mover를 여세요.</string>
-    <string name="host_boot_installation_step_two_title">%d. 이전 기기에서 표시되는 페이지를 선택하세요</string>
     <string name="host_boot_installation_tips">Mi Mover를 찾을 수 없으십니까? 탭하여 다운로드하세요.</string>
     <string name="host_connect_timeout_tip">장시간 연결할 수 없음</string>
     <string name="host_dialog_install_button">다른 기기에 설치</string>
@@ -390,10 +387,10 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="lack_perm_msg">Mi Mover는 정상 작동을 위해 다음의 권한이 요구됩니다: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">권한 요구됨</string>
     <string name="launcher">홈 화면 레이아웃</string>
-    <string name="less_than_1_minute">%d분 미만</string>
     <string name="loading_data">잠시만 기다려주세요…</string>
     <string name="location_permission_desc">주변의 기기를 검색하기 위해</string>
     <string name="location_permission_request">근처의 다른 기기에 연결하기 위해</string>
+    <string name="lockscreen_access">Pattern area</string>
     <string name="login">로그인</string>
     <string name="login_failed">로그인 실패, 다시 시도하세요.</string>
     <string name="logining">로그인 중…</string>
@@ -435,6 +432,7 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="miuix_appcompat_action_mode_deselect_all">전체 선택 해제</string>
     <string name="miuix_appcompat_action_mode_select_all">모두 선택</string>
     <string name="miuix_appcompat_action_mode_title_empty">항목 선택</string>
+    <string name="miuix_appcompat_action_sheet_default_message">선택</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">더 보기</string>
     <string name="miuix_appcompat_cancel_description">취소</string>
     <string name="miuix_appcompat_confirm_description">승인</string>
@@ -669,6 +667,9 @@ WeChat을 여시고 나 > 설정 > 채팅 > 채팅 기록 백업 및 마이그�
     <string name="receiver_finish_not_transferred">전송되지 않음</string>
     <string name="receiver_finish_title">전체 설정 완료!</string>
     <string name="receiver_finish_transferred">전송됨</string>
+    <string name="recent_one_year_formatted">지난 %d년</string>
+    <string name="recent_seven_days_formatted">지난 %d일</string>
+    <string name="recent_thirty_days_formatted">지난 %d일</string>
     <string name="reconnect">다시 연결</string>
     <string name="recreate_soft_ap_tips">아래의 버튼을 탭하여 다시 시도하세요.</string>
     <string name="refuse_accept">동의하지 않음</string>

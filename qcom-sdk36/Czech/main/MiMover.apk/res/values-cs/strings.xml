@@ -42,6 +42,7 @@
     <string name="am">dop.</string>
     <string name="antispam">Blokované</string>
     <string name="app_name">Přesun do nového zařízení (Mi Mover)</string>
+    <string name="app_update_64_dialog_title_formatted">Aktualizovat na %1$dbitovou architekturu</string>
     <string name="apple_calendar">Události v kalendáři</string>
     <string name="apple_contacts">Kontakty</string>
     <string name="apple_image">Fotky</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">Videa</string>
     <string name="appname_app_data_suffix">Data aplikace %1$s</string>
     <string name="apps_cannot_be_transfered_next_button">Další</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Tyto %1$dbitové aplikace nelze přenést na %2$dbitové zařízení. Můžete si je stáhnout přímo z GetApps po přenosu.</string>
     <string name="audio">Zvuk</string>
     <string name="audio_video_document">Zvuk, video a dokumenty</string>
     <string name="back">Zpět</string>
@@ -138,9 +140,6 @@ Pro vypnutí ověření přejděte na https://appleid.apple.com/#!&amp;page=sign
     <string name="connect_wifi_tip">Připojení k síti se nezdařilo. Pro přenos položek z iCloudu se připojte k síti Wi-Fi.</string>
     <string name="connecting">Připojování…</string>
     <string name="connection_tips_activity_label">Poradce při potížích</string>
-    <string name="connection_tips_other_message">"%1$d. Ujistěte se, že je na vašem starém zařízení nainstalována nejnovější verze aplikace Přesun do nového zařízení. Nejnovější verzi aplikaci můžete stáhnout v GetApps nebo pomocí tohoto odkazu: %2$s.
-%3$d. Pokud se hotspot nového zařízení v aplikaci Přesun do nového zařízení neobjeví, otevřete nastavení Wi-Fi a zkontrolujte, zda se je hotspot viditelný zde. Pokud ano, neklepejte na něj.
-%4$d. Vraťte se zpět do aplikace Přesun do nového zařízení a klepněte na název hotspotu."</string>
     <string name="connection_tips_other_message_global">Pokud již delší dobu nemůžete hotspot starého zařízení najít, vraťte se na úvodní stránku na novém zařízení, klepněte na \"Jsem odesílatel\" a zkuste to znovu.</string>
     <string name="connection_tips_other_title">Pokud vaše staré zařízení využívá Android jiné třetí strany:</string>
     <string name="connection_tips_other_title_global">Připojte obě zařízení:</string>
@@ -319,8 +318,6 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="host_boot_installation_message">Vyberte stránku zobrazenou na starém zařízení. Pokud využíváte starou verzi aplikace Přesun do nového zařízení, budete vyzvání k její aktualizaci.</string>
     <string name="host_boot_installation_second_title">Potvrďte verzi aplikace Přesun do nového zařízení</string>
     <string name="host_boot_installation_step_one_messege">Přejděte do Nastavení, zadejte \"Přesun do nového zařízení\" nebo \"Mi Mover\" do řádku pro vyhledávání. Poté klepněte na \"Přesun do nového zařízení\", který se zobrazí ve výsledcích hledání.</string>
-    <string name="host_boot_installation_step_one_title">%d. Otevřete Přesun do nového zařízení na vašem starém zařízení</string>
-    <string name="host_boot_installation_step_two_title">%d. Zvolte stránku, kterou vidíte na vašem starém zařízení</string>
     <string name="host_boot_installation_tips">Nemůžete Přesun do nového zařízení (Mi Mover) najít? Klepněte pro stažení.</string>
     <string name="host_connect_timeout_tip">Již delší dobu se nelze připojit</string>
     <string name="host_dialog_install_button">Nainstalovat na druhém zařízení</string>
@@ -390,10 +387,10 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="lack_perm_msg">Přesun do nového zařízení vyžaduje pro správné fungování následující oprávnění: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Vyžadována oprávnění</string>
     <string name="launcher">Rozložení Domovské obrazovky</string>
-    <string name="less_than_1_minute">Méně než %d minuta</string>
     <string name="loading_data">Ještě chvilku…</string>
     <string name="location_permission_desc">Pro nalezení zařízení v okolí</string>
     <string name="location_permission_request">Pro připojení k zařízením v okolí</string>
+    <string name="lockscreen_access">Pattern area</string>
     <string name="login">Přihlásit se</string>
     <string name="login_failed">Přihlášení se nezdařilo. Zkuste to znovu.</string>
     <string name="logining">Přihlašování…</string>
@@ -435,6 +432,7 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="miuix_appcompat_action_mode_deselect_all">Zrušit výběr</string>
     <string name="miuix_appcompat_action_mode_select_all">Vybrat vše</string>
     <string name="miuix_appcompat_action_mode_title_empty">Vybrat položky</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Vybrat</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Více</string>
     <string name="miuix_appcompat_cancel_description">Zrušit</string>
     <string name="miuix_appcompat_confirm_description">Potvrdit</string>
@@ -669,6 +667,9 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="receiver_finish_not_transferred">Nepřeneseno</string>
     <string name="receiver_finish_title">Vše je nastaveno!</string>
     <string name="receiver_finish_transferred">Přesunuto</string>
+    <string name="recent_one_year_formatted">Poslední %d rok</string>
+    <string name="recent_seven_days_formatted">Posledních %d dní</string>
+    <string name="recent_thirty_days_formatted">Posledních %d dní</string>
     <string name="reconnect">Připojit znovu</string>
     <string name="recreate_soft_ap_tips">Pro opakování klepněte na tlačítko níže.</string>
     <string name="refuse_accept">Nesouhlasím</string>

@@ -42,6 +42,7 @@
     <string name="am">AM</string>
     <string name="antispam">รายการบล็อก</string>
     <string name="app_name">Mi Mover</string>
+    <string name="app_update_64_dialog_title_formatted">อัปเดตเป็นสถาปัตยกรรม %1$d บิต</string>
     <string name="apple_calendar">ปฏิทินกิจกรรม</string>
     <string name="apple_contacts">รายชื่อผู้ติดต่อ</string>
     <string name="apple_image">รูปภาพ</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">วิดีโอ</string>
     <string name="appname_app_data_suffix">%1$s ข้อมูลแอป</string>
     <string name="apps_cannot_be_transfered_next_button">ต่อไป</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">แอป %1$d บิตเหล่านี้ไม่สามารถถ่ายโอนไปยังอุปกรณ์ %2$d บิตได้ คุณสามารถดาวน์โหลดได้โดยตรงจาก GetApps หลังจากการถ่ายโอน</string>
     <string name="audio">เสียง</string>
     <string name="audio_video_document">เสียง วีดีโอและเอกสาร</string>
     <string name="back">ย้อนกลับ</string>
@@ -138,9 +140,6 @@
     <string name="connect_wifi_tip">ไม่สามารถเชื่อมต่อกับเครือข่ายได้ กรุณาเชื่อมต่อ Wi-Fi เพื่อนำเข้ารายการจาก iCloud.</string>
     <string name="connecting">กำลังเชื่อมต่อ…</string>
     <string name="connection_tips_activity_label">การแก้ไขปัญหา</string>
-    <string name="connection_tips_other_message">"%1$d ตรวจสอบให้แน่ใจว่าได้ติดตั้ง Mi Mover เวอร์ชันล่าสุดบนอุปกรณ์เครื่องเก่าของคุณแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดใน GetApps หรือใช้ลิงก์นี้: %2$s
-%3$d หากฮอตสปอตของอุปกรณ์ใหม่ไม่ปรากฏใน Mi Mover ให้เปิดการตั้งค่า Wi-Fi และตรวจสอบว่าคุณเห็นใน Mi Mover หรือไม่ หากเห็น อย่าแตะมัน
-%4$d กลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
     <string name="connection_tips_other_message_global">หากคุณไม่พบฮอตสปอตในอุปกรณ์เครื่องเก่าเป็นเวลานานให้กลับไปที่หน้าเริ่มต้นในอุปกรณ์ใหม่แตะ \"ฉันเป็นผู้ส่ง\" แล้วลองอีกครั้ง</string>
     <string name="connection_tips_other_title">หากอุปกรณ์เก่าของคุณเป็นโทรศัพท์ Android ของบุคคลที่สาม:</string>
     <string name="connection_tips_other_title_global">เชื่อมต่ออุปกรณ์ทั้งสอง:</string>
@@ -319,8 +318,6 @@
     <string name="host_boot_installation_message">เลือกหน้าที่คุณเห็นบนอุปกรณ์เครื่องเก่า หากคุณใช้ Mi Mover เวอร์ชันเก่า เราจะแจ้งให้คุณทราบถึงวิธีอัปเดต</string>
     <string name="host_boot_installation_second_title">ยืนยันเวอร์ชันของ Mi Mover</string>
     <string name="host_boot_installation_step_one_messege">ไปที่การตั้งค่าป้อน \"Mi Mover\" ในแถบค้นหาและแตะ \"Mi Mover\" ในผลการค้นหา</string>
-    <string name="host_boot_installation_step_one_title">%d เปิด Mi Mover บนอุปกรณ์เครื่องเก่าของคุณ</string>
-    <string name="host_boot_installation_step_two_title">%d เลือกหน้าที่คุณเห็นบนอุปกรณ์เครื่องเก่าของคุณ</string>
     <string name="host_boot_installation_tips">ไม่พบ Mi Mover? แตะเพื่อดาวน์โหลด</string>
     <string name="host_connect_timeout_tip">ไม่สามารถเชื่อมต่อได้เป็นเวลานาน</string>
     <string name="host_dialog_install_button">ติดตั้งบนอุปกรณ์อื่น</string>
@@ -390,10 +387,10 @@
     <string name="lack_perm_msg">Mi Mover จำเป็นต้องได้รับการอนุญาตต่อไปนี้เพื่อให้ทำงานตามปกติ: &lt;b>%s&lt;/b></string>
     <string name="lack_perm_title">ต้องการคำร้องขออนุญาต</string>
     <string name="launcher">รูปแบบหน้าจอหลัก</string>
-    <string name="less_than_1_minute">เหลือน้อยกว่า %d นาที</string>
     <string name="loading_data">รอสักครู่…</string>
     <string name="location_permission_desc">สำหรับการค้นหาอุปกรณ์ใกล้เคียง</string>
     <string name="location_permission_request">สำหรับเชื่อมต่อกับอุปกรณ์อื่นๆ ในบริเวณใกล้เคียง</string>
+    <string name="lockscreen_access">พื้นที่รูปแบบ</string>
     <string name="login">ลงชื่อเข้าใช้</string>
     <string name="login_failed">ลงชื่อเข้าใช้ไม่ได้ ลองอีกครั้ง</string>
     <string name="logining">กำลังเข้าสู่ระบบ…</string>
@@ -435,6 +432,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_title_empty">เลือกรายการ</string>
+    <string name="miuix_appcompat_action_sheet_default_message">เลือก</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">เพิ่มเติม</string>
     <string name="miuix_appcompat_cancel_description">ยกเลิก </string>
     <string name="miuix_appcompat_confirm_description">ยืนยัน</string>
@@ -669,6 +667,9 @@
     <string name="receiver_finish_not_transferred">ไม่ได้โอน</string>
     <string name="receiver_finish_title">พร้อมใช้งานแล้ว!</string>
     <string name="receiver_finish_transferred">ถ่ายโอนแล้ว</string>
+    <string name="recent_one_year_formatted">%d ปีที่ผ่านมา</string>
+    <string name="recent_seven_days_formatted">%d วันที่ผ่านมา</string>
+    <string name="recent_thirty_days_formatted">%d วันที่ผ่านมา</string>
     <string name="reconnect">เชื่อมต่ออีกครั้ง</string>
     <string name="recreate_soft_ap_tips">แตะปุ่มด้านล่างเพื่อลองอีกครั้ง</string>
     <string name="refuse_accept">ไม่เห็นด้วย</string>

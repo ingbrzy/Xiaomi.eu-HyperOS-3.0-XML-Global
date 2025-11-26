@@ -42,6 +42,7 @@
     <string name="am">AM</string>
     <string name="antispam">Чорны спіс</string>
     <string name="app_name">Mi Mover</string>
+    <string name="app_update_64_dialog_title_formatted">Абнаўленне да %1$d-бітнай архітэктуры</string>
     <string name="apple_calendar">Падзеі календара</string>
     <string name="apple_contacts">Кантакты</string>
     <string name="apple_image">Фота</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">Відэа</string>
     <string name="appname_app_data_suffix">Дадзеныя праграмы %1$s</string>
     <string name="apps_cannot_be_transfered_next_button">Далей</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Гэтыя %1$d-бітныя праграмы нельга перанесці на %2$d-бітную прыладу. Вы можаце спампаваць іх непасрэдна з GetApps пасля перадачы.</string>
     <string name="audio">Аўдыё</string>
     <string name="audio_video_document">Аўдыя, відэа і дакументы</string>
     <string name="back">Назад</string>
@@ -138,9 +140,6 @@
     <string name="connect_wifi_tip">"Не атрымалася падлучыцца да сеткі. Падлучыцеся да Wi-Fi, каб імпартаваць аб'екты з iCloud."</string>
     <string name="connecting">Злучэнне…</string>
     <string name="connection_tips_activity_label">Ліквідацыя непаладак</string>
-    <string name="connection_tips_other_message">"%1$d. Пераканайцеся, што на старой прыладзе ўстаноўлена апошняя версія Mi Mover. Вы можаце спампаваць апошнюю версію гэтай праграмы ў GetApps або перайшоўшы па спасылцы %2$s.
-%3$d. Калі пункт доступу не адлюстроўваецца на новай прыладзе, праверце, ці адлюстроўваецца ён у наладах Wi-Fi. Калі ён адлюстроўваецца ў наладах, не націскайце на яго.
-%4$d. Вярніцеся ў Mi Mover і націсніце на імя пункту доступу."</string>
     <string name="connection_tips_other_message_global">Калі вы доўга не можаце знайсці кропку доступу на старой прыладзе, вярніцеся на стартавую старонку на новай прыладзе, націсніце «Я адпраўнік» і паспрабуйце ізноў.</string>
     <string name="connection_tips_other_title">Калі ваша старая прылад — гэта тэлефон Android трэцяга боку:</string>
     <string name="connection_tips_other_title_global">Злучыце два прылады:</string>
@@ -319,8 +318,6 @@
     <string name="host_boot_installation_message">Выберыце старонку, якую вы бачыце на старай прыладзе. Калі вы карыстаецеся старой версіяй Мі Mover, мы раскажам вам, як абнавіць яе.</string>
     <string name="host_boot_installation_second_title">Пацвердзіце версію Mi Mover</string>
     <string name="host_boot_installation_step_one_messege">Перайдзіце ў Налады, увядзіце «Mi Mover» у радку пошуку, а потым націсніце на «Mi Mover» у выніках пошуку.</string>
-    <string name="host_boot_installation_step_one_title">%d. Адкрыйце Mi Mover на старой прыладзе.</string>
-    <string name="host_boot_installation_step_two_title">%d. Выберыце старонку, якую вы бачыце на сваёй старой прыладзе.</string>
     <string name="host_boot_installation_tips">Не атрымалася знайсці Mi Mover? Націсніце для запампоўкі.</string>
     <string name="host_connect_timeout_tip">Не ўдаецца падключыцца на працягу доўгага часу</string>
     <string name="host_dialog_install_button">Усталюйце на іншай прыладзе</string>
@@ -390,10 +387,10 @@
     <string name="lack_perm_msg">Для нармальнай працы Mi Mover неабходныя наступныя дазволы: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Патрабуюцца дазволы</string>
     <string name="launcher">Выгляд Галоўнага экрана</string>
-    <string name="less_than_1_minute">Засталося менш за %d хвіліну</string>
     <string name="loading_data">Хвілінку…</string>
     <string name="location_permission_desc">Для пошуку прылад паблізу</string>
     <string name="location_permission_request">Для падлучэння да іншых прылад паблізу</string>
+    <string name="lockscreen_access">Вобласць уводу ключа</string>
     <string name="login">Увайсцi</string>
     <string name="login_failed">Не атрымалася ўвайсці. Паспрабуйце яшчэ раз.</string>
     <string name="logining">Уваход…</string>
@@ -435,6 +432,7 @@
     <string name="miuix_appcompat_action_mode_deselect_all">Зняць выбар з усіх</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбраць усё</string>
     <string name="miuix_appcompat_action_mode_title_empty">"Выбраць аб'екты"</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Выбраць</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Больш</string>
     <string name="miuix_appcompat_cancel_description">Скасаваць</string>
     <string name="miuix_appcompat_confirm_description">Пацвердзіць</string>
@@ -669,6 +667,9 @@
     <string name="receiver_finish_not_transferred">Не перададзена</string>
     <string name="receiver_finish_title">Наладжванне скончанае!</string>
     <string name="receiver_finish_transferred">Перададзена</string>
+    <string name="recent_one_year_formatted">Апошні %d год</string>
+    <string name="recent_seven_days_formatted">Апошнія %d дзён</string>
+    <string name="recent_thirty_days_formatted">Апошнія %d дзён</string>
     <string name="reconnect">Падлучыцца яшчэ раз</string>
     <string name="recreate_soft_ap_tips">Націсніце кнопку ніжэй для паўтору.</string>
     <string name="refuse_accept">Не згаджацца</string>

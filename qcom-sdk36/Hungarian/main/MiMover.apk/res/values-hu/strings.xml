@@ -42,6 +42,7 @@
     <string name="am">DE</string>
     <string name="antispam">Tiltólista</string>
     <string name="app_name">Mi Átköltözés</string>
+    <string name="app_update_64_dialog_title_formatted">Frissítés %1$d bites architektúrára</string>
     <string name="apple_calendar">Naptári események</string>
     <string name="apple_contacts">Névjegyek</string>
     <string name="apple_image">Fényképek</string>
@@ -54,6 +55,7 @@
     <string name="apple_video">Videoók</string>
     <string name="appname_app_data_suffix">%1$s alkalmazásadat</string>
     <string name="apps_cannot_be_transfered_next_button">Következő</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Ezek a(z) %1$d bites alkalmazások nem vihetők át egy %2$d bites készülékre. Az átvitel után közvetlenül a GetApps alkalmazásból töltheti le őket.</string>
     <string name="audio">Hang</string>
     <string name="audio_video_document">Hangok, videók és dokumentumok</string>
     <string name="back">Vissza</string>
@@ -138,9 +140,6 @@ Látogasson el ide https://appleid.apple.com/#!&amp;page=signin a kikapcsolásho
     <string name="connect_wifi_tip">Nem sikerült csatlakozni a hálózathoz. Csatlakozzon Wi-Fi-hez az iCloud elemek importálásához.</string>
     <string name="connecting">Csatlakozás…</string>
     <string name="connection_tips_activity_label">Hibaelhárítás</string>
-    <string name="connection_tips_other_message">"%1$d. Ellenőrizze, hogy a Mi Átköltözés legújabb verziója van-e telepítve a régi készülékére. A Mi Átköltözés legújabb verzióját letöltheti a GetApps oldalról, vagy használhatja ezt a linket: %2$s.
-%3$d. Ha az új készülék hotspotja nem jelenik meg a Mi Átköltözésben, nyissa meg a Wi-Fi beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, ne koppintson rá.
-%4$d. Lépjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére."</string>
     <string name="connection_tips_other_message_global">Ha huzamosabb ideig nem találja a hotspotot a régi készüléken, lépjen vissza az új készüléken a kezdőoldalra és koppintson a \"Küldő vagyok\" elemre, majd próbálja újra.</string>
     <string name="connection_tips_other_title">Ha régi készüléke egy külsős Android-telefon:</string>
     <string name="connection_tips_other_title_global">A két készülék csatlakoztatása:</string>
@@ -319,8 +318,6 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="host_boot_installation_message">Válassza ki az oldalt, amelyet régi készülékén lát. Ha a Mi Fájlátvitel régebbi verzióját használja, elmondjuk Önnek, hogyan frissítheti.</string>
     <string name="host_boot_installation_second_title">A Mi Mover verzió megerősítése</string>
     <string name="host_boot_installation_step_one_messege">Menjen a Beállítások menübe és írja be a „Mi Fájlátvitel” szavakat a keresősávba, majd koppintson a „Mi Fájlátvitel” elemre a találatok között.</string>
-    <string name="host_boot_installation_step_one_title">%d. Nyissa meg a Mi Átköltözést a régi készülékén</string>
-    <string name="host_boot_installation_step_two_title">%d. Válassza ki azt az oldalt, amelyet a régi készülékén lát</string>
     <string name="host_boot_installation_tips">Nem találja a Mi Fájlátvitel alkalmazást? Koppintson a letöltéshez.</string>
     <string name="host_connect_timeout_tip">Hosszú ideje nem lehet csatlakozni</string>
     <string name="host_dialog_install_button">Telepítés egy másik eszközre</string>
@@ -390,10 +387,10 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="lack_perm_msg">A Mi Fájlátvitel normális működéséhez a következő engedélyekre van szükség: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Engedélyek szükségesek</string>
     <string name="launcher">Kezdőképernyő-elrendezés</string>
-    <string name="less_than_1_minute">Kevesebb mint %d perc</string>
     <string name="loading_data">Egy pillanat…</string>
     <string name="location_permission_desc">A közeli készülékek megtalálásához</string>
     <string name="location_permission_request">A közeli eszközökhöz való kapcsolódáshoz</string>
+    <string name="lockscreen_access">Pattern area</string>
     <string name="login">Bejelentkezés</string>
     <string name="login_failed">A bejelentkezés sikertelen. Próbálja újra.</string>
     <string name="logining">Bejelentkezés…</string>
@@ -435,6 +432,7 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
+    <string name="miuix_appcompat_action_sheet_default_message">Kiválasztás</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Továbbiak</string>
     <string name="miuix_appcompat_cancel_description">Mégse</string>
     <string name="miuix_appcompat_confirm_description">Megerősítés</string>
@@ -669,6 +667,9 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="receiver_finish_not_transferred">Átvitel nincs kész</string>
     <string name="receiver_finish_title">Készen is van!</string>
     <string name="receiver_finish_transferred">Átvitel befejezve</string>
+    <string name="recent_one_year_formatted">Elmúlt %d év</string>
+    <string name="recent_seven_days_formatted">Elmúlt %d nap</string>
+    <string name="recent_thirty_days_formatted">Elmúlt %d nap</string>
     <string name="reconnect">Csatlakoztassa újra</string>
     <string name="recreate_soft_ap_tips">Érintse meg az alábbi gombot az újrapróbáláshoz.</string>
     <string name="refuse_accept">Elutasítom</string>
