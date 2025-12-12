@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Nettoyer</string>
     <string name="close">Fermer</string>
     <string name="close_cellular_summary">Votre appareil utilise maintenant des données mobiles en raison de restrictions système. Désactivez les données mobiles et reconnectez-vous au nouvel appareil.</string>
+    <string name="close_cellular_summary_pad">Votre appareil utilise maintenant des données mobiles en raison de restrictions système. Désactivez les données mobiles et reconnectez-vous au nouvel appareil.</string>
+    <string name="close_cellular_summary_phone">Votre appareil utilise maintenant des données mobiles en raison de restrictions système. Désactivez les données mobiles et reconnectez-vous au nouvel appareil.</string>
     <string name="close_cellular_title">Impossible de se connecter</string>
     <string name="close_twice_auth_btn">"Désactiver l'authentification à 2 facteurs"</string>
     <string name="close_twice_auth_note">"Remarque:
@@ -301,6 +303,8 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="guest_connect_dialog_ensure_text">Se connecter</string>
     <string name="guest_connect_dialog_fail_message">Impossible de se connecter. Réessayez.</string>
     <string name="guest_hint_connect_new_device">Sélectionnez un nouvel appareil</string>
+    <string name="guest_hint_connect_new_device_pad">Sélectionnez un nouvel appareil</string>
+    <string name="guest_hint_connect_new_device_phone">Sélectionnez un nouvel appareil</string>
     <string name="guest_install_app_hint_ensure">Télécharger</string>
     <string name="guest_install_app_hint_summary">"La nouvelle version de Mi Mover n'est pas compatible avec celle installée sur cet appareil. Téléchargez et installez la nouvelle version."</string>
     <string name="guest_install_app_hint_title">Téléchargez la nouvelle version de Mi Mover</string>
@@ -374,6 +378,8 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
 %2$d. Rapprochez les deux appareils."</string>
     <string name="install_app_new_title">"Scannez ce code QR pour l'installer sur le nouvel appareil"</string>
     <string name="install_app_old_title">"Scannez ce code QR pour l'installer sur l'ancien appareil"</string>
+    <string name="install_app_old_title_pad">"Scannez ce code QR pour installer Mi Mover sur l'ancien appareil"</string>
+    <string name="install_app_old_title_phone">"Scannez ce code QR pour installer Mi Mover sur l'ancien appareil"</string>
     <string name="install_app_to_another_phone_content">Installez Mi Mover sur votre nouveau téléphone</string>
     <string name="install_app_to_another_phone_content_global">Installer Mi Mover</string>
     <string name="install_button">Installer</string>
@@ -512,24 +518,44 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="new_app_name">Nouvelle version</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">"Il n'y a pas besoin d'entrer de mot de passe dans la nouvelle version de Mi Mover. Ouvrez simplement Mi Mover sur votre ancien appareil, appuyez sur \"Je suis l'expéditeur\", et entrez le nom du point de connexion pour vous connecter."</string>
+    <string name="new_trans_intro_desc_2_pad">"Il n'y a pas besoin d'entrer de mot de passe du point d'accès dans la nouvelle version de Mi Mover. Ouvrez simplement Mi Mover sur votre ancien appareil, appuyez sur \"Je suis l'expéditeur\", et entrez le nom du point de connexion pour vous connecter."</string>
+    <string name="new_trans_intro_desc_2_phone">"Il n'y a pas besoin d'entrer de mot de passe du point d'accès dans la nouvelle version de Mi Mover. Ouvrez simplement Mi Mover sur votre ancien appareil, appuyez sur \"Je suis l'expéditeur\", et entrez le nom du point de connexion pour vous connecter."</string>
     <string name="new_trans_intro_desc_3">"Mi Mover à besoin d'espace de stockage pour créer un pack de transfert sur votre ancien appareil avant de l'envoyer vers le nouveau. Libérez de l'espace de stockage pour pouvoir continuer."</string>
     <string name="new_trans_intro_desc_4">"Il se peut qu'il y ai des problèmes de compatibilité, de version de l'application, de système ou de l'appareil qui empêchent certaines applications d'être transférées normalement."</string>
     <string name="new_trans_intro_desc_5">"Certaines applications(ex. les services financiers et les outils de paiment) n'autorisent pas le transfert de mots de passe pour des raisons de sécurité."</string>
     <string name="new_trans_intro_desc_6">"Il se peut que votre nouveau Téléphone Mi n'ait pas les autorisations nécessaires."</string>
+    <string name="new_trans_intro_desc_6_pad">"Les données de l'application ne peuvent pas être transférées car Mi Mover n'a pas les autorisations nécessaires sur les appareils non-Xiaomi."</string>
+    <string name="new_trans_intro_desc_6_phone">"Les données de l'application ne peuvent pas être transférées car Mi Mover n'a pas les autorisations nécessaires sur les appareils non-Xiaomi."</string>
     <string name="new_trans_intro_desc_7">"Mi Mover pourra récommencer à partir de l'endroit ou vous avez quitté. Cependant, il se peut que vous deviez recommencer si des problèmes de compatibilité de l'appareil vous empêchent de reprendre le transfert intérrompu."</string>
     <string name="new_trans_intro_desc_8">"L'historique de WeChat de votre ancien appareil écrasera l'historique de WeChat de votre nouvel appareil pendant le transfert."</string>
     <string name="new_trans_intro_desc_new">"%1$d. Assurez-vous que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover dans le Play Store ou cliquer ici : %2$s.
 %3$d. Si le point d'accès n'apparaît toujours pas dans Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez si vous pouvez le voir. Si oui, revenez à Mi Mover et appuyez sur le nom du point d'accès."</string>
     <string name="new_trans_intro_desc_new_click">Télécharger</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez sur Mi Mover et appuyez sur le nom du point d'accès."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
     <string name="new_trans_intro_desc_old">"%d. Si le point de connexion n'apparait toujours pas dans Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez si vous pouvez le voir. Si tel est le cas, retournez dans Mi Mover et entrez le nom du point de connexion."</string>
     <string name="new_trans_intro_question_1">"%d. Pourquoi ne puis-je pas voir le point d'accès du nouvel appareil sur l'ancien ?"</string>
+    <string name="new_trans_intro_question_1_pad">"%d. Pourquoi ne puis-je pas voir le point d'accès du nouvel appareil sur l'ancien ?"</string>
+    <string name="new_trans_intro_question_1_phone">"%d. Pourquoi ne puis-je pas voir le point d'accès du nouvel appareil sur l'ancien ?"</string>
     <string name="new_trans_intro_question_2">"%d. Quel est le mot de passe du point d'accès ?"</string>
     <string name="new_trans_intro_question_3">"%d. Pourquoi est-il indiqué qu'il n'y a pas assez d'espace de stockage sur l'ancien appareil ?"</string>
+    <string name="new_trans_intro_question_3_pad">"%d. Pourquoi est-il indiqué qu'il n'y a pas assez d'espace de stockage sur l'ancien appareil ?"</string>
+    <string name="new_trans_intro_question_3_phone">"%d. Pourquoi est-il indiqué qu'il n'y a pas assez d'espace de stockage sur l'ancien appareil ?"</string>
     <string name="new_trans_intro_question_4">%d. Pourquoi toutes les applications ne sont-elles pas transférées avec succès ?</string>
     <string name="new_trans_intro_question_5">"%d. Pourquoi les mots de passe de certains comptes d'applications tierces ne sont-ils pas transférés avec succès ?"</string>
     <string name="new_trans_intro_question_6">"%d. Pourquoi les données de l'application ne peuvent-elles pas être transférées à partir d'un appareil tiers ?"</string>
+    <string name="new_trans_intro_question_6_pad">"%d. Pourquoi les données des applications ne peuvent-elles pas être transférées à partir d'un appareil non Xiaomi ?"</string>
+    <string name="new_trans_intro_question_6_phone">"%d. Pourquoi les données des applications ne peuvent-elles pas être transférées à partir d'un appareil non Xiaomi ?"</string>
     <string name="new_trans_intro_question_7">"%d. Si je quitte Mi Mover au milieu d'un transfert, devrai-je recommencer la prochaine fois ?"</string>
     <string name="new_trans_intro_question_8">%d. Pourquoi mon historique WeChat a-t-il disparu sur le nouvel appareil ?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Pourquoi mon historique WeChat a-t-il disparu sur le nouvel appareil ?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Pourquoi mon historique WeChat a-t-il disparu sur le nouvel appareil ?</string>
     <string name="new_version_transfer_downloading">Mise à jour de Mi Mover</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">Mise à jour…</string>
@@ -712,6 +738,8 @@ Libérez au moins %s."</string>
     <string name="scanner_quit_alert_btn_negative">Quitter</string>
     <string name="scanner_quit_alert_btn_positive">Ne pas quitter</string>
     <string name="scanner_quit_alert_message">Vous devrez reconnecter les deux appareils si vous quitter Mi Mover maintenant. Quitter quand même?</string>
+    <string name="scanner_quit_alert_message_pad">Vous devrez reconnecter les deux appareils si vous quitter Mi Mover maintenant. Quitter quand même ?</string>
+    <string name="scanner_quit_alert_message_phone">Vous devrez reconnecter les deux appareils si vous quitter Mi Mover maintenant. Quitter quand même ?</string>
     <string name="scanner_quit_alert_title">Quitter maintenant?</string>
     <string name="scanner_send_dialog_btn">"C'est compris"</string>
     <string name="scanner_send_dialog_message">Ne désactivez pas le Wi-Fi et ne changez pas de réseau pendant le transfert.</string>
@@ -723,6 +751,8 @@ Libérez au moins %s."</string>
     <string name="scanner_wechat_overwrite_hit">"En raison de restrictions des applications tierces, l'historique des chats et les autres données d'application stockées sur votre nouvel appareil seront remplacés par ceux de l'ancien appareil une fois le transfert terminé."</string>
     <string name="search_menu_title">Rechercher</string>
     <string name="searching_for_new_device">Recherche du nouvel appareil…</string>
+    <string name="searching_for_new_device_pad">Recherche du nouvel appareil…</string>
+    <string name="searching_for_new_device_phone">Recherche du nouvel appareil…</string>
     <string name="secret_package_title_file">Fichiers</string>
     <string name="secret_package_title_gallery">Albums</string>
     <string name="secret_package_title_note">Notes</string>
@@ -753,6 +783,8 @@ Libérez au moins %s."</string>
     <string name="select_mi_summary">Xiaomi et Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">"Sélectionnez l'ancien modèle d'appareil"</string>
+    <string name="select_old_device_title_pad">"Sélectionnez l'ancien modèle d'appareil"</string>
+    <string name="select_old_device_title_phone">"Sélectionnez l'ancien modèle d'appareil"</string>
     <string name="selected">Sélectionné</string>
     <string name="send">Envoyer</string>
     <string name="send_verification_code_fail">"Impossible d'envoyer le code de vérification"</string>
@@ -842,6 +874,7 @@ Libérez au moins %s."</string>
     <string name="thursday">Jeudi</string>
     <string name="thursday_short">Jeu</string>
     <string name="thursday_shortest">Jeu</string>
+    <string name="time">Période de temps</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">"Régler l'heure"</string>
     <string name="time_picker_label_hour">H</string>
@@ -900,6 +933,8 @@ Libérez au moins %s."</string>
     <string name="trans_install_guide_new_content_first">"Scannez ce code QR avec votre ancien téléphone
 pour télécharger et installer Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Scannez ce code QR avec votre ancien appareil pour télécharger et installer Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">Scannez ce code QR avec votre ancien appareil pour télécharger et installer Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">Scannez ce code QR avec votre ancien appareil pour télécharger et installer Mi Mover.</string>
     <string name="trans_install_guide_text">Scanner pour mettre à jour Mi Mover</string>
     <string name="trans_intro_title">FAQ</string>
     <string name="trans_main_activity_tutor_first">Transférer des éléments vers un nouvel appareil</string>

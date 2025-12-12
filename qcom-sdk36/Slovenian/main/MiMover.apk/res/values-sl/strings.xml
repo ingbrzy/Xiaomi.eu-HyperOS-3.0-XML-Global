@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Počisti</string>
     <string name="close">Zapri</string>
     <string name="close_cellular_summary">Zaradi sistemskih omejitev, vaša naprava sedaj uporablja mobilne podatke. Izklopite mobilne podatke in se ponovno povežite z novo napravo.</string>
+    <string name="close_cellular_summary_pad">Zaradi sistemskih omejitev, vaša naprava sedaj uporablja mobilne podatke. Izklopite mobilne podatke in se ponovno povežite z novo napravo.</string>
+    <string name="close_cellular_summary_phone">Zaradi sistemskih omejitev, vaša naprava sedaj uporablja mobilne podatke. Izklopite mobilne podatke in se ponovno povežite z novo napravo.</string>
     <string name="close_cellular_title">Ni mogoče povezati</string>
     <string name="close_twice_auth_btn">Izklopite dvofaktorno avtentikacijo</string>
     <string name="close_twice_auth_note">"Pozor:
@@ -301,6 +303,8 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="guest_connect_dialog_ensure_text">Poveži</string>
     <string name="guest_connect_dialog_fail_message">Povezave ni bilo mogoče vzpostaviti. Poskusite ponovno.</string>
     <string name="guest_hint_connect_new_device">Izberite novo napravo</string>
+    <string name="guest_hint_connect_new_device_pad">Izberite novo napravo</string>
+    <string name="guest_hint_connect_new_device_phone">Izberite novo napravo</string>
     <string name="guest_install_app_hint_ensure">Prenesi</string>
     <string name="guest_install_app_hint_summary">Nova različica aplikacije Mi Mover ni kompatibilna s tisto, ki je nameščena na tej napravi. Prenesite in namestite novo različico.</string>
     <string name="guest_install_app_hint_title">Prenesite novo različico aplikacije Mi Mover</string>
@@ -374,6 +378,8 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
 %2$d. Približajte napravi skupaj."</string>
     <string name="install_app_new_title">Skenirajte QR kodo za namestitev aplikacije Mi Mover na novi napravi</string>
     <string name="install_app_old_title">Skenirajte QR kodo za namestitev aplikacije Mi Mover na stari napravi</string>
+    <string name="install_app_old_title_pad">Skenirajte QR kodo za namestitev aplikacije Mi Mover na stari napravi</string>
+    <string name="install_app_old_title_phone">Skenirajte QR kodo za namestitev aplikacije Mi Mover na stari napravi</string>
     <string name="install_app_to_another_phone_content">Namestite Mi Mover na vašo novo napravo</string>
     <string name="install_app_to_another_phone_content_global">Namestite Mi Mover</string>
     <string name="install_button">Namesti</string>
@@ -390,7 +396,7 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="loading_data">Samo trenutek…</string>
     <string name="location_permission_desc">Za iskanje naprav v bližini</string>
     <string name="location_permission_request">Za povezovanje na naprave v bližini</string>
-    <string name="lockscreen_access">Pattern area</string>
+    <string name="lockscreen_access">Območje vzorca</string>
     <string name="login">Prijava</string>
     <string name="login_failed">Prijava ni uspela. Poskusite ponovno.</string>
     <string name="logining">Prijava…</string>
@@ -512,24 +518,44 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="new_app_name">Nova različica</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">V novi različici aplikacije Mi Mover vam ni treba vnesti gesla. Samo odprite Mi Mover na vaši stari napravi, pritisnite »Pošiljatelj sem« in tapnite na ime dostopne točke, da bi se povezali.</string>
+    <string name="new_trans_intro_desc_2_pad">V novi različici aplikacije Mi Mover vam ni treba vnesti gesla za dostopno točko. Samo odprite Mi Mover na vaši stari napravi, pritisnite »Sem pošiljatelj« in tapnite na ime dostopne točke, da bi se povezali.</string>
+    <string name="new_trans_intro_desc_2_phone">V novi različici aplikacije Mi Mover vam ni treba vnesti gesla za dostopno točko. Samo odprite Mi Mover na vaši stari napravi, pritisnite »Sem pošiljatelj« in tapnite na ime dostopne točke, da bi se povezali.</string>
     <string name="new_trans_intro_desc_3">Mi Mover potrebuje prostor, da bi ustvaril paket za prenos na vaši stari napravi, preden jo pošlje na novo napravo. Sprostite prostor, da bi lahko nadaljevali.</string>
     <string name="new_trans_intro_desc_4">Mogoče obstajajo problemi z združljivostjo naprave, sistema ali različice aplikacije, kaj pa preprečuje prenos nekaterih aplikacij.</string>
     <string name="new_trans_intro_desc_5">Nekatere aplikacije (npr. finančne storitve in orodja za plačanje) ne dovoljujejo prenos gesla zaradi varnostnih razlogov.</string>
     <string name="new_trans_intro_desc_6">Vaš novi Mi telefon mogoče nima zahtevana dovoljenja za to.</string>
+    <string name="new_trans_intro_desc_6_pad">Podatkov aplikacije ni mogoče prenesti, ker Mi Mover nima potrebnih dovoljenj za naprave, ki niso znamke Xiaomi.</string>
+    <string name="new_trans_intro_desc_6_phone">Podatkov aplikacije ni mogoče prenesti, ker Mi Mover nima potrebnih dovoljenj za naprave, ki niso znamke Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover lahko nadaljuje od tam, kjer ste končali. Vendar boste morda morali začeti znova, če težave z združljivostjo preprečujejo nadaljevanje prenosa.</string>
     <string name="new_trans_intro_desc_8">Med prenosom bo WeChat zgodovina vaše stare naprave prepisala WeChat zgodovino nove naprave.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v Trgovini Play ali tapnete tukaj: %2$s.
 %3$d. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo tam lahko vidite. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
     <string name="new_trans_intro_desc_new_click">Prenesi</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve omrežja WLAN in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve omrežja WLAN in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
     <string name="new_trans_intro_desc_old">%d. Če v aplikaciji Mi Mover še zmeraj ne vidite dostopne točke, odprite Wi-Fi nastavitve in preverite, če jo lahko vidite. Če jo vidite, pojdite nazaj v Mi Mover in tapnite na ime dostopne točke.</string>
     <string name="new_trans_intro_question_1">%d. Zakaj na stari napravi ne vidim dostopne točke nove naprave?</string>
+    <string name="new_trans_intro_question_1_pad">%d. Zakaj na stari napravi ne vidim dostopne točke nove naprave?</string>
+    <string name="new_trans_intro_question_1_phone">%d. Zakaj na stari napravi ne vidim dostopne točke nove naprave?</string>
     <string name="new_trans_intro_question_2">%d. Katero je geslo dostopne točke?</string>
     <string name="new_trans_intro_question_3">%d. Zakaj dobim sporočilo, da na stari napravi ni dovolj prostora?</string>
+    <string name="new_trans_intro_question_3_pad">%d. Zakaj dobim sporočilo, da na stari napravi ni dovolj prostora za shranjevanje?</string>
+    <string name="new_trans_intro_question_3_phone">%d. Zakaj dobim sporočilo, da na stari napravi ni dovolj prostora za shranjevanje?</string>
     <string name="new_trans_intro_question_4">%d. Zakaj niso bile vse aplikacije prenesene?</string>
     <string name="new_trans_intro_question_5">%d. Zakaj niso bila gesla nekaterih aplikacij tretjih ponudnikov prenesena?</string>
     <string name="new_trans_intro_question_6">%d. Zakaj ni mogoče prenesti podatke aplikacij iz naprave tretjih ponudnikov?</string>
+    <string name="new_trans_intro_question_6_pad">%d. Zakaj podatkov aplikacij ni mogoče prenesti iz naprave, ki ni znamke Xiaomi?</string>
+    <string name="new_trans_intro_question_6_phone">%d. Zakaj podatkov aplikacij ni mogoče prenesti iz naprave, ki ni znamke Xiaomi?</string>
     <string name="new_trans_intro_question_7">%d. Če zapustim aplikacijo Mi Mover med prenosom, se bo prenos naslednjič začel od začetka?</string>
     <string name="new_trans_intro_question_8">%d. Zakaj na novi napravi ni moje WeChat zgodovine?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Zakaj na novi napravi ni moje zgodovine aplikacije WeChat?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Zakaj na novi napravi ni moje zgodovine aplikacije WeChat?</string>
     <string name="new_version_transfer_downloading">Posodobljanje Mi Mover</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">Posadabljanje…</string>
@@ -712,6 +738,8 @@ Sprostite najmanj %s."</string>
     <string name="scanner_quit_alert_btn_negative">Izhod</string>
     <string name="scanner_quit_alert_btn_positive">Ne zapusti</string>
     <string name="scanner_quit_alert_message">Dve napravi boste morali ponovno povezati, če sedaj zapustite Mi Mover. Želite vseeno zapustiti?</string>
+    <string name="scanner_quit_alert_message_pad">Če zdaj zaprete aplikacijo Mi Mover, boste morali obe napravi znova povezati. Želite vseeno prenehati?</string>
+    <string name="scanner_quit_alert_message_phone">Če zdaj zaprete aplikacijo Mi Mover, boste morali obe napravi znova povezati. Želite vseeno prenehati?</string>
     <string name="scanner_quit_alert_title">Želite zapustite sedaj?</string>
     <string name="scanner_send_dialog_btn">Razumem</string>
     <string name="scanner_send_dialog_message">Med prenosom ne izklopite WiFi ali preklopite med omrežji.</string>
@@ -723,6 +751,8 @@ Sprostite najmanj %s."</string>
     <string name="scanner_wechat_overwrite_hit">Zaradi omejitev aplikacij tretjih oseb, zgodovine pogovorov in drugi podatki aplikacij na novi napravi bodo zamenjani s tistimi iz stare naprave, po tem ko bo prenos končan.</string>
     <string name="search_menu_title">Iskanje</string>
     <string name="searching_for_new_device">Iskanje nove naprave…</string>
+    <string name="searching_for_new_device_pad">Iskanje nove naprave…</string>
+    <string name="searching_for_new_device_phone">Iskanje nove naprave…</string>
     <string name="secret_package_title_file">Datoteke</string>
     <string name="secret_package_title_gallery">Albumi</string>
     <string name="secret_package_title_note">Beležke</string>
@@ -753,6 +783,8 @@ Sprostite najmanj %s."</string>
     <string name="select_mi_summary">Xiaomi in Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Izberite model stare naprave</string>
+    <string name="select_old_device_title_pad">Izberite vrsto stare naprave</string>
+    <string name="select_old_device_title_phone">Izberite vrsto stare naprave</string>
     <string name="selected">Izbrano</string>
     <string name="send">Pošlji</string>
     <string name="send_verification_code_fail">Ni mogoče poslati kode za preverjanje</string>
@@ -842,6 +874,7 @@ Sprostite najmanj %s."</string>
     <string name="thursday">Četrtek</string>
     <string name="thursday_short">Čet</string>
     <string name="thursday_shortest">Čet</string>
+    <string name="time">Časovno obdobje</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Nastavi čas</string>
     <string name="time_picker_label_hour">H</string>
@@ -900,6 +933,8 @@ Sprostite najmanj %s."</string>
     <string name="trans_install_guide_new_content_first">"Skenirajte to QR kodo z vašo novo napravo.
 Prenesite in namestite Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Skenirajte to QR kodo z vašo staro napravo, da bi prenesli in namestili Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">Skenirajte to QR kodo z vašo staro napravo, da bi prenesli in namestili aplikacijo Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">Skenirajte to QR kodo z vašo staro napravo, da bi prenesli in namestili aplikacijo Mi Mover.</string>
     <string name="trans_install_guide_text">Skenirajte, da bi posodobili Mi Mover</string>
     <string name="trans_intro_title">Pogosta vprašanja</string>
     <string name="trans_main_activity_tutor_first">Prenesite predmete na novo napravo</string>

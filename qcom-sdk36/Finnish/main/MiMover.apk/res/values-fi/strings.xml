@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Tyhjennä</string>
     <string name="close">Sulje</string>
     <string name="close_cellular_summary">Laitteesi käyttää mobiilidataa järjestelmän rajoitusten takia. Sammuta mobiilidata ja muodosta yhteys uuteen laitteeseen uudelleen.</string>
+    <string name="close_cellular_summary_pad">Laitteesi käyttää mobiilidataa järjestelmärajoitusten vuoksi. Sammuta mobiilidata ja muodosta yhteys uuteen laitteeseen uudelleen.</string>
+    <string name="close_cellular_summary_phone">Laitteesi käyttää mobiilidataa järjestelmärajoitusten vuoksi. Sammuta mobiilidata ja muodosta yhteys uuteen laitteeseen uudelleen.</string>
     <string name="close_cellular_title">Ei voitu yhdistää</string>
     <string name="close_twice_auth_btn">Poista kaksivaiheinen todennus käytöstä</string>
     <string name="close_twice_auth_note">"Huomaa:
@@ -301,6 +303,8 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="guest_connect_dialog_ensure_text">Yhdistä</string>
     <string name="guest_connect_dialog_fail_message">Yhteyttä ei voitu muodostaa. Yritä uudelleen.</string>
     <string name="guest_hint_connect_new_device">Valitse uusi laite</string>
+    <string name="guest_hint_connect_new_device_pad">Valitse uusi laite</string>
+    <string name="guest_hint_connect_new_device_phone">Valitse uusi laite</string>
     <string name="guest_install_app_hint_ensure">Lataa</string>
     <string name="guest_install_app_hint_summary">Mi Moverin uusi versio ei ole yhteensopiva tähän laitteeseen asennetun version kanssa. Lataa ja asenna uusi versio.</string>
     <string name="guest_install_app_hint_title">Lataa uusi Mi Mover -versio</string>
@@ -374,6 +378,8 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
 %2$d. Tuo kaksi laitetta lähelle toisiaan."</string>
     <string name="install_app_new_title">Skannaa QR-koodi asentaaksesi uuteen laitteeseen</string>
     <string name="install_app_old_title">Skannaa QR-koodi asentaaksesi vanhaan laitteeseen</string>
+    <string name="install_app_old_title_pad">Asenna Mi Mover vanhaan laitteeseen skannaamalla QR-koodi</string>
+    <string name="install_app_old_title_phone">Asenna Mi Mover vanhaan laitteeseen skannaamalla QR-koodi</string>
     <string name="install_app_to_another_phone_content">Asenna Mi Mover uudelle puhelimellesi</string>
     <string name="install_app_to_another_phone_content_global">Asenna Mi Mover</string>
     <string name="install_button">Asenna</string>
@@ -390,7 +396,7 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="loading_data">Hetki vain…</string>
     <string name="location_permission_desc">Lähellä olevien laitteiden etsimiseksi</string>
     <string name="location_permission_request">Yhteyden muodostamiseen muihin lähellä oleviin laitteisiin</string>
-    <string name="lockscreen_access">Pattern area</string>
+    <string name="lockscreen_access">Kuvioalue</string>
     <string name="login">Kirjaudu sisään</string>
     <string name="login_failed">Ei voitu kirjautua. Yritä uudelleen.</string>
     <string name="logining">Kirjaudutaan sisään…</string>
@@ -512,24 +518,44 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="new_app_name">Uusi versio</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">Ei tarvitse syöttää salasanaa uudessa Mi Mover -versiossa. Avaa vain Mi Mover vanhalla laitteella, napauta \"Olen lähettäjä \" ja napauta tukiaseman nimeä yhteyden muodostamiseksi.</string>
+    <string name="new_trans_intro_desc_2_pad">Tukiaseman salasanaa ei tarvitse syöttää Mi Moverin uudessa versiossa. Avaa vain Mi Mover vanhalla laitteellasi, napauta sitten \"Olen lähettäjä\", ja valitse tukiaseman nimi yhdistääksesi siihen.</string>
+    <string name="new_trans_intro_desc_2_phone">Tukiaseman salasanaa ei tarvitse syöttää Mi Moverin uudessa versiossa. Avaa vain Mi Mover vanhalla laitteellasi, napauta sitten \"Olen lähettäjä\", ja valitse tukiaseman nimi yhdistääksesi siihen.</string>
     <string name="new_trans_intro_desc_3">Mi Mover tarvitsee tallennustilaa luodakseen siirtopaketti vanhaan laitteeseen ennen sen lähettämistä uuteen. Vapauta tallennustilaa voidaksesi jatkaa.</string>
     <string name="new_trans_intro_desc_4">Laite-, järjestelmä- ja sovellusversioissa saattaa olla yhteensopivuusongelmia, jotka estävät joidenkin sovellusten siirtämisen onnistuneesti.</string>
     <string name="new_trans_intro_desc_5">Jotkin sovellukset (esim. rahoituspalvelut ja maksutyökalut) eivät salli salasanojen siirtämistä turvallisuussyistä.</string>
     <string name="new_trans_intro_desc_6">Uudella Mi-puhelimella ei ehkä ole tarvittavia käyttöoikeuksia tämän tekemiseen.</string>
+    <string name="new_trans_intro_desc_6_pad">Sovellustietoja ei voi siirtää, koska Mi Moverilla ei ole tarvittavia käyttölupia muissa kuin Xiaomi-laitteissa.</string>
+    <string name="new_trans_intro_desc_6_phone">Sovellustietoja ei voi siirtää, koska Mi Moverilla ei ole tarvittavia käyttölupia muissa kuin Xiaomi-laitteissa.</string>
     <string name="new_trans_intro_desc_7">Mi Mover voi jatkaa siitä, mistä jäit pois. Sinun on kuitenkin ehkä aloitettava alusta, jos laitteen yhteensopivuusongelmat estävät sinua jatkamasta keskeytyneitä siirtoja.</string>
     <string name="new_trans_intro_desc_8">Vanhan laitteesi WeChat-historia korvaa uuden laitteesi WeChat-historian siirron aikana.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Varmista, että Mi Mover uudessa laitteessasi on ajan tasalla. Voit ladata Mi Moverin uusimman version Play Kaupasta tai napauta tätä: %2$s.
 %3$d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näetkö sen siellä. Jos näin on, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
     <string name="new_trans_intro_desc_new_click">Lataa</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
     <string name="new_trans_intro_desc_old">%d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näetkö sen siellä. Jos näin on, palaa Mi Moveriin ja napauta tukiaseman nimeä.</string>
     <string name="new_trans_intro_question_1">%d. Miksi en näe uuden laitteen tukiasemaa vanhassa?</string>
+    <string name="new_trans_intro_question_1_pad">%d. Miksi en näe uuden laitteen tukiasemaa vanhalla laitteella?</string>
+    <string name="new_trans_intro_question_1_phone">%d. Miksi en näe uuden laitteen tukiasemaa vanhalla laitteella?</string>
     <string name="new_trans_intro_question_2">%d. Mikä on tukiaseman salasana?</string>
     <string name="new_trans_intro_question_3">%d. Miksi sanotaan, että vanhassa laitteessa ei ole tarpeeksi tallennustilaa?</string>
+    <string name="new_trans_intro_question_3_pad">%d. Miksi saan ilmoituksen, ettei vanhalla laitteella ole tarpeeksi tallennustilaa?</string>
+    <string name="new_trans_intro_question_3_phone">%d. Miksi saan ilmoituksen, ettei vanhalla laitteella ole tarpeeksi tallennustilaa?</string>
     <string name="new_trans_intro_question_4">%d. Miksi kaikkia sovelluksia ei siirretä onnistuneesti?</string>
     <string name="new_trans_intro_question_5">%d. Miksi joidenkin kolmannen osapuolen sovellustilien salasanoja ei siirretty onnistuneesti?</string>
     <string name="new_trans_intro_question_6">%d. Miksi sovellustietoja ei voida siirtää kolmannen osapuolen laitteelta?</string>
+    <string name="new_trans_intro_question_6_pad">%d. Miksi sovellustietoja ei voi siirtää muusta kuin Xiaomi-laitteesta?</string>
+    <string name="new_trans_intro_question_6_phone">%d. Miksi sovellustietoja ei voi siirtää muusta kuin Xiaomi-laitteesta?</string>
     <string name="new_trans_intro_question_7">%d. Jos lähden Mi Moverista siirron aikana, joudunko aloittamaan alusta seuraavan kerran?</string>
     <string name="new_trans_intro_question_8">%d. Miksi WeChat-historiani katosi uudesta laitteesta?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Miksi WeChat-historiani katosi uudessa laitteessa?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Miksi WeChat-historiani katosi uudessa laitteessa?</string>
     <string name="new_version_transfer_downloading">Päivitetään Mi Moveria</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">Päivitetään…</string>
@@ -712,6 +738,8 @@ Vapauta vähintään %s."</string>
     <string name="scanner_quit_alert_btn_negative">Poistu</string>
     <string name="scanner_quit_alert_btn_positive">Älä poistu</string>
     <string name="scanner_quit_alert_message">Sinun on kytkettävä kaksi laitetta uudelleen, jos poistut kohteesta Mi Mover nyt. Poistutaanko siitä huolimatta?</string>
+    <string name="scanner_quit_alert_message_pad">Sinun on yhdistettävä laitteet uudelleen, jos poistut kohteesta Mi Mover nyt. Haluatko silti poistua?</string>
+    <string name="scanner_quit_alert_message_phone">Sinun on yhdistettävä laitteet uudelleen, jos poistut kohteesta Mi Mover nyt. Haluatko silti poistua?</string>
     <string name="scanner_quit_alert_title">Poistutaanko nyt?</string>
     <string name="scanner_send_dialog_btn">Selvä</string>
     <string name="scanner_send_dialog_message">Älä katkaise Wi-Fi-yhteyttä tai vaihda verkkojen välillä siirron aikana.</string>
@@ -723,6 +751,8 @@ Vapauta vähintään %s."</string>
     <string name="scanner_wechat_overwrite_hit">Kolmannen osapuolen sovellusrajoituksista johtuen keskusteluhistoriat ja muut sovellustiedot uudella laitteella korvataan vanhoilla, kun siirto on valmis.</string>
     <string name="search_menu_title">Haku</string>
     <string name="searching_for_new_device">Etsitään uutta laitetta…</string>
+    <string name="searching_for_new_device_pad">Etsitään uutta laitetta…</string>
+    <string name="searching_for_new_device_phone">Etsitään uutta laitetta…</string>
     <string name="secret_package_title_file">Tiedostot</string>
     <string name="secret_package_title_gallery">Albumit</string>
     <string name="secret_package_title_note">Muistiinpanot</string>
@@ -753,6 +783,8 @@ Vapauta vähintään %s."</string>
     <string name="select_mi_summary">Xiaomi ja Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Valitse vanha laitemalli</string>
+    <string name="select_old_device_title_pad">Valitse vanhan laitteen tyyppi</string>
+    <string name="select_old_device_title_phone">Valitse vanhan laitteen tyyppi</string>
     <string name="selected">Valittu</string>
     <string name="send">Lähetä</string>
     <string name="send_verification_code_fail">Vahvistuskoodia ei voitu lähettää</string>
@@ -842,6 +874,7 @@ Vapauta vähintään %s."</string>
     <string name="thursday">Torstai</string>
     <string name="thursday_short">To</string>
     <string name="thursday_shortest">To</string>
+    <string name="time">Ajanjakso</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Aseta aika</string>
     <string name="time_picker_label_hour">T</string>
@@ -900,6 +933,8 @@ Vapauta vähintään %s."</string>
     <string name="trans_install_guide_new_content_first">"Skannaa tämä QR-koodi uudella laitteellasi.
 Lataa ja asenna Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Lataa ja asenna Mi Mover skannaamalla tämä QR -koodi vanhalla laitteellasi.</string>
+    <string name="trans_install_guide_old_content_first_pad">Lataa ja asenna Mi Mover skannaamalla tämä QR-koodi vanhalla laitteellasi.</string>
+    <string name="trans_install_guide_old_content_first_phone">Lataa ja asenna Mi Mover skannaamalla tämä QR-koodi vanhalla laitteellasi.</string>
     <string name="trans_install_guide_text">Skannaa päivittääksesi kohteen Mi Mover</string>
     <string name="trans_intro_title">Ohje</string>
     <string name="trans_main_activity_tutor_first">Siirrä kohteet uuteen laitteeseen</string>

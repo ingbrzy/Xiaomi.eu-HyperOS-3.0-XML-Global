@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Opschonen</string>
     <string name="close">Sluiten</string>
     <string name="close_cellular_summary">Uw apparaat gebruikt nu mobiele gegevens vanwege systeembeperkingen. Schakel mobiele data uit en maak opnieuw verbinding met het nieuwe apparaat.</string>
+    <string name="close_cellular_summary_pad">Uw apparaat gebruikt nu mobiele gegevens vanwege systeembeperkingen. Schakel mobiele data uit en maak opnieuw verbinding met het nieuwe apparaat.</string>
+    <string name="close_cellular_summary_phone">Uw apparaat gebruikt nu mobiele gegevens vanwege systeembeperkingen. Schakel mobiele data uit en maak opnieuw verbinding met het nieuwe apparaat.</string>
     <string name="close_cellular_title">Kon niet verbinden</string>
     <string name="close_twice_auth_btn">Schakel twee-factor authenticatie uit</string>
     <string name="close_twice_auth_note">"Opmerking:
@@ -301,6 +303,8 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="guest_connect_dialog_ensure_text">Verbinden</string>
     <string name="guest_connect_dialog_fail_message">Kon geen verbinding maken. Probeer het opnieuw.</string>
     <string name="guest_hint_connect_new_device">Selecteer nieuw apparaat</string>
+    <string name="guest_hint_connect_new_device_pad">Selecteer het nieuwe apparaat</string>
+    <string name="guest_hint_connect_new_device_phone">Selecteer het nieuwe apparaat</string>
     <string name="guest_install_app_hint_ensure">Downloaden</string>
     <string name="guest_install_app_hint_summary">De nieuwe versie van Mi Mover is niet compatibel met de versie die op dit apparaat is geïnstalleerd. Download en installeer de nieuwe versie.</string>
     <string name="guest_install_app_hint_title">Download de nieuwe versie van Mi Mover</string>
@@ -374,6 +378,8 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
 %2$d. Breng de twee apparaten dicht bij elkaar."</string>
     <string name="install_app_new_title">Scan de QR-code om op het nieuwe apparaat te installeren</string>
     <string name="install_app_old_title">Scan de QR-code om op het oude apparaat te installeren</string>
+    <string name="install_app_old_title_pad">Scan de QR-code om Mi Mover op het oude apparaat te installeren</string>
+    <string name="install_app_old_title_phone">Scan de QR-code om Mi Mover op het oude apparaat te installeren</string>
     <string name="install_app_to_another_phone_content">Installeer Mi Mover op uw nieuwe apparaat</string>
     <string name="install_app_to_another_phone_content_global">Installeer Mi Mover</string>
     <string name="install_button">Installeren</string>
@@ -512,24 +518,44 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="new_app_name">Nieuwe versie</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">Het is niet nodig om een wachtwoord in te voeren in de nieuwe versie van Mi Mover. Open Mi Mover op uw oude apparaat, tik op \"Ik ben een afzender\" en tik op de naam van de hotspot om verbinding te maken.</string>
+    <string name="new_trans_intro_desc_2_pad">Het is niet nodig om het wachtwoord van de hotspot in te voeren in de nieuwe versie van Mi Mover. Open gewoon Mi Mover op uw oude apparaat, tik op \"Ik ben een afzender\" en tik op de naam van de hotspot om verbinding te maken.</string>
+    <string name="new_trans_intro_desc_2_phone">Het is niet nodig om het wachtwoord van de hotspot in te voeren in de nieuwe versie van Mi Mover. Open gewoon Mi Mover op uw oude apparaat, tik op \"Ik ben een afzender\" en tik op de naam van de hotspot om verbinding te maken.</string>
     <string name="new_trans_intro_desc_3">Mi Mover heeft opslagruimte nodig om een overdrachtspakket op uw oude apparaat te maken voordat het naar het nieuwe wordt verzonden. Maak opslagruimte vrij om door te kunnen gaan.</string>
     <string name="new_trans_intro_desc_4">Er kunnen compatibiliteitsproblemen met een apparaat, het systeem en app-versie zijn waardoor sommige apps niet succesvol kunnen worden overgedragen.</string>
     <string name="new_trans_intro_desc_5">Sommige apps (bijv. Financiële diensten en betaalhulpmiddelen) staan het overbrengen van wachtwoorden vanwege veiligheidsredenen niet toe.</string>
     <string name="new_trans_intro_desc_6">Uw nieuwe Mi Phone heeft mogelijk niet de vereiste toestemmingen om dat te doen.</string>
+    <string name="new_trans_intro_desc_6_pad">App-gegevens kunnen niet worden overgedragen omdat Mi Mover niet over de nodige toestemmingen beschikt op apparaten die niet van Xiaomi zijn.</string>
+    <string name="new_trans_intro_desc_6_phone">App-gegevens kunnen niet worden overgedragen omdat Mi Mover niet over de nodige toestemmingen beschikt op apparaten die niet van Xiaomi zijn.</string>
     <string name="new_trans_intro_desc_7">Mi Mover kan verder gaan waar u was gebleven. Het kan echter zijn dat u opnieuw moet beginnen als problemen met de apparaatcompatibiliteit u verhinderen de onderbroken overdracht te hervatten.</string>
     <string name="new_trans_intro_desc_8">WeChat geschiedenis van uw oude apparaat overschrijft de WeChat geschiedenis van uw nieuwe apparaat tijdens de overdracht.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of tik hier: %2$s.
 %3$d. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
     <string name="new_trans_intro_desc_new_click">Downloaden</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
     <string name="new_trans_intro_desc_old">%d. Als de hotspot nog steeds niet verschijnt in Mi Mover, open dan wifi-instellingen en controleer of u hem daar kunt zien. Ga dan terug naar Mi Mover en tik op de naam van de hotspot.</string>
     <string name="new_trans_intro_question_1">%d. Waarom kan ik de hotspot van het nieuwe apparaat niet zien op het oude apparaat?</string>
+    <string name="new_trans_intro_question_1_pad">%d. Waarom kan ik de hotspot van het nieuwe apparaat niet op het oude zien?</string>
+    <string name="new_trans_intro_question_1_phone">%d. Waarom kan ik de hotspot van het nieuwe apparaat niet op het oude zien?</string>
     <string name="new_trans_intro_question_2">%d. Wat is het wachtwoord van de hotspot?</string>
     <string name="new_trans_intro_question_3">%d. Waarom staat er dat er onvoldoende opslagruimte is op het oude apparaat?</string>
+    <string name="new_trans_intro_question_3_pad">%d. Waarom staat er dat er onvoldoende opslagruimte is op het oude apparaat?</string>
+    <string name="new_trans_intro_question_3_phone">%d. Waarom staat er dat er onvoldoende opslagruimte is op het oude apparaat?</string>
     <string name="new_trans_intro_question_4">%d. Waarom worden niet alle apps succesvol overgedragen?</string>
     <string name="new_trans_intro_question_5">%d. Waarom worden de wachtwoorden van sommige app-accounts van derden niet succesvol overgedragen?</string>
     <string name="new_trans_intro_question_6">%d. Waarom kunnen geen app-gegevens worden overgedragen vanaf een apparaat van derden?</string>
+    <string name="new_trans_intro_question_6_pad">%d. Waarom kunnen geen app-gegevens worden overgedragen vanaf een apparaat dat niet van Xiaomi is?</string>
+    <string name="new_trans_intro_question_6_phone">%d. Waarom kunnen app-gegevens niet worden overgedragen vanaf een apparaat dat niet van Xiaomi is?</string>
     <string name="new_trans_intro_question_7">%d. Als ik Mi Mover midden in een overdracht achterlaat, moet ik dan de volgende keer opnieuw beginnen?</string>
     <string name="new_trans_intro_question_8">%d. Waarom is mijn WeChat geschiedenis verdwenen op het nieuwe apparaat?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Waarom is mijn WeChat-geschiedenis verdwenen op het nieuwe apparaat?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Waarom is mijn WeChat-geschiedenis verdwenen op het nieuwe apparaat?</string>
     <string name="new_version_transfer_downloading">Mi Mover bijwerken</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">Bijwerken…</string>
@@ -712,6 +738,8 @@ Maak minstens %s vrij."</string>
     <string name="scanner_quit_alert_btn_negative">Afsluiten</string>
     <string name="scanner_quit_alert_btn_positive">Niet afsluiten</string>
     <string name="scanner_quit_alert_message">U zult de twee apparaten opnieuw moeten verbinden als u Mi Mover nu afsluit. Toch afsluiten?</string>
+    <string name="scanner_quit_alert_message_pad">U zult de twee apparaten opnieuw moeten verbinden als u Mi Mover nu afsluit. Toch afsluiten?</string>
+    <string name="scanner_quit_alert_message_phone">U zult de twee apparaten opnieuw moeten verbinden als u Mi Mover nu afsluit. Toch afsluiten?</string>
     <string name="scanner_quit_alert_title">Nu sluiten?</string>
     <string name="scanner_send_dialog_btn">Begrepen</string>
     <string name="scanner_send_dialog_message">Schakel wifi niet uit en wissel niet van netwerk gedurende de overdracht.</string>
@@ -723,6 +751,8 @@ Maak minstens %s vrij."</string>
     <string name="scanner_wechat_overwrite_hit">Vanwege app-beperkingen van derden, worden chatgeschiedenis en andere app-gegevens op uw nieuwe apparaat vervangen door die van het oude nadat de overdracht is voltooid.</string>
     <string name="search_menu_title">Zoeken</string>
     <string name="searching_for_new_device">Zoeken naar het nieuw apparaat…</string>
+    <string name="searching_for_new_device_pad">Zoeken naar het nieuw apparaat…</string>
+    <string name="searching_for_new_device_phone">Zoeken naar het nieuw apparaat…</string>
     <string name="secret_package_title_file">Bestanden</string>
     <string name="secret_package_title_gallery">Albums</string>
     <string name="secret_package_title_note">Notities</string>
@@ -753,6 +783,8 @@ Maak minstens %s vrij."</string>
     <string name="select_mi_summary">Xiaomi en Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Selecteer oud apparaatmodel</string>
+    <string name="select_old_device_title_pad">Selecteer het oude apparaatmodel</string>
+    <string name="select_old_device_title_phone">Selecteer het oude apparaatmodel</string>
     <string name="selected">Geselecteerd</string>
     <string name="send">Verzenden</string>
     <string name="send_verification_code_fail">Kon geen verificatiecode verzenden</string>
@@ -842,6 +874,7 @@ Maak minstens %s vrij."</string>
     <string name="thursday">Donderdag</string>
     <string name="thursday_short">Do</string>
     <string name="thursday_shortest">Do</string>
+    <string name="time">Tijd periode</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Tijd instellen</string>
     <string name="time_picker_label_hour">H</string>
@@ -900,6 +933,8 @@ Maak minstens %s vrij."</string>
     <string name="trans_install_guide_new_content_first">"Scan deze QR-code met uw nieuwe apparaat.
 Download en installeer Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Scan deze QR-code met uw oude apparaat om Mi Mover te downloaden en te installeren.</string>
+    <string name="trans_install_guide_old_content_first_pad">Scan deze QR-code met uw oude apparaat om Mi Mover te downloaden en te installeren.</string>
+    <string name="trans_install_guide_old_content_first_phone">Scan deze QR-code met uw oude apparaat om Mi Mover te downloaden en te installeren.</string>
     <string name="trans_install_guide_text">Scan om Mi Mover bij te werken</string>
     <string name="trans_intro_title">Veelgestelde vragen</string>
     <string name="trans_main_activity_tutor_first">Items overdragen naar een nieuw apparaat</string>

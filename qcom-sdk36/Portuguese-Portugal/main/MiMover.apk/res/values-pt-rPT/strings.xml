@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Limpar</string>
     <string name="close">Fechar</string>
     <string name="close_cellular_summary">O seu dispositivo estás a utilizar dados móveis devido a restrições do sistema agora. Desligue os dados móveis e ligue-se novamente ao novo dispositivo.</string>
+    <string name="close_cellular_summary_pad">O seu dispositivo utiliza dados móveis devido a restrições do sistema agora. Desligue os dados móveis e ligue-se novamente ao novo dispositivo.</string>
+    <string name="close_cellular_summary_phone">O seu dispositivo utiliza dados móveis devido a restrições do sistema agora. Desligue os dados móveis e ligue-se novamente ao novo dispositivo.</string>
     <string name="close_cellular_title">Não foi possível ligar</string>
     <string name="close_twice_auth_btn">Desligar a autenticação de dois fatores</string>
     <string name="close_twice_auth_note">"Nota:
@@ -301,6 +303,8 @@ Abra a WeChat e vá a Eu > Definições > Fazer cópia e migrar conversas."</str
     <string name="guest_connect_dialog_ensure_text">Ligar</string>
     <string name="guest_connect_dialog_fail_message">Não foi possível ligar. Tente novamente.</string>
     <string name="guest_hint_connect_new_device">Selecionar novo dispositivo</string>
+    <string name="guest_hint_connect_new_device_pad">Selecionar novo dispositivo</string>
+    <string name="guest_hint_connect_new_device_phone">Selecionar novo dispositivo</string>
     <string name="guest_install_app_hint_ensure">Transferir</string>
     <string name="guest_install_app_hint_summary">A nova versão da Mi Mover não é compatível com a versão instalada neste dispositivo. Transfira e instale a nova versão.</string>
     <string name="guest_install_app_hint_title">Transfira a nova versão da Mi Mover</string>
@@ -374,6 +378,8 @@ Abra a WeChat e vá a Eu > Definições > Fazer cópia e migrar conversas."</str
 %2$d. Aproxime os dois dispositivos."</string>
     <string name="install_app_new_title">Digitalize o código QR para instalar no dispositivo novo</string>
     <string name="install_app_old_title">Digitalize o código QR para instalar no dispositivo antigo</string>
+    <string name="install_app_old_title_pad">Digitalize o código QR para instalar a Mi Mover no dispositivo antigo</string>
+    <string name="install_app_old_title_phone">Digitalize o código QR para instalar a Mi Mover no dispositivo antigo</string>
     <string name="install_app_to_another_phone_content">Instale a Mi Mover no seu novo dispositivo</string>
     <string name="install_app_to_another_phone_content_global">Instalar Mi Mover</string>
     <string name="install_button">Instalar</string>
@@ -512,24 +518,44 @@ Abra a WeChat e vá a Eu > Definições > Fazer cópia e migrar conversas."</str
     <string name="new_app_name">Nova versão</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">Não há necessidade de introduzir a palavra-passe na nova versão da Mi Mover. Basta abrir a Mi Mover no seu dispositivo, tocar em \"Sou o remetente\" e tocar no nome do ponto de acesso móvel para ligar.</string>
+    <string name="new_trans_intro_desc_2_pad">Não há necessidade de introduzir a palavra-passe do ponto de acesso na nova versão da Mi Mover. Basta abrir a Mi Mover no seu dispositivo, tocar em \"Sou o remetente\" e tocar no nome do ponto de acesso móvel para ligar.</string>
+    <string name="new_trans_intro_desc_2_phone">Não há necessidade de introduzir a palavra-passe do ponto de acesso na nova versão da Mi Mover. Basta abrir a Mi Mover no seu dispositivo, tocar em \"Sou o remetente\" e tocar no nome do ponto de acesso móvel para ligar.</string>
     <string name="new_trans_intro_desc_3">A Mi Mover precisa de espaço no armazenamento para criar o pacote de transferência no seu dispositivo antigo antes de o enviar para o novo. Liberte espaço para poder continuar.</string>
     <string name="new_trans_intro_desc_4">Podem ocorrer problemas de compatibilidade entre o dispositivo, sistema ou aplicação que impedem algumas aplicações de serem transferidas com sucesso.</string>
     <string name="new_trans_intro_desc_5">Algumas aplicações (por exemplo, ferramentas de pagamento ou serviços financeiros) não permitem a transferência de palavras-passe por segurança.</string>
     <string name="new_trans_intro_desc_6">O seu novo Telemóvel Mi pode não ter permissões suficientes para fazer isso.</string>
+    <string name="new_trans_intro_desc_6_pad">Os dados de aplicações não podem ser transferidos porque o Mi Mover não tem as permissões necessárias em dispositivos não-Xiaomi.</string>
+    <string name="new_trans_intro_desc_6_phone">Os dados de aplicações não podem ser transferidos porque o Mi Mover não tem as permissões necessárias em dispositivos não-Xiaomi.</string>
     <string name="new_trans_intro_desc_7">A Mi Mover será capaz de reiniciar a transferência de onde ela parou. No entanto, poderá ser necessário começar novamente caso problemas de compatibilidade com o dispositivo lhe impeça de retomar uma transferência interrompida.</string>
     <string name="new_trans_intro_desc_8">O histórico do WeChat de seu dispositivo antigo vai substituir o histórico do WeChat do novo dispositivo durante a transferência.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Certifique-se de que a Mi Mover no seu novo dispositivo está atualizada. Pode transferir a versão mais recente da Mi Mover na Play Store ou ao tocar aqui: %2$s.
 %3$d. Se o ponto de acesso ainda não aparecer na Mi Mover, abra as definições de Wi-Fi e verifique se pode visualizá-lo lá. Caso consiga, volte à Mi Mover e toque no nome do ponto de acesso."</string>
     <string name="new_trans_intro_desc_new_click">Transferir</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Certifique-se de que o Mi Mover está atualizado no seu novo dispositivo. Pode descarregar a versão mais recente da Mi Mover na GetApps ou <Data>&lt;a href=%2$s>tocar aqui&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se o seu ponto de acesso móvel continuar a não aparecer no Mi Mover, abra as definições Wi-Fi e verifique se o consegue ver. Em caso afirmativo, volte ao Mi Mover e toque no nome do ponto de acesso móvel."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Certifique-se de que o Mi Mover está atualizado no seu novo dispositivo. Pode descarregar a versão mais recente do Mi Mover na GetApps ou <Data>&lt;a href=%2$s>tocar aqui&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se o seu ponto de acesso móvel continuar a não aparecer no Mi Mover, abra as definições Wi-Fi e verifique se o consegue ver. Em caso afirmativo, volte ao Mi Mover e toque no nome do ponto de acesso móvel."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Certifique-se de que o Mi Mover está atualizado no seu novo dispositivo. Pode descarregar a versão mais recente do Mi Mover na GetApps ou <Data>&lt;a href=%2$s>tocar aqui&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se o seu ponto de acesso móvel continuar a não aparecer no Mi Mover, abra as definições Wi-Fi e verifique se o consegue ver. Em caso afirmativo, volte ao Mi Mover e toque no nome do ponto de acesso móvel."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Certifique-se de que o Mi Mover está atualizado no seu novo dispositivo. Pode descarregar a versão mais recente do Mi Mover na GetApps ou <Data>&lt;a href=%2$s>tocar aqui&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se o seu ponto de acesso móvel continuar a não aparecer no Mi Mover, abra as definições Wi-Fi e verifique se o consegue ver. Em caso afirmativo, volte ao Mi Mover e toque no nome do ponto de acesso móvel."</string>
     <string name="new_trans_intro_desc_old">%d. Se o ponto de acesso ainda não aparecer na Mi Mover, abra as definições de Wi-Fi e verifique se pode vê-lo lá. Caso sim, volte à Mi Mover e toque no nome do ponto de acesso.</string>
     <string name="new_trans_intro_question_1">%d. Por que eu não posso ver o ponto de acesso do novo dispositivo no antigo?</string>
+    <string name="new_trans_intro_question_1_pad">%d. Por que eu não posso ver o ponto de acesso do novo dispositivo no antigo?</string>
+    <string name="new_trans_intro_question_1_phone">%d. Por que eu não posso ver o ponto de acesso do novo dispositivo no antigo?</string>
     <string name="new_trans_intro_question_2">%d. Qual é a palavra-passe do ponto de acesso?</string>
     <string name="new_trans_intro_question_3">%d. Por que recebo uma mensagem de que não há espaço suficiente no dispositivo antigo?</string>
+    <string name="new_trans_intro_question_3_pad">%d. Por que recebo uma mensagem de que não há espaço suficiente no dispositivo antigo?</string>
+    <string name="new_trans_intro_question_3_phone">%d. Por que recebo uma mensagem de que não há espaço suficiente no dispositivo antigo?</string>
     <string name="new_trans_intro_question_4">%d. Por que nem todas as aplicações são transferidas com sucesso?</string>
     <string name="new_trans_intro_question_5">%d. Por que as palavras-passe de algumas contas de terceiros não são transferidas com sucesso?</string>
     <string name="new_trans_intro_question_6">%d. Por que os dados da aplicação não podem ser transferidos de um dispositivo de terceiros?</string>
+    <string name="new_trans_intro_question_6_pad">%d. Por que razão os dados das aplicações não podem ser transferidos de um dispositivo que não seja da Xiaomi?</string>
+    <string name="new_trans_intro_question_6_phone">%d. Por que razão os dados das aplicações não podem ser transferidos de um dispositivo que não seja da Xiaomi?</string>
     <string name="new_trans_intro_question_7">%d. Se eu sair da Mi Mover no meio de uma transferência, terei que começar do zero da próxima vez?</string>
     <string name="new_trans_intro_question_8">%d. Por que o meu histórico da WeChat desaparece no novo dispositivo?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Por que o meu histórico da WeChat desaparece no novo dispositivo?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Por que o meu histórico da WeChat desaparece no novo dispositivo?</string>
     <string name="new_version_transfer_downloading">A atualizar o Mi Mover</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">A atualizar…</string>
@@ -712,6 +738,8 @@ Liberte pelo menos %s."</string>
     <string name="scanner_quit_alert_btn_negative">Sair</string>
     <string name="scanner_quit_alert_btn_positive">Não sair</string>
     <string name="scanner_quit_alert_message">Terá que ligar os dois dispositivos novamente se sair do Mi Mover agora. Sair na mesma?</string>
+    <string name="scanner_quit_alert_message_pad">Terá que ligar os dois dispositivos novamente se sair da Mi Mover agora. Sair na mesma?</string>
+    <string name="scanner_quit_alert_message_phone">Terá que ligar os dois dispositivos novamente se sair da Mi Mover agora. Sair na mesma?</string>
     <string name="scanner_quit_alert_title">Sair agora?</string>
     <string name="scanner_send_dialog_btn">Percebi</string>
     <string name="scanner_send_dialog_message">Não desligue o Wi-Fi ou mude de rede durante a transferência.</string>
@@ -723,6 +751,8 @@ Liberte pelo menos %s."</string>
     <string name="scanner_wechat_overwrite_hit">Devido a restrições de aplicações de terceiros, históricos de conversas e outros dados de aplicações no seu novo dispositivo vão ser substituídos pelos dados do dispositivo antigo após a transferência ser concluída.</string>
     <string name="search_menu_title">Pesquisar</string>
     <string name="searching_for_new_device">A procurar pelo novo dispositivo…</string>
+    <string name="searching_for_new_device_pad">A procurar pelo novo dispositivo…</string>
+    <string name="searching_for_new_device_phone">A procurar pelo novo dispositivo…</string>
     <string name="secret_package_title_file">Ficheiros</string>
     <string name="secret_package_title_gallery">Álbuns</string>
     <string name="secret_package_title_note">Notas</string>
@@ -753,6 +783,8 @@ Liberte pelo menos %s."</string>
     <string name="select_mi_summary">Xiaomi e Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Selecione o modelo do dispositivo antigo</string>
+    <string name="select_old_device_title_pad">Selecione o tipo do dispositivo antigo</string>
+    <string name="select_old_device_title_phone">Selecione o tipo do dispositivo antigo</string>
     <string name="selected">Selecionado</string>
     <string name="send">Enviar</string>
     <string name="send_verification_code_fail">Não foi possível enviar código de verificação</string>
@@ -842,6 +874,7 @@ Liberte pelo menos %s."</string>
     <string name="thursday">Quinta-feira</string>
     <string name="thursday_short">Qui</string>
     <string name="thursday_shortest">Qui</string>
+    <string name="time">Intervalo de tempo</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Definir hora</string>
     <string name="time_picker_label_hour">H</string>
@@ -900,6 +933,8 @@ Liberte pelo menos %s."</string>
     <string name="trans_install_guide_new_content_first">"Digitalize este código QR com o seu novo dispositivo.
 Transfira e instale o Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Digitalize este código QR com o seu dispositivo antigo para transferir e instalar a Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">Digitalize este código QR com o seu dispositivo antigo para transferir e instalar a Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">Digitalize este código QR com o seu dispositivo antigo para transferir e instalar a Mi Mover.</string>
     <string name="trans_install_guide_text">Digitalize para atualizar a Mi Mover</string>
     <string name="trans_intro_title">Perguntas frequentes</string>
     <string name="trans_main_activity_tutor_first">Transferir itens para um novo dispositivo</string>
