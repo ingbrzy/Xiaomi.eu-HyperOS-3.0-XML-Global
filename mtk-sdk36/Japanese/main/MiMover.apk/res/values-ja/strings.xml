@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="close">閉じる</string>
     <string name="close_cellular_summary">現在、お使いのデバイスはシステムの制限によりモバイルデータを使用しています。モバイルデータをオフにして、新しいデバイスにもう一度接続します。</string>
+    <string name="close_cellular_summary_pad">現在、お使いのデバイスはシステムの制限によりモバイルデータを使用しています。モバイルデータをオフにして、新しいデバイスにもう一度接続してください。</string>
+    <string name="close_cellular_summary_phone">現在、お使いのデバイスはシステムの制限によりモバイルデータを使用しています。モバイルデータをオフにして、新しいデバイスにもう一度接続してください。</string>
     <string name="close_cellular_title">接続できませんでした</string>
     <string name="close_twice_auth_btn">2 ファクタ認証をオフにする</string>
     <string name="close_twice_auth_note">"注意:
@@ -301,6 +303,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="guest_connect_dialog_ensure_text">接続</string>
     <string name="guest_connect_dialog_fail_message">接続できませんでした。もう一度お試しください。</string>
     <string name="guest_hint_connect_new_device">新しいデバイスを選択</string>
+    <string name="guest_hint_connect_new_device_pad">新しいデバイスを選択</string>
+    <string name="guest_hint_connect_new_device_phone">新しいデバイスを選択</string>
     <string name="guest_install_app_hint_ensure">ダウンロード</string>
     <string name="guest_install_app_hint_summary">新しいバージョンのMi Moverは、このデバイスにインストールされているバージョンと互換性がありません。新しいバージョンをダウンロードしてインストールしてください。</string>
     <string name="guest_install_app_hint_title">Mi Moverの新しいバージョンをダウンロード</string>
@@ -374,6 +378,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
 %2$d. 2つのデバイスを近づけてください。"</string>
     <string name="install_app_new_title">QR コードをスキャンして新しいデバイスにインストール</string>
     <string name="install_app_old_title">QR コードをスキャンして古いデバイスにインストール</string>
+    <string name="install_app_old_title_pad">QR コードをスキャンしてMi Moverを古いデバイスにインストール</string>
+    <string name="install_app_old_title_phone">QR コードをスキャンしてMi Moverを古いデバイスにインストール</string>
     <string name="install_app_to_another_phone_content">Mi Moverを新しいデバイスにインストールしてください</string>
     <string name="install_app_to_another_phone_content_global">Mi Moverをインストール</string>
     <string name="install_button">インストール</string>
@@ -512,24 +518,44 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="new_app_name">新しいバージョン</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">Mi Moverの新バージョンでは、パスワードを入力する必要はありません。古いデバイスでMi Moverを開き、「私は送信者です」をタップし、接続するホットスポット名をタップするだけです。</string>
+    <string name="new_trans_intro_desc_2_pad">Mi Mover の新バージョンでは、ホットスポットのパスワードを入力する必要はありません。古いデバイスで Mi Mover を開き、[私は送信者です] をタップし、接続するホットスポット名をタップするだけです。</string>
+    <string name="new_trans_intro_desc_2_phone">Mi Mover の新バージョンでは、ホットスポットのパスワードを入力する必要はありません。古いデバイスで Mi Mover を開き、[私は送信者です] をタップし、接続するホットスポット名をタップするだけです。</string>
     <string name="new_trans_intro_desc_3">Mi Moverは、新しいデバイスに送信する前に古いデバイスで転送パッケージを作成するためのストレージ容量が必要です。続けるには、ストレージ容量を解放してください。</string>
     <string name="new_trans_intro_desc_4">デバイス、システム、アプリバージョンの互換性の問題で、一部のアプリが正常に転送されない場合があります。</string>
     <string name="new_trans_intro_desc_5">一部のアプリ（金融サービスや支払いツールなど）では、セキュリティ上の理由によりパスワードの転送が許可されていません。</string>
     <string name="new_trans_intro_desc_6">新しいMi Phoneには、この操作を行うために必要な権限がない可能性があります。</string>
+    <string name="new_trans_intro_desc_6_pad">Mi Mover が非 Xiaomi デバイスに必要な権限を持っていないため、アプリデータを転送できません。</string>
+    <string name="new_trans_intro_desc_6_phone">Mi Mover が非 Xiaomi デバイスに必要な権限を持っていないため、アプリデータを転送できません。</string>
     <string name="new_trans_intro_desc_7">Mi Moverは、中断したところから再開できます。ただし、デバイスの互換性の問題により中断された転送を再開できない場合は、最初からやり直す必要があります。</string>
     <string name="new_trans_intro_desc_8">転送中、新しいデバイスのWeChat履歴は古いデバイスのWeChat履歴によって上書きされます。</string>
     <string name="new_trans_intro_desc_new">"%1$d. 新しいデバイスの Mi Mover が最新の状態であることを確認してください。Mi Mover の最新バージョンを Play ストアでダウンロードするか、ここをタップしてください: %2$s.
 %3$d. それでもホットスポットが Mi Mover に表示されない場合は、Wi-Fi 設定を開いて、ホットスポットが表示されるているかを確認してください。表示されている場合は、Mi Mover に戻り、ホットスポットの名前をタップします。"</string>
     <string name="new_trans_intro_desc_new_click">ダウンロード</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 新しいデバイスの Mi Mover が最新の状態であることを確認してください。Mi Mover の最新バージョンは GetApps でダウンロードするか、<Data>&lt;a href=%2$s>ここをタップ&lt;/a></Data>"してください。
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. それでもホットスポットが Mi Mover に表示されない場合は、Wi-Fi 設定を開いて、そこにホットスポットが表示されるか確認してください。表示される場合は、Mi Mover に戻り、ホットスポット名をタップします。"</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 新しいデバイスの Mi Mover が最新の状態であることを確認してください。Mi Mover の最新バージョンは GetApps でダウンロードするか、<Data>&lt;a href=%2$s>ここをタップ&lt;/a></Data>"してください。
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. それでもホットスポットが Mi Mover に表示されない場合は、WLAN 設定を開いて、そこにホットスポットが表示されるか確認してください。表示される場合は、Mi Mover に戻り、ホットスポット名をタップします。"</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 新しいデバイスの Mi Mover が最新の状態であることを確認してください。Mi Mover の最新バージョンは GetApps でダウンロードするか、<Data>&lt;a href=%2$s>ここをタップ&lt;/a></Data>"してください。
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. それでもホットスポットが Mi Mover に表示されない場合は、Wi-Fi 設定を開いて、そこにホットスポットが表示されるか確認してください。表示される場合は、Mi Mover に戻り、ホットスポット名をタップします。"</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. 新しいデバイスの Mi Mover が最新の状態であることを確認してください。Mi Mover の最新バージョンは GetApps でダウンロードするか、<Data>&lt;a href=%2$s>ここをタップ&lt;/a></Data>"してください。
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. それでもホットスポットが Mi Mover に表示されない場合は、WLAN 設定を開いて、そこにホットスポットが表示されるか確認してください。表示される場合は、Mi Mover に戻り、ホットスポット名をタップします。"</string>
     <string name="new_trans_intro_desc_old">%d. それでもMi Moverにホットスポットが表示されない場合は、Wi-Fi設定を開き、ホットスポットが表示されるかどうかを確認してください。表示された場合は、Mi Moverに戻り、ホットスポットの名前をタップします。</string>
     <string name="new_trans_intro_question_1">%d. 新しいデバイスのホットスポットが古いデバイスに表示されないのはなぜですか？</string>
+    <string name="new_trans_intro_question_1_pad">%d. 新しいデバイスのホットスポットが古いデバイスに表示されないのはなぜですか？</string>
+    <string name="new_trans_intro_question_1_phone">%d. 新しいデバイスのホットスポットが古いデバイスに表示されないのはなぜですか？</string>
     <string name="new_trans_intro_question_2">%d. ホットスポットのパスワードは何ですか？</string>
     <string name="new_trans_intro_question_3">%d. 古いデバイスのストレージ容量が不足していると表示されるのはなぜですか？</string>
+    <string name="new_trans_intro_question_3_pad">%d. 古いデバイスのストレージ容量が不足していると表示されるのはなぜですか？</string>
+    <string name="new_trans_intro_question_3_phone">%d. 古いデバイスのストレージ容量が不足していると表示されるのはなぜですか？</string>
     <string name="new_trans_intro_question_4">%d. すべてのアプリが正常に転送されないのはなぜですか？</string>
     <string name="new_trans_intro_question_5">%d. 一部のサードパーティアプリアカウントのパスワードが正常に転送されないのはなぜですか？</string>
     <string name="new_trans_intro_question_6">%d. サードパーティのデバイスからアプリデータを転送できないのはなぜですか？</string>
+    <string name="new_trans_intro_question_6_pad">%d. Xiaomi 以外のデバイスからアプリデータを転送できないのはなぜですか？</string>
+    <string name="new_trans_intro_question_6_phone">%d. Xiaomi 以外のデバイスからアプリデータを転送できないのはなぜですか？</string>
     <string name="new_trans_intro_question_7">%d. 転送の途中でMi Moverを離れた場合、次回は最初からやり直す必要がありますか？</string>
     <string name="new_trans_intro_question_8">%d. 新しいデバイスでWeChatの履歴が消えたのはなぜですか？</string>
+    <string name="new_trans_intro_question_8_pad">%d. 新しいデバイスで WeChat の履歴が消えたのはなぜですか？</string>
+    <string name="new_trans_intro_question_8_phone">%d. 新しいデバイスで WeChat の履歴が消えたのはなぜですか？</string>
     <string name="new_version_transfer_downloading">Mi Mover をアップデート中</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">アップデート中…</string>
@@ -712,6 +738,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="scanner_quit_alert_btn_negative">終了</string>
     <string name="scanner_quit_alert_btn_positive">終了しない</string>
     <string name="scanner_quit_alert_message">ここでMi Moverを終了すると、2つのデバイスを再度接続する必要があります。終了してもよろしいですか？</string>
+    <string name="scanner_quit_alert_message_pad">ここで Mi Mover を終了すると、2 つのデバイスを再度接続する必要があります。終了してもよろしいですか？</string>
+    <string name="scanner_quit_alert_message_phone">ここで Mi Mover を終了すると、2 つのデバイスを再度接続する必要があります。終了してもよろしいですか？</string>
     <string name="scanner_quit_alert_title">今すぐ終了しますか？</string>
     <string name="scanner_send_dialog_btn">了解</string>
     <string name="scanner_send_dialog_message">転送中はWi-Fiをオフにしたり、ネットワークを切り替えたりしないでください。</string>
@@ -723,6 +751,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="scanner_wechat_overwrite_hit">サードパーティアプリの制限により、新しいデバイスのチャット履歴やその他のアプリデータは、転送が完了すると古いデバイスのものに置き換えられます。</string>
     <string name="search_menu_title">検索</string>
     <string name="searching_for_new_device">新しいデバイスを検索しています…</string>
+    <string name="searching_for_new_device_pad">新しいデバイスを検索しています…</string>
+    <string name="searching_for_new_device_phone">新しいデバイスを検索しています…</string>
     <string name="secret_package_title_file">ファイル</string>
     <string name="secret_package_title_gallery">アルバム</string>
     <string name="secret_package_title_note">メモ</string>
@@ -753,6 +783,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="select_mi_summary">Xiaomi と Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">古いデバイスのモデルを選択</string>
+    <string name="select_old_device_title_pad">古いデバイスの種類を選択</string>
+    <string name="select_old_device_title_phone">古いデバイスの種類を選択</string>
     <string name="selected">選択済み</string>
     <string name="send">送信</string>
     <string name="send_verification_code_fail">認証コードを送信できませんでした</string>
@@ -842,6 +874,7 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="thursday">木曜日</string>
     <string name="thursday_short">木</string>
     <string name="thursday_shortest">木</string>
+    <string name="time">期間</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">時刻を設定</string>
     <string name="time_picker_label_hour">時</string>
@@ -900,6 +933,8 @@ WeChatを開き、[自分] > [設定] > [一般] > [チャットのバックア�
     <string name="trans_install_guide_new_content_first">"新しいデバイスでこの QR コードをスキャンします。
 Mi Mover をダウンロードしてインストールします。"</string>
     <string name="trans_install_guide_old_content_first">古いデバイスでこの QR コードをスキャンして、Mi Mover をダウンロードかつインストールしてください。</string>
+    <string name="trans_install_guide_old_content_first_pad">古いデバイスでこの QR コードをスキャンして、Mi Mover をダウンロードかつインストールしてください。</string>
+    <string name="trans_install_guide_old_content_first_phone">古いデバイスでこの QR コードをスキャンして、Mi Mover をダウンロードかつインストールしてください。</string>
     <string name="trans_install_guide_text">スキャンしてMi Moverをアップデートします</string>
     <string name="trans_intro_title">よくある質問</string>
     <string name="trans_main_activity_tutor_first">新しいデバイスにアイテムを転送する</string>

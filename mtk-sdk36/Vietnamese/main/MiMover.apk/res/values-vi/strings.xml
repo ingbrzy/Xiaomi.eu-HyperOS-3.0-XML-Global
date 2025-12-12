@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Xóa</string>
     <string name="close">Đóng</string>
     <string name="close_cellular_summary">Thiết bị của bạn hiện đang sử dụng dữ liệu di động do giới hạn hệ thống. Tắt dữ liệu di động và kết nối lại với thiết bị mới.</string>
+    <string name="close_cellular_summary_pad">Thiết bị của bạn hiện đang sử dụng dữ liệu di động do giới hạn của hệ thống. Tắt dữ liệu di động và kết nối lại với thiết bị mới.</string>
+    <string name="close_cellular_summary_phone">Thiết bị của bạn hiện đang sử dụng dữ liệu di động do giới hạn của hệ thống. Tắt dữ liệu di động và kết nối lại với thiết bị mới.</string>
     <string name="close_cellular_title">Không thể kết nối</string>
     <string name="close_twice_auth_btn">Tắt xác thực hai yếu tố</string>
     <string name="close_twice_auth_note">"Lưu ý:
@@ -301,6 +303,8 @@ Mở WeChat và vào Tôi > Cài đặt > Chung > Sao lưu &amp; di chuyển tr�
     <string name="guest_connect_dialog_ensure_text">Kết nối</string>
     <string name="guest_connect_dialog_fail_message">Không thể kết nối. Thử lại.</string>
     <string name="guest_hint_connect_new_device">Chọn thiết bị mới</string>
+    <string name="guest_hint_connect_new_device_pad">Chọn thiết bị mới</string>
+    <string name="guest_hint_connect_new_device_phone">Chọn thiết bị mới</string>
     <string name="guest_install_app_hint_ensure">Tải xuống</string>
     <string name="guest_install_app_hint_summary">Phiên bản mới của Mi Mover không tương thích với phiên bản được cài đặt trên thiết bị này. Tải xuống và cài đặt phiên bản mới.</string>
     <string name="guest_install_app_hint_title">Tải xuống phiên bản Mi Mover mới nhất</string>
@@ -374,6 +378,8 @@ Mở WeChat và vào Tôi > Cài đặt > Chung > Sao lưu &amp; di chuyển tr�
 %2$d. Mang hai thiết bị lại gần nhau."</string>
     <string name="install_app_new_title">Quét mã QR để cài đặt trên thiết bị mới</string>
     <string name="install_app_old_title">Quét mã QR để cài đặt trên thiết bị cũ</string>
+    <string name="install_app_old_title_pad">Quét mã QR để cài đặt Mi Mover trên thiết bị cũ</string>
+    <string name="install_app_old_title_phone">Quét mã QR để cài đặt Mi Mover trên thiết bị cũ</string>
     <string name="install_app_to_another_phone_content">Cài đặt Mi Mover trên thiết bị mới của bạn</string>
     <string name="install_app_to_another_phone_content_global">Cài đặt Mi Mover</string>
     <string name="install_button">Cài đặt</string>
@@ -512,24 +518,44 @@ Mở WeChat và vào Tôi > Cài đặt > Chung > Sao lưu &amp; di chuyển tr�
     <string name="new_app_name">Phiên bản mới</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">Phiên bản mới của Mi Mover không yêu cầu mật khẩu. Chỉ cần mở Mi Mover trên thiết bị cũ của bạn, chạm \"Tôi là người gửi\" và chạm vào tên của điểm phát sóng để kết nối.</string>
+    <string name="new_trans_intro_desc_2_pad">Không cần nhập mật khẩu điểm phát sóng trong phiên bản mới của Mi Mover. Chỉ cần mở Mi Mover trên thiết bị cũ, chạm \"Tôi là người gửi\" và chạm vào tên điểm phát sóng để kết nối.</string>
+    <string name="new_trans_intro_desc_2_phone">Không cần nhập mật khẩu điểm phát sóng trong phiên bản mới của Mi Mover. Chỉ cần mở Mi Mover trên thiết bị cũ, chạm \"Tôi là người gửi\" và chạm vào tên điểm phát sóng để kết nối.</string>
     <string name="new_trans_intro_desc_3">Mi Mover cần dung lượng lưu trữ để tạo gói chuyển trên thiết bị cũ của bạn trước khi gửi đến thiết bị mới. Giải phóng không gian lưu trữ để có thể tiếp tục.</string>
     <string name="new_trans_intro_desc_4">Có thể có các sự cố tương thích với thiết bị, hệ thống và phiên bản ứng dụng ngăn một số ứng dụng được chuyển thành công.</string>
     <string name="new_trans_intro_desc_5">Một số ứng dụng (ví dụ: dịch vụ tài chính và công cụ thanh toán) không cho phép chuyển mật khẩu vì lý do bảo mật.</string>
     <string name="new_trans_intro_desc_6">Điện thoại Mi mới của bạn có thể không có quyền yêu cầu để làm điều đó.</string>
+    <string name="new_trans_intro_desc_6_pad">Không thể chuyển dữ liệu ứng dụng do Mi Mover không có các quyền cần thiết trên các thiết bị không phải của Xiaomi.</string>
+    <string name="new_trans_intro_desc_6_phone">Không thể chuyển dữ liệu ứng dụng do Mi Mover không có các quyền cần thiết trên các thiết bị không phải của Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover sẽ có thể bắt đầu từ vị trí mà bạn tạm dừng trước đó. Tuy nhiên, bạn có thể phải bắt đầu lại nếu sự cố tương thích thiết bị ngăn bạn tiếp tục chuyển phần bị gián đoạn.</string>
     <string name="new_trans_intro_desc_8">Lịch sử WeChat từ thiết bị cũ sẽ ghi đè lên lịch sử WeChat của thiết bị mới trong quá trình chuyển.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Đảm bảo Mi Mover trên thiết bị mới của bạn được cập nhật. Bạn có thể tải xuống phiên bản mới nhất của Mi Mover trong Play Store hoặc chạm vào đây:%2$s.
 %3$d. Nếu điểm phát sóng vẫn không xuất hiện trong Mi Mover, hãy mở cài đặt Wi-Fi và kiểm tra xem bạn có thấy điểm phát sóng xuất hiện hay không. Nếu có, hãy quay lại Mi Mover và chạm vào tên của điểm phát sóng."</string>
     <string name="new_trans_intro_desc_new_click">Tải xuống</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Đảm bảo Mi Mover trên thiết bị mới đã được cập nhật. Bạn có thể tải xuống phiên bản mới nhất của Mi Mover trong GetApps hoặc <Data>&lt;a href=%2$s>nhấn vào đây&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Nếu điểm phát sóng vẫn không xuất hiện trong Mi Mover, mở cài đặt Wi-Fi và kiểm tra xem bạn có thấy điểm phát sóng không. Nếu có, quay lại Mi Mover và nhấn vào tên điểm phát sóng."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Đảm bảo Mi Mover trên thiết bị mới đã được cập nhật. Bạn có thể tải xuống phiên bản mới nhất của Mi Mover trong GetApps hoặc <Data>&lt;a href=%2$s>nhấn vào đây&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Nếu điểm phát sóng vẫn không xuất hiện trong Mi Mover, mở cài đặt WLAN và kiểm tra xem bạn có thấy điểm phát sóng không. Nếu có, quay lại Mi Mover và nhấn vào tên điểm phát sóng."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Đảm bảo Mi Mover trên thiết bị mới đã được cập nhật. Bạn có thể tải xuống phiên bản mới nhất của Mi Mover trong GetApps hoặc <Data>&lt;a href=%2$s>nhấn vào đây&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Nếu điểm phát sóng vẫn không xuất hiện trong Mi Mover, mở cài đặt Wi-Fi và kiểm tra xem bạn có thấy điểm phát sóng không. Nếu có, quay lại Mi Mover và nhấn vào tên điểm phát sóng."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Đảm bảo Mi Mover trên thiết bị mới đã được cập nhật. Bạn có thể tải xuống phiên bản mới nhất của Mi Mover trong GetApps hoặc <Data>&lt;a href=%2$s>nhấn vào đây&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Nếu điểm phát sóng vẫn không xuất hiện trong Mi Mover, mở cài đặt WLAN và kiểm tra xem bạn có thấy điểm phát sóng không. Nếu có, quay lại Mi Mover và nhấn vào tên điểm phát sóng."</string>
     <string name="new_trans_intro_desc_old">%d. Nếu điểm phát sóng vẫn không xuất hiện trong Mi Mover, hãy mở cài đặt Wi-Fi và kiểm tra xem điểm phát sóng có ở đó hay không. Nếu thấy, hãy quay lại Mi Mover và chạm vào tên của điểm phát sóng.</string>
     <string name="new_trans_intro_question_1">%d. Tại sao tôi không thể thấy điểm phát sóng của thiết bị mới trên thiết bị cũ?</string>
+    <string name="new_trans_intro_question_1_pad">%d. Tại sao tôi không thể thấy điểm phát sóng của thiết bị mới trên thiết bị cũ?</string>
+    <string name="new_trans_intro_question_1_phone">%d. Tại sao tôi không thể thấy điểm phát sóng của thiết bị mới trên thiết bị cũ?</string>
     <string name="new_trans_intro_question_2">%d. Mật khẩu của điểm phát sóng là gì?</string>
     <string name="new_trans_intro_question_3">%d. Tại sao thiết bị báo rằng không có đủ dung lượng lưu trữ trên thiết bị cũ?</string>
+    <string name="new_trans_intro_question_3_pad">%d. Tại sao lại báo là không đủ dung lượng lưu trữ trên thiết bị cũ?</string>
+    <string name="new_trans_intro_question_3_phone">%d. Tại sao lại báo là không đủ dung lượng lưu trữ trên thiết bị cũ?</string>
     <string name="new_trans_intro_question_4">%d. Tại sao tất cả ứng dụng không được chuyển thành công?</string>
     <string name="new_trans_intro_question_5">%d. Tại sao mật khẩu của một số tài khoản ứng dụng bên thứ ba không được chuyển thành công?</string>
     <string name="new_trans_intro_question_6">%d. Tại sao không thể chuyển dữ liệu ứng dụng từ thiết bị của bên thứ ba?</string>
+    <string name="new_trans_intro_question_6_pad">%d. Tại sao không thể chuyển dữ liệu ứng dụng từ thiết bị không phải của Xiaomi?</string>
+    <string name="new_trans_intro_question_6_phone">%d. Tại sao không thể chuyển dữ liệu ứng dụng từ thiết bị không phải của Xiaomi?</string>
     <string name="new_trans_intro_question_7">%d. Nếu tôi rời Mi Mover giữa chừng thì tôi có phải bắt đầu lại lần sau không?</string>
     <string name="new_trans_intro_question_8">%d. Tại sao lịch sử WeChat không xuất hiện trên thiết bị mới?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Tại sao lịch sử WeChat của tôi biến mất trên thiết bị mới?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Tại sao lịch sử WeChat của tôi biến mất trên thiết bị mới?</string>
     <string name="new_version_transfer_downloading">Đang cập nhật Mi Mover</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">Đang cập nhật…</string>
@@ -712,6 +738,8 @@ Giải phóng ít nhất %s."</string>
     <string name="scanner_quit_alert_btn_negative">Thoát</string>
     <string name="scanner_quit_alert_btn_positive">Không thoát</string>
     <string name="scanner_quit_alert_message">Bạn sẽ phải kết nối hai thiết bị lại nếu bạn thoát Mi Mover bây giờ. Vẫn thoát?</string>
+    <string name="scanner_quit_alert_message_pad">Bạn sẽ phải kết nối lại hai thiết bị nếu thoát Mi Mover bây giờ. Vẫn thoát?</string>
+    <string name="scanner_quit_alert_message_phone">Bạn sẽ phải kết nối lại hai thiết bị nếu thoát Mi Mover ngay bây giờ. Vẫn thoát?</string>
     <string name="scanner_quit_alert_title">Thoát ngay?</string>
     <string name="scanner_send_dialog_btn">Tôi biết</string>
     <string name="scanner_send_dialog_message">Không tắt Wi-Fi hoặc chuyển mạng khi đang chuyển.</string>
@@ -723,6 +751,8 @@ Giải phóng ít nhất %s."</string>
     <string name="scanner_wechat_overwrite_hit">Do hạn chế của ứng dụng bên thứ ba, lịch sử trò chuyện và dữ liệu ứng dụng khác trên thiết bị mới sẽ được thay thế bằng dữ liệu từ thiết bị cũ sau khi quá trình chuyển hoàn tất.</string>
     <string name="search_menu_title">Tìm kiếm</string>
     <string name="searching_for_new_device">Tìm kiếm thiết bị mới…</string>
+    <string name="searching_for_new_device_pad">Đang tìm thiết bị mới…</string>
+    <string name="searching_for_new_device_phone">Đang tìm thiết bị mới…</string>
     <string name="secret_package_title_file">Tập tin</string>
     <string name="secret_package_title_gallery">Album</string>
     <string name="secret_package_title_note">Ghi chú</string>
@@ -753,6 +783,8 @@ Giải phóng ít nhất %s."</string>
     <string name="select_mi_summary">Xiaomi và Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Chọn mẫu thiết bị cũ</string>
+    <string name="select_old_device_title_pad">Chọn loại thiết bị cũ</string>
+    <string name="select_old_device_title_phone">Chọn loại thiết bị cũ</string>
     <string name="selected">Đã chọn</string>
     <string name="send">Gửi</string>
     <string name="send_verification_code_fail">Không thể gửi mã xác minh</string>
@@ -842,6 +874,7 @@ Giải phóng ít nhất %s."</string>
     <string name="thursday">Thứ năm</string>
     <string name="thursday_short">Th 5</string>
     <string name="thursday_shortest">Th 5</string>
+    <string name="time">Khoảng thời gian</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Đặt giờ</string>
     <string name="time_picker_label_hour">Giờ</string>
@@ -900,6 +933,8 @@ Giải phóng ít nhất %s."</string>
     <string name="trans_install_guide_new_content_first">"Quét mã QR này bằng thiết bị mới.
 Tải xuống và cài đặt Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Quét mã QR này bằng thiết bị cũ của bạn để tải xuống và cài đặt Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">Quét mã QR này bằng thiết bị cũ để tải xuống và cài đặt Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">Quét mã QR này bằng thiết bị cũ để tải xuống và cài đặt Mi Mover.</string>
     <string name="trans_install_guide_text">Quét để cập nhật Mi Mover</string>
     <string name="trans_intro_title">Câu hỏi thường gặp</string>
     <string name="trans_main_activity_tutor_first">Chuyển mục sang thiết bị mới</string>

@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">مسح</string>
     <string name="close">إغلاق</string>
     <string name="close_cellular_summary">يستخدم جهازك حاليا بيانات الهاتف بسبب قيود في النظام. يرجى إيقاف تشغيل بيانات الهاتف وإعادة الاتصال بالهاتف الجديد.</string>
+    <string name="close_cellular_summary_pad">يستخدم جهازك حاليًا بيانات الهاتف بسبب قيود النظام. يرجى إيقاف تشغيل بيانات الهاتف وإعادة الاتصال بالهاتف الجديد.</string>
+    <string name="close_cellular_summary_phone">يستخدم جهازك حاليًا بيانات الهاتف بسبب قيود النظام. يرجى إيقاف تشغيل بيانات الهاتف وإعادة الاتصال بالهاتف الجديد.</string>
     <string name="close_cellular_title">لا يمكن الاتصال</string>
     <string name="close_twice_auth_btn">إيقاف التحقق بخطوتين</string>
     <string name="close_twice_auth_note">"ملاحظة:
@@ -301,6 +303,8 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
     <string name="guest_connect_dialog_ensure_text">اتصال</string>
     <string name="guest_connect_dialog_fail_message">تعذر الاتصال. يرجى إعادة المحاولة.</string>
     <string name="guest_hint_connect_new_device">حدد الجهاز الجديد</string>
+    <string name="guest_hint_connect_new_device_pad">حدد جهازًا جديدًا</string>
+    <string name="guest_hint_connect_new_device_phone">حدد جهازًا جديدًا</string>
     <string name="guest_install_app_hint_ensure">تنزيل</string>
     <string name="guest_install_app_hint_summary">لا يتوافق إصدار ناقل Mi الجديد مع الإصدار المثبت على هذا الجهاز. قم بتنزيل الإصدار الجديد وتثبيته.</string>
     <string name="guest_install_app_hint_title">تنزيل أحدث أصدار لناقل Mi</string>
@@ -374,6 +378,8 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
 %2$d. قرب الجهازين من بعضهما البعض."</string>
     <string name="install_app_new_title">امسح رمز QR للتثبيت على الجهاز الجديد</string>
     <string name="install_app_old_title">امسح رمز QR للتثبيت على الجهاز القديم</string>
+    <string name="install_app_old_title_pad">امسح رمز QR لتثبيت ناقل Mi على الجهاز القديم</string>
+    <string name="install_app_old_title_phone">امسح رمز QR لتثبيت ناقل Mi على الجهاز القديم</string>
     <string name="install_app_to_another_phone_content">تثبيت ناقل Mi على جهازك الجديد</string>
     <string name="install_app_to_another_phone_content_global">تنزيل ناقل Mi</string>
     <string name="install_button">تثبيت</string>
@@ -512,24 +518,44 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
     <string name="new_app_name">إصدار جديد</string>
     <string name="new_main_activity_label">ناقل Mi</string>
     <string name="new_trans_intro_desc_2">لا حاجة إلى إدخال كلمة المرور في الإصدار الجديد من ناقل Mi. ما عليك سوى فتح ناقل Mi على جهازك القديم، ثم النقر فوق \"أنا مرسل\"، ثم انقر فوق اسم نقطة الاتصال للاتصال.</string>
+    <string name="new_trans_intro_desc_2_pad">لا حاجة إلى إدخال كلمة مرور نقطة الاتصال في الإصدار الجديد من ناقل Mi. ما عليك سوى فتح ناقل Mi على جهازك القديم، ثم النقر فوق \"أنا مرسل\"، ثم انقر فوق اسم نقطة الاتصال للاتصال.</string>
+    <string name="new_trans_intro_desc_2_phone">لا حاجة إلى إدخال كلمة مرور نقطة الاتصال في الإصدار الجديد من ناقل Mi. ما عليك سوى فتح ناقل Mi على جهازك القديم، ثم النقر فوق \"أنا مرسل\"، ثم انقر فوق اسم نقطة الاتصال للاتصال.</string>
     <string name="new_trans_intro_desc_3">يحتاج ناقل Mi إلى مساحة تخزين لإنشاء حزمة نقل على جهازك القديم قبل إرسالها إلى الجهاز الجديد. قم بتفريغ مساحة لتتمكن من المتابعة.</string>
     <string name="new_trans_intro_desc_4">قد تكون هناك مشكلات في توافق الجهاز والنظام وإصدار التطبيق تمنع نقل بعض التطبيقات بنجاح.</string>
     <string name="new_trans_intro_desc_5">لا تسمح بعض التطبيقات (مثل الخدمات المالية وأدوات الدفع) بنقل كلمات المرور لأسباب أمنية.</string>
     <string name="new_trans_intro_desc_6">قد لا يحتوي هاتف Mi الجديد على الأذونات اللازمة للقيام بذلك.</string>
+    <string name="new_trans_intro_desc_6_pad">لا يمكن نقل بيانات التطبيق لأن ناقل Mi لا يملك الأذونات اللازمة على الأجهزة غير التابعة لشركة Xiaomi.</string>
+    <string name="new_trans_intro_desc_6_phone">لا يمكن نقل بيانات التطبيق لأن ناقل Mi لا يملك الأذونات اللازمة على الأجهزة غير التابعة لشركة Xiaomi.</string>
     <string name="new_trans_intro_desc_7">سيكون بإمكان ناقل Mi البدء عند نقطة التوقف الأخيرة. ومع ذلك، قد تتسبب مشكلة توافق الجهاز في عدم استئناف النقل وقد تحتاج إلى البدء من جديد.</string>
     <string name="new_trans_intro_desc_8">سيقوم سجل WeChat من جهازك القديم بالكتابة فوق سجل WeChat لجهازك الجديد أثناء النقل.</string>
     <string name="new_trans_intro_desc_new">"%1$d. تأكد من تحديث ناقل Mi على جهازك الجديد. يمكنك تنزيل أحدث إصدار لناقل Mi من متجر Play أو انقر هنا: %2$s.
 %3$d. إذا لم تظهر نقطة الاتصال على ناقل Mi، فافتح إعدادات Wi-Fi وتحقق مما إذا كان بإمكانك رؤيتها هناك. إذا وجدتها، ارجع إلى ناقل Mi وانقر على اسم نقطة الاتصال."</string>
     <string name="new_trans_intro_desc_new_click">تنزيل</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. تأكد من تحديث ناقل Mi على جهازك الجديد. يمكنك تنزيل أحدث إصدار من ناقل Mi من GetApps أو <Data>&lt;a href=%2$s>انقر هنا&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. إذا لم تظهر نقطة الاتصال في ناقل Mi، فافتح إعدادات Wi-Fi وتحقق من ظهورها هناك. إذا ظهرت، فارجع إلى ناقل Mi وانقر على اسم نقطة الاتصال."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>.تأكد من تحديث ناقل Mi على جهازك الجديد. يمكنك تنزيل أحدث إصدار من ناقل Mi من GetApps أو <Data>&lt;a href=%2$s>انقر هنا&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. إذا لم تظهر نقطة الاتصال في ناقل Mi، فافتح إعدادات شبكة WLAN وتحقق من ظهورها هناك. إذا ظهرت، فارجع إلى ناقل Mi وانقر على اسم نقطة الاتصال."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. تأكد من تحديث ناقل Mi على جهازك الجديد. يمكنك تنزيل أحدث إصدار من ناقل Mi من GetApps أو <Data>&lt;a href=%2$s>انقر هنا&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. إذا لم تظهر نقطة الاتصال في ناقل Mi، فافتح إعدادات Wi-Fi وتحقق من ظهورها هناك. إذا ظهرت، فارجع إلى ناقل Mi وانقر على اسم نقطة الاتصال."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>.تأكد من تحديث ناقل Mi على جهازك الجديد. يمكنك تنزيل أحدث إصدار من ناقل Mi من GetApps أو <Data>&lt;a href=%2$s>انقر هنا&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. إذا لم تظهر نقطة الاتصال في ناقل Mi، فافتح إعدادات شبكة WLAN وتحقق من ظهورها هناك. إذا ظهرت، فارجع إلى ناقل Mi وانقر على اسم نقطة الاتصال."</string>
     <string name="new_trans_intro_desc_old">%d. إذا استمر عدم ظهور نقطة الاتصال في ناقل Mi، فافتح إعدادات Wi-Fi وتأكد من ظهور نقطة الاتصال هناك. إذا رأيتها، ارجع إلى التطبيق واتصل بنقطة الاتصال هذه.</string>
     <string name="new_trans_intro_question_1">%d. لماذا لا تظهر نقطة اتصال الجهاز الجديد على جهازي القديم؟</string>
+    <string name="new_trans_intro_question_1_pad">%d. لماذا لا تظهر نقطة اتصال الجهاز الجديد على جهازي القديم؟</string>
+    <string name="new_trans_intro_question_1_phone">%d. لماذا لا تظهر نقطة اتصال الجهاز الجديد على جهازي القديم؟</string>
     <string name="new_trans_intro_question_2">%d. ما هي كلمة مرور نقطة الاتصال؟</string>
     <string name="new_trans_intro_question_3">%d. لماذا يحذرك النظام من عدم وجود مساحة كافية على الجهاز القديم؟</string>
+    <string name="new_trans_intro_question_3_pad">%d. لماذا يحذرك النظام من عدم وجود مساحة كافية على الجهاز القديم؟</string>
+    <string name="new_trans_intro_question_3_phone">%d. لماذا يحذرك النظام من عدم وجود مساحة كافية على الجهاز القديم؟</string>
     <string name="new_trans_intro_question_4">%d. لماذا لم يتم نقل جميع التطبيقات بنجاح؟</string>
     <string name="new_trans_intro_question_5">%d. لماذا لم يتم نقل كلمات مرور بعض حسابات تطبيقات الجهات الخارجية بنجاح؟</string>
     <string name="new_trans_intro_question_6">%d. لماذا لا يمكنني نقل بيانات التطبيق من جهاز طرف ثالث؟</string>
+    <string name="new_trans_intro_question_6_pad">%d. لماذا لا يمكنني نقل بيانات التطبيق من جهاز غير تابع لشركة Xiaomi؟</string>
+    <string name="new_trans_intro_question_6_phone">%d. لماذا لا يمكنني نقل بيانات التطبيق من جهاز غير تابع لشركة Xiaomi؟</string>
     <string name="new_trans_intro_question_7">%d. إذا غادرة التطبيق أثناء عملية النقل، فهل يجب أن أبدأ العملية في المرة القادمة من البداية؟</string>
     <string name="new_trans_intro_question_8">%d. لماذا لا يمكنني العثور على سجل WeChat على جهازي الجديد؟</string>
+    <string name="new_trans_intro_question_8_pad">%d. لماذا لا يمكنني العثور على سجل محادثات WeChat على جهازي الجديد؟</string>
+    <string name="new_trans_intro_question_8_phone">%d. لماذا لا يمكنني العثور على سجل محادثات WeChat على جهازي الجديد؟</string>
     <string name="new_version_transfer_downloading">جارٍ تحديث ناقل Mi</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">جارٍ التحديث…</string>
@@ -712,6 +738,8 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
     <string name="scanner_quit_alert_btn_negative">إنهاء</string>
     <string name="scanner_quit_alert_btn_positive">متابعة</string>
     <string name="scanner_quit_alert_message">يجب عليك توصيل الجهازين مرة أخرى إذا قمت بإنهاء ناقل Mi الآن. إنهاء على أي حال؟</string>
+    <string name="scanner_quit_alert_message_pad">سيتعين عليك توصيل الجهازين مرة أخرى إذا أغلقت ناقل Mi الآن. هل تريد إغلاقه على أي حال؟</string>
+    <string name="scanner_quit_alert_message_phone">سيتعين عليك توصيل الجهازين مرة أخرى إذا أغلقت ناقل Mi الآن. هل تريد إغلاقه على أي حال؟</string>
     <string name="scanner_quit_alert_title">إنهاء الآن؟</string>
     <string name="scanner_send_dialog_btn">فهمت</string>
     <string name="scanner_send_dialog_message">لا تقم بإيقاف Wi-Fi أو التبديل بين الشبكات أثناء النقل.</string>
@@ -723,6 +751,8 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
     <string name="scanner_wechat_overwrite_hit">نظرًا للقيود المفروضة على تطبيقات الجهات الخارجية، سيتم استبدال سجلات الدردشة وبيانات التطبيق الآخر على جهازك الجديد بأخرى من الجهاز القديم بعد اكتمال عملية النقل.</string>
     <string name="search_menu_title">البحث</string>
     <string name="searching_for_new_device">جارٍ البحث عن جهاز جديد…</string>
+    <string name="searching_for_new_device_pad">البحث عن الجهاز الجديد…</string>
+    <string name="searching_for_new_device_phone">البحث عن الجهاز الجديد…</string>
     <string name="secret_package_title_file">الملفات</string>
     <string name="secret_package_title_gallery">الألبومات</string>
     <string name="secret_package_title_note">الملاحظات</string>
@@ -753,6 +783,8 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
     <string name="select_mi_summary">Xiaomi و Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">حدد طراز الجهاز القديم</string>
+    <string name="select_old_device_title_pad">حدد نوع الجهاز القديم</string>
+    <string name="select_old_device_title_phone">حدد نوع الجهاز القديم</string>
     <string name="selected">محددة</string>
     <string name="send">مشاركة</string>
     <string name="send_verification_code_fail">تعذر إرسال رمز التحقق</string>
@@ -842,6 +874,7 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
     <string name="thursday">الخميس</string>
     <string name="thursday_short">الخميس</string>
     <string name="thursday_shortest">الخميس</string>
+    <string name="time">الفترة الزمنية</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">ضبط الوقت</string>
     <string name="time_picker_label_hour">س</string>
@@ -900,6 +933,8 @@ Visit https://appleid.apple.com/#!&amp;page=signin لإيقاف التحقق ب�
     <string name="trans_install_guide_new_content_first">"امسح رمز QR بإستخدام الجهاز الجديد.
 لتنزيل وتثبيت ناقل Mi."</string>
     <string name="trans_install_guide_old_content_first">امسح رمز QR هذا بإستخدام هاتفك القديم لتنزيل وتثبيت ناقل Mi.</string>
+    <string name="trans_install_guide_old_content_first_pad">امسح رمز QR هذا باستخدام جهازك القديم لتنزيل ناقل Mi وتثبيته.</string>
+    <string name="trans_install_guide_old_content_first_phone">امسح رمز QR هذا ضوئيًا باستخدام جهازك القديم لتنزيل ناقل Mi وتثبيته.</string>
     <string name="trans_install_guide_text">امسح تحديث ناقل Mi</string>
     <string name="trans_intro_title">الأسئلة الشائعة</string>
     <string name="trans_main_activity_tutor_first">نقل العناصر إلى جهاز جديد</string>

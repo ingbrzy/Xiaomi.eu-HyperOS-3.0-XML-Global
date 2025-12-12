@@ -81,6 +81,8 @@
     <string name="clearable_edittext_clear_description">ניקוי</string>
     <string name="close">סגירה</string>
     <string name="close_cellular_summary">המכשיר שלך משתמש עתה בנתונים ניידים בגלל הגבלות מערכת. כבה את הנתונים הניידים והתחבר שוב למכשיר החדש.</string>
+    <string name="close_cellular_summary_pad">המכשיר שלך משתמש עכשיו בגלישה סלולרית בגלל מגבלות המערכת. יש להשבית את הגלישה הסלולרית ולהתחבר שוב למכשיר החדש.</string>
+    <string name="close_cellular_summary_phone">המכשיר שלך משתמש עכשיו בגלישה סלולרית בגלל מגבלות המערכת. יש להשבית את הגלישה הסלולרית ולהתחבר שוב למכשיר החדש.</string>
     <string name="close_cellular_title">לא ניתן היה להתחבר</string>
     <string name="close_twice_auth_btn">כיבוי האימות הדו-שלבי</string>
     <string name="close_twice_auth_note">"הערה:
@@ -264,6 +266,8 @@
     <string name="guest_connect_dialog_ensure_text">התחבר</string>
     <string name="guest_connect_dialog_fail_message">לא ניתן להתחבר. נא לנסות שוב.</string>
     <string name="guest_hint_connect_new_device">בחר מכשיר חדש</string>
+    <string name="guest_hint_connect_new_device_pad">יש לבחור מכשיר חדש</string>
+    <string name="guest_hint_connect_new_device_phone">יש לבחור מכשיר חדש</string>
     <string name="guest_install_app_hint_ensure">הורד</string>
     <string name="guest_install_app_hint_summary">הגרסה החדשה של Mi Mover אינה תואמת לגירסה המותקנת במכשיר זה. הורד והתקן את הגרסה החדשה.</string>
     <string name="guest_install_app_hint_title">הורד את הגרסה החדשה של Mi Mover</string>
@@ -337,6 +341,8 @@
 %2$d. יש לקרב את שני המכשירים."</string>
     <string name="install_app_new_title">סרוק את קוד ה QR על מנת להתקין את Mi Mover על המכשיר החדש</string>
     <string name="install_app_old_title">סרוק את קוד ה QR על מנת להתקין את Mi Mover על המכשיר הישן</string>
+    <string name="install_app_old_title_pad">יש לסרוק את קוד ה-QR כדי להתקין את Mi Mover במכשיר הישן</string>
+    <string name="install_app_old_title_phone">יש לסרוק את קוד ה-QR כדי להתקין את Mi Mover במכשיר הישן</string>
     <string name="install_app_to_another_phone_content">התקן את Mi Mover על הטלפון החדש שלך</string>
     <string name="install_app_to_another_phone_content_global">התקן את Mi Mover</string>
     <string name="install_button">התקן</string>
@@ -353,7 +359,7 @@
     <string name="loading_data">רק רגע…</string>
     <string name="location_permission_desc">כדי למצוא מכשירים בסביבתך</string>
     <string name="location_permission_request">כדי להתחבר למכשירים אחרים בסביבה הקרובה</string>
-    <string name="lockscreen_access">Pattern area</string>
+    <string name="lockscreen_access">אזור התבנית</string>
     <string name="login">היכנס</string>
     <string name="login_failed">לא ניתן היה להיכנס. נסה שוב.</string>
     <string name="logining">מתחבר…</string>
@@ -475,24 +481,44 @@
     <string name="new_app_name">גרסה חדשה</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">בגרסה החדשה של Mi Mover אין צורך להזין סיסמה. פשוט פתח את Mi Mover במכשיר הישן שלך, הקש על \"אני שולח\" והקש על שם הנקודה החמה כדי להתחבר.</string>
+    <string name="new_trans_intro_desc_2_pad">בגרסה החדשה של Mi Mover אין צורך להזין את סיסמת הנקודה החמה. צריך רק לפתוח את Mi Mover במכשיר הישן, לשלוח על \"אני השולח/ת\" ולהקיש על שם הנקודה החמה כדי להתחבר.</string>
+    <string name="new_trans_intro_desc_2_phone">בגרסה החדשה של Mi Mover אין צורך להזין את סיסמת הנקודה החמה. צריך רק לפתוח את Mi Mover במכשיר הישן, לשלוח על \"אני השולח/ת\" ולהקיש על שם הנקודה החמה כדי להתחבר.</string>
     <string name="new_trans_intro_desc_3">Mi Mover זקוק לשטח אחסון כדי ליצור במכשיר הישן חבילת העברה שתישלח למכשיר החדש. פנה שטח אחסון כדי שתוכל להמשיך.</string>
     <string name="new_trans_intro_desc_4">ייתכן שיש בעיות תאימות בגרסת המכשיר, המערכת או היישום שאינן מאפשרות להעביר את היישומים בהצלחה.</string>
     <string name="new_trans_intro_desc_5">מסיבות אבטחה, יישומים מסוימים (למשל שירותים פיננסיים וכלי תשלום) אינם מאפשרים העברת סיסמאות.</string>
     <string name="new_trans_intro_desc_6">ייתכן שלטלפון ה-Mi החדש שלך אין את ההרשאות הנדרשות לעשות זאת.</string>
+    <string name="new_trans_intro_desc_6_pad">לא ניתן להעביר נתוני יישומים כי במכשירים שאינם מכשירי Xiaomi אין ל-Mi Mover ההרשאות הנדרשות.</string>
+    <string name="new_trans_intro_desc_6_phone">לא ניתן להעביר נתוני יישומים כי במכשירים שאינם מכשירי Xiaomi אין ל-Mi Mover ההרשאות הנדרשות.</string>
     <string name="new_trans_intro_desc_7">Mi Mover יוכל להמשיך מאיפה שהפסקת. עם זאת, ייתכן שתצטרך להתחיל את ההעברה מחדש אם היא לא תחודש בגלל בעיות תאימות של המכשיר.</string>
     <string name="new_trans_intro_desc_8">במהלך ההעברה, היסטוריית WeChat של המכשיר הישן מוחקת את היסטוריית WeChat של המכשיר החדש.</string>
     <string name="new_trans_intro_desc_new">"%1$d. עליך לוודא כי גרסת ה-Mi Mover במכשיר החדש שלך מעודכנת. ניתן להוריד את הגרסה האחרונה של Mi Mover בחנות Play או להקיש כאן: %2$s.
 %3$d. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות Wi-Fi ולבדוק האם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
     <string name="new_trans_intro_desc_new_click">הורד</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות ה-Wi-Fi ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות ה-WLAN ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות ה-Wi-Fi ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות ה-WLAN ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
     <string name="new_trans_intro_desc_old">%d.2. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, פתח את הגדרות ה-Wi-Fi ובדוק אם היא מופיעה שם. אם כן, חזור אל Mi Mover והקש על שם הנקודה החמה.</string>
     <string name="new_trans_intro_question_1">%d. למה אני לא יכול לראות את הנקודה החמה של המכשיר החדש במכשיר הישן?</string>
+    <string name="new_trans_intro_question_1_pad">%d. למה אני רואה את הנקודה החמה של המכשיר החדש במכשיר הישן?</string>
+    <string name="new_trans_intro_question_1_phone">%d. למה אני רואה לראות את הנקודה החמה של המכשיר החדש במכשיר הישן?</string>
     <string name="new_trans_intro_question_2">%d. מהי הסיסמה של הנקודה החמה?</string>
     <string name="new_trans_intro_question_3">%d. למה כתוב שאין מספיק שטח אחסון במכשיר הישן?</string>
+    <string name="new_trans_intro_question_3_pad">%d. למה אני רואה הודעה שאין מספיק שטח אחסון במכשיר הישן?</string>
+    <string name="new_trans_intro_question_3_phone">%d. למה אני רואה הודעה שאין מספיק שטח אחסון במכשיר הישן?</string>
     <string name="new_trans_intro_question_4">%d. למה לא כל האפליקציות מועברות בהצלחה?</string>
     <string name="new_trans_intro_question_5">%d. למה הסיסמאות של חשבונות של אפליקציות של צד שלישי לא מועברות בהצלחה?</string>
     <string name="new_trans_intro_question_6">%d. למה לא ניתן להעביר נתוני אפליקציות ממכשיר צד שלישי?</string>
+    <string name="new_trans_intro_question_6_pad">%d. למה לא ניתן להעביר נתוני יישומים ממכשיר שאינו מכשיר מכשיר Xiaomi?</string>
+    <string name="new_trans_intro_question_6_phone">%d. למה לא ניתן להעביר נתוני יישומים ממכשיר שאינו מכשיר מכשיר Xiaomi?</string>
     <string name="new_trans_intro_question_7">%d. אם אעזוב את Mi Mover באמצע העברה, האם אצטרך להתחיל מחדש בפעם הבאה?</string>
     <string name="new_trans_intro_question_8">%d. למה היסטוריית ה-WeChat שלי נעלמה במכשיר החדש?</string>
+    <string name="new_trans_intro_question_8_pad">%d. למה היסטוריית WeChat שלי נעלמה במכשיר החדש?</string>
+    <string name="new_trans_intro_question_8_phone">%d. למה היסטוריית WeChat שלי נעלמה במכשיר החדש?</string>
     <string name="new_version_transfer_downloading">מעדכן את Mi Mover</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">מעדכן…</string>
@@ -673,6 +699,8 @@
     <string name="scanner_quit_alert_btn_negative">יציאה</string>
     <string name="scanner_quit_alert_btn_positive">אל תצא</string>
     <string name="scanner_quit_alert_message">תצטרך לחבר שני מכשירים שוב אם תצא מ Mi Mover כעת. האם לצאת בכל אופן?</string>
+    <string name="scanner_quit_alert_message_pad">אם תצאו מ-Mi Mover עכשיו, תצטרכו לחבר בין שני המכשירים מחדש. לצאת בכל זאת?</string>
+    <string name="scanner_quit_alert_message_phone">אם תצאו מ-Mi Mover עכשיו, תצטרכו לחבר בין שני המכשירים מחדש. לצאת בכל זאת?</string>
     <string name="scanner_quit_alert_title">האם לצאת כעת?</string>
     <string name="scanner_send_dialog_btn">הבנתי</string>
     <string name="scanner_send_dialog_message">אל תכבה את הרשת האלחוטית או תחליף בין שני רשתות תקשורת בזמן ההעברה.</string>
@@ -683,6 +711,8 @@
     <string name="scanner_title_tip">בחר פריטים להעברה</string>
     <string name="scanner_wechat_overwrite_hit">"בסיום ההעברה, עקב מגבלות יישום של צד שלישי, היסטוריות הצ'אט ונתונים נוספים של היישום שבמכשיר שלך יוחלפו באלו של היישום הישן."</string>
     <string name="searching_for_new_device">מחפש את המכשיר החדש…</string>
+    <string name="searching_for_new_device_pad">מחפש את המכשיר החדש…</string>
+    <string name="searching_for_new_device_phone">מחפש את המכשיר החדש…</string>
     <string name="secret_package_title_file">קבצים</string>
     <string name="secret_package_title_gallery">אלבומים</string>
     <string name="secret_package_title_note">פתקים</string>
@@ -713,6 +743,8 @@
     <string name="select_mi_summary">Xiaomi ו-Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">בחר בדגם המכשיר הישן</string>
+    <string name="select_old_device_title_pad">יש לבחור בסוג המכשיר הישן</string>
+    <string name="select_old_device_title_phone">יש לבחור בסוג המכשיר הישן</string>
     <string name="selected">בחר</string>
     <string name="send">שליחה</string>
     <string name="send_verification_code_fail">לא ניתן היה לשלוח את קוד האימות</string>
@@ -800,6 +832,7 @@
     <string name="thursday">חמישי</string>
     <string name="thursday_short">"ה'"</string>
     <string name="thursday_shortest">"ה'"</string>
+    <string name="time">פרק הזמן</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">הגדרת זמן</string>
     <string name="time_picker_label_hour">"שע'"</string>
@@ -858,6 +891,8 @@
     <string name="trans_install_guide_new_content_first">"יש לסרוק קוד QR זה באמצעות המכשיר החדש.
 להוריד ולהתקין את Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">יש לסרוק קוד QR זה באמצעות המכשיר הישן כדי להוריד ולהתקין את Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">יש לסרוק את קוד QR זה באמצעות המכשיר הישן כדי להוריד ולהתקין את Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">יש לסרוק את קוד QR זה באמצעות המכשיר הישן כדי להוריד ולהתקין את Mi Mover.</string>
     <string name="trans_install_guide_text">סרוק כדי לעדכן את Mi Mover</string>
     <string name="trans_intro_title">שאלות נפוצות</string>
     <string name="trans_main_activity_tutor_first">העברת פריטים למכשיר חדש</string>

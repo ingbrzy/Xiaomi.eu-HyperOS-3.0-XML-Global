@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Ryd</string>
     <string name="close">Luk</string>
     <string name="close_cellular_summary">Din enhed bruger nu mobildata på grund af systembegrænsninger. Deaktiver mobildata, og tilslut til den nye enhed igen.</string>
+    <string name="close_cellular_summary_pad">Din enhed bruger mobildata på grund af systembegrænsninger. Slå mobildata fra, og forbind til den nye enhed igen.</string>
+    <string name="close_cellular_summary_phone">Din enhed bruger mobildata på grund af systembegrænsninger. Slå mobildata fra, og forbind til den nye enhed igen.</string>
     <string name="close_cellular_title">Kunne ikke tilslutte</string>
     <string name="close_twice_auth_btn">Sluk tofaktor-autentifikation</string>
     <string name="close_twice_auth_note">"Bemærk:
@@ -301,6 +303,8 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="guest_connect_dialog_ensure_text">Opret forbindelse</string>
     <string name="guest_connect_dialog_fail_message">Kunne ikke tilslutte. Prøv igen.</string>
     <string name="guest_hint_connect_new_device">Vælg ny enhed</string>
+    <string name="guest_hint_connect_new_device_pad">Vælg ny enhed</string>
+    <string name="guest_hint_connect_new_device_phone">Vælg ny enhed</string>
     <string name="guest_install_app_hint_ensure">Download</string>
     <string name="guest_install_app_hint_summary">Den nye version af Mi Mover er ikke kompatibel med den, der er installeret på denne enhed. Download og installer den nye version.</string>
     <string name="guest_install_app_hint_title">Download den nye version af Mi Mover</string>
@@ -374,6 +378,8 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
 %2$d. Anbring de to enheder tæt på hinanden."</string>
     <string name="install_app_new_title">Scan QR-koden for at installere på den nye enhed</string>
     <string name="install_app_old_title">Scan QR-koden for at installere på den gamle enhed</string>
+    <string name="install_app_old_title_pad">Scan QR-koden for at installere Mi Mover på den gamle enhed</string>
+    <string name="install_app_old_title_phone">Scan QR-koden for at installere Mi Mover på den gamle enhed</string>
     <string name="install_app_to_another_phone_content">Installer Mi Mover på din nye enhed</string>
     <string name="install_app_to_another_phone_content_global">Installér Mi Mover</string>
     <string name="install_button">Installér</string>
@@ -390,7 +396,7 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="loading_data">Lige et øjeblik…</string>
     <string name="location_permission_desc">For at finde enheder i nærheden</string>
     <string name="location_permission_request">For at tilslutte til andre enheder i nærheden</string>
-    <string name="lockscreen_access">Pattern area</string>
+    <string name="lockscreen_access">Mønsterområde</string>
     <string name="login">Log ind</string>
     <string name="login_failed">Kunne ikke logge ind. Prøv igen.</string>
     <string name="logining">Logger ind…</string>
@@ -512,24 +518,44 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="new_app_name">Ny version</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">Det er ikke nødvendigt at indtaste adgangskode i den nye version af Mi Mover. Du skal bare åbne Mi Mover på den gamle enhed, trykke på \"Jeg er afsender\", og trykke på navnet på det hotspot, der skal forbindes.</string>
+    <string name="new_trans_intro_desc_2_pad">Du behøver ikke indtaste adgangskoden til hotspottet i den nye version af Mi Mover. Åbn bare Mi Mover på din gamle enhed, tryk på \"Jeg sender\", og tryk derefter på navnet på hotspottet for at oprette forbindelse.</string>
+    <string name="new_trans_intro_desc_2_phone">Du behøver ikke indtaste adgangskoden til hotspottet i den nye version af Mi Mover. Åbn bare Mi Mover på din gamle enhed, tryk på \"Jeg sender\", og tryk derefter på navnet på hotspottet for at oprette forbindelse.</string>
     <string name="new_trans_intro_desc_3">Mi Mover skal bruge lagerplads til at overføre en overførselspakke på din gamle enhed, inden den sendes til den nye. Frigør lagerplads for at kunne fortsætte.</string>
     <string name="new_trans_intro_desc_4">Der kan være kompatibilitetsproblemer med versionen af enhed, system og app, som forhindrer visse apps i at overføres korrekt.</string>
     <string name="new_trans_intro_desc_5">Visse apps (f.eks. økonomiske tjenester og betalingsværktøjer) tillader af sikkerhedsmæssige årsager ikke overførsel af adgangskoder.</string>
     <string name="new_trans_intro_desc_6">Din nye Mi-telefon har muligvis ikke de påkrævede tilladelser til at gøre dette.</string>
+    <string name="new_trans_intro_desc_6_pad">Appdata kan ikke overføres, fordi Mi Mover ikke har de nødvendige tilladelser på enheder, der ikke er Xiaomi.</string>
+    <string name="new_trans_intro_desc_6_phone">Appdata kan ikke overføres, fordi Mi Mover ikke har de nødvendige tilladelser på enheder, der ikke er Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover vil kunne starte fra, hvor du slap. Du skal dog muligvis starte forfra, hvis kompatibilitetsproblemer forhindrer dig i at genoptage den afbrudte overførsel.</string>
     <string name="new_trans_intro_desc_8">WeChat-historikken fra din gamle enhed vil overskrive WeChat-historikken på din nye enhed under overførslen.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den seneste version af Mi Mover i Play Butik eller trykke her: %2$s.
 %3$d. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne Wi-fi-indstillinger og tjekke, om du kan se det der. Hvis det er tilfældet, skal du gå tilbage til Mi Mover og trykke på navnet på hotspottet."</string>
     <string name="new_trans_intro_desc_new_click">Download</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. IHvis hotspottet stadig ikke vises i Mi Mover, skal du åbne wi-fi-indstillingerne og tjekke, om du kan se det der. Hvis ja, så gå tilbage til Mi Mover, og tryk på navnet på hotspottet."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. IHvis hotspottet stadig ikke vises i Mi Mover, skal du åbne WLAN-indstillingerne og tjekke, om du kan se det der. Hvis ja, så gå tilbage til Mi Mover, og tryk på navnet på hotspottet."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne wi-fi-indstillinger og tjekke, om du kan se det der. Hvis ja, så gå tilbage til Mi Mover, og tryk på navnet på hotspottet."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne WLAN-indstillinger og tjekke, om du kan se det der. Hvis ja, så gå tilbage til Mi Mover, og tryk på navnet på hotspottet."</string>
     <string name="new_trans_intro_desc_old">%d. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne Wi-Fi-indstillinger og se, om du kan se det der. Hvis ja, skal du gå tilbage til Mi Mover og trykke på hotspottets navn.</string>
     <string name="new_trans_intro_question_1">%d. Hvorfor kan jeg ikke se den nye enheds hotspot på den gamle enhed?</string>
+    <string name="new_trans_intro_question_1_pad">%d Hvorfor kan jeg ikke se hotspot fra den nye enhed på den gamle?</string>
+    <string name="new_trans_intro_question_1_phone">%d Hvorfor kan jeg ikke se hotspot fra den nye enhed på den gamle?</string>
     <string name="new_trans_intro_question_2">%d. Hvad er adgangskoden til hotspottet?</string>
     <string name="new_trans_intro_question_3">%d. Hvorfor siger den, at der ikke er nok lagerplads på den gamle enhed?</string>
+    <string name="new_trans_intro_question_3_pad">%d. Hvorfor står der, at der ikke er nok lagerplads på den gamle enhed?</string>
+    <string name="new_trans_intro_question_3_phone">%d. Hvorfor står der, at der ikke er nok lagerplads på den gamle enhed?</string>
     <string name="new_trans_intro_question_4">%d. Hvorfor er alle apps ikke overført?</string>
     <string name="new_trans_intro_question_5">%d. Hvorfor er adgangskoderne til nogle tredjepartskonti ikke overført?</string>
     <string name="new_trans_intro_question_6">%d. Hvorfor kan appdata ikke overføres fra en tredjepartsenhed?</string>
+    <string name="new_trans_intro_question_6_pad">%d. Hvorfor kan appdata ikke overføres fra en enhed, der ikke er Xiaomi?</string>
+    <string name="new_trans_intro_question_6_phone">%d. Hvorfor kan appdata ikke overføres fra en enhed, der ikke er Xiaomi?</string>
     <string name="new_trans_intro_question_7">%d. Er jeg nødt til at starte forfra næste gang, hvis jeg forlader Mi Mover midt i en overførsel?</string>
     <string name="new_trans_intro_question_8">%d. Hvorfor forsvandt min WeChat-historik på den nye enhed?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Hvorfor forsvandt min WeChat-historik på den nye enhed?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Hvorfor forsvandt min WeChat-historik på den nye enhed?</string>
     <string name="new_version_transfer_downloading">Opdaterer Mi Mover</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">Opdaterer…</string>
@@ -712,6 +738,8 @@ Frigør mindst %s."</string>
     <string name="scanner_quit_alert_btn_negative">Afslut</string>
     <string name="scanner_quit_alert_btn_positive">Afslut ikke</string>
     <string name="scanner_quit_alert_message">Du vil være nødt til at forbinde de to enheder igen, hvis du afslutter Mi Mover nu. Afslut alligevel?</string>
+    <string name="scanner_quit_alert_message_pad">Du skal forbinde de to enheder igen, hvis du afslutter Mi Mover nu. Afslut alligevel?</string>
+    <string name="scanner_quit_alert_message_phone">Du skal forbinde de to enheder igen, hvis du afslutter Mi Mover nu. Afslut alligevel?</string>
     <string name="scanner_quit_alert_title">Afslut nu?</string>
     <string name="scanner_send_dialog_btn">Forstået</string>
     <string name="scanner_send_dialog_message">Sluk ikke Wi-Fi eller skift mellem netværk under overførslen.</string>
@@ -723,6 +751,8 @@ Frigør mindst %s."</string>
     <string name="scanner_wechat_overwrite_hit">På grund af tredjeparts appbegrænsninger erstattes chathistorik og andre appdata på din nye enhed med dem fra den gamle, efter overførslen er slut.</string>
     <string name="search_menu_title">Søg</string>
     <string name="searching_for_new_device">Søger efter den nye enhed…</string>
+    <string name="searching_for_new_device_pad">Søger efter den nye enhed…</string>
+    <string name="searching_for_new_device_phone">Søger efter den nye enhed…</string>
     <string name="secret_package_title_file">Filer</string>
     <string name="secret_package_title_gallery">Albummer</string>
     <string name="secret_package_title_note">Noter</string>
@@ -753,6 +783,8 @@ Frigør mindst %s."</string>
     <string name="select_mi_summary">Xiaomi og Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Vælg gammel enhedsmodel</string>
+    <string name="select_old_device_title_pad">Vælg type af gammel enhed</string>
+    <string name="select_old_device_title_phone">Vælg type af gammel enhed</string>
     <string name="selected">Valgt</string>
     <string name="send">Send</string>
     <string name="send_verification_code_fail">Kunne ikke sende verifikationskode</string>
@@ -842,6 +874,7 @@ Frigør mindst %s."</string>
     <string name="thursday">Torsdag</string>
     <string name="thursday_short">Tors</string>
     <string name="thursday_shortest">Tors</string>
+    <string name="time">Tidsperiode</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Indstil tid</string>
     <string name="time_picker_label_hour">T</string>
@@ -900,6 +933,8 @@ Frigør mindst %s."</string>
     <string name="trans_install_guide_new_content_first">"Scan denne QR-kode med din nye telefon
 Download og installer Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Scan denne QR-kode med din gamle enhed for at downloade og installere Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">Scan denne QR-kode med din gamle enhed for at downloade og installere Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">Scan denne QR-kode med din gamle enhed for at downloade og installere Mi Mover.</string>
     <string name="trans_install_guide_text">Scan for at opdatere Mi Mover</string>
     <string name="trans_intro_title">FAQ/OSS</string>
     <string name="trans_main_activity_tutor_first">Overfør elementer til en ny enhed</string>

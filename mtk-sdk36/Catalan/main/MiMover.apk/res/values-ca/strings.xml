@@ -42,7 +42,7 @@
     <string name="am">AM</string>
     <string name="antispam">Llista de bloqueig</string>
     <string name="app_name">Mi Mover</string>
-    <string name="app_update_64_dialog_title_formatted">Update to %1$d-bit architecture</string>
+    <string name="app_update_64_dialog_title_formatted">"Actualització a l'arquitectura de %1$d bits"</string>
     <string name="apple_calendar">Esdeveniments del calendari</string>
     <string name="apple_contacts">Contactes</string>
     <string name="apple_image">Fotos</string>
@@ -55,7 +55,7 @@
     <string name="apple_video">Vídeos</string>
     <string name="appname_app_data_suffix">"%1$s dades de L'aplicació"</string>
     <string name="apps_cannot_be_transfered_next_button">Següent</string>
-    <string name="apps_cannot_be_transfered_summary_formatted">"These %1$d-bit apps can't be transferred to a %2$d-bit device. You can download them directly from GetApps after the transfer."</string>
+    <string name="apps_cannot_be_transfered_summary_formatted">Aquestes aplicacions de %1$d bits no es poden transferir a un dispositiu de %2$d bits. Les podeu baixar directament des de GetApps després de la transferència.</string>
     <string name="audio">Àudio</string>
     <string name="audio_video_document">Àudio, vídeo i documents</string>
     <string name="back">Enrere</string>
@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Netejar</string>
     <string name="close">Tanca</string>
     <string name="close_cellular_summary">"El teu dispositiu ara està fent servir dades mòbils degut a restriccions del sistema. Desactiva les dades mòbils i connecta't un altre cop al dispositiu nou."</string>
+    <string name="close_cellular_summary_pad">El vostre dispositiu ara està fent servir dades mòbils a causa de restriccions del sistema. Desactiveu les dades mòbils i connecteu-vos un altre cop al dispositiu nou.</string>
+    <string name="close_cellular_summary_phone">El vostre dispositiu ara està fent servir dades mòbils a causa de restriccions del sistema. Desactiveu les dades mòbils i connecteu-vos un altre cop al dispositiu nou.</string>
     <string name="close_cellular_title">"No s'ha pogut connectar"</string>
     <string name="close_twice_auth_btn">"Desactiva L'autenticació de dos factors"</string>
     <string name="close_twice_auth_note">"Nota:
@@ -301,6 +303,8 @@ Obre WeChat i ves a Jo > Ajustaments > General > Còpia de seguretat i migració
     <string name="guest_connect_dialog_ensure_text">Connecta</string>
     <string name="guest_connect_dialog_fail_message">"No s'ha pogut connectar. Proveu-ho de nou."</string>
     <string name="guest_hint_connect_new_device">Seleccioneu un dispositiu nou</string>
+    <string name="guest_hint_connect_new_device_pad">Seleccioneu un dispositiu nou</string>
+    <string name="guest_hint_connect_new_device_phone">Seleccioneu un dispositiu nou</string>
     <string name="guest_install_app_hint_ensure">Descarrega</string>
     <string name="guest_install_app_hint_summary">La nova versió de Mi Mover no és compatible amb la que tens instal·lada en aquest dispositiu. Baixa i instal·la la nova versió.</string>
     <string name="guest_install_app_hint_title">Baixa la nova versió de Mi Mover</string>
@@ -374,6 +378,8 @@ Obre WeChat i ves a Jo > Ajustaments > General > Còpia de seguretat i migració
 %2$d. Aprofiteu els dos dispositius."</string>
     <string name="install_app_new_title">Escaneja el codi QR per a instal·lar Mi Mover en el dispositiu nou</string>
     <string name="install_app_old_title">Escaneja el codi QR per a instal·lar Mi Mover en el dispositiu vell</string>
+    <string name="install_app_old_title_pad">Escaneja el codi QR per a instal·lar Mi Mover en el dispositiu vell</string>
+    <string name="install_app_old_title_phone">Escaneja el codi QR per a instal·lar Mi Mover en el dispositiu vell</string>
     <string name="install_app_to_another_phone_content">Instal·leu Mi Mover al vostre nou dispositiu</string>
     <string name="install_app_to_another_phone_content_global">Instal·la Mi Mover</string>
     <string name="install_button">Instal·la</string>
@@ -512,24 +518,44 @@ Obre WeChat i ves a Jo > Ajustaments > General > Còpia de seguretat i migració
     <string name="new_app_name">Versió nova</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">"No cal posar la contrasenya en la nova versió de Mi Mover. Només has d'obrir Mi Mover al teu dispositiu vell, prémer \"Sóc un remitent\" i prémer el nom del punt wifi per a connectar-te."</string>
+    <string name="new_trans_intro_desc_2_pad">"No cal posar la contrasenya del punt d'accés en la nova versió de Mi Mover. Només heu d'obrir Mi Mover al vostre dispositiu vell, prémer \"Sóc un remitent\" i prémer el nom del punt d'accés per a connectar-vos."</string>
+    <string name="new_trans_intro_desc_2_phone">"No cal posar la contrasenya del punt d'accés en la nova versió de Mi Mover. Només heu d'obrir Mi Mover al vostre dispositiu vell, prémer \"Sóc un remitent\" i prémer el nom del punt d'accés per a connectar-vos."</string>
     <string name="new_trans_intro_desc_3">"Mi Mover necessita espai per a crear un paquet de transferència al teu dispositiu vell abans d'enviar-lo al dispositiu nou. Allibera espai per a poder continuar."</string>
     <string name="new_trans_intro_desc_4">"Podria haver problemes amb el dispositiu, el sistema o la compatibilitat de la versió de L'aplicació que hagin evitat que algunes aplicacions es transmetessin correctament."</string>
     <string name="new_trans_intro_desc_5">Algunes aplicacions (com ara eines de serveis financers o de pagament) no permeten la transferència de contrasenyes, per motius de seguretat.</string>
     <string name="new_trans_intro_desc_6">És possible que el teu telèfon Mi nou no tingui els permisos adients per a fer-ho.</string>
+    <string name="new_trans_intro_desc_6_pad">"No es poden transferir les dades de l'aplicació perquè Mi Mover no té els permisos necessaris en dispositius que no són Xiaomi."</string>
+    <string name="new_trans_intro_desc_6_phone">"No es poden transferir les dades de l'aplicació perquè Mi Mover no té els permisos necessaris en dispositius que no són Xiaomi."</string>
     <string name="new_trans_intro_desc_7">Mi Mover podrà reprendre allà on et vas quedar. Tanmateix, és possible que hagis de començar des del principi si alguna incompatibilitat del dispositiu no fa possible que reprenguis la transferència interrompuda.</string>
     <string name="new_trans_intro_desc_8">"L'historial de WeChat del teu vell dispositiu sobreescriurà L'historial de WeChat del teu dispositiu nou durant la transferència."</string>
     <string name="new_trans_intro_desc_new">"%1$d. Assegureu-vos que Mi Mover del vostre nou dispositiu estigui actualitzat. Pots baixar l'última versió de Mi Mover a Play Store o tocar aquí: %2$s.
 %3$d. Si el punt d'accés encara no apareix a Mi Mover, obriu la configuració de Wi-Fi i comproveu si el podeu veure allà. Si és així, torneu a Mi Mover i toqueu el nom del punt d'accés."</string>
     <string name="new_trans_intro_desc_new_click">Descarregar</string>
+    <string name="new_trans_intro_desc_new_pad">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la wifi i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
+    <string name="new_trans_intro_desc_new_pad_china">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la WLAN i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
+    <string name="new_trans_intro_desc_new_phone">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la wifi i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
+    <string name="new_trans_intro_desc_new_phone_china">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la WLAN i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
     <string name="new_trans_intro_desc_old">"%d. Si el punt d'accés encara no apareix a Mi Mover, obre la ConfiguracióWi-Fi i comprova si pots veure'l allà. Si el pots veure, torna a Mi Mover i prem el nom del punt d'accés."</string>
     <string name="new_trans_intro_question_1">"%d. Per què no puc veure el punt d'accés del nou dispositiu a L'antic?"</string>
+    <string name="new_trans_intro_question_1_pad">"%d. Per què no puc veure el punt d'accés del nou dispositiu a l'antic?"</string>
+    <string name="new_trans_intro_question_1_phone">"%d. Per què no puc veure el punt d'accés del nou dispositiu a l'antic?"</string>
     <string name="new_trans_intro_question_2">"%d. Quina és la contrasenya del punt d'accés Wi-Fi?"</string>
     <string name="new_trans_intro_question_3">"%d. Per què diu que no hi ha prou espai d'emmagatzematge al dispositiu antic?"</string>
+    <string name="new_trans_intro_question_3_pad">"%d. Per què diu que no hi ha prou espai d'emmagatzematge al dispositiu antic?"</string>
+    <string name="new_trans_intro_question_3_phone">"%d. Per què diu que no hi ha prou espai d'emmagatzematge al dispositiu antic?"</string>
     <string name="new_trans_intro_question_4">%d. Per què no es transfereixen totes les aplicacions amb èxit?</string>
     <string name="new_trans_intro_question_5">"%d. Per què no es transfereixen correctament les contrasenyes d'alguns comptes d'aplicacions de tercers?"</string>
     <string name="new_trans_intro_question_6">"%d. Per què no es poden transferir les dades de L'aplicació des d'un dispositiu de tercers?"</string>
+    <string name="new_trans_intro_question_6_pad">"%d. Per què no es poden transferir dades d'aplicacions des d'un dispositiu que no sigui Xiaomi?"</string>
+    <string name="new_trans_intro_question_6_phone">"%d. Per què no es poden transferir dades d'aplicacions des d'un dispositiu que no sigui Xiaomi?"</string>
     <string name="new_trans_intro_question_7">%d. Si deixo Mi Mover enmig d’una transferència, hauré de començar de nou la propera vegada?</string>
     <string name="new_trans_intro_question_8">%d. Per què va desaparèixer el meu historial WeChat al nou dispositiu?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Per què va desaparèixer el meu historial WeChat al nou dispositiu?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Per què va desaparèixer el meu historial WeChat al nou dispositiu?</string>
     <string name="new_version_transfer_downloading">"S'està actualitzant Mi Mover"</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">"S'està actualitzant…"</string>
@@ -667,9 +693,9 @@ Obre WeChat i ves a Jo > Ajustaments > General > Còpia de seguretat i migració
     <string name="receiver_finish_not_transferred">Sense transferir</string>
     <string name="receiver_finish_title">Tot a punt!</string>
     <string name="receiver_finish_transferred">Transferit</string>
-    <string name="recent_one_year_formatted">Past %d year</string>
-    <string name="recent_seven_days_formatted">Past %d days</string>
-    <string name="recent_thirty_days_formatted">Past %d days</string>
+    <string name="recent_one_year_formatted">Últims %d anys</string>
+    <string name="recent_seven_days_formatted">Últims %d dies</string>
+    <string name="recent_thirty_days_formatted">Últims %d dies</string>
     <string name="reconnect">Torna a connectar</string>
     <string name="recreate_soft_ap_tips">Toqueu el botó de sota per provar-ho de nou.</string>
     <string name="refuse_accept">"No hi estic d'acord"</string>
@@ -712,6 +738,8 @@ Allibereu %s com a mínim."</string>
     <string name="scanner_quit_alert_btn_negative">Sortir</string>
     <string name="scanner_quit_alert_btn_positive">No sortiu</string>
     <string name="scanner_quit_alert_message">Haureu de tornar a connectar els dos dispositius si sortiu de Mi Mover ara. Voleu sortir de totes maneres?</string>
+    <string name="scanner_quit_alert_message_pad">Haureu de tornar a connectar els dos dispositius si sortiu de Mi Mover ara. Voleu sortir de totes maneres?</string>
+    <string name="scanner_quit_alert_message_phone">Haureu de tornar a connectar els dos dispositius si sortiu de Mi Mover ara. Voleu sortir de totes maneres?</string>
     <string name="scanner_quit_alert_title">Voleu sortir ara?</string>
     <string name="scanner_send_dialog_btn">Entesos</string>
     <string name="scanner_send_dialog_message">No desactiveu la connexió Wi-Fi ni canvieu entre una xarxa durant la transferència.</string>
@@ -723,6 +751,8 @@ Allibereu %s com a mínim."</string>
     <string name="scanner_wechat_overwrite_hit">"A causa de les restriccions d'aplicacions de tercers, L'historial de les converses i altres dades d'aplicacions del teu nou dispositiu se substituiran per les de L'antic un cop hagi finalitzat la transferència."</string>
     <string name="search_menu_title">Cerca</string>
     <string name="searching_for_new_device">"S'està cercant el dispositiu nou…"</string>
+    <string name="searching_for_new_device_pad">"S'està cercant el dispositiu nou…"</string>
+    <string name="searching_for_new_device_phone">"S'està cercant el dispositiu nou…"</string>
     <string name="secret_package_title_file">Fitxers</string>
     <string name="secret_package_title_gallery">Àlbums</string>
     <string name="secret_package_title_note">Notes</string>
@@ -753,6 +783,8 @@ Allibereu %s com a mínim."</string>
     <string name="select_mi_summary">Xiaomi i Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Seleccioneu un model de dispositiu antic</string>
+    <string name="select_old_device_title_pad">Seleccioneu un tipus de dispositiu antic</string>
+    <string name="select_old_device_title_phone">Seleccioneu un tipus de dispositiu antic</string>
     <string name="selected">Seleccionats</string>
     <string name="send">Envia</string>
     <string name="send_verification_code_fail">"No s'ha pogut enviar el codi de verificació"</string>
@@ -842,6 +874,7 @@ Allibereu %s com a mínim."</string>
     <string name="thursday">dijous</string>
     <string name="thursday_short">dj.</string>
     <string name="thursday_shortest">dj.</string>
+    <string name="time">Període de temps</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Definir hora</string>
     <string name="time_picker_label_hour">H</string>
@@ -900,6 +933,8 @@ Allibereu %s com a mínim."</string>
     <string name="trans_install_guide_new_content_first">"Escaneja aquest codi QR amb el dispositiu nou.
 Baixa i instal·la Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Escanegeu aquest codi QR amb el dispositiu antic per baixar i instal·lar Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">Escanegeu aquest codi QR amb el dispositiu antic per baixar i instal·lar Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">Escanegeu aquest codi QR amb el dispositiu antic per baixar i instal·lar Mi Mover.</string>
     <string name="trans_install_guide_text">Escaneja per actualitzar Mi Mover</string>
     <string name="trans_intro_title">PMF</string>
     <string name="trans_main_activity_tutor_first">Transferiu elements a un dispositiu nou</string>

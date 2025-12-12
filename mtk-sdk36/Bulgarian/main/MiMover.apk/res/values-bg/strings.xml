@@ -115,6 +115,8 @@
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
     <string name="close_cellular_summary">В момента вашето устройство използва мобилни данни поради системни ограничения. Изключете мобилните данни и се свържете отново с новото устройство.</string>
+    <string name="close_cellular_summary_pad">В момента устройството използва мобилни данни поради системни ограничения. Изключи мобилните данни и се свържи отново с новото устройство.</string>
+    <string name="close_cellular_summary_phone">В момента устройството използва мобилни данни поради системни ограничения. Изключи мобилните данни и се свържи отново с новото устройство.</string>
     <string name="close_cellular_title">Неуспешно свързване</string>
     <string name="close_twice_auth_btn">Изключи двустепенното удостоверяване</string>
     <string name="close_twice_auth_note">"Забележка:
@@ -301,6 +303,8 @@
     <string name="guest_connect_dialog_ensure_text">Свързване</string>
     <string name="guest_connect_dialog_fail_message">Неуспешно свързване. Опитайте отново.</string>
     <string name="guest_hint_connect_new_device">Изберете ново устройство</string>
+    <string name="guest_hint_connect_new_device_pad">Избери ново устройство</string>
+    <string name="guest_hint_connect_new_device_phone">Избери ново устройство</string>
     <string name="guest_install_app_hint_ensure">Изтегляне</string>
     <string name="guest_install_app_hint_summary">Новата версия на Mi Mover не е съвместима с инсталираната на това устройство. Изтеглете и инсталирайте новата версия.</string>
     <string name="guest_install_app_hint_title">Изтеглете новата версия на Mi Mover</string>
@@ -374,6 +378,8 @@
 %2$d. Поставете двете устройства по-близо едно до друго."</string>
     <string name="install_app_new_title">Сканирайте QR кода, за да инсталирате Mi Mover на новото устройство</string>
     <string name="install_app_old_title">Сканирайте QR кода, за да инсталирате Mi Mover на старото устройство</string>
+    <string name="install_app_old_title_pad">Сканирай QR кода, за да инсталираш Mi Mover на старото устройство</string>
+    <string name="install_app_old_title_phone">Сканирай QR кода, за да инсталираш Mi Mover на старото устройство</string>
     <string name="install_app_to_another_phone_content">Инсталирайте Mi Mover на новото си устройство</string>
     <string name="install_app_to_another_phone_content_global">Инсталиране на Mi Mover</string>
     <string name="install_button">Инсталиране</string>
@@ -390,7 +396,7 @@
     <string name="loading_data">Момент…</string>
     <string name="location_permission_desc">За откриване на устройства наблизо</string>
     <string name="location_permission_request">За свързване към други устройства наблизо</string>
-    <string name="lockscreen_access">Pattern area</string>
+    <string name="lockscreen_access">Област на шаблона</string>
     <string name="login">Вход</string>
     <string name="login_failed">Неуспешно влизане. Опитайте отново.</string>
     <string name="logining">Вписване…</string>
@@ -512,24 +518,44 @@
     <string name="new_app_name">Нова версия</string>
     <string name="new_main_activity_label">Mi Mover</string>
     <string name="new_trans_intro_desc_2">В новата версия на Mi Mover няма нужда да въвеждате парола. Просто отворете Mi Mover на старото си устройство, натиснете \"Аз съм изпращач\" и натиснете името на съответния хотспот, за да се свържете.</string>
+    <string name="new_trans_intro_desc_2_pad">В новата версия на Mi Mover няма нужда да се въвежда парола. Просто отвори Mi Mover на старото устройство, натисни „Аз съм изпращач“ и натисни името на съответния хотспот, за да се свържеш.</string>
+    <string name="new_trans_intro_desc_2_phone">В новата версия на Mi Mover няма нужда да се въвежда парола. Просто отвори Mi Mover на старото устройство, натисни „Аз съм изпращач“ и натисни името на съответния хотспот, за да се свържеш.</string>
     <string name="new_trans_intro_desc_3">Mi Mover се нуждае от място, за да създаде пакет за прехвърляне на старото ви устройство, преди да го изпрати на новото. Освободете място, за да можете да продължите.</string>
     <string name="new_trans_intro_desc_4">Възможно е да има проблеми със съвместимостта на устройствата, системите и версиите на приложението, които пречат на успешното прехвърляне на приложения.</string>
     <string name="new_trans_intro_desc_5">Някои приложения (напр. за финансови услуги или платежни инструменти) не позволяват прехвърлянето на пароли от съображения за сигурност.</string>
     <string name="new_trans_intro_desc_6">Новият Ви Mi телефон може да няма необходимите разрешения за това.</string>
+    <string name="new_trans_intro_desc_6_pad">Данните от приложения не могат да се прехвърлят, защото Mi Mover няма необходимите разрешения за устройства, които не са на Xiaomi.</string>
+    <string name="new_trans_intro_desc_6_phone">Данните от приложения не могат да се прехвърлят, защото Mi Mover няма необходимите разрешения за устройства, които не са на Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover ще може да продължи оттам, откъдето сте прекъснали. Възможно е да се наложи да започнете отначало, ако проблеми със съвместимостта на устройствата предотвратяват възобновяването на прекъснатото прехвърляне.</string>
     <string name="new_trans_intro_desc_8">WeChat историята от старото устройство заема мястото на WeChat историята от новото Ви устройство по време на прехвърлянето.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Уверете се, че Mi Mover на вашето ново устройство е актуален. Можете да изтеглите най-новата версия на Mi Mover в Play Store или да натиснете тук: %2$s.
 %3$d. Ако хотспота все още не се показва в Mi Mover, отворете Wi-Fi настройките и проверете дали можете да го видите там. Ако е така, върнете се към Mi Mover и натиснете името на хотспота."</string>
     <string name="new_trans_intro_desc_new_click">Изтегляне</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
     <string name="new_trans_intro_desc_old">%d. Ако не виждате хотспот в Mi Mover, отворете настройките на Wi-Fi и проверете дали е видим там. Ако е, върнете се в Mi Mover и натиснете името на този хотспот.</string>
     <string name="new_trans_intro_question_1">%d. Защо не виждам хотспота от новото устройство върху старото устройство?</string>
+    <string name="new_trans_intro_question_1_pad">%d. Защо не виждам хотспота от новото устройство на старото?</string>
+    <string name="new_trans_intro_question_1_phone">%d. Защо не виждам хотспота от новото устройство на старото?</string>
     <string name="new_trans_intro_question_2">%d. Каква е паролата на хотспота?</string>
     <string name="new_trans_intro_question_3">%d. Защо показва, че няма достатъчно място на старото устройство?</string>
+    <string name="new_trans_intro_question_3_pad">%d. Защо се показва, че на старото устройство няма достатъчно място?</string>
+    <string name="new_trans_intro_question_3_phone">%d. Защо се показва, че на старото устройство няма достатъчно място?</string>
     <string name="new_trans_intro_question_4">%d. Защо не са прехвърлени всички приложения?</string>
     <string name="new_trans_intro_question_5">%d. Защо паролите на някои приложения от трета страна не са прехвърлени успешно?</string>
     <string name="new_trans_intro_question_6">%d. Защо данни за приложение не могат да бъдат прехвърляни от устройство от трета страна?</string>
+    <string name="new_trans_intro_question_6_pad">%d. Защо от устройство, което не е на Xiaomi, не могат да се прехвърлят данни от приложения?</string>
+    <string name="new_trans_intro_question_6_phone">%d. Защо от устройство, което не е на Xiaomi, не могат да се прехвърлят данни от приложения?</string>
     <string name="new_trans_intro_question_7">%d. Ако прекъсна Mi Mover по време на прехвърляне, ще продължи ли прехвърлянето при следващото включване?</string>
     <string name="new_trans_intro_question_8">%d. Защо WeChat хронологията ми изчезна върху новото устройство?</string>
+    <string name="new_trans_intro_question_8_pad">%d. Защо WeChat историята ми изчезна на новото устройство?</string>
+    <string name="new_trans_intro_question_8_phone">%d. Защо WeChat историята ми изчезна на новото устройство?</string>
     <string name="new_version_transfer_downloading">Обновяване на Mi Mover</string>
     <string name="new_version_transfer_downloading_progress">%s</string>
     <string name="new_version_transfer_upgrading">Обновяване…</string>
@@ -712,6 +738,8 @@
     <string name="scanner_quit_alert_btn_negative">Изход</string>
     <string name="scanner_quit_alert_btn_positive">Не излизай</string>
     <string name="scanner_quit_alert_message">Ще трябва да свържете двете устройства отново, ако излезете сега от Mi Mover? Излизане въпреки това?</string>
+    <string name="scanner_quit_alert_message_pad">Ще трябва да свържеш двете устройства отново, ако излезеш от Mi Mover сега. Излизане?</string>
+    <string name="scanner_quit_alert_message_phone">Ще трябва да свържеш двете устройства отново, ако излезеш от Mi Mover сега. Излизане?</string>
     <string name="scanner_quit_alert_title">Изход сега?</string>
     <string name="scanner_send_dialog_btn">Разбрах</string>
     <string name="scanner_send_dialog_message">Не изключвайте Wi-Fi и не сменяйте мрежи по време на прехвърлянето.</string>
@@ -723,6 +751,8 @@
     <string name="scanner_wechat_overwrite_hit">Поради ограничения в приложения от трети страни историите на чатове и други данни от приложения на новото Ви устройство ще бъдат заменени с тези от старото след завършване на прехвърлянето.</string>
     <string name="search_menu_title">Търсене</string>
     <string name="searching_for_new_device">Търсене на новото устройство…</string>
+    <string name="searching_for_new_device_pad">Търсене на новото устройство…</string>
+    <string name="searching_for_new_device_phone">Търсене на новото устройство…</string>
     <string name="secret_package_title_file">Файлове</string>
     <string name="secret_package_title_gallery">Албуми</string>
     <string name="secret_package_title_note">Бележки</string>
@@ -753,6 +783,8 @@
     <string name="select_mi_summary">Xiaomi и Redmi</string>
     <string name="select_mi_title">Xiaomi</string>
     <string name="select_old_device_title">Изберете стар модел устройство</string>
+    <string name="select_old_device_title_pad">Избери модел на старото устройство</string>
+    <string name="select_old_device_title_phone">Избери модел на старото устройство</string>
     <string name="selected">Избрани</string>
     <string name="send">Изпращане</string>
     <string name="send_verification_code_fail">Кодът за проверка не може да се изпрати.</string>
@@ -842,6 +874,7 @@
     <string name="thursday">Четвъртък</string>
     <string name="thursday_short">Четв.</string>
     <string name="thursday_shortest">Четв.</string>
+    <string name="time">Период от време</string>
     <string name="time_concentrator" />
     <string name="time_picker_dialog_title">Настройте време</string>
     <string name="time_picker_label_hour">Ч</string>
@@ -900,6 +933,8 @@
     <string name="trans_install_guide_new_content_first">"Сканирайте този QR код с новото си устройство.
 Изтеглете и инсталирайте Mi Mover."</string>
     <string name="trans_install_guide_old_content_first">Сканирайте този QR код със старото си устройство, за да изтеглите и инсталирате Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_pad">Сканирай този QR код със старото си устройство, за да изтеглиш и инсталираш Mi Mover.</string>
+    <string name="trans_install_guide_old_content_first_phone">Сканирай този QR код със старото си устройство, за да изтеглиш и инсталираш Mi Mover.</string>
     <string name="trans_install_guide_text">Сканирайте, за да обновите Mi Mover</string>
     <string name="trans_intro_title">ЧЗВ</string>
     <string name="trans_main_activity_tutor_first">Прехвърляне на елементи към ново устройство</string>
