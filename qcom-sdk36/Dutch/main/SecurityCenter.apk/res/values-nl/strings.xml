@@ -1193,6 +1193,7 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="confirm_package_type">Bevestig uw data-abonnement</string>
     <string name="confirm_prompt_all_permission">Bij alle apps om toestemming vragen?</string>
     <string name="confirm_reject_all_permission">Alle apps beperken deze functie te gebruiken?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Verkrijgen</string>
     <string name="confirm_upgrade">Opties</string>
     <string name="connect_internet_by_mobiledata">Mobiele dataverbinding</string>
@@ -1972,6 +1973,7 @@ Wanneer Slimme framesnelheid is ingeschakeld, kunnen in-game en externe tools vo
     <string name="game_toolbox_slow_charge_positive_btn">Inschakelen</string>
     <string name="game_toolbox_slow_charge_title">Langzaam opladen</string>
     <string name="game_toolbox_slow_charge_toast">Langzaam opladen is ingeschakeld</string>
+    <string name="game_toolbox_smart_charge_title">Smart charging</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptische feedback werkt niet met originele lay-outs. Haptische feedback is uitgeschakeld.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptische feedback werkt niet met originele lay-outs</string>
     <string name="game_toolbox_smotion_vibrate_desc">Voeg haptische feedback toe op basis van spelbewegingen. Slechts enkele games worden ondersteund.</string>
@@ -3177,6 +3179,7 @@ Uw apparaat is %s sneller nu."</string>
     <string name="more_setting_summary">Herinneringen aanpassen en Niet storen instellen voor deze functie</string>
     <string name="more_settings">Meer</string>
     <string name="morning">Ochtend</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP of PTP is actief</string>
     <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
@@ -3867,6 +3870,9 @@ Ultra batterijbesparing"</string>
     <string name="perfermance_optimization_title">Prestatie optimalisatie</string>
     <string name="performance_frame_enhance_super_display_tips">Verbeterde framesnelheid en super resolutie kunnen niet tegelijkertijd werken. Als u de ene inschakelt, wordt de andere uitgeschakeld.</string>
     <string name="performance_frame_insert_super_display_tips">Slimme framesnelheid en super resolutie kunnen niet tegelijkertijd van kracht zijn. Als u de ene inschakelt, wordt de andere uitgeschakeld.</string>
+    <string name="perm_disable_dialog_message">"This app's permission (%1$s) hasn't passed review."</string>
+    <string name="perm_disable_dialog_title">Permissions restricted</string>
+    <string name="perm_disable_note_text">"This permission hasn't passed review and is restricted now: %1$s"</string>
     <string name="perm_intercept_content">Geef deze app de volgende toestemming: %1s?</string>
     <string name="perm_intercept_notification_title">Het toestaan van %1s om meldingen te gebruiken, kan deze app de volgende acties uitvoeren:</string>
     <string name="perm_intercept_privacy_content">Deze acties kunnen uw persoonlijke gegevens blootleggen. Toestemming (%1s) toch verlenen?</string>
@@ -3874,6 +3880,8 @@ Ultra batterijbesparing"</string>
     <string name="perm_intercept_unknown_title">"Het toestaan van %1s apps te installeren van onbekende bronnen kan de volgende risico's met zich meebrengen:"</string>
     <string name="perm_list_header_title">Apps</string>
     <string name="perm_list_header_title_has_storage">Apps met opslag</string>
+    <string name="perm_manage_external_storage">All files access</string>
+    <string name="perm_manage_zen_modes_access">Modes access</string>
     <string name="permdesc_coarse_location">Geschatte locatie</string>
     <string name="permdesc_fine_location">Locatie</string>
     <string name="permdesc_get_installed_apps">\"%1$s\" toegang geven tot informatie over geïnstalleerde apps?</string>
@@ -3984,7 +3992,7 @@ Ultra batterijbesparing"</string>
     <string name="permission_instruction_send_mms">Deze toestemming staat toe dat apps multimediaberichten kunnen verzenden, wat mogelijk extra kosten met zich meebrengt. Schadelijke apps kunnen deze toestemming gebruiken om zonder uw toestemming betaalde berichten te verzenden.</string>
     <string name="permission_instruction_send_payment_sms">Deze toestemming staat toe dat apps betaalde tekstberichten kunnen verzenden.</string>
     <string name="permission_instruction_send_sms">Deze toestemming staat toe dat apps tekstberichten kunnen verzenden, wat mogelijk extra kosten met zich meebrengt. Schadelijke apps kunnen deze toestemming gebruiken om zonder uw toestemming betaalde berichten te verzenden.</string>
-    <string name="permission_instruction_shake">Met deze toestemming kunnen apps de positie van het apparaat in de ruimte detecteren, trillingen herkennen, de schermoriëntatie bepalen en gamebesturing en kaartnavigatie gebruiken.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Met deze toestemming kunnen apps items op uw Vergrendelscherm weergeven. Schadelijke apps kunnen deze toestemming gebruiken om advertenties weer te geven.</string>
     <string name="permission_instruction_sociality">Als u apps toegang geeft tot bestanden in hun eigen mappen, laat het systeem u beslissen of u ook wilt dat deze apps toegang hebben tot de bestanden gegenereerd in apps voor sociale media om uw privacy te beschermen. Aangezien de apps met Android API-niveau 29 of hoger al opslagpartities ondersteunen, zal deze schakelaar niet voor hen worden verstrekt.</string>
     <string name="permission_instruction_storage">Als u apps toegang geeft tot bestanden in hun eigen mappen, laat het systeem u beslissen of u ook wilt dat deze apps toegang hebben tot de items in uw Galerij en bestanden gegenereerd in apps voor sociale media om uw privacy te beschermen. Aangezien de apps met Android API-niveau 29 of hoger al opslagpartities ondersteunen, zal deze schakelaar niet voor hen worden verstrekt.</string>
@@ -3999,6 +4007,7 @@ Ultra batterijbesparing"</string>
     <string name="permission_instruction_write_settings">Met deze toestemming kunnen apps systeeminstellingen wijzigen. Schadelijke apps kunnen deze toestemming gebruiken om uw systeeminstellingen te wijzigen en het normale gebruik van uw apparaat te beïnvloeden.</string>
     <string name="permission_legacy_storage">"Toegang tot foto's, video's, audio en bestanden"</string>
     <string name="permission_oaid_desc">Wilt u dat %1$s uw activiteiten op andere apps en websites bijhoudt?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Apps zullen niet om toestemming vragen voor het lezen van uw contacten, het bekijken van uw gespreksgeschiedenis, het wijzigen van uw systeeminstellingen of het openen van uw camera en andere toestelfuncties. U kunt deze functie in Toestemmingsinstellingen inschakelen.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Toestemmingsbeheer</string>
     <string name="permission_precise_location">Exacte locatie</string>
@@ -4821,6 +4830,7 @@ Toestemming nu intrekken?"</string>
     <string name="recommended">Uitgelicht</string>
     <string name="reject_all">Alles beperken</string>
     <string name="reject_countdown">Weigeren (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Installatie van de volgende apps via USB geweigerd</string>
     <string name="release_meminfo">Maak %d Mb vrij</string>
     <string name="release_memory">Cache wissen</string>

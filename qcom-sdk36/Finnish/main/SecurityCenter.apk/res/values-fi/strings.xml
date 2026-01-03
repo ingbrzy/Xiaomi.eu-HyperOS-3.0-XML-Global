@@ -1193,6 +1193,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="confirm_package_type">Vahvista datapakettisi</string>
     <string name="confirm_prompt_all_permission">Kysy käyttöoikeutta kaikille sovelluksille?</string>
     <string name="confirm_reject_all_permission">Estetäänkö kaikkia sovelluksia käyttämästä tätä toimintoa?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Hanki</string>
     <string name="confirm_upgrade">Vaihtoehdot</string>
     <string name="connect_internet_by_mobiledata">Mobiilidatayhteys</string>
@@ -1972,6 +1973,7 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="game_toolbox_slow_charge_positive_btn">Ota käyttöön</string>
     <string name="game_toolbox_slow_charge_title">Hidas lataus</string>
     <string name="game_toolbox_slow_charge_toast">Hidas lataus on käytössä</string>
+    <string name="game_toolbox_smart_charge_title">Älykäs lataus</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptinen palaute ei toimi alkuperäisten asettelujen kanssa. Haptinen palaute on pois käytöstä.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptinen palaute ei toimi alkuperäisten asettelujen kanssa</string>
     <string name="game_toolbox_smotion_vibrate_desc">Lisää haptinen palaute pelin liikkeiden mukaan. Vain joitakin pelejä tuetaan.</string>
@@ -3177,6 +3179,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="more_setting_summary">Mukauta muistutuksia ja aseta Älä häiritse -tila tälle toiminnolle</string>
     <string name="more_settings">Lisää</string>
     <string name="morning">Aamu</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP tai PTP on aktiivinen</string>
     <string name="mtrl_badge_numberless_content_description">Uusi ilmoitus</string>
     <string name="mtrl_chip_close_icon_content_description">Poista %1$s</string>
@@ -3867,6 +3870,9 @@ ultravirransäästö"</string>
     <string name="perfermance_optimization_title">Suorituskyvyn optimointi</string>
     <string name="performance_frame_enhance_super_display_tips">Tehostettu kuvanopeus ja superresoluutio eivät voi toimia samanaikaisesti. Toisen kytkeminen päälle kytkee toisen pois päältä.</string>
     <string name="performance_frame_insert_super_display_tips">Älykäs kuvataajuus ja superresoluutio eivät voi olla voimassa samanaikaisesti. Yhden päälle kytkeminen sammuttaa toisen.</string>
+    <string name="perm_disable_dialog_message">Tämän sovelluksen käyttöluvat (%1$s) eivät ole läpäisseet tarkistusta.</string>
+    <string name="perm_disable_dialog_title">Käyttölupia rajoitettu</string>
+    <string name="perm_disable_note_text">Nämä käyttöluvat eivät ole läpäisseet tarkistusta ja niitä on nyt rajoitettu: %1$s</string>
     <string name="perm_intercept_content">Annetaanko tälle sovellukselle seuraava käyttölupa: %1s?</string>
     <string name="perm_intercept_notification_title">Sallimalla sovelluksen %1s ilmoitusten käytön antaa tämän sovelluksen suorittaa seuraavat toimet:</string>
     <string name="perm_intercept_privacy_content">Nämä toimet saattavat paljastaa henkilötietosi. Annetaanko lupa (%1s) siitä huolimatta?</string>
@@ -3874,6 +3880,8 @@ ultravirransäästö"</string>
     <string name="perm_intercept_unknown_title">Sallimalla sovelluksen %1s asentaa sovelluksia tuntemattomista lähteistä saattaa aiheuttaa seuraavia riskejä:</string>
     <string name="perm_list_header_title">Sovellukset</string>
     <string name="perm_list_header_title_has_storage">Sovellukset, joissa on tallennustilaa</string>
+    <string name="perm_manage_external_storage">Kaikkien tiedostojen käyttöoikeus</string>
+    <string name="perm_manage_zen_modes_access">Tilojen käyttöoikeus</string>
     <string name="permdesc_coarse_location">Arvioitu sijainti</string>
     <string name="permdesc_fine_location">Sijainti</string>
     <string name="permdesc_get_installed_apps">Saako \"%1$s\" käyttää tietoja asennetuista sovelluksista?</string>
@@ -3984,7 +3992,7 @@ ultravirransäästö"</string>
     <string name="permission_instruction_send_mms">Tämän luvan avulla sovellukset voivat lähettää multimediaviestejä, mikä saattaa aiheuttaa lisämaksuja. Haitalliset sovellukset voivat käyttää tätä lupaa maksullisten viestien lähettämiseen ilman suostumustasi.</string>
     <string name="permission_instruction_send_payment_sms">Tämä lupa sallii sovellusten lähettää maksullisia tekstiviestejä.</string>
     <string name="permission_instruction_send_sms">Tämän luvan avulla sovellukset voivat lähettää tekstiviestejä, mikä saattaa aiheuttaa lisämaksuja. Haitalliset sovellukset voivat käyttää tätä lupaa maksullisten viestien lähettämiseen ilman suostumustasi.</string>
-    <string name="permission_instruction_shake">Näiden käyttölupien avulla sovellukset voivat havaita laitteen sijainnin tilassa, tunnistaa tärinän, määrittää näytön suunnan sekä käyttää peliohjaimia ja karttanavigointia.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Tämän luvan avulla sovellukset voivat näyttää kohteita lukitusnäytölläsi. Haitalliset sovellukset voivat käyttää tätä lupaa mainosten näyttämiseen.</string>
     <string name="permission_instruction_sociality">Jos annat sovellusten käyttää tiedostoja omissa kansioissaan, järjestelmä antaa sinun päättää, haluatko näiden sovellusten myös käyttää sosiaalisen median sovelluksissa luotuja tiedostoja yksityisyytesi suojaamiseksi. Koska sovellukset, joiden Android-sovellusliittymätaso on vähintään 29, tukevat jo tallennusosioita, tätä kytkintä ei tarjota heille.</string>
     <string name="permission_instruction_storage">Jos annat sovellusten käyttää tiedostoja omissa kansioissaan, järjestelmä antaa sinun päättää, haluatko näiden sovellusten myös käyttää Gallerian kohteita ja sosiaalisen median sovelluksissa luotuja tiedostoja yksityisyytesi suojaamiseksi. Koska sovellukset, joiden Android-sovellusliittymätaso on vähintään 29, tukevat jo tallennusosioita, tätä kytkintä ei tarjota heille.</string>
@@ -3999,6 +4007,7 @@ ultravirransäästö"</string>
     <string name="permission_instruction_write_settings">Tämän luvan avulla sovellukset voivat muokata järjestelmäasetuksia. Haitalliset sovellukset voivat käyttää tätä käyttöoikeusasetusta järjestelmäasetuksissasi ja vaikuttaa laitteesi normaaliin käyttöön.</string>
     <string name="permission_legacy_storage">Käytä valokuvia, videoita, ääntä ja tiedostoja</string>
     <string name="permission_oaid_desc">Saako %1$s seurata toimintaasi muissa sovelluksissa ja verkkosivustoilla?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Sovellukset eivät kysy lupaasi ennen yhteystietojen lukemista, puheluhistorian katsomista, järjestelmän asetuksien muuttamista tai pääsyä kameraan ja muihin laitteen resursseihin. Voit ottaa tämän toiminnon käyttöön Käyttöoikeudet-asetuksista.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Käyttöoikeuksien hallinta</string>
     <string name="permission_precise_location">Tarkka sijainti</string>
@@ -4821,6 +4830,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="recommended">Kiinnostavat</string>
     <string name="reject_all">Estä kaikki</string>
     <string name="reject_countdown">Kiellä (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Kiellettiin seuraavien sovelluksien asennus USB:n kautta</string>
     <string name="release_meminfo">Vapauta %d Mt</string>
     <string name="release_memory">Tyhjennä välimuisti</string>

@@ -1194,6 +1194,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="confirm_package_type">Patvirtinkite savo duomenų planą</string>
     <string name="confirm_prompt_all_permission">Prašyti leidimų visoms programoms?</string>
     <string name="confirm_reject_all_permission">Apriboti šios funkcijos naudojimą visose programose?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Gauti</string>
     <string name="confirm_upgrade">Parametrai</string>
     <string name="connect_internet_by_mobiledata">Mobiliųjų duomenų ryšys</string>
@@ -1974,6 +1975,7 @@ kai įjungtas išmanusis kadrų dažnis, žaidimų ir trečiųjų šalių kadrų
     <string name="game_toolbox_slow_charge_positive_btn">Įjungti</string>
     <string name="game_toolbox_slow_charge_title">Lėtas įkrovimas</string>
     <string name="game_toolbox_slow_charge_toast">Įjungtas lėtas įkrovimas</string>
+    <string name="game_toolbox_smart_charge_title">Išmanusis krovimas</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptinis grįžtamasis ryšys neveikia, esant originaliam išdėstymui. Haptinis grįžtamasis ryšys išjungtas.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptinis grįžtamasis ryšys neveikia, esant originaliam išdėstymui</string>
     <string name="game_toolbox_smotion_vibrate_desc">Pridėti haptinį grįžtamąjį ryšį pagal žaidimo judesius. Palaikomi tik kai kurie žaidimai.</string>
@@ -3179,6 +3181,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="more_setting_summary">Tinkinkite priminimus ir nustatykite šios funkcijos režimą „Netrukdyti“</string>
     <string name="more_settings">Daugiau</string>
     <string name="morning">Rytas</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP arba PTP yra aktyvus</string>
     <string name="mtrl_badge_numberless_content_description">Naujas pranešimas</string>
     <string name="mtrl_chip_close_icon_content_description">Pašalinti %1$s</string>
@@ -3869,6 +3872,9 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="perfermance_optimization_title">Spartos optimizavimas</string>
     <string name="performance_frame_enhance_super_display_tips">Kadrų dažnio paryškinimas ir super skiriamoji geba negali veikti vienu metu. Įjungus vieną iš jų, išsijungs kiti.</string>
     <string name="performance_frame_insert_super_display_tips">Išmanusis kadrų dažnis ir super skiriamoji geba negali veikti vienu metu. Įjungus vieną, išsijungs kitas.</string>
+    <string name="perm_disable_dialog_message">Šios programos teisės (%1$s) nepraėjo peržiūros.</string>
+    <string name="perm_disable_dialog_title">Apribotos teisės</string>
+    <string name="perm_disable_note_text">Šios teisės nepraėjo peržiūros ir dabar yra apribotos: %1$s</string>
     <string name="perm_intercept_content">Suteikti šiai programai toliau nurodytą leidimą: %1s?</string>
     <string name="perm_intercept_notification_title">Leidžiant „%1s“ naudoti pranešimus, ši programa galės atlikti toliau nurodytus veiksmus:</string>
     <string name="perm_intercept_privacy_content">Šie veiksmai gali atskleisti jūsų asmeninius duomenis. Vis tiek suteikti leidimą (%1s)?</string>
@@ -3876,6 +3882,8 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="perm_intercept_unknown_title">Leidus „%1s“ diegti programas iš nežinomų šaltinių gali kilti šios saugumo rizikos:</string>
     <string name="perm_list_header_title">Programos</string>
     <string name="perm_list_header_title_has_storage">Programos su saugykla</string>
+    <string name="perm_manage_external_storage">Visų failų prieiga</string>
+    <string name="perm_manage_zen_modes_access">Prieiga prie režimų</string>
     <string name="permdesc_coarse_location">Apytikslė vieta</string>
     <string name="permdesc_fine_location">Vieta</string>
     <string name="permdesc_get_installed_apps">Leisti „%1$s“ pasiekti informaciją apie įdiegtas programas?</string>
@@ -3986,7 +3994,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="permission_instruction_send_mms">Šis leidimas leidžia programoms siųsti multimedijų žinutes, dėl kurių gali būti taikomi papildomi mokesčiai. Kenkėjiškos programos gali naudoti šį leidimą mokamiems pranešimams siųsti be jūsų sutikimo.</string>
     <string name="permission_instruction_send_payment_sms">Ši teisės programoms suteikia galimybę siųsti mokamas tekstines žinutes.</string>
     <string name="permission_instruction_send_sms">Šis leidimas leidžia programoms siųsti teksto pranešimus, dėl kurių gali būti taikomi papildomi mokesčiai. Kenkėjiškos programos gali naudoti šį leidimą mokamiems pranešimams siųsti be jūsų sutikimo.</string>
-    <string name="permission_instruction_shake">Suteikus šį leidimą, programoms leidžiama aptikti įrenginio padėtį erdvėje, atpažinti kratymą, nustatyti ekrano padėtį, taip pat naudoti žaidimo valdiklius ir žemėlapių navigaciją.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Šis leidimas leidžia programoms rodyti elementus užrakto ekrane. Kenkėjiškos programos gali pasinaudoti šiuo leidimu, kad rodytų skelbimus.</string>
     <string name="permission_instruction_sociality">Jei leidžiate programėlių prieigą prie failų jų aplankuose, saugant jūsų privatumą sistema leidžia jums nuspręsti, ar taip pat norėsite, jog šios programėlės gautų prieigą prie failų , sugeneruotų socialinių tinklų programėlėse. Kadangi programėlės su „Android“ API 29 ar aukštesniu lygiu jau palaiko saugyklos skaidymo funkciją, šis mygtukas jose nebus pateiktas.</string>
     <string name="permission_instruction_storage">Jei leidžiate programėlių prieigą prie failų jų aplankuose, saugant jūsų privatumą sistema leidžia jums nuspręsti, ar taip pat norėsite, jog šios programėlės gautų prieigą prie failų jūsų Galerijoje ir failų, sugeneruotų socialinių tinklų programėlėse. Kadangi programėlės su „Android“ API 29 ar aukštesniu lygiu jau palaiko saugyklos skaidymo funkciją, šis mygtukas jose nebus pateiktas.</string>
@@ -4001,6 +4009,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="permission_instruction_write_settings">Šis leidimas suteikia teisę programoms keisti sistemos nustatymus. Kenkėjiškos programos gali naudoti šį leidimo būdą su sistemos nustatymais ir turėti įtakos įprastam įrenginio naudojimui.</string>
     <string name="permission_legacy_storage">Pasiekti nuotraukas, vaizdo įrašus, garso įrašus ir failus</string>
     <string name="permission_oaid_desc">Leisti %1$s stebėti jūsų veiklą kitose programose ir svetainėse?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Programos neklaus jūsų leidimo prieš nuskaitant kontaktus, peržiūrint skambučių istoriją, keičiant sisteminius parametrus, stebint fotoaparatą ar kitus įrenginio išteklius. Šią funkciją galite įjungti „Leidimų“ parametruose.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Teisių valdymas</string>
     <string name="permission_precise_location">Tiksli vieta</string>
@@ -4824,6 +4833,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="recommended">Rekomenduojama</string>
     <string name="reject_all">Apriboti viską</string>
     <string name="reject_countdown">Uždrausti (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Pasirinktų programų diegimas per USB buvo uždraustas</string>
     <string name="release_meminfo">Atlaisvinti %dMB</string>
     <string name="release_memory">Valyti talpyklą</string>

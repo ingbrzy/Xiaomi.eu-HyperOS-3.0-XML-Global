@@ -1193,6 +1193,7 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="confirm_package_type">Potvrdite svoj plan podataka</string>
     <string name="confirm_prompt_all_permission">Tražiti dopuštenje za sve aplikacije?</string>
     <string name="confirm_reject_all_permission">Ograničiti svim aplikacijama korištenje ove značajke?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Dobiti</string>
     <string name="confirm_upgrade">Opcije</string>
     <string name="connect_internet_by_mobiledata">Mobilna podatkovna veza</string>
@@ -1973,6 +1974,7 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="game_toolbox_slow_charge_positive_btn">Uključi</string>
     <string name="game_toolbox_slow_charge_title">Sporo punjenje</string>
     <string name="game_toolbox_slow_charge_toast">Sporo punjenje uključeno</string>
+    <string name="game_toolbox_smart_charge_title">Smart charging</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Taktilna povratna informacija ne radi s originalnim izgledima. Taktilna povratna informacija je isključena.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Taktilna povratna informacija ne radi s originalnim izgledima</string>
     <string name="game_toolbox_smotion_vibrate_desc">Dodajte haptičku povratnu informaciju u skladu s potezima u igri. Podržane su samo neke igre.</string>
@@ -3178,6 +3180,7 @@ Vaš uređaj je sada %s brži."</string>
     <string name="more_setting_summary">Prilagodite podsjetnike i postavite Ne ometaj za ovu značajku</string>
     <string name="more_settings">Više</string>
     <string name="morning">Jutro</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP ili PTP je aktivan</string>
     <string name="mtrl_badge_numberless_content_description">Nova obavijest</string>
     <string name="mtrl_chip_close_icon_content_description">Ukloni %1$s</string>
@@ -3868,6 +3871,9 @@ Ultra štednje baterije"</string>
     <string name="perfermance_optimization_title">Optimizacija izvedbe</string>
     <string name="performance_frame_enhance_super_display_tips">Poboljšani broj sličica po sekundi i super rezolucija ne mogu raditi u isto vrijeme. Uključivanjem jednog od njih će isključiti drugo.</string>
     <string name="performance_frame_insert_super_display_tips">Pametan broj sličica po sekundi i super rezolucija ne mogu biti na snazi ​​u isto vrijeme. Uključivanje jednog isključit će drugo.</string>
+    <string name="perm_disable_dialog_message">"This app's permission (%1$s) hasn't passed review."</string>
+    <string name="perm_disable_dialog_title">Permissions restricted</string>
+    <string name="perm_disable_note_text">"This permission hasn't passed review and is restricted now: %1$s"</string>
     <string name="perm_intercept_content">Izdaj ovoj aplikaciji sljedeća dopuštenja: %1s?</string>
     <string name="perm_intercept_notification_title">Ukoliko dozvolite aplikaciji %1s da koristi obavještenja, moći će izvršiti sljedeće radnje:</string>
     <string name="perm_intercept_privacy_content">Ove radnje mogu izložiti Vaše osobne podatke. Svejedno izdati (%1s) dopuštenje?</string>
@@ -3875,6 +3881,8 @@ Ultra štednje baterije"</string>
     <string name="perm_intercept_unknown_title">Ukoliko dozvolite aplikaciji %1s da instalira aplikacije iz neprovjerenih izvora, može doći do sljedećih rizika:</string>
     <string name="perm_list_header_title">Aplikacije</string>
     <string name="perm_list_header_title_has_storage">Aplikacije s pohranom</string>
+    <string name="perm_manage_external_storage">All files access</string>
+    <string name="perm_manage_zen_modes_access">Modes access</string>
     <string name="permdesc_coarse_location">Približna lokacija</string>
     <string name="permdesc_fine_location">Lokacija</string>
     <string name="permdesc_get_installed_apps">Dopustiti \"%1$s\" pristup podacima Vaših instaliranih aplikacija?</string>
@@ -3985,7 +3993,7 @@ Ultra štednje baterije"</string>
     <string name="permission_instruction_send_mms">Ovo dopuštenje omogućuje aplikacijama slanje multimedijskih poruka, što može generirati dodatne naknade. Zlonamjerne aplikacije mogu koristiti ovo dopuštenje za slanje plaćenih poruka bez vašeg pristanka.</string>
     <string name="permission_instruction_send_payment_sms">Ovo dopuštenje omogućuje aplikacijama slanje plaćenih tekstualnih poruka.</string>
     <string name="permission_instruction_send_sms">Ovo dopuštenje omogućuje aplikacijama slanje tekstualnih poruka, što može generirati dodatne naknade. Zlonamjerne aplikacije mogu koristiti ovo dopuštenje za slanje plaćenih poruka bez vašeg pristanka.</string>
-    <string name="permission_instruction_shake">Ovo dopuštenje omogućuje aplikacijama da otkriju položaj uređaja u prostoru, prepoznaju podrhtavanje, odrede orijentaciju zaslona, ​​kao i da koriste kontrole u igri i navigaciju po karti.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Ovo dopuštenje omogućuje aplikacijama da prikazuju stavke na Vašem Zaključanom zaslonu. Zlonamjerne aplikacije mogu koristiti ovo dopuštenje za prikazivanje oglasa.</string>
     <string name="permission_instruction_sociality">Ako dozvolite aplikacijama pristup datotekama u svojim vlastitim mapama, sistem Vam omogućuje da također odlučite želite li tim aplikacijama dozvoliti pristup datotekama nastalim u aplikacijama društvenih mreža radi zaštite Vaše privatnosti. Budući da aplikacije s Android API nivo 29 ili više od toga već podržavaju podjelu pohrane, ovaj prekidač za njih ne će biti dostupan.</string>
     <string name="permission_instruction_storage">Ako dozvolite aplikacijama pristup datotekama u svojim vlastitim mapama, sistem Vam omogućuje da također odlučite želite li tim aplikacijama dozvoliti pristup stavkama u Vašoj Galeriji i datotekama nastalim u aplikacijama društvenih mreža radi zaštite Vaše privatnosti. Budući da aplikacije s Android API nivo 29 ili više od toga već podržavaju podjelu pohrane, ovaj prekidač za njih ne će biti dostupan.</string>
@@ -4000,6 +4008,7 @@ Ultra štednje baterije"</string>
     <string name="permission_instruction_write_settings">Ovo dopuštenje omogućuje aplikacijama izmjenu postavki sustava. Zlonamjerne aplikacije mogu koristiti ovu temperaturu dopuštenja s postavkama vašeg sustava i utjecati na normalnu upotrebu vašeg uređaja.</string>
     <string name="permission_legacy_storage">Pristupite fotografijama, videozapisima, zvuku i datotekama</string>
     <string name="permission_oaid_desc">Dopustiti da %1$s prati vaše aktivnosti u drugim aplikacijama i web-lokacijama?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Aplikacije neće pitati za vaše dopuštenje pristupu vašim kontaktima, povijesti poziva, postavkama promjene sustava ili pristupu fotoaparatu i ostalim resursima uređaja. Možete uključiti tu značajku u Postavkama Dopuštenja.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Upravitelj Dopuštenja</string>
     <string name="permission_precise_location">Precizna lokacija</string>
@@ -4822,6 +4831,7 @@ Povući suglasnost odmah?"</string>
     <string name="recommended">Istaknuto</string>
     <string name="reject_all">Ograniči svima</string>
     <string name="reject_countdown">Odbij (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Odbijen pristup instalacije ovih aplikacija putem USB-a</string>
     <string name="release_meminfo">Oslobodi %dMB</string>
     <string name="release_memory">Očisti predmemoriju</string>

@@ -1138,6 +1138,7 @@
     <string name="confirm_package_type">אשר את תוכנית הנתונים שלך</string>
     <string name="confirm_prompt_all_permission">לבקש הרשאות עבור כל היישומים?</string>
     <string name="confirm_reject_all_permission">למנוע מכל היישומים שימוש בתכונה זו?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">קבל</string>
     <string name="confirm_upgrade">אפשרויות</string>
     <string name="connect_internet_by_mobiledata">חיבור נתונים סלולרי</string>
@@ -1857,6 +1858,7 @@
     <string name="game_toolbox_slow_charge_positive_btn">להפעיל</string>
     <string name="game_toolbox_slow_charge_title">טעינה איטית</string>
     <string name="game_toolbox_slow_charge_toast">טעינה איטית מופעלת</string>
+    <string name="game_toolbox_smart_charge_title">טעינה חכמה</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">משוב מישושי לא עובד עם פריסות מקוריות. המשוב המישושי מושבת.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">משוב מישושי לא עובד עם פריסות מקוריות</string>
     <string name="game_toolbox_smotion_vibrate_desc">הוספת משוב מישוש בהתאם לתנועות במשחק. רק חלק מהמשחקים נתמכים.</string>
@@ -3048,6 +3050,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="more_setting_summary">"התאמה אישית של תזכורות והגדרת 'לא להפריע' עבור מאפיין זה"</string>
     <string name="more_settings">עוד</string>
     <string name="morning">בוקר</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP או PTP פעיל</string>
     <string name="na_main_card_ad_subtitle">חבילת גלישה גדולה, שיחות חינם, תעריפים נמוכים</string>
     <string name="na_main_card_ad_text">מצא תוכנית שמתאימה לך</string>
@@ -3704,6 +3707,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="perfermance_optimization_title">ייעול הביצועים</string>
     <string name="performance_frame_enhance_super_display_tips">קצב פריימים מוגבר ורזולוציית-על לא יכולים לפעול בו-זמנית. הפעלה של אחד מהמאפיינים האלה תשבית את השני.</string>
     <string name="performance_frame_insert_super_display_tips">קצב פריימים חכם ורזולוציית-על לא יכולים להיות פעילים בו-זמנית. הפעלה של אחד מהמאפיינים האלה תשבית את השני.</string>
+    <string name="perm_disable_dialog_message">הרשאה של יישום זה (%1$s) לא עברה את הסקירה.</string>
+    <string name="perm_disable_dialog_title">ההרשאות מוגבלות</string>
+    <string name="perm_disable_note_text">הרשאה זו לא עברה את הסקירה, וכעת היא מוגבלת: %1$s</string>
     <string name="perm_intercept_content">האם להעניק לאפליקציה זו את ההרשאות הבאות: %1s?</string>
     <string name="perm_intercept_notification_title">מתן אפשרות ל-%1s להשתמש בהתראות תאפשר לאפליקציה לבצע את הפעולות הבאות:</string>
     <string name="perm_intercept_privacy_content">פעולות אלה עשויות לחשוף את הנתונים האישיים שלך. האם להעניק בכל זאת את ההרשאה (%1s)?</string>
@@ -3711,6 +3717,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="perm_intercept_unknown_title">מתן אפשרות ל-%1s להתקין אפליקציות ממקורות לא ידועים עלולה לגרום לסיכונים הבאים:</string>
     <string name="perm_list_header_title">יישומים</string>
     <string name="perm_list_header_title_has_storage">אפליקציות עם אחסון</string>
+    <string name="perm_manage_external_storage">גישה לכל הקבצים</string>
+    <string name="perm_manage_zen_modes_access">גישה למצבים</string>
     <string name="permdesc_coarse_location">מיקום משוער</string>
     <string name="permdesc_fine_location">מיקום</string>
     <string name="permdesc_get_installed_apps">לאפשר ל- \"%1$s\" גישה למידע על היישומים המותקנים?</string>
@@ -3821,7 +3829,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_send_mms">הרשאה זו מאפשרת ליישומים לשלוח הודעות מולטימדיה, מה שעלול לגרור חיובים נוספים. יישומים זדוניים עלולים להשתמש בהרשאה זו כדי לשלוח הודעות בתשלום ללא הסכמתכם.</string>
     <string name="permission_instruction_send_payment_sms">הרשאה זו מאפשרת ליישומים לשלוח הודעות טקסט בתשלום.</string>
     <string name="permission_instruction_send_sms">הרשאה זו מאפשרת ליישומים לשלוח הודעות טקסט, מה שעלול לגרור חיובים נוספים. יישומים זדוניים עלולים להשתמש בהרשאה זו כדי לשלוח הודעות בתשלום ללא הסכמתכם.</string>
-    <string name="permission_instruction_shake">הרשאה זו מאפשרת ליישומים לזהות את מיקום המכשיר בחלל, לזהות רעד, לקבוע את כיוון המסך וגם להשתמש בבקרות משחקים ובניווט במפה.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">הרשאה זו מאפשרת ליישומים להציג פריטים במסך הנעילה. יישומים זדוניים עשויים להשתמש בהרשאה זו כדי להציג פרסומות.</string>
     <string name="permission_instruction_sociality">אם אישרת ליישומים לקבל גישה לקבצים בתיקיות שלהם, המערכת מאפשרת לך להחליט האם ברצונך לתת ליישומים הללו גישה גם לקבצים שנוצרו ביישומים של רשתות חברתיות. זה נעשה כדי להגן על פרטיותך. יישומים עם אנדרואיד API ברמה 29 ומעלה כבר תומכים במחיצות אחסון, לכן מתג זה לא יופיע בהם.</string>
     <string name="permission_instruction_storage">אם אישרת ליישומים לקבל גישה לקבצים בתיקיות שלהם, המערכת מאפשרת לך להחליט האם ברצונך לתת ליישומים הללו גישה גם לתוכן הגלריה ולקבצים שנוצרו ביישומים של רשתות חברתיות. זה נעשה כדי להגן על פרטיותך. יישומים עם אנדרואיד API ברמה 29 ומעלה כבר תומכים במחיצות אחסון, לכן מתג זה לא יופיע בהם.</string>
@@ -3836,6 +3844,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_write_settings">הרשאה זו מאפשרת ליישומים לשנות את הגדרות המערכת. יישומים זדוניים עלולים להשתמש בהרשאה זו כדי לשנות את הגדרות המערכת ולהשפיע על השימוש הרגיל במכשירכם.</string>
     <string name="permission_legacy_storage">גישה לתמונות, סרטונים, שמע וקבצים</string>
     <string name="permission_oaid_desc">לאפשר ל-%1$s לעקוב אחר הפעילות שלך ביישומים ובאתרי אינטרנט אחרים?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">"יישומים לא יבקשו הרשאות לפני קריאת אנשי הקשר, צפיה ביומן השיחות, שינוי הגדרות המערכת, או גישה למצלמה ומשאבים אחרים של מכשירך. תוכל לכבות תכונה זו בהגדרות 'הרשאות'."</string>
     <string name="permission_permission_control_closed_desc_dialog_title">מנהל ההרשאות</string>
     <string name="permission_precise_location">מיקום מדויק</string>
@@ -4657,6 +4666,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="recommended">מומלץ</string>
     <string name="reject_all">מנע מכולם</string>
     <string name="reject_countdown">דחה (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">התקנה באמצעות USB של היישומים הבאים נדחתה</string>
     <string name="release_meminfo">ניקוי %dMB</string>
     <string name="release_memory">ניקוי מטמון</string>

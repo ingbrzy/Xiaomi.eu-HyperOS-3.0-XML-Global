@@ -1193,6 +1193,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="confirm_package_type">Confirme seu plano de dados</string>
     <string name="confirm_prompt_all_permission">Solicitar permissão para todos os apps?</string>
     <string name="confirm_reject_all_permission">Restringir todos os apps de usarem este recurso?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Obter</string>
     <string name="confirm_upgrade">Opções</string>
     <string name="connect_internet_by_mobiledata">Conexão de dados móveis</string>
@@ -1923,6 +1924,7 @@ Quando a Taxa de quadros inteligente está ativada, as ferramentas de detecção
     <string name="game_toolbox_slow_charge_positive_btn">Ativar</string>
     <string name="game_toolbox_slow_charge_title">Carregamento lento</string>
     <string name="game_toolbox_slow_charge_toast">Carregamento lento ativado</string>
+    <string name="game_toolbox_smart_charge_title">Carregamento inteligente</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">O feedback tátil não funciona com layouts originais. O feedback tátil está desativado.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">O feedback tátil não funciona com layouts originais</string>
     <string name="game_toolbox_smotion_vibrate_desc">Adicione feedback tátil de acordo com os movimentos do jogo. Apenas alguns jogos são compatíveis.</string>
@@ -3128,6 +3130,7 @@ Seu dispositivo está %s mais rápido agora."</string>
     <string name="more_setting_summary">Personalize os lembretes e defina um Não perturbe para este recurso</string>
     <string name="more_settings">Mais</string>
     <string name="morning">Manhã</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP ou PTP ativo</string>
     <string name="mtrl_badge_numberless_content_description">Nova notificação</string>
     <string name="mtrl_chip_close_icon_content_description">Remover %1$s</string>
@@ -3818,6 +3821,9 @@ a Ultra economia de bateria"</string>
     <string name="perfermance_optimization_title">Otimização de desempenho</string>
     <string name="performance_frame_enhance_super_display_tips">A taxa de quadros aprimorada e a super resolução não podem estar ativadas ao mesmo tempo. Ativar um dos recursos desativará o outro.</string>
     <string name="performance_frame_insert_super_display_tips">A taxa de quadros inteligente e a super-resolução não podem estar em vigor ao mesmo tempo. A ativação de um deles desativará o outro.</string>
+    <string name="perm_disable_dialog_message">A permissão deste app (%1$s) não passou por análise.</string>
+    <string name="perm_disable_dialog_title">Permissões restritas</string>
+    <string name="perm_disable_note_text">Esta permissão não passou por análise e está restrita agora: %1$s</string>
     <string name="perm_intercept_content">Dar a este app a seguinte permissão: %1s?</string>
     <string name="perm_intercept_notification_title">Permitir que o app %1s use notificações permitirá que ele execute as seguintes ações:</string>
     <string name="perm_intercept_privacy_content">Estas ações podem expor os seus dados pessoais. Conceder a permissão (%1s) mesmo assim?</string>
@@ -3825,6 +3831,8 @@ a Ultra economia de bateria"</string>
     <string name="perm_intercept_unknown_title">Permitir que o app %1s instale apps de fontes desconhecidas pode acarretar nos seguintes riscos:</string>
     <string name="perm_list_header_title">Apps</string>
     <string name="perm_list_header_title_has_storage">Apps com armazenamento</string>
+    <string name="perm_manage_external_storage">Acesso a todos os arquivos</string>
+    <string name="perm_manage_zen_modes_access">Acesso a modos</string>
     <string name="permdesc_coarse_location">Localização aproximada</string>
     <string name="permdesc_fine_location">Localização</string>
     <string name="permdesc_get_installed_apps">Permitir que \"%1$s\" acesse as informações sobre os apps instalados?</string>
@@ -3935,7 +3943,7 @@ a Ultra economia de bateria"</string>
     <string name="permission_instruction_send_mms">Esta permissão permite aos apps enviar mensagens multimídia, o que pode gerar taxas adicionais. Apps maliciosos podem usar esta permissão para enviar mensagens pagas sem seu consentimento.</string>
     <string name="permission_instruction_send_payment_sms">Esta permissão permite aos apps enviar mensagens de texto pagas.</string>
     <string name="permission_instruction_send_sms">Esta permissão permite que os apps enviem mensagens de texto, o que pode gerar taxas adicionais. Os apps maliciosos podem usar esta permissão para enviar mensagens pagas sem seu consentimento.</string>
-    <string name="permission_instruction_shake">Esta permissão deixa que os apps detectem a posição do dispositivo no espaço, reconheça movimentos rápidos, determine a orientação da tela e use os controles de jogo e navegação por mapas.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Esta permissão permite que apps exibam itens na sua Tela de bloqueio. Apps maliciosos podem usar esta permissão para exibir anúncios.</string>
     <string name="permission_instruction_sociality">Se você permitir que os apps acessem arquivos em suas próprias pastas, o sistema deixará que você decida se deseja que estes apps acessem itens em apps de redes sociais para proteger a sua privacidade. Como os apps com API Android nível 29 ou superiores já suportam a partição de armazenamento, este seletor não será disponibilizado para eles.</string>
     <string name="permission_instruction_storage">Se você permitir que os apps acessem arquivos em suas próprias pastas, o sistema deixará que você decida se deseja que estes apps acessem itens em sua galeria e arquivos gerados em apps de redes sociais para proteger a sua privacidade. Como os apps com API Android nível 29 ou superiores já suportam a partição de armazenamento, este seletor não será disponibilizado para eles.</string>
@@ -3950,6 +3958,7 @@ a Ultra economia de bateria"</string>
     <string name="permission_instruction_write_settings">Esta permissão permite que os apps possam modificar as configurações do sistema. Apps maliciosos podem usar esta permissão para modificar as configurações de seu sistema e afetar o uso normal de seu dispositivo.</string>
     <string name="permission_legacy_storage">Acessar fotos, vídeos, áudio e arquivos</string>
     <string name="permission_oaid_desc">Permitir que %1$s rastreie as suas atividades em outros apps e sites da web?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Apps não solicitarão sua permissão antes de ler seus contatos, ver seu histórico de chamadas, alterar configurações do sistema, ou acessar a câmera e outras funções do dispositivo. Você pode ativar esta função nas Configurações de permissões.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Gerenciador de permissões</string>
     <string name="permission_precise_location">Localização precisa</string>
@@ -4772,6 +4781,7 @@ Retirar o consentimento agora?"</string>
     <string name="recommended">Destaque</string>
     <string name="reject_all">Restringir tudo</string>
     <string name="reject_countdown">Recusar (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">A instalação via USB dos seguintes apps foi negada</string>
     <string name="release_meminfo">Liberar %dMB</string>
     <string name="release_memory">Limpar cache</string>

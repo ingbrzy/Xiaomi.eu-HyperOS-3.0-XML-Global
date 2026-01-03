@@ -1138,6 +1138,7 @@
     <string name="confirm_package_type">تایید طرح اینترنت همراه خودتان</string>
     <string name="confirm_prompt_all_permission">برای همه برنامه‌ها درباره مجوزها پرسیده شود؟</string>
     <string name="confirm_reject_all_permission">همه برنامه‌هایی که از این ویژگی استفاده می‌کنند محدود شوند؟</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">دریافت</string>
     <string name="confirm_upgrade">گزینه‌ها</string>
     <string name="connect_internet_by_mobiledata">اتصال اینترنت همراه</string>
@@ -1857,6 +1858,7 @@
     <string name="game_toolbox_slow_charge_positive_btn">روشن کردن</string>
     <string name="game_toolbox_slow_charge_title">شارژ آهسته</string>
     <string name="game_toolbox_slow_charge_toast">شارژ آهسته روشن است</string>
+    <string name="game_toolbox_smart_charge_title">Smart charging</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">بازخورد لمسی با چیدمان اصلی کار نمی‌کند. بازخورد لمسی خاموش است.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">بازخورد لمسی با چیدمان اصلی کار نمی‌کند</string>
     <string name="game_toolbox_smotion_vibrate_desc">بازخورد لمسی مطابق با حرکات بازی اضافه می‌شود. تنها برخی از بازی‌ها پشتیبانی می‌شوند.</string>
@@ -3048,6 +3050,7 @@
     <string name="more_setting_summary">یادآوری‌ها را سفارشی کنید و مزاحم نشوید را برای این ویژگی تنظیم کنید</string>
     <string name="more_settings">بیشتر</string>
     <string name="morning">صبح</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP یا PTP فعال است</string>
     <string name="na_main_card_ad_subtitle">همراه با اینترنت همراه زیاد، تماس‌های رایگان و نرخ‌های پایین</string>
     <string name="na_main_card_ad_text">طرحی که مناسب خودتان است را بیابید</string>
@@ -3704,6 +3707,9 @@
     <string name="perfermance_optimization_title">بهینه‌سازی کارایی</string>
     <string name="performance_frame_enhance_super_display_tips">نرخ فریم بهبود یافته و وضوح فوق‌العاده هم‌زمان به‌کار برده نمی‌شوند. روشن کردن یکی دیگری را خاموش خواهد کرد.</string>
     <string name="performance_frame_insert_super_display_tips">نرخ فریم هوشمند و وضوح فوق‌العاده هم‌زمان به‌کار برده نمی‌شوند. روشن کردن یکی دیگری را خاموش خواهد کرد.</string>
+    <string name="perm_disable_dialog_message">"This app's permission (%1$s) hasn't passed review."</string>
+    <string name="perm_disable_dialog_title">Permissions restricted</string>
+    <string name="perm_disable_note_text">"This permission hasn't passed review and is restricted now: %1$s"</string>
     <string name="perm_intercept_content">به این برنامه این مجوز: %1s داده شود؟</string>
     <string name="perm_intercept_notification_title">اجازه استفاده از اعلان‌ها به %1s به این برنامه اجازه انجام کارهای زیر را می‌دهد:</string>
     <string name="perm_intercept_privacy_content">این کارها ممکن است داده‌های شما را افشا کنند. در هر صورت مجوز (%1s) داده شود؟</string>
@@ -3711,6 +3717,8 @@
     <string name="perm_intercept_unknown_title">اجازه نصب برنامه‌ها از منابع ناشناس به %1s ممکن است خطرات زیر را به دنبال داشته باشد:</string>
     <string name="perm_list_header_title">برنامه‌ها</string>
     <string name="perm_list_header_title_has_storage">برنامه‌های دارای حافظه</string>
+    <string name="perm_manage_external_storage">All files access</string>
+    <string name="perm_manage_zen_modes_access">Modes access</string>
     <string name="permdesc_coarse_location">موقعیت تقریبی</string>
     <string name="permdesc_fine_location">موقعیت</string>
     <string name="permdesc_get_installed_apps">به \"%1$s\" اجازه می‌دهید به اطلاعات برنامه‌های نصب‌شده دسترسی داشته باشد؟</string>
@@ -3821,7 +3829,7 @@
     <string name="permission_instruction_send_mms">این مجوز به برنامه‌ها امکان می‌دهد پیام‌های چندرسانه‌ای ارسال کنند، که ممکن است هزینه‌های اضافی ایجاد کند. برنامه‌های مخرب ممکن است از این مجوز برای ارسال پیام‌های پولی بدون رضایت شما استفاده کنند.</string>
     <string name="permission_instruction_send_payment_sms">این مجوز به برنامه ها امکان می‌دهد پیام‌های متنی پولی ارسال کنند.</string>
     <string name="permission_instruction_send_sms">این مجوز به برنامه‌ها امکان می‌دهد پیام‌های متنی ارسال کنند، که ممکن است هزینه‌های اضافی ایجاد کند. برنامه‌های مخرب ممکن است از این مجوز برای ارسال پیام‌های پولی بدون رضایت شما استفاده کنند.</string>
-    <string name="permission_instruction_shake">این مجوز به برنامه‌ها اجازه می‌دهد تا موقعیت دستگاه را در فضا تشخیص دهند، لرزش را تشخیص دهند، جهت صفحه نمایش را تعیین کنند و همچنین از کنترل‌های بازی و پیمایش نقشه استفاده کنند.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">این مجوز امکان نمایش موارد در صفحه قفل شما را به برنامه‌ها می‌دهد. ممکن است برنامه‌های مخرب از این مجوز برای نمایش آگهی‌ها استفاده کنند.</string>
     <string name="permission_instruction_sociality">اگر به برنامه‌ها اجازه دسترسی به فایل‌ها در پوشه‌های خودشان بدهید به منظور حفاظت از حریم خصوصی شما، سیستم به شما اجازه می‌دهد تصمیم بگیرید که آیا می‌خواهید این برنامه‌ها به فایل‌های تولید شده در برنامه‌های رسانه‌های اجتماعی دسترسی داشته باشند یا نه. از آن‌جایی که برنامه‌های دارای API سطح ۲۹ یا بالاتر Android از جداسازی حافظه پشتیبانی می‌کنند، این کلید برای آن‌ها ارائه نخواهد شد.</string>
     <string name="permission_instruction_storage">اگر به برنامه‌ها اجازه دسترسی به فایل‌ها در پوشه‌های خودشان بدهید به منظور حفاظت از حریم خصوصی شما، سیستم به شما اجازه می‌دهد تصمیم بگیرید که آیا می‌خواهید این برنامه‌ها به موارد شما در گالری و فایل‌های تولید شده در برنامه‌های رسانه‌های اجتماعی دسترسی داشته باشند یا نه. از آن‌جایی که برنامه‌های دارای API سطح ۲۹ یا بالاتر Android از جداسازی حافظه پشتیبانی می‌کنند، این کلید برای آن‌ها ارائه نخواهد شد.</string>
@@ -3836,6 +3844,7 @@
     <string name="permission_instruction_write_settings">این مجوز به برنامه‌ها اجازه می‌دهد تنظیمات سیستم را تغییر دهند. برنامه‌های مخرب ممکن است از این حالت مجوز در تنظیمات سیستم شما استفاده کنند و بر استفاده عادی از دستگاه شما تأثیر بگذارند.</string>
     <string name="permission_legacy_storage">دسترسی به عکس‌ها، ویدئوها، صداها و فایل‌ها</string>
     <string name="permission_oaid_desc">به %1$s اجازه ردیابی فعالیت‌های شما در سایر برنامه‌ها و تارنماها داده شود؟</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">برنامه‌ها پیش از خواندن مخاطبین، نمایش تاریخچه تماس، تغییر تنظیمات سیستم یا دسترسی به دوربین و سایر منابع دستگاه از شما اجازه نمی‌گیرند. شما می‌توانید این قابلیت را در تنظیمات مجوز روشن کنید.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">مدیر مجوز</string>
     <string name="permission_precise_location">موقعیت دقیق</string>
@@ -4657,6 +4666,7 @@
     <string name="recommended">ویژه</string>
     <string name="reject_all">محدود کردن همه</string>
     <string name="reject_countdown">در کردن (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">نصب این برنامه زیر از طریق USB رد شد</string>
     <string name="release_meminfo">آزاد کردن %d مگابایت فضا</string>
     <string name="release_memory">پاک‌سازی حافظه پنهان</string>

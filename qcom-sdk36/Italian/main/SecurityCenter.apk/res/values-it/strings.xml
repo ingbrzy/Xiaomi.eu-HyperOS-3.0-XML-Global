@@ -1193,6 +1193,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="confirm_package_type">Conferma il tuo piano dati</string>
     <string name="confirm_prompt_all_permission">Chiedere per i permessi per tutte le app?</string>
     <string name="confirm_reject_all_permission">"Limitare l'utilizzo di questa funzionalità per tutte le app?"</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Ottieni</string>
     <string name="confirm_upgrade">Opzioni</string>
     <string name="connect_internet_by_mobiledata">Connessione dati mobile</string>
@@ -1972,6 +1973,7 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="game_toolbox_slow_charge_positive_btn">Attiva</string>
     <string name="game_toolbox_slow_charge_title">Ricarica lenta</string>
     <string name="game_toolbox_slow_charge_toast">Ricarica lenta è attiva</string>
+    <string name="game_toolbox_smart_charge_title">Ricarica smart</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Il feedback tattile non funziona con i layout originali. Il feedback tattile è disattivato.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Il feedback tattile non funziona con i layout originali</string>
     <string name="game_toolbox_smotion_vibrate_desc">Aggiungi un feedback tattile in base alle mosse del gioco. Sono supportati solo alcuni giochi.</string>
@@ -3177,6 +3179,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="more_setting_summary">"Personalizza i promemoria e imposta l'ND per questa funzione"</string>
     <string name="more_settings">Altro</string>
     <string name="morning">Buongiorno</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP or PTP attivo</string>
     <string name="mtrl_badge_numberless_content_description">Nuova notifica</string>
     <string name="mtrl_chip_close_icon_content_description">Rimuovi %1$s</string>
@@ -3867,6 +3870,9 @@ Super risparmio energetico"</string>
     <string name="perfermance_optimization_title">Ottimizzazione prestazioni</string>
     <string name="performance_frame_enhance_super_display_tips">"La frequenza dei fotogrammi migliorata e la super risoluzione non possono funzionare contemporaneamente. Attivando uno dei due si spegne l'altro."</string>
     <string name="performance_frame_insert_super_display_tips">"Sequenza di fotogrammi smart e Super risoluzione non possono essere attivi contemporaneamente. L'attivazione di uno dei due disattiva l'altro."</string>
+    <string name="perm_disable_dialog_message">"L'autorizzazione per l'app (%1$s) non ha superato il controllo."</string>
+    <string name="perm_disable_dialog_title">Autorizzazioni limitate</string>
+    <string name="perm_disable_note_text">"Quest'autorizzazione non ha superato il controllo e ora è limitata: %1$s"</string>
     <string name="perm_intercept_content">Concedere alla app il seguente permesso: %1s?</string>
     <string name="perm_intercept_notification_title">Consentire a %1s di utilizzare le notifiche consentirà alla app di eseguire le seguenti azioni:</string>
     <string name="perm_intercept_privacy_content">Queste azioni potrebbero esporre i tuoi dati personali. Concedere comunque il permesso (%1s)?</string>
@@ -3874,6 +3880,8 @@ Super risparmio energetico"</string>
     <string name="perm_intercept_unknown_title">Consentire a %1s di installare app da fonti sconosciute potrebbe comportare i seguenti rischi:</string>
     <string name="perm_list_header_title">App</string>
     <string name="perm_list_header_title_has_storage">App con archiviazione</string>
+    <string name="perm_manage_external_storage">Accesso a tutti i file</string>
+    <string name="perm_manage_zen_modes_access">Accesso alle modalità</string>
     <string name="permdesc_coarse_location">Posizione approssimativa</string>
     <string name="permdesc_fine_location">Posizione</string>
     <string name="permdesc_get_installed_apps">Consentire a \"%1$s\" di accedere alle informazioni sulle app installate?</string>
@@ -3984,7 +3992,7 @@ Super risparmio energetico"</string>
     <string name="permission_instruction_send_mms">Questa autorizzazione consente alle app di inviare messaggi multimediali, che potrebbero prevedere costi aggiuntivi. Le app dannose potrebbero utilizzare questa autorizzazione per inviare messaggi a pagamento senza il tuo consenso.</string>
     <string name="permission_instruction_send_payment_sms">Questo permesso consente alle app di inviare messaggi di testo a pagamento.</string>
     <string name="permission_instruction_send_sms">Questa autorizzazione consente alle app di inviare messaggi di testo, che potrebbero prevedere costi aggiuntivi. Le app dannose potrebbero utilizzare questa autorizzazione per inviare messaggi a pagamento senza il tuo consenso.</string>
-    <string name="permission_instruction_shake">"Quest'autorizzazione consente alle app di rilevare la posizione del dispositivo nello spazio, di riconoscerne il movimento, di determinare l'orientamento dello schermo, nonché di utilizzare i controlli di gioco e la navigazione sulle mappe."</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Questo permesso consente alle app di mostrare elementi sulla schermata di blocco. Le app dannose potrebbero utilizzare questo permesso per mostrare annunci.</string>
     <string name="permission_instruction_sociality">Se consenti alle app di accedere ai file nelle proprie cartelle, il sistema ti permetterà di decidere se desideri che queste app accedano anche ai file generati nelle app dei social media, al fine di proteggere la tua privacy. Poiché le app con API Android di livello 29 o superiore supportano già le partizioni di archiviazione, nel loro caso questo cambio non sarà disponibile.</string>
     <string name="permission_instruction_storage">Se consenti alle app di accedere ai file nelle proprie cartelle, il sistema ti permetterà di decidere se desideri che queste app accedano anche agli elementi presenti nella tua Galleria e ai file generati nelle app dei social media, al fine di proteggere la tua privacy. Poiché le app con API Android di livello 29 o superiore supportano già le partizioni di archiviazione, nel loro caso questo cambio non sarà disponibile.</string>
@@ -3999,6 +4007,7 @@ Super risparmio energetico"</string>
     <string name="permission_instruction_write_settings">Questa autorizzazione consente alle app di modificare le impostazioni di sistema. Le app dannose potrebbero utilizzare questa autorizzazione per alterare le impostazioni di sistema e compromettere il normale utilizzo del dispositivo.</string>
     <string name="permission_legacy_storage">Accedi a foto, video, audio e file</string>
     <string name="permission_oaid_desc">Permetti a %1$s di tracciare le tue attività su altre app e siti web?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Le app non chiederanno il permesso prima di leggere i tuoi contatti, visualizzare la cronologia delle chiamate, modificare le impostazioni di sistema o accedere alle risorse della fotocamera o ad altre risorse del dispositivo. Puoi attivare questa funzionalità nelle impostazioni dei Permessi.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Gestione permessi</string>
     <string name="permission_precise_location">Posizione precisa</string>
@@ -4821,6 +4830,7 @@ Revocare il consenso?"</string>
     <string name="recommended">In primo piano</string>
     <string name="reject_all">Limita tutto</string>
     <string name="reject_countdown">Nega (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">"L'installazione delle seguenti applicazioni tramite USB è stata negata"</string>
     <string name="release_meminfo">Libera %dMB</string>
     <string name="release_memory">Svuota la cache</string>

@@ -1193,6 +1193,7 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="confirm_package_type">Confirmez votre plan de données</string>
     <string name="confirm_prompt_all_permission">"Demander l'autorisation pour toutes les applications ?"</string>
     <string name="confirm_reject_all_permission">Restreindre toutes les applications utilisant cette fonctionnalité ?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Obtenir</string>
     <string name="confirm_upgrade">Options</string>
     <string name="connect_internet_by_mobiledata">Connexion aux données mobile</string>
@@ -1974,6 +1975,7 @@ Lorsque la fréquence d'images intelligente est activée, les outils de détecti
     <string name="game_toolbox_slow_charge_positive_btn">Activer</string>
     <string name="game_toolbox_slow_charge_title">Chargement lent</string>
     <string name="game_toolbox_slow_charge_toast">Le chargement lent est activé</string>
+    <string name="game_toolbox_smart_charge_title">Chargement intelligent</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">"Le retour haptique ne fonctionne pas avec les mises en page d'origine. Le retour haptique est désactivé."</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Le retour haptique ne fonctionne pas avec les mises en page originales</string>
     <string name="game_toolbox_smotion_vibrate_desc">Ajoutez un retour haptique en fonction des mouvements du jeu. Seuls certains jeux sont pris en charge.</string>
@@ -3179,6 +3181,7 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="more_setting_summary">Personnalisez les rappels et définissez le mode NPD pour cette fonctionnalité</string>
     <string name="more_settings">Plus</string>
     <string name="morning">Matin</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP ou PTP est actif</string>
     <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
     <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
@@ -3869,6 +3872,9 @@ de l'économiseur de batterie Ultra"</string>
     <string name="perfermance_optimization_title">Optimisation de la performance</string>
     <string name="performance_frame_enhance_super_display_tips">"La fréquence d'images améliorée et la super résolution ne peuvent pas fonctionner en même temps. L'activation de l'une d'elles désactivera l'autre."</string>
     <string name="performance_frame_insert_super_display_tips">"La fréquence d'images intelligente et la super résolution ne peuvent pas être en vigueur en même temps. L'activation de l'une désactivera l'autre."</string>
+    <string name="perm_disable_dialog_message">"L'autorisation de cette application (%1$s) n'a pas été approuvée."</string>
+    <string name="perm_disable_dialog_title">Autorisations restreintes</string>
+    <string name="perm_disable_note_text">"Cette autorisation n'a pas été validée et est désormais restreinte : %1$s"</string>
     <string name="perm_intercept_content">"Accordez à cette application l'autorisation suivante: %1s?"</string>
     <string name="perm_intercept_notification_title">"Autoriser %1s à utiliser les notifications permettra à cette application d'effectuer les actions suivantes:"</string>
     <string name="perm_intercept_privacy_content">"Ces actions peuvent révéler vos données personnelles. Accordez l'autorisation (%1s) quand même?"</string>
@@ -3876,6 +3882,8 @@ de l'économiseur de batterie Ultra"</string>
     <string name="perm_intercept_unknown_title">Autoriser %1s à installer des applications de sources inconnues peut présenter les risques suivants:</string>
     <string name="perm_list_header_title">Applications</string>
     <string name="perm_list_header_title_has_storage">Application avec stockage</string>
+    <string name="perm_manage_external_storage">Accès à tous les fichiers</string>
+    <string name="perm_manage_zen_modes_access">"Modes d'accès"</string>
     <string name="permdesc_coarse_location">Localisation approximative</string>
     <string name="permdesc_fine_location">Localisation</string>
     <string name="permdesc_get_installed_apps">Autoriser %1$s à accéder aux informations des applications installées ?</string>
@@ -3986,7 +3994,7 @@ de l'économiseur de batterie Ultra"</string>
     <string name="permission_instruction_send_mms">"Cette autorisation permet aux applications d'envoyer des messages multimédias, ce qui peut générer des frais supplémentaires. Des applications malveillantes peuvent utiliser cette autorisation pour envoyer des messages payants sans votre consentement."</string>
     <string name="permission_instruction_send_payment_sms">"Cette autorisation permet aux applications d'envoyer des SMS payants."</string>
     <string name="permission_instruction_send_sms">"Cette autorisation permet aux applications d'envoyer des messages texte, ce qui peut générer des frais supplémentaires. Des applications malveillantes peuvent utiliser cette autorisation pour envoyer des messages payants sans votre consentement."</string>
-    <string name="permission_instruction_shake">"Cette autorisation permet aux applications de détecter la position de l'appareil dans l'espace, de reconnaître les secousses, de déterminer l'orientation de l'écran, ainsi que d'utiliser les commandes de jeu et la navigation cartographique."</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">"Cette autorisation permet aux applications d'afficher des éléments sur votre écran de verrouillage. Des applications malveillantes peuvent utiliser cette autorisation pour afficher les publicités."</string>
     <string name="permission_instruction_sociality">"Si vous autorisez les applications à accéder aux fichiers dans leurs propres dossiers, le système vous permet de décider si vous souhaitez également que ces applications accèdent aux fichiers générés dans les applications de médias sociaux afin de protéger votre vie privée. Comme les applications avec le niveau d'API Android 29 ou supérieur prennent déjà en charge les partitions de stockage, ce commutateur ne leur sera pas fourni."</string>
     <string name="permission_instruction_storage">"Si vous autorisez les applications à accéder aux fichiers dans leurs propres dossiers, le système vous permet de décider si vous souhaitez également que ces applications accèdent aux éléments de votre galerie et aux fichiers générés dans les applications de médias sociaux afin de protéger votre vie privée. Comme les applications avec le niveau d'API Android 29 ou supérieur prennent déjà en charge les partitions de stockage, ce commutateur ne leur sera pas fourni."</string>
@@ -4001,6 +4009,7 @@ de l'économiseur de batterie Ultra"</string>
     <string name="permission_instruction_write_settings">"Cette autorisation permet aux applications de modifier les paramètres du système. Des applications malveillantes peuvent utiliser cette autorisation avec les paramètres de votre système et affecter l'utilisation normale de votre appareil."</string>
     <string name="permission_legacy_storage">Accès aux photos, vidéos, audio et fichiers</string>
     <string name="permission_oaid_desc">"Autoriser %1$s à suivre vos activités sur d'autres applications et sites Web ?"</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">"Les applications ne vous demanderont plus votre autorisation pour lire vos contacts, voir votre journal d'appels, accéder à l'appareil photo et aux autres services de l'appareil. Vous pouvez changer ce réglage dans le Gestionnaire d'Autorisations."</string>
     <string name="permission_permission_control_closed_desc_dialog_title">"Gestionnaire d'autorisations"</string>
     <string name="permission_precise_location">Localisation précise</string>
@@ -4823,6 +4832,7 @@ Retirer le consentement maintenant ?"</string>
     <string name="recommended">Sélection</string>
     <string name="reject_all">Tout restreindre</string>
     <string name="reject_countdown">Refuser (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">"Refus de l'installation des applications suivantes via USB"</string>
     <string name="release_meminfo">"Libérer jusqu'à %d Mo"</string>
     <string name="release_memory">Vider le cache</string>

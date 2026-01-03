@@ -1193,6 +1193,7 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="confirm_package_type">Potvrďte svůj datový plán</string>
     <string name="confirm_prompt_all_permission">Ptát se na oprávnění pro všechny aplikace?</string>
     <string name="confirm_reject_all_permission">Zakázat všem aplikacím používat tuto funkci?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Získat</string>
     <string name="confirm_upgrade">Možnosti</string>
     <string name="connect_internet_by_mobiledata">Mobilní datové připojení</string>
@@ -1972,6 +1973,7 @@ Když je zapnutá funkce Chytrá snímková frekvence, nástroje pro pro měřen
     <string name="game_toolbox_slow_charge_positive_btn">Zapnout</string>
     <string name="game_toolbox_slow_charge_title">Pomalé nabíjení</string>
     <string name="game_toolbox_slow_charge_toast">Pomalé nabíjení je zapnuté</string>
+    <string name="game_toolbox_smart_charge_title">Chytré nabíjení</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptická odezva nefunguje s původními rozvrženími. Haptická odezva je vypnutá.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptická odezva nefunguje s původními rozvrženími</string>
     <string name="game_toolbox_smotion_vibrate_desc">Přidání haptické odezvy odpovídající pohybům ve hře. Podporovány jsou pouze některé hry.</string>
@@ -3177,6 +3179,7 @@ Vaše zařízení je nyní o %s rychlejší."</string>
     <string name="more_setting_summary">Přizpůsobte připomenutí a nastavte režim Nerušit pro tuto funkci</string>
     <string name="more_settings">Více</string>
     <string name="morning">Dopoledne</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP nebo PTP je aktivní</string>
     <string name="mtrl_badge_numberless_content_description">Nové oznámení</string>
     <string name="mtrl_chip_close_icon_content_description">Odstranit položku %1$s</string>
@@ -3867,6 +3870,9 @@ Ultra spořiče baterie"</string>
     <string name="perfermance_optimization_title">Optimalizace výkonu</string>
     <string name="performance_frame_enhance_super_display_tips">Funkce zvýšení snímkové frekvence a super rozlišení nemohou být aktivní současně. Zapnutí jedné povede k vypnutí druhé.</string>
     <string name="performance_frame_insert_super_display_tips">Funkce chytré frekvence obnovení a super rozlišení nemohou být aktivní současně. Zapnutí jedné povede k vypnutí druhé.</string>
+    <string name="perm_disable_dialog_message">Oprávnění této aplikace (%1$s) neprošla kontrolou.</string>
+    <string name="perm_disable_dialog_title">Oprávnění omezena</string>
+    <string name="perm_disable_note_text">Tato oprávnění neprošla kontrolou a jsou nyní omezena: %1$s</string>
     <string name="perm_intercept_content">Udělte aplikaci následující oprávnění: %1s?</string>
     <string name="perm_intercept_notification_title">Po udělení oprávnění k využití oznámení aplikaci %1s, může tato aplikace provést následující akce:</string>
     <string name="perm_intercept_privacy_content">Tyto akce mohou způsobit únik vašich osobních údajů. Chcete přesto tato oprávnění (%1s) udělit?</string>
@@ -3874,6 +3880,8 @@ Ultra spořiče baterie"</string>
     <string name="perm_intercept_unknown_title">Udělení oprávnění k instalaci aplikací z neznámých zdrojů aplikaci %1s, může představovat následující rizika:</string>
     <string name="perm_list_header_title">Aplikace</string>
     <string name="perm_list_header_title_has_storage">Oprávnění k přístupu k úložišti</string>
+    <string name="perm_manage_external_storage">Přístup ke všem souborům</string>
+    <string name="perm_manage_zen_modes_access">Přístupy k režimům</string>
     <string name="permdesc_coarse_location">Přibližná poloha</string>
     <string name="permdesc_fine_location">Poloha</string>
     <string name="permdesc_get_installed_apps">Povolit aplikaci \"%1$s\" přístup k informacím o nainstalovaných aplikacích?</string>
@@ -3984,7 +3992,7 @@ Ultra spořiče baterie"</string>
     <string name="permission_instruction_send_mms">Toto povolení umožňuje aplikacím odesílat multimediální zprávy, což může znamenat další poplatky. Škodlivé aplikace mohou toto povolení zneužít k odesílání placených zpráv bez vašeho souhlasu.</string>
     <string name="permission_instruction_send_payment_sms">Toto povolení umožňuje aplikacím odesílat placené textové zprávy.</string>
     <string name="permission_instruction_send_sms">Toto povolení umožňuje aplikacím odesílat textové zprávy, což může znamenat další poplatky. Škodlivé aplikace mohou toto povolení zneužít k odesílání placených zpráv bez vašeho souhlasu.</string>
-    <string name="permission_instruction_shake">Toto povolení umožňuje aplikacím detekovat polohu zařízení v prostoru, rozpoznat zatřesení, určit orientaci obrazovky, jakož i používat herní ovladače a mapovou navigaci.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Toto oprávnění umožňuje aplikacím zobrazovat položky na vaší Zamykací obrazovce. Škodlivé aplikace mohou toto oprávnění využít pro zobrazování reklam.</string>
     <string name="permission_instruction_sociality">Pokud aplikacím udělíte oprávnění k přístupu k souborům v jejich vlastních složkách, z důvodu ochrany vašeho soukromí vám systém umožní rozhodnout se, zda mohou tyto aplikace zároveň získat přístup k položkám vygenerovaným aplikacemi sociálních médií. Protože aplikace s Android API úrovně 29 nebo vyšší již podporují oddělená úložiště, tento přepínač nebude pro tyto aplikace dostupný.</string>
     <string name="permission_instruction_storage">Pokud aplikacím udělíte oprávnění k přístupu k souborům v jejich vlastních složkách, z důvodu ochrany vašeho soukromí vám systém umožní rozhodnout se, zda mohou tyto aplikace zároveň získat přístup k položkám ve vaší Galerii a souborům vygenerovaným aplikacemi sociálních médií. Protože aplikace s Android API úrovně 29 nebo vyšší již podporují oddělená úložiště, tento přepínač nebude pro tyto aplikace dostupný.</string>
@@ -3999,6 +4007,7 @@ Ultra spořiče baterie"</string>
     <string name="permission_instruction_write_settings">Toto povolení umožňuje aplikacím měnit nastavení systému. Škodlivé aplikace ho mohou zneužít k úpravám systémových nastavení a ovlivnit tak běžné používání zařízení.</string>
     <string name="permission_legacy_storage">Přístup k fotografiím, videím, zvukům a souborům</string>
     <string name="permission_oaid_desc">Povolit %1$s sledovat vaše aktivity v jiných aplikacích a stránkách?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Aplikace se nebudou ptát na povolení pro přístup ke kontaktům, historii hovorů, změnu nastavení systému nebo přístup k fotoaparátu a jiným zdrojům zařízení. Tuto funkci můžete kdykoli znovu aktivovat v nastavení Povolení.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Správce povolení</string>
     <string name="permission_precise_location">Přesná poloha</string>
@@ -4821,6 +4830,7 @@ Odebrat souhlas nyní?"</string>
     <string name="recommended">Doporučené</string>
     <string name="reject_all">Zakázat vše</string>
     <string name="reject_countdown">Zakázat (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Zakázána instalace přes USB těchto aplikací</string>
     <string name="release_meminfo">Uvolněte %d MB</string>
     <string name="release_memory">Vymazat mezipaměť</string>
