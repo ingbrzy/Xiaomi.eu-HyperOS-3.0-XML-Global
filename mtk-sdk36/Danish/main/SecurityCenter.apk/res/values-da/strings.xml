@@ -1193,6 +1193,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="confirm_package_type">Bekræft dine abonnementer</string>
     <string name="confirm_prompt_all_permission">Bed om tilladelser for alle apps?</string>
     <string name="confirm_reject_all_permission">Begræns alle apps fra at bruge denne funktion?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Hent</string>
     <string name="confirm_upgrade">Indstillinger</string>
     <string name="connect_internet_by_mobiledata">Mobildataforbindelse</string>
@@ -1972,6 +1973,7 @@ Når Smart billedhastighed er slået til, kan både spil og tredjepartsværktøj
     <string name="game_toolbox_slow_charge_positive_btn">Slå til</string>
     <string name="game_toolbox_slow_charge_title">Langsom opladning</string>
     <string name="game_toolbox_slow_charge_toast">Langsom opladning er slået til</string>
+    <string name="game_toolbox_smart_charge_title">Smartopladning</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptisk feedback virker ikke med originale layoutindstillinger. Haptisk feedback er slået fra.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptisk feedback virker ikke med originale layoutindstillinger</string>
     <string name="game_toolbox_smotion_vibrate_desc">Få haptisk feedback, der følger dine bevægelser i spillet. Understøttes kun i visse spil.</string>
@@ -3177,6 +3179,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="more_setting_summary">Tilpas påmindelser, og indstil “Forstyr ikke”-periode for denne funktion</string>
     <string name="more_settings">Mere</string>
     <string name="morning">Morgen</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP eller PTP er aktiv</string>
     <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
     <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
@@ -3867,6 +3870,9 @@ slås fra"</string>
     <string name="perfermance_optimization_title">Ydelsesoptimering</string>
     <string name="performance_frame_enhance_super_display_tips">Forbedret billedhastighed og super opløsning kan ikke bruges på samme tid. Hvis den ene slås til, slås den anden fra.</string>
     <string name="performance_frame_insert_super_display_tips">Smart billedhastighed og super opløsning kan ikke være aktiveret på samme tid. Hvis du slår den ene til, slår du den anden fra.</string>
+    <string name="perm_disable_dialog_message">Denne apps tilladelse (%1$s) har ikke bestået gennemgangen.</string>
+    <string name="perm_disable_dialog_title">Tilladelser er begrænset</string>
+    <string name="perm_disable_note_text">Denne tilladelse har ikke bestået gennemgangen og er nu begrænset: %1$s</string>
     <string name="perm_intercept_content">Giv denne app følgende tilladelse: %1s?</string>
     <string name="perm_intercept_notification_title">At tillade at %1s bruger notifikationer, lader denne app udføre følgende handlinger:</string>
     <string name="perm_intercept_privacy_content">Disse handlinger vil muligvis eksponere dine personlige data. Giv tilladelsen (%1s) alligevel?</string>
@@ -3874,6 +3880,8 @@ slås fra"</string>
     <string name="perm_intercept_unknown_title">At tillade at %1s installerer apps fra ukendte kilder, kan medføre følgende risici:</string>
     <string name="perm_list_header_title">Apps</string>
     <string name="perm_list_header_title_has_storage">App med lager</string>
+    <string name="perm_manage_external_storage">Adgang til alle filer</string>
+    <string name="perm_manage_zen_modes_access">Tilstandsadgang</string>
     <string name="permdesc_coarse_location">Omtrentlig placering</string>
     <string name="permdesc_fine_location">Placering</string>
     <string name="permdesc_get_installed_apps">Tillad \"%1$s\" at få adgang til oplysninger om installerede apps?</string>
@@ -3984,7 +3992,7 @@ slås fra"</string>
     <string name="permission_instruction_send_mms">Denne tilladelse giver apps mulighed for at sende multimediebeskeder, hvilket kan medføre ekstra gebyrer. Skadelige apps kan misbruge denne tilladelse til at sende betalingsbeskeder uden din accept.</string>
     <string name="permission_instruction_send_payment_sms">"Denne tilladelse gør det muligt for apps at sende betalte SMS'er."</string>
     <string name="permission_instruction_send_sms">Denne tilladelse giver apps mulighed for at sende tekstbeskeder, hvilket kan medføre ekstra gebyrer. Skadelige apps kan misbruge denne tilladelse til at sende betalingsbeskeder uden din accept.</string>
-    <string name="permission_instruction_shake">Denne tilladelse gør det muligt for apps at registrere enhedens position i rummet, genkende rystelser, bestemme skærmorientering samt bruge spilkontroller og kortnavigation.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Denne tilladelse tillader apps at vise elementer på din låseskærm. Skadelige apps vil muligvis bruge denne tilladelse til at vise reklamer.</string>
     <string name="permission_instruction_sociality">Hvis du tillader apps at få adgang til filer i deres egne mapper, lader systemet dig afgøre, om du også ønsker, at disse apps skal have adgang til filer, der er genereret i apps vedrørende sociale medier, for at beskytte dine personlige oplysninger. Idet apps med Android API-niveau 29 eller højere allerede understøtter lagerpartitioner, er denne skiftekontakt ikke tilgængelig for dem.</string>
     <string name="permission_instruction_storage">Hvis du tillader apps at få adgang til filer i deres egne mapper, lader systemet dig afgøre, om du også ønsker, at disse apps skal have adgang til elementer i dit Galleri og til filer, der er genereret i apps vedrørende sociale medier, for at beskytte dine personlige oplysninger. Idet apps med Android API-niveau 29 eller højere allerede understøtter lagerpartitioner, er denne skiftekontakt ikke tilgængelig for dem.</string>
@@ -3999,6 +4007,7 @@ slås fra"</string>
     <string name="permission_instruction_write_settings">Denne tilladelse giver apps mulighed for at ændre systemindstillinger. Skadelige apps kan misbruge denne tilladelse til at manipulere dine systemindstillinger og påvirke enhedens normale funktion.</string>
     <string name="permission_legacy_storage">Få adgang til fotos, videoer, lyd og filer</string>
     <string name="permission_oaid_desc">Tillad %1$s at spore dine aktiviteter på andre apps og hjemmesider?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Apps vil ikke bede om din tilladelse, før de læser dine kontakter, viser din opkaldshistorik, ændrer systemindstillinger eller får adgang til kamera og andre enhedsressourcer. Du kan aktivere denne funktion i Tilladelsesindstillinger.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Tilladelsesmanager</string>
     <string name="permission_precise_location">Nøjagtig placering</string>
@@ -4821,6 +4830,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="recommended">Fremhævet</string>
     <string name="reject_all">Begræns alle</string>
     <string name="reject_countdown">Afvis (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Nægtede installation af følgende apps via USB</string>
     <string name="release_meminfo">Frigør op til %d MB</string>
     <string name="release_memory">Ryd cache</string>

@@ -1193,6 +1193,7 @@ Niektoré z vašich transakcií však ešte nie sú dokončené. Ak chcete odvol
     <string name="confirm_package_type">Potvrďte váš dátový plán</string>
     <string name="confirm_prompt_all_permission">Opýtať sa na povolenia pre všetky aplikácie?</string>
     <string name="confirm_reject_all_permission">Zakázať všetkým aplikáciam používať túto funkciu?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Zakázať toto povolenie počas spúšťania aplikácií pre všetky aplikácie?</string>
     <string name="confirm_take">Získať</string>
     <string name="confirm_upgrade">Možnosti</string>
     <string name="connect_internet_by_mobiledata">Mobilné pripojenie</string>
@@ -1971,6 +1972,7 @@ Pokiaľ je zapnutá inteligentná snímková frekvencia, nástroje na detekciu s
     <string name="game_toolbox_slow_charge_positive_btn">Zapnúť</string>
     <string name="game_toolbox_slow_charge_title">Pomalé nabíjanie</string>
     <string name="game_toolbox_slow_charge_toast">Pomalé nabíjanie je zapnuté</string>
+    <string name="game_toolbox_smart_charge_title">Inteligentné nabíjanie</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptická spätná väzba nefunguje v pôvodnom rozložení. Haptická spätná väzba je vypnutá.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptická spätná väzba nefunguje v pôvodnom rozložení</string>
     <string name="game_toolbox_smotion_vibrate_desc">Pridanie haptickej spätnej väzby v súlade s hernými pohybmi. Podporované sú len niektoré hry.</string>
@@ -3177,6 +3179,7 @@ Vaše zariadenie je teraz o %s rýchlejšie."</string>
     <string name="more_setting_summary">Prispôsobiť pripomienky a nastaviť režim nerušiť pre túto funkciu</string>
     <string name="more_settings">Viac</string>
     <string name="morning">Ráno</string>
+    <string name="msg_only_opening_screen">Prístup bude zakázaný počas prvých %d sekúnd po spustení aplikácie</string>
     <string name="mtp_ptp_mode_summary">MTP a PTP sú aktívne</string>
     <string name="mtrl_badge_numberless_content_description">Nové upozornenie</string>
     <string name="mtrl_chip_close_icon_content_description">Odstrániť položku %1$s</string>
@@ -3861,6 +3864,9 @@ ultra šetrenia batérie"</string>
     <string name="perfermance_optimization_title">Optimalizácia výkonu</string>
     <string name="performance_frame_enhance_super_display_tips">Funkcie zvýšenia snímkovej frekvencie a super rozlíšenia nemôžu byť aktívne súčasne. Zapnutie jednej povedie k vypnutiu druhej.</string>
     <string name="performance_frame_insert_super_display_tips">Inteligentná snímková frekvencia a super-rozlíšenie nemôžu byť použité súčasne. Zapnutím jednej funkcie sa vypne tá druhá.</string>
+    <string name="perm_disable_dialog_message">Povolenie tejto aplikácie (%1$s) neprešlo kontrolou.</string>
+    <string name="perm_disable_dialog_title">Povolenia zakázané</string>
+    <string name="perm_disable_note_text">Toto povolenie neprešlo kontrolou a teraz je zakázané: %1$s</string>
     <string name="perm_intercept_content">Udeliť tejto aplikácii nasledovné povolenia: %1s?</string>
     <string name="perm_intercept_notification_title">Povolenie aplikácie %1s používať upozornenia umožní tejto aplikácii vykonať nasledujúce akcie:</string>
     <string name="perm_intercept_privacy_content">Tieto akcie môžu odhaliť vaše osobné údaje. Udeliť povolenie (%1s) napriek tomu?</string>
@@ -3868,6 +3874,8 @@ ultra šetrenia batérie"</string>
     <string name="perm_intercept_unknown_title">Povolenie aplikácie %1s inštalovať aplikácie z neznámych zdrojov môže spôsobiť nasledovné riziká:</string>
     <string name="perm_list_header_title">Aplikácie</string>
     <string name="perm_list_header_title_has_storage">Aplikácie s povolením úložiska</string>
+    <string name="perm_manage_external_storage">Prístup ku všetkým súborom</string>
+    <string name="perm_manage_zen_modes_access">Prístup k režimom</string>
     <string name="permdesc_coarse_location">Približná poloha</string>
     <string name="permdesc_fine_location">Poloha</string>
     <string name="permdesc_get_installed_apps">Povoliť aplikácii \"%1$s\" prístup k informáciám o nainštalovaných aplikáciách?</string>
@@ -3993,6 +4001,7 @@ ultra šetrenia batérie"</string>
     <string name="permission_instruction_write_settings">Toto povolenie umožňuje aplikáciám upravovať nastavenia systému. Škodlivé aplikácie môžu toto povolenie používať s nastaveniami vášho systému a ovplyvňovať bežné používanie vášho zariadenia.</string>
     <string name="permission_legacy_storage">Prístup k fotografiám, videám, zvukom a súborom</string>
     <string name="permission_oaid_desc">Povoliť aplikácii %1$s sledovanie vašich aktivít v iných aplikáciách a na webových stránkach?</string>
+    <string name="permission_only_opening_screen">Zakázať prístup počas spustenia aplikácie</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Aplikácie sa vás nebudú pýtať na povolenie prístupu ku kontaktom, históriu hovorov, zmenu nastavení systému alebo prístupu ku fotoaparátu. Toto nastavenie môžete opäť aktivovať v Nastavení povolení.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Správca povolení je vypnutý</string>
     <string name="permission_precise_location">Presná poloha</string>
@@ -4815,6 +4824,7 @@ Odvolať váš súhlas teraz?"</string>
     <string name="recommended">Odporúčané</string>
     <string name="reject_all">Zakázať všetky</string>
     <string name="reject_countdown">Zakázať (%d)</string>
+    <string name="reject_only_opening_screen">Zakázať prístup počas spúšťania aplikácií pre všetky aplikácie</string>
     <string name="reject_usb_install">Zakázaný prístup k inštalácií týchto apl. cez USB</string>
     <string name="release_meminfo">Uvoľniť %dMB</string>
     <string name="release_memory">Vymazať vyrovnávaciu pamäť</string>

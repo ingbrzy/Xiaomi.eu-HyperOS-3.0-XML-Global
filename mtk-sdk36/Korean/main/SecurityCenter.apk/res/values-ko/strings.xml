@@ -1193,6 +1193,7 @@
     <string name="confirm_package_type">데이터 플랜을 확인하세요</string>
     <string name="confirm_prompt_all_permission">모든 앱에 대한 권한을 물어보시겠습니까?</string>
     <string name="confirm_reject_all_permission">이 기능을 사용하는 모든 앱을 제한하시겠습니까?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">얻기</string>
     <string name="confirm_upgrade">옵션</string>
     <string name="connect_internet_by_mobiledata">모바일 데이터 연결</string>
@@ -1974,6 +1975,7 @@
     <string name="game_toolbox_slow_charge_positive_btn">켜기</string>
     <string name="game_toolbox_slow_charge_title">저속 충전</string>
     <string name="game_toolbox_slow_charge_toast">저속 충전 켜짐</string>
+    <string name="game_toolbox_smart_charge_title">스마트 충전</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">기본 레이아웃에서는 햅틱 피드백이 지원되지 않습니다. 햅틱 피드백이 꺼져 있습니다.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">기본 레이아웃에서는 햅틱 피드백이 지원되지 않습니다.</string>
     <string name="game_toolbox_smotion_vibrate_desc">게임 동작에 따라 햅틱 피드백을 추가합니다. 일부 게임만 지원됩니다.</string>
@@ -3179,6 +3181,7 @@ SMS 전송"</string>
     <string name="more_setting_summary">알림을 사용자 지정하고 이 기능에 대한 방해금지 모드를 설정합니다</string>
     <string name="more_settings">더 보기</string>
     <string name="morning">아침</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP 또는 PTP 활성화됨</string>
     <string name="mtrl_badge_numberless_content_description">새 알림</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s 삭제</string>
@@ -3869,6 +3872,9 @@ SMS 전송"</string>
     <string name="perfermance_optimization_title">성능 최적화</string>
     <string name="performance_frame_enhance_super_display_tips">향상된 프레임률 및 초해상도는 동시에 적용할 수 없습니다. 하나를 켜면 다른 하나가 꺼집니다.</string>
     <string name="performance_frame_insert_super_display_tips">스마트 프레임률 및 초해상도는 동시에 적용할 수 없습니다. 하나를 켜면 다른 하나가 꺼집니다.</string>
+    <string name="perm_disable_dialog_message">이 앱의 권한(%1$s)이 검토를 통과하지 못했습니다.﻿</string>
+    <string name="perm_disable_dialog_title">권한 제한됨</string>
+    <string name="perm_disable_note_text">이 권한(%1$s)은 검토를 통과하지 못해 현재 제한되었습니다</string>
     <string name="perm_intercept_content">앱에 다음의 권한 (%1s)을 부여하시겠습니까?</string>
     <string name="perm_intercept_notification_title">%1s의 알림 사용을 허용하시면 해당 앱이 다음 작업을 수행할 수 있습니다:</string>
     <string name="perm_intercept_privacy_content">해당 작업은 개인 데이터가 노출될 수 있는 위험이 있습니다. 그래도 권한 (%1s)을 부여하시겠습니까?</string>
@@ -3876,6 +3882,8 @@ SMS 전송"</string>
     <string name="perm_intercept_unknown_title">%1s의 알 수 없는 출처 앱 설치를 허용하시면 다음과 같은 위험이 발생할 수 있습니다:</string>
     <string name="perm_list_header_title">앱</string>
     <string name="perm_list_header_title_has_storage">저장소 권한을 가진 앱</string>
+    <string name="perm_manage_external_storage">모든 파일 액세스</string>
+    <string name="perm_manage_zen_modes_access">모드 액세스</string>
     <string name="permdesc_coarse_location">대략적인 위치</string>
     <string name="permdesc_fine_location">위치</string>
     <string name="permdesc_get_installed_apps">\"%1$s\"의 설치된 앱 정보 접근을 허용하시겠습니까?</string>
@@ -3986,7 +3994,7 @@ SMS 전송"</string>
     <string name="permission_instruction_send_mms">이 권한은 부가 요금이 생성되는 MMS 메시지를 전송할 수 있도록 합니다. 악성 앱이 이 권한을 사용하여 사용자의 동의 없이 유료 메시지를 전송할 수 있습니다.</string>
     <string name="permission_instruction_send_payment_sms">이 권한은 앱이 유료 문자 메시지를 보낼 수 있도록 합니다.</string>
     <string name="permission_instruction_send_sms">이 권한은 부가 요금이 생성되는 문자 메시지를 전송할 수 있도록 합니다. 악성 앱이 이 권한을 사용하여 사용자의 동의 없이 유료 메시지를 전송할 수 있습니다.</string>
-    <string name="permission_instruction_shake">이 권한을 통해 앱은 기기의 공간 내 위치를 감지하고, 흔들림을 인식하며, 화면 방향을 결정하고, 게임 컨트롤 및 지도 내비게이션 기능을 사용할 수 있습니다.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">이 권한은 앱이 잠금화면에 항목을 표시할 수 있도록 합니다. 악성 앱이 이 권한을 사용하여 광고를 표시할 수 있습니다.</string>
     <string name="permission_instruction_sociality">앱이 자신의 폴더에 있는 파일에 접근할 수 있도록 허용하는 경우, 시스템은 개인 정보를 보호하기 위해 이러한 앱의 소셜 미디어 앱에 의해 생성된 파일에 대한 접근 허용 여부를 귀하가 결정할 수 있도록 해줍니다. Android API 레벨 29 또는 그 이상의 앱은 이미 스토리지 파티션을 지원하므로 해당 스위치가 제공되지 않습니다.</string>
     <string name="permission_instruction_storage">앱이 자신의 폴더에 있는 파일에 접근할 수 있도록 허용하는 경우, 시스템은 개인 정보를 보호하기 위해 이러한 앱의 갤러리 항목 및 소셜 미디어 앱에 의해 생성된 파일에 대한 접근 허용 여부를 귀하가 결정할 수 있도록 해줍니다. Android API 레벨 29 또는 그 이상의 앱은 이미 스토리지 파티션을 지원하므로 해당 스위치가 제공되지 않습니다.</string>
@@ -4001,6 +4009,7 @@ SMS 전송"</string>
     <string name="permission_instruction_write_settings">이 권한은 앱이 시스템 설정을 수정할 수 있도록 합니다. 악성 앱이 이 권한을 시스템 설정에 사용하고 기기의 정상적인 사용에 영향을 줄 수도 있습니다.</string>
     <string name="permission_legacy_storage">사진, 동영상, 오디오 및 파일 접근</string>
     <string name="permission_oaid_desc">%1$s이(가) 다른 앱과 웹사이트에서 귀하의 활동을 추적하도록 허용하시겠습니까?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">앱에서 귀하의 연락처 읽기, 통화 기록 보기, 시스템 설정 변경 또는 카메라나 다른 기기 리소스에 접근하기 전에 권한을 요청하지 않습니다. 이 기능은 권한 설정에서 변경할 수 있습니다.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">권한 관리자</string>
     <string name="permission_precise_location">정밀 위치</string>
@@ -4823,6 +4832,7 @@ SMS 전송"</string>
     <string name="recommended">추천</string>
     <string name="reject_all">모두 제한</string>
     <string name="reject_countdown">거부 (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">다음 앱의 USB 설치가 거부되었습니다.</string>
     <string name="release_meminfo">메모리 %dMB 확보</string>
     <string name="release_memory">캐시 삭제</string>

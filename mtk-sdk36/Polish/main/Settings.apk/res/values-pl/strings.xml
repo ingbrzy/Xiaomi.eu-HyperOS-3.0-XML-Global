@@ -1770,7 +1770,7 @@ Twój telefon nigdy wcześniej nie był połączony z urządzeniem %2$s."</stri
     <string name="bluetooth_connect_battery_state">%1$s %2$s</string>
     <string name="bluetooth_connect_settings">Połączenie</string>
     <string name="bluetooth_connect_specific_profiles_title">Połącz z…</string>
-    <string name="bluetooth_connected">Połączono z %1$s</string>
+    <string name="bluetooth_connected">Połączono %1$s</string>
     <string name="bluetooth_connected_battery_level">Połączono | Bateria %1$s %2$s</string>
     <string name="bluetooth_connected_multiple_devices_summary">Połączono z wieloma urządzeniami</string>
     <string name="bluetooth_connected_no_a2dp">Połączono (brak multimediów) z %1$s</string>
@@ -4132,10 +4132,12 @@ Uruchom urządzenie ponownie i spróbuj jeszcze raz."</string>
     <string name="eyes_protect_certification_summary_2">Niska emisja światła niebieskiego (rozwiązanie sprzętowe), przyjazny dla rytmu okołodobowego oraz certyfikowany brak migotania</string>
     <string name="eyes_protect_certification_summary_3">Technologia polaryzacji kołowej pozwala światłu rozpraszać się równomiernie, zapewniając bardziej naturalne wrażenia wizualne.</string>
     <string name="eyes_protect_certification_summary_4">Technologia ściemniania DC przy pełnej jasności zmniejsza obciążenie nerwu wzrokowego, eliminując migotanie podczas przełączania między trybem jasnym i ciemnym</string>
+    <string name="eyes_protect_certification_summary_5">Nasza niestandardowa kompensacja SVM utrzymuje SVM poniżej 1 przy dowolnej jasności, zapewniając komfort oglądania</string>
     <string name="eyes_protect_certification_title_1">Chińskie centrum certyfikacji jakości</string>
     <string name="eyes_protect_certification_title_2">Potrójna certyfikacja TÜV Rheinland w zakresie komfortu oczu</string>
     <string name="eyes_protect_certification_title_3">Bardziej naturalna polaryzacja kołowa</string>
     <string name="eyes_protect_certification_title_4">Ściemnianie DC bez efektu migotania</string>
+    <string name="eyes_protect_certification_title_5">Ściemnianie PWM 3840 Hz</string>
     <string name="face_data_apply_for_category_title">Odblokuj używając danych twarzy</string>
     <string name="face_data_apply_for_keyguard_title">Ekran blokady</string>
     <string name="face_data_input_camera_fail">Nie udało się załadować aparatu</string>
@@ -4731,6 +4733,8 @@ Kiedy włączysz automatyczną kopię zapasową, dane urządzenia i aplikacji b�
     <string name="global_locale_change_title">Zmień język</string>
     <string name="global_stylus_summary">Pisz w dowolnym polu tekstowym i konwertuj pismo odręczne na tekst (obsługiwane są tylko języki angielski i chiński)</string>
     <string name="global_stylus_title">Edytuj tekst napisany odręcznie</string>
+    <string name="glove_mode">Tryb dotyku w rękawiczkach</string>
+    <string name="glove_mode_summary">Włącz tę opcję, aby ekran reagował szybciej na dotyk, gdy masz na sobie rękawiczki. Funkcja nie działa w grach.</string>
     <string name="gmscore_settings_title">Podstawowe usługi Google</string>
     <string name="go_back_button_label">Wstecz</string>
     <string name="go_to_identity_check">Przejdź do weryfikacji tożsamości</string>
@@ -5595,7 +5599,7 @@ Otwórz Chmurę Xiaomi i przywróć stamtąd elementy."</string>
     <string name="legal_workday_message">(Pomiń dni wolne od pracy)</string>
     <string name="license_title">Licencja</string>
     <string name="lift_to_wake_title">Podnieś, by wybudzić</string>
-    <string name="light_camera_state_summary">Włącz podświetlenie podczas wykonywania zdjęć lub nagrywania filmów</string>
+    <string name="light_camera_state_summary">Włącz podświetlenie podczas wykonywania zdjęć seryjnych lub zdjęć z opóźnieniem</string>
     <string name="light_camera_state_title">Wskaźnik statusu aparatu</string>
     <string name="light_color_mode">Tryb jasny</string>
     <string name="lights_title">Dioda powiadomień</string>
@@ -5787,6 +5791,7 @@ Otwórz Chmurę Xiaomi i przywróć stamtąd elementy."</string>
     <string name="lock_screen_notifs_show_none">Nie pokazuj żadnych powiadomień</string>
     <string name="lock_screen_notifs_title">Powiadomienia na ekranie blokady</string>
     <string name="lock_screen_now">Zablokuj ekran</string>
+    <string name="lock_screen_password">Kod blokady ekranu</string>
     <string name="lock_screen_password_skip_biometrics_message">"Do skonfigurowania odblokowywania odciskiem palca i rozpoznawania twarzy wymagane jest hasło.
 
 Hasło ochroni telefon, jeśli zostanie zgubiony lub skradziony."</string>
@@ -7235,6 +7240,7 @@ Wybierz swój system operacyjny:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Dodaj dane twarzy, aby móc korzystać z Odblokowania za pomocą twarzy. Dodać teraz?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Dodaj dane twarzy</string>
     <string name="new_instruction_privacy_password">Hasło ochrony prywatności zabezpiecza następujące funkcje</string>
+    <string name="new_instruction_privacy_password_type">Typy haseł prywatności</string>
     <string name="new_modify_privacy_password">Zmień hasło ochrony prywatności</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Dodaj swój odcisk palca, aby odblokować za jego pomocą urządzenie.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Anuluj</string>
@@ -12077,6 +12083,7 @@ Więcej informacji znajdziesz w polityce prywatności operatora"</string>
     <string name="wifi_connect_cmcc_dialog_not_remind">Nie pokazuj ponownie</string>
     <string name="wifi_connect_cmcc_dialog_title">CMCC połączone</string>
     <string name="wifi_connect_failed_message">Nie udało się połączyć z siecią Wi-Fi</string>
+    <string name="wifi_connect_successful_talkback">Pomyślnie połączono z siecią %s</string>
     <string name="wifi_connected_less_secure">%1$s (mniej bezpieczna)</string>
     <string name="wifi_connected_low_quality">Niska jakość</string>
     <string name="wifi_connected_no_internet">Brak internetu</string>

@@ -1193,6 +1193,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="confirm_package_type">Confirmeu el vostre pla de dades</string>
     <string name="confirm_prompt_all_permission">Voleu que se us demanin permisos per totes les aplis?</string>
     <string name="confirm_reject_all_permission">Restringir aquest permís a totes les aplicacions?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Obtenir</string>
     <string name="confirm_upgrade">Opcions</string>
     <string name="connect_internet_by_mobiledata">Connexió de dades mòbils</string>
@@ -1972,6 +1973,7 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="game_toolbox_slow_charge_positive_btn">Activa</string>
     <string name="game_toolbox_slow_charge_title">Càrrega lenta</string>
     <string name="game_toolbox_slow_charge_toast">La càrrega lenta està activada</string>
+    <string name="game_toolbox_smart_charge_title">Càrrega intel·ligent</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">La resposta tàctil no funciona amb els dissenys originals. La resposta tàctil està desactivada.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">La resposta tàctil no funciona amb els dissenys originals</string>
     <string name="game_toolbox_smotion_vibrate_desc">"Afegeix resposta tàctil d'acord amb els moviments del joc. Només alguns jocs són compatibles."</string>
@@ -3177,6 +3179,7 @@ El teu dispositiu va un %s més ràpid."</string>
     <string name="more_setting_summary">Personalitza els recordatoris i configura el Mode no molesteu per a aquesta funció</string>
     <string name="more_settings">Més</string>
     <string name="morning">Matí</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP o PTP és actiu</string>
     <string name="mtrl_badge_numberless_content_description">Notificació nova</string>
     <string name="mtrl_chip_close_icon_content_description">Suprimeix %1$s</string>
@@ -3868,6 +3871,9 @@ l'Estalvi de bateria ultra"</string>
     <string name="perfermance_optimization_title">Optimització del rendiment</string>
     <string name="performance_frame_enhance_super_display_tips">"La freqüència de fotogrames millorada i la super resolució no poden funcionar al mateix temps. En encendre un d'ells, s'apagarà l'altre."</string>
     <string name="performance_frame_insert_super_display_tips">"La velocitat de fotogrames intel·ligents i la super resolució no poden estar vigents al mateix temps. En encendre un, s'apagarà l'altre."</string>
+    <string name="perm_disable_dialog_message">"El permís d'aquesta aplicació (%1$s) no ha superat la revisió."</string>
+    <string name="perm_disable_dialog_title">Permisos restringits</string>
+    <string name="perm_disable_note_text">Aquest permís no ha superat la revisió i ara està restringit: %1$s</string>
     <string name="perm_intercept_content">Vols donar-li a aquesta aplicació el permís %1s?</string>
     <string name="perm_intercept_notification_title">Si permets que %1s faci servir les notificacions, aquesta aplicació podrà realitzar les següents accions:</string>
     <string name="perm_intercept_privacy_content">Aquestes accions poden exposar les teves dades personals. Vols donar el permís (%1s) de totes formes?</string>
@@ -3875,6 +3881,8 @@ l'Estalvi de bateria ultra"</string>
     <string name="perm_intercept_unknown_title">Si permets que %1s instal·li aplicacions de fonts desconegudes, això pot suposar els següents riscos:</string>
     <string name="perm_list_header_title">Aplicacions</string>
     <string name="perm_list_header_title_has_storage">Aplicacions amb emmagatzematge</string>
+    <string name="perm_manage_external_storage">Accés a tots els fitxers</string>
+    <string name="perm_manage_zen_modes_access">Accés a modes</string>
     <string name="permdesc_coarse_location">Ubicació aproximada</string>
     <string name="permdesc_fine_location">Ubicació</string>
     <string name="permdesc_get_installed_apps">Vols permetre que \"%1$s\" accedeixi a la informació de les aplicacions instal·lades?</string>
@@ -3985,7 +3993,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="permission_instruction_send_mms">Aquest permís permet a les aplicacions enviar missatges multimèdia, cosa que pot generar tarifes addicionals. Les aplicacions malicioses poden utilitzar aquest permís per enviar missatges de pagament sense el vostre consentiment.</string>
     <string name="permission_instruction_send_payment_sms">Aquest permís permet a les aplicacions enviar missatges de text de pagament.</string>
     <string name="permission_instruction_send_sms">Aquest permís permet a les aplicacions enviar missatges de text, cosa que pot generar tarifes addicionals. Les aplicacions malicioses poden utilitzar aquest permís per enviar missatges de pagament sense el vostre consentiment.</string>
-    <string name="permission_instruction_shake">"Aquest permís permet que les aplicacions detectin la posició del dispositiu a l'espai, reconeguin tremolors, determinin l'orientació de la pantalla i utilitzin controls de joc i navegació per mapes."</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Aquest permís permet que les aplicacions mostrin elements a la pantalla de bloqueig. Les aplicacions malicioses poden utilitzar aquest permís per mostrar anuncis.</string>
     <string name="permission_instruction_sociality">"Si permeteu que les aplicacions accedeixin als fitxers de les seves pròpies carpetes, el sistema us permet decidir si també voleu que aquestes aplicacions accedeixin als fitxers generats a les aplicacions de xarxes socials per tal de protegir la vostra privadesa. Com que les aplicacions amb l'API d'Android nivell 29 o superior ja admeten particions d'emmagatzematge, aquest commutador no se'ls proporcionarà."</string>
     <string name="permission_instruction_storage">"Si permeteu que les aplicacions accedeixin a fitxers de les seves pròpies carpetes, el sistema us permet decidir si també voleu que aquestes aplicacions accedeixin als elements de la vostra galeria i als fitxers generats a les aplicacions de xarxes socials per tal de protegir la vostra privadesa. Com que les aplicacions amb l'API d'Android nivell 29 o superior ja admeten particions d'emmagatzematge, aquest commutador no se'ls proporcionarà."</string>
@@ -4000,6 +4008,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="permission_instruction_write_settings">Aquest permís permet a les aplicacions modificar la configuració del sistema. Les aplicacions malicioses poden utilitzar aquest permís amb la configuració del sistema i afectar l’ús normal del dispositiu.</string>
     <string name="permission_legacy_storage">Accediu a fotos, vídeos, àudio i fitxers</string>
     <string name="permission_oaid_desc">Voleu permetre que %1$s faci un seguiment de les teves activitats en altres aplicacions i llocs web?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">"Les aplicacions no us demanaran permís per llegir els contactes, veure l'historial de trucades, canviar paràmetres del sistema o accedir a la càmera i altres recursos. Activeu aquesta característica a la configuració de Permisos."</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Gestor de permisos</string>
     <string name="permission_precise_location">Ubicació precisa</string>
@@ -4822,6 +4831,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="recommended">Recomanat</string>
     <string name="reject_all">Restringir-ho tot</string>
     <string name="reject_countdown">Denegar (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">"Instal·lació denegada de les següents aplicacions a través d'USB"</string>
     <string name="release_meminfo">"S'han alliberat %d MB"</string>
     <string name="release_memory">Neteja la memòria cau</string>

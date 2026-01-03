@@ -1193,6 +1193,7 @@
     <string name="confirm_package_type">ยืนยันแผนข้อมูลของคุณ</string>
     <string name="confirm_prompt_all_permission">ต้องการตั้งค่าการอนุญาตแอปทั้งหมดเป็นสอบถาม?</string>
     <string name="confirm_reject_all_permission">จำกัดแอปทั้งหมดจากการใช้คุณลักษณะนี้?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">ขอรับ</string>
     <string name="confirm_upgrade">ตัวเลือก</string>
     <string name="connect_internet_by_mobiledata">เชื่อมต่อเครือข่ายข้อมูลมือถือ</string>
@@ -1974,6 +1975,7 @@
     <string name="game_toolbox_slow_charge_positive_btn">เปิดใช้งาน</string>
     <string name="game_toolbox_slow_charge_title">ชาร์จช้า</string>
     <string name="game_toolbox_slow_charge_toast">ชาร์จช้าเปิดอยู่</string>
+    <string name="game_toolbox_smart_charge_title">การชาร์จอัจฉริยะ</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">การตอบสนองการสัมผัสไม่ทำงานกับเค้าโครงเดิม การตอบสนองการสัมผัสปิดอยู่</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">การตอบสนองการสัมผัสไม่ทำงานกับเค้าโครงเดิม</string>
     <string name="game_toolbox_smotion_vibrate_desc">เพิ่มการตอบสนองแบบสัมผัสตามการเคลื่อนไหวของเกม รองรับเฉพาะบางเกมเท่านั้น</string>
@@ -3179,6 +3181,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="more_setting_summary">ปรับแต่งคำเตือนและตั้งค่า DND สำหรับฟีเจอร์นี้</string>
     <string name="more_settings">เพิ่มเติม</string>
     <string name="morning">เช้า</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP หรือ PTP ทำงานอยู่</string>
     <string name="mtrl_badge_numberless_content_description">การแจ้งเตือนใหม่</string>
     <string name="mtrl_chip_close_icon_content_description">นำ %1$s ออก</string>
@@ -3869,6 +3872,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="perfermance_optimization_title">การเพิ่มประสิทธิภาพ</string>
     <string name="performance_frame_enhance_super_display_tips">อัตราเฟรมเรทที่สูงขึ้นและความละเอียดที่เพิ่มขึ้นไม่สามารถทำงานพร้อมกันได้ การเปิดใช้งานอย่างใดอย่างหนึ่งจะปิดการใช้งานอีกอย่าง</string>
     <string name="performance_frame_insert_super_display_tips">อัตราเฟรมอัจฉริยะและความละเอียดขั้นสูงไม่สามารถใช้พร้อมกันได้ การเปิดอันหนึ่งจะเป็นการปิดอีกอัน</string>
+    <string name="perm_disable_dialog_message">การอนุญาตของแอปนี้ (%1$s) ยังไม่ผ่านการตรวจสอบ</string>
+    <string name="perm_disable_dialog_title">การอนุญาตถูกจำกัด</string>
+    <string name="perm_disable_note_text">การอนุญาตนี้ยังไม่ผ่านการตรวจสอบและถูกจำกัดอยู่ในขณะนี้: %1$s</string>
     <string name="perm_intercept_content">ให้สิทธิ์แอปนี้ดังต่อไปนี้: %1s?</string>
     <string name="perm_intercept_notification_title">การอนุญาตให้ %1s ใช้การแจ้งเตือนจะทำให้แอปนี้ดำเนินการต่อไปนี้:</string>
     <string name="perm_intercept_privacy_content">การกระทำเหล่านี้อาจเปิดเผยข้อมูลส่วนบุคคลของคุณ ยืนยันให้สิทธิ์(%1s)?</string>
@@ -3876,6 +3882,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="perm_intercept_unknown_title">การอนุญาตให้ %1s ติดตั้งแอปจากแหล่งที่ไม่รู้จักอาจมีความเสี่ยงดังต่อไปนี้:</string>
     <string name="perm_list_header_title">แอป</string>
     <string name="perm_list_header_title_has_storage">แอปที่มีที่เก็บข้อมูล</string>
+    <string name="perm_manage_external_storage">การเข้าถึงไฟล์ทั้งหมด</string>
+    <string name="perm_manage_zen_modes_access">การเข้าถึงโหมด</string>
     <string name="permdesc_coarse_location">ตำแหน่งโดยประมาณ</string>
     <string name="permdesc_fine_location">ตำแหน่งพิกัด</string>
     <string name="permdesc_get_installed_apps">อนุญาตให้ \"%1$s\" เข้าถึงข้อมูลเกี่ยวกับแอปที่ติดตั้ง?</string>
@@ -3986,7 +3994,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_send_mms">สิทธิ์นี้อนุญาตให้แอปส่งข้อความมัลติมีเดีย ซึ่งอาจมีค่าธรรมเนียมเพิ่มเติม แอปที่เป็นอันตรายอาจใช้สิทธิ์นี้เพื่อส่งข้อความแบบชำระเงินโดยไม่ได้รับความยินยอมจากคุณ</string>
     <string name="permission_instruction_send_payment_sms">การอนุญาตนี้จะอนุญาตให้แอปส่งข้อความแบบชำระเงินได้</string>
     <string name="permission_instruction_send_sms">สิทธิ์นี้อนุญาตให้แอปส่งข้อความ ซึ่งอาจมีค่าธรรมเนียมเพิ่มเติม แอปที่เป็นอันตรายอาจใช้สิทธิ์นี้เพื่อส่งข้อความแบบชำระเงินโดยไม่ได้รับความยินยอมจากคุณ</string>
-    <string name="permission_instruction_shake">การอนุญาตนี้ช่วยให้แอปสามารถตรวจจับตำแหน่งของอุปกรณ์ในอวกาศ รับรู้การสั่น กำหนดทิศทางของหน้าจอ รวมถึงใช้การควบคุมเกมและการนำทางแผนที่</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">การอนุญาตนี้ทำให้แอพสามารถแสดงรายการบนหน้าจอล็อคของคุณ แอปที่เป็นอันตรายอาจใช้การอนุญาตนี้เพื่อแสดงโฆษณา</string>
     <string name="permission_instruction_sociality">หากคุณอนุญาตให้แอปเข้าถึงไฟล์ในโฟลเดอร์ของตนเอง ระบบจะช่วยให้คุณตัดสินใจได้ว่าคุณต้องการให้แอปเหล่านี้เข้าถึงไฟล์ที่สร้างในแอปโซเชียลมีเดียหรือไม่เพื่อปกป้องความเป็นส่วนตัวของคุณ เนื่องจากแอปที่มี Android API ระดับ 29 ขึ้นไปรองรับพาร์ติชันพื้นที่เก็บข้อมูลอยู่แล้วจึงไม่มีสวิตช์นี้ให้</string>
     <string name="permission_instruction_storage">หากคุณอนุญาตให้แอปเข้าถึงไฟล์ในโฟลเดอร์ของตนเอง ระบบจะช่วยให้คุณตัดสินใจได้ว่าคุณต้องการให้แอปเหล่านี้เข้าถึงรายการในแกลเลอรีของคุณหรือไม่และไฟล์ที่สร้างในแอปโซเชียลมีเดียเพื่อปกป้องความเป็นส่วนตัวของคุณ เนื่องจากแอปที่มี Android API ระดับ 29 ขึ้นไปรองรับพาร์ติชันพื้นที่เก็บข้อมูลอยู่แล้วจึงไม่มีสวิตช์นี้ให้</string>
@@ -4001,6 +4009,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_write_settings">สิทธิ์นี้อนุญาตให้แอปแก้ไขการตั้งค่าระบบ แอปที่เป็นอันตรายอาจใช้สิทธิ์นี้เพื่อแทรกแซงการตั้งค่าระบบของคุณและส่งผลต่อการใช้งานอุปกรณ์ของคุณตามปกติ</string>
     <string name="permission_legacy_storage">เข้าถึงรูปภาพ วิดีโอ เสียง และไฟล์</string>
     <string name="permission_oaid_desc">อนุญาตให้ %1$s ติดตามกิจกรรมของคุณบนแอปและเว็บไซต์อื่นหรือไม่?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">แอปต่างๆในเครื่องของคุณจะไม่ร้องขอการอนุญาตในการเข้าถึงรายชื่อผู้ติดต่อ รายการโทรเข้าออก การตั้งค่าระบบ หรือใช้งานกล้องและส่วนอื่นๆในระบบ อย่างไรก็ตามคุณสามารถเปิดใช้งานได้ใหม่จากเมนูการตั้งค่าการอนุญาต</string>
     <string name="permission_permission_control_closed_desc_dialog_title">ตัวจัดการสิทธิ์</string>
     <string name="permission_precise_location">ตำแหน่งที่แม่นยำ</string>
@@ -4823,6 +4832,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="recommended">รายการแนะนำ</string>
     <string name="reject_all">จำกัดทั้งหมด</string>
     <string name="reject_countdown">ปฎิเสธ (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">ปฏิเสธการติดตั้งแอปต่อไปนี้ผ่านทาง USB</string>
     <string name="release_meminfo">เพิ่ม %dMB</string>
     <string name="release_memory">ล้างแคช</string>

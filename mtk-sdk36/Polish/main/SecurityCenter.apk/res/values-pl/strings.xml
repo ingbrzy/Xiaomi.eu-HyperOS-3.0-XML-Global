@@ -1193,6 +1193,7 @@ Jednakże niektóre z Twoich transakcji nie zostały zakończone. Aby móc wycof
     <string name="confirm_package_type">Potwierdź swój plan danych</string>
     <string name="confirm_prompt_all_permission">Pytać o uprawnienia dla wszystkich aplikacji?</string>
     <string name="confirm_reject_all_permission">Zablokować aplikacjom dostępu do tej funkcji?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Ograniczyć to uprawnienie wszystkim aplikacjom podczas uruchamiania aplikacji?</string>
     <string name="confirm_take">Pobierz</string>
     <string name="confirm_upgrade">Opcje</string>
     <string name="connect_internet_by_mobiledata">Połączenie przez dane mobilne</string>
@@ -1972,6 +1973,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="game_toolbox_slow_charge_positive_btn">Włącz</string>
     <string name="game_toolbox_slow_charge_title">Wolne ładowanie</string>
     <string name="game_toolbox_slow_charge_toast">Włączono wolne ładowanie</string>
+    <string name="game_toolbox_smart_charge_title">Inteligentne ładowanie</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptyczna informacja zwrotna nie działa z oryginalnymi układami. Funkcja została wyłączona.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptyczna informacja zwrotna nie działa z oryginalnymi układami</string>
     <string name="game_toolbox_smotion_vibrate_desc">Zastosuj haptyczną informację zwrotną odpowiadającą ruchom wykonywanym w grze. Funkcja jest obsługiwana tylko przez niektóre tytuły.</string>
@@ -3177,6 +3179,7 @@ Twoje urządzenie jest teraz %s szybsze."</string>
     <string name="more_setting_summary">Personalizuj przypomnienia i ustaw tryb Nie przeszkadzać dla tej funkcji</string>
     <string name="more_settings">Więcej</string>
     <string name="morning">Poranek</string>
+    <string name="msg_only_opening_screen">Dostęp będzie ograniczony przez pierwsze %d sekund po uruchomieniu aplikacji</string>
     <string name="mtp_ptp_mode_summary">MTP lub PTP jest aktywne</string>
     <string name="mtrl_badge_numberless_content_description">Nowe powiadomienie</string>
     <string name="mtrl_chip_close_icon_content_description">Usuń: (%1$s)</string>
@@ -3867,6 +3870,9 @@ Ultra oszczędzanie baterii"</string>
     <string name="perfermance_optimization_title">Optymalizacja wydajności</string>
     <string name="performance_frame_enhance_super_display_tips">Zwiększona częstotliwość wyświetlania klatek na sekundę i super rozdzielczość nie mogą działać jednocześnie. Włączenie jednego powoduje wyłączenie drugiego.</string>
     <string name="performance_frame_insert_super_display_tips">Inteligentna liczba klatek na sekundę i super rozdzielczość nie mogą działać jednocześnie. Włączenie jednego powoduje wyłączenie drugiego.</string>
+    <string name="perm_disable_dialog_message">Uprawnienia tej aplikacji (%1$s) nie przeszły kontroli.</string>
+    <string name="perm_disable_dialog_title">Uprawnienie zostało ograniczone</string>
+    <string name="perm_disable_note_text">Uprawnienie nie przeszło kontroli i zostało ograniczone: %1$s</string>
     <string name="perm_intercept_content">Nadać aplikacji następujące uprawnienia: %1s?</string>
     <string name="perm_intercept_notification_title">Zezwolenie %1s na korzystanie z powiadomień pozwoli tej aplikacji na wykonywanie następujących działań:</string>
     <string name="perm_intercept_privacy_content">Działania te mogą spowodować ujawnienie danych osobowych użytkownika. Nadać uprawnienia (%1s) mimo to?</string>
@@ -3874,6 +3880,8 @@ Ultra oszczędzanie baterii"</string>
     <string name="perm_intercept_unknown_title">Zezwolenie %1s na instalowanie aplikacji z nieznanych źródeł może stwarzać następujące ryzyko:</string>
     <string name="perm_list_header_title">Aplikacje</string>
     <string name="perm_list_header_title_has_storage">Aplikacje z dostępem do pamięci</string>
+    <string name="perm_manage_external_storage">Dostęp do wszystkich plików</string>
+    <string name="perm_manage_zen_modes_access">Dostęp do trybów</string>
     <string name="permdesc_coarse_location">Przybliżona lokalizacja</string>
     <string name="permdesc_fine_location">Lokalizacja</string>
     <string name="permdesc_get_installed_apps">Zezwolić „%1$s” na dostęp do informacji o zainstalowanych aplikacjach?</string>
@@ -3999,6 +4007,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="permission_instruction_write_settings">To uprawnienie umożliwia aplikacjom modyfikowanie ustawień systemowych. Złośliwe aplikacje mogą wykorzystać to uprawnienie do zmieniania ustawień systemowych, co może negatywnie wpłynąć na użytkowanie urządzenia.</string>
     <string name="permission_legacy_storage">Dostęp do zdjęć, filmów, dźwięków i plików</string>
     <string name="permission_oaid_desc">Umożliwić %1$s śledzenie aktywności w innych aplikacjach i witrynach?</string>
+    <string name="permission_only_opening_screen">Ogranicz dostęp podczas uruchamiania aplikacji</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Aplikacje nie będą prosić o pozwolenie na czytanie kontaktów, wyświetlanie historii połączeń, zmianę ustawień systemowych, dostęp do aparatu czy innych zasobów systemowych. Możesz włączyć \"Zarządzanie uprawnieniami\" w ustawieniach Uprawnień.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Zarządzanie uprawnieniami</string>
     <string name="permission_precise_location">Dokładna lokalizacja</string>
@@ -4821,6 +4830,7 @@ Wycofać zgodę?"</string>
     <string name="recommended">Polecane</string>
     <string name="reject_all">Zablokuj wszystkie</string>
     <string name="reject_countdown">Odmów (%d)</string>
+    <string name="reject_only_opening_screen">Ogranicz dostęp wszystkim aplikacjom podczas uruchamiania aplikacji</string>
     <string name="reject_usb_install">Odmowa instalacji następujących aplikacji przez USB</string>
     <string name="release_meminfo">Uwolniono %dMB</string>
     <string name="release_memory">Wyczyść pamięć podręczną</string>

@@ -1193,6 +1193,7 @@ Jedoch sind einige deiner Transaktionen noch nicht abgeschlossen. Um deine Zusti
     <string name="confirm_package_type">Bestätige deinen Datentarif</string>
     <string name="confirm_prompt_all_permission">Berechtigungen für alle Apps anfordern?</string>
     <string name="confirm_reject_all_permission">Alle Apps von der Nutzung dieser Funktion ausschließen?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Erhalten</string>
     <string name="confirm_upgrade">Optionen</string>
     <string name="connect_internet_by_mobiledata">Mobile Datenverbindung</string>
@@ -1974,6 +1975,7 @@ Wenn die intelligente Bildrate an ist, können Tools zur Erkennung der Bildrate 
     <string name="game_toolbox_slow_charge_positive_btn">Einschalten</string>
     <string name="game_toolbox_slow_charge_title">Langsames Aufladen</string>
     <string name="game_toolbox_slow_charge_toast">Langsames Aufladen ist an</string>
+    <string name="game_toolbox_smart_charge_title">Intelligentes Aufladen</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptisches Feedback funktioniert nicht mit Original-Layouts. Haptisches Feedback ist aus.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptisches Feedback funktioniert nicht mit Original-Layouts</string>
     <string name="game_toolbox_smotion_vibrate_desc">Füge haptisches Feedback in Übereinstimmung mit den Spielbewegungen hinzu. Es werden nur einige Spiele unterstützt.</string>
@@ -2691,7 +2693,7 @@ Drücke und halte den Indikator, um das Fenster zu verschieben."</string>
     <string name="hints_scan_result_no_finish">Scan nicht abgeschlossen. Tippen Sie, um neu zu beginnen.</string>
     <string name="hints_scan_result_phone_safe">Alles sieht gut aus</string>
     <string name="hints_scan_result_safe">Sicher</string>
-    <string name="hints_scanning">Gescannt wird…</string>
+    <string name="hints_scanning">"Gescannt wird » "</string>
     <string name="hints_scanning_text">Scannen…</string>
     <string name="hints_virus_apk_list_item_summary">APK</string>
     <string name="hints_virus_apk_summary">%s (APK)</string>
@@ -3179,6 +3181,7 @@ Dein Gerät ist jetzt %s schneller."</string>
     <string name="more_setting_summary">Erinnerungen anpassen und BNS für diese Funktion festlegen</string>
     <string name="more_settings">Mehr</string>
     <string name="morning">Morgen</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP oder PTP ist aktiv</string>
     <string name="mtrl_badge_numberless_content_description">Neue Benachrichtigung</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s entfernen</string>
@@ -3869,6 +3872,9 @@ wird ausgeschaltet"</string>
     <string name="perfermance_optimization_title">Leistungsoptimierung</string>
     <string name="performance_frame_enhance_super_display_tips">Verbesserte Bildrate und Superauflösung können nicht gleichzeitig funktionieren. Das Einschalten einer Option schaltet die andere aus.</string>
     <string name="performance_frame_insert_super_display_tips">Intelligente Bildrate und Superauflösung können nicht gleichzeitig aktiviert sein. Die Aktivierung einer Option deaktiviert die andere.</string>
+    <string name="perm_disable_dialog_message">Die Berechtigung dieser App (%1$s) hat die Überprüfung nicht bestanden.</string>
+    <string name="perm_disable_dialog_title">Berechtigungen eingeschränkt</string>
+    <string name="perm_disable_note_text">Diese Berechtigung hat die Überprüfung nicht bestanden und ist jetzt eingeschränkt: %1$s</string>
     <string name="perm_intercept_content">Dieser App die folgenden Berechtigungen erteilen: %1s?</string>
     <string name="perm_intercept_notification_title">Wenn du %1s die Verwendung von Benachrichtigungen erlaubst, führt diese App die folgenden Aktionen aus:</string>
     <string name="perm_intercept_privacy_content">Diese Aktionen können deine persönlichen Daten offen legen. Die Erlaubnis (%1s) trotzdem erteilen?</string>
@@ -3876,6 +3882,8 @@ wird ausgeschaltet"</string>
     <string name="perm_intercept_unknown_title">Wenn du %1s erlaubst, Apps von unbekannten Quellen zu installieren, können folgende Risiken auftreten:</string>
     <string name="perm_list_header_title">Apps</string>
     <string name="perm_list_header_title_has_storage">Apps mit Speicherplatz</string>
+    <string name="perm_manage_external_storage">Zugriff aller Dateien</string>
+    <string name="perm_manage_zen_modes_access">Modi-Zugriff</string>
     <string name="permdesc_coarse_location">Ungefährer Standort</string>
     <string name="permdesc_fine_location">Standort</string>
     <string name="permdesc_get_installed_apps">%1$s erlauben, auf Informationen über deine installierten Apps zuzugreifen.</string>
@@ -3986,7 +3994,7 @@ wird ausgeschaltet"</string>
     <string name="permission_instruction_send_mms">Diese Berechtigung erlaubt Apps, Multimedia-Nachrichten, zu senden, die zusätzliche Gebühren verursachen können. Bösartige Apps könnten diese Berechtigung nutzen, um ohne deine Zustimmung kostenpflichtige Nachrichten zu senden.</string>
     <string name="permission_instruction_send_payment_sms">Diese Berechtigung erlaubt Apps, kostenpflichtige Textnachrichten zu senden.</string>
     <string name="permission_instruction_send_sms">Diese Berechtigung erlaubt Apps, Textnachrichten zu senden, die zusätzliche Gebühren verursachen können. Bösartige Apps könnten diese Berechtigung nutzen, um ohne deine Zustimmung kostenpflichtige Nachrichten zu senden.</string>
-    <string name="permission_instruction_shake">Diese Berechtigung erlaubt es Apps, die Position des Geräts im Raum zu erkennen, Erschütterungen zu erfassen, die Bildschirmausrichtung zu bestimmen sowie Spielsteuerungen und Kartennavigation zu nutzen.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Diese Berechtigung ermöglicht der App, Elemente auf deinem Sperrbildschirm anzuzeigen. Schädliche Anwendungen könnten diese Berechtigung nutzen, um Werbung anzuzeigen.</string>
     <string name="permission_instruction_sociality">Wenn du Apps den Zugriff auf Dateien in deinen eigenen Ordnern erlaubst, lässt dich das System entscheiden, ob diese Apps auch auf Dateien, die in Social-Media-Apps erstellt wurden, zugreifen dürfen, um deine Privatsphäre zu schützen. Da die Apps mit Android-API-Level 29 oder höher bereits Speicherpartitionen unterstützen, wird dieser Schalter für diese nicht angeboten.</string>
     <string name="permission_instruction_storage">Wenn du Apps den Zugriff auf Dateien in deinen eigenen Ordnern erlaubst, lässt dich das System entscheiden, ob diese Apps auch auf die Elemente in deiner Galerie und auf Dateien, die in Social-Media-Apps erstellt wurden, zugreifen dürfen, um deine Privatsphäre zu schützen. Da die Apps mit Android-API-Level 29 oder höher bereits Speicherpartitionen unterstützen, wird dieser Schalter für diese nicht angeboten.</string>
@@ -4001,6 +4009,7 @@ wird ausgeschaltet"</string>
     <string name="permission_instruction_write_settings">Diese Berechtigung erlaubt Apps, Systemeinstellungen zu ändern. Bösartige Apps können diese Berechtigung nutzen, um deine Systemeinstellungen zu verändern und die normale Nutzung deines Geräts zu beeinträchtigen.</string>
     <string name="permission_legacy_storage">Zugriff auf Fotos, Videos, Audio und Dateien</string>
     <string name="permission_oaid_desc">%1$s erlauben, deine Aktivitäten in anderen Apps und auf Websites zu verfolgen?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Apps fragen nicht nach deiner Erlaubnis, bevor sie deine Kontakte lesen, deine Anrufliste einsehen, Systemeinstellungen ändern oder auf Kamera- und andere Gerätenressourcen zugreifen. Du kannst diese Funktion in den Berechtigungseinstellungen einschalten.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Rechtemanager</string>
     <string name="permission_precise_location">Präziser Standort</string>
@@ -4823,6 +4832,7 @@ Zustimmung jetzt widerrufen?"</string>
     <string name="recommended">Empfohlen</string>
     <string name="reject_all">Alle einschränken</string>
     <string name="reject_countdown">Verweigern (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Installation folgender Apps über USB wurde verweigert</string>
     <string name="release_meminfo">%d MB bereinigt</string>
     <string name="release_memory">Cache löschen</string>

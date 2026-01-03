@@ -1193,6 +1193,7 @@
     <string name="confirm_package_type">データプランを確認</string>
     <string name="confirm_prompt_all_permission">全てのアプリに権限を求めますか？</string>
     <string name="confirm_reject_all_permission">すべてのアプリに対しこの機能の使用を制限しますか？</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">すべてのアプリに対して、アプリ起動時にこの権限を制限しますか？</string>
     <string name="confirm_take">取得</string>
     <string name="confirm_upgrade">オプション</string>
     <string name="connect_internet_by_mobiledata">モバイルデータ接続</string>
@@ -1974,6 +1975,7 @@
     <string name="game_toolbox_slow_charge_positive_btn">オンにする</string>
     <string name="game_toolbox_slow_charge_title">低速充電</string>
     <string name="game_toolbox_slow_charge_toast">低速充電がオンです</string>
+    <string name="game_toolbox_smart_charge_title">スマート充電</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">触覚フィードバックはオリジナルレイアウトでは機能しません。触覚フィードバックはオフになっています。</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">触覚フィードバックはオリジナルレイアウトでは機能しません</string>
     <string name="game_toolbox_smotion_vibrate_desc">ゲームの動きに合わせて触覚フィードバックを追加します。一部のゲームのみサポートされています。</string>
@@ -3179,6 +3181,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="more_setting_summary">リマインダーをカスタマイズし、この機能に対してDNDを設定する</string>
     <string name="more_settings">その他</string>
     <string name="morning">午前</string>
+    <string name="msg_only_opening_screen">アプリ起動後最初の%d秒間はアクセスが制限されます</string>
     <string name="mtp_ptp_mode_summary">MTPまたはPTPがアクティブです</string>
     <string name="mtrl_badge_numberless_content_description">新しい通知</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
@@ -3869,6 +3872,9 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="perfermance_optimization_title">パフォーマンスの最適化</string>
     <string name="performance_frame_enhance_super_display_tips">強化されたフレームレートと超解像度は、同時に機能することはできません。一方をオンにするともう一方がオフになります。</string>
     <string name="performance_frame_insert_super_display_tips">スマートフレームレートと超解像度を同時に有効にすることはできません。一方をオンにすると、もう一方はオフになります。</string>
+    <string name="perm_disable_dialog_message">このアプリの権限（%1$s）は審査を通過していません。</string>
+    <string name="perm_disable_dialog_title">権限制限中</string>
+    <string name="perm_disable_note_text">この権限は審査を通過しておらず、現在制限されています: %1$s</string>
     <string name="perm_intercept_content">このアプリにアクセス許可（%1s）を付与しますか？</string>
     <string name="perm_intercept_notification_title">%1sに通知の使用を許可すると、このアプリは以下の操作を実行できるようになります。</string>
     <string name="perm_intercept_privacy_content">これらの操作により、個人データが漏洩する可能性があります。それでも権限（%1s）を付与しますか？</string>
@@ -3876,6 +3882,8 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="perm_intercept_unknown_title">%1sに不明のソースからのアプリのインストールを許可すると、以下のリスクが生じる可能性があります。</string>
     <string name="perm_list_header_title">アプリ</string>
     <string name="perm_list_header_title_has_storage">ストレージ権限を持つアプリ</string>
+    <string name="perm_manage_external_storage">すべてのファイルへのアクセス</string>
+    <string name="perm_manage_zen_modes_access">アクセスモード</string>
     <string name="permdesc_coarse_location">おおよその位置情報</string>
     <string name="permdesc_fine_location">位置情報</string>
     <string name="permdesc_get_installed_apps">\"%1$s\"によるインストール済みアプリに関する情報へのアクセスを許可しますか？</string>
@@ -4001,6 +4009,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="permission_instruction_write_settings">この権限により、アプリはシステム設定を変更できます。悪意のあるアプリは、この権限を使用してシステム構成を破壊し、デバイスの通常の使用に影響を与える可能性があります。</string>
     <string name="permission_legacy_storage">写真、ビデオ、オーディオ、ファイルへのアクセス</string>
     <string name="permission_oaid_desc">%1$s が他のアプリやウェブサイトでのアクティビティを追跡することを許可しますか？</string>
+    <string name="permission_only_opening_screen">アプリ起動時のアクセス制限</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">アプリは、連絡先の読み取り、通話履歴の表示、システム設定の変更、カメラやその他のデバイスリソースにアクセスする前に、ユーザーの許可を要求しません。この機能はアクセス許可設定でオンにできます。</string>
     <string name="permission_permission_control_closed_desc_dialog_title">アクセス許可マネージャー</string>
     <string name="permission_precise_location">正確な位置情報</string>
@@ -4823,6 +4832,7 @@ WeChatとQQ用の赤い封筒アシスタント
     <string name="recommended">注目</string>
     <string name="reject_all">すべてのアプリで制限するように設定</string>
     <string name="reject_countdown">拒否 (%d)</string>
+    <string name="reject_only_opening_screen">すべてのアプリについて、起動時のアクセスを制限する</string>
     <string name="reject_usb_install">以下のアプリのUSB経由でのインストールを拒否しました</string>
     <string name="release_meminfo">%dMBを解放</string>
     <string name="release_memory">キャッシュを消去</string>

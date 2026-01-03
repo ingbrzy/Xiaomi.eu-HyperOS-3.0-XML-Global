@@ -1193,6 +1193,7 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="confirm_package_type">Bekräfta din dataplan</string>
     <string name="confirm_prompt_all_permission">Fråga efter behörighet för alla appar?</string>
     <string name="confirm_reject_all_permission">Begränsa alla appar från att använda den här funktionen?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Hämta</string>
     <string name="confirm_upgrade">Alternativ</string>
     <string name="connect_internet_by_mobiledata">Anslutning för mobildata</string>
@@ -1972,6 +1973,7 @@ När Smart bildfrekvens är aktiverad, detektionsverktyg för bildfrekvenser kan
     <string name="game_toolbox_slow_charge_positive_btn">Aktivera</string>
     <string name="game_toolbox_slow_charge_title">Långsam laddning</string>
     <string name="game_toolbox_slow_charge_toast">Långsam laddning är på</string>
+    <string name="game_toolbox_smart_charge_title">Smart laddning</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Haptisk feedback funderar inte med original-layouts. Haptisk feedback är avaktiverat.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Haptisk feedback funderar inte med original-layouts</string>
     <string name="game_toolbox_smotion_vibrate_desc">Lägg till haptisk feedback i enlighet med spelrörelser. Bara vissa spel stöds.</string>
@@ -3177,6 +3179,7 @@ Din enhet är %s snabbare nu."</string>
     <string name="more_setting_summary">Anpassa påminnelser och ange Stör ej, för den här funktionen</string>
     <string name="more_settings">Mer</string>
     <string name="morning">Morgon</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP eller PTP är aktiv</string>
     <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
     <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
@@ -3867,6 +3870,9 @@ Ultra batterisparare"</string>
     <string name="perfermance_optimization_title">Prestandaoptimering</string>
     <string name="performance_frame_enhance_super_display_tips">Förstärkt bildfrekvens och superupplösning kan inte fungera samtidigt. Att aktivera en, avaktiverar den andra.</string>
     <string name="performance_frame_insert_super_display_tips">Smart bildfrekvens och superupplösning kan inte vara aktiva samtidigt. Om den ena aktiveras, avaktiveras den andra.</string>
+    <string name="perm_disable_dialog_message">Den här appens behörigheter (%1$s) har inte godkänts i granskningen.</string>
+    <string name="perm_disable_dialog_title">Begränsade behörigheter</string>
+    <string name="perm_disable_note_text">Den här behörigheten har inte godkänts i granskningen och är begränsad nu: %1$s</string>
     <string name="perm_intercept_content">Ge denna app följande behörighet: %1s?</string>
     <string name="perm_intercept_notification_title">Att tillåta %1s att använda notifikationer kommer låta denna app utföra följande handlingar:</string>
     <string name="perm_intercept_privacy_content">Dessa handlingar kan exponera dina personliga uppgifter. Bevilja behörighet (%1s) ändå?</string>
@@ -3874,6 +3880,8 @@ Ultra batterisparare"</string>
     <string name="perm_intercept_unknown_title">Att tillåta %1s att installera appar från okända källor kan innebära följande risker:</string>
     <string name="perm_list_header_title">Appar</string>
     <string name="perm_list_header_title_has_storage">Appar med lagring</string>
+    <string name="perm_manage_external_storage">Åtkomst till alla filer</string>
+    <string name="perm_manage_zen_modes_access">Åtkomst till lägen</string>
     <string name="permdesc_coarse_location">Ungefärlig plats</string>
     <string name="permdesc_fine_location">Plats</string>
     <string name="permdesc_get_installed_apps">Tillåt \"%1$s\" åtkomst till info om installerade appar?</string>
@@ -3984,7 +3992,7 @@ Ultra batterisparare"</string>
     <string name="permission_instruction_send_mms">Den här behörigheten tillåter appar att skicka multimedia-meddelanden, vilket kan generera ytterligare kostnader. Appar med malignt innehåll kan använda den här behörigheten för att skicka betalmeddelanden utan ditt samtycke.</string>
     <string name="permission_instruction_send_payment_sms">Den här behörigheten låter appar skicka betalda text-meddelanden.</string>
     <string name="permission_instruction_send_sms">Den här behörigheten tillåter appar att skicka textmeddelanden, vilket kan generera ytterligare kostnader. Appar med malignt innehåll kan använda den här behörigheten för att skicka betalmeddelanden utan ditt samtycke.</string>
-    <string name="permission_instruction_shake">Med den här behörigheten kan appar identifiera enhetens position i rymden, känna igen skakningar, bestämma skärmorientering, samt använda spelkontroller och kartnavigering.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Denna behörighet tillåter appar att visa objekt på din låsskärm. Skadliga appar kan använda denna behörighet för att visa annonser.</string>
     <string name="permission_instruction_sociality">Om du tillåter appar att tillträda filer i deras egna mappar låter systemet dig besluta huruvida du också vill att dessa appar ska tillträda filerna genererade i sociala mediaappar för att skydda din integritet. Då apparna med Android API nivå 29 eller högre redan stöder lagringspartitioner kommer denna växling inte att tillhandahållas för dem.</string>
     <string name="permission_instruction_storage">Om du tillåter appar att tillträda filer i deras egna mappar låter systemet dig besluta huruvida du också vill att dessa appar ska tillträda objekten i ditt Galleri och filer genererade i sociala mediaappar för att skydda din integritet. Då apparna med Android API nivå 29 eller högre redan stöder lagringspartitioner kommer denna växling inte att tillhandahållas för dem.</string>
@@ -3999,6 +4007,7 @@ Ultra batterisparare"</string>
     <string name="permission_instruction_write_settings">Den här behörigheten tillåter appar att ändra systeminställningarna. Maligna appar kanske använda den här behörigheten till att förändra dina systeminställningar och påverka den normala användningen av din enhet.</string>
     <string name="permission_legacy_storage">Få åtkomst till foton, videor, ljud och filer</string>
     <string name="permission_oaid_desc">Tillåt %1$s möjligheten att spåra dina aktiviteter på andra appar och hemsidor?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Appar kommer inte fråga efter tillstånd att läsa dina kontakter, se samtalshistorik, ändra systeminställningar, eller tillgång till kameran och andra enhetsresurser. Du kan aktivera den här funktionen i Tillståndsinställningar.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Behörighetshanterare</string>
     <string name="permission_precise_location">Exakt plats</string>
@@ -4821,6 +4830,7 @@ Dra tillbaka samtycke nu?"</string>
     <string name="recommended">Utvalda</string>
     <string name="reject_all">Begränsa alla</string>
     <string name="reject_countdown">Neka (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Nekade installation av de följande apparna via USB</string>
     <string name="release_meminfo">Frigör %d MB</string>
     <string name="release_memory">Rensa cache</string>

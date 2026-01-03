@@ -1193,6 +1193,7 @@
     <string name="confirm_package_type">Підтвердіть тарифний план</string>
     <string name="confirm_prompt_all_permission">Запитувати дозволи для всіх програм?</string>
     <string name="confirm_reject_all_permission">Заборонити всім програмам використовувати цю функцію?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
     <string name="confirm_take">Отримати</string>
     <string name="confirm_upgrade">Параметри</string>
     <string name="connect_internet_by_mobiledata">Мобільний інтернет</string>
@@ -1972,6 +1973,7 @@
     <string name="game_toolbox_slow_charge_positive_btn">Увімкнути</string>
     <string name="game_toolbox_slow_charge_title">Повільне заряджання</string>
     <string name="game_toolbox_slow_charge_toast">Повільне заряджання увімкнено</string>
+    <string name="game_toolbox_smart_charge_title">Smart charging</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">Тактильний відгук не працює з оригінальними макетами. Тактильний відгук відключений.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">Тактильний відгук не працює з оригінальними макетами.</string>
     <string name="game_toolbox_smotion_vibrate_desc">Додайте тактильний відгук відповідно до ігрових ходів. Підтримуються лише деякі ігри.</string>
@@ -3177,6 +3179,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="more_setting_summary">Налаштуйте нагадування та встановіть режим \"Не турбувати\" для цієї функції</string>
     <string name="more_settings">Ще</string>
     <string name="morning">Ранок</string>
+    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
     <string name="mtp_ptp_mode_summary">MTP або PTP активний</string>
     <string name="mtrl_badge_numberless_content_description">Нове сповіщення</string>
     <string name="mtrl_chip_close_icon_content_description">Видалити %1$s</string>
@@ -3867,6 +3870,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="perfermance_optimization_title">Оптимізація продуктивності</string>
     <string name="performance_frame_enhance_super_display_tips">Покращена частота кадрів і надвисока роздільна здатність не можуть використовуватися одночасно. Увімкнення однієї з функцій вимкнить іншу.</string>
     <string name="performance_frame_insert_super_display_tips">Розумна частота кадрів і надвисока роздільна здатність не можуть використовуватися одночасно. Увімкнення однієї з функцій вимкнить іншу.</string>
+    <string name="perm_disable_dialog_message">"This app's permission (%1$s) hasn't passed review."</string>
+    <string name="perm_disable_dialog_title">Permissions restricted</string>
+    <string name="perm_disable_note_text">"This permission hasn't passed review and is restricted now: %1$s"</string>
     <string name="perm_intercept_content">Надайте цій програмі наступні дозволи: %1s?</string>
     <string name="perm_intercept_notification_title">Надання дозволу %1s використовувати сповіщення дозволить цій програмі виконувати наступні дії:</string>
     <string name="perm_intercept_privacy_content">Ці дії можуть розкрити вашу особисту інформацію. Надати дозвіл (%1s) все одно?</string>
@@ -3874,6 +3880,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="perm_intercept_unknown_title">Надання дозволу %1s встановлювати програми з невідомих ресурсів може викликати наступні ризики:</string>
     <string name="perm_list_header_title">Програми</string>
     <string name="perm_list_header_title_has_storage">Програми з доступом до сховища</string>
+    <string name="perm_manage_external_storage">All files access</string>
+    <string name="perm_manage_zen_modes_access">Modes access</string>
     <string name="permdesc_coarse_location">Приблизне місцезнаходження</string>
     <string name="permdesc_fine_location">Місцезнаходження</string>
     <string name="permdesc_get_installed_apps">Дозволити \"%1$s\" доступ до інформації про встановлені програми?</string>
@@ -3984,7 +3992,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_send_mms">Цей дозвіл дозволяє застосункам надсилати мультимедійні повідомлення, що може призвести до додаткових витрат. Шкідливі застосунки можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
     <string name="permission_instruction_send_payment_sms">Цей дозвіл надає програмам дозвіл на відправлення платних повідомлень.</string>
     <string name="permission_instruction_send_sms">Цей дозвіл дозволяє застосункам надсилати текстові повідомлення, що може призвести до додаткових витрат. Шкідливі додатки можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
-    <string name="permission_instruction_shake">Цей дозвіл дозволяє програмам визначати положення пристрою в просторі, розпізнавати тремтіння, визначати орієнтацію екрана, а також використовувати елементи керування грою та навігацію по карті.</string>
+    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
     <string name="permission_instruction_show_locked">Цей дозвіл дозволяє програмам відображати елементи на екрані блокування. Шкідливі програми можуть використовувати цей дозвіл для показу реклами.</string>
     <string name="permission_instruction_sociality">Якщо ви дозволите програмам доступ до файлів у власних папках, з метою захисту конфіденційності система дозволить вам вирішити, чи хочете ви, щоб ці програми також отримували доступ до файлів, створених програмами соціальних мереж. Оскільки програми з Android API 29 рівня і вище вже підтримують поділ сховища, цей перемикач залишається для них недоступним.</string>
     <string name="permission_instruction_storage">"Якщо ви дозволите програмам доступ до файлів у власних папках, з метою захисту конфіденційності система дозволить вам вирішити, чи хочете ви, щоб ці програми також отримували доступ до об'єктів у Галереї та файлів, створених програмами соціальних мереж. Оскільки програми з Android API 29 рівня і вище вже підтримують поділ сховища, цей перемикач залишається для них недоступним."</string>
@@ -3999,6 +4007,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_write_settings">Цей дозвіл дозволяє застосункам змінювати системні налаштування. Шкідливі застосунки можуть використовувати цей дозвіл, щоб втручатися в системні налаштування та порушувати нормальну роботу пристрою.</string>
     <string name="permission_legacy_storage">Доступ до фото, відео, аудіо та файлів</string>
     <string name="permission_oaid_desc">Дозволити %1$s відстежувати вашу активність в інших програмах і на веб-сайтах?</string>
+    <string name="permission_only_opening_screen">Restrict access during app launch</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Програми не будуть запитувати дозволу на доступ до ваших даних та функцій. Ви можете увімкнути керування в налаштуваннях дозволів.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Керування дозволами вимкнено</string>
     <string name="permission_precise_location">Точне місцезнаходження</string>
@@ -4821,6 +4830,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="recommended">Рекомендовані</string>
     <string name="reject_all">Заборонити всім</string>
     <string name="reject_countdown">Відмовити (%d)</string>
+    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
     <string name="reject_usb_install">Скасоване встановлення наступних програм, використовуючи USB</string>
     <string name="release_meminfo">Звільнити %dМБ</string>
     <string name="release_memory">Очистити кеш</string>
