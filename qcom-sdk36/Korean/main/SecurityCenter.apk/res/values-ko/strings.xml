@@ -1193,7 +1193,7 @@
     <string name="confirm_package_type">데이터 플랜을 확인하세요</string>
     <string name="confirm_prompt_all_permission">모든 앱에 대한 권한을 물어보시겠습니까?</string>
     <string name="confirm_reject_all_permission">이 기능을 사용하는 모든 앱을 제한하시겠습니까?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">앱 실행 시 모든 앱에 대해 이 권한을 제한하시겠습니까?</string>
     <string name="confirm_take">얻기</string>
     <string name="confirm_upgrade">옵션</string>
     <string name="connect_internet_by_mobiledata">모바일 데이터 연결</string>
@@ -2810,7 +2810,10 @@
     <string name="lock_all_title">모든 앱 잠금</string>
     <string name="lock_app_input_invalid_car">일부 기호는 지원되지 않습니다</string>
     <string name="lock_mode_title">잠금 설정</string>
+    <string name="lock_screen_face_password_type_tips">"'안면 인식 데이터 &amp; 화면 잠금'에서 비밀번호를 변경할 수 있습니다."</string>
+    <string name="lock_screen_finger_password_type_tips">"'지문 &amp; 화면 잠금'에서 비밀번호를 변경할 수 있습니다."</string>
     <string name="lock_screen_hongbao_message">발신자: %1$s</string>
+    <string name="lock_screen_password_only_type_tips">"'화면 잠금'에서 비밀번호를 변경할 수 있습니다."</string>
     <string name="lock_screen_password_type">화면 잠금</string>
     <string name="lock_screen_password_type_tips">"'지문, 안면 인식 데이터, 화면 잠금'에서 화면 잠금을 변경할 수 있습니다."</string>
     <string name="lock_screen_traffic_guide_notification_summary">잠금화면에서 %s 사용됨</string>
@@ -3181,7 +3184,7 @@ SMS 전송"</string>
     <string name="more_setting_summary">알림을 사용자 지정하고 이 기능에 대한 방해금지 모드를 설정합니다</string>
     <string name="more_settings">더 보기</string>
     <string name="morning">아침</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">앱이 시작된 후 첫 %d초 동안 접근이 제한됩니다.</string>
     <string name="mtp_ptp_mode_summary">MTP 또는 PTP 활성화됨</string>
     <string name="mtrl_badge_numberless_content_description">새 알림</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s 삭제</string>
@@ -3994,7 +3997,7 @@ SMS 전송"</string>
     <string name="permission_instruction_send_mms">이 권한은 부가 요금이 생성되는 MMS 메시지를 전송할 수 있도록 합니다. 악성 앱이 이 권한을 사용하여 사용자의 동의 없이 유료 메시지를 전송할 수 있습니다.</string>
     <string name="permission_instruction_send_payment_sms">이 권한은 앱이 유료 문자 메시지를 보낼 수 있도록 합니다.</string>
     <string name="permission_instruction_send_sms">이 권한은 부가 요금이 생성되는 문자 메시지를 전송할 수 있도록 합니다. 악성 앱이 이 권한을 사용하여 사용자의 동의 없이 유료 메시지를 전송할 수 있습니다.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">이 권한을 통해 앱은 기기의 공간 내 위치를 감지하고, 흔들림을 인식하며, 화면 방향을 결정하고, 게임 컨트롤 및 지도 내비게이션 기능을 사용할 수 있습니다.</string>
     <string name="permission_instruction_show_locked">이 권한은 앱이 잠금화면에 항목을 표시할 수 있도록 합니다. 악성 앱이 이 권한을 사용하여 광고를 표시할 수 있습니다.</string>
     <string name="permission_instruction_sociality">앱이 자신의 폴더에 있는 파일에 접근할 수 있도록 허용하는 경우, 시스템은 개인 정보를 보호하기 위해 이러한 앱의 소셜 미디어 앱에 의해 생성된 파일에 대한 접근 허용 여부를 귀하가 결정할 수 있도록 해줍니다. Android API 레벨 29 또는 그 이상의 앱은 이미 스토리지 파티션을 지원하므로 해당 스위치가 제공되지 않습니다.</string>
     <string name="permission_instruction_storage">앱이 자신의 폴더에 있는 파일에 접근할 수 있도록 허용하는 경우, 시스템은 개인 정보를 보호하기 위해 이러한 앱의 갤러리 항목 및 소셜 미디어 앱에 의해 생성된 파일에 대한 접근 허용 여부를 귀하가 결정할 수 있도록 해줍니다. Android API 레벨 29 또는 그 이상의 앱은 이미 스토리지 파티션을 지원하므로 해당 스위치가 제공되지 않습니다.</string>
@@ -4009,7 +4012,7 @@ SMS 전송"</string>
     <string name="permission_instruction_write_settings">이 권한은 앱이 시스템 설정을 수정할 수 있도록 합니다. 악성 앱이 이 권한을 시스템 설정에 사용하고 기기의 정상적인 사용에 영향을 줄 수도 있습니다.</string>
     <string name="permission_legacy_storage">사진, 동영상, 오디오 및 파일 접근</string>
     <string name="permission_oaid_desc">%1$s이(가) 다른 앱과 웹사이트에서 귀하의 활동을 추적하도록 허용하시겠습니까?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">앱 실행 시 접근 제한</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">앱에서 귀하의 연락처 읽기, 통화 기록 보기, 시스템 설정 변경 또는 카메라나 다른 기기 리소스에 접근하기 전에 권한을 요청하지 않습니다. 이 기능은 권한 설정에서 변경할 수 있습니다.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">권한 관리자</string>
     <string name="permission_precise_location">정밀 위치</string>
@@ -4774,8 +4777,11 @@ SMS 전송"</string>
     <string name="privacy_using_record">오디오 녹음</string>
     <string name="privacyapp_number_masked_text">알림 내용 숨겨짐</string>
     <string name="privacyapp_number_unmasked_text">알림 내용을 숨길 수 있음</string>
+    <string name="private_face_password_type_tips">"'안면 인식 데이터 &amp; 화면 잠금 > 개인 정보 보호 비밀번호'에서 비밀번호를 변경할 수 있습니다."</string>
     <string name="private_file">비공개 파일</string>
+    <string name="private_finger_password_type_tips">"'지문 &amp; 화면 잠금 > 개인 정보 보호 비밀번호'에서 비밀번호를 변경할 수 있습니다."</string>
     <string name="private_note">숨김 메모</string>
+    <string name="private_password_only_type_tips">"'화면 잠금 > 개인 정보 보호 비밀번호'에서 비밀번호를 변경할 수 있습니다."</string>
     <string name="private_password_type">개인 정보 보호 비밀번호</string>
     <string name="private_password_type_tips">"'지문, 안면 인식 데이터, 화면 잠금 > 개인 정보 보호 비밀번호'에서 비밀번호를 변경할 수 있습니다."</string>
     <string name="private_photo">비공개 앨범</string>
@@ -4832,7 +4838,7 @@ SMS 전송"</string>
     <string name="recommended">추천</string>
     <string name="reject_all">모두 제한</string>
     <string name="reject_countdown">거부 (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">앱 실행 시 모든 앱의 접근 제한</string>
     <string name="reject_usb_install">다음 앱의 USB 설치가 거부되었습니다.</string>
     <string name="release_meminfo">메모리 %dMB 확보</string>
     <string name="release_memory">캐시 삭제</string>

@@ -1193,7 +1193,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="confirm_package_type">Potrdite vaš podatkovni paket</string>
     <string name="confirm_prompt_all_permission">Vprašaj za dovoljenja pri vseh aplikacijah?</string>
     <string name="confirm_reject_all_permission">Omejim vsem aplikacijam uporabo te lastnosti?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Želite omejiti to dovoljenje med zagonom aplikacije za vse aplikacije?</string>
     <string name="confirm_take">Dobi</string>
     <string name="confirm_upgrade">Možnosti</string>
     <string name="connect_internet_by_mobiledata">Mobilna podatkovna povezava</string>
@@ -2808,7 +2808,10 @@ Vaš operater vam lahko računa dodatne stroške če ponovno uporabite mobilno p
     <string name="lock_all_title">Zakleni vse aplikacije</string>
     <string name="lock_app_input_invalid_car">Nekateri simboli niso podprti</string>
     <string name="lock_mode_title">Nastavitve zaklepanja</string>
+    <string name="lock_screen_face_password_type_tips">Geslo lahko spremenite v razdelku Podatki obraza in zaklepanje zaslona</string>
+    <string name="lock_screen_finger_password_type_tips">Geslo lahko spremenite v razdelku Prstni odtisi in zaklepanje zaslona</string>
     <string name="lock_screen_hongbao_message">Od %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Geslo lahko spremenite v razdelku Zaklepanje zaslona</string>
     <string name="lock_screen_password_type">Zaklepanje zaslona</string>
     <string name="lock_screen_password_type_tips">Zaklepanje zaslona lahko spremenite v meniju Prstni odtisi, prepoznavanje obraza in zaklepanje zaslona.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s uporabljen na Zaklenjenem zaslonu</string>
@@ -3179,7 +3182,7 @@ Vaša naprava je zdaj hitrejša za %s."</string>
     <string name="more_setting_summary">Prilagodite opomnike in za to funkcijo nastavite način »Ne moti«</string>
     <string name="more_settings">Več</string>
     <string name="morning">Jutro</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">Dostop bo omejen prvih %d sekund po zagonu aplikacije</string>
     <string name="mtp_ptp_mode_summary">MTP ali PTP je aktiven</string>
     <string name="mtrl_badge_numberless_content_description">Novo obvestilo</string>
     <string name="mtrl_chip_close_icon_content_description">Odstranite %1$s</string>
@@ -3992,7 +3995,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="permission_instruction_send_mms">To dovoljenje omogoča aplikacijam pošiljanje MMS sporočil, kaj lahko privede do dodatnih stroškov. Zlonamerne aplikacije lahko uporabijo to dovoljenje za pošiljanje plačljivih sporočil brez vašega dovoljenja.</string>
     <string name="permission_instruction_send_payment_sms">To dovoljenje omogoča aplikacijam pošiljanje plačljivih sporočil.</string>
     <string name="permission_instruction_send_sms">To dovoljenje omogoča aplikacijam pošiljanje sporočil, kaj lahko privede do dodatnih stroškov. Zlonamerne aplikacije lahko uporabijo to dovoljenje za pošiljanje plačljivih sporočil brez vašega dovoljenja.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">To dovoljenje aplikacijam omogoča zaznavanje položaja naprave v prostoru, prepoznavanje tresenja, določanje orientacije zaslona ter uporabo igralnih krmilnikov in navigacije na zemljevidu.</string>
     <string name="permission_instruction_show_locked">To dovoljenje omogoča aplikacijam prikaz predmetov na vašem Zaklenjenem zaslonu. Zlonamerne aplikacije lahko izkoristijo to dovoljenje, da vam prikažejo oglase.</string>
     <string name="permission_instruction_sociality">Če aplikacijam dovolite dostop do datotek v njihovih lastnih mapah, vam sistem omogoča, da se zaradi zaščite vaše zasebnosti lahko odločite, ali želite, da te aplikacije dostopajo tudi do datotek, ustvarjenih v aplikacijah družabnih omrežij. Ker aplikacije z Android API nivojem 29 ali novejšim že podpirajo razdelitev shranjevanja, ta možnost zanje ne bo na voljo.</string>
     <string name="permission_instruction_storage">Če aplikacijam dovolite dostop do datotek v njihovih lastnih mapah, vam sistem omogoča, da se zaradi zaščite vaše zasebnosti lahko odločite, ali želite, da te aplikacije dostopajo tudi do elementov v vaši galeriji in datotek, ustvarjenih v aplikacijah družbenih medijev. Ker aplikacije z Android API nivojem 29 ali višjim že podpirajo razdelitev shranjevanja, ta možnost zanje ne bo na voljo.</string>
@@ -4007,7 +4010,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="permission_instruction_write_settings">To dovoljenje omogoča aplikacijam, da spremenijo sistemske nastavitve. Zlonamerne aplikacije lahko izkoristijo to dovoljenje, da spremenijo vaše sistemske nastavitve in tako vplivajo na vašo normalno uporabo naprave.</string>
     <string name="permission_legacy_storage">Dostop do fotografij, videoposnetkov, zvočnih posnetkov in datotek</string>
     <string name="permission_oaid_desc">Dovolite, da %1$s sledi vašim aktivnostim v drugih aplikacijah in spletnih mestih?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Omejitev dostop med zagonom aplikacije</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Aplikacije vas ne bodo vprašale pred branjem vaših stikov, ogledom zgodovine klicev, spreminjanjem sistemskih nastavitev ali dostopa do kamere in drugih virov. To funkcijo lahko vklopite v nastavitvah Dovoljen.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Upravitelj dovoljenj</string>
     <string name="permission_precise_location">Natančna lokacija</string>
@@ -4772,8 +4775,11 @@ Ali želite preklicati soglasje?"</string>
     <string name="privacy_using_record">Snemanje zvoka</string>
     <string name="privacyapp_number_masked_text">Vsebina obvesti je skrita</string>
     <string name="privacyapp_number_unmasked_text">Vsebino obvestil lahko skrijete</string>
+    <string name="private_face_password_type_tips">Geslo lahko spremenite v razdelku Podatki obraza in zaklepanje zaslona > Geslo za zaščito zasebnosti</string>
     <string name="private_file">Skrite datoteke</string>
+    <string name="private_finger_password_type_tips">Geslo lahko spremenite v razdelku Prstni odtisi in zaklepanje zaslona > Geslo za zaščito zasebnosti</string>
     <string name="private_note">Skrite beležke</string>
+    <string name="private_password_only_type_tips">Geslo lahko spremenite v razdelku Zaklepanje zaslona > Geslo za zaščito zasebnosti</string>
     <string name="private_password_type">Geslo za zaščito zasebnosti</string>
     <string name="private_password_type_tips">Geslo lahko spremeniš v meniju Prstni odtisi, podatki obraza in zaklepanje zaslona > Geslo za zaščito zasebnosti.</string>
     <string name="private_photo">Zasebni album</string>
@@ -4830,7 +4836,7 @@ Ali želite preklicati soglasje?"</string>
     <string name="recommended">Izpostavljeno</string>
     <string name="reject_all">Omeji vse</string>
     <string name="reject_countdown">Zavrni (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Omejitev dostopa med zagonom aplikacije za vse aplikacije</string>
     <string name="reject_usb_install">Zavrnjen pristop namestitve teh aplikacij preko USB</string>
     <string name="release_meminfo">Očiščenih %dMB</string>
     <string name="release_memory">Počisti predpomnilnik</string>

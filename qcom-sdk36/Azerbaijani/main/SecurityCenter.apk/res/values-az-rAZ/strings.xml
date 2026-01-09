@@ -1138,7 +1138,7 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="confirm_package_type">Trafik planınızı təsdiqləyin</string>
     <string name="confirm_prompt_all_permission">Bütün tətbiqlər üçün icazə istənilsin?</string>
     <string name="confirm_reject_all_permission">Bütün tətbiqlərin bu xüsusiyyətdən istifadəsi məhdudlaşdırılsın?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Tətbiqin işə salınması zamanı bütün tətbiqlər üçün bu icazə məhdudlaşdırılsın?</string>
     <string name="confirm_take">Al</string>
     <string name="confirm_upgrade">Seçimlər</string>
     <string name="connect_internet_by_mobiledata">Mobil internet əlaqəsi</string>
@@ -2691,7 +2691,10 @@ Yenidən mobil internet əlaqənizi istifadə etdiyinizdə, operatorunuz tərəf
     <string name="lock_all_title">Bütün tətbiqləri kilidlə</string>
     <string name="lock_app_input_invalid_car">Bəzi simvollar dəstəklənmir</string>
     <string name="lock_mode_title">Kilid tənzimləmələri</string>
+    <string name="lock_screen_face_password_type_tips">Şifrənizi Üz məlumatı &amp; ekran kilidi bölməsində dəyişə bilərsiniz</string>
+    <string name="lock_screen_finger_password_type_tips">Şifrənizi Barmaq izləri &amp; ekran kilidi bölməsində dəyişə bilərsiniz</string>
     <string name="lock_screen_hongbao_message">%1$s-dən</string>
+    <string name="lock_screen_password_only_type_tips">Şifrənizi Ekran kilidi bölməsində dəyişə bilərsiniz</string>
     <string name="lock_screen_password_type">Ekran kilidi</string>
     <string name="lock_screen_password_type_tips">Ekran kilidinizi Barmaq izləri, üz məlumatı və ekran kilidində dəyişə bilərsiniz.</string>
     <string name="lock_screen_traffic_guide_notification_summary">kilid ekranında %s istifadə edildi</string>
@@ -3050,7 +3053,7 @@ Cihazınız indi %s daha sürətlidir."</string>
     <string name="more_setting_summary">Xatırlatmaları fərdiləşdirin və bu xüsusiyyət üçün NE təyin edin</string>
     <string name="more_settings">Daha çox</string>
     <string name="morning">Səhər</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">Tətbiq başladıqdan sonra ilk %d saniyə ərzində giriş məhdudlaşdırılacaq</string>
     <string name="mtp_ptp_mode_summary">MTP və ya PTP aktivdir</string>
     <string name="na_main_card_ad_subtitle">Çox sayda məlumat, ödənişsiz zənglər, aşağı qiymətlər</string>
     <string name="na_main_card_ad_text">Sizə uyğun bir plan tapın</string>
@@ -3829,7 +3832,7 @@ qənaət söndürülür"</string>
     <string name="permission_instruction_send_mms">Bu icazə tətbiqlərə multimedia mesajları göndərməyə imkan verir, bu isə əlavə ödənişlər yarada bilər. Zərərli tətbiqlər bu icazəni sizin razılığınız olmadan ödənişli mesajlar göndərmək üçün istifadə edə bilər.</string>
     <string name="permission_instruction_send_payment_sms">Bu icazə tətbiqlərə ödənişli mətn mesajları göndərməyə imkan verir.</string>
     <string name="permission_instruction_send_sms">Bu icazə tətbiqlərə mətn mesajları göndərməyə imkan verir, bu isə əlavə ödənişlər yarada bilər. Zərərli tətbiqlər bu icazəni sizin razılığınız olmadan ödənişli mesajlar göndərmək üçün istifadə edə bilər.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">Bu icazə tətbiqlərə cihazın məkandakı mövqeyini aşkar etməyə, titrəməni tanımağa, ekran oriyentasiyasını təyin etməyə, həmçinin oyun idarəetmələrindən və xəritə naviqasiyasından istifadə etməyə imkan verir.</string>
     <string name="permission_instruction_show_locked">Bu icazə tətbiqlərə elementləri Kilid ekranınızda göstərməyə imkan verir. Zərərli tətbiqlər bu icazədən reklam göstərmək üçün istifadə edə bilər.</string>
     <string name="permission_instruction_sociality">Tətbiqlərin öz qovluqlarında olan fayllara daxil olmasına icazə verirsinizsə, sistem, gizliliyinizi qorumaq üçün bu tətbiqlərin sosial media tətbiqlərində yaradılan fayllara müraciət edib-etməməsinə qərar verməyinizə icazə verir. Android API səviyyə 29 və ya daha yüksək olan tətbiqlər artıq yaddaş bölmələrini dəstəklədiyindən bu keçid onlar üçün təmin edilməyəcəkdir.</string>
     <string name="permission_instruction_storage">Tətbiqlərin öz qovluqlarındakı sənədlərə daxil olmasına icazə verirsinizsə, sistem, gizliliyinizi qorumaq üçün bu tətbiqlərin Qalereyanızdakı elementlərə və sosial media tətbiqlərində yaradılan fayllara müraciət edib-etməməsinə qərar verməyinizə icazə verir. Android API səviyyə 29 və ya daha yüksək olan tətbiqlər artıq yaddaş bölmələrini dəstəklədiyindən bu keçid onlar üçün təmin edilməyəcəkdir.</string>
@@ -3844,7 +3847,7 @@ qənaət söndürülür"</string>
     <string name="permission_instruction_write_settings">Bu icazə tətbiqlərə sistem tənzimləmələrini dəyişdirməyə imkan verir. Zərərli tətbiqlər bu icazəni istifadə edərək sistem tənzimləmələrinizə müdaxilə edə bilər və cihazınızın normal işləməsinə təsir göstərə bilər.</string>
     <string name="permission_legacy_storage">Şəkillərə, videolara, səs və fayllara daxil olun</string>
     <string name="permission_oaid_desc">%1$s üçün sizin digər tətbiqlərdə və vebsəhifələrdə fəaliyyətinizi izləməyə icazə verilsin?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Tətbiqin işə salınması zamanı girişi məhdudlaşdırın</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Tətbiqlər kontaktlarınızı oxumazdan, zəng tarixçənizə baxmazdan, sistem tənzimləmələrini dəyişdirməzdən və ya kamera və digər cihaz mənbələrinə müraciət etməzdən əvvəl icazə istəməyəcək. İcazə tənzimləmələrindən bu xüsusiyyəti aça bilərsiniz.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">İcazə idarəçisi</string>
     <string name="permission_precise_location">Dəqiq məkan</string>
@@ -4608,8 +4611,11 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="privacy_using_record">Səs yazılır</string>
     <string name="privacyapp_number_masked_text">Bildiriş məzmunu gizlidir</string>
     <string name="privacyapp_number_unmasked_text">Bildiriş məzmunu gizlədilə bilər</string>
+    <string name="private_face_password_type_tips">Şifrənizi Üz məlumatı &amp; ekran kilidi > Gizlilik qoruması şifrəsi bölməsində dəyişə bilərsiniz</string>
     <string name="private_file">Şəxsi fayllar</string>
+    <string name="private_finger_password_type_tips">Şifrənizi Barmaq izləri &amp; ekran kilidi > Gizlilik qoruması şifrəsi bölməsində dəyişə bilərsiniz</string>
     <string name="private_note">Gizli qeydlər</string>
+    <string name="private_password_only_type_tips">Şifrənizi Ekran kilidi > Gizlilik qoruması şifrəsi bölməsində dəyişə bilərsiniz</string>
     <string name="private_password_type">Gizlilik qoruma şifrəsi</string>
     <string name="private_password_type_tips">Şifrənizi Barmaq izləri, üz məlumatı və ekran kilidi > Gizlilik qoruması şifrəsində dəyişə bilərsiniz.</string>
     <string name="private_photo">Şəxsi albom</string>
@@ -4666,7 +4672,7 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="recommended">Tövsiyə edilən</string>
     <string name="reject_all">Hamısını məhdudlaşdır</string>
     <string name="reject_countdown">Rədd et (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Tətbiqin işə salınması zamanı bütün tətbiqlər üçün girişi məhdudlaşdırın</string>
     <string name="reject_usb_install">Aşağıdakı tətbiqlərin USB vasitəsilə quraşdırılması rədd edildi</string>
     <string name="release_meminfo">%dMB təmizlə</string>
     <string name="release_memory">Keşi təmizlə</string>
