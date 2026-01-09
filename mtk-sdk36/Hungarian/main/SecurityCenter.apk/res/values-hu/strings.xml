@@ -1193,7 +1193,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="confirm_package_type">Erősítse meg a adatcsomagját</string>
     <string name="confirm_prompt_all_permission">Kérjen engedélyeket minden alkalmazás?</string>
     <string name="confirm_reject_all_permission">Az összes alkalmazásnak korlátozza ezt a funkciót?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Korlátozza ezt az engedélyt alkalmazás elindításakor minden alkalmazás esetében?</string>
     <string name="confirm_take">Beszerzés</string>
     <string name="confirm_upgrade">Beállítások</string>
     <string name="connect_internet_by_mobiledata">Mobiladat-kapcsolat</string>
@@ -1973,7 +1973,7 @@ Ha az Intelligens képkockasebesség be van kapcsolva, a játékban és harmadik
     <string name="game_toolbox_slow_charge_positive_btn">Bekapcsolás</string>
     <string name="game_toolbox_slow_charge_title">Lassú töltés</string>
     <string name="game_toolbox_slow_charge_toast">Lassú töltés bekapcsolva</string>
-    <string name="game_toolbox_smart_charge_title">Smart charging</string>
+    <string name="game_toolbox_smart_charge_title">Okos töltés</string>
     <string name="game_toolbox_smotion_vibrate_close_toast">A haptikus visszajelzés nem működik az eredeti elrendezésekkel. Haptikus visszajelzés kikapcsolva.</string>
     <string name="game_toolbox_smotion_vibrate_conflic_toast">A haptikus visszajelzés nem működik az eredeti elrendezésekkel</string>
     <string name="game_toolbox_smotion_vibrate_desc">Haptikus visszajelzést hozzáadása a játék mozdulataihoz. Csak néhány játék támogatja ezt a funkciót.</string>
@@ -2808,7 +2808,10 @@ A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat ha
     <string name="lock_all_title">Összes alkalmazás zárolása</string>
     <string name="lock_app_input_invalid_car">Egyes szimbólumok nem támogatottak</string>
     <string name="lock_mode_title">Zárolási beállítások</string>
+    <string name="lock_screen_face_password_type_tips">Jelszavát az Arcadatok és képernyőzár menüpontban módosíthatja</string>
+    <string name="lock_screen_finger_password_type_tips">Jelszavát az Ujjlenyomatok és képernyőzár menüpontban módosíthatja</string>
     <string name="lock_screen_hongbao_message">Feladó: %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Jelszavát a Képernyőzár menüpontban módosíthatja</string>
     <string name="lock_screen_password_type">Képernyőzár</string>
     <string name="lock_screen_password_type_tips">A képernyőzár beállításait az Ujjlenyomatok, arcadatok és képernyőzár menüpontban módosíthatja.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s felhasználva lezárt képernyőn.</string>
@@ -3179,7 +3182,7 @@ Készüléke ennyivel gyorsabb: %s."</string>
     <string name="more_setting_summary">Emlékeztetők testreszabása és Ne zavarjanak beállítása ehhez a funkcióhoz</string>
     <string name="more_settings">Továbbiak</string>
     <string name="morning">Reggel</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">A hozzáférés korlátozva lesz az első %d másodperc során az alkalmazás elindítását követően</string>
     <string name="mtp_ptp_mode_summary">Az MTP vagy a PTP aktív</string>
     <string name="mtrl_badge_numberless_content_description">Új értesítés</string>
     <string name="mtrl_chip_close_icon_content_description">Eltávolítás (%1$s)</string>
@@ -3870,9 +3873,9 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="perfermance_optimization_title">Teljesítményoptimalizálás</string>
     <string name="performance_frame_enhance_super_display_tips">A megnövelt képkockasebesség és a szuperfelbontás nem működhet egyszerre. Az egyik bekapcsolása kikapcsolja a másikat.</string>
     <string name="performance_frame_insert_super_display_tips">Az intelligens képkockasebesség és a szuperfelbontás nem lehet egyszerre érvényben. Az egyik bekapcsolása kikapcsolja a másikat.</string>
-    <string name="perm_disable_dialog_message">"This app's permission (%1$s) hasn't passed review."</string>
-    <string name="perm_disable_dialog_title">Permissions restricted</string>
-    <string name="perm_disable_note_text">"This permission hasn't passed review and is restricted now: %1$s"</string>
+    <string name="perm_disable_dialog_message">Az alkalmazás engedélye (%1$s) nem ment át az ellenőrzésen.</string>
+    <string name="perm_disable_dialog_title">Korlátozott engedélyek</string>
+    <string name="perm_disable_note_text">Ez az engedély nem ment át ellenőrzésen, és most korlátozvan van: %1$s</string>
     <string name="perm_intercept_content">A következő engedély megadása az alkalmazás számára: %1s?</string>
     <string name="perm_intercept_notification_title">Az értesítések használatának engedélyezésével a(z) %1s számára, az alkalmazás a következő műveleteket fogja tudni végrehajtani:</string>
     <string name="perm_intercept_privacy_content">Ezek a műveletek felfedhetik az adatait. Mégis megadja az engedélyeket (%1s)?</string>
@@ -3880,8 +3883,8 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="perm_intercept_unknown_title">Az alkalmazások telepítésének engedélyezésével a(z) %1s számára, a következő kockázatokat rejtheti magában:</string>
     <string name="perm_list_header_title">Alkalmazások</string>
     <string name="perm_list_header_title_has_storage">Tárhely-engedéllyel rendelkező alkalmazások</string>
-    <string name="perm_manage_external_storage">All files access</string>
-    <string name="perm_manage_zen_modes_access">Modes access</string>
+    <string name="perm_manage_external_storage">Hozzáférés az összes fájlhoz</string>
+    <string name="perm_manage_zen_modes_access">Hozzáférési módok</string>
     <string name="permdesc_coarse_location">Hozzávetőleges helyzet</string>
     <string name="permdesc_fine_location">Hely</string>
     <string name="permdesc_get_installed_apps">Engedélyezi a(z) %1$s számára a telepített alkalmazásokról rendelkezésre álló információkhoz való hozzáférést?</string>
@@ -3992,7 +3995,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="permission_instruction_send_mms">Ez az engedély multimédiás üzenetek küldését teszi lehetővé az alkalmazások számára, ami további díjakat generálhat. A rosszindulatú alkalmazások arra használhatják ezt az engedélyt, hogy fizetős üzeneteket küldjenek az Ön beleegyezése nélkül.</string>
     <string name="permission_instruction_send_payment_sms">Ez az engedély lehetővé teszi az alkalmazások számára fizetős szöveges üzenetek küldését.</string>
     <string name="permission_instruction_send_sms">Ez az engedély szöveges üzenetek küldését teszi lehetővé az alkalmazások számára, ami további díjakat generálhat. A rosszindulatú alkalmazások arra használhatják ezt az engedélyt, hogy fizetős üzeneteket küldjenek az Ön beleegyezése nélkül.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">Ez az engedély lehetővé teszi az alkalmazások számára, hogy érzékeljék a készülék pozícióját a térben, felismerjék a rázkódást, meghatározzák a képernyő tájolását, valamint használják a játékvezérlőket és a térképnavigációt.</string>
     <string name="permission_instruction_show_locked">Ez az engedély lehetővé teszi az alkalmazások számára, hogy elemeket jelenítsenek meg a Képernyőzáron. A rosszindulatú alkalmazások ezt az engedélyt hirdetések megjelenítésére használhatják.</string>
     <string name="permission_instruction_sociality">Amennyiben engedélyezi az alkalmazásoknak, hogy hozzáférjenek a saját mappájukban lévő fájlokhoz, a rendszer lehetővé teszi, hogy Ön döntse el, hogy ezen alkalmazások hozzáférjenek a közösségi média alkalmazásokban létrehozott fájlokhoz is a személyes adatai védelme érdekében. Mivel az Android API 29-es vagy annál magasabb szintű alkalmazásai már támogatják a tárolási partíciókat, ez a kapcsoló nem lesz elérhető számukra.</string>
     <string name="permission_instruction_storage">Amennyiben engedélyezi az alkalmazásoknak, hogy hozzáférjenek a saját mappájukban lévő fájlokhoz, a rendszer lehetővé teszi, hogy ön döntse el, hogy ezen alkalmazások hozzáférjenek a Galéria elemeihez és a közösségi média alkalmazásokban létrehozott fájlokhoz is a személyes adatai védelme érdekében. Mivel az Android API 29-es vagy annál magasabb szintű alkalmazásai már támogatják a tárolási partíciókat, ez a kapcsoló nem lesz elérhető számukra.</string>
@@ -4007,7 +4010,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="permission_instruction_write_settings">Ez az engedély lehetővé teszi az alkalmazások számára a rendszerbeállítások módosítását. A rosszindulatú alkalmazások ezt az engedélyt a rendszerbeállítások módosítására használhatják, és befolyásolhatják a készülék normál használatát.</string>
     <string name="permission_legacy_storage">Fotók, videók, hanganyagok és fájlok elérése</string>
     <string name="permission_oaid_desc">Engedélyezi, hogy %1$s nyomon kövesse a tevékenységeit más alkalmazásokban és webhelyeken?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Hozzáférés korlátozása az alkalmazás elindításakor</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">A rendszer nem kérdezi meg, hogy az alkalmazás hozzáférhet-e a névjegyzék olvasásához, a hívásnapló megtekintéséhez, a rendszerbeállítások módosításához, a kamerához vagy egyéb rendszererőforráshoz.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Az engedélykezelő ki van kapcsolva</string>
     <string name="permission_precise_location">Pontos hely</string>
@@ -4772,8 +4775,11 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="privacy_using_record">Hangrögzítés</string>
     <string name="privacyapp_number_masked_text">Az értesítés tartalma el van rejtve</string>
     <string name="privacyapp_number_unmasked_text">Az értesítés tartalma elrejthető</string>
+    <string name="private_face_password_type_tips">Jelszavát az Arcadatok és képernyőzár > Adatvédelmi jelszó menüpontban módosíthatja</string>
     <string name="private_file">Privát fájlok</string>
+    <string name="private_finger_password_type_tips">Jelszavát az Ujjlenyomatok és képernyőzár > Adatvédelmi jelszó menüpontban módosíthatja</string>
     <string name="private_note">Rejtett jegyzetek</string>
+    <string name="private_password_only_type_tips">Jelszavát a Képernyőzár > Adatvédelmi jelszó menüpontban módosíthatja</string>
     <string name="private_password_type">Adatvédelmi jelszó</string>
     <string name="private_password_type_tips">Jelszavát a Ujjlenyomatok, arcadatok és képernyőzár > Adatvédelmi jelszó menüpontban módosíthatja.</string>
     <string name="private_photo">Privát album</string>
@@ -4830,7 +4836,7 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="recommended">Ajánlott</string>
     <string name="reject_all">Összes letiltása</string>
     <string name="reject_countdown">Elutasítás (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Hozzáférés korlátozása alkalmazás elindításakor minden alkalmazás esetében</string>
     <string name="reject_usb_install">Az alkalmazások USB-n keresztül történő telepítési engedélye megtagadva</string>
     <string name="release_meminfo">%dMB felszabadítása</string>
     <string name="release_memory">Gyorsítótártörlés</string>

@@ -1193,7 +1193,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="confirm_package_type">Bekræft dine abonnementer</string>
     <string name="confirm_prompt_all_permission">Bed om tilladelser for alle apps?</string>
     <string name="confirm_reject_all_permission">Begræns alle apps fra at bruge denne funktion?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Begræns denne tilladelse under appstart for alle apps?</string>
     <string name="confirm_take">Hent</string>
     <string name="confirm_upgrade">Indstillinger</string>
     <string name="connect_internet_by_mobiledata">Mobildataforbindelse</string>
@@ -2808,7 +2808,10 @@ Teleudbyderen kan opkræve yderligere gebyrer, hvis du anvender mobil dataforbin
     <string name="lock_all_title">Lås alle apps</string>
     <string name="lock_app_input_invalid_car">Nogle symboler understøttes ikke</string>
     <string name="lock_mode_title">Låseindstillinger</string>
+    <string name="lock_screen_face_password_type_tips">Du kan ændre din adgangskode i Ansigtsdata og skærmlås</string>
+    <string name="lock_screen_finger_password_type_tips">Du kan ændre din adgangskode i Fingeraftryk og skærmlås</string>
     <string name="lock_screen_hongbao_message">Fra %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Du kan ændre din adgangskode i Skærmlås</string>
     <string name="lock_screen_password_type">Skærmlås</string>
     <string name="lock_screen_password_type_tips">Du kan ændre din skærmlås under Fingeraftryk, ansigtsdata og skærmlås.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s brugt på låseskærm</string>
@@ -3179,7 +3182,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="more_setting_summary">Tilpas påmindelser, og indstil “Forstyr ikke”-periode for denne funktion</string>
     <string name="more_settings">Mere</string>
     <string name="morning">Morgen</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">Adgangen vil være begrænset i de første %d sek. efter, at appen startes</string>
     <string name="mtp_ptp_mode_summary">MTP eller PTP er aktiv</string>
     <string name="mtrl_badge_numberless_content_description">Ny notifikation</string>
     <string name="mtrl_chip_close_icon_content_description">Fjern %1$s</string>
@@ -3992,7 +3995,7 @@ slås fra"</string>
     <string name="permission_instruction_send_mms">Denne tilladelse giver apps mulighed for at sende multimediebeskeder, hvilket kan medføre ekstra gebyrer. Skadelige apps kan misbruge denne tilladelse til at sende betalingsbeskeder uden din accept.</string>
     <string name="permission_instruction_send_payment_sms">"Denne tilladelse gør det muligt for apps at sende betalte SMS'er."</string>
     <string name="permission_instruction_send_sms">Denne tilladelse giver apps mulighed for at sende tekstbeskeder, hvilket kan medføre ekstra gebyrer. Skadelige apps kan misbruge denne tilladelse til at sende betalingsbeskeder uden din accept.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">Denne tilladelse gør det muligt for apps at registrere enhedens position i rummet, genkende rystelser, bestemme skærmorientering samt bruge spilkontroller og kortnavigation.</string>
     <string name="permission_instruction_show_locked">Denne tilladelse tillader apps at vise elementer på din låseskærm. Skadelige apps vil muligvis bruge denne tilladelse til at vise reklamer.</string>
     <string name="permission_instruction_sociality">Hvis du tillader apps at få adgang til filer i deres egne mapper, lader systemet dig afgøre, om du også ønsker, at disse apps skal have adgang til filer, der er genereret i apps vedrørende sociale medier, for at beskytte dine personlige oplysninger. Idet apps med Android API-niveau 29 eller højere allerede understøtter lagerpartitioner, er denne skiftekontakt ikke tilgængelig for dem.</string>
     <string name="permission_instruction_storage">Hvis du tillader apps at få adgang til filer i deres egne mapper, lader systemet dig afgøre, om du også ønsker, at disse apps skal have adgang til elementer i dit Galleri og til filer, der er genereret i apps vedrørende sociale medier, for at beskytte dine personlige oplysninger. Idet apps med Android API-niveau 29 eller højere allerede understøtter lagerpartitioner, er denne skiftekontakt ikke tilgængelig for dem.</string>
@@ -4007,7 +4010,7 @@ slås fra"</string>
     <string name="permission_instruction_write_settings">Denne tilladelse giver apps mulighed for at ændre systemindstillinger. Skadelige apps kan misbruge denne tilladelse til at manipulere dine systemindstillinger og påvirke enhedens normale funktion.</string>
     <string name="permission_legacy_storage">Få adgang til fotos, videoer, lyd og filer</string>
     <string name="permission_oaid_desc">Tillad %1$s at spore dine aktiviteter på andre apps og hjemmesider?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Begræns adgang under appstart</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Apps vil ikke bede om din tilladelse, før de læser dine kontakter, viser din opkaldshistorik, ændrer systemindstillinger eller får adgang til kamera og andre enhedsressourcer. Du kan aktivere denne funktion i Tilladelsesindstillinger.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Tilladelsesmanager</string>
     <string name="permission_precise_location">Nøjagtig placering</string>
@@ -4772,8 +4775,11 @@ Tilbagetræk samtykke nu?"</string>
     <string name="privacy_using_record">Optager lyd</string>
     <string name="privacyapp_number_masked_text">Meddelelsers indhold er skjult</string>
     <string name="privacyapp_number_unmasked_text">Meddelelsers indhold kan skjules</string>
+    <string name="private_face_password_type_tips">Du kan ændre din adgangskode i Ansigtsdata og skærmlås > Adgangskode til privatlivsbeskyttelse</string>
     <string name="private_file">Private filer</string>
+    <string name="private_finger_password_type_tips">Du kan ændre din adgangskode i Fingeraftryk og skærmlås > Adgangskode til privatlivsbeskyttelse</string>
     <string name="private_note">Skjulte noter</string>
+    <string name="private_password_only_type_tips">Du kan ændre din adgangskode i Skærmlås > Adgangskode til privatlivsbeskyttelse</string>
     <string name="private_password_type">Kodeord til beskyttelse af personlige oplysninger</string>
     <string name="private_password_type_tips">Du kan ændre din adgangskode under Fingeraftryk, ansigtsdata og skærmlås > Adgangskode til privatlivsbeskyttelse.</string>
     <string name="private_photo">Privat album</string>
@@ -4830,7 +4836,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="recommended">Fremhævet</string>
     <string name="reject_all">Begræns alle</string>
     <string name="reject_countdown">Afvis (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Begræns adgang under appstart for alle apps</string>
     <string name="reject_usb_install">Nægtede installation af følgende apps via USB</string>
     <string name="release_meminfo">Frigør op til %d MB</string>
     <string name="release_memory">Ryd cache</string>

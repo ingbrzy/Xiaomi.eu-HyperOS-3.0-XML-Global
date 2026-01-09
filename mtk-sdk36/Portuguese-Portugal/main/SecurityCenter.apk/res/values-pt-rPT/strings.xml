@@ -1193,7 +1193,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="confirm_package_type">Confirme o seu plano de dados</string>
     <string name="confirm_prompt_all_permission">Perguntar por permissão em todas as aplicações?</string>
     <string name="confirm_reject_all_permission">Restringir todas as aplicações de utilizarem esta funcionalidade?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restringir esta permissão durante a abertura da aplicação para todas as aplicações?</string>
     <string name="confirm_take">Obter</string>
     <string name="confirm_upgrade">Opções</string>
     <string name="connect_internet_by_mobiledata">Ligação de dados móveis</string>
@@ -2810,7 +2810,10 @@ Pode ter custos adicionais se utilizar a ligação de dados móveis novamente."<
     <string name="lock_all_title">Bloquear todas as aplicações</string>
     <string name="lock_app_input_invalid_car">Alguns símbolos não são suportados</string>
     <string name="lock_mode_title">Definições de bloqueio</string>
+    <string name="lock_screen_face_password_type_tips">Pode alterar a sua palavra-passe em Dados faciais e bloqueio de ecrã</string>
+    <string name="lock_screen_finger_password_type_tips">Pode alterar a sua palavra-passe em Impressões digitais e bloqueio de ecrã</string>
     <string name="lock_screen_hongbao_message">De %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Pode alterar a sua palavra-passe em Bloqueio de ecrã</string>
     <string name="lock_screen_password_type">Bloqueio de ecrã</string>
     <string name="lock_screen_password_type_tips">Pode alterar o Bloqueio de ecrã em Impressões digitais, dados faciais e bloqueio de ecrã.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s utilizados no Ecrã de bloqueio</string>
@@ -3181,7 +3184,7 @@ O seu dispositivo está %s mais rápido agora."</string>
     <string name="more_setting_summary">Personalize os lembretes e defina um Não incomodar para este recurso</string>
     <string name="more_settings">Mais</string>
     <string name="morning">Manhã</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">O acesso será restrito pelos primeiros %d segundos após a abertura da aplicação</string>
     <string name="mtp_ptp_mode_summary">MTP ou PTP ligado</string>
     <string name="mtrl_badge_numberless_content_description">Nova notificação</string>
     <string name="mtrl_chip_close_icon_content_description">Remover %1$s</string>
@@ -3994,7 +3997,7 @@ a Ultra poupança de bateria"</string>
     <string name="permission_instruction_send_mms">Esta permissão permite às aplicações enviar mensagens multimédia, o que pode gerar taxas adicionais. As aplicações maliciosas podem utilizar esta permissão para enviar mensagens pagas sem o seu consentimento.</string>
     <string name="permission_instruction_send_payment_sms">Esta permissão permite que as aplicações enviem mensagens de texto pagas.</string>
     <string name="permission_instruction_send_sms">Esta permissão permite às aplicações o envio de mensagens de texto, o que pode gerar taxas adicionais. As aplicações maliciosas podem utilizar esta permissão para enviar mensagens pagas sem o seu consentimento.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">Esta permissão deixa que as aplicações detetem a posição do dispositivo no espaço, reconheça movimentos rápidos, determine a orientação do ecrã e use os controlos de jogo e navegação por mapas.</string>
     <string name="permission_instruction_show_locked">Esta permissão permite que aplicações exibam itens no seu Ecrã de bloqueio. Aplicações maliciosas podem utilizar esta permissão para exibir anúncios.</string>
     <string name="permission_instruction_sociality">Se permitir que as aplicações acedam a ficheiros em suas próprias pastas, o sistema deixará que decida se deseja que estas aplicações acedam a aplicações de redes sociais para proteger a sua privacidade. Como as aplicações com API Android nível 29 ou superiores já suportam a partição de armazenamento, este seletor não será disponibilizado para elas.</string>
     <string name="permission_instruction_storage">Se permitir que as aplicações acedam a ficheiros em suas próprias pastas, o sistema deixará que decida se deseja que estas aplicações acedam a itens em sua Galeria e ficheiros gerados em aplicações de redes sociais para proteger a sua privacidade. Como as aplicações com API Android nível 29 ou superiores já suportam a partição de armazenamento, este seletor não será disponibilizado para elas.</string>
@@ -4009,7 +4012,7 @@ a Ultra poupança de bateria"</string>
     <string name="permission_instruction_write_settings">Esta permissão permite que as aplicações modifiquem as definições do sistema. Aplicações maliciosas podem utilizar esta permissão para alterar as definições do sistema e afetar a utilização normal do seu dispositivo.</string>
     <string name="permission_legacy_storage">Aceder a fotos, vídeos, áudio e ficheiros</string>
     <string name="permission_oaid_desc">Permitir que %1$s rastreie as suas atividades em outras aplicações e sítios da web?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Restringir acesso durante a abertura da aplicação</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">As aplicações não vão pedir a sua permissão para lerem os seus contactos, verem o seu histórico de chamadas, modificarem definições de sistema, acederem à câmara ou a outros recursos do dispositivo. Pode ligar esta função em Definições de Permissões.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Gestor de permissões</string>
     <string name="permission_precise_location">Localização precisa</string>
@@ -4774,8 +4777,11 @@ Retirar o consentimento agora?"</string>
     <string name="privacy_using_record">Gravar áudio</string>
     <string name="privacyapp_number_masked_text">O conteúdo da notificação está oculto</string>
     <string name="privacyapp_number_unmasked_text">O conteúdo da notificação pode ser oculto</string>
+    <string name="private_face_password_type_tips">Pode alterar a sua palavra-passe em Dados faciais e bloqueio de ecrã > Palavra-passe de Proteção de Privacidade</string>
     <string name="private_file">Ficheiros privados</string>
+    <string name="private_finger_password_type_tips">Pode alterar a sua palavra-passe em Impressões digitais e bloqueio de ecrã > Palavra-passe de Proteção de Privacidade</string>
     <string name="private_note">Notas ocultas</string>
+    <string name="private_password_only_type_tips">Pode alterar a sua palavra-passe em Bloqueio de ecrã > Palavra-passe de Proteção de Privacidade</string>
     <string name="private_password_type">Palavra-passe de Proteção de Privacidade</string>
     <string name="private_password_type_tips">Pode alterar a sua palavra-passe em Impressões digitais, dados faciais e bloqueio de ecrã > Palavra-passe de Proteção de Privacidade</string>
     <string name="private_photo">Álbum privado</string>
@@ -4832,7 +4838,7 @@ Retirar o consentimento agora?"</string>
     <string name="recommended">Recomendados</string>
     <string name="reject_all">Restringir tudo</string>
     <string name="reject_countdown">Negar (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Restringir acesso durante a abertura da aplicação para todas as aplicações</string>
     <string name="reject_usb_install">Foi negada a instalação destas aplicações via USB</string>
     <string name="release_meminfo">Liberte até %dMB</string>
     <string name="release_memory">Limpeza de memória</string>

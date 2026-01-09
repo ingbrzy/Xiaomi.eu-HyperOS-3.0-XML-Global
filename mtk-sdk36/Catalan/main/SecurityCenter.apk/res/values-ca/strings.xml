@@ -1193,7 +1193,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="confirm_package_type">Confirmeu el vostre pla de dades</string>
     <string name="confirm_prompt_all_permission">Voleu que se us demanin permisos per totes les aplis?</string>
     <string name="confirm_reject_all_permission">Restringir aquest permís a totes les aplicacions?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">"Voleu restringir els permisos durant l'inici de l'aplicació per a totes les aplicacions?"</string>
     <string name="confirm_take">Obtenir</string>
     <string name="confirm_upgrade">Opcions</string>
     <string name="connect_internet_by_mobiledata">Connexió de dades mòbils</string>
@@ -2808,7 +2808,10 @@ L'operadora podria carregar-li costos addicionals si torneu a utilitzar la conne
     <string name="lock_all_title">Bloquejar totes les aplicacions</string>
     <string name="lock_app_input_invalid_car">"Alguns símbols no s'admeten"</string>
     <string name="lock_mode_title">Configuració de bloqueig</string>
+    <string name="lock_screen_face_password_type_tips">Podeu canviar la contrasenya a Dades facials &amp; bloqueig de pantalla</string>
+    <string name="lock_screen_finger_password_type_tips">Podeu canviar la contrasenya a Empremtes &amp; bloqueig de pantalla</string>
     <string name="lock_screen_hongbao_message">De %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Podeu canviar la contrasenya al Bloqueig de pantalla</string>
     <string name="lock_screen_password_type">Bloqueig de pantalla</string>
     <string name="lock_screen_password_type_tips">Podeu canviar el bloqueig de pantalla a Empremtes digitals, dades facials i bloqueig de pantalla.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s utilitzats amb la pantalla bloquejada</string>
@@ -3179,7 +3182,7 @@ El teu dispositiu va un %s més ràpid."</string>
     <string name="more_setting_summary">Personalitza els recordatoris i configura el Mode no molesteu per a aquesta funció</string>
     <string name="more_settings">Més</string>
     <string name="morning">Matí</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">"L'accés estarà restringit durant els primers %d segons després que s'iniciï l'aplicació"</string>
     <string name="mtp_ptp_mode_summary">MTP o PTP és actiu</string>
     <string name="mtrl_badge_numberless_content_description">Notificació nova</string>
     <string name="mtrl_chip_close_icon_content_description">Suprimeix %1$s</string>
@@ -3993,7 +3996,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="permission_instruction_send_mms">Aquest permís permet a les aplicacions enviar missatges multimèdia, cosa que pot generar tarifes addicionals. Les aplicacions malicioses poden utilitzar aquest permís per enviar missatges de pagament sense el vostre consentiment.</string>
     <string name="permission_instruction_send_payment_sms">Aquest permís permet a les aplicacions enviar missatges de text de pagament.</string>
     <string name="permission_instruction_send_sms">Aquest permís permet a les aplicacions enviar missatges de text, cosa que pot generar tarifes addicionals. Les aplicacions malicioses poden utilitzar aquest permís per enviar missatges de pagament sense el vostre consentiment.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">"Aquest permís permet que les aplicacions detectin la posició del dispositiu a l'espai, reconeguin tremolors, determinin l'orientació de la pantalla i utilitzin controls de joc i navegació per mapes."</string>
     <string name="permission_instruction_show_locked">Aquest permís permet que les aplicacions mostrin elements a la pantalla de bloqueig. Les aplicacions malicioses poden utilitzar aquest permís per mostrar anuncis.</string>
     <string name="permission_instruction_sociality">"Si permeteu que les aplicacions accedeixin als fitxers de les seves pròpies carpetes, el sistema us permet decidir si també voleu que aquestes aplicacions accedeixin als fitxers generats a les aplicacions de xarxes socials per tal de protegir la vostra privadesa. Com que les aplicacions amb l'API d'Android nivell 29 o superior ja admeten particions d'emmagatzematge, aquest commutador no se'ls proporcionarà."</string>
     <string name="permission_instruction_storage">"Si permeteu que les aplicacions accedeixin a fitxers de les seves pròpies carpetes, el sistema us permet decidir si també voleu que aquestes aplicacions accedeixin als elements de la vostra galeria i als fitxers generats a les aplicacions de xarxes socials per tal de protegir la vostra privadesa. Com que les aplicacions amb l'API d'Android nivell 29 o superior ja admeten particions d'emmagatzematge, aquest commutador no se'ls proporcionarà."</string>
@@ -4008,7 +4011,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="permission_instruction_write_settings">Aquest permís permet a les aplicacions modificar la configuració del sistema. Les aplicacions malicioses poden utilitzar aquest permís amb la configuració del sistema i afectar l’ús normal del dispositiu.</string>
     <string name="permission_legacy_storage">Accediu a fotos, vídeos, àudio i fitxers</string>
     <string name="permission_oaid_desc">Voleu permetre que %1$s faci un seguiment de les teves activitats en altres aplicacions i llocs web?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">"Restringiu l'accés durant l'inici de l'aplicació"</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">"Les aplicacions no us demanaran permís per llegir els contactes, veure l'historial de trucades, canviar paràmetres del sistema o accedir a la càmera i altres recursos. Activeu aquesta característica a la configuració de Permisos."</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Gestor de permisos</string>
     <string name="permission_precise_location">Ubicació precisa</string>
@@ -4773,8 +4776,11 @@ Voleu retirar el consentiment ara?"</string>
     <string name="privacy_using_record">Gravació de so</string>
     <string name="privacyapp_number_masked_text">Els continguts de notificacions estan ocults</string>
     <string name="privacyapp_number_unmasked_text">Els continguts de notificacions es poden ocultar</string>
+    <string name="private_face_password_type_tips">Podeu canviar la contrasenya a Dades facials &amp; bloqueig de pantalla > Contrasenya de protecció de privadesa</string>
     <string name="private_file">Fitxers privats</string>
+    <string name="private_finger_password_type_tips">Podeu canviar la contrasenya a Empremtes digitals &amp; bloqueig de pantalla > Contrasenya de protecció de privadesa</string>
     <string name="private_note">Notes ocultes</string>
+    <string name="private_password_only_type_tips">Podeu canviar la contrasenya a Bloqueig de pantalla > Contrasenya de protecció de privadesa</string>
     <string name="private_password_type">Contrasenya de protecció de privadesa</string>
     <string name="private_password_type_tips">Podeu canviar la contrasenya a Empremtes digitals, dades facials i bloqueig de pantalla > Contrasenya de protecció de privadesa.</string>
     <string name="private_photo">Àlbum privat</string>
@@ -4831,7 +4837,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="recommended">Recomanat</string>
     <string name="reject_all">Restringir-ho tot</string>
     <string name="reject_countdown">Denegar (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">"Restringiu l'accés durant l'inici de l'aplicació per a totes les aplicacions"</string>
     <string name="reject_usb_install">"Instal·lació denegada de les següents aplicacions a través d'USB"</string>
     <string name="release_meminfo">"S'han alliberat %d MB"</string>
     <string name="release_memory">Neteja la memòria cau</string>

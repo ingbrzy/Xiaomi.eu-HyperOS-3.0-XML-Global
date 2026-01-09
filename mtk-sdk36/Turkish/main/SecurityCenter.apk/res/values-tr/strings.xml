@@ -1193,7 +1193,7 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="confirm_package_type">Veri planınızı onaylayın</string>
     <string name="confirm_prompt_all_permission">Tüm uygulamalar için izin istensin mi?</string>
     <string name="confirm_reject_all_permission">Tüm uygulamaların bu özelliği kullanımını kısıtla?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Tüm uygulamalar için uygulama başlatma sırasında bu izin kısıtlansın mı?</string>
     <string name="confirm_take">Al</string>
     <string name="confirm_upgrade">Seçenekler</string>
     <string name="connect_internet_by_mobiledata">Mobil veri bağlantısı</string>
@@ -2807,7 +2807,10 @@ Mobil veri bağlantısını tekrar kullanmanız durumunda, operatörünüz ek ü
     <string name="lock_all_title">Bütün uygulamaları kilitle</string>
     <string name="lock_app_input_invalid_car">Bazı semboller desteklenmiyor</string>
     <string name="lock_mode_title">Kilit ayarları</string>
+    <string name="lock_screen_face_password_type_tips">Yüz verisi &amp; ekran kilidi menüsünden şifrenizi değiştirebilirsiniz</string>
+    <string name="lock_screen_finger_password_type_tips">Parmak izi &amp; ekran kilidi menüsünden şifrenizi değiştirebilirsiniz</string>
     <string name="lock_screen_hongbao_message">Gönderen: %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Ekran kilidi menüsünden şifrenizi değiştirebilirsiniz</string>
     <string name="lock_screen_password_type">Ekran kilidi</string>
     <string name="lock_screen_password_type_tips">Parmak izi, Yüz verisi ve Ekran kilidi menüsünden ekran kilidinizi değiştirebilirsiniz.</string>
     <string name="lock_screen_traffic_guide_notification_summary">kilit ekranında %s kullanıldı</string>
@@ -3206,7 +3209,7 @@ Cihazınız şimdi %s daha hızlı."</string>
     <string name="more_setting_summary">Hatırlatıcıları özelleştirin ve bu özellik için Rahatsız Etme Modunu ayarlayın</string>
     <string name="more_settings">Daha fazla</string>
     <string name="morning">Sabah</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">Erişim uygulamayı başlattıktan sonra ilk %d saniye kısıtlanacak</string>
     <string name="mtp_ptp_mode_summary">MTP veya PTP aktif</string>
     <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
@@ -4019,7 +4022,7 @@ kapatılıyor"</string>
     <string name="permission_instruction_send_mms">Bu izin, uygulamaların ek ücretler getirebilecek kısa mesajlar göndermesine izin verir. Kötü niyetli uygulamalar bu izni onayınız olmadan ücretli mesajlar göndermek için kullanabilir.</string>
     <string name="permission_instruction_send_payment_sms">Bu izin, uygulamaların ücretli mesajlar göndermesine izin verir.</string>
     <string name="permission_instruction_send_sms">Bu izin, uygulamaların ek ücretler getirebilecek kısa mesajlar göndermesine izin verir. Kötü niyetli uygulamalar bu izni onayınız olmadan ücretli mesajlar göndermek için kullanabilir.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">Bu izin, uygulamaların cihazın uzaydaki konumunu algılamasına, sarsıntıyı tanımasına, ekran yönünü belirlemesine ve oyun kontrollerini ve harita navigasyonunu kullanmasına olanak tanır.</string>
     <string name="permission_instruction_show_locked">Bu izin, uygulamaların Kilit ekranınızdaki ögeleri göstermesini sağlar. Kötü amaçlı uygulamalar, bu izni reklam göstermek için kullanabilir.</string>
     <string name="permission_instruction_sociality">Uygulamaların kendi klasörlerindeki dosyalarına erişmelerine izin verirseniz sistem gizliliğinizi korumak için bu uygulamaların sosyal medya uygulamalarında oluşturulan dosyalara erişmelerini isteyip istemediğinize de karar vermenize izin verir. Android API seviyesi 29 veya daha yüksek olan uygulamalar zaten depolama bölümlerini desteklediği için, bu anahtar onlar için sağlanmayacaktır.</string>
     <string name="permission_instruction_storage">"Uygulamaların kendi klasörlerindeki dosyalarına erişmelerine izin verirseniz sistem gizliliğinizi korumak için bu uygulamaların Galeri'nizdeki ögelere ve sosyal medya uygulamalarında oluşturulan dosyalara erişmelerini isteyip istemediğinize de karar vermenize izin verir. Android API seviyesi 29 veya daha yüksek olan uygulamalar zaten depolama bölümlerini desteklediği için, bu anahtar onlar için sağlanmayacaktır."</string>
@@ -4034,7 +4037,7 @@ kapatılıyor"</string>
     <string name="permission_instruction_write_settings">Bu izin, uygulamaların sistem ayarlarını değiştirmesine olanak tanır. Kötü niyetli uygulamalar bu izni kullanarak sistem ayarlarınızı bozabilir ve cihazınızın normal kullanımını etkileyebilir.</string>
     <string name="permission_legacy_storage">Fotoğraflara, videolara, ses ve dosyalara eriş</string>
     <string name="permission_oaid_desc">%1$s uygulamasının diğer uygulamalardaki ve internet sitelerindeki etkinliklerinizi izlemesine izin verilsin mi?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Uygulama başlatma sırasında erişimi kısıtla</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Uygulamalar; kişilerinizi okumadan, arama kaydınızı görüntülemeden, sistem ayarlarını değiştirmeden yada kamera veya diğer kaynaklara erişimden önce izninizi sormayacak. İzin ayarlarından bu özelliği kullanılabilir hale getirebilirsiniz.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">İzin yöneticisi</string>
     <string name="permission_precise_location">Tam konum</string>
@@ -4799,8 +4802,11 @@ kapatılıyor"</string>
     <string name="privacy_using_record">Ses kaydetme</string>
     <string name="privacyapp_number_masked_text">Bildirim içeriği gizli</string>
     <string name="privacyapp_number_unmasked_text">Bildirim içeriği gizlenebilir</string>
+    <string name="private_face_password_type_tips">Yüz verisi &amp; ekran kilidi > Gizlilik koruma şifresi menüsünden şifrenizi değiştirebilirsiniz</string>
     <string name="private_file">Özel dosyalar</string>
+    <string name="private_finger_password_type_tips">Parmak izi &amp; ekran kilidi > Gizlilik koruma şifresi menüsünden şifrenizi değiştirebilirsiniz</string>
     <string name="private_note">Gizli notlar</string>
+    <string name="private_password_only_type_tips">Ekran kilidi > Gizlilik koruma şifresi menüsünden şifrenizi değiştirebilirsiniz</string>
     <string name="private_password_type">Gizlilik koruma şifresi</string>
     <string name="private_password_type_tips">Parmak izi, yüz verisi ve ekran kilidi > Gizlilik koruma şifresi menüsünden şifrenizi değiştirebilirsiniz.</string>
     <string name="private_photo">Özel albüm</string>
@@ -4857,7 +4863,7 @@ kapatılıyor"</string>
     <string name="recommended">Öne çıkanlar</string>
     <string name="reject_all">Tümünü kısıtla</string>
     <string name="reject_countdown">Reddet (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Tüm uygulamalar için uygulama başlatma sırasında erişimi kısıtla</string>
     <string name="reject_usb_install">Belirtilen uygulamaların USB üzerinden yüklenmesi engellendi</string>
     <string name="release_meminfo">%dMB yer aç</string>
     <string name="release_memory">Önbelleği temizle</string>

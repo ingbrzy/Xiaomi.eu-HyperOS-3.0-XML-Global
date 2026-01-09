@@ -1193,7 +1193,7 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="confirm_package_type">Bekräfta din dataplan</string>
     <string name="confirm_prompt_all_permission">Fråga efter behörighet för alla appar?</string>
     <string name="confirm_reject_all_permission">Begränsa alla appar från att använda den här funktionen?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Vill du begränsa den här behörigheten när appen startas, för alla appar?</string>
     <string name="confirm_take">Hämta</string>
     <string name="confirm_upgrade">Alternativ</string>
     <string name="connect_internet_by_mobiledata">Anslutning för mobildata</string>
@@ -2808,7 +2808,10 @@ Din operatör kan debitera för ytterligare kostnader om du använder mobildataa
     <string name="lock_all_title">Lås alla appar</string>
     <string name="lock_app_input_invalid_car">Några symboler stöds inte</string>
     <string name="lock_mode_title">Låsinställningar</string>
+    <string name="lock_screen_face_password_type_tips">Du kan byta lösenord i Ansiktsdata och skärmlås</string>
+    <string name="lock_screen_finger_password_type_tips">Du kan byta lösenord i Fingeravtryck och skärmlås</string>
     <string name="lock_screen_hongbao_message">Från %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Du kan nyta lösenord i Skärmlås</string>
     <string name="lock_screen_password_type">Skämlås</string>
     <string name="lock_screen_password_type_tips">Du kan byta skärmlås i fingeravtryck, ansiktsdata och skärmlås.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s använd på Låsskärmen</string>
@@ -3179,7 +3182,7 @@ Din enhet är %s snabbare nu."</string>
     <string name="more_setting_summary">Anpassa påminnelser och ange Stör ej, för den här funktionen</string>
     <string name="more_settings">Mer</string>
     <string name="morning">Morgon</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">Åtkomst kommer att begränsas under de första %d sekunderna efter att appen startar</string>
     <string name="mtp_ptp_mode_summary">MTP eller PTP är aktiv</string>
     <string name="mtrl_badge_numberless_content_description">Ny avisering</string>
     <string name="mtrl_chip_close_icon_content_description">Ta bort (%1$s)</string>
@@ -3992,7 +3995,7 @@ Ultra batterisparare"</string>
     <string name="permission_instruction_send_mms">Den här behörigheten tillåter appar att skicka multimedia-meddelanden, vilket kan generera ytterligare kostnader. Appar med malignt innehåll kan använda den här behörigheten för att skicka betalmeddelanden utan ditt samtycke.</string>
     <string name="permission_instruction_send_payment_sms">Den här behörigheten låter appar skicka betalda text-meddelanden.</string>
     <string name="permission_instruction_send_sms">Den här behörigheten tillåter appar att skicka textmeddelanden, vilket kan generera ytterligare kostnader. Appar med malignt innehåll kan använda den här behörigheten för att skicka betalmeddelanden utan ditt samtycke.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">Med den här behörigheten kan appar identifiera enhetens position i rymden, känna igen skakningar, bestämma skärmorientering, samt använda spelkontroller och kartnavigering.</string>
     <string name="permission_instruction_show_locked">Denna behörighet tillåter appar att visa objekt på din låsskärm. Skadliga appar kan använda denna behörighet för att visa annonser.</string>
     <string name="permission_instruction_sociality">Om du tillåter appar att tillträda filer i deras egna mappar låter systemet dig besluta huruvida du också vill att dessa appar ska tillträda filerna genererade i sociala mediaappar för att skydda din integritet. Då apparna med Android API nivå 29 eller högre redan stöder lagringspartitioner kommer denna växling inte att tillhandahållas för dem.</string>
     <string name="permission_instruction_storage">Om du tillåter appar att tillträda filer i deras egna mappar låter systemet dig besluta huruvida du också vill att dessa appar ska tillträda objekten i ditt Galleri och filer genererade i sociala mediaappar för att skydda din integritet. Då apparna med Android API nivå 29 eller högre redan stöder lagringspartitioner kommer denna växling inte att tillhandahållas för dem.</string>
@@ -4007,7 +4010,7 @@ Ultra batterisparare"</string>
     <string name="permission_instruction_write_settings">Den här behörigheten tillåter appar att ändra systeminställningarna. Maligna appar kanske använda den här behörigheten till att förändra dina systeminställningar och påverka den normala användningen av din enhet.</string>
     <string name="permission_legacy_storage">Få åtkomst till foton, videor, ljud och filer</string>
     <string name="permission_oaid_desc">Tillåt %1$s möjligheten att spåra dina aktiviteter på andra appar och hemsidor?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Begränsa åtkomsten när appen startas</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Appar kommer inte fråga efter tillstånd att läsa dina kontakter, se samtalshistorik, ändra systeminställningar, eller tillgång till kameran och andra enhetsresurser. Du kan aktivera den här funktionen i Tillståndsinställningar.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Behörighetshanterare</string>
     <string name="permission_precise_location">Exakt plats</string>
@@ -4772,8 +4775,11 @@ Dra tillbaka samtycke nu?"</string>
     <string name="privacy_using_record">Spelar in ljud</string>
     <string name="privacyapp_number_masked_text">Notisinnehåll är dolt</string>
     <string name="privacyapp_number_unmasked_text">Notisinnehåll kan inte döljas</string>
+    <string name="private_face_password_type_tips">Du kan byta lösenord i Ansiktsdata och skärmlås > Lösenord för integritetsskydd</string>
     <string name="private_file">Privata filer</string>
+    <string name="private_finger_password_type_tips">Du kan byta lösenord i fingeravtryck och skärmlås > Lösenord för integritetsskydd</string>
     <string name="private_note">Dolda anteckningar</string>
+    <string name="private_password_only_type_tips">Du kan byta lösenord i Skärmlås > Lösenord för integritetsskydd</string>
     <string name="private_password_type">Lösenord för Integritetsskydd</string>
     <string name="private_password_type_tips">Du kan byta lösenord i fingeravtryck, ansiktsdata, och skärmlås > Lösenord för integritetsskydd.</string>
     <string name="private_photo">Privat album</string>
@@ -4830,7 +4836,7 @@ Dra tillbaka samtycke nu?"</string>
     <string name="recommended">Utvalda</string>
     <string name="reject_all">Begränsa alla</string>
     <string name="reject_countdown">Neka (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Begränsa åtkomst under appstart, för alla appar</string>
     <string name="reject_usb_install">Nekade installation av de följande apparna via USB</string>
     <string name="release_meminfo">Frigör %d MB</string>
     <string name="release_memory">Rensa cache</string>

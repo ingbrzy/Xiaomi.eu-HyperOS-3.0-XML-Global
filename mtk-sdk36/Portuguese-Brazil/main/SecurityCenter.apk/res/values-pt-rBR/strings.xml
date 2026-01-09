@@ -1193,7 +1193,7 @@ No entanto, algumas das suas transações ainda não foram concluídas. Para pod
     <string name="confirm_package_type">Confirme seu plano de dados</string>
     <string name="confirm_prompt_all_permission">Solicitar permissão para todos os apps?</string>
     <string name="confirm_reject_all_permission">Restringir todos os apps de usarem este recurso?</string>
-    <string name="confirm_reject_all_permission_only_opening_screen">Restrict this permission during app launch for all apps?</string>
+    <string name="confirm_reject_all_permission_only_opening_screen">Restringir esta permissão durante a abertura do app para todos os apps?</string>
     <string name="confirm_take">Obter</string>
     <string name="confirm_upgrade">Opções</string>
     <string name="connect_internet_by_mobiledata">Conexão de dados móveis</string>
@@ -2759,7 +2759,10 @@ Sua operadora poderá cobrar tarifas adicionais se continuar a usar a conexão a
     <string name="lock_all_title">Bloquear todos os apps</string>
     <string name="lock_app_input_invalid_car">Alguns símbolos não são suportados</string>
     <string name="lock_mode_title">Configurações de bloqueio</string>
+    <string name="lock_screen_face_password_type_tips">Você pode alterar a sua senha em Dados faciais e bloqueio de tela</string>
+    <string name="lock_screen_finger_password_type_tips">Você pode alterar a sua senha em Impressões digitais e bloqueio de tela</string>
     <string name="lock_screen_hongbao_message">De %1$s</string>
+    <string name="lock_screen_password_only_type_tips">Você pode alterar a sua senha em Bloqueio de tela</string>
     <string name="lock_screen_password_type">Bloqueio de tela</string>
     <string name="lock_screen_password_type_tips">Você pode alterar o Bloqueio de tela em Impressões digitais, dados faciais e bloqueio de tela.</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s usado(s) na tela de bloqueio</string>
@@ -3130,7 +3133,7 @@ Seu dispositivo está %s mais rápido agora."</string>
     <string name="more_setting_summary">Personalize os lembretes e defina um Não perturbe para este recurso</string>
     <string name="more_settings">Mais</string>
     <string name="morning">Manhã</string>
-    <string name="msg_only_opening_screen">Access will be restricted for the first %d seconds after the app starts</string>
+    <string name="msg_only_opening_screen">O acesso será restrito pelos primeiros %d segundos após a abertura do app</string>
     <string name="mtp_ptp_mode_summary">MTP ou PTP ativo</string>
     <string name="mtrl_badge_numberless_content_description">Nova notificação</string>
     <string name="mtrl_chip_close_icon_content_description">Remover %1$s</string>
@@ -3943,7 +3946,7 @@ a Ultra economia de bateria"</string>
     <string name="permission_instruction_send_mms">Esta permissão permite aos apps enviar mensagens multimídia, o que pode gerar taxas adicionais. Apps maliciosos podem usar esta permissão para enviar mensagens pagas sem seu consentimento.</string>
     <string name="permission_instruction_send_payment_sms">Esta permissão permite aos apps enviar mensagens de texto pagas.</string>
     <string name="permission_instruction_send_sms">Esta permissão permite que os apps enviem mensagens de texto, o que pode gerar taxas adicionais. Os apps maliciosos podem usar esta permissão para enviar mensagens pagas sem seu consentimento.</string>
-    <string name="permission_instruction_shake">"This permission allows apps to detect the device's position in space, recognize shaking, determine screen orientation, as well as use game controls and map navigation."</string>
+    <string name="permission_instruction_shake">Esta permissão deixa que os apps detectem a posição do dispositivo no espaço, reconheça movimentos rápidos, determine a orientação da tela e use os controles de jogo e navegação por mapas.</string>
     <string name="permission_instruction_show_locked">Esta permissão permite que apps exibam itens na sua Tela de bloqueio. Apps maliciosos podem usar esta permissão para exibir anúncios.</string>
     <string name="permission_instruction_sociality">Se você permitir que os apps acessem arquivos em suas próprias pastas, o sistema deixará que você decida se deseja que estes apps acessem itens em apps de redes sociais para proteger a sua privacidade. Como os apps com API Android nível 29 ou superiores já suportam a partição de armazenamento, este seletor não será disponibilizado para eles.</string>
     <string name="permission_instruction_storage">Se você permitir que os apps acessem arquivos em suas próprias pastas, o sistema deixará que você decida se deseja que estes apps acessem itens em sua galeria e arquivos gerados em apps de redes sociais para proteger a sua privacidade. Como os apps com API Android nível 29 ou superiores já suportam a partição de armazenamento, este seletor não será disponibilizado para eles.</string>
@@ -3958,7 +3961,7 @@ a Ultra economia de bateria"</string>
     <string name="permission_instruction_write_settings">Esta permissão permite que os apps possam modificar as configurações do sistema. Apps maliciosos podem usar esta permissão para modificar as configurações de seu sistema e afetar o uso normal de seu dispositivo.</string>
     <string name="permission_legacy_storage">Acessar fotos, vídeos, áudio e arquivos</string>
     <string name="permission_oaid_desc">Permitir que %1$s rastreie as suas atividades em outros apps e sites da web?</string>
-    <string name="permission_only_opening_screen">Restrict access during app launch</string>
+    <string name="permission_only_opening_screen">Restringir acesso durante a abertura do app</string>
     <string name="permission_permission_control_closed_desc_dialog_msg">Apps não solicitarão sua permissão antes de ler seus contatos, ver seu histórico de chamadas, alterar configurações do sistema, ou acessar a câmera e outras funções do dispositivo. Você pode ativar esta função nas Configurações de permissões.</string>
     <string name="permission_permission_control_closed_desc_dialog_title">Gerenciador de permissões</string>
     <string name="permission_precise_location">Localização precisa</string>
@@ -4723,8 +4726,11 @@ Retirar o consentimento agora?"</string>
     <string name="privacy_using_record">Gravar áudio</string>
     <string name="privacyapp_number_masked_text">O conteúdo da notificação está oculto</string>
     <string name="privacyapp_number_unmasked_text">O conteúdo da notificação pode ser oculto</string>
+    <string name="private_face_password_type_tips">Você pode alterar sua senha em Dados faciais e bloqueio de tela > Senha de Proteção de Privacidade.</string>
     <string name="private_file">Arquivos privados</string>
+    <string name="private_finger_password_type_tips">Você pode alterar sua senha em Impressões digitais e bloqueio de tela > Senha de Proteção de Privacidade.</string>
     <string name="private_note">Anotações ocultas</string>
+    <string name="private_password_only_type_tips">Você pode alterar sua senha em Bloqueio de tela > Senha de Proteção de Privacidade.</string>
     <string name="private_password_type">Senha de Proteção de Privacidade</string>
     <string name="private_password_type_tips">Você pode alterar sua senha em Impressões digitais, dados faciais e bloqueio de tela > Senha de proteção de privacidade.</string>
     <string name="private_photo">Álbum privado</string>
@@ -4781,7 +4787,7 @@ Retirar o consentimento agora?"</string>
     <string name="recommended">Destaque</string>
     <string name="reject_all">Restringir tudo</string>
     <string name="reject_countdown">Recusar (%d)</string>
-    <string name="reject_only_opening_screen">Restrict access during app launch for all apps</string>
+    <string name="reject_only_opening_screen">Restringir acesso durante a abertura do app para todos os apps</string>
     <string name="reject_usb_install">A instalação via USB dos seguintes apps foi negada</string>
     <string name="release_meminfo">Liberar %dMB</string>
     <string name="release_memory">Limpar cache</string>
