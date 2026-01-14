@@ -152,6 +152,7 @@ Gå til https://appleid.apple.com/#!&amp;page=signin for å deaktivere"</string>
     <string name="contact_records_permission_desc">For å overføre anropshistorikk til andre enheter</string>
     <string name="contacts">Kontakter</string>
     <string name="contacts_permission_desc">For å overføre kontakter til andre enheter</string>
+    <string name="contains_unauthorized_data">Inneholder ikke-godkjente data</string>
     <string name="copy">Kopiér</string>
     <string name="current_user_not_supported_summary">De nåværende systeminnstillingene forhindrer overføring av data ved hjelp av Mi Mover.</string>
     <string name="current_user_not_supported_title">Kan ikke overføre elementer</string>
@@ -416,8 +417,12 @@ Gå til https://appleid.apple.com/#!&amp;page=signin for å deaktivere"</string>
     <string name="manual_connection_content2">%d. Velg følgende Wi-Fi-hotspot.</string>
     <string name="manual_connection_content3">%d. Angi dette passordet på den gamle enheten for å koble til.</string>
     <string name="manual_connection_hint">Trykk på \"Koble til manuelt\" på den gamle enheten.</string>
+    <string name="manual_connection_hint_pad">Trykk på \"Koble til manuelt\" på den gamle enheten</string>
+    <string name="manual_connection_hint_phone">Trykk på \"Koble til manuelt\" på den gamle enheten</string>
     <string name="manual_connection_summary2">Hvis du ikke finner denne hotspoten, kan du oppdatere listen over tilgjengelige Wi-Fi-nettverk og prøve igjen.</string>
     <string name="manual_connection_title">Koble til den gamle enheten manuelt</string>
+    <string name="manual_connection_title_pad">Koble gammel enhet til hotspot</string>
+    <string name="manual_connection_title_phone">Koble gammel enhet til hotspot</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover trenger tilgang til alle filene på denne enheten for å kunne flytte dem fra den gamle enheten til en ny.</string>
     <string name="message_request_package_stats_perm">Mi Mover trenger denne tillatelsen for å finne ut hvilke apper som er installert på en enhet, og overføre disse appene til en annen.</string>
     <string name="midnight">Natt</string>
@@ -531,14 +536,14 @@ Gå til https://appleid.apple.com/#!&amp;page=signin for å deaktivere"</string>
     <string name="new_trans_intro_desc_new">"%1$d. Kontroller at Mi Mover på den nye enheten din er oppdatert. Du kan laste ned den nyeste versjonen av Mi Mover fra Play Store eller ved å trykke her: %2$s.
 %3$d. Hvis hotspoten fortsatt ikke vises i Mi Mover, må du åpne wifi-innstillingene og se om du ser den der. I så fall går du tilbake til Mi Mover og trykker på hotspot-navnet."</string>
     <string name="new_trans_intro_desc_new_click">Last ned</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i GetApps, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Hvis det forsatt ikke vises noen hotspot i i Mover, må du åpne wifi-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i GetApps, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Hvis det forsatt ikke vises noen hotspot i i Mover, må du åpne WLAN-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i GetApps, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Hvis det forsatt ikke vises noen hotspot i i Mover, må du åpne wifi-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i GetApps, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Hvis det forsatt ikke vises noen hotspot i i Mover, må du åpne WLAN-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Hvis det fortsatt ikke vises noen hotspot i i Mover, må du åpne wifi-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i GetApps, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Hvis det forsatt ikke vises noen hotspot i i Mover, må du åpne WLAN-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Hvis det fortsatt ikke vises noen hotspot i i Mover, må du åpne wifi-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for at Mi Mover er oppdatert på den nye enheten. Du kan laste ned den nyeste versjonen av Mi Mover i GetApps, eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Hvis det forsatt ikke vises noen hotspot i i Mover, må du åpne WLAN-innstillingene og se om du finner den der. I så fall kan du gå tilbake til Mi Mover og trykke på hotspot-navnet."</string>
     <string name="new_trans_intro_desc_old">%d. Hvis hotspoten fortsatt ikke vises i Mi Mover, kan du åpne Wi-Fi-innstillingene og sjekke om du ser den der. Gå i så fall tilbake til Mi Mover og trykk på navnet til hotspoten.</string>
     <string name="new_trans_intro_question_1">%d. Hvorfor kan jeg ikke se hotspot for den nye enheten på den gamle?</string>
     <string name="new_trans_intro_question_1_pad">%d. Hvorfor ser jeg ingen hotspot for den nye enheten på den gamle?</string>
@@ -637,6 +642,8 @@ Gå til https://appleid.apple.com/#!&amp;page=signin for å deaktivere"</string>
     <string name="permission_alert_title">Tillatelser er nødvendig</string>
     <string name="permission_bluetooth_summary">For å finne tilgjengelige enheter i nærheten</string>
     <string name="permission_bluetooth_title">Aktivere og deaktivere Bluetooth</string>
+    <string name="permission_calendar_summary">For å overføre kalenderhendelser</string>
+    <string name="permission_calendar_title">Tilgang til kalender</string>
     <string name="permission_calender_summary">For å flytte begivenheter fra den gamle enheten til den nye</string>
     <string name="permission_calender_summary_global">For overføring av kalenderhendelser til den nye enheten</string>
     <string name="permission_calender_title">Få tilgang til kalenderhendelser</string>

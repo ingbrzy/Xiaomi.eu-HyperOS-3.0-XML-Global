@@ -152,6 +152,7 @@ Vieraile osoitteessa https://appleid.apple.com/#!&amp;page=signin sammuttaaksesi
     <string name="contact_records_permission_desc">Puheluhistorian siirtämiseen muihin laitteisiin</string>
     <string name="contacts">Yhteystiedot</string>
     <string name="contacts_permission_desc">Yhteystietojen siirtämiseen muihin laitteisiin</string>
+    <string name="contains_unauthorized_data">Sisältää luvattomia tietoja</string>
     <string name="copy">Kopioi</string>
     <string name="current_user_not_supported_summary">Nykyiset järjestelmäasetukset rajoittavat tiedonsiirtoa kohdetta Mi Mover käyttäen.</string>
     <string name="current_user_not_supported_title">Kohteita ei voi siirtää</string>
@@ -416,8 +417,12 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="manual_connection_content2">%d. Valitse seuraava Wi-Fi-tukiasema.</string>
     <string name="manual_connection_content3">%d. Anna tämä salasana vanhaan laitteeseen muodostaaksesi yhteyden.</string>
     <string name="manual_connection_hint">Napauta \"Yhdistä manuaalisesti\" vanhassa laitteessasi.</string>
+    <string name="manual_connection_hint_pad">Napauta \"Yhdistä manuaalisesti\" vanhassa laitteessa</string>
+    <string name="manual_connection_hint_phone">Napauta \"Yhdistä manuaalisesti\" vanhassa laitteessa</string>
     <string name="manual_connection_summary2">Jos et löydä tätä tukiasemaa, päivitä käytettävissä olevien Wi-Fi-verkkojen luettelo ja yritä uudelleen.</string>
     <string name="manual_connection_title">Yhdistä vanhaan laitteeseen manuaalisesti</string>
+    <string name="manual_connection_title_pad">Yhdistä vanha laite tukiasemaan</string>
+    <string name="manual_connection_title_phone">Yhdistä vanha laite tukiasemaan</string>
     <string name="message_request_manage_external_storage_perm">Mi Moverin on päästävä kaikkiin tämän laitteen tiedostoihin voidakseen siirtää ne vanhasta laitteestasi uuteen.</string>
     <string name="message_request_package_stats_perm">Mi Mover tarvitsee tämän luvan oppia, mitkä sovellukset on asennettu laitteeseen, ja siirtääkseen nämä sovellukset toiseen.</string>
     <string name="midnight">Yö</string>
@@ -531,14 +536,14 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="new_trans_intro_desc_new">"%1$d. Varmista, että Mi Mover uudessa laitteessasi on ajan tasalla. Voit ladata Mi Moverin uusimman version Play Kaupasta tai napauta tätä: %2$s.
 %3$d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näetkö sen siellä. Jos näin on, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
     <string name="new_trans_intro_desc_new_click">Lataa</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version Google Playsta tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version Google Playsta tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
     <string name="new_trans_intro_desc_old">%d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näetkö sen siellä. Jos näin on, palaa Mi Moveriin ja napauta tukiaseman nimeä.</string>
     <string name="new_trans_intro_question_1">%d. Miksi en näe uuden laitteen tukiasemaa vanhassa?</string>
     <string name="new_trans_intro_question_1_pad">%d. Miksi en näe uuden laitteen tukiasemaa vanhalla laitteella?</string>
@@ -637,6 +642,8 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="permission_alert_title">Käyttöoikeuksia vaaditaan</string>
     <string name="permission_bluetooth_summary">Läheisten käytettävissä olevien laitteiden löytämiseksi</string>
     <string name="permission_bluetooth_title">Bluetoothin kytkeminen päälle ja pois</string>
+    <string name="permission_calendar_summary">Kalenteritapahtumien siirtämiseen</string>
+    <string name="permission_calendar_title">Pääsy kalenteriin</string>
     <string name="permission_calender_summary">Tapahtumien siirtämiseen vanhasta laitteesta uuteen</string>
     <string name="permission_calender_summary_global">Kalenteritapahtumien siirtämiseen uuteen laitteeseen</string>
     <string name="permission_calender_title">Pääsy kalenteritapahtumiin</string>

@@ -152,6 +152,7 @@
     <string name="contact_records_permission_desc">За прехвърляне на хронология на повикванията към други устройства</string>
     <string name="contacts">Контакти</string>
     <string name="contacts_permission_desc">За прехвърляне на контакти към други устройства</string>
+    <string name="contains_unauthorized_data">Съдържа неразрешени данни</string>
     <string name="copy">Копиране</string>
     <string name="current_user_not_supported_summary">Текущите системни настройки ограничават прехвърлянето на данни чрез Mi Mover.</string>
     <string name="current_user_not_supported_title">Не могат да се прехвърлят елементи</string>
@@ -416,8 +417,12 @@
     <string name="manual_connection_content2">%d. Изберете следния Wi-Fi хотспот.</string>
     <string name="manual_connection_content3">%d. Въведете тази парола в старото устройство, за да се свържете.</string>
     <string name="manual_connection_hint">Натиснете „Ръчно свързване“ на старото си устройство.</string>
+    <string name="manual_connection_hint_pad">Натиснете „Ръчно свързване“ на старото устройство</string>
+    <string name="manual_connection_hint_phone">Натиснете „Ръчно свързване“ на старото устройство</string>
     <string name="manual_connection_summary2">Ако не можете да откриете този хотспот обновете списъка с налични Wi-Fi мрежи и опитайте отново.</string>
     <string name="manual_connection_title">Свържете се ръчно със старото устройство</string>
+    <string name="manual_connection_title_pad">Свържете старото устройство към Хотспот</string>
+    <string name="manual_connection_title_phone">Свържете старото устройство към Хотспот</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover се нуждае от достъп до всички файлове в това устройство, за да може да ги премества от старото ви устройство към новото.</string>
     <string name="message_request_package_stats_perm">Mi Mover се нуждае от това разрешение, за да разбере какви приложения са инсталирани в това устройство и да ги премести в друго.</string>
     <string name="midnight">Нощ</string>
@@ -531,14 +536,14 @@
     <string name="new_trans_intro_desc_new">"%1$d. Уверете се, че Mi Mover на вашето ново устройство е актуален. Можете да изтеглите най-новата версия на Mi Mover в Play Store или да натиснете тук: %2$s.
 %3$d. Ако хотспота все още не се показва в Mi Mover, отворете Wi-Fi настройките и проверете дали можете да го видите там. Ако е така, върнете се към Mi Mover и натиснете името на хотспота."</string>
     <string name="new_trans_intro_desc_new_click">Изтегляне</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в Google Play или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в Google Play или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
     <string name="new_trans_intro_desc_old">%d. Ако не виждате хотспот в Mi Mover, отворете настройките на Wi-Fi и проверете дали е видим там. Ако е, върнете се в Mi Mover и натиснете името на този хотспот.</string>
     <string name="new_trans_intro_question_1">%d. Защо не виждам хотспота от новото устройство върху старото устройство?</string>
     <string name="new_trans_intro_question_1_pad">%d. Защо не виждам хотспота от новото устройство на старото?</string>
@@ -637,6 +642,8 @@
     <string name="permission_alert_title">Необходими са разрешения</string>
     <string name="permission_bluetooth_summary">За откриване на устройства наблизо</string>
     <string name="permission_bluetooth_title">Включване или изключване на Bluetooth</string>
+    <string name="permission_calendar_summary">За прехвърляне на събития от календара</string>
+    <string name="permission_calendar_title">Достъп до календара</string>
     <string name="permission_calender_summary">За преместване на събития от старото устройство към новото</string>
     <string name="permission_calender_summary_global">За прехвърляне на календарни събития към новото устройство</string>
     <string name="permission_calender_title">Достъп до събития в календара</string>

@@ -152,6 +152,7 @@ Visiteu https://appleid.apple.com/#!&amp;page=signin per tancar"</string>
     <string name="contact_records_permission_desc">"Per transferir L'historial de trucades a altres dispositius"</string>
     <string name="contacts">Contactes</string>
     <string name="contacts_permission_desc">Per transferir contactes a altres dispositius</string>
+    <string name="contains_unauthorized_data">Conté dades no autoritzades</string>
     <string name="copy">Copia</string>
     <string name="current_user_not_supported_summary">Els ajustaments del sistema actuals restringeixen la transferència de dades fent servir Mi Mover.</string>
     <string name="current_user_not_supported_title">No es pot transferir elements</string>
@@ -416,8 +417,12 @@ Obre WeChat i ves a Jo > Ajustaments > General > Còpia de seguretat i migració
     <string name="manual_connection_content2">"%d. Seleccioneu el següent punt d'accés Wi-Fi."</string>
     <string name="manual_connection_content3">%d. Introduïu aquesta contrasenya al dispositiu antic per connectar-vos.</string>
     <string name="manual_connection_hint">Toqueu \"Connexió manualment\" al vostre dispositiu antic.</string>
+    <string name="manual_connection_hint_pad">Toqueu \"Connexió manualment\" al dispositiu antic</string>
+    <string name="manual_connection_hint_phone">Toqueu \"Connexió manualment\" al dispositiu antic</string>
     <string name="manual_connection_summary2">"Si no trobeu aquest punt d'accés, actualitzeu la llista de les xarxes Wi-Fi disponibles i proveu-ho de nou."</string>
     <string name="manual_connection_title">Connecteu-vos al dispositiu antic manualment</string>
+    <string name="manual_connection_title_pad">"Connecteu el dispositiu antic al punt d'accés"</string>
+    <string name="manual_connection_title_phone">"Connecteu el dispositiu antic al punt d'accés"</string>
     <string name="message_request_manage_external_storage_perm">"Mi Mover ha d'accedir a tots els fitxers d'aquest dispositiu per poder moure'ls del dispositiu antic a un de nou."</string>
     <string name="message_request_package_stats_perm">Mi Mover necessita aquest permís per saber quines aplicacions s’instal·len en un dispositiu i transferir-les a un altre.</string>
     <string name="midnight">Nit</string>
@@ -531,14 +536,14 @@ Obre WeChat i ves a Jo > Ajustaments > General > Còpia de seguretat i migració
     <string name="new_trans_intro_desc_new">"%1$d. Assegureu-vos que Mi Mover del vostre nou dispositiu estigui actualitzat. Pots baixar l'última versió de Mi Mover a Play Store o tocar aquí: %2$s.
 %3$d. Si el punt d'accés encara no apareix a Mi Mover, obriu la configuració de Wi-Fi i comproveu si el podeu veure allà. Si és així, torneu a Mi Mover i toqueu el nom del punt d'accés."</string>
     <string name="new_trans_intro_desc_new_click">Descarregar</string>
-    <string name="new_trans_intro_desc_new_pad">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la wifi i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
-    <string name="new_trans_intro_desc_new_pad_china">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la WLAN i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
-    <string name="new_trans_intro_desc_new_phone">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la wifi i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
-    <string name="new_trans_intro_desc_new_phone_china">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la WLAN i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
+    <string name="new_trans_intro_desc_new_pad">"&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Assegureu-vos que Mi Mover estigui actualitzat al vostre dispositiu. Us podeu baixar l'última versió en GooglePlay o "<Data>&lt;a href=%2$s>si premeu aquí&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obriu els ajustaments de la W-Fi i comproveu-hi si podeu veure'l. En cas afirmatiu, torneu a Mi Mover i premeu el nom del punt de connexió."</string>
+    <string name="new_trans_intro_desc_new_pad_china">"&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la WLAN i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
+    <string name="new_trans_intro_desc_new_phone">"&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Assegureu-vos que Mi Mover estigui actualitzat al vostre dispositiu. Us podeu baixar l'última versió en GooglePlay o "<Data>&lt;a href=%2$s>si premeu aquí&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obriu els ajustaments de la W-Fi i comproveu-hi si podeu veure'l. En cas afirmatiu, torneu a Mi Mover i premeu el nom del punt de connexió."</string>
+    <string name="new_trans_intro_desc_new_phone_china">"&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Assegura't que Mi Mover estigui actualitzat al teu dispositiu. Te'n pots descarregar l'última versió en GetApps o "<Data>&lt;a href=%2$s>si prems aquí&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punt de connexió encara no apareix en Mi Mover, obre els ajustaments de la WLAN i comprova-hi si pots veure'l. En cas afirmatiu, torna a Mi Mover i prem el nom del punt de connexió."</string>
     <string name="new_trans_intro_desc_old">"%d. Si el punt d'accés encara no apareix a Mi Mover, obre la ConfiguracióWi-Fi i comprova si pots veure'l allà. Si el pots veure, torna a Mi Mover i prem el nom del punt d'accés."</string>
     <string name="new_trans_intro_question_1">"%d. Per què no puc veure el punt d'accés del nou dispositiu a L'antic?"</string>
     <string name="new_trans_intro_question_1_pad">"%d. Per què no puc veure el punt d'accés del nou dispositiu a l'antic?"</string>
@@ -637,6 +642,8 @@ Obre WeChat i ves a Jo > Ajustaments > General > Còpia de seguretat i migració
     <string name="permission_alert_title">Permisos requerits</string>
     <string name="permission_bluetooth_summary">Per a trobar dispositius propers disponibles</string>
     <string name="permission_bluetooth_title">Activar i desactivar el Bluetooth</string>
+    <string name="permission_calendar_summary">Per transferir esdeveniments del calendari</string>
+    <string name="permission_calendar_title">Accés al calendari</string>
     <string name="permission_calender_summary">Per moure esdeveniments del dispositiu antic al nou</string>
     <string name="permission_calender_summary_global">Per transferir esdeveniments de calendari al nou dispositiu</string>
     <string name="permission_calender_title">"Accediu al calendari d'esdeveniments"</string>

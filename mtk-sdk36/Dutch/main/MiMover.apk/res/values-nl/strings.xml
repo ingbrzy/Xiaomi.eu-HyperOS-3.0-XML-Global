@@ -152,6 +152,7 @@ Ga naar https://appleid.apple.com/#!&amp;page=signin om uit te schakelen"</strin
     <string name="contact_records_permission_desc">Voor het overzetten van belgeschiedenis naar andere apparaten</string>
     <string name="contacts">Contacten</string>
     <string name="contacts_permission_desc">Voor het overzetten van contacten naar andere apparaten</string>
+    <string name="contains_unauthorized_data">Bevat ongeautoriseerde gegevens</string>
     <string name="copy">Kopiëren</string>
     <string name="current_user_not_supported_summary">Huidige systeeminstellingen beperken de overdracht van data met behulp van Mi Mover.</string>
     <string name="current_user_not_supported_title">Kan items niet overzetten</string>
@@ -416,8 +417,12 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="manual_connection_content2">%d. Selecteer de volgende Wi-Fi hotspot.</string>
     <string name="manual_connection_content3">%d. Voer dit wachtwoord in op het oude apparaat om verbinding te maken.</string>
     <string name="manual_connection_hint">Tik op \"Handmatig verbinden\" op uw oude apparaat.</string>
+    <string name="manual_connection_hint_pad">Tik op \"Handmatig verbinden\" op het oude apparaat</string>
+    <string name="manual_connection_hint_phone">Tik op \"Handmatig verbinden\" op het oude apparaat</string>
     <string name="manual_connection_summary2">Als u deze hotspot niet kunt vinden, vernieuw dan de lijst met beschikbare wifi-netwerken en probeer het opnieuw.</string>
     <string name="manual_connection_title">Handmatig verbinding maken met het oude apparaat</string>
+    <string name="manual_connection_title_pad">Sluit het oude apparaat aan op de hotspot</string>
+    <string name="manual_connection_title_phone">Sluit het oude apparaat aan op de hotspot</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover moet toegang hebben tot alle bestanden op dit apparaat om ze van uw oude naar een nieuwe apparaat te kunnen verplaatsen.</string>
     <string name="message_request_package_stats_perm">Mi Mover heeft deze toestemming nodig om te leren welke apps op een apparaat zijn geïnstalleerd en deze apps over te zetten naar een ander apparaat.</string>
     <string name="midnight">Nacht</string>
@@ -531,14 +536,14 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="new_trans_intro_desc_new">"%1$d. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of tik hier: %2$s.
 %3$d. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
     <string name="new_trans_intro_desc_new_click">Downloaden</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in Google Play of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in Google Play of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
     <string name="new_trans_intro_desc_old">%d. Als de hotspot nog steeds niet verschijnt in Mi Mover, open dan wifi-instellingen en controleer of u hem daar kunt zien. Ga dan terug naar Mi Mover en tik op de naam van de hotspot.</string>
     <string name="new_trans_intro_question_1">%d. Waarom kan ik de hotspot van het nieuwe apparaat niet zien op het oude apparaat?</string>
     <string name="new_trans_intro_question_1_pad">%d. Waarom kan ik de hotspot van het nieuwe apparaat niet op het oude zien?</string>
@@ -637,6 +642,8 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="permission_alert_title">Toestemmingen vereist</string>
     <string name="permission_bluetooth_summary">Voor het vinden van beschikbare apparaten in de buurt</string>
     <string name="permission_bluetooth_title">Bluetooth in- en uitschakelen</string>
+    <string name="permission_calendar_summary">Voor het overzetten van kalendergebeurtenissen</string>
+    <string name="permission_calendar_title">Toegang tot kalender</string>
     <string name="permission_calender_summary">Voor het verplaatsen van gebeurtenissen van het oude apparaat naar het nieuwe</string>
     <string name="permission_calender_summary_global">Voor het overzetten van kalendergebeurtenissen naar het nieuwe apparaat</string>
     <string name="permission_calender_title">Toegang tot kalendergebeurtenissen</string>

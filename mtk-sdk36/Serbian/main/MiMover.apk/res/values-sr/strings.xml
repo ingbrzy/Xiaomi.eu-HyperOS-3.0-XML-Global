@@ -152,6 +152,7 @@
     <string name="contact_records_permission_desc">За пренос историје позива на друге уређаје</string>
     <string name="contacts">Контакти</string>
     <string name="contacts_permission_desc">За пренос контаката на друге уређаје</string>
+    <string name="contains_unauthorized_data">Садржи неовлашћене податке</string>
     <string name="copy">Копирај</string>
     <string name="current_user_not_supported_summary">Тренутна подешавања система ограничавају пренос података преко Mi Mover-а.</string>
     <string name="current_user_not_supported_title">Ставке се не могу пренети</string>
@@ -416,8 +417,12 @@
     <string name="manual_connection_content2">%d. Изаберите следећу Wi-Fi приступну тачку.</string>
     <string name="manual_connection_content3">%d. Унесите ову лозинку на стари уређај ради повезивања.</string>
     <string name="manual_connection_hint">Додирните „Повежи се ручно“ на старом уређају.</string>
+    <string name="manual_connection_hint_pad">Додирните „Повежи ручно“ на старом уређају</string>
+    <string name="manual_connection_hint_phone">Додирните „Повежи ручно“ на старом уређају</string>
     <string name="manual_connection_summary2">Ако не можете да пронађете ову приступну тачку, освежите листу доступних Wi-Fi мрежа и покушајте опет.</string>
     <string name="manual_connection_title">Повежи се ручно на стари уређај</string>
+    <string name="manual_connection_title_pad">Повежите стари уређај са приступном тачком</string>
+    <string name="manual_connection_title_phone">Повежите стари уређај са приступном тачком</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover треба да приступи свим фајловима на овом уређају да би могао да их премести са старог уређаја на нови.</string>
     <string name="message_request_package_stats_perm">Mi Mover захтева ову дозволу да би сазнао које су апликације инсталиране на уређају и пребацио их на други.</string>
     <string name="midnight">Ноћ</string>
@@ -531,14 +536,14 @@
     <string name="new_trans_intro_desc_new">"%1$d. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Можете да преузмете најновију верзију Mi Mover-а у Play продавници или додирните овде: %2$s.
 %3$d. Ако се приступна тачка и даље неће појавити у Mi Mover-у, отворите Wi-Fi подешавања и проверите да ли можете да је видите тамо. Ако јесте, вратите се на Mi Move и додирните назив приступне тачке."</string>
     <string name="new_trans_intro_desc_new_click">Преузми</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите WLAN подешавања и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите WLAN подешавања и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети на Google Play-у или <Data>&lt;a href=%2$s>додирните овде&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако је видите, вратите се у Mi Mover и додирните назив приступне тачке."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите WLAN подешавања и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети на Google Play-у или <Data>&lt;a href=%2$s>додирните овде&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако је видите, вратите се у Mi Mover и додирните назив приступне тачке."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите WLAN подешавања и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
     <string name="new_trans_intro_desc_old">%d. Ако се приступна тачка и даље не приказује у Mi Mover-у, отворите Wi-Fi подешавања и проверите да ли је тамо видите. Ако је видите, вратите се на Mi Mover и додирните назив приступне тачке.</string>
     <string name="new_trans_intro_question_1">%d. Зашто не видим приступну тачку новог уређаја на старом?</string>
     <string name="new_trans_intro_question_1_pad">%d. Зашто не видим приступну тачку новог уређаја на старом?</string>
@@ -637,6 +642,8 @@
     <string name="permission_alert_title">Потребне су дозволе</string>
     <string name="permission_bluetooth_summary">За проналажење доступних уређаја у близини</string>
     <string name="permission_bluetooth_title">Укључивање и искључивање Bluetooth-а</string>
+    <string name="permission_calendar_summary">За пренос догађаја из календара</string>
+    <string name="permission_calendar_title">Приступ календару</string>
     <string name="permission_calender_summary">За премештање догађаја са старог уређаја на нови</string>
     <string name="permission_calender_summary_global">За пренос календарских догађаја на нови уређај</string>
     <string name="permission_calender_title">Приступи календарским догађајима</string>

@@ -152,6 +152,7 @@ Odwiedź https://appleid.apple.com/#!&amp;page=signin aby wyłączyć"</string>
     <string name="contact_records_permission_desc">Do przenoszenia historii połączeń na inne urządzenia</string>
     <string name="contacts">Kontakty</string>
     <string name="contacts_permission_desc">Do przenoszenia kontaktów na inne urządzenia</string>
+    <string name="contains_unauthorized_data">Zawiera nieautoryzowane dane</string>
     <string name="copy">Kopiuj</string>
     <string name="current_user_not_supported_summary">Obecne ustawienia systemu ograniczają przesyłanie danych.</string>
     <string name="current_user_not_supported_title">Nie można przesłać elementów</string>
@@ -416,8 +417,12 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="manual_connection_content2">%d. Wybierz następujący hotspot Wi-Fi.</string>
     <string name="manual_connection_content3">%d. Wprowadź to hasło na starym urządzeniu, aby się połączyć.</string>
     <string name="manual_connection_hint">Dotknij „Połącz ręcznie” na swoim starym urządzeniu.</string>
+    <string name="manual_connection_hint_pad">Dotknij „Połącz ręcznie” na starym urządzeniu</string>
+    <string name="manual_connection_hint_phone">Dotknij „Połącz ręcznie” na starym urządzeniu</string>
     <string name="manual_connection_summary2">Jeśli nie możesz znaleźć tego hotspotu, odśwież listę dostępnych sieci Wi-Fi i spróbuj ponownie.</string>
     <string name="manual_connection_title">Połącz się ze starym urządzeniem ręcznie</string>
+    <string name="manual_connection_title_pad">Połącz stare urządzenie z hotspotem</string>
+    <string name="manual_connection_title_phone">Połącz stare urządzenie z hotspotem</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover potrzebuje uzyskać dostęp do wszystkich plików, aby móc przenosić je ze starego urządzenia do nowego.</string>
     <string name="message_request_package_stats_perm">Mi Mover potrzebuje tego uprawnienia, aby dowiedzieć się, jakie aplikacje są zainstalowane na urządzeniu i przenieść te aplikacje na inne.</string>
     <string name="midnight">Noc</string>
@@ -531,14 +536,14 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="new_trans_intro_desc_new">"%1$d. Upewnij się, że Mi Mover jest aktualny. Możesz pobrać najnowszą wersję Mi Mover w Sklepie Play lub przechodząc do %2$s.
 %3$d. Jeśli hotspot nadal nie pojawia się w Mi Mover, otwórz ustawienia Wi-Fi i sprawdź czy tam jest wyświetlany. Jeśli tak, wróc do Mi Mover i dotknij nazwę hotspotu."</string>
     <string name="new_trans_intro_desc_new_click">Pobierz</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień WLAN i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień WLAN i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą Google Play lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień WLAN i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą Google Play lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień WLAN i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
     <string name="new_trans_intro_desc_old">%d. Jeśli hotspot nie pojawi się w Przenośniku Danych Mi, otwórz ustawienia Wi-Fi i sprawdź, czy można go tam zobaczyć. Jeśli tak, wróć do Przenośnika Danych Mi i dotknij nazwę hotspotu.</string>
     <string name="new_trans_intro_question_1">%d. Dlaczego nie widzę hotspotu nowego urządzenia na starym?</string>
     <string name="new_trans_intro_question_1_pad">%d. Dlaczego nie widzę hotspotu nowego urządzenia na starym urządzeniu?</string>
@@ -637,6 +642,8 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="permission_alert_title">Wymagane uprawnienia</string>
     <string name="permission_bluetooth_summary">Aby wyszukiwać dostępne urządzenia w pobliżu</string>
     <string name="permission_bluetooth_title">Włączanie i wyłączanie Bluetooth</string>
+    <string name="permission_calendar_summary">Do przesyłania wydarzeń w kalendarzu</string>
+    <string name="permission_calendar_title">Dostęp do kalendarza</string>
     <string name="permission_calender_summary">Do przenoszenia wydarzeń ze starego urządzenia na nowe</string>
     <string name="permission_calender_summary_global">Do przenoszenia wydarzeń z kalendarza na nowe urządzenie</string>
     <string name="permission_calender_title">Uzyskaj dostęp do wydarzeń w kalendarzu</string>

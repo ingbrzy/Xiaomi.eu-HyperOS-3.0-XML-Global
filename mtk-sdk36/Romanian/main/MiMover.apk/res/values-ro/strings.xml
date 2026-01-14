@@ -152,6 +152,7 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="contact_records_permission_desc">Pentru transferul istoricului apelurilor pe alte dispozitive</string>
     <string name="contacts">Contacte</string>
     <string name="contacts_permission_desc">Pentru transferul contactelor pe alte dispozitive</string>
+    <string name="contains_unauthorized_data">Conține date neautorizate</string>
     <string name="copy">Copiați</string>
     <string name="current_user_not_supported_summary">Setările actuale ale sistemului restricționează transferul datelor folosind Mi Mover.</string>
     <string name="current_user_not_supported_title">Nu se poate transfera elemente</string>
@@ -416,8 +417,12 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="manual_connection_content2">%d. Selectați următorul hotspot Wi-Fi.</string>
     <string name="manual_connection_content3">%d. Introduceți această parolă pe vechiul dispozitiv pentru conectare.</string>
     <string name="manual_connection_hint">Atingeți \"Conectați manual\" pe vechiul dispozitiv.</string>
+    <string name="manual_connection_hint_pad">Atingeți \"Conectare manuală\" pe dispozitivul vechi</string>
+    <string name="manual_connection_hint_phone">Atingeți \"Conectare manuală\" pe dispozitivul vechi</string>
     <string name="manual_connection_summary2">Dacă nu găsiți acest hotspot, reîmprospătați lista rețelelor Wi-Fi disponibile și încercați din nou.</string>
     <string name="manual_connection_title">Conectați-vă la dispozitivul vechi manual</string>
+    <string name="manual_connection_title_pad">Conectați dispozitivul vechi la hotspot</string>
+    <string name="manual_connection_title_phone">Conectați dispozitivul vechi la hotspot</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover trebuie să acceseze toate fișierele de pe acest dispozitiv pentru a le putea muta de pe vechiul dispozitiv pe unul nou.</string>
     <string name="message_request_package_stats_perm">Mi Mover are nevoie de această permisiune pentru a afla ce aplicații sunt instalate pe un dispozitiv și pentru a transfera aceste aplicații pe altul.</string>
     <string name="midnight">Noapte</string>
@@ -531,14 +536,14 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="new_trans_intro_desc_new">"%1$d. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Magazin Play sau atingeți aici: %2$s.
 %3$d. Dacă hotspot-ul tot nu va apărea în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspot-ului."</string>
     <string name="new_trans_intro_desc_new_click">Descarcă</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările WLAN și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările WLAN și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Google Play sau <Data>&lt;a href=%2$s>atingeți aici&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspotul tot nu apare în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspotului."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările WLAN și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Google Play sau <Data>&lt;a href=%2$s>atingeți aici&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspotul tot nu apare în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspotului."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările WLAN și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
     <string name="new_trans_intro_desc_old">%d. Dacă hotspotul încă nu va apărea în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, du-te înapoi la Mi Mover și atinge numele hotspot-ului.</string>
     <string name="new_trans_intro_question_1">%d. De ce nu pot vedea hotspot-ul noului dispozitiv pe cel vechi?</string>
     <string name="new_trans_intro_question_1_pad">%d. De ce nu pot vedea hotspotul noului dispozitiv pe cel vechi?</string>
@@ -637,6 +642,8 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="permission_alert_title">Permisiuni necesare</string>
     <string name="permission_bluetooth_summary">Pentru găsirea dispozitivelor disponibile în apropiere</string>
     <string name="permission_bluetooth_title">Activare/dezactivare Bluetooth</string>
+    <string name="permission_calendar_summary">Pentru transferul evenimentelor din calendar</string>
+    <string name="permission_calendar_title">Acces la calendar</string>
     <string name="permission_calender_summary">Pentru mutarea evenimentelor de pe vechiul dispozitiv pe cel nou</string>
     <string name="permission_calender_summary_global">Pentru transferul evenimentelor din calendar pe dispozitivul nou</string>
     <string name="permission_calender_title">Accesare evenimente din calendar</string>
