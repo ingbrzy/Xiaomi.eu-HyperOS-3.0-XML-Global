@@ -152,6 +152,7 @@ Zum Ausschalten Visit https://appleid.apple.com/#!&amp;page=signin besuchen"</st
     <string name="contact_records_permission_desc">Zum Übertragen von Anrufverläufen auf andere Geräte</string>
     <string name="contacts">Kontakte</string>
     <string name="contacts_permission_desc">Zum Übertragen von Kontakten auf andere Geräte</string>
+    <string name="contains_unauthorized_data">Enthält nicht autorisierte Daten</string>
     <string name="copy">Kopieren</string>
     <string name="current_user_not_supported_summary">Aktuelle Systemeinstellungen verhindern das Übertragen von Daten mit Mi Mover.</string>
     <string name="current_user_not_supported_title">Elemente können nicht übertragen werden</string>
@@ -416,8 +417,12 @@ Zum Ausschalten Visit https://appleid.apple.com/#!&amp;page=signin besuchen"</st
     <string name="manual_connection_content2">%d. Wähle den folgenden WLAN-Hotspot aus.</string>
     <string name="manual_connection_content3">%d. Trage dieses Passwort auf dem alten Gerät ein, um zu verbinden.</string>
     <string name="manual_connection_hint">Tippe auf deinem alten Gerät auf „Manuell verbinden“.</string>
+    <string name="manual_connection_hint_pad">Tippe auf dem alten Gerät auf „Manuell verbinden“</string>
+    <string name="manual_connection_hint_phone">Tippe auf dem alten Gerät auf „Manuell verbinden“</string>
     <string name="manual_connection_summary2">Falls du diesen Hotspot nicht finden kannst, aktualisiere die Liste der verfügbaren WLAN-Netzwerke und versuche es erneut.</string>
     <string name="manual_connection_title">Das alte Gerät manuell verbinden</string>
+    <string name="manual_connection_title_pad">Altes Gerät mit Hotspot verbinden</string>
+    <string name="manual_connection_title_phone">Altes Gerät mit Hotspot verbinden</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover benötigt Zugriff auf alle Dateien auf diesem Gerät, um sie von einem alten Gerät auf ein neues zu verschieben.</string>
     <string name="message_request_package_stats_perm">Mi Mover benötigt diese Berechtigung, um zu sehen, welche Apps auf einem Gerät installiert sind, und diese Apps auf ein anderes Gerät zu übertragen.</string>
     <string name="midnight">Nacht</string>
@@ -531,14 +536,14 @@ Zum Ausschalten Visit https://appleid.apple.com/#!&amp;page=signin besuchen"</st
     <string name="new_trans_intro_desc_new">"%1$d. Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neueste Version von Mi Mover im Play Store herunterladen oder tippe hier: %2$s.
 %3$d. Wenn der Hotspot immer noch nicht in Mi Mover angezeigt wird, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
     <string name="new_trans_intro_desc_new_click">Download</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in GetApps herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in GetApps herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in GetApps herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in GetApps herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g> Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in Google Play herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in GetApps herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g> Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in Google Play herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Stelle sicher, dass Mi Mover auf deinem neuen Gerät auf dem aktuellsten Stand ist. Du kannst die neuste Version von Mi Mover in GetApps herunterladen oder <Data>&lt;a href=%2$s>hier tippen&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Wenn der Hotspot immer noch nicht in Mi Mover erscheint, öffne die WLAN-Einstellungen und überprüfe, ob du ihn dort sehen kannst. Wenn ja, gehe zurück zu Mi Mover und tippe auf den Namen des Hotspots."</string>
     <string name="new_trans_intro_desc_old">%d. Sollte der Hotspot noch immer nicht in Mi Mover erscheinen, öffne die WLAN-Einstellungen und schau, ob du ihn dort findest. Sollte das der Fall sein, geh zurück zu Mi Mover und gib den Namen des Hotspots ein.</string>
     <string name="new_trans_intro_question_1">%d. Warum bekomme ich den Hotspot des neuen Geräts nicht auf dem alten angezeigt?</string>
     <string name="new_trans_intro_question_1_pad">%d. Warum kann ich den Hotspot des neuen Geräts nicht auf dem alten sehen?</string>
@@ -637,6 +642,8 @@ Zum Ausschalten Visit https://appleid.apple.com/#!&amp;page=signin besuchen"</st
     <string name="permission_alert_title">Berechtigungen erforderlich</string>
     <string name="permission_bluetooth_summary">Für das Finden von verfügbaren Geräten in der Nähe</string>
     <string name="permission_bluetooth_title">Ein- und Ausschalten von Bluetooth</string>
+    <string name="permission_calendar_summary">Für das Übertragen von Kalenderereignissen</string>
+    <string name="permission_calendar_title">Zugriff auf Kalender</string>
     <string name="permission_calender_summary">Zum Verschieben von Ereignissen vom alten Gerät auf das neue Gerät</string>
     <string name="permission_calender_summary_global">Zum Übertragen von Kalenderereignissen auf ein neues Gerät</string>
     <string name="permission_calender_title">Zugriff auf Kalenderereignisse</string>

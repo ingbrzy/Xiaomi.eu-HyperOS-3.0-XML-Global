@@ -152,6 +152,7 @@ Visiter https://appleid.apple.com/#!&amp;page=signin pour désactiver"</string>
     <string name="contact_records_permission_desc">"Pour transférer l'historique des appels vers d'autres appareils"</string>
     <string name="contacts">Liste des contacts</string>
     <string name="contacts_permission_desc">"Pour transférer des contacts vers d'autres appareils"</string>
+    <string name="contains_unauthorized_data">Contient des données non autorisées</string>
     <string name="copy">Copier</string>
     <string name="current_user_not_supported_summary">Les paramètres du système actuels limitent le transfert de données en utilisant Mi Mover.</string>
     <string name="current_user_not_supported_title">Impossible de transférer les éléments</string>
@@ -416,8 +417,12 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="manual_connection_content2">"%d. Sélectionnez le point d'accès Wi-Fi suivant."</string>
     <string name="manual_connection_content3">"%d. Entrez ce mot de passe sur l'ancien appareil pour vous connecter."</string>
     <string name="manual_connection_hint">Appuyez sur \"Se connecter manuellement\" sur votre ancien appareil.</string>
+    <string name="manual_connection_hint_pad">"Appuyez sur \"Se connecter manuellement\" sur l'ancien appareil"</string>
+    <string name="manual_connection_hint_phone">"Appuyez sur \"Se connecter manuellement\" sur l'ancien appareil"</string>
     <string name="manual_connection_summary2">"Si vous ne trouvez pas ce point d'accès, actualisez la liste des réseaux Wi-Fi disponibles et réessayez."</string>
     <string name="manual_connection_title">"Se connecter manuellement à l'ancien appareil"</string>
+    <string name="manual_connection_title_pad">"Connectez l'ancien appareil au point d'accès"</string>
+    <string name="manual_connection_title_phone">"Connectez l'ancien appareil au point d'accès"</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover doit accéder à tous les fichiers de cet appareil pour pouvoir les déplacer de votre ancien appareil vers un nouveau.</string>
     <string name="message_request_package_stats_perm">Mi Mover a besoin de cette autorisation pour savoir quelles applications sont installées sur un appareil et transférer ces applications vers un autre.</string>
     <string name="midnight">Nuit</string>
@@ -531,14 +536,14 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="new_trans_intro_desc_new">"%1$d. Assurez-vous que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover dans le Play Store ou cliquer ici : %2$s.
 %3$d. Si le point d'accès n'apparaît toujours pas dans Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez si vous pouvez le voir. Si oui, revenez à Mi Mover et appuyez sur le nom du point d'accès."</string>
     <string name="new_trans_intro_desc_new_click">Télécharger</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez sur Mi Mover et appuyez sur le nom du point d'accès."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Assurez-vous que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur Google Play ou <Data>&lt;a href=%2$s>en cliquant ici&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas dans Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez sur Mi Mover et appuyez sur le nom du point d'accès."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Assurez-vous que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur Google Play ou <Data>&lt;a href=%2$s>en cliquant ici&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas dans Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Vérifiez que Mi Mover est à jour sur votre nouvel appareil. Vous pouvez télécharger la dernière version de Mi Mover sur GetApps ou <Data>&lt;a href=%2$s>ici&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Si le point d'accès n'apparaît toujours pas sur Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez s'il y figure. Si c'est le cas, retournez dans Mi Mover et appuyez sur le nom du point d'accès."</string>
     <string name="new_trans_intro_desc_old">"%d. Si le point de connexion n'apparait toujours pas dans Mi Mover, ouvrez les paramètres Wi-Fi et vérifiez si vous pouvez le voir. Si tel est le cas, retournez dans Mi Mover et entrez le nom du point de connexion."</string>
     <string name="new_trans_intro_question_1">"%d. Pourquoi ne puis-je pas voir le point d'accès du nouvel appareil sur l'ancien ?"</string>
     <string name="new_trans_intro_question_1_pad">"%d. Pourquoi ne puis-je pas voir le point d'accès du nouvel appareil sur l'ancien ?"</string>
@@ -637,6 +642,8 @@ Ouvrez WeChat et accédez à Moi > Paramètres > Général > Sauvegarder et migr
     <string name="permission_alert_title">Autorisations requises</string>
     <string name="permission_bluetooth_summary">Pour trouver les appareils disponibles à proximité</string>
     <string name="permission_bluetooth_title">Désactiver et activer le Bluetooth</string>
+    <string name="permission_calendar_summary">"Pour transférer des événements de l'agenda"</string>
+    <string name="permission_calendar_title">"Accéder à l'agenda"</string>
     <string name="permission_calender_summary">"Pour déplacer des événements de l'ancien appareil vers le nouveau"</string>
     <string name="permission_calender_summary_global">Pour transférer les événements du calendrier vers le nouvel appareil</string>
     <string name="permission_calender_title">"Accéder aux évènements de l'agenda"</string>
