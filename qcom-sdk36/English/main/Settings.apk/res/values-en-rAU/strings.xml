@@ -2468,6 +2468,7 @@ If you install a CA certificate, the certificate owner could access your data, s
     <string name="carrier_wifi_offload_summary">Allow Google Fi to use W+ networks to improve speed and coverage</string>
     <string name="carrier_wifi_offload_title">W+ connections</string>
     <string name="category_clone">Clone</string>
+    <string name="category_name_about_satellite_connectivity">About satellite connectivity</string>
     <string name="category_name_appearance">Appearance</string>
     <string name="category_name_brightness">Brightness</string>
     <string name="category_name_color">Colour</string>
@@ -3324,6 +3325,7 @@ Many apps will also use the region from your preferred language to format dates,
     <string name="desc_regional_pref_footer_learn_more">Learn more about language preferences.</string>
     <string name="desc_system_locale_addition">This lets apps and websites know that you also prefer this language.</string>
     <string name="desc_unavailable_locale">This language can’t be used as a system language, but you’ve let apps and websites know that you prefer this language.</string>
+    <string name="description_about_satellite_setting">You can send and receive text messages over satellite with an eligible %1$s account</string>
     <string name="description_satellite_setting_connectivity">satellite connectivity</string>
     <string name="description_satellite_setting_messaging">satellite messaging</string>
     <string name="detail_question">Details</string>
@@ -5607,6 +5609,7 @@ Open Xiaomi Cloud and restore items from there."</string>
     <string name="lock_screen_notifs_show_none">Don’t show any notifications</string>
     <string name="lock_screen_notifs_title">Notifications on lock screen</string>
     <string name="lock_screen_now">Lock screen</string>
+    <string name="lock_screen_password">Screen lock</string>
     <string name="lock_screen_password_skip_biometrics_message">"A password is required to set up Fingerprint Unlock and Face Unlock.
 
 A password protects the phone if it's lost or stolen."</string>
@@ -6147,7 +6150,7 @@ You won't be able to reverse this action."</string>
     <string name="memory_summary">Avg %1$s of %2$s memory used</string>
     <string name="memory_system_rom">System</string>
     <string name="memory_system_space">System storage</string>
-    <string name="memory_title">Available: %1$s\u0009\u0009Total: %2$s</string>
+    <string name="memory_title">Available: %1$s\t\tTotal: %2$s</string>
     <string name="memory_usage">Memory usage</string>
     <string name="memory_usage_apps">Memory used by apps</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 app used memory in the last {time}}other{# apps used memory in the last {time}}}</string>
@@ -6612,6 +6615,7 @@ Any user can grant permissions on behalf of all user profiles that exist on this
     <string name="module_license_title">Google Play system update licences</string>
     <string name="module_version">Google Play system update</string>
     <string name="monday_first_day_of_week">Monday</string>
+    <string name="more_about_satellite_connectivity">More about satellite connectivity</string>
     <string name="more_account_settings_title">Other accounts</string>
     <string name="more_connection">More connectivity options</string>
     <string name="more_dangerous_option_hint">High-risk features including \"%1$s\" are enabled. Tap to change settings.</string>
@@ -6854,6 +6858,7 @@ Select your operating system:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">To be able to use Face unlock, add face data first. Add now?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Add face data</string>
     <string name="new_instruction_privacy_password">Privacy protection password safeguards the following features</string>
+    <string name="new_instruction_privacy_password_type">Privacy password types</string>
     <string name="new_modify_privacy_password">Change Privacy protection password</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Add your fingerprint to unlock your device with it.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Cancel</string>
@@ -7251,7 +7256,7 @@ Notifications received during the cooldown can be found by pulling down from the
     <string name="one_handed_action_show_notification_summary">Notifications and settings will appear.</string>
     <string name="one_handed_action_show_notification_title">Show notifications</string>
     <string name="one_handed_mode_enabled">Use one-handed mode</string>
-    <string name="one_handed_mode_footer_text">" "<b>How to use one-handed mode</b>"
+    <string name="one_handed_mode_footer_text"> <b>How to use one-handed mode</b>"
  • Make sure that gesture navigation is selected in system navigation settings
  • Swipe down near the bottom edge of the screen"</string>
     <string name="one_handed_mode_intro_text">Pull down the top half of your screen so that it’s easier to reach with one hand</string>
@@ -8432,8 +8437,17 @@ All apps in your space and their data will also be permanently deleted from your
     <string name="same_source_synced">Added broadcast successfully</string>
     <string name="sar">RF Exposure Information</string>
     <string name="satellite_call_assistant">Call settings</string>
+    <string name="satellite_footer_content_section_0">Keep in mind</string>
+    <string name="satellite_footer_content_section_1">Satellite connectivity may take longer and is available only in some areas.</string>
+    <string name="satellite_footer_content_section_2">Weather and certain structures may affect your satellite connection.</string>
+    <string name="satellite_footer_content_section_3">Calling over satellite isn’t available.</string>
+    <string name="satellite_footer_content_section_4">Emergency calls may still connect.</string>
+    <string name="satellite_footer_content_section_5">A mobile or Wi-Fi network is required to view external links.</string>
+    <string name="satellite_footer_content_section_6">Texting with emergency services may not be available in all areas.</string>
+    <string name="satellite_footer_content_section_7">It may take some time for account changes to show in Settings. Contact %1$s for details.</string>
     <string name="satellite_management_title">Satellite network</string>
     <string name="satellite_network_title">Satellite call features</string>
+    <string name="satellite_setting">Satellite connectivity</string>
     <string name="satellite_setting_disabled_summary">Send and receive text messages by satellite. Not included with your account.</string>
     <string name="satellite_setting_enabled_summary">Send and receive text messages by satellite. Included with your account.</string>
     <string name="satellite_setting_summary_without_entitlement">Send and receive text messages by satellite. Contact your operator for details.</string>
@@ -8588,9 +8602,9 @@ Use this feature with caution while sharing this device with others."</string>
 
 If you want to share your device with someone securely, try using a guest user instead. 
 
-To use app pinning: \u0009
-{0,number,integer}. Turn on app pinning \u0009
-{1,number,integer}. Open Overview \u0009
+To use app pinning: \t
+{0,number,integer}. Turn on app pinning \t
+{1,number,integer}. Open Overview \t
 {2,number,integer}. Tap the app icon at the top of the screen, then tap Pin"</string>
     <string name="screen_pinning_summary">Pinned apps will stay in Recents until you unpin them</string>
     <string name="screen_pinning_switch_off_text">Off</string>
@@ -9700,9 +9714,9 @@ Double tap to open Recents."</string>
     <string name="smart_home_value_none">None</string>
     <string name="smart_home_value_unknown">Unknown</string>
     <string name="smart_rotate_text_headline">Face detection uses the front-facing camera to improve auto-rotate accuracy. Images are never stored or sent to Google.</string>
-    <string name="smart_storage_backup_title">Xiaomi Smart Storage</string>
-    <string name="smart_storage_summary">Back up your device or restore data using smart storage</string>
-    <string name="smart_storage_title">Smart storage</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Back up your device or restore data using SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover mode</string>
     <string name="smartcover_sensitive_summary">Lock or unlock device automatically using smart cover</string>
     <string name="smartcover_sensitive_title">Smart cover</string>
@@ -11952,7 +11966,7 @@ you can use other users' networks, too."</string>
     <string name="wifi_wakeup_negative_button">Cancel</string>
     <string name="wifi_wakeup_positive_button">Turn on</string>
     <string name="wifi_wakeup_scan_summary">Allow apps and services to search for Wi-Fi networks to be able to turn on Wi-Fi automatically. Turning this feature on will allow your device to connect to saved networks nearby automatically.</string>
-    <string name="wifi_wakeup_summary">Wi‑Fi will turn back on near high‑quality saved networks, like your home network</string>
+    <string name="wifi_wakeup_summary">Wi-Fi will be activated automatically when you are in the location of a saved Wi-Fi network</string>
     <string name="wifi_wakeup_summary_no_location">Unavailable because location is turned off. Turn on <annotation id="link">location</annotation>.</string>
     <string name="wifi_wakeup_title">Turn on additional features</string>
     <string name="wifi_wapi_as_cert">AS certificate</string>
@@ -12420,7 +12434,7 @@ When you turn off Do Not Disturb, find missed notifications by swiping down from
     <string name="zen_mode_settings_dnd_automatic_rule">Do Not Disturb was automatically turned on by a schedule (%s)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Do Not Disturb was automatically turned on by an app (%s)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Do Not Disturb is on for %s with custom settings.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">View custom settings</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">View custom settings</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Do Not Disturb is on until %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Do Not Disturb will stay on until you turn it off</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{None}=1{1 schedule set}other{# schedules set}}</string>

@@ -76,7 +76,7 @@
     <string name="carousel_privacy"><Data>Læs og godkend vores troværdige tredjepartstjenesteudbyders &lt;a href=\"%1$s\">privatlivspolitik&lt;/a> og &lt;a href=\"%2$s\">brugeraftale&lt;/a> før brug af baggrundskarrusellen.</Data></string>
     <string name="carousel_setting">Konfigurer din låseskærm</string>
     <string name="carousel_setting_sub">Baggrundskarrusel viser dig nye historier, hver gang du låser op for din enhed</string>
-    <string name="carrier_introduction_china">For at give dig bedre tjenester kan processer, der kører på din enhed (herunder SystemHelper, RegService og operatørtjenester) med jævne mellemrum sende oplysninger om din enhed og dit SIM-kort (herunder IMEI, IMSI, MSISDN, MEID, ICCID, MAC-adresse, systemversion, Android-version, enhedsmodel og grundlæggende hardwarespecifikationer) samt omtrentlige placeringsoplysninger (herunder region, koordinater, områdeidentifikator og basestations-ID) til operatøren via WLAN, mobildatanetværk eller gratis SMS. Operatøren lover kun at analysere relevante oplysninger for at forbedre kvaliteten af tjenesterne eller for at levere tilpassede tjenester eller teknologier, og vil ikke videregive relevante oplysninger til tredjeparter i nogen form, der identificerer dig personligt. Den specifikke erklæring fra operatøren har forrang. Kontakt din operatør angående omkostningerne ved at bruge denne service.</string>
+    <string name="carrier_introduction_china">For at kunne forbedre kvaliteten af de tjenester, vi tilbyder dig, kan de programmer, der kører på denne enhed (som f.eks. SystemHelper, RegService og Carrier-tjenester), sende oplysninger om din enhed eller dit SIM-kort (herunder IMEI, IMSI, MSISDN, MEID, ICCID, MAC-adresse, systemversion, Android-version, enhedsmodel, grundlæggende hardwarekonfiguration og telefonnummer) samt din omtrentlige placering (f.eks. region, koordinater, områdenummer og basestation-ID) til din udbyder via WLAN, mobilnetværk eller SMS. Når du foretager opkald, opretter DCService-forbindelse til netværket. Din mobiludbyder garanterer, at disse oplysninger kun vil blive brugt til analyse, forbedring af servicekvaliteten eller levering af skræddersyede tjenester og teknologier, og at de aldrig vil blive delt på en måde, der kan identificere dig personligt. Se din udbyders erklæring for flere detaljer. Du kan også kontakte din udbyder direkte for information om eventuelle servicegebyrer.</string>
     <string name="carrier_introduction_china_rothko">For at kunne forbedre kvaliteten af de tjenester, vi leverer til dig, kan de programmer, der kører på denne enhed (som f.eks. SystemHelper, RegService og Carrier services), sende oplysninger om din enhed eller dit SIM-kort (f.eks. IMEI, IMSI, MSISDN, MEID, ICCID, MAC-adresse, systemversion, Android-version, enhedsmodel, grundlæggende hardwarekonfiguration og telefonnummer) samt din omtrentlige placering (f.eks. region, koordinater, områdenummer og basestation-ID) til din udbyder via WLAN, mobilnetværk eller SMS. Når du foretager opkald, opretter DCService forbindelse til netværket. Din mobiludbyder garanterer, at disse oplysninger kun bliver brugt til analyse, forbedring af servicekvaliteten eller til at levere skræddersyede tjenester eller teknologier, og at de aldrig bliver delt på en måde, der kan identificere dig personligt. Se din udbyders erklæring for flere detaljer. Du kan også spørge din udbyder direkte om eventuelle servicegebyrer.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Med Interkonnektivitet kan du overføre elementer mellem enheder og bruge styring på tværs af enheder. Når du slår denne funktion til, accepterer du samtidig &lt;a href=%1$s>privatlivspolitik&lt;/a >. Denne tjeneste kræver internetforbindelse og adgang til følgende tilladelser:</Data></string>
@@ -204,7 +204,7 @@
     <string name="font_settings_title">Skrifttypeindstillinger</string>
     <string name="font_size_title">Tekststørrelse</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
-    <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
+    <string name="font_use_case_symbol_example">@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Body</string>
     <string name="font_use_case_title_example">Titel</string>
     <string name="framework_introduction">Xiaomi service framework (Mi Push, Analytics, and MIUIBI) is a basic system service that provides push notifications, risk prevention, statistics, and analytics capabilities. In order to provide these services, we need to collect and process relevant and necessary personal information. When collecting and processing such information, we will comply with applicable laws, regulations, and other normative documents.</string>
@@ -441,9 +441,9 @@ Du kan slå funktionen til eller fra ved at søge efter \"Forbrug og diagnostik\
     <string name="other_settings_upload_debug_log_summary">Hjælp os med at forbedre din oplevelse ved automatisk at sende diagnostiske data, enhedsdata og app-forbrugsdata til Xiaomi. Dette er med til at forbedre batterilevetiden, systemets og appens stabilitet og mere.</string>
     <string name="other_settings_upload_debug_log_title">Send forbrugsdata og diagnostiske data</string>
     <string name="other_settings_user_experience">Brugeroplevelsesprogram</string>
-    <string name="other_settings_user_experience_summary">Hjælp os med at forbedre vores produkter og tjenester ved at dele dine forbrugsstatistikker og analyser med os.</string>
+    <string name="other_settings_user_experience_summary">"Hjælp os med at forbedre vores produkter og tjenester ved at dele dine forbrugsstatistikker og analyser med os. "</string>
     <string name="other_settings_user_experience_summary_index">Se oplysninger</string>
-    <string name="permission_MIUIDaemon_introduction">System Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="permission_MIUIDaemon_introduction">System-daemon giver dig mulighed for at overføre data fra din enhed, når enhedens skærm er beskadiget.</string>
     <string name="permission_access_calendar">Få adgang til kalender</string>
     <string name="permission_access_calendar_fast_application_summary">For at tillade genvejsapps at få adgang til kalenderen;</string>
     <string name="permission_account">Få adgang til konti på din enhed</string>
@@ -596,7 +596,7 @@ Du kan slå funktionen til eller fra ved at søge efter \"Forbrug og diagnostik\
     <string name="require_authority_list_statement">For at kunne fungere normalt kræver denne tjeneste følgende tilladelser:</string>
     <string name="require_authority_statement">For at give os tilladelse til at tilbyde dig grundlæggende tjenester er du nødt til at give de følgende tilladelser, for at vi kan indsamle dine personlige oplysninger:</string>
     <string name="require_base_authority_statement">"为实现基本服务，需要调用您的如下权限：
-\u0009\u0009\u0009读取本机号码、IMEI及IMSI"</string>
+\t\t\t读取本机号码、IMEI及IMSI"</string>
     <string name="require_basic_applist_and_authority_statement">为实现基本功能，需要调用您的如下权限：</string>
     <string name="require_device_information_statement">For at kunne levere grundlæggende tjenester er følgende tilladelser påkrævet:</string>
     <string name="require_miuidaemon_authority_statement">For at give os tilladelse til at tilbyde dig denne tjeneste er du nødt til at give de følgende tilladelser, for at vi kan indsamle dine personlige oplysninger:</string>
@@ -625,7 +625,7 @@ Du kan slå funktionen til eller fra ved at søge efter \"Forbrug og diagnostik\
     <string name="service_interconnection_communication">Xiaomis tjenester vedrørende internetkommunikation</string>
     <string name="service_location_share_policy">&lt;Data>Læs og acceptér &lt;a href=%1$s>Erklæring om privatliv vedrørende placeringstjenester&lt;/a >, inden du fortsætter.&lt;/Data></string>
     <string name="service_mi_account">Mi-konto</string>
-    <string name="service_name_MIUIDaemon">System Daemon</string>
+    <string name="service_name_MIUIDaemon">System-daemon</string>
     <string name="service_name_address_dialing">Kontakter og telefon</string>
     <string name="service_name_album">Galleri</string>
     <string name="service_name_application_package">Pakke-installeringsprogram</string>
@@ -724,8 +724,8 @@ Du kan slå funktionen til eller fra ved at søge efter \"Forbrug og diagnostik\
     <string name="terms_of_use_label_landscape">Liggende format</string>
     <string name="terms_of_use_label_mab">MAB</string>
     <string name="terms_of_use_label_mi_account">Mi-konto</string>
-    <string name="terms_of_use_label_miuiDaemon">System Daemon</string>
-    <string name="terms_of_use_label_miuisdk">System SDK</string>
+    <string name="terms_of_use_label_miuiDaemon">System-daemon</string>
+    <string name="terms_of_use_label_miuisdk">System-SDK</string>
     <string name="terms_of_use_label_os">OS AI-indstillinger</string>
     <string name="terms_of_use_label_package">Pakke-installeringsprogram</string>
     <string name="terms_of_use_label_parallel_windows">Parallelle vinduer</string>

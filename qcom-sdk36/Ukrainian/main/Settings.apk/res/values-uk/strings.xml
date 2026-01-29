@@ -2522,6 +2522,7 @@
     <string name="carrier_wifi_offload_summary">Дозвольте Google Fi використовувати мережі W+, щоб покращити швидкість і охоплення</string>
     <string name="carrier_wifi_offload_title">З’єднання W+</string>
     <string name="category_clone">Копія профілю</string>
+    <string name="category_name_about_satellite_connectivity">"Про супутниковий зв'язок"</string>
     <string name="category_name_appearance">Вигляд</string>
     <string name="category_name_brightness">Яскравість</string>
     <string name="category_name_color">Колір</string>
@@ -3388,6 +3389,7 @@
     <string name="desc_regional_pref_footer_learn_more">Дізнайтеся більше про вибір мови.</string>
     <string name="desc_system_locale_addition">Додатки й веб-сайти знатимуть, що ви віддаєте перевагу також і цій мові.</string>
     <string name="desc_unavailable_locale">Цю мову не можна використовувати як мову системи, однак додатки й веб-сайти знатимуть, що ви надаєте їй перевагу.</string>
+    <string name="description_about_satellite_setting">Ви можете відправляти та отримувати текстові повідомлення через супутник при наявності відповідного акаунту %1$s</string>
     <string name="description_satellite_setting_connectivity">супутниковий зв’язок</string>
     <string name="description_satellite_setting_messaging">супутниковий обмін повідомленнями</string>
     <string name="detail_app_button">Інформація про програму</string>
@@ -5742,6 +5744,7 @@ Xiaomi Cloud
     <string name="lock_screen_notifs_show_none">Не показувати сповіщення</string>
     <string name="lock_screen_notifs_title">Сповіщення на заблокованому екрані</string>
     <string name="lock_screen_now">Екран блокування</string>
+    <string name="lock_screen_password">Блокування екрана</string>
     <string name="lock_screen_password_skip_biometrics_message">"Щоб налаштувати розблокування відбитком пальця або фейс-контроль, потрібен пароль.
 
 Він захищає телефон у разі його втрати чи викрадення."</string>
@@ -6302,7 +6305,7 @@ Xiaomi Cloud
     <string name="memory_summary">У середньому використовується %1$s пам’яті з %2$s</string>
     <string name="memory_system_rom">Система</string>
     <string name="memory_system_space">"Системна пам'ять"</string>
-    <string name="memory_title">Доступно: %1$s\u0009\u0009Всього: %2$s</string>
+    <string name="memory_title">Доступно: %1$s\t\tВсього: %2$s</string>
     <string name="memory_usage">Використання пам’яті</string>
     <string name="memory_usage_apps">"Використання пам'яті додатками"</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{За ост. {time} пам’ять використовував 1 додаток}one{За ост. {time} пам’ять використовував # додаток}few{За ост. {time} пам’ять використовували # додатки}many{За ост. {time} пам’ять використовували # додатків}other{За ост. {time} пам’ять використовували # додатка}}</string>
@@ -6891,6 +6894,7 @@ Xiaomi Cloud
     <string name="month_september_short">Вер</string>
     <string name="month_september_shortest">Вер</string>
     <string name="more">Ще</string>
+    <string name="more_about_satellite_connectivity">"Детальніше про супутниковий зв'язок"</string>
     <string name="more_account_settings_title">Інші акаунти</string>
     <string name="more_connection">Більше параметрів підключення</string>
     <string name="more_dangerous_option_hint">Ввімкнені небезпечні функції, в тому числі \"%1$s\". Натисніть для зміни налаштувань.</string>
@@ -7190,6 +7194,7 @@ Xiaomi Cloud
     <string name="new_fingerprint_to_new_face_dialog_msg">Для використання функції \"Розблокування за допомогою обличчя\" спочатку додайте дані про обличчя. Додати зараз?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Додати дані про обличчя</string>
     <string name="new_instruction_privacy_password">Пароль для захисту конфіденційності захищає наступні функції</string>
+    <string name="new_instruction_privacy_password_type">Типи конфіденційних паролів</string>
     <string name="new_modify_privacy_password">Змінити пароль захисту особистих даних</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Додайте відбиток пальця, щоб з його допомогою розблоковувати ваш пристрій.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Скасувати</string>
@@ -7591,7 +7596,7 @@ Xiaomi Cloud
     <string name="one_handed_action_show_notification_summary">З’являться сповіщення й налаштування.</string>
     <string name="one_handed_action_show_notification_title">Показати сповіщення</string>
     <string name="one_handed_mode_enabled">Використовувати режим керування однією рукою</string>
-    <string name="one_handed_mode_footer_text">" "<b>Як використовувати режим керування однією рукою</b>"
+    <string name="one_handed_mode_footer_text"> <b>Як використовувати режим керування однією рукою</b>"
  • Переконайтеся, що в системних налаштуваннях увімкнено навігацію за допомогою жестів
  • Проведіть пальцем униз біля нижнього краю екрана"</string>
     <string name="one_handed_mode_intro_text">Верхня половина екрана опуститься нижче, щоб було легше керувати однією рукою</string>
@@ -8812,8 +8817,17 @@ OTG автоматично відключається через 10 хвилин
     <string name="same_source_synced">Трансляція була додана</string>
     <string name="sar">Відомості про рівень РЧ-випромінювання</string>
     <string name="satellite_call_assistant">Налаштування викликів</string>
+    <string name="satellite_footer_content_section_0">"Пам'ятайте"</string>
+    <string name="satellite_footer_content_section_1">Підключення до супутникової мережі може зайняти більше часу і доступне лише в деяких регіонах.</string>
+    <string name="satellite_footer_content_section_2">Погода та деякі споруди можуть впливати на якість супутникового підключення.</string>
+    <string name="satellite_footer_content_section_3">Дзвінки через супутник неможливі.</string>
+    <string name="satellite_footer_content_section_4">Екстрені дзвінки все ще можуть бути доступними.</string>
+    <string name="satellite_footer_content_section_5">Для перегляду зовнішніх посилань потрібне підключення до мобільного інтернету або до мережі Wi-Fi.</string>
+    <string name="satellite_footer_content_section_6">Відправка текстових повідомлень екстреним службам може бути доступною не у всіх регіонах.</string>
+    <string name="satellite_footer_content_section_7">Зміни в акаунті можуть відобразитися в Налаштуваннях через деякий час. За детальною інформацією зверніться до %1$s.</string>
     <string name="satellite_management_title">Супутникова мережа</string>
     <string name="satellite_network_title">"Функції супутникового зв'язку"</string>
+    <string name="satellite_setting">"Супутниковий зв'язок"</string>
     <string name="satellite_setting_disabled_summary">Обмінюйтеся текстовими повідомленнями через супутник. Цю функцію не включено у ваш обліковий запис.</string>
     <string name="satellite_setting_enabled_summary">Обмін текстовими повідомленнями через супутник увімкнено для вашого облікового запису.</string>
     <string name="satellite_setting_summary_without_entitlement">Обмінюйтеся текстовими повідомленнями через супутник. Щоб дізнатися більше, зверніться до свого оператора мобільного зв’язку.</string>
@@ -8971,9 +8985,9 @@ OTG автоматично відключається через 10 хвилин
 
 Якщо ви хочете без ризику надавати іншому користувачу доступ до пристрою, натомість використовуйте режим гостя. 
 
-Щоб використовувати закріплення додатків: \u0009
-{0,number,integer}. Увімкніть закріплення додатків. \u0009
-{1,number,integer}. Відкрийте \"Огляд\". \u0009
+Щоб використовувати закріплення додатків: \t
+{0,number,integer}. Увімкніть закріплення додатків. \t
+{1,number,integer}. Відкрийте \"Огляд\". \t
 {2,number,integer}. Натисніть значок додатка вгорі екрана й виберіть \"Закріпити\"."</string>
     <string name="screen_pinning_summary">Закріплені програми будуть у розділі \"Нещодавні\" до тих пір, поки ви не відкріпите їх</string>
     <string name="screen_pinning_switch_off_text">Вимкнено</string>
@@ -10089,9 +10103,9 @@ OTG автоматично відключається через 10 хвилин
     <string name="smart_home_value_none">Немає</string>
     <string name="smart_home_value_unknown">Невідомо</string>
     <string name="smart_rotate_text_headline">Технологія розпізнавання облич використовує фронтальну камеру, щоб підвищувати точність автообертання. Зображення ніколи не зберігаються й не надсилаються на сервери Google.</string>
-    <string name="smart_storage_backup_title">Смарт-сховище Xiaomi</string>
-    <string name="smart_storage_summary">Створюйте резервні копії свого пристрою або відновлюйте дані за допомогою смарт-сховища</string>
-    <string name="smart_storage_title">Смарт-сховище</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Створюйте резервні копії свого пристрою або відновлюйте дані за допомогою SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Режим \"Розумна обкладинка\"</string>
     <string name="smartcover_sensitive_summary">Автоматичне блокування/розблокування екрану за допомогою розумного чохла.</string>
     <string name="smartcover_sensitive_title">Розумна обкладинка</string>
@@ -12932,7 +12946,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="zen_mode_settings_dnd_automatic_rule">Розклад (%s) автоматично ввімкнув режим \"Не турбувати\"</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Додаток (%s) автоматично ввімкнув режим \"Не турбувати\"</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Режим \"Не турбувати\" ввімкнено для правила \"%s\" з власними налаштуваннями.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Переглянути власні налаштування</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Переглянути власні налаштування</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Режим \"Не турбувати\" ввімкнено до %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Режим \"Не турбувати\" буде ввімкнено, доки ви його не вимкнете.</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Немає}=1{Налаштовано 1 розклад}one{Налаштовано # розклад}few{Налаштовано # розклади}many{Налаштовано # розкладів}other{Налаштовано # розкладу}}</string>

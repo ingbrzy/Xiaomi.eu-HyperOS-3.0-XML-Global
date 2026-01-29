@@ -2522,6 +2522,7 @@ Pokud nainstalujete certifikát CA, jeho vlastník může získat přístup k v
     <string name="carrier_wifi_offload_summary">Povolte službě Google Fi používat sítě W+ k vylepšení rychlosti a pokrytí</string>
     <string name="carrier_wifi_offload_title">Připojení W+</string>
     <string name="category_clone">Klon</string>
+    <string name="category_name_about_satellite_connectivity">O satelitním připojení</string>
     <string name="category_name_appearance">Vzhled</string>
     <string name="category_name_brightness">Jas</string>
     <string name="category_name_color">Barva</string>
@@ -3388,6 +3389,7 @@ Mnoho aplikací bude také formátovat data, čísla a jednotky na základě ob
     <string name="desc_regional_pref_footer_learn_more">Další informace o jazykových preferencích</string>
     <string name="desc_system_locale_addition">Aplikace a weby budou vědět, že také preferujete tento jazyk.</string>
     <string name="desc_unavailable_locale">Tento jazyk nelze použít jako jazyk systému, ale dali jste aplikacím a webům vědět, že ho preferujete.</string>
+    <string name="description_about_satellite_setting">Textové zprávy můžete odesílat a přijímat přes satelit s oprávněným účtem %1$s</string>
     <string name="description_satellite_setting_connectivity">připojení přes satelit</string>
     <string name="description_satellite_setting_messaging">satelitní zprávy</string>
     <string name="detail_app_button">Podrobnosti o apl.</string>
@@ -5742,6 +5744,7 @@ Otevřete Xiaomi Cloud a obnovte položky přímo z cloudu."</string>
     <string name="lock_screen_notifs_show_none">Nezobrazovat žádná oznámení</string>
     <string name="lock_screen_notifs_title">Oznámení na obrazovce uzamčení</string>
     <string name="lock_screen_now">Zamknout obrazovku</string>
+    <string name="lock_screen_password">Zámek obrazovky</string>
     <string name="lock_screen_password_skip_biometrics_message">"K nastavení odemknutí otiskem prstu nebo obličejem je vyžadováno heslo.
 
 Heslo chrání telefon v případě ztráty nebo odcizení."</string>
@@ -6302,7 +6305,7 @@ Tuto akci nelze vrátit zpět."</string>
     <string name="memory_summary">Přibližné využití paměti: %1$s z %2$s</string>
     <string name="memory_system_rom">Systém</string>
     <string name="memory_system_space">Systémové úložiště</string>
-    <string name="memory_title">Dostupné: %1$s\u0009\u0009Celkem: %2$s</string>
+    <string name="memory_title">Dostupné: %1$s\t\tCelkem: %2$s</string>
     <string name="memory_usage">Využití paměti</string>
     <string name="memory_usage_apps">Paměť používaná aplikacemi</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{V poslední době ({time}) využila paměť 1 aplikace}few{V poslední době ({time}) využily paměť # aplikace}many{V poslední době ({time}) využilo paměť # aplikace}other{V poslední době ({time}) využilo paměť # aplikací}}</string>
@@ -6891,6 +6894,7 @@ Kterýkoliv uživatel může udělit oprávnění jménem všech profilů, kter�
     <string name="month_september_short">zář</string>
     <string name="month_september_shortest">zář</string>
     <string name="more">Více</string>
+    <string name="more_about_satellite_connectivity">Více o satelitním připojení</string>
     <string name="more_account_settings_title">Další účty</string>
     <string name="more_connection">Další možnosti připojení</string>
     <string name="more_dangerous_option_hint">Jsou povoleny vysoce rizikové funkce včetně \"%1$s\". Klepněte pro změnu nastavení.</string>
@@ -7190,6 +7194,7 @@ Zvolte váš operační systém:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Pro využití funkce Odemknutí pomocí tváře nejprve přidejte záznam tváře. Přidat nyní?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Přidat tvář</string>
     <string name="new_instruction_privacy_password">Heslo pro ochranu osobních údajů chrání následující funkce</string>
+    <string name="new_instruction_privacy_password_type">Typy soukromých hesel</string>
     <string name="new_modify_privacy_password">Změnit Heslo pro ochranu osobních údajů</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Přidejte svůj otisk prstu pro odemknutí zařízení.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Zrušit</string>
@@ -7591,7 +7596,7 @@ Oznámení přijatá během zeslabení lze zobrazit přejetím prstem dolů z h
     <string name="one_handed_action_show_notification_summary">Zobrazí se oznámení a nastavení.</string>
     <string name="one_handed_action_show_notification_title">Zobrazit oznámení</string>
     <string name="one_handed_mode_enabled">Používat režim jedné ruky</string>
-    <string name="one_handed_mode_footer_text">" "<b>Jak používat režim jedné ruky</b>"
+    <string name="one_handed_mode_footer_text"> <b>Jak používat režim jedné ruky</b>"
  • V nastavení systémové navigace musí být vybrána navigace gesty
  • U spodního okraje obrazovky přejeďte prstem dolů"</string>
     <string name="one_handed_mode_intro_text">Stáhněte dolů horní polovinu obrazovky, abyste na ni snáze dosáhli jednou rukou</string>
@@ -8811,8 +8816,17 @@ Z "<b>interního úložiště</b> telefonu budou také trvale vymazány všechn
     <string name="same_source_synced">Vysílání bylo úspěšně přidáno</string>
     <string name="sar">Informace o vystavení RF</string>
     <string name="satellite_call_assistant">Nastavení hovorů</string>
+    <string name="satellite_footer_content_section_0">Nezapomeňte</string>
+    <string name="satellite_footer_content_section_1">Satelitní připojení může trvat déle a je k dispozici pouze v některých oblastech.</string>
+    <string name="satellite_footer_content_section_2">Počasí a některé struktury mohou ovlivnit vaše satelitní připojení.</string>
+    <string name="satellite_footer_content_section_3">Volání přes satelit není k dispozici.</string>
+    <string name="satellite_footer_content_section_4">Tísňové volání se stále může připojit.</string>
+    <string name="satellite_footer_content_section_5">Ke zobrazení externích odkazů je nutná mobilní nebo Wi-Fi síť.</string>
+    <string name="satellite_footer_content_section_6">Textové zprávy s tísňovými službami nemusí být k dispozici ve všech oblastech.</string>
+    <string name="satellite_footer_content_section_7">Může chvíli trvat, než se v Nastavení zobrazí změny účtu. Podrobnosti získáte od %1$s.</string>
     <string name="satellite_management_title">Satelitní síť</string>
     <string name="satellite_network_title">Funkce satelitního volání</string>
+    <string name="satellite_setting">Satelitní připojení</string>
     <string name="satellite_setting_disabled_summary">Odesílání a příjem textových zpráv přes satelit. Ve vašem účtu není zahrnuto.</string>
     <string name="satellite_setting_enabled_summary">Odesílání a přijímání textových zpráv přes satelit. Je součástí vašeho účtu.</string>
     <string name="satellite_setting_summary_without_entitlement">Odesílání a přijímání textových zpráv přes satelit. Na podrobnosti se zeptejte mobilního operátora.</string>
@@ -8970,9 +8984,9 @@ Používejte tuto funkci obezřetně, jestliže toto zařízení sdílíte s ost
 
 Chcete-li s někým bezpečně sdílet zařízení, zkuste místo toho použít režim hosta. 
 
-Použití připnutí aplikace: \u0009
-{0,number,integer}. Zapněte připnutí aplikace \u0009
-{1,number,integer}. Otevřete Přehled \u0009
+Použití připnutí aplikace: \t
+{0,number,integer}. Zapněte připnutí aplikace \t
+{1,number,integer}. Otevřete Přehled \t
 {2,number,integer}. Klepněte na ikonu aplikace v horní části obrazovky a potom na Připnout"</string>
     <string name="screen_pinning_summary">Připnuté aplikace zůstanou ve složce Nedávné, dokud je neodepnete.</string>
     <string name="screen_pinning_switch_off_text">Vypnuto</string>
@@ -10088,9 +10102,9 @@ Dvojitým klepnutím otevřete Nedávné."</string>
     <string name="smart_home_value_none">Žádné</string>
     <string name="smart_home_value_unknown">Neznámé</string>
     <string name="smart_rotate_text_headline">Rozpoznání obličeje používá přední fotoaparát ke zvýšení přesnosti automatického otáčení. Fotky se neukládají ani neodesílají do Googlu.</string>
-    <string name="smart_storage_backup_title">Xiaomi chytré úložiště</string>
-    <string name="smart_storage_summary">Zálohujte své zařízení nebo obnovte data pomocí chytrého úložiště</string>
-    <string name="smart_storage_title">Chytré úložiště</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Zálohujte své zařízení nebo obnovte data pomocí SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Režim Zakrytí displeje</string>
     <string name="smartcover_sensitive_summary">Zamkněte nebo odemkněte zařízení automaticky pomocí chytrého obalu</string>
     <string name="smartcover_sensitive_title">Inteligentní kryt</string>
@@ -12927,7 +12941,7 @@ Když režim Nerušit vypnete, zmeškaná oznámení zobrazíte přejetím prste
     <string name="zen_mode_settings_dnd_automatic_rule">Režim Nerušit byl automaticky zapnut plánem (%s)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Režim Nerušit byl automaticky zapnut aplikací (%s)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Pro pravidla %s je zapnutý režim Nerušit s vlastním nastavením.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Zobrazit vlastní nastavení</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Zobrazit vlastní nastavení</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Režim Nerušit je zapnut do %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Režim Nerušit zůstane zapnutý, dokud ho nevypnete.</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Žádný}=1{Nastaven 1 plán}few{Nastaveny # plány}many{Nastaveno # plánu}other{Nastaveno # plánů}}</string>

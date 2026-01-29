@@ -2529,7 +2529,7 @@ CA 証明書をインストールすると、あなたがアクセスしたウ�
     <string name="carrier_wifi_offload_summary">速度と通信範囲を改善するために W+ ネットワークの使用を Google Fi に許可する</string>
     <string name="carrier_wifi_offload_title">W+ 接続</string>
     <string name="category_clone">クローン</string>
-    <string name="category_name_about_satellite_connectivity">衛星接続について</string>
+    <string name="category_name_about_satellite_connectivity">衛星通信について</string>
     <string name="category_name_appearance">デザイン</string>
     <string name="category_name_brightness">明るさ</string>
     <string name="category_name_color">カラー</string>
@@ -3398,7 +3398,7 @@ Google アカウントなど、アカウントによっては、スマートフ�
     <string name="desc_regional_pref_footer_learn_more">詳しくは、言語設定についての説明をご覧ください。</string>
     <string name="desc_system_locale_addition">これにより、この言語もアプリやウェブサイトで使用言語として認識されるようになります。</string>
     <string name="desc_unavailable_locale">この言語はシステムの言語としては使用できませんが、アプリやウェブサイトの優先言語として認識されています。</string>
-    <string name="description_about_satellite_setting">対応する %1$s アカウントを使用して、衛星経由でテキスト メッセージを送受信したり、一部のアプリを使用したりできます</string>
+    <string name="description_about_satellite_setting">対象の%1$sアカウントで、衛星経由のテキストメッセージの送受信が可能です。</string>
     <string name="description_satellite_setting_connectivity">衛星接続</string>
     <string name="description_satellite_setting_messaging">衛星通信メッセージ</string>
     <string name="detail_app_button">アプリ情報</string>
@@ -5771,6 +5771,7 @@ Xiaomi Cloud を開き、そこからアイテムを復元します。"</string>
     <string name="lock_screen_notifs_show_none">通知を表示しない</string>
     <string name="lock_screen_notifs_title">ロック画面上の通知</string>
     <string name="lock_screen_now">画面をロックする</string>
+    <string name="lock_screen_password">画面ロック</string>
     <string name="lock_screen_password_skip_biometrics_message">"指紋認証と顔認証を設定するにはパスワードが必要です。
 
 パスワードは、紛失したり盗難に遭ったりした場合にスマートフォンを保護するものです。"</string>
@@ -6331,7 +6332,7 @@ PINを設定してください。
     <string name="memory_summary">%2$s のうち平均で %1$s を使用</string>
     <string name="memory_system_rom">システム</string>
     <string name="memory_system_space">システムストレージ</string>
-    <string name="memory_title">利用可能: %1$s\u0009\u0009合計: %2$s</string>
+    <string name="memory_title">利用可能: %1$s\t\t合計: %2$s</string>
     <string name="memory_usage">メモリ使用量</string>
     <string name="memory_usage_apps">アプリのメモリ使用状況</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{過去 {time}に 1 個のアプリがメモリを使用しました}other{過去 {time}に # 個のアプリがメモリを使用しました}}</string>
@@ -6920,7 +6921,7 @@ PINを設定してください。
     <string name="month_september_short">9月</string>
     <string name="month_september_shortest">9月</string>
     <string name="more">その他</string>
-    <string name="more_about_satellite_connectivity">衛星接続の詳細</string>
+    <string name="more_about_satellite_connectivity">衛星通信についてもっと詳しく</string>
     <string name="more_account_settings_title">その他のアカウント</string>
     <string name="more_connection">その他の接続オプション</string>
     <string name="more_dangerous_option_hint">「%1$s」を含む高リスク機能が有効になっています。タップすると設定を変更できます。</string>
@@ -7220,6 +7221,7 @@ PINを設定してください。
     <string name="new_fingerprint_to_new_face_dialog_msg">顔認証を使用するには、まず顔データを追加してください。今すぐ追加しますか？</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">顔データを追加</string>
     <string name="new_instruction_privacy_password">プライバシー保護パスワードは次の機能を保護します</string>
+    <string name="new_instruction_privacy_password_type">プライバシーパスワードの種類</string>
     <string name="new_modify_privacy_password">プライバシー保護パスワードを変更</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">指紋を追加すると、指紋認証を使用してデバイスのロックを解除できます。</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">キャンセル</string>
@@ -7621,7 +7623,7 @@ PINを設定してください。
     <string name="one_handed_action_show_notification_summary">通知と設定が表示されます。</string>
     <string name="one_handed_action_show_notification_title">通知を表示</string>
     <string name="one_handed_mode_enabled">片手モードを使用</string>
-    <string name="one_handed_mode_footer_text">" "<b>片手モードの使い方</b>"
+    <string name="one_handed_mode_footer_text"> <b>片手モードの使い方</b>"
  • システム ナビゲーションの設定でジェスチャー ナビゲーションが ON になっていることを確認してください
  • 画面の下端付近で下にスワイプします"</string>
     <string name="one_handed_mode_intro_text">片手で操作しやすいよう、画面の上半分が下に移動します</string>
@@ -8844,17 +8846,17 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="same_source_synced">ブロードキャストが正常に追加されました</string>
     <string name="sar">高周波 (RF) 曝露情報</string>
     <string name="satellite_call_assistant">通話設定</string>
-    <string name="satellite_footer_content_section_0">留意点</string>
-    <string name="satellite_footer_content_section_1">衛星接続は、利用できるエリアが制限され、通常より時間がかかることがあります。</string>
-    <string name="satellite_footer_content_section_2">天候やなんらかの構造物が、衛星接続の接続に影響することがあります。</string>
-    <string name="satellite_footer_content_section_3">衛星通信による通話はご利用いただけません。</string>
-    <string name="satellite_footer_content_section_4">緊急通報はつながる場合があります。</string>
-    <string name="satellite_footer_content_section_5">外部リンクを表示するには、モバイル ネットワークまたは Wi-Fi ネットワークが必要です。</string>
-    <string name="satellite_footer_content_section_6">緊急サービスへのテキスト送信は、地域によっては利用できない場合があります。</string>
-    <string name="satellite_footer_content_section_7">変更内容がアカウントの [設定] に反映されるまでに時間がかかることがあります。詳細については、%1$s にお問い合わせください。</string>
+    <string name="satellite_footer_content_section_0">留意事項</string>
+    <string name="satellite_footer_content_section_1">衛星通信は時間がかかる場合があり、一部の地域でのみ利用可能です。</string>
+    <string name="satellite_footer_content_section_2">天気や特定の構造物が衛星通信に影響を与える可能性があります。</string>
+    <string name="satellite_footer_content_section_3">衛星経由での通話はご利用いただけません。</string>
+    <string name="satellite_footer_content_section_4">緊急電話は接続される場合があります。</string>
+    <string name="satellite_footer_content_section_5">外部リンクを表示するには、モバイルネットワークまたはWi-Fiネットワークが必要です。</string>
+    <string name="satellite_footer_content_section_6">緊急サービスとのテキストメッセージのやり取りは、すべての地域で利用可能とは限りません。</string>
+    <string name="satellite_footer_content_section_7">設定でのアカウント変更の反映には時間がかかる場合があります。詳細は%1$sにお問い合わせください。</string>
     <string name="satellite_management_title">衛星ネットワーク</string>
     <string name="satellite_network_title">衛星通話機能</string>
-    <string name="satellite_setting">衛星接続</string>
+    <string name="satellite_setting">衛星通信</string>
     <string name="satellite_setting_disabled_summary">衛星通信によりテキスト メッセージを送受信します。お客様のアカウントではご利用になれません。</string>
     <string name="satellite_setting_enabled_summary">衛星通信によりテキスト メッセージを送受信します。お客様のアカウントに含まれています。</string>
     <string name="satellite_setting_summary_without_entitlement">衛星通信によりテキスト メッセージを送受信します。詳細については携帯通信会社にお問い合わせください。</string>
@@ -9012,9 +9014,9 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
 
 デバイスを他のユーザーと安全に共有するには、代わりにゲストユーザーを使用してみてください。
 
-アプリ固定を使用するには: \u0009
-{0,number,integer}. アプリ固定をオンにします \u0009
-{1,number,integer}. [概要] を開きます \u0009
+アプリ固定を使用するには: \t
+{0,number,integer}. アプリ固定をオンにします \t
+{1,number,integer}. [概要] を開きます \t
 {2,number,integer}. 画面上部のアプリアイコンをタップし、[固定] をタップします"</string>
     <string name="screen_pinning_summary">ピン留めされたアプリは、ピン留めを解除するまで「最近のタスク」に表示されます</string>
     <string name="screen_pinning_switch_off_text">OFF</string>
@@ -10131,9 +10133,9 @@ OTG は、10 分間使用されないと自動的にオフになります。"</s
     <string name="smart_home_value_none">なし</string>
     <string name="smart_home_value_unknown">不明</string>
     <string name="smart_rotate_text_headline">顔検出は、前面カメラを使用して自動回転の精度を高めます。画像が保存されたり Google に送信されたりすることはありません。</string>
-    <string name="smart_storage_backup_title">Xiaomi スマートストレージ</string>
-    <string name="smart_storage_summary">スマートストレージでデバイスをバックアップ、またはデータを復元しましょう</string>
-    <string name="smart_storage_title">スマートストレージ</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">SmartStorageでデバイスをバックアップ、またはデータを復元しましょう</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">スマートカバーモード</string>
     <string name="smartcover_sensitive_summary">スマートカバーを使用してデバイスを自動的にロックまたはロック解除する</string>
     <string name="smartcover_sensitive_title">スマートカバー</string>
@@ -12971,7 +12973,7 @@ PIN を削除すると、デバイスに保存されている指紋モデルも�
     <string name="zen_mode_settings_dnd_automatic_rule">サイレント モードがスケジュール（%s）によって自動的に ON になりました</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">サイレント モードがアプリ（%s）によって自動的に ON になりました</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">カスタム設定により、%s ではサイレント モードが ON になります。</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">カスタム設定を表示</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">カスタム設定を表示</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">%s まで、サイレント モードは ON のままになります</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">OFF にするまで、サイレント モードは ON のままになります</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{なし}=1{1 件のスケジュールが有効}other{# 件のスケジュールが有効}}</string>

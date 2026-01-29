@@ -76,7 +76,7 @@
     <string name="carousel_privacy"><Data>Leia e aceite a &lt;a href=\"%1$s\">Política de Privacidade&lt;/a> e o &lt;a href=\"%2$s\">Contrato do Usuário&lt;/a> do nosso provedor de serviços terceiro antes de utilizar o Carrossel de Planos de fundo.</Data></string>
     <string name="carousel_setting">Configure sua Tela de bloqueio</string>
     <string name="carousel_setting_sub">O Carrossel de Planos de fundo lhe mostrará novas histórias cada vez que você desbloquear seu telefone</string>
-    <string name="carrier_introduction_china">Para lhe fornecer os melhores serviços, processos executando no seu dispositivo (incluindo o SystemHelper, RegService e os Serviços da Operadora) podem enviar periodicamente informações relacionadas ao seu dispositivo e cartão SIM (incluindo o IMEI, IMSI, MSISDN, MEID, ICCID, endereço MAC, versão do sistema, versão do Android, modelo do dispositivo e especificações básicas de hardware), bem como informações de localização aproximada (incluindo a região, coordenadas, identificador de área, e ID da estação rádio base) para a operadora via Wi-Fi, dados móveis ou SMS gratuito. A operadora se compromete em analisar informações relevantes apenas para melhorar a qualidade dos serviços ou para fornecer serviços ou tecnologias personalizadas, e não divulgará informações relevantes para terceiros em qualquer forma que lhe identifique pessoalmente. A declaração específica da operadora deve prevalecer. Consulte a sua operadora a respeito do custo de utilizar este serviço.</string>
+    <string name="carrier_introduction_china">Para melhorar a qualidade dos serviços prestados a você, os programas em execução neste dispositivo (incluindo os serviços SystemHelper, RegService e Carrier) podem enviar as informações sobre este dispositivo ou seu cartão SIM (incluindo IMEI, IMSI, MSISDN, MEID, ICCID, endereço MAC, versão do sistema, versão do Android, modelo do dispositivo, configuração básica de hardware e número de telefone), bem como sua localização aproximada (incluindo região, coordenadas, identificador de proximidade e ID da estação base), para sua operadora via Wi-Fi, redes móveis ou SMS. As operadoras de telefonia móvel garantem que essas informações serão usadas somente para análise, melhorias na qualidade do serviço ou fornecimento de serviços ou tecnologias personalizados e nunca serão compartilhadas com ninguém de forma que possa permitir sua identificação pessoal. Consulte a declaração relevante de sua operadora para obter detalhes. Você pode obter informações sobre todas as taxas de serviço relacionadas diretamente com a sua operadora.</string>
     <string name="carrier_introduction_china_rothko">Para melhorar a qualidade dos serviços prestados a você, os programas em execução neste dispositivo (incluindo os serviços SystemHelper, RegService e Carrier) podem enviar as informações sobre este dispositivo ou seu cartão SIM (incluindo IMEI, IMSI, MSISDN, MEID, ICCID, endereço MAC, versão do sistema, versão do Android, modelo do dispositivo, configuração básica de hardware e número de telefone), bem como sua localização aproximada (incluindo região, coordenadas, identificador de proximidade e ID da estação base), para sua operadora via Wi-Fi, redes móveis ou SMS. Ao fazer chamadas, o DCService se conectará à rede. As operadoras de telefonia móvel garantem que essas informações serão usadas somente para análise, melhorias na qualidade do serviço ou fornecimento de serviços ou tecnologias personalizados e nunca serão compartilhadas com ninguém de forma que possa permitir sua identificação pessoal. Consulte a declaração relevante de sua operadora para obter detalhes. Você pode obter informações sobre todas as taxas de serviço relacionadas diretamente com a sua operadora.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Com a Interconectividade, você pode transferir itens entre dispositivos e utilizar o controle entre dispositivos. Ativar este recurso indica que você aceita a sua &lt;a href=%1$s>Política de Privacidade&lt;/a >. Este serviço precisa se conectar à internet e acessar as seguintes permissões:</Data></string>
@@ -204,7 +204,7 @@
     <string name="font_settings_title">Configurações da fonte</string>
     <string name="font_size_title">Tamanho do texto</string>
     <string name="font_use_case_number_example">%1$d %2$d %3$d %4$d %5$d %6$d %7$d %8$d %9$d %10$d</string>
-    <string name="font_use_case_symbol_example">\@ # % &amp; * () _ + - =</string>
+    <string name="font_use_case_symbol_example">@ # % &amp; * () _ + - =</string>
     <string name="font_use_case_text_example">Corpo</string>
     <string name="font_use_case_title_example">Título</string>
     <string name="framework_introduction">Xiaomi service framework (Mi Push, Analytics, and MIUIBI) is a basic system service that provides push notifications, risk prevention, statistics, and analytics capabilities. In order to provide these services, we need to collect and process relevant and necessary personal information. When collecting and processing such information, we will comply with applicable laws, regulations, and other normative documents.</string>
@@ -434,16 +434,16 @@ Você pode desativar as atualizações automáticas no GetApps > Configurações
     <string name="other_settings_minor_mode_summary"><Data>"Help minors develop healthy device usage habits. When Child mode is on, a feature shortcut will be added in Settings and on the Home screen. By turning on this feature, you're agreeing to the &lt;a href=%1$s>Child Mode Privacy Policy&lt;/a >."</Data></string>
     <string name="other_settings_quality_service">Permissões do Daemon do Sistema</string>
     <string name="other_settings_quality_service_summary">O Daemon do Sistema é utilizado para melhorar a estabilidade e o desempenho do sistema. Para poder funcionar normalmente, este serviço precisa de permissões para acessar e salvar itens no armazenamento do dispositivo.</string>
-    <string name="other_settings_upload_debug_log_detail">"Ajude a melhorar sua experiência enviando automaticamente dados de diagnóstico, dispositivo e uso de aplicativos para a Xiaomi. Isso ajudará a melhorar a vida útil da bateria, a estabilidade do sistema e do aplicativo e muito mais.
+    <string name="other_settings_upload_debug_log_detail">"Ajude a melhorar sua experiência enviando automaticamente dados de diagnóstico, dispositivo e uso de apps para a Xiaomi. Isto ajudará a melhorar a vida útil da bateria, o sistema, a estabilidade dos apps e muito mais.
 Os dados que você enviará conterão informações gerais sobre este dispositivo e como você o usa (por exemplo, nível de bateria, atividade do sistema e do aplicativo e erros). Os dados serão usados para aprimorar nossos dispositivos.
 A desativação desse recurso não afeta a capacidade desse dispositivo de enviar as informações necessárias para serviços essenciais, como atualizações do sistema e segurança.
 Você pode ativar ou desativar esse recurso procurando por \"Uso e diagnóstico\" em Configurações."</string>
-    <string name="other_settings_upload_debug_log_summary">"Ajude a melhorar sua experiência enviando automaticamente dados de diagnóstico, do dispositivo e de uso de apps para a Xiaomi. Isso ajudará a melhorar a vida útil da bateria, a estabilidade do sistema, a estabilidade dos apps e muito mais. "</string>
+    <string name="other_settings_upload_debug_log_summary">Ajude a melhorar sua experiência enviando automaticamente dados de diagnóstico, dispositivo e uso de apps para a Xiaomi. Isto ajudará a melhorar a vida útil da bateria, o sistema, a estabilidade dos apps e muito mais.</string>
     <string name="other_settings_upload_debug_log_title">Enviar dados de uso e diagnóstico</string>
     <string name="other_settings_user_experience">Programa de Experiência do Usuário</string>
-    <string name="other_settings_user_experience_summary">Ajuda-nos a melhorar nossos produtos e serviços ao compartilhar estatísticas de uso e análises conosco.</string>
+    <string name="other_settings_user_experience_summary">"Ajuda-nos a melhorar nossos produtos e serviços ao compartilhar estatísticas de uso e análises conosco. "</string>
     <string name="other_settings_user_experience_summary_index">Ver detalhes</string>
-    <string name="permission_MIUIDaemon_introduction">System Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="permission_MIUIDaemon_introduction">O Daemon do Sistema permite que você transfira os dados de seu dispositivo quando sua tela estiver danificada.</string>
     <string name="permission_access_calendar">Acessar a Agenda</string>
     <string name="permission_access_calendar_fast_application_summary">Para permitir que quick apps acessem a Agenda;</string>
     <string name="permission_account">Acessar contas no seu dispositivo</string>
@@ -596,7 +596,7 @@ Você pode ativar ou desativar esse recurso procurando por \"Uso e diagnóstico\
     <string name="require_authority_list_statement">Para poder funcionar normalmente, este serviço requer as seguintes permissões:</string>
     <string name="require_authority_statement">Para que possamos fornecer-lhe serviços básicos, você precisa conceder as seguintes permissões para que possamos coletar suas informações pessoais:</string>
     <string name="require_base_authority_statement">"为实现基本服务，需要调用您的如下权限：
-\u0009\u0009\u0009读取本机号码、IMEI及IMSI"</string>
+\t\t\t读取本机号码、IMEI及IMSI"</string>
     <string name="require_basic_applist_and_authority_statement">为实现基本功能，需要调用您的如下权限：</string>
     <string name="require_device_information_statement">Para fornecer serviços básicos, as seguintes permissões são requeridas:</string>
     <string name="require_miuidaemon_authority_statement">Para que possamos fornecer-lhe este serviço, você precisa conceder as seguintes permissões para que possamos coletar suas informações pessoais:</string>
@@ -625,7 +625,7 @@ Você pode ativar ou desativar esse recurso procurando por \"Uso e diagnóstico\
     <string name="service_interconnection_communication">Serviços de Comunicação com a Internet Xiaomi</string>
     <string name="service_location_share_policy">&lt;Data>Leia e aceite a &lt;a href=%1$s>Declaração de Privacidade dos Serviços de Localização&lt;/a > antes de continuar.&lt;/Data></string>
     <string name="service_mi_account">Conta Mi</string>
-    <string name="service_name_MIUIDaemon">System Daemon</string>
+    <string name="service_name_MIUIDaemon">Daemon do Sistema</string>
     <string name="service_name_address_dialing">Contatos e Telefone</string>
     <string name="service_name_album">Galeria</string>
     <string name="service_name_application_package">Instalador de pacotes</string>
@@ -724,8 +724,8 @@ Você pode ativar ou desativar esse recurso procurando por \"Uso e diagnóstico\
     <string name="terms_of_use_label_landscape">Visualização em paisagem</string>
     <string name="terms_of_use_label_mab">MAB</string>
     <string name="terms_of_use_label_mi_account">Conta Mi</string>
-    <string name="terms_of_use_label_miuiDaemon">System Daemon</string>
-    <string name="terms_of_use_label_miuisdk">System SDK</string>
+    <string name="terms_of_use_label_miuiDaemon">Daemon do Sistema</string>
+    <string name="terms_of_use_label_miuisdk">SDK do Sistema</string>
     <string name="terms_of_use_label_os">Configuração IA do SO</string>
     <string name="terms_of_use_label_package">Instalador de pacotes</string>
     <string name="terms_of_use_label_parallel_windows">Janelas paralelas</string>

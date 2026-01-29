@@ -2522,6 +2522,7 @@ Om du installerar ett CA-certifikat kan certifikatsägaren få åtkomst till din
     <string name="carrier_wifi_offload_summary">Tillåt att W+-nätverk används för att förbättra hastigheten och täckningen för Google Fi</string>
     <string name="carrier_wifi_offload_title">W+-anslutningar</string>
     <string name="category_clone">Klon</string>
+    <string name="category_name_about_satellite_connectivity">Om satellitanslutning</string>
     <string name="category_name_appearance">Utseende</string>
     <string name="category_name_brightness">Ljusstyrka</string>
     <string name="category_name_color">Färg</string>
@@ -3388,6 +3389,7 @@ I många appar används även regionen för det önskade språket för att forma
     <string name="desc_regional_pref_footer_learn_more">Läs mer om språkinställningar.</string>
     <string name="desc_system_locale_addition">Detta talar om för appar och webbplatser att du även föredrar det här språket.</string>
     <string name="desc_unavailable_locale">Du kan inte använda det här språket som systemspråk, men appar och webbplatser informeras om att du föredrar det.</string>
+    <string name="description_about_satellite_setting">Du kan skicka och ta emot textmeddelanden över satellit med ett giltigt %1$s-konto</string>
     <string name="description_satellite_setting_connectivity">satellitanslutning</string>
     <string name="description_satellite_setting_messaging">satellitmeddelanden</string>
     <string name="detail_app_button">Information om appen</string>
@@ -5743,6 +5745,7 @@ Xiaomi Cloud
     <string name="lock_screen_notifs_show_none">Visa inga aviseringar</string>
     <string name="lock_screen_notifs_title">Aviseringar på låsskärmen</string>
     <string name="lock_screen_now">Lås skärmen</string>
+    <string name="lock_screen_password">Skärmlås</string>
     <string name="lock_screen_password_skip_biometrics_message">"Det krävs ett lösenord för att ställa in fingeravtryckslås och ansiktslås.
 
 Ett lösenord skyddar telefonen om den kommer bort eller blir stulen."</string>
@@ -6303,7 +6306,7 @@ Du kommer inte kunna ångra denna åtgärd."</string>
     <string name="memory_summary">Genomsnittlig minnesanvändning: %1$s av %2$s</string>
     <string name="memory_system_rom">System</string>
     <string name="memory_system_space">Lagringsutrymme för System</string>
-    <string name="memory_title">Tillgängligt: %1$s\u0009\u0009Totalt: %2$s</string>
+    <string name="memory_title">Tillgängligt: %1$s\t\tTotalt: %2$s</string>
     <string name="memory_usage">Minnesanvändning</string>
     <string name="memory_usage_apps">Minne som används av appar</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 app har använt minne under senaste {time}}other{# appar har använt minne under senaste {time}}}</string>
@@ -6892,6 +6895,7 @@ Alla användare kan bevilja behörigheter till alla användare som finns på den
     <string name="month_september_short">Sep</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
+    <string name="more_about_satellite_connectivity">Mer om satellitanslutning</string>
     <string name="more_account_settings_title">Andra konton</string>
     <string name="more_connection">Fler anslutningsalternativ</string>
     <string name="more_dangerous_option_hint">Högriskfunktioner inklusive \"%1$s\" är aktiverade. Tryck för att ändra inställningar.</string>
@@ -7191,6 +7195,7 @@ Välj ditt operativsystem:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">För att kunna använda Ansiktsupplåsning, lägg till ansiktsdata först. Lägg till nu?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Lägg till ansiktsdata</string>
     <string name="new_instruction_privacy_password">Lösenord för integritetsskydd skyddar följande funktioner</string>
+    <string name="new_instruction_privacy_password_type">Lösenordstyper för integritet</string>
     <string name="new_modify_privacy_password">Byt lösenord för integritetsskydd</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Lägg till ditt fingeravtryck för att låsa upp enheten med det.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Avbryt</string>
@@ -7592,7 +7597,7 @@ Du kan hitta aviseringarna som tas emot under den gradvisa sänkningen genom att
     <string name="one_handed_action_show_notification_summary">Aviseringar och inställningar visas.</string>
     <string name="one_handed_action_show_notification_title">Visa aviseringar</string>
     <string name="one_handed_mode_enabled">Använd enhandsläge</string>
-    <string name="one_handed_mode_footer_text">" "<b>Så här använder du enhandsläget</b>"
+    <string name="one_handed_mode_footer_text"> <b>Så här använder du enhandsläget</b>"
  • Se till att navigering med rörelser har valts i inställningarna för systemnavigering
  • Svep nedåt nära skärmens nederkant"</string>
     <string name="one_handed_mode_intro_text">Dra ned den övre halvan av skärmen så att den blir lättare att nå med en hand.</string>
@@ -8812,8 +8817,17 @@ Alla appar i ditt utrymme och tillhörande data tas även bort från telefonens 
     <string name="same_source_synced">Sändningen är nu tillagd</string>
     <string name="sar">Information om exponering för radiofrekvent strålning</string>
     <string name="satellite_call_assistant">Samtalsinställningar</string>
+    <string name="satellite_footer_content_section_0">Tänk på</string>
+    <string name="satellite_footer_content_section_1">Satellituppkopplingen kan ta längre tid och är endast tillgänglig i vissa områden.</string>
+    <string name="satellite_footer_content_section_2">Väder och vissa strukturer kan påverka din satellitanslutning.</string>
+    <string name="satellite_footer_content_section_3">Det går int’e att ringa över satellit.</string>
+    <string name="satellite_footer_content_section_4">Nödsamtal kan fortfarande kopplas.</string>
+    <string name="satellite_footer_content_section_5">Ett mobilt nätverk eller Wi-Fi-nätverk krävs för att visa externa länkar.</string>
+    <string name="satellite_footer_content_section_6">Det kan hända att det inte går att skicka sms till räddningstjänsten i alla områden.</string>
+    <string name="satellite_footer_content_section_7">Det kan ta en stund för kontoförändringar att visas i Installningar. Kontakta %1$s för information.</string>
     <string name="satellite_management_title">Satellitnätverk</string>
     <string name="satellite_network_title">Funktion för satellitsamtal</string>
+    <string name="satellite_setting">Satellitanslutning</string>
     <string name="satellite_setting_disabled_summary">Skicka och ta emot sms via satellit. Ingår inte i kontot.</string>
     <string name="satellite_setting_enabled_summary">Skicka och ta emot sms via satellit. Ingår i kontot.</string>
     <string name="satellite_setting_summary_without_entitlement">Skicka och ta emot sms via satellit. Kontakta operatören för mer information.</string>
@@ -8971,9 +8985,9 @@ Använd den här funktionen försiktigt när du delar den här appen med andra."
 
 Om du vill dela enheten med någon på ett säkert sätt kan du använda en gästanvändare i stället. 
 
-Så här fäster du appar: \u0009
-{0,number,integer}. Aktivera Fästa appar \u0009
-{1,number,integer}. Öppna översikten \u0009
+Så här fäster du appar: \t
+{0,number,integer}. Aktivera Fästa appar \t
+{1,number,integer}. Öppna översikten \t
 {2,number,integer}. Tryck på appikonen högst upp på skärmen och sedan på Fäst"</string>
     <string name="screen_pinning_summary">Fästa appar kommer att stanna kvar i Senaste tills du slutar att fästa dem</string>
     <string name="screen_pinning_switch_off_text">Av</string>
@@ -10089,9 +10103,9 @@ Dubbeltryck för att öppna Senaste."</string>
     <string name="smart_home_value_none">Ingen</string>
     <string name="smart_home_value_unknown">Okänd</string>
     <string name="smart_rotate_text_headline">Ansiktsigenkänning använder den framåtvända kameran för att förbättra inställningen för att rotera automatiskt. Inga bilder sparas eller skickas till Google.</string>
-    <string name="smart_storage_backup_title">Xiaomi smart lagring</string>
-    <string name="smart_storage_summary">Säkerhetskopiera din enhet eller återställ data med hjälp av smart lagring</string>
-    <string name="smart_storage_title">Smart lagring</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Säkerhetskopiera din enhet, eller återställ data med hjälp av SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover</string>
     <string name="smartcover_sensitive_summary">Lås eller lås upp enheten automatiskt med Smart Cover</string>
     <string name="smartcover_sensitive_title">Smart Cover</string>
@@ -12918,7 +12932,7 @@ När du inaktiverar Stör ej kan du visa aviseringar som du missat genom att sve
     <string name="zen_mode_settings_dnd_automatic_rule">Stör ej aktiverades automatiskt via ett schema (%s)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Stör ej aktiverades automatiskt via en app (%s)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Stör ej är på för %s med anpassade inställningar.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Visa anpassade inställningar</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Visa anpassade inställningar</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Stör ej är aktiverat tills %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Stör ej är aktiverat tills du inaktiverar funktionen</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Inga}=1{1 schema har ställts in}other{# scheman har ställts in}}</string>

@@ -3394,7 +3394,7 @@ Per molte app verrà usata anche la regione della tua lingua preferita per inser
     <string name="desc_regional_pref_footer_learn_more">Scopri di più sulle preferenze di lingua.</string>
     <string name="desc_system_locale_addition">In questo modo le app e i siti web sapranno che preferisci anche questa lingua.</string>
     <string name="desc_unavailable_locale">Non è possibile usare questa lingua come lingua di sistema, ma app e siti web sanno che preferisci questa lingua.</string>
-    <string name="description_about_satellite_setting">Puoi inviare e ricevere messaggi e utilizzare alcune app via satellite con un account %1$s idoneo</string>
+    <string name="description_about_satellite_setting">Puoi inviare e ricevere messaggi di testo via satellite con un account %1$s idoneo</string>
     <string name="description_satellite_setting_connectivity">connettività satellitare</string>
     <string name="description_satellite_setting_messaging">messaggi via satellite</string>
     <string name="detail_app_button">Informazioni applicazione</string>
@@ -5752,6 +5752,7 @@ Apri Xiaomi Cloud e ripristina gli elementi da lì."</string>
     <string name="lock_screen_notifs_show_none">Non mostrare le notifiche</string>
     <string name="lock_screen_notifs_title">Notifiche su schermata di blocco</string>
     <string name="lock_screen_now">Blocca lo schermo</string>
+    <string name="lock_screen_password">Blocco schermo</string>
     <string name="lock_screen_password_skip_biometrics_message">"È necessaria una password per configurare lo Sblocco con l'Impronta e con il Volto.
 
 La password protegge lo smartphone se viene smarrito o rubato."</string>
@@ -6312,7 +6313,7 @@ Questa azione non è reversibile."</string>
     <string name="memory_summary">Utilizzo medio di %1$s di memoria su %2$s</string>
     <string name="memory_system_rom">Sistema</string>
     <string name="memory_system_space">Memoria interna</string>
-    <string name="memory_title">Disponibile: %1$s\u0009\u0009Totale: %2$s</string>
+    <string name="memory_title">Disponibile: %1$s\t\tTotale: %2$s</string>
     <string name="memory_usage">Utilizzo di memoria</string>
     <string name="memory_usage_apps">Memoria utilizzata dalle app</string>
     <string name="memory_usage_apps_summary">"{count,plural, =1{1 app ha usato la memoria nell'ultimo periodo di {time}}other{# app hanno usato la memoria nell'ultimo periodo di {time}}}"</string>
@@ -6901,6 +6902,7 @@ Qualsiasi utente può concedere permessi per conto di tutti i profili utente esi
     <string name="month_september_short">Set</string>
     <string name="month_september_shortest">Set</string>
     <string name="more">Altro</string>
+    <string name="more_about_satellite_connectivity">Maggiori informazioni sulla connettività satellitare</string>
     <string name="more_account_settings_title">Altri account</string>
     <string name="more_connection">Maggiori opzioni di connettività</string>
     <string name="more_dangerous_option_hint">Le funzionalità ad alto rischio tra cui \"%1$s\" sono abilitate. Tocca per modificare le impostazioni.</string>
@@ -7200,6 +7202,7 @@ Seleziona il tuo sistema operativo:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Per utilizzare il riconoscimento facciale, aggiungi prima i dati del viso. Aggiungere ora?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Aggiungi i dati del viso</string>
     <string name="new_instruction_privacy_password">La Password di protezione della privacy protegge le seguenti funzioni</string>
+    <string name="new_instruction_privacy_password_type">Tipi di password privacy</string>
     <string name="new_modify_privacy_password">Cambia Password di protezione della privacy</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">"Aggiungi l'impronta con cui sbloccare il dispositivo."</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Annulla</string>
@@ -7601,7 +7604,7 @@ Le notifiche ricevute durante l'attenuazione possono essere trovare facendo scor
     <string name="one_handed_action_show_notification_summary">Verranno mostrate le notifiche e le impostazioni.</string>
     <string name="one_handed_action_show_notification_title">Mostrare le notifiche</string>
     <string name="one_handed_mode_enabled">Usa modalità a una mano</string>
-    <string name="one_handed_mode_footer_text">" "<b>Come utilizzare la modalità a una mano</b>"
+    <string name="one_handed_mode_footer_text"> <b>Come utilizzare la modalità a una mano</b>"
  • Assicurati che la navigazione tramite gesti sia selezionata nelle impostazioni di navigazione del sistema
  • Scorri verso il basso accanto al bordo inferiore dello schermo"</string>
     <string name="one_handed_mode_intro_text">Fai scorrere verso il basso la metà superiore dello schermo, così è più semplice da raggiungere con una mano</string>
@@ -8821,6 +8824,14 @@ Tutte le app e i relativi dati presenti nel tuo spazio verranno inoltre eliminat
     <string name="same_source_synced">La trasmissione è stata aggiunta correttamente</string>
     <string name="sar">"Informazioni sull'esposizione alla radiofrequenza"</string>
     <string name="satellite_call_assistant">Impostazioni di chiamata</string>
+    <string name="satellite_footer_content_section_0">Tieni presente che:</string>
+    <string name="satellite_footer_content_section_1">La connettività satellitare potrebbe richiedere più tempo ed è disponibile solo in alcune aree.</string>
+    <string name="satellite_footer_content_section_2">Le condizioni meteorologiche e alcune strutture potrebbero influenzare la tua connessione satellitare.</string>
+    <string name="satellite_footer_content_section_3">Le chiamate via satellite non sono disponibili.’</string>
+    <string name="satellite_footer_content_section_4">Le chiamate di emergenza potrebbero comunque riuscire a connettersi.</string>
+    <string name="satellite_footer_content_section_5">Per visualizzare i link esterni è necessaria una rete mobile o Wi-Fi.</string>
+    <string name="satellite_footer_content_section_6">I messaggi di testo con i servizi di emergenza potrebbero non essere disponibili in tutte le aree.</string>
+    <string name="satellite_footer_content_section_7">"Potrebbe essere necessario un po' di tempo prima che le modifiche all'account vengano mostrate nelle Impostazioni. Contatta %1$s per maggiori dettagli."</string>
     <string name="satellite_management_title">Rete satellitare</string>
     <string name="satellite_network_title">Funzioni di chiamata satellitare</string>
     <string name="satellite_setting">Connettività satellitare</string>
@@ -8981,9 +8992,9 @@ Utilizza questa funzione con cautela mentre condividi questo dispositivo con alt
 
 Se vuoi condividere il tuo dispositivo con qualcuno in modo sicuro, prova a usare invece un utente ospite. 
 
-Per usare la funzionalità di blocco app su schermo: \u0009
-{0,number,integer}. Attiva il blocco app su schermo. \u0009
-{1,number,integer}. Apri Panoramica. \u0009
+Per usare la funzionalità di blocco app su schermo: \t
+{0,number,integer}. Attiva il blocco app su schermo. \t
+{1,number,integer}. Apri Panoramica. \t
 {2,number,integer}. Tocca l'icona dell'app nella parte superiore dello schermo, quindi tocca Blocca."</string>
     <string name="screen_pinning_summary">Le app fissate in alto resteranno nella sezione Recenti finché non verranno rimosse</string>
     <string name="screen_pinning_switch_off_text">Off</string>
@@ -10099,9 +10110,9 @@ Tocca due volte per aprire i Recenti."</string>
     <string name="smart_home_value_none">Nessuno</string>
     <string name="smart_home_value_unknown">Sconosciuto</string>
     <string name="smart_rotate_text_headline">La funzionalità di riconoscimento facciale usa la fotocamera anteriore per migliorare la precisione della rotazione automatica. Le immagini non vengono mai memorizzate o inviate a Google.</string>
-    <string name="smart_storage_backup_title">Archiviazione smart Xiaomi</string>
-    <string name="smart_storage_summary">"Esegui il backup del tuo dispositivo o ripristina i dati utilizzando l'archiviazione smart"</string>
-    <string name="smart_storage_title">Archiviazione smart</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Esegui il backup del tuo dispositivo o il ripristino dei dati utilizzando SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Modalità smart cover</string>
     <string name="smartcover_sensitive_summary">Blocca o sblocca automaticamente il dispositivo utilizzando la smart cover</string>
     <string name="smartcover_sensitive_title">Smart cover</string>
@@ -12934,7 +12945,7 @@ Quando disattivi la modalità Non disturbare, puoi trovare le notifiche perse sc
     <string name="zen_mode_settings_dnd_automatic_rule">La funzione Non disturbare è stata attivata automaticamente da una pianificazione (%s)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">"La funzione Non disturbare è stata attivata automaticamente da un'app (%s)"</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">La modalità Non disturbare è attiva per %s con le impostazioni personalizzate.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Visualizza impostazioni personalizzate</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Visualizza impostazioni personalizzate</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">La funzione Non disturbare è attiva fino alle ore %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Non disturbare rimarrà attiva fino a quando non la disattivi</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Nessuna}=1{1 pianificazione impostata}other{# pianificazioni impostate}}</string>

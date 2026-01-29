@@ -2522,6 +2522,7 @@ Wenn du ein CA-Zertifikat installierst, hat dessen Inhaber Zugriff auf deine Dat
     <string name="carrier_wifi_offload_summary">Google Fi erlauben, W+-Netzwerke zu verwenden, um die Geschwindigkeit und Abdeckung zu verbessern</string>
     <string name="carrier_wifi_offload_title">W+-Verbindungen</string>
     <string name="category_clone">Klonen</string>
+    <string name="category_name_about_satellite_connectivity">Über Satellitenkonnektivität</string>
     <string name="category_name_appearance">Darstellung</string>
     <string name="category_name_brightness">Helligkeit</string>
     <string name="category_name_color">Farbe</string>
@@ -3388,6 +3389,7 @@ Viele Apps nutzen auch die zugehörige Region deiner bevorzugten Sprache, um Dat
     <string name="desc_regional_pref_footer_learn_more">Weitere Informationen zu Spracheinstellungen.</string>
     <string name="desc_system_locale_addition">Damit teilst du Apps und Websites mit, dass du auch diese Sprache verstehst.</string>
     <string name="desc_unavailable_locale">Diese Sprache kann nicht als Systemsprache verwendet werden, aber Apps und Websites werden darüber informiert, dass du diese Sprache bevorzugst.</string>
+    <string name="description_about_satellite_setting">Du kannst mit einem geeigneten %1$s-Konto Textnachrichten über Satellit senden und empfangen</string>
     <string name="description_satellite_setting_connectivity">Satellitenverbindung</string>
     <string name="description_satellite_setting_messaging">Nachrichten per Satellit</string>
     <string name="detail_app_button">App-Info</string>
@@ -5742,6 +5744,7 @@ Xiaomi Cloud
     <string name="lock_screen_notifs_show_none">Keine Benachrichtigungen anzeigen</string>
     <string name="lock_screen_notifs_title">Sperrbildschirm-Benachrichtigungen</string>
     <string name="lock_screen_now">Bildschirm sperren</string>
+    <string name="lock_screen_password">Bildschirmsperre</string>
     <string name="lock_screen_password_skip_biometrics_message">"Zum Einrichten der Entsperrung per Fingerabdruck und der Entsperrung per Gesichtserkennung ist ein Passwort erforderlich.
 
 Ein Passwort schützt das Smartphone, falls es verloren geht oder gestohlen wird."</string>
@@ -6302,7 +6305,7 @@ Du kannst diese Aktion nicht mehr rückgängig machen."</string>
     <string name="memory_summary">Im Mittel werden %1$s von %2$s genutzt</string>
     <string name="memory_system_rom">System</string>
     <string name="memory_system_space">Systemspeicher</string>
-    <string name="memory_title">Verfügbar: %1$s\u0009\u0009Gesamt: %2$s</string>
+    <string name="memory_title">Verfügbar: %1$s\t\tGesamt: %2$s</string>
     <string name="memory_usage">Speicherverbrauch</string>
     <string name="memory_usage_apps">Von Apps verbrauchter Speicher</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 App nutzte Arbeitsspeicher in den letzten {time}}other{# Apps nutzten Arbeitsspeicher in den letzten {time}}}</string>
@@ -6891,6 +6894,7 @@ Jeder Benutzer kann Berechtigungen für alle Profile erteilen, die auf diesem Ge
     <string name="month_september_short">Sep</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mehr</string>
+    <string name="more_about_satellite_connectivity">Mehr über Satellitenkonnektivität</string>
     <string name="more_account_settings_title">Weitere Konten</string>
     <string name="more_connection">Mehr Verbindungsoptionen</string>
     <string name="more_dangerous_option_hint">Funktion mit hohem Risiko, einschließlich \"%1$s\" sind aktiviert. Hier tippen, um die Einstellungen zu ändern.</string>
@@ -7190,6 +7194,7 @@ Betriebssystem auswählen:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Um die Gesichtsentsperrung zu nutzen, füge zuerst Gesichtsdaten hinzu. Jetzt hinzufügen?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Gesichtsdaten hinzufügen</string>
     <string name="new_instruction_privacy_password">Das Datenschutzpasswort schützt die folgenden Funktionen</string>
+    <string name="new_instruction_privacy_password_type">Datenschutzpasswort-Arten</string>
     <string name="new_modify_privacy_password">Datenschutzpasswort ändern</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Fingerabdruck hinzufügen, um dein Gerät damit zu entsperren.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Abbrechen</string>
@@ -7591,7 +7596,7 @@ Wenn du Benachrichtigungen sehen möchtest, die während des Verringerns der Lau
     <string name="one_handed_action_show_notification_summary">Benachrichtigungen und Einstellungen werden angezeigt.</string>
     <string name="one_handed_action_show_notification_title">Benachrichtigungen anzeigen</string>
     <string name="one_handed_mode_enabled">Einhandmodus verwenden</string>
-    <string name="one_handed_mode_footer_text">" "<b>So verwendest du den Einhandmodus</b>"
+    <string name="one_handed_mode_footer_text"> <b>So verwendest du den Einhandmodus</b>"
  • Achte darauf, dass in den Einstellungen für die Systemnavigation die Bedienung über Gesten ausgewählt ist.
  • Wische am unteren Bildschirmrand nach unten."</string>
     <string name="one_handed_mode_intro_text">Ziehe die obere Hälfte des Bildschirms nach unten, damit du sie leichter mit einer Hand erreichen kannst</string>
@@ -8811,8 +8816,17 @@ Alle Apps in deinem Profil sowie zugehörige Daten werden ebenfalls dauerhaft au
     <string name="same_source_synced">Übertragung erfolgreich hinzugefügt</string>
     <string name="sar">Informationen zur HF-Belastung</string>
     <string name="satellite_call_assistant">Anrufeinstellungen</string>
+    <string name="satellite_footer_content_section_0">Beachte</string>
+    <string name="satellite_footer_content_section_1">Die Satellitenkonnektivität kann länger dauern und ist nur in einigen Bereichen verfügbar.</string>
+    <string name="satellite_footer_content_section_2">Wetter und bestimmte Strukturen können deine Satellitenverbindung beeinflussen.</string>
+    <string name="satellite_footer_content_section_3">Anruf über Satellit ist nicht verfügbar.</string>
+    <string name="satellite_footer_content_section_4">Notrufe können weiterhin verbunden werden.</string>
+    <string name="satellite_footer_content_section_5">Es ist ein mobiles oder WLAN-Netzwerk erforderlich, um externe Links anzuzeigen.</string>
+    <string name="satellite_footer_content_section_6">Das Versenden von SMS an Notfalldienste ist möglicherweise nicht in allen Gebieten verfügbar.</string>
+    <string name="satellite_footer_content_section_7">Es kann einige Zeit dauern, bis Änderungen in den Einstellungen angezeigt werden. Kontaktiere %1$s für Details.</string>
     <string name="satellite_management_title">Satellitennetzwerk</string>
     <string name="satellite_network_title">Satellitenanruf-Funktionen</string>
+    <string name="satellite_setting">Satellitenkonnektivität</string>
     <string name="satellite_setting_disabled_summary">Nachrichten per Satellitenfunk senden und empfangen. Dein Konto unterstützt diesen Dienst nicht.</string>
     <string name="satellite_setting_enabled_summary">Nachrichten per Satellitenfunk senden und empfangen. Dein Konto unterstützt diesen Dienst.</string>
     <string name="satellite_setting_summary_without_entitlement">Nachrichten per Satellitenfunk senden und empfangen. Weitere Informationen erhältst du bei deinem Mobilfunkanbieter.</string>
@@ -8970,9 +8984,9 @@ Nutze diese Funktion mit Vorsicht, wenn du das Gerät mit anderen teilst."</stri
 
 Wenn du dein Gerät sicher mit jemandem teilen möchtest, kannst du stattdessen ein Gastprofil verwenden. 
 
-So verwendest du die Funktion „Bildschirmfixierung“: \u0009
-{0,number,integer}. Aktiviere die Funktion „Bildschirmfixierung“ \u0009
-{1,number,integer}. Tippe auf „Übersicht“ \u0009
+So verwendest du die Funktion „Bildschirmfixierung“: \t
+{0,number,integer}. Aktiviere die Funktion „Bildschirmfixierung“ \t
+{1,number,integer}. Tippe auf „Übersicht“ \t
 {2,number,integer}. Tippe auf das App-Symbol oben auf dem Bildschirm und dann auf „Fixieren“"</string>
     <string name="screen_pinning_summary">Angeheftete Apps bleiben in Neueste, bis du die Anheftung aufhebst.</string>
     <string name="screen_pinning_switch_off_text">Aus</string>
@@ -10088,9 +10102,9 @@ Doppeltippe, um zuletzt geöffnete Apps zu öffnen."</string>
     <string name="smart_home_value_none">Keine</string>
     <string name="smart_home_value_unknown">Unbekannt</string>
     <string name="smart_rotate_text_headline">Bei der Gesichtserkennung wird die Kamera auf der Vorderseite verwendet, um die Genauigkeit beim automatischen Drehen zu verbessern. Bilder werden weder gespeichert noch an Google gesendet.</string>
-    <string name="smart_storage_backup_title">Xiaomi-Smart-Speicher</string>
-    <string name="smart_storage_summary">Sichere dein Gerät oder stelle Daten mithilfe von Smart-Speicher wieder her</string>
-    <string name="smart_storage_title">Smart-Speicher</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Sichere dein Gerät oder stelle Daten mithilfe von SmartStorage wieder her</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Smartcover-Modus</string>
     <string name="smartcover_sensitive_summary">Gerät mit Smartcover automatisch sperren oder entsperren</string>
     <string name="smartcover_sensitive_title">Smartcover</string>
@@ -12919,7 +12933,7 @@ Nachdem du „Bitte nicht stören“ deaktiviert hast, kannst du vom oberen Bild
     <string name="zen_mode_settings_dnd_automatic_rule">„Bitte nicht stören“ wurde automatisch durch einen Zeitplan (%s) aktiviert</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">„Bitte nicht stören“ wurde automatisch durch eine App (%s) aktiviert</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">„Bitte nicht stören“ ist mit benutzerdefinierten Einstellungen für „%s“ aktiviert.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Benutzerdefinierte Einstellungen ansehen</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Benutzerdefinierte Einstellungen ansehen</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">„Bitte nicht stören“ ist aktiviert bis %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Die Funktion „Bitte nicht stören“ bleibt aktiviert, bis du sie deaktivierst.</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Keine}=1{1 Zeitplan festgelegt}other{# Zeitpläne festgelegt}}</string>

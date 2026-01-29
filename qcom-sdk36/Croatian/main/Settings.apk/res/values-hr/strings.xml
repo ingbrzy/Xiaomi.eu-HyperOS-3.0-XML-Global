@@ -2522,6 +2522,7 @@ Ako instalirate CA certifikat, vlasnik certifikata mogao bi pristupiti vašim po
     <string name="carrier_wifi_offload_summary">Omogućite Google Fiju da upotrebljava W+ mreže radi poboljšanja brzine i pokrivenosti</string>
     <string name="carrier_wifi_offload_title">W+ veze</string>
     <string name="category_clone">Kloniranje</string>
+    <string name="category_name_about_satellite_connectivity">O satelitskom povezivanju</string>
     <string name="category_name_appearance">Izgled</string>
     <string name="category_name_brightness">Svjetlina</string>
     <string name="category_name_color">Boja</string>
@@ -3388,6 +3389,7 @@ Mnoge aplikacije upotrebljavat će i regiju preferiranog jezika za odabir format
     <string name="desc_regional_pref_footer_learn_more">Saznajte više o postavkama jezika.</string>
     <string name="desc_system_locale_addition">Time aplikacije i web-lokacije obavještavate da preferirate taj jezik.</string>
     <string name="desc_unavailable_locale">Taj se jezik ne može upotrebljavati kao jezik sustava, no postavili ste ga kao preferirani jezik za aplikacije i web-lokacije.</string>
+    <string name="description_about_satellite_setting">Možete slati i primati tekstualne poruke putem satelita s odgovarajućim %1$s računom</string>
     <string name="description_satellite_setting_connectivity">satelitska povezivost</string>
     <string name="description_satellite_setting_messaging">slanje poruka putem satelita</string>
     <string name="detail_app_button">Apl info</string>
@@ -5742,6 +5744,7 @@ Otvorite Xiaomi Cloud i vratite stavke odatle."</string>
     <string name="lock_screen_notifs_show_none">Ne prikazuj obavijesti</string>
     <string name="lock_screen_notifs_title">Obavijesti na zaključanom zaslonu</string>
     <string name="lock_screen_now">Zaključani zaslon</string>
+    <string name="lock_screen_password">Zaključavanje zaslona</string>
     <string name="lock_screen_password_skip_biometrics_message">"Za postavljanje otključavanja otiskom prsta ili otključavanja licem potrebna je zaporka.
 
 Zaporka štiti telefon u slučaju gubitka ili krađe."</string>
@@ -6302,7 +6305,7 @@ Ovu radnju nećete moći poništiti."</string>
     <string name="memory_summary">Iskorišteno je prosječno %1$s od %2$s</string>
     <string name="memory_system_rom">Sustav</string>
     <string name="memory_system_space">Pohrana sustava</string>
-    <string name="memory_title">Dostupno: %1$s\u0009\u0009Ukupno: %2$s</string>
+    <string name="memory_title">Dostupno: %1$s\t\tUkupno: %2$s</string>
     <string name="memory_usage">Upotreba memorije</string>
     <string name="memory_usage_apps">Memorija koju upotrebljavaju aplikacije</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{Jedna aplikacija upotrijebila je memoriju u posljednjih {time}}one{# aplikacija upotrijebila je memoriju u posljednjih {time}}few{# aplikacije upotrijebile su memoriju u posljednjih {time}}other{# aplikacija upotrijebilo je memoriju u posljednjih {time}}}</string>
@@ -6891,6 +6894,7 @@ Svaki korisnik može dati dopuštenja u ime svih korisničkih profila koji posto
     <string name="month_september_short">Ruj</string>
     <string name="month_september_shortest">Ruj</string>
     <string name="more">Više</string>
+    <string name="more_about_satellite_connectivity">Više o satelitskom povezivanju</string>
     <string name="more_account_settings_title">Ostali računi</string>
     <string name="more_connection">Više opcija za povezivanje</string>
     <string name="more_dangerous_option_hint">Značajke visokog rizika, uključujući \"%1$s\" su omogućene. Dodirnite za promjenu postavki.</string>
@@ -7190,6 +7194,7 @@ Odaberite operativni sustav vašeg računala:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Da biste mogli koristiti Otključavanje licem, prvo dodajte Podatke o licu. Dodati sada?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Dodajte podatke lica</string>
     <string name="new_instruction_privacy_password">Zaporka za zaštitu privatnosti štiti sljedeće značajke</string>
+    <string name="new_instruction_privacy_password_type">Tipovi zaporka privatnosti</string>
     <string name="new_modify_privacy_password">Promijenite Zaporku zaštite privatnosti</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Dodajte svoj otiska prsta da biste otključali vaš uređaj s njime.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Odustani</string>
@@ -7591,7 +7596,7 @@ Obavijesti primljene tijekom stišavanja mogu se pronaći tako da povučete prst
     <string name="one_handed_action_show_notification_summary">Pojavit će se obavijesti i postavke.</string>
     <string name="one_handed_action_show_notification_title">Prikaz obavijesti</string>
     <string name="one_handed_mode_enabled">Koristi način rada jednom rukom</string>
-    <string name="one_handed_mode_footer_text">" "<b>Kako upotrebljavati način rada jednom rukom</b>"
+    <string name="one_handed_mode_footer_text"> <b>Kako upotrebljavati način rada jednom rukom</b>"
  • U postavkama navigacije sustava odaberite navigaciju pokretima.
  • Prijeđite prstom prema dolje blizu donjeg ruba zaslona."</string>
     <string name="one_handed_mode_intro_text">Povucite prema dolje gornju polovicu zaslona kako biste olakšali dosezanje jednom rukom</string>
@@ -8811,8 +8816,17 @@ Sve aplikacije u vašem prostoru i njihovi podaci također će se trajno izbrisa
     <string name="same_source_synced">Emitiranje je uspješno dodano</string>
     <string name="sar">Podaci o RF izloženosti</string>
     <string name="satellite_call_assistant">Postavke poziva</string>
+    <string name="satellite_footer_content_section_0">Imajte na umu</string>
+    <string name="satellite_footer_content_section_1">Satelitska veza može potrajati dulje i dostupna je samo u nekim područjima.</string>
+    <string name="satellite_footer_content_section_2">Vremenske prilike i određene strukture mogu utjecati na vašu satelitsku vezu.</string>
+    <string name="satellite_footer_content_section_3">Pozivi putem satelita nisu dostupni.</string>
+    <string name="satellite_footer_content_section_4">Hitni pozivi se i dalje mogu uspostaviti.</string>
+    <string name="satellite_footer_content_section_5">Za pregled vanjskih poveznica potrebna je mobilna ili Wi-Fi mreža.</string>
+    <string name="satellite_footer_content_section_6">Slanje poruka hitnim službama možda neće biti dostupno u svim područjima.</string>
+    <string name="satellite_footer_content_section_7">Može proći neko vrijeme prije nego što se promjene na računu prikažu u Postavkama. Za pojedinosti obratite se na %1$s.</string>
     <string name="satellite_management_title">Satelitska mreža</string>
     <string name="satellite_network_title">Značajke satelitskog poziva</string>
+    <string name="satellite_setting">Satelitska povezanost</string>
     <string name="satellite_setting_disabled_summary">Šaljite i primajte tekstne poruke putem satelita. Nije uključeno s vašim računom.</string>
     <string name="satellite_setting_enabled_summary">Šaljite i primajte tekstne poruke putem satelita. Uključeno s vašim računom.</string>
     <string name="satellite_setting_summary_without_entitlement">Šaljite i primajte tekstne poruke putem satelita. Više informacija zatražite od svog operatera.</string>
@@ -8970,9 +8984,9 @@ Ovu značajku koristite s oprezom dok ovaj uređaj dijelite s drugima."</string>
 
 Ako želite s nekim sigurno dijeliti svoj uređaj, pokušajte koristiti profil gosta. 
 
-Da biste se koristili prikvačivanjem aplikacije: \u0009
-{0,number,integer}. Uključite prikvačivanje aplikacije \u0009
-{1,number,integer}. Otvorite Pregled \u0009
+Da biste se koristili prikvačivanjem aplikacije: \t
+{0,number,integer}. Uključite prikvačivanje aplikacije \t
+{1,number,integer}. Otvorite Pregled \t
 {2,number,integer}. Dodirnite ikonu aplikacije pri vrhu zaslona, a potom dodirnite Prikvači."</string>
     <string name="screen_pinning_summary">Prikvačene aplikacije ostat će u Nedavno dok ih ne otkvačite</string>
     <string name="screen_pinning_switch_off_text">Isključeno</string>
@@ -10088,9 +10102,9 @@ Dodirnite dva puta da bi otvorili Nedavno."</string>
     <string name="smart_home_value_none">Ništa</string>
     <string name="smart_home_value_unknown">Nepoznato</string>
     <string name="smart_rotate_text_headline">Prepoznavanje lica koristi prednju kameru radi poboljšanja točnosti automatskog zakretanja. Slike se nikad ne pohranjuju i ne šalju se Googleu.</string>
-    <string name="smart_storage_backup_title">Xiaomi pametna pohrana</string>
-    <string name="smart_storage_summary">Izradite sigurnosnu kopiju uređaja ili vratite podatke pomoću pametne pohrane</string>
-    <string name="smart_storage_title">Pametna pohrana</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Izradite sigurnosnu kopiju uređaja ili vratite podatke pomoću SmartStoragea</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Smart cover način</string>
     <string name="smartcover_sensitive_summary">Zaključajte ili otključajte uređaj automatski pomoću smart cover-a</string>
     <string name="smartcover_sensitive_title">Pametna futrola</string>
@@ -12927,7 +12941,7 @@ Kada isključite značajku Ne uznemiravaj, propuštene obavijesti pronaći ćete
     <string name="zen_mode_settings_dnd_automatic_rule">Raspored %s automatski je uključio Ne uznemiravaj</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Način Ne uznemiravaj automatski je uključila aplikacija (%s)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Način Ne uznemiravaj uključen je za %s uz prilagođene postavke.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Pregledajte prilagođene postavke</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Pregledajte prilagođene postavke</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Način Ne uznemiravaj uključen je do %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Značajka Ne uznemiravaj ostat će uključena dok je ne isključite</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Nijedan}=1{Postavljen je jedan raspored}one{Postavljen je # raspored}few{Postavljena su # rasporeda}other{Postavljeno je # rasporeda}}</string>

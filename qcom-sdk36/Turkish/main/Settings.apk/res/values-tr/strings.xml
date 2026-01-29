@@ -2522,6 +2522,7 @@ Bir CA sertifikası yüklerseniz sertifika sahibi; şifreler, veya kredi kartı 
     <string name="carrier_wifi_offload_summary">"Hızı ve kapsama alanını iyileştirmek için Google Fi'nin W+ ağlarını kullanmasına izin verin"</string>
     <string name="carrier_wifi_offload_title">W+ bağlantıları</string>
     <string name="category_clone">Klon</string>
+    <string name="category_name_about_satellite_connectivity">Uydu bağlantısı hakkında</string>
     <string name="category_name_appearance">Görünüm</string>
     <string name="category_name_brightness">Parlaklık</string>
     <string name="category_name_color">Renk</string>
@@ -3388,6 +3389,7 @@ Ayrıca birçok uygulama; tarihlerin, sayıların ve birimlerin biçimini belirl
     <string name="desc_regional_pref_footer_learn_more">Dil tercihleri ile ilgili daha fazla bilgi edinin.</string>
     <string name="desc_system_locale_addition">Bu, uygulamaların ve web sitelerinin sizin de bu dili tercih ettiğinizi bilmesini sağlar.</string>
     <string name="desc_unavailable_locale">Bu dil sistem dili olarak kullanılamaz, ancak uygulamalara ve web sitelerine bu dili tercih ettiğinizi bildirdiniz.</string>
+    <string name="description_about_satellite_setting">Uygun bir %1$s hesabı ile uydu üzerinden metin mesajları gönderebilir ve alabilirsiniz</string>
     <string name="description_satellite_setting_connectivity">uydu bağlantısı</string>
     <string name="description_satellite_setting_messaging">uydu üzerinden mesajlaşma</string>
     <string name="detail_app_button">Uygulama bilgisi</string>
@@ -5742,6 +5744,7 @@ Xiaomi Cloud'u açın ve ögeleri oradan geri yükleyin."</string>
     <string name="lock_screen_notifs_show_none">Hiçbir bildirimi gösterme</string>
     <string name="lock_screen_notifs_title">Kilit ekranındaki bildirimler</string>
     <string name="lock_screen_now">Ekranı kilitle</string>
+    <string name="lock_screen_password">Ekran kilidi</string>
     <string name="lock_screen_password_skip_biometrics_message">"Parmak İzi Kilidi ve Yüz Tanıma Kilidi kurulumu için şifre gereklidir.
 
 Şifre, kaybolması veya çalınması halinde telefonu korur."</string>
@@ -6302,7 +6305,7 @@ Bu işlemi geri alamazsınız."</string>
     <string name="memory_summary">Toplam %2$s belleğin ortalama %1$s kadarı kullanılıyor</string>
     <string name="memory_system_rom">Sistem</string>
     <string name="memory_system_space">Sistem depolama alanı</string>
-    <string name="memory_title">Kullanılabilir: %1$s\u0009\u0009Toplam: %2$s</string>
+    <string name="memory_title">Kullanılabilir: %1$s\t\tToplam: %2$s</string>
     <string name="memory_usage">Bellek kullanımı</string>
     <string name="memory_usage_apps">Uygulamalar tarafından kullanılan bellek</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 uygulama son {time} içinde belleği kullandı}other{# uygulama son {time} içinde belleği kullandı}}</string>
@@ -6891,6 +6894,7 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="month_september_short">Eyl</string>
     <string name="month_september_shortest">Eyl</string>
     <string name="more">Daha fazla</string>
+    <string name="more_about_satellite_connectivity">Uydu bağlantısı hakkında daha fazla</string>
     <string name="more_account_settings_title">Diğer hesaplar</string>
     <string name="more_connection">Daha fazla bağlantı seçeneği</string>
     <string name="more_dangerous_option_hint">\"%1$s\" dahil yüksek riskli özellikler etkinleştirildi. Ayarları değiştirmek için dokunun.</string>
@@ -7190,6 +7194,7 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="new_fingerprint_to_new_face_dialog_msg">Yüz ile kilit açma özelliğini kullanabilmek için önce yüz verisi ekleyin. Şimdi ekle?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Yüz verisi ekle</string>
     <string name="new_instruction_privacy_password">Gizlilik koruma şifresi aşağıdaki özellikleri korur</string>
+    <string name="new_instruction_privacy_password_type">Gizlilik şifresi türleri</string>
     <string name="new_modify_privacy_password">Gizlilik koruma şifresini değiştir</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Cihaz kilidini parmak izinizle açmak için parmak izinizi ekleyin.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">İptal et</string>
@@ -7591,7 +7596,7 @@ Bildirim şiddeti düşürülürken aldığınız bildirimlere ekranın üst tar
     <string name="one_handed_action_show_notification_summary">Bildirimler ve ayarlar görünür.</string>
     <string name="one_handed_action_show_notification_title">Bildirimleri göster</string>
     <string name="one_handed_mode_enabled">Tek el modunu kullan</string>
-    <string name="one_handed_mode_footer_text">" "<b>Tek el modunu kullanma</b>"
+    <string name="one_handed_mode_footer_text"> <b>Tek el modunu kullanma</b>"
  • Sistem gezinme ayarlarında hareketle gezinmenin seçili olduğundan emin olun
  • Ekranın alt kenarına yakın bir noktada aşağı kaydırın"</string>
     <string name="one_handed_mode_intro_text">Tek elle daha kolay ulaşabilmek için ekranınızın üst yarısını aşağı çekin</string>
@@ -8811,8 +8816,17 @@ Alanınızdaki tüm uygulamalar ve verileri de telefonunuzun "<b>dahili depolama
     <string name="same_source_synced">Yayın başarıyla eklendi</string>
     <string name="sar">RF Dalgaları Maruz Kalma Bilgileri</string>
     <string name="satellite_call_assistant">Arama ayarları</string>
+    <string name="satellite_footer_content_section_0">Akılda tut</string>
+    <string name="satellite_footer_content_section_1">Uydu bağlantısı daha uzun sürebilir ve yalnızca bazı bölgelerde mevcuttur.</string>
+    <string name="satellite_footer_content_section_2">Hava koşulları ve bazı yapılar uydu bağlantınızı etkileyebilir.</string>
+    <string name="satellite_footer_content_section_3">Uydu üzerinden arama kullanılamıyor</string>
+    <string name="satellite_footer_content_section_4">Acil durum aramaları hâlâ bağlanabilir.</string>
+    <string name="satellite_footer_content_section_5">Harici bağlantıları görüntülemek için mobil veya Wi-Fi ağı gereklidir.</string>
+    <string name="satellite_footer_content_section_6">Acil servislerle mesajlaşma her bölgede mümkün olmayabilir.</string>
+    <string name="satellite_footer_content_section_7">"Hesap değişikliklerinin Ayarlar'da görünmesi biraz zaman alabilir. Ayrıntılar için %1$s ile iletişime geçin."</string>
     <string name="satellite_management_title">Uydu ağı</string>
     <string name="satellite_network_title">Uydu arama özellikleri</string>
+    <string name="satellite_setting">Uydu bağlantısı</string>
     <string name="satellite_setting_disabled_summary">Uydu üzerinden kısa mesaj gönderip alın. Bu hizmet, hesabınızda sunulmaz.</string>
     <string name="satellite_setting_enabled_summary">Uydu üzerinden kısa mesaj gönderip alın. Hesabınıza dahil edilir.</string>
     <string name="satellite_setting_summary_without_entitlement">Uydu üzerinden kısa mesaj gönderip alın. Ayrıntılı bilgiler için operatörünüzle iletişime geçin.</string>
@@ -8970,9 +8984,9 @@ Bu cihazı başkalarıyla paylaşırken bu özelliği dikkatli kullanın."</stri
 
 Cihazınızı güvenli bir şekilde başka biriyle paylaşmak isterseniz bunun yerine misafir kullanıcı özelliğini kullanın. 
 
-Uygulama sabitlemeyi kullanmak için: \u0009
-{0,number,integer}. Uygulama sabitlemeyi açın \u0009
-{1,number,integer}. Genel Bakış'ı açın \u0009
+Uygulama sabitlemeyi kullanmak için: \t
+{0,number,integer}. Uygulama sabitlemeyi açın \t
+{1,number,integer}. Genel Bakış'ı açın \t
 {2,number,integer}. Ekranın üst tarafındaki uygulama simgesine dokunup ardından Sabitle'ye dokunun"</string>
     <string name="screen_pinning_summary">Sabitlenen uygulamalar siz sabitlemelerini kaldırana kadar Son kullanılanlar bölümünde kalacak</string>
     <string name="screen_pinning_switch_off_text">Kapalı</string>
@@ -10089,9 +10103,9 @@ Son kullanılanları açmak için çift dokunun."</string>
     <string name="smart_home_value_none">Hiçbiri</string>
     <string name="smart_home_value_unknown">Bilinmeyen</string>
     <string name="smart_rotate_text_headline">"Yüz Algılama işlevi, otomatik döndürme doğruluğunu iyileştirmek için ön kamerayı kullanır. Görüntüler hiçbir zaman saklanmaz veya Google'a gönderilmez."</string>
-    <string name="smart_storage_backup_title">Xiaomi Akıllı Depolama</string>
-    <string name="smart_storage_summary">Akıllı depolamayı kullanarak cihazınızı yedekleyin veya verileri geri yükleyin</string>
-    <string name="smart_storage_title">Akıllı depolama</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">"SmartStorage'i kullanarak cihazınızı yedekleyin veya verileri geri yükleyin"</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Akıllı kılıf modu</string>
     <string name="smartcover_sensitive_summary">Akıllı kılıf kullanarak cihazı otomatik olarak kilitleyin veya kilidini açın</string>
     <string name="smartcover_sensitive_title">Akıllı kapak</string>
@@ -12920,7 +12934,7 @@ Rahatsız Etmeyin özelliğini devre dışı bıraktığınızda, parmağınız�
     <string name="zen_mode_settings_dnd_automatic_rule">Rahatsız Etmeyin özelliği programa göre çalışacak şekilde otomatik olarak açıldı (%s)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Rahatsız Etmeyin ayarı bir uygulama (%s) tarafından otomatik olarak açıldı</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Rahatsız Etmeyin özelliği, %s için özel ayarlarla açık.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link"> Özel ayarları göster</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link"> Özel ayarları göster</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Rahatsız Etmeyin ayarı şu saate kadar açık olacak: %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Rahatsız Etmeyin ayarı siz kapatıncaya kadar açık kalacak</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Yok}=1{1 program ayarlandı}other{# program ayarlandı}}</string>

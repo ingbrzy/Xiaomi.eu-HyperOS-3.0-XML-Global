@@ -3394,7 +3394,7 @@ Daug programų taip pat naudos regioną pagal pageidaujamą kalbą, kad nustatyt
     <string name="desc_regional_pref_footer_learn_more">Sužinokite daugiau apie kalbos nuostatas.</string>
     <string name="desc_system_locale_addition">Tai nurodo programoms ir svetainėms, kad jūs taip pat teikiate pirmenybę šiai kalbai.</string>
     <string name="desc_unavailable_locale">Šios kalbos negalima naudoti kaip sistemos kalbos, bet programoms ir svetainėms nurodėte, kad teikiate pirmenybę šiai kalbai.</string>
-    <string name="description_about_satellite_setting">Galite siųsti ir gauti teksto pranešimus bei naudoti kai kurias programas palydoviniu ryšiu naudodami tinkamą „%1$s“ paskyrą</string>
+    <string name="description_about_satellite_setting">Galite siųsti ir gauti tekstines žinutes per palydovą, jei turite tinkamą %1$s paskyrą</string>
     <string name="description_satellite_setting_connectivity">palydovinis ryšys</string>
     <string name="description_satellite_setting_messaging">susirašinėjimas palydoviniais pranešimais</string>
     <string name="detail_app_button">Programos informacija</string>
@@ -5752,6 +5752,7 @@ Atidarykite „Xiaomi debesį“ ir atkurkite elementus iš ten."</string>
     <string name="lock_screen_notifs_show_none">Nerodyti jokių pranešimų</string>
     <string name="lock_screen_notifs_title">Pranešimai užrakinimo ekrane</string>
     <string name="lock_screen_now">Užrakinkite ekraną</string>
+    <string name="lock_screen_password">Ekrano užraktas</string>
     <string name="lock_screen_password_skip_biometrics_message">"Norint nustatyti atrakinimą piršto atspaudu ir atrakinimą pagal veidą, būtinas slaptažodis.
 
 Slaptažodis apsaugo pamestą ar pavogtą telefoną."</string>
@@ -6312,7 +6313,7 @@ Yra kitų šio įrenginio naudotojų.
     <string name="memory_summary">Vid. naudojama atminties: %1$s iš %2$s</string>
     <string name="memory_system_rom">Sistema</string>
     <string name="memory_system_space">Sisteminė saugykla</string>
-    <string name="memory_title">Laisva: %1$s\u0009\u0009 Iš Viso: %2$s</string>
+    <string name="memory_title">Laisva: %1$s\t\t Iš Viso: %2$s</string>
     <string name="memory_usage">Atminties naudojimas</string>
     <string name="memory_usage_apps">Programų naudojama atmintis</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{Viena programa naudojo atmintį per tiek laiko: {time}}one{# programa naudojo atmintį per tiek laiko: {time}}few{# programos naudojo atmintį per tiek laiko: {time}}many{# programos naudojo atmintį per tiek laiko: {time}}other{# programų naudojo atmintį per tiek laiko: {time}}}</string>
@@ -6901,6 +6902,7 @@ Bet kuris naudotojas gali suteikti teises visų šiame įrenginyje esančių nau
     <string name="month_september_short">Rgs.</string>
     <string name="month_september_shortest">Rgs.</string>
     <string name="more">Daugiau</string>
+    <string name="more_about_satellite_connectivity">Daugiau apie palydovinį ryšį</string>
     <string name="more_account_settings_title">Kitos paskyros</string>
     <string name="more_connection">Daugiau jungiamumo parinkčių</string>
     <string name="more_dangerous_option_hint">Įjungtos didelės rizikos funkcijos, apimančios „%1$s“. Bakstelėkite, kad pakeistumėte parametrus.</string>
@@ -7200,6 +7202,7 @@ Pasirinkite operacinę sistemą:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Kad galėtumėte naudoti veido atpažinimą, pirmiausia pridėkite veido duomenis. Pridėti dabar?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Pridėti veido duomenis</string>
     <string name="new_instruction_privacy_password">Privatumo apsaugos slaptažodis saugo toliau pateiktas funkcijas</string>
+    <string name="new_instruction_privacy_password_type">Privatumo slaptažodžio tipai</string>
     <string name="new_modify_privacy_password">Pakeisti privatumo apsaugos slaptažodį</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Pridėkite piršto atspaudą, norėdami jį naudoti prietaiso atrakinimui.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Atšaukti</string>
@@ -7601,7 +7604,7 @@ Neaktyvumo laikotarpiu gautus pranešimus galima rasti perbraukus žemyn iš ekr
     <string name="one_handed_action_show_notification_summary">Bus rodomi pranešimai ir nustatymai.</string>
     <string name="one_handed_action_show_notification_title">Pranešimų rodymas</string>
     <string name="one_handed_mode_enabled">Naudoti vienos rankos režimą</string>
-    <string name="one_handed_mode_footer_text">" "<b>Kaip naudoti vienos rankos režimą</b>"
+    <string name="one_handed_mode_footer_text"> <b>Kaip naudoti vienos rankos režimą</b>"
  • Įsitikinkite, kad sistemos naršymo nustatymuose pasirinktas naršymas gestais
  • Perbraukite žemyn šalia apatinio ekrano krašto"</string>
     <string name="one_handed_mode_intro_text">Patraukite viršutinę ekrano dalį žemyn, kad būtų lengviau pasiekti viena ranka</string>
@@ -8821,6 +8824,14 @@ Visos programos jūsų erdvėje ir jų duomenys taip pat bus visam laikui ištri
     <string name="same_source_synced">Transliacija sėkmingai pridėta</string>
     <string name="sar">RD poveikio informacija</string>
     <string name="satellite_call_assistant">Skambučių nustatymai</string>
+    <string name="satellite_footer_content_section_0">Turėkite omenyje</string>
+    <string name="satellite_footer_content_section_1">Palydovinis ryšys gali veikti lėčiau ir yra pasiekiamas tik tam tikrose vietose.</string>
+    <string name="satellite_footer_content_section_2">Oro sąlygos ir kai kurie statiniai gali trikdyti palydovinį ryšį.</string>
+    <string name="satellite_footer_content_section_3">Skambinimas per palydovą negalimas.</string>
+    <string name="satellite_footer_content_section_4">Skubios pagalbos skambučiai vis tiek gali būti sujungti.</string>
+    <string name="satellite_footer_content_section_5">Norint peržiūrėti išorines nuorodas, reikalingas mobilusis arba „Wi-Fi“ tinklas.</string>
+    <string name="satellite_footer_content_section_6">Žinučių siuntimas skubios pagalbos tarnyboms gali neveikti kai kuriose vietovėse.</string>
+    <string name="satellite_footer_content_section_7">Gali praeiti šiek tiek laiko, kol paskyros pakeitimai bus rodomi parametruose. Išsamesnės informacijos kreipkitės į %1$s.</string>
     <string name="satellite_management_title">Palydovinis tinklas</string>
     <string name="satellite_network_title">Palydovinio skambučio funkcijos</string>
     <string name="satellite_setting">Palydovinis ryšys</string>
@@ -8981,9 +8992,9 @@ Bendrindami šį įrenginį su kitais naudokite šią funkciją atsargiai."</str
 
 Jei norite saugiai bendrinti įrenginį su kitais asmenimis, išbandykite naudotojo svečio profilį. 
 
-Jei norite naudoti programos prisegimą, atlikite toliau nurodytus veiksmus. \u0009
-{0,number,integer}. Įjunkite programos prisegimą. \u0009
-{1,number,integer}. Atidarykite skiltį „Apžvalga“. \u0009
+Jei norite naudoti programos prisegimą, atlikite toliau nurodytus veiksmus. \t
+{0,number,integer}. Įjunkite programos prisegimą. \t
+{1,number,integer}. Atidarykite skiltį „Apžvalga“. \t
 {2,number,integer}. Palieskite programos piktogramą ekrano viršuje, tada palieskite „Prisegti“."</string>
     <string name="screen_pinning_summary">Prisegtos programos išliks naujausių aplanke iki kol jas atsegsite</string>
     <string name="screen_pinning_switch_off_text">Išjungta</string>
@@ -9727,7 +9738,7 @@ Kaskart šiek tiek pajudinkite pirštą. Taip užfiksuojama daugiau kontrolinio 
     <string name="setting_tv_title">TV</string>
     <string name="setting_volume_title">Tylus</string>
     <string name="setting_vpn_title">VPN</string>
-    <string name="setting_wireless_headset_title">Įkišamosios ausinės</string>
+    <string name="setting_wireless_headset_title">Ausinės</string>
     <string name="setting_zen_title">Netrukdyti</string>
     <string name="settings_ad_loading">Įkeliama…</string>
     <string name="settings_ad_loading_unavailable">Nepavyko įkelti informacijos.</string>
@@ -10099,9 +10110,9 @@ Dukart bakstelėkite, kad atidarytumėte „Naujausi“."</string>
     <string name="smart_home_value_none">Nenustatyta</string>
     <string name="smart_home_value_unknown">Nežinoma</string>
     <string name="smart_rotate_text_headline">Veido aptikimo funkcija naudoja priekinį fotoaparatą, kad padidintų automatinio pasukimo tikslumą. Vaizdai niekada neišsaugomi ir nesiunčiami „Google“.</string>
-    <string name="smart_storage_backup_title">„Xiaomi“ išmanioji saugykla</string>
-    <string name="smart_storage_summary">Kurkite įrenginio atsarginę kopiją arba atkurkite duomenis naudodami išmaniąją saugyklą</string>
-    <string name="smart_storage_title">Išmanioji saugykla</string>
+    <string name="smart_storage_backup_title">„Xiaomi SmartStorage“</string>
+    <string name="smart_storage_summary">Kurkite įrenginio atsarginę kopiją arba atkurkite duomenis naudodami „SmartStorage“</string>
+    <string name="smart_storage_title">„SmartStorage“</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Išmaniojo dėklo režimas</string>
     <string name="smartcover_sensitive_summary">Užrakinkite arba atrakinkite prietaisą automatiškai, naudodami išmanųjį dėklą</string>
     <string name="smartcover_sensitive_title">Išmanus dėklas</string>
@@ -10287,7 +10298,7 @@ Visa tai galima dėl įrenginyje įdiegtų patikimų prisijungimo duomenų."</st
     <string name="status_bar_settings">Pranešimai ir būsenos juosta</string>
     <string name="status_bar_settings_all_app_display_loading">Sekundėlę…</string>
     <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
-    <string name="status_bar_settings_connected_devices">Prisijungę įrenginiai</string>
+    <string name="status_bar_settings_connected_devices">Prijungti įrenginiai</string>
     <string name="status_bar_settings_manage_notification">Programų pranešimai</string>
     <string name="status_bar_settings_notification_bar">Pranešimų juosta</string>
     <string name="status_bar_settings_status_bar">Būsenos juosta</string>
@@ -12945,7 +12956,7 @@ Išjungę netrukdymo režimą praleistus pranešimus rasite perbraukę žemyn i�
     <string name="zen_mode_settings_dnd_automatic_rule">Netrukdymo režimą automatiškai įjungė tvarkaraštis („%s“)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Netrukdymo režimą automatiškai įjungė programa („%s“)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Netrukdymo režimas įjungtas „%s“ taikant tinkintus nustatymus.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Žr. tinkintus nustatymus</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Žr. tinkintus nustatymus</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Netrukdymo režimas įjungtas iki %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Netrukdymo režimas bus įjungtas, kol jį išjungsite</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Nė vieno}=1{Nustatytas 1 tvarkaraštis}one{Nustatytas # tvarkaraštis}few{Nustatyti # tvarkaraščiai}many{Nustatyta # tvarkaraščio}other{Nustatyta # tvarkaraščių}}</string>

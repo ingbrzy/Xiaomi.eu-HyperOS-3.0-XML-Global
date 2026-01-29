@@ -3394,7 +3394,7 @@ A dátumok, a számok és a mértékegységek formázása érdekében több alka
     <string name="desc_regional_pref_footer_learn_more">További információ a nyelvi beállításokról.</string>
     <string name="desc_system_locale_addition">Így az appok és webhelyek tudni fogják, hogy Ön előnyben részesíti ezt a nyelvet is.</string>
     <string name="desc_unavailable_locale">Ez a nyelv nem használható a rendszer nyelveként, de jelezte az alkalmazásoknak és a webhelyeknek, hogy ezt a nyelvet részesíti előnyben.</string>
-    <string name="description_about_satellite_setting">Ön egy jogosult %1$s-fiókkal műholdas kapcsolaton keresztül küldhet és fogadhat szöveges üzeneteket, valamint használhat bizonyos alkalmazásokat.</string>
+    <string name="description_about_satellite_setting">Szöveges üzeneteket műholdon keresztül jogosult %1$s-fiókkal küldhet és fogadhat</string>
     <string name="description_satellite_setting_connectivity">műholdas kapcsolat</string>
     <string name="description_satellite_setting_messaging">Műholdas üzenetváltás</string>
     <string name="detail_app_button">Alkalmazásadatok</string>
@@ -5752,6 +5752,7 @@ Nyissa meg a Xiaomi Cloudot, és állítsa vissza az elemeket onnan."</string>
     <string name="lock_screen_notifs_show_none">Ne jelenjenek meg értesítések</string>
     <string name="lock_screen_notifs_title">Értesítések a lezárási képernyőn</string>
     <string name="lock_screen_now">Képernyőzár</string>
+    <string name="lock_screen_password">Képernyőzár</string>
     <string name="lock_screen_password_skip_biometrics_message">"Jelszó szükséges a Feloldás ujjlenyomattal és az Arcalapú feloldás funkció beállításához.
 
 Jelszó védi a telefont, ha elvész vagy ellopják."</string>
@@ -6312,7 +6313,7 @@ A műveletet nem tudja visszavonni."</string>
     <string name="memory_summary">Átlagosan %2$s/%1$s memória használatban</string>
     <string name="memory_system_rom">Rendszer</string>
     <string name="memory_system_space">Rendszertárhely</string>
-    <string name="memory_title">Elérhető: %1$s\u0009\u0009Összesen: %2$s</string>
+    <string name="memory_title">Elérhető: %1$s\t\tÖsszesen: %2$s</string>
     <string name="memory_usage">Memóriahasználat</string>
     <string name="memory_usage_apps">Alkalmazások által használt memória</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 alkalmazás használt memóriát az elmúlt {time} során}other{# alkalmazás használt memóriát az elmúlt {time} során}}</string>
@@ -6901,6 +6902,7 @@ Minden felhasználó engedélyeket adhat az eszközön létező összes felhaszn
     <string name="month_september_short">Szept</string>
     <string name="month_september_shortest">Szept</string>
     <string name="more">Továbbiak</string>
+    <string name="more_about_satellite_connectivity">További információk a műholdas kapcsolatról</string>
     <string name="more_account_settings_title">Egyéb fiókok</string>
     <string name="more_connection">További csatlakozási lehetőségek</string>
     <string name="more_dangerous_option_hint">Az engedélyezett \"%1$s\" nagy kockázatú funkciókat tartalmaz. Érintse meg a beállítások megváltoztatásához.</string>
@@ -7200,6 +7202,7 @@ Válassza ki a PC operációs rendszerét:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Az arcalapú feloldás használatához először adjon meg arcadatokat. Hozzáadja most?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Arcadatok hozzáadása</string>
     <string name="new_instruction_privacy_password">Az Adatvédelmi jelszó a következő funkciókat védi</string>
+    <string name="new_instruction_privacy_password_type">Adatvédelmi jelszó típusai</string>
     <string name="new_modify_privacy_password">Adatvédelmi jelszó módosítása</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Adja hozzá ujjlenyomatát a telefonfeloldáshoz.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Mégse</string>
@@ -7601,7 +7604,7 @@ A befagyasztás ideje alatt kapott értesítések megtekintéséhez húzza lefel
     <string name="one_handed_action_show_notification_summary">Megjelennek az értesítések és a beállítások.</string>
     <string name="one_handed_action_show_notification_title">Értesítések mutatása</string>
     <string name="one_handed_mode_enabled">Egykezes mód használata</string>
-    <string name="one_handed_mode_footer_text">" "<b>Az egykezes mód használata</b>"
+    <string name="one_handed_mode_footer_text"> <b>Az egykezes mód használata</b>"
  • A rendszer navigációs beállításainál a kézmozdulatokkal való navigáció legyen kiválasztva.
  • Csúsztassa gyorsan lefelé az ujját a képernyő alsó széléhez közel."</string>
     <string name="one_handed_mode_intro_text">Húzza le a képernyő felső felét, hogy kényelmesebben elérhető legyen egy kézzel is</string>
@@ -8821,6 +8824,14 @@ A területben lévő összes alkalmazás és minden adatuk is véglegesen törl�
     <string name="same_source_synced">Közvetítés sikeresen hozzáadva</string>
     <string name="sar">Rádiófrekvenciás sugárzási információ</string>
     <string name="satellite_call_assistant">Hívásbeállítások</string>
+    <string name="satellite_footer_content_section_0">Ne feledje</string>
+    <string name="satellite_footer_content_section_1">A műholdas kapcsolat létrehozása hosszabb időt vehet igénybe, és csak bizonyos területeken érhető el.</string>
+    <string name="satellite_footer_content_section_2">Az időjárás és bizonyos építmények befolyásolhatják a műholdas kapcsolatot.</string>
+    <string name="satellite_footer_content_section_3">Műholdas hívás nem elérhető.</string>
+    <string name="satellite_footer_content_section_4">A segélyhívások továbbra is kapcsolódhatnak.</string>
+    <string name="satellite_footer_content_section_5">A külső linkek megtekintéséhez mobil- vagy Wi-Fi-hálózat szükséges.</string>
+    <string name="satellite_footer_content_section_6">A segélyhívó szolgálatokkal való SMS-ezés nem minden területen elérhető.</string>
+    <string name="satellite_footer_content_section_7">A fiókváltozások megjelenése a Beállításokban egy kis időt vehet igénybe. A részletekért vegye fel a kapcsolatot: %1$s.</string>
     <string name="satellite_management_title">Műholdhálózat</string>
     <string name="satellite_network_title">Műholdas hívás funkciók</string>
     <string name="satellite_setting">Műholdas kapcsolat</string>
@@ -8981,9 +8992,9 @@ Használja ezt a funkciót óvatosan, amikor megosztja másokkal az eszközt."</
 
 Ha szeretné biztonságosan megosztani eszközét másokkal, próbáljon inkább vendégprofilt használni. 
 
-Alkalmazáskitűzés használata: \u0009
-{0,number,integer}. Alkalmazáskitűzés funkció bekapcsolása \u0009
-{1,number,integer}. Áttekintés megnyitása \u0009
+Alkalmazáskitűzés használata: \t
+{0,number,integer}. Alkalmazáskitűzés funkció bekapcsolása \t
+{1,number,integer}. Áttekintés megnyitása \t
 {2,number,integer}. Koppintson a képernyő tetején található alkalmazásikonra, majd a Kitűzés elemre."</string>
     <string name="screen_pinning_summary">A rögzített alkalmazások a Legutóbbiak mappában maradnak, amíg fel nem oldod őket</string>
     <string name="screen_pinning_switch_off_text">Ki</string>
@@ -10099,9 +10110,9 @@ Az Előzmények megnyitásához koppintson duplán."</string>
     <string name="smart_home_value_none">Semmi</string>
     <string name="smart_home_value_unknown">Ismeretlen</string>
     <string name="smart_rotate_text_headline">Az arcfelismerés az előlapi kamerát használja az automatikus forgatás pontosságának javításához. A rendszer a képeket semmilyen esetben nem tárolja, és nem is küldi el őket a Google-nak.</string>
-    <string name="smart_storage_backup_title">Xiaomi okos tárhely</string>
-    <string name="smart_storage_summary">Készítsen biztonsági mentést eszközéről, vagy állítsa vissza az adatokat az okos tárhely segítségével</string>
-    <string name="smart_storage_title">Okos tárhely</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Készítsen biztonsági másolatot eszközéről, vagy állítsa vissza az adatokat a SmartStorage segítségével</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Okostok mód</string>
     <string name="smartcover_sensitive_summary">Zárolja vagy oldja fel a készüléket automatikusan okostokkal</string>
     <string name="smartcover_sensitive_title">Okostok</string>
@@ -12939,7 +12950,7 @@ Amikor kikapcsolja a Ne zavarjanak módot, a nem fogadott értesítéseket úgy 
     <string name="zen_mode_settings_dnd_automatic_rule">Az egyik ütemezés (%s) automatikusan bekapcsolta a „Ne zavarjanak” módot</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Az egyik alkalmazás (%s) automatikusan bekapcsolta a „Ne zavarjanak” módot</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">A Ne zavarjanak mód egyéni beállításokkal be van kapcsolva a következőknél: %s.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Egyéni beállítások megtekintése</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Egyéni beállítások megtekintése</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">A „Ne zavarjanak” mód eddig marad bekapcsolva: %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">A „Ne zavarjanak” mód bekapcsolva marad, amíg Ön ki nem kapcsolja</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Nincs}=1{1 ütemezés beállítva}other{# ütemezés beállítva}}</string>

@@ -2526,7 +2526,7 @@ To vpliva na druge aplikacije ali pogovore, v katerih je prikaz v oblačkih že 
     <string name="carrier_wifi_offload_summary">Storitvi Google Fi omogoči uporabo omrežij W+ za večjo hitrost in pokritost.</string>
     <string name="carrier_wifi_offload_title">Povezave W+</string>
     <string name="category_clone">Klon</string>
-    <string name="category_name_about_satellite_connectivity">O povezljivosti s sateliti</string>
+    <string name="category_name_about_satellite_connectivity">O satelitski povezljivosti</string>
     <string name="category_name_appearance">Videz</string>
     <string name="category_name_brightness">Svetlost</string>
     <string name="category_name_color">Barva</string>
@@ -3394,7 +3394,7 @@ Te nastavitve bodo vplivale na vse uporabnike te naprave."</string>
     <string name="desc_regional_pref_footer_learn_more">Preberite več o jezikovnih nastavitvah.</string>
     <string name="desc_system_locale_addition">S tem boste aplikacijam in spletnim mestom sporočili, da je tudi ta eden od vaših prednostnih jezikov.</string>
     <string name="desc_unavailable_locale">Tega jezika ni mogoče uporabiti kot sistemski jezik, vendar smo aplikacijam in spletnim stranem javili, da je to vaš želeni jezik.</string>
-    <string name="description_about_satellite_setting">Prek satelitske povezave lahko pošiljate in prejemate sporočila ter uporabljate nekatere aplikacije, če imate ustrezen račun pri operaterju %1$s</string>
+    <string name="description_about_satellite_setting">Besedilna sporočila lahko pošiljate in prejemate prek satelita z ustreznim računom pri %1$s</string>
     <string name="description_satellite_setting_connectivity">povezljivosti s sateliti</string>
     <string name="description_satellite_setting_messaging">satelitskih sporočilih</string>
     <string name="detail_app_button">Informacije o aplikaciji</string>
@@ -5754,6 +5754,7 @@ Odprite Xiaomi Cloud in sledite navodilom za obnovitev predmetov."</string>
     <string name="lock_screen_notifs_show_none">Ne prikaži nobenih obvestil.</string>
     <string name="lock_screen_notifs_title">Obvestila na zaklenjenem zaslonu</string>
     <string name="lock_screen_now">Zakleni zaslon</string>
+    <string name="lock_screen_password">Zaklepanje zaslona</string>
     <string name="lock_screen_password_skip_biometrics_message">"Za nastavitev odklepanja s prstnim odtisom in odklepanja z obrazom je potrebno geslo.
 
 Geslo ščiti telefon, če ga izgubite ali vam ga ukradejo."</string>
@@ -6314,7 +6315,7 @@ Tega dejanja ne boste mogli razveljaviti."</string>
     <string name="memory_summary">Povprečna uporaba pomnilnika: %1$s od %2$s</string>
     <string name="memory_system_rom">Sistem</string>
     <string name="memory_system_space">Sistemski pomnilnik</string>
-    <string name="memory_title">Na voljo: %1$s\u0009\u0009Skupaj: %2$s</string>
+    <string name="memory_title">Na voljo: %1$s\t\tSkupaj: %2$s</string>
     <string name="memory_usage">Uporaba pomnilnika</string>
     <string name="memory_usage_apps">Pomnilnik, ki ga uporabljajo aplikacije</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 aplikacija je uporabljala pomnilnik v zadnjega toliko časa: {time}.}one{# aplikacija je uporabljala pomnilnik v zadnjega toliko časa: {time}.}two{# aplikaciji sta uporabljali pomnilnik v zadnjega toliko časa: {time}.}few{# aplikacije so uporabljale pomnilnik v zadnjega toliko časa: {time}.}other{# aplikacij je uporabljalo pomnilnik v zadnjega toliko časa: {time}.}}</string>
@@ -6903,6 +6904,7 @@ Kateri koli uporabnik lahko dodeli dovoljenja v imenu vseh uporabniških profilo
     <string name="month_september_short">sep</string>
     <string name="month_september_shortest">sep</string>
     <string name="more">Več</string>
+    <string name="more_about_satellite_connectivity">Več o satelitski povezljivosti</string>
     <string name="more_account_settings_title">Ostali računi</string>
     <string name="more_connection">Več možnosti povezovanja</string>
     <string name="more_dangerous_option_hint">Funkcije visokega tveganja, vključno z \"%1$s\" so omogočene. Tapnite za spremembo nastavitev.</string>
@@ -7202,6 +7204,7 @@ Izberite vaš operacijski sistem:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Da bi lahko uporabljali Odklepanje z obrazom, najprej morate dodati podatke obraza. Želite dodati zdaj?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Dodajte podatke obraza</string>
     <string name="new_instruction_privacy_password">Geslo za zaščito zasebnosti varuje naslednje funkcije</string>
+    <string name="new_instruction_privacy_password_type">Vrste gesel za zasebnost</string>
     <string name="new_modify_privacy_password">Spremenite geslo za zaščito zasebnosti</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Dodajte prstni odtis, da lahko odklenite vašo napravo z njim.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Prekliči</string>
@@ -7603,7 +7606,7 @@ Obvestila, ki jih prejmete med utišanjem, si lahko ogledate tako, da z vrha zas
     <string name="one_handed_action_show_notification_summary">Prikažejo se obvestila in nastavitve.</string>
     <string name="one_handed_action_show_notification_title">Prikaz obvestil</string>
     <string name="one_handed_mode_enabled">Uporabi enoročni način</string>
-    <string name="one_handed_mode_footer_text">" "<b>Uporaba enoročnega načina</b>"
+    <string name="one_handed_mode_footer_text"> <b>Uporaba enoročnega načina</b>"
  • Prepričajte se, da je v nastavitvah krmarjenja po sistemu izbrano krmarjenje s potezami.
  • Povlecite navzdol pri spodnjem robu zaslona."</string>
     <string name="one_handed_mode_intro_text">Zgornjo polovico zaslona povlecite navzdol, da ga boste lažje dosegli z eno roko.</string>
@@ -8823,9 +8826,17 @@ Vse aplikacije v prostoru in njihovi podatki bodo prav tako trajno izbrisani iz 
     <string name="same_source_synced">Oddaja je bila uspešno dodana</string>
     <string name="sar">Informacija o RF Izpostavljenosti</string>
     <string name="satellite_call_assistant">Nastavitve klicev</string>
+    <string name="satellite_footer_content_section_0">Ne pozabite</string>
+    <string name="satellite_footer_content_section_1">Pri satelitski povezljivosti lahko traja dlje, da se ta vzpostavi, in je na voljo le na nekaterih območjih.</string>
+    <string name="satellite_footer_content_section_2">Vreme in nekatere strukture lahko vplivajo na satelitsko povezavo.</string>
+    <string name="satellite_footer_content_section_3">Klicanje prek satelita ni’ na voljo.</string>
+    <string name="satellite_footer_content_section_4">Klici v sili so lahko vseeno povezani.</string>
+    <string name="satellite_footer_content_section_5">Za ogled zunanjih povezav potrebujete mobilno ali Wi-Fi omrežje.</string>
+    <string name="satellite_footer_content_section_6">Pošiljanje besedilnih sporočil službam za nujno pomoč morda ni na voljo na vseh območjih.</string>
+    <string name="satellite_footer_content_section_7">Lahko traja nekaj časa, preden bodo spremembe računa prikazane v nastavitvah. Za podrobnosti se obrnite na %1$s.</string>
     <string name="satellite_management_title">Satelitsko omrežje</string>
     <string name="satellite_network_title">Funkcije satelitskih klicev</string>
-    <string name="satellite_setting">Povezljivost s sateliti</string>
+    <string name="satellite_setting">Satelitska povezljivost</string>
     <string name="satellite_setting_disabled_summary">Pošiljanje in prejemanje sporočil po satelitski povezavi. Ni vključeno v vašem računu.</string>
     <string name="satellite_setting_enabled_summary">Pošiljanje in prejemanje sporočil po satelitski povezavi. Je vključeno v vašem računu.</string>
     <string name="satellite_setting_summary_without_entitlement">Pošiljanje in prejemanje sporočil po satelitski povezavi. Za podrobnejše informacije se obrnite na operaterja.</string>
@@ -8983,9 +8994,9 @@ To funkcijo uporabljajte previdno, ko napravo delite z drugimi."</string>
 
 Če želite varno deliti svojo napravo z drugimi, namesto tega uporabite gosta. 
 
-Če želite uporabiti pripenjanje aplikacije, storite to: \u0009
-{0,number,integer}. Vklopite pripenjanje aplikacije. \u0009
-{1,number,integer}. Odprite »Pregled«. \u0009
+Če želite uporabiti pripenjanje aplikacije, storite to: \t
+{0,number,integer}. Vklopite pripenjanje aplikacije. \t
+{1,number,integer}. Odprite »Pregled«. \t
 {2,number,integer}. Dotaknite se ikone aplikacije na vrhu zaslona, nato pa se dotaknite »Pripni«."</string>
     <string name="screen_pinning_summary">Pripete aplikacije bodo ostale v mapi Nedavno, dokler jih ne odpnete</string>
     <string name="screen_pinning_switch_off_text">Izklopljeno</string>
@@ -10101,9 +10112,9 @@ Dvakrat tapnite za odprtje možnosti Nedavno."</string>
     <string name="smart_home_value_none">Brez</string>
     <string name="smart_home_value_unknown">Neznano</string>
     <string name="smart_rotate_text_headline">Zaznavanje obraza uporablja sprednji fotoaparat za izboljšanje natančnosti samodejnega zasuka. Slike se nikoli ne shranijo in ne pošljejo Googlu.</string>
-    <string name="smart_storage_backup_title">Pametno shranjevanje Xiaomi</string>
-    <string name="smart_storage_summary">Varnostno kopirajte napravo ali obnovite podatke s pametnim shranjevanjem</string>
-    <string name="smart_storage_title">Pametno shranjevanje</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Varnostno kopirajte napravo ali obnovite podatke s storitvijo SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Način pametnega ovitka</string>
     <string name="smartcover_sensitive_summary">Samodejno zaklenite ali odklenite napravo s pomočjo pametnega ovitka</string>
     <string name="smartcover_sensitive_title">Pametni ovitek</string>
@@ -12953,7 +12964,7 @@ Ko izklopite način »Ne moti«, lahko zamujena obvestila poiščete tako, da po
     <string name="zen_mode_settings_dnd_automatic_rule">Način »Ne moti« je bil samodejno vklopljen na podlagi razporeda (%s)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Način »Ne moti« je samodejno vklopila aplikacija (%s)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">Način »Ne moti« je vklopljen za %s z nastavitvami po meri.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Ogled nastavitev po meri</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Ogled nastavitev po meri</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">Način »Ne moti« bo vklopljen do %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">Način »Ne moti« bo ostal vklopljen, dokler ga ne izklopite.</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Noben}=1{Nastavljen je 1 razpored}one{Nastavljen je # razpored}two{Nastavljena sta # razporeda}few{Nastavljeni so # razporedi}other{Nastavljenih je # razporedov}}</string>

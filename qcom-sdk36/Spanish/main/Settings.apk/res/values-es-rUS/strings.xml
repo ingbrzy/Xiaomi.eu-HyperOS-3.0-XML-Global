@@ -3394,7 +3394,7 @@ Muchas apps también usarán la región del idioma preferido para cambiar la for
     <string name="desc_regional_pref_footer_learn_more">Obtén más información sobre las preferencias de idioma.</string>
     <string name="desc_system_locale_addition">Esto permite que las apps y los sitios web sepan que prefieres este idioma.</string>
     <string name="desc_unavailable_locale">Este idioma no se puede usar como idioma del sistema, pero permitiste que las apps y los sitios web sepan que lo prefieres.</string>
-    <string name="description_about_satellite_setting">Puedes enviar y recibir mensajes de texto, así como usar algunas apps, por satélite con una cuenta de %1$s apta</string>
+    <string name="description_about_satellite_setting">Puede enviar y recibir mensajes de texto vía satélite con una cuenta %1$s válida</string>
     <string name="description_satellite_setting_connectivity">conectividad satelital</string>
     <string name="description_satellite_setting_messaging">mensajería satelital</string>
     <string name="detail_app_button">Informacion de la aplicación</string>
@@ -5752,6 +5752,7 @@ Abra Xiaomi Cloud y restaure elementos desde allí."</string>
     <string name="lock_screen_notifs_show_none">No mostrar notificaciones</string>
     <string name="lock_screen_notifs_title">Notificaciones en pantalla de bloqueo</string>
     <string name="lock_screen_now">Pantalla de bloqueo</string>
+    <string name="lock_screen_password">Bloqueo de pantalla</string>
     <string name="lock_screen_password_skip_biometrics_message">"Se requiere una contraseña para configurar las funciones Desbloqueo con huellas dactilares y Desbloqueo facial.
 
 En caso de robo o extravío, una contraseña protege el teléfono."</string>
@@ -6312,7 +6313,7 @@ No podrá revertir esta acción."</string>
     <string name="memory_summary">Se usó un promedio de %1$s de %2$s de memoria</string>
     <string name="memory_system_rom">Sistema</string>
     <string name="memory_system_space">Almacenamiento del sistema</string>
-    <string name="memory_title">Disponible: %1$s\u0009\u0009Total: %2$s</string>
+    <string name="memory_title">Disponible: %1$s\t\tTotal: %2$s</string>
     <string name="memory_usage">Uso de la memoria</string>
     <string name="memory_usage_apps">Memoria que utilizan las aplicaciones</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 app usó la memoria en las últimas {time}}other{# apps usaron la memoria en las últimas {time}}}</string>
@@ -6901,7 +6902,7 @@ Cualquier usuario puede otorgar permisos en nombre de todos los perfiles de usua
     <string name="month_september_short">Sep</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Más</string>
-    <string name="more_about_satellite_connectivity">Más información sobre la conectividad satelital</string>
+    <string name="more_about_satellite_connectivity">Más acerca de la conectividad satelital</string>
     <string name="more_account_settings_title">Otras cuentas</string>
     <string name="more_connection">Más opciones de conectividad</string>
     <string name="more_dangerous_option_hint">Funciones de alto riesgo incluyendo \"%1$s\" están activadas. Toque para cambiar los ajustes.</string>
@@ -7201,6 +7202,7 @@ Seleccione su sistema operativo:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Para poder usar el Desbloqueo facial, agregue primero los datos faciales. ¿Añadir ahora?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Agregar datos faciales</string>
     <string name="new_instruction_privacy_password">La contraseña de protección de privacidad protege las siguientes funciones</string>
+    <string name="new_instruction_privacy_password_type">Tipos de contraseña de privacidad</string>
     <string name="new_modify_privacy_password">Cambie la contraseña de Protección de la privacidad</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Agregue su huella digital para desbloquear el dispositivo con ella.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Cancelar</string>
@@ -7602,7 +7604,7 @@ Puedes ver las notificaciones que recibas durante la reducción de sonido desliz
     <string name="one_handed_action_show_notification_summary">Se mostrarán las notificaciones y la configuración.</string>
     <string name="one_handed_action_show_notification_title">Mostrar notificaciones</string>
     <string name="one_handed_mode_enabled">Usar el Modo de una mano</string>
-    <string name="one_handed_mode_footer_text">" "<b>Cómo usar el Modo de una mano</b>"
+    <string name="one_handed_mode_footer_text"> <b>Cómo usar el Modo de una mano</b>"
  • Asegúrate de que esté seleccionada la navegación por gestos en la configuración correspondiente del sistema.
  • Desliza un dedo hacia abajo, cerca del borde inferior de la pantalla."</string>
     <string name="one_handed_mode_intro_text">Baja la mitad superior de tu pantalla para que sea más fácil alcanzarla con una mano</string>
@@ -8822,14 +8824,14 @@ También se borrarán de forma permanente todas las apps de tu espacio y sus dat
     <string name="same_source_synced">Retransmisión agregada con éxito</string>
     <string name="sar">Información de exposición a RF</string>
     <string name="satellite_call_assistant">Ajustes de llamada</string>
-    <string name="satellite_footer_content_section_0">Importante</string>
-    <string name="satellite_footer_content_section_1">La conectividad satelital podría demorar más y solo está disponible en ciertas áreas.</string>
-    <string name="satellite_footer_content_section_2">El clima y ciertas estructuras podrían afectar tu conexión.</string>
-    <string name="satellite_footer_content_section_3">Las llamadas satelitales no están disponibles.</string>
-    <string name="satellite_footer_content_section_4">Es posible que puedas realizar llamadas de emergencia.</string>
-    <string name="satellite_footer_content_section_5">Se requiere una red móvil o Wi-Fi para ver los vínculos externos.</string>
-    <string name="satellite_footer_content_section_6">Es posible que el envío de mensajes de texto a los servicios de emergencia no esté disponible en todas las regiones.</string>
-    <string name="satellite_footer_content_section_7">Los cambios en la cuenta podrían demorar en mostrarse en Configuración. Comunícate con %1$s para obtener más información.</string>
+    <string name="satellite_footer_content_section_0">Tenga en cuenta</string>
+    <string name="satellite_footer_content_section_1">La conectividad satelital puede ser más lenta y está disponible solo en algunas áreas.</string>
+    <string name="satellite_footer_content_section_2">El tiempo y ciertas estructuras pueden afectar su conexión satelital.</string>
+    <string name="satellite_footer_content_section_3">No es posible realizar llamadas’vía satélite.</string>
+    <string name="satellite_footer_content_section_4">Las llamadas de emergencia aún podrían conectar.</string>
+    <string name="satellite_footer_content_section_5">Es necesaria una red Wi-Fi o móvil para ver enlaces externos.</string>
+    <string name="satellite_footer_content_section_6">Es posible que los mensajes de texto a los servicios de emergencia no estén disponibles en todas las áreas.</string>
+    <string name="satellite_footer_content_section_7">Puede tardar un poco en que se muestren los cambios en la configuración de su cuenta. Contacte con %1$s para obtener más detalles.</string>
     <string name="satellite_management_title">Red satelital</string>
     <string name="satellite_network_title">Funciones de llamada por satélite</string>
     <string name="satellite_setting">Conectividad satelital</string>
@@ -8990,9 +8992,9 @@ Utilice esta función con precaución al compartir este dispositivo con otras pe
 
 Si quieres compartir tu dispositivo con alguien de forma segura, usa un perfil de invitado. 
 
-Para usar la fijación de apps, haz lo siguiente: \u0009
-{0,number,integer}. Activa la fijación de apps. \u0009
-{1,number,integer}. Abre Recientes. \u0009
+Para usar la fijación de apps, haz lo siguiente: \t
+{0,number,integer}. Activa la fijación de apps. \t
+{1,number,integer}. Abre Recientes. \t
 {2,number,integer}. Presiona el ícono de la app que se encuentra en la parte superior de la pantalla y, luego, Fijar."</string>
     <string name="screen_pinning_summary">Las aplicaciones fijadas permanecerán en Recientes hasta que las desancle</string>
     <string name="screen_pinning_switch_off_text">Desactivada</string>
@@ -10108,9 +10110,9 @@ Presione dos veces para abrir Recientes."</string>
     <string name="smart_home_value_none">Ninguno</string>
     <string name="smart_home_value_unknown">Desconocido</string>
     <string name="smart_rotate_text_headline">La detección de rostro usa la cámara frontal para mejorar la exactitud de la opción Girar automáticamente. Las imágenes nunca se almacenan ni se envían a Google.</string>
-    <string name="smart_storage_backup_title">Almacenamiento inteligente Xiaomi</string>
-    <string name="smart_storage_summary">Realice una copia de seguridad de su dispositivo o restaure datos mediante el almacenamiento inteligente</string>
-    <string name="smart_storage_title">Almacenamiento inteligente</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Haga una copia de seguridad de su dispositivo o restablezca sus datos utilizando SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Modo cubierta inteligente</string>
     <string name="smartcover_sensitive_summary">Bloquee o desbloquee su dispositivo automáticamente usando el cubierta inteligente</string>
     <string name="smartcover_sensitive_title">Cubierta inteligente</string>
@@ -12475,7 +12477,7 @@ también puede usar las redes de otros usuarios."</string>
     <string name="wifi_wakeup_negative_button">Cancelar</string>
     <string name="wifi_wakeup_positive_button">Activar</string>
     <string name="wifi_wakeup_scan_summary">Permita que las aplicaciones y los servicios busquen redes Wi-Fi para poder activar Wi-Fi automáticamente. Activar esta función permitirá que su dispositivo se conecte automáticamente a las redes guardadas cercanas.</string>
-    <string name="wifi_wakeup_summary">La conexión Wi-Fi se volverá a activar cerca de las redes de alta calidad guardadas, como tu red doméstica</string>
+    <string name="wifi_wakeup_summary">Se activará automáticamente Wi-Fi cuando te encuentres en la ubicación de una red Wi-Fi guardada</string>
     <string name="wifi_wakeup_summary_no_location">No se encuentra disponible porque la ubicación está desactivada. <annotation id="link">Actívala</annotation>.</string>
     <string name="wifi_wakeup_title">Activar funciones especiales</string>
     <string name="wifi_wapi_as_cert">Certificado AS</string>
@@ -12943,7 +12945,7 @@ Cuando desactives No interrumpir, desliza el dedo hacia abajo desde la parte sup
     <string name="zen_mode_settings_dnd_automatic_rule">Una acción programada (%s) activó automáticamente el modo No interrumpir</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">Una app (%s) activó el modo \"No interrumpir\" automáticamente</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">El modo No interrumpir está activado para %s con opciones de configuración personalizadas.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Ver configuración personalizada</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Ver configuración personalizada</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">El modo \"No interrumpir\" estará activado hasta la(s) %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">El modo \"No interrumpir\" permanecerá activado hasta que lo desactives.</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Ninguno}=1{1 programa establecido}other{# programas establecidos}}</string>

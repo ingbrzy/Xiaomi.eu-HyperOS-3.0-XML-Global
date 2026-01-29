@@ -1605,7 +1605,7 @@ Apps:
     <string name="billing_cycle_less_than_one_day_left">Resta menos de um dia</string>
     <string name="billing_cycle_none_left">Não há tempo restante</string>
     <string name="bind_xiaomi_account_confirm">Adicionar</string>
-    <string name="bind_xiaomi_account_dialog_summery">Você está prestes a adicionar a Conta Xiaomi %s. Se você esquecer a sua senha, você pode utilizar esta conta para redefiní-la.</string>
+    <string name="bind_xiaomi_account_dialog_summery">Você está prestes a adicionar a Conta Xiaomi %s. Se você esquecer a sua senha, você pode utilizar esta conta para redefini-la.</string>
     <string name="bind_xiaomi_account_success">Conta Xiaomi adicionada com sucesso</string>
     <string name="biometric_settings_add_biometrics_in_split_mode_ok">OK</string>
     <string name="biometric_settings_add_face_in_split_mode_message">Saia da tela dividida para configurar o Desbloqueio facial</string>
@@ -3394,7 +3394,7 @@ Muitos apps também vão usar a região do idioma de sua preferência para forma
     <string name="desc_regional_pref_footer_learn_more">Saiba mais sobre as preferências de idioma.</string>
     <string name="desc_system_locale_addition">Isso permite que os apps e sites saibam que você prefere esse idioma.</string>
     <string name="desc_unavailable_locale">Esse idioma não pode ser usado para o sistema, mas os apps e sites vão identificar sua preferência.</string>
-    <string name="description_about_satellite_setting">É possível enviar e receber mensagens de texto e usar alguns apps via satélite com uma conta qualificada da %1$s</string>
+    <string name="description_about_satellite_setting">Você pode enviar e receber mensagens de texto via satélite com uma conta %1$s elegível</string>
     <string name="description_satellite_setting_connectivity">conectividade via satélite</string>
     <string name="description_satellite_setting_messaging">mensagem via satélite</string>
     <string name="detail_app_button">Info. do app</string>
@@ -5752,6 +5752,7 @@ Abra a Xiaomi Cloud e restaure os itens por lá."</string>
     <string name="lock_screen_notifs_show_none">Não mostrar notificações</string>
     <string name="lock_screen_notifs_title">Notificações na tela de bloqueio</string>
     <string name="lock_screen_now">Bloquear a tela</string>
+    <string name="lock_screen_password">Bloqueio de tela</string>
     <string name="lock_screen_password_skip_biometrics_message">"Você precisa usar uma senha para poder configurar o \"Desbloqueio por impressão digital\" e o \"Desbloqueio facial\".
 
 O uso de uma senha protege o smartphone em caso de perda ou roubo."</string>
@@ -6312,7 +6313,7 @@ Você não conseguirá reverter esta ação."</string>
     <string name="memory_summary">Média de %1$s de %2$s de memória usados</string>
     <string name="memory_system_rom">Sistema</string>
     <string name="memory_system_space">Armaz. do sistema</string>
-    <string name="memory_title">Disponível: %1$s\u0009\u0009Total: %2$s</string>
+    <string name="memory_title">Disponível: %1$s\t\tTotal: %2$s</string>
     <string name="memory_usage">Uso de memória</string>
     <string name="memory_usage_apps">Memória usada por apps</string>
     <string name="memory_usage_apps_summary">{count,plural, =1{1 app usou a memória nos últimos {time}}one{# app usou a memória nos últimos {time}}other{# apps usaram a memória nos últimos {time}}}</string>
@@ -6901,6 +6902,7 @@ Qualquer usuário pode conceder permissões em nome de todos os perfis de usuár
     <string name="month_september_short">Set</string>
     <string name="month_september_shortest">Set</string>
     <string name="more">Mais</string>
+    <string name="more_about_satellite_connectivity">Mais informações sobre a conectividade via satélite</string>
     <string name="more_account_settings_title">Outras contas</string>
     <string name="more_connection">Mais opções de conectividade</string>
     <string name="more_dangerous_option_hint">Recursos de alto risco, incluindo \"%1$s\" estão ativados. Toque para alterar as configurações.</string>
@@ -7200,6 +7202,7 @@ Selecione seu sistema operacional:"</string>
     <string name="new_fingerprint_to_new_face_dialog_msg">Para poder utilizar o Desbloqueio facial, adicione os dados faciais primeiro. Adicionar agora?</string>
     <string name="new_fingerprint_to_new_face_dialog_tittle">Adicionar dados faciais</string>
     <string name="new_instruction_privacy_password">A Senha de proteção de privacidade protege os seguintes recursos</string>
+    <string name="new_instruction_privacy_password_type">Tipos de Senha de privacidade</string>
     <string name="new_modify_privacy_password">Alterar a Senha de Proteção de Privacidade</string>
     <string name="new_password_to_new_fingerprint_dialog_msg">Adicione sua impressão digital para desbloquear seu telefone com ela.</string>
     <string name="new_password_to_new_fingerprint_dialog_negative_msg">Cancelar</string>
@@ -7601,7 +7604,7 @@ As notificações recebidas durante esse período podem ser encontradas ao desli
     <string name="one_handed_action_show_notification_summary">As notificações e configurações serão exibidas.</string>
     <string name="one_handed_action_show_notification_title">Mostrar notificações</string>
     <string name="one_handed_mode_enabled">Usar o modo para uma mão</string>
-    <string name="one_handed_mode_footer_text">" "<b>Como usar o modo uma mão</b>"
+    <string name="one_handed_mode_footer_text"> <b>Como usar o modo uma mão</b>"
  • Confira se a navegação por gestos está selecionada nas configurações de navegação do sistema. 
  • Deslize até perto da borda de baixo da tela."</string>
     <string name="one_handed_mode_intro_text">Puxe para baixo a metade de cima da tela para facilitar o uso com uma mão</string>
@@ -8821,6 +8824,14 @@ Todos os apps no seu espaço e os dados deles também serão permanentemente exc
     <string name="same_source_synced">Transmissão adicionada com sucesso</string>
     <string name="sar">Informação de Exposição de RF</string>
     <string name="satellite_call_assistant">Configurações de chamada</string>
+    <string name="satellite_footer_content_section_0">Tenha em mente</string>
+    <string name="satellite_footer_content_section_1">A conectividade via satélite pode demorar mais tempo e está disponível apenas em algumas áreas.</string>
+    <string name="satellite_footer_content_section_2">O clima e certas estruturas podem afetar sua conexão via satélite.</string>
+    <string name="satellite_footer_content_section_3">Não é possível fazer chamadas via satélite.</string>
+    <string name="satellite_footer_content_section_4">Chamadas de emergência ainda podem ser feitas</string>
+    <string name="satellite_footer_content_section_5">É necessária uma rede móvel ou Wi-Fi para visualizar links externos.</string>
+    <string name="satellite_footer_content_section_6">O envio de mensagens de texto para os serviços de emergência pode não estar disponível em todas as áreas.</string>
+    <string name="satellite_footer_content_section_7">Pode demorar algum tempo até que as alterações na conta sejam exibidas em Configurações. Entre em contato com a %1$s para obter mais detalhes.</string>
     <string name="satellite_management_title">Rede de satélite</string>
     <string name="satellite_network_title">Recursos de chamada via satélite</string>
     <string name="satellite_setting">Conectividade via satélite</string>
@@ -8981,9 +8992,9 @@ Use esse recurso com cuidado ao compartilhar esse dispositivo com outras pessoas
 
 Se você quiser compartilhar seu dispositivo com alguém de forma segura, tente fazer isso com um usuário convidado. 
 
-Para usar a fixação de apps: \u0009
-{0,number,integer}. Ativar a fixação de apps \u0009
-{1,number,integer}. Abrir a Visão geral \u0009
+Para usar a fixação de apps: \t
+{0,number,integer}. Ativar a fixação de apps \t
+{1,number,integer}. Abrir a Visão geral \t
 {2,number,integer}. Na parte de cima da tela, toque no ícone do app e depois em \"Fixar\"."</string>
     <string name="screen_pinning_summary">Os apps fixados permanecerão nos Recentes até serem desafixados</string>
     <string name="screen_pinning_switch_off_text">Desativada</string>
@@ -10099,9 +10110,9 @@ Toque duas vezes para abrir os Recentes."</string>
     <string name="smart_home_value_none">Não definido</string>
     <string name="smart_home_value_unknown">Desconhecido</string>
     <string name="smart_rotate_text_headline">A detecção facial usa a câmera frontal para melhorar a precisão do giro automático. As imagens nunca são armazenadas ou enviadas ao Google.</string>
-    <string name="smart_storage_backup_title">Armazenamento Inteligente Xiaomi</string>
-    <string name="smart_storage_summary">Faça o backup do seu dispositivo ou restaure dados usando o armazenamento inteligente</string>
-    <string name="smart_storage_title">Armazenamento inteligente</string>
+    <string name="smart_storage_backup_title">Xiaomi SmartStorage</string>
+    <string name="smart_storage_summary">Faça o backup do seu dispositivo ou restaure dados usando o SmartStorage</string>
+    <string name="smart_storage_title">SmartStorage</string>
     <string name="smartcover_lock_or_unlock_screen_tittle">Modo Smart cover</string>
     <string name="smartcover_sensitive_summary">Bloqueie ou desbloqueie o dispositivo automaticamente usando uma capa inteligente</string>
     <string name="smartcover_sensitive_title">Smart cover</string>
@@ -12938,7 +12949,7 @@ Depois de desativar o \"Não perturbe\", você pode acessar as notificações pe
     <string name="zen_mode_settings_dnd_automatic_rule">O \"Não perturbe\" foi ativado automaticamente por uma programação (%s)</string>
     <string name="zen_mode_settings_dnd_automatic_rule_app">O modo \"Não perturbe\" foi ativado automaticamente por um app (%s)</string>
     <string name="zen_mode_settings_dnd_custom_settings_footer">O \"Não perturbe\" está ativado para %s com configurações personalizadas.</string>
-    <string name="zen_mode_settings_dnd_custom_settings_footer_link">" "<annotation id="link">Ver configurações personalizadas</annotation></string>
+    <string name="zen_mode_settings_dnd_custom_settings_footer_link"> <annotation id="link">Ver configurações personalizadas</annotation></string>
     <string name="zen_mode_settings_dnd_manual_end_time">O modo \"Não perturbe\" fica ativado até %s</string>
     <string name="zen_mode_settings_dnd_manual_indefinite">O modo Não perturbe ficará ativado até que você o desative.</string>
     <string name="zen_mode_settings_schedules_summary">{count,plural, =0{Nenhuma}=1{1 programação definida}one{# programação definida}other{# programações definidas}}</string>
