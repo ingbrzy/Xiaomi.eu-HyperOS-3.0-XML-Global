@@ -191,19 +191,21 @@
     <string name="accessibility_phone_three_bars">Три смужки сигналу телефону.</string>
     <string name="accessibility_phone_two_bars">Дві смужки сигналу телефону.</string>
     <string name="accessibility_qr_code_scanner_button">Сканер QR-коду</string>
-    <string name="accessibility_qs_edit_move_tile">Перемістити кнопку %1$s</string>
+    <string name="accessibility_qs_edit_move_tile">Перемістити %1$s</string>
     <string name="accessibility_qs_edit_position">Позиція %1$d</string>
-    <string name="accessibility_qs_edit_remove_tile">Видалити кнопку %1$s</string>
+    <string name="accessibility_qs_edit_remove_tile">Видалити %1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">вилучити опцію</string>
-    <string name="accessibility_qs_edit_tile_add">Додати кнопку %1$s на позицію %2$d</string>
+    <string name="accessibility_qs_edit_tile_add">Додати %1$s на позицію %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">додати опцію в кінець</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Додати на позицію %1$d</string>
-    <string name="accessibility_qs_edit_tile_added">%1$s було додано на позицію %2$d</string>
-    <string name="accessibility_qs_edit_tile_move">Перемістити кнопку %1$s на позицію %2$d</string>
+    <string name="accessibility_qs_edit_tile_added">Кнопка %1$s тепер займає позицію %2$d</string>
+    <string name="accessibility_qs_edit_tile_move">Перемістити %1$s на позицію %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Перемістити на позицію %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s було видалено</string>
     <string name="accessibility_qs_edit_tile_start_add">Додати панель</string>
     <string name="accessibility_qs_edit_tile_start_move">Перемістити опцію</string>
+    <string name="accessibility_qs_item_drag">Перетягування</string>
+    <string name="accessibility_qs_position_hint">Поміщено на рядку %1$d колонки %2$d</string>
     <string name="accessibility_quick_settings_alarm">Сигнал установлено на %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">активувати</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Підключена рукоятка</string>
     <string name="accessibility_quick_settings_open_settings">Відкрити налаштування %s.</string>
     <string name="accessibility_quick_settings_page">Сторінка %1$d з %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Індикатор сторінки</string>
     <string name="accessibility_quick_settings_power_menu">Меню кнопки живлення</string>
     <string name="accessibility_quick_settings_rotation">Автоматично обертати екран</string>
     <string name="accessibility_quick_settings_settings">Відкрити налаштування.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Надіслати</string>
     <string name="accessibility_sensors_off_active">Активовано вимкнення датчиків</string>
     <string name="accessibility_settings">Налаштування</string>
+    <string name="accessibility_sliding_button_state_description_off">Вимкнено</string>
+    <string name="accessibility_sliding_button_state_description_on">Увімкнено</string>
     <string name="accessibility_split_bottom">Розділити внизу</string>
     <string name="accessibility_split_left">Розділити зліва</string>
     <string name="accessibility_split_right">Розділити справа</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Хороше з’єднання із супутником</string>
     <string name="accessibility_status_bar_satellite_no_connection">Немає з’єднання із супутником</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Погане з’єднання із супутником</string>
+    <string name="accessibility_tab_state_description_unselect">Не вибрано</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">дізнатися більше</string>
     <string name="accessibility_tty_enabled">Телетайп увімкнено.</string>
     <string name="accessibility_unlock_button">Розблоковано</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">"Включати у звіти про помилки додаткові записи постачальника про пристрій, які можуть містити особисті дані, призводити до надмірного споживання заряду акумулятора та/або використовувати більший обсяг пам'яті."</string>
     <string name="enabled_by_admin">Увімкнено адміністратором</string>
     <string name="enhanced_connectivity_summary">"Вмикає функцію покращеного з'єднання."</string>
+    <string name="enrol_fingerprint_process_talkback">Додавання відбитка пальця</string>
     <string name="eras_ad">н. е.</string>
     <string name="eras_bc">до н. е.</string>
     <string name="error_disable_esim_msg">Не вдається вимкнути eSIM-карту через помилку.</string>
@@ -1057,6 +1064,7 @@
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">dd EE</string>
     <string name="format_week_day_style1_desc">%1$s, день місяця: %2$s</string>
+    <string name="free_form_recommend_tip">Спливаюче вікно</string>
     <string name="friday">"П'ятниця"</string>
     <string name="friday_short">Пт</string>
     <string name="friday_shortest">Пт</string>
@@ -1191,6 +1199,15 @@
     <string name="inattentive_sleep_warning_message">Незабаром пристрій буде вимкнено. Натисніть, щоб цього не сталося.</string>
     <string name="inattentive_sleep_warning_title">Режим очікування</string>
     <string name="indeterminate">Частково вибрано</string>
+    <string name="info_focus_download_end">Завантажено</string>
+    <string name="info_focus_download_start">Відкрийте спливаюче вікно та дочекайтеся завершення завантаження</string>
+    <string name="info_focus_download_update">Прогрес завантаження</string>
+    <string name="info_focus_match_end">Противник підібраний</string>
+    <string name="info_focus_match_start">Відкрийте спливаюче вікно та дочекайтеся підбору супротивників</string>
+    <string name="info_focus_match_update">Підбір супротивників…</string>
+    <string name="info_focus_rebirth_end">Відроджений(-а)</string>
+    <string name="info_focus_rebirth_start">Відкрийте спливаюче вікно та дочекайтеся відродження</string>
+    <string name="info_focus_rebirth_update">Очікування на відродження</string>
     <string name="inline_done_button">Готово</string>
     <string name="inline_ok_button">Застосувати</string>
     <string name="inline_turn_off_notifications">Вимкнути сповіщення</string>
@@ -1408,6 +1425,7 @@
     <string name="kg_wrong_input_try_fp_suggestion">Або розблокуйте відбитком пальця</string>
     <string name="kg_wrong_password">Неправильний пароль</string>
     <string name="kg_wrong_password_try_again">Не той пароль. Спробуйте ще.</string>
+    <string name="kg_wrong_pattern">Неправильний ключ</string>
     <string name="kg_wrong_pattern_try_again">Не той ключ. Спробуйте ще.</string>
     <string name="kg_wrong_pin">Неправильний PIN-код</string>
     <string name="kg_wrong_pin_try_again">Не той PIN. Спробуйте ще.</string>
@@ -1473,6 +1491,7 @@
     <string name="log_access_confirmation_learn_more">Докладніше</string>
     <string name="log_access_confirmation_learn_more_at">Докладніше: %s</string>
     <string name="log_access_confirmation_title">Надати додатку %s доступ до всіх журналів пристрою?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Перегрів пристрою. Зменшена яскравість ліхтарика.</string>
     <string name="m3c_search_bar_search">Пошук</string>
     <string name="m3c_suggestions_available">Підказки внизу</string>
     <string name="magnification_close_settings_click_label">Закрити налаштування збільшення</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Вибрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Згорнуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Розгорнуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Вийти з режиму редагування</string>
+    <string name="miuix_appcompat_accessibility_new_message">Нове сповіщення</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Ввійти в режим редагування</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняти вибір</string>
     <string name="miuix_appcompat_action_mode_select_all">Вибрати все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Вибрати</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Вибрати все</string>
     <string name="miuix_appcompat_select_all_description">Вибрати все</string>
     <string name="miuix_appcompat_select_item">Вибрати елементи</string>
+    <string name="miuix_appcompat_show_dialog_description">Спливаюче вікно</string>
+    <string name="miuix_progressbar_loading">Завантаження</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потягніть вниз для оновлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Оновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Оновлення…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Більше нічого немає</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвилинку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не вдалося завантажити елементи</string>
+    <string name="miuix_show_password">Показати пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Згорнуто</string>
+    <string name="miuix_stretchablewidget_expanded">Розгорнуто</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Не вимикати мобільне передавання даних</string>
     <string name="mobile_data_always_on_summary">Не вимикати мобільний Інтернет, навіть якщо ввімкнено Wi‑Fi (щоб швидше переходити між мережами).</string>
@@ -2494,6 +2524,7 @@ IT-адміністратор може відстежувати й контро�
     <string name="speed_label_okay">ОК</string>
     <string name="speed_label_slow">Повільна</string>
     <string name="speed_label_very_fast">Дуже швидка</string>
+    <string name="split_screen_recommend_tip">Розділений екран</string>
     <string name="split_screen_text">Розділити екран</string>
     <string name="standby_bucket_summary">"Режим очікування:  %s"</string>
     <string name="start_dreams">Заставка</string>
@@ -2612,9 +2643,9 @@ IT-адміністратор може відстежувати й контро�
     <string name="thermal_shutdown_dialog_message">"Телефон перегрівся, тому вимкнувся, щоб охолонути. Зараз він працює як зазвичай.
 
 Телефон може перегріватися, якщо ви:
-\u0009• використовуєте ресурсомісткі додатки (наприклад, ігри, додатки з відео чи для навігації);
-\u0009• завантажуєте великі файли на телефон або з нього;
-\u0009• використовуєте телефон за високої температури."</string>
+\t• використовуєте ресурсомісткі додатки (наприклад, ігри, додатки з відео чи для навігації);
+\t• завантажуєте великі файли на телефон або з нього;
+\t• використовуєте телефон за високої температури."</string>
     <string name="thermal_shutdown_message">"Зараз телефон працює як зазвичай.
 Натисніть, щоб дізнатися більше"</string>
     <string name="thermal_shutdown_title">Телефон перегрівся й вимкнувся</string>

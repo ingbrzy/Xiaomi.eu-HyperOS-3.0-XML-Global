@@ -134,7 +134,9 @@ En vols sortir ara?}}"</string>
     <string name="band_mode_title">Configura el mode de banda de senyal mòbil</string>
     <string name="beidou_findout_settings_title">Quant a la missatgeria per satèl·lit BeiDou</string>
     <string name="beidou_mobile_settings_summary">Només disponible per als usuaris de China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">Només disponible per a usuaris amb servei de comunicacions per satèl·lit BeiDou actiu</string>
     <string name="beidou_mobile_settings_title">Comunicacions per satèl·lit BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">Poseu-vos en contacte amb el vostre operador per activar el servei.</string>
     <string name="beidou_sms_location_fail_toast">Permet que aquesta funció accedeixi primer a la vostra ubicació</string>
     <string name="bf_news_settings">Notícies financeres i de negocis</string>
     <string name="business_hall_settings_summary">"Controla les teves trucades i l'ús de dades"</string>
@@ -635,6 +637,8 @@ En vols sortir ara?}}"</string>
     <string name="enhanced_4g_lte_mode_title">Mode 4G LTE millorat</string>
     <string name="enter_callbarring_password">Introdueix la contrasenya de bloqueig de trucades (%d dígits)</string>
     <string name="enter_esim_manager_title">Gestiona la eSIM</string>
+    <string name="enter_esim_service_support_summary">"Veure una llista d'operadors admesos"</string>
+    <string name="enter_esim_service_support_title">Operadors admesos</string>
     <string name="enter_input">El missatge USSD ha de contenir entre %1$d i %2$d caràcters. Torna-ho a provar.</string>
     <string name="enter_mep_esim_manager_title">Gestiona la SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -678,6 +682,8 @@ En vols sortir ara?}}"</string>
     <string name="fiveg_carrier_aggregation_title">"Agregació d'operadors 5G"</string>
     <string name="fiveg_hosted_mode_summary">Seleccioneu automàticament la millor xarxa per estalviar bateria</string>
     <string name="fiveg_hosted_mode_title">Canvia automàticament el 5G</string>
+    <string name="fiveg_interruption_remind">Sembla que la vostra SIM %s no pot utilitzar els serveis 5G SA. Contacteu amb el vostre operador per obtenir més informació.</string>
+    <string name="fiveg_interruption_remind_title">No es poden utilitzar els serveis 5G</string>
     <string name="fiveg_network_mode_default">Automàtic</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1206,7 +1212,7 @@ S'utilitza en el seu lloc la xarxa preferida.\""</string>
     <string name="not_voice_capable">"No s'admeten les trucades de veu"</string>
     <string name="notallow">Sense concedir</string>
     <string name="notification_channel_sip_account">Comptes SIP obsolets</string>
-    <string name="notification_network_selection_text">La xarxa seleccionada (%s) no està disponible</string>
+    <string name="notification_network_selection_text">La xarxa seleccionada%s no està disponible</string>
     <string name="notification_network_selection_title">Sense servei</string>
     <string name="notification_switch_auto_text">"Sembla que has tornat. S'ha fet un canvi a xarxes locals."</string>
     <string name="notification_switch_auto_title">Xarxes mòbils</string>
@@ -1226,8 +1232,10 @@ S'utilitza en el seu lloc la xarxa preferida.\""</string>
     <string name="obtain_location_information">Ubicació</string>
     <string name="obtain_location_information_summary">"Per optimitzar l'entorn de xarxa actual"</string>
     <string name="oem_radio_info_label">"Informació/configuració específica d'OEM"</string>
+    <string name="offline_call">Comunicació fora de línia de Xiaomi</string>
     <string name="offline_call_has_call">"Una altra persona està ocupada. Torneu-ho a provar d'aquí a un minut o dos."</string>
     <string name="offline_call_not_match_contact">"No s'ha pogut trucar. No sou el contacte de l'altra persona."</string>
+    <string name="offline_call_summary">Truca a telèfons Xiaomi propers a través de Bluetooth sense connexió de xarxa</string>
     <string name="ok">"D'acord"</string>
     <string name="oldPin2Label">PIN2 antic</string>
     <string name="oldPinLabel">PIN antic</string>
@@ -1624,6 +1632,8 @@ Interfície d'UT: %5$s"</string>
        &lt;br> - Aquesta funció no està disponible per a videotrucades."</string>
     <string name="rtt_mode_summary">"Permet l'ús de missatges en una trucada de veu"</string>
     <string name="rtt_mode_title">Trucada de text en temps real (RTT)</string>
+    <string name="rtt_settings_summary">El text en temps real (RTT) us permet utilitzar text per comunicar-vos durant una trucada telefònica</string>
+    <string name="rtt_settings_title">Trucades RTT</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Surt ara</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1967,6 +1977,8 @@ El període següent comença d'aquí a %2$d dies (%3$s)"</string>
     <string name="turnover_mute_summary">Quan el telèfon està sobre una superfície horitzontal amb la pantalla cap amunt, doneu-li la volta per silenciar el timbre, desactivar la vibració i aturar el parpalleig de la llum de notificacions.</string>
     <string name="turnover_mute_title">Gira per silenciar la trucada</string>
     <string name="undefined">Cap</string>
+    <string name="unfold_show_bublle_pref_summary">Desplegueu el dispositiu durant les trucades per mostrar-les a les finestres flotants</string>
+    <string name="unfold_show_bublle_pref_title">Desplegueu per minimitzar les trucades</string>
     <string name="unknown">Desconegut</string>
     <string name="unlock_failed">Sol·licitud de desbloqueig de xarxa incorrecta.</string>
     <string name="unlock_success">Desbloqueig de la xarxa correcte.</string>

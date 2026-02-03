@@ -195,15 +195,17 @@
     <string name="accessibility_qs_edit_position">Paikka %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">Poista %1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">poista kiekko</string>
-    <string name="accessibility_qs_edit_tile_add">Lisää %1$s asentoon %2$d</string>
+    <string name="accessibility_qs_edit_tile_add">Lisää %1$s sijalle %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">lisää kiekko loppuun</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Lisää paikkaan %1$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s lisätty sijaintiin %2$d</string>
-    <string name="accessibility_qs_edit_tile_move">Siirrä %1$s asentoon %2$d</string>
+    <string name="accessibility_qs_edit_tile_move">Siirrä %1$s sijalle %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Siirrä paikkaan %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s on poistettu</string>
     <string name="accessibility_qs_edit_tile_start_add">Lisää kiekko</string>
     <string name="accessibility_qs_edit_tile_start_move">Siirrä kiekkoa</string>
+    <string name="accessibility_qs_item_drag">Vedetään</string>
+    <string name="accessibility_qs_position_hint">Sijoitettu riville %1$d, sarakkeelle %2$d</string>
     <string name="accessibility_quick_settings_alarm">Hälytys asetettu, aika: %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">aktivoi</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Yhdistetty kahva</string>
     <string name="accessibility_quick_settings_open_settings">Avaa kohteen %s asetukset.</string>
     <string name="accessibility_quick_settings_page">Sivu %1$d/%2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Sivun ilmaisin</string>
     <string name="accessibility_quick_settings_power_menu">Virtavalikko</string>
     <string name="accessibility_quick_settings_rotation">Käännä näyttöä automaattisesti.</string>
     <string name="accessibility_quick_settings_settings">Avaa asetukset.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Lähetä</string>
     <string name="accessibility_sensors_off_active">Anturit pois päältä aktiivinen</string>
     <string name="accessibility_settings">Asetukset</string>
+    <string name="accessibility_sliding_button_state_description_off">Sammutettu</string>
+    <string name="accessibility_sliding_button_state_description_on">Käynnistetty</string>
     <string name="accessibility_split_bottom">Alhaalla</string>
     <string name="accessibility_split_left">Vasemmalla</string>
     <string name="accessibility_split_right">Oikealla</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Satelliitti, hyvä yhteys</string>
     <string name="accessibility_status_bar_satellite_no_connection">Satelliitti, ei yhteyttä</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Satelliitti, huono yhteys</string>
+    <string name="accessibility_tab_state_description_unselect">Ei valittu</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">lukeaksesi lisää</string>
     <string name="accessibility_tty_enabled">Tekstipuhelin käytössä.</string>
     <string name="accessibility_unlock_button">Lukitus avattu</string>
@@ -892,6 +898,7 @@ Jos jatkat käyttöä, datan käytöstä saatetaan periä maksuja."</string>
     <string name="enable_verbose_vendor_logging_summary">Sisällytä virheraportteihin muita laitekohtaisia myyjälokeja, jotka voivat sisältää yksityisiä tietoja, käyttää enemmän akkua ja/tai käyttää enemmän tallennustilaa</string>
     <string name="enabled_by_admin">Järjestelmänvalvojan sallima</string>
     <string name="enhanced_connectivity_summary">Ottaa käyttöön Parannetut yhteydet ‑ominaisuuden.</string>
+    <string name="enrol_fingerprint_process_talkback">Lisätään sormenjälkeä</string>
     <string name="eras_ad">jKr.</string>
     <string name="eras_bc">eKr.</string>
     <string name="error_disable_esim_msg">Tapahtui virhe, eikä eSIMiä voitu poistaa käytöstä.</string>
@@ -1057,6 +1064,7 @@ Sammuta virtapainikkeella."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d.</string>
     <string name="format_week_day_style1_desc">%1$s, kuukauden päivä: %2$s</string>
+    <string name="free_form_recommend_tip">Kelluva ikkuna</string>
     <string name="friday">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
@@ -1191,6 +1199,15 @@ Lue lisää napauttamalla"</string>
     <string name="inattentive_sleep_warning_message">Laite sammuu pian. Pidä se päällä painamalla.</string>
     <string name="inattentive_sleep_warning_title">Virransäästötila</string>
     <string name="indeterminate">Osittain tarkistettu</string>
+    <string name="info_focus_download_end">Ladattu</string>
+    <string name="info_focus_download_start">Avaa kelluva ikkuna ja odota latauksen valmistumista.</string>
+    <string name="info_focus_download_update">Latauksen edistyminen</string>
+    <string name="info_focus_match_end">Yhdistetty onnistuneesti</string>
+    <string name="info_focus_match_start">Avaa kelluva ikkuna ja odota, että sinut yhdistetään</string>
+    <string name="info_focus_match_update">Yhdistetään…</string>
+    <string name="info_focus_rebirth_end">Herätetty</string>
+    <string name="info_focus_rebirth_start">Avaa kelluva ikkuna ja odota heräämistä</string>
+    <string name="info_focus_rebirth_update">Odotetaan heräämistä</string>
     <string name="inline_done_button">Valmis</string>
     <string name="inline_ok_button">Käytä</string>
     <string name="inline_turn_off_notifications">Poista ilmoitukset käytöstä</string>
@@ -1408,6 +1425,7 @@ Lue lisää napauttamalla"</string>
     <string name="kg_wrong_input_try_fp_suggestion">Voit avata lukituksen myös sormenjäljellä</string>
     <string name="kg_wrong_password">Väärä salasana</string>
     <string name="kg_wrong_password_try_again">Väärä salasana. Yritä uud.</string>
+    <string name="kg_wrong_pattern">Väärä kuvio</string>
     <string name="kg_wrong_pattern_try_again">Väärä kuvio. Yritä uud.</string>
     <string name="kg_wrong_pin">Väärä PIN-koodi</string>
     <string name="kg_wrong_pin_try_again">Väärä PIN. Yritä uud.</string>
@@ -1473,6 +1491,7 @@ Jos et salli tälle sovellukselle pääsyä kaikkiin laitelokeihin, sillä on ku
     <string name="log_access_confirmation_learn_more">Lue lisää</string>
     <string name="log_access_confirmation_learn_more_at">Lue lisää: %s</string>
     <string name="log_access_confirmation_title">Saako %s pääsyn kaikkiin laitelokeihin?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Laite ylikuumentunut. Taskulamppujen kirkkauden vähentäminen.</string>
     <string name="m3c_search_bar_search">Hae</string>
     <string name="m3c_suggestions_available">Ehdotuksia alla</string>
     <string name="magnification_close_settings_click_label">Sulje suurennusasetukset</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Valittu</string>
+    <string name="miuix_accessibility_title">Otsikko</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Pienennetty</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Laajennettu</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Poistu muokkaustilasta</string>
+    <string name="miuix_appcompat_accessibility_new_message">Uusi ilmoitus</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Aloita muokkaustila</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kumoa kaikkien valinta</string>
     <string name="miuix_appcompat_action_mode_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_action_mode_title_empty">Valitse kohteet</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Valitse kaikki</string>
     <string name="miuix_appcompat_select_all_description">Valitse kaikki</string>
     <string name="miuix_appcompat_select_item">Valitse kohteet</string>
+    <string name="miuix_appcompat_show_dialog_description">Ponnahdusikkuna</string>
+    <string name="miuix_progressbar_loading">Lataa</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Virkistä vetämällä alas</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Virkistetty onnistuneesti</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Virkistetään…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Siinä kaikki tältä erää</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Hetki vain…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Kohteita ei voitu ladata</string>
+    <string name="miuix_show_password">Näytä salasana</string>
+    <string name="miuix_stretchablewidget_collapsed">Pienennetty</string>
+    <string name="miuix_stretchablewidget_expanded">Laajennettu</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Mobiilidata aina käytössä</string>
     <string name="mobile_data_always_on_summary">Pidä mobiilidata aina käytössä, vaikka Wi-Fi olisi aktiivinen. Tämä mahdollistaa nopeamman vaihtelun verkkojen välillä</string>
@@ -2494,6 +2524,7 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="speed_label_okay">OK</string>
     <string name="speed_label_slow">Hidas</string>
     <string name="speed_label_very_fast">Hyvin nopea</string>
+    <string name="split_screen_recommend_tip">Jaettu näyttö</string>
     <string name="split_screen_text">Jaettu näyttö</string>
     <string name="standby_bucket_summary">"Sovelluksen valmiusluokka:  %s"</string>
     <string name="start_dreams">Näytönsäästäjä</string>
@@ -2612,9 +2643,9 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="thermal_shutdown_dialog_message">"Puhelimesi oli liian kuuma, joten se sammui. Puhelimesi toimii nyt normaalisti.
 
 Puhelimesi voi kuumentua liikaa, jos
-\u0009• käytät paljon resursseja vaativia sovelluksia (esim. pelejä, videoita tai navigointisovelluksia)
-\u0009• lataat tai lähetät suuria tiedostoja
-\u0009• käytät puhelintasi korkeissa lämpötiloissa."</string>
+\t• käytät paljon resursseja vaativia sovelluksia (esim. pelejä, videoita tai navigointisovelluksia)
+\t• lataat tai lähetät suuria tiedostoja
+\t• käytät puhelintasi korkeissa lämpötiloissa."</string>
     <string name="thermal_shutdown_message">"Puhelimesi toimii nyt normaalisti.
 Lue lisää napauttamalla"</string>
     <string name="thermal_shutdown_title">Puhelin sammui kuumuuden takia</string>

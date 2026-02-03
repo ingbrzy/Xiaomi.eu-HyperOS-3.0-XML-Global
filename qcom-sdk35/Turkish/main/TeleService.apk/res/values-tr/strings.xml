@@ -134,7 +134,9 @@
     <string name="band_mode_title">Radyo Bant Modunu Ayarla</string>
     <string name="beidou_findout_settings_title">BeiDou uydu mesajlaşması hakkında</string>
     <string name="beidou_mobile_settings_summary">Yalnızca China Mobile kullanıcıları için mevcuttur</string>
+    <string name="beidou_mobile_settings_summary_all">Yalnızca etkin BeiDou uydu iletişimleri hizmetine sahip kullanıcılar için mevcuttur</string>
     <string name="beidou_mobile_settings_title">BeiDou uydu iletişimleri</string>
+    <string name="beidou_satellite_enable_message_all">Hizmeti etkinleştirmek için operatörünüzle iletişime geçin.</string>
     <string name="beidou_sms_location_fail_toast">Önce bu özelliğin konumunuza erişmesine izin verin</string>
     <string name="bf_news_settings">İşletme ve Finans Haberleri</string>
     <string name="business_hall_settings_summary">Aramalarınızı ve veri kullanımını kontrol edin</string>
@@ -635,6 +637,8 @@
     <string name="enhanced_4g_lte_mode_title">Geliştirilmiş 4G LTE Modu</string>
     <string name="enter_callbarring_password">(%d haneli) arama engelleme şifresini girin</string>
     <string name="enter_esim_manager_title">"eSIM'i yönet"</string>
+    <string name="enter_esim_service_support_summary">Desteklenen operatörlerin listesini görüntüleyin</string>
+    <string name="enter_esim_service_support_title">Desteklenen operatörler</string>
     <string name="enter_input">USSD mesajları %1$d-%2$d arası karakter içermelidir. Lütfen tekrar deneyin.</string>
     <string name="enter_mep_esim_manager_title">"SIM'i yönet"</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -678,6 +682,8 @@
     <string name="fiveg_carrier_aggregation_title">5G taşıyıcı birleştirme</string>
     <string name="fiveg_hosted_mode_summary">Pil tasarrufu için en iyi ağı otomatik seç</string>
     <string name="fiveg_hosted_mode_title">5G Akıllı Anahtar</string>
+    <string name="fiveg_interruption_remind">Görünüşe göre SIM %s 5G SA hizmetlerini kullanamıyor. Daha fazla bilgi için operatörünüzle iletişime geçin.</string>
+    <string name="fiveg_interruption_remind_title">5G hizmetleri kullanılamıyor</string>
     <string name="fiveg_network_mode_default">Otomatik</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -960,7 +966,8 @@ Bu süre zarfında acil durum aramaları yapabilirsiniz."</string>
     <string name="mhh_enable">Tıp, Sağlık ve Hastane seçenekleri etkinleştirildi</string>
     <string name="mi_mobile_settings_summary">Veri planları Xiaomi tarafından sağlanmaktadır</string>
     <string name="mi_mobile_settings_title">Mi Mobil</string>
-    <string name="mi_mobile_sim_activate_message">"Mi Mobil'i kullanabilmek için SIM %1$d'i etkinleştirin. Bu %2$d-%3$d dakika sürebilir."</string>
+    <string name="mi_mobile_sim_activate_message">"SIM %1$d etkin değil gibi görünüyor. ''Etkinleştir'' seçeneğine dokun ve başlamak için talimatları takip edin."</string>
+    <string name="mi_mobile_sim_activate_title">Mi Mobil SIM aktivasyonu</string>
     <string name="mi_sim_settings_summary">SIM kartsız mobil veri kullanın</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Gece</string>
@@ -1208,7 +1215,7 @@ Seçmiş olduğunuz ağ yerine tercih edilen ağ kullanılıyor."</string>
     <string name="not_voice_capable">Sesli arama desteklenmiyor</string>
     <string name="notallow">İzin verilmedi</string>
     <string name="notification_channel_sip_account">Kullanımdan kaldırılan SIP hesapları</string>
-    <string name="notification_network_selection_text">Seçili ağ (%s) kullanılamıyor</string>
+    <string name="notification_network_selection_text">Seçili ağ%s kullanılamıyor</string>
     <string name="notification_network_selection_title">Hizmet yok</string>
     <string name="notification_switch_auto_text">Geri dönmüş gibi görünüyorsunuz.Yerel ağlara değiştirildi.</string>
     <string name="notification_switch_auto_title">Mobil ağlar</string>
@@ -1228,8 +1235,10 @@ Seçmiş olduğunuz ağ yerine tercih edilen ağ kullanılıyor."</string>
     <string name="obtain_location_information">Konum</string>
     <string name="obtain_location_information_summary">Mevcut ağ ortamını optimize etmek için</string>
     <string name="oem_radio_info_label">"OEM'e Özgü Bilgiler/Ayarlar"</string>
+    <string name="offline_call">Xiaomi Çevrim Dışı İletişim</string>
     <string name="offline_call_has_call">Diğer kişi meşgul. Bir iki dakika içinde tekrar deneyin.</string>
     <string name="offline_call_not_match_contact">Arama yapılamadı. Siz diğer kişinin irtibat kişisi değilsiniz.</string>
+    <string name="offline_call_summary">Yakındaki Xiaomi telefonları bir ağ bağlantısı olmadan Bluetooth ile arayın</string>
     <string name="ok">Tamam</string>
     <string name="oldPin2Label">Eski PIN2</string>
     <string name="oldPinLabel">Eski PIN</string>
@@ -1628,6 +1637,8 @@ UT Arayüzü: %5$s"</string>
        &lt;br> - RTT, görüntülü görüşmelerde kullanılamaz"</string>
     <string name="rtt_mode_summary">Sesli aramada mesajlaşmaya izin verilir</string>
     <string name="rtt_mode_title">Gerçek zamanlı mesaj (RTT) çağrısı</string>
+    <string name="rtt_settings_summary">Gerçek zamanlı mesaj (RTT) özelliği bir arama sırasında iletişim kurmak için mesajı kullanmanıza olanak tanır</string>
+    <string name="rtt_settings_title">RTT araması</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Şimdi çıkış yap</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1971,6 +1982,8 @@ Bir sonraki dönem %2$d gün sonra başlıyor (%3$s)"</string>
     <string name="turnover_mute_summary">Telefon yatay bir yüzey üzerinde ve ekranı yukarı doğru bakarken, zili susturmak, titreşimi kapatmak ve yanıp sönen bildirim ışığını durdurmak için ters çevirin.</string>
     <string name="turnover_mute_title">Susturmak için çevir</string>
     <string name="undefined">Yok</string>
+    <string name="unfold_show_bublle_pref_summary">Kayan pencerelerde aramaları göstermek için aramalar sırasında cihazı açın</string>
+    <string name="unfold_show_bublle_pref_title">Aramaları küçültmek için açın</string>
     <string name="unknown">Bilinmeyen</string>
     <string name="unlock_failed">Ağ kilidi açma isteği başarısız.</string>
     <string name="unlock_success">Ağ kilidi açılamadı.</string>

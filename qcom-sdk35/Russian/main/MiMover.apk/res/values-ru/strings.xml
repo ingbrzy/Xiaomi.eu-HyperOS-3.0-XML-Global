@@ -152,6 +152,7 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="contact_records_permission_desc">Для переноса журнала вызовов на другие устройства.</string>
     <string name="contacts">Контакты</string>
     <string name="contacts_permission_desc">Для переноса контактов на другие устройства.</string>
+    <string name="contains_unauthorized_data">Содержит несанкционированные данные</string>
     <string name="copy">Копировать</string>
     <string name="current_user_not_supported_summary">Текущие настройки системы запрещают передачу данных через Mi Mover.</string>
     <string name="current_user_not_supported_title">Невозможно перенести объекты</string>
@@ -416,8 +417,12 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="manual_connection_content2">%d. Выберите следующую точку доступа Wi-Fi.</string>
     <string name="manual_connection_content3">%d. Для подключения введите этот пароль на старом устройстве.</string>
     <string name="manual_connection_hint">Нажмите \"Подключить вручную\" на старом устройстве.</string>
+    <string name="manual_connection_hint_pad">Нажмите «Подключить вручную» на старом устройстве</string>
+    <string name="manual_connection_hint_phone">Нажмите «Подключить вручную» на старом устройстве</string>
     <string name="manual_connection_summary2">Если вы не можете обнаружить эту точку доступа, обновите список доступных сетей Wi-Fi и повторите попытку.</string>
     <string name="manual_connection_title">Подключитесь к старому устройству вручную</string>
+    <string name="manual_connection_title_pad">Подключите старое устройство к точке доступа</string>
+    <string name="manual_connection_title_phone">Подключите старое устройство к точке доступа</string>
     <string name="message_request_manage_external_storage_perm">Чтобы переместить данные со старого устройства на новое, Mi Mover требуется доступ ко всем файлам на этом устройстве.</string>
     <string name="message_request_package_stats_perm">Mi Mover требуется это разрешение для получения списка установленных приложений на устройстве, а также для переноса этих приложений на другое устройство.</string>
     <string name="midnight">Ночь</string>
@@ -531,14 +536,14 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="new_trans_intro_desc_new">"%1$d. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover из Play Маркета или перейдя по этой ссылку: %2$s.
 %3$d. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках Wi-Fi. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
     <string name="new_trans_intro_desc_new_click">Скачать</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в GetApps или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках Wi-Fi. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в GetApps или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках WLAN. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в GetApps или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках Wi-Fi. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в GetApps или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках WLAN. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в Google Play или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках Wi-Fi. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в GetApps или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках WLAN. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в Google Play или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках Wi-Fi. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Убедитесь, что на новом устройстве установлена последняя версия Mi Mover. Вы можете загрузить новейшую версию Mi Mover, перейдя в GetApps или <Data>&lt;a href=%2$s>нажав здесь&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Если точка доступа не отображается на новом устройстве, проверьте, отображается ли она в настройках WLAN. Если она отображается в настройках, откройте Mi Mover и нажмите на имя точки доступа."</string>
     <string name="new_trans_intro_desc_old">%d. Если точка доступа все равно не отображается в Mi Mover, проверьте, отображается ли она в настройках Wi-Fi. Если да, то вернитесь в Mi Mover и нажмите на имя точки доступа.</string>
     <string name="new_trans_intro_question_1">%d. Почему я не вижу точку доступа, созданную новым устройством, на старом устройстве?</string>
     <string name="new_trans_intro_question_1_pad">%d. Почему я не вижу точку доступа, созданную новым устройством, на старом устройстве?</string>
@@ -637,6 +642,8 @@ https://appleid.apple.com/#!&amp;page=signin"</string>
     <string name="permission_alert_title">Требуются разрешения</string>
     <string name="permission_bluetooth_summary">Для поиска доступных устройств поблизости</string>
     <string name="permission_bluetooth_title">Включение и отключение Bluetooth</string>
+    <string name="permission_calendar_summary">Для передачи событий календаря</string>
+    <string name="permission_calendar_title">Доступ к календарю</string>
     <string name="permission_calender_summary">Для переноса событий со старого устройства на новое</string>
     <string name="permission_calender_summary_global">Для переноса событий календаря на новое устройство</string>
     <string name="permission_calender_title">Доступ к событиям календаря</string>

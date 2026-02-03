@@ -129,7 +129,9 @@
     <string name="band_mode_title">Konfigurer radiobåndstilstand</string>
     <string name="beidou_findout_settings_title">Om BeiDou-satellitkommunikation</string>
     <string name="beidou_mobile_settings_summary">Kun tilgængelig for China Mobile-brugere</string>
+    <string name="beidou_mobile_settings_summary_all">Kun tilgængelig for brugere med aktiv BeiDou-satellitkommunikationstjeneste.</string>
     <string name="beidou_mobile_settings_title">BeiDou-satellitkommunikation</string>
+    <string name="beidou_satellite_enable_message_all">Kontakt din udbyder for at aktivere tjenesten.</string>
     <string name="beidou_sms_location_fail_toast">Tillad denne funktion at få adgang til din placering først</string>
     <string name="bf_news_settings">Erhvervs- og økonomiske nyheder</string>
     <string name="business_hall_settings_summary">Administrer dine opkald og dit dataforbrug</string>
@@ -630,6 +632,8 @@
     <string name="enhanced_4g_lte_mode_title">Udvidet 4G LTE-tilstand</string>
     <string name="enter_callbarring_password">Indtast adgangskode til opkaldsspærring (%d cifre)</string>
     <string name="enter_esim_manager_title">Administrer eSIM</string>
+    <string name="enter_esim_service_support_summary">Se en liste over understøttede operatører</string>
+    <string name="enter_esim_service_support_title">Understøttede operatør</string>
     <string name="enter_input">USSD-meddelelse skal være mellem %1$d og %2$d tegn. Prøv igen.</string>
     <string name="enter_mep_esim_manager_title">Administrer SIM</string>
     <string name="enter_pin2_text">Pinkode%d</string>
@@ -673,6 +677,8 @@
     <string name="fiveg_carrier_aggregation_title">5G-operatør-aggregering</string>
     <string name="fiveg_hosted_mode_summary">Vælg det bedste netværk automatisk for at spare batteri</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">Det ser ud til, at dit SIM-kort %s ikke understøtter 5G SA-tjenester. Kontakt din mobiludbyder for flere oplysninger.</string>
+    <string name="fiveg_interruption_remind_title">Kan ikke bruge 5G-tjenester</string>
     <string name="fiveg_network_mode_default">Automatisk</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1167,7 +1173,7 @@ Du kan stadig foretage nødopkald."</string>
     <string name="network_settings_query_failed_message">Kunne ikke søge efter mobilnetværker.</string>
     <string name="network_settings_select_automatic_hint">"Kan ikke tilmeldes på det valgte netværk
 Bruger foretrukket netværk i stedet."</string>
-    <string name="network_settings_title">Mobilnetværker</string>
+    <string name="network_settings_title">Mobilnetværk</string>
     <string name="network_settings_turn_off">Slået fra</string>
     <string name="network_settings_warn_message">Din enhed vil kun oprette forbindelse til netværker, du har valgt manuelt.</string>
     <string name="network_state_display">Vis netværksstatus</string>
@@ -1201,7 +1207,7 @@ Bruger foretrukket netværk i stedet."</string>
     <string name="not_voice_capable">Taleopkald understøttes ikke</string>
     <string name="notallow">Ikke bevilget</string>
     <string name="notification_channel_sip_account">Udfasede SIP-konti</string>
-    <string name="notification_network_selection_text">Det valgte netværk %s er ikke tilgængeligt</string>
+    <string name="notification_network_selection_text">Det valgte netværk%s er ikke tilgængeligt</string>
     <string name="notification_network_selection_title">Ingen dækning</string>
     <string name="notification_switch_auto_text">Det ser ud til, at du er tilbage. Skiftede til lokale netværk.</string>
     <string name="notification_switch_auto_title">Mobilnetværk</string>
@@ -1221,8 +1227,10 @@ Bruger foretrukket netværk i stedet."</string>
     <string name="obtain_location_information">Placering</string>
     <string name="obtain_location_information_summary">Til optimering af det nuværende netværksmiljø</string>
     <string name="oem_radio_info_label">OEM-specifikke oplysninger/indstillinger</string>
+    <string name="offline_call">Xiaomi offline kommunikation</string>
     <string name="offline_call_has_call">Den anden person er optaget. Prøv igen om et minut eller to.</string>
     <string name="offline_call_not_match_contact">Opkald mislykkedes. Du er ikke på den anden persons kontaktliste.</string>
+    <string name="offline_call_summary">Ring til Xiaomi-enheder i nræheden via Bluetooth uden netværksforbindelse</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Nuværende PIN2-kode</string>
     <string name="oldPinLabel">Nuværende pinkode</string>
@@ -1621,6 +1629,8 @@ UT-grænseflade: %5$s"</string>
        &lt;br> – Beskeder i realtid er ikke tilgængeligt til videoopkald"</string>
     <string name="rtt_mode_summary">Tillad afsendelse af sms-beskeder i et taleopkald</string>
     <string name="rtt_mode_title">Opkald via beskeder i realtid</string>
+    <string name="rtt_settings_summary">Besked i realtid (real-time Text, RTT) giver dig mulighed for at kommunikere via tekst under et telefonopkald</string>
+    <string name="rtt_settings_title">RTT-opkald</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Afslut nu</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1964,6 +1974,8 @@ Næste periode om %2$d dage (%3$s)"</string>
     <string name="turnover_mute_summary">Når telefonen ligger på et vandret underlag med skærmen opad, vend den om for at slå ringelyden, vibratoren og blinklys-notifikationer fra.</string>
     <string name="turnover_mute_title">Vend for lydløs ringetone</string>
     <string name="undefined">Ingen</string>
+    <string name="unfold_show_bublle_pref_summary">Fold enheden ud under opkald for at vise dem i flydende vinduer</string>
+    <string name="unfold_show_bublle_pref_title">Fold ud for at minimere opkald</string>
     <string name="unknown">Ukendt</string>
     <string name="unlock_failed">Anmodningen om oplåsning af netværk mislykkedes.</string>
     <string name="unlock_success">Netværket blev låst op.</string>

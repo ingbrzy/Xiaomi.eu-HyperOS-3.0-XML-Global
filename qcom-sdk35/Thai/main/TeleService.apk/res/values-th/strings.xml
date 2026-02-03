@@ -134,7 +134,9 @@
     <string name="band_mode_title">ตั้งค่าโหมดย่านความถี่วิทยุ</string>
     <string name="beidou_findout_settings_title">เกี่ยวกับการส่งข้อความผ่านดาวเทียม BeiDou</string>
     <string name="beidou_mobile_settings_summary">มีให้เฉพาะผู้ใช้ China Mobile เท่านั้น</string>
+    <string name="beidou_mobile_settings_summary_all">ใช้ได้เฉพาะผู้ใช้ที่ใช้บริการสื่อสารดาวเทียม BeiDou ที่ใช้งานอยู่เท่านั้น</string>
     <string name="beidou_mobile_settings_title">การสื่อสารผ่านดาวเทียม BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">ติดต่อผู้ให้บริการของคุณเพื่อเปิดใช้งานบริการ</string>
     <string name="beidou_sms_location_fail_toast">อนุญาตให้ฟีเจอร์นี้เข้าถึงตำแหน่งของคุณก่อน</string>
     <string name="bf_news_settings">ข่าวธุรกิจและการเงิน</string>
     <string name="business_hall_settings_summary">ควบคุมการโทรและการใช้ข้อมูลของคุณ</string>
@@ -635,6 +637,8 @@
     <string name="enhanced_4g_lte_mode_title">โหมด 4G LTE ที่ปรับปรุงแล้ว</string>
     <string name="enter_callbarring_password">ป้อนรหัสผ่านสำหรับจำกัดการโทร (%d หลัก)</string>
     <string name="enter_esim_manager_title">จัดการ eSIM</string>
+    <string name="enter_esim_service_support_summary">ดูรายชื่อผู้ให้บริการที่รองรับ</string>
+    <string name="enter_esim_service_support_title">ผู้ให้บริการที่รองรับ</string>
     <string name="enter_input">ข้อความ USSD ต้องมีจำนวนอักขระระหว่าง %1$d และ %2$d อักขระ โปรดลองอีกครั้ง</string>
     <string name="enter_mep_esim_manager_title">จัดการซิม</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -679,6 +683,8 @@
     <string name="fiveg_carrier_aggregation_title">การรวมตัวของผู้ให้บริการ 5G</string>
     <string name="fiveg_hosted_mode_summary">เลือกเครือข่ายที่ดีที่สุดโดยอัตโนมัติเพื่อประหยัดแบตเตอรี่</string>
     <string name="fiveg_hosted_mode_title">สวิตช์อัจฉริยะ 5G</string>
+    <string name="fiveg_interruption_remind">ดูเหมือนว่าซิม %s ของคุณจะไม่สามารถใช้บริการ 5G SA ได้ โปรดติดต่อผู้ให้บริการของคุณเพื่อขอข้อมูลเพิ่มเติม</string>
+    <string name="fiveg_interruption_remind_title">ไม่สามารถใช้บริการ 5G ได้</string>
     <string name="fiveg_network_mode_default">อัตโนมัติ</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -959,7 +965,8 @@
     <string name="mhh_enable">เปิดใช้งานการแพทย์ สุขภาพ และโรงพยาบาลแล้ว</string>
     <string name="mi_mobile_settings_summary">แผนข้อมูลที่จัดทำโดย Xiaomi</string>
     <string name="mi_mobile_settings_title">Mi มือถือ</string>
-    <string name="mi_mobile_sim_activate_message">เปิดใช้งาน ซิม %1$dเพื่อให้สามารถใช้ Mi มือถือ ได้ ซึ่งอาจใช้เวลานานถึง %2$d-%3$d นาที</string>
+    <string name="mi_mobile_sim_activate_message">ดูเหมือนว่าซิม %1$d จะยังไม่ได้เปิดใช้งาน แตะ \"เปิดใช้งาน\" แล้วทำตามคำแนะนำเพื่อเริ่มต้นใช้งาน</string>
+    <string name="mi_mobile_sim_activate_title">การเปิดใช้งานซิม Mi มือถือ</string>
     <string name="mi_sim_settings_summary">ใช้ข้อมูลมือถือโดยไม่ต้องใช้ซิมการ์ด</string>
     <string name="mi_sim_settings_title">ซิม Mi</string>
     <string name="midnight">กลางคืน</string>
@@ -1227,8 +1234,10 @@
     <string name="obtain_location_information">ตำแหน่งพิกัด</string>
     <string name="obtain_location_information_summary">สำหรับการปรับสภาพแวดล้อมเครือข่ายปัจจุบันให้เหมาะสมที่สุด</string>
     <string name="oem_radio_info_label">ข้อมูล/การตั้งค่าเฉพาะตาม OEM</string>
+    <string name="offline_call">การสื่อสารแบบออฟไลน์ของ Xiaomi</string>
     <string name="offline_call_has_call">คนอื่นกำลังยุ่งอยู่ โปรดลองใหม่อีกครั้งในอีก 1-2 นาที</string>
     <string name="offline_call_not_match_contact">ไม่สามารถโทรได้ คุณไม่ใช่ผู้ติดต่อของอีกฝ่าย</string>
+    <string name="offline_call_summary">โทรหาโทรศัพท์ Xiaomi ใกล้เคียงผ่านบลูทูธโดยไม่ต้องเชื่อมต่อกับเครือข่าย</string>
     <string name="ok">ตกลง</string>
     <string name="oldPin2Label">PIN2 เก่า</string>
     <string name="oldPinLabel">PIN เก่า</string>
@@ -1627,6 +1636,8 @@
        &lt;br> - RTT ใช้ไม่ได้สำหรับวิดีโอคอล"</string>
     <string name="rtt_mode_summary">อนุญาตให้รับส่งข้อความระหว่างการโทรด้วยเสียง</string>
     <string name="rtt_mode_title">การโทรระบบข้อความแบบเรียลไทม์ (RTT)</string>
+    <string name="rtt_settings_summary">ข้อความแบบเรียลไทม์ (RTT) ช่วยให้คุณสามารถใช้ข้อความเพื่อสื่อสารระหว่างการโทรศัพท์ได้</string>
+    <string name="rtt_settings_title">การโทร RTT</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">ออกตอนนี้</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1970,6 +1981,8 @@
     <string name="turnover_mute_summary">เมื่อโทรศัพท์วางอยู่บนแนวนอนและหันหน้าจอขึ้น พลิกโทรศัพท์เพื่อปิดเสียงเรียกเข้า ปิดการสั่นและหยุดไฟแฟลชแจ้งเตือน</string>
     <string name="turnover_mute_title">คว่ำจอเพื่อปิดเสียงเรียกเข้า</string>
     <string name="undefined">ไม่ได้ตั้ง</string>
+    <string name="unfold_show_bublle_pref_summary">กางอุปกรณ์ในระหว่างการโทรเพื่อแสดงในหน้าต่างลอย</string>
+    <string name="unfold_show_bublle_pref_title">กางออกเพื่อย่อการโทร</string>
     <string name="unknown">ไม่ทราบ</string>
     <string name="unlock_failed">คำขอปลดล็อกเครือข่ายไม่สำเร็จ</string>
     <string name="unlock_success">ปลดล็อกเครือข่ายไม่สำเร็จ</string>

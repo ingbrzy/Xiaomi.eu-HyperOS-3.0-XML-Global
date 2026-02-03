@@ -195,15 +195,17 @@
     <string name="accessibility_qs_edit_position">%1$d 위치</string>
     <string name="accessibility_qs_edit_remove_tile">%1$s 제거</string>
     <string name="accessibility_qs_edit_remove_tile_action">타일 삭제</string>
-    <string name="accessibility_qs_edit_tile_add">%1$s을(를) %2$d 위치에 추가</string>
+    <string name="accessibility_qs_edit_tile_add">위치 %2$d에 %1$s 추가</string>
     <string name="accessibility_qs_edit_tile_add_action">끝에 타일 추가</string>
     <string name="accessibility_qs_edit_tile_add_to_position">%1$d 위치에 추가</string>
     <string name="accessibility_qs_edit_tile_added">%1$s이(가) %2$d 위치에 추가되었습니다.</string>
-    <string name="accessibility_qs_edit_tile_move">%1$s을(를) %2$d 위치로 이동</string>
+    <string name="accessibility_qs_edit_tile_move">위치 %2$d(으)로 %1$s 이동</string>
     <string name="accessibility_qs_edit_tile_move_to_position">%1$d 위치로 이동</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s 제거됨</string>
     <string name="accessibility_qs_edit_tile_start_add">타일 추가</string>
     <string name="accessibility_qs_edit_tile_start_move">타일 이동</string>
+    <string name="accessibility_qs_item_drag">드래그 중</string>
+    <string name="accessibility_qs_position_hint">%1$d행 %2$d열에 위치됨</string>
     <string name="accessibility_quick_settings_alarm">알람이 %s(으)로 설정되었습니다.</string>
     <string name="accessibility_quick_settings_bluetooth">블루투스</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">실행</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">연결된 그립</string>
     <string name="accessibility_quick_settings_open_settings">%s 설정 열기</string>
     <string name="accessibility_quick_settings_page">%2$d페이지 중 %1$d페이지</string>
+    <string name="accessibility_quick_settings_page_indicator">페이지 표시기</string>
     <string name="accessibility_quick_settings_power_menu">전원 메뉴</string>
     <string name="accessibility_quick_settings_rotation">화면 자동 회전</string>
     <string name="accessibility_quick_settings_settings">설정 열기</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">보내기</string>
     <string name="accessibility_sensors_off_active">센서 끄기 활성화</string>
     <string name="accessibility_settings">설정</string>
+    <string name="accessibility_sliding_button_state_description_off">꺼짐</string>
+    <string name="accessibility_sliding_button_state_description_on">켜짐</string>
     <string name="accessibility_split_bottom">아래쪽으로 분할</string>
     <string name="accessibility_split_left">왼쪽으로 분할</string>
     <string name="accessibility_split_right">오른쪽으로 분할</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">위성, 연결 상태 양호</string>
     <string name="accessibility_status_bar_satellite_no_connection">위성, 연결되지 않음</string>
     <string name="accessibility_status_bar_satellite_poor_connection">위성, 연결 상태 나쁨</string>
+    <string name="accessibility_tab_state_description_unselect">선택되지 않음</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">자세히 알아보기</string>
     <string name="accessibility_tty_enabled">전신 타자기(TTY)가 사용 설정되었습니다.</string>
     <string name="accessibility_unlock_button">잠금 해제됨</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">버그 신고에 추가적인 기기별 공급업체 로그를 포함합니다. 여기에는 개인정보가 포함될 수 있으며, 배터리 또는 저장공간 사용량이 늘어날 수 있습니다.</string>
     <string name="enabled_by_admin">관리자가 사용 설정함</string>
     <string name="enhanced_connectivity_summary">향상된 연결 기능을 사용 설정합니다.</string>
+    <string name="enrol_fingerprint_process_talkback">지문 추가 중</string>
     <string name="eras_ad">서기</string>
     <string name="eras_bc">기원전</string>
     <string name="error_disable_esim_msg">오류로 인해 eSIM을 사용 중지할 수 없습니다.</string>
@@ -1057,6 +1064,7 @@ PIN을 입력하여 잠금을 해제하십시오."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">d일 EE</string>
     <string name="format_week_day_style1_desc">%1$s, 해당 월의 일: %2$s</string>
+    <string name="free_form_recommend_tip">플로팅 창</string>
     <string name="friday">금요일</string>
     <string name="friday_short">금</string>
     <string name="friday_shortest">금</string>
@@ -1191,6 +1199,15 @@ PIN을 입력하여 잠금을 해제하십시오."</string>
     <string name="inattentive_sleep_warning_message">기기가 곧 꺼집니다. 계속 켜 두려면 누르세요.</string>
     <string name="inattentive_sleep_warning_title">대기</string>
     <string name="indeterminate">일부 선택됨</string>
+    <string name="info_focus_download_end">다운로드됨</string>
+    <string name="info_focus_download_start">플로팅 창을 열고 다운로드가 완료될 때까지 대기하십시오</string>
+    <string name="info_focus_download_update">다운로드 진행 과정</string>
+    <string name="info_focus_match_end">매칭 성공</string>
+    <string name="info_focus_match_start">플로팅 창을 열고 매칭될 때까지 대기하십시오</string>
+    <string name="info_focus_match_update">매칭하는 중…</string>
+    <string name="info_focus_rebirth_end">리스폰됨</string>
+    <string name="info_focus_rebirth_start">플로팅 창을 열고 리스폰될 때까지 대기하십시오</string>
+    <string name="info_focus_rebirth_update">리스폰 대기 중</string>
     <string name="inline_done_button">완료</string>
     <string name="inline_ok_button">적용</string>
     <string name="inline_turn_off_notifications">알림 사용 중지</string>
@@ -1408,6 +1425,7 @@ PIN을 입력하여 잠금을 해제하십시오."</string>
     <string name="kg_wrong_input_try_fp_suggestion">또는 지문으로 잠금 해제하세요.</string>
     <string name="kg_wrong_password">잘못된 비밀번호</string>
     <string name="kg_wrong_password_try_again">잘못된 비밀번호입니다. 다시 시도해 주세요.</string>
+    <string name="kg_wrong_pattern">잘못된 패턴</string>
     <string name="kg_wrong_pattern_try_again">잘못된 패턴입니다. 다시 시도해 주세요.</string>
     <string name="kg_wrong_pin">잘못된 PIN</string>
     <string name="kg_wrong_pin_try_again">잘못된 PIN입니다. 다시 시도해 주세요.</string>
@@ -1473,6 +1491,7 @@ PIN을 입력하여 잠금을 해제하십시오."</string>
     <string name="log_access_confirmation_learn_more">자세히 알아보기</string>
     <string name="log_access_confirmation_learn_more_at">%s에서 자세히 알아보세요.</string>
     <string name="log_access_confirmation_title">%s에서 전체 기기 로그에 액세스하도록 허용하시겠습니까?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">기기가 과열되었습니다. 손전등 밝기를 낮추십시오.</string>
     <string name="m3c_search_bar_search">검색</string>
     <string name="m3c_suggestions_available">아래의 추천 검색어</string>
     <string name="magnification_close_settings_click_label">확대 설정 닫기</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">선택됨</string>
+    <string name="miuix_accessibility_title">제목</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">축소됨</string>
+    <string name="miuix_appcompat_accessibility_expand_state">확장됨</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">편집 모드 종료</string>
+    <string name="miuix_appcompat_accessibility_new_message">새로운 알림</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">편집 모드로 들어가기</string>
     <string name="miuix_appcompat_action_mode_deselect_all">전체 선택 해제</string>
     <string name="miuix_appcompat_action_mode_select_all">모두 선택</string>
     <string name="miuix_appcompat_action_mode_title_empty">항목 선택</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">모두 선택</string>
     <string name="miuix_appcompat_select_all_description">전체 선택</string>
     <string name="miuix_appcompat_select_item">항목 선택</string>
+    <string name="miuix_appcompat_show_dialog_description">팝업 창</string>
+    <string name="miuix_progressbar_loading">로드 중</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">아래로 당겨 새로고침</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">새로고침 성공</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">새로고침 중…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">결과가 더 없음</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">잠시만 기다려주십시오…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">항목 불러오기 실패</string>
+    <string name="miuix_show_password">비밀번호 표시</string>
+    <string name="miuix_stretchablewidget_collapsed">축소됨</string>
+    <string name="miuix_stretchablewidget_expanded">확장됨</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">항상 모바일 데이터 활성화</string>
     <string name="mobile_data_always_on_summary">Wi‑Fi가 활성화되어 있을 때에도 빠른 네트워크 전환을 위하여 항상 모바일 데이터를 활성 상태로 유지</string>
@@ -2494,6 +2524,7 @@ IT 관리자가 설정, 기업 액세스, 앱, 기기와 연결된 데이터, �
     <string name="speed_label_okay">보통</string>
     <string name="speed_label_slow">느림</string>
     <string name="speed_label_very_fast">매우 빠름</string>
+    <string name="split_screen_recommend_tip">분할 화면</string>
     <string name="split_screen_text">화면 분할</string>
     <string name="standby_bucket_summary">앱 대기 상태: %s</string>
     <string name="start_dreams">화면 보호기</string>
@@ -2612,9 +2643,9 @@ IT 관리자가 설정, 기업 액세스, 앱, 기기와 연결된 데이터, �
     <string name="thermal_shutdown_dialog_message">"휴대전화가 과열되어 온도를 낮추기 위해 전원이 종료되었습니다. 지금은 휴대전화가 정상적으로 작동합니다.
 
 휴대전화가 과열되는 이유는 다음과 같습니다.
-\u0009• 리소스를 많이 사용하는 앱 사용(예: 게임, 동영상 또는 내비게이션 앱)
-\u0009• 대용량 파일을 다운로드 또는 업로드
-\u0009• 온도가 높은 곳에서 휴대전화 사용"</string>
+\t• 리소스를 많이 사용하는 앱 사용(예: 게임, 동영상 또는 내비게이션 앱)
+\t• 대용량 파일을 다운로드 또는 업로드
+\t• 온도가 높은 곳에서 휴대전화 사용"</string>
     <string name="thermal_shutdown_message">"이제 휴대전화가 정상적으로 작동합니다.
 자세히 알아보려면 탭하세요."</string>
     <string name="thermal_shutdown_title">발열로 인해 휴대전화가 꺼짐</string>

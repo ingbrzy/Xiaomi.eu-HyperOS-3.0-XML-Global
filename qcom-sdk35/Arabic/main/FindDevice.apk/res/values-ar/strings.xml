@@ -64,7 +64,7 @@
     <string name="find_device_notice_sms_alert_with_common_charge_hint">إذا قمت بتبديل بطاقات SIM، فسيتم إرسال &lt;font color=#0097FF>&lt;b>رسالة نصية مدفوعة&lt;/b>&lt;/font>إلى شركة الاتصالات الخاصة بك لغرض الحصول على تحديث حالة بطاقة SIM والتأكد من الأداء الصحيح لجميع الخدمات. ستفرض عليك شركة الاتصالات رسوم هذه الرسالة.</string>
     <string name="find_device_notice_sms_alert_with_domestic_charge_hint">إذا قمت بتبديل بطاقات SIM، فسيتم إرسال &lt;font color=#0097FF>&lt;b>رسالة نصية محلية مدفوعة&lt;/b>&lt;/font>إلى شركة الاتصالات الخاصة بك لغرض الحصول على تحديث حالة بطاقة SIM والتأكد من الأداء الصحيح لجميع الخدمات. ستفرض عليك شركة الاتصالات رسوم هذه الرسالة.</string>
     <string name="find_device_notice_sms_alert_with_internal_charge_hint">إذا قمت بتبديل بطاقات SIM، فسيتم إرسال &lt;font color=#0097FF>&lt;b>رسالة نصية دولية مدفوعة&lt;/b>&lt;/font>إلى شركة الاتصالات الخاصة بك لغرض الحصول على تحديث حالة بطاقة SIM والتأكد من الأداء الصحيح لجميع الخدمات. ستفرض عليك شركة الاتصالات رسوم هذه الرسالة.</string>
-    <string name="find_device_stop_noise">انقر موافق لكتم الصوت</string>
+    <string name="find_device_stop_noise">إيقاف</string>
     <string name="find_device_storage_corrupted">تخزين \"العثور على الجهاز\" تالف. جهازك غير آمن الآن.</string>
     <string name="find_device_success_title">\"العثور على الجهاز\" مشغل</string>
     <string name="find_device_telephony_fault">العثور على الجهاز: خطأ هاتفي (%s).</string>
@@ -74,8 +74,8 @@
     <string name="login_failed">تعذر تسجيل الدخول. %s.</string>
     <string name="notification_locate_device">تحديد موقع الأجهزة</string>
     <string name="notification_open_find">تشعيل العثور على الجهاز</string>
-    <string name="open_wifi_settings">Open WLAN settings</string>
-    <string name="open_wifi_settings_china">Open WLAN settings</string>
+    <string name="open_wifi_settings">فتح إعدادات WLAN</string>
+    <string name="open_wifi_settings_china">فتح إعدادات WLAN</string>
     <string name="passport_checking_vcode">جارٍ التحقق من كلمة المرور…</string>
     <string name="passport_error_empty_vcode">أدخل رمز التحقق</string>
     <string name="passport_notification_need_unlock_again">حاول إلغاء قفل مرة اخرى</string>
@@ -97,6 +97,7 @@
     <string name="sys_notification_async_verify_title">إعادة تفعيل العثور على الجهاز</string>
     <string name="talkback_back">رجوع</string>
     <string name="talkback_hide_pwd">إخفاء كلمة المرور</string>
+    <string name="talkback_pwd_error_too_many">محاولات خاطئة كثيرة. حاول مرة أخرى لاحقًا.</string>
     <string name="talkback_show_pwd">إظهار كلمة المرور</string>
     <string name="time_correction_failure">لا يمكن تصحيح الوقت. %s</string>
     <string name="time_correction_success">تم تعديل الوقت</string>
@@ -112,22 +113,22 @@
     <string name="unlock_error_unknown">لا يمكن تسجيل الدخول</string>
     <string name="unlock_error_user_name">اسم مستخدم غير صالح</string>
     <string name="unlock_error_wrong_vcode">الرمز الذي أدخلته غير صحيح</string>
-    <string name="unlock_help">"Connect to the network.
-Insert a working SIM card and don't connect to invalid WLAN networks.
+    <string name="unlock_help">"حافظ على اتصال جهازك بالشبكة.
+أدخل بطاقة SIM يمكن الوصول إليها بشكل طبيعي (إذا كان الجهاز يدعمها) وافصل الاتصال بشبكة Wi-Fi غير الصالحة.
 
-Forgot password?
-Go to id.mi.com, select \"Forgot password?\", and follow the instructions.
+هل نسيت كلمة المرور؟
+قم بزيارة id.mi.com وانقر على \"نسيت كلمة المرور\" لاسترجاعها.
 
-Can't activate device?
-Go to i.mi.com/ss and submit your application to unlock the device."</string>
-    <string name="unlock_help_china">"Connect to the network.
-Insert a working SIM card and don't connect to invalid WLAN networks.
+هل لا يمكنك التنشيط لأسباب أخرى؟
+قم بزيارة i.mi.com/ss وأرسل المعلومات اللازمة للتنشيط."</string>
+    <string name="unlock_help_china">"حافظ على اتصال جهازك بالشبكة.
+أدخل بطاقة SIM يمكن الوصول إليها بشكل طبيعي (إذا كان الجهاز يدعمها) وافصل الاتصال بشبكة WLAN غير الصالحة.
 
-Forgot password?
-Go to id.mi.com, select \"Forgot password?\", and follow the instructions.
+هل نسيت كلمة المرور؟
+قم بزيارة id.mi.com وانقر على \"نسيت كلمة المرور\" لاسترجاعها.
 
-Can't activate device?
-Go to i.mi.com/ss and submit your application to unlock the device."</string>
+هل لا يمكنك التنشيط لأسباب أخرى؟
+قم بزيارة i.mi.com/ss وأرسل المعلومات اللازمة للتنشيط."</string>
     <string name="unlock_help_title">مساعدة \"إلغاء قفل\":</string>
     <string name="unlock_number">رمز إلغاء القفل: %s</string>
     <string name="unlock_wrong_captcha">الرمز الذي أدخلته غير صحيح</string>

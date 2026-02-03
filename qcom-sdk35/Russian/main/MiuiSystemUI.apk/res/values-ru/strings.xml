@@ -191,19 +191,21 @@
     <string name="accessibility_phone_three_bars">Сигнал телефонной сети: три деления.</string>
     <string name="accessibility_phone_two_bars">Сигнал телефонной сети: два деления.</string>
     <string name="accessibility_qr_code_scanner_button">Сканер QR-кодов</string>
-    <string name="accessibility_qs_edit_move_tile">Переместить кнопку %1$s</string>
+    <string name="accessibility_qs_edit_move_tile">Переместить %1$s</string>
     <string name="accessibility_qs_edit_position">Позиция %1$d</string>
-    <string name="accessibility_qs_edit_remove_tile">Удалить кнопку %1$s</string>
+    <string name="accessibility_qs_edit_remove_tile">Удалить %1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">удалить панель</string>
-    <string name="accessibility_qs_edit_tile_add">Добавить кнопку %1$s на позицию %2$d</string>
+    <string name="accessibility_qs_edit_tile_add">Добавить %1$s в позицию %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">добавить панель в конец</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Добавить на позицию %1$d</string>
     <string name="accessibility_qs_edit_tile_added">Кнопка %1$s теперь занимает позицию %2$d</string>
-    <string name="accessibility_qs_edit_tile_move">Переместить кнопку %1$s на позицию %2$d</string>
+    <string name="accessibility_qs_edit_tile_move">Переместить %1$s в позицию %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Переместить на позицию %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">Кнопка %1$s удалена</string>
     <string name="accessibility_qs_edit_tile_start_add">Добавить панель</string>
     <string name="accessibility_qs_edit_tile_start_move">Переместить панель</string>
+    <string name="accessibility_qs_item_drag">Перетаскивание</string>
+    <string name="accessibility_qs_position_hint">Размещено в строке %1$d, столбце %2$d</string>
     <string name="accessibility_quick_settings_alarm">Будильник установлен на %s</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">активировать</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Подключенная рукоятка</string>
     <string name="accessibility_quick_settings_open_settings">Открыть настройки %s.</string>
     <string name="accessibility_quick_settings_page">Страница %1$d из %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Индикатор страницы</string>
     <string name="accessibility_quick_settings_power_menu">Меню кнопки питания</string>
     <string name="accessibility_quick_settings_rotation">Автоповорот экрана</string>
     <string name="accessibility_quick_settings_settings">Открыть настройки.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Отправить</string>
     <string name="accessibility_sensors_off_active">Датчики отключены</string>
     <string name="accessibility_settings">Настройки</string>
+    <string name="accessibility_sliding_button_state_description_off">Отключено</string>
+    <string name="accessibility_sliding_button_state_description_on">Включено</string>
     <string name="accessibility_split_bottom">Приложение снизу</string>
     <string name="accessibility_split_left">Приложение слева</string>
     <string name="accessibility_split_right">Приложение справа</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Спутниковая связь, хорошее качество соединения</string>
     <string name="accessibility_status_bar_satellite_no_connection">Спутниковая связь, нет соединения</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Спутниковая связь, плохое качество соединения</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрано</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">узнать больше</string>
     <string name="accessibility_tty_enabled">Телетайп включен.</string>
     <string name="accessibility_unlock_button">Разблокировано</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">Включать в информацию об ошибках дополнительные записи поставщика об устройстве, которые могут содержать личные данные и занимать больше места. Также это может увеличить расход заряда батареи.</string>
     <string name="enabled_by_admin">Включено администратором</string>
     <string name="enhanced_connectivity_summary">Включить улучшенный обмен данными</string>
+    <string name="enrol_fingerprint_process_talkback">Добавление отпечатка пальца</string>
     <string name="eras_ad">н. э.</string>
     <string name="eras_bc">до н. э.</string>
     <string name="error_disable_esim_msg">Не удалось отключить eSIM.</string>
@@ -1057,6 +1064,7 @@
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">d EE</string>
     <string name="format_week_day_style1_desc">%1$s, день месяца: %2$s</string>
+    <string name="free_form_recommend_tip">Плавающее окно</string>
     <string name="friday">Пятница</string>
     <string name="friday_short">Пт</string>
     <string name="friday_shortest">Пт</string>
@@ -1191,6 +1199,15 @@
     <string name="inattentive_sleep_warning_message">Устройство скоро выключится. Чтобы этого не произошло, нажмите любую кнопку или коснитесь экрана.</string>
     <string name="inattentive_sleep_warning_title">Переход в режим ожидания</string>
     <string name="indeterminate">Отмечено частично</string>
+    <string name="info_focus_download_end">Скачано</string>
+    <string name="info_focus_download_start">Откройте плавающее окно и дождитесь завершения скачивания</string>
+    <string name="info_focus_download_update">Прогресс скачивания</string>
+    <string name="info_focus_match_end">Противник подобран</string>
+    <string name="info_focus_match_start">Откройте плавающее окно и дождитесь завершения подбора противников</string>
+    <string name="info_focus_match_update">Подбор противников…</string>
+    <string name="info_focus_rebirth_end">Возрожден(-а)</string>
+    <string name="info_focus_rebirth_start">Откройте плавающее окно и дождитесь возрождения</string>
+    <string name="info_focus_rebirth_update">Ожидание возрождения</string>
     <string name="inline_done_button">Готово</string>
     <string name="inline_ok_button">Применить</string>
     <string name="inline_turn_off_notifications">Выключить уведомления</string>
@@ -1408,6 +1425,7 @@
     <string name="kg_wrong_input_try_fp_suggestion">Повторите попытку или используйте отпечаток пальца.</string>
     <string name="kg_wrong_password">Неверный пароль</string>
     <string name="kg_wrong_password_try_again">Неверный пароль.</string>
+    <string name="kg_wrong_pattern">Неверный графический ключ</string>
     <string name="kg_wrong_pattern_try_again">Неверный графический ключ.</string>
     <string name="kg_wrong_pin">Неверный PIN-код</string>
     <string name="kg_wrong_pin_try_again">Неверный PIN-код.</string>
@@ -1473,6 +1491,7 @@
     <string name="log_access_confirmation_learn_more">Подробнее</string>
     <string name="log_access_confirmation_learn_more_at">Подробнее: %s.</string>
     <string name="log_access_confirmation_title">Разрешить приложению \"%s\" доступ ко всем журналам устройства?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Перегрев устройства. Уменьшена яркость фонарика.</string>
     <string name="m3c_search_bar_search">Строка поиска</string>
     <string name="m3c_suggestions_available">Подсказки показаны ниже</string>
     <string name="magnification_close_settings_click_label">Закрыть настройки увеличения</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Выбрано</string>
+    <string name="miuix_accessibility_title">Заголовок</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Свернуто</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Развернуто</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйти из режима редактирования</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новое уведомление</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Перейти в режим редактирования</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Отменить выбор</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбрать все</string>
     <string name="miuix_appcompat_action_mode_title_empty">Выберите объекты</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Выбрать все</string>
     <string name="miuix_appcompat_select_all_description">Выбрать все</string>
     <string name="miuix_appcompat_select_item">Выберите объекты</string>
+    <string name="miuix_appcompat_show_dialog_description">Всплывающее окно</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Потяните вниз для обновления</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Обновлено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновление…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">На данный момент это все</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Секунду…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Не удалось загрузить данные</string>
+    <string name="miuix_show_password">Показать пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Свернуто</string>
+    <string name="miuix_stretchablewidget_expanded">Развернуто</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Не отключать мобильный интернет</string>
     <string name="mobile_data_always_on_summary">Не отключать передачу данных по мобильной сети даже при активном Wi-Fi-подключении (для быстрого переключения между сетями)</string>
@@ -2103,7 +2133,7 @@ mm"</string>
     <string name="quick_settings_autobrightness_label">Автояркость</string>
     <string name="quick_settings_autobrightness_state_change_message_off">Автояркость откл.</string>
     <string name="quick_settings_autobrightness_state_change_message_on">Автояркость вкл.</string>
-    <string name="quick_settings_batterysaver_label">Экономия</string>
+    <string name="quick_settings_batterysaver_label">Экономия энергии</string>
     <string name="quick_settings_bluetooth_audio_sharing_button">Отправить аудио</string>
     <string name="quick_settings_bluetooth_audio_sharing_button_sharing">Отправка аудио</string>
     <string name="quick_settings_bluetooth_connected_tip">Подключено по Bluetooth</string>
@@ -2494,6 +2524,7 @@ mm"</string>
     <string name="speed_label_okay">ОК</string>
     <string name="speed_label_slow">Медленная</string>
     <string name="speed_label_very_fast">Очень быстрая</string>
+    <string name="split_screen_recommend_tip">Разделение экрана</string>
     <string name="split_screen_text">Разделить экран</string>
     <string name="standby_bucket_summary">Статус приложения в режиме ожидания: %s</string>
     <string name="start_dreams">Заставка</string>
@@ -2612,9 +2643,9 @@ mm"</string>
     <string name="thermal_shutdown_dialog_message">"Телефон выключился из-за перегрева. Сейчас он работает нормально.
 
 Возможные причины перегрева:
-\u0009• использование ресурсоемких игр и приложений, например связанных с видео или навигацией;
-\u0009• скачивание или загрузка больших файлов;
-\u0009• высокая температура окружающей среды."</string>
+\t• использование ресурсоемких игр и приложений, например связанных с видео или навигацией;
+\t• скачивание или загрузка больших файлов;
+\t• высокая температура окружающей среды."</string>
     <string name="thermal_shutdown_message">"Сейчас телефон работает нормально.
 Нажмите, чтобы получить дополнительную информацию."</string>
     <string name="thermal_shutdown_title">Телефон выключился из-за перегрева</string>

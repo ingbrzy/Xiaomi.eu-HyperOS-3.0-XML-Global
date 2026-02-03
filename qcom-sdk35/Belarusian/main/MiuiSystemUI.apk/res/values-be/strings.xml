@@ -191,7 +191,7 @@
     <string name="accessibility_phone_three_bars">3 планкі тэлефона.</string>
     <string name="accessibility_phone_two_bars">2 планкі тэлефона.</string>
     <string name="accessibility_qr_code_scanner_button">Сканер QR-кодаў</string>
-    <string name="accessibility_qs_edit_move_tile">Перанесці %1$s</string>
+    <string name="accessibility_qs_edit_move_tile">Перамясціць %1$s</string>
     <string name="accessibility_qs_edit_position">Пазіцыя %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">Выдаліць %1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">выдаліць плітку</string>
@@ -204,6 +204,8 @@
     <string name="accessibility_qs_edit_tile_removed">%1$s выдаляецца</string>
     <string name="accessibility_qs_edit_tile_start_add">Дадаць плітку</string>
     <string name="accessibility_qs_edit_tile_start_move">Перамясціць плітку</string>
+    <string name="accessibility_qs_item_drag">Перацягванне</string>
+    <string name="accessibility_qs_position_hint">Размешчана ў радку %1$d, слупку %2$d</string>
     <string name="accessibility_quick_settings_alarm">Наладжаны будзiльнiк: %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">актываваць</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Падключаная ручка</string>
     <string name="accessibility_quick_settings_open_settings">Адкрыць налады %s.</string>
     <string name="accessibility_quick_settings_page">Старонка %1$d з %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Індыкатар старонкі</string>
     <string name="accessibility_quick_settings_power_menu">Меню кнопкі сілкавання</string>
     <string name="accessibility_quick_settings_rotation">Аўтаматычны паварот экрана</string>
     <string name="accessibility_quick_settings_settings">Адкрыць налады.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Адправіць</string>
     <string name="accessibility_sensors_off_active">Датчыкі выключаны</string>
     <string name="accessibility_settings">Налады</string>
+    <string name="accessibility_sliding_button_state_description_off">Адключана</string>
+    <string name="accessibility_sliding_button_state_description_on">Уключана</string>
     <string name="accessibility_split_bottom">Падзяліць унізе</string>
     <string name="accessibility_split_left">Падзяліць злева</string>
     <string name="accessibility_split_right">Падзяліць справа</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Спадарожнікавая сувязь, добрае падключэнне</string>
     <string name="accessibility_status_bar_satellite_no_connection">Спадарожнікавая сувязь, няма падключэння</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Спадарожнікавая сувязь, дрэннае падключэнне</string>
+    <string name="accessibility_tab_state_description_unselect">Не выбрана</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">даведацца больш</string>
     <string name="accessibility_tty_enabled">TeleTypewriter уключаны.</string>
     <string name="accessibility_unlock_button">Разблакіравана</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">Дадаваць у справаздачы пра памылкі дадатковыя журналы пастаўшчыка для пэўнай прылады (могуць утрымлівацца прыватныя даныя, можа павышацца выкарыстанне акумулятара і/ці памяці).</string>
     <string name="enabled_by_admin">Уключана адміністратарам</string>
     <string name="enhanced_connectivity_summary">Уключае функцыю \"Палепшанае падключэнне\".</string>
+    <string name="enrol_fingerprint_process_talkback">Даданне адбітка пальца</string>
     <string name="eras_ad">н. э.</string>
     <string name="eras_bc">до н. э.</string>
     <string name="error_disable_esim_msg">Немагчыма адключыць eSIM-карту з-за памылкі.</string>
@@ -1057,6 +1064,7 @@
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">d EE</string>
     <string name="format_week_day_style1_desc">%1$s, дзень месяца: %2$s</string>
+    <string name="free_form_recommend_tip">Плывучыя вокны</string>
     <string name="friday">Пятніца</string>
     <string name="friday_short">Птн</string>
     <string name="friday_shortest">Птн</string>
@@ -1191,6 +1199,15 @@
     <string name="inattentive_sleep_warning_message">Прылада неўзабаве выключыцца. Націсніце, каб пакінуць яе ўключанай.</string>
     <string name="inattentive_sleep_warning_title">Рэжым чакання</string>
     <string name="indeterminate">Выбрана часткова</string>
+    <string name="info_focus_download_end">Спампавана</string>
+    <string name="info_focus_download_start">Адкрыйце плывучае акно і дачакайцеся завяршэння спампоўкі</string>
+    <string name="info_focus_download_update">Прагрэс спампоўкі</string>
+    <string name="info_focus_match_end">Сапернік падабраны</string>
+    <string name="info_focus_match_start">Адкрыйце плывучае акно і дачакайцеся завяршэння падбору праціўнікаў</string>
+    <string name="info_focus_match_update">Падбор супернікаў…</string>
+    <string name="info_focus_rebirth_end">Адроджаны(-а)</string>
+    <string name="info_focus_rebirth_start">Адкрыйце плывучае акно і дачакайцеся адраджэння</string>
+    <string name="info_focus_rebirth_update">Чаканне адраджэння</string>
     <string name="inline_done_button">Гатова</string>
     <string name="inline_ok_button">Прымяніць</string>
     <string name="inline_turn_off_notifications">Выключыць апавяшчэнні</string>
@@ -1408,6 +1425,7 @@
     <string name="kg_wrong_input_try_fp_suggestion">Або разблакіруйце адбіткам пальца</string>
     <string name="kg_wrong_password">Няправільны пароль</string>
     <string name="kg_wrong_password_try_again">Памылка. Паўтарыце спробу.</string>
+    <string name="kg_wrong_pattern">Няправільны ўзор разблакіроўкі</string>
     <string name="kg_wrong_pattern_try_again">Памылка. Паўтарыце спробу.</string>
     <string name="kg_wrong_pin">Няправільны PIN-код</string>
     <string name="kg_wrong_pin_try_again">Памылка. Паўтарыце спробу.</string>
@@ -1473,6 +1491,7 @@
     <string name="log_access_confirmation_learn_more">Даведацца больш</string>
     <string name="log_access_confirmation_learn_more_at">Даведайцеся больш на старонцы %s</string>
     <string name="log_access_confirmation_title">Дазволіць праграме \"%s\" мець доступ да ўсіх журналаў прылады?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Перагрэў прылады. Зменшана яркасць ліхтарыка.</string>
     <string name="m3c_search_bar_search">Пошук</string>
     <string name="m3c_suggestions_available">Прапановы ўнізе</string>
     <string name="magnification_close_settings_click_label">Закрыць налады павелічэння</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Выбрана</string>
+    <string name="miuix_accessibility_title">Загаловак</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Згорнута</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Разгорнута</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Выйсці з рэжыма рэдагавання</string>
+    <string name="miuix_appcompat_accessibility_new_message">Новае апавяшчэнне</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Пачаць рэдагаванне</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Зняць выбар з усіх</string>
     <string name="miuix_appcompat_action_mode_select_all">Выбраць усё</string>
     <string name="miuix_appcompat_action_mode_title_empty">"Выбраць аб'екты"</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Выбраць усё</string>
     <string name="miuix_appcompat_select_all_description">Выбраць усё</string>
     <string name="miuix_appcompat_select_item">"Выберыце аб'екты"</string>
+    <string name="miuix_appcompat_show_dialog_description">Усплывальнае акно</string>
+    <string name="miuix_progressbar_loading">Загрузка</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Пацягніце ўніз для абнаўлення</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Абноўлена</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Абнаўленне…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Пакуль што гэта ўсё</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Хвілінку…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Не атрымалася загрузіць аб'екты"</string>
+    <string name="miuix_show_password">Паказаць пароль</string>
+    <string name="miuix_stretchablewidget_collapsed">Згорнута</string>
+    <string name="miuix_stretchablewidget_expanded">Разгорнута</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Мабільная перадача даных заўсёды актыўная</string>
     <string name="mobile_data_always_on_summary">Перадача даных мабільнай сувязі заўсёды актыўная, нават калі актыўная сетка Wi‑Fi (для хуткага пераключэння паміж сеткамі).</string>
@@ -2494,6 +2524,7 @@ mm"</string>
     <string name="speed_label_okay">ОК</string>
     <string name="speed_label_slow">Павольная</string>
     <string name="speed_label_very_fast">Вельмі хуткая</string>
+    <string name="split_screen_recommend_tip">Падзяленне экрана</string>
     <string name="split_screen_text">Падзяліць экран</string>
     <string name="standby_bucket_summary">"Стан праграмы ў рэжыме чакання:  %s"</string>
     <string name="start_dreams">Экранная застаўка</string>
@@ -2612,9 +2643,9 @@ mm"</string>
     <string name="thermal_shutdown_dialog_message">"Ваш тэлефон пераграваўся, таму ён выключыўся, каб астыць. Зараз тэлефон працуе ў звычайным рэжыме.
 
 Тэлефон можа перагравацца пры:
-\u0009• выкарыстанні рэсурсаёмістых праграм (напрыклад, гульняў або праграм, звязаных з відэа або навігацыяй);
-\u0009• спампоўванні або запампоўванні вялікіх файлаў;
-\u0009• выкарыстанні тэлефона пры высокіх тэмпературах."</string>
+\t• выкарыстанні рэсурсаёмістых праграм (напрыклад, гульняў або праграм, звязаных з відэа або навігацыяй);
+\t• спампоўванні або запампоўванні вялікіх файлаў;
+\t• выкарыстанні тэлефона пры высокіх тэмпературах."</string>
     <string name="thermal_shutdown_message">"Ваш тэлефон працуе ў звычайным рэжыме.
 Націсніце, каб даведацца больш"</string>
     <string name="thermal_shutdown_title">Тэлефон выключыўся з-за перагрэву</string>

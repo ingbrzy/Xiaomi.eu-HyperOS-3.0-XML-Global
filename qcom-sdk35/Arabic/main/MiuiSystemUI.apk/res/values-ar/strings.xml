@@ -193,17 +193,19 @@
     <string name="accessibility_qr_code_scanner_button">الماسح الضوئي لرمز الاستجابة السريعة</string>
     <string name="accessibility_qs_edit_move_tile">نقل %1$s</string>
     <string name="accessibility_qs_edit_position">الموضع: %1$d</string>
-    <string name="accessibility_qs_edit_remove_tile">حذف %1$s</string>
+    <string name="accessibility_qs_edit_remove_tile">إزالة \"%1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">إزالة بطاقة</string>
-    <string name="accessibility_qs_edit_tile_add">إضافة %1$s إلى الموضع %2$d</string>
+    <string name="accessibility_qs_edit_tile_add">قم بإضافة %1$s إلى %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">إضافة بطاقة إلى نهاية الإعدادات السريعة</string>
     <string name="accessibility_qs_edit_tile_add_to_position">الإضافة إلى الموضع %1$d</string>
     <string name="accessibility_qs_edit_tile_added">تم إضافة %1$s إلى الموضع %2$d</string>
-    <string name="accessibility_qs_edit_tile_move">نقل %1$s إلى الموضع %2$d</string>
+    <string name="accessibility_qs_edit_tile_move">انتقل %1$s إلى %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">الانتقال إلى %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">تم حذف %1$s</string>
     <string name="accessibility_qs_edit_tile_start_add">إضافة بطاقة</string>
     <string name="accessibility_qs_edit_tile_start_move">نقل بطاقة</string>
+    <string name="accessibility_qs_item_drag">سحب</string>
+    <string name="accessibility_qs_position_hint">تم وضعه في الصف %1$d، العمود %2$d</string>
     <string name="accessibility_quick_settings_alarm">تم ضبط المنبّه على %s.</string>
     <string name="accessibility_quick_settings_bluetooth">البلوتوث.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">تفعيل</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">تم توصيل المقبض</string>
     <string name="accessibility_quick_settings_open_settings">فتح إعدادات %s.</string>
     <string name="accessibility_quick_settings_page">الصفحة %1$d من %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">مؤشر الصفحة</string>
     <string name="accessibility_quick_settings_power_menu">قائمة زر التشغيل</string>
     <string name="accessibility_quick_settings_rotation">التدوير التلقائي للشاشة</string>
     <string name="accessibility_quick_settings_settings">فتح الإعدادات.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">إرسال</string>
     <string name="accessibility_sensors_off_active">أجهزة الاستشعار غير مفعّلة</string>
     <string name="accessibility_settings">الإعدادات</string>
+    <string name="accessibility_sliding_button_state_description_off">تم إيقاف التشغيل</string>
+    <string name="accessibility_sliding_button_state_description_on">تم التشغيل</string>
     <string name="accessibility_split_bottom">تقسيم للأسفل</string>
     <string name="accessibility_split_left">تقسيم لليسار</string>
     <string name="accessibility_split_right">تقسيم لليمين</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">قمر صناعي، الاتصال جيد</string>
     <string name="accessibility_status_bar_satellite_no_connection">قمر صناعي، لا يتوفّر اتصال بالإنترنت</string>
     <string name="accessibility_status_bar_satellite_poor_connection">قمر صناعي، الاتصال ضعيف</string>
+    <string name="accessibility_tab_state_description_unselect">غير محدد</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">مزيد من المعلومات</string>
     <string name="accessibility_tty_enabled">تم تفعيل المبرقة الكاتبة.</string>
     <string name="accessibility_unlock_button">تم فتح القفل</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">تضمين سجلات المورّدين الإضافية الخاصة بالجهاز في تقارير الخطأ، والتي قد تحتوي على معلومات شخصية و/أو تستهلك المزيد من شحن البطارية و/أو تستهلك المزيد من مساحة التخزين</string>
     <string name="enabled_by_admin">يفعِّل المشرف هذا الإعداد.</string>
     <string name="enhanced_connectivity_summary">لتفعيل الميزة \"إمكانية اتصال محسّن\"</string>
+    <string name="enrol_fingerprint_process_talkback">إضافة بصمة</string>
     <string name="eras_ad">بعد الميلاد</string>
     <string name="eras_bc">قبل الميلاد</string>
     <string name="error_disable_esim_msg">‏يتعذّر إيقاف eSIM بسبب خطأ.</string>
@@ -1057,6 +1064,7 @@
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s، اليوم في الشهر: %2$s</string>
+    <string name="free_form_recommend_tip">نافذة منبثقة</string>
     <string name="friday">الجمعة</string>
     <string name="friday_short">الجمعة</string>
     <string name="friday_shortest">الجمعة</string>
@@ -1191,6 +1199,15 @@
     <string name="inattentive_sleep_warning_message">سيتم إيقاف الجهاز قريبًا، اضغط لمواصلة تشغيله.</string>
     <string name="inattentive_sleep_warning_title">وضع الاستعداد</string>
     <string name="indeterminate">تم وضع علامة في المربّع بشكل جزئي</string>
+    <string name="info_focus_download_end">تم التنزيل</string>
+    <string name="info_focus_download_start">افتح نافذة عائمة وانتظر حتى انتهاء التنزيل</string>
+    <string name="info_focus_download_update">تقدم التنزيل</string>
+    <string name="info_focus_match_end">تمت المطابقة بنجاح</string>
+    <string name="info_focus_match_start">افتح نافذة عائمة وانتظر حتى تتم مطابقتها</string>
+    <string name="info_focus_match_update">جاري المطابقة…</string>
+    <string name="info_focus_rebirth_end">أعيد ظهوره</string>
+    <string name="info_focus_rebirth_start">افتح نافذة عائمة وانتظر إعادة الظهور</string>
+    <string name="info_focus_rebirth_update">في انتظار إعادة الظهور</string>
     <string name="inline_done_button">تمّ</string>
     <string name="inline_ok_button">تطبيق</string>
     <string name="inline_turn_off_notifications">إيقاف الإشعارات</string>
@@ -1408,6 +1425,7 @@
     <string name="kg_wrong_input_try_fp_suggestion">جرّب فتح القفل باستخدام بصمة الإصبع.</string>
     <string name="kg_wrong_password">كلمة مرور غير صحيحة</string>
     <string name="kg_wrong_password_try_again">لقد أدخلت كلمة مرور خاطئة. يُرجى إعادة المحاولة.</string>
+    <string name="kg_wrong_pattern">النقش غير صحيح.</string>
     <string name="kg_wrong_pattern_try_again">نقش خطأ. أعِد المحاولة.</string>
     <string name="kg_wrong_pin">رقم تعريف شخصي خاطئ</string>
     <string name="kg_wrong_pin_try_again">لقد أدخلت رقم تعريف شخصي غير صحيح. يُرجى إعادة المحاولة.</string>
@@ -1473,6 +1491,7 @@
     <string name="log_access_confirmation_learn_more">مزيد من المعلومات</string>
     <string name="log_access_confirmation_learn_more_at">مزيد من المعلومات على %s</string>
     <string name="log_access_confirmation_title">هل تريد السماح لتطبيق \"%s\" بالوصول إلى جميع سجلّات الجهاز؟</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">الجهاز ساخن جدًا. سطوع المصباح منخفض.</string>
     <string name="m3c_search_bar_search">شريط بحث</string>
     <string name="m3c_suggestions_available">إليك الاقتراحات</string>
     <string name="magnification_close_settings_click_label">إغلاق إعدادات التكبير</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">محدد</string>
+    <string name="miuix_accessibility_title">العنوان</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">تم التقليص</string>
+    <string name="miuix_appcompat_accessibility_expand_state">تم التوسيع</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">الخروج من وضع التحرير</string>
+    <string name="miuix_appcompat_accessibility_new_message">إشعار جديد</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">ابدأ وضع التحرير</string>
     <string name="miuix_appcompat_action_mode_deselect_all">الغاء تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_select_all">تحديد الكل</string>
     <string name="miuix_appcompat_action_mode_title_empty">تحديد عناصر</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">تحديد الكل</string>
     <string name="miuix_appcompat_select_all_description">تحديد الكل</string>
     <string name="miuix_appcompat_select_item">تحديد العناصر</string>
+    <string name="miuix_appcompat_show_dialog_description">نافذة منبثقة</string>
+    <string name="miuix_progressbar_loading">تحميل</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">اسحب لأسفل للتحديث</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">تم التحديث بنجاح</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">جارٍ التحديث…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">هذا كل شئ حتى الان</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">لحظة من فضلك…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">تعذر تحميل العناصر</string>
+    <string name="miuix_show_password">إظهار كلمة المرور</string>
+    <string name="miuix_stretchablewidget_collapsed">تم التقليص</string>
+    <string name="miuix_stretchablewidget_expanded">تم التوسيع</string>
     <string name="mobile_carrier_text_format">%1$s، %2$s</string>
     <string name="mobile_data_always_on">بيانات الجوّال نشطة دائمًا</string>
     <string name="mobile_data_always_on_summary">‏جعل بيانات الجوّال نشطة دائمًا حتى عندما يكون اتصال Wi‑Fi نشطًا (لتبديل الشبكة بسرعة)</string>
@@ -2494,6 +2524,7 @@ mm"</string>
     <string name="speed_label_okay">جيدة</string>
     <string name="speed_label_slow">بطيئة</string>
     <string name="speed_label_very_fast">سريعة جدًا</string>
+    <string name="split_screen_recommend_tip">تقسيم الشاشة</string>
     <string name="split_screen_text">تقسيم الشاشة</string>
     <string name="standby_bucket_summary">حالة تطبيق وضع الاستعداد: %s</string>
     <string name="start_dreams">شاشة الاستراحة</string>
@@ -2612,9 +2643,9 @@ mm"</string>
     <string name="thermal_shutdown_dialog_message">"ارتفعت درجة حرارة هاتفك بشدة، لذا تم إطفاؤه لخفض درجة حرارته. يعمل هاتفك الآن بشكل طبيعي.
 
 قد ترتفع درجة حرارة هاتفك بشدة إذا:
-\u0009• استخدمت تطبيقات تستهلك موارد الجهاز بصورة كبيرة (مثل تطبيقات الألعاب أو الفيديو أو التنقل)
-\u0009• نزَّلت أو حمَّلت ملفات كبيرة الحجم
-\u0009• استخدمت هاتفك وسط أجواء مرتفعة الحرارة"</string>
+\t• استخدمت تطبيقات تستهلك موارد الجهاز بصورة كبيرة (مثل تطبيقات الألعاب أو الفيديو أو التنقل)
+\t• نزَّلت أو حمَّلت ملفات كبيرة الحجم
+\t• استخدمت هاتفك وسط أجواء مرتفعة الحرارة"</string>
     <string name="thermal_shutdown_message">"يعمل هاتفك الآن بشكل طبيعي.
 انقر للحصول على مزيد من المعلومات."</string>
     <string name="thermal_shutdown_title">تم إطفاء الهاتف بسبب ارتفاع درجة حرارته</string>

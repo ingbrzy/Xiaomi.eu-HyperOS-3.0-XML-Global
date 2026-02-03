@@ -152,6 +152,7 @@ Obiščite https://appleid.apple.com/#!&amp;page=signin za izklop"</string>
     <string name="contact_records_permission_desc">Za prenos zgodovine klicev na druge naprave</string>
     <string name="contacts">Stiki</string>
     <string name="contacts_permission_desc">Za prenos stikov na druge naprave</string>
+    <string name="contains_unauthorized_data">Vsebuje nepooblaščene podatke</string>
     <string name="copy">Kopiraj</string>
     <string name="current_user_not_supported_summary">Trenutne sistemske namestitve omejujejo prenos podatkov z uporabo aplikacije Mi Mover.</string>
     <string name="current_user_not_supported_title">Ni mogoče prenesti predmetov</string>
@@ -416,8 +417,12 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="manual_connection_content2">%d. Izberite naslednjo Wi-Fi dostopno točko.</string>
     <string name="manual_connection_content3">%d. Za povezavo, na stari napravi vnesite to geslo.</string>
     <string name="manual_connection_hint">Tapnite »Ročna povezava« na vaši stari napravi.</string>
+    <string name="manual_connection_hint_pad">Na stari napravi tapnite »Poveži ročno«</string>
+    <string name="manual_connection_hint_phone">Na stari napravi tapnite »Poveži ročno«</string>
     <string name="manual_connection_summary2">Če te dostopne točke ne najdete, osvežite seznam Wi-Fi omrežij, ki so na voljo, in poskusite ponovno.</string>
     <string name="manual_connection_title">Povežite se na staro napravo ročno</string>
+    <string name="manual_connection_title_pad">Povežite staro napravo z dostopno točko</string>
+    <string name="manual_connection_title_phone">Povežite staro napravo z dostopno točko</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover mora dostopati do vseh datotek na tej napravi, da bi jih lahko premaknil iz stare naprave v novo.</string>
     <string name="message_request_package_stats_perm">Mi Mover poterbuje to dovoljenja, da izvede kakšne aplikacije so nameščene na napravi in za prenos teh aplikacij na drugo napravo.</string>
     <string name="midnight">Noč</string>
@@ -531,14 +536,14 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="new_trans_intro_desc_new">"%1$d. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v Trgovini Play ali tapnete tukaj: %2$s.
 %3$d. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo tam lahko vidite. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
     <string name="new_trans_intro_desc_new_click">Prenesi</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve omrežja WLAN in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve omrežja WLAN in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini Google Play ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve omrežja WLAN in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini Google Play ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve Wi-Fi omrežja in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Prepričajte se, da je aplikacija Mi Mover v novi napravi posodobljena. Najnovejšo različico aplikacije Mi Mover lahko prenesete v trgovini GetApps ali <Data>&lt;a href=%2$s>tapnete tukaj&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Če dostopne točke v aplikaciji Mi Mover še vedno ni videti, odprite nastavitve omrežja WLAN in preverite, ali jo lahko vidite tam. Če jo, se vrnite v aplikacijo Mi Mover in tapnite ime dostopne točke."</string>
     <string name="new_trans_intro_desc_old">%d. Če v aplikaciji Mi Mover še zmeraj ne vidite dostopne točke, odprite Wi-Fi nastavitve in preverite, če jo lahko vidite. Če jo vidite, pojdite nazaj v Mi Mover in tapnite na ime dostopne točke.</string>
     <string name="new_trans_intro_question_1">%d. Zakaj na stari napravi ne vidim dostopne točke nove naprave?</string>
     <string name="new_trans_intro_question_1_pad">%d. Zakaj na stari napravi ne vidim dostopne točke nove naprave?</string>
@@ -637,6 +642,8 @@ Odprite WeChat in pojdite na Me > Settings > General > Back up &amp; migrate cha
     <string name="permission_alert_title">Zahtevana dovoljenja</string>
     <string name="permission_bluetooth_summary">Za iskanje naprav na voljo v bližini</string>
     <string name="permission_bluetooth_title">Vklop ali izklop Blueetootha</string>
+    <string name="permission_calendar_summary">Za prenos koledarskih dogodkov</string>
+    <string name="permission_calendar_title">Dostop do koledarja</string>
     <string name="permission_calender_summary">Za premikanje dogodkov iz stare naprave v novo</string>
     <string name="permission_calender_summary_global">Za prenos dogodkov koledarja na vašo novo napravo</string>
     <string name="permission_calender_title">Dostop do dogodkov koledarja</string>

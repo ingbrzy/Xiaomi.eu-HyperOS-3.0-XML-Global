@@ -152,6 +152,7 @@ Vai su https://appleid.apple.com/#!&amp;page=signin per disattivarla"</string>
     <string name="contact_records_permission_desc">Per trasferire la cronologia delle chiamate ad altri dispositivi</string>
     <string name="contacts">Contatti</string>
     <string name="contacts_permission_desc">Per trasferire i contatti ad altri dispositivi</string>
+    <string name="contains_unauthorized_data">Contiene dati non autorizzati</string>
     <string name="copy">Copia</string>
     <string name="current_user_not_supported_summary">Le attuali impostazioni di sistema limitano il trasferimento di dati tramite Mi Mover.</string>
     <string name="current_user_not_supported_title">Impossibile trasferire gli elementi</string>
@@ -392,7 +393,7 @@ Apri WeChat e vai su Io > Impostazioni > Generale > Backup &amp; migra chat."</s
     <string name="international_scanner_send_dialog_message">Impossibile trasferire messaggi di testo e dati app di alcune app di terze parti. Non disattivare il Wi-Fi e non cambiare rete durante il trasferimento.</string>
     <string name="lack_perm_msg">Mi Mover necessita delle seguenti autorizzazioni per funzionare correttamente: &lt;b>%s&lt;/b>.</string>
     <string name="lack_perm_title">Permessi richiesti</string>
-    <string name="launcher">Layout schermata home</string>
+    <string name="launcher">Disposizione della schermata Home</string>
     <string name="loading_data">Solo un secondo…</string>
     <string name="location_permission_desc">Per trovare dispositivi nelle vicinanze</string>
     <string name="location_permission_request">Per la connessione ad altri dispositivi nelle vicinanze</string>
@@ -416,8 +417,12 @@ Apri WeChat e vai su Io > Impostazioni > Generale > Backup &amp; migra chat."</s
     <string name="manual_connection_content2">%d. Seleziona il seguente hotspot Wi-Fi.</string>
     <string name="manual_connection_content3">%d. Inserisci questa password sul vecchio dispositivo per connetterti.</string>
     <string name="manual_connection_hint">Tocca \"Connetti manualmente\" sul tuo vecchio dispositivo.</string>
+    <string name="manual_connection_hint_pad">Tocca \"Connetti manualmente\" sul vecchio dispositivo</string>
+    <string name="manual_connection_hint_phone">Tocca \"Connetti manualmente\" sul vecchio dispositivo</string>
     <string name="manual_connection_summary2">"Se non riesci a trovare questo hotspot, aggiorna l'elenco delle reti Wi-Fi disponibili e riprova."</string>
     <string name="manual_connection_title">Connetti manualmente al vecchio dispositivo</string>
+    <string name="manual_connection_title_pad">"Connetti il vecchio dispositivo all'hotspot"</string>
+    <string name="manual_connection_title_phone">"Connetti il vecchio dispositivo all'hotspot"</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover necessita di accedere a tutti i file su questo dispositivo per poterli spostare dal vecchio dispositivo a uno nuovo.</string>
     <string name="message_request_package_stats_perm">Mi Mover necessita di questo permesso per sapere quali app sono installate su un dispositivo e trasferirle su un altro dispositivo.</string>
     <string name="midnight">Notte</string>
@@ -531,14 +536,14 @@ Apri WeChat e vai su Io > Impostazioni > Generale > Backup &amp; migra chat."</s
     <string name="new_trans_intro_desc_new">"%1$d. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornata. Puoi scaricare l'ultima versione di Mi Mover dal Play Store o toccare qui: %2$s.
 %3$d. Se l'hotspot non compare ancora su Mi Mover, apri le impostazioni Wi-Fi e verifica che sia visibile. In tal caso, torna su Mi Mover e tocca il nome dell'hotspot."</string>
     <string name="new_trans_intro_desc_new_click">Scarica</string>
-    <string name="new_trans_intro_desc_new_pad">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da GetApps o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni Wi-Fi e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
-    <string name="new_trans_intro_desc_new_pad_china">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da GetApps o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni WLAN e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
-    <string name="new_trans_intro_desc_new_phone">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da GetApps o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni Wi-Fi e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
-    <string name="new_trans_intro_desc_new_phone_china">"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da GetApps o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni WLAN e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
+    <string name="new_trans_intro_desc_new_pad">"&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da Google Play o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni Wi-Fi e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
+    <string name="new_trans_intro_desc_new_pad_china">"&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da GetApps o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni WLAN e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone">"&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da Google Play o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni Wi-Fi e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone_china">"&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Assicurati che Mi Mover sul tuo nuovo dispositivo sia aggiornato. Puoi scaricare l'ultima versione di Mi Mover da GetApps o "<Data>&lt;a href=%2$s>toccando qui&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Se l'hotspot non compare ancora in Mi Mover, apri le impostazioni WLAN e controlla se lo visualizzi. In tal caso, torna a Mi Mover e tocca il nome dell'hotspot."</string>
     <string name="new_trans_intro_desc_old">"%d. Se l'hotspot non viene ancora visualizzato in Mi Mover, apri le impostazioni Wi-Fi e controlla se riesci a vederlo lì. In tal caso, torna in Mi Mover e tocca il nome dell'hotspot."</string>
     <string name="new_trans_intro_question_1">"%d. Perché non riesco a vedere l'hotspot del nuovo dispositivo su quello vecchio?"</string>
     <string name="new_trans_intro_question_1_pad">"%d. Perché non è possibile visualizzare l'hotspot del nuovo dispositivo su quello vecchio?"</string>
@@ -637,6 +642,8 @@ Apri WeChat e vai su Io > Impostazioni > Generale > Backup &amp; migra chat."</s
     <string name="permission_alert_title">Permessi richiesti</string>
     <string name="permission_bluetooth_summary">Per trovare dispositivi disponibili nelle vicinanze</string>
     <string name="permission_bluetooth_title">Attivare o disattivare il Bluetooth</string>
+    <string name="permission_calendar_summary">Per trasferire gli eventi del calendario</string>
+    <string name="permission_calendar_title">Accedi al calendario</string>
     <string name="permission_calender_summary">Per spostare gli eventi dal vecchio al nuovo dispositivo.</string>
     <string name="permission_calender_summary_global">Per trasferire gli eventi del calendario sul nuovo dispositivo</string>
     <string name="permission_calender_title">Accedere agli eventi del calendario</string>
@@ -751,8 +758,8 @@ Libera almeno %s."</string>
     <string name="scanner_wechat_overwrite_hit">A causa di restrizioni delle app di terze parti, le cronologie di chat e altri dati app sul tuo nuovo dispositivo verranno sostituiti con quelli del vecchio dispositivo all termine del trasferimento.</string>
     <string name="search_menu_title">Cerca</string>
     <string name="searching_for_new_device">Ricerca nuovo dispositivo…</string>
-    <string name="searching_for_new_device_pad">Ricerca nuovo dispositivo...…</string>
-    <string name="searching_for_new_device_phone">Ricerca nuovo dispositivo...…</string>
+    <string name="searching_for_new_device_pad">Ricerca nuovo dispositivo…</string>
+    <string name="searching_for_new_device_phone">Ricerca nuovo dispositivo…</string>
     <string name="secret_package_title_file">File</string>
     <string name="secret_package_title_gallery">Album</string>
     <string name="secret_package_title_note">Note</string>
@@ -1013,7 +1020,7 @@ Scarica e installa Mi Mover."</string>
     <string name="video">Video</string>
     <string name="view_password_description">Mostra la password</string>
     <string name="waiting_restore_aod">Ripristino di always-on display…</string>
-    <string name="waiting_restore_desktop">Ripristino del layout della schermata Home…</string>
+    <string name="waiting_restore_desktop">Ripristino della disposizione della schermata Home…</string>
     <string name="wechat_and_qq_app_receive_fail">Impossibile ricevere WeChat e QQ</string>
     <string name="wechat_and_qq_app_send_fail">Impossibile inviare WeChat e QQ</string>
     <string name="wechat_app">WeChat</string>

@@ -129,7 +129,9 @@
     <string name="band_mode_title">Настроить режим сети</string>
     <string name="beidou_findout_settings_title">О спутниковых сообщениях BeiDou</string>
     <string name="beidou_mobile_settings_summary">Доступно только пользователям China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">Доступно только для пользователей с активной службой спутниковой связи BeiDou</string>
     <string name="beidou_mobile_settings_title">Спутниковая связь BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">Для активации услуги обратитесь к своему оператору.</string>
     <string name="beidou_sms_location_fail_toast">Сначала разрешите этой функции получать доступ к вашему местоположению</string>
     <string name="bf_news_settings">Финансовые и деловые новости</string>
     <string name="business_hall_settings_summary">Управление вызовами и мобильным интернетом</string>
@@ -630,6 +632,8 @@
     <string name="enhanced_4g_lte_mode_title">Режим 4G LTE</string>
     <string name="enter_callbarring_password">Введите пароль запрета вызовов (%d цифры)</string>
     <string name="enter_esim_manager_title">Управление eSIM</string>
+    <string name="enter_esim_service_support_summary">Просмотр списка поддерживаемых операторов связи</string>
+    <string name="enter_esim_service_support_title">Поддерживаемые операторы связи</string>
     <string name="enter_input">Допустимая длина USSD-сообщения: %1$d–%2$d символов. Повторите попытку.</string>
     <string name="enter_mep_esim_manager_title">Управление SIM-картами</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -673,6 +677,8 @@
     <string name="fiveg_carrier_aggregation_title">Агрегация операторов связи 5G</string>
     <string name="fiveg_hosted_mode_summary">Автоматически выбирать наилучшую сеть для экономии заряда.</string>
     <string name="fiveg_hosted_mode_title">Смарт-переключение 5G</string>
+    <string name="fiveg_interruption_remind">Похоже, ваша SIM-карта %s не поддерживает службы 5G SA. Свяжитесь со своим оператором связи для получения дополнительной информации.</string>
+    <string name="fiveg_interruption_remind_title">Нельзя воспользоваться службами 5G</string>
     <string name="fiveg_network_mode_default">Авто</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -953,7 +959,8 @@
     <string name="mhh_enable">Медицинские учреждения (включено)</string>
     <string name="mi_mobile_settings_summary">Тарифные планы, предоставляемые компанией Xiaomi.</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Чтобы воспользоваться Mi Mobile, активируйте SIM %1$d. На это может потребоваться от %2$d до %3$d минут.</string>
+    <string name="mi_mobile_sim_activate_message">Похоже, SIM-карта %1$d не активирована. Нажмите «Активировать» и следуйте инструкциям, чтобы приступить к делу.</string>
+    <string name="mi_mobile_sim_activate_title">Активация SIM-карты Mi Mobile</string>
     <string name="mi_sim_settings_summary">Использование мобильного интернета без SIM-карты</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Ночь</string>
@@ -1201,7 +1208,7 @@
     <string name="not_voice_capable">Голосовые вызовы не поддерживаются</string>
     <string name="notallow">Не предоставлено</string>
     <string name="notification_channel_sip_account">Неподдерживаемые SIP-аккаунты</string>
-    <string name="notification_network_selection_text">Выбранная сеть (%s) недоступна.</string>
+    <string name="notification_network_selection_text">Выбранная сеть%s недоступна.</string>
     <string name="notification_network_selection_title">Сеть не найдена</string>
     <string name="notification_switch_auto_text">Похоже, вы вернулись. Подключено к местной сети.</string>
     <string name="notification_switch_auto_title">Мобильные сети</string>
@@ -1221,8 +1228,10 @@
     <string name="obtain_location_information">Местоположение</string>
     <string name="obtain_location_information_summary">Для оптимизации текущей сетевой среды</string>
     <string name="oem_radio_info_label">Информация/настройки OEM</string>
+    <string name="offline_call">Оффлайн-коммуникации Xiaomi</string>
     <string name="offline_call_has_call">Другой человек занят. Повторите попытку через одну–две мнуты.</string>
     <string name="offline_call_not_match_contact">Не удалось вызвать. Вы не являетесь контактом другого человека.</string>
+    <string name="offline_call_summary">Звоните на ближайшие телефоны Xiaomi через Bluetooth без подключения к сети</string>
     <string name="ok">ОК</string>
     <string name="oldPin2Label">Прежний PIN2</string>
     <string name="oldPinLabel">Прежний PIN</string>
@@ -1621,6 +1630,8 @@ UT-интерфейс: %5$s"</string>
 &lt;br>– Функция RTT недоступна при видеовызове."</string>
     <string name="rtt_mode_summary">Разрешить обмен сообщениями во время голосового вызова</string>
     <string name="rtt_mode_title">Вызов RTT</string>
+    <string name="rtt_settings_summary">Текст в реальном времени (RTT) позволяет использовать пеердачу текста для общения во время телефонного вызова</string>
+    <string name="rtt_settings_title">Вызовы RTT</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Выйти</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1964,6 +1975,8 @@ UT-интерфейс: %5$s"</string>
     <string name="turnover_mute_summary">Если звонящий телефон лежит экраном вверх, переверните его экраном вниз для отключения звонка, вибрации и световых сигналов</string>
     <string name="turnover_mute_title">Отключать звонок при переворачивании</string>
     <string name="undefined">Нет</string>
+    <string name="unfold_show_bublle_pref_summary">Раскройте устройство во время вызова, чтобы отображать его в плавающем окне</string>
+    <string name="unfold_show_bublle_pref_title">Раскрыть, чтобы свернуть</string>
     <string name="unknown">Неизвестно</string>
     <string name="unlock_failed">Запрос на разблокировку сети не выполнен.</string>
     <string name="unlock_success">Разблокировка сети успешно завершена.</string>

@@ -152,6 +152,7 @@ Posjetite https://appleid.apple.com/#!&amp;page=signin za isključivanje"</strin
     <string name="contact_records_permission_desc">Za prijenos povijesti poziva na druge uređaje</string>
     <string name="contacts">Kotakti</string>
     <string name="contacts_permission_desc">Za prijenos kontakata na druge uređaje</string>
+    <string name="contains_unauthorized_data">Sadrži neovlaštene podatke</string>
     <string name="copy">Kopiraj</string>
     <string name="current_user_not_supported_summary">Trenutne postavke sustava ograničuju prijenos podataka kod korištenja Mi Selidbe.</string>
     <string name="current_user_not_supported_title">Nije moguće prenijeti stavke</string>
@@ -416,8 +417,12 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="manual_connection_content2">%d. Odaberite sljedeći Wi-Fi hotspot.</string>
     <string name="manual_connection_content3">%d. Unesite ovu zaporku na stari uređaj za povezivanje.</string>
     <string name="manual_connection_hint">Dodirnite \"Poveži ručno\" na starom uređaju.</string>
+    <string name="manual_connection_hint_pad">Dodirni \"Ručno se poveži\" na starom uređaju</string>
+    <string name="manual_connection_hint_phone">Dodirni \"Ručno se poveži\" na starom uređaju</string>
     <string name="manual_connection_summary2">Ako ne možete pronaći ovaj hotspot, osvježite popis dostupnih Wi-Fi mreža i pokušajte ponovno.</string>
     <string name="manual_connection_title">Povežite se sa starim uređajem ručno</string>
+    <string name="manual_connection_title_pad">Povežite stari uređaj na hotspot</string>
+    <string name="manual_connection_title_phone">Povežite stari uređaj na hotspot</string>
     <string name="message_request_manage_external_storage_perm">Mi Selidba treba pristupiti svim datotekama na ovom uređaju kako bi ih mogao premjestiti sa Vašeg starog uređaja na novi.</string>
     <string name="message_request_package_stats_perm">Mi Selidba treba ovu dozvolu kako bi naučila koje aplikacije su instalirane na uređaju i prenjela te aplikacije na drugi uređaj.</string>
     <string name="midnight">Noć</string>
@@ -531,14 +536,14 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="new_trans_intro_desc_new">"%1$d. Provjerite je li Mi Selidba na vašem novom uređaju ažurirana. Najnoviju verziju Mi Selidbe možete preuzeti u Play Storeu ili dodirnite ovdje: %2$s.
 %3$d. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi, otvorite Wi-Fi postavke i provjerite vidite li je tamo. Ako je tako, vratite se na Mi Selidbu i dodirnite naziv hotspota."</string>
     <string name="new_trans_intro_desc_new_click">Preuzimanje</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite WLAN postavke i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite WLAN postavke i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Selidba na vašem novom uređaju ažurirana. Možete preuzeti najnoviju verziju alatke Mi Mover u Google Playu ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Selidbu i dodirnite naziv hotspota."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite WLAN postavke i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Selidba na vašem novom uređaju ažurirana. Možete preuzeti najnoviju verziju alatke Mi Mover u Google Playu ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Selidbu i dodirnite naziv hotspota."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite WLAN postavke i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
     <string name="new_trans_intro_desc_old">%d. Ako se hotspot još uvijek nije pojavio u Mi Selidbi, otvorite Wi-Fi postavke i provjerite vidite li hotspot. Ako ga vidite, vratite se u Mi Selidbu i dotaknite naziv hotspota.</string>
     <string name="new_trans_intro_question_1">%d. Zašto ne mogu vidjeti hotspot novog uređaja na starom?</string>
     <string name="new_trans_intro_question_1_pad">%d. Zašto ne mogu vidjeti hotspot novog uređaja na starom?</string>
@@ -637,6 +642,8 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="permission_alert_title">Potrebne dozvole</string>
     <string name="permission_bluetooth_summary">Za pronalaženje dostupnih uređaja u blizini</string>
     <string name="permission_bluetooth_title">Uključiti ili isključiti Bluetooth</string>
+    <string name="permission_calendar_summary">Za prijenos kalendarskih događaja</string>
+    <string name="permission_calendar_title">Pristup kalendaru</string>
     <string name="permission_calender_summary">Za premještanje događaja sa starog uređaja na novi</string>
     <string name="permission_calender_summary_global">Za prijenos događaja na kalendaru na novi uređaj</string>
     <string name="permission_calender_title">Pristup kalendarskim događajima</string>

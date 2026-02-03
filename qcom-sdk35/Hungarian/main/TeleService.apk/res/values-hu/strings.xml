@@ -134,7 +134,9 @@ Kilép?}}"</string>
     <string name="band_mode_title">Rádióhullámsáv mód beállítása</string>
     <string name="beidou_findout_settings_title">A BeiDou műholdas üzenetküldésről</string>
     <string name="beidou_mobile_settings_summary">Csak China Mobile-felhasználók számára érhető el</string>
+    <string name="beidou_mobile_settings_summary_all">Csak aktív BeiDou műholdas kommunikációs szolgáltatással rendelkező felhasználók számára elérhető.</string>
     <string name="beidou_mobile_settings_title">BeiDou műholdas kommunikáció</string>
+    <string name="beidou_satellite_enable_message_all">A szolgáltatás aktiválásához vegye fel a kapcsolatot szolgáltatójával.</string>
     <string name="beidou_sms_location_fail_toast">Engedélyezze, hogy a funkció először hozzáférjen az Ön tartózkodási helyéhez</string>
     <string name="bf_news_settings">Üzleti és pénzügyi hírek</string>
     <string name="business_hall_settings_summary">Kezelje hívásait és az adathasználatot</string>
@@ -635,6 +637,8 @@ Kilép?}}"</string>
     <string name="enhanced_4g_lte_mode_title">Javított 4G LTE mód</string>
     <string name="enter_callbarring_password">Adja meg a jelszót a híváskorlátozáshoz (%d számjegy)</string>
     <string name="enter_esim_manager_title">eSIM kezelése</string>
+    <string name="enter_esim_service_support_summary">A támogatott szolgáltatók listájának megtekintése</string>
+    <string name="enter_esim_service_support_title">Támogatott szolgáltatók</string>
     <string name="enter_input">Az USSD-üzenet hossza %1$d és %2$d karakter között lehet. Kérjük, próbálja újra.</string>
     <string name="enter_mep_esim_manager_title">SIM kezelése</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -678,6 +682,8 @@ Kilép?}}"</string>
     <string name="fiveg_carrier_aggregation_title">5G szolgáltatói aggregáció</string>
     <string name="fiveg_hosted_mode_summary">A legjobb hálózat automatikus kiválasztása az akkumulátor kímélése érdekében</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">Úgy tűnik, hogy a(z) %s SIM nem tudja használni az 5G SA szolgáltatásokat. További információkért forduljon a szolgáltatójához.</string>
+    <string name="fiveg_interruption_remind_title">Nem lehet használni az 5G szolgáltatásokat</string>
     <string name="fiveg_network_mode_default">Automatikus</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1206,7 +1212,7 @@ Használja az elsődleges hálózatot ehelyett."</string>
     <string name="not_voice_capable">A hanghívás nem támogatott</string>
     <string name="notallow">Az engedély nincs megadva</string>
     <string name="notification_channel_sip_account">Elavult SIP-fiókok</string>
-    <string name="notification_network_selection_text">A kiválasztott hálózat (%s) nem érhető el</string>
+    <string name="notification_network_selection_text">A kiválasztott hálózat%s nem érhető el</string>
     <string name="notification_network_selection_title">Nincs szolgáltatás</string>
     <string name="notification_switch_auto_text">Úgy látjuk, Ön visszatért. Átváltottunk helyi hálózatokra.</string>
     <string name="notification_switch_auto_title">Mobilhálózatok</string>
@@ -1226,8 +1232,10 @@ Használja az elsődleges hálózatot ehelyett."</string>
     <string name="obtain_location_information">Tartózkodási hely</string>
     <string name="obtain_location_information_summary">Az aktuális környezet optimalizálásához</string>
     <string name="oem_radio_info_label">OEM-specifikus adatok és beállítások:</string>
+    <string name="offline_call">Xiaomi offline kommunikáció</string>
     <string name="offline_call_has_call">A másik személy foglalt. Próbálja újra pár percel később.</string>
     <string name="offline_call_not_match_contact">A hívás sikertelen. Nem Ön a másik személy kapcsolattartója.</string>
+    <string name="offline_call_summary">Közeli Xiaomi telefonok felhívása Bluetooth-on keresztül hálózati kapcsolat nélkül</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Régi PIN2-kód</string>
     <string name="oldPinLabel">Régi PIN-kód</string>
@@ -1626,6 +1634,8 @@ UT-felület: %5$s"</string>
        &lt;br> - Az RTT funkció nem áll rendelkezésre videohívásokban."</string>
     <string name="rtt_mode_summary">Üzenetküldés engedélyezése a hangalapú hívásokban</string>
     <string name="rtt_mode_title">Valós idejű szöveg (RTT) típusú hívás</string>
+    <string name="rtt_settings_summary">A valós idejű szöveg (RTT) lehetővé teszi, hogy telefonálás közben is szöveges üzenetekkel kommunikáljon</string>
+    <string name="rtt_settings_title">RTT-hívás</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Kilép most</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1969,6 +1979,8 @@ A következő időszak %2$d nap múlva kezdődik (%3$s)"</string>
     <string name="turnover_mute_summary">Ha a telefon vízszintes felületen van és a képernyő felfelé néz, fordítsa át az elnémításhoz, a rezgés kikapcsolásához és értesítési jelzőfények leállításához.</string>
     <string name="turnover_mute_title">Lefordításkor némítás</string>
     <string name="undefined">Nincs megadva</string>
+    <string name="unfold_show_bublle_pref_summary">Nyissa ki a készüléket a hívások alatt, hogy lebegő ablakokban jelenítse meg őket</string>
+    <string name="unfold_show_bublle_pref_title">Nyissa ki a hívások minimalizálására</string>
     <string name="unknown">Ismeretlen</string>
     <string name="unlock_failed">A hálózatzárolás feloldására vonatkozó kérelem sikertelen volt.</string>
     <string name="unlock_success">A függetlenítés sikerült.</string>

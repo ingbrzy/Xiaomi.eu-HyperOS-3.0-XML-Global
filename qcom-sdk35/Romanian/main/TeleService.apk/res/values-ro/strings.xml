@@ -129,7 +129,9 @@
     <string name="band_mode_title">Setează Modul bandă radio</string>
     <string name="beidou_findout_settings_title">Despre mesageria prin satelit BeiDou</string>
     <string name="beidou_mobile_settings_summary">Disponibil numai pentru utilizatorii China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">Disponibil numai pentru utilizatorii cu serviciu activ de comunicații prin satelit BeiDou</string>
     <string name="beidou_mobile_settings_title">Comunicații prin satelit BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">Contactați operatorul pentru a activa serviciul.</string>
     <string name="beidou_sms_location_fail_toast">Permiteți mai întâi acestei funcții să vă acceseze locația</string>
     <string name="bf_news_settings">Știri despre afaceri și financiare</string>
     <string name="business_hall_settings_summary">Controlați-vă apelurile și utilizarea datelor</string>
@@ -630,6 +632,8 @@
     <string name="enhanced_4g_lte_mode_title">Mod 4G LTE îmbunătățit</string>
     <string name="enter_callbarring_password">Introduceți parola de blocare a apelurilor (%d cifre)</string>
     <string name="enter_esim_manager_title">Gestionează eSIM</string>
+    <string name="enter_esim_service_support_summary">Vizualizați o listă de operatori acceptați</string>
+    <string name="enter_esim_service_support_title">Operatori acceptați</string>
     <string name="enter_input">Mesajul USSD trebuie să aibă între %1$d și %2$d caractere. Încearcă din nou.</string>
     <string name="enter_mep_esim_manager_title">Gestionează SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -673,6 +677,8 @@
     <string name="fiveg_carrier_aggregation_title">Agregare operator 5G</string>
     <string name="fiveg_hosted_mode_summary">Selectați automat cea mai bună rețea pentru a economisi baterie</string>
     <string name="fiveg_hosted_mode_title">Comutator Inteligent 5G</string>
+    <string name="fiveg_interruption_remind">Se pare că SIM-ul %s nu poate folosi serviciile 5G SA. Contactați operatorul pentru mai multe informații.</string>
+    <string name="fiveg_interruption_remind_title">Nu se poate folosi serviciile 5G</string>
     <string name="fiveg_network_mode_default">Automat</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -953,7 +959,8 @@ Poți, totuși, să inițiezi apeluri de urgență."</string>
     <string name="mhh_enable">Medicină, sănătate și spitale activate</string>
     <string name="mi_mobile_settings_summary">Planuri de date furnizate de Xiaomi</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Activează SIM %1$d pentru a putea folosi Mi Mobile. Acest lucru ar putea dura până la %2$d-%3$d minute.</string>
+    <string name="mi_mobile_sim_activate_message">Se pare că SIM %1$d nu este activat. Atingeți \"Activați\" și urmați instrucțiunile pentru a începe.</string>
+    <string name="mi_mobile_sim_activate_title">Activare SIM Mi Mobile</string>
     <string name="mi_sim_settings_summary">Utilizează datele mobile fără o cartelă SIM</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Noapte</string>
@@ -1201,7 +1208,7 @@ Se utilizează rețeaua preferată în schimb."</string>
     <string name="not_voice_capable">Apelarea vocală nu este acceptată</string>
     <string name="notallow">Nu a fost acordat</string>
     <string name="notification_channel_sip_account">Conturi SIP învechite</string>
-    <string name="notification_network_selection_text">Rețeaua selectată (%s) nu este disponibilă</string>
+    <string name="notification_network_selection_text">Rețeaua selectată%s nu este disponibilă</string>
     <string name="notification_network_selection_title">Fără serviciu</string>
     <string name="notification_switch_auto_text">Se pare că te-ai întors. S-a schimbat la rețelele locale.</string>
     <string name="notification_switch_auto_title">Reţele mobile</string>
@@ -1221,8 +1228,10 @@ Se utilizează rețeaua preferată în schimb."</string>
     <string name="obtain_location_information">Locație</string>
     <string name="obtain_location_information_summary">Pentru optimizarea mediului de rețea actuală</string>
     <string name="oem_radio_info_label">Informații/Setări caracteristice OEM</string>
+    <string name="offline_call">Comunicare offline Xiaomi</string>
     <string name="offline_call_has_call">Cealaltă persoană este ocupată. Încercați din nou peste un minut sau două.</string>
     <string name="offline_call_not_match_contact">Nu am putut suna. Nu ești contactul celeilalte persoane.</string>
+    <string name="offline_call_summary">Apelați telefoanele Xiaomi din apropiere prin Bluetooth fără o conexiune la rețea</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Codul PIN2 vechi</string>
     <string name="oldPinLabel">Codul PIN vechi</string>
@@ -1621,6 +1630,8 @@ Interfață UT: %5$s"</string>
        &lt;br> - Serviciul TTR nu este disponibil pentru apelurile video."</string>
     <string name="rtt_mode_summary">Permite schimbul de mesaje în timpul unui apel vocal</string>
     <string name="rtt_mode_title">Apel de tipul Text în timp real (TTR)</string>
+    <string name="rtt_settings_summary">Text în timp real (TTR) vă permite să utilizați textul pentru a comunica în timpul unui apel telefonic</string>
+    <string name="rtt_settings_title">Apelare TTR</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Ieșiți acum</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1964,6 +1975,8 @@ Perioada următoare începe în %2$d zile (%3$s)"</string>
     <string name="turnover_mute_summary">Când telefonul se află pe o suprafață orizontală cu ecranul în sus, întoarceți-l pentru a opri soneria, a opri vibrațiile și a înceta să clipească lumina de notificare.</string>
     <string name="turnover_mute_title">Întoarceţi pentru a dezactiva sunetul</string>
     <string name="undefined">Niciunul</string>
+    <string name="unfold_show_bublle_pref_summary">Deschideți dispozitivul în timpul apelurilor pentru a le afișa în ferestre plutitoare</string>
+    <string name="unfold_show_bublle_pref_title">Deschide pentru a minimiza apelurile</string>
     <string name="unknown">Necunoscut</string>
     <string name="unlock_failed">Cererea de deblocare a rețelei a eșuat.</string>
     <string name="unlock_success">Rețeaua a fost deblocată.</string>
@@ -2088,7 +2101,7 @@ Dacă alegeți să preferați rețelele mobile, acestea vor fi utilizate în mod
     <string name="wifi_call_help_title">Ajutor pentru apeluri Wi-Fi</string>
     <string name="wifi_call_notification_message">Acest serviciu este furnizat de Orange. Este posibil să dureze câteva ore pentru a activa acest serviciu. Veți primi un SMS de confirmare imediat ce va fi disponibil.</string>
     <string name="wifi_call_preferred_summary">Dacă alegeți să preferați rețelele mobile, în mod implicit, rețelele mobile vor fi utilizate pentru apeluri. În cazul în care nu există semnal de rețea mobilă sau este foarte slab, în schimb se va utiliza rețea Wi-Fi.</string>
-    <string name="wifi_call_setting">Telekom Mobile</string>
+    <string name="wifi_call_setting">Apeluri Wi-Fi</string>
     <string name="wifi_call_welcome_settings">Apeluri Wi-Fi</string>
     <string name="wifi_calling">Apelare prin Wi-Fi</string>
     <string name="wifi_calling_settings_title">Apelare prin Wi-Fi</string>

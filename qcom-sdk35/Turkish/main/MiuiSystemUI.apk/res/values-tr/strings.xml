@@ -191,19 +191,21 @@
     <string name="accessibility_phone_three_bars">Telefon sinyali üç çubuk.</string>
     <string name="accessibility_phone_two_bars">Telefon sinyali iki çubuk.</string>
     <string name="accessibility_qr_code_scanner_button">QR kodu tarayıcı</string>
-    <string name="accessibility_qs_edit_move_tile">Taşı: %1$s</string>
+    <string name="accessibility_qs_edit_move_tile">%1$s taşı</string>
     <string name="accessibility_qs_edit_position">Konum: %1$d</string>
-    <string name="accessibility_qs_edit_remove_tile">Kaldır: %1$s</string>
+    <string name="accessibility_qs_edit_remove_tile">%1$s kaldır</string>
     <string name="accessibility_qs_edit_remove_tile_action">Kutuyu kaldırmak için</string>
-    <string name="accessibility_qs_edit_tile_add">%1$s, %2$d konumuna ekle</string>
+    <string name="accessibility_qs_edit_tile_add">%1$s %2$d konumuna ekle</string>
     <string name="accessibility_qs_edit_tile_add_action">Sona kutu eklemek için</string>
     <string name="accessibility_qs_edit_tile_add_to_position">%1$d konumuna ekle</string>
     <string name="accessibility_qs_edit_tile_added">%1$s, %2$d konumuna eklendi</string>
-    <string name="accessibility_qs_edit_tile_move">%1$s, %2$d konumuna taşı</string>
+    <string name="accessibility_qs_edit_tile_move">%1$s %2$d konumuna taşı</string>
     <string name="accessibility_qs_edit_tile_move_to_position">%1$d konumuna taşı</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s kaldırıldı</string>
     <string name="accessibility_qs_edit_tile_start_add">Kutu ekle</string>
     <string name="accessibility_qs_edit_tile_start_move">Kutuyu taşı</string>
+    <string name="accessibility_qs_item_drag">Sürükleniyor</string>
+    <string name="accessibility_qs_position_hint">%1$d. satır, %2$d. sütuna yerleştirildi</string>
     <string name="accessibility_quick_settings_alarm">Alarm saati: %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">etkinleştir</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Bağlı grip</string>
     <string name="accessibility_quick_settings_open_settings">%s ayarlarını aç.</string>
     <string name="accessibility_quick_settings_page">Sayfa %1$d / %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Sayfa göstergesi</string>
     <string name="accessibility_quick_settings_power_menu">Güç menüsü</string>
     <string name="accessibility_quick_settings_rotation">Ekranı otomatik döndür</string>
     <string name="accessibility_quick_settings_settings">Ayarları aç.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Gönder</string>
     <string name="accessibility_sensors_off_active">Sensörler kapalı ayarı etkin</string>
     <string name="accessibility_settings">Ayarlar</string>
+    <string name="accessibility_sliding_button_state_description_off">Kapatıldı</string>
+    <string name="accessibility_sliding_button_state_description_on">Açıldı</string>
     <string name="accessibility_split_bottom">Alt tarafta böl</string>
     <string name="accessibility_split_left">Sol tarafta böl</string>
     <string name="accessibility_split_right">Sağ tarafta böl</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Uydu, bağlantı güçlü</string>
     <string name="accessibility_status_bar_satellite_no_connection">Uydu, bağlantı yok</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Uydu, bağlantı zayıf</string>
+    <string name="accessibility_tab_state_description_unselect">Seçilmedi</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">daha fazla bilgi</string>
     <string name="accessibility_tty_enabled">TeleTypewriter etkin.</string>
     <string name="accessibility_unlock_button">Kilitli değil</string>
@@ -892,6 +898,7 @@ Devam ettirirseniz veri kullanımı için sizden ödeme alınabilir."</string>
     <string name="enable_verbose_vendor_logging_summary">Hata raporlarına cihaza özgü ek satıcı günlükleri ekle. Bu günlükler gizli bilgiler içerebilir, daha fazla pil ve/veya daha fazla depolama alanı kullanabilir.</string>
     <string name="enabled_by_admin">Yönetici tarafından etkinleştirildi</string>
     <string name="enhanced_connectivity_summary">Gelişmiş Bağlantı özelliğini etkinleştirir.</string>
+    <string name="enrol_fingerprint_process_talkback">Parmak izi ekleniyor</string>
     <string name="eras_ad">M.S.</string>
     <string name="eras_bc">M.Ö.</string>
     <string name="error_disable_esim_msg">Bir hata nedeniyle eSIM devre dışı bırakılamıyor.</string>
@@ -1057,6 +1064,7 @@ Güç tuşu ile kapatın."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">d EE</string>
     <string name="format_week_day_style1_desc">%1$s, ayın günü: %2$s</string>
+    <string name="free_form_recommend_tip">Kayan pencere</string>
     <string name="friday">Cuma</string>
     <string name="friday_short">Cum</string>
     <string name="friday_shortest">Cum</string>
@@ -1191,6 +1199,15 @@ Daha fazla bilgi için dokunun"</string>
     <string name="inattentive_sleep_warning_message">Cihaz kısa süre içinde kapanacak. Açık tutmak için düğmeye basın.</string>
     <string name="inattentive_sleep_warning_title">Beklemeye alınıyor</string>
     <string name="indeterminate">Kısmi olarak kontrol edildi</string>
+    <string name="info_focus_download_end">İndirildi</string>
+    <string name="info_focus_download_start">Kayan bir pencereyi açın ve indirmenin bitmesini bekleyin</string>
+    <string name="info_focus_download_update">İndirme ilerlemesi</string>
+    <string name="info_focus_match_end">Başarıyla eşleşti</string>
+    <string name="info_focus_match_start">Kayan bir pencereyi açın ve eşleşmeyi bekleyin</string>
+    <string name="info_focus_match_update">Eşleşiyor…</string>
+    <string name="info_focus_rebirth_end">Yeniden doğdu</string>
+    <string name="info_focus_rebirth_start">Kayan bir pencereyi açın ve yeniden doğmasını bekleyin</string>
+    <string name="info_focus_rebirth_update">Yeniden doğması bekleniyor</string>
     <string name="inline_done_button">Bitti</string>
     <string name="inline_ok_button">Uygula</string>
     <string name="inline_turn_off_notifications">Bildirimleri kapat</string>
@@ -1408,6 +1425,7 @@ Daha fazla bilgi için dokunun"</string>
     <string name="kg_wrong_input_try_fp_suggestion">Ya da parmak iziyle kilidi açın</string>
     <string name="kg_wrong_password">Yanlış şifre</string>
     <string name="kg_wrong_password_try_again">Yanlış şifre. Tekrar deneyin.</string>
+    <string name="kg_wrong_pattern">Yanlış desen</string>
     <string name="kg_wrong_pattern_try_again">Yanlış desen. Tekrar deneyin.</string>
     <string name="kg_wrong_pin">Yanlış PIN</string>
     <string name="kg_wrong_pin_try_again">Yanlış PIN. Tekrar deneyin.</string>
@@ -1473,6 +1491,7 @@ Bu uygulamanın tüm cihaz günlüklerine erişmesine izin vermeseniz de kendi g
     <string name="log_access_confirmation_learn_more">Daha fazla bilgi</string>
     <string name="log_access_confirmation_learn_more_at">Daha fazla bilgiyi %s sayfasında bulabilirsiniz</string>
     <string name="log_access_confirmation_title">%s uygulamasının tüm cihaz günlüklerine erişmesine izin verilsin mi?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Cihaz aşırı ısındı. El feneri parlaklığı azaltılıyor.</string>
     <string name="m3c_search_bar_search">Arama</string>
     <string name="m3c_suggestions_available">Önerileri aşağıda bulabilirsiniz</string>
     <string name="magnification_close_settings_click_label">Büyütme ayarlarını kapat</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Seçili</string>
+    <string name="miuix_accessibility_title">Başlık</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Daraltılmış</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Genişletilmiş</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Düzenleme modundan çık</string>
+    <string name="miuix_appcompat_accessibility_new_message">Yeni bildirim</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Düzenleme moduna gir</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Tüm seçimleri kaldır</string>
     <string name="miuix_appcompat_action_mode_select_all">Tümünü seç</string>
     <string name="miuix_appcompat_action_mode_title_empty">Ögeleri seç</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Tümünü seç</string>
     <string name="miuix_appcompat_select_all_description">Tümünü seç</string>
     <string name="miuix_appcompat_select_item">Ögeleri seç</string>
+    <string name="miuix_appcompat_show_dialog_description">Açılır pencere</string>
+    <string name="miuix_progressbar_loading">Yükleniyor</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Yenilemek için aşağı çekin</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Başarıyla yenilendi</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Yenileniyor…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Şimdilik bu kadar</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Yalnızca bir sn…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ögeler yüklenemedi</string>
+    <string name="miuix_show_password">Şifreyi göster</string>
+    <string name="miuix_stretchablewidget_collapsed">Daraltılmış</string>
+    <string name="miuix_stretchablewidget_expanded">Genişletilmiş</string>
     <string name="mobile_carrier_text_format">%2$s, %1$s</string>
     <string name="mobile_data_always_on">Mobil veri her zaman etkin</string>
     <string name="mobile_data_always_on_summary">Kablosuz bağlantı etkin bile olsa mobil veri kullanımını her zaman etkin tut (ağlar arasında hızlı geçiş yapmak için).</string>
@@ -2494,6 +2524,7 @@ Sorularınız varsa %2$s ile iletişime geçin."</string>
     <string name="speed_label_okay">Tamam</string>
     <string name="speed_label_slow">Yavaş</string>
     <string name="speed_label_very_fast">Çok Hızlı</string>
+    <string name="split_screen_recommend_tip">Ekran bölme</string>
     <string name="split_screen_text">Bölünmüş Ekran</string>
     <string name="standby_bucket_summary">"Uygulamayı beklemeye alma durumu:  %s"</string>
     <string name="start_dreams">Ekran koruyucu</string>
@@ -2612,9 +2643,9 @@ Sorularınız varsa %2$s ile iletişime geçin."</string>
     <string name="thermal_shutdown_dialog_message">"Telefonunuz çok ısındığından soğuması için kapatıldı ve şu anda normal bir şekilde çalışıyor.
 
 Telefonunuz şu koşullarda çok ısınabilir:
-\u0009• Yoğun kaynak gerektiren uygulamalar (oyun, video veya gezinme uygulamaları gibi) kullanma
-\u0009• Büyük dosyalar indirme veya yükleme
-\u0009• Telefonunuzu sıcak yerlerde kullanma"</string>
+\t• Yoğun kaynak gerektiren uygulamalar (oyun, video veya gezinme uygulamaları gibi) kullanma
+\t• Büyük dosyalar indirme veya yükleme
+\t• Telefonunuzu sıcak yerlerde kullanma"</string>
     <string name="thermal_shutdown_message">"Telefonunuz şu anda normal bir şekilde çalışıyor.
 Daha fazla bilgi için dokunun"</string>
     <string name="thermal_shutdown_title">Telefon ısındığından kapatıldı</string>

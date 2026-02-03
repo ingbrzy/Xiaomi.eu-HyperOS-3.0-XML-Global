@@ -195,15 +195,17 @@
     <string name="accessibility_qs_edit_position">%1$d. позиција</string>
     <string name="accessibility_qs_edit_remove_tile">Уклони %1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">уклонили плочицу</string>
-    <string name="accessibility_qs_edit_tile_add">Додај %1$s на позицију %2$d</string>
+    <string name="accessibility_qs_edit_tile_add">Додајте %1$s на позицију %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">додали плочицу на крај</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Додајте на %1$d. позицију</string>
     <string name="accessibility_qs_edit_tile_added">%1$s је додато на позицију %2$d</string>
-    <string name="accessibility_qs_edit_tile_move">Помери %1$s на позицију %2$d</string>
+    <string name="accessibility_qs_edit_tile_move">Додајте %1$s на позицију %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Преместите на %1$d. позицију</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s је уклоњено</string>
     <string name="accessibility_qs_edit_tile_start_add">Додајте плочицу</string>
     <string name="accessibility_qs_edit_tile_start_move">Преместите плочицу</string>
+    <string name="accessibility_qs_item_drag">Превлачење</string>
+    <string name="accessibility_qs_position_hint">Постављено у ред %1$d, колона %2$d</string>
     <string name="accessibility_quick_settings_alarm">Аларм је подешен за %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">активирајте</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Повезани држач</string>
     <string name="accessibility_quick_settings_open_settings">Отвори подешавања за %s.</string>
     <string name="accessibility_quick_settings_page">%1$d. страна од %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Индикатор страница</string>
     <string name="accessibility_quick_settings_power_menu">Мени дугмета за укључивање</string>
     <string name="accessibility_quick_settings_rotation">Аутоматско ротирање екрана</string>
     <string name="accessibility_quick_settings_settings">Отвори Подешавања.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Пошаљи</string>
     <string name="accessibility_sensors_off_active">Сензори су искључени</string>
     <string name="accessibility_settings">Поставке</string>
+    <string name="accessibility_sliding_button_state_description_off">Искључен</string>
+    <string name="accessibility_sliding_button_state_description_on">Укључено</string>
     <string name="accessibility_split_bottom">Поделите у дну</string>
     <string name="accessibility_split_left">Поделите лево</string>
     <string name="accessibility_split_right">Поделите десно</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Сателит, веза је добра</string>
     <string name="accessibility_status_bar_satellite_no_connection">Сателит, нисте повезани</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Сателит, веза је лоша</string>
+    <string name="accessibility_tab_state_description_unselect">Није изабрано</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">сазнајте више</string>
     <string name="accessibility_tty_enabled">TeleTypewriter је омогућен.</string>
     <string name="accessibility_unlock_button">Откључано</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">Уврштава у извештаје о грешкама додатне посебне евиденције продавца за уређаје, које могу да садрже приватне податке, да троше више батерије и/или да користе више меморије.</string>
     <string name="enabled_by_admin">Администратор је омогућио</string>
     <string name="enhanced_connectivity_summary">Омогућава функцију Побољшано повезивање.</string>
+    <string name="enrol_fingerprint_process_talkback">Додавање отиска прста</string>
     <string name="eras_ad">Н.Е</string>
     <string name="eras_bc">П.Н.Е</string>
     <string name="error_disable_esim_msg">eSIM не може да се онемогући због грешке.</string>
@@ -1057,6 +1064,7 @@
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">d. EE.</string>
     <string name="format_week_day_style1_desc">%1$s, дан у месецу: %2$s</string>
+    <string name="free_form_recommend_tip">Плутајући прозор</string>
     <string name="friday">Петак</string>
     <string name="friday_short">Пет</string>
     <string name="friday_shortest">Пет</string>
@@ -1191,6 +1199,15 @@
     <string name="inattentive_sleep_warning_message">Уређај ће се ускоро искључити. Притисните да би остао укључен.</string>
     <string name="inattentive_sleep_warning_title">Стање приправности</string>
     <string name="indeterminate">Делимично означено</string>
+    <string name="info_focus_download_end">Преузето</string>
+    <string name="info_focus_download_start">Отворите плутајући прозор и сачекајте да се преузимање заврши</string>
+    <string name="info_focus_download_update">Напредак преузимања</string>
+    <string name="info_focus_match_end">Успешно подударање</string>
+    <string name="info_focus_match_start">Отворите плутајући прозор и сачекајте да се упарите</string>
+    <string name="info_focus_match_update">Подударање…</string>
+    <string name="info_focus_rebirth_end">Поново се појавило</string>
+    <string name="info_focus_rebirth_start">Отворите плутајући прозор и сачекајте поновно појављивање</string>
+    <string name="info_focus_rebirth_update">Чека се поновно појављивање</string>
     <string name="inline_done_button">Готово</string>
     <string name="inline_ok_button">Примени</string>
     <string name="inline_turn_off_notifications">Искључи обавештења</string>
@@ -1408,6 +1425,7 @@
     <string name="kg_wrong_input_try_fp_suggestion">Или откључајте отиском прста</string>
     <string name="kg_wrong_password">Погрешна лозинка</string>
     <string name="kg_wrong_password_try_again">Погрешна лозинка. Пробајте поново.</string>
+    <string name="kg_wrong_pattern">Погрешан шаблон</string>
     <string name="kg_wrong_pattern_try_again">Погрешан шаблон. Пробајте поново.</string>
     <string name="kg_wrong_pin">Погрешан PIN</string>
     <string name="kg_wrong_pin_try_again">Погрешан PIN. Пробајте поново.</string>
@@ -1473,6 +1491,7 @@
     <string name="log_access_confirmation_learn_more">Сазнајте више</string>
     <string name="log_access_confirmation_learn_more_at">Сазнајте више на %s</string>
     <string name="log_access_confirmation_title">Желите да дозволите да %s приступа свим евиденцијама уређаја?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Уређај се прегрејао. Смањење светлине лампе.</string>
     <string name="m3c_search_bar_search">Претрага</string>
     <string name="m3c_suggestions_available">Предлози су у наставку</string>
     <string name="magnification_close_settings_click_label">Затвори подешавања увећања</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Изабрано</string>
+    <string name="miuix_accessibility_title">Наслов</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Скупљено</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Проширено</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Изађи из режима уређивања</string>
+    <string name="miuix_appcompat_accessibility_new_message">Ново обавештење</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Улаз у режим за уређивање</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Поништи избор</string>
     <string name="miuix_appcompat_action_mode_select_all">Изабери све</string>
     <string name="miuix_appcompat_action_mode_title_empty">Одаберите ставке</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Изабери све</string>
     <string name="miuix_appcompat_select_all_description">Изабери све</string>
     <string name="miuix_appcompat_select_item">Одаберите ставке</string>
+    <string name="miuix_appcompat_show_dialog_description">Искачући прозор</string>
+    <string name="miuix_progressbar_loading">Учитавање</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Превуците надоле да освежите</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно освежено</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Освежавање…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">То је све за сада</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Само тренутак…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Ставке нису отпремљене</string>
+    <string name="miuix_show_password">Прикажи лозинку</string>
+    <string name="miuix_stretchablewidget_collapsed">Скупљено</string>
+    <string name="miuix_stretchablewidget_expanded">Проширено</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Мобилни подаци су увек активни</string>
     <string name="mobile_data_always_on_summary">Мобилни подаци су увек активни, чак и када је Wi‑Fi активан (ради брзе промене мреже).</string>
@@ -2494,6 +2524,7 @@ mm"</string>
     <string name="speed_label_okay">Потврди</string>
     <string name="speed_label_slow">Спора</string>
     <string name="speed_label_very_fast">Веома брза</string>
+    <string name="split_screen_recommend_tip">Раздељени екран</string>
     <string name="split_screen_text">Подељени екран</string>
     <string name="standby_bucket_summary">"Стање приправности апликације:  %s"</string>
     <string name="start_dreams">Чувар екрана</string>
@@ -2612,9 +2643,9 @@ mm"</string>
     <string name="thermal_shutdown_dialog_message">"Телефон је био преврућ, па се искључио да се охлади. Сада ради нормално.
 
 Телефон може превише да се угреје ако:
-\u0009• користите апликације које захтевају пуно ресурса (нпр. видео игре, видео или апликације за навигацију)
-\u0009• преузимате или отпремате велике фајлове
-\u0009• користите телефон на високој температури"</string>
+\t• користите апликације које захтевају пуно ресурса (нпр. видео игре, видео или апликације за навигацију)
+\t• преузимате или отпремате велике фајлове
+\t• користите телефон на високој температури"</string>
     <string name="thermal_shutdown_message">"Телефон сада функционише нормално.
 Додирните за више информација"</string>
     <string name="thermal_shutdown_title">Телефон се искључио због топлоте</string>

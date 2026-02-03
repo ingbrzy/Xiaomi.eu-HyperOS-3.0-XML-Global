@@ -134,7 +134,9 @@ Vil du avslutte nå?}}"</string>
     <string name="band_mode_title">Angi båndmodus for radio</string>
     <string name="beidou_findout_settings_title">Om BeiDou satellittmeldinger</string>
     <string name="beidou_mobile_settings_summary">Kun tilgjengelig for China Mobile-brukere</string>
+    <string name="beidou_mobile_settings_summary_all">Bare tilgjengelig for brukere med aktiv satellittkommunikasjonstjeneste fra BeiDou</string>
     <string name="beidou_mobile_settings_title">BeiDou satelittkommunikasjon</string>
+    <string name="beidou_satellite_enable_message_all">Kontakt operatøren for å aktivere tjenesten.</string>
     <string name="beidou_sms_location_fail_toast">Gi denne funksjonen tilgang til posisjonen din først</string>
     <string name="bf_news_settings">Bedrifts- og finansnyheter</string>
     <string name="business_hall_settings_summary">Kontroller anrop og databruk</string>
@@ -635,6 +637,8 @@ Vil du avslutte nå?}}"</string>
     <string name="enhanced_4g_lte_mode_title">Forbedret 4G LTE-modus</string>
     <string name="enter_callbarring_password">Skriv inn passord for sperring av anrop (%d siffer)</string>
     <string name="enter_esim_manager_title">Administrer eSIM</string>
+    <string name="enter_esim_service_support_summary">Vis en liste over operatører som støttes</string>
+    <string name="enter_esim_service_support_title">Operatører som støttes</string>
     <string name="enter_input">USSD-meldingen må ha %1$d til %2$d tegn. Prøv på nytt.</string>
     <string name="enter_mep_esim_manager_title">Administrer SIM</string>
     <string name="enter_pin2_text">PIN-kode%d</string>
@@ -678,6 +682,8 @@ Vil du avslutte nå?}}"</string>
     <string name="fiveg_carrier_aggregation_title">5G-leverandøraggregering</string>
     <string name="fiveg_hosted_mode_summary">Select best network automatically to save battery</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">Det ser ut til at SIM-kortet %s ikke kan bruke 5G SA-tjenester. Kontakt operatøren for ytterligere informasjon.</string>
+    <string name="fiveg_interruption_remind_title">Kan ikke bruke 5G-tjenester</string>
     <string name="fiveg_network_mode_default">Automatisk</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -958,7 +964,8 @@ Du kan fortsatt foreta nødanrop."</string>
     <string name="mhh_enable">Helse og sykehus aktivert</string>
     <string name="mi_mobile_settings_summary">Data plans provided by Xiaomi</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Aktiver SIM-kortet %1$d for å kunne bruke Mi Mobile. Dette kan ta opptil %2$d-%3$d minutter.</string>
+    <string name="mi_mobile_sim_activate_message">Det ser ut til at SIM %1$d ikke er aktivert. Trykk på \"Aktiver\" og følg anvisningene for å komme i gang.</string>
+    <string name="mi_mobile_sim_activate_title">Mi Mobile SIM-aktivering</string>
     <string name="mi_sim_settings_summary">Bruk mobildata uten SIM-kort</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Natt</string>
@@ -1206,7 +1213,7 @@ Bruker foretrukket nettverk i stedet."</string>
     <string name="not_voice_capable">Taleanrop støttes ikke</string>
     <string name="notallow">Ikke gitt</string>
     <string name="notification_channel_sip_account">Avviklede SIP-kontoer</string>
-    <string name="notification_network_selection_text">Det valgte nettverket, %s, er ikke tilgjengelig</string>
+    <string name="notification_network_selection_text">Det valgte nettverket,%s, er ikke tilgjengelig</string>
     <string name="notification_network_selection_title">Ingen tjeneste</string>
     <string name="notification_switch_auto_text">Det ser ut til at du er tilbake. Byttet til lokale nettverk.</string>
     <string name="notification_switch_auto_title">Mobilnettverk</string>
@@ -1226,8 +1233,10 @@ Bruker foretrukket nettverk i stedet."</string>
     <string name="obtain_location_information">Beliggenhet</string>
     <string name="obtain_location_information_summary">For optimering av det nåværende nettverksmiljøet</string>
     <string name="oem_radio_info_label">Produsentspesfikk informasjon og innstillinger</string>
+    <string name="offline_call">Xiaomi frakoblet kommunikasjon</string>
     <string name="offline_call_has_call">Den andre personen er opptatt. Prøv igjen om et minutt eller to.</string>
     <string name="offline_call_not_match_contact">Kunne ikke ringe. Du er ikke den andre personens kontakt.</string>
+    <string name="offline_call_summary">Ring Xiaomi-telefoner i nærheten via Bluetooth uten tilkobling til nettverket</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Gammel PIN2-kode</string>
     <string name="oldPinLabel">Gammel PIN-kode</string>
@@ -1626,6 +1635,8 @@ UT-grensesnitt: %5$s"</string>
        &lt;br> – STT er ikke tilgjengelig for videoanrop"</string>
     <string name="rtt_mode_summary">Tillat meldingsutveksling i talesamtaler</string>
     <string name="rtt_mode_title">Sanntidstekst-anrop (STT)</string>
+    <string name="rtt_settings_summary">Med RTT (tekst i sanntid) kan du bruke tekst til å kommunisere mens en telefonsamtale pågår</string>
+    <string name="rtt_settings_title">RTT-anrop</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Avslutte nå</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1969,6 +1980,8 @@ Neste periode starter om %2$d dager (%3$s)"</string>
     <string name="turnover_mute_summary">Når telefonen ligger flatt med skjermen opp, snu den rundt for å sette innkommende anrop på lydløst, skru av vibreringen og stans LED-blink for varsler.</string>
     <string name="turnover_mute_title">Snu for å sette innkommende anrop på lydløst</string>
     <string name="undefined">Ingen</string>
+    <string name="unfold_show_bublle_pref_summary">Fold ut enheten under anrop for å vise dem i flytende vinduer</string>
+    <string name="unfold_show_bublle_pref_title">Fold ut for å minimere anrop</string>
     <string name="unknown">Ukjent</string>
     <string name="unlock_failed">Fikk ikke fjerne operatørlås.</string>
     <string name="unlock_success">Operatørlåsen er fjernet.</string>

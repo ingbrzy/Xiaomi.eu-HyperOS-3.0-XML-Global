@@ -152,6 +152,7 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="contact_records_permission_desc">För att överföra samtalshistorik till andra enheter</string>
     <string name="contacts">Kontakter</string>
     <string name="contacts_permission_desc">För att överföra kontakter till andra enheter</string>
+    <string name="contains_unauthorized_data">Innehåller obehörig data</string>
     <string name="copy">Kopiera</string>
     <string name="current_user_not_supported_summary">Nuvarande systeminställningarna begränsar överföring av data via Mi Mover.</string>
     <string name="current_user_not_supported_title">Det går inte att överföra objekt</string>
@@ -416,8 +417,12 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="manual_connection_content2">%d. Välj följande WiFi-internetdelning.</string>
     <string name="manual_connection_content3">%d. Ange det här lösenordet på den gamla enheten, för att ansluta.</string>
     <string name="manual_connection_hint">Tryck \"Anslut manuellt\" på din gamla enhet.</string>
+    <string name="manual_connection_hint_pad">Tryck \"Anslut manuellt\" på den gamla enheten</string>
+    <string name="manual_connection_hint_phone">Tryck \"Anslut manuellt\" på den gamla enheten</string>
     <string name="manual_connection_summary2">Om du inte kan hitta den här internetdelningen, uppdatera listan över tillgängliga WiFi-nätverk och försök igen.</string>
     <string name="manual_connection_title">Anslut till den gamla enheten manuellt</string>
+    <string name="manual_connection_title_pad">Anslut gammal enhet till internetdelning</string>
+    <string name="manual_connection_title_phone">Anslut gammal enhet till internetdelning</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover behöver komma åt alla filer på den här enheten för att kunna flytta dem från din gamla enhet till en ny.</string>
     <string name="message_request_package_stats_perm">Mi Mover behöver det här tillståndet för att förstå vilka appar som är installerade på en enhet samt överföra dessa appar till en annan.</string>
     <string name="midnight">Natt</string>
@@ -531,14 +536,14 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="new_trans_intro_desc_new">"%1$d. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i Play-butiken eller trycka här: %2$s.
 %3$d. Om enhetens internetdelning inte visas i Mi Mover, öppna wifi-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
     <string name="new_trans_intro_desc_new_click">Ladda ner</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna wifi-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna WLAN-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna wifi-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna WLAN-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner den senaste versionen av Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Om internetdelningen fortfarande inte vill visas i Mi Mover öppnar du wifi-inställningarna och kontrollerar om du kan se den där. Om du kan det, återgå till Mi Mover och tryck på internetdelningens namn."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna WLAN-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner den senaste versionen av Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Om internetdelningen fortfarande inte vill visas i Mi Mover öppnar du wifi-inställningarna och kontrollerar om du kan se den där. Om du kan det, återgå till Mi Mover och tryck på internetdelningens namn."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna WLAN-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
     <string name="new_trans_intro_desc_old">%d. Om internetdelningen inte visa ändå i Mi Mover, öppna WiFi-inställningarna och kolla om du kan se den där. Om du kan det, gå tillbaka till Mi Mover och tryck på internetdelningens namn.</string>
     <string name="new_trans_intro_question_1">%dVarför kan jag inte se internetdelningen från den nya enheten på den gamla enheten?</string>
     <string name="new_trans_intro_question_1_pad">%dVarför kan jag inte se internetdelningen från den nya enheten på den gamla enheten?</string>
@@ -637,6 +642,8 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="permission_alert_title">Behörigheter krävs</string>
     <string name="permission_bluetooth_summary">För att hitta tillgängliga enheter i närheten</string>
     <string name="permission_bluetooth_title">Slå på eller stänga av Bluetooth</string>
+    <string name="permission_calendar_summary">För överföring av kalenderhändelser</string>
+    <string name="permission_calendar_title">Få åtkomst till kalender</string>
     <string name="permission_calender_summary">För att flytta händelser från den gamla enheten till den nya</string>
     <string name="permission_calender_summary_global">För överföring av kalenderhändelser till den nya enheten</string>
     <string name="permission_calender_title">Få tillgång till kalenderhändelser</string>

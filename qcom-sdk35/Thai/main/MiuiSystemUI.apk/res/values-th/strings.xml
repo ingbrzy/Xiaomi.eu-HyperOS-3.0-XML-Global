@@ -204,6 +204,8 @@
     <string name="accessibility_qs_edit_tile_removed">ลบ %1$s แล้ว</string>
     <string name="accessibility_qs_edit_tile_start_add">เพิ่มชิ้นส่วน</string>
     <string name="accessibility_qs_edit_tile_start_move">ย้ายชิ้นส่วน</string>
+    <string name="accessibility_qs_item_drag">การลาก</string>
+    <string name="accessibility_qs_position_hint">วางไว้ที่แถว %1$d คอลัมน์ %2$d</string>
     <string name="accessibility_quick_settings_alarm">ตั้งเวลาปลุกไว้ที่ %s</string>
     <string name="accessibility_quick_settings_bluetooth">บลูทูธ</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">เปิดใช้งาน</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">ด้ามจับที่เชื่อมต่อไว้</string>
     <string name="accessibility_quick_settings_open_settings">เปิดการตั้งค่า %s</string>
     <string name="accessibility_quick_settings_page">หน้า %1$d จาก %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">ตัวระบุหน้า</string>
     <string name="accessibility_quick_settings_power_menu">เมนูเปิด/ปิด</string>
     <string name="accessibility_quick_settings_rotation">หมุนหน้าจออัตโนมัติ</string>
     <string name="accessibility_quick_settings_settings">เปิดการตั้งค่า</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">ส่ง</string>
     <string name="accessibility_sensors_off_active">\"ปิดเซ็นเซอร์\" เปิดใช้งานอยู่</string>
     <string name="accessibility_settings">การตั้งค่า</string>
+    <string name="accessibility_sliding_button_state_description_off">ปิดใช้งานแล้ว</string>
+    <string name="accessibility_sliding_button_state_description_on">เปิดใช้งานแล้ว</string>
     <string name="accessibility_split_bottom">แยกไปด้านล่าง</string>
     <string name="accessibility_split_left">แยกไปทางซ้าย</string>
     <string name="accessibility_split_right">แยกไปทางขวา</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">ดาวเทียม, การเชื่อมต่อดี</string>
     <string name="accessibility_status_bar_satellite_no_connection">ดาวเทียม, ไม่มีการเชื่อมต่อ</string>
     <string name="accessibility_status_bar_satellite_poor_connection">ดาวเทียม, การเชื่อมต่อไม่ดี</string>
+    <string name="accessibility_tab_state_description_unselect">ไม่ได้เลือกไว้</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">ดูข้อมูลเพิ่มเติม</string>
     <string name="accessibility_tty_enabled">เปิดใช้งาน TeleTypewriter อยู่</string>
     <string name="accessibility_unlock_button">ปลดล็อกแล้ว</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">รวมบันทึกเวนเดอร์เพิ่มเติมเฉพาะอุปกรณ์ไว้ในรายงานข้อบกพร่อง ซึ่งอาจมีข้อมูลส่วนตัว ใช้แบตเตอรี่มากขึ้น และ/หรือใช้พื้นที่เก็บข้อมูลมากขึ้น</string>
     <string name="enabled_by_admin">เปิดใช้โดยผู้ดูแลระบบ</string>
     <string name="enhanced_connectivity_summary">เปิดใช้ฟีเจอร์การเชื่อมต่อที่ปรับปรุงแล้ว</string>
+    <string name="enrol_fingerprint_process_talkback">กำลังเพิ่มลายนิ้วมือ</string>
     <string name="eras_ad">หลังคริสตกาล</string>
     <string name="eras_bc">ก่อนคริสตกาล</string>
     <string name="error_disable_esim_msg">ปิดใช้ eSIM ไม่ได้เนื่องจากมีข้อผิดพลาด</string>
@@ -1057,6 +1064,7 @@
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, วันของเดือน: %2$s</string>
+    <string name="free_form_recommend_tip">หน้าต่างลอย</string>
     <string name="friday">วันศุกร์</string>
     <string name="friday_short">ศุกร์</string>
     <string name="friday_shortest">ศุกร์</string>
@@ -1191,6 +1199,15 @@
     <string name="inattentive_sleep_warning_message">อุปกรณ์จะปิดเครื่องในอีกไม่ช้า กดเพื่อเปิดอุปกรณ์ต่อไป</string>
     <string name="inattentive_sleep_warning_title">สแตนด์บาย</string>
     <string name="indeterminate">เลือกบางส่วน</string>
+    <string name="info_focus_download_end">ดาวน์โหลดไว้</string>
+    <string name="info_focus_download_start">เปิดหน้าต่างลอยและรอให้การดาวน์โหลดเสร็จสิ้น</string>
+    <string name="info_focus_download_update">ความคืบหน้าการดาวน์โหลด</string>
+    <string name="info_focus_match_end">จับคู่สำเร็จ</string>
+    <string name="info_focus_match_start">เปิดหน้าต่างลอยและรอการจับคู่</string>
+    <string name="info_focus_match_update">กำลังจับคู่…</string>
+    <string name="info_focus_rebirth_end">เกิดใหม่แล้ว</string>
+    <string name="info_focus_rebirth_start">เปิดหน้าต่างลอยและรอการเกิดใหม่</string>
+    <string name="info_focus_rebirth_update">กำลังรอการเกิดใหม่</string>
     <string name="inline_done_button">เสร็จสิ้น</string>
     <string name="inline_ok_button">ใช้</string>
     <string name="inline_turn_off_notifications">ปิดการแจ้งเตือน</string>
@@ -1408,6 +1425,7 @@
     <string name="kg_wrong_input_try_fp_suggestion">หรือปลดล็อกด้วยลายนิ้วมือ</string>
     <string name="kg_wrong_password">รหัสผ่านไม่ถูกต้อง</string>
     <string name="kg_wrong_password_try_again">รหัสผ่านไม่ถูกต้อง ลองใหม่</string>
+    <string name="kg_wrong_pattern">รูปแบบไม่ถูกต้อง</string>
     <string name="kg_wrong_pattern_try_again">รูปแบบไม่ถูกต้อง ลองใหม่</string>
     <string name="kg_wrong_pin">PIN ไม่ถูกต้อง</string>
     <string name="kg_wrong_pin_try_again">PIN ไม่ถูกต้อง ลองใหม่</string>
@@ -1473,6 +1491,7 @@
     <string name="log_access_confirmation_learn_more">ดูข้อมูลเพิ่มเติม</string>
     <string name="log_access_confirmation_learn_more_at">ดูข้อมูลเพิ่มเติมที่ %s</string>
     <string name="log_access_confirmation_title">อนุญาตให้ \"%s\" เข้าถึงบันทึกทั้งหมดของอุปกรณ์ไหม</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">อุปกรณ์ร้อนเกินไป กำลังลดความสว่างของไฟฉาย</string>
     <string name="m3c_search_bar_search">ค้นหา</string>
     <string name="m3c_suggestions_available">มีคำแนะนำที่ด้านล่าง</string>
     <string name="magnification_close_settings_click_label">ปิดการตั้งค่าการขยาย</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">ที่เลือกไว้</string>
+    <string name="miuix_accessibility_title">หัวเรื่อง</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">หุบ</string>
+    <string name="miuix_appcompat_accessibility_expand_state">ขยาย</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">ออกจากโหมดแก้ไข</string>
+    <string name="miuix_appcompat_accessibility_new_message">การแจ้งเตือนใหม่</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">เข้าสู่โหมดแก้ไข</string>
     <string name="miuix_appcompat_action_mode_deselect_all">ไม่เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_action_mode_title_empty">เลือกรายการ</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_all_description">เลือกทั้งหมด</string>
     <string name="miuix_appcompat_select_item">เลือกรายการ</string>
+    <string name="miuix_appcompat_show_dialog_description">หน้าต่างป๊อปอัป</string>
+    <string name="miuix_progressbar_loading">กำลังโหลด</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">ลากลงเพื่อรีเฟรช</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">รีเฟรชสำเร็จแล้ว</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">กำลังรีเฟรช…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">นั่นคือทั้งหมดตอนนี้</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">รอสักครู่…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">ไม่สามารถโหลดรายการได้</string>
+    <string name="miuix_show_password">แสดงรหัสผ่าน</string>
+    <string name="miuix_stretchablewidget_collapsed">หุบ</string>
+    <string name="miuix_stretchablewidget_expanded">ขยาย</string>
     <string name="mobile_carrier_text_format">%1$s %2$s</string>
     <string name="mobile_data_always_on">เปิดใช้เน็ตมือถือเสมอ</string>
     <string name="mobile_data_always_on_summary">เปิดใช้เน็ตมือถือเสมอ แม้ในเวลาที่ใช้งาน Wi-Fi ได้ (เพื่อเปลี่ยนเครือข่ายได้อย่างรวดเร็ว)</string>
@@ -2494,6 +2524,7 @@ mm"</string>
     <string name="speed_label_okay">ตกลง</string>
     <string name="speed_label_slow">ช้า</string>
     <string name="speed_label_very_fast">เร็วมาก</string>
+    <string name="split_screen_recommend_tip">หน้าจอแยก</string>
     <string name="split_screen_text">แยกหน้าจอ</string>
     <string name="standby_bucket_summary">สถานะการสแตนด์บายของแอป: %s</string>
     <string name="start_dreams">ภาพพักหน้าจอ</string>
@@ -2612,9 +2643,9 @@ mm"</string>
     <string name="thermal_shutdown_dialog_message">"โทรศัพท์ร้อนเกินไปจึงปิดเครื่องเพื่อให้เย็นลง ขณะนี้โทรศัพท์ทำงานเป็นปกติ
 
 โทรศัพท์อาจร้อนเกินไปหากคุณ
-\u0009• ใช้แอปที่ใช้ทรัพยากรมาก (เช่น เกม วิดีโอ หรือแอปการนำทาง)
-\u0009• ดาวน์โหลดหรืออัปโหลดไฟล์ขนาดใหญ่
-\u0009• ใช้โทรศัพท์ในอุณหภูมิที่สูง"</string>
+\t• ใช้แอปที่ใช้ทรัพยากรมาก (เช่น เกม วิดีโอ หรือแอปการนำทาง)
+\t• ดาวน์โหลดหรืออัปโหลดไฟล์ขนาดใหญ่
+\t• ใช้โทรศัพท์ในอุณหภูมิที่สูง"</string>
     <string name="thermal_shutdown_message">"ขณะนี้โทรศัพท์ทำงานเป็นปกติ
 แตะเพื่อดูข้อมูลเพิ่มเติม"</string>
     <string name="thermal_shutdown_title">โทรศัพท์ปิดไปเพราะร้อนมาก</string>

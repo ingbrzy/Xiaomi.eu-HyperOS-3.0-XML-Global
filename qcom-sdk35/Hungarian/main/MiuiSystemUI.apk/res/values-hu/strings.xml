@@ -191,19 +191,21 @@
     <string name="accessibility_phone_three_bars">Telefon három sáv.</string>
     <string name="accessibility_phone_two_bars">Telefon két sáv.</string>
     <string name="accessibility_qr_code_scanner_button">QR-kód-szkennelő</string>
-    <string name="accessibility_qs_edit_move_tile">%1$s áthelyezése</string>
+    <string name="accessibility_qs_edit_move_tile">%1$s eltávolítása</string>
     <string name="accessibility_qs_edit_position">%1$d. hely</string>
     <string name="accessibility_qs_edit_remove_tile">%1$s eltávolítása</string>
     <string name="accessibility_qs_edit_remove_tile_action">mozaik eltávolításához</string>
-    <string name="accessibility_qs_edit_tile_add">Adja hozzá a(z) %1$s elemet a(z) %2$d pozícióhoz</string>
+    <string name="accessibility_qs_edit_tile_add">Adja hozzá a következőt: %1$s a(z) %2$d pozicionálásához</string>
     <string name="accessibility_qs_edit_tile_add_action">mozaiknak a végéhez való hozzáadásához</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Hozzáadás a következő pozícióhoz: %1$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s hozzáadva a(z) %2$d. pozícióhoz</string>
-    <string name="accessibility_qs_edit_tile_move">Helyezze át a(z) %1$s elemet a(z) %2$d pozícióba</string>
+    <string name="accessibility_qs_edit_tile_move">Helyezze át a következőt: %1$s a(z) %2$d pozicionálásához</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Áthelyezés ide: %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s eltávolításra került</string>
     <string name="accessibility_qs_edit_tile_start_add">Mozaik hozzáadása</string>
     <string name="accessibility_qs_edit_tile_start_move">Mozaik áthelyezése</string>
+    <string name="accessibility_qs_item_drag">Húzás</string>
+    <string name="accessibility_qs_position_hint">%1$d sor, %2$d oszlopba helyezve</string>
     <string name="accessibility_quick_settings_alarm">Ébresztés időpontja: %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">aktiválás</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Csatlakoztatott fogantyú</string>
     <string name="accessibility_quick_settings_open_settings">A(z) %s beállításainak megnyitása.</string>
     <string name="accessibility_quick_settings_page">%1$d. oldal, összesen: %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Oldaljelző</string>
     <string name="accessibility_quick_settings_power_menu">Bekapcsológombhoz tartozó menü</string>
     <string name="accessibility_quick_settings_rotation">Automatikus képernyőforgatás</string>
     <string name="accessibility_quick_settings_settings">Beállítások megnyitása.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Küldés</string>
     <string name="accessibility_sensors_off_active">Az Érzékelők kikapcsolva kártya aktív</string>
     <string name="accessibility_settings">Beállítások</string>
+    <string name="accessibility_sliding_button_state_description_off">Kikapcsolva</string>
+    <string name="accessibility_sliding_button_state_description_on">Bekapcsolva</string>
     <string name="accessibility_split_bottom">Osztás alul</string>
     <string name="accessibility_split_left">Osztás a képernyő bal oldalán</string>
     <string name="accessibility_split_right">Osztás a képernyő jobb oldalán</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Műhold, jó kapcsolat</string>
     <string name="accessibility_status_bar_satellite_no_connection">Műhold, nincs kapcsolat</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Műhold, gyenge kapcsolat</string>
+    <string name="accessibility_tab_state_description_unselect">Nem kiválaszott</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">további információ</string>
     <string name="accessibility_tty_enabled">TeleTypewriter engedélyezve.</string>
     <string name="accessibility_unlock_button">Feloldva</string>
@@ -892,6 +898,7 @@ Ha a folytatást választja, szolgáltatója adathasználati díjat számíthat 
     <string name="enable_verbose_vendor_logging_summary">További eszközspecifikus szolgáltatói naplók felvétele a hibajelentésekbe. Ezek a naplók tartalmazhatnak privát információkat, ezenkívül előfordulhat, hogy jobban merítik az akkumulátort, illetve nagyobb tárhelyet foglalnak el.</string>
     <string name="enabled_by_admin">A rendszergazda bekapcsolta</string>
     <string name="enhanced_connectivity_summary">Bekapcsolja az Enhanced Connectivity funkciót.</string>
+    <string name="enrol_fingerprint_process_talkback">Ujjlenyomat hozzáadása</string>
     <string name="eras_ad">I.SZ.</string>
     <string name="eras_bc">I.E.</string>
     <string name="error_disable_esim_msg">Hiba történt, így az eSIM-et nem lehet letiltani.</string>
@@ -1057,6 +1064,7 @@ Kapcsolja ki a bekapcsológombbal."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">d. EE.</string>
     <string name="format_week_day_style1_desc">%1$s, hónap napja: %2$s</string>
+    <string name="free_form_recommend_tip">Lebegő ablak</string>
     <string name="friday">Péntek</string>
     <string name="friday_short">Pén</string>
     <string name="friday_shortest">Pén</string>
@@ -1191,6 +1199,15 @@ Koppintson, ha további információra van szüksége."</string>
     <string name="inattentive_sleep_warning_message">Az eszköz hamarosan kikapcsol. Nyomja meg, hogy bekapcsolva tarthassa.</string>
     <string name="inattentive_sleep_warning_title">Készenléti mód</string>
     <string name="indeterminate">Részlegesen ellenőrizve</string>
+    <string name="info_focus_download_end">Letöltve</string>
+    <string name="info_focus_download_start">Nyisson meg egy lebegő ablakot, és várja meg a letöltés befejezését</string>
+    <string name="info_focus_download_update">Letöltési folyamat</string>
+    <string name="info_focus_match_end">Sikeresen párosítva</string>
+    <string name="info_focus_match_start">Nyisson meg egy lebegő ablakot, és várjon a párosításra</string>
+    <string name="info_focus_match_update">Párosítás…</string>
+    <string name="info_focus_rebirth_end">Újjászületve</string>
+    <string name="info_focus_rebirth_start">Nyisson meg egy lebegő ablakot, és várja meg az újjászületést</string>
+    <string name="info_focus_rebirth_update">Várakozás újjászületésre</string>
     <string name="inline_done_button">Kész</string>
     <string name="inline_ok_button">Alkalmaz</string>
     <string name="inline_turn_off_notifications">Az értesítések kikapcsolása</string>
@@ -1408,6 +1425,7 @@ Koppintson, ha további információra van szüksége."</string>
     <string name="kg_wrong_input_try_fp_suggestion">Vagy feloldás ujjlenyomattal</string>
     <string name="kg_wrong_password">Helytelen jelszó</string>
     <string name="kg_wrong_password_try_again">Hibás jelszó. Próbálja újra.</string>
+    <string name="kg_wrong_pattern">Helytelen minta</string>
     <string name="kg_wrong_pattern_try_again">Hibás minta. Próbálja újra.</string>
     <string name="kg_wrong_pin">Helytelen PIN-kód</string>
     <string name="kg_wrong_pin_try_again">Hibás PIN. Próbálja újra.</string>
@@ -1473,6 +1491,7 @@ Ha nem engedélyezi ennek az alkalmazásnak, hogy hozzáférjen az összes eszk�
     <string name="log_access_confirmation_learn_more">További információ</string>
     <string name="log_access_confirmation_learn_more_at">További információ: %s</string>
     <string name="log_access_confirmation_title">Engedélyezi a(z) %s számára, hogy hozzáférjen az összes eszköznaplóhoz?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">A készülék túlmelegedett. A zseblámpa fényerejének csökkentése.</string>
     <string name="m3c_search_bar_search">Keresés</string>
     <string name="m3c_suggestions_available">Javaslatok alább</string>
     <string name="magnification_close_settings_click_label">Nagyítási beállítások bezárása</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
+    <string name="miuix_accessibility_title">Cím</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Összecsukott</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Kibontott</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Kilépés a szerkesztő módból</string>
+    <string name="miuix_appcompat_accessibility_new_message">Új értesítés</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Nyissa meg a szerkesztési módot</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Kijelölések törlése</string>
     <string name="miuix_appcompat_action_mode_select_all">Összes kijelölése</string>
     <string name="miuix_appcompat_action_mode_title_empty">Kiválasztás</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Az összes kiválasztása</string>
     <string name="miuix_appcompat_select_all_description">Összes kijelölése</string>
     <string name="miuix_appcompat_select_item">Elemek kiválasztása</string>
+    <string name="miuix_appcompat_show_dialog_description">Felugró ablak</string>
+    <string name="miuix_progressbar_loading">Betöltés</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Sikeresen frissítve</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Frissítés…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Egyelőre ennyi</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Egy pillanat...…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Elemek betöltése sikertelen</string>
+    <string name="miuix_show_password">Jelszó megjelenítése</string>
+    <string name="miuix_stretchablewidget_collapsed">Összecsukott</string>
+    <string name="miuix_stretchablewidget_expanded">Kibontott</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">A mobilhálózati kapcsolat mindig aktív</string>
     <string name="mobile_data_always_on_summary">A mobiladat-kapcsolat mindig maradjon aktív, még akkor is, ha a Wi‑Fi aktív (a gyors hálózatváltás érdekében).</string>
@@ -2494,6 +2524,7 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="speed_label_okay">Rendben</string>
     <string name="speed_label_slow">Lassú</string>
     <string name="speed_label_very_fast">Nagyon gyors</string>
+    <string name="split_screen_recommend_tip">Osztott képernyő</string>
     <string name="split_screen_text">Osztott képernyő</string>
     <string name="standby_bucket_summary">Alkalmazás készenléti állapota: %s</string>
     <string name="start_dreams">Képernyővédő</string>
@@ -2612,9 +2643,9 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="thermal_shutdown_dialog_message">"Telefonja túlmelegedett, így kikapcsolt, hogy lehűlhessen. Most már megfelelően működik.
 
 A telefon akkor melegedhet túl, ha Ön:
-\u0009• Energiaigényes alkalmazásokat használ (például játékokat, videókat vagy navigációs alkalmazásokat)
-\u0009• Nagy fájlokat tölt le vagy fel
-\u0009• Melegben használja a telefonját"</string>
+\t• Energiaigényes alkalmazásokat használ (például játékokat, videókat vagy navigációs alkalmazásokat)
+\t• Nagy fájlokat tölt le vagy fel
+\t• Melegben használja a telefonját"</string>
     <string name="thermal_shutdown_message">"Telefonja most már megfelelően működik.
 Koppintson, ha további információra van szüksége."</string>
     <string name="thermal_shutdown_title">A telefon a meleg miatt kikapcsolt</string>

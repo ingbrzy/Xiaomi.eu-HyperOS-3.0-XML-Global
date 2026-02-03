@@ -129,7 +129,9 @@
     <string name="band_mode_title">Установити режим радіодіапазону</string>
     <string name="beidou_findout_settings_title">Про супутникові повідомлення BeiDou</string>
     <string name="beidou_mobile_settings_summary">Доступно тільки користувачам China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">Available only for users with active BeiDou satellite communications service</string>
     <string name="beidou_mobile_settings_title">"Супутниковий зв'язок BeiDou"</string>
+    <string name="beidou_satellite_enable_message_all">"Зв'яжіться зі своїм оператором, щоб активувати цю послугу."</string>
     <string name="beidou_sms_location_fail_toast">Спочатку дозвольте цій функції отримувати доступ до вашого місцезнаходження</string>
     <string name="bf_news_settings">Бізнесові та фінансові новини</string>
     <string name="business_hall_settings_summary">Керування викликами та мобільним інтернетом</string>
@@ -630,6 +632,8 @@
     <string name="enhanced_4g_lte_mode_title">Розширений режим 4G LTE</string>
     <string name="enter_callbarring_password">Введіть пароль для заборони викликів (%d символи)</string>
     <string name="enter_esim_manager_title">Керування eSIM</string>
+    <string name="enter_esim_service_support_summary">"Перегляд списку підтримуваних операторів зв'язку"</string>
+    <string name="enter_esim_service_support_title">"Підтримувані оператори зв'язку"</string>
     <string name="enter_input">Кількість символів повідомлення USSD має становити від %1$d до %2$d. Повторіть спробу.</string>
     <string name="enter_mep_esim_manager_title">Керування SIM</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -673,6 +677,8 @@
     <string name="fiveg_carrier_aggregation_title">"Агрегація операторів зв'язку 5G"</string>
     <string name="fiveg_hosted_mode_summary">Автоматично обирати найкращу мережу для економії заряду</string>
     <string name="fiveg_hosted_mode_title">Смарт-перемикання 5G</string>
+    <string name="fiveg_interruption_remind">Схоже, ваша SIM-карта %s не може використовувати послуги 5G SA. Щоб отримати додаткову інформацію, зверніться до свого оператора.</string>
+    <string name="fiveg_interruption_remind_title">Неможливо використовувати 5G-сервіси</string>
     <string name="fiveg_network_mode_default">Авто</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -953,7 +959,8 @@
     <string name="mhh_enable">Медицина, здоров’я та лікарні – увімкнено</string>
     <string name="mi_mobile_settings_summary">Тарифні плани, які надаються компанією Xiaomi</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Активуйте SIM %1$d, щоб мати можливість використовувати Mi Mobile. Це може зайняти до %2$d-%3$dхвилин.</string>
+    <string name="mi_mobile_sim_activate_message">Схоже, SIM-карта %1$d не актививована. Натисніть \"Активувати\" та дотримуйтесь інструкцій, щоб розпочати роботу.</string>
+    <string name="mi_mobile_sim_activate_title">Активація SIM-карти Mi Mobile</string>
     <string name="mi_sim_settings_summary">Використовувати мобільний інтернет без SIM-картки</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Ніч</string>
@@ -1201,7 +1208,7 @@
     <string name="not_voice_capable">Голосові дзвінки не підтримуються</string>
     <string name="notallow">Не надано</string>
     <string name="notification_channel_sip_account">Облікові записи SIP, що не підтримуються</string>
-    <string name="notification_network_selection_text">Вибрана мережа (%s) недоступна</string>
+    <string name="notification_network_selection_text">Вибрана мережа%s недоступна</string>
     <string name="notification_network_selection_title">Нема служби</string>
     <string name="notification_switch_auto_text">Схоже, що ви повернулися. Підключено до місцевої мережі.</string>
     <string name="notification_switch_auto_title">Мобільні мережі</string>
@@ -1221,8 +1228,10 @@
     <string name="obtain_location_information">Місцезнаходження</string>
     <string name="obtain_location_information_summary">Для оптимізації поточного середовища мережі</string>
     <string name="oem_radio_info_label">Інформація/налаштування OEM</string>
+    <string name="offline_call">Офлайн-комунікації Xiaomi</string>
     <string name="offline_call_has_call">Інша людина зайнята. Повторіть спробу через одну–дві хвилини.</string>
     <string name="offline_call_not_match_contact">Не вдалося зателефонувати. Ви не є у списку контактів іншої людини.</string>
+    <string name="offline_call_summary">Телефонуйте на телефони Xiaomi, які знаходяться поблизу, по Bluetooth без підключення до мережі</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Старий PIN2</string>
     <string name="oldPinLabel">Старий PIN</string>
@@ -1621,6 +1630,8 @@ SIM-картка буде заблокована при наступній не�
        &lt;br> – Функція RTT не підтримується для відеодзвінків"</string>
     <string name="rtt_mode_summary">Дозволити передавання повідомлень під час голосового виклику</string>
     <string name="rtt_mode_title">Виклик із передаванням тексту в реальному часі</string>
+    <string name="rtt_settings_summary">Текст у реальному часі (RTT) дозволяє використовувати передачу тексту для спілкування під час телефонного виклика</string>
+    <string name="rtt_settings_title">Виклики RTT</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Вийти</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1964,6 +1975,8 @@ SIM-картка буде заблокована при наступній не�
     <string name="turnover_mute_summary">Якщо телефон, який дзвонить, лежить екраном вгору, переверніть його екраном вниз для відключення дзвінка, вібрації і світлових сигналів.</string>
     <string name="turnover_mute_title">Відключати звук під час перевертання</string>
     <string name="undefined">Невідомо</string>
+    <string name="unfold_show_bublle_pref_summary">Розкрийте пристрій під час виклику, щоб відображати його у спливаючому вікні</string>
+    <string name="unfold_show_bublle_pref_title">Розкрити, щоб згорнути</string>
     <string name="unknown">Невідомо</string>
     <string name="unlock_failed">Не здійсн. запит розблокування мережі</string>
     <string name="unlock_success">Мережу успішно розблоковано.</string>

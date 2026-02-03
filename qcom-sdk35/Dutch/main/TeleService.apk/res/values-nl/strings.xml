@@ -134,7 +134,9 @@ Wil je nu afsluiten?}}"</string>
     <string name="band_mode_title">Modus voor radioband instellen</string>
     <string name="beidou_findout_settings_title">Over BeiDou satellietberichten</string>
     <string name="beidou_mobile_settings_summary">Alleen beschikbaar voor China Mobile-gebruikers</string>
+    <string name="beidou_mobile_settings_summary_all">Alleen beschikbaar voor gebruikers met een actieve BeiDou-satellietcommunicatiedienst</string>
     <string name="beidou_mobile_settings_title">BeiDou satellietcommunicatie</string>
+    <string name="beidou_satellite_enable_message_all">Neem contact op met uw provider om de service te activeren.</string>
     <string name="beidou_sms_location_fail_toast">Geef deze functie eerst toegang tot uw locatie</string>
     <string name="bf_news_settings">Zakelijk en financieel nieuws</string>
     <string name="business_hall_settings_summary">Beheer uw oproepen en datagebruik</string>
@@ -635,6 +637,8 @@ Wil je nu afsluiten?}}"</string>
     <string name="enhanced_4g_lte_mode_title">Geoptimaliseerde 4G LTE-modus</string>
     <string name="enter_callbarring_password">Voer het blokkeerwachtwoord in (%d cijfers)</string>
     <string name="enter_esim_manager_title">eSIM beheren</string>
+    <string name="enter_esim_service_support_summary">Bekijk een lijst met ondersteunde providers</string>
+    <string name="enter_esim_service_support_title">Ondersteunde providers</string>
     <string name="enter_input">USSD-bericht moet tussen %1$d en %2$d tekens lang zijn. Probeer het opnieuw.</string>
     <string name="enter_mep_esim_manager_title">SIM beheren</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -678,6 +682,8 @@ Wil je nu afsluiten?}}"</string>
     <string name="fiveg_carrier_aggregation_title">Aggregatie van 5G-operators</string>
     <string name="fiveg_hosted_mode_summary">Selecteer automatisch het beste netwerk om de batterij te sparen</string>
     <string name="fiveg_hosted_mode_title">5G Smart Switch</string>
+    <string name="fiveg_interruption_remind">Het lijkt erop dat u SIM %s geen 5G SA-services kan gebruiken. Neem contact op met uw provider voor meer informatie.</string>
+    <string name="fiveg_interruption_remind_title">Kan geen 5G-services gebruiken</string>
     <string name="fiveg_network_mode_default">Automatisch</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -958,7 +964,8 @@ Je kunt nog steeds noodoproepen plaatsen."</string>
     <string name="mhh_enable">Medisch, gezondheid en ziekenhuis staan aan</string>
     <string name="mi_mobile_settings_summary">Data-abonnementen geleverd door Xiaomi</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Activeer SIM %1$d om Mi Mobile te kunnen gebruiken. Dit kan %2$d-%3$d minuten duren.</string>
+    <string name="mi_mobile_sim_activate_message">Het lijkt erop dat SIM %1$d niet is geactiveerd. Tik op \"Activeren\" en volg de instructies om te beginnen.</string>
+    <string name="mi_mobile_sim_activate_title">Mi Mobile SIM-activering</string>
     <string name="mi_sim_settings_summary">Mobiele data zonder een simkaart gebruiken</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Nacht</string>
@@ -1206,7 +1213,7 @@ Je kunt nog steeds noodoproepen plaatsen."</string>
     <string name="not_voice_capable">Audiogesprekken worden niet ondersteund</string>
     <string name="notallow">Niet toegekend</string>
     <string name="notification_channel_sip_account">Beëindigde SIP-accounts</string>
-    <string name="notification_network_selection_text">Geselecteerd netwerk %s niet beschikbaar</string>
+    <string name="notification_network_selection_text">Geselecteerd netwerk%s niet beschikbaar</string>
     <string name="notification_network_selection_title">Geen service</string>
     <string name="notification_switch_auto_text">Het lijkt erop dat u terug bent. Overgeschakeld naar lokale netwerken.</string>
     <string name="notification_switch_auto_title">Mobiele netwerken</string>
@@ -1226,8 +1233,10 @@ Je kunt nog steeds noodoproepen plaatsen."</string>
     <string name="obtain_location_information">Locatie</string>
     <string name="obtain_location_information_summary">Voor het optimaliseren van de huidige netwerkomgeving</string>
     <string name="oem_radio_info_label">OEM-specifieke gegevens/instellingen</string>
+    <string name="offline_call">Xiaomi Offline Communicatie</string>
     <string name="offline_call_has_call">De andere persoon is bezig. Probeer het over een minuut of twee opnieuw.</string>
     <string name="offline_call_not_match_contact">Kon niet bellen. U bent niet de contactpersoon van de andere persoon.</string>
+    <string name="offline_call_summary">Bel Xiaomi-telefoons in de buurt via Bluetooth zonder netwerkverbinding</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Oude PIN2-code</string>
     <string name="oldPinLabel">Oude pincode</string>
@@ -1626,6 +1635,8 @@ UT-interface: %5$s"</string>
        &lt;br> - RTT is niet beschikbaar voor videogesprekken"</string>
     <string name="rtt_mode_summary">Berichten in een audiogesprek toestaan</string>
     <string name="rtt_mode_title">Realtime tekstoproep (RTT)</string>
+    <string name="rtt_settings_summary">Met realtimetekst (RTT) kunt u tekst gebruiken om te communiceren tijdens een telefoongesprek</string>
+    <string name="rtt_settings_title">RTT-bellen</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Nu afsluiten</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1969,6 +1980,8 @@ De volgende periode start over %2$d dagen (%3$s)"</string>
     <string name="turnover_mute_summary">Wanneer de telefoon op een horizontaal oppervlak ligt met het scherm naar boven, draai deze dan om om het belsignaal, het trillen en het knipperende meldingslicht uit te schakelen.</string>
     <string name="turnover_mute_title">Omdraaien om beltoon te dempen</string>
     <string name="undefined">Geen</string>
+    <string name="unfold_show_bublle_pref_summary">Klap het apparaat tijdens oproepen open om het in zwevende vensters weer te geven</string>
+    <string name="unfold_show_bublle_pref_title">Uitvouwen om oproepen te minimaliseren</string>
     <string name="unknown">Onbekend</string>
     <string name="unlock_failed">Verzoek voor ontgrendelen netwerk mislukt.</string>
     <string name="unlock_success">Het netwerk is ontgrendeld.</string>

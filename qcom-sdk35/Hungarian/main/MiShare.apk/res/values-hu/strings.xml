@@ -318,10 +318,10 @@ Egyéb Android készülékek: vivo, realme, OPPO és egyéb kiválasztott márk�
     <string name="mishare_state_protection_summary_china">Xiaomi Share automatikus bekapcsolása, amikor a Bluetooth vagy a WLAN újra be van kapcsolva</string>
     <string name="mishare_support_device_comment">Támogatott készülékek</string>
     <string name="mishare_support_device_summary">"Xiaomi telefonok, tabletek és laptopok
-Androidos készülékek más gyártóktól: vivo, realme, OPPO, Honor, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO"</string>
+Androidos készülékek más gyártóktól: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
     <string name="mishare_support_device_summary_ios">"Xiaomi telefonok, tabletek és laptopok
 Apple készülékek: iPhone, iPad, Mac
-Androidos készülékek más gyártóktól: vivo, realme, OPPO, Honor, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO"</string>
+Androidos készülékek más gyártóktól: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
     <string name="mishare_transefer_channel_desc">Értesítések a Xiaomi Share-en keresztül küldött és fogadott fájlokról</string>
     <string name="miuix_access_state_desc">Kiválasztott</string>
     <string name="miuix_accessibility_title">Cím</string>
@@ -498,6 +498,7 @@ A Xiaomi Share használata előtt meg kell adnia a következő engedélyeket, va
     <string name="redmi_note_9s">Redmi Note 9S</string>
     <string name="refuse_file">Elutasítás</string>
     <string name="refused">Elutasítva</string>
+    <string name="required_permissions_desc">Fájlok küldéséhez és fogadásához;Fájlok Bluetooth és WLAN segítségével történő átviteléhez;Közelben elérhető készülékek Bluetooth segítségével történő megkereséséhez;Közelben elérhető készülékek megkereséséhez és fájlok WLAN segítségével történő átviteléhez;Alkalmazások telepítésének ellenőrzéséhez, hogy azok az adatok fogadását követően megnyithatók legyenek.</string>
     <string name="retry_task">Újraküldés</string>
     <string name="rog">ROG</string>
     <string name="rog_phone">ROG</string>
@@ -599,10 +600,10 @@ A Xiaomi Share használata előtt meg kell adnia a következő engedélyeket, va
 %2$d. Xiaomi-készülékén frissítse a Xiaomi Share verziót a következőre: %3$s.
 %4$d. Az iPhone készülékére telepítse a Xiaomi Interconnectivity alkalmazást."</string>
     <string name="tap_share_condition_describe_os3">"%1$d. Győződjön meg arról, hogy mindkét készülék zárolása fel van oldva, és az NFC, a Bluetooth és a Wi-Fi be van kapcsolva.
-%2$d. Frissítse Xiaomi készülékét Xiaomi HyperOS 3 vagy újabb verzióra. A Beállítások menüben is rákereshet a Xiaomi Share-re, hogy ellenőrizze, támogatja-e a „Koppintson a megosztáshoz” funkciót.
+%2$d. Frissítse Xiaomi készülékét %3$s vagy újabb verzióra. A Beállítások menüben is rákereshet a Xiaomi Share-re, hogy ellenőrizze, támogatja-e a „Koppintson a megosztáshoz” funkciót.
 %4$d. Győződjön meg róla, hogy iPhone 12 vagy újabb modellt használ, és az iOS 17 vagy újabb verzió fut rajta. Telepítse a Xiaomi Interconnectivity alkalmazás legújabb verzióját iPhone készülékére."</string>
     <string name="tap_share_condition_describe_os3_china">"%1$d. Győződjön meg arról, hogy mindkét készülék zárolása fel van oldva, és az NFC, a Bluetooth és a WLAN be van kapcsolva.
-%2$d. Frissítse Xiaomi készülékét Xiaomi HyperOS 3 vagy újabb verzióra. A Beállítások menüben is rákereshet a Xiaomi Share-re, hogy ellenőrizze, támogatja-e a „Koppintson a megosztáshoz” funkciót.
+%2$d. Frissítse Xiaomi készülékét %3$s vagy újabb verzióra. A Beállítások menüben is rákereshet a Xiaomi Share-re, hogy ellenőrizze, támogatja-e a „Koppintson a megosztáshoz” funkciót.
 %4$d. Győződjön meg róla, hogy iPhone 12 vagy újabb modellt használ, és az iOS 17 vagy újabb verzió fut rajta. Telepítse a Xiaomi Interconnectivity alkalmazás legújabb verzióját iPhone készülékére."</string>
     <string name="tap_share_connecting_this_wifi">Csatlakozás ehhez a Wi-Fi-hálózathoz</string>
     <string name="tap_share_connecting_this_wlan">Csatlakozás ehhez a WLAN-hálózathoz</string>
@@ -700,8 +701,8 @@ A Xiaomi Share használata előtt meg kell adnia a következő engedélyeket, va
     <string name="tomorrow">Holnap</string>
     <string name="transfer_intercept_to_remote">Sikertelen küldés: %1$s</string>
     <string name="transfer_to_different_account_summary">Mindkét készüléken (Xiaomi és más Android készülékek esetében) be kell kapcsolni a Xiaomi Megosztást az Irányítóközpontban. Így %d percig bárkitől fogadhat fájlokat.</string>
-    <string name="transfer_to_different_account_summary_ios">"%1$d. Mindkét eszközön (Xiaomi és más Android eszközök) be kell kapcsolni a Xiaomi Share-t az Irányítóközpontban. Bárkitől %2$d percig fogadhat fájlokat.
-%3$d. Az iPhone és iPad eszközöknek be kell kapcsolniuk a Xiaomi összekapcsolhatósági szolgáltatásokat."</string>
+    <string name="transfer_to_different_account_summary_ios" formatted="false">"%d. Mindkét eszközön (Xiaomi és más Android eszközök) be kell kapcsolni a Xiaomi Share-t az Irányítóközpontban. Bárkitől %d percig fogadhat fájlokat.
+%d. Az iPhone és iPadek készülékeknek be kell kapcsolniuk a Xiaomi összekapcsolhatósági szolgáltatásokat, de ellenőrizze, hogy mindkét eszköz ugyanahhoz a LAN-hoz kapcsolódik."</string>
     <string name="transfer_to_different_account_title">Telefonok és tabletek felfedezése</string>
     <string name="transfer_to_pc_summary_new_plus"><Data>Ellenőrizze, hogy a Xiaomi PC Manager le legyen töltve, majd a fájlok fogadásához kapcsolja be a Xiaomi Share funkciót az Irányítóközpontban. A támogatott számítógépmodellek listáját &lt;a href=%1$s>itt &lt;/a>találja.</Data></string>
     <string name="transfer_to_pc_summary_new_plus_ios"><Data>&lt;xliff:g id=mishare_ios_1 refersto=1>%1$d&lt;/xliff:g>. Ellenőrizze, hogy a Xiaomi laptopon a Xiaomi PC Manager le legyen töltve, majd a fájlok fogadásához kapcsolja be az Irányítóközpontban a Xiaomi Share-t. A támogatott számítógépmodellek listáját megtalálja &lt;a href=%2$s>itt&lt;/a>.&lt;br>&lt;xliff:g id=mishare_ios_2 refersto=2>%3$d&lt;/xliff:g>. Mac számítógépen kapcsolja be a Xiaomi összekapcsolhatósági szolgáltatásokat, és ellenőrizze, hogy mindkét eszköz ugyanahhoz a hálózathoz csatlakozik. LAN.</Data></string>

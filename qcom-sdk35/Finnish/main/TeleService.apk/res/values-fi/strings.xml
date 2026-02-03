@@ -134,7 +134,9 @@ Haluatko lopettaa nyt?}}"</string>
     <string name="band_mode_title">Radion taajuustilan valinta</string>
     <string name="beidou_findout_settings_title">Tietoja BeiDou-satelliittiviestinnästä</string>
     <string name="beidou_mobile_settings_summary">Saatavilla vain China Mobilen käyttäjille</string>
+    <string name="beidou_mobile_settings_summary_all">Saatavilla vain käyttäjille, joilla on aktiivinen BeiDou-satelliittiviestintäpalvelu</string>
     <string name="beidou_mobile_settings_title">BeiDou-satelliittiviestintä</string>
+    <string name="beidou_satellite_enable_message_all">Ota yhteyttä operaattoriisi palvelun aktivoimiseksi.</string>
     <string name="beidou_sms_location_fail_toast">Salli tämän ominaisuuden pääsy sijaintiisi ensin</string>
     <string name="bf_news_settings">Talous- ja yritysuutiset</string>
     <string name="business_hall_settings_summary">Hallitse puheluitasi ja tiedonsiirtoasi</string>
@@ -635,6 +637,8 @@ Haluatko lopettaa nyt?}}"</string>
     <string name="enhanced_4g_lte_mode_title">Enhanced 4G LTE -tila</string>
     <string name="enter_callbarring_password">Syötä puheluneston salasana (%d numeroa)</string>
     <string name="enter_esim_manager_title">eSIM-kortin hallinta</string>
+    <string name="enter_esim_service_support_summary">Näytä luettelo tuetuista operaattoreista</string>
+    <string name="enter_esim_service_support_title">Tuetut operaattorit</string>
     <string name="enter_input">USSD-viestin pituuden täytyy olla %1$d–%2$d merkkiä. Yritä uudelleen.</string>
     <string name="enter_mep_esim_manager_title">Hallinnoi SIM-korttia</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -678,6 +682,8 @@ Haluatko lopettaa nyt?}}"</string>
     <string name="fiveg_carrier_aggregation_title">5G-operaattorien yhdistäminen</string>
     <string name="fiveg_hosted_mode_summary">Valitse paras verkko automaattisesti säästääksesi akkua</string>
     <string name="fiveg_hosted_mode_title">5G-älykytkin</string>
+    <string name="fiveg_interruption_remind">Näyttää siltä, ​​että SIM-korttisi %s ei voi käyttää 5G SA -palveluita. Ota yhteyttä operaattoriisi saadaksesi lisätietoja.</string>
+    <string name="fiveg_interruption_remind_title">5G-palveluita ei voi käyttää</string>
     <string name="fiveg_network_mode_default">Automaattinen</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1206,7 +1212,7 @@ Valitse ensisijainen verkko sen sijaan."</string>
     <string name="not_voice_capable">Äänipuheluita ei tueta</string>
     <string name="notallow">Ei myönnetty</string>
     <string name="notification_channel_sip_account">Käytöstä poistetut SIP-tilit</string>
-    <string name="notification_network_selection_text">Valittu verkko (%s) ei käytettävissä</string>
+    <string name="notification_network_selection_text">Valittu verkko%s ei käytettävissä</string>
     <string name="notification_network_selection_title">Katvealueella</string>
     <string name="notification_switch_auto_text">Olet näköjään tullut takaisin. Vaihdettu paikallisiin verkkoihin.</string>
     <string name="notification_switch_auto_title">Mobiiliverkot</string>
@@ -1226,8 +1232,10 @@ Valitse ensisijainen verkko sen sijaan."</string>
     <string name="obtain_location_information">Sijainti</string>
     <string name="obtain_location_information_summary">Nykyisen verkkoympäristön optimointiin</string>
     <string name="oem_radio_info_label">OEM-kohtaiset tiedot/asetukset</string>
+    <string name="offline_call">Xiaomi offline-viestintä</string>
     <string name="offline_call_has_call">Toinen henkilö on kiireinen. Yritä uudelleen parin minuutin kuluttua.</string>
     <string name="offline_call_not_match_contact">Ei voitu soittaa. Et ole toisen henkilön yhteyshenkilö.</string>
+    <string name="offline_call_summary">Soita lähellä oleviin Xiaomi-puhelimiin Bluetoothin kautta ilman verkkoyhteyttä</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Vanha PIN2-koodi</string>
     <string name="oldPinLabel">Vanha PIN-koodi</string>
@@ -1626,6 +1634,8 @@ UT-käyttöliittymä: %5$s"</string>
        &lt;br> – RTT ei ole käytettävissä videopuheluissa."</string>
     <string name="rtt_mode_summary">Salli viestit äänipuheluissa</string>
     <string name="rtt_mode_title">RTT-puhelu (puhelusta lähetettävä teksti)</string>
+    <string name="rtt_settings_summary">Real-time text (RTT) mahdollistaa tekstin käytön kommunikointiin puhelun aikana</string>
+    <string name="rtt_settings_title">RTT-puhelut</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Poistu nyt</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1969,6 +1979,8 @@ Seuraava jakso alkaa %2$d päivän kuluttua (%3$s)"</string>
     <string name="turnover_mute_summary">Kun puhelin on vaakatasossa näyttö ylöspäin, käännä se alaspäin hiljentääksesi soittoäänen, sulkeaksesi värinän ja pysäyttääksesi vilkkuvan ilmoitusvalon.</string>
     <string name="turnover_mute_title">Hiljennä soittoääni käännettäessä</string>
     <string name="undefined">Ei mitään</string>
+    <string name="unfold_show_bublle_pref_summary">Avaa laite puhelujen aikana näyttääksesi ne kelluvissa ikkunoissa</string>
+    <string name="unfold_show_bublle_pref_title">Avaa pienentääksesi puheluita</string>
     <string name="unknown">Tuntematon</string>
     <string name="unlock_failed">Verkon lukituksen poistopyyntö epäonnistui.</string>
     <string name="unlock_success">Verkon lukituksen poisto onnistui.</string>

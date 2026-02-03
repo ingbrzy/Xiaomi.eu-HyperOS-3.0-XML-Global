@@ -195,15 +195,17 @@
     <string name="accessibility_qs_edit_position">Posição %1$d</string>
     <string name="accessibility_qs_edit_remove_tile">Remover %1$s</string>
     <string name="accessibility_qs_edit_remove_tile_action">remover o bloco</string>
-    <string name="accessibility_qs_edit_tile_add">Adicionar %1$s na posição %2$d</string>
+    <string name="accessibility_qs_edit_tile_add">Adicionar %1$s à posição %2$d</string>
     <string name="accessibility_qs_edit_tile_add_action">adicionar o bloco ao final</string>
     <string name="accessibility_qs_edit_tile_add_to_position">Adicionar à posição %1$d</string>
     <string name="accessibility_qs_edit_tile_added">%1$s adicionado na posição %2$d</string>
-    <string name="accessibility_qs_edit_tile_move">Mover %1$s para a posição %2$d</string>
+    <string name="accessibility_qs_edit_tile_move">Mover %1$s à posição %2$d</string>
     <string name="accessibility_qs_edit_tile_move_to_position">Mover para %1$d</string>
     <string name="accessibility_qs_edit_tile_removed">%1$s foi removido</string>
     <string name="accessibility_qs_edit_tile_start_add">Adicionar bloco</string>
     <string name="accessibility_qs_edit_tile_start_move">Mover bloco</string>
+    <string name="accessibility_qs_item_drag">Arrastando</string>
+    <string name="accessibility_qs_position_hint">Colocado na linha %1$d, coluna %2$d</string>
     <string name="accessibility_quick_settings_alarm">Alarme definido para %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">ativar</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Punho conectado</string>
     <string name="accessibility_quick_settings_open_settings">Abrir configurações de %s.</string>
     <string name="accessibility_quick_settings_page">Página %1$d de %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Indicador de página</string>
     <string name="accessibility_quick_settings_power_menu">Menu liga/desliga</string>
     <string name="accessibility_quick_settings_rotation">Giro automático da tela</string>
     <string name="accessibility_quick_settings_settings">Abrir configurações.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Enviar</string>
     <string name="accessibility_sensors_off_active">A opção \"Sensores desativados\" está ativa</string>
     <string name="accessibility_settings">Configurações</string>
+    <string name="accessibility_sliding_button_state_description_off">Desativado</string>
+    <string name="accessibility_sliding_button_state_description_on">Ativado</string>
     <string name="accessibility_split_bottom">Dividir para baixo</string>
     <string name="accessibility_split_left">Dividir para a esquerda</string>
     <string name="accessibility_split_right">Dividir para a direita</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Satélite, conexão boa</string>
     <string name="accessibility_status_bar_satellite_no_connection">Satélite, sem conexão</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Satélite, conexão ruim</string>
+    <string name="accessibility_tab_state_description_unselect">Não selecionado</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">saber mais</string>
     <string name="accessibility_tty_enabled">TeleTYpewriter ativado.</string>
     <string name="accessibility_unlock_button">Desbloqueado</string>
@@ -891,6 +897,7 @@ Se retomar o uso de dados, o serviço poderá ser cobrado."</string>
     <string name="enable_verbose_vendor_logging_summary">Incluir mais registros de fornecedores específicos do dispositivo em relatórios de bugs. Isso pode aumentar o uso da bateria e/ou do armazenamento, e os relatórios podem conter informações particulares.</string>
     <string name="enabled_by_admin">Ativado pelo administrador</string>
     <string name="enhanced_connectivity_summary">Ativa o recurso \"Conectividade melhorada\".</string>
+    <string name="enrol_fingerprint_process_talkback">Adicionando impressão digital</string>
     <string name="eras_ad">d.C</string>
     <string name="eras_bc">a.C</string>
     <string name="error_disable_esim_msg">Não é possível desativar o eSIM devido a um erro.</string>
@@ -1056,6 +1063,7 @@ Desligue com o botão Liga/Desliga."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, dia do mês: %2$s</string>
+    <string name="free_form_recommend_tip">Janela flutuante</string>
     <string name="friday">Sexta-feira</string>
     <string name="friday_short">Sex</string>
     <string name="friday_shortest">Sex</string>
@@ -1190,6 +1198,15 @@ Toque para saber mais"</string>
     <string name="inattentive_sleep_warning_message">O dispositivo entrará no modo de espera em breve. Pressione para mantê-lo ativado.</string>
     <string name="inattentive_sleep_warning_title">Em espera</string>
     <string name="indeterminate">Parcialmente selecionada</string>
+    <string name="info_focus_download_end">Baixado</string>
+    <string name="info_focus_download_start">Abra uma janela flutuante e espere o download terminar</string>
+    <string name="info_focus_download_update">Progresso do download</string>
+    <string name="info_focus_match_end">Correspondido com sucesso</string>
+    <string name="info_focus_match_start">Abra uma janela flutuante e aguarde que ela seja correspondida</string>
+    <string name="info_focus_match_update">Correspondendo…</string>
+    <string name="info_focus_rebirth_end">Reaparecido</string>
+    <string name="info_focus_rebirth_start">Abra uma janela flutuante e aguarde que ela reapareça</string>
+    <string name="info_focus_rebirth_update">Aguardando reaparecer</string>
     <string name="inline_done_button">Concluído</string>
     <string name="inline_ok_button">Aplicar</string>
     <string name="inline_turn_off_notifications">Desativar notificações</string>
@@ -1407,6 +1424,7 @@ Toque para saber mais"</string>
     <string name="kg_wrong_input_try_fp_suggestion">Ou desbloqueie com a impressão digital</string>
     <string name="kg_wrong_password">Senha incorreta</string>
     <string name="kg_wrong_password_try_again">Senha errada.</string>
+    <string name="kg_wrong_pattern">Padrão incorreto</string>
     <string name="kg_wrong_pattern_try_again">Padrão errado.</string>
     <string name="kg_wrong_pin">PIN incorreto</string>
     <string name="kg_wrong_pin_try_again">PIN errado. Tente de novo.</string>
@@ -1472,6 +1490,7 @@ Se você não permitir que esse app acesse todos os registros do dispositivo, el
     <string name="log_access_confirmation_learn_more">Saiba mais</string>
     <string name="log_access_confirmation_learn_more_at">Saiba mais em %s</string>
     <string name="log_access_confirmation_title">Permitir que o app %s acesse todos os registros do dispositivo?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Dispositivo sobreaquecido. Reduzindo o brilho da lanterna.</string>
     <string name="m3c_search_bar_search">Pesquisar</string>
     <string name="m3c_suggestions_available">Sugestões abaixo</string>
     <string name="magnification_close_settings_click_label">Fechar configurações de ampliação</string>
@@ -1662,6 +1681,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Selecionado</string>
+    <string name="miuix_accessibility_title">Título</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Recolhido</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expandido</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Sair do modo de edição</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nova notificação</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Iniciar modo de edição</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Desmarcar tudo</string>
     <string name="miuix_appcompat_action_mode_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_action_mode_title_empty">Selecionar itens</string>
@@ -1677,6 +1702,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Selecionar tudo</string>
     <string name="miuix_appcompat_select_all_description">Selecionar tudo</string>
     <string name="miuix_appcompat_select_item">Selecionar itens</string>
+    <string name="miuix_appcompat_show_dialog_description">Janela pop-up</string>
+    <string name="miuix_progressbar_loading">Carregando</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Puxe para baixo para atualizar</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Atualizado com sucesso</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Atualizando…</string>
@@ -1685,6 +1712,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Isso é tudo por agora</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Aguarde…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Não foi possível carregar os itens</string>
+    <string name="miuix_show_password">Mostrar senha</string>
+    <string name="miuix_stretchablewidget_collapsed">Recolhido</string>
+    <string name="miuix_stretchablewidget_expanded">Expandido</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Dados móveis sempre ativos</string>
     <string name="mobile_data_always_on_summary">Sempre manter dados móveis ativos, mesmo quando o Wi-Fi estiver ativado (para troca rápida de rede)</string>
@@ -2493,6 +2523,7 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="speed_label_okay">Ok</string>
     <string name="speed_label_slow">Lenta</string>
     <string name="speed_label_very_fast">Muito rápida</string>
+    <string name="split_screen_recommend_tip">Tela dividida</string>
     <string name="split_screen_text">Tela dividida</string>
     <string name="standby_bucket_summary">Estado em espera do app: %s</string>
     <string name="start_dreams">Protetor de tela</string>
@@ -2611,9 +2642,9 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="thermal_shutdown_dialog_message">"O smartphone estava muito quente e foi desligado para resfriar. Agora, ele está funcionando normalmente.
 
 O smartphone pode ficar quente demais se você:
-\u0009• usar apps que consomem muitos recursos (como apps de jogos, vídeos ou navegação);
-\u0009• fizer o download ou upload de arquivos grandes;
-\u0009• usar o smartphone em temperaturas altas."</string>
+\t• usar apps que consomem muitos recursos (como apps de jogos, vídeos ou navegação);
+\t• fizer o download ou upload de arquivos grandes;
+\t• usar o smartphone em temperaturas altas."</string>
     <string name="thermal_shutdown_message">"O smartphone está funcionando normalmente agora.
 Toque para saber mais"</string>
     <string name="thermal_shutdown_title">Smartphone desligado por superaquecimento</string>

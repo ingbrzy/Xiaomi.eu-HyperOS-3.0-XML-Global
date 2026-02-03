@@ -129,7 +129,9 @@
     <string name="band_mode_title">Nastaviť režim rádiového pásma</string>
     <string name="beidou_findout_settings_title">O satelitných správach BeiDou</string>
     <string name="beidou_mobile_settings_summary">K dispozícii len pre používateľov China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">K dispozícii len pre používateľov s aktívnou satelitnou komunikačnou službou BeiDou</string>
     <string name="beidou_mobile_settings_title">Satelitná komunikácia BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">Ak chcete službu aktivovať, obráťte sa na svojho operátora.</string>
     <string name="beidou_sms_location_fail_toast">Najprv povoľte tejto funkcii prístup k vašej polohe</string>
     <string name="bf_news_settings">Obchodné a finančné správy</string>
     <string name="business_hall_settings_summary">Majte vaše hovory a spotrebu dát pod kontrolou</string>
@@ -629,6 +631,8 @@
     <string name="enhanced_4g_lte_mode_title">Zlepšený režim 4G LTE</string>
     <string name="enter_callbarring_password">Zadajte heslo pre blokovanie hovorov (%d čísla)</string>
     <string name="enter_esim_manager_title">Spravovať eSIM</string>
+    <string name="enter_esim_service_support_summary">Zobraziť zoznam podporovaných operátorov</string>
+    <string name="enter_esim_service_support_title">Podporovaní operátori</string>
     <string name="enter_input">Správa USSD musí mať od %1$d do %2$d znakov. Skúste to znova.</string>
     <string name="enter_mep_esim_manager_title">Spravovať SIM</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -672,6 +676,8 @@
     <string name="fiveg_carrier_aggregation_title">Agregácia 5G operátorov</string>
     <string name="fiveg_hosted_mode_summary">Pre šetrenie batérie automaticky vybrať najlepšiu sieť</string>
     <string name="fiveg_hosted_mode_title">Inteligentný prepínač 5G</string>
+    <string name="fiveg_interruption_remind">Zdá sa, že vaša SIM %s nemôže používať služby 5G SA. Ďalšie informácie získate u vášho operátora.</string>
+    <string name="fiveg_interruption_remind_title">Nie je možné použiť služby 5G</string>
     <string name="fiveg_network_mode_default">Automaticky</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -952,7 +958,8 @@ Tiesňové volania môžete uskutočňovať aj naďalej."</string>
     <string name="mhh_enable">Lekárstvo, zdravie a nemocnica povolené</string>
     <string name="mi_mobile_settings_summary">Dátové programy poskytuje spoločnosť Xiaomi</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Aktivovať SIM %1$d, aby ste mohli používať Mi Mobile. To môže trvať až %2$d-%3$d minúty.</string>
+    <string name="mi_mobile_sim_activate_message">Zdá sa, že SIM karta %1$d nie je aktivovaná. Ťuknite na položku „Aktivovať“ a postupujte podľa pokynov, aby ste mohli začať.</string>
+    <string name="mi_mobile_sim_activate_title">Aktivácia SIM karty Mi Mobile</string>
     <string name="mi_sim_settings_summary">Použiť mobilné dáta bez SIM karty</string>
     <string name="mi_sim_settings_title">Mi SIM</string>
     <string name="midnight">Noc</string>
@@ -1199,7 +1206,7 @@ Tiesňové volania môžete uskutočňovať aj naďalej."</string>
     <string name="not_voice_capable">Hlasové volanie nie je podporované</string>
     <string name="notallow">Neudelené</string>
     <string name="notification_channel_sip_account">Účty SIP s ukončenou podporou</string>
-    <string name="notification_network_selection_text">Vybratá sieť (%s) nie je k dispozícii</string>
+    <string name="notification_network_selection_text">Vybratá sieť%s nie je k dispozícii</string>
     <string name="notification_network_selection_title">Žiadny signál</string>
     <string name="notification_switch_auto_text">Vyzerá to, že ste späť. Prepnuté na lokálne siete.</string>
     <string name="notification_switch_auto_title">Mobilné siete</string>
@@ -1219,8 +1226,10 @@ Tiesňové volania môžete uskutočňovať aj naďalej."</string>
     <string name="obtain_location_information">Poloha</string>
     <string name="obtain_location_information_summary">Na optimalizáciu aktuálneho sieťového prostredia</string>
     <string name="oem_radio_info_label">Informácie alebo nastavenia špecifické pre výrobcu OEM</string>
+    <string name="offline_call">Offline komunikácia Xiaomi</string>
     <string name="offline_call_has_call">Druhá osoba je zaneprázdnená. Skúste to znova o minútu alebo dve.</string>
     <string name="offline_call_not_match_contact">Nebolo možné zavolať. Nie ste kontakt druhej osoby.</string>
+    <string name="offline_call_summary">Volajte na telefóny Xiaomi v okolí cez Bluetooth bez pripojenia k sieti</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Pôvodný kód PIN2</string>
     <string name="oldPinLabel">Pôvodný kód PIN</string>
@@ -1617,6 +1626,8 @@ Rozhranie UT: %5$s"</string>
        &lt;br> – Okamžitý text nie je k dispozícii počas videohovorov"</string>
     <string name="rtt_mode_summary">Povoliť posielanie správ počas hlasového hovoru</string>
     <string name="rtt_mode_title">Posielanie okamžitého textu (RTT) počas hovorov</string>
+    <string name="rtt_settings_summary">Text v reálnom čase (RTT) vám umožňuje používať text na komunikáciu počas hovorov</string>
+    <string name="rtt_settings_title">RTT volania</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Ukončiť teraz</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1960,6 +1971,8 @@ Počet dní do začiatku ďalšieho obdobia: %2$d (%3$s)"</string>
     <string name="turnover_mute_summary">Keď je telefón na vodorovnom povrchu položený smerom nahor, obráťte ho pre vypnutie zvonenia, vibrácie a notifikačných kontroliek.</string>
     <string name="turnover_mute_title">Otočením stíšiť</string>
     <string name="undefined">Nedefinované</string>
+    <string name="unfold_show_bublle_pref_summary">Otvorte zariadenie počas hovorov pre ich zobrazenie v plávajúcich oknách</string>
+    <string name="unfold_show_bublle_pref_title">Otvoriť pre minimalizovanie hovorov</string>
     <string name="unknown">Neznáme</string>
     <string name="unlock_failed">Žiadosť o odomknutie siete nebola úspešná.</string>
     <string name="unlock_success">Sieť bola odomknutá.</string>
@@ -2084,7 +2097,7 @@ Ak si vyberiete preferovať mobilné siete, tie budú použité na vykonávanie 
     <string name="wifi_call_help_title">Pomocník Wi-Fi hovoru</string>
     <string name="wifi_call_notification_message">Túto službu poskytuje spoločnosť Orange. Aktivácia tejto služby môže trvať niekoľko hodín. Budete o tom informovaný potvrdzovacou SMS správou.</string>
     <string name="wifi_call_preferred_summary">Ak budete preferovať mobilné siete, tie budú použité pre hovory ako predvolené. V prípade výpadku alebo slabého signálu mobilnej siete sa použije sieť Wi-Fi.</string>
-    <string name="wifi_call_setting">Wi-Fi hovory</string>
+    <string name="wifi_call_setting">Volanie cez Wi-Fi</string>
     <string name="wifi_call_welcome_settings">Wi-Fi hovory</string>
     <string name="wifi_calling">Volanie cez Wi‑Fi</string>
     <string name="wifi_calling_settings_title">Volanie cez Wi‑Fi</string>

@@ -152,6 +152,7 @@ Látogasson el ide https://appleid.apple.com/#!&amp;page=signin a kikapcsolásho
     <string name="contact_records_permission_desc">A hívásnapló más készülékekre történő átviteléhez</string>
     <string name="contacts">Névjegyek</string>
     <string name="contacts_permission_desc">A névjegyek más készülékekre történő átviteléhez</string>
+    <string name="contains_unauthorized_data">Jogosulatlan adatokat tartalmaz</string>
     <string name="copy">Másolás</string>
     <string name="current_user_not_supported_summary">A jelenlegi rendszerbeállítások korlátozzák az adatátvitelt a Mi Fájlátvitel használatával.</string>
     <string name="current_user_not_supported_title">Az elemek nem helyezhetők át</string>
@@ -416,8 +417,12 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="manual_connection_content2">%d. Válassza ki a következő Wi-Fi hotspotot.</string>
     <string name="manual_connection_content3">%d. Adja meg ezt a jelszót a régi készüléken a csatlakozáshoz.</string>
     <string name="manual_connection_hint">Koppintson a „Csatlakozás manuálisan” elemre régi eszközén.</string>
+    <string name="manual_connection_hint_pad">Érintse meg a „Manuális csatlakozás” gombot a régi készüléken</string>
+    <string name="manual_connection_hint_phone">Érintse meg a „Manuális csatlakozás” gombot a régi készüléken</string>
     <string name="manual_connection_summary2">Ha nem találja ezt a hotspotot, frissítse az elérhető Wi-Fi-hálózatok listáját, és próbálja meg újra.</string>
     <string name="manual_connection_title">Csatlakoztatás a régi készülékhez manuálisan</string>
+    <string name="manual_connection_title_pad">Régi készülék csatlakoztatása a hotspothoz</string>
+    <string name="manual_connection_title_phone">Régi készülék csatlakoztatása a hotspothoz</string>
     <string name="message_request_manage_external_storage_perm">A Mi Movernek hozzá kell férnie a készüléken lévő összes fájlhoz, hogy át tudja mozgatni azokat a régi készülékről az új készülékre.</string>
     <string name="message_request_package_stats_perm">A Mi Átköltözésnek szüksége van erre az engedélyre ahhoz, hogy megismerje a készülékre telepített alkalmazásokat, és ezeket az alkalmazásokat át tudja vinni egy másik készülékre.</string>
     <string name="midnight">Éjszakai</string>
@@ -531,14 +536,14 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="new_trans_intro_desc_new">"%1$d. Ellenőrizze, hogy a Mi Mover az új eszközén naprakész-e. A Mi Mover legújabb verzióját letöltheti a Play Store-ból, vagy koppintson ide: %2$s.
 %3$d. Ha a hotspot még mindig nem jelenik meg a Mi Moverben, nyissa meg a Wi-Fi beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, menjen vissza a Mi Moverbe, és koppintson a hotspot nevére."</string>
     <string name="new_trans_intro_desc_new_click">Letöltés</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Győződjön meg arról, hogy a Mi Átköltözés frissítve van az új készülékén. A Mi Átköltözés legújabb verzióját letöltheti a GetApps-ból, vagy <Data>&lt;a href=%2$s>koppintson ide&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Átköltözésben, nyissa meg a Wi-Fi-beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Győződjön meg arról, hogy a Mi Átköltözés frissítve van az új készülékén. A Mi Átköltözés legújabb verzióját letöltheti a GetApps-ból, vagy <Data>&lt;a href=%2$s>koppintson ide&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Átköltözésben, nyissa meg a WLAN-beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Győződjön meg arról, hogy a Mi Átköltözés frissítve van az új készülékén. A Mi Átköltözés legújabb verzióját letöltheti a GetApps-ból, vagy <Data>&lt;a href=%2$s>koppintson ide&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Átköltözésben, nyissa meg a Wi-Fi-beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Győződjön meg arról, hogy a Mi Átköltözés frissítve van az új készülékén. A Mi Átköltözés legújabb verzióját letöltheti a GetApps-ból, vagy <Data>&lt;a href=%2$s>koppintson ide&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Átköltözésben, nyissa meg a WLAN-beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére."</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Győződjön meg arról, hogy az új készülékén a Mi Mover alkalmazás naprakész. A Mi Mover legújabb verzióját letöltheti a Google Playről, vagy <Data>&lt;a href=%2$s>érintse meg itt&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Mover alkalmazásban, nyissa meg a Wi-Fi -beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Mover alkalmazásba, és érintse meg a hotspot nevét."</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Győződjön meg arról, hogy a Mi Átköltözés frissítve van az új készülékén. A Mi Átköltözés legújabb verzióját letöltheti a GetApps-ból, vagy <Data>&lt;a href=%2$s>koppintson ide&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Átköltözésben, nyissa meg a WLAN-beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére."</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Győződjön meg arról, hogy az új készülékén a Mi Mover alkalmazás naprakész. A Mi Mover legújabb verzióját letöltheti a Google Playről, vagy <Data>&lt;a href=%2$s>érintse meg itt&lt;/a></Data>".
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Mover alkalmazásban, nyissa meg a Wi-Fi -beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Mover alkalmazásba, és érintse meg a hotspot nevét."</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Győződjön meg arról, hogy a Mi Átköltözés frissítve van az új készülékén. A Mi Átköltözés legújabb verzióját letöltheti a GetApps-ból, vagy <Data>&lt;a href=%2$s>koppintson ide&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ha a hotspot továbbra sem jelenik meg a Mi Átköltözésben, nyissa meg a WLAN-beállításokat, és ellenőrizze, hogy ott látható-e. Ha igen, térjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére."</string>
     <string name="new_trans_intro_desc_old">%d. Ha a hotspot még mindig nem jelenik meg a Mi Átköltözésben, nyissa meg a Wi-Fi beállításait, és ellenőrizze, hogy látja-e ott. Ha igen, menjen vissza a Mi Átköltözésbe, és koppintson a hotspot nevére.</string>
     <string name="new_trans_intro_question_1">%d. Miért nem látom az új készülék hotspotját a régi készüléken?</string>
     <string name="new_trans_intro_question_1_pad">%d. Miért nem látom az új készülék hotspotját a régi készüléken?</string>
@@ -637,6 +642,8 @@ Nyissa meg a WeChat-et és lépjen be a Me> Beállítások > Általános > Ment�
     <string name="permission_alert_title">Engedélyek szükségesek</string>
     <string name="permission_bluetooth_summary">A közeli elérhető eszközök megtalálásához</string>
     <string name="permission_bluetooth_title">Bluetooth ki- és bekapcsolása</string>
+    <string name="permission_calendar_summary">Naptáresemények átviteléhez</string>
+    <string name="permission_calendar_title">Hozzáférés a naptárhoz</string>
     <string name="permission_calender_summary">Események áthelyezéséhez a régi készülékről az újra</string>
     <string name="permission_calender_summary_global">Naptár események átviteléhez az új készülékre</string>
     <string name="permission_calender_title">Hozzáférés a naptáreseményekhez</string>

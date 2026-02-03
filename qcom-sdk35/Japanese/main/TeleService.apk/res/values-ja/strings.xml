@@ -134,7 +134,9 @@
     <string name="band_mode_title">無線バンドモードの設定</string>
     <string name="beidou_findout_settings_title">BeiDou 衛星メッセージングについて</string>
     <string name="beidou_mobile_settings_summary">チャイナ・モバイルユーザーのみ利用可能</string>
+    <string name="beidou_mobile_settings_summary_all">BeiDou 衛星通信サービスを有効しているユーザーのみ利用可能</string>
     <string name="beidou_mobile_settings_title">BeiDou 衛星通信</string>
+    <string name="beidou_satellite_enable_message_all">サービスをアクティブ化するには、通信事業者にお問い合わせください。</string>
     <string name="beidou_sms_location_fail_toast">まず、この機能が位置情報にアクセスすることを許可してください</string>
     <string name="bf_news_settings">ビジネス金融ニュース</string>
     <string name="business_hall_settings_summary">通話とデータ使用量を管理する</string>
@@ -635,6 +637,8 @@
     <string name="enter_callbarring_password">発着信制限パスワード (%d桁の数字) を入力してください</string>
     <string name="enter_esim_manager">eSIMを管理</string>
     <string name="enter_esim_manager_title">eSIMを管理</string>
+    <string name="enter_esim_service_support_summary">対応通信事業者の一覧を表示</string>
+    <string name="enter_esim_service_support_title">対応通信事業者</string>
     <string name="enter_input">USSDメッセージの文字数は%1$d～%2$dです。もう一度お試しください。</string>
     <string name="enter_mep_esim_manager_title">SIMを管理</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -682,6 +686,8 @@
     <string name="fiveg_carrier_aggregation_title">5Gキャリアアグリゲーション</string>
     <string name="fiveg_hosted_mode_summary">バッテリーを節約するために最適なネットワークを自動的に選択する</string>
     <string name="fiveg_hosted_mode_title">5Gスマートスイッチ</string>
+    <string name="fiveg_interruption_remind">お使いの SIM %s では 5G SA サービスを使用できないようです。詳細については、通信事業者にお問い合わせください。</string>
+    <string name="fiveg_interruption_remind_title">5Gサービスが利用できません</string>
     <string name="fiveg_network_mode_default">自動</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1218,7 +1224,7 @@
     <string name="not_voice_capable">音声通話はサポートされていません</string>
     <string name="notallow">未付与</string>
     <string name="notification_channel_sip_account">サポートが終了した SIP アカウント</string>
-    <string name="notification_network_selection_text">選択したネットワーク（%s）は利用できません</string>
+    <string name="notification_network_selection_text">選択したネットワー%s は利用できません</string>
     <string name="notification_network_selection_title">通信サービスなし</string>
     <string name="notification_switch_auto_text">ローカルネットワークに戻ったようなので、自動的に切り替えました。</string>
     <string name="notification_switch_auto_title">モバイルネットワーク</string>
@@ -1238,8 +1244,10 @@
     <string name="obtain_location_information">位置情報</string>
     <string name="obtain_location_information_summary">現在のネットワーク環境を最適化するため</string>
     <string name="oem_radio_info_label">OEM 固有の情報 / 設定</string>
+    <string name="offline_call">Xiaomi オフライン通信</string>
     <string name="offline_call_has_call">相手は通話中です。1、2分後にもう一度お試しください。</string>
     <string name="offline_call_not_match_contact">通話を発信できませんでした。あなたは相手の連絡先に登録されていません。</string>
+    <string name="offline_call_summary">ネットワーク接続なしで Bluetooth 経由で付近の Xiaomi スマートフォンに通話を発信する</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">古いPIN2</string>
     <string name="oldPinLabel">古いPIN</string>
@@ -1640,6 +1648,8 @@ UT インターフェース: %5$s"</string>
        &lt;br> - RTT はビデオ通話ではご利用いただけません"</string>
     <string name="rtt_mode_summary">音声通話中のメッセージ送信を許可する</string>
     <string name="rtt_mode_title">リアルタイム テキスト（RTT）通話</string>
+    <string name="rtt_settings_summary">リアルタイムテキスト (RTT) 機能により、通話中にテキストを使用して通信できます</string>
+    <string name="rtt_settings_title">RTT 通話</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">今すぐ終了</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1983,6 +1993,8 @@ UT インターフェース: %5$s"</string>
     <string name="turnover_mute_summary">デバイスが画面を上にして水平に置かれているとき、デバイスを裏返して着信音とバイブレーション、通知ライトの点灯を止めます。</string>
     <string name="turnover_mute_title">フリップしてサイレント</string>
     <string name="undefined">なし</string>
+    <string name="unfold_show_bublle_pref_summary">通話中にデバイスを開くと、通話をフローティングウィンドウで表示します</string>
+    <string name="unfold_show_bublle_pref_title">開いて通話を最小化</string>
     <string name="unknown">不明</string>
     <string name="unlock_failed">ネットワークロックを解除できませんでした。</string>
     <string name="unlock_success">ネットワークロックを解除しました。</string>

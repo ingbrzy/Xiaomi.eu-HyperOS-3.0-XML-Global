@@ -129,7 +129,9 @@
     <string name="band_mode_title">Nastavit režim pásma bezdrátového modulu</string>
     <string name="beidou_findout_settings_title">O satelitních zprávách BeiDou</string>
     <string name="beidou_mobile_settings_summary">K dispozici pouze pro uživatele China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">K dispozici pouze pro uživatele s aktivní satelitní komunikační službou BeiDou</string>
     <string name="beidou_mobile_settings_title">Satelitní komunikace BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">Pokud chcete službu aktivovat, obraťte se na svého operátora.</string>
     <string name="beidou_sms_location_fail_toast">Nejdříve této funkci povolte přístup k vaší poloze</string>
     <string name="bf_news_settings">Ekonomika a finance</string>
     <string name="business_hall_settings_summary">Mějte přehled o poplatcích za volání a datové služby</string>
@@ -630,6 +632,8 @@
     <string name="enhanced_4g_lte_mode_title">Vylepšený režim 4G LTE</string>
     <string name="enter_callbarring_password">Zadejte heslo pro blokování hovorů (%d čísla)</string>
     <string name="enter_esim_manager_title">Správa eSIM</string>
+    <string name="enter_esim_service_support_summary">Zobrazit všechny podporované operátory</string>
+    <string name="enter_esim_service_support_title">Podporovaní operátoři</string>
     <string name="enter_input">Zpráva USSD musí mít délku od %1$d do %2$d znaků. Zkuste to znovu.</string>
     <string name="enter_mep_esim_manager_title">Spravovat SIM</string>
     <string name="enter_pin2_text">PIN %d</string>
@@ -667,12 +671,14 @@
     <string name="fdn_with_label">Povolená tel. čísla (%s)</string>
     <string name="feedback_title">Zpětná vazba</string>
     <string name="filp_auto_answer_call_title">Otevřením hovory přijměte</string>
-    <string name="filp_auto_hangup_call_summary">Funguje, pouze když jsou připojena Bluetooth nebo drátová sluchátka</string>
+    <string name="filp_auto_hangup_call_summary">Funguje, pouze když nejsou připojena Bluetooth nebo drátová sluchátka</string>
     <string name="filp_auto_hangup_call_title">Zavřením hovory ukončete</string>
     <string name="fire_type_description">Hasiči</string>
     <string name="fiveg_carrier_aggregation_title">Agregace 5G operátorů</string>
     <string name="fiveg_hosted_mode_summary">Automaticky vybrat nejvhodnější síť pro úsporu baterie</string>
     <string name="fiveg_hosted_mode_title">Chytrý přepínač 5G</string>
+    <string name="fiveg_interruption_remind">Vypadá to, že vaše SIM %s nemůže využívat služby 5G SA. Další informace vám poskytne váš operátor.</string>
+    <string name="fiveg_interruption_remind_title">Služby 5G nelze použít</string>
     <string name="fiveg_network_mode_default">Autom.</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -1201,7 +1207,7 @@ Vyberte místo ní preferovanou síť."</string>
     <string name="not_voice_capable">Hlasové volání není podporováno</string>
     <string name="notallow">Neuděleno</string>
     <string name="notification_channel_sip_account">Zastaralé účty SIP</string>
-    <string name="notification_network_selection_text">Vybraná síť (%s) není k dispozici</string>
+    <string name="notification_network_selection_text">Vybraná síť%s není k dispozici</string>
     <string name="notification_network_selection_title">Žádný signál</string>
     <string name="notification_switch_auto_text">Vítejte zpět! Přepnuto na místní sítě.</string>
     <string name="notification_switch_auto_title">Mobilní sítě</string>
@@ -1221,8 +1227,10 @@ Vyberte místo ní preferovanou síť."</string>
     <string name="obtain_location_information">Poloha</string>
     <string name="obtain_location_information_summary">Pro optimalizaci aktuálního síťového prostředí</string>
     <string name="oem_radio_info_label">Informace a nastavení specifické pro výrobce OEM</string>
+    <string name="offline_call">Offline komunikace Xiaomi</string>
     <string name="offline_call_has_call">Druhá osoba je zaneprázdněná. Zkuste to znovu za jednu nebo dvě minuty.</string>
     <string name="offline_call_not_match_contact">Nelze volat. Nejste kontaktem druhé osoby.</string>
+    <string name="offline_call_summary">Volejte telefonům Xiaomi v okolí přes Bluetooth i bez připojení síti</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Původní kód PIN2</string>
     <string name="oldPinLabel">Původní kód PIN</string>
@@ -1621,6 +1629,8 @@ Rozhraní UT: %5$s"</string>
        &lt;br> – Tato funkce není dostupná při videohovorech"</string>
     <string name="rtt_mode_summary">Povolit posílání zpráv během hlasového hovoru</string>
     <string name="rtt_mode_title">Hovor, během něhož můžete posílat zprávy (RTT)</string>
+    <string name="rtt_settings_summary">Funkce real-time text (RTT) umožňuje používat ke komunikaci během telefonního hovoru text</string>
+    <string name="rtt_settings_title">RTT hovory</string>
     <string name="satellite_camera_enable_toast">Close Camera before opening Tiantong Satellite communications</string>
     <string name="satellite_exit_now_battery">Ukončit nyní</string>
     <string name="satellite_findout_settings_title">About Tiantong Satellite communications</string>
@@ -1964,6 +1974,8 @@ Počet dní do začátku dalšího období: %2$d (%3$s)"</string>
     <string name="turnover_mute_summary">Pokud je telefon položen na rovném povrchu a displej směřuje vzhůru, převrácení telefonu ztiší vyzvánění, vypne vibrace a zastaví blikání oznamovací kontrolky.</string>
     <string name="turnover_mute_title">Otočením ztišit</string>
     <string name="undefined">Žádný</string>
+    <string name="unfold_show_bublle_pref_summary">Po otevření telefonu během volání bude hovor zobrazen v plovoucím okně</string>
+    <string name="unfold_show_bublle_pref_title">Po otevření minimalizovat volání</string>
     <string name="unknown">Neznámé</string>
     <string name="unlock_failed">Požadavek na odblokování sítě se nezdařil.</string>
     <string name="unlock_success">Síť byla úspěšně odblokována.</string>

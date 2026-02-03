@@ -204,6 +204,8 @@
     <string name="accessibility_qs_edit_tile_removed">%1$s αφαιρέθηκε</string>
     <string name="accessibility_qs_edit_tile_start_add">Προσθήκη πλακιδίου</string>
     <string name="accessibility_qs_edit_tile_start_move">Μετακίνηση πλακιδίου</string>
+    <string name="accessibility_qs_item_drag">Σύρσιμο</string>
+    <string name="accessibility_qs_position_hint">Τοποθετήθηκε στη γραμμή %1$d, στήλη %2$d</string>
     <string name="accessibility_quick_settings_alarm">Το ξυπνητήρι έχει οριστεί στις %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">ενεργοποίηση</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Συνδεδεμένη λαβή</string>
     <string name="accessibility_quick_settings_open_settings">Άνοιγμα ρυθμίσεων %s.</string>
     <string name="accessibility_quick_settings_page">Σελίδα %1$d από %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Δείκτης σελίδας</string>
     <string name="accessibility_quick_settings_power_menu">Μενού λειτουργίας</string>
     <string name="accessibility_quick_settings_rotation">Αυτόματη περιστροφή οθόνης</string>
     <string name="accessibility_quick_settings_settings">Άνοιγμα ρυθμίσεων.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Αποστολή</string>
     <string name="accessibility_sensors_off_active">Απενεργοποίηση αισθητήρων ενεργή</string>
     <string name="accessibility_settings">Ρυθμίσεις</string>
+    <string name="accessibility_sliding_button_state_description_off">Απενεργοποιήθηκε</string>
+    <string name="accessibility_sliding_button_state_description_on">Ενεργοποιήθηκε</string>
     <string name="accessibility_split_bottom">Διαχωρισμός κάτω</string>
     <string name="accessibility_split_left">Διαχωρισμός αριστερά</string>
     <string name="accessibility_split_right">Διαχωρισμός δεξιά</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Δορυφορική, καλή σύνδεση</string>
     <string name="accessibility_status_bar_satellite_no_connection">Δορυφορική, δεν υπάρχει σύνδεση</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Δορυφορική, κακή σύνδεση</string>
+    <string name="accessibility_tab_state_description_unselect">Καμία επιλογή</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">μάθετε περισσότερα</string>
     <string name="accessibility_tty_enabled">Το TeleTypewriter ενεργοποιήθηκε.</string>
     <string name="accessibility_unlock_button">Ξεκλειδώθηκε</string>
@@ -892,6 +898,7 @@
     <string name="enable_verbose_vendor_logging_summary">Συμπερίληψη πρόσθετων αρχείων καταγραφής προμηθευτή για συγκεκριμένες συσκευές στις αναφορές σφαλμάτων, τα οποία ενδέχεται να περιέχουν ιδιωτικές πληροφορίες, να χρησιμοποιούν περισσότερη μπαταρία ή/και να χρησιμοποιούν περισσότερο αποθηκευτικό χώρο.</string>
     <string name="enabled_by_admin">Ενεργοποιήθηκε από τον διαχειριστή</string>
     <string name="enhanced_connectivity_summary">Επιτρέπει τη λειτουργία Βελτιωμένης συνδεσιμότητας.</string>
+    <string name="enrol_fingerprint_process_talkback">Προσθήκη δακτυλικού αποτυπώματος</string>
     <string name="eras_ad">μ.Χ.</string>
     <string name="eras_bc">π.Χ.</string>
     <string name="error_disable_esim_msg">Δεν είναι δυνατή η απενεργοποίηση της eSIM, εξαιτίας κάποιου σφάλματος.</string>
@@ -1057,6 +1064,7 @@
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, ημέρα του μήνα: %2$s</string>
+    <string name="free_form_recommend_tip">Αναδυόμενο παράθυρο</string>
     <string name="friday">Παρασκευή</string>
     <string name="friday_short">Παρ</string>
     <string name="friday_shortest">Παρ</string>
@@ -1191,6 +1199,15 @@
     <string name="inattentive_sleep_warning_message">Η συσκευή σύντομα θα απενεργοποιηθεί. Πατήστε, για να την κρατήσετε ενεργοποιημένη.</string>
     <string name="inattentive_sleep_warning_title">Κατάσταση αναμονής</string>
     <string name="indeterminate">Έγινε μερικός έλεγχος</string>
+    <string name="info_focus_download_end">Έγινε λήψη</string>
+    <string name="info_focus_download_start">Ανοίξτε ένα αναδυόμενο παράθυρο και περιμένετε να ολοκληρωθεί η λήψη</string>
+    <string name="info_focus_download_update">Πρόοδος λήψης</string>
+    <string name="info_focus_match_end">Επιτυχής αντιστοίχιση</string>
+    <string name="info_focus_match_start">Ανοίξτε ένα αναδυόμενο παράθυρο και περιμένετε για αντιστοίχιση</string>
+    <string name="info_focus_match_update">Γίνεται αντιστοίχιση…</string>
+    <string name="info_focus_rebirth_end">Έγινε επανεμφάνιση</string>
+    <string name="info_focus_rebirth_start">Ανοίξτε ένα αναδυόμενο παράθυρο και περιμένετε για επανεμφάνιση</string>
+    <string name="info_focus_rebirth_update">Αναμονή για επανεμφάνιση</string>
     <string name="inline_done_button">Τέλος</string>
     <string name="inline_ok_button">Εφαρμογή</string>
     <string name="inline_turn_off_notifications">Απενεργοποίηση ειδοποιήσεων</string>
@@ -1408,6 +1425,7 @@
     <string name="kg_wrong_input_try_fp_suggestion">Εναλλακτικά, ξεκλειδώστε με δακτυλικό αποτύπωμα</string>
     <string name="kg_wrong_password">Λανθασμένος κωδικός πρόσβασης</string>
     <string name="kg_wrong_password_try_again">Λάθ. κωδ. πρόσ. Δοκ. ξανά.</string>
+    <string name="kg_wrong_pattern">Λανθασμένο μοτίβο</string>
     <string name="kg_wrong_pattern_try_again">Λάθος μοτίβο. Δοκ. ξανά.</string>
     <string name="kg_wrong_pin">Λανθασμένο PIN</string>
     <string name="kg_wrong_pin_try_again">Λάθος PIN. Δοκιμάστε ξανά.</string>
@@ -1473,6 +1491,7 @@
     <string name="log_access_confirmation_learn_more">Μάθετε περισσότερα</string>
     <string name="log_access_confirmation_learn_more_at">Μάθετε περισσότερα στο %s.</string>
     <string name="log_access_confirmation_title">Να επιτρέπεται στο %s η πρόσβαση σε όλα τα αρχεία καταγραφής συσκευής;</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Η συσκευή υπερθερμάνθηκε. Μείωση φωτεινότητας του φακού.</string>
     <string name="m3c_search_bar_search">Αναζήτηση</string>
     <string name="m3c_suggestions_available">Προτάσεις παρακάτω</string>
     <string name="magnification_close_settings_click_label">Κλείσιμο ρυθμίσεων μεγιστοποίησης</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Έγινε επιλογή</string>
+    <string name="miuix_accessibility_title">Τίτλος</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Έκλεισε</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Επεκτάθηκε</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Έξοδος από τη λειτουργία επεξεργασίας</string>
+    <string name="miuix_appcompat_accessibility_new_message">Νέα ειδοποίηση</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Έναρξη λειτουργίας επεξεργασίας</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Αποεπιλογή όλων</string>
     <string name="miuix_appcompat_action_mode_select_all">Επιλογή όλων</string>
     <string name="miuix_appcompat_action_mode_title_empty">Επιλογή αντικειμένων</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Επιλογή όλων</string>
     <string name="miuix_appcompat_select_all_description">Επιλογή όλων</string>
     <string name="miuix_appcompat_select_item">Επιλογή αντικειμένων</string>
+    <string name="miuix_appcompat_show_dialog_description">Αναδυόμενο παράθυρο</string>
+    <string name="miuix_progressbar_loading">Φόρτωση</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Τραβήξτε προς τα κάτω για ανανέωση</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Επιτυχής ανανέωση</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Γίνεται ανανέωση…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Αυτά προς το παρόν</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Μια στιγμή…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Αδυναμία λήψης αντικειμένων</string>
+    <string name="miuix_show_password">Εμφάνιση κωδικού</string>
+    <string name="miuix_stretchablewidget_collapsed">Έκλεισε</string>
+    <string name="miuix_stretchablewidget_expanded">Επεκτάθηκε</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Πάντα ενεργά δεδομένα κινητής τηλεφωνίας</string>
     <string name="mobile_data_always_on_summary">Τα δεδομένα κινητής τηλεφωνίας να διατηρούνται πάντα ενεργά, ακόμα και όταν είναι ενεργό το Wi-Fi (για γρήγορη εναλλαγή δικτύου).</string>
@@ -2494,6 +2524,7 @@ mm"</string>
     <string name="speed_label_okay">ΟΚ</string>
     <string name="speed_label_slow">Αργή</string>
     <string name="speed_label_very_fast">Πολύ γρήγορη</string>
+    <string name="split_screen_recommend_tip">Διαίρεση οθόνης</string>
     <string name="split_screen_text">Διαχωρισμός οθόνης</string>
     <string name="standby_bucket_summary">Κατάσταση αναμονής εφαρμογής: %s</string>
     <string name="start_dreams">Προφύλαξη οθόνης</string>
@@ -2612,9 +2643,9 @@ mm"</string>
     <string name="thermal_shutdown_dialog_message">"Η θερμοκρασία του τηλεφώνου είναι πολύ υψηλή και απενεργοποιήθηκε για να κρυώσει. Πλέον, το τηλέφωνο λειτουργεί κανονικά.
 
 Η θερμοκρασία του τηλεφώνου ενδέχεται να ανέβει κατά τη:
-\u0009• Χρήση εφαρμογών υψηλής κατανάλωσης πόρων (όπως gaming, βίντεο ή περιήγησης)
-\u0009• Λήψη ή μεταφόρτωση μεγάλων αρχείων
-\u0009• Χρήση του τηλεφώνου σε υψηλές θερμοκρασίες"</string>
+\t• Χρήση εφαρμογών υψηλής κατανάλωσης πόρων (όπως gaming, βίντεο ή περιήγησης)
+\t• Λήψη ή μεταφόρτωση μεγάλων αρχείων
+\t• Χρήση του τηλεφώνου σε υψηλές θερμοκρασίες"</string>
     <string name="thermal_shutdown_message">"Το τηλέφωνο λειτουργεί πλέον κανονικά.
 Πατήστε για περισσότερες πληροφορίες"</string>
     <string name="thermal_shutdown_title">Το τηλέφωνο απενεργοποιήθηκε λόγω ζέστης</string>

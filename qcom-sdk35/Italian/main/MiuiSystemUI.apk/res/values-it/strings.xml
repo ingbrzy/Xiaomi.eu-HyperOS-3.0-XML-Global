@@ -204,6 +204,8 @@
     <string name="accessibility_qs_edit_tile_removed">%1$s è stata rimossa</string>
     <string name="accessibility_qs_edit_tile_start_add">Aggiungi riquadro</string>
     <string name="accessibility_qs_edit_tile_start_move">Sposta riquadro</string>
+    <string name="accessibility_qs_item_drag">Trascinamento</string>
+    <string name="accessibility_qs_position_hint">Posizionato alla riga %1$d, colonna %2$d</string>
     <string name="accessibility_quick_settings_alarm">Sveglia impostata per le %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">attiva</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Impugnatura connessa</string>
     <string name="accessibility_quick_settings_open_settings">Apri le impostazioni %s.</string>
     <string name="accessibility_quick_settings_page">Pagina %1$d di %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Indicatore di pagina</string>
     <string name="accessibility_quick_settings_power_menu">Menu del tasto di accensione</string>
     <string name="accessibility_quick_settings_rotation">Rotazione automatica dello schermo</string>
     <string name="accessibility_quick_settings_settings">Apri le impostazioni.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Invia</string>
     <string name="accessibility_sensors_off_active">Opzione Sensori disattivati attiva</string>
     <string name="accessibility_settings">Impostazioni</string>
+    <string name="accessibility_sliding_button_state_description_off">Disattivato</string>
+    <string name="accessibility_sliding_button_state_description_on">Attivato</string>
     <string name="accessibility_split_bottom">Dividi in basso</string>
     <string name="accessibility_split_left">Dividi a sinistra</string>
     <string name="accessibility_split_right">Dividi a destra</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Satellitare, connessione buona</string>
     <string name="accessibility_status_bar_satellite_no_connection">Satellitare, nessuna connessione</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Satellitare, connessione debole</string>
+    <string name="accessibility_tab_state_description_unselect">Non selezionato</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">scopri di più</string>
     <string name="accessibility_tty_enabled">Telescrivente abilitata.</string>
     <string name="accessibility_unlock_button">Sbloccato</string>
@@ -892,6 +898,7 @@ Se li riattivi, potrebbero essere applicati costi per l'utilizzo dei dati."</str
     <string name="enable_verbose_vendor_logging_summary">Includi log aggiuntivi di fornitori relativi a un dispositivo specifico nelle segnalazioni di bug che potrebbero contenere informazioni private, causare un maggior consumo della batteria e/o utilizzare più spazio di archiviazione</string>
     <string name="enabled_by_admin">"Attivata dall'amministratore"</string>
     <string name="enhanced_connectivity_summary">Consente di attivare la funzionalità Connettività migliorata.</string>
+    <string name="enrol_fingerprint_process_talkback">"Aggiunta dell'impronta..."</string>
     <string name="eras_ad">d.C.</string>
     <string name="eras_bc">a.C.</string>
     <string name="error_disable_esim_msg">Impossibile disattivare la eSIM a causa di un errore.</string>
@@ -1057,6 +1064,7 @@ Spegnila premendo il pulsante di accensione."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, giorno del mese: %2$s</string>
+    <string name="free_form_recommend_tip">Finestra a comparsa</string>
     <string name="friday">Venerdì</string>
     <string name="friday_short">Ven</string>
     <string name="friday_shortest">Ven</string>
@@ -1191,6 +1199,15 @@ Tocca per maggiori informazioni"</string>
     <string name="inattentive_sleep_warning_message">Presto il dispositivo si spegnerà. Premi per tenerlo acceso.</string>
     <string name="inattentive_sleep_warning_title">Standby</string>
     <string name="indeterminate">Elemento parzialmente selezionato</string>
+    <string name="info_focus_download_end">Download completato</string>
+    <string name="info_focus_download_start">Apri una finestra a comparsa e attendi che il download sia completato</string>
+    <string name="info_focus_download_update">Avanzamento del download</string>
+    <string name="info_focus_match_end">Abbinamento completato</string>
+    <string name="info_focus_match_start">"Apri una finestra a comparsa e attendi l'abbinamento"</string>
+    <string name="info_focus_match_update">Abbinamento…</string>
+    <string name="info_focus_rebirth_end">Rigenerato</string>
+    <string name="info_focus_rebirth_start">Apri una finestra a comparsa e attendi la rigenerazione</string>
+    <string name="info_focus_rebirth_update">In attesa di rigenerazione</string>
     <string name="inline_done_button">Fine</string>
     <string name="inline_ok_button">Applica</string>
     <string name="inline_turn_off_notifications">Disattiva notifiche</string>
@@ -1408,6 +1425,7 @@ Tocca per maggiori informazioni"</string>
     <string name="kg_wrong_input_try_fp_suggestion">"In alternativa, sblocca con l'impronta"</string>
     <string name="kg_wrong_password">Password errata</string>
     <string name="kg_wrong_password_try_again">Password errata. Riprova.</string>
+    <string name="kg_wrong_pattern">Sequenza errata</string>
     <string name="kg_wrong_pattern_try_again">Sequenza errata. Riprova.</string>
     <string name="kg_wrong_pin">PIN errato</string>
     <string name="kg_wrong_pin_try_again">PIN errato. Riprova.</string>
@@ -1473,6 +1491,7 @@ Se neghi l'accesso a tutti i log del dispositivo, questa app può comunque acced
     <string name="log_access_confirmation_learn_more">Scopri di più</string>
     <string name="log_access_confirmation_learn_more_at">"Scopri di più all'indirizzo %s"</string>
     <string name="log_access_confirmation_title">"Vuoi consentire all'app %s di accedere a tutti i log del dispositivo?"</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Dispositivo surriscaldato. Riduzione della luminosità della torcia.</string>
     <string name="m3c_search_bar_search">Cerca</string>
     <string name="m3c_suggestions_available">Suggerimenti sotto</string>
     <string name="magnification_close_settings_click_label">Chiudi impostazioni di ingrandimento</string>
@@ -1663,6 +1682,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Selezionato</string>
+    <string name="miuix_accessibility_title">Titolo</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Compresso</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Esteso</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Esci dalla modalità di modifica</string>
+    <string name="miuix_appcompat_accessibility_new_message">Nuova notifica</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Entra in modalità di modifica</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deseleziona tutti</string>
     <string name="miuix_appcompat_action_mode_select_all">Seleziona tutto</string>
     <string name="miuix_appcompat_action_mode_title_empty">Seleziona elementi</string>
@@ -1678,6 +1703,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Seleziona tutto</string>
     <string name="miuix_appcompat_select_all_description">Seleziona tutto</string>
     <string name="miuix_appcompat_select_item">Seleziona elementi</string>
+    <string name="miuix_appcompat_show_dialog_description">Finestra pop-up</string>
+    <string name="miuix_progressbar_loading">Caricamento</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Trascina in basso per aggiornare</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Aggiornamento completato</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Aggiornamento…</string>
@@ -1686,6 +1713,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">È tutto per ora</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Solo un secondo…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Impossibile caricare</string>
+    <string name="miuix_show_password">Mostra password</string>
+    <string name="miuix_stretchablewidget_collapsed">Compresso</string>
+    <string name="miuix_stretchablewidget_expanded">Esteso</string>
     <string name="mobile_carrier_text_format">%1$s %2$s</string>
     <string name="mobile_data_always_on">Dati mobili sempre attivi</string>
     <string name="mobile_data_always_on_summary">Mantieni sempre i dati mobili attivi, anche se il Wi‑Fi è attivo (per un passaggio fra reti rapido)</string>
@@ -2494,6 +2524,7 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="speed_label_okay">OK</string>
     <string name="speed_label_slow">Lenta</string>
     <string name="speed_label_very_fast">Molto veloce</string>
+    <string name="split_screen_recommend_tip">Multi schermo</string>
     <string name="split_screen_text">Schermo diviso</string>
     <string name="standby_bucket_summary">"Stato di standby dell'app:  %s"</string>
     <string name="start_dreams">Salvaschermo</string>
@@ -2612,9 +2643,9 @@ Per eventuali domande, contatta %2$s."</string>
     <string name="thermal_shutdown_dialog_message">"Lo smartphone era surriscaldato e si è spento per raffreddarsi. Ora funziona normalmente.
 
 Lo smartphone può surriscaldarsi se:
-\u0009• Utilizzi app che consumano molte risorse (ad esempio app di navigazione, giochi o video)
-\u0009• Scarichi o carichi grandi file
-\u0009• Lo utilizzi in presenza di alte temperature"</string>
+\t• Utilizzi app che consumano molte risorse (ad esempio app di navigazione, giochi o video)
+\t• Scarichi o carichi grandi file
+\t• Lo utilizzi in presenza di alte temperature"</string>
     <string name="thermal_shutdown_message">"Ora lo smartphone funziona normalmente.
 Tocca per maggiori informazioni"</string>
     <string name="thermal_shutdown_title">Lo smartphone si è spento per il calore</string>

@@ -152,6 +152,7 @@
     <string name="contact_records_permission_desc">สำหรับการถ่ายโอนประวัติการโทรไปยังอุปกรณ์อื่น</string>
     <string name="contacts">รายชื่อ</string>
     <string name="contacts_permission_desc">สำหรับโอนรายชื่อไปยังอุปกรณ์อื่น</string>
+    <string name="contains_unauthorized_data">มีข้อมูลที่ไม่ได้รับอนุญาต</string>
     <string name="copy">คัดลอก</string>
     <string name="current_user_not_supported_summary">การตั้งค่าระบบปัจจุบันจำกัดการถ่ายโอนข้อมูลโดยใช้ Mi Mover</string>
     <string name="current_user_not_supported_title">ไม่สามารถถ่ายโอนรายการได้</string>
@@ -416,8 +417,12 @@
     <string name="manual_connection_content2">%d เลือกฮอตสปอต Wi-Fi ต่อไปนี้</string>
     <string name="manual_connection_content3">%d ป้อนรหัสผ่านนี้ในอุปกรณ์เครื่องเก่าเพื่อเชื่อมต่อ</string>
     <string name="manual_connection_hint">แตะ \"เชื่อมต่อด้วยตนเอง\" บนอุปกรณ์เครื่องเก่าของคุณ</string>
+    <string name="manual_connection_hint_pad">แตะ \"เชื่อมต่อด้วยตนเอง\" บนอุปกรณ์เครื่องเก่า</string>
+    <string name="manual_connection_hint_phone">แตะ \"เชื่อมต่อด้วยตนเอง\" บนอุปกรณ์เครื่องเก่า</string>
     <string name="manual_connection_summary2">หากคุณไม่พบฮอตสปอตนี้ ให้รีเฟรชรายการเครือข่าย Wi-Fi ที่พร้อมใช้งานแล้วลองอีกครั้ง</string>
     <string name="manual_connection_title">เชื่อมต่อไปยังอุปกรณ์เก่าด้วยตัวเอง</string>
+    <string name="manual_connection_title_pad">เชื่อมต่ออุปกรณ์เก่ากับฮอตสปอต</string>
+    <string name="manual_connection_title_phone">เชื่อมต่ออุปกรณ์เก่ากับฮอตสปอต</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover จำเป็นต้องเข้าถึงไฟล์ทั้งหมดบนอุปกรณ์นี้เพื่อให้สามารถย้ายไฟล์จากอุปกรณ์เครื่องเก่าไปยังเครื่องใหม่ได้</string>
     <string name="message_request_package_stats_perm">Mi Mover ต้องการการอนุญาตนี้เพื่อเรียนรู้ว่าแอปใดติดตั้งอยู่ในอุปกรณ์และโอนแอปเหล่านี้ไปยังแอปอื่น</string>
     <string name="midnight">กลางคืน</string>
@@ -531,14 +536,14 @@
     <string name="new_trans_intro_desc_new">"%1$d ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นเวอร์ชันล่าสุด คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน Play Store หรือแตะที่นี่: %2$s
 %3$d หากฮอตสปอตยังคงไม่ปรากฏใน Mi Mover ให้เปิดการตั้งค่า Wi-Fi และตรวจสอบว่าคุณสามารถเห็นฮอตสปอตนั้นได้หรือไม่ หากเป็นเช่นนั้น ให้กลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
     <string name="new_trans_intro_desc_new_click">ดาวน์โหลด</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน GetApps หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>"
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า Wi-Fi และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน GetApps หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า WLAN และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน GetApps หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>"
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า Wi-Fi และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน GetApps หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>".
-&lt;xliff:g id=count refersto=2>%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า WLAN และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
+    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน Google Play หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>"
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า Wi-Fi และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
+    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน GetApps หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า WLAN และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
+    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน Google Play หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>"
+&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า Wi-Fi และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
+    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g> ตรวจสอบให้แน่ใจว่า Mi Mover บนอุปกรณ์ใหม่ของคุณเป็นปัจจุบันแล้ว คุณสามารถดาวน์โหลด Mi Mover เวอร์ชันล่าสุดได้ใน GetApps หรือ<Data>&lt;a href=%2$s>แตะที่นี่&lt;/a></Data>".
+&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g> หากยังไม่เห็นฮอตสปอตใน Mi Mover ให้เปิดการตั้งค่า WLAN และตรวจสอบว่าเห็นฮอตสปอตที่นั่นหรือไม่ หากเห็น ให้ย้อนกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต"</string>
     <string name="new_trans_intro_desc_old">%d. หากฮอตสปอตยังคงไม่ปรากฏใน Mi Mover ให้เปิดการตั้งค่า Wi-Fi และตรวจสอบว่าคุณสามารถเห็นได้หรือไม่ ถ้าเป็นเช่นนั้นกลับไปที่ Mi Mover แล้วแตะชื่อฮอตสปอต</string>
     <string name="new_trans_intro_question_1">%d. เหตุใดฉันจึงไม่เห็นฮอตสปอตของอุปกรณ์ใหม่ในเครื่องเก่า?</string>
     <string name="new_trans_intro_question_1_pad">%d เหตุใดฉันจึงไม่เห็นฮอตสปอตของอุปกรณ์ใหม่ในเครื่องเก่า?</string>
@@ -637,6 +642,8 @@
     <string name="permission_alert_title">สิทธิ์ที่จำเป็น</string>
     <string name="permission_bluetooth_summary">สำหรับการค้นหาอุปกรณ์ใกล้เคียง</string>
     <string name="permission_bluetooth_title">เปิดและปิดบลูทูธ</string>
+    <string name="permission_calendar_summary">สำหรับการถ่ายโอนกิจกรรมในปฏิทิน</string>
+    <string name="permission_calendar_title">เข้าถึงปฏิทิน</string>
     <string name="permission_calender_summary">สำหรับการย้ายกิจกรรมจากเครื่องเก่าไปเครื่องใหม่</string>
     <string name="permission_calender_summary_global">สำหรับการถ่ายโอนกำหนดการในปฏิทินไปยังอุปกรณ์ใหม่</string>
     <string name="permission_calender_title">เข้าถึงกำหนดการในปฏิทิน</string>

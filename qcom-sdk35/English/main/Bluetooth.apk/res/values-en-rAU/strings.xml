@@ -29,6 +29,9 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="accessibility_sliding_button_state_description_off">Turned off</string>
+    <string name="accessibility_sliding_button_state_description_on">Turned on</string>
+    <string name="accessibility_tab_state_description_unselect">Not selected</string>
     <string name="airplane_error_msg">"You can't use Bluetooth in Aeroplane mode."</string>
     <string name="airplane_error_title">Aeroplane mode</string>
     <string name="app_name">Bluetooth</string>
@@ -64,8 +67,11 @@
     <string name="bluetooth_sap_notif_title">Bluetooth SIM access</string>
     <string name="bluetooth_stays_on_message">"Your device remembers to keep Bluetooth on in aeroplane mode. Turn off Bluetooth if you don't want it to stay on."</string>
     <string name="bluetooth_stays_on_title">Bluetooth stays on</string>
+    <string name="bt_audio_share_assistant_notification_title">Listening to the radio nearby</string>
     <string name="bt_audio_share_notification_content">Tap to view details</string>
     <string name="bt_audio_share_notification_title">Broadcasting audio from this device…</string>
+    <string name="bt_audio_share_sbc_notification_content">Tap to view options</string>
+    <string name="bt_audio_share_sbc_notification_title">Sharing audio</string>
     <string name="bt_enable_cancel">Cancel</string>
     <string name="bt_enable_line1">To use Bluetooth services, you must first turn on Bluetooth.</string>
     <string name="bt_enable_line2">Turn on Bluetooth now?</string>
@@ -89,6 +95,7 @@
     <string name="call_notification_incoming_text">Incoming call</string>
     <string name="call_notification_ongoing_text">On-going call</string>
     <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="clearable_edittext_clear_description">Clear</string>
     <string name="close_broadcast_audio">Stop</string>
     <string name="defaultname">Car Kit</string>
     <string name="defaultnumber">000000</string>
@@ -179,10 +186,21 @@
     <string name="miui_transfer_inbound_title">Inbound</string>
     <string name="miui_transfer_outbound_title">Outbound</string>
     <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_accessibility_title">Title</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Collapsed</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expanded</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Exit edit mode</string>
+    <string name="miuix_appcompat_accessibility_new_message">New notification</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Enter edit mode</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect all</string>
     <string name="miuix_appcompat_deselect_all">Deselect all</string>
     <string name="miuix_appcompat_deselect_all_description">Deselect all</string>
     <string name="miuix_appcompat_edit">Edit</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up window</string>
+    <string name="miuix_progressbar_loading">Loading</string>
+    <string name="miuix_show_password">Show password</string>
+    <string name="miuix_stretchablewidget_collapsed">Collapsed</string>
+    <string name="miuix_stretchablewidget_expanded">Expanded</string>
     <string name="no_transfers">Transfer history is empty.</string>
     <string name="not_exist_file">No file</string>
     <string name="not_exist_file_desc">"The file doesn't exist. 
@@ -191,6 +209,7 @@
     <string name="noti_caption_success">{count,plural, =1{# successful, %1$s}other{# successful, %1$s}}</string>
     <string name="noti_caption_unsuccessful">{count,plural, =1{# unsuccessful.}other{# unsuccessful.}}</string>
     <string name="notice_audio_share_classic_disconnected">Stopped audio sharing</string>
+    <string name="notice_audio_share_sbc_disconnected">No longer sharing audio due to interrupted connection</string>
     <string name="notice_broadcast_audio_stopped">Stopped broadcasting audio</string>
     <string name="notification_received">Bluetooth share: Received %1$s</string>
     <string name="notification_received_fail">Bluetooth share: File %1$s not received</string>

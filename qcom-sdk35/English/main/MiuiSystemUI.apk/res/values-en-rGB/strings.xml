@@ -204,6 +204,8 @@
     <string name="accessibility_qs_edit_tile_removed">%1$s is removed</string>
     <string name="accessibility_qs_edit_tile_start_add">Add tile</string>
     <string name="accessibility_qs_edit_tile_start_move">Move tile</string>
+    <string name="accessibility_qs_item_drag">Dragging</string>
+    <string name="accessibility_qs_position_hint">Placed at row %1$d, column %2$d</string>
     <string name="accessibility_quick_settings_alarm">Alarm set for %s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth</string>
     <string name="accessibility_quick_settings_bluetooth_device_tap_to_activate">activate</string>
@@ -220,6 +222,7 @@
     <string name="accessibility_quick_settings_handle_handsfree_battery_level">Connected grip</string>
     <string name="accessibility_quick_settings_open_settings">Open %s settings.</string>
     <string name="accessibility_quick_settings_page">Page %1$d of %2$d</string>
+    <string name="accessibility_quick_settings_page_indicator">Page indicator</string>
     <string name="accessibility_quick_settings_power_menu">Power menu</string>
     <string name="accessibility_quick_settings_rotation">Auto-rotate screen</string>
     <string name="accessibility_quick_settings_settings">Open settings.</string>
@@ -233,6 +236,8 @@
     <string name="accessibility_send_smart_reply">Send</string>
     <string name="accessibility_sensors_off_active">Sensors off active</string>
     <string name="accessibility_settings">Settings</string>
+    <string name="accessibility_sliding_button_state_description_off">Turned off</string>
+    <string name="accessibility_sliding_button_state_description_on">Turned on</string>
     <string name="accessibility_split_bottom">Split bottom</string>
     <string name="accessibility_split_left">Split left</string>
     <string name="accessibility_split_right">Split right</string>
@@ -244,6 +249,7 @@
     <string name="accessibility_status_bar_satellite_good_connection">Satellite, good connection</string>
     <string name="accessibility_status_bar_satellite_no_connection">Satellite, no connection</string>
     <string name="accessibility_status_bar_satellite_poor_connection">Satellite, poor connection</string>
+    <string name="accessibility_tab_state_description_unselect">Not selected</string>
     <string name="accessibility_tile_disabled_by_policy_action_description">learn more</string>
     <string name="accessibility_tty_enabled">TeleTypewriter enabled.</string>
     <string name="accessibility_unlock_button">Unlocked</string>
@@ -837,9 +843,11 @@ If you resume, charges may apply for data usage."</string>
     <string name="dock_non_resizeble_failed_to_dock_text">App does not support split screen</string>
     <string name="done">Done</string>
     <string name="download_lock_wallpaper">Double tap to download Wallpaper Carousel</string>
-    <string name="drag_shadow_freeform_mini_open">Mini floating window</string>
+    <string name="drag_shadow_freeform_mini_open">"Mini floating
+window"</string>
     <string name="drag_shadow_freeform_mini_unsupported">"Mini floating windows aren't supported"</string>
-    <string name="drag_shadow_freeform_open">Floating window</string>
+    <string name="drag_shadow_freeform_open">"Floating
+window"</string>
     <string name="drag_shadow_freeform_unsupported">"Floating windows aren't supported"</string>
     <string name="drag_shadow_freeform_unsupported_app">"%s doesn't support floating windows"</string>
     <string name="drag_shadow_fullscreen_open">Full screen</string>
@@ -892,6 +900,7 @@ If you resume, charges may apply for data usage."</string>
     <string name="enable_verbose_vendor_logging_summary">Include additional device-specific vendor logs in bug reports, which may contain private information, use more battery and/or use more storage.</string>
     <string name="enabled_by_admin">Enabled by admin</string>
     <string name="enhanced_connectivity_summary">Enables the enhanced connectivity feature.</string>
+    <string name="enrol_fingerprint_process_talkback">Adding fingerprint</string>
     <string name="eras_ad">CE</string>
     <string name="eras_bc">BCE</string>
     <string name="error_disable_esim_msg">The eSIM can’t be disabled due to an error.</string>
@@ -1057,6 +1066,7 @@ Turn off with the Power button."</string>
     <string name="format_number_hour_desc">%s</string>
     <string name="format_week_day_style1">EE d</string>
     <string name="format_week_day_style1_desc">%1$s, day of the month: %2$s</string>
+    <string name="free_form_recommend_tip">Floating window</string>
     <string name="friday">Friday</string>
     <string name="friday_short">Fri</string>
     <string name="friday_shortest">Fri</string>
@@ -1191,6 +1201,15 @@ Tap for more info"</string>
     <string name="inattentive_sleep_warning_message">The device will soon turn off; press to keep it on.</string>
     <string name="inattentive_sleep_warning_title">Standby</string>
     <string name="indeterminate">Partially ticked</string>
+    <string name="info_focus_download_end">Downloaded</string>
+    <string name="info_focus_download_start">Open a floating window and wait for download to finish</string>
+    <string name="info_focus_download_update">Download progress</string>
+    <string name="info_focus_match_end">Matched successfully</string>
+    <string name="info_focus_match_start">Open a floating window and wait to be matched</string>
+    <string name="info_focus_match_update">Matching…</string>
+    <string name="info_focus_rebirth_end">Respawned</string>
+    <string name="info_focus_rebirth_start">Open a floating window and wait for respawn</string>
+    <string name="info_focus_rebirth_update">Waiting to respawn</string>
     <string name="inline_done_button">Done</string>
     <string name="inline_ok_button">Apply</string>
     <string name="inline_turn_off_notifications">Turn off notifications</string>
@@ -1408,6 +1427,7 @@ Tap for more info"</string>
     <string name="kg_wrong_input_try_fp_suggestion">Or unlock with fingerprint</string>
     <string name="kg_wrong_password">Wrong password</string>
     <string name="kg_wrong_password_try_again">Wrong password. Try again.</string>
+    <string name="kg_wrong_pattern">Wrong pattern</string>
     <string name="kg_wrong_pattern_try_again">Wrong pattern. Try again.</string>
     <string name="kg_wrong_pin">Wrong PIN</string>
     <string name="kg_wrong_pin_try_again">Wrong PIN. Try again.</string>
@@ -1473,6 +1493,7 @@ If you don’t allow this app to access all device logs, it can still access its
     <string name="log_access_confirmation_learn_more">Learn more</string>
     <string name="log_access_confirmation_learn_more_at">Learn more at %s</string>
     <string name="log_access_confirmation_title">Allow %s to access all device logs?</string>
+    <string name="lower_torch_brightness_warning_by_high_temperature">Device overheated. Reducing torch brightness.</string>
     <string name="m3c_search_bar_search">Search</string>
     <string name="m3c_suggestions_available">Suggestions below</string>
     <string name="magnification_close_settings_click_label">Close magnification settings</string>
@@ -1592,6 +1613,7 @@ If you don’t allow this app to access all device logs, it can still access its
     <string name="miui_clock_os2_pad_exclusive_b_ultraviolet_radiation">UVI</string>
     <string name="miui_clock_pad_exclusive_format_week_full_date">"EEEE
 MM/dd/yyyy"</string>
+    <string name="miui_depth_pets_moth_format">MMM.d</string>
     <string name="miui_keyboard_shortcut_click">Press</string>
     <string name="miui_keyboard_shortcut_double_click">Double press</string>
     <string name="miui_keyboard_shortcut_show_all_apps">Show all apps</string>
@@ -1663,6 +1685,12 @@ mm"</string>
     <string name="miui_vertical_time_format_24">"HH
 mm"</string>
     <string name="miuix_access_state_desc">Selected</string>
+    <string name="miuix_accessibility_title">Title</string>
+    <string name="miuix_appcompat_accessibility_collapse_state">Collapsed</string>
+    <string name="miuix_appcompat_accessibility_expand_state">Expanded</string>
+    <string name="miuix_appcompat_accessibility_finish_edit_action_mode">Exit edit mode</string>
+    <string name="miuix_appcompat_accessibility_new_message">New notification</string>
+    <string name="miuix_appcompat_accessibility_start_edit_action_mode">Enter edit mode</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Deselect all</string>
     <string name="miuix_appcompat_action_mode_select_all">Select all</string>
     <string name="miuix_appcompat_action_mode_title_empty">Select items</string>
@@ -1678,6 +1706,8 @@ mm"</string>
     <string name="miuix_appcompat_select_all">Select all</string>
     <string name="miuix_appcompat_select_all_description">Select all</string>
     <string name="miuix_appcompat_select_item">Select items</string>
+    <string name="miuix_appcompat_show_dialog_description">Pop-up window</string>
+    <string name="miuix_progressbar_loading">Loading</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Pull down to refresh</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Refreshed successfully</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Refreshing…</string>
@@ -1686,6 +1716,9 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">"That's all for now"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Just a sec…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">"Couldn't load items"</string>
+    <string name="miuix_show_password">Show password</string>
+    <string name="miuix_stretchablewidget_collapsed">Collapsed</string>
+    <string name="miuix_stretchablewidget_expanded">Expanded</string>
     <string name="mobile_carrier_text_format">%1$s, %2$s</string>
     <string name="mobile_data_always_on">Mobile data always active</string>
     <string name="mobile_data_always_on_summary">Always keep mobile data active, even when Wi‑Fi is active (for fast network switching).</string>
@@ -2494,6 +2527,7 @@ If you have questions, contact %2$s."</string>
     <string name="speed_label_okay">OK</string>
     <string name="speed_label_slow">Slow</string>
     <string name="speed_label_very_fast">Very fast</string>
+    <string name="split_screen_recommend_tip">Split screen</string>
     <string name="split_screen_text">Split screen</string>
     <string name="standby_bucket_summary">App standby state: %s</string>
     <string name="start_dreams">Screen saver</string>
@@ -2612,9 +2646,9 @@ If you have questions, contact %2$s."</string>
     <string name="thermal_shutdown_dialog_message">"Your phone was too hot, so it turned off to cool down. Your phone is now running normally.
 
 Your phone may get too hot if you:
-\u0009• Use resource-intensive apps (such as gaming, video or navigation apps)
-\u0009• Download or upload large files
-\u0009• Use your phone in high temperatures"</string>
+\t• Use resource-intensive apps (such as gaming, video or navigation apps)
+\t• Download or upload large files
+\t• Use your phone in high temperatures"</string>
     <string name="thermal_shutdown_message">"Your phone is now running normally.
 Tap for more info"</string>
     <string name="thermal_shutdown_title">Phone turned off due to heat</string>

@@ -134,7 +134,9 @@ Bạn có muốn thoát ngay không?}}"</string>
     <string name="band_mode_title">Đặt chế độ dải tần số</string>
     <string name="beidou_findout_settings_title">Giới thiệu tin nhắn vệ tinh BeiDou</string>
     <string name="beidou_mobile_settings_summary">Chỉ khả dụng cho người dùng China Mobile</string>
+    <string name="beidou_mobile_settings_summary_all">Chỉ khả dụng cho người dùng có dịch vụ liên lạc vệ tinh BeiDou đang hoạt động</string>
     <string name="beidou_mobile_settings_title">Liên lạc vệ tinh BeiDou</string>
+    <string name="beidou_satellite_enable_message_all">Liên hệ với nhà cung cấp để kích hoạt dịch vụ.</string>
     <string name="beidou_sms_location_fail_toast">Cho phép tính năng này truy cập vị trí của bạn trước</string>
     <string name="bf_news_settings">Tin tức Kinh doanh và Tài chính</string>
     <string name="business_hall_settings_summary">Kiểm soát cuộc gọi và sử dụng dữ liệu</string>
@@ -635,6 +637,8 @@ Bạn có muốn thoát ngay không?}}"</string>
     <string name="enhanced_4g_lte_mode_title">Chế độ 4G LTE tăng cường</string>
     <string name="enter_callbarring_password">Nhập mật khẩu chặn cuộc gọi (%d chữ số)</string>
     <string name="enter_esim_manager_title">Quản lý eSIM</string>
+    <string name="enter_esim_service_support_summary">Xem danh sách các nhà cung cấp được hỗ trợ</string>
+    <string name="enter_esim_service_support_title">Nhà cung cấp được hỗ trợ</string>
     <string name="enter_input">Tin nhắn USSD phải có độ dài trong khoảng từ %1$d đến %2$d ký tự. Vui lòng thử lại.</string>
     <string name="enter_mep_esim_manager_title">Quản lý SIM</string>
     <string name="enter_pin2_text">PIN%d</string>
@@ -678,6 +682,8 @@ Bạn có muốn thoát ngay không?}}"</string>
     <string name="fiveg_carrier_aggregation_title">Kết hợp sóng mang 5G</string>
     <string name="fiveg_hosted_mode_summary">Chọn mạng tốt nhất tự động để tiết kiệm pin</string>
     <string name="fiveg_hosted_mode_title">Chuyển đổi thông minh 5G</string>
+    <string name="fiveg_interruption_remind">Dường như SIM %s của bạn không thể sử dụng dịch vụ 5G SA. Liên hệ với nhà cung cấp để biết thêm thông tin.</string>
+    <string name="fiveg_interruption_remind_title">Không thể sử dụng dịch vụ 5G</string>
     <string name="fiveg_network_mode_default">Tự động</string>
     <string name="fiveg_network_mode_nsa">NSA</string>
     <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
@@ -958,7 +964,8 @@ Bạn vẫn có thể thực hiện cuộc gọi khẩn cấp."</string>
     <string name="mhh_enable">Đã bật Y tế, Sức khoẻ và Bệnh viện</string>
     <string name="mi_mobile_settings_summary">Gói dữ liệu do Xiaomi cung cấp</string>
     <string name="mi_mobile_settings_title">Mi Mobile</string>
-    <string name="mi_mobile_sim_activate_message">Kích hoạt SIM %1$d để có thể sử dụng Mi Mobile. Điều này có thể mất đến %2$d-%3$d phút.</string>
+    <string name="mi_mobile_sim_activate_message">Dường như SIM %1$d chưa được kích hoạt. Chạm \"Kích hoạt\" và thực hiện theo hướng dẫn để bắt đầu.</string>
+    <string name="mi_mobile_sim_activate_title">Kích hoạt SIM Mi Mobile</string>
     <string name="mi_sim_settings_summary">Sử dụng dữ liệu di động mà không cần thẻ SIM</string>
     <string name="mi_sim_settings_title">SIM Mi</string>
     <string name="midnight">Ban đêm</string>
@@ -1226,8 +1233,10 @@ Dùng mạng ưu tiên thay thế."</string>
     <string name="obtain_location_information">Vị trí</string>
     <string name="obtain_location_information_summary">Để tối ưu môi trường mạng hiện tại</string>
     <string name="oem_radio_info_label">Thông tin/Cài đặt dành riêng cho OEM</string>
+    <string name="offline_call">Liên lạc Ngoại tuyến Xiaomi</string>
     <string name="offline_call_has_call">Đối phương đang bận. Thử lại sau một hoặc hai phút.</string>
     <string name="offline_call_not_match_contact">Không thể gọi. Bạn không phải là liên hệ của đối phương.</string>
+    <string name="offline_call_summary">Gọi điện thoại Xiaomi lân cận qua Bluetooth mà không cần kết nối mạng</string>
     <string name="ok">OK</string>
     <string name="oldPin2Label">Mã PIN2 cũ</string>
     <string name="oldPinLabel">Mã PIN cũ</string>
@@ -1626,6 +1635,8 @@ Giao diện UT: %5$s"</string>
        &lt;br> - Không thực hiện được cuộc gọi video qua RTT"</string>
     <string name="rtt_mode_summary">Cho phép nhắn tin trong cuộc gọi thoại</string>
     <string name="rtt_mode_title">Cuộc gọi qua Tin nhắn theo thời gian thực (RTT)</string>
+    <string name="rtt_settings_summary">Văn bản thời gian thực (RTT) cho phép bạn sử dụng văn bản để giao tiếp trong khi gọi điện thoại</string>
+    <string name="rtt_settings_title">Gọi RTT</string>
     <string name="satellite_camera_enable_toast">Đóng Camera trước khi mở Liên lạc Vệ tinh Tiantong</string>
     <string name="satellite_exit_now_battery">Thoát ngay</string>
     <string name="satellite_findout_settings_title">Giới thiệu Liên lạc Vệ tinh Tiantong</string>
@@ -1969,6 +1980,8 @@ Thời gian tiếp theo sẽ bắt đầu trong %2$d ngày (%3$s)"</string>
     <string name="turnover_mute_summary">Khi điện thoại đặt nằm ngang với màn hình hướng lên, lật úp để im lặng, tắt rung, và tắt đèn thông báo nhấp nháy.</string>
     <string name="turnover_mute_title">Lật để im lặng</string>
     <string name="undefined">Không</string>
+    <string name="unfold_show_bublle_pref_summary">Mở thiết bị ra trong khi gọi để hiển trị cuộc gọi trên cửa sổ nổi</string>
+    <string name="unfold_show_bublle_pref_title">Mở ra để thu nhỏ cửa sổ cuộc gọi</string>
     <string name="unknown">Không xác định</string>
     <string name="unlock_failed">Yêu cầu mở khóa mạng không thành công.</string>
     <string name="unlock_success">Mở khóa mạng thành công.</string>
