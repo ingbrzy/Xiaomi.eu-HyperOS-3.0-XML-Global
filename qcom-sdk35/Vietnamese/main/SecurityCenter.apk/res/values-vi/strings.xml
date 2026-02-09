@@ -1948,6 +1948,8 @@ Khi bật Tốc độ khung hình thông minh, các công cụ phát hiện tố
     <string name="game_toolbox_fps_realtime_nodata">Đang nhận FPS theo thời gian thực…</string>
     <string name="game_toolbox_fps_shake">Độ giật %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Đang bị giật khung hình…</string>
+    <string name="game_toolbox_gyro_boost_title">Tăng tốc con quay hồi chuyển</string>
+    <string name="game_toolbox_gyro_boost_toast">Bật con quay hồi chuyển trong cài đặt của trò chơi để sử dụng tính năng này</string>
     <string name="game_toolbox_immersion_sound_desc">Khi sử dụng tai nghe, thu chính xác các hiệu ứng âm thanh như tiếng bước chân và giọng nói, tăng cường sự đắm chìm trong trò chơi</string>
     <string name="game_toolbox_immersion_sound_title">Âm thanh nổi ba chiều</string>
     <string name="game_toolbox_item_joystick_key_mapping">Nút điều khiển</string>
@@ -1979,7 +1981,9 @@ Khi bật Tốc độ khung hình thông minh, các công cụ phát hiện tố
     <string name="game_toolbox_smotion_vibrate_desc">Thêm phản hồi xúc giác theo các chuyển động trong trò chơi. Chỉ một số trò chơi được hỗ trợ.</string>
     <string name="game_toolbox_smotion_vibrate_title">Phản hồi xúc giác</string>
     <string name="game_toolbox_super_follow_up_msg">Nâng cao phản hồi cảm ứng và theo dõi thông qua toàn bộ ống dẫn phần cứng-phần mềm</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Điều chỉnh độ nhạy theo dõi cử chỉ: Cao để theo dõi sát hơn, thấp để chuyển động mượt mà hơn</string>
     <string name="game_toolbox_super_shake_msg">Giảm độ giật khi chạm và trượt, cải thiện độ ổn định khi điều khiển</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Điều chỉnh độ nhạy điều khiển: Cao để phản hồi nhanh hơn, thấp để ổn định hơn</string>
     <string name="game_toolbox_title">Công cụ chơi game</string>
     <string name="game_toolbox_title_game_center">Game</string>
     <string name="game_toolbox_title_wild">Chế độ tối ưu</string>
@@ -2025,6 +2029,7 @@ Khi bật Tốc độ khung hình thông minh, các công cụ phát hiện tố
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Hình ảnh nâng cao: "</string>
     <string name="gamebox_dnd">Không làm phiền</string>
+    <string name="gamebox_eye_protect">Thoải mái cho mắt khi chơi game</string>
     <string name="gamebox_filter_alpha_tip">Xuyên âm</string>
     <string name="gamebox_filter_dark_conter">Mờ viền</string>
     <string name="gamebox_filter_tip">Bộ lọc trong trò chơi đã chọn sẽ được áp dụng khi bạn bắt đầu chơi</string>
@@ -2363,8 +2368,10 @@ nhưng cũng làm tăng mức tiêu thụ điện năng và làm cho thiết b�
     <string name="gb_super_follow_up_msg">Nâng cao phản hồi cảm ứng và theo dõi thông qua toàn bộ ống dẫn phần cứng-phần mềm</string>
     <string name="gb_super_hot_area">Vùng nóng thông minh</string>
     <string name="gb_super_hot_area_msg">Phân vùng thích ứng AI, nâng cao trải nghiệm cảm ứng ở cấp độ điều khiển</string>
+    <string name="gb_super_hot_area_msg_4.5">Điều chỉnh phạm vi điều khiển và độ nhạy cảm ứng</string>
     <string name="gb_super_motion">Tối ưu điều khiển cảm ứng</string>
     <string name="gb_super_shake">Thuật toán chống rung</string>
+    <string name="gb_super_shake_4.5">Điều khiển thông minh tinh tế</string>
     <string name="gb_super_shake_msg">Giảm độ giật khi chạm và trượt, cải thiện độ ổn định khi điều khiển</string>
     <string name="gb_turbo_collimator_subtitle">Sử dụng thiết bị ngắm mục tiêu</string>
     <string name="gb_turbo_macro_subtitle">Thực hiện thao tác đỉnh cao</string>
@@ -3028,7 +3035,7 @@ Thiết bị của bạn nhanh hơn %s."</string>
     <string name="menu_summary_power_manager_1">Pin đã được sạc đầy</string>
     <string name="menu_summary_power_manager_2">Còn lại %s</string>
     <string name="menu_summary_power_manager_3">Kết nối bộ sạc</string>
-    <string name="menu_summary_power_manager_4">%s đến khi đầy</string>
+    <string name="menu_summary_power_manager_4">%1$s cho đến khi đầy</string>
     <string name="menu_text_antispam">Danh sách chặn</string>
     <string name="menu_text_antivirus">Quét bảo mật</string>
     <string name="menu_text_antivirus_kddi">Quét bảo mật</string>
@@ -3861,6 +3868,7 @@ Tiết kiệm pin tối ưu"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Lắp thiết bị của bạn lên đế đi kèm với bộ sạc không dây để có hiệu suất sạc tốt nhất</string>
     <string name="pc_wireless_charging_special_stand_title">Sử dụng đế sạc đã cung cấp</string>
     <string name="pc_wireless_handle_connected">Thiết bị đã kết nối</string>
+    <string name="pc_wireless_handle_grip_title">Tay cầm Nhiếp ảnh Chuyên nghiệp</string>
     <string name="pc_wireless_handle_title">Tay cầm camera chuyên nghiệp</string>
     <string name="pc_work_in_save_mode">Tiết kiệm pin</string>
     <string name="pc_work_in_super_save_mode">Tiết kiệm pin tối ưu</string>
@@ -4229,7 +4237,7 @@ Tiết kiệm pin tối ưu"</string>
     <string name="power_dialog_cancel">Hủy</string>
     <string name="power_dialog_ok">OK</string>
     <string name="power_dialog_performance_mode_checkbox">Chuyển sang tốc độ làm mới %d Hz</string>
-    <string name="power_dialog_super_save_msg">Tiết kiệm pin tối ưu cực hạn chế hầu hết các tính năng tiêu thụ pin và giảm hiệu suất thiết bị để duy trì chức năng cơ bản (ví dụ: cuộc gọi, SMS và kết nối với mạng) càng lâu càng tốt. Bật Tiết kiệm pin tối ưu?</string>
+    <string name="power_dialog_super_save_msg">Tiết kiệm pin tối ưu giới hạn hầu hết các tính năng tiêu thụ pin và giảm hiệu suất thiết bị để duy trì chức năng cơ bản (ví dụ: cuộc gọi, SMS và kết nối với mạng) càng lâu càng tốt. Bật Tiết kiệm pin tối ưu?</string>
     <string name="power_dialog_super_save_msg_5g">Tiết kiệm pin tối ưu giới hạn hầu hết các tính năng tiêu thụ điện năng (ví dụ: kết nối 5G) làm giảm hiệu suất của thiết bị. Chỉ các cuộc gọi, tin nhắn và kết nối mạng sẽ không bị ảnh hưởng. Bật Tiết kiệm pin tối ưu?</string>
     <string name="power_dialog_super_save_msg_p2">Tiết kiệm pin tối ưu sẽ tắt màn hình phụ và giới hạn hầu hết các tính năng tiêu thụ năng lượng, làm giảm hiệu suất thiết bị nhằm duy trì các chức năng cơ bản (ví dụ: gọi điện, SMS và kết nối mạng) khả dụng lâu nhất có thể. Bạn có muốn bật Tiết kiệm pin tối ưu không?</string>
     <string name="power_dialog_super_save_title">Tiết kiệm pin tối ưu</string>
@@ -4791,6 +4799,12 @@ Rút lại chấp thuận ngay?"</string>
     <string name="promotion">Quảng cáo</string>
     <string name="prompt_all">Yêu cầu tất cả</string>
     <string name="prompt_input_time_illegal">Không thể đặt thời gian này, hãy thay đổi và thử lại</string>
+    <string name="protect_eye_dont_open">Lần tới</string>
+    <string name="protect_eye_hint_summry">Bật Chế độ đọc sách để có trải nghiệm đọc tốt hơn</string>
+    <string name="protect_eye_hint_title">Thoải mái mắt</string>
+    <string name="protect_eye_open">Bật</string>
+    <string name="protect_eye_opened_summry">Sửa tùy chọn trong Cài đặt > Hiển thị &amp; độ sáng > Thoải mái mắt</string>
+    <string name="protect_eye_opened_title">Chế độ đọc sách đã bật</string>
     <string name="protocol_exception_title">Chẩn đoán giao thức mạng</string>
     <string name="protocol_loop_back_exception_summary">Kiểm tra vòng lặp trên máy thất bại. Để báo cáo vấn đề này, truy cập ứng dụng Phản hồi và gửi báo lỗi từ thiết bị của bạn.</string>
     <string name="province_selected_talkback" />
@@ -5433,7 +5447,7 @@ Rút lại chấp thuận ngay?"</string>
     <string name="storage_available_total_size1">Đã sử dụng: %1$s | Tổng: %2$s</string>
     <string name="storage_category_title">Tùy chọn bổ sung</string>
     <string name="storage_clear_available_total_size">Đã sử dụng %1$s/%3$s | %2$s khả dụng</string>
-    <string name="storage_clear_available_total_size_with_ufs">Đã dùng: %1$s | Còn lại: %2$s | Tổng: %3$s (Được mở rộng bởi %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Đã dùng: %1$s, Còn lại: %2$s, Tổng: %3$s (%4$s có mở rộng lưu trữ)</string>
     <string name="storage_clear_cache">Giải phóng %s</string>
     <string name="storage_clear_cache_deep">Giải phóng dung lượng</string>
     <string name="storage_clear_cache_large">Giải phóng %s</string>
@@ -5561,7 +5575,7 @@ Rút lại chấp thuận ngay?"</string>
     <string name="sunday_shortest">Cn</string>
     <string name="superpower_dialog_button_disable_dialog">Không hiển thị lại</string>
     <string name="superpower_dialog_button_ok">OK</string>
-    <string name="superpower_dialog_massage">Tiết kiệm pin tối ưu cực hạn chế hầu hết các tính năng tiêu thụ pin và giảm hiệu suất thiết bị để duy trì chức năng cơ bản (ví dụ: cuộc gọi, SMS và kết nối với mạng) càng lâu càng tốt. Bật Tiết kiệm pin tối ưu?</string>
+    <string name="superpower_dialog_massage">Tiết kiệm pin tối ưu giới hạn hầu hết các tính năng tiêu thụ pin và giảm hiệu suất thiết bị để duy trì chức năng cơ bản (ví dụ: cuộc gọi, SMS và kết nối với mạng) càng lâu càng tốt. Bật Tiết kiệm pin tối ưu?</string>
     <string name="superpower_dialog_title">Tiết kiệm pin tối ưu</string>
     <string name="superpower_notification_low_temp_btn_txt">Bật</string>
     <string name="superpower_notification_low_temp_summary">Chế độ chịu lạnh có thể tiết kiệm pin hơn khi bật Tiết kiệm pin tối ưu và nhiệt độ môi trường xung quanh cực thấp</string>

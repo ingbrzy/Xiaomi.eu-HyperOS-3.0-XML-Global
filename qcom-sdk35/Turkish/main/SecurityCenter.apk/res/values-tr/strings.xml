@@ -1948,6 +1948,8 @@ Akıllı çerçeve oranı açıkken oyun içi ve üçüncü taraf çerçeve oran
     <string name="game_toolbox_fps_realtime_nodata">Gerçek zamanlı FPS alınıyor…</string>
     <string name="game_toolbox_fps_shake">Titreme %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Çerçeve titremesi alınıyor…</string>
+    <string name="game_toolbox_gyro_boost_title">Jiroskopik güçlendirme</string>
+    <string name="game_toolbox_gyro_boost_toast">Bu özelliği kullanmak için oyun ayarlarında jiroskopu açın</string>
     <string name="game_toolbox_immersion_sound_desc">Kulaklık kullanırken ayak sesleri ve sesler gibi ses efektlerini doğru bir şekilde yakalayarak oyunun sürüklenmesini artırın</string>
     <string name="game_toolbox_immersion_sound_title">Sürükleyici ses</string>
     <string name="game_toolbox_item_joystick_key_mapping">Denetleyici tuşu</string>
@@ -1979,7 +1981,9 @@ Akıllı çerçeve oranı açıkken oyun içi ve üçüncü taraf çerçeve oran
     <string name="game_toolbox_smotion_vibrate_desc">Oyun hareketlerine göre dokunsal geri bildirim ekleyin. Yalnızca bazı oyunlar desteklenir.</string>
     <string name="game_toolbox_smotion_vibrate_title">Dokunsal geri bildirim</string>
     <string name="game_toolbox_super_follow_up_msg">Donanım-yazılım hattının tamamı boyunca dokunma yanıtını ve izlemeyi geliştirin</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Hareket izleme hassasiyetini ayarlayın: Daha yakın izleme için yüksek, daha akıcı hareket için düşük</string>
     <string name="game_toolbox_super_shake_msg">Dokunma ve kaydırma titremesini azaltarak kontrol kararlılığını geliştirin</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Kontrol hassasiyetini ayarlayın: Daha hızlı yanıtlar için yüksek, daha iyi kararlılık için düşük</string>
     <string name="game_toolbox_title">Oyun araçları</string>
     <string name="game_toolbox_title_game_center">Oyunlar</string>
     <string name="game_toolbox_title_wild">Nihai mod</string>
@@ -2025,6 +2029,7 @@ Akıllı çerçeve oranı açıkken oyun içi ve üçüncü taraf çerçeve oran
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Görsel geliştirme: "</string>
     <string name="gamebox_dnd">Rahatsız etme</string>
+    <string name="gamebox_eye_protect">Oyun sırasında göz komforu</string>
     <string name="gamebox_filter_alpha_tip">Şeffaflık</string>
     <string name="gamebox_filter_dark_conter">Skeç</string>
     <string name="gamebox_filter_tip">Oynamaya başladığınızda seçili oyun içi filtre uygulanacak</string>
@@ -2363,8 +2368,10 @@ ama güç tüketimini de arttırır ve cihazın aşırı ısınmasına neden olu
     <string name="gb_super_follow_up_msg">Donanım-yazılım hattının tamamı boyunca dokunma yanıtını ve izlemeyi geliştirin</string>
     <string name="gb_super_hot_area">Akıllı sıcak bölge</string>
     <string name="gb_super_hot_area_msg">AI uyarlanabilir bölge oluşturma, kontrol düzeyinde dokunma deneyimini geliştirme</string>
+    <string name="gb_super_hot_area_msg_4.5">Kontrol alanı kapsamını ve dokunma hassasiyetini ayarlayın</string>
     <string name="gb_super_motion">Gelişmiş dokunma kontrolleri</string>
     <string name="gb_super_shake">Stabilizasyon algoritması</string>
+    <string name="gb_super_shake_4.5">İnce akıllı kontroller</string>
     <string name="gb_super_shake_msg">Dokunma ve kaydırma titremesini azaltarak kontrol kararlılığını geliştirin</string>
     <string name="gb_turbo_collimator_subtitle">Hedefleme cihazını kullan</string>
     <string name="gb_turbo_macro_subtitle">Üst düzey eylemler gerçekleştir</string>
@@ -3027,7 +3034,7 @@ Cihazınız şimdi %s daha hızlı."</string>
     <string name="menu_summary_power_manager_1">Pil tamamen doldu</string>
     <string name="menu_summary_power_manager_2">%s kaldı</string>
     <string name="menu_summary_power_manager_3">Şarj cihazını bağlayın</string>
-    <string name="menu_summary_power_manager_4">Tam doluma %s</string>
+    <string name="menu_summary_power_manager_4">Tam doluma%1$s</string>
     <string name="menu_text_antispam">Engellenenler listesi</string>
     <string name="menu_text_antivirus">Güvenlik taraması</string>
     <string name="menu_text_antivirus_kddi">Güvenlik taraması</string>
@@ -3887,6 +3894,7 @@ kapatılıyor"</string>
     <string name="pc_wireless_charging_special_stand_summary2">En iyi şarj performansı için cihazınızı kablosuz şarj cihazınızla gelen standa kurun</string>
     <string name="pc_wireless_charging_special_stand_title">Birlikte verilen şarj standını kullanın</string>
     <string name="pc_wireless_handle_connected">Cihaz bağlandı</string>
+    <string name="pc_wireless_handle_grip_title">Fotoğraf Tutacağı Pro</string>
     <string name="pc_wireless_handle_title">Profesyonel kamera tutacağı</string>
     <string name="pc_work_in_save_mode">Pil tasarrufu</string>
     <string name="pc_work_in_super_save_mode">Ultra pil tasarrufu</string>
@@ -4817,6 +4825,12 @@ kapatılıyor"</string>
     <string name="promotion">Reklam</string>
     <string name="prompt_all">Tümü için sor</string>
     <string name="prompt_input_time_illegal">Bu zamana ayarlanamadı, zamanı değiştirin ve yeniden deneyin</string>
+    <string name="protect_eye_dont_open">Şimdi değil</string>
+    <string name="protect_eye_hint_summry">Daha iyi bir okuma deneyimi için Okuma modunu açın</string>
+    <string name="protect_eye_hint_title">Göz rahatlığı</string>
+    <string name="protect_eye_open">Aç</string>
+    <string name="protect_eye_opened_summry">Tercihleri Ayarlar > Ekran &amp; parlaklık > Göz rahatlığı menüsünde deüzenleyin</string>
+    <string name="protect_eye_opened_title">Okuma modu açık</string>
     <string name="protocol_exception_title">Ağ protokolu tanımlamaları</string>
     <string name="protocol_loop_back_exception_summary">Yerel döngü testi başarısız oldu. Sorunu bildirmek için Geri bildirim uygulamasına gidin ve cihazından bir hata raporu gönderin.</string>
     <string name="province_selected_talkback" />
@@ -5459,7 +5473,7 @@ kapatılıyor"</string>
     <string name="storage_available_total_size1">Kullanılan: %1$s | Toplam: %2$s</string>
     <string name="storage_category_title">Ek seçenekler</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s kullanılan | %2$s kullanılabilir</string>
-    <string name="storage_clear_available_total_size_with_ufs">Kullanılan: %1$s | Kalan: %2$s | Toplam: %3$s (%4$s kadar uzatıldı)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Kullanılan: %1$s, Kalan: %2$s, Toplam: %3$s (depolama uzantısı ile %4$s)</string>
     <string name="storage_clear_cache">%s yer aç</string>
     <string name="storage_clear_cache_deep">Depolama alanı aç</string>
     <string name="storage_clear_cache_large">%s yer aç</string>

@@ -318,10 +318,10 @@ Outros dispositivos Android: vivo, realme, OPPO e outras marcas selecionadas pod
     <string name="mishare_state_protection_summary_china">Reativar o Xiaomi Share automaticamente quando o Bluetooth ou o Wi-Fi são reativados</string>
     <string name="mishare_support_device_comment">Dispositivos suportados</string>
     <string name="mishare_support_device_summary">"Telefones, tablets e laptops da Xiaomi
-Dispositivos Android de outros fabricantes: vivo, realme, OPPO, Honor, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO"</string>
+Dispositivos Android de outros fabricantes: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
     <string name="mishare_support_device_summary_ios">"Telefones, tablets e laptops da Xiaomi
 Dispositivos da Apple: iPhone, iPad, Mac
-Dispositivos Android de outros fabricantes: vivo, realme, OPPO, Honor, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO"</string>
+Dispositivos Android de outros fabricantes: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
     <string name="mishare_transefer_channel_desc">Notificações sobre itens enviados e recebidos pelo Xiaomi Share</string>
     <string name="miuix_access_state_desc">Selecionado</string>
     <string name="miuix_accessibility_title">Título</string>
@@ -498,6 +498,7 @@ Antes de usar o Xiaomi Share, você precisa conceder as seguintes permissões, b
     <string name="redmi_note_9s">Redmi Note 9S</string>
     <string name="refuse_file">Rejeitar</string>
     <string name="refused">Rejeitado</string>
+    <string name="required_permissions_desc">Para enviar e receber arquivos;Para transferir arquivos usando Bluetooth e Wi-Fi;Para localizar dispositivos disponíveis nas proximidades usando Bluetooth;Para localizar dispositivos disponíveis nas proximidades e transferir arquivos usando Wi-Fi;Para verificar se os apps estão instalados para abri-los após o recebimento de dados</string>
     <string name="retry_task">Enviar novamente</string>
     <string name="rog">ROG</string>
     <string name="rog_phone">ROG</string>
@@ -598,11 +599,11 @@ Antes de usar o Xiaomi Share, você precisa conceder as seguintes permissões, b
     <string name="tap_share_condition_describe_china">"%1$d. Os dois dispositivos têm NFC, Bluetooth e WLAN ativados.
 %2$d. No seu dispositivo Xiaomi, atualize o Xiaomi Share para a versão %3$s.
 %4$d. No seu iPhone, instale o aplicativo Interconectividade Xiaomi."</string>
-    <string name="tap_share_condition_describe_os3">"%1$d. Certifique-se de que ambos os dispositivos estejam desbloqueados e tenham NFC, Bluetooth e WLAN ativados.
-%2$d. Atualize seu dispositivo Xiaomi para o Xiaomi HyperOS 3 ou posterior. Você também pode procurar o Xiaomi Share em Configurações para verificar se o \"Toque para compartilhar\" é compatível.
+    <string name="tap_share_condition_describe_os3">"%1$d. Certifique-se de que ambos os dispositivos estejam desbloqueados e tenham NFC, Bluetooth e Wi-Fi ativados.
+%2$d. Atualize seu dispositivo Xiaomi para %3$s ou posterior. Você também pode procurar o Xiaomi Share em Configurações para verificar se o \"Toque para compartilhar\" é compatível.
 %4$d. Verifique se você está usando um iPhone 12 ou um modelo mais recente e se ele está executando o iOS 17 ou posterior. Instale a versão mais recente da Interconectividade Xiaomi em seu iPhone."</string>
     <string name="tap_share_condition_describe_os3_china">"%1$d. Certifique-se de que ambos os dispositivos estejam desbloqueados e tenham NFC, Bluetooth e WLAN ativados.
-%2$d. Atualize seu dispositivo Xiaomi para o Xiaomi HyperOS 3 ou posterior. Você também pode procurar o Xiaomi Share em Configurações para verificar se o \"Toque para compartilhar\" é compatível.
+%2$d. Atualize seu dispositivo Xiaomi para %3$s ou posterior. Você também pode procurar o Xiaomi Share em Configurações para verificar se o \"Toque para compartilhar\" é compatível.
 %4$d. Verifique se você está usando um iPhone 12 ou um modelo mais recente e se ele está executando o iOS 17 ou posterior. Instale a versão mais recente da Interconectividade Xiaomi em seu iPhone."</string>
     <string name="tap_share_connecting_this_wifi">Conectando-se a esta rede Wi-Fi</string>
     <string name="tap_share_connecting_this_wlan">Conectando-se a esta rede Wi-Fi</string>
@@ -700,8 +701,8 @@ Antes de usar o Xiaomi Share, você precisa conceder as seguintes permissões, b
     <string name="tomorrow">Amanhã</string>
     <string name="transfer_intercept_to_remote">Não foi possível enviar: %1$s</string>
     <string name="transfer_to_different_account_summary">Ambos os dispositivos (Xiaomi e outros dispositivos Android) precisam ativar o Xiaomi Share no Centro de controle. Você poderá receber arquivos de qualquer pessoa por %d minutos.</string>
-    <string name="transfer_to_different_account_summary_ios">"%1$d. Ambos os dispositivos (Xiaomi e outros dispositivos Android) precisam ativar o Xiaomi Share no Centro de controle. Você poderá receber arquivos de qualquer pessoa por %2$d minutos.
-%3$d. Os iPhones e iPads têm de ativar os Serviços de Interconectividade da Xiaomi."</string>
+    <string name="transfer_to_different_account_summary_ios" formatted="false">"%d. Ambos os dispositivos (Xiaomi e outros dispositivos Android) precisam ativar o Xiaomi Share no Centro de controle. Você poderá receber arquivos de qualquer pessoa por %d minutos.
+%d. iPhones e iPads precisam ativar o Serviço de Interconectividade da Xiaomi e garantir que ambos os dispositivos estejam conectados à mesma LAN."</string>
     <string name="transfer_to_different_account_title">Descobrindo telefones e tablets</string>
     <string name="transfer_to_pc_summary_new_plus"><Data>Certifique-se de que o Xiaomi PC Manager foi baixado e, em seguida, ative o Xiaomi Share no Centro de controle para poder receber arquivos. Você pode encontrar uma lista de modelos de computador compatíveis &lt;a href=%1$s>aqui&lt;/a>.</Data></string>
     <string name="transfer_to_pc_summary_new_plus_ios"><Data>&lt;xliff:g id=mishare_ios_1 refersto=1>%1$d&lt;/xliff:g>. Em um laptop Xiaomi, certifique-se de que o Xiaomi PC Manager foi baixado e, em seguida, ative o Xiaomi Share no Centro de controle para poder receber arquivos. Você pode encontrar uma lista de modelos de computador compatíveis &lt;a href=%2$s>aqui&lt;/a>.&lt;br>&lt;xliff:g id=mishare_ios_2 refersto=2>%3$d&lt;/xliff:g>. Em um Mac, ative o Serviço de Interconectividade da Xiaomi e verifique se os dois dispositivos estão conectados à mesma LAN.</Data></string>

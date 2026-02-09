@@ -1948,6 +1948,8 @@ Når Smart bildefrekvens er aktivert, vil oppdagingsverktøyene for bildefrekven
     <string name="game_toolbox_fps_realtime_nodata">Henter sanntids FPS…</string>
     <string name="game_toolbox_fps_shake">Ustabilitet %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Henter billderystelser…</string>
+    <string name="game_toolbox_gyro_boost_title">Gyro boost</string>
+    <string name="game_toolbox_gyro_boost_toast">Aktiver gyroskopet i spillets innstillinger for å bruke denne funksjonen</string>
     <string name="game_toolbox_immersion_sound_desc">Når du bruker øretelefoner, kan du få nøyaktig gjengivelse av lydeffekter som f.eks. fotspor og stemmer, hvilket gir bedre fordypning i spillet</string>
     <string name="game_toolbox_immersion_sound_title">Engasjerende lyd</string>
     <string name="game_toolbox_item_joystick_key_mapping">Kontrollerknapp</string>
@@ -1979,7 +1981,9 @@ Når Smart bildefrekvens er aktivert, vil oppdagingsverktøyene for bildefrekven
     <string name="game_toolbox_smotion_vibrate_desc">Legg til haptisk feedback i samsvar med spillets bevegelser. Støttes bare av enkelte spill.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptisk tilbakemelding</string>
     <string name="game_toolbox_super_follow_up_msg">Forbedre berøringsrespons og sporing gjennom hele maskinvare- og programvarelinjen</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Juster bevegelsessporingens følsomhet: Høy følsomhet for tettere sporing, lav for jevnere bevegelser</string>
     <string name="game_toolbox_super_shake_msg">Reduser ustabilitet i trykk og sveip, hvilket gir bedre kontrollstabilitet</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Juster kontrollfølsomheten: Høy følsomhet for raskere respons, lav for mer stabilitet</string>
     <string name="game_toolbox_title">Spillverktøy</string>
     <string name="game_toolbox_title_game_center">Spill</string>
     <string name="game_toolbox_title_wild">Ultimat modus</string>
@@ -2025,6 +2029,7 @@ Når Smart bildefrekvens er aktivert, vil oppdagingsverktøyene for bildefrekven
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Visuell forbedring: "</string>
     <string name="gamebox_dnd">Ikke forstyrr</string>
+    <string name="gamebox_eye_protect">Øyekomfort for gaming</string>
     <string name="gamebox_filter_alpha_tip">Transparens</string>
     <string name="gamebox_filter_dark_conter">Vignett</string>
     <string name="gamebox_filter_tip">Det valgte in-game-filteret brukes når du begynner å spille av</string>
@@ -2363,8 +2368,10 @@ men øker også strømforbruket og kan føre til at enheten overopphetes"</strin
     <string name="gb_super_follow_up_msg">Forbedre berøringsrespons og sporing gjennom hele maskinvare- og programvarelinjen</string>
     <string name="gb_super_hot_area">Smart varmsone</string>
     <string name="gb_super_hot_area_msg">KI-adaptiv soneinndeling, forbedret berøringsopplevelse på kontrollnivå</string>
+    <string name="gb_super_hot_area_msg_4.5">Juster dekningen av kontrollområdet og berøringsfølsomheten</string>
     <string name="gb_super_motion">Forbedrede berøringskontroller</string>
     <string name="gb_super_shake">Stabiliseringsalgoritme</string>
+    <string name="gb_super_shake_4.5">Fine smartkontroller</string>
     <string name="gb_super_shake_msg">Reduser ustabilitet i trykk og sveip, hvilket gir bedre kontrollstabilitet</string>
     <string name="gb_turbo_collimator_subtitle">Bruk enhet for sikting</string>
     <string name="gb_turbo_macro_subtitle">Utfør handlinger på høyt nivå</string>
@@ -3028,7 +3035,7 @@ Enheten din er %s raskere nå."</string>
     <string name="menu_summary_power_manager_1">Batteriet er fulladet</string>
     <string name="menu_summary_power_manager_2">%s gjenstår</string>
     <string name="menu_summary_power_manager_3">Koble til lader</string>
-    <string name="menu_summary_power_manager_4">%s til fulladet</string>
+    <string name="menu_summary_power_manager_4">%1$stil full</string>
     <string name="menu_text_antispam">Blokkeringsliste</string>
     <string name="menu_text_antivirus">Sikkerhetsskanning</string>
     <string name="menu_text_antivirus_kddi">Sikkerhetsskanning</string>
@@ -3860,6 +3867,7 @@ Ultrabatterisparer"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Monter enheten på stativet som fulgte med den trådløse laderen for best mulig laderesultat</string>
     <string name="pc_wireless_charging_special_stand_title">Bruk det medfølgende ladestativet</string>
     <string name="pc_wireless_handle_connected">Enhet tilkoblet</string>
+    <string name="pc_wireless_handle_grip_title">Photography Grip Pro</string>
     <string name="pc_wireless_handle_title">Profesjonelt kameragrep</string>
     <string name="pc_work_in_save_mode">Batterisparer</string>
     <string name="pc_work_in_super_save_mode">Ultrabatterisparer</string>
@@ -4790,6 +4798,12 @@ Trekke tilbake samtykket nå?"</string>
     <string name="promotion">Annonse</string>
     <string name="prompt_all">Spør om alle</string>
     <string name="prompt_input_time_illegal">Kan ikke angi dette tidspunktet, endre det og prøv igjen</string>
+    <string name="protect_eye_dont_open">Ikke nå</string>
+    <string name="protect_eye_hint_summry">Aktiver lesemodus for å få en bedre leseopplevelse</string>
+    <string name="protect_eye_hint_title">Øyekomfort</string>
+    <string name="protect_eye_open">Aktiver</string>
+    <string name="protect_eye_opened_summry">Rediger innstillingene fra Innstillinger > Skjerm og lysstyrke > Øyekomfort</string>
+    <string name="protect_eye_opened_title">Lesemodus er aktivert</string>
     <string name="protocol_exception_title">Diagnostikk for nettverksprotokoll</string>
     <string name="protocol_loop_back_exception_summary">Lokal tilbakekoblingstest feilet. Gå til Tilbakemeldingsappen og send en logg fra enheten din for å rapportere dette problemet.</string>
     <string name="province_selected_talkback" />
@@ -5432,7 +5446,7 @@ Trekke tilbake samtykket nå?"</string>
     <string name="storage_available_total_size1">Opptatt: %1$s | Totalt: %2$s</string>
     <string name="storage_category_title">Tilleggsalternativer</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s opptatt | %2$s tilgjengelig</string>
-    <string name="storage_clear_available_total_size_with_ufs">Brukt: %1$s | Gjenstår: %2$s | Totalt: %3$s (Forlenget med %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Brukt: %1$s, Gjenværende: %2$s, Totalt: %3$s (%4$s med lagringsutvidelse)</string>
     <string name="storage_clear_cache">Frigjør %s</string>
     <string name="storage_clear_cache_deep">Frigjør lagringsplass</string>
     <string name="storage_clear_cache_large">Frigjør %s</string>
