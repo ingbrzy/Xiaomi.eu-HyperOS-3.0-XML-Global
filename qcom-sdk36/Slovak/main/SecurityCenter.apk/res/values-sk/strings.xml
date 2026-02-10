@@ -1947,6 +1947,8 @@ Pokiaľ je zapnutá inteligentná snímková frekvencia, nástroje na detekciu s
     <string name="game_toolbox_fps_realtime_nodata">Získavanie FPS v reálnom čase…</string>
     <string name="game_toolbox_fps_shake">Roztrasenie %d sním./sek.</string>
     <string name="game_toolbox_fps_shake_nodata">Získanie chvenia rámca…</string>
+    <string name="game_toolbox_gyro_boost_title">Zrýchlenie gyroskopu</string>
+    <string name="game_toolbox_gyro_boost_toast">Ak chcete používať túto funkciu, zapnite gyroskop v nastaveniach hry</string>
     <string name="game_toolbox_immersion_sound_desc">Pri používaní slúchadiel presne zachytíte zvukové efekty, ako sú kroky a hlasy, čím sa zlepší ponorenie do hry.</string>
     <string name="game_toolbox_immersion_sound_title">Pohlcujúci zvuk</string>
     <string name="game_toolbox_item_joystick_key_mapping">Tlačidlo ovládača</string>
@@ -1978,7 +1980,9 @@ Pokiaľ je zapnutá inteligentná snímková frekvencia, nástroje na detekciu s
     <string name="game_toolbox_smotion_vibrate_desc">Pridanie haptickej spätnej väzby v súlade s hernými pohybmi. Podporované sú len niektoré hry.</string>
     <string name="game_toolbox_smotion_vibrate_title">Hmatová odozva</string>
     <string name="game_toolbox_super_follow_up_msg">Zlepšite odozvu na dotyk a sledovanie prostredníctvom celého hardvérovo-softvérového prepojenia</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Nastavenie citlivosti sledovania gest: Vysoká pre presnejšie sledovanie, nízka pre plynulejší pohyb</string>
     <string name="game_toolbox_super_shake_msg">Zníženie chvenia pri ťuknutí a potiahnutí prstom, zlepšenie stability ovládania</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Nastavenie citlivosti ovládania: Vysoká pre rýchlejšiu odozvu, nízka pre väčšiu stabilitu</string>
     <string name="game_toolbox_title">Herné nástroje</string>
     <string name="game_toolbox_title_game_center">Hry</string>
     <string name="game_toolbox_title_wild">Ultimátny režim</string>
@@ -2024,6 +2028,7 @@ Pokiaľ je zapnutá inteligentná snímková frekvencia, nástroje na detekciu s
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Vizuálne vylepšenie: "</string>
     <string name="gamebox_dnd">Režim nerušiť</string>
+    <string name="gamebox_eye_protect">Pohodlie očí pri hraní hier</string>
     <string name="gamebox_filter_alpha_tip">Priehľadnosť</string>
     <string name="gamebox_filter_dark_conter">Vigneta</string>
     <string name="gamebox_filter_tip">Vybraný herný filter sa použije, keď začnete prehrávanie.</string>
@@ -2362,8 +2367,10 @@ ale tiež zvyšuje spotrebu energie a môže spôsobiť prehrievanie vášho zar
     <string name="gb_super_follow_up_msg">Zlepšite odozvu na dotyk a sledovanie prostredníctvom celého hardvérovo-softvérového prepojenia</string>
     <string name="gb_super_hot_area">Inteligentná teplá zóna</string>
     <string name="gb_super_hot_area_msg">Adaptívne zónovanie s umelou inteligenciou, ktoré zlepšuje dotykový zážitok na úrovni ovládania</string>
+    <string name="gb_super_hot_area_msg_4.5">Nastavenie pokrytia oblasti ovládania a citlivosti dotyku</string>
     <string name="gb_super_motion">Vylepšené dotykové ovládanie</string>
     <string name="gb_super_shake">Stabilizačný algoritmus</string>
+    <string name="gb_super_shake_4.5">Jemné inteligentné ovládanie</string>
     <string name="gb_super_shake_msg">Zníženie chvenia pri ťuknutí a potiahnutí prstom, zlepšenie stability ovládania</string>
     <string name="gb_turbo_collimator_subtitle">Použiť zameriavacie zariadenie</string>
     <string name="gb_turbo_macro_subtitle">Vykonať špičkové akcie</string>
@@ -3028,7 +3035,7 @@ Vaše zariadenie je teraz o %s rýchlejšie."</string>
     <string name="menu_summary_power_manager_1">Batéria je plne nabitá</string>
     <string name="menu_summary_power_manager_2">ostáva %s</string>
     <string name="menu_summary_power_manager_3">Pripojte nabíjačku</string>
-    <string name="menu_summary_power_manager_4">%s do plného nabitia</string>
+    <string name="menu_summary_power_manager_4">%1$s do plného nabitia</string>
     <string name="menu_text_antispam">Zoznam blokovaných</string>
     <string name="menu_text_antivirus">Bezpečnostná kontrola</string>
     <string name="menu_text_antivirus_kddi">Bezpečnostná kontrola</string>
@@ -3854,6 +3861,7 @@ ultra šetrenia batérie"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Pre najlepší nabíjací výkon nainštalujte zariadenie na stojan dodaný s bezdrôtovou nabíjačkou</string>
     <string name="pc_wireless_charging_special_stand_title">Používajte dodávaný nabíjací stojan</string>
     <string name="pc_wireless_handle_connected">Zariadenie pripojené</string>
+    <string name="pc_wireless_handle_grip_title">Grip Pro pre fotografovanie</string>
     <string name="pc_wireless_handle_title">Profesionálny držiak fotoaparátu</string>
     <string name="pc_work_in_save_mode">Šetrenie batérie</string>
     <string name="pc_work_in_super_save_mode">Ultra šetrenie batérie</string>
@@ -4784,6 +4792,12 @@ Odvolať váš súhlas teraz?"</string>
     <string name="promotion">Reklama</string>
     <string name="prompt_all">Opýtať sa na všetko</string>
     <string name="prompt_input_time_illegal">Nie je možné nastaviť čas. Zmeňte ho a skúste to znovu</string>
+    <string name="protect_eye_dont_open">Teraz nie</string>
+    <string name="protect_eye_hint_summry">Zapnite Režim čítania pre lepší zážitok z čítania</string>
+    <string name="protect_eye_hint_title">Šetrenie zraku</string>
+    <string name="protect_eye_open">Zapnúť</string>
+    <string name="protect_eye_opened_summry">Upravte nastavenia v časti Nastavenia > Displej a jas > Šetrenie zraku</string>
+    <string name="protect_eye_opened_title">Režim čítania je zapnutý</string>
     <string name="protocol_exception_title">Diagnostika siete</string>
     <string name="protocol_loop_back_exception_summary">Test zlyhal. Odporúčame odoslať záznam o chybe cez aplikáciu Spätná väzba.</string>
     <string name="province_selected_talkback" />
@@ -5426,7 +5440,7 @@ Odvolať váš súhlas teraz?"</string>
     <string name="storage_available_total_size1">Obsadené: %1$s | Celkovo: %2$s</string>
     <string name="storage_category_title">Ďalšie možnosti</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s obsadené | %2$s voľné</string>
-    <string name="storage_clear_available_total_size_with_ufs">Použité: %1$s | Zostáva: %2$s | Celkom: %3$s (Rozšírené o %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Použité: %1$s, zostáva: %2$s, celkom: %3$s (%4$s spolu s rozšírením úložiska)</string>
     <string name="storage_clear_cache">Uvoľniť %s</string>
     <string name="storage_clear_cache_deep">Uvoľniť miesto na úložisku</string>
     <string name="storage_clear_cache_large">Uvoľniť %s</string>

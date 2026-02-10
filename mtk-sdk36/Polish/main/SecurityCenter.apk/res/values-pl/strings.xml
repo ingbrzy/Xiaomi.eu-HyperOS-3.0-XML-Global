@@ -1948,6 +1948,8 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="game_toolbox_fps_realtime_nodata">Pobieranie bieżącej liczby FPS…</string>
     <string name="game_toolbox_fps_shake">%d kl./s przy braku stabilności</string>
     <string name="game_toolbox_fps_shake_nodata">Pomiar niestabilności FPS…</string>
+    <string name="game_toolbox_gyro_boost_title">Przyspieszenie żyroskopu</string>
+    <string name="game_toolbox_gyro_boost_toast">Włącz żyroskop w ustawieniach gry, aby móc skorzystać z tej funkcji</string>
     <string name="game_toolbox_immersion_sound_desc">Poprawne odwzorowywanie efektów dźwiękowych w słuchawkach, takich jak odgłos kroków i głos, by zwiększyć immersję podczas rozgrywki</string>
     <string name="game_toolbox_immersion_sound_title">Dźwięk przestrzenny</string>
     <string name="game_toolbox_item_joystick_key_mapping">Przycisk kontrolera</string>
@@ -1979,7 +1981,9 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="game_toolbox_smotion_vibrate_desc">Zastosuj haptyczną informację zwrotną odpowiadającą ruchom wykonywanym w grze. Funkcja jest obsługiwana tylko przez niektóre tytuły.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptyczna informacja zwrotna</string>
     <string name="game_toolbox_super_follow_up_msg">Usprawnienie reakcji na dotyk i odwzorowywania ruchów w całym potoku sprzętowo-programowym</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Dostosuj czułość śledzenia gestów: Wysoka dla dokładniejszego śledzenia, niska dla płynniejszego ruchu</string>
     <string name="game_toolbox_super_shake_msg">Ograniczenie drgań przy dotykaniu i przesuwaniu, co poprawia stabilność sterowania</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Dostosuj czułość sterowania: Wysoka dla szybkiej reakcji, niska dla większej stabilności</string>
     <string name="game_toolbox_title">Narzędzia gamingowe</string>
     <string name="game_toolbox_title_game_center">Gry</string>
     <string name="game_toolbox_title_wild">Tryb Ultimate</string>
@@ -2025,6 +2029,7 @@ Zostanie dodany do wyjątków, ale poprzednio blokowane elementy nie pojawią si
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Ulepszenie wyglądu: "</string>
     <string name="gamebox_dnd">Nie przeszkadzać</string>
+    <string name="gamebox_eye_protect">Komfort oczu podczas grania</string>
     <string name="gamebox_filter_alpha_tip">Tryb kontaktu</string>
     <string name="gamebox_filter_dark_conter">Winieta</string>
     <string name="gamebox_filter_tip">Wybrany filtr w grze zostanie zastosowany, gdy zaczniesz grać</string>
@@ -2363,8 +2368,10 @@ a także zwiększa zużycie energii i zezwala na przegrzewanie się Twojego urz�
     <string name="gb_super_follow_up_msg">Usprawnienie reakcji na dotyk i odwzorowywania ruchów w całym potoku sprzętowo-programowym</string>
     <string name="gb_super_hot_area">Inteligentny obszar funkcjonalny</string>
     <string name="gb_super_hot_area_msg">Usprawnienie obsługi dotykowej poprzez adaptacyjne zarządzanie strefami z wykorzystaniem SI</string>
+    <string name="gb_super_hot_area_msg_4.5">Dostosuj zasięg obszaru sterowania i czułość dotyku</string>
     <string name="gb_super_motion">Ulepszone sterowanie dotykowe</string>
     <string name="gb_super_shake">Algorytm stabilizacji</string>
+    <string name="gb_super_shake_4.5">Precyzyjne inteligentne kontrolki</string>
     <string name="gb_super_shake_msg">Ograniczenie drgań przy dotykaniu i przesuwaniu, co poprawia stabilność sterowania</string>
     <string name="gb_turbo_collimator_subtitle">Użyj urządzenia celowniczego</string>
     <string name="gb_turbo_macro_subtitle">Wykonuj czynności na wysokim poziomie</string>
@@ -3028,7 +3035,7 @@ Twoje urządzenie jest teraz %s szybsze."</string>
     <string name="menu_summary_power_manager_1">Bateria w pełni naładowana</string>
     <string name="menu_summary_power_manager_2">Pozostało: %s</string>
     <string name="menu_summary_power_manager_3">Podłącz ładowarkę</string>
-    <string name="menu_summary_power_manager_4">Pełne naładowanie za %s</string>
+    <string name="menu_summary_power_manager_4">%1$s do pełnego naładowania</string>
     <string name="menu_text_antispam">Lista blokowanych</string>
     <string name="menu_text_antivirus">Skanowanie bezpieczeństwa</string>
     <string name="menu_text_antivirus_kddi">Skanowanie bezpieczeństwa</string>
@@ -3860,6 +3867,7 @@ Ultra oszczędzanie baterii"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Zamontuj urządzenie na stojaku dołączonym z ładowarką bezprzewodową w celu zapewnienia najlepszej wydajności ładowania</string>
     <string name="pc_wireless_charging_special_stand_title">Skorzystaj z dołączonej podstawki ładującej</string>
     <string name="pc_wireless_handle_connected">Urządzenie połączone</string>
+    <string name="pc_wireless_handle_grip_title">Uchwyt fotograficzny Pro</string>
     <string name="pc_wireless_handle_title">Profesjonalny uchwyt aparatu</string>
     <string name="pc_work_in_save_mode">Oszczędzanie energii</string>
     <string name="pc_work_in_super_save_mode">Ultra oszczędzanie baterii</string>
@@ -4790,6 +4798,12 @@ Wycofać zgodę?"</string>
     <string name="promotion">Reklama</string>
     <string name="prompt_all">Zapytaj dla wszystkich</string>
     <string name="prompt_input_time_illegal">Nie można ustawić tego czasu. Zmień i spróbuj ponownie</string>
+    <string name="protect_eye_dont_open">Nie teraz</string>
+    <string name="protect_eye_hint_summry">Włącz Tryb czytania, by poprawić komfort czytania</string>
+    <string name="protect_eye_hint_title">Komfort oczu</string>
+    <string name="protect_eye_open">Włącz</string>
+    <string name="protect_eye_opened_summry">Dostosuj preferencje, przechodząc do: Ustawienia > Wyświetlanie i jasność > Komfort oczu</string>
+    <string name="protect_eye_opened_title">Tryb czytania jest włączony</string>
     <string name="protocol_exception_title">Diagnostyka protokołu sieciowego</string>
     <string name="protocol_loop_back_exception_summary">Test lokalnego zapętlenia nie powiódł się. Przejdź do aplikacji Opinie i prześlij logi ze swojego urządzenia, aby zgłosić ten problem.</string>
     <string name="province_selected_talkback" />
@@ -5432,7 +5446,7 @@ Wycofać zgodę?"</string>
     <string name="storage_available_total_size1">Zajęte: %1$s | Razem: %2$s</string>
     <string name="storage_category_title">Dodatkowe opcje</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s zajęte | %2$s dostępne</string>
-    <string name="storage_clear_available_total_size_with_ufs">Wykorzystano: %1$s | Pozostało: %2$s | Łącznie: %3$s (Poszerzona o %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Wykorzystano: %1$s, Pozostało: %2$s, Łącznie: %3$s (%4$s z rozszerzeniem pamięci)</string>
     <string name="storage_clear_cache">Zwolnij %s</string>
     <string name="storage_clear_cache_deep">Zwolnij pamięć</string>
     <string name="storage_clear_cache_large">Zwolnij %s</string>

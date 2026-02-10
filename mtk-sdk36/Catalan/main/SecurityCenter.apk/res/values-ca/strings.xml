@@ -1948,6 +1948,8 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="game_toolbox_fps_realtime_nodata">Obtenir FPS en temps real…</string>
     <string name="game_toolbox_fps_shake">%d FPS de fluctuació</string>
     <string name="game_toolbox_fps_shake_nodata">"S'està produint tremolor de fotograma…"</string>
+    <string name="game_toolbox_gyro_boost_title">Impuls de giroscopi</string>
+    <string name="game_toolbox_gyro_boost_toast">Activa el giroscopi a la configuració del joc per utilitzar aquesta funció</string>
     <string name="game_toolbox_immersion_sound_desc">Quan utilitzeu auriculars, captureu amb precisió efectes de so com passos i veus, millorant la immersió en el joc</string>
     <string name="game_toolbox_immersion_sound_title">So immersiu</string>
     <string name="game_toolbox_item_joystick_key_mapping">Botó del controlador</string>
@@ -1979,7 +1981,9 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="game_toolbox_smotion_vibrate_desc">"Afegeix resposta tàctil d'acord amb els moviments del joc. Només alguns jocs són compatibles."</string>
     <string name="game_toolbox_smotion_vibrate_title">Resposta tàctil</string>
     <string name="game_toolbox_super_follow_up_msg">Millora la resposta tàctil i el seguiment a través de la canalització completa de maquinari i programari</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Ajusteu la sensibilitat del seguiment de gestos: Alta per a un seguiment més proper, baixa per a un moviment més suau</string>
     <string name="game_toolbox_super_shake_msg">"Redueix la fluctuació de toc i llisca, millorant l'estabilitat del control"</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Ajusteu la sensibilitat del control: Alta per a una resposta més ràpida, baixa per a una major estabilitat</string>
     <string name="game_toolbox_title">Eines de joc</string>
     <string name="game_toolbox_title_game_center">Jocs</string>
     <string name="game_toolbox_title_wild">Mode últim</string>
@@ -2025,6 +2029,7 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Millora visual: "</string>
     <string name="gamebox_dnd">Mode no molesteu</string>
+    <string name="gamebox_eye_protect">Comoditat ocular per a jocs</string>
     <string name="gamebox_filter_alpha_tip">Transparència</string>
     <string name="gamebox_filter_dark_conter">Vinyeta</string>
     <string name="gamebox_filter_tip">"El filtre del joc seleccionat s'aplicarà quan comencis a jugar"</string>
@@ -2363,8 +2368,10 @@ però també augmenta el consum d'energia i permet que el dispositiu es sobreesc
     <string name="gb_super_follow_up_msg">Millora la resposta tàctil i el seguiment a través de la canalització completa de maquinari i programari</string>
     <string name="gb_super_hot_area">Zona activa intel·ligent</string>
     <string name="gb_super_hot_area_msg">"La zonificació adaptativa amb IA, millora l'experiència tàctil a nivell de control"</string>
+    <string name="gb_super_hot_area_msg_4.5">"Ajusteu la cobertura de l'àrea de control i la sensibilitat tàctil"</string>
     <string name="gb_super_motion">Controls tàctils millorats</string>
     <string name="gb_super_shake">"Algorisme d'estabilització"</string>
+    <string name="gb_super_shake_4.5">Controls intel·ligents precisos</string>
     <string name="gb_super_shake_msg">"Redueix la fluctuació de toc i llisca, millorant l'estabilitat del control"</string>
     <string name="gb_turbo_collimator_subtitle">Utilitzeu el dispositiu de punteria</string>
     <string name="gb_turbo_macro_subtitle">Realitzar accions d’alt nivell</string>
@@ -3028,7 +3035,7 @@ El teu dispositiu va un %s més ràpid."</string>
     <string name="menu_summary_power_manager_1">Bateria completament carregada</string>
     <string name="menu_summary_power_manager_2">%s restants</string>
     <string name="menu_summary_power_manager_3">Connecteu el carregador</string>
-    <string name="menu_summary_power_manager_4">%s fins càrrega completa</string>
+    <string name="menu_summary_power_manager_4">%1$sper completar la càrrega</string>
     <string name="menu_text_antispam">Llista de bloqueig</string>
     <string name="menu_text_antivirus">Escaneig de seguretat</string>
     <string name="menu_text_antivirus_kddi">Escaneig de seguretat</string>
@@ -3861,6 +3868,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Instal·leu el dispositiu al suport que venia amb el carregador sense fil per obtenir el millor rendiment de càrrega</string>
     <string name="pc_wireless_charging_special_stand_title">Utilitzeu el suport de càrrega subministrat</string>
     <string name="pc_wireless_handle_connected">Dispositiu connectat</string>
+    <string name="pc_wireless_handle_grip_title">Fotografia Grip Pro</string>
     <string name="pc_wireless_handle_title">Empunyadura de càmera professional</string>
     <string name="pc_work_in_save_mode">Estalvi de bateria</string>
     <string name="pc_work_in_super_save_mode">Estalvi de bateria ultra</string>
@@ -4791,6 +4799,12 @@ Voleu retirar el consentiment ara?"</string>
     <string name="promotion">Anunci</string>
     <string name="prompt_all">Demana-ho tot</string>
     <string name="prompt_input_time_illegal">No es pot establir aquesta hora, canvieu-la i proveu-ho de nou</string>
+    <string name="protect_eye_dont_open">Ara no</string>
+    <string name="protect_eye_hint_summry">Activa el mode de lectura per a una millor experiència de lectura</string>
+    <string name="protect_eye_hint_title">Confort ocular</string>
+    <string name="protect_eye_open">Activa</string>
+    <string name="protect_eye_opened_summry">Editeu les preferències a Configuració > Pantalla i brillantor > Confort ocular</string>
+    <string name="protect_eye_opened_title">El mode lectura està activat</string>
     <string name="protocol_exception_title">Diagnòstic del protocol de xarxa</string>
     <string name="protocol_loop_back_exception_summary">"S'ha produït un error en el test del bucle local. Per informar d'aquest problema, aneu a l'aplicació de comentaris i envieu un registre del vostre dispositiu."</string>
     <string name="province_selected_talkback" />
@@ -5433,7 +5447,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="storage_available_total_size1">Ocupat: %1$s | Total: %2$s</string>
     <string name="storage_category_title">Opcions addicionals</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s ocupat | %2$s disponible</string>
-    <string name="storage_clear_available_total_size_with_ufs">Utilitzat: %1$s | Restant: %2$s | Total: %3$s (Ampliat per %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">"Utilitzat: %1$s, Restant: %2$s, Total: %3$s (%4$s amb extensió d'emmagatzematge)"</string>
     <string name="storage_clear_cache">Allibera %s</string>
     <string name="storage_clear_cache_deep">Allibereu emmagatzematge</string>
     <string name="storage_clear_cache_large">Allibera %s</string>

@@ -1948,6 +1948,8 @@ Când este activată Rata de cadru inteligentă, este posibil ca instrumentele d
     <string name="game_toolbox_fps_realtime_nodata">Obținerea FPS în timp real…</string>
     <string name="game_toolbox_fps_shake">Jitter %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Se produce trepidație a cadrelor…</string>
+    <string name="game_toolbox_gyro_boost_title">Impuls Gyro</string>
+    <string name="game_toolbox_gyro_boost_toast">Activează giroscopul în setările jocului pentru a utiliza această funcție</string>
     <string name="game_toolbox_immersion_sound_desc">Când utilizați căștile, captați cu precizie efectele sonore, cum ar fi pași și voci, îmbunătățind imersiunea în joc</string>
     <string name="game_toolbox_immersion_sound_title">Sunet captivant</string>
     <string name="game_toolbox_item_joystick_key_mapping">Butonul controlerului</string>
@@ -1979,7 +1981,9 @@ Când este activată Rata de cadru inteligentă, este posibil ca instrumentele d
     <string name="game_toolbox_smotion_vibrate_desc">Adaugă feedback tactil în funcție de mișcările din joc. Sunt acceptate doar anumite jocuri.</string>
     <string name="game_toolbox_smotion_vibrate_title">Feedback tactil</string>
     <string name="game_toolbox_super_follow_up_msg">Îmbunătățiți răspunsul la atingere și urmărirea prin întreaga conductă hardware-software</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Reglați sensibilitatea urmăririi gesturilor: Ridicată pentru o urmărire mai precisă, redusă pentru o mișcare mai fluidă</string>
     <string name="game_toolbox_super_shake_msg">Reduceți vibrația prin atingere și glisare, îmbunătățind stabilitatea controlului</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Reglați sensibilitatea comenzilor: Ridicată pentru un răspuns mai rapid, redusă pentru o stabilitate mai mare</string>
     <string name="game_toolbox_title">Instrumente de jocuri</string>
     <string name="game_toolbox_title_game_center">Jocuri</string>
     <string name="game_toolbox_title_wild">Mod final</string>
@@ -2025,6 +2029,7 @@ Când este activată Rata de cadru inteligentă, este posibil ca instrumentele d
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Îmbunătățirea vizuală: "</string>
     <string name="gamebox_dnd">DND</string>
+    <string name="gamebox_eye_protect">Confortul ochilor în jocuri</string>
     <string name="gamebox_filter_alpha_tip">Transparență</string>
     <string name="gamebox_filter_dark_conter">Vinietă</string>
     <string name="gamebox_filter_tip">Filtrul selectat în joc va fi aplicat când începeți să jucați</string>
@@ -2363,8 +2368,10 @@ dar crește și consumul de energie și permite supraîncălzirea dispozitivului
     <string name="gb_super_follow_up_msg">Îmbunătățiți răspunsul la atingere și urmărirea prin întreaga conductă hardware-software</string>
     <string name="gb_super_hot_area">Zonă inteligentă fierbinte</string>
     <string name="gb_super_hot_area_msg">Zonarea adaptivă IA, îmbunătățind experiența tactilă la nivel de control</string>
+    <string name="gb_super_hot_area_msg_4.5">Ajustați acoperirea zonei de control și sensibilitatea tactilă</string>
     <string name="gb_super_motion">Controale de atingere îmbunătățite</string>
     <string name="gb_super_shake">Algoritm de stabilizare</string>
+    <string name="gb_super_shake_4.5">Controale inteligente fine</string>
     <string name="gb_super_shake_msg">Reduceți vibrația prin atingere și glisare, îmbunătățind stabilitatea controlului</string>
     <string name="gb_turbo_collimator_subtitle">Utilizați dispozitivul de vizare</string>
     <string name="gb_turbo_macro_subtitle">Efectuați acțiuni la nivel înalt</string>
@@ -3026,7 +3033,7 @@ Dispozitivul dvs. este mai rapid cu %s acum."</string>
     <string name="menu_summary_power_manager_1">Bateria este complet încărcată</string>
     <string name="menu_summary_power_manager_2">%s rămase</string>
     <string name="menu_summary_power_manager_3">Conectează încărcătorul</string>
-    <string name="menu_summary_power_manager_4">%s până când este plin</string>
+    <string name="menu_summary_power_manager_4">%1$s până când este plin</string>
     <string name="menu_text_antispam">Lista neagră</string>
     <string name="menu_text_antivirus">Scanare de securitate</string>
     <string name="menu_text_antivirus_kddi">Scanare de securitate</string>
@@ -3858,6 +3865,7 @@ Economizator baterie ultra"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Instalați-vă dispozitivul pe suportul livrat împreună cu încărcătorul wireless pentru o performanță optimă de încărcare</string>
     <string name="pc_wireless_charging_special_stand_title">Utilizați suportul de încărcare furnizat</string>
     <string name="pc_wireless_handle_connected">Dispozitiv conectat</string>
+    <string name="pc_wireless_handle_grip_title">Mâner pentru fotografie Pro</string>
     <string name="pc_wireless_handle_title">Mâner profesional al camerei</string>
     <string name="pc_work_in_save_mode">Economizator baterie</string>
     <string name="pc_work_in_super_save_mode">Economizator baterie ultra</string>
@@ -4788,6 +4796,12 @@ Vă retrageți consimțământul acum?"</string>
     <string name="promotion">Anunț</string>
     <string name="prompt_all">Întrebați-le pe toate</string>
     <string name="prompt_input_time_illegal">Nu se poate seta acum, schimbați și încercați din nou</string>
+    <string name="protect_eye_dont_open">Nu acum</string>
+    <string name="protect_eye_hint_summry">Activează Modul citire pentru o experiență de citire mai bună</string>
+    <string name="protect_eye_hint_title">Confort pentru ochi</string>
+    <string name="protect_eye_open">Activează</string>
+    <string name="protect_eye_opened_summry">Editați preferințele în Setări > Afișaj și luminozitate > Confort pentru ochi</string>
+    <string name="protect_eye_opened_title">Modul citire este pornit</string>
     <string name="protocol_exception_title">Diagnostic protocol rețea</string>
     <string name="protocol_loop_back_exception_summary">Testul local loopback a eșuat. Pentru a raporta acest incident, du-te la aplicația Feedback și trimiteți un jurnal de pe dispozitiv dvs.</string>
     <string name="province_selected_talkback" />
@@ -5430,7 +5444,7 @@ Vă retrageți consimțământul acum?"</string>
     <string name="storage_available_total_size1">Ocupat: %1$s | Total: %2$s</string>
     <string name="storage_category_title">Opțiuni adiționale</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s ocupat | %2$s disponibil</string>
-    <string name="storage_clear_available_total_size_with_ufs">Utilizat: %1$s | Rămase: %2$s | Total: %3$s (Extins cu %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Folosit: %1$s, Rămas: %2$s, Total: %3$s (%4$s cu extensie de stocare)</string>
     <string name="storage_clear_cache">Eliberat %s</string>
     <string name="storage_clear_cache_deep">Eliberează spațiu</string>
     <string name="storage_clear_cache_large">Eliberat %s</string>

@@ -1948,6 +1948,8 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="game_toolbox_fps_realtime_nodata">Acquisizione FPS in tempo reale…</string>
     <string name="game_toolbox_fps_shake">Jitter %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Acquisizione jitter del frame…</string>
+    <string name="game_toolbox_gyro_boost_title">Boost giroscopio</string>
+    <string name="game_toolbox_gyro_boost_toast">Attiva il giroscopio nelle impostazioni del gioco per utilizzare questa funzione</string>
     <string name="game_toolbox_immersion_sound_desc">"Quando utilizzi gli auricolari, cattura con precisione effetti sonori come passi e voci, migliorando l'immersione nel gioco"</string>
     <string name="game_toolbox_immersion_sound_title">Suono avvolgente</string>
     <string name="game_toolbox_item_joystick_key_mapping">Pulsante del controller</string>
@@ -1979,7 +1981,9 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="game_toolbox_smotion_vibrate_desc">Aggiungi un feedback tattile in base alle mosse del gioco. Sono supportati solo alcuni giochi.</string>
     <string name="game_toolbox_smotion_vibrate_title">Feedback tattile</string>
     <string name="game_toolbox_super_follow_up_msg">"Migliora la risposta al tocco e il tracciamento dell'intera pipeline hardware-software"</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Regola la sensibilità del tracciamento dei gesti: alta per un tracciamento più ravvicinato, bassa per un movimento più fluido</string>
     <string name="game_toolbox_super_shake_msg">Riduci il jitter dei tocchi e degli scorrimenti, migliorando la stabilità del controllo</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Regola la sensibilità del controllo: alta per una risposta più rapida, bassa per una maggiore stabilità</string>
     <string name="game_toolbox_title">Strumenti di gioco</string>
     <string name="game_toolbox_title_game_center">Giochi</string>
     <string name="game_toolbox_title_wild">Modalità Estrema</string>
@@ -2025,6 +2029,7 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Miglioramento grafico: "</string>
     <string name="gamebox_dnd">ND</string>
+    <string name="gamebox_eye_protect">Comfort visivo durante il gioco</string>
     <string name="gamebox_filter_alpha_tip">Trasparenza</string>
     <string name="gamebox_filter_dark_conter">Vignetta</string>
     <string name="gamebox_filter_tip">Il filtro in-game selezionato sarà applicato quando inizierai a giocare</string>
@@ -2363,8 +2368,10 @@ ma aumenta anche il consumo energetico e può surriscaldare il dispositivo"</str
     <string name="gb_super_follow_up_msg">"Migliora la risposta al tocco e il tracciamento dell'intera pipeline hardware-software"</string>
     <string name="gb_super_hot_area">Hot zone smart</string>
     <string name="gb_super_hot_area_msg">"Zonizzazione adattiva AI, per migliorare l'esperienza tattile a livello di controllo"</string>
+    <string name="gb_super_hot_area_msg_4.5">"Regola la copertura dell'area di controllo e la sensibilità al tocco"</string>
     <string name="gb_super_motion">Controlli touch migliorati</string>
     <string name="gb_super_shake">Algoritmo di stabilizzazione</string>
+    <string name="gb_super_shake_4.5">Controlli intelligenti avanzati</string>
     <string name="gb_super_shake_msg">Riduci il jitter dei tocchi e degli scorrimenti, migliorando la stabilità del controllo</string>
     <string name="gb_turbo_collimator_subtitle">Usa il mirino di precisione</string>
     <string name="gb_turbo_macro_subtitle">Esegui azioni di alto livello</string>
@@ -3028,7 +3035,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="menu_summary_power_manager_1">La batteria è carica</string>
     <string name="menu_summary_power_manager_2">%s rimanenti</string>
     <string name="menu_summary_power_manager_3">Collega il caricabatterie</string>
-    <string name="menu_summary_power_manager_4">%s al completamento</string>
+    <string name="menu_summary_power_manager_4">%1$s al completamento</string>
     <string name="menu_text_antispam">Lista blocchi</string>
     <string name="menu_text_antivirus">Scansione di sicurezza</string>
     <string name="menu_text_antivirus_kddi">Scansione di sicurezza</string>
@@ -3860,6 +3867,7 @@ Super risparmio energetico"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Installa il tuo dispositivo sul supporto incluso con il tuo caricabatterie wireless per migliori prestazioni di ricarica</string>
     <string name="pc_wireless_charging_special_stand_title">Utilizza il supporto di ricarica fornito</string>
     <string name="pc_wireless_handle_connected">Dispositivo connesso</string>
+    <string name="pc_wireless_handle_grip_title">Impugnatura fotografica Pro</string>
     <string name="pc_wireless_handle_title">Impugnatura professionale per fotocamera</string>
     <string name="pc_work_in_save_mode">Risparmio energetico</string>
     <string name="pc_work_in_super_save_mode">Super risparmio energetico</string>
@@ -4790,6 +4798,12 @@ Revocare il consenso?"</string>
     <string name="promotion">Pubblicità</string>
     <string name="prompt_all">Chiedi per tutte</string>
     <string name="prompt_input_time_illegal">Impossibile impostare questo orario, cambialo e riprova</string>
+    <string name="protect_eye_dont_open">Non ora</string>
+    <string name="protect_eye_hint_summry">Attiva la modalità Lettura per una migliore esperienza di lettura</string>
+    <string name="protect_eye_hint_title">Comfort visivo</string>
+    <string name="protect_eye_open">Attiva</string>
+    <string name="protect_eye_opened_summry">Modifica le preferenze in Impostazioni > Display e luminosità > Comfort visivo</string>
+    <string name="protect_eye_opened_title">Modalità Lettura attivata</string>
     <string name="protocol_exception_title">Diagnostica di protocollo di rete</string>
     <string name="protocol_loop_back_exception_summary">"Test loopback locale non andato a buon fine. Per segnalare questo problema, apri l'applicazione Feedback e invia un log dal tuo dispositivo."</string>
     <string name="province_selected_talkback" />
@@ -5432,7 +5446,7 @@ Revocare il consenso?"</string>
     <string name="storage_available_total_size1">Occupati: %1$s | Totali: %2$s</string>
     <string name="storage_category_title">Opzioni aggiuntive</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s occupati | %2$s disponibili</string>
-    <string name="storage_clear_available_total_size_with_ufs">Utilizzato: %1$s | Residuo: %2$s | Totale: %3$s (Con estensione di %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Utilizzato: %1$s, Residuo: %2$s, Totale: %3$s (%4$s con estensione dello spazio di archiviazione)</string>
     <string name="storage_clear_cache">Libera %s</string>
     <string name="storage_clear_cache_deep">Libera spazio in memoria</string>
     <string name="storage_clear_cache_large">Libera %s</string>
@@ -6042,7 +6056,7 @@ I dati rimanenti includono dati che sono stati riportati dal mese precedente."</
     <string name="vb_dult_effect">3D LUT vision</string>
     <string name="vb_fps_settings">Frequenza di aggiornamento automatica</string>
     <string name="vb_fps_settings_tips">Questa funzionalità regola la frequenza di aggiornamento dello schermo sulla frequenza dei fotogrammi del video, risparmiando batteria e rendendo la riproduzione fluida. Attivare i commenti mobili disattiverà questa funzionalità.</string>
-    <string name="vb_immerse_voice">Suono avvolgente</string>
+    <string name="vb_immerse_voice">Audio immersivo</string>
     <string name="vb_movie_mode">Modalità cinema</string>
     <string name="vb_movie_power_hint">"La modalità cinema offre un'esperienza visiva coinvolgente.Il tuo dispositivo potrebbe surriscaldarsi e consumare più energia."</string>
     <string name="vb_movie_power_hint_new">"Regola gli effetti per un'esperienza visiva straordinaria.
@@ -6077,7 +6091,7 @@ Attivarla li disattiverà e viceversa."</string>
     <string name="vb_video_effects_3d">Suono surround</string>
     <string name="vb_video_effects_3d_summary">Migliora la profondità della riproduzione sonora per auricolari e altoparlanti</string>
     <string name="vb_video_effects_3d_summary_headset">"Aumenta il senso di immersione durante l'ascolto tramite auricolari"</string>
-    <string name="vb_video_effects_3d_surround">Suono avvolgente virtuale</string>
+    <string name="vb_video_effects_3d_surround">Audio immersivo virtuale</string>
     <string name="vb_video_effects_display_style">Stile</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Dialoghi migliorati</string>
@@ -6085,7 +6099,7 @@ Attivarla li disattiverà e viceversa."</string>
     <string name="vb_video_effects_dolby_open">Dolby Atmos attivo</string>
     <string name="vb_video_effects_dolby_stereo_expansion">Stereo espanso</string>
     <string name="vb_video_effects_dolby_tips">"Dialoghi migliorati e Stereo espanso non funzioneranno quando l'audio immersivo è attivo"</string>
-    <string name="vb_video_effects_immersion_sound">Suono avvolgente</string>
+    <string name="vb_video_effects_immersion_sound">Suono immersivo</string>
     <string name="vb_video_effects_immersion_sound_summary">"Sperimenta l'immersione e il senso dello spazio quando l'audio supportato viene riprodotto tramite gli auricolari"</string>
     <string name="vb_video_effects_immersion_sound_summary_new">"Sperimenta l'immersione e il senso dello spazio quando viene riprodotto l'audio supportato"</string>
     <string name="vb_video_effects_liquid_summary">Migliora la nitidezza dei dialoghi nei video</string>
@@ -6109,7 +6123,7 @@ Attivarla li disattiverà e viceversa."</string>
     <string name="vb_video_effects_settings_stereo">Volume</string>
     <string name="vb_video_effects_some_headphone">Supportato da modelli di auricolari selezionati</string>
     <string name="vb_video_effects_spatial">Traccia il movimento della testa</string>
-    <string name="vb_video_effects_spatial_summary">"Regola il suono avvolgente in base al movimento della testa
+    <string name="vb_video_effects_spatial_summary">"Regola l'audio immersivo in base al movimento della testa
 *Supportato solo sui modelli di auricolari da gioco"</string>
     <string name="vb_video_effects_spatial_summary_new">"Sperimenta un maggiore senso dello spazio e della direzione l'audio supportato quando usi le cuffie"</string>
     <string name="vb_video_effects_srs_premium_sound">Audio</string>

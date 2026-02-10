@@ -1949,6 +1949,8 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="game_toolbox_fps_realtime_nodata">Dobijanje FPS u stvarnom vremenu…</string>
     <string name="game_toolbox_fps_shake">Treperenje %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Dobijanje trzaja slike…</string>
+    <string name="game_toolbox_gyro_boost_title">Gyro boost</string>
+    <string name="game_toolbox_gyro_boost_toast">Uključite žiroskop u postavkama igre da biste koristili ovu značajku</string>
     <string name="game_toolbox_immersion_sound_desc">Kada koristite slušalice, precizno uhvatite zvučne efekte poput koraka i glasova, poboljšavajući uživljavanje u igru</string>
     <string name="game_toolbox_immersion_sound_title">Uranjanje u zvuk</string>
     <string name="game_toolbox_item_joystick_key_mapping">Gumb kontrolera</string>
@@ -1980,7 +1982,9 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="game_toolbox_smotion_vibrate_desc">Dodajte haptičku povratnu informaciju u skladu s potezima u igri. Podržane su samo neke igre.</string>
     <string name="game_toolbox_smotion_vibrate_title">Taktilna povratna informacija</string>
     <string name="game_toolbox_super_follow_up_msg">Poboljašajte reaktivnost na dodir i praćenje kroz povezanost hardvera i softvera</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Podesite osjetljivost praćenja pokreta: Visoka za bliže praćenje, niska za glatkije kretanje</string>
     <string name="game_toolbox_super_shake_msg">Smanjite podrhtavanje pri dodiru i prelasku, poboljšavajući stabilnost upravljanja</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Podesite osjetljivost upravljanja: Visoka za brži odziv, niska za veću stabilnost</string>
     <string name="game_toolbox_title">Alati za igre</string>
     <string name="game_toolbox_title_game_center">Igre</string>
     <string name="game_toolbox_title_wild">Ultimativni način</string>
@@ -2026,6 +2030,7 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Vizualno poboljšanje: "</string>
     <string name="gamebox_dnd">DND</string>
+    <string name="gamebox_eye_protect">Udobnost za oči pri igranju</string>
     <string name="gamebox_filter_alpha_tip">Transparentnost</string>
     <string name="gamebox_filter_dark_conter">Vinjeta</string>
     <string name="gamebox_filter_tip">Odabrani in-game filter će biti primijenjen kada počenete igrati</string>
@@ -2364,8 +2369,10 @@ ali isto tako povećava i potrošnju baterije, te može doći do pregrijavanja u
     <string name="gb_super_follow_up_msg">Poboljašajte reaktivnost na dodir i praćenje kroz povezanost hardvera i softvera</string>
     <string name="gb_super_hot_area">Pametna hot zone</string>
     <string name="gb_super_hot_area_msg">AI prilagodljivo zoniranje, poboljšavajući iskustvo dodira i kontrole</string>
+    <string name="gb_super_hot_area_msg_4.5">Prilagodite pokrivenost kontrolnog područja i osjetljivost dodira</string>
     <string name="gb_super_motion">Poboljšane kontrole dodira</string>
     <string name="gb_super_shake">Algoritam stabilizacije</string>
+    <string name="gb_super_shake_4.5">Fine pametne kontrole</string>
     <string name="gb_super_shake_msg">Smanjite podrhtavanje pri dodiru i prelasku, poboljšavajući stabilnost upravljanja</string>
     <string name="gb_turbo_collimator_subtitle">Koristite uređaj za ciljanje</string>
     <string name="gb_turbo_macro_subtitle">Izvodite radnje na visokom nivou</string>
@@ -3029,7 +3036,7 @@ Vaš uređaj je sada %s brži."</string>
     <string name="menu_summary_power_manager_1">Baterija je potpuno napunjena</string>
     <string name="menu_summary_power_manager_2">Preostalo %s</string>
     <string name="menu_summary_power_manager_3">Priključite punjač</string>
-    <string name="menu_summary_power_manager_4">%s do dovršetka punjenja</string>
+    <string name="menu_summary_power_manager_4">%1$sdo kraja punjenja</string>
     <string name="menu_text_antispam">Lista blokiranih</string>
     <string name="menu_text_antivirus">Sigurnosno skeniranje</string>
     <string name="menu_text_antivirus_kddi">Sigurnosno skeniranje</string>
@@ -3861,6 +3868,7 @@ Ultra štednje baterije"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Postavite svoj uređaj na postolje koje ste dobili s bežičnim punjačem za najbolju izvedbu punjenja</string>
     <string name="pc_wireless_charging_special_stand_title">Koristite isporučeno postolje za punjenje</string>
     <string name="pc_wireless_handle_connected">Uređaj povezan</string>
+    <string name="pc_wireless_handle_grip_title">Photography Grip Pro</string>
     <string name="pc_wireless_handle_title">Profesionalni držač za fotoaparat</string>
     <string name="pc_work_in_save_mode">Štednja baterije</string>
     <string name="pc_work_in_super_save_mode">Ultra štednja baterije</string>
@@ -4791,6 +4799,12 @@ Povući suglasnost odmah?"</string>
     <string name="promotion">Oglas</string>
     <string name="prompt_all">Pitaj za sve</string>
     <string name="prompt_input_time_illegal">Ne mogu postaviti ovo vrijeme, promijenite ga i pokušajte ponovno</string>
+    <string name="protect_eye_dont_open">Ne sada</string>
+    <string name="protect_eye_hint_summry">Uključite Način čitanja za bolje iskustvo čitanja</string>
+    <string name="protect_eye_hint_title">Ugodno za oči</string>
+    <string name="protect_eye_open">Uključi</string>
+    <string name="protect_eye_opened_summry">Uredite postavke u Postavkama > Zaslon i svjetlina > Udobnost za oči</string>
+    <string name="protect_eye_opened_title">Način čitanja je uključen</string>
     <string name="protocol_exception_title">Dijagnostika protokola mreže</string>
     <string name="protocol_loop_back_exception_summary">Test Lokalne povratne petlje nije uspio. Da biste prijavili ovaj problem, idite u aplikaciju Povratna informacija i pošaljite izvješće sa svog uređaja.</string>
     <string name="province_selected_talkback" />
@@ -5433,7 +5447,7 @@ Povući suglasnost odmah?"</string>
     <string name="storage_available_total_size1">Zauzeto: %1$s | Ukupno: %2$s</string>
     <string name="storage_category_title">Dodatne opcije</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s zauzeto | %2$s dostupno</string>
-    <string name="storage_clear_available_total_size_with_ufs">Iskorišteno: %1$s | Preostalo: %2$s | Ukupno: %3$s (Prošireno putem %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Iskorišteno: %1$s, Preostalo: %2$s, Ukupno: %3$s (%4$s sa proširenjem pohrane)</string>
     <string name="storage_clear_cache">Oslobodi %s</string>
     <string name="storage_clear_cache_deep">Oslobodite prostor za pohranu</string>
     <string name="storage_clear_cache_large">Oslobodi %s</string>

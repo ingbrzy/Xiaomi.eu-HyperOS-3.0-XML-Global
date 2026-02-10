@@ -1561,7 +1561,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="error_icon_content_description">Hiba</string>
     <string name="evening">Délután</string>
     <string name="every_day">Minden nap</string>
-    <string name="examination_score_100">Nem szükséges vizsgálat, minden rendben van!</string>
+    <string name="examination_score_100">Minden rendben van!</string>
     <string name="examination_score_60_0">Keresés most</string>
     <string name="examination_score_80_100">Néhány elem optimalizálása szükséges...</string>
     <string name="examination_score_80_60">Néhány elem optimalizálása szükséges...</string>
@@ -1948,6 +1948,8 @@ Ha az Intelligens képkockasebesség be van kapcsolva, a játékban és harmadik
     <string name="game_toolbox_fps_realtime_nodata">Valós idejű FPS elérése…</string>
     <string name="game_toolbox_fps_shake">Jitter %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Képkocka jitter elérése…</string>
+    <string name="game_toolbox_gyro_boost_title">Giroszkóp gyorsítás</string>
+    <string name="game_toolbox_gyro_boost_toast">Kapcsolja be a giroszkópot a játék beállításaiban, hogy használni tudja ezt a funkciót</string>
     <string name="game_toolbox_immersion_sound_desc">Ha fülhallgatót használ, pontosan rögzítheti a hanghatásokat, például a lépéseket és a hangokat, ami fokozza a játékélményt</string>
     <string name="game_toolbox_immersion_sound_title">Immerzív hang</string>
     <string name="game_toolbox_item_joystick_key_mapping">Vezérlőgomb</string>
@@ -1979,7 +1981,9 @@ Ha az Intelligens képkockasebesség be van kapcsolva, a játékban és harmadik
     <string name="game_toolbox_smotion_vibrate_desc">Haptikus visszajelzést hozzáadása a játék mozdulataihoz. Csak néhány játék támogatja ezt a funkciót.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptikus visszajelzés</string>
     <string name="game_toolbox_super_follow_up_msg">Javíthatja az érintésre adott választ és a nyomon követést a teljes hardver-szoftver rendszeren keresztül</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Állítsa be a kézmozdulatok követési érzékenységét: A magasabb érzékenység pontosabb követést, az alacsonyabb simább mozdulatokat biztosít</string>
     <string name="game_toolbox_super_shake_msg">Csökkentheti a koppintás és a csúsztatás okozta jittert, és javíthatja a vezérlés stabilitását</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Állítsa be a vezérlés érzékenységét: A magasabb érzékenység gyorsabb reakciót, az alacsonyabb nagyobb stabilitást biztosít</string>
     <string name="game_toolbox_title">Játékeszközök</string>
     <string name="game_toolbox_title_game_center">Játékok</string>
     <string name="game_toolbox_title_wild">Végleges mód</string>
@@ -2025,6 +2029,7 @@ Ha az Intelligens képkockasebesség be van kapcsolva, a játékban és harmadik
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Vizuális kiemelés: "</string>
     <string name="gamebox_dnd">Ne zavarjanak (DND)</string>
+    <string name="gamebox_eye_protect">Gaming szemkomfort</string>
     <string name="gamebox_filter_alpha_tip">Áthallás</string>
     <string name="gamebox_filter_dark_conter">Vignetta</string>
     <string name="gamebox_filter_tip">A játékon belül megtalálható kiválasztott szűrő a játék megkezdésekor kerül alkalmazásra</string>
@@ -2363,8 +2368,10 @@ de növeli az energiafogyasztást és lehetővé teszi a készülék túlmeleged
     <string name="gb_super_follow_up_msg">Javíthatja az érintésre adott választ és a nyomon követést a teljes hardver-szoftver rendszeren keresztül</string>
     <string name="gb_super_hot_area">Intelligens forró zóna</string>
     <string name="gb_super_hot_area_msg">AI-adaptív zónázás, amely javítja az érintéses vezérlés élményét</string>
+    <string name="gb_super_hot_area_msg_4.5">Állítsa be a vezérlőterület lefedettségét és érintés-érzékenységét</string>
     <string name="gb_super_motion">Kiterjesztett érintésvezérlés</string>
     <string name="gb_super_shake">Stabilizációs algoritmus</string>
+    <string name="gb_super_shake_4.5">Intelligens vezérlők finomhangolása</string>
     <string name="gb_super_shake_msg">Csökkentheti a koppintás és a csúsztatás okozta jittert, és javíthatja a vezérlés stabilitását</string>
     <string name="gb_turbo_collimator_subtitle">Használjon célzóeszközt</string>
     <string name="gb_turbo_macro_subtitle">Végezzen magas szintű műveleteket</string>
@@ -3028,7 +3035,7 @@ Készüléke ennyivel gyorsabb: %s."</string>
     <string name="menu_summary_power_manager_1">Az akkumulátor teljesen feltöltve</string>
     <string name="menu_summary_power_manager_2">%s van hátra</string>
     <string name="menu_summary_power_manager_3">Csatlakoztassa a töltőt</string>
-    <string name="menu_summary_power_manager_4">%s van hátra a feltöltésig</string>
+    <string name="menu_summary_power_manager_4">%1$s a teljes töltöttségig</string>
     <string name="menu_text_antispam">Tiltólista</string>
     <string name="menu_text_antivirus">Biztonsági vizsgálat</string>
     <string name="menu_text_antivirus_kddi">Biztonsági vizsgálat</string>
@@ -3860,6 +3867,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_wireless_charging_special_stand_summary2">A legjobb töltési élmény érdekében helyezze a készüléket a vezeték nélküli töltőhöz kapott állomásra</string>
     <string name="pc_wireless_charging_special_stand_title">Használja a tartozék töltőállomást</string>
     <string name="pc_wireless_handle_connected">Készülék csatlakoztatva</string>
+    <string name="pc_wireless_handle_grip_title">Fotózás Grip Pro</string>
     <string name="pc_wireless_handle_title">Professzionális kameramarkolat</string>
     <string name="pc_work_in_save_mode">Akkumulátorkímélő</string>
     <string name="pc_work_in_super_save_mode">Ultraerős akkumulátorkímélő</string>
@@ -4790,6 +4798,12 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="promotion">Reklám</string>
     <string name="prompt_all">Kérjen mindegyiknél</string>
     <string name="prompt_input_time_illegal">Nem lehet erre az időre beállítani, módosítsa és próbálja újra</string>
+    <string name="protect_eye_dont_open">Nem most</string>
+    <string name="protect_eye_hint_summry">Kapcsolja be az Olvasómódot a jobb olvasási élmény érdekében</string>
+    <string name="protect_eye_hint_title">Szemkomfort</string>
+    <string name="protect_eye_open">Bekapcsolás</string>
+    <string name="protect_eye_opened_summry">Beállítások szerkesztése: Beállítások > Kijelző és fényerő > Szemkomfort</string>
+    <string name="protect_eye_opened_title">Olvasómód bekapcsolva</string>
     <string name="protocol_exception_title">Hálózati protokoll diagnosztika</string>
     <string name="protocol_loop_back_exception_summary">Helyi visszacsatolási teszt sikertelen. Ahhoz, hogy jelentse a problémát, menjen a Hibajelentés alkalmazásba és küldjön egy naplót a készülékről.</string>
     <string name="province_selected_talkback" />
@@ -5432,7 +5446,7 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="storage_available_total_size1">Foglalt: %1$s | Összesen: %2$s</string>
     <string name="storage_category_title">További beállítások</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s elfoglalt | %2$s elérhető</string>
-    <string name="storage_clear_available_total_size_with_ufs">Felhasznált: %1$s | Fennmaradó: %2$s | Összesen: %3$s (Bővítette %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Felhasznált: %1$s, Fennmaradó: %2$s, Összesen: %3$s (%4$s tárhelybővítéssel)</string>
     <string name="storage_clear_cache">%s felszabadítása</string>
     <string name="storage_clear_cache_deep">Tárhely felszabadítása</string>
     <string name="storage_clear_cache_large">%s felszabadítása</string>

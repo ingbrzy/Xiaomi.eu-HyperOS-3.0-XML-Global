@@ -1948,6 +1948,8 @@ När Smart bildfrekvens är aktiverad, detektionsverktyg för bildfrekvenser kan
     <string name="game_toolbox_fps_realtime_nodata">Att få realtids-FPS…</string>
     <string name="game_toolbox_fps_shake">Instabilitet %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Få ramjitter…</string>
+    <string name="game_toolbox_gyro_boost_title">Gyro-boost</string>
+    <string name="game_toolbox_gyro_boost_toast">Aktivera gyroskopet i spelets inställningar för att använda den här funktionen</string>
     <string name="game_toolbox_immersion_sound_desc">Fånga ljudeffekter så som fotsteg och röster korrekt, när du använder hörlurar, genom att förstärka spelets uppslukande ljud</string>
     <string name="game_toolbox_immersion_sound_title">Uppslukande ljud</string>
     <string name="game_toolbox_item_joystick_key_mapping">Kontroller-knapp</string>
@@ -1979,7 +1981,9 @@ När Smart bildfrekvens är aktiverad, detektionsverktyg för bildfrekvenser kan
     <string name="game_toolbox_smotion_vibrate_desc">Lägg till haptisk feedback i enlighet med spelrörelser. Bara vissa spel stöds.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptisk feedback</string>
     <string name="game_toolbox_super_follow_up_msg">Förstärk beröringssvar och spåra genom hela hårdvaru-mjukvarulinjen</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Justera spårningskänsligheten för gester: Hög för närmare spårning, låg för jämnare rörelse</string>
     <string name="game_toolbox_super_shake_msg">Minska berörings- och svep-instabiliteten, förbättra kontrollstabiliteten</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Justera kontrollkänslighet: Hög för snabbare respons, låg för bättre stabilitet</string>
     <string name="game_toolbox_title">Spelverktyg</string>
     <string name="game_toolbox_title_game_center">Spel</string>
     <string name="game_toolbox_title_wild">Ultimat läge</string>
@@ -2025,6 +2029,7 @@ När Smart bildfrekvens är aktiverad, detektionsverktyg för bildfrekvenser kan
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Visuell förbättring: "</string>
     <string name="gamebox_dnd">Stör ej</string>
+    <string name="gamebox_eye_protect">Ögonkomfort vid spelande</string>
     <string name="gamebox_filter_alpha_tip">Transparens</string>
     <string name="gamebox_filter_dark_conter">Vingette</string>
     <string name="gamebox_filter_tip">Valda filter inuti spelet kommer att tillämpas när du börjar att spela</string>
@@ -2363,8 +2368,10 @@ men ökar också strömförbrukningen och tillåter din enhet att överhettas"</
     <string name="gb_super_follow_up_msg">Förstärk beröringssvar och spåra genom hela hårdvaru-mjukvarulinjen</string>
     <string name="gb_super_hot_area">Smart hetzon</string>
     <string name="gb_super_hot_area_msg">AI-adaptivzonindelning, förstärka kontrollnivån för beröringsupplevelsen</string>
+    <string name="gb_super_hot_area_msg_4.5">Justera kontrollområdets täckning och beröringskänslighet</string>
     <string name="gb_super_motion">Förbättrade pekkontroller</string>
     <string name="gb_super_shake">Stabiliseringsalgoritm</string>
+    <string name="gb_super_shake_4.5">Fina smarta kontroller</string>
     <string name="gb_super_shake_msg">Minska berörings- och svep-instabiliteten, förbättra kontrollstabiliteten</string>
     <string name="gb_turbo_collimator_subtitle">Använd enhet för siktning</string>
     <string name="gb_turbo_macro_subtitle">Utföra åtgärder på hög nivå</string>
@@ -3028,7 +3035,7 @@ Din enhet är %s snabbare nu."</string>
     <string name="menu_summary_power_manager_1">Batteriet är fulladdat</string>
     <string name="menu_summary_power_manager_2">%såterstår</string>
     <string name="menu_summary_power_manager_3">Anslut laddare</string>
-    <string name="menu_summary_power_manager_4">%still fulladdad</string>
+    <string name="menu_summary_power_manager_4">%1$s till fulladdad</string>
     <string name="menu_text_antispam">Blockeringslista</string>
     <string name="menu_text_antivirus">Säkerhetsskanning</string>
     <string name="menu_text_antivirus_kddi">Säkerhetsskanning</string>
@@ -3799,7 +3806,7 @@ Ultra batterisparare"</string>
     <string name="pc_remind_close_cover_to_charge_summary">Vik enheten innan laddning för en snabbare och stabilare laddningsupplevelse.</string>
     <string name="pc_remind_close_cover_to_charge_title">Vik för att ladda</string>
     <string name="pc_reminder_always_protect_summary">Växla till begränsad laddning för att minska batteriets åldrande</string>
-    <string name="pc_remove_shell_charging_notification_msg">Kan inte använda trådlös laddning när du använder det handhållna Retro-konsolfodralet. Ta bort det och försök igen, eller använd trådbunden laddning.</string>
+    <string name="pc_remove_shell_charging_notification_msg">Kan inte använda trådlös laddning när du använder Retro Handheld Console Case. Ta bort den och försök igen, eller använd trådbunden laddning.</string>
     <string name="pc_remove_shell_charging_notification_title">Ta bort fodralet för att använda trådlös laddning</string>
     <string name="pc_remove_shell_charging_toast">Ta bort fodralet för att använda omvänd trådlös laddning</string>
     <string name="pc_satellite_auto_enter_super_power">Aktiverade ultra batterisparare för att säkerställa satellitkommunikation</string>
@@ -3860,6 +3867,7 @@ Ultra batterisparare"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Installera din enhet på stället som kom med din trådlösa laddare, för bästa laddningsprestanda</string>
     <string name="pc_wireless_charging_special_stand_title">Använd tillhandahållet laddningsställ</string>
     <string name="pc_wireless_handle_connected">Enhet ansluten</string>
+    <string name="pc_wireless_handle_grip_title">Fotografi Grip Pro</string>
     <string name="pc_wireless_handle_title">Professionellt kamerahandtag</string>
     <string name="pc_work_in_save_mode">Batterisparare</string>
     <string name="pc_work_in_super_save_mode">Ultra Batterisparare</string>
@@ -4790,6 +4798,12 @@ Dra tillbaka samtycke nu?"</string>
     <string name="promotion">Reklam</string>
     <string name="prompt_all">Fråga efter alla</string>
     <string name="prompt_input_time_illegal">Kan inte ange den här tiden, försök igen</string>
+    <string name="protect_eye_dont_open">Inte nu</string>
+    <string name="protect_eye_hint_summry">Aktivera läsläge för en bättre läsupplevelse</string>
+    <string name="protect_eye_hint_title">Ögonbekvämlighet</string>
+    <string name="protect_eye_open">Aktivera</string>
+    <string name="protect_eye_opened_summry">Redigera preferenser i Inställningar > Display och ljusstyrka > Ögonbekvämlighet</string>
+    <string name="protect_eye_opened_title">Läsläge är aktiverat</string>
     <string name="protocol_exception_title">Diagnostisera nätverksprotokoll</string>
     <string name="protocol_loop_back_exception_summary">\"Local loop back\"-test misslyckades. För att rapportera detta, öppna Feedback-appen och skicka loggen från din enhet.</string>
     <string name="province_selected_talkback" />
@@ -5432,7 +5446,7 @@ Dra tillbaka samtycke nu?"</string>
     <string name="storage_available_total_size1">Upptaget: %1$s | Totalt: %2$s</string>
     <string name="storage_category_title">Ytterligare alternativ</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s ockuperat | %2$s tillgängligt</string>
-    <string name="storage_clear_available_total_size_with_ufs">Använt: %1$s | Återstående: %2$s | Totalt: %3$s (Utökat med %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Använt: %1$s, Återstående: %2$s, Totalt: %3$s (%4$s med utökad lagring)</string>
     <string name="storage_clear_cache">Frigör %s</string>
     <string name="storage_clear_cache_deep">Frigör lagring</string>
     <string name="storage_clear_cache_large">Frigör %s</string>

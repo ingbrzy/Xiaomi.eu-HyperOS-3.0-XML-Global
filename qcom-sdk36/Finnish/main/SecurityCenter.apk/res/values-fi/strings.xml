@@ -1948,6 +1948,8 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="game_toolbox_fps_realtime_nodata">Noudetaan reaaliaikainen FPS…</string>
     <string name="game_toolbox_fps_shake">Värinä %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Noudetaan kuvan värinää…</string>
+    <string name="game_toolbox_gyro_boost_title">Gyro-tehoste</string>
+    <string name="game_toolbox_gyro_boost_toast">Ota gyroskooppi käyttöön pelin asetuksissa käyttääksesi tätä ominaisuutta</string>
     <string name="game_toolbox_immersion_sound_desc">Kun käytät kuulokkeita, sieppaa äänitehosteita, kuten askeleita ja ääniä, mikä parantaa pelien immersiota</string>
     <string name="game_toolbox_immersion_sound_title">Mukaansatempaava ääni</string>
     <string name="game_toolbox_item_joystick_key_mapping">Ohjaimen painike</string>
@@ -1979,7 +1981,9 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="game_toolbox_smotion_vibrate_desc">Lisää haptinen palaute pelin liikkeiden mukaan. Vain joitakin pelejä tuetaan.</string>
     <string name="game_toolbox_smotion_vibrate_title">Haptinen palaute</string>
     <string name="game_toolbox_super_follow_up_msg">Paranna kosketusvastetta ja seurantaa koko laitteisto-ohjelmistossa</string>
+    <string name="game_toolbox_super_follow_up_msg_4.5">Säädä eleiden seurannan herkkyyttä: Suuri lähempään seurantaan, pieni sujuvampaan liikkumiseen</string>
     <string name="game_toolbox_super_shake_msg">Vähennä napautus- ja pyyhkäisyvärinää, mikä parantaa ohjauksen vakautta</string>
+    <string name="game_toolbox_super_shake_msg_4.5">Säädä ohjausherkkyyttä: Suuri nopeamman vasteen saavuttamiseksi, alhainen vakauden lisäämiseksi</string>
     <string name="game_toolbox_title">Pelityökalut</string>
     <string name="game_toolbox_title_game_center">Pelit</string>
     <string name="game_toolbox_title_wild">Ääritila</string>
@@ -2025,6 +2029,7 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="gamebox_display_5">HDR</string>
     <string name="gamebox_display_set">"Visuaalinen tehostus: "</string>
     <string name="gamebox_dnd">Älä häiritse</string>
+    <string name="gamebox_eye_protect">Silmien mukavuus pelatessa</string>
     <string name="gamebox_filter_alpha_tip">Läpinäkyvyys</string>
     <string name="gamebox_filter_dark_conter">Vinjetti</string>
     <string name="gamebox_filter_tip">Valittu pelin sisäinen suodatin otetaan käyttöön, kun aloitat pelaamisen</string>
@@ -2363,8 +2368,10 @@ mutta lisää myös virrankulutusta ja mahdollistaa laitteen ylikuumenemisen"</s
     <string name="gb_super_follow_up_msg">Paranna kosketusvastetta ja seurantaa koko laitteisto-ohjelmistossa</string>
     <string name="gb_super_hot_area">Älykäs kuuma vyöhyke</string>
     <string name="gb_super_hot_area_msg">Teköalyllä mukautuva vyöhykejako, joka parantaa ohjaustason kosketuskokemusta</string>
+    <string name="gb_super_hot_area_msg_4.5">Säädä säätöalueen peittoa ja kosketusherkkyyttä</string>
     <string name="gb_super_motion">Parannetut kosketusohjaimet</string>
     <string name="gb_super_shake">Stabilointialgoritmi</string>
+    <string name="gb_super_shake_4.5">Hienovaraiset älykkäät säätimet</string>
     <string name="gb_super_shake_msg">Vähennä napautus- ja pyyhkäisyvärinää, mikä parantaa ohjauksen vakautta</string>
     <string name="gb_turbo_collimator_subtitle">Käytä kohdistuslaitetta</string>
     <string name="gb_turbo_macro_subtitle">Suorita korkean tason toimia</string>
@@ -3028,7 +3035,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="menu_summary_power_manager_1">Akku ladattu täyteen</string>
     <string name="menu_summary_power_manager_2">%s jäljellä</string>
     <string name="menu_summary_power_manager_3">Yhdistä laturi</string>
-    <string name="menu_summary_power_manager_4">%s kunnes täynnä</string>
+    <string name="menu_summary_power_manager_4">%1$skunnes täynnä</string>
     <string name="menu_text_antispam">Estolista</string>
     <string name="menu_text_antivirus">Tietoturvatarkistus</string>
     <string name="menu_text_antivirus_kddi">Tietoturvatarkistus</string>
@@ -3860,6 +3867,7 @@ ultravirransäästö"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Asenna laitteesi langattoman laturin mukana tulleeseen telineeseen parhaan lataustehon saavuttamiseksi</string>
     <string name="pc_wireless_charging_special_stand_title">Käytä mukana toimitettua lataustelinettä</string>
     <string name="pc_wireless_handle_connected">Laite yhdistetty</string>
+    <string name="pc_wireless_handle_grip_title">Photography Grip Pro</string>
     <string name="pc_wireless_handle_title">Ammattimainen kamerakahva</string>
     <string name="pc_work_in_save_mode">Virransäästö</string>
     <string name="pc_work_in_super_save_mode">Ultravirransäästö</string>
@@ -4790,6 +4798,12 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="promotion">Mainos</string>
     <string name="prompt_all">Kysy kaikille</string>
     <string name="prompt_input_time_illegal">Tätä aikaa ei voi määrittää, muuta sitä ja yrittää uudelleen</string>
+    <string name="protect_eye_dont_open">Ei nyt</string>
+    <string name="protect_eye_hint_summry">Ota lukutila käyttöön paremman lukukokemuksen saamiseksi</string>
+    <string name="protect_eye_hint_title">Silmien mukavuus</string>
+    <string name="protect_eye_open">Ota käyttöön</string>
+    <string name="protect_eye_opened_summry">Muokkaa asetuksia kohdassa Asetukset > Näyttö &amp; kirkkaus > Silmien mukavuus</string>
+    <string name="protect_eye_opened_title">Lukutila on käytössä</string>
     <string name="protocol_exception_title">Verkkoprotokollan diagnostiikka</string>
     <string name="protocol_loop_back_exception_summary">Paikallinen silmukkakokeen testaus epäonnistui. Ilmoita tämä ongelma, siirry Palaute -sovellukseen ja lähetä loki laitteestasi.</string>
     <string name="province_selected_talkback" />
@@ -5432,7 +5446,7 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="storage_available_total_size1">Käytetty: %1$s | Yhteensä: %2$s</string>
     <string name="storage_category_title">Lisävaihtoehdot</string>
     <string name="storage_clear_available_total_size">%1$s/%3$s käytetty | %2$s vapaa</string>
-    <string name="storage_clear_available_total_size_with_ufs">Käytetty: %1$s | Jäljellä: %2$s | Yhteensä: %3$s (Jatkettu %4$s)</string>
+    <string name="storage_clear_available_total_size_with_ufs">Käytetty: %1$s, Jäljellä: %2$s, Yhteensä: %3$s (%4$s lisätallennustilalla)</string>
     <string name="storage_clear_cache">Vapauta %s</string>
     <string name="storage_clear_cache_deep">Vapauta lisää tallennustilaa</string>
     <string name="storage_clear_cache_large">Vapauta %s</string>
