@@ -318,10 +318,10 @@
     <string name="mishare_state_protection_summary_china">Автоматично включване на Xiaomi Share при включване на Bluetooth или WLAN</string>
     <string name="mishare_support_device_comment">Поддържани устройства</string>
     <string name="mishare_support_device_summary">"Телефони, таблети и лаптопи Xiaomi
-Android устройства от други производители: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
+Android устройства от други производители: vivo, realme, OPPO, Honor, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO"</string>
     <string name="mishare_support_device_summary_ios">"Телефони, таблети и лаптопи Xiaomi
-Устройства на Apple: iPhone, iPad, Mac
-Android устройства от други производители: vivo, realme, OPPO, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO, Honor"</string>
+Apple устройства: iPhone, iPad, Mac
+Android устройства от други производители: vivo, realme, OPPO, Honor, Black Shark, Meizu, OnePlus, ZTE, Hisense, ASUS, ROG, Samsung, Lenovo, Motorola, NIO"</string>
     <string name="mishare_transefer_channel_desc">Известия за изпратени и получени елементи чрез Xiaomi Share</string>
     <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_accessibility_title">Заглавие</string>
@@ -535,10 +535,10 @@ Android устройства от други производители: vivo, r
     <string name="share_device_near_share_condition">Условия за споделяне</string>
     <string name="share_device_near_share_condition_describe">"%1$d. Увери се, че NFC, Bluetooth и Wi-Fi са включени и на двете устройства.
 %2$d. Обнови Xiaomi Share до версия %3$s.
-%4$d. Ако използваш iPhone, инсталирай Xiaomi Взаимосвързаност."</string>
+%4$d. Ако използваш iPhone, инсталирай Xiaomi Interconnectivity."</string>
     <string name="share_device_near_share_condition_describe_china">"%1$d. Увери се, че NFC, Bluetooth и WLAN са включени и на двете устройства.
 %2$d. Обнови Xiaomi Share до версия %3$s.
-%4$d. Ако използваш iPhone, инсталирай Xiaomi Взаимосвързаност."</string>
+%4$d. Ако използваш iPhone, инсталирай Xiaomi Interconnectivity."</string>
     <string name="share_device_near_share_content_describe" formatted="false">"Можеш да изпращаш следните типове съдържание:
 %d. Споделяне на снимки: в „Галерия“ натисни „Сподели“ до снимката.
 %d. Споделяне на файлове: избери файл в „Управление на файлове“."</string>
@@ -593,38 +593,51 @@ Android устройства от други производители: vivo, r
     <string name="switch_mode_close">Изкл.</string>
     <string name="switch_mode_close_os3">Изкл</string>
     <string name="switch_mode_sameaccount">От този профил</string>
-    <string name="tap_share_condition_describe">"%1$d. И двете устройства имат включени NFC, Bluetooth и Wi-Fi.
-%2$d. На Вашето устройство Xiaomi актуализирайте Xiaomi Share до версия %3$s.
-%4$d. Инсталирайте приложението Xiaomi Interconnectivity на Вашия iPhone."</string>
-    <string name="tap_share_condition_describe_china">"%1$d. И двете устройства имат включени NFC, Bluetooth и WLAN.
-%2$d. На Вашето устройство Xiaomi актуализирайте Xiaomi Share до версия %3$s.
-%4$d. Инсталирайте приложението Xiaomi Interconnectivity на Вашия iPhone."</string>
-    <string name="tap_share_condition_describe_os3">"%1$d. Уверете се, че и двете устройства са отключени и че NFC, Bluetooth и Wi-Fi са включени.
-%2$d. Актуализирайте своето Xiaomi устройство до %3$s или по-нова версия. Можете също да потърсите Xiaomi Share в Настройки, за да проверите дали „Докоснете за споделяне“ се поддържа.
-%4$d. Уверете се, че използвате iPhone 12 или по-нов модел, който работи с iOS 17 или по-нова версия. Инсталирайте най-новата версия на Xiaomi Взаимосвързаност на вашия iPhone."</string>
-    <string name="tap_share_condition_describe_os3_china">"%1$d. Уверете се, че и двете устройства са отключени и че NFC, Bluetooth и WLAN са включени.
-%2$d. Актуализирайте своето Xiaomi устройство до %3$s или по-нова версия. Можете също да потърсите Xiaomi Share в Настройки, за да проверите дали „Докоснете за споделяне“ се поддържа.
-%4$d. Уверете се, че използвате iPhone 12 или по-нов модел, който работи с iOS 17 или по-нова версия. Инсталирайте най-новата версия на Xiaomi Взаимосвързаност на вашия iPhone."</string>
+    <string name="tap_share_condition_describe">"%1$d. И на двете устройства са включени NFC, Bluetooth и Wi-Fi.
+%2$d. На Xiaomi устройството актуализирай Xiaomi Share до версия %3$s.
+%4$d. Инсталирай приложението Xiaomi Interconnectivity на своя iPhone."</string>
+    <string name="tap_share_condition_describe_china">"%1$d. И на двете устройства са включени NFC, Bluetooth и WLAN.
+%2$d. На Xiaomi устройството актуализирай Xiaomi Share до версия %3$s.
+%4$d. Инсталирай приложението Xiaomi Interconnectivity на своя iPhone."</string>
+    <string name="tap_share_condition_describe_os3">"%1$d. Увери се, че и двете устройства са отключени и че NFC, Bluetooth и Wi-Fi са включени.
+%2$d. Обнови Xiaomi устройството до Xiaomi HyperOS 3 или по-нова версия. Можеш и да потърсиш Xiaomi Share в настройките, за да провериш дали функцията “Натисни за споделяне“ е налична.
+%4$d. Увери се, че използваш iPhone 12 или по-нов модел с iOS 17 или по-нова версия. Инсталирай най-новата версия на Xiaomi Interconnectivity на своя iPhone."</string>
+    <string name="tap_share_condition_describe_os3_china">"%1$d. Увери се, че и двете устройства са отключени и че NFC, Bluetooth и WLAN са включени.
+%2$d. Обнови Xiaomi устройството до Xiaomi HyperOS 3 или по-нова версия. Можеш и да потърсиш Xiaomi Share в настройките, за да провериш дали функцията “Натисни за споделяне“ е налична.
+%4$d. Увери се, че използваш iPhone 12 или по-нов модел с iOS 17 или по-нова версия. Инсталирай най-новата версия на Xiaomi Interconnectivity на своя iPhone."</string>
     <string name="tap_share_connecting_this_wifi">Свързване към тази Wi-Fi мрежа</string>
     <string name="tap_share_connecting_this_wlan">Свързване към тази WLAN мрежа</string>
     <string name="tap_share_connecting_wifi">Свързване към \"%1$s\"</string>
-    <string name="tap_share_content_describe" formatted="false">"Изпращачът може да използва Touch, за да споделя по следните начини:
+    <string name="tap_share_contact_person_describe">Използвай функцията “Натисни за споделяне“ на страницата с детайли за контакт или на страницата за избор, или натисни „Сподели“, за да отвориш меню за споделяне.</string>
+    <string name="tap_share_contact_person_title">Споделяне на контакт</string>
+    <string name="tap_share_content_describe" formatted="false">"Изпращачът може да използва функцията “Натисни за споделяне“, за да споделя по следните начини:
 %d. Да споделя снимки и видеоклипове, като гледа цялото изображение в Галерия, на страницата за избор или като докосне „Изпращане“, за да отвори изскачащия прозорец за споделяне.
 %d. Да споделя файлове от страницата за избор на Управление на файлове или като докосне „Изпращане“, за да отвори изскачащия прозорец за споделяне.
 %d. За да споделяте Wi-Fi мрежа, към която сте свързани, отворете списъка с Wi-Fi или докоснете свързаната Wi-Fi мрежа, за да отворите изскачащия прозорец за споделяне.
 %d. Споделяйте контакти, като прегледате страницата с подробности за контакта на страницата за избор или като докоснете „Споделяне“, за да отворите изскачащия прозорец за споделяне.
 %d. Споделете уеб страница, като отворите страницата в Mi Браузър или докоснете „Споделяне“, за да отворите изскачащия прозорец за споделяне.
 "</string>
-    <string name="tap_share_content_describe_china" formatted="false">"Изпращачът може да използва Touch, за да споделя по следните начини:
+    <string name="tap_share_content_describe_china" formatted="false">"Изпращачът може да използва функцията “Натисни за споделяне“ по следните начини:
 %d. Да споделя снимки и видеоклипове, като гледа цялото изображение в Галерия, на страницата за избор или като докосне „Изпращане“, за да отвори изскачащия прозорец за споделяне.
 %d. Да споделя файлове от страницата за избор на Управление на файлове или като докосне „Изпращане“, за да отвори изскачащия прозорец за споделяне.
 %d. За да споделяте WLAN мрежа, към която сте свързани, отворете списъка с WLAN или докоснете свързаната WLAN мрежа, за да отворите изскачащия прозорец за споделяне.
 %d. Споделяйте контакти, като прегледате страницата с подробности за контакта на страницата за избор или като докоснете „Споделяне“, за да отворите изскачащия прозорец за споделяне.
 %d. Споделете уеб страница, като отворите страницата в Mi Браузър или докоснете „Споделяне“, за да отворите изскачащия прозорец за споделяне.
 "</string>
+    <string name="tap_share_file_describe">Използвай функцията “Натисни за споделяне“ от страницата за избор в „Управление на файлове“ или като натиснеш „Изпрати“, за да отвориш меню за споделяне.</string>
+    <string name="tap_share_file_title">Споделяне на файлове</string>
+    <string name="tap_share_game_team_up_describe">Влез в групова стая в Mobile Legends: Bang Bang, за да използваш функцията “Натисни за споделяне“. Първо обнови Mobile Legends: Bang Bang до версия %1$s или по-нова.</string>
+    <string name="tap_share_game_team_up_title">Група за игра</string>
+    <string name="tap_share_image_and_video_comment">Можеш да изпращаш следните типове съдържание:</string>
+    <string name="tap_share_image_and_video_describe">Прегледай изображение в цял размер в галерията или натисни и задръж, за да отвориш страницата за избор и да използваш функцията “Натисни за споделяне“, или натисни „Изпрати“, за да отвориш меню за споделяне.</string>
+    <string name="tap_share_image_and_video_title">Споделяне на снимки и видеа</string>
     <string name="tap_share_image_describe">Докоснете задните NFC зони на две устройства, за да споделите бързо елементи</string>
     <string name="tap_share_is_connect_this_wifi">Свързване към тази Wi-Fi мрежа?</string>
     <string name="tap_share_is_connect_this_wlan">Свързване към тази WLAN мрежа?</string>
+    <string name="tap_share_navigation_address_describe">Отвори подробностите за местоположение в Baidu Maps, за да използваш функцията “Натисни за споделяне“, или натисни „Сподели“, за да отвориш меню за споделяне. Първо обнови Baidu Maps до версия %1$s или по-нова.</string>
+    <string name="tap_share_navigation_address_title">Споделяне на навигационен адрес</string>
+    <string name="tap_share_network_page_describe">Отвори уеб страница в Mi Браузър, за да използваш функцията “Натисни за споделяне“, или натисни „Сподели“, за да отвориш меню за споделяне.</string>
+    <string name="tap_share_network_page_title">Споделяне на уебстраница</string>
     <string name="tap_share_preparing">Подготвяне</string>
     <string name="tap_share_preparing_file">Файловете се подготвят</string>
     <string name="tap_share_send_this_wifi">Споделяне на тази Wi-Fi мрежа</string>
@@ -637,6 +650,10 @@ Android устройства от други производители: vivo, r
     <string name="tap_share_wifi_connect_success">Установена е връзка</string>
     <string name="tap_share_wifi_connected">Свързани сте с \"%1$s\"</string>
     <string name="tap_share_wifi_fail">Неуспешно свързване</string>
+    <string name="tap_share_wifi_password_describe">За да споделиш Wi-Fi мрежа, към която имаш връзка, отвори списъка с Wi-Fi мрежи, за да използваш функцията “Натисни за споделяне“, или натисни свързаната Wi-Fi мрежа, за да отвориш меню за споделяне.</string>
+    <string name="tap_share_wifi_password_describe_china">За да споделиш WLAN мрежа, към която имаш връзка, отвори списъка с WLAN мрежи, за да използваш функцията “Натисни за споделяне“, или натисни свързаната WLAN мрежа, за да отвориш меню за споделяне.</string>
+    <string name="tap_share_wifi_password_title">Споделяне на Wi-Fi парола</string>
+    <string name="tap_share_wifi_password_title_china">Споделяне на WLAN парола</string>
     <string name="tapshare_receive_describe_wifi">Свързване с „%1$s“</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
@@ -701,11 +718,11 @@ Android устройства от други производители: vivo, r
     <string name="tomorrow">Утре</string>
     <string name="transfer_intercept_to_remote">Неуспешно изпращане: %1$s</string>
     <string name="transfer_to_different_account_summary">И двете устройства (Xiaomi и други устройства с Android) трябва да включат Xiaomi Share в Контролния център. Ще можеш да получаваш файлове от всички за %d минути.</string>
-    <string name="transfer_to_different_account_summary_ios" formatted="false">"%d. И двете устройства (Xiaomi и други устройства с Android) трябва да включат Xiaomi Share в Центъра за управление. Ще можете да получавате файлове от всеки за %d минути.
-%d. iPhone и iPad трябва да включат Xiaomi услуги за взаимосвързаност и да се уверят, че и двете устройства са свързани към една и съща LAN."</string>
+    <string name="transfer_to_different_account_summary_ios">"%1$d. И на двете устройства (Xiaomi и други Android устройства) трябва да е включено Xiaomi Share в контролния център. Ще можеш да получаваш файлове от всеки за %2$d минути.
+%3$d. На iPhone и iPad трябва да се включи Xiaomi Взаимосвързаност."</string>
     <string name="transfer_to_different_account_title">Откриване на телефони и таблети</string>
     <string name="transfer_to_pc_summary_new_plus"><Data>Увери се, че Xiaomi PC Мениджър е изтеглен, след което включи Xiaomi Share в Контролния център, за да можеш да получаваш файлове. Можеш да откриеш списък с поддържаните модели компютри &lt;a href=%1$s>тук&lt;/a>.</Data></string>
-    <string name="transfer_to_pc_summary_new_plus_ios"><Data>&lt;xliff:g id=mishare_ios_1 refersto=1>%1$d&lt;/xliff:g>. На Xiaomi лаптоп се уверете, че Xiaomi PC Мениджър е изтеглен, след което включете Xiaomi Share в Контролния център, за да можете да получавате файлове. Можете да намерите списък с поддържани модели компютри &lt;a href=%2$s>тук&lt;/a>.&lt;br>&lt;xliff:g id=mishare_ios_2 refersto=2>%3$d&lt;/xliff:g>. На Mac включете услугите за взаимно свързване на Xiaomi и се уверете, че и двете устройства са свързани към една и съща LAN.</Data></string>
+    <string name="transfer_to_pc_summary_new_plus_ios"><Data>&lt;xliff:g id=mishare_ios_1 refersto=1>%1$d&lt;/xliff:g>. На Xiaomi лаптоп се увери, че Xiaomi PC Мениджър е изтеглен, след което включи Xiaomi Share в контролния център, за да можеш да получаваш файлове. Можеш да откриеш списък с поддържани модели компютри &lt;a href=%2$s>тук&lt;/a>.&lt;br>&lt;xliff:g id=mishare_ios_2 refersto=2>%3$d&lt;/xliff:g>. На Mac включи Xiaomi Взаимосвързаност и се увери, че и двете устройства са свързани към една и съща LAN.</Data></string>
     <string name="transfer_to_pc_title">Откриване на компютри</string>
     <string name="transfer_to_phone_summary">Включете Xiaomi Share използвайки превключвателя в лентата с известията. След това, когато споделяте снимка или файл, ще можете да виждате устройства наблизо. Натиснете името на устройството на получателя, за да му изпратите това, което споделяте.</string>
     <string name="transfer_to_phone_summary_new">Включете Xiaomi Share в контролния център, за да можете лесно да изпращате и получавате елементи. След като го включите, можете да споделяте елементи с устройства в близост за %d минути, преди да се изключи автоматично.</string>

@@ -1040,6 +1040,9 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="cancel">İptal</string>
     <string name="cancel_button">İptal</string>
     <string name="car_sickness_relief_comment_text">Araç hareketi algılandığında ekranın her iki yanında aracın hareket edip etmediğini gösteren noktalar görüntülenir ve bu da taşıt tutmasının başlangıcını geciktirmeye yardımcı olabilir.</string>
+    <string name="car_sickness_relief_comment_text_opened">"Araç hareketini belirtmek için ekranın her iki tarafında noktalar görüntülenecek, bu da hareket hastalığının başlangıcını geciktirmeye yardımcı olur.
+
+Bu özelliği Kontrol Merkezi'nden açıp kapatabilirsiniz."</string>
     <string name="car_sickness_relief_example_text_1">Araç hızlandığında veya yavaşladığında</string>
     <string name="car_sickness_relief_example_text_2">Araç döndüğünde veya şerit değiştirdiğinde</string>
     <string name="car_sickness_relief_exit_text">Hareket hastalığı giderici çalışmayı durdurdu</string>
@@ -2516,7 +2519,7 @@ Pencereyi hareket ettirmek için göstergeye basılı tutun."</string>
     <string name="gmscore_support_remind">Gmail, Google Haritalar ve diğer Google uygulamalarında sorun yaşıyorsanız bu özelliği etkinleştirin. Bu özellik pil ömrünü bir miktar azaltacaktır.</string>
     <string name="gmscore_support_service">Temel Google hizmetleri</string>
     <string name="go_to">Devam et</string>
-    <string name="go_to_mi_sim">Tap to use Mi SIM.</string>
+    <string name="go_to_mi_sim">"Mi SIM'i kullanmak için dokunun."</string>
     <string name="go_to_send">Gönder</string>
     <string name="go_to_setting">Ayarlar</string>
     <string name="go_to_setting_fingerprint">Ayarlar</string>
@@ -3060,7 +3063,7 @@ Cihazınız şimdi %s daha hızlı."</string>
     <string name="mi_roaming">Mi Dolaşım</string>
     <string name="mi_service_app_detail">Veri kullanım detayları</string>
     <string name="mi_service_traffic_detail">Hizmet çerçevesi detayları</string>
-    <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
+    <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Açık Mi Sim'e bakiye yüklemek için dokunun .&lt;/U>&lt;/font>"</string>
     <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
     <string name="mic_noise_reduction_mode_standard">Standart</string>
     <string name="mic_noise_reduction_mode_ultimate">Seç</string>
@@ -4802,7 +4805,7 @@ kapatılıyor"</string>
     <string name="privacy_thumbnail_shield_top_tip">Son kullanılanlarda görüntülenen uygulamalar için önizlemeleri maskele</string>
     <string name="privacy_type_open">Açık</string>
     <string name="privacy_update_dialog_content_1">%s Gizlilik Politikası güncellendi:</string>
-    <string name="privacy_update_dialog_content_2"><Data>Devam etmeden önce &lt;a href =%1$s>Gizlilik Politikası&lt;/a> yeni sürümünü okuyun ve kabul edin.</Data></string>
+    <string name="privacy_update_dialog_content_2"><Data>Devam etmeden önce &lt;a href=\"%1$s\">Gizlilik Politikası&lt;/a> yeni sürümünü okuyun ve kabul edin.</Data></string>
     <string name="privacy_update_dialog_title">Güncellenen Gizlilik Politikası</string>
     <string name="privacy_user_notice_title">Kullanıcı uyarısı</string>
     <string name="privacy_using_camera">Kamerayı kullanma</string>
@@ -5546,7 +5549,7 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="suggest_app_tolock_masked">İçerik gizlendi</string>
     <string name="suggest_app_tolock_unmasked">Görünür bildirimler</string>
     <string name="suggest_scan_again">Güvenlik risklerinden kaçınmak için taramayı tamamlayın.</string>
-    <string name="suggest_to_use_mi_sim">Use Mi Sim to prevent you from generating additional carrier fees.</string>
+    <string name="suggest_to_use_mi_sim">"Ek operatör ücretlerini engellemek için Mi SIM'i kullanın."</string>
     <string name="summary_app_lock_disable">Verilerinizi Uygulama Kilidi ile koruyun</string>
     <string name="summary_app_update_new">Yeni özelliklere erişmek için uygulamaları güncelleyin</string>
     <string name="summary_auto_update">Bu özellik güncellemeleri indirmek ve yüklemek için en uygun zamanı seçer.</string>
@@ -5651,11 +5654,11 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="system_permission_declare_agree">Kabul et</string>
     <string name="system_permission_declare_analytics_declare">Sizi Kullanıcı Deneyimi Programımıza katılmaya davet ediyoruz. Size sağladığımız hizmetleri iyileştirmemiz için bu uygulamanın internete bağlanması ve istatistikleri toplamak için aşağıdaki izinleri veya özellikleri kullanması gerekir. Verileri yalnızca istatiksel amaçlı toplarız ve topladığımız verilere dayanarak sizi kişisel olarak tanımlayamayız.</string>
     <string name="system_permission_declare_disagree">Reddet</string>
-    <string name="system_permission_declare_double_link"><Data>Devam etmeden önce &lt;a href =%1$s>Kullanıcı Sözleşmesi&lt;/a> ve &lt;a href =%2$s>Gizlilik Politikası&lt;/a> anlaşmalarımızı okuyun ve kabul edin.</Data></string>
+    <string name="system_permission_declare_double_link"><Data>Devam etmeden önce &lt;a href=\"%1$s\">Kullanıcı Sözleşmesi&lt;/a> ve &lt;a href=\"%2$s\">Gizlilik Politikası&lt;/a> anlaşmalarımızı okuyun ve kabul edin.</Data></string>
     <string name="system_permission_declare_main_purpose" formatted="false">%1s uygulamasına hoşgeldiniz! Bu uygulama, şu özelliği kullanmanıza izin verir: %2s.</string>
-    <string name="system_permission_declare_meanwhile_double_link"><Data>Devam etmeden önce &lt;a href =%1$s>Kullanıcı Sözleşmesi&lt;/a> ve &lt;a href =%2$s>Gizlilik Politikası&lt;/a> anlaşmalarımızı okuyun ve kabul edin.</Data></string>
-    <string name="system_permission_declare_meanwhile_privacy_policy"><Data>"Devam etmeden önce &lt;a href =%1$s>Gizlilik Politikası'nı&lt;/a> okuyun ve kabul edin."</Data></string>
-    <string name="system_permission_declare_meanwhile_user_agreement"><Data>"Devam etmeden önce &lt;a href =%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin."</Data></string>
+    <string name="system_permission_declare_meanwhile_double_link"><Data>Devam etmeden önce &lt;a href=\"%1$s\">Kullanıcı Sözleşmesi&lt;/a> ve &lt;a href=\"%2$s\">Gizlilik Politikası&lt;/a> anlaşmalarımızı okuyun ve kabul edin.</Data></string>
+    <string name="system_permission_declare_meanwhile_privacy_policy"><Data>"Devam etmeden önce &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> okuyun ve kabul edin."</Data></string>
+    <string name="system_permission_declare_meanwhile_user_agreement"><Data>"Devam etmeden önce &lt;a href=\"%1$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin."</Data></string>
     <string name="system_permission_declare_no_say_no">Gerekli izinleri vermezseniz veya verilerinizi toplamamıza ve kullanmamıza izin vermezseniz bu uygulama düzgün çalışmayabilir.</string>
     <string name="system_permission_declare_no_say_no_analytics">Bu izinleri vermek istemiyorsanız, Ayarlar > Ek ayarlar > Gizlilik > Kullanıcı Deneyimi Programı menüsünde programdan ayrılabilirsiniz.</string>
     <string name="system_permission_declare_no_say_no_non_mandatory">Gerekli izinleri vermezseniz veya verilerinizi toplamamıza ve kullanmamıza izin vermezseniz bu uygulama kısmi olarak çalışmayabilir.</string>
@@ -5664,13 +5667,13 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="system_permission_declare_privacy_declare">Bu uygulama normal çalışabilmek için internete bağlanmaya ve aşağıdaki izinlere ihtiyaç duyar:</string>
     <string name="system_permission_declare_privacy_no_network">Bu uygulama normal çalışabilmek için belirtilen izinlere ihtiyaç duyar:</string>
     <string name="system_permission_declare_privacy_no_permission">Bu uygulama normal çalışabilmek için internete bağlanmaya ve gerekli kişisel verileri toplamaya ihtiyaç duyar.</string>
-    <string name="system_permission_declare_privacy_policy"><Data>"Devam etmeden önce &lt;a href =%1$s>Gizlilik Politikası'nı&lt;/a> okuyun ve kabul edin."</Data></string>
+    <string name="system_permission_declare_privacy_policy"><Data>"Devam etmeden önce &lt;a href=\"%1$s\">Gizlilik Politikası'nı&lt;/a> okuyun ve kabul edin."</Data></string>
     <string name="system_permission_declare_revoke_system">Bu uygulamadan çıkabilirsiniz.</string>
     <string name="system_permission_declare_revoke_uninstallable">Oturumu kapatabilir, bu uygulamayı kaldırabilir veya Güvenlik > Uygulamaları yönet > İzinler > İzinler menüsünden yetkileri geri alabilirsiniz.</string>
     <string name="system_permission_declare_title">Uyarı</string>
     <string name="system_permission_declare_use_network">Ağa bağlan</string>
     <string name="system_permission_declare_use_network_no_permission">Ağa bağlan</string>
-    <string name="system_permission_declare_user_agreement"><Data>"Devam etmeden önce &lt;a href =%1$s>Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin."</Data></string>
+    <string name="system_permission_declare_user_agreement"><Data>"Devam etmeden önce &lt;a href=\"%1$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin."</Data></string>
     <string name="system_permission_perm_answer_call">Arama yap</string>
     <string name="system_permission_perm_optional">" (isteğe bağlı)"</string>
     <string name="system_permission_perm_read_mms">MMS oku</string>
@@ -5918,7 +5921,7 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="top_game">En iyi oyunlar</string>
     <string name="top_load_fail_detail">Yüklenemedi, yeniden denemek için dokunun</string>
     <string name="top_no_network_detial">Yüklenemedi, ağ bağlantısını kontrol edin ve tekrar deneyin</string>
-    <string name="traffic_advanced_settings">Traffic Advanced Settings</string>
+    <string name="traffic_advanced_settings">Trafik Gelişmiş Ayarları</string>
     <string name="traffic_alarm">Alarm ayarla</string>
     <string name="traffic_alert_auto_modify_notification_sumarry">Aylık plan \"%s\" olarak değiştirildi.</string>
     <string name="traffic_alert_auto_modify_notification_titile">Veri planı güncellendi</string>
@@ -5989,7 +5992,7 @@ Kalan veri miktarı geçen aydan kalan veri miktarınıda içerir."</string>
     <string name="traffic_setting_fragment_title_guide">Operatörler ve tarifeler</string>
     <string name="traffic_to_limit_warning">Veri limitinizi %s oranında kullandınız.</string>
     <string name="traffic_usage_warning_body">Bu ay mobil verinizi %s oranında kullandınız.</string>
-    <string name="traffic_usage_warning_body_go_to_mi_sim">"You've already used %s of mobile data this month,Tap to use Mi SIM."</string>
+    <string name="traffic_usage_warning_body_go_to_mi_sim">"Bu ay mobil verinizi %s oranında kullandınız. Mi SIM'i kullanmak için dokunun."</string>
     <string name="traffic_usage_warning_limit">Veri kullanımı uyarı sınırı</string>
     <string name="traffic_usage_warning_title">Veri kullanım uyarısı</string>
     <string name="traffic_warning_purchase_title">Mobil veri kullanımı uyarısı</string>
