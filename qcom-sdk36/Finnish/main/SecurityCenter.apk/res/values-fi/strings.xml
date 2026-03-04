@@ -1040,6 +1040,9 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="cancel">Peruuta</string>
     <string name="cancel_button">Peruuta</string>
     <string name="car_sickness_relief_comment_text">Kun ajoneuvo havaitsee liikettä, näytön molemmilla puolilla näkyy pisteitä, jotka osoittavat, onko ajoneuvo liikkeessä, mikä voi auttaa viivästyttämään matkapahoinvoinnin puhkeamista.</string>
+    <string name="car_sickness_relief_comment_text_opened">"Kuvaruudun molemmilla puolilla näkyy pisteitä, jotka ilmaisevat ajoneuvon liikkeitä, mikä saattaa hidastaa matkapahoinvoinnin alkamista.
+
+Tämän ominaisuuden voi ottaa käyttöön ja poistaa käytöstä Ohjauskeskuksessa."</string>
     <string name="car_sickness_relief_example_text_1">Kun ajoneuvo kiihtyy tai hidastaa</string>
     <string name="car_sickness_relief_example_text_2">Kun ajoneuvo kääntyy tai vaihtaa kaistaa</string>
     <string name="car_sickness_relief_exit_text">Matkapahoinvoinnin lievitys lakkasi toimimasta</string>
@@ -2517,7 +2520,7 @@ Pidä ilmaisinta painettuna siirtääksesi ikkunaa ympäriinsä."</string>
     <string name="gmscore_support_remind">Ota tämä toiminto käyttöön, jos sinulla on ongelmia Gmailin, Google Mapsin ja muiden Google-sovellusten käytön kanssa. Se vähentää hieman akun käyttöikää.</string>
     <string name="gmscore_support_service">Google-peruspalvelut</string>
     <string name="go_to">Avaa</string>
-    <string name="go_to_mi_sim">Tap to use Mi SIM.</string>
+    <string name="go_to_mi_sim">Napauta käyttääksesi Mi SIM:iä.</string>
     <string name="go_to_send">Lähetä</string>
     <string name="go_to_setting">Asetukset</string>
     <string name="go_to_setting_fingerprint">Asetukset</string>
@@ -3061,7 +3064,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="mi_roaming">Mi Roaming</string>
     <string name="mi_service_app_detail">Datan käytön tiedot</string>
     <string name="mi_service_traffic_detail">Rungon tiedot</string>
-    <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Tap to top up open Mi Sim.&lt;/U>&lt;/font>"</string>
+    <string name="mi_sim_link">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>Lataa avoin Mi SIM napauttamalla.&lt;/U>&lt;/font>"</string>
     <string name="mi_sim_link_custom">"%1$s&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>%2$s&lt;/U>&lt;/font>"</string>
     <string name="mic_noise_reduction_mode_standard">Vakio</string>
     <string name="mic_noise_reduction_mode_ultimate">Valitse</string>
@@ -5519,7 +5522,7 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="suggest_app_tolock_masked">Sisältö piilotettu</string>
     <string name="suggest_app_tolock_unmasked">Näkyvät ilmoitukset</string>
     <string name="suggest_scan_again">Suorita skannaus turvallisuussyistä.</string>
-    <string name="suggest_to_use_mi_sim">Use Mi Sim to prevent you from generating additional carrier fees.</string>
+    <string name="suggest_to_use_mi_sim">Vältä ylimääräiset operaattorimaksut käyttämällä Mi SIM:iä.</string>
     <string name="summary_app_lock_disable">Suojaa tietosi sovelluslukolla</string>
     <string name="summary_app_update_new">Päivitä sovellukset uusiin ominaisuuksiin pääsemiseksi</string>
     <string name="summary_auto_update">Tämä ominaisuus valitsee sopivimman ajan ladatakseen ja asentaakseen päivitykset.</string>
@@ -5891,7 +5894,7 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="top_game">Parhaat pelit</string>
     <string name="top_load_fail_detail">Ei voitu ladata, napauta ja yritä uudelleen</string>
     <string name="top_no_network_detial">Lataus ei onnistu, tarkista verkkoyhteys ja yritä uudelleen</string>
-    <string name="traffic_advanced_settings">Traffic Advanced Settings</string>
+    <string name="traffic_advanced_settings">Liikenteen lisäasetukset</string>
     <string name="traffic_alarm">Aseta hälytys</string>
     <string name="traffic_alert_auto_modify_notification_sumarry">Kuukausisuunnitelma muutettu %s.</string>
     <string name="traffic_alert_auto_modify_notification_titile">Datasuunnitelma päivitetty</string>
@@ -5912,7 +5915,7 @@ Suunnittelemasi kuukausittainen huipputason datan käyttöraja on %1$s. Et ole a
     <string name="traffic_config_alert_body_normal">"
 Suunnitelmasi kuukausittainen huipputason data käyttöraja on %1$s. Tämä eroaa manuaalisesti asetetusta %2$s rajasta."</string>
     <string name="traffic_config_alert_package">"
-Rolled over extra data"</string>
+Siirtynyt lisädata"</string>
     <string name="traffic_config_alert_setted">Asetukset muutettu</string>
     <string name="traffic_config_alert_title">%s korjaus</string>
     <string name="traffic_correction_failed">Tietoja ei voi saada</string>
@@ -5962,7 +5965,7 @@ Jäljellä oleva data sisältää datan, joka jäi viime kuukaudeltä yli."</str
     <string name="traffic_setting_fragment_title_guide">Puhelinoperaattorit ja datasuunnitelmat</string>
     <string name="traffic_to_limit_warning">Olet käyttänyt %s datarajoituksestasi</string>
     <string name="traffic_usage_warning_body">Olet jo käyttänyt %s mobiilidataa tässä kuussa.</string>
-    <string name="traffic_usage_warning_body_go_to_mi_sim">"You've already used %s of mobile data this month,Tap to use Mi SIM."</string>
+    <string name="traffic_usage_warning_body_go_to_mi_sim">Olet jo käyttänyt %s mobiilidataa tässä kuussa. Napauta käyttääksesi Mi SIM:iä.</string>
     <string name="traffic_usage_warning_limit">Datankäyttövaroituksen raja</string>
     <string name="traffic_usage_warning_title">Datankäyttövaroitus</string>
     <string name="traffic_warning_purchase_title">Mobiilidatan käyttövaroitus</string>
