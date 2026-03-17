@@ -30,6 +30,7 @@
     <string name="apps_cannot_be_transfered_next_button">Növbəti</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Bu %1$d bitlik tətbiqlər %2$d bitlik cihaza köçürülə bilməz. Köçürmədən sonra onları birbaşa GetApps dan endirə bilərsiniz.</string>
     <string name="audio">Səs</string>
+    <string name="audio_permission_desc_new">Musiqi və səsi yeni cihaza köçürmək üçün</string>
     <string name="audio_video_document">Səs, video və sənədlər</string>
     <string name="back">Geri</string>
     <string name="backup_died_summary">\"Yenidən qoşul\" seçiminə toxunun. Köçürmə əməliyyatı tərk etdiyiniz yerdən davam edəcək.</string>
@@ -46,6 +47,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Kod uzun müddətdir daxil edilməyib. Əl ilə qoşulun.</string>
     <string name="ble_enter_verifycode_timeout_title">Sessiyanın müddəti bitdi</string>
     <string name="ble_guest_connecting_title">Yeni cihaza qoşulur…</string>
+    <string name="ble_guest_connecting_title_pad">Yeni cihaza qoşulur…</string>
     <string name="ble_host_verification_summary">Köhnə cihazınızda %d rəqəmli kodu daxil edin</string>
     <string name="ble_host_verification_title">Köhnə cihaza qoşulur…</string>
     <string name="ble_manual_authorization_content">Mi Daşıyıcı ilə elementləri köçürə bilmək üçün tələb olunan icazələri verin. Bu icazələri Tənzimləmələrdə verə bilərsiniz.</string>
@@ -56,8 +58,10 @@
     <string name="ble_start_ap_successed">Giriş nöqtəsi uğurla yaradıldı. Qoşulmaq üçün gözlənilir…</string>
     <string name="ble_starting_ap">Giriş nöqtəsi yaradılır…</string>
     <string name="ble_wait_verify_code">Yeni cihazda kod yaradılır…</string>
+    <string name="ble_wait_verify_code_pad">Yeni cihazda kod yaradılır…</string>
     <string name="ble_waiting_verify_code">Kod təsdiqlənir…</string>
     <string name="ble_waiting_verify_code_error">Daxil etdiyiniz kod yanlışdır</string>
+    <string name="blutooth_permission_desc_new">Qoşulmağa hazır olan yaxınlıqdakı cihazları tapmaq üçün</string>
     <string name="btn_got_it">Başa düşdüm</string>
     <string name="btn_install_complete">Quraşdırıldı</string>
     <string name="btn_mi_cloud_install_complete">Tətbiqi quraşdırdım</string>
@@ -70,6 +74,7 @@
     <string name="button_send">Göndər</string>
     <string name="calendar_permission_desc">Tədbirləri digər cihazlara köçürmək üçün</string>
     <string name="calllog">Zəng tarixçəsi</string>
+    <string name="camera_permission_content">Yaxınlıqdakı cihazları aşkar etmək üçün</string>
     <string name="cancel">Ləğv et</string>
     <string name="cancel_moving_dialog_message">Daxilə köçürmə indi dayandırlsın?</string>
     <string name="cancel_moving_dialog_title">Daxilə köçürməni dayandır</string>
@@ -115,8 +120,10 @@ Söndürmək üçün https://appleid.apple.com/#!&amp;page=signin ünvanını zi
     <string name="connection_tips_owner_title">Köhnə cihazınız Mi telefonudursa:</string>
     <string name="connection_tips_owner_title_global">Mi Daşıyıcı-nın ən son versiyasını quraşdırın:</string>
     <string name="contact_records_permission_desc">Zəng tarixçəsini digər cihazlara köçürmək üçün</string>
+    <string name="contact_records_permission_desc_new">Zəng tarixçəsini yeni cihaza köçürmək üçün</string>
     <string name="contacts">Kontaktlar</string>
     <string name="contacts_permission_desc">Əlaqələri digər cihazlara köçürmək üçün</string>
+    <string name="contacts_permission_desc_new">Kontaktları yeni cihaza köçürmək üçün</string>
     <string name="contains_unauthorized_data">İcazəsiz məlumat tərkiblidir</string>
     <string name="current_user_not_supported_summary">Mövcud sistem tənzimləmələri Mi Daşıyıcı istifadə edərək məlumat köçürülməsini məhdudlaşdırır.</string>
     <string name="current_user_not_supported_title">Elementlər köçürülə bilmir</string>
@@ -144,6 +151,17 @@ Söndürmək üçün https://appleid.apple.com/#!&amp;page=signin ünvanını zi
     <string name="dialog_rating_desc_less">Tətbiqimizi təkmilləşdirmək üçün bir neçə təklif vermək istəyirsiniz?</string>
     <string name="dialog_rating_desc_perfect">Təşəkkürlər! Mi Daşıyıcı-nı, GettApps-də qiymətləndirmək istəyirsiniz?</string>
     <string name="dialog_rating_title">Mi Daşıyıcını qiymətləndirin</string>
+    <string name="dialog_request_all_permission_content_new">"Köhnə cihazınızdan yeni cihazınıza məlumatları ötürmək üçün bu tətbiq internetə qoşulmalıdır və aşağıdakı icazələri tələb edir:
+• Şəkillərə, səsə, təqvimə və videolara giriş
+• Mesajlara, kontaktlara və zəng tarixçəsinə giriş
+• Yaddaşa giriş
+• Cihaza quraşdırılmış tətbiqlərin siyahısına giriş"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Köhnə cihazınızdan yeni cihazınıza məlumatları ötürmək üçün bu tətbiq internetə qoşulmalıdır və aşağıdakı icazələri tələb edir:
+• Şəkillərə, səsə, təqvimə və videolara giriş
+• Mesajlara, kontaktlara və zəng tarixçəsinə giriş
+• Yaddaşa giriş
+• Cihaza quraşdırılmış tətbiqlərin siyahısına giriş"</string>
+    <string name="dialog_request_all_permission_title_new">İcazələr tələb edilir</string>
     <string name="dialog_request_network_btn_negative">Çıx</string>
     <string name="dialog_request_network_btn_positive">Qəbul et</string>
     <string name="dialog_request_permission_message">Mi Daşıyıcı-ya xoş gəldiniz! Köhnə cihazınızdan məlumatları yenisinə köçürmək üçün bu tətbiqdən istifadə edə bilərsiniz. Məlumat iki cihaz arasında köçürüləcək və serverlərimizə yüklənməyəcək. Bu tətbiqin internetə qoşulması lazımdır və normal işləməsi üçün aşağıdakı icazələr tələb edilir:</string>
@@ -152,6 +170,8 @@ Söndürmək üçün https://appleid.apple.com/#!&amp;page=signin ünvanını zi
     <string name="dialog_request_permission_message_extra_title">Məcburi icazələr</string>
     <string name="dialog_request_permission_message_global">Bu tətbiqin normal işləməsi üçün aşağıdakı icazələrə ehtiyac var:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Bir istifadəçi kimi hüquqlarınızı tam başa düşmək və məlumatlarınızı hansı yollarla istifadə etdiyimizi öyrənmək üçün &lt;a href='%1s'>Xiaomi Əməliyyat Sistemi İstifadəçi Sazişini&lt;/a> və &lt;a href='%2s'>Mi Daşıyıcı Gizlilik Siyasətini&lt;/a> oxuyun və qəbul edin."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Bu tətbiqin internetə qoşulmasına icazə verin və yuxarıda göstərilən məcburi icazələri verin. İstifadəçi kimi hüquqlarınızı, eləcə də məlumatlarınızdan necə istifadə etdiyimizi tam başa düşmək üçün &lt;a href='%1s'>Xiaomi Əməliyyat Sistemi İstifadəçi Sazişini&lt;/a> və &lt;a href='%2s'>Mi Daşıyıcı Gizlilik Siyasətini&lt;/a> oxuyun və qəbul edin."</Data></string>
+    <string name="dialog_request_permission_message_new">Mi Daşıyıcıya xoş gəlmisiniz! Bu tətbiqdən köhnə cihazınızdakı məlumatları yeni cihazınıza köçürmək üçün istifadə edə bilərsiniz. Məlumatlar iki cihaz arasında ötürüləcək və serverlərimizə yüklənməyəcək.</string>
     <string name="dialog_request_permission_message_provision_link">Eyni zamanda bir istifadəçi olaraq hüquqlarınızı və məlumatlarınızı necə istifadə etdiyimizi başa düşmək üçün %1$s və %2$s müqavilələrimizi oxuyun və qəbul edin.</string>
     <string name="dialog_request_permission_title">Diqqət</string>
     <string name="dialog_request_permission_title_global">İcazələr tələb edilir</string>
@@ -330,9 +350,12 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="icloud_signin_fail_message">Apple kimliyiniz təhlükəsizlik səbəblərindən kilidləndi. iforgot.apple.com ünvanına gedin və təlimatları izləyin.</string>
     <string name="icloud_start_now">Mobil internet istifadə et</string>
     <string name="icloud_verify_tips">iOS cihazınızda \"İcazə ver\" seçiminə toxunun və burada göstərilən kodu daxil edin.</string>
+    <string name="idm_discovery_summary_pad">Görünür, hazırda yeni cihazı aktivləşdirirsiniz. Elementlər bu cihazdan yenisinə köçürülsün?</string>
+    <string name="idm_discovery_title_pad">Elementləri yeni cihazınıza köçürün</string>
     <string name="im_recipient">Qəbul edənəm</string>
     <string name="im_sender">Göndərənəm</string>
     <string name="image">Şəkillər</string>
+    <string name="image_video_permission_desc_new">Şəkilləri və videoları yeni cihaza köçürmək üçün</string>
     <string name="import_again">Yenidən daxilə köçür</string>
     <string name="import_data_from_icloud">iCloud-dan məlumat köçür</string>
     <string name="install_app_dialog_title">Yaxınlıqdakı cihazlar tapıla bilmir</string>
@@ -358,6 +381,8 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="lack_perm_title">İcazələr tələb edilir</string>
     <string name="launcher">Əsas ekran düzülüşü</string>
     <string name="loading_data">Bir saniyə…</string>
+    <string name="location_permission_content_no_provisioned">Yaxınlıqdakı cihazın giriş nöqtəsinə qoşula bilmək üçün bu icazəni verin. Bu icazəni verməsəniz, elementləri köçürə bilməyəcəksiniz.</string>
+    <string name="location_permission_content_provisioned">Yaxınlıqdakı cihazın giriş nöqtəsinə qoşulmaq üçün</string>
     <string name="location_permission_desc">Yaxınlıqdakı cihazları tapmaq üçün</string>
     <string name="location_permission_request">Yaxınlıqdakı digər cihazlara qoşulmaq üçün</string>
     <string name="lockscreen_access">Naxış sahəsi</string>
@@ -386,6 +411,8 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="manual_connection_title">Köhnə cihaza əl ilə qoşulun</string>
     <string name="manual_connection_title_pad">Köhnə cihazı giriş nöqtəsinə qoşun</string>
     <string name="manual_connection_title_phone">Köhnə cihazı giriş nöqtəsinə qoşun</string>
+    <string name="manual_disconnect_guest">Yeni cihaz bağlantısı kəsildi. Köçürməyə davam etmək üçün yenidən qoşulun.</string>
+    <string name="manual_disconnect_host">Köhnə cihaz bağlantısı kəsildi. Köçürməyə davam etmək üçün yenidən qoşulun.</string>
     <string name="message_request_manage_external_storage_perm">Mi Daşıyıcı onları köhnə cihazınızdan yenisinə köçürmək üçün bu cihazdakı bütün fayllara daxil olmalıdır.</string>
     <string name="message_request_package_stats_perm">Mi Daşıyıcı cihazda hansı tətbiqlərin quraşdırıldığını öyrənmək və bu tətbiqləri başqa birinə köçürmək üçün bu icazəyə ehtiyac duyur.</string>
     <string name="midnight">Gecə</string>
@@ -476,6 +503,7 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="more">Daha çox</string>
     <string name="morning">Səhər</string>
     <string name="msg_permission_desc">Mesajları digər cihazlara ötürmək üçün</string>
+    <string name="msg_permission_desc_new">SMS və MMS-ləri digər cihazlara köçürmək üçün</string>
     <string name="name_password_not_consistent">Daxil etdiyiniz Apple Kimliyi və şifrə uyğunlaşmır</string>
     <string name="need_location_permission_confirm">Tənzimləmələr</string>
     <string name="need_location_permission_summary">Mi Daşıyıcı-ya, yaxınlqıdakı cihazları tapmaq üçün məkanınıza müraciət etməsinə icazə verin.</string>
@@ -485,6 +513,20 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="need_more_memory_title">Kifayət qədər yaddaş sahəsi yoxdur</string>
     <string name="new_app_name">Yeni versiya</string>
     <string name="new_main_activity_label">Mi Daşıyıcı</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Müəllif hüquqları ilə qorunan məlumatlar</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Sistem tətbiqləri və digər brendlərin məlumatları Mi Daşıyıcı ilə uyğun olmaya bilər və köçürülə bilməz.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Yeni cihaz ilə uyğun olmayan tətbiqlər və məlumatlar köçürülə bilməz.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Bəzi telefon tənzimləmələri və məlumatları SIM kartınıza bağlıdır. SIM kartı yeni cihaza daxil etmək bu məlumatları köçürəcək.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Bəzi tətbiq məlumatları</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. İkinci sahə məlumatları</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. İkinci sahə məlumatları</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Gizlilik və təhlükəsizliklə bağlı məlumatlar</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Bank kartları və avtomobil açarları köçürülə bilməz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Temalar və divar kağızları ekran dəqiqliyi ilə məhdudlaşdırıla bilər və bəzi modellər arasında köçürülə bilməz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Bluetooth protokol məhdudiyyətləri səbəbindən Bluetooth qulaqlıqları, dinamiklər və digər cihazların qoşulma qeydləri köçürülə bilməz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Enerji sərfi, ekran vaxtı və mobil məlumat istifadəsi kimi əməliyyat statistikaları köçürülə bilməz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Müəyyən bir cihaz modeli ilə əlaqəli məlumatlar</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Hansı məlumatlar Mi Daşıyıcı vasitəsilə köçürülə bilməz?</string>
     <string name="new_trans_intro_desc_2">Mi Daşıyıcı-nın yeni versiyasına şifrə daxil etməyə ehtiyac yoxdur. Köhnə cihazınızda Mi Daşıyıcı-nı açın, \"Göndərənəm\" seçiminə toxunun və qoşulmaq üçün giriş nöqtənin adına toxunun.</string>
     <string name="new_trans_intro_desc_2_pad">Mi Daşıyıcının yeni versiyasında giriş nöqtəsinin şifrəsini daxil etməyə ehtiyac yoxdur. Sadəcə köhnə cihazınızda Mi Daşıyıcını açın, \"Göndərənəm\"-ə toxunun və qoşulmaq üçün giriş nöqtəsinin adına toxunun.</string>
     <string name="new_trans_intro_desc_2_phone">Mi Daşıyıcının yeni versiyasında giriş nöqtəsinin şifrəsini daxil etməyə ehtiyac yoxdur. Sadəcə köhnə cihazınızda Mi Daşıyıcını açın, \"Göndərənəm\"-ə toxunun və qoşulmaq üçün giriş nöqtəsinin adına toxunun.</string>
@@ -495,18 +537,18 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="new_trans_intro_desc_6_pad">Tətbiq məlumatları köçürülə bilmir, çünki Mi Daşıyıcı Xiaomi olmayan cihazlarda lazım olan icazələrə malik deyil.</string>
     <string name="new_trans_intro_desc_6_phone">Tətbiq məlumatları köçürülə bilmir, çünki Mi Daşıyıcı Xiaomi olmayan cihazlarda lazım olan icazələrə malik deyil.</string>
     <string name="new_trans_intro_desc_7">Mi Daşıyıcı tərk etdiyiniz yerdən başladıla biləcək. Lakin, cihaz uyğunluğu ilə əlaqəli problemlər kəsilmiş köçürməni davam etdirməyinizə mane olursa, yenidən başlamalı ola bilərsiniz.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Daşıyıcı qaldığınız yerdən davam edə biləcək. Lakin, cihaz uyğunluğu problemləri dayandırılmış köçürməni davam etdirməyə mane olarsa, yenidən başlatmalı ola bilərsiniz.</string>
     <string name="new_trans_intro_desc_8">Köhnə cihazınızdan WeChat tarixçəsi köçürmə ərzində yeni cihazınızın Wechat tarixçəsinə yazacaq.</string>
+    <string name="new_trans_intro_desc_8_pad">Köhnə cihazınızdakı WeChat tarixçəsi köçürmə zamanı yeni cihazınızdakı WeChat tarixçəsinin üzərinə yazılacaq.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Yeni cihazınızda Mi Daşıyıcı-nın güncəl olduğundan əmin olun. Siz Play Store-da Mi Daşıyıcı-nı ən son versiyasını endirə və ya bura klikləyə bilərsiniz: %2$s.
 %3$d. Əgər giriş nöqtəsi hələ də Mi Daşıyıcı-da görünməyəcəksə, Wi-Fi tənzimləmələrini açın və onu orada görə biləcəyinizi yoxlayın. Əgər belədirsə, Mi Daşıyıcı-ya qayıdın və giriş nöqtəsinin adına toxunun."</string>
     <string name="new_trans_intro_desc_new_click">Elementlər köçürülə bilmir</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdakı Mi Daşıyıcının yenilənmiş olduğundan əmin olun. Mi Daşıyıcının ən son versiyasını Google Play-dən endirə və ya <Data>&lt;a href=%2$s>buraya toxuna bilərsiniz&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Giriş nöqtəsi hələ də Mi Daşıyıcıda görünmürsə, Wi-Fi tənzimləmələrini açın və orada görünüb-görünmədiyini yoxlayın. Əgər görünürsə, Mi Daşıyıcıya geri qayıdın və giriş nöqtəsinin adına toxunun."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdakı Mi Daşıyıcının yenilənmiş olduğundan əmin olun. Mi Daşıyıcının ən son versiyasını GetApps-dan endirə və ya <Data>&lt;a href=%2$s>buraya toxuna bilərsiniz&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Giriş nöqtəsi hələ də Mi Daşıyıcıda görünmürsə, WLAN tənzimləmələrini açın və orada görünüb-görünmədiyini yoxlayın. Əgər görünürsə, Mi Daşıyıcıya geri qayıdın və giriş nöqtəsinin adına toxunun."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdakı Mi Daşıyıcının yenilənmiş olduğundan əmin olun. Mi Daşıyıcının ən son versiyasını Google Play-dən endirə və ya <Data>&lt;a href=%2$s>buraya toxuna bilərsiniz&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Giriş nöqtəsi hələ də Mi Daşıyıcıda görünmürsə, Wi-Fi tənzimləmələrini açın və orada görünüb-görünmədiyini yoxlayın. Əgər görünürsə, Mi Daşıyıcıya geri qayıdın və giriş nöqtəsinin adına toxunun."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdakı Mi Daşıyıcının yenilənmiş olduğundan əmin olun. Mi Daşıyıcının ən son versiyasını GetApps-dan endirə və ya <Data>&lt;a href=%2$s>buraya toxuna bilərsiniz&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Giriş nöqtəsi hələ də Mi Daşıyıcıda görünmürsə, WLAN tənzimləmələrini açın və orada görünüb-görünmədiyini yoxlayın. Əgər görünürsə, Mi Daşıyıcıya geri qayıdın və giriş nöqtəsinin adına toxunun."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Yeni cihazınızdakı Mi Daşıyıcının yenilənmiş olduğundan əmin olun. Mi Daşıyıcının ən son versiyasını Google Play Store-dan endirə və ya <Data>&lt;a href=%2$s>buraya toxuna bilərsiniz&lt;/a></Data>".
+%3$d. Giriş nöqtəsi hələ də Mi Daşıyıcıda görünmürsə, Wi-Fi tənzimləmələrini açın və orada görünüb-görünmədiyini yoxlayın. Əgər görünürsə, Mi Daşıyıcıya geri qayıdın və giriş nöqtəsinin adına toxunun."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Yeni cihazınızdakı Mi Daşıyıcının yenilənmiş olduğundan əmin olun. Mi Daşıyıcının ən son versiyasını Google Play-dən endirə və ya <Data>&lt;a href=%2$s>buraya toxuna bilərsiniz&lt;/a></Data>".
+%3$d. Giriş nöqtəsi hələ də Mi Daşıyıcıda görünmürsə, Wi-Fi tənzimləmələrini açın və orada görünüb-görünmədiyini yoxlayın. Əgər görünürsə, Mi Daşıyıcıya geri qayıdın və giriş nöqtəsinin adına toxunun."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Yeni cihazınızdakı Mi Daşıyıcının yenilənmiş olduğundan əmin olun. Mi Daşıyıcının ən son versiyasını GetApps-dan endirə və ya <Data>&lt;a href=%2$s>buraya toxuna bilərsiniz&lt;/a></Data>".
+%3$d. Giriş nöqtəsi hələ də Mi Daşıyıcıda görünmürsə, WLAN tənzimləmələrini açın və orada görünüb-görünmədiyini yoxlayın. Əgər görünürsə, Mi Daşıyıcıya geri qayıdın və giriş nöqtəsinin adına toxunun."</string>
     <string name="new_trans_intro_desc_old">%d. Giriş nöqtəsi hələ də Mi Daşıyıcı-da görünməyəcəksə, Wi-Fi tənzimləmələrini açın və orada görə biləcəyinizi yoxlayın. Əgər belədirsə, Mi Daşıyıcı-ya qayıdın və giriş nöqtəsinin adına toxunun.</string>
     <string name="new_trans_intro_question_1">%d. Niyə köhnə cihazda yeni cihazın qaynar nöqtəsini görə bilmirəm?</string>
     <string name="new_trans_intro_question_1_pad">%d. Niyə köhnə cihazda yeni cihazın giriş nöqtəsini görə bilmirəm?</string>
@@ -535,15 +577,22 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="not_selectable">Seçmək mümkün deyil</string>
     <string name="not_support_data_content1">%d. Cihaz modelinə xas olan elementlər</string>
     <string name="not_support_data_content2">%d. Tətbiq məlumatı</string>
+    <string name="not_support_data_content2_new">%d. Müəllif hüquqları ilə qorunan məlumatlar</string>
     <string name="not_support_data_content3">%d. İkinci sahə məlumatları</string>
+    <string name="not_support_data_content3_new">%d. Gizlilik və təhlükəsizliklə bağlı məlumatlar</string>
     <string name="not_support_data_content4">%d. İkili tətbiqlər</string>
+    <string name="not_support_data_content4_new">%d. Bəzi tətbiq məlumatları</string>
     <string name="not_support_data_content_2">%d. Seçilmiş tətbiqlər və tətbiq məlumatı</string>
     <string name="not_support_data_link">Köçürülməyən elementlər</string>
     <string name="not_support_data_summary1">Temalar, divar kağızları, nəqliyyat kartları, və açar kartlar Mi Daşıyıcı istifadə edərək köçürülə bilməz.</string>
+    <string name="not_support_data_summary1_new">Bank kartları və avtomobil açarları köçürülə bilməz. Temalar və divar kağızları ekran dəqiqliyi ilə məhdudlaşdırıla bilər və bəzi modellər arasında köçürülə bilməz.</string>
     <string name="not_support_data_summary2">Tətbiq məlumatı (söhbət tarixçəsi kimi) köçürülə bilməz.</string>
+    <string name="not_support_data_summary2_new">Xiaomi Hesabınız vasitəsilə satın alınan və müəllif hüquqları ilə qorunan temalar, şriftlər, böyük ikonlar, Həmişə açıq ekran temaları və vidcetlər köçürülə bilməz. Bunun əvəzinə, yeni cihazda Xiaomi Hesabınızla daxil olun və onları yenidən endirin.</string>
     <string name="not_support_data_summary3">Sistem məhdudiyyətləri səbəbiylə, ikinci sahədəki elementlər Mi Daşıyıcı istifadə edilərək köçürülə bilməz.</string>
+    <string name="not_support_data_summary3_new">Barmaq izləri, üz məlumatı və cihaz sahibliyi, maliyyə təhlükəsizliyi və istifadəçi gizliliyi ilə bağlı digər məlumatlar köhnə cihazdan heç bir şəkildə köçürülə bilməz. Buraya maliyyə tətbiqlərindən (məsələn, mobil bankçılıq) olan məlumatlar da daxildir.</string>
     <string name="not_support_data_summary4">İkili tətbiqlər və onların məlumatları da ötürülə bilməz. Bununla birlikdə, əsas tətbiqləri köçürə bilərsiniz.</string>
     <string name="not_support_data_summary_2">Bəzi tətbiqlər Play Store gizlilik məhdudiyyətləri səbəbindən köçürülə bilməz.</string>
+    <string name="not_support_data_summary_new">Sistem tətbiqləri və digər brendlərin məlumatları Mi Daşıyıcı ilə uyğun olmaya bilər və köçürülə bilməz.</string>
     <string name="not_support_data_title">Köçürülməyən elementlər</string>
     <string name="note">Qeydlər</string>
     <string name="nothing_chosen">Əvvəlcə element seçin</string>
@@ -603,27 +652,39 @@ WeChat-ı açın və söhbətləri köçürmək üçün Mən > Tənzimləmələr
     <string name="permission_alert_message_usage_access">Mi Daşıyıcı, tətbiq istifadəsi statistikalarına müraciət etməlidir. Mi Daşıyıcıya tələb edilən icazələri Tənzimləmələr menyusundan verin.</string>
     <string name="permission_alert_title">İcazələr tələb edilir</string>
     <string name="permission_bluetooth_summary">Yaxınlıqdakı mövcud cihazları tapmaq üçün</string>
+    <string name="permission_bluetooth_summary_new">Yaxınlıqdakı mövcud cihazları tapmaq üçün</string>
     <string name="permission_bluetooth_title">Bluetooth açılır və söndürülür</string>
     <string name="permission_calendar_summary">Təqvim hadisələrini köçürmək üçün</string>
     <string name="permission_calendar_title">Təqvimə giriş</string>
     <string name="permission_calender_summary">Hadisələri köhnə cihazdan yenisinə köçürmək üçün</string>
     <string name="permission_calender_summary_global">Təqvim tədbirlərini yeni cihaza köçürmək üçün</string>
+    <string name="permission_calender_summary_new">Tədbirləri köhnə cihazdan yeni cihaza köçürmək üçün</string>
     <string name="permission_calender_title">Təqvim tədbirlərinə müraciət</string>
+    <string name="permission_calender_title_new">Təqvim tədbirlərinə giriş</string>
     <string name="permission_call_log_summary">Zəng tarixçəsini yeni cihazınıza köçürmək üçün</string>
+    <string name="permission_call_log_summary_new">Zəng tarixçəsini yeni cihazınıza köçürmək üçün</string>
     <string name="permission_call_log_title">Zəng tarixçəsinə müraciət edilir</string>
     <string name="permission_contacts_summary">Kontaktları yeni cihazınıza köçürmək üçün</string>
+    <string name="permission_contacts_summary_new">Kontaktları yeni cihazınıza köçürmək üçün</string>
     <string name="permission_contacts_title">Kontaktlara müraciət</string>
     <string name="permission_grant_request">Bu elementi köçürə bilmək üçün Mi Daşıyıcı \"%1$s\" icazəsi lazımıdır.</string>
     <string name="permission_locale_summary">Yaxınlıqdakı cihazlara qoşulmaq üçün</string>
     <string name="permission_locale_title">Məkana müraciət edilir</string>
+    <string name="permission_locale_title_new">Məkana giriş</string>
     <string name="permission_message_summary">Mesajları yeni cihazınıza köçürmək üçün</string>
+    <string name="permission_message_summary_new">Mesajları yeni cihazınıza köçürmək üçün</string>
     <string name="permission_message_title">SMS məzmununa daxil olunur</string>
     <string name="permission_request_title">\"%1$s\" icazə tələb edilir</string>
     <string name="permission_setting_button">Tənzimləmələr</string>
     <string name="permission_storage_summary">Faylları və şəkilləri yeni cihazınıza köçürmək üçün</string>
+    <string name="permission_storage_summary_new">Faylları və şəkilləri yeni cihazınıza köçürmək üçün</string>
     <string name="permission_storage_title">Cihazınızda saxlanan fayllara və şəkillərə daxil olmaq və yaddaşda saxlamaq üçün</string>
+    <string name="permission_storage_title_new">Yaddaşa giriş</string>
     <string name="permission_wifi_summary">Elementləri yeni cihazınıza köçürmək üçün</string>
+    <string name="permission_wifi_summary_new">Elementləri yeni cihazınıza köçürmək üçün</string>
     <string name="permission_wifi_title">Wi-Fi açılır və söndürülür</string>
+    <string name="permission_wifi_title_new">Wi-Fi-i açmaq və bağlamaq</string>
+    <string name="permission_wifi_title_new_china">WLAN-ı açmaq və bağlamaq</string>
     <string name="pm">GS</string>
     <string name="privacy_agree">Qəbul et</string>
     <string name="privacy_cancel">Rədd et</string>
@@ -710,6 +771,7 @@ Daxilə köçürülə bilməyən məlumatlar yenidən daxilə köçürülməlidi
     <string name="scanner_quit_alert_message_phone">İndi Mi Daşıyıcıdan çıxsanız, iki cihazı yenidən qoşmalı olacaqsınız. Hər halda çıxılsın?</string>
     <string name="scanner_quit_alert_title">İndi çıxılsın?</string>
     <string name="scanner_send_dialog_btn">Başa düşdüm</string>
+    <string name="scanner_send_dialog_btn_i_know">Başa düşdüm</string>
     <string name="scanner_send_dialog_message">Köçürmə ərzində Wi-Fi-ı söndürməyin və ya şəbəkələr arasında dəyişdirməyin.</string>
     <string name="scanner_size_selected">Seçildi: %s</string>
     <string name="scanner_subtitle_prd">Hər bir elementi yoxlamadan və köçürmə prosesinə başlamazdan əvvəl aşağıdakı məlumatları diqqətlə oxuyun.</string>
@@ -717,6 +779,7 @@ Daxilə köçürülə bilməyən məlumatlar yenidən daxilə köçürülməlidi
     <string name="scanner_title_prd">Mühim informasiya</string>
     <string name="scanner_title_tip">Köçürmək üçün element seçin</string>
     <string name="scanner_wechat_overwrite_hit">Üçüncü tərəf tətbiq məhdudiyyətləri səbəbiylə, yeni cihazdakı söhbət tarixi və digər tətbiq məlumatı köçürmə tamamlandıqdan sonra köhnəsi ilə əvəzlənəcəkdir.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Üçüncü tərəf tətbiq məhdudiyyətlərinə görə, köçürmə tamamlandıqdan sonra yeni cihazınızdakı söhbət tarixçələri və digər tətbiq məlumatları köhnə cihazdakılarla əvəz olunacaq.</string>
     <string name="searching_for_new_device">Yeni cihaz axtarılır…</string>
     <string name="searching_for_new_device_pad">Yeni cihaz axtarılır…</string>
     <string name="searching_for_new_device_phone">Yeni cihaz axtarılır…</string>
@@ -847,27 +910,42 @@ Daxilə köçürülə bilməyən məlumatlar yenidən daxilə köçürülməlidi
     <string name="time_spent">Vaxt: %1$s</string>
     <string name="tips_button_hint">İlk olaraq təsdiq etmək üçün hər bir elementi yoxla</string>
     <string name="tips_cover_content">Davam etsən bu məlumatın (çat tarixçəsi daxil olmaqla) üzərindən yazılacaq.</string>
+    <string name="tips_cover_content_pad">Əgər davam etsəniz, bu məlumat (söhbət tarixçələri daxil olmaqla) üzərinə yazılacaq.</string>
     <string name="tips_cover_content_tablet">Davam etsən bu məlumatın (çat tarixçəsi daxil olmaqla) üzərindən yazılacaq.</string>
     <string name="tips_cover_title">%1$d. Yeni cihazda aşağıdakı tətbiqlər üçün məlumat artıq var.</string>
+    <string name="tips_cover_title_pad">%1$d. Yeni cihazda aşağıdakı tətbiqlər üçün artıq məlumat mövcuddur.</string>
     <string name="tips_cover_title_tablet">%1$d. Yeni cihazda aşağıdakı tətbiqlər üçün məlumat artıq var.</string>
     <string name="tips_dual_app_content">İkili tətbiqlər köçürülə bilmir. Yalnız əsas tətbiq və onun məlumatları köçürülə bilir.</string>
     <string name="tips_dual_app_title">%d. Aşağıdakı tətbiqlər ikili tətbiqlərdir.</string>
+    <string name="tips_dual_app_title_new">%d. İkili tətbiqlərin məlumatlarını köçürmək mümkün deyil.</string>
     <string name="tips_hot_content">Bu normaldır. Köçürmə bitdikdən sonra cihaz soyuyacaq.</string>
+    <string name="tips_hot_content_new">Bu normaldır. Köçürmə tamamlandıqdan sonra cihazınız soyuyacaq.</string>
     <string name="tips_hot_title">%d. Cihazın köçürmə zamanı qıza bilər.</string>
+    <string name="tips_hot_title_content">%d. Cihazınız isinə bilər.</string>
     <string name="tips_private_space_content">Sistem məhdudiyyətləri səbəbindən, İkinci sahə məlumatı köçürülə bilmir.</string>
+    <string name="tips_private_space_content_pad">Bu, sistem məhdudiyyətlərinə görədir.</string>
+    <string name="tips_private_space_content_phone">Bu, sistem məhdudiyyətlərinə görədir.</string>
     <string name="tips_private_space_content_tablet">Sistem məhdudiyyətləri səbəbindən, İkinci sahə məlumatı köçürülə bilmir.</string>
     <string name="tips_private_space_title">%d. İkinci sahə aktivdir.</string>
+    <string name="tips_private_space_title_pad">%d. İkinci sahənin məlumatlarını köçürmək mümkün deyil.</string>
+    <string name="tips_private_space_title_phone">%d. İkinci sahənin məlumatlarını köçürmək mümkün deyil.</string>
     <string name="tips_private_space_title_tablet">%d. İkinci sahə aktivdir.</string>
     <string name="tips_prudent_operation_content">Əlaqənin kəsilməsi köçürməni dayandıracaq.</string>
     <string name="tips_prudent_operation_title">%d. Wi-Fi Giriş nöqtəsini dəyişmə və ya söndürmə.</string>
+    <string name="tips_prudent_operation_title_new">%d. Wi-Fi giriş nöqtəsini bağlamayın və ya dəyişdirməyin.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. WLAN giriş nöqtəsini bağlamayın və ya dəyişdirməyin.</string>
     <string name="tips_prudent_operation_title_overseas">%d. WLAN Giriş nöqtəsini dəyişmə və ya söndürmə.</string>
     <string name="tips_secret_content_one">Köhnə cihazdakı (%1$s) bəzi şəxsi elementlər köçürülə bilmir. Onları köçürə bilmək üçün şəxsi qovluqdan çıxar.</string>
+    <string name="tips_secret_content_one_new">Köhnə cihazdakı (%1$s) bəzi şəxsi elementləri köçürmək mümkün deyil. Onları köçürə bilmək üçün şəxsi qovluqdan silin.</string>
     <string name="tips_secret_content_three">Köhnə cihazdakı (%1$s, %2$s, %3$s) bəzi şəxsi elementlər köçürülə bilmir. Onları köçürə bilmək üçün şəxsi qovluqdan çıxar.</string>
+    <string name="tips_secret_content_three_new">Köhnə cihazdakı (%1$s, %2$s, %3$s) bəzi şəxsi elementləri köçürmək mümkün deyil. Onları köçürə bilmək üçün şəxsi qovluqdan silin.</string>
     <string name="tips_secret_content_two">Köhnə cihazdakı (%1$s, %2$s) bəzi şəxsi elementlər köçürülə bilmir. Onları köçürə bilmək üçün şəxsi qovluqdan çıxar.</string>
+    <string name="tips_secret_content_two_new">Köhnə cihazdakı (%1$s, %2$s) bəzi şəxsi elementləri köçürmək mümkün deyil. Onları köçürə bilmək üçün şəxsi qovluqdan silin.</string>
     <string name="tips_secret_file">fayllar</string>
     <string name="tips_secret_gallery">albomlar</string>
     <string name="tips_secret_note">qeydlər</string>
     <string name="tips_secret_title">%d. Bəzi şəxsi elementlər köçürülə bilmir.</string>
+    <string name="tips_secret_title_content">%d. Şəxsi elementləri köçürmək mümkün deyil.</string>
     <string name="tips_subtitle">Davam etməzdən əvvəl aşağıdakı xatırlatmaları oxu və təsdiq et.</string>
     <string name="title_compatibility_mode">Uyğunliuq rejimini aktiv et</string>
     <string name="title_open_wlan">Wi-Fi-ı aç</string>
@@ -909,10 +987,12 @@ Mi Daşıyıcını yükləyin və quraşdırın."</string>
     <string name="trans_send_time_remained_default">Göndərildi: %1$s</string>
     <string name="trans_show_qr_code_label">Köhnə cihazda Mi Daşıyıcı-nı açın</string>
     <string name="trans_show_qr_code_label_for_pad">Köhnə cihazda Mi Daşıyıcı-nı açın</string>
+    <string name="trans_show_qr_code_label_pad">Köhnə cihazda Mi Daşıyıcını açın</string>
     <string name="trans_sync_transfer_data_list">Köhnə cihaza köçürmək üçün elementlər seçin</string>
     <string name="trans_sync_transfer_data_list_apple">Apple cihazınızdan elementləri köçürün</string>
     <string name="trans_sync_transfer_data_list_hint">Bir saniyə…</string>
     <string name="trans_sync_transfer_data_list_pad">Köçürmək üçün köhnə cihazdakı elementləri seçin</string>
+    <string name="trans_sync_transfer_data_list_phone">Köhnə cihazda köçürmək üçün elementləri seçin</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Köhnə cihazınızda elementləri seçin və \"Göndər\" üzərinə klikləyin.</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Köhnə cihazınızda elementləri seçin və \"Göndər\" üzərinə klikləyin.</string>
     <string name="trans_time_format_second">%d dəqiqədən az</string>
@@ -935,6 +1015,7 @@ Mi Daşıyıcını yükləyin və quraşdırın."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Köçürmə əməliyyatı yaddaşda saxlanılacaq. Növbəti dəfə iki cihazı qoşduğunuzda, qaldığınız yerdən davam edəcəksiniz.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Köçürmə prosesi yadda saxlanılacaq. Növbəti dəfə iki cihazı qoşduqda köçürməni qaldığınız yerdən davam etdirə biləcəksiniz.</string>
     <string name="transfer_quit_alert_title">Diqqət</string>
     <string name="transfer_snap_error">Köçürülə bilmədi</string>
     <string name="transfer_snap_new_receiving">Qəbul edilir…</string>

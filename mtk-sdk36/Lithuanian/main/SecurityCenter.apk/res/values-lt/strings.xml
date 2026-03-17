@@ -196,6 +196,7 @@
     <string name="allow_onetime">Leisti šį kartą</string>
     <string name="already_close_gamebooster">„Turbo žaidimai“ išjungti</string>
     <string name="am">Priešpiet</string>
+    <string name="anitispam_intercept_record">Blokuojamų sąrašo istorija</string>
     <string name="anti_disturb_msg_detail">Išjungti visus pranešimus, išskyrus įeinantiems skambučiams</string>
     <string name="anti_disturb_msg_title">Netrukdyti</string>
     <string name="antispam_add_black_number_message">Jūsų įvestas numeris yra trumpas. Užblokuoti visus numerius, prasidedančius šiais skaitmenimis?</string>
@@ -1024,6 +1025,9 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="call_delete_all_hint">Trinti užblokuotus skambučius?</string>
     <string name="call_delete_hint">Ištrinti visus užblokuotus šio numerio skambučius?</string>
     <string name="call_delete_title">Ištrinti skambučių istoriją</string>
+    <string name="call_empty_number">Nematomi numeriai</string>
+    <string name="call_forwarding_block">Peradresuoti skambučiai</string>
+    <string name="call_intercept_settings">Iškviesti blokuojamųjų sąrašo parametrus</string>
     <string name="call_notification_answer_action">Atsakyti</string>
     <string name="call_notification_answer_video_action">Vaizdo įrašas</string>
     <string name="call_notification_decline_action">Atmesti</string>
@@ -1032,6 +1036,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="call_notification_ongoing_text">Vykstantis skambutis</string>
     <string name="call_notification_screening_text">Gaunamojo skambučio tikrinimas</string>
     <string name="call_oversea_block">Blokuoti skambučius iš užsienio</string>
+    <string name="call_overseas_block">Tarptautiniai skambučiai</string>
     <string name="call_prefix">Blokuojamų priešdėlių sąrašas</string>
     <string name="call_private">Blokuoti skambučius iš paslėptų numerių</string>
     <string name="call_stranger_block">Blokuoti skambučius iš nepažįstamųjų</string>
@@ -1041,12 +1046,20 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="cancel">Atšaukti</string>
     <string name="cancel_button">Atšaukti</string>
     <string name="car_sickness_relief_comment_text">Kai aptinkamas transporto priemonės judėjimas, abiejose ekrano pusėse rodomi taškai, nurodantys, ar transporto priemonė juda, o tai gali padėti atitolinti judesio sukelto pykinimo atsiradimą.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Abiejose ekrano pusėse bus rodomi taškai, rodantys transporto priemonės judėjimą ir tai gali padėti išvengti užsupimo.
+
+Šią funkciją galite įjungti ir išjungti valdymo centre."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Abiejose ekrano pusėse bus nuolat rodomi taškai, rodantys transporto priemonės judėjimą ir tai gali padėti išvengti užsupimo.
+
+Šią funkciją galite įjungti ir išjungti valdymo centre."</string>
     <string name="car_sickness_relief_comment_text_opened">"Abiejose ekrano pusėse bus rodomi taškai, rodantys transporto priemonės judėjimą ir tai gali padėti išvengti užsupimo.
 
 Šią funkciją galite įjungti ir išjungti valdymo centre."</string>
     <string name="car_sickness_relief_example_text_1">Kai transporto priemonė pagreitėja arba sulėtėja</string>
     <string name="car_sickness_relief_example_text_2">Kai transporto priemonė pasuka arba persirikiuoja</string>
     <string name="car_sickness_relief_exit_text">Kinetozės sukelto pykinimo palengvinimas nustojo veikti</string>
+    <string name="car_sickness_relief_notification_text_close">Išjungti</string>
+    <string name="car_sickness_relief_notification_text_opened">Įjungti</string>
     <string name="car_sickness_relief_start_text">Kinetozės sukelto pykinimo palengvinimas</string>
     <string name="car_sickness_remind_time_title">Judėjimo rodikliai</string>
     <string name="car_sickness_title">Judėjimo sukelto pykinimo palengvinimas</string>
@@ -1879,7 +1892,7 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
 %3$d. Ši funkcija palaikoma tik žemyninėje Kinijoje.
 %4$d. Ši funkcija veikia tik 5G-SA tinkluose."</string>
     <string name="function_shield_auto_bright">Išjungti automatinį ryškumą</string>
-    <string name="function_shield_eye_shield">Išjungti skaitymo režimą</string>
+    <string name="function_shield_eye_shield">Išjunkite akių komforto režimą</string>
     <string name="function_shield_pull_notification_bar">Neatidaryti pranešimų juostos</string>
     <string name="function_shield_settings_title">Riboti šias sistemines funkcijas žaidimų metu</string>
     <string name="function_shield_summary">Riboti pasirinktas sistemines funkcijas žaidimų metu</string>
@@ -2753,6 +2766,12 @@ perjunkite į gulsčią režimą!"</string>
     <string name="install_title">Įdiegimas per USB</string>
     <string name="install_type_instant">Greitosios programos</string>
     <string name="installing">Įdiegiama</string>
+    <string name="intercept_all_mark_calls">Blokuoti visus skambučius, pažymėtus kaip „%s“?</string>
+    <string name="intercept_calls_nofify_hide_text">Norėdami nustatyti blokavimo taisykles kitiems pažymėtiems numeriams, spustelėkite čia</string>
+    <string name="intercept_calls_notify_title">Taip pažymėti skambučiai bus užbaigti automatiškai. Blokuoti dabar?</string>
+    <string name="intercept_garbage_msg">Šlamšto žinutės</string>
+    <string name="intercept_record">Istorija</string>
+    <string name="intercept_strange_msg">Žinutės iš nepažįstamų</string>
     <string name="international_Ad">Reklama</string>
     <string name="international_roaming_setting">Tarptinklinis duomenų ryšys</string>
     <string name="intl_app_manager_card_permission_title">Privatumas ir leidimai</string>
@@ -2947,6 +2966,7 @@ atsako"</string>
     <string name="mark_harass_block">Pranešta kaip kenksmingi veiksmai</string>
     <string name="mark_harass_block_large">Piktnaudžiavimas</string>
     <string name="mark_harass_time_setting">Blokuoti piktnaudžiavimu pažymėtus numerius tam tikrą kartų kiekį</string>
+    <string name="mark_num_open_intercept">Blokuoti</string>
     <string name="mark_number_agent">Agentas</string>
     <string name="mark_number_fraud">Apgavystė</string>
     <string name="mark_number_harass">Įžeidinėjimas</string>
@@ -4805,11 +4825,11 @@ Atšaukti sutikimą dabar?"</string>
     <string name="prompt_all">Klausti dėl visų</string>
     <string name="prompt_input_time_illegal">Negalima nustatyti šio laiko. Pakeiskite jį ir pabandykite dar kartą</string>
     <string name="protect_eye_dont_open">Ne dabar</string>
-    <string name="protect_eye_hint_summry">Įjunkite skaitymo režimą, kad skaityti būtų patogiau</string>
-    <string name="protect_eye_hint_title">Akių komfortas</string>
+    <string name="protect_eye_hint_summry">Geresnei skaitymo patirčiai įjunkite akių komforto režimą</string>
+    <string name="protect_eye_hint_title">„Xiaomi EyeCare Shield“</string>
     <string name="protect_eye_open">Įjungti</string>
-    <string name="protect_eye_opened_summry">Keiskite nuostatas skiltyje Parametrai > Ekrano ryškumas > Akių komfortas</string>
-    <string name="protect_eye_opened_title">Skaitymo režimas įjungtas</string>
+    <string name="protect_eye_opened_summry">Redaguokite nuostatas skiltyje Parametrai > Ekranas ir ryškumas > „Xiaomi EyeCare Shield“</string>
+    <string name="protect_eye_opened_title">Akių komforto režimas įjungtas</string>
     <string name="protocol_exception_title">Tinklo protokolo diagnostika</string>
     <string name="protocol_loop_back_exception_summary">Nepavyko atlikti diagnostikos. Galite pasinaudoti programa „Ataskaita“, kad apie tai praneštumėte.</string>
     <string name="province_selected_talkback" />
@@ -4873,6 +4893,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="repeat_type">Kartoti</string>
     <string name="repeated_marked_number_summary">Neblokuoti antrojo skambučio iš to paties pranešto numerio %d minutes</string>
     <string name="repeated_marked_number_title">Neblokuoti pasikartojančių skambučių nuo praneštų numerių</string>
+    <string name="repeated_unknown_number_summary">Neblokuoti antrojo skambučio iš to paties nežinomo numerio %d minutes</string>
     <string name="replace_dns">Automatiškai pakeisti DNS</string>
     <string name="report">Pranešti</string>
     <string name="report_error">Nepavyko pranešti apie žinutę</string>
@@ -5113,6 +5134,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="sms_detail_fragment_title_traffic">Liko duomenų</string>
     <string name="sms_filter">Išmanusis Filtras</string>
     <string name="sms_guard_alert">Pakeista numatytoji žinučių programėlė. „Xiaomi Messaging“ negalės blokuoti SMS šiukšlių.</string>
+    <string name="sms_intercept_settings">Siųsti žinutę į blokuojamųjų sąrašo parametrus</string>
     <string name="sms_keywords">Raktažodžių blokavimas</string>
     <string name="sms_malicious_url">Blokuoti SMS su kenkėjiškais URL</string>
     <string name="sms_prefix">Blokuojami priešdėliai</string>
@@ -5314,9 +5336,26 @@ Atšaukti sutikimą dabar?"</string>
     <string name="st_call_intercept_reported">Blokuoti skambučius iš praneštų numerių</string>
     <string name="st_call_intercept_stranger">Blokuoti skambučius iš nepažįstamųjų</string>
     <string name="st_call_intercept_unknown">Blokuoti skambučius iš paslėptų numerių</string>
+    <string name="st_call_mark_agent">Nekilnojamas turtas</string>
+    <string name="st_call_mark_agent_intercept">Nekilnojamas turtas</string>
+    <string name="st_call_mark_decoration">Namų renovacija</string>
+    <string name="st_call_mark_decoration_intercept">Namų renovacija</string>
+    <string name="st_call_mark_edu">Švietimas</string>
+    <string name="st_call_mark_edu_intercept">Švietimas</string>
+    <string name="st_call_mark_high_risk">Didelė rizika</string>
+    <string name="st_call_mark_high_risk_intercept">Didelė rizika</string>
+    <string name="st_call_mark_insurance">Investicijos</string>
+    <string name="st_call_mark_insurance_intercept">Investicijos</string>
+    <string name="st_call_mark_loan">Hipoteka</string>
+    <string name="st_call_mark_loan_intercept">Hipoteka</string>
+    <string name="st_call_mark_sell">Reklamos</string>
+    <string name="st_call_mark_sell_intercept">Reklamos</string>
     <string name="st_call_other_group">Kitos</string>
     <string name="st_call_settings">Blokuojamų skambučių sąrašas</string>
     <string name="st_call_stranger_group">Blokuoti skambučius iš nepažįstamųjų</string>
+    <string name="st_call_stranger_inercept_local">Blokuoti nežinomus numerius</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Skambučiai iš bet kurio numerio, kuris neįtrauktas į jūsų išimtis, bus užblokuoti. Blokuoti dabar?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Skambučiai iš bet kurio numerio, kuris neįtrauktas į jūsų išimtis arba kontaktus, bus užblokuoti. Blokuoti dabar?</string>
     <string name="st_confirm_call_all_dialog_summary">Skambučiai iš bet kurio numerio, kuris neįtrauktas į išimtis, bus užblokuoti. Įjungti dabar?</string>
     <string name="st_confirm_dialog_btn_open">Blokuoti</string>
     <string name="st_confirm_dialog_summary_oversea_call">DI skambučiai iš užsienio telefono numerių bus blokuojami.</string>
@@ -5328,9 +5367,11 @@ Atšaukti sutikimą dabar?"</string>
     <string name="st_hint_add_head_number">Įveskite numerio priešdėlį</string>
     <string name="st_hint_add_phonenumber">Įveskite telefono numerį</string>
     <string name="st_hint_operatelist">Atrodo ši taisyklė jau yra</string>
+    <string name="st_intercept_dialog_title">Dėmesio</string>
     <string name="st_mark_call_intercept_threshold_summary">Automatiškai blokuoti numerius, apie kuriuos pranešta tam tikrą skaičių kartų</string>
     <string name="st_mark_call_intercept_threshold_title">Blokuoti slenkstį</string>
     <string name="st_mark_number_group">Blokuoti skambučius iš praneštų numerių</string>
+    <string name="st_mark_number_net_group">Blokuoti praneštus numerius</string>
     <string name="st_message_SMS_AntiSpam">Blokuoti SMS</string>
     <string name="st_message_SMSpass">Leisti SMS</string>
     <string name="st_message_phone_AntiSpam">Blokuoti skambučius</string>
@@ -5343,13 +5384,26 @@ Atšaukti sutikimą dabar?"</string>
     <string name="st_msg_stranger_group">Blokuoti pranešimus iš nepažįstamųjų</string>
     <string name="st_settings_name">Blokuojamų sąrašo parametrai</string>
     <string name="st_share_settings">Naudoti SIM %d parametrus</string>
+    <string name="st_smg_intercept_all">Blokuoti visas žinutes</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">Bus užblokuotos SMS ir MMS žinutės iš bet kurio numerio ar regiono, kuris nėra jūsų išimtyse. Blokuoti dabar?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">Bus užblokuotos SMS ir MMS žinutės iš bet kurio numerio ar regiono, kuris nėra jūsų išimtyse arba kontaktuose. Blokuoti dabar?</string>
+    <string name="st_smg_intercept_network_check">Blokuoti naudojant internetinius apibrėžimus</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Šlamšto žinutės</string>
+    <string name="st_smg_intercept_other">Papildomi parametrai</string>
+    <string name="st_smg_intercept_strange">Blokuoti žinutes iš nepažįstamųjų</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Blokuoti nepažįstamųjų žinutes, kuriose yra specifinių raktažodžių</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Blokuoti žinutes iš tam tikrų numerių ir regionų</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Neblokuoti nepažįstamųjų žinučių, kuriose yra specifinių raktažodžių</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Neblokuoti jūsų išimtyse nurodytų numerių ir regionų</string>
     <string name="st_sms_intercept_oversea">Tarptautiniai SMS</string>
     <string name="st_sub_title_customize_mode_name">Vardas</string>
     <string name="st_sub_title_whiteblack_list_group">Blokuojamų sąrašas</string>
     <string name="st_sum_call_wait">Jūsų „nebuvimo“ pranešimas blokuojamam asmeniui skambės kaip skambučio užimtumo signalas.</string>
     <string name="st_summary_blacklist_numbers">Blokuoti skambučius ir žinutes iš tam tikrų numerių ir regionų</string>
     <string name="st_summary_blacklist_numbers_international">Blokuoja skambučius pagal numerį arba jo pradžią</string>
+    <string name="st_summary_intercept_blacklist_numbers">Blokuoti skambučius ir žinutes iš tam tikrų numerių ir regionų</string>
     <string name="st_summary_keywords_blacklist">Įtraukti raktinius žodžius žinučių blokavimui</string>
+    <string name="st_summary_release_whitelist_numbers">Neblokuoti jūsų išimtyse nurodytų skambučių ir žinučių</string>
     <string name="st_summary_special_numbers">Blokuoti pažymėtus telefono numerius</string>
     <string name="st_summary_whitelist_numbers">Leisti skambučius ir žinutes iš tam tikrų numerių ir regionų</string>
     <string name="st_summary_whitelist_numbers_international">Leidžia skambučius pagal numerį arba jo pradžią</string>
@@ -5384,6 +5438,8 @@ Atšaukti sutikimą dabar?"</string>
     <string name="st_title_markednumber_group">Blokuoti praneštus numerius</string>
     <string name="st_title_mode_choose_group">Blokuojamų sąrašo taisyklės</string>
     <string name="st_title_not_sim">Tuščia</string>
+    <string name="st_title_number_and_region_blacklist">Užblokuoti numeriai ir regionai</string>
+    <string name="st_title_number_and_region_whitelist">Numerių ir regionų išimtys</string>
     <string name="st_title_open_antispam">Blokuojamų sąrašas</string>
     <string name="st_title_other_group">Kiti</string>
     <string name="st_title_settings_other_group">Papildomi parametrai</string>
@@ -5545,7 +5601,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="summary_default_app">%s nėra nustatyta kaip numatytoji sistemos programa</string>
     <string name="summary_dev">Vengti kenkėjiškų programų ir apsaugoti asmeninius duomenis</string>
     <string name="summary_do_not_disturb">Įjungtas „Netrukdyti“ režimas.</string>
-    <string name="summary_eye_shield">Norėdami atstatyti numatytuosius parametrus, išjunkite skaitymo režimą.</string>
+    <string name="summary_eye_shield">Norėdami grįžti prie numatytųjų parametrų, išjunkite akių komforto režimą.</string>
     <string name="summary_find_device">Raskite ir užrakinkite jūsų prietaisą iš bet kur</string>
     <string name="summary_first_aid_kit">Išspręskite įrenginio problemas dabar</string>
     <string name="summary_flow_notification">Priminimų juostoje rodyti mėnesinę duomenų vartojimo ataskaitą</string>

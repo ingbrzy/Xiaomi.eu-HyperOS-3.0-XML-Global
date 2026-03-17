@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Нажмите для добавления слайда</string>
     <string name="add_smiley">Смайлик</string>
     <string name="add_timing">Таймер</string>
-    <string name="add_to_block_by_number">"\"%s\" добавлено
-в антиспам"</string>
-    <string name="add_to_block_by_number_failed">"Не удалось добавить \"%s\" в список заблокированных.
-Повторите попытку."</string>
-    <string name="add_to_block_by_tag">"Сообщения, содержащие \"%s\",
-добавлены в антиспам"</string>
-    <string name="add_to_block_by_tag_failed">"Не удалось добавить в список заблокированных сообщения, содержащие \"%s\".
-Повторите попытку."</string>
-    <string name="add_to_block_cta_failed">Чтобы добавить объекты в список заблокированных, предоставьте приложению Безопасность необходимые разрешения.</string>
+    <string name="add_to_block_by_number">Добавлено в Антиспам</string>
+    <string name="add_to_block_by_number_failed">Не удалось добавить в Антиспам. Повторите попытку.</string>
+    <string name="add_to_block_by_tag">Это ключевое слово добавлено в Антиспам</string>
+    <string name="add_to_block_by_tag_failed">Не удалось добавить ключевое слово в Антиспам. Повторите попытку.</string>
+    <string name="add_to_block_cta_failed">Откройте «Безопасность» и примите условия для использования этой функции</string>
     <string name="add_to_browser_favorite_failed">Не удалось добавить</string>
     <string name="add_to_browser_favorite_success">Успешно добавлено</string>
     <string name="add_to_calender">Добавить в календарь</string>
@@ -125,7 +121,7 @@
     <string name="beidou_audio_not_support_multi_recipient">Сейчас невозможно отправить голосовые сообщения нескольким получателям</string>
     <string name="beidou_cannot_receive_airmode">Turn off Airplane mode to receive messages</string>
     <string name="beidou_cannot_send_mms">"BeiDou satellite communications doesn't support MMS"</string>
-    <string name="beidou_cannot_use">Turn off Tiantong satellite communications and try again</string>
+    <string name="beidou_cannot_use">Отключите спутниковую связь Tiantong и повторите попытку</string>
     <string name="beidou_exceed_send_limit">"Can't send any more messages this month"</string>
     <string name="beidou_exceed_words_limit">Delete some characters to be able to send</string>
     <string name="beidou_from_contacts">Reply from %s</string>
@@ -135,22 +131,22 @@
     <string name="beidou_introduce">Learn more about BeiDou satellite communications</string>
     <string name="beidou_location_failed">"Couldn't get location. Go to an open area and try again."</string>
     <string name="beidou_max_support_contact_number">Add up to %d contacts</string>
-    <string name="beidou_message">BeiDou satellite messaging</string>
+    <string name="beidou_message">Спутниковые сообщения BeiDou</string>
     <string name="beidou_new_message">Отправить</string>
     <string name="beidou_open_location_service">BeiDou satellite messaging needs permission to access your location in order to work normally.</string>
-    <string name="beidou_query_remain_time">Check balance</string>
+    <string name="beidou_query_remain_time">Проверить баланса</string>
     <string name="beidou_query_remain_time_failed">"Couldn't check balance"</string>
     <string name="beidou_receive_message">Получить</string>
     <string name="beidou_satellite_sms_notification">This message was sent via BeiDou satellite communications</string>
     <string name="beidou_sim_not_support">"SIM card doesn't support BeiDou satellite messaging"</string>
     <string name="beidou_support_cta_tips">This app can also read, edit, send, and receive BeiDou satellite messages.</string>
     <string name="beidou_support_location_tips">Для использования сервисов BeiDou требуется доступ к данным о вашем местоположении</string>
-    <string name="beidou_to_contacts">Recipient: %s</string>
+    <string name="beidou_to_contacts">Получатель: %s</string>
     <string name="billing">Счета</string>
     <string name="block_messaging_entry_title">Заблокированные SMS</string>
-    <string name="block_number_message">Этот номер телефона будет добавлен в черный список. Все сообщения с этого номера будут заблокированы.</string>
+    <string name="block_number_message">После добавления все входящие вызовы и сообщения от %s будут заблокированы. Добавить сейчас?</string>
     <string name="block_support_text">Поддержка: Antiy</string>
-    <string name="block_tag_message">Все сообщения, отправленные с %s, будут заблокированы. Вы не сможете получать коды подтверждения или счета, отправленные этим сервисом.</string>
+    <string name="block_tag_message">После добавления все сообщения, содержащие ключевое слово «%s», будут заблокированы. К ним могут относиться сообщения с кодами подтверждения и информацией о заказах. Добавить сейчас?</string>
     <string name="boarding_time">Время посадки</string>
     <string name="bookmark">Добавлено в избранные</string>
     <string name="bookmark_confirm_delete_message">Удалить выбранные сообщения из избранных?</string>
@@ -236,7 +232,7 @@
     <string name="confirm_dialog_title_make_as_read">Отметить как прочитанное</string>
     <string name="confirm_export_dialog_description">Предыдущие диалоги с этим контактом больше не будут скрыты.</string>
     <string name="confirm_export_dialog_title">Удаление из личных контактов</string>
-    <string name="confirm_invalid_recipient">Got it</string>
+    <string name="confirm_invalid_recipient">Понятно</string>
     <string name="confirm_no_block_positive">Разблокировать</string>
     <string name="confirm_no_block_title">Не блокировать такие сообщения? Ранее заблокированные сообщения появятся в списке входящих.</string>
     <string name="confirm_rate_limit">Отправляется большое количество MMS. Продолжить?</string>
@@ -429,9 +425,9 @@
     <string name="fcm_fallback_notification_channel_label">Другое</string>
     <string name="fdn_check_failure">Вы можете отправлять сообщения только на номера из списка разрешенных.</string>
     <string name="feature_mx">Mi Сообщения</string>
-    <string name="feature_mx_summary"><b>Mi Message allows you to send messages to other Mi Message users over the internet without incurring charges</b>. An outgoing SMS message is required to activate this service. Your carrier will charge you for this message. Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_mx_summary"><b>Mi Сообщения позволяют вам отправлять сообщения другим пользователям Mi Сообщений через Интернет без дополнительных расходов</b>. Для активации этой службы может потребоваться отправка SMS сообщения. Ваш оператор связи будет взимать плату за это сообщение. Перед использованием этой функции ознакомьтесь и согласитесь с нашими <font color="#B3000000"><a href="http://url1">Условиями использования</a></font> и <font color="#B3000000"><a href="http://url2">Политикой конфиденциальности</a></font>.</string>
     <string name="feature_smart_sms">Смарт-сообщения</string>
-    <string name="feature_smart_sms_summary"><b>Smart Messaging provides Sender ID recognition and smart menus</b>". Smart Messaging is provided in part by Yulore. Read and agree to Yulore's "<font color="#B3000000"><a href="http://url3">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_smart_sms_summary"><b>\"Смарт-сообщения\" предоставляют службы распознавания идентификатора отправителя и интеллектуальное меню.</b>. \"Смарт-сообщения\" предоставляются совместно с Yulore. Перед использованием этой функции ознакомьтесь и согласитесь с <font color="#B3000000"><a href="http://url3">Политикой конфиденциальности</a></font> Yulore.</string>
     <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Рейс</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -581,13 +577,13 @@
     <string name="menu_pick_from_contact">Выбрать из контактов</string>
     <string name="menu_preferences">Настройки</string>
     <string name="menu_report">Отчет</string>
-    <string name="menu_sms_block">Антиспам</string>
+    <string name="menu_sms_block">Добавить в Антиспам?</string>
     <string name="menu_traffic_destination">Пункт назначения</string>
     <string name="menu_unlock">Удалить из избранных</string>
     <string name="menu_view_contact">Просмотреть контакт</string>
     <string name="menu_view_group_info">Информация о группе</string>
     <string name="message_cannot_send_air_mode">Для отправки сообщений отключите Режим полета</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">Используемая SIM-карта не поддерживает отправку SMS-сообщений</string>
     <string name="message_cannot_send_sim_unavailable">Для отправки сообщений вставьте SIM-карту</string>
     <string name="message_class_label">"Класс сообщения: "</string>
     <string name="message_contact">Контакт:</string>
@@ -1208,9 +1204,9 @@
     <string name="recommend_tip_4">Функция \"Mi Сообщения\" позволяет автоматически определять идентификатор отправителя для отображения имен и фото профилей доверенных поставщиков.</string>
     <string name="recommend_tip_5">Смарт-определитель идентификатора отправителя позволит сделать папку с входящими сообщениями более упорядоченной, а также поможет определять надежных отправителей.</string>
     <string name="recommend_tip_6">Вышеперечисленные службы предоставляются при технической поддержке Yulore.</string>
-    <string name="recommend_tip_7">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Mi Message.</string>
-    <string name="recommend_tip_8">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using free internet messaging provided by Mi Message.</string>
-    <string name="recommend_tip_9">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Smart sender ID recognition.</string>
+    <string name="recommend_tip_7">Перед началом использования службы \"Mi Сообщения\", ознакомьтесь и согласитесь с нашими <font color="#B3000000"><a href="http://url1">Условиями использования</a></font> и <font color="#B3000000"><a href="http://url2">Политикой конфиденциальности</a></font>, а также с <font color="#B3000000"><a href="http://url3">Политикой конфиденциальности Yulore</a></font>.</string>
+    <string name="recommend_tip_8">Перед началом использования функции бесплатного обмена сообщениями через Интернет, предоставляемой службой \"Mi Сообщения\", ознакомьтесь и согласитесь с нашими <font color="#B3000000"><a href="http://url1">Условиями использования</a></font> и <font color="#B3000000"><a href="http://url2">Политикой конфиденциальности</a></font>, а также с <font color="#B3000000"><a href="http://url3">Политикой конфиденциальности Yulore</a></font>.</string>
+    <string name="recommend_tip_9">Перед началом использования функции \"Смарт-определитель идентификатора отправителя\" ознакомьтесь и согласитесь с нашими <font color="#B3000000"><a href="http://url1">Условиями использования</a></font> и <font color="#B3000000"><a href="http://url2">Политикой конфиденциальности</a></font>, а также с <font color="#B3000000"><a href="http://url3">Политикой конфиденциальности Yulore</a></font>.</string>
     <string name="recommend_tip_9_2">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using our services.</string>
     <string name="recommend_tip_default">Чтобы воспользоваться всеми функциями защиты безопасности, установите Сообщения Xiaomi в качестве приложения для обмена сообщениями по умолчанию.</string>
     <string name="recommend_tip_other">Показать другие приложения для обмена сообщениями</string>
@@ -1249,8 +1245,8 @@
     <string name="rms_normal_file_length_too_large">Нельзя отправить файл размером более %1$d МБ</string>
     <string name="rms_original_image_length_too_large">Нельзя отправить изображение размером более %1$d МБ</string>
     <string name="rms_original_image_size_too_large">Изображение слишком большое</string>
-    <string name="rms_select_location">Location</string>
-    <string name="rms_send_button">Send</string>
+    <string name="rms_select_location">Местоположение</string>
+    <string name="rms_send_button">Отправить</string>
     <string name="rms_vcard_body">[Контакт]</string>
     <string name="rms_video_body">[Видео]</string>
     <string name="rsc_chatbot_back">Назад</string>
@@ -1325,6 +1321,11 @@
     <string name="shortcut_new_msg">Новое сообщение</string>
     <string name="shortcut_setting">Настройки</string>
     <string name="show_delivery_status">Показывать отчет о доставке</string>
+    <string name="silent_notification_notify_content">За короткое время вы получили много проверочных кодов. Эти уведомления будут временно отключены.</string>
+    <string name="silent_notification_notify_double">На SIM %1$d и SIM %2$d за короткий промежуток времени поступило большое количество проверочных кодов. Эти уведомления будут временно отключены.</string>
+    <string name="silent_notification_notify_single">На SIM %1$d за короткий промежуток времени поступило большое количество проверочных кодов. Эти уведомления будут временно отключены.</string>
+    <string name="silent_notification_notify_title">SMS-сообщение проверки отключения уведомлений</string>
+    <string name="silent_notification_tip_exit">SMS-сообщение об отмене отключения уведомлений</string>
     <string name="sim_card1">SIM-карта 1</string>
     <string name="sim_card2">SIM-карта 2</string>
     <string name="sim_card_cloud">%s (Mi сообщения)</string>

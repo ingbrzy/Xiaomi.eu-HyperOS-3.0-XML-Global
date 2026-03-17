@@ -4,7 +4,7 @@
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
     <string name="abc_action_mode_done">Klar</string>
-    <string name="abc_activity_chooser_view_see_all">Se alla</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
     <string name="abc_activitychooserview_choose_application">Välj en app</string>
     <string name="abc_capital_off">AV</string>
     <string name="abc_capital_on">PÅ</string>
@@ -48,7 +48,12 @@
     <string name="answering_tel2">Överförd från telefon…</string>
     <string name="app_casting">App-casting</string>
     <string name="app_name">Casting</string>
+    <string name="app_name_call">Telefon</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">Meddelanden</string>
     <string name="app_name_vtcamera">Kamera mellan enheter</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -187,8 +192,6 @@ dina enheter?"</string>
     <string name="cast_closed_captions">Textning</string>
     <string name="cast_closed_captions_unavailable">Textning är inte tillgänglig</string>
     <string name="cast_connecting_to_device">Ansluter till %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Söker efter enheter</string>
-    <string name="cast_device_chooser_title">Casta till</string>
     <string name="cast_disconnect">Koppla från</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d till</string>
     <string name="cast_expanded_controller_ad_image_description">Bild som visas medan en annons spelas upp på Cast-mottagaren</string>
@@ -229,9 +232,6 @@ dina enheter?"</string>
     <string name="cast_tracks_chooser_dialog_ok">Ok</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Undertexter</string>
     <string name="cast_unmute">Slå på ljudet</string>
-    <string name="cast_zero_devices_found">"Inga enheter hittades.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Läs mer</a> om hur du kan casta innehåll till andra enheter.</string>
     <string name="casting_tips">Castar…</string>
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
     <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
@@ -253,6 +253,10 @@ dina enheter?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">Glasögonens innehåll kan inte överföras till den här enheten</string>
     <string name="circulate_car_card_use_camera">Använd EV:s frontkamera</string>
     <string name="circulate_car_card_using_camera">Använder EV:s frontkamera</string>
+    <string name="circulate_card_audio_change_pad_title">Byt till plattans ljud</string>
+    <string name="circulate_card_audio_change_phone_title">Byt till telefonljud</string>
+    <string name="circulate_card_audio_playing_pad_title">Använda plattans ljud</string>
+    <string name="circulate_card_audio_playing_phone_title">Använda telefonens ljud</string>
     <string name="circulate_card_disconnect">Koppla från</string>
     <string name="circulate_card_loading_title_audio_stereo">Stereo-system</string>
     <string name="circulate_card_loading_title_band">Armband</string>
@@ -413,6 +417,14 @@ för att spegla den här surfplattans skärm"</string>
     <string name="circulate_headset_control_anc_disable_hint">Dina hörlurar är ansluta till två enheter. Du kan endast justera volymen från den här enheten.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Brusreducering</string>
     <string name="circulate_headset_control_anc_off">Av</string>
+    <string name="circulate_headset_control_audio_effect_off">Inaktivera spatialljud</string>
+    <string name="circulate_headset_control_audio_effect_spatial">Aktivera spatialljud</string>
+    <string name="circulate_headset_control_audio_find_earphone">Spela upp ljud</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">Avbryt</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">Fortsätt</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">Ljudet spelas upp med hög volym. Om du använder hörlurar kan hörseln skadas om du fortsätter att använda dem. Ta bort dem innan du fortsätter.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">Varning om hög volym</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">Sluta att spela upp ljud</string>
     <string name="circulate_headset_control_battery_case">Fodral</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
@@ -502,6 +514,7 @@ dina enheter?"</string>
     <string name="circulate_phone_card_using_cellular_wifi">Använda telefonens wifi-signal</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">Använda telefonens WLAN-signal</string>
     <string name="circulate_phone_card_using_desktop">Använder telefonens Hemskärm+</string>
+    <string name="circulate_phone_card_using_sink_desktop">Dela Hemskärm+ med telefonen</string>
     <string name="circulate_public_device_title_format">%1$ss %2$s</string>
     <string name="circulate_ringfind_button_hint_play">Spela upp ljud</string>
     <string name="circulate_ringfind_button_hint_stop">Sluta att spela upp ljud</string>
@@ -596,10 +609,12 @@ Stöds för telefoner, plattor och datorer."</string>
     <string name="connect_settings_general_summary_share_clipboard">Kopiera text, bilder eller filer på en enhet, och klistra in dem i en annan närliggande enhet (telefon, platta, dator, eller fordon) medan du är inloggad på ditt Xiaomi-konto</string>
     <string name="connect_settings_general_summary_share_file">Få direktåtkomst till telefonens filer från näriggande datorer som är inloggade på ditt Xiaomi-konto</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Visa och kontrollera din telefon, och få åtkomst till appar på den, genom närliggande plattor, datorer och fordon som är inloggade på ditt Xiaomi-konto</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">Visa och kontrollera den här enheten och använd dess appar från närliggande telefoner, plattor, datorer eller fordon som är inloggade med samma konto</string>
     <string name="connect_settings_general_summary_share_notification_pad">Visa varningar om låg batterinivå på närliggande telefoner och plattor som är inloggade på ditt Xiaomi-konto</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Visa viktiga telefonnotifikationer på närliggande TV-apparater, plattor och datorer sin är inloggade på ditt Xiaomi-konto.
 Fungerar med matleveranser, taxi-appar på TV-apparater såväl som varningar om lågt batteri på plattor och datorer."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Visa notifikationer om din telefons svaga batteri på en närliggande platta som är inloggad på samma konto</string>
+    <string name="connect_settings_known_button">Jag förstår</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">Överför objekt via NFC</string>
     <string name="connect_settings_not_opened">Av</string>
@@ -607,6 +622,7 @@ Fungerar med matleveranser, taxi-appar på TV-apparater såväl som varningar om
     <string name="connect_settings_presentation_password_error">Felaktigt lösenord</string>
     <string name="connect_settings_presentation_password_title">Ange administratörslösenord</string>
     <string name="connect_settings_privacy_policy">Integritetspolicy</string>
+    <string name="connect_settings_refresh">Uppdatera</string>
     <string name="connect_settings_relay_app">Appar</string>
     <string name="connect_settings_same_account">Från detta konto</string>
     <string name="connect_settings_screen_cast">Casta</string>
@@ -616,6 +632,7 @@ Fungerar med matleveranser, taxi-appar på TV-apparater såväl som varningar om
     <string name="connect_settings_share_launcher">Hemskärm+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">Lås upp din Xiaomi-telefon och appar med hjälp av iPad-ansiktsid, eller lösenkod</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">Lås upp din Xiaomi-telefon och appar med hjälp av iPad-fingeravtryck, eller lösenkod</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">Lås upp Xiaomi-telefonen och dess appar med iPhones fingeravtryck eller lösenkod</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">Använd ansiktsid, eller lösenord på din iPhone, för att låsa upp din Xiaomi-telefon och dina appar</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Upplåsning med ansiktsigenkänning eller lösenord</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Använd ditt fingeravtryck eller lösenord på din Mac för att låsa upp din telefon och dina appar</string>
@@ -623,13 +640,52 @@ Fungerar med matleveranser, taxi-appar på TV-apparater såväl som varningar om
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Ansiktsupplåsning</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Snabbstart förr appar efter upplåsning</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Använd fingeravtryck eller lösenord på din Xiaomi-platta för att låsa upp din telefon och dina appar</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">Använd telefonens fingeravtryck eller lösenord för att låsa upp enheten och dess appar</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Lägg till telefonappar på din plattas hemskärm. Starta dem direkt från plattan när telefonen är olåst.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Använd ditt fingeravtryck eller ange lösenord för att låsa upp</string>
     <string name="connect_settings_share_notification">Notifikationer</string>
+    <string name="connect_settings_share_notification_help">Hjälp</string>
     <string name="connect_settings_share_notification_iphone_device">Visa notifikationer från den här inheten på iPhone</string>
     <string name="connect_settings_share_notification_local_device">VIsa iPhone-notifikationer på den här enheten</string>
+    <string name="connect_settings_share_notification_local_device_summary">För att kunna besvara samtal och ta emot meddelande och app-notifikationer på den här enheten behöver du låta notifikationer synkroniseras till din Xiaomi-telefon i Xiaomi Interconnectivity > Synkronisera notifikationer > Synkronisera till Xiaomi på din iPhone.</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">Anslut din Xiaomi-enhet till din iPhone i Xiaomi Interconnectivity > Synkronisera notifikationer > Synkronisera till Xiaomi, för att kunna besvara samtal och ta emot meddelanden och appnotifikationer på din Xiaomi-enhet.</string>
+    <string name="connect_settings_share_notification_local_device_title">Få notifikationer från %1$s</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">Visa meddelanden från andra Xiaomi-enheter på den här enheten</string>
     <string name="connect_settings_share_notification_mi_device">Visa notifikationer från den här enheten på Xiaomi-enheter</string>
+    <string name="connect_settings_share_notification_mi_device_category">Synkronisera till närliggande enheter</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">Närliggande enheter</string>
+    <string name="connect_settings_share_notification_mi_device_v2">Xiaomi-plattor eller TV-apparater</string>
+    <string name="connect_settings_share_notification_mi_device_v3">Xiaomi plattor, datorer och TV-apparater</string>
     <string name="connect_settings_share_notification_more_feature">Fler funktioner</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">Visning av notifikationer från den här enheten på andra Xiaomi-enheter</string>
+    <string name="connect_settings_share_notification_receive_tab">Ta emot</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">Tillgängliga enheter</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">Tillgängliga enheter</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">Säkerställ att din %1$s är inloggad till samma konto som den här enheten och att Interkonnektivity är aktiverat i Inställningar.</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">Kan inte ansluta till %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">Kontrollera att båda enheterna är inloggade på samma konto och anslutna till samma nätverk, eller att Bluetooth och WLAN är påslagna på båda enheterna.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">Kontrollera att båda enheterna är inloggade på samma konto och anslutna till samma nätverk, eller att Bluetooth och Wi-Fi är påslagna på båda enheterna.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">Kontrollera att båda enheterna är inloggade på samma konto och anslutna till nätverket, eller att WLAN är aktiverat</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">Kontrollera att båda enheterna är inloggade på samma konto och anslutna till nätverket, eller att wifi är aktiverat</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">Söker efter din enhet…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">När den här enheten är ansluten till nätverket kan du få meddelanden från enheter som är inloggade på samma konto. Om en enhet är i närheten med Bluetooth och WLAN aktiverat kan du spegla dess appar och svara på meddelanden.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">När den här enheten är ansluten till nätverket kan du få meddelanden från enheter som är inloggade på samma konto. Om en enhet är i närheten med Bluetooth och wifi aktiverat kan du spegla dess appar och svara på meddelanden.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• När den här enheten är ansluten till nätverket, kommer notifikationer från andra låsta till samma Xiaomi-telefon, inlogggade på samma konto, att kunna visas på den här enheten.
+• När enheter som är loggade på samma konto är inärheten och har Bluetooth och WLAN aktiverat, kan notifikationer från andra enheter besvaras direkt på den här enheten."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• När den här enheten är ansluten till nätverket, kommer notifikationer från andra låsta till samma Xiaomi-telefon, inlogggade på samma konto, att kunna visas på den här enheten.
+• När enheter som är loggade på samma konto är inärheten och har Bluetooth och wifi aktiverat, kan notifikationer från andra enheter besvaras direkt på den här enheten."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">Det gick inte att hitta tillgängliga enheter</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">För att kunna hantera notifikationer på den här enheten behöver du låta notifikationer synkronisera till din Xiaomi-enhet i Xiaomi Interconnectivity > Synkronisera notifikationer > Synkronisera till Xiaomi på din %1$s.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">\"Synkronisra notifikationer\" är avstängt för %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">Ta emot</string>
+    <string name="connect_settings_share_notification_send_tab">Synkronisera</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">Synkronisera till telefon</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">Mina telefoner</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"Visa notifikationer från en här enheten på telefoner, plattor eller TV-apparater som är inloggade på samma konto.
+*Funktioner som stöds: Telefoner kan visa samtal, meddelanden och app-notifikationer; TV-apparater kan visa leverans- och taxitjänster; plattor och datorer kan visa varningar om lågt batteri, från din telefon."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• När den här enheten är låst, kan notifikationer från den här enheten att visas på telefoner, plattor, datorer eller TV-apparater som är inloggade på samma konto.
+• Du kan visa samtal, meddelanden eller appnotifikationer på telefoner, matleveranser och taxi-tjänster på TV-apparater, och notifikationer om lågt batteri på andra plattor och datorer."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">Synkronisera</string>
     <string name="connect_settings_summary"><Data>Upptäck närliggande enheter som är inloggade på ditt Xiaomi-konto och lägg till dem i Xiaomi Smart Hub. &lt;a href=%1$s>Läs mer&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Tillåt dina enheter att interagera med varandra trådlöst</string>
     <string name="connect_settings_summary_corp_network">Använd din telefons nätverk på plattor eller datorer</string>
@@ -645,6 +701,7 @@ Aktivera wifi och Bluetooth innan användning."</string>
     <string name="connect_settings_summary_share_launcher_pad_v2">Kontrollera din telefon från din platta</string>
     <string name="connect_settings_summary_share_launcher_phone">Tillåt närliggande plattor och datorer att visa och interagera med den här enhetens Hemskärm</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">Sök i din telefon efter plattor, datorer eller fordon</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">Styr enheten från telefonen, surfplattan, datorn eller fordonet</string>
     <string name="connect_settings_summary_share_notification_pad">Ta emot notifikationer från närliggande telefoner som är inloggade på ditt Xiaomi-konto</string>
     <string name="connect_settings_summary_share_notification_pad_v2">Visa notifikationer från närliggande telefoner som är inloggade på ditt Xiaomi-konto, på den här enheten</string>
     <string name="connect_settings_summary_share_notification_phone">Visa notifikationer på närliggande plattor eller datorer som används när den här enheten är låst</string>
@@ -678,19 +735,31 @@ Aktivera wifi och Bluetooth innan användning."</string>
     <string name="device_permission_dialog_title">Ge behörighet för %s</string>
     <string name="device_type_name_pad">Surfplatta</string>
     <string name="device_type_name_phone">Telefon</string>
+    <string name="dialog_auth_title">Verifieringskod</string>
     <string name="dialog_can_not_find_device">Det gick inte att hitta enheter i närheten</string>
     <string name="dialog_cancle">Avbryt</string>
     <string name="dialog_close">Avaktivera</string>
+    <string name="dialog_confirm_button">Jag förstår</string>
+    <string name="dialog_confirm_remote_status">Kontrollera %1$s-status</string>
     <string name="dialog_connect_fail">Det gick inte att ansluta</string>
     <string name="dialog_connect_retry">Tryck för att försöka igen</string>
     <string name="dialog_connect_verify_perssion">Tillåt casting på din TV först</string>
     <string name="dialog_connect_verify_perssion_fail">Det gick inte att tillåta casting på din TV. Vänta en minut eller två och försök igen.</string>
     <string name="dialog_connected">Ansluten</string>
     <string name="dialog_connecting">Ansluter…</string>
+    <string name="dialog_copy_it">Kopiera</string>
+    <string name="dialog_enable_remote_notification">Tillåt notifikationer mellan enheter på din %1$s</string>
+    <string name="dialog_enable_remote_notification_content_v2">Kan inte synkronisera notifikationer nu. Säkerställ att notifikationer tillåts synkronisera på %1$s i Inställningar > Sammanlänkning > Notifikationer mellan enheter > Synkronisera.</string>
     <string name="dialog_incoming_call_instruction">Besvara din %1$s</string>
     <string name="dialog_know_it">Jag förstår</string>
     <string name="dialog_location_permission_message">Denna app måste få tillgång till din plats för att kunna finna externa bildskärmar i närheten. Välj \"Tillåt alltid\" samtidigt som du ger denna behörighet för att undvika eventuella fel.</string>
     <string name="dialog_location_permission_title">Behörigheter krävs</string>
+    <string name="dialog_message_instruction_subtitle_call">Du kan svara på %1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">Du kan svara på Xiaomi-telefon</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">Du kan svara på iPhone</string>
+    <string name="dialog_message_instruction_subtitle_reply">Du kan svara på %1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">Du kan svara på Xiaomi-telefon</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">Du kan ringa tillbaka på iPhone</string>
     <string name="dialog_message_reply_instruction">Svara på din %1$s</string>
     <string name="dialog_miplay_permission_message">Tillåt Casting att spela in ljud, få tillgång till filer i interna lagringen, och få tillgång till din plats för att kunna använda denna funktion normalt. Tryck på \"Inställningar\" och välj \"App-behörigheter\" för att fortsätta.</string>
     <string name="dialog_miplay_permission_positive">Inställningar</string>
@@ -704,10 +773,18 @@ Aktivera wifi och Bluetooth innan användning."</string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Anslut både din mobila enhet och TV till samma WLAN-nätverk.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g> På vissa TV-modeller är denna funktion endast tillgänglig när skärmavspegling är aktiverad. Se &lt;a href=milink://com.milink.service/specification>\"Hjälp\"&lt;/a> för mer information.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Strömma foton, videor eller musik</string>
+    <string name="dialog_open_remote_switch_content">Kunde inte tillämpa inställning. Säkerställ att din %1$s är inloggad på samma konto och är ansluten till samma nätverk som den här enheten.</string>
     <string name="dialog_open_wifi_bt">Aktivera</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Se till att den trådlösa casting-funktionen är aktiverad på målenheten.
 Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="dialog_recent_connected">Senast</string>
+    <string name="dialog_remote_authorization">Ge behörigheter på %1$s</string>
+    <string name="dialog_remote_authorization_content">Bevilja notifieringsbehörigheter för Sammanlänkning på din %1$s.</string>
+    <string name="dialog_reset_app_subscribe">Tillåt notifikationer från %1$s</string>
+    <string name="dialog_reset_app_subscribe_content">%2$s har tidigare avinstallerats från din %1$s. Kan inte ta emot appnotifikationer på den här enheten. Ändra dina inställningar och försök igen.</string>
+    <string name="dialog_reset_app_subscribe_multi">Byt notifikationsinställningar</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s och %3$s avinstallerades tidigare från din %1$s. Kan inte ta emot appnotifikationer på den här enheten. Ändra dina inställningar och försök igen.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s och %4$s avinstallerades tidigare från din %1$s. Kan inte ta emot appnotifikationer på den här eneten. Ändra dina inställningar och försök igen.</string>
     <string name="dialog_retry">Försök igen</string>
     <string name="dialog_scan_message">"%1$d. Anslut både din mobila enhet och TV till samma Wi-Fi-nätverk.
 
@@ -731,6 +808,7 @@ Titta i hjälpen om du får problem med att ansluta."</string>
     <string name="early_morning">Morgon</string>
     <string name="edit_device_group">Redigera enhetsgrupper</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">Kan inte ta emot notifikationer nu. Säkerställ att notifikationer tillåts synkronisera på %1$s i Inställningar > Sammanlänkning > Notifikationer mellan enheter > Synkronisera.</string>
     <string name="enable_screen_projection_summary">Casta skärminnehåll till en extern monitor</string>
     <string name="enable_screen_projection_summary_new">Casta mobilenhetens skärm till närliggande tv-apparater och andra externa monitorer</string>
     <string name="enable_screen_projection_summary_pad">Casta plattans skärm till en närliggande tv eller annan enhet</string>
@@ -952,6 +1030,7 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
 %1$d. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
     <string name="help_page_text_end">Om märket för din enhet inte anges här kan du kontakta tillverkaren för att lära dig mer om castingfunktion.</string>
     <string name="i_see">Jag förstår</string>
+    <string name="ic_media_route_learn_more_accessibility">Så castar du</string>
     <string name="icon_content_description">Dialogikon</string>
     <string name="image_transfer_failed">Kunde inte överföra bild</string>
     <string name="install">Installera</string>
@@ -1017,8 +1096,10 @@ Notera: Du kommer att få en rutinmässig systemvarning när du aktiverar tillg�
     <string name="miplay_song_title_empty">Inga objekt här</string>
     <string name="mirror_phone_content">Aktivera Hemskärm+ nu?</string>
     <string name="mirror_phone_content_remote">Du kan aktivera Hemskärm+ i Inställningar > Sammankoppling.</string>
+    <string name="mirror_phone_content_remote_V1">Aktivera Hemskärm+ i Inställningar > Sammanlänkning > Hemskärm+ på din %1$s.</string>
     <string name="mirror_phone_title">Aktivera Hemskärm+</string>
     <string name="mirror_phone_title_remote">Aktivera Hemskärm+ på telefonen</string>
+    <string name="mirror_phone_title_remote_V1">Aktivera Hemskärm+ först</string>
     <string name="mirror_remote_pad_content">Du kan aktivera Hemskärm+ i Inställningar > Sammankoppling.</string>
     <string name="mirror_remote_pad_title">Aktivera Hemskärm+ på plattan</string>
     <string name="miuix_access_state_desc">Valt</string>
@@ -1102,8 +1183,17 @@ Notera: Du kommer att få en rutinmässig systemvarning när du aktiverar tillg�
     <string name="mr_cast_button_connecting">Casta. Ansluter</string>
     <string name="mr_cast_button_disconnected">Casta. Frånkopplad</string>
     <string name="mr_cast_dialog_title_view_placeholder">Det finns ingen tillgänglig information</string>
+    <string name="mr_chooser_looking_for_devices">Söker efter enheter …</string>
     <string name="mr_chooser_searching">Letar efter enheter</string>
     <string name="mr_chooser_title">Casta till</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Läs mer</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna bil</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna telefon</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna surfplatta</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna tv</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna enhet</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna klocka</string>
+    <string name="mr_chooser_zero_routes_found_title">Inga tillgängliga enheter</string>
     <string name="mr_controller_album_art">Skivomslag</string>
     <string name="mr_controller_casting_screen">Skärmen castas</string>
     <string name="mr_controller_close_description">Stäng</string>
@@ -1182,12 +1272,24 @@ Notera: Du kommer att få en rutinmässig systemvarning när du aktiverar tillg�
     <string name="nothing_to_play">Spelar inte</string>
     <string name="notification_cast_desc">Castar…</string>
     <string name="notification_channel_description">Välj notifikationstyper som ska synkroniseras från en annan enhet till din Xiaomi-enhet</string>
+    <string name="notification_channel_subtitle_ref_call">Samtal från iPhone</string>
+    <string name="notification_channel_subtitle_ref_call_1">Samtal från %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_1">Lark-meddelande från %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq">QQ-meddelande från iPhone</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">QQ-meddelande från %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms">Meddelande från iPhone</string>
+    <string name="notification_channel_subtitle_ref_sms_1">Meddelande från %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin">WeChat-meddelande från iPhone</string>
+    <string name="notification_channel_subtitle_ref_xin_1">WeChat-meddelande från %1$s</string>
     <string name="notification_channel_title_name">Notifikationer synkroniserade</string>
     <string name="notification_desc_scanning">Söker efter enheter i närheten…</string>
     <string name="notification_incoming_call_to_reply">Inkommande samtal. Svara på %1$s.</string>
     <string name="notification_permission_content">Tillåt den här enhetens notifikationer på alla iPhones med Sammanlänkning installerat och inloggat på ditt konto.</string>
+    <string name="notification_permission_new_content">Tillåt att samtal, meddelanden och appnotifkationer från den här enheten visas på en iPhone med synkroniserade notifikationer aktiverade eller en Xiaomi-enhet med funktionen Notifikationer mellan enheter, aktiverade.</string>
     <string name="notification_rc_title">XiaoMi TV-assistent</string>
+    <string name="notification_revice_phone">Notifikationer från %1$s</string>
     <string name="notification_show_more">Tryck för att visa fler funktioner</string>
+    <string name="notification_support_applist">Appar som stöds</string>
     <string name="notify_wifiap_dialog_msg">För att skanna koden och konfigurera nätverket, aktivera Internetdelning först.</string>
     <string name="notify_wifiap_dialog_negative">Jag förstår</string>
     <string name="notify_wifiap_dialog_title">Konfigurera nätverk</string>
@@ -1385,6 +1487,7 @@ Notera: Du kommer att få en rutinmässig systemvarning när du aktiverar tillg�
     <string name="path_setting_cast_feature">Fler anslutningsalternativ/Casta/Specialfunktioner</string>
     <string name="path_setting_cast_help">Fler anslutningsalternativ/Casta/Hjälp</string>
     <string name="permission_allowed">Beviljat</string>
+    <string name="permission_label_access_app_meta">Få åtkomst till appinformation när du använder appar på flera enheter</string>
     <string name="permission_uballowed">Ej beviljat</string>
     <string name="picker_view_description">Kamera mellan enheter. Du kan trycka på inne i kortet för att välja kameror på närliggande enheter.</string>
     <string name="picker_view_outside_description">Tryck för att stänga det här kortet.</string>
@@ -1498,6 +1601,7 @@ Läs och godkänn våra &lt;a href=%1$s>Användarvillkor&lt;/a> och vår &lt;a h
     <string name="screen_mirror_content">Allt skärminnehåll kommer att visas på \"%1$s\"</string>
     <string name="screen_projection">Casta</string>
     <string name="screen_projection_characteristics">Specialfunktioner</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">Du kan växla till programkörning i Xiaomi HyperIsland för att casta den aktuella appen till en extern skärm medan du använder andra appar på telefonen</string>
     <string name="screen_projection_characteristics_cast_summary">Casta skärminnehåll till en närliggande TV</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Stäng av mobilenhetens skärm medan du Castar för att spara batteri och undvika överhettning</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Aktivera läget skärm av, vid casting för att minska strömkonsumtionen och överhettning</string>
@@ -1567,6 +1671,8 @@ Kontrollera att du har aktivera Game Turbo innan du castar spel."</string>
     <string name="side_sheet_accessibility_pane_title">Ark på sidan av skärmen</string>
     <string name="small_window">Minimera fönster</string>
     <string name="small_window_not_supported">Kan inte minimera denna app medan den castas</string>
+    <string name="sound_card_circulatable_control_text">Uppspelningskontroller</string>
+    <string name="sound_card_circulatable_source_text">Ljudkälla</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">Kameran i glasögonen används. Försök igen senare.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Spelar in ljud. Kan inte öppna kamera.</string>
     <string name="start_forbidden_by_glasses_in_translation">Översätter. Kan inte öppna Kamera.</string>
@@ -1673,6 +1779,8 @@ Kontrollera att du har aktivera Game Turbo innan du castar spel."</string>
     <string name="title_connection_interrupted">Anslutningen avbröts</string>
     <string name="title_install">Installera Mi Canvas</string>
     <string name="title_update">Uppdatera Mi Canvas</string>
+    <string name="toast_confirm_network">Det gick inte att slutföra installationen. Kontrollera att enheten är ansluten till nätverket.</string>
+    <string name="toast_copy_auth_message_finish">Kopieringen genomförd</string>
     <string name="toast_guide_show_more">Läs mer</string>
     <string name="toast_guide_title">Utforska våra nya funktioner här</string>
     <string name="toast_invisible_mode">Du är i inkognito. Kan inte använda casting nu.</string>
@@ -1681,6 +1789,9 @@ Kontrollera att du har aktivera Game Turbo innan du castar spel."</string>
     <string name="toast_msg_for_small_window">Du kan minimera fönstret som du castar till om du vill använda andra funktioner på din telefon utan att avbryta castingprocessen.</string>
     <string name="toast_nfc_dont_move">Flytta inte bort din telefon</string>
     <string name="toast_nfc_same_wifi">Anslut både till din TV och den här enheten till samma nätverk.</string>
+    <string name="toast_remote_not_install">Den här appen är inte installerad på din %1$s.</string>
+    <string name="toast_retry">Vänta tills inställningarna har tillämpats och försök igen</string>
+    <string name="toast_synchronization">Kontrollerar enhetsstatus. Försök igen senare.</string>
     <string name="toast_title_for_small_window">Välj ”Minimera fönster” i appen</string>
     <string name="toast_turn_off_hotspot_before_cast">Avaktivera internetdelning innan du castar</string>
     <string name="today">Idag</string>

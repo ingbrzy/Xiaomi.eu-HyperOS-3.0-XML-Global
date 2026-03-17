@@ -196,6 +196,7 @@
     <string name="allow_onetime">Дозволити один раз</string>
     <string name="already_close_gamebooster">Game Turbo вимкнено</string>
     <string name="am">ДО</string>
+    <string name="anitispam_intercept_record">Історія чорного списку</string>
     <string name="anti_disturb_msg_detail">Вимкнути всі сповіщення, окрім вхідних викликів</string>
     <string name="anti_disturb_msg_title">Не турбувати</string>
     <string name="antispam_add_black_number_message">Введений вами номер короткий. Заблокувати всі номери, що починаються з цих цифр?</string>
@@ -1023,6 +1024,9 @@
     <string name="call_delete_all_hint">Видалити заблоковані виклики?</string>
     <string name="call_delete_hint">Видалити всі заблоковані виклики від цього номера?</string>
     <string name="call_delete_title">Очистити журнал викликів</string>
+    <string name="call_empty_number">Порожні номери</string>
+    <string name="call_forwarding_block">Переадресовані виклики</string>
+    <string name="call_intercept_settings">Налаштування чорного списку для викликів</string>
     <string name="call_notification_answer_action">Відповісти</string>
     <string name="call_notification_answer_video_action">Відео</string>
     <string name="call_notification_decline_action">Відхилити</string>
@@ -1031,6 +1035,7 @@
     <string name="call_notification_ongoing_text">Активний виклик</string>
     <string name="call_notification_screening_text">Вхідний виклик (Фільтр)</string>
     <string name="call_oversea_block">Блокувати виклики з-за кордону</string>
+    <string name="call_overseas_block">Міжнародні виклики</string>
     <string name="call_prefix">Чорний список за префіксом</string>
     <string name="call_private">Блокувати виклики від прихованих номерів</string>
     <string name="call_stranger_block">Блокувати виклики від незнайомців</string>
@@ -1040,12 +1045,20 @@
     <string name="cancel">Скасувати</string>
     <string name="cancel_button">Скасувати</string>
     <string name="car_sickness_relief_comment_text">При виявленні руху транспортного засобу по обидва боки екрана відображаються точки, що вказують, чи рухається транспортний засіб, що може допомогти відстрочити заколихування.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"З боків екрана будуть відображатися точки, які вказують на рух транспортного засобу, що може допомогти відстрочити початок заколисування.
+
+Ви можете увімкнути та вимкнути цю функцію в Центрі керування."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"З боків екрана будуть постійно відображатися точки, які вказують на рух транспортного засобу, що може допомогти відстрочити початок заколисування.
+
+Ви можете увімкнути та вимкнути цю функцію в Центрі керування."</string>
     <string name="car_sickness_relief_comment_text_opened">"З боків екрана будуть відображатися точки, які вказують на рух транспортного засобу, що може допомогти відстрочити початок заколисування.
 
 Ви можете увімкнути та вимкнути цю функцію в Центрі керування."</string>
     <string name="car_sickness_relief_example_text_1">Коли транспортний засіб прискорюється або сповільнюється</string>
     <string name="car_sickness_relief_example_text_2">Коли транспортний засіб повертає або змінює смугу руху</string>
     <string name="car_sickness_relief_exit_text">Дія засобу від захитування скінчилася</string>
+    <string name="car_sickness_relief_notification_text_close">Вимкнути</string>
+    <string name="car_sickness_relief_notification_text_opened">Увімк.</string>
     <string name="car_sickness_relief_start_text">Засіб від захитування працює</string>
     <string name="car_sickness_remind_time_title">Індикатори руху</string>
     <string name="car_sickness_title">Допомога при захитуванні</string>
@@ -1877,7 +1890,7 @@
 %3$d. Функція підтримується тільки на території материкового Китаю.
 %4$d. Функція сумісна тільки з мережами 5G-SA."</string>
     <string name="function_shield_auto_bright">Вимкнути автояскравість</string>
-    <string name="function_shield_eye_shield">Вимкнути Режим читання</string>
+    <string name="function_shield_eye_shield">Відключити Режим захисту очей</string>
     <string name="function_shield_pull_notification_bar">Не відкривати Панель сповіщень</string>
     <string name="function_shield_settings_title">Обмежити наступні функції під час гри</string>
     <string name="function_shield_summary">Обмежити наступні функції системи під час гри</string>
@@ -2751,6 +2764,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">Встановити, використовуючи USB</string>
     <string name="install_type_instant">Миттєва програма</string>
     <string name="installing">Встановлення</string>
+    <string name="intercept_all_mark_calls">Заблокувати всі виклики, відмічені як \"%s\"?</string>
+    <string name="intercept_calls_nofify_hide_text">Щоб встановити правила блокування для інших відмічених номерів, натисніть тут</string>
+    <string name="intercept_calls_notify_title">Виклики з цією міткою будуть автоматично завершені. Заблокувати зараз?</string>
+    <string name="intercept_garbage_msg">Спам-повідомлення</string>
+    <string name="intercept_record">Історія</string>
+    <string name="intercept_strange_msg">Повідомлення від незнайомців</string>
     <string name="international_Ad">Реклама</string>
     <string name="international_roaming_setting">Роумінг</string>
     <string name="intl_app_manager_card_permission_title">Конфіденційність та дозволи</string>
@@ -2945,6 +2964,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mark_harass_block">Відмічено як домагання</string>
     <string name="mark_harass_block_large">Домагання</string>
     <string name="mark_harass_time_setting">Блокувати номери, які були відмічені як домагання вказану кількість разів</string>
+    <string name="mark_num_open_intercept">Заблокувати</string>
     <string name="mark_number_agent">Агент</string>
     <string name="mark_number_fraud">Шахрай</string>
     <string name="mark_number_harass">Домагання</string>
@@ -4802,11 +4822,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="prompt_all">Запитувати для всіх</string>
     <string name="prompt_input_time_illegal">Не вдається встановити цей час, змініть його та повторіть спробу</string>
     <string name="protect_eye_dont_open">Не зараз</string>
-    <string name="protect_eye_hint_summry">Увімкніть Режим читання для більш комфортного читання з екрана</string>
-    <string name="protect_eye_hint_title">Комфорт для очей</string>
+    <string name="protect_eye_hint_summry">Увімкніть Режим захисту очей для більш комфортного читання з екрана</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Увімкнути</string>
-    <string name="protect_eye_opened_summry">Змініть вибір у розділі \"Налаштування\" > \"Екран та яскравість\" > \"Комфорт для очей\"</string>
-    <string name="protect_eye_opened_title">Режим читання увімк.</string>
+    <string name="protect_eye_opened_summry">Змініть вибір у розділі \"Налаштування\" > \"Екран та яскравість\" > \"Xiaomi EyeCare Shield\"</string>
+    <string name="protect_eye_opened_title">Режим захисту очей увімкнено</string>
     <string name="protocol_exception_title">Діагностика мережевого протоколу</string>
     <string name="protocol_loop_back_exception_summary">Не вдалося провести діагностику. Ви можете використати програму \"Звіти\", щоб повідомити про цю проблему.</string>
     <string name="province_selected_talkback" />
@@ -4870,6 +4890,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="repeat_type">Повтор</string>
     <string name="repeated_marked_number_summary">Не блокувати повторний дзвінок від того ж відміченого номера впродовж %d хвилин</string>
     <string name="repeated_marked_number_title">Не блокувати повторні дзвінки від відмічених номерів</string>
+    <string name="repeated_unknown_number_summary">Не блокувати повторний виклик від того ж невідомого номера впродовж %d хвилин</string>
     <string name="replace_dns">Автоматична заміна DNS</string>
     <string name="report">Звіт</string>
     <string name="report_error">Не вдається відправити звіт</string>
@@ -5110,6 +5131,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="sms_detail_fragment_title_traffic">Залишок трафіку</string>
     <string name="sms_filter">Розумний фільтр</string>
     <string name="sms_guard_alert">Змінено програму обміну повідомленнями за замовчуванням. Програма \"Xiaomi Повідомлення\" більше не зможе блокувати SMS-спам.</string>
+    <string name="sms_intercept_settings">Налаштування чорного списку для повідомлень</string>
     <string name="sms_keywords">Чорний список за ключовим словом</string>
     <string name="sms_malicious_url">Блокувати SMS із шкідливими посиланнями</string>
     <string name="sms_prefix">Чорний список за префіксом</string>
@@ -5311,9 +5333,26 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_call_intercept_reported">Блокувати виклики з відмічених номерів</string>
     <string name="st_call_intercept_stranger">Блокувати виклики від незнайомців</string>
     <string name="st_call_intercept_unknown">Блокувати виклики від прихованих номерів</string>
+    <string name="st_call_mark_agent">Нерухомість</string>
+    <string name="st_call_mark_agent_intercept">Нерухомість</string>
+    <string name="st_call_mark_decoration">Ремонт дому</string>
+    <string name="st_call_mark_decoration_intercept">Ремонт дому</string>
+    <string name="st_call_mark_edu">Освіта</string>
+    <string name="st_call_mark_edu_intercept">Освіта</string>
+    <string name="st_call_mark_high_risk">Високий ризик</string>
+    <string name="st_call_mark_high_risk_intercept">Високий ризик</string>
+    <string name="st_call_mark_insurance">Інвестиції</string>
+    <string name="st_call_mark_insurance_intercept">Інвестиції</string>
+    <string name="st_call_mark_loan">Іпотека</string>
+    <string name="st_call_mark_loan_intercept">Іпотека</string>
+    <string name="st_call_mark_sell">Реклама</string>
+    <string name="st_call_mark_sell_intercept">Реклама</string>
     <string name="st_call_other_group">Інші виклики</string>
     <string name="st_call_settings">Чорний список викликів</string>
     <string name="st_call_stranger_group">Блокувати виклики від незнайомців</string>
+    <string name="st_call_stranger_inercept_local">Блокувати невідомі номери</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Виклики з будь-якого номера, що не входить до списку винятків, будуть заблоковані. Заблокувати зараз?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Виклики з будь-якого номера, що не входить до списку винятків або контактів, будуть заблоковані. Заблокувати зараз?</string>
     <string name="st_confirm_call_all_dialog_summary">Дзвінки з будь-якого номера, який не входить до ваших винятків, будуть заблоковані. Увімкнути?</string>
     <string name="st_confirm_dialog_btn_open">Заблокувати</string>
     <string name="st_confirm_dialog_summary_oversea_call">Всі виклики від іноземних номерів будуть заблоковані.</string>
@@ -5325,9 +5364,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_hint_add_head_number">Введіть префікс</string>
     <string name="st_hint_add_phonenumber">Введіть номер телефону</string>
     <string name="st_hint_operatelist">Схоже, що таке правило вже існує</string>
+    <string name="st_intercept_dialog_title">Увага</string>
     <string name="st_mark_call_intercept_threshold_summary">Автоматично блокувати номери, на які надходили скарги певну кількість разів</string>
     <string name="st_mark_call_intercept_threshold_title">Поріг блокування</string>
     <string name="st_mark_number_group">Блокувати виклики з відмічених номерів</string>
+    <string name="st_mark_number_net_group">Блокувати відмічені номери</string>
     <string name="st_message_SMS_AntiSpam">Блокувати SMS</string>
     <string name="st_message_SMSpass">Дозволити SMS</string>
     <string name="st_message_phone_AntiSpam">Блокувати виклики</string>
@@ -5340,13 +5381,26 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_msg_stranger_group">Блокувати повідомлення від незнайомців</string>
     <string name="st_settings_name">Налаштування</string>
     <string name="st_share_settings">Використовувати налаштування SIM %d</string>
+    <string name="st_smg_intercept_all">Заблокувати всі повідомлення</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">SMS та MMS з будь-якого номера або регіону, що не входять до списку виключень, будуть заблоковані. Заблокувати зараз?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS та MMS з будь-якого номера або регіону, що не входять до списку виключень або контактів, будуть заблоковані. Заблокувати зараз?</string>
+    <string name="st_smg_intercept_network_check">Блокувати за допомогою онлайн-визначень</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Спам-повідомлення</string>
+    <string name="st_smg_intercept_other">Додатковi налаштування</string>
+    <string name="st_smg_intercept_strange">Повідомлення від незнайомців</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Блокувати повідомлення від незнайомців, що містять певні ключові слова</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Блокувати повідомлення від певних номерів та із певних областей</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Не блокувати повідомлення від незнайомців, що містять певні ключові слова</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Не блокувати повідомлення від номерів та із регіонів, які знаходяться у винятках</string>
     <string name="st_sms_intercept_oversea">Міжнародні SMS</string>
     <string name="st_sub_title_customize_mode_name">Ім‘я</string>
     <string name="st_sub_title_whiteblack_list_group">Чорний список</string>
     <string name="st_sum_call_wait">Сигнал про відсутність також буде відтворюватися як сигнал \"Зайнято\".</string>
     <string name="st_summary_blacklist_numbers">Блокувати дзвінки та повідомлення з певних номерів та регіонів</string>
     <string name="st_summary_blacklist_numbers_international">Блокувати виклики з урахуванням номера або префікса</string>
+    <string name="st_summary_intercept_blacklist_numbers">Блокувати виклики та повідомлення з певних номерів та регіонів</string>
     <string name="st_summary_keywords_blacklist">Додати ключові слова для блокування повідомлень</string>
+    <string name="st_summary_release_whitelist_numbers">Не блокувати виклики та повідомлення від номерів та із регіонів, які знаходяться у винятках</string>
     <string name="st_summary_special_numbers">Заблокувати відмічені телефонні номери</string>
     <string name="st_summary_whitelist_numbers">Дозволити дзвінки та повідомлення з певних номерів та регіонів</string>
     <string name="st_summary_whitelist_numbers_international">Дозволяти виклики з урахуванням номера або префікса</string>
@@ -5381,6 +5435,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_title_markednumber_group">Блокувати відмічені номери</string>
     <string name="st_title_mode_choose_group">Режими блокування</string>
     <string name="st_title_not_sim">Порожньо</string>
+    <string name="st_title_number_and_region_blacklist">Заблоковані номери та регіони</string>
+    <string name="st_title_number_and_region_whitelist">Винятки за номером та регіоном</string>
     <string name="st_title_open_antispam">Чорний список</string>
     <string name="st_title_other_group">Інші</string>
     <string name="st_title_settings_other_group">Додаткові налаштування</string>
@@ -5542,7 +5598,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="summary_default_app">%s не використовується як системна програма за замовчуванням</string>
     <string name="summary_dev">Уникайте вірусів та захищайте особисті дані</string>
     <string name="summary_do_not_disturb">Ви викоритовуєте Режим \"Не турбувати\".</string>
-    <string name="summary_eye_shield">Вимкніть Режим читання, щоб повернутися до налаштувань за замовчуванням.</string>
+    <string name="summary_eye_shield">Вимкніть Режим захисту очей, щоб повернутися до налаштувань за замовчуванням.</string>
     <string name="summary_find_device">Знаходьте та блокуйте пристрій звідки завгодно</string>
     <string name="summary_first_aid_kit">Вирішіть проблеми з вашим пристроєм</string>
     <string name="summary_flow_notification">Увімкніть відображення інформації про трафік в панелі сповіщень</string>

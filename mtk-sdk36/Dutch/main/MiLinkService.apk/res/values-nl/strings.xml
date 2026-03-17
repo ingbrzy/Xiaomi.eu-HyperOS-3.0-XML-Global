@@ -48,7 +48,12 @@
     <string name="answering_tel2">Doorgeschakeld vanaf telefoon…</string>
     <string name="app_casting">App casten</string>
     <string name="app_name">Casten</string>
+    <string name="app_name_call">Telefoon</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">Berichten</string>
     <string name="app_name_vtcamera">Camera voor meerdere apparaten</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -187,8 +192,6 @@ uw apparaten niet vinden?"</string>
     <string name="cast_closed_captions">Ondertiteling</string>
     <string name="cast_closed_captions_unavailable">Ondertiteling niet beschikbaar</string>
     <string name="cast_connecting_to_device">Verbinden met %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Apparaten zoeken</string>
-    <string name="cast_device_chooser_title">Casten naar</string>
     <string name="cast_disconnect">Verbinding verbreken</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Afbeelding die wordt weergegeven terwijl de Cast-receiver een advertentie afspeelt</string>
@@ -229,9 +232,6 @@ uw apparaten niet vinden?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Ondertiteling</string>
     <string name="cast_unmute">Dempen opheffen</string>
-    <string name="cast_zero_devices_found">"Geen apparaten gevonden.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Meer informatie</a> over hoe je je content naar andere apparaten kunt casten.</string>
     <string name="casting_tips">Aan het casten…</string>
     <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
     <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
@@ -253,6 +253,10 @@ uw apparaten niet vinden?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">De inhoud van de bril kan niet naar dit apparaat worden overgedragen</string>
     <string name="circulate_car_card_use_camera">Gebruik voorkant camera van de EV</string>
     <string name="circulate_car_card_using_camera">Voorkant camera van de EV aan het gebruiken</string>
+    <string name="circulate_card_audio_change_pad_title">Overschakelen naar tabletaudio</string>
+    <string name="circulate_card_audio_change_phone_title">Overschakelen naar telefoonaudio</string>
+    <string name="circulate_card_audio_playing_pad_title">Tabletaudio gebruiken</string>
+    <string name="circulate_card_audio_playing_phone_title">Telefoonaudio gebruiken</string>
     <string name="circulate_card_disconnect">Verbinding verbreken</string>
     <string name="circulate_card_loading_title_audio_stereo">Stereo systeem</string>
     <string name="circulate_card_loading_title_band">Band</string>
@@ -413,6 +417,14 @@ om het scherm van deze tablet te spiegelen"</string>
     <string name="circulate_headset_control_anc_disable_hint">Uw oortelefoons zijn verbonden met twee apparaten. U kunt het volume alleen vanaf dit apparaat aanpassen.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Ruisonderdrukking</string>
     <string name="circulate_headset_control_anc_off">Uit</string>
+    <string name="circulate_headset_control_audio_effect_off">Ruimtelijke audio uitschakelen</string>
+    <string name="circulate_headset_control_audio_effect_spatial">Ruimtelijke audio inschakelen</string>
+    <string name="circulate_headset_control_audio_find_earphone">Geluid afspelen</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">Annuleren</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">Doorgaan</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">Het geluid wordt op een hoog volume afgespeeld. Als u een hoofdtelefoon draagt, kan dit uw gehoor beschadigen. Zet de hoofdtelefoon af voordat u verdergaat.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">Waarschuwing voor hoog volume</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">Stop met het afspelen van geluid</string>
     <string name="circulate_headset_control_battery_case">Oplaadetui</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
@@ -502,6 +514,7 @@ uw apparaten niet vinden?"</string>
     <string name="circulate_phone_card_using_cellular_wifi">Wifi-signaal van de telefoon gebruiken</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">WLAN-signaal van de telefoon gebruiken</string>
     <string name="circulate_phone_card_using_desktop">Startscherm+ van de telefoon gebruiken</string>
+    <string name="circulate_phone_card_using_sink_desktop">Startscherm+ delen met de telefoon</string>
     <string name="circulate_public_device_title_format">%2$s van %1$s</string>
     <string name="circulate_ringfind_button_hint_play">Geluid afspelen</string>
     <string name="circulate_ringfind_button_hint_stop">Stop met het afspelen van geluid</string>
@@ -548,7 +561,7 @@ uw apparaten niet vinden?"</string>
     <string name="close_invisible_mode_dialog_ok">Instellingen</string>
     <string name="close_invisible_mode_dialog_title">U bent incognito</string>
     <string name="common_google_play_services_enable_button">Aanzetten</string>
-    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services aanzet.</string>
     <string name="common_google_play_services_enable_title">Google Play-services aanzetten</string>
     <string name="common_google_play_services_install_button">Installeren</string>
     <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
@@ -596,10 +609,12 @@ Ondersteund voor telefoons, tablets en computers."</string>
     <string name="connect_settings_general_summary_share_clipboard">Kopieer tekst, afbeeldingen of bestanden op een apparaat en plak ze op een ander apparaat in de buurt (telefoon, tablet, computer of voertuig) terwijl u bent aangemeld bij uw Xiaomi Account</string>
     <string name="connect_settings_general_summary_share_file">Krijg direct toegang tot de bestanden op uw telefoon vanaf computers in de buurt die zijn aangemeld bij uw Xiaomi Account</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Bekijk en bedien uw telefoon en krijg toegang tot apps op uw telefoon vanaf tablets, computers en voertuigen in de buurt die zijn aangemeld bij uw Xiaomi Account</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">Bekijk en bedien dit apparaat en gebruik de apps ervan vanaf telefoons, tablets, computers of voertuigen in de buurt die zijn aangemeld met hetzelfde account</string>
     <string name="connect_settings_general_summary_share_notification_pad">Toon waarschuwingen voor een bijna lege batterij van telefoons in de buurt op tablets die zijn aangemeld bij uw Xiaomi Account</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Toon belangrijke telefoonmeldingen op tv's, tablets en computers in de buurt waarop u bent aangemeld met uw Xiaomi Account.
 Werkt met apps voor maaltijdbezorging en taxiritten op tv's, en met meldingen voor een bijna lege batterij op tablets en computers."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Toon de meldingen van een bijna lege batterij van uw telefoon op een tablet in de buurt die is aangemeld bij hetzelfde account</string>
+    <string name="connect_settings_known_button">Begrepen</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">Items overdragen via NFC</string>
     <string name="connect_settings_not_opened">Uit</string>
@@ -607,6 +622,7 @@ Werkt met apps voor maaltijdbezorging en taxiritten op tv's, en met meldingen vo
     <string name="connect_settings_presentation_password_error">Onjuist wachtwoord</string>
     <string name="connect_settings_presentation_password_title">Voer het beheerderswachtwoord in</string>
     <string name="connect_settings_privacy_policy">Privacybeleid</string>
+    <string name="connect_settings_refresh">Vernieuwen</string>
     <string name="connect_settings_relay_app">Apps</string>
     <string name="connect_settings_same_account">Vanaf dit account</string>
     <string name="connect_settings_screen_cast">Casten</string>
@@ -616,6 +632,7 @@ Werkt met apps voor maaltijdbezorging en taxiritten op tv's, en met meldingen vo
     <string name="connect_settings_share_launcher">Startscherm+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">Ontgrendel uw Xiaomi telefoon en apps met iPad Face ID of wachtwoord</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">Ontgrendel uw Xiaomi telefoon en apps met uw iPad-vingerafdruk of wachtwoord</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">Ontgrendel uw Xiaomi telefoon en de bijbehorende apps met de vingerafdruk of toegangscode van uw iPhone</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">Gebruik Gezichts-ID of wachtwoord op uw iPhone om uw Xiaomi telefoon en apps te ontgrendelen</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Ontgrendeling met gezichtsherkenning of wachtwoord</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Gebruik uw vingerafdruk of wachtwoord op uw Mac om uw telefoon en apps te ontgrendelen</string>
@@ -623,13 +640,52 @@ Werkt met apps voor maaltijdbezorging en taxiritten op tv's, en met meldingen vo
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Gezichtsontgrendeling</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Snelle app-start na ontgrendeling</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Gebruik de vingerafdruk of het wachtwoord op uw Xiaomi tablet om uw telefoon en apps te ontgrendelen</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">Gebruik de vingerafdruk of het wachtwoord van deze telefoon om dit apparaat en de apps ervan te ontgrendelen</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Voeg telefoonapps toe aan het Startscherm van uw tablet. Zodra de telefoon ontgrendeld is, kunt u ze direct vanaf de tablet starten.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Gebruik uw vingerafdruk of voer uw wachtwoord in om te ontgrendelen</string>
     <string name="connect_settings_share_notification">Meldingen</string>
+    <string name="connect_settings_share_notification_help">Help</string>
     <string name="connect_settings_share_notification_iphone_device">Toon meldingen van dit apparaat op de iPhone</string>
     <string name="connect_settings_share_notification_local_device">Toon iPhone-meldingen op dit apparaat</string>
+    <string name="connect_settings_share_notification_local_device_summary">Om oproepen te kunnen beantwoorden en berichten en app-meldingen op dit apparaat te kunnen ontvangen, moet u toestaan ​​dat meldingen worden gesynchroniseerd met uw Xiaomi telefoon via Xiaomi Interconnectivity > Meldingen synchroniseren > Synchroniseren met Xiaomi op uw iPhone.</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">Om oproepen te kunnen beantwoorden en berichten en app-meldingen te ontvangen op uw Xiaomi apparaat, verbindt u het met uw iPhone via Xiaomi Interconnectivity > Meldingen synchroniseren > Synchroniseren met Xiaomi.</string>
+    <string name="connect_settings_share_notification_local_device_title">Ontvang meldingen van %1$s</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">Meldingen van andere Xiaomi apparaten op dit apparaat bekijken</string>
     <string name="connect_settings_share_notification_mi_device">Toon meldingen van dit apparaat op Xiaomi apparaten</string>
+    <string name="connect_settings_share_notification_mi_device_category">Synchroniseren met apparaten in de buurt</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">Apparaten in de buurt</string>
+    <string name="connect_settings_share_notification_mi_device_v2">"Xiaomi tablets of tv's"</string>
+    <string name="connect_settings_share_notification_mi_device_v3">"Xiaomi tablets, computers en tv's"</string>
     <string name="connect_settings_share_notification_more_feature">Meer functies</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">Meldingen van dit apparaat bekijken op andere Xiaomi apparaten</string>
+    <string name="connect_settings_share_notification_receive_tab">Ontvangen</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">Beschikbare apparaten</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">Beschikbare apparaten</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">Zorg ervoor dat uw %1$s is aangemeld bij hetzelfde account als dit apparaat en dat Interconnectiviteit is ingeschakeld in Instellingen.</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">Kan geen verbinding maken met %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">Zorg ervoor dat beide apparaten zijn aangemeld bij hetzelfde account en verbonden zijn met hetzelfde netwerk, of dat Bluetooth en WLAN op beide apparaten zijn ingeschakeld.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">Zorg ervoor dat beide apparaten zijn aangemeld bij hetzelfde account en verbonden zijn met hetzelfde netwerk, of dat Bluetooth en wifi op beide apparaten zijn ingeschakeld.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">Zorg ervoor dat beide apparaten zijn aangemeld met hetzelfde account en verbonden zijn met het netwerk, of dat WLAN is ingeschakeld</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">Zorg ervoor dat beide apparaten zijn aangemeld met hetzelfde account en verbonden zijn met het netwerk, of dat wifi is ingeschakeld</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">Zoeken naar uw apparaat…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">Wanneer dit apparaat is verbonden met het netwerk, kunt u meldingen ontvangen van apparaten die zijn aangemeld met hetzelfde account. Als er een apparaat in de buurt is met Bluetooth en WLAN ingeschakeld, kunt u de apps ervan spiegelen en berichten beantwoorden.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">Wanneer dit apparaat is verbonden met het netwerk, kunt u meldingen ontvangen van apparaten die zijn aangemeld met hetzelfde account. Als er een apparaat in de buurt is met Bluetooth en wifi ingeschakeld, kunt u de apps ervan spiegelen en berichten beantwoorden.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• Wanneer dit apparaat is verbonden met het netwerk, kunnen meldingen van een andere vergrendelde Xiaomi telefoon die is aangemeld met hetzelfde account, op dit apparaat worden weergegeven.
+• Wanneer apparaten die zijn aangemeld met hetzelfde account zich in de buurt bevinden en Bluetooth en WLAN zijn ingeschakeld, kunnen meldingen van andere apparaten direct op dit apparaat worden beantwoord."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• Wanneer dit apparaat is verbonden met het netwerk, kunnen meldingen van een andere vergrendelde Xiaomi telefoon die is aangemeld met hetzelfde account, op dit apparaat worden weergegeven.
+• Wanneer apparaten die zijn aangemeld met hetzelfde account zich in de buurt bevinden en Bluetooth en wifi zijn ingeschakeld, kunnen meldingen van andere apparaten direct op dit apparaat worden beantwoord."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">Kon geen beschikbare apparaten vinden</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">Om meldingen op dit apparaat te kunnen beheren, moet u toestaan ​​dat meldingen worden gesynchroniseerd met uw Xiaomi apparaat in Xiaomi Interconnectivity > Meldingen synchroniseren > Synchroniseer met Xiaomi op uw %1$s.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">\"Meldingen synchroniseren\" is uitgeschakeld voor %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">Ontvangen</string>
+    <string name="connect_settings_share_notification_send_tab">Synchroniseren</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">Synchroniseren met telefoon</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">Mijn telefoons</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"Toon meldingen van dit apparaat op telefoons, tablets en tv's waarop u bent aangemeld met hetzelfde account.
+*Ondersteunde functies: Telefoons kunnen oproepen, berichten en app-meldingen weergeven; tv's kunnen meldingen over bezorgingen en taxiritten weergeven; tablets en computers kunnen meldingen van uw telefoon weergeven als de batterij bijna leeg is."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• Wanneer dit apparaat vergrendeld is, kunnen meldingen van dit apparaat worden bekeken op telefoons, tablets, computers of tv's die zijn aangemeld met hetzelfde account.
+• U kunt oproepen, berichten of app-meldingen bekijken op telefoons, meldingen van maaltijdbezorging en taxidiensten op tv's en meldingen over een bijna lege batterij op tablets en computers."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">Synchroniseren</string>
     <string name="connect_settings_summary"><Data>Ontdek apparaten in de buurt die zijn aangemeld bij uw Xiaomi Account en voeg ze toe aan Xiaomi Smart Hub. &lt;a href=%1$s>Meer informatie&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Laat uw apparaten draadloos met elkaar communiceren</string>
     <string name="connect_settings_summary_corp_network">Gebruik het netwerk van uw telefoon op tablets of computers</string>
@@ -645,6 +701,7 @@ Schakel wifi en Bluetooth in voordat u ze gebruikt."</string>
     <string name="connect_settings_summary_share_launcher_pad_v2">Bedien uw telefoon vanaf uw tablet</string>
     <string name="connect_settings_summary_share_launcher_phone">Toestaan dat tablets en computers in de buurt het Startscherm van dit apparaat bekijken en gebruiken</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">Bedien uw telefoon vanaf tablets, computers of voertuigen</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">Bedien dit apparaat vanaf uw telefoon, tablet, computer of voertuig</string>
     <string name="connect_settings_summary_share_notification_pad">Ontvang meldingen van telefoons in de buurt die zijn aangemeld bij uw Xiaomi Account</string>
     <string name="connect_settings_summary_share_notification_pad_v2">Toon meldingen van telefoons in de buurt die zijn aangemeld bij uw Xiaomi Account op dit apparaat</string>
     <string name="connect_settings_summary_share_notification_phone">Toon meldingen op tablets of computers in de buurt die in gebruik zijn wanneer dit apparaat is vergrendeld</string>
@@ -678,19 +735,31 @@ Schakel wifi en Bluetooth in voordat u ze gebruikt."</string>
     <string name="device_permission_dialog_title">Verleen toestemming op %s</string>
     <string name="device_type_name_pad">Tablet</string>
     <string name="device_type_name_phone">Telefoon</string>
+    <string name="dialog_auth_title">Verificatiecode</string>
     <string name="dialog_can_not_find_device">Kon geen apparaten in de buurt vinden</string>
     <string name="dialog_cancle">Annuleren</string>
     <string name="dialog_close">Uitschakelen</string>
+    <string name="dialog_confirm_button">Begrepen</string>
+    <string name="dialog_confirm_remote_status">Controleer %1$s status</string>
     <string name="dialog_connect_fail">Kon geen verbinding maken</string>
     <string name="dialog_connect_retry">Tik om opnieuw te proberen</string>
     <string name="dialog_connect_verify_perssion">Verleen eerst toestemming voor casten op uw tv</string>
     <string name="dialog_connect_verify_perssion_fail">Kon geen toestemming verlenen voor casten op uw tv. Wacht een minuut of twee en probeer het opnieuw.</string>
     <string name="dialog_connected">Verbonden</string>
     <string name="dialog_connecting">Aan het verbinden…</string>
+    <string name="dialog_copy_it">Kopiëren</string>
+    <string name="dialog_enable_remote_notification">Sta meldingen op verschillende apparaten toe op uw %1$s</string>
+    <string name="dialog_enable_remote_notification_content_v2">Kan nu geen meldingen synchroniseren. Zorg ervoor dat het synchroniseren van meldingen is toegestaan ​​op %1$s in Instellingen > Interconnectiviteit > Meldingen op verschillende apparaten > Synchroniseren.</string>
     <string name="dialog_incoming_call_instruction">Antwoord op uw %1$s</string>
     <string name="dialog_know_it">Begrepen</string>
     <string name="dialog_location_permission_message">Deze app heeft toegang nodig tot uw locatie om externe monitors in de buurt te kunnen vinden. Selecteer \"Altijd toestaan\" terwijl u deze toestemming geeft om mogelijke fouten te voorkomen.</string>
     <string name="dialog_location_permission_title">Toestemmingen vereist</string>
+    <string name="dialog_message_instruction_subtitle_call">U kunt antwoorden op %1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">U kunt op uw Xiaomi telefoon antwoorden</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">U kunt op de iPhone reageren</string>
+    <string name="dialog_message_instruction_subtitle_reply">U kunt reageren op %1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">U kunt reageren op een Xiaomi telefoon</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">U kunt op de iPhone reageren</string>
     <string name="dialog_message_reply_instruction">Antwoord op uw %1$s</string>
     <string name="dialog_miplay_permission_message">Sta Casten toe om audio op te nemen, toegang te krijgen tot bestanden in de interne opslag en toegang te krijgen tot uw locatie om deze functie normaal te kunnen gebruiken. Tik op \"Instellingen\" en selecteer \"App-toestemmingen\" om door te gaan.</string>
     <string name="dialog_miplay_permission_positive">Instellingen</string>
@@ -704,10 +773,18 @@ Schakel wifi en Bluetooth in voordat u ze gebruikt."</string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Verbind zowel uw mobiele apparaat als uw tv met hetzelfde WLAN-netwerk.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Op sommige tv-modellen is deze functie alleen beschikbaar wanneer schermduplicatie is ingeschakeld. Bekijk &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> voor meer informatie.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">"Stream foto's, video's of muziek"</string>
+    <string name="dialog_open_remote_switch_content">Instelling kon niet worden toegepast. Zorg ervoor dat uw %1$s is aangemeld met hetzelfde account en verbonden is met hetzelfde netwerk als dit apparaat.</string>
     <string name="dialog_open_wifi_bt">Inschakelen</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Zorg ervoor dat de functie voor draadloos casten is ingeschakeld op het doelapparaat.
 Bekijk help als u problemen ondervindt bij het maken van een verbinding."</string>
     <string name="dialog_recent_connected">Recente</string>
+    <string name="dialog_remote_authorization">Toestemmingen verlenen op %1$s</string>
+    <string name="dialog_remote_authorization_content">Geef notificatietoestemmingen voor Interconnectiviteit op uw %1$s.</string>
+    <string name="dialog_reset_app_subscribe">Sta meldingen toe van %1$s</string>
+    <string name="dialog_reset_app_subscribe_content">%2$s is eerder verwijderd van uw %1$s. U kunt geen app-meldingen ontvangen op dit apparaat. Wijzig uw instellingen en probeer het opnieuw.</string>
+    <string name="dialog_reset_app_subscribe_multi">Notificatie-instellingen wijzigen</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s en %3$s zijn eerder verwijderd van uw %1$s. U kunt geen app-meldingen ontvangen op dit apparaat. Wijzig uw instellingen en probeer het opnieuw.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s en %4$s zijn eerder verwijderd van uw %1$s. U kunt geen app-meldingen ontvangen op dit apparaat. Wijzig uw instellingen en probeer het opnieuw.</string>
     <string name="dialog_retry">Opnieuw proberen</string>
     <string name="dialog_scan_message">"%1$d. Verbind zowel uw mobiele apparaat als uw tv met hetzelfde Wi-Fi netwerk.
 
@@ -731,6 +808,7 @@ Bekijk help als u problemen ondervindt bij het maken van een verbinding."</strin
     <string name="early_morning">Ochtend</string>
     <string name="edit_device_group">Apparaatgroepen bewerken</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">Kan nu geen meldingen ontvangen. Zorg ervoor dat het synchroniseren van meldingen is toegestaan ​​op %1$s in Instellingen > Interconnectiviteit > Meldingen op verschillende apparaten > Synchroniseren.</string>
     <string name="enable_screen_projection_summary">Cast scherminhoud naar een externe monitor</string>
     <string name="enable_screen_projection_summary_new">"Cast het scherm van uw mobiele apparaat naar nabijgelegen tv's en andere externe monitors"</string>
     <string name="enable_screen_projection_summary_pad">Cast het tabletscherm naar een nabijgelegen TV of ander apparaat</string>
@@ -952,6 +1030,7 @@ Als u Miracast moet inschakelen, druk dan op de knop [MENU] en selecteer Mijn ap
 %1$d. Als u problemen ondervindt, kunt u deze melden met behulp van onze app \"Services en feedback\"."</string>
     <string name="help_page_text_end">Als uw merk apparaat hier niet genoemd is, neem dan contact op met de producent voor meer informatie over casten.</string>
     <string name="i_see">Begrepen</string>
+    <string name="ic_media_route_learn_more_accessibility">Meer informatie over casten</string>
     <string name="icon_content_description">Icoon voor dialoogvenster</string>
     <string name="image_transfer_failed">Kon afbeelding niet overzetten</string>
     <string name="install">Installeren</string>
@@ -1017,8 +1096,10 @@ Opmerking: U ontvangt een routinematige systeemwaarschuwing wanneer u toegankeli
     <string name="miplay_song_title_empty">Geen items hier</string>
     <string name="mirror_phone_content">Startscherm+ nu inschakelen?</string>
     <string name="mirror_phone_content_remote">U kunt Startscherm+ inschakelen in Instellingen > Interconnectiviteit.</string>
+    <string name="mirror_phone_content_remote_V1">Schakel Startscherm+ in via Instellingen > Interconnectiviteit > Startscherm+ op uw %1$s.</string>
     <string name="mirror_phone_title">Startscherm+ inschakelen</string>
     <string name="mirror_phone_title_remote">Schakel Startscherm+ in op de telefoon</string>
+    <string name="mirror_phone_title_remote_V1">Schakel eerst Startscherm+ in.</string>
     <string name="mirror_remote_pad_content">U kunt Startscherm+ inschakelen in Instellingen > Interconnectiviteit.</string>
     <string name="mirror_remote_pad_title">Schakel Startscherm+ in op de tablet</string>
     <string name="miuix_access_state_desc">Geselecteerd</string>
@@ -1102,8 +1183,17 @@ Opmerking: U ontvangt een routinematige systeemwaarschuwing wanneer u toegankeli
     <string name="mr_cast_button_connecting">Casten. Verbinding maken.</string>
     <string name="mr_cast_button_disconnected">Casten. Verbinding verbroken.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Geen informatie beschikbaar</string>
+    <string name="mr_chooser_looking_for_devices">Apparaten zoeken...</string>
     <string name="mr_chooser_searching">Apparaten zoeken</string>
     <string name="mr_chooser_title">Casten naar</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Meer informatie</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze auto</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze telefoon</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze tablet</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze tv</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als dit apparaat</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze smartwatch</string>
+    <string name="mr_chooser_zero_routes_found_title">Geen apparaten beschikbaar</string>
     <string name="mr_controller_album_art">Albumhoes</string>
     <string name="mr_controller_casting_screen">Scherm casten</string>
     <string name="mr_controller_close_description">Sluiten</string>
@@ -1182,12 +1272,24 @@ Opmerking: U ontvangt een routinematige systeemwaarschuwing wanneer u toegankeli
     <string name="nothing_to_play">Niet aan het afspelen</string>
     <string name="notification_cast_desc">Casten…</string>
     <string name="notification_channel_description">Selecteer de meldingstypen die u wilt synchroniseren van een ander apparaat naar uw Xiaomi apparaat</string>
+    <string name="notification_channel_subtitle_ref_call">Bellen vanaf iPhone</string>
+    <string name="notification_channel_subtitle_ref_call_1">Oproep van %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_1">Lark-bericht van %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq">QQ-bericht van iPhone</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">QQ-bericht van %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms">Bericht van iPhone</string>
+    <string name="notification_channel_subtitle_ref_sms_1">Bericht van %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin">WeChat-bericht van iPhone</string>
+    <string name="notification_channel_subtitle_ref_xin_1">WeChat-bericht van %1$s</string>
     <string name="notification_channel_title_name">Meldingen gesynchroniseerd met Xiaomi apparaat</string>
     <string name="notification_desc_scanning">Zoeken naar apparaten in de buurt…</string>
     <string name="notification_incoming_call_to_reply">Inkomende oproep. Beantwoord op %1$s.</string>
     <string name="notification_permission_content">Sta de meldingen van dit apparaat toe op elke iPhone waarop Interconnectiviteit is geïnstalleerd en u bent aangemeld bij uw account.</string>
+    <string name="notification_permission_new_content">Sta toe dat oproepen, berichten en app-meldingen van dit apparaat worden weergegeven op een iPhone met synchronisatiemeldingen ingeschakeld of op een Xiaomi apparaat met meldingen op verschillende apparaten ingeschakeld.</string>
     <string name="notification_rc_title">XiaoMi TV Assistant</string>
+    <string name="notification_revice_phone">Meldingen van %1$s</string>
     <string name="notification_show_more">Tik om meer functies te bekijken</string>
+    <string name="notification_support_applist">Ondersteunde apps</string>
     <string name="notify_wifiap_dialog_msg">Om de code te scannen en het netwerk te configureren, schakel eerst draagbare hotspot uit.</string>
     <string name="notify_wifiap_dialog_negative">Begrepen</string>
     <string name="notify_wifiap_dialog_title">Netwerk configureren</string>
@@ -1385,6 +1487,7 @@ Opmerking: U ontvangt een routinematige systeemwaarschuwing wanneer u toegankeli
     <string name="path_setting_cast_feature">Meer connectiviteitsopties/Casten/Speciale functies</string>
     <string name="path_setting_cast_help">Meer connectiviteitsopties/Casten/Help</string>
     <string name="permission_allowed">Toegekend</string>
+    <string name="permission_label_access_app_meta">Toegang tot app-info bij het gebruik van apps op verschillende apparaten</string>
     <string name="permission_uballowed">Niet toegekend</string>
     <string name="picker_view_description">"Camera voor meerdere apparaten. U kunt op de kaart tikken om camera's op apparaten in de buurt te selecteren."</string>
     <string name="picker_view_outside_description">Tik om deze kaart te sluiten.</string>
@@ -1498,6 +1601,7 @@ Lees en ga akkoord met onze &lt;a href=%1$s>Gebruikersovereenkomst&lt;/a> en ons
     <string name="screen_mirror_content">Alle scherminhoud wordt weergegeven op \"%1$s\"</string>
     <string name="screen_projection">Casten</string>
     <string name="screen_projection_characteristics">Speciale functies</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">U kunt in Xiaomi HyperIsland overschakelen naar app casten om de huidige app naar een externe monitor te casten terwijl u andere apps op uw telefoon gebruikt</string>
     <string name="screen_projection_characteristics_cast_summary">Cast scherminhoud naar een tv in de buurt</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Schakel het scherm van het mobiele apparaat uit tijdens het casten om de batterij te sparen en oververhitting te voorkomen</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Schakel het scherm uit tijdens het casten om het stroomverbruik en oververhitting te verminderen</string>
@@ -1567,6 +1671,8 @@ Zorg ervoor dat u Game Turbo hebt ingeschakeld voordat u games cast."</string>
     <string name="side_sheet_accessibility_pane_title">Zijblad</string>
     <string name="small_window">Venster minimaliseren</string>
     <string name="small_window_not_supported">Kan deze app niet minimaliseren tijdens het casten</string>
+    <string name="sound_card_circulatable_control_text">Afspeelbedieningen</string>
+    <string name="sound_card_circulatable_source_text">Audiobron</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">De brilcamera is in gebruik. Probeer het later opnieuw.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Audio opnemen. Kan Camera niet openen.</string>
     <string name="start_forbidden_by_glasses_in_translation">Vertalen. Kan Camera niet openen.</string>
@@ -1673,6 +1779,8 @@ Zorg ervoor dat u Game Turbo hebt ingeschakeld voordat u games cast."</string>
     <string name="title_connection_interrupted">Verbinding onderbroken</string>
     <string name="title_install">Mi Canvas installeren</string>
     <string name="title_update">Mi Canvas bijwerken</string>
+    <string name="toast_confirm_network">De installatie kon niet worden voltooid. Zorg ervoor dat dit apparaat is verbonden met het netwerk.</string>
+    <string name="toast_copy_auth_message_finish">Succesvol gekopieerd</string>
     <string name="toast_guide_show_more">Meer informatie</string>
     <string name="toast_guide_title">Verken hier onze nieuwe functies</string>
     <string name="toast_invisible_mode">U bent incognito. Kan casten nu niet gebruiken.</string>
@@ -1681,6 +1789,9 @@ Zorg ervoor dat u Game Turbo hebt ingeschakeld voordat u games cast."</string>
     <string name="toast_msg_for_small_window">U kunt het scherm dat wordt gecast niet minimaliseren om andere functies op uw telefoon te gebruiken zonder het casten te onderbreken.</string>
     <string name="toast_nfc_dont_move">Verplaats uw telefoon niet weg</string>
     <string name="toast_nfc_same_wifi">Verbind zowel uw tv als dit apparaat met hetzelfde netwerk</string>
+    <string name="toast_remote_not_install">Deze app is niet geïnstalleerd op uw %1$s.</string>
+    <string name="toast_retry">Wacht tot de instellingen zijn toegepast en probeer het opnieuw</string>
+    <string name="toast_synchronization">Apparaatstatus controleren. Probeer het later opnieuw.</string>
     <string name="toast_title_for_small_window">Selecteer \"Scherm minimaliseren\" in de app</string>
     <string name="toast_turn_off_hotspot_before_cast">Schakel draagbare hotspot uit voor casten</string>
     <string name="today">Vandaag</string>

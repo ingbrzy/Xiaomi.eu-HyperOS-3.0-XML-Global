@@ -48,7 +48,12 @@
     <string name="answering_tel2">Прехвърлено от телефона…</string>
     <string name="app_casting">Прожекция на приложение</string>
     <string name="app_name">Прожекция</string>
+    <string name="app_name_call">Телефон</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">Съобщения</string>
     <string name="app_name_vtcamera">Камера за различни устройства</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -187,8 +192,6 @@
     <string name="cast_closed_captions">Субтитри</string>
     <string name="cast_closed_captions_unavailable">Субтитрите не са налице</string>
     <string name="cast_connecting_to_device">Установява се връзка с/ъс „%1$s“</string>
-    <string name="cast_device_chooser_searching_for_devices">Търсят се устройства</string>
-    <string name="cast_device_chooser_title">Предаване към</string>
     <string name="cast_disconnect">Прекратяване на връзката</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Изображението се показва, докато приемникът с Cast пуска реклама</string>
@@ -229,9 +232,6 @@
     <string name="cast_tracks_chooser_dialog_ok">ОK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Субтитри</string>
     <string name="cast_unmute">Пускане</string>
-    <string name="cast_zero_devices_found">"Няма открити устройства.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Научете повече</a> за това, как можете да предавате съдържанието си на други устройства.</string>
     <string name="casting_tips">Прожектиране…</string>
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
@@ -253,6 +253,10 @@
     <string name="circulate_camera_glasses_error_device_not_support">Съдържанието на очилата не може да бъде прехвърлено на това устройство</string>
     <string name="circulate_car_card_use_camera">Използвай предната камера на електромобила</string>
     <string name="circulate_car_card_using_camera">Използва се предната камера на електромобила</string>
+    <string name="circulate_card_audio_change_pad_title">Превключи към аудио на таблета</string>
+    <string name="circulate_card_audio_change_phone_title">Превключи към аудио на телефона</string>
+    <string name="circulate_card_audio_playing_pad_title">Използване на аудио от таблет</string>
+    <string name="circulate_card_audio_playing_phone_title">Използване на аудио от телефон</string>
     <string name="circulate_card_disconnect">Прекъсване</string>
     <string name="circulate_card_loading_title_audio_stereo">Стерео система</string>
     <string name="circulate_card_loading_title_band">Лента</string>
@@ -413,6 +417,14 @@
     <string name="circulate_headset_control_anc_disable_hint">Вашите слушалки са свързани към две устройства. Можете да регулирате силата на звука само от това устройство.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Заглушаване на шума</string>
     <string name="circulate_headset_control_anc_off">изкл.</string>
+    <string name="circulate_headset_control_audio_effect_off">Изключете Пространствен звук</string>
+    <string name="circulate_headset_control_audio_effect_spatial">Включете Пространствен звук</string>
+    <string name="circulate_headset_control_audio_find_earphone">Възпроизведи звук</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">Отмени</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">Продължи</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">Звукът ще се възпроизвежда силно. Ако носите слушалки, слушането с тях може да увреди слуха Ви. Премахнете ги, преди да продължите.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">Предупреждение за висок звук</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">Спри възпроизвеждането на звук</string>
     <string name="circulate_headset_control_battery_case">Кутийка</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
@@ -502,6 +514,7 @@
     <string name="circulate_phone_card_using_cellular_wifi">Използване на Wi-Fi сигнала на телефона</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">Използване на WLAN сигнала на телефона</string>
     <string name="circulate_phone_card_using_desktop">Използване на Началния екран на телефона+</string>
+    <string name="circulate_phone_card_using_sink_desktop">Сподели Начален екран+ с телефона</string>
     <string name="circulate_public_device_title_format">%2$s на %1$s</string>
     <string name="circulate_ringfind_button_hint_play">Възпроизведи звук</string>
     <string name="circulate_ringfind_button_hint_stop">Спри възпроизвеждането на звук</string>
@@ -596,10 +609,12 @@
     <string name="connect_settings_general_summary_share_clipboard">Копирайте текст, изображения или файлове на устройството и ги поставяйте на друго устройство наблизо (телефон, таблет, компютър или превозно средство), вписани във Вашия Xiaomi профил</string>
     <string name="connect_settings_general_summary_share_file">Получавайте директен достъп до файлове на телефона от компютри наблизо, които са вписани във Вашия Xiaomi Профил</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Преглеждайте и контролирайте телефона си, получавайте достъп до приложенията на него от таблети, компютри и превозни средства наблизо, които са вписани във Вашия Xiaomi Профил</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">Гледай и управлявай това устройство и използвай неговите приложения от телефони, таблети, компютри или превозни средства в близост, вписани в същия профил</string>
     <string name="connect_settings_general_summary_share_notification_pad">Показвайте предупреждения за слаба батерия от телефони наблизо на таблети, вписани във Вашия Xiaomi Профил</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Показвай важни известия от телефона на телевизори, таблети и компютри наблизо, които са вписани във Вашия Xiaomi Профил.
 Работи с приложения за доставка на храна и приложения за споделено пътуване на телевизори, както и с предупреждения за слаба батерия на таблети и компютри."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Показвай известията за изтощена батерия на телефона на таблет в близост, вписан в същия профил</string>
+    <string name="connect_settings_known_button">Разбрах</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">Прехвърляйте елементи чрез NFC</string>
     <string name="connect_settings_not_opened">Изкл</string>
@@ -607,6 +622,7 @@
     <string name="connect_settings_presentation_password_error">Грешна парола</string>
     <string name="connect_settings_presentation_password_title">Въведете администраторска парола</string>
     <string name="connect_settings_privacy_policy">Правила за поверителност</string>
+    <string name="connect_settings_refresh">Опресняване</string>
     <string name="connect_settings_relay_app">Приложения</string>
     <string name="connect_settings_same_account">От този профил</string>
     <string name="connect_settings_screen_cast">Прожекция</string>
@@ -616,6 +632,7 @@
     <string name="connect_settings_share_launcher">Начален екран+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">Отключете своите телефон Xiaomi и приложения с помощта на Face ID или Паскод на iPad</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">Отключете своите телефон Xiaomi и приложения с помощта на Пръстов отпечатък или Паскод на iPad</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">Отключвай телефон Xiaomi и приложенията му с помощта на пръстов отпечатък или паскод на iPhone</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">Използвайте Face ID или паролата на Вашия iPhone, за да отключвате Вашите телефон Xiaomi и приложения</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Отключване с лице или парола</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Използвайте своя nръстов отпечатък или паролата на Вашия Mac, за да отключвате Вашия телефон и приложения</string>
@@ -623,13 +640,52 @@
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Отключване с лице</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Бърз вход до приложения след отключване</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Използвайте Пръстовия отпечатък или паролата на Вашия Xiaomi таблет, за да отключвате Вашия телефон и приложения</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">Използвай пръстовия отпечатък или паролата на този телефон за отключване на това устройство и неговите приложения</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Добавете приложения на телефона към Началния екран на Вашия таблет. След като отключите телефона, ги стартирайте директно от таблета.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Използвайте пръстовия си отпечатък или въведете парола за отключване</string>
     <string name="connect_settings_share_notification">Известия</string>
+    <string name="connect_settings_share_notification_help">Помощ</string>
     <string name="connect_settings_share_notification_iphone_device">Показвай известия от това устройство на iPhone</string>
     <string name="connect_settings_share_notification_local_device">Показвай известия от iPhone на това устройство</string>
+    <string name="connect_settings_share_notification_local_device_summary">За да можете да отговаряте на повиквания и да получавате съобщения и известия от приложения на това устройство, позволете на известията да бъдат синхронизирани с Вашия Xiaomi телефон в Xiaomi Interconnectivity > Синхронизиране на известия > Синхронизиране с Xiaomi на Вашия iPhone.</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">За да можете да отговаряте на повиквания и да получавате съобщения и известия от приложения на Вашето Xiaomi устройство, го свържете с Вашия iPhone в Xiaomi Interconnectivity > Синхронизиране на известия > Синхронизиране с Xiaomi.</string>
+    <string name="connect_settings_share_notification_local_device_title">Получавайте известия от %1$s</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">Преглед на известията от други Xiaomi устройства на това устройство</string>
     <string name="connect_settings_share_notification_mi_device">Показвай известия от това устройство на Xiaomi устройства</string>
+    <string name="connect_settings_share_notification_mi_device_category">Синхронизиране с устройства наблизо</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">Устройства в близост</string>
+    <string name="connect_settings_share_notification_mi_device_v2">Xiaomi таблети или телевизори</string>
+    <string name="connect_settings_share_notification_mi_device_v3">Xiaomi таблети, компютри и телевизори</string>
     <string name="connect_settings_share_notification_more_feature">Още функции</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">Преглед на известията от това устройство на други Xiaomi устройства</string>
+    <string name="connect_settings_share_notification_receive_tab">Получаване</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">Достъпни устройства</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">Достъпни устройства</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">Уверете се, че Вашият %1$s е влязъл в същия акаунт като това устройство и че взаимосвързаността е включена в „Настройки“.</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">Неуспешно свързване с %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">Уверете се, че и двете устройства са влезли в един и същ профил и са свързани към една и съща мрежа, или че Bluetooth и WLAN са включени и на двете устройства.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">Уверете се, че и двете устройства са влезли в един и същ профил и са свързани към една и съща мрежа, или че Bluetooth и Wi-Fi са включени и на двете устройства.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">Увери се, че и двете устройства са вписани в същия профил и са свързани към мрежата или имат включен WLAN</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">Увери се, че и двете устройства са вписани в същия профил и са свързани към мрежата или имат включен Wi-Fi</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">Търсене на Ваше устройство…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">Когато това устройство е свързано към мрежата, можете да получавате известия от устройства, влезли в същия профил. Ако наблизо има устройство с включен Bluetooth и WLAN, можете да отразявате приложенията му и да отговаряте на съобщения.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">Когато това устройство е свързано към мрежата, можете да получавате известия от устройства, влезли в същия профил. Ако наблизо има устройство с включен Bluetooth и Wi-Fi, можете да отразявате приложенията му и да отговаряте на съобщения.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• Когато това устройство е свързано към мрежата, на него могат да се преглеждат известия от друг заключен телефон Xiaomi, вписан в същия профил.
+• Когато устройства, вписани в един и същи профил, са в близост и имат включени Bluetooth и WLAN, на това устройство може да се отговаря директно на известия от други устройства."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• Когато това устройство е свързано към мрежата, на него могат да се преглеждат известия от друг заключен телефон Xiaomi, вписан в същия профил.
+• Когато устройства, вписани в един и същи профил, са в близост и имат включени Bluetooth и Wi-Fi, на това устройство може да се отговаря директно на известия от други устройства."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">Няма намерени налични устройства</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">За да можете да управлявате известията на това устройство, разрешете синхронизирането им с Вашето Xiaomi устройство в Xiaomi Interconnectivity > Синхронизиране на известия > Синхронизиране с Xiaomi на Вашия %1$s.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">Функцията „Синхронизиране на известия“ е изключена на %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">Получи</string>
+    <string name="connect_settings_share_notification_send_tab">Синхронизиране</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">Синхронизиране с телефона</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">Моите телефони</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"Показване на известия от това устройство на телефони, таблети или телевизори, влезли в същия профил.
+*Поддържани функции: Телефоните могат да показват повиквания, съобщения и известия от приложения; Телевизорите могат да показват предупреждения за доставка и споделено пътуване; Таблетите и компютрите могат да показват предупреждения за ниска батерия от телефона."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• Когато това устройство е заключено, известия от него могат да се преглеждат на телефони, таблети, компютри или телевизори, вписани в същия профил.
+• Можеш да преглеждаш повиквания, съобщения или известия от приложения на телефони, известия за доставка на храна и услуги за превоз на телевизори и известия за слаба батерия на таблети и компютри."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">Синхр.</string>
     <string name="connect_settings_summary"><Data>Открийте устройства наблизо, вписани в Xiaomi Профила Ви, и ги добавете към Xiaomi Smart Hub. &lt;a href=%1$s>Научете повече&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Позволете на вашите устройства да взаимодействат едно с друго безжично</string>
     <string name="connect_settings_summary_corp_network">Използвайте мрежата на телефона си на таблети или компютри</string>
@@ -645,6 +701,7 @@
     <string name="connect_settings_summary_share_launcher_pad_v2">Контролирайте телефона си от своя таблет</string>
     <string name="connect_settings_summary_share_launcher_phone">Разрешете на близките таблети и компютри да преглеждат и взаимодействат с Началния екран на това устройство</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">Контролирайте телефона си от таблети, компютри или превозни средства</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">Управлявай това устройство от телефона, таблета, компютъра или автомобила си</string>
     <string name="connect_settings_summary_share_notification_pad">Получавайте известия от телефони наблизо, влезли във Вашия Xiaomi Профил</string>
     <string name="connect_settings_summary_share_notification_pad_v2">Показване на известия от близки телефони, влезли във Вашия Xiaomi Профил на това устройство</string>
     <string name="connect_settings_summary_share_notification_phone">Показване на известия на таблети или използвани компютри в близост, когато това устройство е заключено</string>
@@ -678,19 +735,31 @@
     <string name="device_permission_dialog_title">Дайте разрешение на %s</string>
     <string name="device_type_name_pad">Таблет</string>
     <string name="device_type_name_phone">Телефон</string>
+    <string name="dialog_auth_title">Код за потвърждение</string>
     <string name="dialog_can_not_find_device">Не са открити устройства в близост</string>
     <string name="dialog_cancle">Отказ</string>
     <string name="dialog_close">Изключване</string>
+    <string name="dialog_confirm_button">Разбрах</string>
+    <string name="dialog_confirm_remote_status">Провери статуса на %1$s</string>
     <string name="dialog_connect_fail">Неуспешно свързване</string>
     <string name="dialog_connect_retry">Натиснете за нов опит</string>
     <string name="dialog_connect_verify_perssion">Първо одобрете проектиране на Вашия телевизор</string>
     <string name="dialog_connect_verify_perssion_fail">Неуспешно одобряване на проектиране на Вашия телевизор. Изчакайте една-две минути и опитайте отново.</string>
     <string name="dialog_connected">Установена е връзка</string>
     <string name="dialog_connecting">Свързване…</string>
+    <string name="dialog_copy_it">Копирай</string>
+    <string name="dialog_enable_remote_notification">Разреши известия на различни устройства на твоя %1$s</string>
+    <string name="dialog_enable_remote_notification_content_v2">В момента не могат да се синхронизират известия. Увери се, че синхронизирането на известия е разрешено на %1$s в „Настройки > Взаимосвързаност > Известия за различни устройства > Синхронизация“.</string>
     <string name="dialog_incoming_call_instruction">Отговор на Вашия %1$s</string>
     <string name="dialog_know_it">Разбрах</string>
     <string name="dialog_location_permission_message">Това приложение се нуждае от достъп до Вашето местоположение, за да може да открива външни монитори наблизо. Когато давате разрешение, изберете \"Разреши винаги\", за да избегнете възможни грешки.</string>
     <string name="dialog_location_permission_title">Изискват се разрешения</string>
+    <string name="dialog_message_instruction_subtitle_call">Можеш да приемеш на %1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">Можеш да вдигнеш на Xiaomi телефон</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">Можеш да вдигнеш на iPhone</string>
+    <string name="dialog_message_instruction_subtitle_reply">Можеш да отговориш на %1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">Можеш да отговориш на Xiaomi телефон</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">Можеш да отговориш на iPhone</string>
     <string name="dialog_message_reply_instruction">Отговорете на Вашия %1$s</string>
     <string name="dialog_miplay_permission_message">За да можете да използвате тази функция нормално, разрешете на Прожекция да записва аудио, да получава достъп до файлове във вътрешната памет и достъп до местоположението ви. Натиснете \"Настройки\" и изберете \"Разрешения за приложения\", за да продължите.</string>
     <string name="dialog_miplay_permission_positive">Настройки</string>
@@ -704,10 +773,18 @@
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g> Свържи както мобилното устройство, така и телевизора към една и съща WLAN мрежа.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. На някои телевизори тази функция е налична само когато функцията „Огледален екран“ е включена. Виж &lt;a href=milink://com.milink.service/specification>\"Помощ\"&lt;/a> за повече информация.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Предавайте снимки, видео или музика</string>
+    <string name="dialog_open_remote_switch_content">Настройката не може да се приложи. Уверете се, че Вашият %1$s е вписан в същия профил и е свързан със същата мрежа, с която е свързано това устройство.</string>
     <string name="dialog_open_wifi_bt">Включи</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Уверете се, че функцията за безжично прожектиране е включена на целевото устройство.
 Ако имате проблеми със свързването, вижте секцията за помощ."</string>
     <string name="dialog_recent_connected">Последни</string>
+    <string name="dialog_remote_authorization">Дай разрешения в %1$s</string>
+    <string name="dialog_remote_authorization_content">Дай разрешения за известяване на „Взаимосвързаност“ на твоя %1$s.</string>
+    <string name="dialog_reset_app_subscribe">Разрешете известия от %1$s</string>
+    <string name="dialog_reset_app_subscribe_content">%2$s по-рано беше деинсталирано от Вашия %1$s. На това устройство не могат да се получават известия от приложения. Променете настройките си и опитайте отново.</string>
+    <string name="dialog_reset_app_subscribe_multi">Променете настройките за известия</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s и %3$s по-рано бяха деинсталирани от Вашия %1$s. На това устройство не могат да се получават известия от приложения. Променете настройките си и опитайте отново.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s и %4$s по-рано бяха деинсталирани от Вашия %1$s. На това устройство не могат да се получават известия от приложения. Променете настройките си и опитайте отново.</string>
     <string name="dialog_retry">Опитайте отново</string>
     <string name="dialog_scan_message">"%1$d. Свържете и мобилното си устройство и вашия телевизор към същата Wi-Fi мрежа.
 
@@ -731,6 +808,7 @@
     <string name="early_morning">Сутрин</string>
     <string name="edit_device_group">Редактиране на групи устройства</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">В момента не могат да се получават известия. Увери се, че синхронизирането на известия е разрешено на %1$s в „Настройки > Взаимосвързаност > Известия за различни устройства > Синхронизация“.</string>
     <string name="enable_screen_projection_summary">Прожектиране на съдържание на екрана върху външен монитор</string>
     <string name="enable_screen_projection_summary_new">Прожектирайте екрана на мобилно устройство към близките телевизори и други външни монитори</string>
     <string name="enable_screen_projection_summary_pad">Прожектирайте екрана на таблета към близкия телевизор или друго устройство</string>
@@ -952,6 +1030,7 @@
 %1$d. Ако срещнете проблеми, можете да ги докладвате чрез нашето приложение \"Услуги и обратна връзка\"."</string>
     <string name="help_page_text_end">Ако марката на Вашето устройство не е изброена тук, свържете се с производителя, за да разберете повече за функционалността на прожектирането.</string>
     <string name="i_see">Разбрах</string>
+    <string name="ic_media_route_learn_more_accessibility">Научете как да предавате</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="image_transfer_failed">Неуспешно прехвърляне на изображение</string>
     <string name="install">Инсталирай</string>
@@ -1017,8 +1096,10 @@
     <string name="miplay_song_title_empty">Тук няма елементи</string>
     <string name="mirror_phone_content">Активиране на Начален екран+ сега?</string>
     <string name="mirror_phone_content_remote">Можете да активирате Начален екран+ в Настройки > Взаимосвързаност.</string>
+    <string name="mirror_phone_content_remote_V1">Включи Начален екран+ в „Настройки > Взаимосвързаност > Начален екран+“ на %1$s.</string>
     <string name="mirror_phone_title">Активиране на Начален екран+</string>
     <string name="mirror_phone_title_remote">Активирайте Начален екран+ на телефона</string>
+    <string name="mirror_phone_title_remote_V1">Първо включи Начален екран+</string>
     <string name="mirror_remote_pad_content">Можете да активирате Начален екран+ в Настройки > Взаимосвързаност.</string>
     <string name="mirror_remote_pad_title">Активирайте Начален екран+ на таблета</string>
     <string name="miuix_access_state_desc">Избрани</string>
@@ -1102,8 +1183,17 @@
     <string name="mr_cast_button_connecting">Предаване. Установява се връзка</string>
     <string name="mr_cast_button_disconnected">Предаване. Връзката е прекратена</string>
     <string name="mr_cast_dialog_title_view_placeholder">Няма налична информация</string>
+    <string name="mr_chooser_looking_for_devices">Търсят се устройства...</string>
     <string name="mr_chooser_searching">Търсят се устройства</string>
     <string name="mr_chooser_title">Предаване към</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Научете повече</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Уверете се, че автомобилът и другото устройство са свързани с една и съща Wi-Fi мрежа</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Уверете се, че телефонът и другото устройство са свързани с една и съща Wi-Fi мрежа</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Уверете се, че таблетът и другото устройство са свързани с една и съща Wi-Fi мрежа</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Уверете се, че телевизорът и другото устройство са свързани с една и съща Wi-Fi мрежа</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Уверете се, че това и другото устройство са свързани с една и съща Wi-Fi мрежа</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Уверете се, че часовникът и другото устройство са свързани с една и съща Wi-Fi мрежа</string>
+    <string name="mr_chooser_zero_routes_found_title">Няма налични устройства</string>
     <string name="mr_controller_album_art">Обложка на албума</string>
     <string name="mr_controller_casting_screen">Екранът се предава</string>
     <string name="mr_controller_close_description">Затваряне</string>
@@ -1182,12 +1272,24 @@
     <string name="nothing_to_play">Не се възпроизвежда</string>
     <string name="notification_cast_desc">Прожектиране…</string>
     <string name="notification_channel_description">Изберете типове известия, които да бъдат синхронизирани от друго устройство на Вашето Xiaomi устройство</string>
+    <string name="notification_channel_subtitle_ref_call">Обаждане от iPhone</string>
+    <string name="notification_channel_subtitle_ref_call_1">Повикване от %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_1">Съобщение в Lark от %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq">QQ съобщение от iPhone</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">QQ съобщение от %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms">Съобщение от iPhone</string>
+    <string name="notification_channel_subtitle_ref_sms_1">Съобщение от %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin">WeChat съобщение от iPhone</string>
+    <string name="notification_channel_subtitle_ref_xin_1">WeChat съобщение от %1$s</string>
     <string name="notification_channel_title_name">Известията са синхронизирани с Xiaomi устройство</string>
     <string name="notification_desc_scanning">Търсене на устройства наблизо…</string>
     <string name="notification_incoming_call_to_reply">Входящо повикване. Отговори на %1$s.</string>
     <string name="notification_permission_content">Разрешете известията на това устройство на всеки iPhone с Взаимосвързаност, който е инсталиран и свързан с Вашия профил.</string>
+    <string name="notification_permission_new_content">Разрешете повиквания, съобщения и известия от приложения от това устройство да се показват на iPhone с включени известия за синхронизиране или на Xiaomi устройство с включени известия от различни устройства.</string>
     <string name="notification_rc_title">XiaoMi TV Помощник</string>
+    <string name="notification_revice_phone">Известия от %1$s</string>
     <string name="notification_show_more">Натиснете, за да видите още функции</string>
+    <string name="notification_support_applist">Поддържани приложения</string>
     <string name="notify_wifiap_dialog_msg">За да сканирате кода и да конфигурирате мрежата, първо изключете преносимия хотспот.</string>
     <string name="notify_wifiap_dialog_negative">Разбрах</string>
     <string name="notify_wifiap_dialog_title">Конфигуриране на мрежа</string>
@@ -1385,6 +1487,7 @@
     <string name="path_setting_cast_feature">Още опции за свързване/Прожекция/Специални функции</string>
     <string name="path_setting_cast_help">Още опции за свързване/Прожекция/Помощ</string>
     <string name="permission_allowed">Позволено</string>
+    <string name="permission_label_access_app_meta">Достъпвай инф. от приложението, когато използваш приложения на различни устройства</string>
     <string name="permission_uballowed">Не е позволено</string>
     <string name="picker_view_description">Камера за различни устройства. Можете да натиснете вътрешността на картата, за да изберете камери на устройства наблизо.</string>
     <string name="picker_view_outside_description">Натиснете, за да затворите тази карта.</string>
@@ -1498,6 +1601,7 @@
     <string name="screen_mirror_content">Цялото съдържание на екрана ще се показва на \"%1$s\"</string>
     <string name="screen_projection">Прожекция</string>
     <string name="screen_projection_characteristics">Специални функции</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">Можете да превключите към Прожекция на приложение в Xiaomi HyperIsland, за да проектирате текущото приложение на външен монитор, докато използвате други приложения на телефона си</string>
     <string name="screen_projection_characteristics_cast_summary">Прожектирайте съдържанието на екрана на телевизор наблизо</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Изключете екрана на мобилното устройство, докато прожектирате, за да пестите батерията и да избегнете прегряване</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Изключете екрана, докато предавате, за да намалите консумацията на енергия и прегряването</string>
@@ -1567,6 +1671,8 @@
     <string name="side_sheet_accessibility_pane_title">Страничен лист</string>
     <string name="small_window">Минимизиране на прозореца</string>
     <string name="small_window_not_supported">Приложението не може да бъде минимизирано докато се извършва прожекция</string>
+    <string name="sound_card_circulatable_control_text">Контроли за възпроизвеждане</string>
+    <string name="sound_card_circulatable_source_text">Аудио източник</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">Камерата на очилата е в употреба. Опитайте отново по-късно.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Записване на аудио. Камерата не може да се отвори.</string>
     <string name="start_forbidden_by_glasses_in_translation">Превеждане. Камерата не може да се отвори.</string>
@@ -1673,6 +1779,8 @@
     <string name="title_connection_interrupted">Връзката е прекъсната</string>
     <string name="title_install">Инсталиране на Mi Canvas</string>
     <string name="title_update">Обнови Mi Canvas</string>
+    <string name="toast_confirm_network">Неуспешно завършване на инсталирането. Увери се, че това устройство е свързано към мрежата.</string>
+    <string name="toast_copy_auth_message_finish">Успешно копирано</string>
     <string name="toast_guide_show_more">Научете повече</string>
     <string name="toast_guide_title">Разгледайте новите ни функции тук</string>
     <string name="toast_invisible_mode">Вече сте инкогнито. Не можете да излъчвате в момента.</string>
@@ -1681,6 +1789,9 @@
     <string name="toast_msg_for_small_window">Можете да минимизирате прозореца, който се проектира, за да можете да използвате други функции без прекъсване на процеса на проектиране.</string>
     <string name="toast_nfc_dont_move">Не отдалечавайте телефона си</string>
     <string name="toast_nfc_same_wifi">Свържете и телевизора и устройството към същата мрежа.</string>
+    <string name="toast_remote_not_install">Това приложение не е инсталирано на твоя %1$s.</string>
+    <string name="toast_retry">Изчакайте, докато настройките се приложат, и опитайте отново</string>
+    <string name="toast_synchronization">Проверка на състоянието на устройството. Пробвай отново по-късно.</string>
     <string name="toast_title_for_small_window">Изберете \"Минимизиране на прозореца\" в приложението</string>
     <string name="toast_turn_off_hotspot_before_cast">Изключете вашия мобилен хотспот преди прожекция</string>
     <string name="today">Днес</string>

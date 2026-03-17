@@ -196,6 +196,7 @@
     <string name="allow_onetime">Να επιτραπεί μια φορά</string>
     <string name="already_close_gamebooster">Το Τούρμπο παιχνιδιού είναι ανενεργό</string>
     <string name="am">ΠΜ</string>
+    <string name="anitispam_intercept_record">Ιστορικό λίστας αποκλεισμού</string>
     <string name="anti_disturb_msg_detail">Απενεργοποίηση όλων των ειδοποιήσεων εκτός των εισερχόμενων κλήσεων</string>
     <string name="anti_disturb_msg_title">Μην Ενοχλείτε</string>
     <string name="antispam_add_black_number_message">Ο αριθμός που εισαγάγατε είναι σύντομος. Αποκλεισμός όλων των αριθμών που ξεκινούν με αυτά τα ψηφία;</string>
@@ -1023,6 +1024,9 @@
     <string name="call_delete_all_hint">Διαγραφή όλων των αποκλεισμένων κλήσεων;</string>
     <string name="call_delete_hint">Διαγραφή όλων των αποκλεισμένων κλήσεων από αυτό τον αριθμό;</string>
     <string name="call_delete_title">Διαγραφή ιστορικού κλήσεων</string>
+    <string name="call_empty_number">Κενοί αριθμοί</string>
+    <string name="call_forwarding_block">Προωθημένες κλήσεις</string>
+    <string name="call_intercept_settings">Ρυθμίσεις λίστας αποκλεισμού κλήσεων</string>
     <string name="call_notification_answer_action">Απάντηση</string>
     <string name="call_notification_answer_video_action">Βίντεο</string>
     <string name="call_notification_decline_action">Απόρριψη</string>
@@ -1031,6 +1035,7 @@
     <string name="call_notification_ongoing_text">Κλήση σε εξέλιξη</string>
     <string name="call_notification_screening_text">Διαλογή εισερχόμενης κλήσης</string>
     <string name="call_oversea_block">Αποκλεισμός κλήσεων από εξωτερικό</string>
+    <string name="call_overseas_block">Διεθνείς κλήσεις</string>
     <string name="call_prefix">Λίστα αποκλεισμού κωδικών κλήσης</string>
     <string name="call_private">Αποκλεισμός κλήσεων από κρυφούς αριθμούς</string>
     <string name="call_stranger_block">Αποκλεισμός κλήσεων από αγνώστους</string>
@@ -1040,12 +1045,20 @@
     <string name="cancel">Ακύρωση</string>
     <string name="cancel_button">Ακύρωση</string>
     <string name="car_sickness_relief_comment_text">Όταν ανιχνεύεται κίνηση οχήματος, εμφανίζονται τελείες και στις δύο πλευρές της οθόνης για να δείξουν αν το όχημα κινείται, κάτι που μπορεί να βοηθήσει στην καθυστέρηση της έναρξης της ναυτίας.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Θα εμφανίζονται κουκκίδες και στις δύο πλευρές της οθόνης για να υποδεικνύουν την κίνηση του οχήματος, κάτι που μπορεί να βοηθήσει στην καθυστέρηση της εμφάνισης ναυτίας κίνησης.
+
+Μπορείτε να ενεργοποιήσετε και να απενεργοποιήσετε αυτήν τη λειτουργία στο Κέντρο ελέγχου."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Θα εμφανίζονται σταθερά κουκκίδες και στις δύο πλευρές της οθόνης για να υποδεικνύουν την κίνηση του οχήματος, κάτι που μπορεί να βοηθήσει στην καθυστέρηση της εμφάνισης ναυτίας κίνησης.
+
+Μπορείτε να ενεργοποιήσετε και να απενεργοποιήσετε αυτήν τη λειτουργία στο Κέντρο ελέγχου."</string>
     <string name="car_sickness_relief_comment_text_opened">"Θα εμφανίζονται κουκκίδες και στις δύο πλευρές της οθόνης για να υποδεικνύουν την κίνηση του οχήματος, κάτι που μπορεί να βοηθήσει στην καθυστέρηση της εμφάνισης ναυτίας κίνησης.
 
 Μπορείτε να ενεργοποιήσετε και να απενεργοποιήσετε αυτήν τη λειτουργία στο Κέντρο ελέγχου."</string>
     <string name="car_sickness_relief_example_text_1">Όταν το όχημα επιταχύνει ή επιβραδύνει</string>
     <string name="car_sickness_relief_example_text_2">Όταν το όχημα στρίβει ή αλλάζει λωρίδα</string>
     <string name="car_sickness_relief_exit_text">Η ανακούφιση από τη ναυτία κίνησης σταμάτησε να λειτουργεί</string>
+    <string name="car_sickness_relief_notification_text_close">Απενεργοποίηση</string>
+    <string name="car_sickness_relief_notification_text_opened">Ενεργή</string>
     <string name="car_sickness_relief_start_text">Η ανακούφιση από τη ναυτία κίνησης είναι ενεργή</string>
     <string name="car_sickness_remind_time_title">Ενδείξεις κίνησης</string>
     <string name="car_sickness_title">Ανακούφιση από ναυτία κίνησης</string>
@@ -1879,7 +1892,7 @@
 %3$d. Αυτή η δυνατότητα υποστηρίζεται μόνο στην ηπειρωτική Κίνα.
 %4$d. Αυτή η δυνατότητα λειτουργεί μόνο σε δίκτυα 5G-SA."</string>
     <string name="function_shield_auto_bright">Απενεργοποίηση αυτόματης φωτεινότητας</string>
-    <string name="function_shield_eye_shield">Απενεργοποίηση Λειτουργίας Ανάγνωσης</string>
+    <string name="function_shield_eye_shield">Απενεργοποίηση Λειτουργίας άνεσης ματιών</string>
     <string name="function_shield_pull_notification_bar">Μην ανοίξετε το Συρτάρι ειδοποιήσεων</string>
     <string name="function_shield_settings_title">Περιορισμός των επόμενων λειτουργιών συστήματος κατά τη διάρκεια παιχνιδιών</string>
     <string name="function_shield_summary">Περιορισμός επιλεγμένων λειτουργιών συστήματος κατά τη διάρκεια παιχνιδιών</string>
@@ -2078,7 +2091,7 @@
     <string name="gamebox_type_close">Να μην εμφανίζεται</string>
     <string name="gamebox_type_float">Έγινε επίλυση συντόμευσης</string>
     <string name="gamebox_type_gesture">Σαρώστε για προβολή</string>
-    <string name="gamebox_voicechanger">Μεταβολή φωνής</string>
+    <string name="gamebox_voicechanger">Αλλαγή φωνής</string>
     <string name="gamebox_wechat_not_find">Εγκαταστήστε WeChat και προσπαθήστε ξανά.</string>
     <string name="gamebox_wifi">Wi-Fi</string>
     <string name="gamecenter_install_fail">Αδυναμία εγκατάστασης</string>
@@ -2396,12 +2409,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_vision_enhance_super_resolution">Σούπερ ανάλυση</string>
     <string name="gb_vision_enhance_super_resolution_desc">Ενισχύστε την ανάλυση για να δείτε πιο λεπτές λεπτομέρειες</string>
     <string name="gb_voice_change_audition_tip">Επίδειξη</string>
-    <string name="gb_voice_change_settinged">Η Μεταβολή φωνής είναι ενεργοποιημένη</string>
+    <string name="gb_voice_change_settinged">Η Αλλαγή φωνής είναι ενεργοποιημένη</string>
     <string name="gb_voice_changer_cartoon">Κινούμενο σχέδιο</string>
     <string name="gb_voice_changer_dialog_upgrade_vip">Ανανεώστε τη συνδρομή σας για να μπορείτε να χρησιμοποιήσετε την ανατροφοδότηση σε πραγματικό χρόνο.</string>
     <string name="gb_voice_changer_dlg_button_agree">Αποδοχή</string>
     <string name="gb_voice_changer_dlg_button_refuse">Περιορισμός</string>
-    <string name="gb_voice_changer_dlg_title">Μεταβολή φωνής</string>
+    <string name="gb_voice_changer_dlg_title">Αλλαγή φωνής</string>
     <string name="gb_voice_changer_free">Δωρεάν</string>
     <string name="gb_voice_changer_gender_female">Γυναίκα</string>
     <string name="gb_voice_changer_gender_man">Άνδρας</string>
@@ -2410,7 +2423,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_voice_changer_loli">Κορίτσι</string>
     <string name="gb_voice_changer_men">Άντρας</string>
     <string name="gb_voice_changer_normal">Πρωτότυπη</string>
-    <string name="gb_voice_changer_permission_dlg_msg">Η Μεταβολή φωνής πρέπει να έχει δυνατότητα εγγραφής ήχου για να λειτουργεί κανονικά.</string>
+    <string name="gb_voice_changer_permission_dlg_msg">Η Αλλαγή φωνής πρέπει να έχει δυνατότητα ηχογράφησης για να λειτουργεί κανονικά.</string>
     <string name="gb_voice_changer_permission_dlg_title">Απαιτούνται άδειες</string>
     <string name="gb_voice_changer_recommend">Προτεινόμενα</string>
     <string name="gb_voice_changer_renew_dailog">Ανανεώστε τη συνδρομή σας για να μπορείτε να χρησιμοποιήσετε αυτό το εφέ.</string>
@@ -2673,7 +2686,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gtb_start_phone_accelerate">Ενίσχυση</string>
     <string name="gtb_stop_accelerate">Διακοπή</string>
     <string name="gtb_timer">Χρονοδιακόπτης</string>
-    <string name="gtb_voice_changer">Μεταβολή φωνής</string>
+    <string name="gtb_voice_changer">Αλλαγή φωνής</string>
     <string name="gtb_wlan_speed_tips">Γίνεται χρήση Mi WiFi…</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Εσφαλμένος πάροχος;&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Ο τρέχων πάροχος σας: "</string>
@@ -2753,6 +2766,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">Εγκατάσταση μέσω USB</string>
     <string name="install_type_instant">Άμεση εφαρμογή</string>
     <string name="installing">Γίνεται εγκατάσταση</string>
+    <string name="intercept_all_mark_calls">Αποκλεισμός όλων των κλήσεων με ετικέτα \"%s\";</string>
+    <string name="intercept_calls_nofify_hide_text">Για να ορίσετε κανόνες αποκλεισμού για άλλους αριθμούς με ετικέτα, πατήστε εδώ</string>
+    <string name="intercept_calls_notify_title">Οι κλήσεις με αυτήν την ετικέτα θα τερματίζονται αυτόματα. Αποκλεισμός τώρα;</string>
+    <string name="intercept_garbage_msg">Ανεπιθύμητα μηνύματα</string>
+    <string name="intercept_record">Ιστορικό</string>
+    <string name="intercept_strange_msg">Μηνύματα από αγνώστους</string>
     <string name="international_Ad">Διαφήμιση</string>
     <string name="international_roaming_setting">Περιαγωγή δεδομένων</string>
     <string name="intl_app_manager_card_permission_title">Απόρρητο &amp; άδειες</string>
@@ -2947,6 +2966,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mark_harass_block">Έγινε αναφορά ως παρενόχληση</string>
     <string name="mark_harass_block_large">Παρενοχλήσεις</string>
     <string name="mark_harass_time_setting">Αποκλεισμός αριθμών που έχουν αναφερθεί συγκεκριμένες φορές ως παρενοχλήσεις</string>
+    <string name="mark_num_open_intercept">Αποκλεισμός</string>
     <string name="mark_number_agent">Αντιπρόσωπος</string>
     <string name="mark_number_fraud">Απάτη</string>
     <string name="mark_number_harass">Παρενόχληση</string>
@@ -4803,11 +4823,11 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="prompt_all">Ερώτηση για όλες</string>
     <string name="prompt_input_time_illegal">Αδυναμία ορισμού χρόνου, αλλάξτε το και προσπαθήστε ξανά</string>
     <string name="protect_eye_dont_open">Όχι τώρα</string>
-    <string name="protect_eye_hint_summry">Ενεργοποιήστε τη Λειτουργία ανάγνωσης για καλύτερη εμπειρία ανάγνωσης</string>
-    <string name="protect_eye_hint_title">Άνεση ματιών</string>
+    <string name="protect_eye_hint_summry">Ενεργοποιήστε τη Λειτουργία άνεσης ματιών για καλύτερη εμπειρία ανάγνωσης</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Ενεργοποίηση</string>
-    <string name="protect_eye_opened_summry">Επεξεργασία προτιμήσεων στις Ρυθμίσεις > Οθόνη &amp; φωτεινότητα > Άνεση ματιών</string>
-    <string name="protect_eye_opened_title">Λειτουργία ανάγνωσης ενεργή</string>
+    <string name="protect_eye_opened_summry">Επεξεργασία προτιμήσεων στις Ρυθμίσεις > Οθόνη &amp; φωτεινότητα > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">Λειτουργία άνεσης ματιών ενεργή</string>
     <string name="protocol_exception_title">Διαγνωστικά πρωτόκολλου δικτύου</string>
     <string name="protocol_loop_back_exception_summary">Αποτυχία δοκιμής local loop back. Για να αναφέρετε το θέμα αυτό, μεταβείτε στην εφαρμογή Ανατροφοδότηση και στείλτε το αρχείο καταγραφής από τη συσκευή σας.</string>
     <string name="province_selected_talkback" />
@@ -4871,6 +4891,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="repeat_type">Επανάληψη</string>
     <string name="repeated_marked_number_summary">Να μην αποκλείεται δεύτερη κλήση από τον ίδιο αναφερόμενο αριθμό μέσα σε %d λεπτά</string>
     <string name="repeated_marked_number_title">Να μην γίνεται αποκλεισμός επαναλαμβανόμενων κλήσεων από αναφερόμενους αριθμούς</string>
+    <string name="repeated_unknown_number_summary">Να μην αποκλείεται δεύτερη κλήση από τον ίδιο άγνωστο αριθμό μέσα σε %d λεπτά</string>
     <string name="replace_dns">Αυτόματη αντικατάσταση DNS</string>
     <string name="report">Υποβολή αναφοράς</string>
     <string name="report_error">Αδυναμία αναφοράς μηνύματος</string>
@@ -5111,6 +5132,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="sms_detail_fragment_title_traffic">Δεδομένα που απομένουν</string>
     <string name="sms_filter">Έξυπνο φιλτράρισμα</string>
     <string name="sms_guard_alert">Άλλαξε η προεπιλεγμένη εφαρμογή μηνυμάτων. Η εφαρμογή Μηνύματα Xiaomi δεν θα μπορεί να φιλτράρει ανεπιθύμητα SMS.</string>
+    <string name="sms_intercept_settings">Ρυθμίσεις λίστας αποκλεισμού μηνυμάτων</string>
     <string name="sms_keywords">Λίστα αποκλεισμού λέξεων-κλειδιών</string>
     <string name="sms_malicious_url">Αποκλεισμός SMS με επικίνδυνες URLs</string>
     <string name="sms_prefix">Λίστα αποκλεισμού κωδικών κλήσης</string>
@@ -5312,9 +5334,26 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="st_call_intercept_reported">Αποκλεισμός κλήσεων από αναφερόμενους αριθμούς</string>
     <string name="st_call_intercept_stranger">Αποκλεισμός κλήσεων από αγνώστους</string>
     <string name="st_call_intercept_unknown">Αποκλεισμός κλήσεων από κρυφούς αριθμούς</string>
+    <string name="st_call_mark_agent">Κτηματομεσιτικά</string>
+    <string name="st_call_mark_agent_intercept">Κτηματομεσιτικά</string>
+    <string name="st_call_mark_decoration">Ανακαίνιση σπιτιού</string>
+    <string name="st_call_mark_decoration_intercept">Ανακαίνιση σπιτιού</string>
+    <string name="st_call_mark_edu">Εκπαίδευση</string>
+    <string name="st_call_mark_edu_intercept">Εκπαίδευση</string>
+    <string name="st_call_mark_high_risk">Υψηλός κίνδυνος</string>
+    <string name="st_call_mark_high_risk_intercept">Υψηλός κίνδυνος</string>
+    <string name="st_call_mark_insurance">Επένδυση</string>
+    <string name="st_call_mark_insurance_intercept">Επένδυση</string>
+    <string name="st_call_mark_loan">Στεγαστικό δάνειο</string>
+    <string name="st_call_mark_loan_intercept">Στεγαστικό δάνειο</string>
+    <string name="st_call_mark_sell">Διαφημίσεις</string>
+    <string name="st_call_mark_sell_intercept">Διαφημίσεις</string>
     <string name="st_call_other_group">Άλλα</string>
     <string name="st_call_settings">Λίστα αποκλεισμού κλήσεων</string>
     <string name="st_call_stranger_group">Αποκλεισμός κλήσεων από αγνώστους</string>
+    <string name="st_call_stranger_inercept_local">Αποκλεισμός αγνώστων αριθμών</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Οι κλήσεις από οποιονδήποτε αριθμό που δεν περιλαμβάνεται στις εξαιρέσεις σας θα αποκλειστούν. Αποκλεισμός τώρα;</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Οι κλήσεις από οποιονδήποτε αριθμό που δεν περιλαμβάνεται στις εξαιρέσεις ή επαφές σας θα αποκλειστούν. Αποκλεισμός τώρα;</string>
     <string name="st_confirm_call_all_dialog_summary">Οι κλήσεις από οποιονδήποτε αριθμό που δεν περιλαμβάνεται στις εξαιρέσεις σας θα αποκλειστούν. Ενεργοποίηση τώρα;</string>
     <string name="st_confirm_dialog_btn_open">Αποκλεισμός</string>
     <string name="st_confirm_dialog_summary_oversea_call">Όλες οι κλήσεις από αλλοδαπούς αριθμούς τηλεφώνου θα αποκλειστούν.</string>
@@ -5326,9 +5365,11 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="st_hint_add_head_number">Εισαγωγή προθέματος</string>
     <string name="st_hint_add_phonenumber">Εισαγωγή αριθμού τηλεφώνου</string>
     <string name="st_hint_operatelist">Φαίνεται πως αυτός ο κανόνας υπάρχει ήδη</string>
+    <string name="st_intercept_dialog_title">Προσοχή</string>
     <string name="st_mark_call_intercept_threshold_summary">Αυτόματος αποκλεισμός αριθμών που έχουν αναφερθεί περισσότερες από (συγκεκριμένος αριθμός) φορές</string>
     <string name="st_mark_call_intercept_threshold_title">Όριο αποκλεισμού</string>
     <string name="st_mark_number_group">Αποκλεισμός κλήσεων από αναφερόμενους αριθμούς</string>
+    <string name="st_mark_number_net_group">Αποκλεισμός αναφερόμενων αριθμών</string>
     <string name="st_message_SMS_AntiSpam">Αποκλεισμός SMS</string>
     <string name="st_message_SMSpass">Να επιτρέπονται SMS</string>
     <string name="st_message_phone_AntiSpam">Αποκλεισμός κλήσεων</string>
@@ -5341,13 +5382,26 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="st_msg_stranger_group">Αποκλεισμός μηνυμάτων από αγνώστους</string>
     <string name="st_settings_name">Ρυθμίσεις λίστας αποκλεισμού</string>
     <string name="st_share_settings">Χρήση SIM %d ρυθμίσεων</string>
+    <string name="st_smg_intercept_all">Αποκλεισμός όλων των μηνυμάτων</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">Τα SMS και τα MMS από οποιονδήποτε αριθμό ή περιοχή που δεν περιλαμβάνεται στις εξαιρέσεις σας θα αποκλειστούν. Αποκλεισμός τώρα;</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">Τα SMS και τα MMS από οποιονδήποτε αριθμό ή περιοχή που δεν περιλαμβάνεται στις εξαιρέσεις ή επαφές σας θα αποκλειστούν. Αποκλεισμός τώρα;</string>
+    <string name="st_smg_intercept_network_check">Αποκλεισμός χρησιμοποιώντας ορισμούς στο διαδίκτυο</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Ανεπιθύμητα μηνύματα</string>
+    <string name="st_smg_intercept_other">Πρόσθετες ρυθμίσεις</string>
+    <string name="st_smg_intercept_strange">Αποκλεισμός μηνυμάτων από αγνώστους</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Αποκλεισμός μηνυμάτων από αγνώστους που περιέχουν συγκεκριμένες λέξεις-κλειδιά</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Αποκλεισμός μηνυμάτων από συγκεκριμένους αριθμούς και περιοχές</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Να μην αποκλείονται μηνύματα από αγνώστους που περιέχουν συγκεκριμένες λέξεις-κλειδιά</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Να μην αποκλείονται μηνύματα από αριθμούς και περιοχές στις εξαιρέσεις σας</string>
     <string name="st_sms_intercept_oversea">Διεθνή SMS</string>
     <string name="st_sub_title_customize_mode_name">Όνομα</string>
     <string name="st_sub_title_whiteblack_list_group">Λίστα αποκλεισμού</string>
     <string name="st_sum_call_wait">Το μήνυμα απουσίας σας θα αναπαράγεται και ως σήμα κατελειμμένου για εισερχόμενες κλήσεις.</string>
     <string name="st_summary_blacklist_numbers">Αποκλεισμός κλήσεων και μηνυμάτων από συγκεκριμένους αριθμούς και περιοχές</string>
     <string name="st_summary_blacklist_numbers_international">Αποκλεισμός κλήσεων με βάση τον αριθμό ή το πρόθεμα</string>
+    <string name="st_summary_intercept_blacklist_numbers">Αποκλεισμός κλήσεων και μηνυμάτων από συγκεκριμένους αριθμούς και περιοχές</string>
     <string name="st_summary_keywords_blacklist">Προσθέστε λέξεις κλειδιά για να αποκλείσετε μηνύματα</string>
+    <string name="st_summary_release_whitelist_numbers">Να μην αποκλείονται κλήσεις και μηνύματα από αριθμούς και περιοχές στις εξαιρέσεις σας</string>
     <string name="st_summary_special_numbers">Αποκλεισμός επισημασμένων αριθμών</string>
     <string name="st_summary_whitelist_numbers">Αποδοχή κλήσεων και μηνυμάτων από συγκεκριμένους αριθμούς και περιοχές</string>
     <string name="st_summary_whitelist_numbers_international">Να επιτραπούν κλήσεις με βάση τον αριθμό ή το πρόθεμα</string>
@@ -5382,6 +5436,8 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="st_title_markednumber_group">Αποκλεισμός αναφερόμενων αριθμών</string>
     <string name="st_title_mode_choose_group">Κανόνες λίστας αποκλεισμού</string>
     <string name="st_title_not_sim">Κενό</string>
+    <string name="st_title_number_and_region_blacklist">Αποκλεισμένοι αριθμοί και περιοχές</string>
+    <string name="st_title_number_and_region_whitelist">Εξαιρέσεις αριθμών και περιοχών</string>
     <string name="st_title_open_antispam">Λίστα αποκλεισμού</string>
     <string name="st_title_other_group">Άλλα</string>
     <string name="st_title_settings_other_group">Πρόσθετες ρυθμίσεις</string>
@@ -5543,7 +5599,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="summary_default_app">Το %s δεν έχει οριστεί ως πρεπιλεγμένη εφαρμογή συστήματος</string>
     <string name="summary_dev">Αποφυγή κακόβουλων λογισμικών και προστασία προσωπικών δεδομένων</string>
     <string name="summary_do_not_disturb">Χρησιμοποιείτε τη λειτουργία Μην Ενοχλείτε.</string>
-    <string name="summary_eye_shield">Απενεργοποιήστε τη λειτουργία ανάγνωσης για να επιστρέψετε στις προεπιλεγμένες ρυθμίσεις.</string>
+    <string name="summary_eye_shield">Απενεργοποιήστε τη Λειτουργία άνεσης ματιών για να επιστρέψετε στις προεπιλεγμένες ρυθμίσεις.</string>
     <string name="summary_find_device">Εντοπίστε και κλειδώστε την συσκευή σας από οπουδήποτε</string>
     <string name="summary_first_aid_kit">Επίλυση των προβλημάτων στη συσκευή σας τώρα</string>
     <string name="summary_flow_notification">Προβολή στατιστικών μηνιαίας χρήσης κινητών δεδομένων στον πίνακα ειδοποιήσεων</string>

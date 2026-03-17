@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Premeu per crear una nova diapositiva</string>
     <string name="add_smiley">Emoticona</string>
     <string name="add_timing">Programat</string>
-    <string name="add_to_block_by_number">"Afegit %s
- a la llista de bloqueig"</string>
-    <string name="add_to_block_by_number_failed">"No s'ha pogut afegir %s a la llista de bloqueig.
-Torneu-ho a provar."</string>
-    <string name="add_to_block_by_tag">"Missatges que contenen \"%s\"
-afegits a la llista de bloqueig"</string>
-    <string name="add_to_block_by_tag_failed">"No s'han pogut afegir missatges que contenen \"%s\" a la llista de bloqueig.
-Torneu-ho a provar."</string>
-    <string name="add_to_block_cta_failed">Concediu a Seguretat els permisos necessaris per poder afegir elements a la llista de bloqueig</string>
+    <string name="add_to_block_by_number">Afegida a la llista de bloqueig</string>
+    <string name="add_to_block_by_number_failed">"No s'ha pogut afegir a la llista de bloqueig. Torneu-ho a provar."</string>
+    <string name="add_to_block_by_tag">"S'ha afegit aquesta paraula clau a la llista de bloqueig"</string>
+    <string name="add_to_block_by_tag_failed">"No s'ha pogut afegir la paraula clau a la llista de bloqueig. Torneu-ho a provar."</string>
+    <string name="add_to_block_cta_failed">Obriu Seguretat i accepteu els termes i condicions per poder utilitzar aquesta funció</string>
     <string name="add_to_browser_favorite_failed">"No s'ha pogut afegir"</string>
     <string name="add_to_browser_favorite_success">"S'ha afegit amb èxit"</string>
     <string name="add_to_calender">Afegir al calendari</string>
@@ -148,9 +144,9 @@ Torneu-ho a provar."</string>
     <string name="beidou_to_contacts">Destinatari: %s</string>
     <string name="billing">Factures</string>
     <string name="block_messaging_entry_title">SMS bloquejats</string>
-    <string name="block_number_message">"Aquest número de telèfon s'afegirà a la llista de bloqueig. Es bloquejaran tots els missatges enviats des d'aquest número."</string>
+    <string name="block_number_message">Un cop afegits, totes les trucades i missatges entrants de %s seran bloquejats. Voleu afegir-los ara?</string>
     <string name="block_support_text">"Amb el suport d'Antiy."</string>
-    <string name="block_tag_message">Es bloquejaran tots els missatges enviats des de %s. És possible que no pugueu rebre codis de verificació ni factures enviades per aquest servei.</string>
+    <string name="block_tag_message">Un cop afegits, tots els missatges que continguin la paraula clau \"%s\" seran bloquejats. Això pot incloure codis de verificació i informació de la comanda. Voleu afegir-los ara?</string>
     <string name="boarding_time">"Hora d'embarcament"</string>
     <string name="bookmark">Afegit als preferits</string>
     <string name="bookmark_confirm_delete_message">Eliminar els missatges seleccionats dels preferits?</string>
@@ -581,13 +577,13 @@ Tingueu en compte que la funcionalitat de missatgeria a Internet està suspesa f
     <string name="menu_pick_from_contact">Seleccioneu dels contactes</string>
     <string name="menu_preferences">Configuració</string>
     <string name="menu_report">Comentaris</string>
-    <string name="menu_sms_block">Llista de bloqueig</string>
+    <string name="menu_sms_block">Afegeix a la llista de bloqueig?</string>
     <string name="menu_traffic_destination">Destinació</string>
     <string name="menu_unlock">Elimina de preferits</string>
     <string name="menu_view_contact">Mostra el contacte</string>
     <string name="menu_view_group_info">Informació de grup</string>
     <string name="message_cannot_send_air_mode">Desactiva el mode avió per enviar missatges</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">"La targeta SIM que feu servir no admet l'enviament de SMS"</string>
     <string name="message_cannot_send_sim_unavailable">Inseriu la targeta SIM per enviar missatges</string>
     <string name="message_class_label">"Classe de missatge: "</string>
     <string name="message_contact">Contacte:</string>
@@ -1325,6 +1321,11 @@ Fes una ullada als chatbots recomanats!"</string>
     <string name="shortcut_new_msg">Nou missatge</string>
     <string name="shortcut_setting">Configuració</string>
     <string name="show_delivery_status">"Mostra L'estat de lliurament"</string>
+    <string name="silent_notification_notify_content">Heu rebut molts codis de verificació en poc temps. Aquestes notificacions es silenciaran temporalment.</string>
+    <string name="silent_notification_notify_double">La SIM %1$d i la SIM %2$d han rebut molts codis de verificació en poc temps. Aquestes notificacions es silenciaran temporalment.</string>
+    <string name="silent_notification_notify_single">La SIM %1$d ha rebut molts codis de verificació en poc temps. Aquestes notificacions es silenciaran temporalment.</string>
+    <string name="silent_notification_notify_title">Silencia SMS de verificació</string>
+    <string name="silent_notification_tip_exit">Deixa de silenciar els SMS de verificació</string>
     <string name="sim_card1">Targeta SIM 1</string>
     <string name="sim_card2">Targeta SIM 2</string>
     <string name="sim_card_cloud">%s (Missatges Mi)</string>

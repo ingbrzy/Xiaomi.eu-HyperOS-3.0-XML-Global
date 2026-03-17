@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Sljedeće</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Ove %1$d-bitne aplikacije ne mogu se prenijeti na %2$d-bitni uređaj. Možete ih preuzeti izravno s GetAppsa nakon prijenosa.</string>
     <string name="audio">Audiozapis</string>
+    <string name="audio_permission_desc_new">Za prijenos glazbe i zvuka na novi uređaj</string>
     <string name="audio_video_document">Audio, videozapisi i dokumenti</string>
     <string name="back">Natrag</string>
     <string name="backup_died_summary">Dodirnite \"Ponovo se poveži\". Napredak u prijenosu nastavit će se od mjesta na kojem ste stali.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Kod nije unesen jako dugo. Povežite se ručno.</string>
     <string name="ble_enter_verifycode_timeout_title">Sesija istekla</string>
     <string name="ble_guest_connecting_title">Spajanje na novi uređaj…</string>
+    <string name="ble_guest_connecting_title_pad">Povezivanje s novim uređajem…</string>
     <string name="ble_host_verification_summary">Unesite %d-znamenkasti kod na svojem starom uređaju.</string>
     <string name="ble_host_verification_title">Spajanje na stari uređaj…</string>
     <string name="ble_manual_authorization_content">Dodijelite potrebna dopuštenja da biste mogli prenositi stavke pomoću Mi Selidbe. Ta dopuštenja možete dati u postavkama.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Uspješno stvoren hotspot. Čekanje povezivanja…</string>
     <string name="ble_starting_ap">Stvaranje hotspot-a…</string>
     <string name="ble_wait_verify_code">Stvaranje koda na novom uređaju…</string>
+    <string name="ble_wait_verify_code_pad">Stvaranje koda na novom uređaju…</string>
     <string name="ble_waiting_verify_code">Provjera koda…</string>
     <string name="ble_waiting_verify_code_error">Kod koji ste unijeli nije ispravan</string>
+    <string name="blutooth_permission_desc_new">Za otkrivanje uređaja u blizini koji su spremni za povezivanje</string>
     <string name="btn_got_it">Razumijem</string>
     <string name="btn_install_complete">Instalirano</string>
     <string name="btn_mi_cloud_install_complete">Instalirali ste aplikaciju</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Poziv u tijeku</string>
     <string name="call_notification_screening_text">Filtriranje dolaznog poziva</string>
     <string name="calllog">Povijest poziva</string>
+    <string name="camera_permission_content">Za otkrivanje uređaja u blizini</string>
     <string name="cancel">Odustani</string>
     <string name="cancel_moving_dialog_message">Zaustaviti uvoz sada?</string>
     <string name="cancel_moving_dialog_title">Zaustavi uvoz</string>
@@ -150,8 +155,10 @@ Posjetite https://appleid.apple.com/#!&amp;page=signin za isključivanje"</strin
     <string name="connection_tips_owner_title">Ako je Vaš stari uređaj Mi telefon:</string>
     <string name="connection_tips_owner_title_global">Instalirajte najnoviju verziju Mi Selidbe:</string>
     <string name="contact_records_permission_desc">Za prijenos povijesti poziva na druge uređaje</string>
+    <string name="contact_records_permission_desc_new">Za prijenos povijesti poziva na novi uređaj</string>
     <string name="contacts">Kotakti</string>
     <string name="contacts_permission_desc">Za prijenos kontakata na druge uređaje</string>
+    <string name="contacts_permission_desc_new">Za prijenos kontakata na novi uređaj</string>
     <string name="contains_unauthorized_data">Sadrži neovlaštene podatke</string>
     <string name="copy">Kopiraj</string>
     <string name="current_user_not_supported_summary">Trenutne postavke sustava ograničuju prijenos podataka kod korištenja Mi Selidbe.</string>
@@ -180,6 +187,17 @@ Posjetite https://appleid.apple.com/#!&amp;page=signin za isključivanje"</strin
     <string name="dialog_rating_desc_less">Dajte nam nekoliko prijedloga kako bismo poboljšali našu aplikaciju?</string>
     <string name="dialog_rating_desc_perfect">Hvala! Ocijeniti i Mi Selidbu u GetApps-u?</string>
     <string name="dialog_rating_title">Ocijenite Mi Selidbu</string>
+    <string name="dialog_request_all_permission_content_new">"Kako bi se podaci s vašeg starog uređaja mogli prenijeti na novi, ova aplikacija se mora povezati na internet i zahtijeva sljedeće dozvole:
+• Pristup fotografijama, zvukovnim zapisima, kalendaru i videozapisima
+• Pristup porukama, kontaktima i povijesti poziva
+• Pristup pohrani
+• Pristup listi aplikacija instaliranih na uređaju"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Kako bi se podaci s vašeg starog uređaja mogli prenijeti na novi, ova aplikacija se mora povezati na internet i zahtijeva sljedeće dozvole:
+• Pristup fotografijama, zvukovnim zapisima, kalendaru i videozapisima
+• Pristup porukama, kontaktima i povijesti poziva
+• Pristup pohrani
+• Pristup listi aplikacija instaliranih na uređaju"</string>
+    <string name="dialog_request_all_permission_title_new">Potrebne dozvole</string>
     <string name="dialog_request_network_btn_negative">Izlaz</string>
     <string name="dialog_request_network_btn_positive">Slažem se</string>
     <string name="dialog_request_permission_message">Dobrodošli u Mi Selidbu! Ovu aplikaciju možete koristiti za prijenos podataka sa starog uređaja na novi. Ti podaci se prenose između dva uređaja i ne učitavaju se na naše servere. Ova se aplikacija mora povezati s internetom i zahtijeva sljedeća dopuštenja da bi mogla normalno raditi:</string>
@@ -187,7 +205,9 @@ Posjetite https://appleid.apple.com/#!&amp;page=signin za isključivanje"</strin
     <string name="dialog_request_permission_message_extra_summary">Ova su potrebne dozvole kako bi se omogućile osnovne značajke i usluge ove aplikacije.</string>
     <string name="dialog_request_permission_message_extra_title">Obvezne dozvole</string>
     <string name="dialog_request_permission_message_global">Ova aplikacija treba sljedeća dopuštenja da bi mogla normalno raditi:</string>
-    <string name="dialog_request_permission_message_link" formatted="false"><Data>Da bi u potpunosti razumjeli svoja korisnička prava kao i načine na koje koristimo vaše podatke, trebate pročitati i pristati na naš &lt;a href=\"%1s\">Korisnički ugovor Xiaomi operativnog sistema&lt;/a> i naša &lt;a href=\"%2s\">Pravila o privatnosti Mi Selidbe&lt;/a>.</Data></string>
+    <string name="dialog_request_permission_message_link" formatted="false"><Data>"Da bi u potpunosti razumjeli svoja korisnička prava kao i načine na koje koristimo vaše podatke, trebate pročitati i pristati na naš &lt;a href='%1s'>Korisnički ugovor Xiaomi operativnog sistema&lt;/a> i naša &lt;a href='%2s'>Pravila o privatnosti Mi Selidbe&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Dozvolite ovoj aplikaciji da se poveže na internet i dodijelite obavezne dozvole navedene iznad. Kako biste u potpunosti razumjeli svoja prava kao korisnik, kao i načine na koje koristimo vaše podatke, trebate pročitati i prihvatiti &lt;a href='%1s'>Ugovor o korištenju Xiaomi operativnog sistema&lt;/a> i &lt;a href='%2s'>Pravilima o privatnosti Mi Selidbe&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Dobrodošli u Mi Selidbu! Pomoću ove aplikacije možete prenijeti podatke sa starog uređaja na novi. Podaci će se prenositi između dva uređaja i neće se prenositi na naše poslužitelje.</string>
     <string name="dialog_request_permission_message_provision_link">Također, kako biste u potpunosti mogli razumjeti svoja prava kao korisnik, kao i kako koristimo Vaše podatke, pročitajte i potvrdite naš %1$s i %2$s.</string>
     <string name="dialog_request_permission_title">Pažnja</string>
     <string name="dialog_request_permission_title_global">Potrebne dozvole</string>
@@ -367,9 +387,12 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="icloud_signin_fail_message">Vaš apple ID je zaključan iz sigurnosnih razloga. Odite na iforgot.apple.com i slijedite upute.</string>
     <string name="icloud_start_now">Koristi mobilne podatke</string>
     <string name="icloud_verify_tips">Na svom iOS uređaju dodirnite \"Dopusti\" i ovdje unesite kod koji se pojavljuje.</string>
+    <string name="idm_discovery_summary_pad">Čini se da aktivirate novi uređaj sada. Prenesite stavke sa ovog uređaja na novi?</string>
+    <string name="idm_discovery_title_pad">Prenesite stavke na vaš novi uređaj</string>
     <string name="im_recipient">Ja sam primatelj</string>
     <string name="im_sender">Ja sam pošiljatelj</string>
     <string name="image">Slike</string>
+    <string name="image_video_permission_desc_new">Za prijenos fotografija i videozapisa na novi uređaj</string>
     <string name="import_again">Uvezi ponovno</string>
     <string name="import_data_from_icloud">Uvezi podatke iz iClouda</string>
     <string name="install_app_dialog_title">Uređaji nisu u blizini</string>
@@ -395,6 +418,8 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="lack_perm_title">Potrebne dozvole</string>
     <string name="launcher">Raspored Početnog zaslona</string>
     <string name="loading_data">Pričekajte trenutak…</string>
+    <string name="location_permission_content_no_provisioned">Dajte ovu dozvolu da bi se mogli povezati na hotspot uređaja u blizini. Ako se ne slažete sa davanjem ove dozvole, neće moći prebaciti stavke.</string>
+    <string name="location_permission_content_provisioned">Za povezivanje na hotspot uređaja u blizini</string>
     <string name="location_permission_desc">Za pronalaženje uređaja u blizini</string>
     <string name="location_permission_request">Za povezivanje s drugim uređajima u blizini</string>
     <string name="lockscreen_access">Područje uzorka</string>
@@ -423,6 +448,8 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="manual_connection_title">Povežite se sa starim uređajem ručno</string>
     <string name="manual_connection_title_pad">Povežite stari uređaj na hotspot</string>
     <string name="manual_connection_title_phone">Povežite stari uređaj na hotspot</string>
+    <string name="manual_disconnect_guest">Novi uređaj je isključen. Ponovno se povežite da biste nastavili prijenos.</string>
+    <string name="manual_disconnect_host">Stari uređaj je isključen. Ponovno se povežite da biste nastavili prijenos.</string>
     <string name="message_request_manage_external_storage_perm">Mi Selidba treba pristupiti svim datotekama na ovom uređaju kako bi ih mogao premjestiti sa Vašeg starog uređaja na novi.</string>
     <string name="message_request_package_stats_perm">Mi Selidba treba ovu dozvolu kako bi naučila koje aplikacije su instalirane na uređaju i prenjela te aplikacije na drugi uređaj.</string>
     <string name="midnight">Noć</string>
@@ -513,6 +540,7 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="more">Više</string>
     <string name="morning">Jutro</string>
     <string name="msg_permission_desc">Za prijenos poruka na druge uređaje</string>
+    <string name="msg_permission_desc_new">Za prijenos SMS-a i MMS-a na druge uređaje</string>
     <string name="name_password_not_consistent">Apple ID i zaporka koje ste unijeli ne podudaraju se</string>
     <string name="need_location_permission_confirm">Postavke</string>
     <string name="need_location_permission_summary">Dopustite Mi Selidbi da pristupi vašoj lokaciji kako bi mogli pronaći uređaje u blizini.</string>
@@ -522,6 +550,20 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="need_more_memory_title">Nema dovoljno prostora za pohranu</string>
     <string name="new_app_name">Nova verzija</string>
     <string name="new_main_activity_label">Mi Selidba</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Podaci zaštićeni autorskim pravom</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Sistemske aplikacije i podaci drugih marki mogu biti nekompatibilni s Mi Selidbom i ne mogu se prenijeti.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Aplikacije i podaci koji nisu kompatibilni s novim uređajem ne mogu se prenijeti.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Neke postavke i podaci telefona vezani su za vašu SIM karticu. Umetanjem SIM kartice u novi uređaj ti će podaci biti preneseni.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Neki podaci aplikacije</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Podaci Drugog prostora</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Podaci Drugog prostora</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Podaci vezani uz privatnost i sigurnost</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Bankovne kartice i ključevi od automobila ne mogu se prenijeti.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Teme i pozadine podliježu ograničenjima razlučivosti zaslona i ne mogu se prenositi između nekih modela.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Zbog ograničenja Bluetooth protokola, zapisi uparivanja za Bluetooth slušalice, zvučnike i ostale uređaje ne mogu se prenijeti.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Operativne statistike, kao što su potrošnja energije, vrijeme provedeno pred zaslonom i korištenje mobilnih podataka, ne mogu se prenijeti.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Podaci povezani s određenim modelom uređaja</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Koji se podaci ne mogu prenijeti putem Mi Selidbe?</string>
     <string name="new_trans_intro_desc_2">Ne morate unjeti zaporku u novoj verziju Mi Selidbe. Samo otvorite Mi Selidbu na Vašem starom uređaju, dotaknite \"Ja sam pošiljatelj\" i dotaknite ime hotspota na koji se želite priključiti.</string>
     <string name="new_trans_intro_desc_2_pad">U novoj verziji Mi Selidbe nije potrebno unositi zaporku za hotspot. Samo otvorite Mi Selidbu na svom starom uređaju, dodirnite \"Ja sam pošiljatelj\" i dodirnite naziv hotspota za povezivanje.</string>
     <string name="new_trans_intro_desc_2_phone">U novoj verziji Mi Selidbe nije potrebno unositi zaporku za hotspot. Samo otvorite Mi Selidbu na svom starom uređaju, dodirnite \"Ja sam pošiljatelj\" i dodirnite naziv hotspota za povezivanje.</string>
@@ -532,18 +574,18 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="new_trans_intro_desc_6_pad">Podaci aplikacije ne mogu se prenijeti jer Mi Selidba nema potrebna dopuštenja na uređajima koji nisu Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Podaci aplikacije ne mogu se prenijeti jer Mi Selidba nema potrebna dopuštenja na uređajima koji nisu Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Selidba može nastaviti gdje je stala prethodni puta, međutim možda će ipak morati sve ispočetka ukoliko uređaj ima problem s kompatibilnošću koji ne dozvoljava nastavak prekinutog prijenosa.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Selidba može nastaviti gdje je stala prethodni puta, međutim možda će ipak morati sve ispočetka ukoliko uređaj ima problem s kompatibilnošću koji ne dozvoljava nastavak prekinutog prijenosa.</string>
     <string name="new_trans_intro_desc_8">Wechat povijest Vašeg starog uređaja zamijenit će Wechat povijest na novom uređaju tokom prijenosa.</string>
+    <string name="new_trans_intro_desc_8_pad">Wechat povijest Vašeg starog uređaja zamijenit će Wechat povijest na novom uređaju tokom prijenosa.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Provjerite je li Mi Selidba na vašem novom uređaju ažurirana. Najnoviju verziju Mi Selidbe možete preuzeti u Play Storeu ili dodirnite ovdje: %2$s.
 %3$d. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi, otvorite Wi-Fi postavke i provjerite vidite li je tamo. Ako je tako, vratite se na Mi Selidbu i dodirnite naziv hotspota."</string>
     <string name="new_trans_intro_desc_new_click">Preuzimanje</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Selidba na vašem novom uređaju ažurirana. Možete preuzeti najnoviju verziju alatke Mi Mover u Google Playu ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Selidbu i dodirnite naziv hotspota."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite WLAN postavke i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Selidba na vašem novom uređaju ažurirana. Možete preuzeti najnoviju verziju alatke Mi Mover u Google Playu ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Selidbu i dodirnite naziv hotspota."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite WLAN postavke i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Provjerite da je Mi Selidba na vašem novom uređaju ažurirana. Možete preuzeti najnoviju verziju alatke Mi Mover u Google Playu Storeu ili <Data>&lt;a href=%2$s>dotaknite ovdje&lt;/a></Data>".
+%3$d. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Selidbu i dodirnite naziv hotspota."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Osigurajte da je Mi Selidba na vašem novom uređaju ažurirana. Možete preuzeti najnoviju verziju alatke Mi Mover u Google Playu ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
+%3$d. Ako se hotspot i dalje ne pojavljuje u Mi Selidbi otvorite postavke Wi-Fi mreže i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Selidbu i dodirnite naziv hotspota."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Osigurajte da je Mi Mover na vašem novom uređaju ažuriran. Možete preuzeti najnoviju verziju alatke Mi Mover u GetApps ili <Data>&lt;a href=%2$s>dodirom ovdje&lt;/a></Data>".
+%3$d. Ako se žarišna točka i dalje ne pojavljuje u alatki Mi Mover, otvorite WLAN postavke i pogledajte možete li je tamo vidjeti. Ako je vidite, vratite se u Mi Mover i dodirnite naziv pristupne točke."</string>
     <string name="new_trans_intro_desc_old">%d. Ako se hotspot još uvijek nije pojavio u Mi Selidbi, otvorite Wi-Fi postavke i provjerite vidite li hotspot. Ako ga vidite, vratite se u Mi Selidbu i dotaknite naziv hotspota.</string>
     <string name="new_trans_intro_question_1">%d. Zašto ne mogu vidjeti hotspot novog uređaja na starom?</string>
     <string name="new_trans_intro_question_1_pad">%d. Zašto ne mogu vidjeti hotspot novog uređaja na starom?</string>
@@ -573,15 +615,22 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="not_set">Nije postavljeno</string>
     <string name="not_support_data_content1">%d. Stavke specifične za model uređaja</string>
     <string name="not_support_data_content2">%d. Podaci aplikacije</string>
+    <string name="not_support_data_content2_new">%d. Podaci zaštićeni autorskim pravom</string>
     <string name="not_support_data_content3">%d. Podaci Drugog prostora</string>
+    <string name="not_support_data_content3_new">%d. Podaci vezani uz privatnost i sigurnost</string>
     <string name="not_support_data_content4">%d. Dvojne aplikacije</string>
+    <string name="not_support_data_content4_new">%d. Neki podaci aplikacije</string>
     <string name="not_support_data_content_2">%d. Odabrane aplikacije i podaci aplikacija</string>
     <string name="not_support_data_link">Stavke koje nije moguće preseliti</string>
     <string name="not_support_data_summary1">Teme, pozadine, prijevozne kartice i kartice ključevi se ne mogu prenositi putem Mi Selidbe.</string>
+    <string name="not_support_data_summary1_new">Bankovne kartice i ključevi od automobila ne mogu se prenositi. Teme i pozadine podliježu ograničenjima razlučivosti zaslona i ne mogu se prenositi između nekih modela.</string>
     <string name="not_support_data_summary2">Podaci aplikacije (kao što su povijesti razgovora) ne mogu se prenijeti.</string>
+    <string name="not_support_data_summary2_new">Teme, fontovi, velike ikone, teme za Uvijek uključen zaslon i widgeti kupljeni putem vašeg Xiaomi računa koji su zaštićeni autorskim pravima ne mogu se prenijeti. Prijavite se sa svojim Xiaomi računom na novom uređaju i ponovno ih preuzmite.</string>
     <string name="not_support_data_summary3">Zbog ograničenja sustava stavke poput Drugog prostora se ne mogu prenositi korištenjem Mi Selidbe.</string>
+    <string name="not_support_data_summary3_new">Otisci prstiju, podaci lica i ostali podaci koji se odnose na vlasništvo uređaja, financijsku sigurnost i privatnost korisnika ne mogu se ni u kojem obliku prenijeti sa starog uređaja. To uključuje i podatke iz financijskih aplikacija (npr. mobilno bankarstvo).</string>
     <string name="not_support_data_summary4">Dvojne aplikacije i njihovi podaci također se ne mogu prenositi, međutim možete preseliti spomenutu glavnu aplikaciju.</string>
     <string name="not_support_data_summary_2">Neke aplikacije ne mogu biti prenesene zbog ograničenja privatnosti Play Storea.</string>
+    <string name="not_support_data_summary_new">Sistemske aplikacije i podaci drugih marki mogu biti nekompatibilni s Mi Selidbom i ne mogu se prenijeti.</string>
     <string name="not_support_data_title">Stavke koje nije moguće preseliti</string>
     <string name="note">Bilješke</string>
     <string name="nothing_chosen">Prvo odaberite stavke</string>
@@ -641,27 +690,39 @@ Otvorite WeChat i odaberite Ja > Postavke > Općenito > Stvori Sig. kopiju i pre
     <string name="permission_alert_message_usage_access">Mi Selidba mora pristupiti statistikama korištenja aplikacija. Dajte Mi Selidbi potrebne dozvole u Postavkama.</string>
     <string name="permission_alert_title">Potrebne dozvole</string>
     <string name="permission_bluetooth_summary">Za pronalaženje dostupnih uređaja u blizini</string>
+    <string name="permission_bluetooth_summary_new">Za pronalaženje dostupnih uređaja u blizini</string>
     <string name="permission_bluetooth_title">Uključiti ili isključiti Bluetooth</string>
     <string name="permission_calendar_summary">Za prijenos kalendarskih događaja</string>
     <string name="permission_calendar_title">Pristup kalendaru</string>
     <string name="permission_calender_summary">Za premještanje događaja sa starog uređaja na novi</string>
     <string name="permission_calender_summary_global">Za prijenos događaja na kalendaru na novi uređaj</string>
+    <string name="permission_calender_summary_new">Za premještanje događaja sa starog uređaja na novi</string>
     <string name="permission_calender_title">Pristup kalendarskim događajima</string>
+    <string name="permission_calender_title_new">Pristupite kalendarskim događajima</string>
     <string name="permission_call_log_summary">Za prijenos povijesti poziva na Vaš novi uređaj</string>
+    <string name="permission_call_log_summary_new">Za prijenos povijesti poziva na Vaš novi uređaj</string>
     <string name="permission_call_log_title">Pristup povijesti poziva</string>
     <string name="permission_contacts_summary">Za prijenos kontakata na Vaš novi uređaj</string>
+    <string name="permission_contacts_summary_new">Za prijenos kontakata na Vaš novi uređaj</string>
     <string name="permission_contacts_title">Pristup kontaktima</string>
     <string name="permission_grant_request">Radi prenošenja ove stavke, Mi Selidba treba \"%1$s\" dozvolu.</string>
     <string name="permission_locale_summary">Za spajanje s uređajima u blizini</string>
     <string name="permission_locale_title">Pristup lokaciji</string>
+    <string name="permission_locale_title_new">Pristup lokaciji</string>
     <string name="permission_message_summary">Za prijenos poruka na Vaš novi uređaj</string>
+    <string name="permission_message_summary_new">Za prijenos poruka na Vaš novi uređaj</string>
     <string name="permission_message_title">Pristup SMS sadržaju</string>
     <string name="permission_request_title">\"%1$s\" dozvola potrebna</string>
     <string name="permission_setting_button">Postavke</string>
     <string name="permission_storage_summary">Za prijenos datoteka i fotografija na Vaš novi uređaj</string>
+    <string name="permission_storage_summary_new">Za prijenos datoteka i fotografija na Vaš novi uređaj</string>
     <string name="permission_storage_title">Pristup i spremanje datoteka i fotografija pohranjenih na Vašem uređaju</string>
+    <string name="permission_storage_title_new">Pristup pohrani</string>
     <string name="permission_wifi_summary">Za prijenos stavki na Vaš novi uređaj</string>
+    <string name="permission_wifi_summary_new">Za prijenos stavki na Vaš novi uređaj</string>
     <string name="permission_wifi_title">Uključiti ili isključiti Wi-Fi</string>
+    <string name="permission_wifi_title_new">Uključiti ili isključiti Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Uključivanje i isključivanje WLAN-a</string>
     <string name="pm">poslijep.</string>
     <string name="preference_copied">Sažetak \"%1$s\" kopiran je u međuspremnik.</string>
     <string name="privacy_agree">Slažem se</string>
@@ -749,6 +810,7 @@ Oslobodite se barem %s."</string>
     <string name="scanner_quit_alert_message_phone">Morat ćete ponovno spojiti dva uređaja ako sada zatvorite Mi Selidbu. Svejedno zatvoriti?</string>
     <string name="scanner_quit_alert_title">Prekinuti sada?</string>
     <string name="scanner_send_dialog_btn">Razumijem</string>
+    <string name="scanner_send_dialog_btn_i_know">Razumijem</string>
     <string name="scanner_send_dialog_message">Ne isključujte Wi-Fi ili prebacivajte između mreža tijekom prijenosa.</string>
     <string name="scanner_size_selected">Odabrano: %s</string>
     <string name="scanner_subtitle_prd">Pažljivo pročitajte sljedeće informacije prije provjere svake stavke i pokretanja procesa prijenosa.</string>
@@ -756,6 +818,7 @@ Oslobodite se barem %s."</string>
     <string name="scanner_title_prd">Važni podaci</string>
     <string name="scanner_title_tip">Odaberite stavke za prijenos</string>
     <string name="scanner_wechat_overwrite_hit">Zbog postavljenih ograničenja aplikacija trećih strana, povijest razgovora i ostali podaci aplikacija na Vašem novom uređaju bit će zamijenjeni onima s Vašeg starog uređaja tek kada je prijenos završen.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Zbog ograničenja aplikacija trećih strana, povijesti razgovora i ostali podaci aplikacija na vašem novom uređaju bit će zamijenjeni onima sa starog nakon što je prijenos dovršen.</string>
     <string name="search_menu_title">Pretraži</string>
     <string name="searching_for_new_device">Traženje novog uređaja…</string>
     <string name="searching_for_new_device_pad">Traženje novog uređaja…</string>
@@ -889,27 +952,42 @@ Oslobodite se barem %s."</string>
     <string name="time_spent">Vrijeme: %1$s</string>
     <string name="tips_button_hint">Prvo provjerite svaku stavku za potvrdu</string>
     <string name="tips_cover_content">Ovi podaci (uključujući historiju chata) će nestati ako nastavite.</string>
+    <string name="tips_cover_content_pad">Ovi podaci (uključujući historiju chata) će nestati ako nastavite.</string>
     <string name="tips_cover_content_tablet">Ovi podaci (uključujući historiju chata) će nestati ako nastavite.</string>
     <string name="tips_cover_title">%1$d. Već postoje podaci za sljedeće aplikacije na novom uređaju.</string>
+    <string name="tips_cover_title_pad">%1$d. Već postoje podaci za sljedeće aplikacije na novom uređaju.</string>
     <string name="tips_cover_title_tablet">%1$d. Već postoje podaci za sljedeće aplikacije na novom uređaju.</string>
     <string name="tips_dual_app_content">Dualne aplikacije ne mogu biti prenijete. Samo glavna aplikacija i njeni podaci mogu biti prenijeti.</string>
     <string name="tips_dual_app_title">%d. Sljedeće aplikacije su dualne aplikacije.</string>
+    <string name="tips_dual_app_title_new">%d. Podaci dvojnih aplikacija se ne mogu prenijeti.</string>
     <string name="tips_hot_content">Ovo je normalno. Vaš uređaj će se ohladiti kada se prijenos završi.</string>
+    <string name="tips_hot_content_new">Ovo je normalno. Vaš uređaj će se ohladiti kada se prijenos završi.</string>
     <string name="tips_hot_title">%d. Vaš uređaj se može ugrijati tokom procesa prijenosa.</string>
+    <string name="tips_hot_title_content">%d. Vaš uređaj će se zagrijati.</string>
     <string name="tips_private_space_content">Zbog ograničenja sistema, podaci Drugog prostora ne mogu biti prenijeti.</string>
+    <string name="tips_private_space_content_pad">Ovo je zbog ograničenja sistema.</string>
+    <string name="tips_private_space_content_phone">Ovo je zbog ograničenja sistema.</string>
     <string name="tips_private_space_content_tablet">Zbog ograničenja sistema, podaci Drugog prostora ne mogu biti prenijeti.</string>
     <string name="tips_private_space_title">%d. Drugi prostor je uključen.</string>
+    <string name="tips_private_space_title_pad">%d. Podaci Drugog prostora se ne mogu prenijeti.</string>
+    <string name="tips_private_space_title_phone">%d. Podaci Drugog prostora se ne mogu prenijeti.</string>
     <string name="tips_private_space_title_tablet">%d. Drugi prostor je uključen.</string>
     <string name="tips_prudent_operation_content">Ometanjem veze prekinuti ćete prijenos.</string>
     <string name="tips_prudent_operation_title">%d. Nemojte isključiti niti promijeniti Wi-Fi hotspot.</string>
+    <string name="tips_prudent_operation_title_new">%d. Nemojte isključiti niti promijeniti Wi-Fi hotspot.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Nemojte isključiti niti promijeniti WLAN hotspot.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Nemojte isključiti niti promijeniti WLAN hotspot.</string>
     <string name="tips_secret_content_one">Neke privatne stavke na starome uređaju (%1$s) ne mogu se prenijeti. Uklonite ih iz privatne datoteke da bi ih mogli prenijeti.</string>
+    <string name="tips_secret_content_one_new">Neke privatne stavke na starome uređaju (%1$s) ne mogu se prenijeti. Uklonite ih iz privatne datoteke da bi ih mogli prenijeti.</string>
     <string name="tips_secret_content_three">Neke privatne stavke na starome uređaju (%1$s, %2$s, %3$s) ne mogu se prenijeti. Uklonite ih iz privatne datoteke da bi ih mogli prenijeti.</string>
+    <string name="tips_secret_content_three_new">Neke privatne stavke na starome uređaju (%1$s, %2$s, %3$s) ne mogu se prenijeti. Uklonite ih iz privatne datoteke da bi ih mogli prenijeti.</string>
     <string name="tips_secret_content_two">Neke privatne stavke na starome uređaju (%1$s, %2$s) ne mogu se prenijeti. Uklonite ih iz privatne datoteke da bi ih mogli prenijeti.</string>
+    <string name="tips_secret_content_two_new">Neke privatne stavke na starome uređaju (%1$s, %2$s) ne mogu se prenijeti. Uklonite ih iz privatne datoteke da bi ih mogli prenijeti.</string>
     <string name="tips_secret_file">datoteke</string>
     <string name="tips_secret_gallery">albumi</string>
     <string name="tips_secret_note">bilješke</string>
     <string name="tips_secret_title">%d. Neke privatne stavke ne mogu biti prenijete.</string>
+    <string name="tips_secret_title_content">%d. Privatne stavke ne mogu biti prenijete.</string>
     <string name="tips_subtitle">Trebate pročitati i pristati na sljedeće podsjetnike prije nastavka.</string>
     <string name="title_compatibility_mode">Uključi način rada za kompatibilnost aplikacija</string>
     <string name="title_open_wlan">Uključite Wi-Fi</string>
@@ -951,10 +1029,12 @@ Preuzmite i instalirajte Mi Selidbu."</string>
     <string name="trans_send_time_remained_default">Poslano: %1$s</string>
     <string name="trans_show_qr_code_label">Otvorite Mi Selidbu na starom uređaju</string>
     <string name="trans_show_qr_code_label_for_pad">Otvorite Mi Selidbu na starom uređaju</string>
+    <string name="trans_show_qr_code_label_pad">Otvorite Mi Selidbu na starom uređaju</string>
     <string name="trans_sync_transfer_data_list">Odaberite stavke koje želite prenijeti na stari uređaj</string>
     <string name="trans_sync_transfer_data_list_apple">Prenesite stavke sa svog Apple uređaja</string>
     <string name="trans_sync_transfer_data_list_hint">Pričekajte trenutak…</string>
     <string name="trans_sync_transfer_data_list_pad">Odaberite stavke na starom uređaju za prijenos</string>
+    <string name="trans_sync_transfer_data_list_phone">Odaberite stavke koje želite prenijeti na stari uređaj</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Odaberite stavke na starom uređaju i dodirnite \"Pošalji\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Odaberite stavke na starom uređaju i dodirnite \"Pošalji\".</string>
     <string name="trans_time_format_second">Manje od %d minute preostalo</string>
@@ -977,6 +1057,7 @@ Preuzmite i instalirajte Mi Selidbu."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Napredak prijenosa bit će spremljen. Moći ćete nastaviti prijenos s mjesta na kojem ste stali sljedeći put kada spojite dva uređaja.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Napredak prijenosa bit će spremljen. Moći ćete nastaviti prijenos s mjesta na kojem ste stali sljedeći put kada spojite dva uređaja.</string>
     <string name="transfer_quit_alert_title">Pažnja</string>
     <string name="transfer_snap_error">Nije moguće prenijeti</string>
     <string name="transfer_snap_new_receiving">Primanje…</string>

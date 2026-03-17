@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Напред</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Тези %1$d-битови приложения не могат да бъдат прехвърлени на %2$d-битово устройство. Можете да ги изтеглите директно от GetApps след прехвърляне.</string>
     <string name="audio">Аудио</string>
+    <string name="audio_permission_desc_new">За прехвърляне на музика и аудио към новото устройство</string>
     <string name="audio_video_document">Аудио, видео и документи</string>
     <string name="back">Назад</string>
     <string name="backup_died_summary">Натиснете \"Повторно свързване\". Трансфера ще продължи откъдето е спрял последно.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Кода не е въведен дълго време. Свържете ръчно.</string>
     <string name="ble_enter_verifycode_timeout_title">Сесията изтече</string>
     <string name="ble_guest_connecting_title">Свързване към новото устройство…</string>
+    <string name="ble_guest_connecting_title_pad">Свързване към новото устройство…</string>
     <string name="ble_host_verification_summary">Въведете %d-цифрен код на старото си устройство.</string>
     <string name="ble_host_verification_title">Свързване към старото устройство…</string>
     <string name="ble_manual_authorization_content">Дайте необходимите разрешения, за да можете да прехвърляте елементи с Mi Mover. Можете да дадете тези разрешения в Настройки.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Успешно създаване на хотспот. Изчакване за свързване…</string>
     <string name="ble_starting_ap">Създаване на хотспот…</string>
     <string name="ble_wait_verify_code">Генериране на код на новото устройство…</string>
+    <string name="ble_wait_verify_code_pad">Генериране на код на новото устройство…</string>
     <string name="ble_waiting_verify_code">Потвърждаване на кода…</string>
     <string name="ble_waiting_verify_code_error">Въведения код е невалиден</string>
+    <string name="blutooth_permission_desc_new">За откриване на близки устройства, готови за свързване</string>
     <string name="btn_got_it">Разбрах</string>
     <string name="btn_install_complete">Инсталирано</string>
     <string name="btn_mi_cloud_install_complete">Инсталирах приложението</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Текущо обаждане</string>
     <string name="call_notification_screening_text">Преглежда се входящо обаждане</string>
     <string name="calllog">Хронология на повикванията</string>
+    <string name="camera_permission_content">За откриване на устройства наблизо</string>
     <string name="cancel">Отказ</string>
     <string name="cancel_moving_dialog_message">Спиране на импортирането сега?</string>
     <string name="cancel_moving_dialog_title">Спри импортирането</string>
@@ -150,8 +155,10 @@
     <string name="connection_tips_owner_title">Ако старото Ви устройство е Mi телефон:</string>
     <string name="connection_tips_owner_title_global">Инсталирайте най-новата версия на Mi Mover:</string>
     <string name="contact_records_permission_desc">За прехвърляне на хронология на повикванията към други устройства</string>
+    <string name="contact_records_permission_desc_new">За прехвърляне на хронология на повикванията към новото устройство</string>
     <string name="contacts">Контакти</string>
     <string name="contacts_permission_desc">За прехвърляне на контакти към други устройства</string>
+    <string name="contacts_permission_desc_new">За прехвърляне на контакти към новото устройство</string>
     <string name="contains_unauthorized_data">Съдържа неразрешени данни</string>
     <string name="copy">Копиране</string>
     <string name="current_user_not_supported_summary">Текущите системни настройки ограничават прехвърлянето на данни чрез Mi Mover.</string>
@@ -180,6 +187,17 @@
     <string name="dialog_rating_desc_less">Дайте ни предложения, чрез които да подобрим нашето приложение</string>
     <string name="dialog_rating_desc_perfect">Благодарим! Ще оцените ли Mi Mover и в GetApps?</string>
     <string name="dialog_rating_title">Оценете Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"За да прехвърлите данни от старото си устройство към новото, това приложение трябва да се свърже с интернет и изисква следните разрешения:
+• Достъп до снимки, аудио, календар и видеоклипове
+• Достъп до съобщения, контакти и хронология на повикванията
+• Достъп до паметта
+• Достъп до списъка с приложения, инсталирани на устройството"</string>
+    <string name="dialog_request_all_permission_content_new_china">"За да прехвърлите данни от старото си устройство към новото, това приложение трябва да се свърже с интернет и изисква следните разрешения:
+• Достъп до снимки, аудио, календар и видеоклипове
+• Достъп до съобщения, контакти и хронология на повикванията
+• Достъп до паметта
+• Достъп до списъка с приложения, инсталирани на устройството"</string>
+    <string name="dialog_request_all_permission_title_new">Необходими са разрешения</string>
     <string name="dialog_request_network_btn_negative">Изход</string>
     <string name="dialog_request_network_btn_positive">Приемам</string>
     <string name="dialog_request_permission_message">Добре дошли в Mi Mover! Можете да използвате това приложение, за да прехвърляте данни от старо устройство към ново устройство. Данните ще бъдат прехвърлени между двете устройства и няма да бъдат качвани в нашите сървъри. Това приложение се нуждае от връзка с интернет и изисква следните разрешения, за да работи нормално:</string>
@@ -188,6 +206,8 @@
     <string name="dialog_request_permission_message_extra_title">Задължителни разрешения</string>
     <string name="dialog_request_permission_message_global">Това приложение се нуждае от следните разрешения, за да функционира нормално:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"За да можете да разберете потребителските си права, както и начините, по които използваме личните Ви данни, прочетете и приемете нашето &lt;a href='%1s'>Потребителско споразумение за операционна система на Xiaomi&lt;/a> и &lt;a href='%2s'>Политика за поверителност на Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Разрешете на това приложение да се свързва с интернет и предоставете задължителните разрешения, изброени по-горе. За да разберете напълно правата си като потребител, както и начините, по които използваме Вашите данни, прочетете и се съгласете с &lt;a href='%1s'>Потребителското споразумение на операционната система Xiaomi&lt;/a> и &lt;a href='%2s'>Правилата за поверителност на Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Добре дошли в Mi Mover! Можете да използвате това приложение, за да прехвърляте данни от старото си устройство към новото. Данните ще бъдат прехвърляни между двете устройства и няма да бъдат качвани на нашите сървъри.</string>
     <string name="dialog_request_permission_message_provision_link">Същевременно, за да можете да се запознаете с потребителските си права по-подробно, както и да се запознаете с начините, по които използваме Вашите лични данни, прочетете и приемете нашето %1$s и %2$s.</string>
     <string name="dialog_request_permission_title">Внимание</string>
     <string name="dialog_request_permission_title_global">Необходими разрешения</string>
@@ -367,9 +387,12 @@
     <string name="icloud_signin_fail_message">Вашият Apple ID е блокиран от съображения за сигурност. Отидете на iforgot.apple.com и следвайте инструкциите.</string>
     <string name="icloud_start_now">Използвай мобилни данни</string>
     <string name="icloud_verify_tips">Натиснете \"Разреши\" на Вашето iOS устройство и въведете кода, който се появява на него, тук.</string>
+    <string name="idm_discovery_summary_pad">Изглежда, че сега активирате ново устройство. Искате ли да прехвърлите елементи от това устройство към новото?</string>
+    <string name="idm_discovery_title_pad">Прехвърляне на елементи към новото Ви устройство</string>
     <string name="im_recipient">Аз съм получател</string>
     <string name="im_sender">Аз съм изпращач</string>
     <string name="image">Изображения</string>
+    <string name="image_video_permission_desc_new">За прехвърляне на снимки и видеоклипове към новото устройство</string>
     <string name="import_again">Импортирай отново</string>
     <string name="import_data_from_icloud">Импортиране на данни от iCloud</string>
     <string name="install_app_dialog_title">Не са открити устройства наблизо</string>
@@ -395,6 +418,8 @@
     <string name="lack_perm_title">Необходими са разрешения</string>
     <string name="launcher">Оформление на Начален екран</string>
     <string name="loading_data">Момент…</string>
+    <string name="location_permission_content_no_provisioned">Предоставете това разрешение, за да се свързвате с хотспот на близко устройство. Ако не дадете това разрешение, няма да можете да прехвърляте елементи.</string>
+    <string name="location_permission_content_provisioned">За свързване към хотспот на близко устройство</string>
     <string name="location_permission_desc">За откриване на устройства наблизо</string>
     <string name="location_permission_request">За свързване към други устройства наблизо</string>
     <string name="lockscreen_access">Област на шаблона</string>
@@ -423,6 +448,8 @@
     <string name="manual_connection_title">Свържете се ръчно със старото устройство</string>
     <string name="manual_connection_title_pad">Свържете старото устройство към Хотспот</string>
     <string name="manual_connection_title_phone">Свържете старото устройство към Хотспот</string>
+    <string name="manual_disconnect_guest">Връзката с новото устройство е прекъсната. Свържете се отново, за да продължите прехвърлянето.</string>
+    <string name="manual_disconnect_host">Връзката със старото устройство е прекъсната. Свържете се отново, за да продължите прехвърлянето.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover се нуждае от достъп до всички файлове в това устройство, за да може да ги премества от старото ви устройство към новото.</string>
     <string name="message_request_package_stats_perm">Mi Mover се нуждае от това разрешение, за да разбере какви приложения са инсталирани в това устройство и да ги премести в друго.</string>
     <string name="midnight">Нощ</string>
@@ -513,6 +540,7 @@
     <string name="more">Още</string>
     <string name="morning">Сутрин</string>
     <string name="msg_permission_desc">За прехвърляне на съобщения към други устройства</string>
+    <string name="msg_permission_desc_new">За прехвърляне на SMS и MMS към други устройства</string>
     <string name="name_password_not_consistent">Въведените от Вас Apple ID и парола не съвпадат</string>
     <string name="need_location_permission_confirm">Настройки</string>
     <string name="need_location_permission_summary">Позволете на Mi Mover достъп до Вашето местоположение, за да може да открива устройства в близост.</string>
@@ -522,6 +550,20 @@
     <string name="need_more_memory_title">Недостатъчно място за съхранение</string>
     <string name="new_app_name">Нова версия</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Данни, защитени с авторски права</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Възможно е системни приложения и данни от други марки да не са съвместими с Mi Mover и да не могат да бъдат прехвърлени.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Не могат да бъдат прехвърлени приложения и данни, съвместими с новото устройство.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Някои настройки и данни на телефона са обвързани с Вашата SIM карта. Вмъкването на SIM картата в новото устройство ще прехвърли тези данни.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Някои данни от приложения</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Данни от второто пространство</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Данни от второто пространство</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Данни, свързани с поверителността и сигурността</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Банковите карти и ключовете за кола не могат да бъдат прехвърляни.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Темите и тапетите са обект на ограничения на разделителната способност на екрана и не могат да бъдат прехвърляни между някои модели.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Поради ограничения на Bluetooth протокола записите за сдвояване на Bluetooth слушалки, високоговорители и други устройства не могат да бъдат прехвърлени.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Оперативната статистика, като консумация на енергия, време на екрана и използване на мобилни данни, не може да бъде прехвърляна.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Данни, свързани с конкретен модел устройство</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Какви данни не могат да се прехвърлят чрез Mi Mover?</string>
     <string name="new_trans_intro_desc_2">В новата версия на Mi Mover няма нужда да въвеждате парола. Просто отворете Mi Mover на старото си устройство, натиснете \"Аз съм изпращач\" и натиснете името на съответния хотспот, за да се свържете.</string>
     <string name="new_trans_intro_desc_2_pad">В новата версия на Mi Mover няма нужда да се въвежда парола. Просто отвори Mi Mover на старото устройство, натисни „Аз съм изпращач“ и натисни името на съответния хотспот, за да се свържеш.</string>
     <string name="new_trans_intro_desc_2_phone">В новата версия на Mi Mover няма нужда да се въвежда парола. Просто отвори Mi Mover на старото устройство, натисни „Аз съм изпращач“ и натисни името на съответния хотспот, за да се свържеш.</string>
@@ -532,18 +574,18 @@
     <string name="new_trans_intro_desc_6_pad">Данните от приложения не могат да се прехвърлят, защото Mi Mover няма необходимите разрешения за устройства, които не са на Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Данните от приложения не могат да се прехвърлят, защото Mi Mover няма необходимите разрешения за устройства, които не са на Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover ще може да продължи оттам, откъдето сте прекъснали. Възможно е да се наложи да започнете отначало, ако проблеми със съвместимостта на устройствата предотвратяват възобновяването на прекъснатото прехвърляне.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover ще продължи оттам, откъдето сте прекъснали. Възможно е да се наложи да започнете отначало, ако проблеми със съвместимостта на устройствата предотвратяват възобновяването на прекъснатото прехвърляне.</string>
     <string name="new_trans_intro_desc_8">WeChat историята от старото устройство заема мястото на WeChat историята от новото Ви устройство по време на прехвърлянето.</string>
+    <string name="new_trans_intro_desc_8_pad">Хронологията на WeChat от старото устройство ще замени хронологията на WeChat от новото устройство по време на прехвърлянето.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Уверете се, че Mi Mover на вашето ново устройство е актуален. Можете да изтеглите най-новата версия на Mi Mover в Play Store или да натиснете тук: %2$s.
 %3$d. Ако хотспота все още не се показва в Mi Mover, отворете Wi-Fi настройките и проверете дали можете да го видите там. Ако е така, върнете се към Mi Mover и натиснете името на хотспота."</string>
     <string name="new_trans_intro_desc_new_click">Изтегляне</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в Google Play или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в Google Play или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Уверете се, че Mi Mover на новото устройство е с актуална версия. Можете да изтеглите най-новата версия на Mi Mover в Google Play или <Data>&lt;a href=%2$s>да натиснете тук&lt;/a></Data>".
+%3$d. Ако хотспота все още не се показва в Mi Mover, отворете Wi-Fi настройките и проверете дали е видим там. Ако е така, върнете се към Mi Mover и натиснете името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в Google Play или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+%3$d. Ако хотспота все още не се показва в Mi Mover, отвори Wi-Fi настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Увери се, че Mi Mover на новото устройство е с актуална версия. Можеш да изтеглиш най-новата версия на Mi Mover в GetApps или <Data>&lt;a href=%2$s>да натиснеш тук&lt;/a></Data>".
+%3$d. Ако хотспота все още не се показва в Mi Mover, отвори WLAN настройките и провери дали можеш да го видиш там. Ако е така, върни се към Mi Mover и натисни името на хотспота."</string>
     <string name="new_trans_intro_desc_old">%d. Ако не виждате хотспот в Mi Mover, отворете настройките на Wi-Fi и проверете дали е видим там. Ако е, върнете се в Mi Mover и натиснете името на този хотспот.</string>
     <string name="new_trans_intro_question_1">%d. Защо не виждам хотспота от новото устройство върху старото устройство?</string>
     <string name="new_trans_intro_question_1_pad">%d. Защо не виждам хотспота от новото устройство на старото?</string>
@@ -573,15 +615,22 @@
     <string name="not_set">Не е зададено</string>
     <string name="not_support_data_content1">%d. Елементи специфични за модела на устройството</string>
     <string name="not_support_data_content2">%d. Данни от приложение</string>
+    <string name="not_support_data_content2_new">%d. Данни, защитени с авторски права</string>
     <string name="not_support_data_content3">%d. Данни за Второ пространство</string>
+    <string name="not_support_data_content3_new">%d. Данни, свързани с поверителността и сигурността</string>
     <string name="not_support_data_content4">%d. Клонирани приложения</string>
+    <string name="not_support_data_content4_new">%d. Някои данни от приложения</string>
     <string name="not_support_data_content_2">%d. Избрани приложения и данни за приложения</string>
     <string name="not_support_data_link">Елементи не могат да бъдат прехвърляни</string>
     <string name="not_support_data_summary1">Теми, тапети, карти за транспорт и карти ключ не могат да бъдат прехвърляни чрез Mi Mover.</string>
+    <string name="not_support_data_summary1_new">Банковите карти и ключовете за колата не могат да бъдат прехвърляни. Темите и тапетите са обект на ограничения на разделителната способност на екрана и не могат да бъдат прехвърляни между някои модели.</string>
     <string name="not_support_data_summary2">Данни от приложението (като хронология на разговори) не могат да се прехвърлят.</string>
+    <string name="not_support_data_summary2_new">Теми, шрифтове, големи икони, теми с „Винаги включен дисплей“ и модули, закупени чрез профила в Xiaomi, които са защитени с авторско право, не могат да бъдат прехвърляни. Влезте със своя Xiaomi профил в новото устройство и ги изтеглете отново.</string>
     <string name="not_support_data_summary3">Поради системни ограничения, елементи от Второ пространство не могат да бъдат прехвърляни чрез Mi Mover.</string>
+    <string name="not_support_data_summary3_new">Пръстови отпечатъци, лицеви данни и други данни, свързани със собствеността на устройството, финансовата сигурност и поверителността на потребителя, не могат да бъдат прехвърляни от старото устройство под никаква форма. Това включва и данни от финансови приложения (напр. мобилно банкиране).</string>
     <string name="not_support_data_summary4">Клонирани приложения и техните данни също не могат да бъдат прехвърляни. Но можете да прехвърляте съответните основни приложения.</string>
     <string name="not_support_data_summary_2">Някои приложения не могат да бъдат прехвърляни заради ограничения за поверителността от страна на Play Store.</string>
+    <string name="not_support_data_summary_new">Възможно е системни приложения и данни от други марки да не са съвместими с Mi Mover и да не могат да се прехвърлят.</string>
     <string name="not_support_data_title">Елементи не могат да бъдат прехвърляни</string>
     <string name="note">Бележки</string>
     <string name="nothing_chosen">Първо изберете елементи</string>
@@ -641,27 +690,39 @@
     <string name="permission_alert_message_usage_access">Mi Mover се нуждае от достъп да статистика за използване на приложенията. Дайте необходимите разрешения на Mi Mover от Настройки.</string>
     <string name="permission_alert_title">Необходими са разрешения</string>
     <string name="permission_bluetooth_summary">За откриване на устройства наблизо</string>
+    <string name="permission_bluetooth_summary_new">За откриване на устройства наблизо</string>
     <string name="permission_bluetooth_title">Включване или изключване на Bluetooth</string>
     <string name="permission_calendar_summary">За прехвърляне на събития от календара</string>
     <string name="permission_calendar_title">Достъп до календара</string>
     <string name="permission_calender_summary">За преместване на събития от старото устройство към новото</string>
     <string name="permission_calender_summary_global">За прехвърляне на календарни събития към новото устройство</string>
+    <string name="permission_calender_summary_new">За преместване на събития от старото устройство към новото</string>
     <string name="permission_calender_title">Достъп до събития в календара</string>
+    <string name="permission_calender_title_new">Достъп до събития в календара</string>
     <string name="permission_call_log_summary">За прехвърляне на хронология на повикванията към новото Ви устройство</string>
+    <string name="permission_call_log_summary_new">За прехвърляне на хронология на повикванията към новото Ви устройство</string>
     <string name="permission_call_log_title">Получаване на достъп до хронология на повикванията</string>
     <string name="permission_contacts_summary">За прехвърляне на контакти към новото ви устройство</string>
+    <string name="permission_contacts_summary_new">За прехвърляне на контакти към новото Ви устройство</string>
     <string name="permission_contacts_title">Влизане в контакти</string>
     <string name="permission_grant_request">За да може да прехвърли този елемент, Mi Mover се нуждае от разрешение за \"%1$s\".</string>
     <string name="permission_locale_summary">За свързване с устройства наблизо</string>
     <string name="permission_locale_title">Достъп до местоположението</string>
+    <string name="permission_locale_title_new">Достъп до местоположението</string>
     <string name="permission_message_summary">За прехвърляне на съобщения към новото ви устройство</string>
+    <string name="permission_message_summary_new">За прехвърляне на съобщения към новото Ви устройство</string>
     <string name="permission_message_title">Достъп до съдържание на SMS</string>
     <string name="permission_request_title">Изисква се разрешение за \"%1$s\"</string>
     <string name="permission_setting_button">Настройки</string>
     <string name="permission_storage_summary">За прехвърляне на файлове и снимки към новото ви устройство</string>
+    <string name="permission_storage_summary_new">За прехвърляне на файлове и снимки към новото Ви устройство</string>
     <string name="permission_storage_title">Достъп до и запазване на файлове и снимки съхранявани на вашето устройство</string>
+    <string name="permission_storage_title_new">Достъп до паметта</string>
     <string name="permission_wifi_summary">За прехвърляне на елементи към новото ви устройство</string>
+    <string name="permission_wifi_summary_new">За прехвърляне на елементи към новото Ви устройство</string>
     <string name="permission_wifi_title">Включване или изключване на Wi-Fi</string>
+    <string name="permission_wifi_title_new">Включване и изключване на Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Включване и изключване на WLAN</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_agree">Приемам</string>
@@ -749,6 +810,7 @@
     <string name="scanner_quit_alert_message_phone">Ще трябва да свържеш двете устройства отново, ако излезеш от Mi Mover сега. Излизане?</string>
     <string name="scanner_quit_alert_title">Изход сега?</string>
     <string name="scanner_send_dialog_btn">Разбрах</string>
+    <string name="scanner_send_dialog_btn_i_know">Разбрах</string>
     <string name="scanner_send_dialog_message">Не изключвайте Wi-Fi и не сменяйте мрежи по време на прехвърлянето.</string>
     <string name="scanner_size_selected">Избрани: %s</string>
     <string name="scanner_subtitle_prd">Прочетете внимателно следната информация, преди да проверите всеки елемент и да започнете процеса на прехвърляне.</string>
@@ -756,6 +818,7 @@
     <string name="scanner_title_prd">Важна информация</string>
     <string name="scanner_title_tip">Изберете елементи за прехвърляне</string>
     <string name="scanner_wechat_overwrite_hit">Поради ограничения в приложения от трети страни историите на чатове и други данни от приложения на новото Ви устройство ще бъдат заменени с тези от старото след завършване на прехвърлянето.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Поради ограничения в приложения от трети страни хронологиите на чатове и данни от други приложения на новото Ви устройство ще бъдат заменени с тези от старото след завършване на прехвърлянето.</string>
     <string name="search_menu_title">Търсене</string>
     <string name="searching_for_new_device">Търсене на новото устройство…</string>
     <string name="searching_for_new_device_pad">Търсене на новото устройство…</string>
@@ -806,11 +869,11 @@
     <string name="settings_sms">Настройки на съобщения</string>
     <string name="settings_system">Системни настройки</string>
     <string name="settings_wifi">Wi-Fi настройки</string>
-    <string name="size_byte">B</string>
+    <string name="size_byte">Б</string>
     <string name="size_giga_byte">GB</string>
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
-    <string name="size_peta_byte">PB</string>
+    <string name="size_peta_byte">ПБ</string>
     <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_compatibility_mode">Не сега</string>
@@ -889,27 +952,42 @@
     <string name="time_spent">Време: %1$s</string>
     <string name="tips_button_hint">Проверете всеки елемент, за да потвърдите първо</string>
     <string name="tips_cover_content">Ако продължите тези данни (включително чат хронологии) ще бъдат презаписани.</string>
+    <string name="tips_cover_content_pad">Ако продължите, тези данни (включително хронологиите на чата) ще бъдат презаписани.</string>
     <string name="tips_cover_content_tablet">Ако продължите тези данни (включително чат хронологии) ще бъдат презаписани.</string>
     <string name="tips_cover_title">%1$d. Вече има данни за следните приложения на новото устройство.</string>
+    <string name="tips_cover_title_pad">%1$d. Вече има данни за следните приложения на новото устройство.</string>
     <string name="tips_cover_title_tablet">%1$d. Вече има данни за следните приложения на новото устройство.</string>
     <string name="tips_dual_app_content">Клонираните приложения не могат да се прехвърлят. Само основното приложение и неговите данни могат да бъдат прехвърлени.</string>
     <string name="tips_dual_app_title">%d. Следните приложения са клонирани приложения.</string>
+    <string name="tips_dual_app_title_new">%d. Данните от клонирани приложения не могат да бъдат прехвърлени.</string>
     <string name="tips_hot_content">Това е нормално. Вашето устройство ще се охлади, след като прехвърлянето приключи.</string>
+    <string name="tips_hot_content_new">Това е нормално. Вашето устройство ще се охлади, след като прехвърлянето приключи.</string>
     <string name="tips_hot_title">%d. Вашето устройство може да се нагрее по време на процеса на прехвърляне.</string>
+    <string name="tips_hot_title_content">%d. Устройството Ви може да прегрее.</string>
     <string name="tips_private_space_content">Поради системни ограничения данните от Второто пространство не могат да бъдат прехвърлени.</string>
+    <string name="tips_private_space_content_pad">Това се дължи на системни ограничения.</string>
+    <string name="tips_private_space_content_phone">Това се дължи на системни ограничения.</string>
     <string name="tips_private_space_content_tablet">Поради системни ограничения данните от Второто пространство не могат да бъдат прехвърлени.</string>
     <string name="tips_private_space_title">%d. Второто пространство е включено.</string>
+    <string name="tips_private_space_title_pad">%d. Данните от второто пространство не могат да бъдат прехвърлени.</string>
+    <string name="tips_private_space_title_phone">%d. Данните от второто пространство не могат да бъдат прехвърлени.</string>
     <string name="tips_private_space_title_tablet">%d. Второто пространство е включено.</string>
     <string name="tips_prudent_operation_content">Прекъсването на връзката ще спре прехвърлянето.</string>
     <string name="tips_prudent_operation_title">%d. Не изключвайте и не превключвайте Wi-Fi хотспот.</string>
+    <string name="tips_prudent_operation_title_new">%d. Не изключвайте и не превключвайте Wi-Fi хотспот.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Не изключвайте и не превключвайте WLAN хотспот.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Не изключвайте и не превключвайте WLAN хотспот.</string>
     <string name="tips_secret_content_one">Някои лични елементи на старото устройство (%1$s) не могат да бъдат прехвърлени. Премахнете ги от личната папка, за да можете да ги прехвърлите.</string>
+    <string name="tips_secret_content_one_new">Някои лични елементи на старото устройство (%1$s) не могат да бъдат прехвърлени. Премахнете ги от личната папка, за да можете да ги прехвърлите.</string>
     <string name="tips_secret_content_three">Някои лични елементи на старото устройство (%1$s, %2$s, %3$s) не могат да бъдат прехвърлени. Премахнете ги от личната папка, за да можете да ги прехвърлите.</string>
+    <string name="tips_secret_content_three_new">Някои лични елементи на старото устройство (%1$s, %2$s, %3$s) не могат да бъдат прехвърлени. Премахнете ги от личната папка, за да можете да ги прехвърлите.</string>
     <string name="tips_secret_content_two">Някои лични елементи на старото устройство (%1$s, %2$s) не могат да бъдат прехвърлени. Премахнете ги от личната папка, за да можете да ги прехвърлите.</string>
+    <string name="tips_secret_content_two_new">Някои лични елементи на старото устройство (%1$s, %2$s) не могат да бъдат прехвърлени. Премахнете ги от личната папка, за да можете да ги прехвърлите.</string>
     <string name="tips_secret_file">файлове</string>
     <string name="tips_secret_gallery">албуми</string>
     <string name="tips_secret_note">бележки</string>
     <string name="tips_secret_title">%d. Някои лични елементи не могат да бъдат прехвърлени.</string>
+    <string name="tips_secret_title_content">%d. Личните елементи не могат да бъдат прехвърлени.</string>
     <string name="tips_subtitle">Прочетете и потвърдете следните напомняния, преди да продължите.</string>
     <string name="title_compatibility_mode">Включи режим на съвместимост на приложението</string>
     <string name="title_open_wlan">Включване на Wi-Fi</string>
@@ -951,10 +1029,12 @@
     <string name="trans_send_time_remained_default">Изпратени: %1$s</string>
     <string name="trans_show_qr_code_label">Отворете Mi Mover на старото устройство</string>
     <string name="trans_show_qr_code_label_for_pad">Отворете Mi Mover на старото устройство</string>
+    <string name="trans_show_qr_code_label_pad">Отворете Mi Mover на старото устройство</string>
     <string name="trans_sync_transfer_data_list">Изберете елементи за прехвърляне на старото устройство</string>
     <string name="trans_sync_transfer_data_list_apple">Прехвърли елементи от твоето Apple устройство</string>
     <string name="trans_sync_transfer_data_list_hint">Един момент…</string>
     <string name="trans_sync_transfer_data_list_pad">Изберете елементи от старото устройство за прехвърляне</string>
+    <string name="trans_sync_transfer_data_list_phone">Изберете елементи за прехвърляне на старото устройство</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Изберете елементи на старото си устройство и натиснете „Изпрати“.</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Изберете елементи на старото си устройство и натиснете „Изпрати“.</string>
     <string name="trans_time_format_second">Остава по-малко от %d мин</string>
@@ -977,6 +1057,7 @@
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Напредъкът на прехвърлянето ще бъде съхранен. Следващия път, когато отново свържете двете устройства, ще можете да продължите от мястото, на което сте прекъснали.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Напредъкът на прехвърлянето ще бъде съхранен. Следващия път, когато отново свържете двете устройства, ще можете да продължите от мястото, на което сте прекъснали.</string>
     <string name="transfer_quit_alert_title">Внимание</string>
     <string name="transfer_snap_error">Неуспешно прехвърляне</string>
     <string name="transfer_snap_new_receiving">Получаване…</string>

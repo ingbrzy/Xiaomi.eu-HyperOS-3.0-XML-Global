@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Sonraki</string>
     <string name="apps_cannot_be_transfered_summary_formatted">"Bu %1$d-bit uygulamalar %2$d-bit bir cihaza aktarılamaz. Aktarımdan sonra doğrudan GetApps'den indirebilirsiniz."</string>
     <string name="audio">Ses</string>
+    <string name="audio_permission_desc_new">Müziği ve sesi yeni cihaza aktarmak için</string>
     <string name="audio_video_document">Ses, video ve dökümanlar</string>
     <string name="back">Geri</string>
     <string name="backup_died_summary">"''Tekrar bağlan''a dokunun. Aktarım işlemi kaldığınız yerden devam edecektir."</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Kod uzun zamandır girilmedi. Manuel bağlanın.</string>
     <string name="ble_enter_verifycode_timeout_title">Oturumun süresi doldu</string>
     <string name="ble_guest_connecting_title">Yeni cihaza bağlanılıyor…</string>
+    <string name="ble_guest_connecting_title_pad">Yeni cihaza bağlanılıyor…</string>
     <string name="ble_host_verification_summary">Eski cihazınızda %d haneli bir kod girin.</string>
     <string name="ble_host_verification_title">Eski cihaza bağlanılıyor…</string>
     <string name="ble_manual_authorization_content">Mi Taşıyıcı ile ögeleri aktarabilmek için gerekli izinleri verin. Bu izinleri Ayarlar menüsünde verebilirsiniz.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Bağlantı noktası başarıyla oluşturuldu. Bağlanmak için bekleniyor…</string>
     <string name="ble_starting_ap">Bağlantı noktası oluşturuluyor…</string>
     <string name="ble_wait_verify_code">Yeni cihazda kod oluşturuluyor…</string>
+    <string name="ble_wait_verify_code_pad">Yeni cihazda kod oluşturuluyor…</string>
     <string name="ble_waiting_verify_code">Kod doğrulanıyor…</string>
     <string name="ble_waiting_verify_code_error">Girdiğiniz kod yanlış</string>
+    <string name="blutooth_permission_desc_new">Yakındaki bağlanmaya hazır cihazları keşfetmek için</string>
     <string name="btn_got_it">Anladım</string>
     <string name="btn_install_complete">Yüklendi</string>
     <string name="btn_mi_cloud_install_complete">Uygulamayı yükledim</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Devam eden arama</string>
     <string name="call_notification_screening_text">Gelen arama süzülüyor</string>
     <string name="calllog">Arama geçmişi</string>
+    <string name="camera_permission_content">Yakındaki cihazları keşfetmek için</string>
     <string name="cancel">İptal</string>
     <string name="cancel_moving_dialog_message">İçe aktarım durdurulsun mu?</string>
     <string name="cancel_moving_dialog_title">İçe aktarımı durdur</string>
@@ -150,8 +155,10 @@ Kapatmak için https://appleid.apple.com/#!&amp;page=signin adresini ziyaret edi
     <string name="connection_tips_owner_title">Eski cihazınız bir Mi telefon ise:</string>
     <string name="connection_tips_owner_title_global">"Mi Taşıyıcı'nın en son sürümünü yükle:"</string>
     <string name="contact_records_permission_desc">Arama geçmişini diğer cihazlara aktarmak için</string>
+    <string name="contact_records_permission_desc_new">Arama geçmişini yeni cihaza aktarmak için</string>
     <string name="contacts">Kişiler</string>
     <string name="contacts_permission_desc">Kişileri diğer cihazlara aktarmak için</string>
+    <string name="contacts_permission_desc_new">Kişileri yeni cihaza aktarmak için</string>
     <string name="contains_unauthorized_data">Yetkilendirilmemiş veriler içerir</string>
     <string name="copy">Kopyala</string>
     <string name="current_user_not_supported_summary">Mevcut sistem ayarları Mi Taşıyıcı ile veri aktarmaya izin vermiyor.</string>
@@ -180,6 +187,17 @@ Kapatmak için https://appleid.apple.com/#!&amp;page=signin adresini ziyaret edi
     <string name="dialog_rating_desc_less">Uygulamamızı geliştirebilmemiz için birkaç öneri sunmak ister misiniz?</string>
     <string name="dialog_rating_desc_perfect">"Teşekkürler! Mi Taşıyıcı'ya GetApps'te de puan vermek ister misiniz?"</string>
     <string name="dialog_rating_title">"Mi Taşıyıcı'ya puan verin"</string>
+    <string name="dialog_request_all_permission_content_new">"Verileri eski cihazınızdan yenisine aktarmak için bu uygulamanın internete bağlanması gerekir ve aşağıdaki izinlere ihtiyacı vardır:
+• Fotoğraflara, sese, takvime ve videolara eriş
+• Mesajlara, kişikere ve arama geçmişine eriş
+• Depolamaya eriş
+• Cihazda yüklü uygulamaların listesine eriş"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Verileri eski cihazınızdan yenisine aktarmak için bu uygulamanın internete bağlanması gerekir ve aşağıdaki izinlere ihtiyacı vardır:
+• Fotoğraflara, sese, takvime ve videolara eriş
+• Mesajlara, kişikere ve arama geçmişine eriş
+• Depolamaya eriş
+• Cihazda yüklü uygulamaların listesine eriş"</string>
+    <string name="dialog_request_all_permission_title_new">İzinler gerekli</string>
     <string name="dialog_request_network_btn_negative">Çık</string>
     <string name="dialog_request_network_btn_positive">Kabul et</string>
     <string name="dialog_request_permission_message">"Mi Taşıyıcı'ya hoş geldiniz! Bu uygulamayı eski cihazınızdan yenisine verileri aktarmak için kullanabilirsiniz. Veriler iki cihaz arasında aktarılacaktır ve sunucularımıza yüklenmeyecektir. Bu uygulama normal çalışabilmek için internete bağlanmaya ve aşağıdaki izinlere ihtiyaç duyar:"</string>
@@ -188,6 +206,8 @@ Kapatmak için https://appleid.apple.com/#!&amp;page=signin adresini ziyaret edi
     <string name="dialog_request_permission_message_extra_title">Zorunlu izinler</string>
     <string name="dialog_request_permission_message_global">Bu uygulama normal çalışabilmek için belirtilen izinlere ihtiyaç duyar:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Kullanıcı olarak tüm haklarınızı ayrıca verilerinizi kullanma yöntemlerimizi tam olarak anlamak için &lt;a href='%1s'>Xiaomi İşletim Sistemi Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href='%2s'>Mi Taşıyıcı Gizlilik Politikası'nı&lt;/a> okuyun ve kabul edin."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Bu uygulamanın internete bağlanmasına ve yukarıda listelenen zorunlu izinlere izin verin. Bir kullanıcı olarak haklarınızı ve verilerinizi hangi yollarla kullandığımızı tamamen anlamak için &lt;a href='%1s'>Xiaomi İşletim Sistemi Kullanıcı Sözleşmesi'ni&lt;/a> ve &lt;a href='%2s'>Mi Taşıyıcı Gizlilik Politikası'nı&lt;/a> okuyun ve kabul edin."</Data></string>
+    <string name="dialog_request_permission_message_new">"Mi Taşıyıcı'ya hoş geldiniz! Bu uygulamayı verileri eski cihazınızdan yenisine aktarmak için kullanabilirsiniz. Verileriniz iki cihaz arasında aktarılacak ve sunucularımıza yüklenmeyecek."</string>
     <string name="dialog_request_permission_message_provision_link">Aynı zamanda, kullanıcı olarak tüm haklarınızı ayrıca verilerinizi kullanma yöntemlerimizi tam olarak anlamak için %1$s ve %2$s sözleşmelerini okuyun ve kabul edin.</string>
     <string name="dialog_request_permission_title">Uyarı</string>
     <string name="dialog_request_permission_title_global">İzin gerekli</string>
@@ -367,9 +387,12 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="icloud_signin_fail_message">Güvenlik nedenlerinden dolayı apple kimliğiniz kilitlendi. iforgot.apple.com adresine gidin ve talimatları takip edin.</string>
     <string name="icloud_start_now">Mobil veri kullan</string>
     <string name="icloud_verify_tips">iOS cihazınızda \"İzin ver\" seçeneğine dokunun ve beliren kodu girin.</string>
+    <string name="idm_discovery_summary_pad">Görünüşe göre şu an yeni bir cihazı etkinleştiriyorsunuz. Ögeler bu cihazdan yenisine aktarılsın mı?</string>
+    <string name="idm_discovery_title_pad">Ögeleri yeni cihazınıza aktarın</string>
     <string name="im_recipient">Alıcı tarafım</string>
     <string name="im_sender">Gönderen tarafım</string>
     <string name="image">Resimler</string>
+    <string name="image_video_permission_desc_new">Fotoğrafları ve videoları yeni cihaza aktarmak için</string>
     <string name="import_again">Yeniden içeri aktar</string>
     <string name="import_data_from_icloud">iCloud alanından veri aktar</string>
     <string name="install_app_dialog_title">Yakınlarda cihaz bulunamadı</string>
@@ -395,6 +418,8 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="lack_perm_title">İzin gerekli</string>
     <string name="launcher">Ana ekran düzeni</string>
     <string name="loading_data">Yalnızca bir sn…</string>
+    <string name="location_permission_content_no_provisioned">Yakındaki bir cihazın bağlantı noktasına bağlanabilmek için bu izni verin. Bu izni vermezseniz ögeleri aktaramazsınız.</string>
+    <string name="location_permission_content_provisioned">Yakındaki bir cihazın bağlantı noktasına bağlanmak için</string>
     <string name="location_permission_desc">Yakınlardaki cihazları bulmak için</string>
     <string name="location_permission_request">Yakındaki diğer cihazlara bağlanmak için</string>
     <string name="lockscreen_access">Desen bölgesi</string>
@@ -423,6 +448,8 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="manual_connection_title">Eski cihaza manuel olarak bağlan</string>
     <string name="manual_connection_title_pad">Eski cihazı bağlantı noktasına bağlayın</string>
     <string name="manual_connection_title_phone">Eski cihazı bağlantı noktasına bağlayın</string>
+    <string name="manual_disconnect_guest">Yeni cihazın bağlantısı kesildi. Aktarmaya devam etmek için yeniden bağlanın.</string>
+    <string name="manual_disconnect_host">Eski cihazın bağlantısı kesildi. Aktarmaya devam etmek için yeniden bağlanın.</string>
     <string name="message_request_manage_external_storage_perm">"Eski cihazınızdan yenisine dosyaları taşıyabilmesi için Mi Taşıyıcı'nın bu cihazdaki tüm dosyalara erişmesi gerekir."</string>
     <string name="message_request_package_stats_perm">Mi Taşıyıcı, bir cihazda hangi uygulamarın yüklü olduğunu öğrenmek ve bu uygulamaları bir başka cihaza aktarmak için bu izne ihtiyaç duyar.</string>
     <string name="midnight">Gece</string>
@@ -513,6 +540,7 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="more">Daha fazla</string>
     <string name="morning">Sabah</string>
     <string name="msg_permission_desc">Mesajları diğer cihazlara aktarmak için</string>
+    <string name="msg_permission_desc_new">"SMS ve MMS'i diğer cihazlara aktarmak için"</string>
     <string name="name_password_not_consistent">Girmiş olduğunuz Apple kimliği ile şifre eşleşmiyor</string>
     <string name="need_location_permission_confirm">Ayarlar</string>
     <string name="need_location_permission_summary">"Yakınlarınızdaki cihazları bulabilmesi için Mi Taşıyıcı'ya konumunuza erişim izni verin."</string>
@@ -522,6 +550,20 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="need_more_memory_title">Yeterli depolama alanı yok</string>
     <string name="new_app_name">Yeni sürüm</string>
     <string name="new_main_activity_label">Mi Taşıyıcı</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Telif hakkıyla korunan veriler</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Diğer markalara ait sistem uygulamaları ve verileri Mi Taşıyıcı ile uyumlu olmayabilir ve aktarılamaz.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Yeni cihazla uyumlu olmayan uygulamalar ve veriler aktarılamaz.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Bazı telefon ayarları ve veriler SIM kartınıza bağlıdır. SIM kartını yeni cihaza takmak bu verileri aktaracaktır.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Bazı uygulama verileri</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. İkinci alan verileri</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. İkinci alan verileri</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Gizlilik ve güvenlikle ilgili veriler</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Banka kartları ve araç anahtarları aktarılamaz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Temalar ve duvar kağıtları ekran çözünürlüğü sınırlamalarına tabidir ve bazı modeller arasında aktarılamaz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Bluetooth protokol sınırlamalarından dolayı Bluetooth kulaklık, hoparlör ve diğer cihazların eşleştirme kayıtları aktarılamaz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Güç tüketimi, ekran süresi ve mobil veri kullanımı gibi operasyonel istatistikler aktarılamaz.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Belirli bir cihaz modeline ilişkin veriler</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Mi Taşıyıcı ile hangi veriler aktarılamaz?</string>
     <string name="new_trans_intro_desc_2">"Mi Taşıyıcı'nın yeni sürümünde şifre girmeye gerek yoktur. Sadece eski cihazınızda Mi Taşıyıcı'yı açın, \"Göndericiyim\" yazısına dokunun, ve bağlanmak için kablosuz bağlantı noktasının adına dokunun."</string>
     <string name="new_trans_intro_desc_2_pad">"Mi Taşıyıcı'nın yeni sürümünde bağlantı noktası şifresini girmeye gerek yok. Sadece eski cihazınızda Mi Taşıyıcı'yı açın, \"Göndericiyim\" yazısına dokunun, ve bağlanmak için kablosuz bağlantı noktasının adına dokunun."</string>
     <string name="new_trans_intro_desc_2_phone">"Mi Taşıyıcı'nın yeni sürümünde bağlantı noktası şifresini girmeye gerek yok. Sadece eski cihazınızda Mi Taşıyıcı'yı açın, \"Göndericiyim\" yazısına dokunun, ve bağlanmak için kablosuz bağlantı noktasının adına dokunun."</string>
@@ -532,18 +574,18 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="new_trans_intro_desc_6_pad">"Uygulama verileri aktarılamıyor çünkü Mi Taşıyıcı'nın Xiaomi olmayan cihazlarda gerekli izinleri bulunmuyor."</string>
     <string name="new_trans_intro_desc_6_phone">"Uygulama verileri aktarılamıyor çünkü Mi Taşıyıcı'nın Xiaomi olmayan cihazlarda gerekli izinleri bulunmuyor."</string>
     <string name="new_trans_intro_desc_7">Mi Taşıyıcı, ayrıldığınız yerden devam edecektir. Bununla birlikte, bölünen aktarımı devam ettirmenizi engelleyen cihaz uyumluluk sorunları ise yeniden başlamak zorunda kalabilirsiniz.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Taşıyıcı, ayrıldığınız yerden devam edecektir. Bununla birlikte, bölünen aktarımı devam ettirmenizi engelleyen cihaz uyumluluk sorunları ise yeniden başlamak zorunda kalabilirsiniz.</string>
     <string name="new_trans_intro_desc_8">Eski cihazınızdaki Wechat geçmişi, aktarım sırasında yeni cihazınızın WeChat geçmişinin üzerine yazılacaktır.</string>
+    <string name="new_trans_intro_desc_8_pad">Eski cihazınızdaki Wechat geçmişi, aktarım sırasında yeni cihazınızın WeChat geçmişinin üzerine yazılacaktır.</string>
     <string name="new_trans_intro_desc_new">"%1$d.Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü Play Store'dan indirebilir veya buraya dokunabilirsiniz: %2$s.
 %3$d.Bağlantı noktası hâlâ Mi Taşıyıcı'da görünmüyorsa Wi-Fi ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
     <string name="new_trans_intro_desc_new_click">İndir</string>
-    <string name="new_trans_intro_desc_new_pad">"&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü Google Play'den indirebilir veya "<Data>&lt;a href=%2$s>buraya dokunabilirsiniza&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Bağlantı noktası Mi Taşıyıcı'da hâlâ görünmüyorsa Wi-Fi ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
-    <string name="new_trans_intro_desc_new_pad_china">"&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü GetApps'ten indirebilir veya "<Data>&lt;a href=%2$s>buraya dokunabilirsiniz&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Bağlantı noktası Mi Taşıyıcı'da hâlâ görünmüyorsa WLAN ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
-    <string name="new_trans_intro_desc_new_phone">"&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü Google Play'den indirebilir veya "<Data>&lt;a href=%2$s>buraya dokunabilirsiniza&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Bağlantı noktası Mi Taşıyıcı'da hâlâ görünmüyorsa Wi-Fi ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
-    <string name="new_trans_intro_desc_new_phone_china">"&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü GetApps'ten indirebilir veya "<Data>&lt;a href=%2$s>buraya dokunabilirsiniz&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Bağlantı noktası Mi Taşıyıcı'da hâlâ görünmüyorsa WLAN ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
+    <string name="new_trans_intro_desc_new_pad">"%1$d. Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü Google Play Store'den indirebilir veya "<Data>&lt;a href=%2$s>buraya dokunabilirsiniza&lt;/a></Data>".
+%3$d. Bağlantı noktası Mi Taşıyıcı'da hâlâ görünmüyorsa Wi-Fi ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
+    <string name="new_trans_intro_desc_new_phone">"%1$d. Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü Google Play'den indirebilir veya "<Data>&lt;a href=%2$s>buraya dokunabilirsiniza&lt;/a></Data>".
+%3$d. Bağlantı noktası Mi Taşıyıcı'da hâlâ görünmüyorsa Wi-Fi ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
+    <string name="new_trans_intro_desc_new_phone_china">"%1$d. Yeni cihazınızdaki Mi Taşıyıcı'nın güncel olduğundan emin olun. Mi Taşıyıcı'nın son sürümünü GetApps'ten indirebilir veya "<Data>&lt;a href=%2$s>buraya dokunabilirsiniz&lt;/a></Data>".
+%3$d. Bağlantı noktası Mi Taşıyıcı'da hâlâ görünmüyorsa WLAN ayarlarını açın ve orada görünüp görünmediğine bakın. Görünüyorsa Mi Taşıyıcı'ya geri gidin ve bağlantı noktasının adına dokunun."</string>
     <string name="new_trans_intro_desc_old">"%d. Kablosuz bağlantı noktası, hala Mi Taşıyıcı'da görünmüyor ise, Wi-Fi ayarlarını açın ve orada görünüp görünmediğini kontrol edin. Eğer görebiliyorsanız, Mi Taşıyıcı'ya geri dönün ve kablosuz bağlantı noktasının adına dokunun."</string>
     <string name="new_trans_intro_question_1">%d. Yeni cihazın bağlantı noktasını eskisinde neden göremiyorum?</string>
     <string name="new_trans_intro_question_1_pad">%d. Yeni cihazın bağlantı noktasını eskisinde neden göremiyorum?</string>
@@ -573,15 +615,22 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="not_set">Ayarlanmadı</string>
     <string name="not_support_data_content1">%d. Cihaz modeline özel ögeler</string>
     <string name="not_support_data_content2">%d. Uygulama verisi</string>
+    <string name="not_support_data_content2_new">%d. Telif hakkıyla korunan veriler</string>
     <string name="not_support_data_content3">%d. İkinci alan verileri</string>
+    <string name="not_support_data_content3_new">%d. Gizlilik ve güvenlikle ilgili veriler</string>
     <string name="not_support_data_content4">%d. Çift uygulamalar</string>
+    <string name="not_support_data_content4_new">%d. Bazı uygulama verileri</string>
     <string name="not_support_data_content_2">%d. Seçili uygulamalar ve uygulama verileri</string>
     <string name="not_support_data_link">Aktarılamayan ögeler</string>
     <string name="not_support_data_summary1">Temalar, duvar kağıdı, ulaşım kartları ve anahtar kartlar, Mi Taşıyıcı kullanılarak aktarılamıyor.</string>
+    <string name="not_support_data_summary1_new">Banka kartları ve anahtar kartları aktarılamıyor. Temalar ve duvar kağıtları ekran çözünürlüğü sınırlamalarına tabidir ve bazı modeller arasında aktarılamaz.</string>
     <string name="not_support_data_summary2">Uygulama verisi (sohbet geçmişi gibi) aktarılamaz.</string>
+    <string name="not_support_data_summary2_new">Xiaomi Hesabı üzerinden satın alınan ve telif hakkıyla korunan temalar, yazı tipleri, büyük simgeler, Her zaman açık ekran temaları ve araçlar aktarılamaz. Yeni cihazda Xiaomi Hesabınızda oturum açın ve bunları tekrar indirin.</string>
     <string name="not_support_data_summary3">Sistem kısıtlamalarından dolayı İkinci alandaki ögeler, Mi Taşıyıcı kullanılarak aktarılamıyor.</string>
+    <string name="not_support_data_summary3_new">Parmak izleri, yüz verileri ve cihaz sahipliği, finansal güvenlik ve kullanıcı gizliliği ile ilgili diğer veriler eski cihazdan hiçbir şekilde aktarılamaz. Bu ayrıca finansal uygulamalardan verileri de (ör. mobil bankacılık) içerir.</string>
     <string name="not_support_data_summary4">Çift uygulamalar ve verileri de aktarılamıyor. Yine de ilgili ana uygulamaları aktarabilirsiniz.</string>
     <string name="not_support_data_summary_2">Play Store gizlilik kısıtlamalarından dolayı bazı uygulamalar aktarılamıyor.</string>
+    <string name="not_support_data_summary_new">Diğer markalara ait sistem uygulamaları ve verileri Mi Taşıyıcı ile uyumlu olmayabilir ve aktarılamaz.</string>
     <string name="not_support_data_title">Aktarılamayan ögeler</string>
     <string name="note">Notlar</string>
     <string name="nothing_chosen">Önce ögeleri seçin</string>
@@ -641,27 +690,39 @@ WeChat'i açın ve Ben > Ayarlar > Genel > Yedekle &amp; sohbetleri taşı menü
     <string name="permission_alert_message_usage_access">"Mi Taşıyıcı, uygulama kullanım istatistiklerine erişmelidir. Mi Taşıyıcı'ya gerekli izinleri Ayarlar menüsünde verin."</string>
     <string name="permission_alert_title">İzin gerekli</string>
     <string name="permission_bluetooth_summary">Yakınlardaki kullanılabilir cihazları bulmak için</string>
+    <string name="permission_bluetooth_summary_new">Yakınlardaki kullanılabilir cihazları bulmak için</string>
     <string name="permission_bluetooth_title">"Bluetooth'u açma veya kapatma"</string>
     <string name="permission_calendar_summary">Takvim etkinliklerini aktarmak için</string>
     <string name="permission_calendar_title">Takvime eriş</string>
     <string name="permission_calender_summary">Etkinlikleri eski cihazdan yenisine taşımak için</string>
     <string name="permission_calender_summary_global">Takvim etkinliklerini yeni cihazınıza aktarmak için</string>
+    <string name="permission_calender_summary_new">Etkinlikleri eski cihazdan yenisine taşımak için</string>
     <string name="permission_calender_title">Takvim etkinliklerine eriş</string>
+    <string name="permission_calender_title_new">Takvim etkinliklerine eriş</string>
     <string name="permission_call_log_summary">Arama geçmişini yeni cihazınıza aktarmak için</string>
+    <string name="permission_call_log_summary_new">Arama geçmişini yeni cihazınıza aktarmak için</string>
     <string name="permission_call_log_title">Arama geçmişine erişim</string>
     <string name="permission_contacts_summary">Kişileri yeni cihazınıza aktarmak için</string>
+    <string name="permission_contacts_summary_new">Kişileri yeni cihazınıza aktarmak için</string>
     <string name="permission_contacts_title">Kişilere erişiyor</string>
     <string name="permission_grant_request">"Bu ögeyi aktarabilmesi için Mi Taşıyıcı'nın ''%1$s'' iznine ihtiyacı vardır."</string>
     <string name="permission_locale_summary">Yakındaki cihazlara bağlanmak için</string>
     <string name="permission_locale_title">Konuma erişme</string>
+    <string name="permission_locale_title_new">Konuma erişme</string>
     <string name="permission_message_summary">Mesajları yeni cihazınıza aktarmak için</string>
+    <string name="permission_message_summary_new">Mesajları yeni cihazınıza aktarmak için</string>
     <string name="permission_message_title">SMS içeriğine erişim</string>
     <string name="permission_request_title">\"%1$s\" izin gerekli</string>
     <string name="permission_setting_button">Ayarlar</string>
     <string name="permission_storage_summary">Dosyaları ve fotoğrafları yeni cihazınıza aktarmak için</string>
+    <string name="permission_storage_summary_new">Dosyaları ve fotoğrafları yeni cihazınıza aktarmak için</string>
     <string name="permission_storage_title">Cihazınızda depolanan dosya ve fotoğraflara erişme ve kaydetme</string>
+    <string name="permission_storage_title_new">Depolama alanına eriş</string>
     <string name="permission_wifi_summary">Ögeleri yeni cihazınıza aktarmak için</string>
+    <string name="permission_wifi_summary_new">Ögeleri yeni cihazınıza aktarmak için</string>
     <string name="permission_wifi_title">"Wi-Fi'yi açma veya kapatma"</string>
+    <string name="permission_wifi_title_new">"Wi-Fi'yi açma veya kapatma"</string>
+    <string name="permission_wifi_title_new_china">"WLAN'ı açma ve kapatma"</string>
     <string name="pm">ÖS</string>
     <string name="preference_copied">\"%1$s\" panoya kopyalandı.</string>
     <string name="privacy_agree">Kabul et</string>
@@ -749,6 +810,7 @@ En az %s yer açın."</string>
     <string name="scanner_quit_alert_message_phone">"Mi Taşıyıcı'dan şimdi çıkarsanız iki cihazı tekrar bağlamak zorunda kalacaksınız. Yine de çıkılsın mı?"</string>
     <string name="scanner_quit_alert_title">Şimdi çıkılsın mı?</string>
     <string name="scanner_send_dialog_btn">Anladım</string>
+    <string name="scanner_send_dialog_btn_i_know">Anladım</string>
     <string name="scanner_send_dialog_message">"Aktarım sırasında Wi-Fi'yi kapatmayın veya ağlar arasında geçiş yapmayın."</string>
     <string name="scanner_size_selected">Seçilen: %s</string>
     <string name="scanner_subtitle_prd">Her ögeyi kontrol etmeden ve aktarım işlemini başlatmadan önce aşağıdaki bilgileri dikkatli bir şekilde okuyun.</string>
@@ -756,6 +818,7 @@ En az %s yer açın."</string>
     <string name="scanner_title_prd">Önemli bilgi</string>
     <string name="scanner_title_tip">Aktarılacak ögeleri seçin</string>
     <string name="scanner_wechat_overwrite_hit">Üçüncü taraf uygulamarın kısıtlamalarından dolayı, yeni cihazınızdaki sohbet geçmişleri ve diğer uygulama verileri aktarım tamamlandıktan sonra eski cihazınızdakiyle değiştirilecektir.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Üçüncü taraf uygulamarın kısıtlamalarından dolayı, yeni cihazınızdaki sohbet geçmişleri ve diğer uygulama verileri aktarım tamamlandıktan sonra eski cihazınızdakiyle değiştirilecektir.</string>
     <string name="search_menu_title">Ara</string>
     <string name="searching_for_new_device">Yeni cihaz aranıyor…</string>
     <string name="searching_for_new_device_pad">Yeni cihaz aranıyor…</string>
@@ -889,27 +952,42 @@ En az %s yer açın."</string>
     <string name="time_spent">Süre: %1$s</string>
     <string name="tips_button_hint">Önce onaylamak için her ögeyi kontrol edin</string>
     <string name="tips_cover_content">Devam ederseniz bu veriler (sohbet geçmişleri dahil) üzerine yazılacak.</string>
+    <string name="tips_cover_content_pad">Devam ederseniz bu veriler (sohbet geçmişleri dahil) üzerine yazılacak.</string>
     <string name="tips_cover_content_tablet">Devam ederseniz bu veriler (sohbet geçmişleri dahil) üzerine yazılacak.</string>
     <string name="tips_cover_title">%1$d. Yeni cihazda aşağıdaki uygulamaların verileri zaten mevcut.</string>
+    <string name="tips_cover_title_pad">%1$d. Yeni cihazda aşağıdaki uygulamaların verileri zaten mevcut.</string>
     <string name="tips_cover_title_tablet">%1$d. Yeni cihazda aşağıdaki uygulamaların verileri zaten mevcut.</string>
     <string name="tips_dual_app_content">Çift uygulamalar aktarılamaz. Yalnızca ana uygulama ve verileri aktarılabilir.</string>
     <string name="tips_dual_app_title">%d. Aşağıdaki uygulamalar, çift uygulamalardır.</string>
+    <string name="tips_dual_app_title_new">%d. Çift uygulamaların verileri aktarılamıyor.</string>
     <string name="tips_hot_content">Bu, normaldir. Aktarım tamamlandığında cihazınız soğuyacak.</string>
+    <string name="tips_hot_content_new">Bu, normaldir. Aktarım tamamlandığında cihazınız soğuyacak.</string>
     <string name="tips_hot_title">%d. Cihazınız aktarım işlemi sırasında ısınabilir.</string>
+    <string name="tips_hot_title_content">%d. Cihazınız ısınabilir.</string>
     <string name="tips_private_space_content">Sistem kısıtlamalarından dolayı İkinci alan verileri aktarılamaz.</string>
+    <string name="tips_private_space_content_pad">Bu, sistme kısıtlamalarından dolayıdır.</string>
+    <string name="tips_private_space_content_phone">Bu, sistme kısıtlamalarından dolayıdır.</string>
     <string name="tips_private_space_content_tablet">Sistem kısıtlamalarından dolayı İkinci alan verileri aktarılamaz.</string>
     <string name="tips_private_space_title">%d. İkinci alan açık.</string>
+    <string name="tips_private_space_title_pad">%d. İkinci alan verileri aktarılamıyor.</string>
+    <string name="tips_private_space_title_phone">%d. İkinci alan verileri aktarılamıyor.</string>
     <string name="tips_private_space_title_tablet">%d. İkinci alan açık.</string>
     <string name="tips_prudent_operation_content">Bağlantının kesintiye uğraması aktarımı durduracaktır.</string>
     <string name="tips_prudent_operation_title">%d. Bağlantı noktasını kapatmayın veya değiştirmeyin.</string>
+    <string name="tips_prudent_operation_title_new">%d. Bağlantı noktasını kapatmayın veya değiştirmeyin.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. WLAN bağlantı noktasını kapatmayın veya değiştirmeyin.</string>
     <string name="tips_prudent_operation_title_overseas">%d. WLAN bağlantı noktasını kapatmayın veya değiştirmeyin.</string>
     <string name="tips_secret_content_one">Eski cihazdaki bazı özel ögeler (%1$s) aktarılamıyor. Ögeleri aktarabilmek için ögeleri özel klasörden çıkarın.</string>
+    <string name="tips_secret_content_one_new">Eski cihazdaki bazı özel ögeler (%1$s) aktarılamıyor. Ögeleri aktarabilmek için ögeleri özel klasörden çıkarın.</string>
     <string name="tips_secret_content_three">Eski cihazdaki bazı özel ögeler (%1$s, %2$s, %3$s) aktarılamıyor. Ögeleri aktarabilmek için ögeleri özel klasörden çıkarın.</string>
+    <string name="tips_secret_content_three_new">Eski cihazdaki bazı özel ögeler (%1$s, %2$s, %3$s) aktarılamıyor. Ögeleri aktarabilmek için ögeleri özel klasörden çıkarın.</string>
     <string name="tips_secret_content_two">Eski cihazdaki bazı özel ögeler (%1$s, %2$s) aktarılamıyor. Ögeleri aktarabilmek için ögeleri özel klasörden çıkarın.</string>
+    <string name="tips_secret_content_two_new">Eski cihazdaki bazı özel ögeler (%1$s, %2$s) aktarılamıyor. Ögeleri aktarabilmek için ögeleri özel klasörden çıkarın.</string>
     <string name="tips_secret_file">dosyalar</string>
     <string name="tips_secret_gallery">albümler</string>
     <string name="tips_secret_note">notlar</string>
     <string name="tips_secret_title">%d. Bazı özel ögeler aktarılamıyor.</string>
+    <string name="tips_secret_title_content">%d. Özel ögeler aktarılamıyor.</string>
     <string name="tips_subtitle">Devam etmeden önce aşağıdaki hatırlatıcıları okuyun ve onaylayın.</string>
     <string name="title_compatibility_mode">Uygulama uyumluluk modunu aç</string>
     <string name="title_open_wlan">"Wi-Fi'yi açın"</string>
@@ -951,10 +1029,12 @@ Mi Taşıyıcı'yı indirin ve yükleyin."</string>
     <string name="trans_send_time_remained_default">Gönderildi: %1$s</string>
     <string name="trans_show_qr_code_label">"Eski cihazda Mi Taşıyıcı'yı açın"</string>
     <string name="trans_show_qr_code_label_for_pad">"Eski cihazda Mi Taşıyıcı'yı açın"</string>
+    <string name="trans_show_qr_code_label_pad">"Eski cihazda Mi Taşıyıcı'yı açın"</string>
     <string name="trans_sync_transfer_data_list">Eski cihazdan aktarılacak ögeleri seçin</string>
     <string name="trans_sync_transfer_data_list_apple">Ögeleri Apple cihazınızdan aktarın</string>
     <string name="trans_sync_transfer_data_list_hint">Yalnızca bir sn.…</string>
     <string name="trans_sync_transfer_data_list_pad">Eski cihazda aktarılacak ögeleri seçin</string>
+    <string name="trans_sync_transfer_data_list_phone">Eski cihazdan aktarılacak ögeleri seçin</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">"Eski cihazınızdaki ögeleri seçin ve ''Gönder''e dokunun."</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">"Eski cihazınızdaki ögeleri seçin ve ''Gönder''e dokunun."</string>
     <string name="trans_time_format_second">%d dakikadan daha az</string>
@@ -977,6 +1057,7 @@ Mi Taşıyıcı'yı indirin ve yükleyin."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Aktarım işlemi kaydedilecek. Bir dahaki sefere iki cihazı bağladığınızda aktarım işlemine kaldığınız yerden devam edebileceksiniz.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Aktarım işlemi kaydedilecek. Bir dahaki sefere iki cihazı bağladığınızda aktarım işlemine kaldığınız yerden devam edebileceksiniz.</string>
     <string name="transfer_quit_alert_title">Uyarı</string>
     <string name="transfer_snap_error">Aktarılamadı</string>
     <string name="transfer_snap_new_receiving">Alınıyor…</string>
