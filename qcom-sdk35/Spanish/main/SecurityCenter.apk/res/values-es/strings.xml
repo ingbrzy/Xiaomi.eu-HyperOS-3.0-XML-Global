@@ -196,6 +196,7 @@
     <string name="allow_onetime">Permitir una vez</string>
     <string name="already_close_gamebooster">Game Turbo desactivado</string>
     <string name="am">AM</string>
+    <string name="anitispam_intercept_record">Historial de lista negra</string>
     <string name="anti_disturb_msg_detail">Desactivar todas las notificaciones excepto las llamadas entrantes</string>
     <string name="anti_disturb_msg_title">No molestar</string>
     <string name="antispam_add_black_number_message">El número que introdujiste es corto. ¿Quieres bloquear todos los números que empiecen con estos dígitos?</string>
@@ -1023,6 +1024,9 @@ Sin embargo, algunas de tus transacciones aún no se han completado. Para poder 
     <string name="call_delete_all_hint">¿Eliminar todas las llamadas bloqueadas?</string>
     <string name="call_delete_hint">¿Eliminar todas las llamadas bloqueadas enviadas desde este número?</string>
     <string name="call_delete_title">Eliminar historial de llamadas</string>
+    <string name="call_empty_number">Números en blanco</string>
+    <string name="call_forwarding_block">Llamada desviadas</string>
+    <string name="call_intercept_settings">Ajustes de la lista negra de llamadas</string>
     <string name="call_notification_answer_action">Responder</string>
     <string name="call_notification_answer_video_action">Vídeo</string>
     <string name="call_notification_decline_action">Rechazar</string>
@@ -1031,6 +1035,7 @@ Sin embargo, algunas de tus transacciones aún no se han completado. Para poder 
     <string name="call_notification_ongoing_text">Llamada en curso</string>
     <string name="call_notification_screening_text">Filtrando una llamada entrante</string>
     <string name="call_oversea_block">Bloquear llamadas desde el extranjero</string>
+    <string name="call_overseas_block">Llamadas internacionales</string>
     <string name="call_prefix">Lista negra de prefijos</string>
     <string name="call_private">Bloquear llamadas de números ocultos</string>
     <string name="call_stranger_block">Bloquear llamadas de desconocidos</string>
@@ -1040,12 +1045,20 @@ Sin embargo, algunas de tus transacciones aún no se han completado. Para poder 
     <string name="cancel">Cancelar</string>
     <string name="cancel_button">Cancelar</string>
     <string name="car_sickness_relief_comment_text">Cuando se detecta movimiento del vehículo, se muestran puntos en ambos lados de la pantalla para indicar si el vehículo está en movimiento, lo que puede ayudar a retrasar la aparición del mareo por movimiento.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Se mostrarán puntos en ambos lados de la pantalla para indicar el movimiento del vehículo, lo cual puede ayudar a retrasar el inicio del mareo por movimiento.
+
+Puedes activar y desactivar esta función en Centro de control."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Se mostrarán puntos de forma constante en ambos lados de la pantalla para indicar el movimiento del vehículo, lo cual puede ayudar a retrasar el inicio del mareo por movimiento.
+
+Puedes activar y desactivar esta función en Centro de control."</string>
     <string name="car_sickness_relief_comment_text_opened">"Se mostrarán puntos en ambos lados de la pantalla para indicar el movimiento del vehículo, lo cual puede ayudar a retrasar el inicio del mareo por movimiento.
 
 Puedes activar y desactivar esta función en el Centro de control."</string>
     <string name="car_sickness_relief_example_text_1">Cuando el vehículo acelera o desacelera</string>
     <string name="car_sickness_relief_example_text_2">Cuando el vehículo gira o cambia de carril</string>
     <string name="car_sickness_relief_exit_text">El alivio del mareo por movimiento ha dejado de trabajar</string>
+    <string name="car_sickness_relief_notification_text_close">Desactivar</string>
+    <string name="car_sickness_relief_notification_text_opened">Activado</string>
     <string name="car_sickness_relief_start_text">El alivio del mareo por movimiento está trabajando</string>
     <string name="car_sickness_remind_time_title">Indicadores de movimiento</string>
     <string name="car_sickness_title">Alivio del mareo por movimiento</string>
@@ -2083,7 +2096,7 @@ de terremotos"</string>
 %3$d. Esta función solo es admitida en China continental.
 %4$d. Esta función solo funciona en redes 5G-SA."</string>
     <string name="function_shield_auto_bright">Desactivar el brillo automático</string>
-    <string name="function_shield_eye_shield">Desactivar el Modo lectura</string>
+    <string name="function_shield_eye_shield">Desactivar el Modo confort ocular</string>
     <string name="function_shield_pull_notification_bar">No abrir la Barra de notificaciones</string>
     <string name="function_shield_settings_title">Restringir las siguientes funciones al jugar a juegos</string>
     <string name="function_shield_summary">Restringir funciones del sistema seleccionadas al jugar a juegos</string>
@@ -2957,6 +2970,12 @@ para unirte a la búsqueda de huevos!"</string>
     <string name="install_title">Instalar vía USB</string>
     <string name="install_type_instant">Aplicación instantánea</string>
     <string name="installing">Instalando</string>
+    <string name="intercept_all_mark_calls">¿Bloquear todas las llamadas etiquetadas como \"%s\"?</string>
+    <string name="intercept_calls_nofify_hide_text">Para establecer reglas de bloqueo para otros números etiquetados, pulsa aquí</string>
+    <string name="intercept_calls_notify_title">Las llamadas con esta etiqueta se terminarán automáticamente. ¿Bloquear ahora?</string>
+    <string name="intercept_garbage_msg">Mensajes publicitarios no deseados</string>
+    <string name="intercept_record">Historial</string>
+    <string name="intercept_strange_msg">Mensajes de desconocidos</string>
     <string name="international_Ad">Anuncio</string>
     <string name="international_roaming_setting">Itinerancia de datos</string>
     <string name="intl_app_manager_card_permission_title">Privacidad y permisos</string>
@@ -3151,6 +3170,7 @@ responda"</string>
     <string name="mark_harass_block">Denunciado como molesto</string>
     <string name="mark_harass_block_large">Números molestos</string>
     <string name="mark_harass_time_setting">Bloquear números que han sido denunciados como llamadas molestas un determinado número de veces</string>
+    <string name="mark_num_open_intercept">Bloquear</string>
     <string name="mark_number_agent">Agente</string>
     <string name="mark_number_fraud">Fraude</string>
     <string name="mark_number_harass">Acoso</string>
@@ -5028,11 +5048,11 @@ Debido a que %2$s proporciona sus servicios en función de la recopilación de l
     <string name="prompt_all">Preguntar para todos</string>
     <string name="prompt_input_time_illegal">No se puede establecer esta hora, cámbiela e inténtelo de nuevo</string>
     <string name="protect_eye_dont_open">Ahora no</string>
-    <string name="protect_eye_hint_summry">Activa el Modo lectura para una mejor experiencia de lectura</string>
-    <string name="protect_eye_hint_title">Confort ocular</string>
+    <string name="protect_eye_hint_summry">Activa el Modo confort ocular para una mejor experiencia de lectura</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Activar</string>
-    <string name="protect_eye_opened_summry">Edita las preferencias en Ajustes > Pantalla y brillo > Confort ocular</string>
-    <string name="protect_eye_opened_title">Modo lectura activado</string>
+    <string name="protect_eye_opened_summry">Edita las preferencias en Ajustes > Pantalla y brillo > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">El Modo confort ocular está activado</string>
     <string name="protocol_exception_title">Diagnóstico de protocolos de red</string>
     <string name="protocol_loop_back_exception_summary">El test local ha fallado. Para informar de este problema, ve a la aplicación Comentarios y envía un registro desde tu dispositivo.</string>
     <string name="province_selected_talkback" />
@@ -5096,6 +5116,7 @@ Debido a que %2$s proporciona sus servicios en función de la recopilación de l
     <string name="repeat_type">Repetir</string>
     <string name="repeated_marked_number_summary">No bloquees una segunda llamada del mismo número reportado en %d minutos</string>
     <string name="repeated_marked_number_title">No bloquear llamadas repetidas de números denunciados</string>
+    <string name="repeated_unknown_number_summary">No bloquear una segunda llamada del mismo número denunciado en el plazo de %d minutos</string>
     <string name="replace_dns">Reemplazar DNS automáticamente</string>
     <string name="report">Denunciar</string>
     <string name="report_error">No se pudo denunciar el mensaje</string>
@@ -5336,6 +5357,7 @@ Debido a que %2$s proporciona sus servicios en función de la recopilación de l
     <string name="sms_detail_fragment_title_traffic">Datos restantes</string>
     <string name="sms_filter">Filtro inteligente</string>
     <string name="sms_guard_alert">Se ha cambiado la aplicación de mensajería predeterminada. Mensajería de Xiaomi no podrá bloquear el spam por SMS.</string>
+    <string name="sms_intercept_settings">Ajustes de la lista negra de mensajes</string>
     <string name="sms_keywords">Lista negra de palabras clave</string>
     <string name="sms_malicious_url">Bloquear SMS con URL maliciosas</string>
     <string name="sms_prefix">Lista negra de prefijos</string>
@@ -5538,9 +5560,26 @@ Debido a que %2$s proporciona sus servicios en función de la recopilación de l
     <string name="st_call_intercept_reported">Bloquear llamadas de números denunciados</string>
     <string name="st_call_intercept_stranger">Bloquear llamadas de desconocidos</string>
     <string name="st_call_intercept_unknown">Bloquear llamadas de números ocultos</string>
+    <string name="st_call_mark_agent">Inmobiliaria</string>
+    <string name="st_call_mark_agent_intercept">Inmobiliaria</string>
+    <string name="st_call_mark_decoration">Reformas del hogar</string>
+    <string name="st_call_mark_decoration_intercept">Reformas del hogar</string>
+    <string name="st_call_mark_edu">Educación</string>
+    <string name="st_call_mark_edu_intercept">Educación</string>
+    <string name="st_call_mark_high_risk">Riesgo alto</string>
+    <string name="st_call_mark_high_risk_intercept">Riesgo alto</string>
+    <string name="st_call_mark_insurance">Inversión</string>
+    <string name="st_call_mark_insurance_intercept">Inversión</string>
+    <string name="st_call_mark_loan">Hipoteca</string>
+    <string name="st_call_mark_loan_intercept">Hipoteca</string>
+    <string name="st_call_mark_sell">Publicidad</string>
+    <string name="st_call_mark_sell_intercept">Publicidad</string>
     <string name="st_call_other_group">Otro</string>
     <string name="st_call_settings">Lista negra de llamadas</string>
     <string name="st_call_stranger_group">Bloquear llamadas de desconocidos</string>
+    <string name="st_call_stranger_inercept_local">Bloquear números desconocidos</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Las llamadas desde cualquier número que no esté en tus excepciones se bloquearán. ¿Bloquear ahora?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Las llamadas desde cualquier número que no esté en tus excepciones o contactos se bloquearán. ¿Bloquear ahora?</string>
     <string name="st_confirm_call_all_dialog_summary">Se bloquearán las llamadas de cualquier número que no esté en tus excepciones. ¿Activar ahora?</string>
     <string name="st_confirm_dialog_btn_open">Bloquear</string>
     <string name="st_confirm_dialog_summary_oversea_call">Se bloquearán todas las llamadas de números de teléfono extranjeros.</string>
@@ -5552,9 +5591,11 @@ Debido a que %2$s proporciona sus servicios en función de la recopilación de l
     <string name="st_hint_add_head_number">Introducir prefijo</string>
     <string name="st_hint_add_phonenumber">Introducir número de teléfono</string>
     <string name="st_hint_operatelist">Parece que esta norma ya existe</string>
+    <string name="st_intercept_dialog_title">Atención</string>
     <string name="st_mark_call_intercept_threshold_summary">Bloquear automáticamente los números que se han reportado más de una cantidad específica de veces</string>
     <string name="st_mark_call_intercept_threshold_title">Rango de bloqueo</string>
     <string name="st_mark_number_group">Bloquear llamadas de números denunciados</string>
+    <string name="st_mark_number_net_group">Bloquear números denunciados</string>
     <string name="st_message_SMS_AntiSpam">Bloquear SMS</string>
     <string name="st_message_SMSpass">Permitir SMS</string>
     <string name="st_message_phone_AntiSpam">Bloquear llamadas</string>
@@ -5567,13 +5608,26 @@ Debido a que %2$s proporciona sus servicios en función de la recopilación de l
     <string name="st_msg_stranger_group">Bloquear mensajes de desconocidos</string>
     <string name="st_settings_name">Ajustes de la lista negra</string>
     <string name="st_share_settings">Usar ajustes de la SIM %d</string>
+    <string name="st_smg_intercept_all">Bloquear todos los mensajes</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">Se bloquearán los SMS y MMS de cualquier número o región que no esté en tus excepciones. ¿Bloquear ahora?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">Se bloquearán los SMS y MMS de cualquier número o región que no esté en tus excepciones. ¿Bloquear ahora?</string>
+    <string name="st_smg_intercept_network_check">Bloquear mediante definiciones en línea</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Mensajes publicitarios no deseados</string>
+    <string name="st_smg_intercept_other">Ajustes adicionales</string>
+    <string name="st_smg_intercept_strange">Bloquear mensajes de desconocidos</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Bloquear mensajes de desconocidos que contengan palabras clave específicas</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Bloquear mensajes de números y regiones específicos</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">No bloquear mensajes de desconocidos que contengan palabras clave específicas</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">No bloquee mensajes de números y regiones en sus excepciones</string>
     <string name="st_sms_intercept_oversea">SMS internacional</string>
     <string name="st_sub_title_customize_mode_name">Nombre</string>
     <string name="st_sub_title_whiteblack_list_group">Lista negra</string>
     <string name="st_sum_call_wait">Su mensaje automático también será usado como señal de ocupado para las llamadas entrantes.</string>
     <string name="st_summary_blacklist_numbers">Bloquear llamadas y mensajes de números y áreas determinados</string>
     <string name="st_summary_blacklist_numbers_international">Bloquear llamadas según número o prefijo</string>
+    <string name="st_summary_intercept_blacklist_numbers">Bloquear llamadas y mensajes de números y regiones específicos</string>
     <string name="st_summary_keywords_blacklist">Añadir palabras clave para bloquear mensajes</string>
+    <string name="st_summary_release_whitelist_numbers">No bloquear llamadas y mensajes de números y regiones en tus excepciones</string>
     <string name="st_summary_special_numbers">Bloquear números de teléfonos establecidos</string>
     <string name="st_summary_whitelist_numbers">Permitir llamadas y mensajes de números y áreas determinados</string>
     <string name="st_summary_whitelist_numbers_international">Permitir llamadas basadas en un número o prefijo</string>
@@ -5608,6 +5662,8 @@ Debido a que %2$s proporciona sus servicios en función de la recopilación de l
     <string name="st_title_markednumber_group">Bloquear números denunciados</string>
     <string name="st_title_mode_choose_group">Reglas de la lista negra</string>
     <string name="st_title_not_sim">Vacío</string>
+    <string name="st_title_number_and_region_blacklist">Números y regiones bloqueados</string>
+    <string name="st_title_number_and_region_whitelist">Excepciones de número y región</string>
     <string name="st_title_open_antispam">Lista negra</string>
     <string name="st_title_other_group">Otros</string>
     <string name="st_title_settings_other_group">Ajustes avanzados</string>
@@ -5769,7 +5825,7 @@ El formateo eliminará el contenido existente en la ^2. Para evitar perder conte
     <string name="summary_default_app">%s no se ha establecido como una aplicación predeterminada del sistema</string>
     <string name="summary_dev">Evitar el malware y proteger los datos personales</string>
     <string name="summary_do_not_disturb">Estás usando el Modo no molestar.</string>
-    <string name="summary_eye_shield">Desactiva el Modo lectura para volver a los ajustes por defecto.</string>
+    <string name="summary_eye_shield">Desactiva el Modo confort ocular para volver a los ajustes por defecto.</string>
     <string name="summary_find_device">Localizar y bloquear su dispositivo allá donde esté</string>
     <string name="summary_first_aid_kit">Soluciona ahora los problemas en tu dispositivo</string>
     <string name="summary_flow_notification">Mostrar la estadísticas de uso de datos mensuales en el panel de notificación</string>

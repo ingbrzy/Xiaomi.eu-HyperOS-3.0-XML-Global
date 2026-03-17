@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Næste</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Disse %1$d-bit apps kan ikke overføres til en %2$d-bit enhed. Du kan downloade dem direkte fra GetApps efter overførslen.</string>
     <string name="audio">Lyd</string>
+    <string name="audio_permission_desc_new">Til overførsel af musik og lyd til den nye enhed</string>
     <string name="audio_video_document">Audio, video og dokumenter</string>
     <string name="back">Tilbage</string>
     <string name="backup_died_summary">Tryk på \"Opret forbindelse igen\". Overførslen fortsætter fra, hvor du stoppede den sidste gang.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Koden er ikke blevet indtastet i lang tid. Opret forbindelsen manuelt.</string>
     <string name="ble_enter_verifycode_timeout_title">Sessionen er udløbet</string>
     <string name="ble_guest_connecting_title">Forbinder til ny enhed…</string>
+    <string name="ble_guest_connecting_title_pad">Forbinder til ny enhed…</string>
     <string name="ble_host_verification_summary">Indtast en %d cifret kode på din gamle enhed.</string>
     <string name="ble_host_verification_title">Forbinder til gammel enhed…</string>
     <string name="ble_manual_authorization_content">Giv de nødvendige tilladelser for at kunne overføre elementer med Mi Mover. Du kan give tilladelserne i Indstillinger.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Hotspot er blevet oprettet. Venter på at oprette forbindelse…</string>
     <string name="ble_starting_ap">Opretter hotspot…</string>
     <string name="ble_wait_verify_code">Genererer kode på ny enhed…</string>
+    <string name="ble_wait_verify_code_pad">Genererer kode på ny enhed…</string>
     <string name="ble_waiting_verify_code">Verificerer kode…</string>
     <string name="ble_waiting_verify_code_error">Den angivne kode er forkert</string>
+    <string name="blutooth_permission_desc_new">Til at finde enheder i nærheden, som er klar til at forbinde</string>
     <string name="btn_got_it">Forstået</string>
     <string name="btn_install_complete">Installeret</string>
     <string name="btn_mi_cloud_install_complete">Jeg har installeret appen</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Igangværende opkald</string>
     <string name="call_notification_screening_text">Et indgående opkald screenes</string>
     <string name="calllog">Opkaldshistorik</string>
+    <string name="camera_permission_content">Til at finde enheder i nærheden</string>
     <string name="cancel">Annuller</string>
     <string name="cancel_moving_dialog_message">Stop med at importere nu?</string>
     <string name="cancel_moving_dialog_title">Stop med at importere</string>
@@ -150,8 +155,10 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="connection_tips_owner_title">Hvis din gamle er en Mi-telefon:</string>
     <string name="connection_tips_owner_title_global">Installér den nyeste version af Mi Mover:</string>
     <string name="contact_records_permission_desc">For at overføre opkaldshistorik til andre enheder</string>
+    <string name="contact_records_permission_desc_new">Til overførsel af opkaldshistorik til den nye enhed</string>
     <string name="contacts">Kontakter</string>
     <string name="contacts_permission_desc">For at overføre kontakter til andre enheder</string>
+    <string name="contacts_permission_desc_new">Til overførsel af kontakter til den nye enhed</string>
     <string name="contains_unauthorized_data">Indeholder uautoriserede data</string>
     <string name="copy">Kopiér</string>
     <string name="current_user_not_supported_summary">Nuværende systemindstillinger begrænser overførsel af data ved hjælp af Mi Mover.</string>
@@ -180,6 +187,17 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="dialog_rating_desc_less">Giv os nogle få forslag, så vi kan forbedre din app?</string>
     <string name="dialog_rating_desc_perfect">Tak! Vil du også bedømme Mi Mover i GetApps?</string>
     <string name="dialog_rating_title">Bedøm Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"For at kunne overføre data fra din gamle enhed til den nye skal denne app forbinde til internettet og kræver følgende tilladelser:
+• Adgang til fotos, lyd, kalender og videoer
+• Adgang til beskeder, kontakter og opkaldshistorik
+• Adgang til lagerplads
+• Adgang til listen over apps, der er installeret på enheden"</string>
+    <string name="dialog_request_all_permission_content_new_china">"For at kunne overføre data fra din gamle enhed til den nye skal denne app forbinde til internettet og kræver følgende tilladelser:
+• Adgang til fotos, lyd, kalender og videoer
+• Adgang til beskeder, kontakter og opkaldshistorik
+• Adgang til lagerplads
+• Adgang til listen over apps, der er installeret på enheden"</string>
+    <string name="dialog_request_all_permission_title_new">Påkrævede tilladelser</string>
     <string name="dialog_request_network_btn_negative">Afslut</string>
     <string name="dialog_request_network_btn_positive">Acceptér</string>
     <string name="dialog_request_permission_message">Velkommen til Mi Mover! Du kan bruge denne app til at overføre data fra din gamle enhed til en ny enhed. Dataene bliver overført mellem de to enheder og bliver ikke uploadet til vores servere. Denne app skal tilslutte til internettet og kræver de følgende tilladelser for at kunne fungere normalt:</string>
@@ -188,6 +206,8 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="dialog_request_permission_message_extra_title">Obligatoriske tilladelser</string>
     <string name="dialog_request_permission_message_global">Denne app kræver følgende tilladelser for at kunne fungere normalt:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"For fuldt ud at forstå dine rettigheder som bruger, og hvordan vi håndterer dine data, skal du læse og acceptere vores &lt;a href='%1s'>Xiaomi-operativsystemets brugeraftale&lt;/a> og &lt;a href='%2s'>Mi Movers privatlivspolitik&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Tillad denne app at oprette forbindelse til internettet og giv de obligatoriske tilladelser, der er angivet ovenfor. For fuldt ud at forstå dine rettigheder som bruger samt hvordan vi bruger dine data, bedes du læse og accepteree &lt;a href='%1s'>Xiaomi-operativsystemets brugeraftale&lt;/a> og &lt;a href='%2s'>Mi Mover-privatlivspolitikken&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Velkommen til Mi Mover! Du kan bruge denne app til at overføre data fra din gamle enhed til en ny. Dataene overføres direkte mellem de to enheder og bliver ikke uploadet til vores servere.</string>
     <string name="dialog_request_permission_message_provision_link">For fuldt ud at forstå dine rettigheder som bruger samt de måder, vi bruger dine data på, skal du også læse og acceptere vores %1$s og %2$s.</string>
     <string name="dialog_request_permission_title">Bemærk</string>
     <string name="dialog_request_permission_title_global">Tilladelser påkrævet</string>
@@ -367,9 +387,12 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="icloud_signin_fail_message">Dit Apple-id blev blokeret af sikkerhedsårsager. Gå til iforgot.apple.com og følg instruktionerne.</string>
     <string name="icloud_start_now">Brug mobildata</string>
     <string name="icloud_verify_tips">Tryk \"Tillad\" på din iOS-enhed og indtast koden, som vises på din enhed, her.</string>
+    <string name="idm_discovery_summary_pad">Det ser ud til, at du er ved at aktivere en ny enhed. Overfør elementer fra denne enhed til den nye?</string>
+    <string name="idm_discovery_title_pad">Overfør elementer til din nye enhed</string>
     <string name="im_recipient">Jeg er en modtager</string>
     <string name="im_sender">Jeg er en sender</string>
     <string name="image">Billeder</string>
+    <string name="image_video_permission_desc_new">Til overførsel af fotos og videoer til den nye enhed</string>
     <string name="import_again">Importér igen</string>
     <string name="import_data_from_icloud">Importér data fra iCloud</string>
     <string name="install_app_dialog_title">Kunne ikke finde enheder i nærheden</string>
@@ -395,6 +418,8 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="lack_perm_title">Tilladelser påkrævet</string>
     <string name="launcher">Startskærmlayout</string>
     <string name="loading_data">Lige et øjeblik…</string>
+    <string name="location_permission_content_no_provisioned">Giv denne tilladelse for at kunne forbinde til en enhed i nærheden via hotspot. Hvis du ikke giver tilladelsen, kan du ikke overføre elementer.</string>
+    <string name="location_permission_content_provisioned">For at forbinde til et hotspot fra en enhed i nærheden</string>
     <string name="location_permission_desc">For at finde enheder i nærheden</string>
     <string name="location_permission_request">For at tilslutte til andre enheder i nærheden</string>
     <string name="lockscreen_access">Mønsterområde</string>
@@ -423,6 +448,8 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="manual_connection_title">Opret forbindelse til den gamle enhed manuelt</string>
     <string name="manual_connection_title_pad">Forbind gammel enhed til hotspot</string>
     <string name="manual_connection_title_phone">Forbind gammel enhed til hotspot</string>
+    <string name="manual_disconnect_guest">Den nye enhed blev afbrudt. Forbind igen for at fortsætte overførslen.</string>
+    <string name="manual_disconnect_host">Den gamle enhed blev afbrudt. Forbind igen for at fortsætte overførslen.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover skal have adgang til alle filer på denne enhed for at kunne flytte dem fra din gamle enhed til en ny enhed.</string>
     <string name="message_request_package_stats_perm">Mi Mover har brug for denne tilladelse til at finde ud af, hvilke apps der er installeret på en enhed og til at overføre disse apps til en anden.</string>
     <string name="midnight">Nat</string>
@@ -513,6 +540,7 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="more">Mere</string>
     <string name="morning">Morgen</string>
     <string name="msg_permission_desc">For at overføre beskeder til andre enheder</string>
+    <string name="msg_permission_desc_new">Til overførsel af SMS og MMS til andre enheder</string>
     <string name="name_password_not_consistent">Den indtastede Apple ID og adgangskode er ikke ens</string>
     <string name="need_location_permission_confirm">Indstillinger</string>
     <string name="need_location_permission_summary">Tillad Mi Mover at få adgang til din placering for at kunne finde enheder i nærheden.</string>
@@ -522,6 +550,20 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="need_more_memory_title">Ikke nok lagerplads</string>
     <string name="new_app_name">Ny version</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Ophavsretligt beskyttede data</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Systemapps og data fra andre mærker kan være inkompatible med Mi Mover og kan ikke overføres.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Apps og data, der ikke er kompatible med den nye enhed, kan ikke overføres.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Flere telefonindstillinger og data er knyttet til dit SIM-kort. Hvis du sætter SIM-kortet i den nye enhed, overføres disse data.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Nogle appdata</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Andet rum-data</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Andet rum-data</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Privatlivs- og sikkerhedsrelaterede data</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Bankkort og bilnøgler kan ikke overføres.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Temaer og baggrunde er underlagt begrænsninger i skærmopløsning og kan ikke overføres mellem visse modeller.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">På grund af begrænsninger i Bluetooth-protokollen kan parringsdata for Bluetooth-øretelefoner, højttalere og andre enheder ikke overføres.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Driftsstatistikker, som bl.a. strømforbrug, skærmtid og mobildataforbrug, kan ikke overføres.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Data knyttet til en bestemt enhedsmodel</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Hvilke data kan ikke overføres via Mi Mover?</string>
     <string name="new_trans_intro_desc_2">Det er ikke nødvendigt at indtaste adgangskode i den nye version af Mi Mover. Du skal bare åbne Mi Mover på den gamle enhed, trykke på \"Jeg er afsender\", og trykke på navnet på det hotspot, der skal forbindes.</string>
     <string name="new_trans_intro_desc_2_pad">Du behøver ikke indtaste adgangskoden til hotspottet i den nye version af Mi Mover. Åbn bare Mi Mover på din gamle enhed, tryk på \"Jeg sender\", og tryk derefter på navnet på hotspottet for at oprette forbindelse.</string>
     <string name="new_trans_intro_desc_2_phone">Du behøver ikke indtaste adgangskoden til hotspottet i den nye version af Mi Mover. Åbn bare Mi Mover på din gamle enhed, tryk på \"Jeg sender\", og tryk derefter på navnet på hotspottet for at oprette forbindelse.</string>
@@ -532,18 +574,18 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="new_trans_intro_desc_6_pad">Appdata kan ikke overføres, fordi Mi Mover ikke har de nødvendige tilladelser på enheder, der ikke er Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Appdata kan ikke overføres, fordi Mi Mover ikke har de nødvendige tilladelser på enheder, der ikke er Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover vil kunne starte fra, hvor du slap. Du skal dog muligvis starte forfra, hvis kompatibilitetsproblemer forhindrer dig i at genoptage den afbrudte overførsel.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover vil kunne starte fra, hvor du slap. Du skal dog muligvis starte forfra, hvis kompatibilitetsproblemer forhindrer dig i at genoptage den afbrudte overførsel.</string>
     <string name="new_trans_intro_desc_8">WeChat-historikken fra din gamle enhed vil overskrive WeChat-historikken på din nye enhed under overførslen.</string>
+    <string name="new_trans_intro_desc_8_pad">WeChat-historikken fra din gamle enhed vil overskrive WeChat-historikken på din nye enhed under overførslen.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den seneste version af Mi Mover i Play Butik eller trykke her: %2$s.
 %3$d. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne Wi-fi-indstillinger og tjekke, om du kan se det der. Hvis det er tilfældet, skal du gå tilbage til Mi Mover og trykke på navnet på hotspottet."</string>
     <string name="new_trans_intro_desc_new_click">Download</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>tryk her&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne wi-fi-indstillinger og tjekke, om du kan se det dér. Hvis ja, så gå tilbage til Mi Mover og tryk på navnet på hotspottet."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. IHvis hotspottet stadig ikke vises i Mi Mover, skal du åbne WLAN-indstillingerne og tjekke, om du kan se det der. Hvis ja, så gå tilbage til Mi Mover, og tryk på navnet på hotspottet."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>tryk her&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne wi-fi-indstillinger og tjekke, om du kan se det dér. Hvis ja, så gå tilbage til Mi Mover og tryk på navnet på hotspottet."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne WLAN-indstillinger og tjekke, om du kan se det der. Hvis ja, så gå tilbage til Mi Mover, og tryk på navnet på hotspottet."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i Google Play Butik, eller <Data>&lt;a href=%2$s>tryk her&lt;/a></Data>".
+%3$d. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne wi-fi-indstillinger og tjekke, om du kan se det dér. Hvis ja, så gå tilbage til Mi Mover og tryk på navnet på hotspottet."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>tryk her&lt;/a></Data>".
+%3$d. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne wi-fi-indstillinger og tjekke, om du kan se det dér. Hvis ja, så gå tilbage til Mi Mover og tryk på navnet på hotspottet."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Sørg for, at Mi Mover på din nye enhed er opdateret. Du kan downloade den nyeste version af Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trykke her&lt;/a></Data>".
+%3$d. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne WLAN-indstillinger og tjekke, om du kan se det der. Hvis ja, så gå tilbage til Mi Mover, og tryk på navnet på hotspottet."</string>
     <string name="new_trans_intro_desc_old">%d. Hvis hotspottet stadig ikke vises i Mi Mover, skal du åbne Wi-Fi-indstillinger og se, om du kan se det der. Hvis ja, skal du gå tilbage til Mi Mover og trykke på hotspottets navn.</string>
     <string name="new_trans_intro_question_1">%d. Hvorfor kan jeg ikke se den nye enheds hotspot på den gamle enhed?</string>
     <string name="new_trans_intro_question_1_pad">%d Hvorfor kan jeg ikke se hotspot fra den nye enhed på den gamle?</string>
@@ -573,15 +615,22 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="not_set">Ikke angivet</string>
     <string name="not_support_data_content1">%d. Elementer hørende til enhedsmodel</string>
     <string name="not_support_data_content2">%d. App-data</string>
+    <string name="not_support_data_content2_new">%d. Ophavsretligt beskyttede data</string>
     <string name="not_support_data_content3">%d. Andet rum-data</string>
+    <string name="not_support_data_content3_new">%d. Privatlivs- og sikkerhedsrelaterede data</string>
     <string name="not_support_data_content4">%d. Dobbelt-apps</string>
+    <string name="not_support_data_content4_new">%d. Nogle appdata</string>
     <string name="not_support_data_content_2">%d. Valgte apps og appdata</string>
     <string name="not_support_data_link">Elementer der ikke kan overføres</string>
     <string name="not_support_data_summary1">Temaer, baggrundsbilleder, transportkort og nøglekort kan ikke overføres ved hjælp af Mi Mover.</string>
+    <string name="not_support_data_summary1_new">Bankkort og bilnøgler kan ikke overføres. Temaer og baggrunde er underlagt begrænsninger i skærmopløsning og kan ikke overføres mellem visse modeller.</string>
     <string name="not_support_data_summary2">App-data (f.eks. samtalehistorik) kan ikke overføres.</string>
+    <string name="not_support_data_summary2_new">Temaer, skrifttyper, store ikoner, temaer til Vises altid-skærme og widgets, der er købt via din Xiaomi-konto og er ophavsretligt beskyttede, kan ikke overføres. Log ind med din Xiaomi-konto på den nye enhed, og download dem igen i stedet.</string>
     <string name="not_support_data_summary3">På grund af systembegrænsninger kan elementer fra det andet rum ikke overføres ved hjælp af Mi mover.</string>
+    <string name="not_support_data_summary3_new">Fingeraftryk, ansigtsdata og andre data, der relaterer sig til enhedsejerskab, økonomisk sikkerhed og brugernes privatliv, kan ikke overføres fra den gamle enhed på nogen måde. Dette omfatter også data fra finansielle apps (bl.a. mobilbank).</string>
     <string name="not_support_data_summary4">Dobbelte apps og deres data kan heller ikke overføres. Du kan dog overføre tilsvarende hovedapps.</string>
     <string name="not_support_data_summary_2">Nogle apps kan ikke overføres på grund af privatlivsbegrænsninger i Play Butik.</string>
+    <string name="not_support_data_summary_new">Systemapps og data fra andre mærker kan være inkompatible med Mi Mover og kan ikke overføres.</string>
     <string name="not_support_data_title">Elementer der ikke kan overføres</string>
     <string name="note">Noter</string>
     <string name="nothing_chosen">Vælg element først</string>
@@ -641,27 +690,39 @@ Besøg https://appleid.apple.com/#!&amp;page=signin at deaktivere"</string>
     <string name="permission_alert_message_usage_access">Mi Mover skal have adgang til brugsstatistikker for appen. Giv Mi Mover de påkrævede tilladelser i indstillinger.</string>
     <string name="permission_alert_title">Tilladelser påkrævet</string>
     <string name="permission_bluetooth_summary">For at finde tilgængelige enheder i nærheden</string>
+    <string name="permission_bluetooth_summary_new">Til at finde tilgængelige enheder i nærheden</string>
     <string name="permission_bluetooth_title">Slår Bluetooth til og fra</string>
     <string name="permission_calendar_summary">Til at overføre kalenderbegivenheder</string>
     <string name="permission_calendar_title">Få adgang til kalender</string>
     <string name="permission_calender_summary">For at flytte begivenheder fra den gamle enhed til den nye</string>
     <string name="permission_calender_summary_global">For at overføre kalenderbegivenheder til din nye enhed</string>
+    <string name="permission_calender_summary_new">Til overførsel af begivenheder fra den gamle enhed til den nye</string>
     <string name="permission_calender_title">Få adgang til kalenderbegivenheder</string>
+    <string name="permission_calender_title_new">Adgang til kalenderbegivenheder</string>
     <string name="permission_call_log_summary">For at overføre opkaldshistorik til din nye enhed</string>
+    <string name="permission_call_log_summary_new">Til overførsel af opkaldshistorik til din nye enhed</string>
     <string name="permission_call_log_title">At få adgang til opkaldshistorik</string>
     <string name="permission_contacts_summary">For at overføre kontakter til din nye enhed</string>
+    <string name="permission_contacts_summary_new">Til overførsel af kontakter til din nye enhed</string>
     <string name="permission_contacts_title">At få adgang til kontakter</string>
     <string name="permission_grant_request">Mi Mover skal tilladelsen \"%1$s\" for at kunne overføre dette element.</string>
     <string name="permission_locale_summary">For at tilslutte til enheder i nærheden</string>
     <string name="permission_locale_title">Får adgang til placering</string>
+    <string name="permission_locale_title_new">Adgang til placering</string>
     <string name="permission_message_summary">For at overføre beskeder til din nye enhed</string>
+    <string name="permission_message_summary_new">Til overførsel af beskeder til din nye enhed</string>
     <string name="permission_message_title">Får adgang til SMS-indhold</string>
     <string name="permission_request_title">Tilladelsen \"%1$s\" er påkrævet</string>
     <string name="permission_setting_button">Indstillinger</string>
     <string name="permission_storage_summary">For at overføre filer og fotos til din nye enhed</string>
+    <string name="permission_storage_summary_new">Til overførsel af filer og fotos til din nye enhed</string>
     <string name="permission_storage_title">Får adgangen til og gemmer filer og fotos, der er lagret på din enhed</string>
+    <string name="permission_storage_title_new">Adgang til lagerplads</string>
     <string name="permission_wifi_summary">For at overføre elementer til din nye enhed</string>
+    <string name="permission_wifi_summary_new">Til overførsel af elementer til din nye enhed</string>
     <string name="permission_wifi_title">Slår Wi-Fi til og fra</string>
+    <string name="permission_wifi_title_new">Slår wi-fi til og fra</string>
+    <string name="permission_wifi_title_new_china">Slå WLAN til og fra</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\" blev kopieret til udklipsholderen.</string>
     <string name="privacy_agree">Acceptér</string>
@@ -749,6 +810,7 @@ Frigør mindst %s."</string>
     <string name="scanner_quit_alert_message_phone">Du skal forbinde de to enheder igen, hvis du afslutter Mi Mover nu. Afslut alligevel?</string>
     <string name="scanner_quit_alert_title">Afslut nu?</string>
     <string name="scanner_send_dialog_btn">Forstået</string>
+    <string name="scanner_send_dialog_btn_i_know">Forstået</string>
     <string name="scanner_send_dialog_message">Sluk ikke Wi-Fi eller skift mellem netværk under overførslen.</string>
     <string name="scanner_size_selected">Valgt: %s</string>
     <string name="scanner_subtitle_prd">Læs følgende oplysninger omhyggeligt, før du tjekker hvert element, og før du begynder overførslen.</string>
@@ -756,6 +818,7 @@ Frigør mindst %s."</string>
     <string name="scanner_title_prd">Vigtige oplysninger</string>
     <string name="scanner_title_tip">Vælg elementer at overføre</string>
     <string name="scanner_wechat_overwrite_hit">På grund af tredjeparts appbegrænsninger erstattes chathistorik og andre appdata på din nye enhed med dem fra den gamle, efter overførslen er slut.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">På grund af begrænsninger i tredjepartsapps vil chathistorik og andre appdata på din nye enhed blive erstattet af dataene fra den gamle enhed, når overførslen er fuldført.</string>
     <string name="search_menu_title">Søg</string>
     <string name="searching_for_new_device">Søger efter den nye enhed…</string>
     <string name="searching_for_new_device_pad">Søger efter den nye enhed…</string>
@@ -808,7 +871,7 @@ Frigør mindst %s."</string>
     <string name="settings_wifi">Wi-Fi-indstillinger</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
-    <string name="size_kilo_byte">KB</string>
+    <string name="size_kilo_byte">kB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s %2$s</string>
@@ -889,27 +952,42 @@ Frigør mindst %s."</string>
     <string name="time_spent">Tid: %1$s</string>
     <string name="tips_button_hint">Gennemgå hvert element og bekræft først</string>
     <string name="tips_cover_content">Denne data (inklusive chathistorik) bliver overskrevet, hvis du fortsætter.</string>
+    <string name="tips_cover_content_pad">Disse data (inklusive chathistorik) bliver overskrevet, hvis du fortsætter.</string>
     <string name="tips_cover_content_tablet">Denne data (inklusive chathistorik) bliver overskrevet, hvis du fortsætter.</string>
     <string name="tips_cover_title">%1$d. Der er allerede data for følgende apps på den nye enhed.</string>
+    <string name="tips_cover_title_pad">%1$d. Der findes allerede data for følgende apps på den nye enhed.</string>
     <string name="tips_cover_title_tablet">%1$d. Der er allerede data for følgende apps på den nye enhed.</string>
     <string name="tips_dual_app_content">Dobbelte apps kan ikke overføres. Kun den primære app og dens data kan overføres.</string>
     <string name="tips_dual_app_title">%d. Følgende apps er dobbelte apps.</string>
+    <string name="tips_dual_app_title_new">%d. Data fra dobbelte apps kan ikke overføres.</string>
     <string name="tips_hot_content">Det er normalt. Din enhed køler ned, når overførslen er fuldført.</string>
+    <string name="tips_hot_content_new">Det er normalt. Din enhed køler ned igen, når overførslen er fuldført.</string>
     <string name="tips_hot_title">%d. Din enhed kan blive varm under overførselsprocessen.</string>
+    <string name="tips_hot_title_content">%d. Din enhed kan blive varm.</string>
     <string name="tips_private_space_content">På grund af systembegrænsninger kan data fra andet rum ikke overføres.</string>
+    <string name="tips_private_space_content_pad">Det skyldes systembegrænsninger.</string>
+    <string name="tips_private_space_content_phone">Det skyldes systembegrænsninger.</string>
     <string name="tips_private_space_content_tablet">På grund af systembegrænsninger kan data fra andet rum ikke overføres.</string>
     <string name="tips_private_space_title">%d. Andet rum er slået til.</string>
+    <string name="tips_private_space_title_pad">%d. Data fra andet rum kan ikke overføres.</string>
+    <string name="tips_private_space_title_phone">%d. Data fra andet rum kan ikke overføres.</string>
     <string name="tips_private_space_title_tablet">%d. Andet rum er slået til.</string>
     <string name="tips_prudent_operation_content">Afbrydelse af forbindelsen stopper overførslen.</string>
     <string name="tips_prudent_operation_title">%d. Undgå at slukke eller skifte wi-fi-hotspot.</string>
+    <string name="tips_prudent_operation_title_new">%d. Slå ikke fra eller skift ikke wi-fi-hotspot.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Slå ikke fra eller skift ikke WLAN-hotspot.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Undgå at slukke eller skifte WLAN-hotspot.</string>
     <string name="tips_secret_content_one">Nogle private elementer på den gamle enhed (%1$s) kan ikke overføres. Fjern dem fra den private mappe for at kunne overføre dem.</string>
+    <string name="tips_secret_content_one_new">Nogle private elementer på den gamle enhed (%1$s) kan ikke overføres. Fjern dem fra den private mappe for at kunne overføre dem.</string>
     <string name="tips_secret_content_three">Nogle private elementer på den gamle enhed (%1$s, %2$s, %3$s) kan ikke overføres. Fjern dem fra den private mappe for at kunne overføre dem.</string>
+    <string name="tips_secret_content_three_new">Nogle private elementer på den gamle enhed (%1$s, %2$s, %3$s) kan ikke overføres. Fjern dem fra den private mappe for at kunne overføre dem.</string>
     <string name="tips_secret_content_two">Nogle private elementer på den gamle enhed (%1$s, %2$s) kan ikke overføres. Fjern dem fra den private mappe for at kunne overføre dem.</string>
+    <string name="tips_secret_content_two_new">Nogle private elementer på den gamle enhed (%1$s, %2$s) kan ikke overføres. Fjern dem fra den private mappe for at kunne overføre dem.</string>
     <string name="tips_secret_file">filer</string>
     <string name="tips_secret_gallery">albummer</string>
     <string name="tips_secret_note">noter</string>
     <string name="tips_secret_title">%d. Nogle private elementer kan ikke overføres.</string>
+    <string name="tips_secret_title_content">%d. Private elementer kan ikke overføres.</string>
     <string name="tips_subtitle">Læs og bekræft følgende påmindelser, før du fortsætter.</string>
     <string name="title_compatibility_mode">Slå Appkompatibilitetstilstand til</string>
     <string name="title_open_wlan">Aktivér Wi-Fi</string>
@@ -951,10 +1029,12 @@ Download og installer Mi Mover."</string>
     <string name="trans_send_time_remained_default">Sendt: %1$s</string>
     <string name="trans_show_qr_code_label">Åbn Mi Mover på den gamle enhed</string>
     <string name="trans_show_qr_code_label_for_pad">Åbn Mi Mover på den gamle enhed</string>
+    <string name="trans_show_qr_code_label_pad">Åbn Mi Mover på den gamle enhed</string>
     <string name="trans_sync_transfer_data_list">Vælg elementer til overførsel på den gamle enhed</string>
     <string name="trans_sync_transfer_data_list_apple">Overfør elementer fra din Apple-enhed</string>
     <string name="trans_sync_transfer_data_list_hint">Lige et øjeblik…</string>
     <string name="trans_sync_transfer_data_list_pad">Vælg elementer på den gamle enhed til overførsel</string>
+    <string name="trans_sync_transfer_data_list_phone">Vælg elementer til overførsel på den gamle enhed</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Vælg elementer på din gamle enhed, og tryk på \"Send\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Vælg elementer på din gamle enhed, og tryk på \"Send\".</string>
     <string name="trans_time_format_second">Mindre end %d minut</string>
@@ -977,6 +1057,7 @@ Download og installer Mi Mover."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Fremskridt for overførslen vil blive gemt. Du vil kunne fortsætte overførslen fra det sted, hvor du afsluttede, næste gang du forbinder de to enheder.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Fremskridt for overførslen bliver gemt. Du kan fortsætte overførslen fra det sted, hvor du afsluttede, næste gang du forbinder de to enheder.</string>
     <string name="transfer_quit_alert_title">Bemærk</string>
     <string name="transfer_snap_error">Kunne ikke overføre</string>
     <string name="transfer_snap_new_receiving">Modtager…</string>

@@ -169,6 +169,7 @@
     <string name="allow_onetime">اجازه یک‌باره</string>
     <string name="already_close_gamebooster">افزاینده سرعت بازی خاموش است</string>
     <string name="am">ق.ظ</string>
+    <string name="anitispam_intercept_record">تاریخچه فهرست سیاه</string>
     <string name="anti_disturb_msg_detail">خاموش کردن همه اعلان‌ها غیر از تماس‌های ورودی</string>
     <string name="anti_disturb_msg_title">مزاحم نشوید</string>
     <string name="antispam_add_black_number_message">شماره‌ای که وارد کرده‌اید کوتاه است. آیا می‌خواهید همه شماره‌هایی که با این ارقام شروع می‌شوند مسدود شوند؟</string>
@@ -996,7 +997,11 @@
     <string name="call_delete_all_hint">همه تماس‌های مسدود شده حذف شوند؟</string>
     <string name="call_delete_hint">تمام تماس‌های مسدود شده این شماره حذف شود؟</string>
     <string name="call_delete_title">حذف تاریخچه تماس</string>
+    <string name="call_empty_number">شماره‌های خالی</string>
+    <string name="call_forwarding_block">تماس‌های انتقال‌یافته</string>
+    <string name="call_intercept_settings">تنظیمات فهرست سیاه تماس</string>
     <string name="call_oversea_block">مسدود کردن تماس‌ها از خارج</string>
+    <string name="call_overseas_block">تماس‌های بین‌المللی</string>
     <string name="call_prefix">فهرست سیاه پیش‌شماره</string>
     <string name="call_private">مسدود کردن تماس‌ها از شماره‌های پنهان</string>
     <string name="call_stranger_block">مسدود کردن تماس‌ها از بیگانگان</string>
@@ -1006,12 +1011,20 @@
     <string name="cancel">لغو</string>
     <string name="cancel_button">لغو</string>
     <string name="car_sickness_relief_comment_text">هنگامی که حرکت وسیله نقلیه تشخیص داده می‌شود، نقطه‌هایی در دو طرف صفحه نمایان می‌شوند تا نشان دهند خودرو در حال حرکت است یا خیر که می‌تواند به تاخیر در آغاز بیماری ماشین‌گرفتگی کمک کند.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"نقطه‌هایی در دو سمت صفحه نمایش نشان داده می‌شوند تا حرکت وسیله نقلیه را نشان دهند، این کار ممکن است به تاخیر در شروع «ماشین‌گرفتگی» کمک کند.
+
+ در «مرکز کنترل» می‌توانید این ویژگی را فعال یا غیرفعال کنید."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"نقطه‌هایی دائما در دو سمت صفحه نمایش نشان داده می‌شوند تا حرکت وسیله نقلیه را نشان دهند، این کار ممکن است به تاخیر در شروع «ماشین‌گرفتگی» کمک کند.
+
+ در «مرکز کنترل» می‌توانید این ویژگی را فعال یا غیرفعال کنید."</string>
     <string name="car_sickness_relief_comment_text_opened">"روی هر دو سمت صفحه نمایش، نقطه‌هایی نمایش داده می‌شوند تا حرکت وسیله نقلیه را نشان دهند، این کار ممکن است کمک کند تا شروع ماشین‌گرفتگی به تأخیر بیفتد.
 
  در مرکز کنترل می‌توانید این قابلیت را فعال یا غیرفعال کنید."</string>
     <string name="car_sickness_relief_example_text_1">هنگامی که وسیله نقلیه سریع‌تر یا آهسته‌تر حرکت می‌کند</string>
     <string name="car_sickness_relief_example_text_2">هنگامی که وسیله نقلیه می‌پیچد یا از خطی به خط دیگر می‌رود</string>
     <string name="car_sickness_relief_exit_text">تسکین ماشین‌گرفتگی از کار کردن ایستاد</string>
+    <string name="car_sickness_relief_notification_text_close">غیرفعال کردن</string>
+    <string name="car_sickness_relief_notification_text_opened">فعال</string>
     <string name="car_sickness_relief_start_text">تسکین ماشین‌گرفتگی درحال کار کردن است</string>
     <string name="car_sickness_remind_time_title">نشان‌گرهای حرکتی</string>
     <string name="car_sickness_title">تسکین ماشین‌گرفتگی</string>
@@ -1762,7 +1775,7 @@
 %3$d. این ویژگی فقط در سزمین اصلی چین پشتیبانی می‌شود.
 %4$d. این ویژگی فقط در شبکه‌های 5G-SA کار می‌کند."</string>
     <string name="function_shield_auto_bright">خاموش کردن روشنایی خودکار</string>
-    <string name="function_shield_eye_shield">خاموش کردن حالت مطالعه</string>
+    <string name="function_shield_eye_shield">غیرفعال کردن حالت محافظت از چشم</string>
     <string name="function_shield_pull_notification_bar">کرکره اعلان باز نشود</string>
     <string name="function_shield_settings_title">محدود کردن ویژگی‌های زیر هنگام بازی کردن</string>
     <string name="function_shield_summary">ویژگی‌های سیستم انتخاب شده را هنگام بازی کردن محدود می‌کند</string>
@@ -2635,6 +2648,12 @@
     <string name="install_title">نصب از طریق USB</string>
     <string name="install_type_instant">برنامه فوری</string>
     <string name="installing">در حال نصب</string>
+    <string name="intercept_all_mark_calls">مسدودسازی همه تماس‌هایی که برچسب «%s» دارند؟</string>
+    <string name="intercept_calls_nofify_hide_text">برای تعیین قوانین مسدودسازی برای سایر شماره‌های برچسب‌دار، اینجا ضربه بزنید</string>
+    <string name="intercept_calls_notify_title">تماس‌های دارای این برچسب خودبه‌خود پایان خواهند یافت. حالا مسدود شود؟</string>
+    <string name="intercept_garbage_msg">پیام‌های هرزنامه</string>
+    <string name="intercept_record">تاریخچه</string>
+    <string name="intercept_strange_msg">پیام‌های غریبه‌ها</string>
     <string name="international_Ad">تبلیغات</string>
     <string name="international_roaming_setting">رومینگ اینترنت همراه</string>
     <string name="intl_app_manager_card_permission_title">حریم خصوصی و مجوزها</string>
@@ -2828,6 +2847,7 @@
     <string name="mark_harass_block">گزارش شده به‌ عنوان مردم‌آزار</string>
     <string name="mark_harass_block_large">مردم‌آزارها</string>
     <string name="mark_harass_time_setting">شماره‌هایی که چند بار معین به عنوان مردم‌آزار گزارش شده مسدود شود</string>
+    <string name="mark_num_open_intercept">مسدودسازی</string>
     <string name="mark_number_agent">بنگاه</string>
     <string name="mark_number_fraud">کلاهبرداری</string>
     <string name="mark_number_harass">مزاحمت</string>
@@ -4638,11 +4658,11 @@
     <string name="prompt_all">پرسش برای همه</string>
     <string name="prompt_input_time_illegal">این بار نمی‌توان تنظیم کرد، آن را تغییر داده و دوباره تلاش کنید</string>
     <string name="protect_eye_dont_open">اکنون نه</string>
-    <string name="protect_eye_hint_summry">برای داشتن تجربه بهتر مطالعه، حالت مطالعه را روشن کنید</string>
-    <string name="protect_eye_hint_title">راحتی چشم</string>
+    <string name="protect_eye_hint_summry">حالت محافظت از چشم را فعال کنید تا تجربه خواندن بهتری داشته باشید</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">روشن کردن</string>
-    <string name="protect_eye_opened_summry">تنظیمات برگزیده را در تنظیمات > > صفحه نمایش و روشنایی > راحتی چشم ویرایش کنید</string>
-    <string name="protect_eye_opened_title">حالت مطالعه روشن است</string>
+    <string name="protect_eye_opened_summry">در مسیر «تنظیمات > نمایش &amp; روشنایی >Xiaomi EyeCare Shield» تنظیمات را ویرایش کنید</string>
+    <string name="protect_eye_opened_title">حالت محافظت از چشم فعال است</string>
     <string name="protocol_exception_title">عیب‌یابی پروتکل شبکه</string>
     <string name="protocol_loop_back_exception_summary">آزمایش بازگشت دور محلی ناموفق بود. برای گزارش دادن این مسئله، به برنامه بازخورد بروید و گزارشی را از روی دستگاه خود ارسال کنید.</string>
     <string name="province_selected_talkback" />
@@ -4706,6 +4726,7 @@
     <string name="repeat_type">تکرار</string>
     <string name="repeated_marked_number_summary">تماس دوم از همان شماره گزارش شده در عرض %d دقیقه رد نشود</string>
     <string name="repeated_marked_number_title">تماس‌های مکرر از شماره‌های گزارش شده مسدود نشود</string>
+    <string name="repeated_unknown_number_summary">تماس دوم از همان شماره ناشناس را تا %d دقیقه مسدود نکن</string>
     <string name="replace_dns">جایگزینی خودکار DNS</string>
     <string name="report">گزارش</string>
     <string name="report_error">پیام گزارش نشد</string>
@@ -4945,6 +4966,7 @@
     <string name="sms_detail_fragment_title_traffic">اینترنت همراه باقی مانده</string>
     <string name="sms_filter">فیلتر هوشمند</string>
     <string name="sms_guard_alert">برنامه پیام‌رسانی پیش‌فرض تغییر کرد. پیام‌رسانی Xiaomi دیگر هرزنامه‌های پیامکی را مسدود نخواهد کرد.</string>
+    <string name="sms_intercept_settings">تنظیمات فهرست سیاه پیام</string>
     <string name="sms_keywords">فهرست سیاه کلیدواژه</string>
     <string name="sms_malicious_url">مسدود کردن پیامک‌های دارای پیوند‌های مخرب</string>
     <string name="sms_prefix">فهرست سیاه پیش‌شماره</string>
@@ -5146,9 +5168,26 @@
     <string name="st_call_intercept_reported">مسدود کردن تماس‌ها از شماره‌های گزارش شده</string>
     <string name="st_call_intercept_stranger">مسدود کردن تماس‌ها از بیگانگان</string>
     <string name="st_call_intercept_unknown">مسدود کردن تماس‌ها از شماره‌های پنهان</string>
+    <string name="st_call_mark_agent">املاک</string>
+    <string name="st_call_mark_agent_intercept">املاک</string>
+    <string name="st_call_mark_decoration">بازسازی خانه</string>
+    <string name="st_call_mark_decoration_intercept">بازسازی خانه</string>
+    <string name="st_call_mark_edu">آموزش</string>
+    <string name="st_call_mark_edu_intercept">آموزش</string>
+    <string name="st_call_mark_high_risk">ریسک بالا</string>
+    <string name="st_call_mark_high_risk_intercept">ریسک بالا</string>
+    <string name="st_call_mark_insurance">سرمایه‌گذاری</string>
+    <string name="st_call_mark_insurance_intercept">سرمایه‌گذاری</string>
+    <string name="st_call_mark_loan">وام</string>
+    <string name="st_call_mark_loan_intercept">وام</string>
+    <string name="st_call_mark_sell">تبلیغات</string>
+    <string name="st_call_mark_sell_intercept">تبلیغات</string>
     <string name="st_call_other_group">سایر</string>
     <string name="st_call_settings">فهرست سیاه تماس</string>
     <string name="st_call_stranger_group">مسدود کردن تماس‌ها از بیگانگان</string>
+    <string name="st_call_stranger_inercept_local">مسدودسازی شماره‌های ناشناس</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">تماس‌ها از هر شماره‌ای که در موارد استثنای شما نیست، مسدود خواهد شد. حالا مسدود شود؟</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">تماس‌ها از هر شماره‌ای که در موارد استثنا یا مخاطبان شما نیست، مسدود خواهد شد. حالا مسدود شود؟</string>
     <string name="st_confirm_call_all_dialog_summary">تماس‌ها از سوی هر شماره‌ای که در موارد استثنا شما نباشند مسدود خواهند شد. روشن شود؟</string>
     <string name="st_confirm_dialog_btn_open">مسدود کردن</string>
     <string name="st_confirm_dialog_summary_oversea_call">همه تماس‌ها از شماره تلفن‌های بیگانه مسدود خواهد شد.</string>
@@ -5160,9 +5199,11 @@
     <string name="st_hint_add_head_number">پیش‌شماره را وارد کنید</string>
     <string name="st_hint_add_phonenumber">شماره تلفن را وارد کنید</string>
     <string name="st_hint_operatelist">به نظر می‌رسد این قانون از پیش وجود دارد</string>
+    <string name="st_intercept_dialog_title">توجه</string>
     <string name="st_mark_call_intercept_threshold_summary">مسدود کردن خودکار شماره‌هایی که چندین بار گزارش شده‌اند</string>
     <string name="st_mark_call_intercept_threshold_title">مسدود کردن حد آستانه</string>
     <string name="st_mark_number_group">مسدود کردن تماس‌ها از شماره‌های گزارش شده</string>
+    <string name="st_mark_number_net_group">مسدودسازی شماره‌های گزارش‌شده</string>
     <string name="st_message_SMS_AntiSpam">مسدود کردن پیام</string>
     <string name="st_message_SMSpass">اجازه دادن پیامک</string>
     <string name="st_message_phone_AntiSpam">مسدود کردن تماس‌ها</string>
@@ -5175,13 +5216,26 @@
     <string name="st_msg_stranger_group">مسدود کردن پیام‌ها از سوی بیگانگان</string>
     <string name="st_settings_name">تنظیمات فهرست سیاه</string>
     <string name="st_share_settings">استفاده از تنظیمات سیم‌کارت %d</string>
+    <string name="st_smg_intercept_all">مسدودسازی همه پیام‌ها</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">پیامک و MMS از هر شماره یا منطقه‌ای که در موارد استثنای شما نیست مسدود خواهد شد. حالا مسدود شود؟</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">پیامک و MMS از هر شماره یا منطقه‌ای که در موارد استثنا یا مخاطبان شما نیست مسدود خواهد شد. حالا مسدود شود؟</string>
+    <string name="st_smg_intercept_network_check">مسدودسازی با استفاده از تعاریف آنلاین</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">پیام‌های هرزنامه</string>
+    <string name="st_smg_intercept_other">تنظیمات بیشتر</string>
+    <string name="st_smg_intercept_strange">مسدودسازی پیام‌های غریبه‌ها</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">مسدودسازی پیام‌هایی از غریبه‌ها که حاوی کلیدواژه‌های خاصی هستند</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">مسدودسازی پیام‌ها از شماره‌ها یا مناطق خاص</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">مسدود نکردن پیام‌هایی از غریبه‌ها که حاوی کلیدواژه‌های خاص هستند</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">مسدود نکردن پیام‌ها از شماره‌ها یا مناطقی که در موارد استثنای شما هستند</string>
     <string name="st_sms_intercept_oversea">پیامک بین‌المللی</string>
     <string name="st_sub_title_customize_mode_name">نام</string>
     <string name="st_sub_title_whiteblack_list_group">فهرست سیاه</string>
     <string name="st_sum_call_wait">پیام در دسترس نبودن شما نیز به‌عنوان بوق اشغال برای تماس‌های ورودی پخش خواهد شد.</string>
     <string name="st_summary_blacklist_numbers">انسداد تماس‌ها و پیام‌ها از شماره‌ها و مناطق خاص</string>
     <string name="st_summary_blacklist_numbers_international">مسدود کردن تماس‌ها بر اساس شماره یا پیشوند</string>
+    <string name="st_summary_intercept_blacklist_numbers">مسدودسازی تماس‌ها و پیام‌ها از شماره‌ها و مناطق خاص</string>
     <string name="st_summary_keywords_blacklist">افزودن کلیدواژه به پیام‌های مسدود شده</string>
+    <string name="st_summary_release_whitelist_numbers">مسدود نکردن تماس‌ها و پیام‌ها از شماره‌ها و مناطقی که در موارد استثنای شما هستند</string>
     <string name="st_summary_special_numbers">مسدود کردن شماره تلفن‌های نشانک زده</string>
     <string name="st_summary_whitelist_numbers">اجازه دادن به تماس‌ها و پیام‌ها از شماره‌ها و مناطق خاص</string>
     <string name="st_summary_whitelist_numbers_international">اجازه تماس بر اساس شماره یا پیشوند</string>
@@ -5216,6 +5270,8 @@
     <string name="st_title_markednumber_group">مسدود کردن شماره‌های گزارش شده</string>
     <string name="st_title_mode_choose_group">قواعد فهرست سیاه</string>
     <string name="st_title_not_sim">خالی</string>
+    <string name="st_title_number_and_region_blacklist">شماره‌ها و مناطق مسدودشده</string>
+    <string name="st_title_number_and_region_whitelist">موارد استثنای شماره و منطقه</string>
     <string name="st_title_open_antispam">فهرست سیاه</string>
     <string name="st_title_other_group">سایر</string>
     <string name="st_title_settings_other_group">تنظیمات بیشتر</string>
@@ -5375,7 +5431,7 @@
     <string name="summary_default_app">%s به‌عنوان برنامه پیش‌فرض سیستم تنظیم نشده است</string>
     <string name="summary_dev">از بدافزارها دوری کرده و از اطلاعات شخصی خود محافظت کنید</string>
     <string name="summary_do_not_disturb">شما درحال استفاده از حالت مزاحم نشوید هستید.</string>
-    <string name="summary_eye_shield">برای بازگشت به تنظیمات پیش‌فرض، حالت مطالعه را خاموش کنید.</string>
+    <string name="summary_eye_shield">حالت محافظت از چشم را غیرفعال کنید تا به تنظیمات پیش‌فرض برگردید.</string>
     <string name="summary_find_device">از هرجا دستگاه خود را بیابید و قفل کنید</string>
     <string name="summary_first_aid_kit">اشکالات دستگاه خود را حل کنید</string>
     <string name="summary_flow_notification">نمایش آمار مصرف اینترنت همراه ماهیانه شما در کرکره اعلان</string>

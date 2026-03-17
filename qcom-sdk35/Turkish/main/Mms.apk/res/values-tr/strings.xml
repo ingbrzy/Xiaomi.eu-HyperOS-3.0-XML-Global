@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Yeni slayt oluşturmak için dokunun</string>
     <string name="add_smiley">İfade</string>
     <string name="add_timing">Zamanlama</string>
-    <string name="add_to_block_by_number">"%s
-engellenenler listesine eklendi"</string>
-    <string name="add_to_block_by_number_failed">"%s engellenenler listesine eklenemedi.
-Tekrar deneyin."</string>
-    <string name="add_to_block_by_tag">"''%s''
-içeren mesajlar engellenenler listesine eklendi"</string>
-    <string name="add_to_block_by_tag_failed">"''%s'' içeren mesajlar engellenenler listesine eklenemedi.
-Tekrar deneyin."</string>
-    <string name="add_to_block_cta_failed">Ögeleri engellenenler listesine ekleyebilmek için Güvenlik uygulamasına gerekli izinleri verin</string>
+    <string name="add_to_block_by_number">Engellenenler listesine eklendi</string>
+    <string name="add_to_block_by_number_failed">Engellenenler listesine eklenemedi.Tekrar deneyin.</string>
+    <string name="add_to_block_by_tag">Bu anahtar kelime engellenenler listesine eklendi</string>
+    <string name="add_to_block_by_tag_failed">Anahtar kelime engellenenler listesine eklenemedi.Tekrar deneyin.</string>
+    <string name="add_to_block_cta_failed">Güvenlik uygulamasını açın ve bu özelliği kullanabilmek için şartlar ve koşullarını kabul edin</string>
     <string name="add_to_browser_favorite_failed">Eklenemedi</string>
     <string name="add_to_browser_favorite_success">Başarıyla eklendi</string>
     <string name="add_to_calender">Takvime ekle</string>
@@ -148,9 +144,9 @@ Tekrar deneyin."</string>
     <string name="beidou_to_contacts">Alıcı: %s</string>
     <string name="billing">Faturalar</string>
     <string name="block_messaging_entry_title">Engelli SMS</string>
-    <string name="block_number_message">Bu telefon numarası, engellenenler listesine eklenecek. Bu numaradan gelen tüm mesajlar engellenecektir.</string>
+    <string name="block_number_message">Eklendikten sonra %s numarasından gelen tüm gelen aramalar ve mesajlar engellenecek. Şimdi eklensin mi?</string>
     <string name="block_support_text">Antiy tarafından desteklenmektedir.</string>
-    <string name="block_tag_message">%s tarafından gönderilen tüm mesajlar engellendi. Bu hizmet tarafından gönderilen doğrulama kodlarını veya faturaları alamayacaksınız.</string>
+    <string name="block_tag_message">"Eklendikten sonra ''%s'' anahtar kelimesini içeren tüm mesajlar engellenecek. Bu, doğrulama kodları ve sipariş bilgileri içerebilir. Şimdi eklensin mi?"</string>
     <string name="boarding_time">Biniş zamanı</string>
     <string name="bookmark">Favorilere eklendi</string>
     <string name="bookmark_confirm_delete_message">Seçilen mesajlar favorilerden kaldırılsın mı?</string>
@@ -581,7 +577,7 @@ Lütfen internet mesajlaşma işlevinin bir sonraki bildirime kadar askıya alı
     <string name="menu_pick_from_contact">Kişilerden seçin</string>
     <string name="menu_preferences">Ayarlar</string>
     <string name="menu_report">Geri bildirim</string>
-    <string name="menu_sms_block">Engellenenler listesi</string>
+    <string name="menu_sms_block">Engellenenler listesine eklensin mi?</string>
     <string name="menu_traffic_destination">Hedef</string>
     <string name="menu_unlock">Favorilerden kaldır</string>
     <string name="menu_view_contact">Kişiyi görüntüle</string>
@@ -1325,6 +1321,11 @@ Mobil veriyi açın ve bu sayfayı tekrar açın."</string>
     <string name="shortcut_new_msg">Yeni mesaj</string>
     <string name="shortcut_setting">Ayarlar</string>
     <string name="show_delivery_status">Bildirim raporu göster</string>
+    <string name="silent_notification_notify_content">Kısa bir sürede çok fazla doğrulama kodu aldınız. Bu bildirimler geçici olarak sessize alınacak.</string>
+    <string name="silent_notification_notify_double">SIM %1$d ve SIM %2$d kısa bir sürede çok fazla doğrulama kodu aldı. Bu bildirimler geçici olarak sessize alınacak.</string>
+    <string name="silent_notification_notify_single">SIM %1$d kısa bir sürede çok fazla doğrulama kodu aldı. Bu bildirimler geçici olarak sessize alınacak.</string>
+    <string name="silent_notification_notify_title">"Doğrulama SMS'ini sessiz alma"</string>
+    <string name="silent_notification_tip_exit">"Doğrulama SMS'ini sessiz almayı durdur"</string>
     <string name="sim_card1">SIM kart 1</string>
     <string name="sim_card2">SIM kart 2</string>
     <string name="sim_card_cloud">%s (Mi Mesaj)</string>

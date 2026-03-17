@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Дадаць новы слайд</string>
     <string name="add_smiley">Смайл</string>
     <string name="add_timing">Таймер</string>
-    <string name="add_to_block_by_number">"%s дададзена
-ў чорны спіс"</string>
-    <string name="add_to_block_by_number_failed">"Не атрымалася дадаць %s у Чорны спіс.
-Паўтарыце спробу."</string>
-    <string name="add_to_block_by_tag">"Паведамленне с \"%s\"
-дададзена ў Чорны спіс"</string>
-    <string name="add_to_block_by_tag_failed">"Немагчыма дадаць паведамленні, якія змяшчаюць \"%s\", у Чорны спіс.
-Паўтарыце спробу."</string>
-    <string name="add_to_block_cta_failed">"Каб дадаць аб'екты ў Чорны спіс, падайце праграме «Бяспека» неабходныя дазволы"</string>
+    <string name="add_to_block_by_number">Дададзена ў чорны спіс</string>
+    <string name="add_to_block_by_number_failed">Не атрымалася дадаць у Чорны спіс. Паўтарыце спробу.</string>
+    <string name="add_to_block_by_tag">Гэта ключавое слова дададзена ў чорны спіс</string>
+    <string name="add_to_block_by_tag_failed">Не атрымалася дадаць ключавое слова ў чорны спіс. Паспрабуйце зноў.</string>
+    <string name="add_to_block_cta_failed">Адкрыйце праграму \"Бяспека\" і пагадзіцеся з яе правіламі і ўмовамі, каб мець магчымасць карыстацца гэтай функцыяй.</string>
     <string name="add_to_browser_favorite_failed">Не атрымалася дадаць</string>
     <string name="add_to_browser_favorite_success">Паспяхова дададзена</string>
     <string name="add_to_calender">Дадаць у каляндар</string>
@@ -148,9 +144,9 @@
     <string name="beidou_to_contacts">Атрымальнік: %s</string>
     <string name="billing">Рахункі</string>
     <string name="block_messaging_entry_title">Заблакаваныя SMS</string>
-    <string name="block_number_message">Гэты нумар тэлефона будзе дададзены ў чорны спіс. Усе паведамленні з гэтага нумара будуць заблякаваныя.</string>
+    <string name="block_number_message">Пасля дадання ўсе ўваходныя званкі і паведамленні ад %s будуць заблакіраваны. Дадаць зараз?</string>
     <string name="block_support_text">Падтрымка: Antiy.</string>
-    <string name="block_tag_message">Усе паведамленні, адпраўленыя з %s, будуць заблякаваныя. Вы не зможаце атрымліваць коды пацверджання або рахункі, адпраўленыя гэтым сэрвісам.</string>
+    <string name="block_tag_message">Пасля дадання ўсе паведамленні, якія змяшчаюць ключавое слова \"%s\", будуць заблакіраваны. Сюды могуць уваходзіць коды праверкі і інфармацыя пра заказ. Дадаць зараз?</string>
     <string name="boarding_time">Час пасадкі</string>
     <string name="bookmark">Дададзена ў абранае</string>
     <string name="bookmark_confirm_delete_message">Выдаліць выбраныя паведамленні з абранага?</string>
@@ -581,13 +577,13 @@
     <string name="menu_pick_from_contact">Выбраць з кантактаў</string>
     <string name="menu_preferences">Налады</string>
     <string name="menu_report">Водгук</string>
-    <string name="menu_sms_block">Чорны спіс</string>
+    <string name="menu_sms_block">Дадаць у чорны спіс?</string>
     <string name="menu_traffic_destination">Пункт прызначэння</string>
     <string name="menu_unlock">Прыбраць з абранага</string>
     <string name="menu_view_contact">Прагледзець кантакт</string>
     <string name="menu_view_group_info">Інфармацыя аб групе</string>
     <string name="message_cannot_send_air_mode">Для адпраўкі паведамленняў адключыце Рэжым палёту</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">SIM-карта, якую вы выкарыстоўваеце, не падтрымлівае адпраўку SMS</string>
     <string name="message_cannot_send_sim_unavailable">Для адпраўкі паведамленняў устаўце SIM- карту</string>
     <string name="message_class_label">"Клас паведамленняў: "</string>
     <string name="message_contact">Кантакт:</string>
@@ -1325,6 +1321,11 @@
     <string name="shortcut_new_msg">Новае паведамленне</string>
     <string name="shortcut_setting">Налады</string>
     <string name="show_delivery_status">Паказваць справаздачу аб дастаўцы</string>
+    <string name="silent_notification_notify_content">Вы атрымалі шмат кодаў пацверджання за кароткі час. Гэтыя апавяшчэнні будуць часова адключаны.</string>
+    <string name="silent_notification_notify_double">SIM-карта %1$d і SIM-карта %2$d атрымалі шмат кодаў пацверджання за кароткі час. Гэтыя апавяшчэнні будуць часова адключаны.</string>
+    <string name="silent_notification_notify_single">SIM-карта %1$d атрымала шмат кодаў пацверджання за кароткі час. Гэтыя апавяшчэнні будуць часова адключаны.</string>
+    <string name="silent_notification_notify_title">Адключэнне SMS-паведамленняў з праверкай</string>
+    <string name="silent_notification_tip_exit">Спыніць адключэнне SMS-паведамленняў з праверкай</string>
     <string name="sim_card1">SIM-карта 1</string>
     <string name="sim_card2">SIM-карта 2</string>
     <string name="sim_card_cloud">%s (Mi Паведамленні)</string>

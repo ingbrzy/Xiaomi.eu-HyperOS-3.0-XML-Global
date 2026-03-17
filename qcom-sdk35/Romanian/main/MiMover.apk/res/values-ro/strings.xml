@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Următorul</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Aceste aplicații de %1$d biți nu pot fi transferate pe un dispozitiv de %2$d biți. Le puteți descărca direct de pe GetApps după transfer.</string>
     <string name="audio">Audio</string>
+    <string name="audio_permission_desc_new">Pentru transferul de muzică și audio pe noul dispozitiv</string>
     <string name="audio_video_document">Audio, video și documente</string>
     <string name="back">Înapoi</string>
     <string name="backup_died_summary">Atingeți \"Conectează din nou\". Progresul transferului va relua de unde a rămas.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Codul nu a fost introdus de mult timp. Conectați-vă manual.</string>
     <string name="ble_enter_verifycode_timeout_title">Sesiunea a expirat</string>
     <string name="ble_guest_connecting_title">Se conectează la dispozitivul nou…</string>
+    <string name="ble_guest_connecting_title_pad">Se conectează la un dispozitiv nou…</string>
     <string name="ble_host_verification_summary">Introduceți un cod din %d cifre pe dispozitivul vechi.</string>
     <string name="ble_host_verification_title">Se conectează la dispozitivul vechi…</string>
     <string name="ble_manual_authorization_content">Acordați permisiunile necesare pentru a putea transfera elemente cu Mi Mover. Puteți acorda aceste permisiuni în Setări.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Hotspot creat cu succes.Se așteaptă să se conecteze…</string>
     <string name="ble_starting_ap">Se creează hotspot…</string>
     <string name="ble_wait_verify_code">Se generează cod pe dispozitivul nou…</string>
+    <string name="ble_wait_verify_code_pad">Se generează cod pe dispozitivul nou…</string>
     <string name="ble_waiting_verify_code">Se verifică codul…</string>
     <string name="ble_waiting_verify_code_error">Codul introdus este incorect</string>
+    <string name="blutooth_permission_desc_new">Pentru descoperirea dispozitivelor din apropiere care sunt gata de conectare</string>
     <string name="btn_got_it">Am înțeles</string>
     <string name="btn_install_complete">Instalat</string>
     <string name="btn_mi_cloud_install_complete">Am instalat aplicația</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Apel în desfășurare</string>
     <string name="call_notification_screening_text">Se filtrează un apel primit</string>
     <string name="calllog">Istoric apel</string>
+    <string name="camera_permission_content">Pentru descoperirea dispozitivelor din apropiere</string>
     <string name="cancel">Anulează</string>
     <string name="cancel_moving_dialog_message">Opriți importarea acum?</string>
     <string name="cancel_moving_dialog_title">Opriți importarea</string>
@@ -150,8 +155,10 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="connection_tips_owner_title">Dacă dispozitivul vechi este un telefon Mi:</string>
     <string name="connection_tips_owner_title_global">Instalați cea mai recentă versiune a Mi Mover:</string>
     <string name="contact_records_permission_desc">Pentru transferul istoricului apelurilor pe alte dispozitive</string>
+    <string name="contact_records_permission_desc_new">Pentru transferul istoricului apelurilor pe noul dispozitiv</string>
     <string name="contacts">Contacte</string>
     <string name="contacts_permission_desc">Pentru transferul contactelor pe alte dispozitive</string>
+    <string name="contacts_permission_desc_new">Pentru transferul contactelor pe noul dispozitiv</string>
     <string name="contains_unauthorized_data">Conține date neautorizate</string>
     <string name="copy">Copiați</string>
     <string name="current_user_not_supported_summary">Setările actuale ale sistemului restricționează transferul datelor folosind Mi Mover.</string>
@@ -180,6 +187,17 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="dialog_rating_desc_less">Spuneți-ne câteva sugestii pentru a putea îmbunătăți aplicația noastră</string>
     <string name="dialog_rating_desc_perfect">Mulțumesc! Evaluați și Mi Mover în GetApps?</string>
     <string name="dialog_rating_title">Evaluați Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"Pentru a transfera date de pe vechiul dispozitiv pe cel nou, această aplicație trebuie să se conecteze la internet și necesită următoarele permisiuni:
+• Accesarea fotografiilor, fișierelor audio, calendarului și videoclipurilor
+• Accesarea mesajelor, contactelor și istoricului apelurilor
+• Accesarea spațiului de stocare
+• Accesarea listei de aplicații instalate pe dispozitiv"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Pentru a transfera date de pe vechiul dispozitiv pe cel nou, această aplicație trebuie să se conecteze la internet și necesită următoarele permisiuni:
+• Accesarea fotografiilor, fișierelor audio, calendarului și videoclipurilor
+• Accesarea mesajelor, contactelor și istoricului apelurilor
+• Accesarea spațiului de stocare
+• Accesarea listei de aplicații instalate pe dispozitiv"</string>
+    <string name="dialog_request_all_permission_title_new">Permisiuni necesare</string>
     <string name="dialog_request_network_btn_negative">Ieşi</string>
     <string name="dialog_request_network_btn_positive">De acord</string>
     <string name="dialog_request_permission_message">Bine ați venit la Mi Mover! Puteți utiliza această aplicație pentru a transfera date de pe vechiul dispozitiv pe unul nou. Datele vor fi transferate între cele două dispozitive și nu vor fi încărcate pe serverele noastre. Această aplicație trebuie să se conecteze la internet și necesită următoarele permisiuni pentru a putea funcționa normal:</string>
@@ -188,6 +206,8 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="dialog_request_permission_message_extra_title">Permisiuni obligatorii</string>
     <string name="dialog_request_permission_message_global">Această aplicație are nevoie de următoarele permisiuni pentru a putea funcționa normal:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Pentru a înțelege pe deplin drepturile dumneavoastră ca utilizator, precum și modurile în care vă folosim datele, citiți și acceptați &lt;a href='%1s'>Acordul utilizatorului la Sistemul de operare Xiaomi&lt;/a> și &lt;a href='%2s'>Politica de confidențialitate Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Permiteți acestei aplicații să se conecteze la internet și acordați permisiunile obligatorii enumerate mai sus. Pentru a înțelege pe deplin drepturile dvs. ca utilizator, precum și modurile în care utilizăm datele dvs., citiți și acceptați &lt;a href='%1s'>Acordul utilizatorului a sistemului de operare Xiaomi&lt;/a> și &lt;a href='%2s'>Politica de confidențialitate Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Bine ați venit la Mi Mover! Puteți folosi această aplicație pentru a transfera date de pe vechiul dispozitiv pe unul nou. Datele vor fi transferate între cele două dispozitive și nu vor fi încărcate pe serverele noastre.</string>
     <string name="dialog_request_permission_message_provision_link">În același timp, pentru a înțelege pe deplin drepturile dumneavoastră ca utilizator, precum și modurile în care vă utilizează datele, citiți și acceptați %1$s și %2$s.</string>
     <string name="dialog_request_permission_title">Atenție</string>
     <string name="dialog_request_permission_title_global">Permisiuni necesare</string>
@@ -367,9 +387,12 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="icloud_signin_fail_message">ID-ul dvs. Apple a fost blocat din motive de securitate. Accesați iforgot.apple.com și urmați instrucțiunile.</string>
     <string name="icloud_start_now">Utilizați date mobile</string>
     <string name="icloud_verify_tips">Atingeți \"Permite\" pe dispozitivul dvs. iOS și introduceți codul care apare aici.</string>
+    <string name="idm_discovery_summary_pad">Se pare că activezi acum un dispozitiv nou. Transferați elemente de pe acest dispozitiv pe cel nou?</string>
+    <string name="idm_discovery_title_pad">Transferați elementele pe noul dispozitiv</string>
     <string name="im_recipient">Sunt destinatar</string>
     <string name="im_sender">Sunt expeditor</string>
     <string name="image">Imagini</string>
+    <string name="image_video_permission_desc_new">Pentru transferul fotografiilor și videoclipurilor pe noul dispozitiv</string>
     <string name="import_again">Importați din nou</string>
     <string name="import_data_from_icloud">Importați date din iCloud</string>
     <string name="install_app_dialog_title">Nu s-au găsit dispozitive în apropiere</string>
@@ -395,6 +418,8 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="lack_perm_title">Permisiuni necesare</string>
     <string name="launcher">Aspect Ecran principal</string>
     <string name="loading_data">Doar o secundă…</string>
+    <string name="location_permission_content_no_provisioned">Acordă această permisiune pentru a te putea conecta la hotspot-ul unui dispozitiv din apropiere. Dacă nu acorzi această permisiune, nu vei putea transfera elemente.</string>
+    <string name="location_permission_content_provisioned">Pentru conectarea la hotspot-ul unui dispozitiv din apropiere</string>
     <string name="location_permission_desc">Pentru găsirea de dispozitive în apropiere</string>
     <string name="location_permission_request">Pentru conectarea la alte dispozitive în apropiere</string>
     <string name="lockscreen_access">Zona de model</string>
@@ -423,6 +448,8 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="manual_connection_title">Conectați-vă la dispozitivul vechi manual</string>
     <string name="manual_connection_title_pad">Conectați dispozitivul vechi la hotspot</string>
     <string name="manual_connection_title_phone">Conectați dispozitivul vechi la hotspot</string>
+    <string name="manual_disconnect_guest">Dispozitivul nou a fost deconectat. Reconectați-l pentru a continua transferul.</string>
+    <string name="manual_disconnect_host">Dispozitivul vechi a fost deconectat. Reconectați-l pentru a continua transferul.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover trebuie să acceseze toate fișierele de pe acest dispozitiv pentru a le putea muta de pe vechiul dispozitiv pe unul nou.</string>
     <string name="message_request_package_stats_perm">Mi Mover are nevoie de această permisiune pentru a afla ce aplicații sunt instalate pe un dispozitiv și pentru a transfera aceste aplicații pe altul.</string>
     <string name="midnight">Noapte</string>
@@ -513,6 +540,7 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="more">Mai multe</string>
     <string name="morning">Dimineaţa</string>
     <string name="msg_permission_desc">Pentru transferul mesajelor pe alte dispozitive</string>
+    <string name="msg_permission_desc_new">Pentru transferul de SMS-uri și MMS-uri către alte dispozitive</string>
     <string name="name_password_not_consistent">ID-ul Apple și parola introdusă nu se potrivește</string>
     <string name="need_location_permission_confirm">Setări</string>
     <string name="need_location_permission_summary">Permiteți ca Mi Mover să acceseze locația dvs. pentru a putea găsi dispozitive în apropiere.</string>
@@ -522,6 +550,20 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="need_more_memory_title">Spațiu de stocare insuficient</string>
     <string name="new_app_name">Versiune nouă</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Date protejate prin drepturi de autor</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Aplicațiile de sistem și datele de la alte mărci pot fi incompatibile cu Mi Mover și nu pot fi transferate.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Aplicațiile și datele care nu sunt compatibile cu noul dispozitiv nu pot fi transferate.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Unele setări și date ale telefonului sunt legate de cartela SIM. Introducerea cartelei SIM în noul dispozitiv va transfera aceste date.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Unele date ale aplicației</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Date Al doilea spațiu</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Date Al doilea spațiu</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Date legate de confidențialitate și securitate</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Cardurile bancare și cheile mașinii nu pot fi transferate.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Temele și imaginile de fundal sunt supuse unor limite privind rezoluția ecranului și nu pot fi transferate între anumite modele.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Din cauza limitărilor protocolului Bluetooth, înregistrările de asociere pentru căști, difuzoare și alte dispozitive Bluetooth nu pot fi transferate.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Statisticile operaționale, cum ar fi consumul de energie, timpul petrecut pe ecran și utilizarea datelor mobile, nu pot fi transferate.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Date asociate cu un anumit model de dispozitiv</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Ce date nu pot fi transferate prin Mi Mover?</string>
     <string name="new_trans_intro_desc_2">Nu este nevoie să introduceți parola în noua versiune a lui Mi Mover. Trebuie doar să deschideți Mi Mover pe dispozitivul dvs. vechi, atingeți \"Sunt expeditor\" și atingeți numele la hotspot pentru a vă conecta.</string>
     <string name="new_trans_intro_desc_2_pad">Nu este nevoie să introduci parola hotspotului în noua versiune de Mi Mover. Pur și simplu deschide Mi Mover pe vechiul dispozitiv, atinge \"Sunt un expeditor\" și atinge numele hotspotului pentru a te conecta.</string>
     <string name="new_trans_intro_desc_2_phone">Nu este nevoie să introduci parola hotspotului în noua versiune de Mi Mover. Pur și simplu deschide Mi Mover pe vechiul dispozitiv, atinge \"Sunt un expeditor\" și atinge numele hotspotului pentru a te conecta.</string>
@@ -532,18 +574,18 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="new_trans_intro_desc_6_pad">Datele aplicației nu pot fi transferate deoarece Mi Mover nu are permisiunile necesare pe dispozitivele non-Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Datele aplicației nu pot fi transferate deoarece Mi Mover nu are permisiunile necesare pe dispozitivele non-Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover va putea să continue de unde ați întrerupt. Cu toate acestea, poate fi necesar să începeți din nou dacă problemele de compatibilitate ale dispozitivului vă împiedică să reluați transferul întrerupt.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover va putea să continue de unde ați întrerupt. Cu toate acestea, poate fi necesar să începeți din nou dacă problemele de compatibilitate ale dispozitivului vă împiedică să reluați transferul întrerupt.</string>
     <string name="new_trans_intro_desc_8">Istoricul WeChat de pe dispozitivul vechi va suprascrie istoricul WeChat al noului dispozitiv în timpul transferului.</string>
+    <string name="new_trans_intro_desc_8_pad">Istoricul WeChat de pe dispozitivul vechi va suprascrie istoricul WeChat al noului dispozitiv în timpul transferului.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Magazin Play sau atingeți aici: %2$s.
 %3$d. Dacă hotspot-ul tot nu va apărea în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspot-ului."</string>
     <string name="new_trans_intro_desc_new_click">Descarcă</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Google Play sau <Data>&lt;a href=%2$s>atingeți aici&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspotul tot nu apare în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspotului."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările WLAN și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Google Play sau <Data>&lt;a href=%2$s>atingeți aici&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspotul tot nu apare în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspotului."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările WLAN și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Magazinul Google Play sau <Data>&lt;a href=%2$s>atinge aici&lt;/a></Data>".
+%3$d. Dacă hotspotul tot nu apare în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspotului."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Asigurați-vă că Mi Mover de pe noul dispozitiv este actualizat. Puteți descărca cea mai recentă versiune de Mi Mover din Google Play sau <Data>&lt;a href=%2$s>atingeți aici&lt;/a></Data>".
+%3$d. Dacă hotspotul tot nu apare în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și atingeți numele hotspotului."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Asigurați-vă că aplicația Mi Mover de pe dispozitivul dvs. nou este actualizată. Puteți descărca cea mai recentă versiune a aplicației Mi Mover din GetApps sau <Data>&lt;a href=%2$s>puteți apăsa aici&lt;/a></Data>".
+%3$d. Dacă hotspot-ul nu va apărea în Mi Mover în continuare, deschideți setările WLAN și verificați dacă îl puteți vedea acolo. Dacă da, reveniți la Mi Mover și apăsați pe numele hotspot-ului."</string>
     <string name="new_trans_intro_desc_old">%d. Dacă hotspotul încă nu va apărea în Mi Mover, deschideți setările Wi-Fi și verificați dacă îl puteți vedea acolo. Dacă da, du-te înapoi la Mi Mover și atinge numele hotspot-ului.</string>
     <string name="new_trans_intro_question_1">%d. De ce nu pot vedea hotspot-ul noului dispozitiv pe cel vechi?</string>
     <string name="new_trans_intro_question_1_pad">%d. De ce nu pot vedea hotspotul noului dispozitiv pe cel vechi?</string>
@@ -573,15 +615,22 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="not_set">Nesetată</string>
     <string name="not_support_data_content1">%d. Elemente specifice modelului dispozitivului</string>
     <string name="not_support_data_content2">%d. Date aplicație</string>
+    <string name="not_support_data_content2_new">%d. Date protejate prin drepturi de autor</string>
     <string name="not_support_data_content3">%d. Date Al doilea spațiu</string>
+    <string name="not_support_data_content3_new">%d. Date legate de confidențialitate și securitate</string>
     <string name="not_support_data_content4">%d. Aplicații duale</string>
+    <string name="not_support_data_content4_new">%d. Unele date ale aplicației</string>
     <string name="not_support_data_content_2">%d. Aplicații selectate și date aplicație</string>
     <string name="not_support_data_link">Elemente care nu pot fi transferate</string>
     <string name="not_support_data_summary1">Teme, imagini de fundal, carduri transport și carduri cheie nu pot fi transferate utilizând Mi Mover.</string>
+    <string name="not_support_data_summary1_new">Cardurile bancare și cheile de mașină nu pot fi transferate. Temele și imaginile de fundal sunt supuse unor limite privind rezoluția ecranului și nu pot fi transferate între anumite modele.</string>
     <string name="not_support_data_summary2">Datele aplicației (cum ar fi istoricul conversațiilor) nu pot fi transferate.</string>
+    <string name="not_support_data_summary2_new">Teme, fonturi, pictograme mari, Teme Întotdeauna pe ecran și widget-urile achiziționate prin Contul Xiaomi care sunt protejate prin drepturi de autor nu pot fi transferate. Conectați-vă cu Contul Xiaomi pe noul dispozitiv și descărcați-le din nou.</string>
     <string name="not_support_data_summary3">Datorită restricțiilor de sistem, elementele din Al doilea spațiul nu pot fi transferate utilizând Mi Mover.</string>
+    <string name="not_support_data_summary3_new">Amprentele, datele faciale și alte date legate de proprietatea dispozitivului, securitatea financiară și confidențialitatea utilizatorului nu pot fi transferate de pe vechiul dispozitiv sub nicio formă. Aceasta include și date din aplicații financiare (de exemplu: servicii bancare mobile).</string>
     <string name="not_support_data_summary4">De asemenea, aplicațiile duale și datele lor nu pot fi transferate. Cu toate acestea, puteți transfera aplicațiile principale corespunzătoare.</string>
     <string name="not_support_data_summary_2">Unele aplicații nu pot fi transferate din cauza restricțiilor de confidențialitate din Magazinul Play.</string>
+    <string name="not_support_data_summary_new">Aplicațiile de sistem și datele de la alte mărci pot fi incompatibile cu Mi Mover și nu pot fi transferate.</string>
     <string name="not_support_data_title">Elemente care nu pot fi transferate</string>
     <string name="note">Note</string>
     <string name="nothing_chosen">Selectați mai întâi elementele</string>
@@ -641,27 +690,39 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="permission_alert_message_usage_access">Mi Mover trebuie să acceseze statisticile de utilizare a aplicației. Oferă-i lui Mi Mover permisiunile necesare în Setări.</string>
     <string name="permission_alert_title">Permisiuni necesare</string>
     <string name="permission_bluetooth_summary">Pentru găsirea dispozitivelor disponibile în apropiere</string>
+    <string name="permission_bluetooth_summary_new">Pentru găsirea dispozitivelor disponibile în apropiere</string>
     <string name="permission_bluetooth_title">Activare/dezactivare Bluetooth</string>
     <string name="permission_calendar_summary">Pentru transferul evenimentelor din calendar</string>
     <string name="permission_calendar_title">Acces la calendar</string>
     <string name="permission_calender_summary">Pentru mutarea evenimentelor de pe vechiul dispozitiv pe cel nou</string>
     <string name="permission_calender_summary_global">Pentru transferul evenimentelor din calendar pe dispozitivul nou</string>
+    <string name="permission_calender_summary_new">Pentru mutarea evenimentelor de pe vechiul dispozitiv pe cel nou</string>
     <string name="permission_calender_title">Accesare evenimente din calendar</string>
+    <string name="permission_calender_title_new">Accesare evenimente calendar</string>
     <string name="permission_call_log_summary">Pentru transferul istoricului apelurilor pe dispozitivul nou</string>
+    <string name="permission_call_log_summary_new">Pentru transferul istoricului apelurilor pe dispozitivul nou</string>
     <string name="permission_call_log_title">Se accesează istoricul apelurilor</string>
     <string name="permission_contacts_summary">Pentru transferul contactelor pe dispozitivul nou</string>
+    <string name="permission_contacts_summary_new">Pentru transferul contactelor pe dispozitivul nou</string>
     <string name="permission_contacts_title">Se accesează contactele</string>
     <string name="permission_grant_request">Pentru a putea transfera acest articol, Mi Mover are nevoie de permisiunea \"%1$s\".</string>
     <string name="permission_locale_summary">Pentru conectarea la dispozitive din apropiere</string>
     <string name="permission_locale_title">Se accesează locația</string>
+    <string name="permission_locale_title_new">Se accesează locația</string>
     <string name="permission_message_summary">Pentru transferul mesajelor pe dispozitivul nou</string>
+    <string name="permission_message_summary_new">Pentru transferul mesajelor pe dispozitivul nou</string>
     <string name="permission_message_title">Accesarea conținutului SMS</string>
     <string name="permission_request_title">Este necesară permisiunea \"%1$s\"</string>
     <string name="permission_setting_button">Setări</string>
     <string name="permission_storage_summary">Pentru transferul fișierelor și fotografiilor pe dispozitivul nou</string>
+    <string name="permission_storage_summary_new">Pentru transferul fișierelor și fotografiilor pe dispozitivul nou</string>
     <string name="permission_storage_title">Accesarea și salvarea fișierelor și fotografiilor stocate pe dispozitiv</string>
+    <string name="permission_storage_title_new">Accesare stocare</string>
     <string name="permission_wifi_summary">Pentru transferul articolelor pe dispozitivul nou</string>
+    <string name="permission_wifi_summary_new">Pentru transferul elementelor pe dispozitivul nou</string>
     <string name="permission_wifi_title">Activare/dezactivare Wi-Fi</string>
+    <string name="permission_wifi_title_new">Activare/dezactivare Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Activare/Dezactivare WLAN</string>
     <string name="pm">PM</string>
     <string name="preference_copied">„%1$s” a fost copiat în clipboard.</string>
     <string name="privacy_agree">De acord</string>
@@ -700,7 +761,7 @@ Vizitați https://appleid.apple.com/#!&amp;page=signin pentru a opri"</string>
     <string name="receiver_finish_not_transferred">Nu este transferat</string>
     <string name="receiver_finish_title">Ești gata!</string>
     <string name="receiver_finish_transferred">Transferat</string>
-    <string name="recent_one_year_formatted">Ultimul an</string>
+    <string name="recent_one_year_formatted">Ultimul %d an</string>
     <string name="recent_seven_days_formatted">Ultimele %d zile</string>
     <string name="recent_thirty_days_formatted">Ultimele %d zile</string>
     <string name="reconnect">Conectați din nou</string>
@@ -749,6 +810,7 @@ Eliberați cel puțin %s."</string>
     <string name="scanner_quit_alert_message_phone">Va trebui să conectați din nou cele două dispozitive dacă închideți Mi Mover acum. Închideți oricum?</string>
     <string name="scanner_quit_alert_title">Renunțați acum?</string>
     <string name="scanner_send_dialog_btn">Am înțeles</string>
+    <string name="scanner_send_dialog_btn_i_know">Am înțeles</string>
     <string name="scanner_send_dialog_message">Nu opriți Wi-Fi-ul sau comutați între rețele în timpul transferului.</string>
     <string name="scanner_size_selected">Selectate: %s</string>
     <string name="scanner_subtitle_prd">Citiți cu atenție următoarele informații înainte de a verifica fiecare element și de a începe procesul de transfer.</string>
@@ -756,6 +818,7 @@ Eliberați cel puțin %s."</string>
     <string name="scanner_title_prd">Informații importante</string>
     <string name="scanner_title_tip">Selectați elemente pentru a transfera</string>
     <string name="scanner_wechat_overwrite_hit">Datorită restricțiilor pentru aplicațiile terță parte, istoricul de la chat-uri și alte date despre aplicații pe noul dispozitiv vor fi înlocuite cu cele de la cel vechi, după finalizarea transferului.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Din cauza restricțiilor aplicațiilor terțe, istoricul chat-urilor și alte date ale aplicațiilor de pe noul dispozitiv vor fi înlocuite cu cele de pe cel vechi după finalizarea transferului.</string>
     <string name="search_menu_title">Căutați</string>
     <string name="searching_for_new_device">Se caută noul dispozitiv…</string>
     <string name="searching_for_new_device_pad">Se caută noul dispozitiv…</string>
@@ -889,27 +952,42 @@ Eliberați cel puțin %s."</string>
     <string name="time_spent">Timp: %1$s</string>
     <string name="tips_button_hint">Marcați fiecare element pentru a confirma mai întâi</string>
     <string name="tips_cover_content">Aceste date (inclusiv istoricul de chat) vor fi suprascrise dacă continuați.</string>
+    <string name="tips_cover_content_pad">Aceste date (inclusiv istoricul de chat) vor fi suprascrise dacă continuați.</string>
     <string name="tips_cover_content_tablet">Aceste date (inclusiv istoricul de chat) vor fi suprascrise dacă continuați.</string>
     <string name="tips_cover_title">%1$d. Există deja date pentru următoarele aplicații pe noul dispozitiv.</string>
+    <string name="tips_cover_title_pad">%1$d. Există deja date pentru următoarele aplicații pe noul dispozitiv.</string>
     <string name="tips_cover_title_tablet">%1$d. Există deja date pentru următoarele aplicații pe noul dispozitiv.</string>
     <string name="tips_dual_app_content">Aplicațiile duale nu pot fi transferate. Numai aplicația principală și datele acesteia pot fi transferate.</string>
     <string name="tips_dual_app_title">%d. Următoarele aplicații sunt aplicații duale.</string>
+    <string name="tips_dual_app_title_new">%d. Datele aplicațiilor duale nu pot fi transferate.</string>
     <string name="tips_hot_content">Acest lucru este normal. Dispozitivul se va răci o dată ce transferul se încheie.</string>
+    <string name="tips_hot_content_new">Acest lucru este normal. Dispozitivul se va răci o dată ce transferul se încheie.</string>
     <string name="tips_hot_title">%d. Dispozitivul dvs. s-ar putea încălzi în timpul procesului de transfer.</string>
+    <string name="tips_hot_title_content">%d. Dispozitivul se poate încălzi.</string>
     <string name="tips_private_space_content">Din cauza restricțiilor de sistem, datele din Al doilea spațiu nu pot fi transferate.</string>
+    <string name="tips_private_space_content_pad">Acest lucru se datorează restricțiilor de sistem.</string>
+    <string name="tips_private_space_content_phone">Acest lucru se datorează restricțiilor de sistem.</string>
     <string name="tips_private_space_content_tablet">Din cauza restricțiilor de sistem, datele din Al doilea spațiu nu pot fi transferate.</string>
     <string name="tips_private_space_title">%d. Al doilea spațiu este activat.</string>
+    <string name="tips_private_space_title_pad">%d. Datele din Al doilea spațiu nu pot fi transferate.</string>
+    <string name="tips_private_space_title_phone">%d. Datele din Al doilea spațiu nu pot fi transferate.</string>
     <string name="tips_private_space_title_tablet">%d. Al doilea spațiu este activat.</string>
     <string name="tips_prudent_operation_content">Întreruperea conexiunii va opri transferul.</string>
     <string name="tips_prudent_operation_title">%d. Nu dezactivați și nu schimbați hotspot-ul Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new">%d. Nu dezactivați și nu schimbați hotspot-ul Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Nu dezactivați și nu schimbați hotspot-ul WLAN.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Nu dezactivați și nu schimbați hotspot-ul WLAN.</string>
     <string name="tips_secret_content_one">Unele elemente private de pe vechiul dispozitiv (%1$s) nu pot fi transferate. Eliminați-le din dosarul privat pentru a le putea transfera.</string>
+    <string name="tips_secret_content_one_new">Unele elemente private de pe vechiul dispozitiv (%1$s) nu pot fi transferate. Eliminați-le din dosarul privat pentru a le putea transfera.</string>
     <string name="tips_secret_content_three">Unele elemente private de pe vechiul dispozitiv (%1$s, %2$s, %3$s) nu pot fi transferate. Eliminați-le din dosarul privat pentru a le putea transfera.</string>
+    <string name="tips_secret_content_three_new">Unele elemente private de pe vechiul dispozitiv (%1$s, %2$s, %3$s) nu pot fi transferate. Eliminați-le din dosarul privat pentru a le putea transfera.</string>
     <string name="tips_secret_content_two">Unele elemente private de pe vechiul dispozitiv (%1$s, %2$s) nu pot fi transferate. Eliminați-le din dosarul privat pentru a le putea transfera.</string>
+    <string name="tips_secret_content_two_new">Unele elemente private de pe vechiul dispozitiv (%1$s, %2$s) nu pot fi transferate. Eliminați-le din dosarul privat pentru a le putea transfera.</string>
     <string name="tips_secret_file">fișiere</string>
     <string name="tips_secret_gallery">albume</string>
     <string name="tips_secret_note">note</string>
     <string name="tips_secret_title">%d. Unele elemente private nu pot fi transferate.</string>
+    <string name="tips_secret_title_content">%d. Elementele private nu pot fi transferate.</string>
     <string name="tips_subtitle">Citiți și confirmați următoarele memento-uri înainte de a continua.</string>
     <string name="title_compatibility_mode">Activați Modul de compatibilitate a aplicațiilor</string>
     <string name="title_open_wlan">Activează Wi-Fi</string>
@@ -951,10 +1029,12 @@ Descarcă și Instalează Mi Mover."</string>
     <string name="trans_send_time_remained_default">Trimis: %1$s</string>
     <string name="trans_show_qr_code_label">Deschide Mi Mover pe dispozitivul vechi</string>
     <string name="trans_show_qr_code_label_for_pad">Deschide Mi Mover pe dispozitivul vechi</string>
+    <string name="trans_show_qr_code_label_pad">Deschide Mi Mover pe dispozitivul vechi</string>
     <string name="trans_sync_transfer_data_list">Selectați elementele de transferat pe dispozitivul vechi</string>
     <string name="trans_sync_transfer_data_list_apple">Transferați elemente de pe dispozitivul dvs. Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Doar o secundă…</string>
     <string name="trans_sync_transfer_data_list_pad">Selectați elementele de pe vechiul dispozitiv pentru a transfera</string>
+    <string name="trans_sync_transfer_data_list_phone">Selectați elementele de transferat pe dispozitivul vechi</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Selectați elementele de pe vechiul dispozitiv și atingeți \"Trimite\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Selectați elementele de pe vechiul dispozitiv și atingeți \"Trimite\".</string>
     <string name="trans_time_format_second">Mai puțin de %d minut</string>
@@ -977,6 +1057,7 @@ Descarcă și Instalează Mi Mover."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Progresul transferului va fi salvat. Veți putea relua transferul de unde ați rămas data viitoare când conectați cele două dispozitive.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Progresul transferului va fi salvat. Veți putea relua transferul de unde ați rămas data viitoare când conectați cele două dispozitive.</string>
     <string name="transfer_quit_alert_title">Atenție</string>
     <string name="transfer_snap_error">Nu s-a putut transfera</string>
     <string name="transfer_snap_new_receiving">Se primește…</string>

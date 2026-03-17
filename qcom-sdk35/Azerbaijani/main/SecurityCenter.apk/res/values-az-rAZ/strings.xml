@@ -169,6 +169,7 @@
     <string name="allow_onetime">Bir dəfə icazə ver</string>
     <string name="already_close_gamebooster">Game Turbo bağlıdır</string>
     <string name="am">GƏ</string>
+    <string name="anitispam_intercept_record">Əngəlli siyahısı tarixçəsi</string>
     <string name="anti_disturb_msg_detail">Gələn zəng bildirişlərindən başqa bütün bildirişləri söndür</string>
     <string name="anti_disturb_msg_title">NE</string>
     <string name="antispam_add_black_number_message">Daxil etdiyiniz nömrə qısadır. Bu rəqəmlərlə başlayan bütün nömrələr blok edilsin?</string>
@@ -996,7 +997,11 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="call_delete_all_hint">Bütün əngəllənmiş zənglər silinsin?</string>
     <string name="call_delete_hint">Bu nömrədən gələn bütün əngəllənmiş zənglər silinsin?</string>
     <string name="call_delete_title">Zəng tarixçəsini sil</string>
+    <string name="call_empty_number">Boş nömrələr</string>
+    <string name="call_forwarding_block">Yönləndirilmiş zənglər</string>
+    <string name="call_intercept_settings">Zəng əngəlli siyahısı tənzimləmələri</string>
     <string name="call_oversea_block">Xaricdən gələn zəngləri əngəllə</string>
+    <string name="call_overseas_block">Beynəlxalq zənglər</string>
     <string name="call_prefix">Əngəlli prefiks siyahısı</string>
     <string name="call_private">Gizli nömrələrdən gələn zəngləri əngəllə</string>
     <string name="call_stranger_block">Yadlardan gələn zəngləri əngəllə</string>
@@ -1006,12 +1011,20 @@ Lakin, bəzi əməliyyatlarınız hələ tamamlanmayıb. Razılığı geri çək
     <string name="cancel">Ləğv et</string>
     <string name="cancel_button">Ləğv et</string>
     <string name="car_sickness_relief_comment_text">Nəqliyyat vasitəsinin hərəkəti aşkar edildikdə, ekranın hər iki tərəfində nəqliyyat vasitəsinin hərəkət edib etmədiyini göstərmək üçün nöqtələr göstərilir və bu, hərəkət xəstəliyinin başlanmasını gecikdirməyə kömək edə bilər.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Nöqtələr nəqliyyat vasitəsinin hərəkətini göstərmək üçün ekranın hər iki tərəfində göstəriləcək, bu hərəkət zamanı ürəkbulanmanı yubatmağa kömək edə bilər. 
+
+Bu funksiyanı İdarəetmə mərkəzində Aça və Bağlaya bilərsən."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Nöqtələr nəqliyyat vasitəsinin hərəkətini göstərmək üçün ekranın hər iki tərəfində göstəriləcək, bu hərəkət zamanı ürəkbulanmanı yubatmağa kömək edə bilər. 
+
+Bu funksiyanı İdarəetmə mərkəzində Aça və Bağlaya bilərsən."</string>
     <string name="car_sickness_relief_comment_text_opened">"Nəqliyyat vasitəsinin hərəkətini göstərmək üçün ekranın hər iki tərəfində nöqtələr göstəriləcək, bu isə hərəkət xəstəliyinin başlamasını gecikdirməyə kömək edə bilər.
 
 Bu funksiyanı İdarəetmə mərkəzində açıb bağlaya bilərsiniz."</string>
     <string name="car_sickness_relief_example_text_1">Nəqliyyat vasitəsi sürətini artırdıqda və ya yavaşladıqda</string>
     <string name="car_sickness_relief_example_text_2">Nəqliyyat vasitəsi dönəndə və ya zolaq dəyişəndə</string>
     <string name="car_sickness_relief_exit_text">Hərəkət xəstəliyinin aradan qaldırılması işləmir</string>
+    <string name="car_sickness_relief_notification_text_close">Bağla</string>
+    <string name="car_sickness_relief_notification_text_opened">Aç</string>
     <string name="car_sickness_relief_start_text">Hərəkət xəstəliyinin aradan qaldırılması işləyir</string>
     <string name="car_sickness_remind_time_title">Hərəkət göstəriciləri</string>
     <string name="car_sickness_title">Hərəkət xəstəliyinin aradan qaldırılması</string>
@@ -1762,7 +1775,7 @@ Nömrə istisnalara əlavə ediləcək, amma əvvəlcədən əngəllənmiş elem
 %3$d. Bu xüsusiyyət yalnız Materik Çində dəstəklənir.
 %4$d. Bu funksiya yalnız 5G-SA şəbəkələrində işləyir."</string>
     <string name="function_shield_auto_bright">Avtomatik parlaqlığı bağla</string>
-    <string name="function_shield_eye_shield">Oxuma Rejimini bağla</string>
+    <string name="function_shield_eye_shield">Göz rahatlığı rejimini Bağla</string>
     <string name="function_shield_pull_notification_bar">Bildiriş panelini açma</string>
     <string name="function_shield_settings_title">Oyun oynarkən bu xüsusiyyətləri məhdudlaşdırın</string>
     <string name="function_shield_summary">Oyun oynarkən seçilən sistem xüsusiyyətlərini məhdudlaşdırın</string>
@@ -2635,6 +2648,12 @@ mənzərə rejiminə keçin!"</string>
     <string name="install_title">USB vasitəsilə quraşdır</string>
     <string name="install_type_instant">Ani tətbiq</string>
     <string name="installing">Quraşdırılır</string>
+    <string name="intercept_all_mark_calls">\"%s\" kimi etiketlənmiş bütün zənglər əngəllənsin?</string>
+    <string name="intercept_calls_nofify_hide_text">Digər etiketlənmiş nömrələr üçün əngəlləmə qaydalarını təyin etmək üçün buraya toxunun</string>
+    <string name="intercept_calls_notify_title">Bu etiketli zənglər avtomatik olaraq dayandırılacaq. İndi əngəllənsin?</string>
+    <string name="intercept_garbage_msg">Spam mesajlar</string>
+    <string name="intercept_record">Tarixçə</string>
+    <string name="intercept_strange_msg">Tanımadığınız şəxslərdən gələn mesajlar</string>
     <string name="international_Ad">Reklam</string>
     <string name="international_roaming_setting">Trafik rouminqi</string>
     <string name="intl_app_manager_card_permission_title">Gizlilik &amp; icazələr</string>
@@ -2828,6 +2847,7 @@ gözlənilir"</string>
     <string name="mark_harass_block">Zəhlətökən olaraq bildir</string>
     <string name="mark_harass_block_large">Zəhlətökənlər</string>
     <string name="mark_harass_time_setting">Bir neçə dəfə artıq zəhlətökən olaraq bildirilmiş nömrələri əngəllə</string>
+    <string name="mark_num_open_intercept">Əngəllə</string>
     <string name="mark_number_agent">Vasitəçi</string>
     <string name="mark_number_fraud">Fırıldaqçı</string>
     <string name="mark_number_harass">Narahatçılıq</string>
@@ -4638,11 +4658,11 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="prompt_all">Hamısı üçün soruş</string>
     <string name="prompt_input_time_illegal">Bu vaxt təyin edilmədi, vaxtı dəyişdirin və yenidən cəhd edin</string>
     <string name="protect_eye_dont_open">İndi yox</string>
-    <string name="protect_eye_hint_summry">Daha yaxşı oxuma təcrübəsi üçün Oxuma rejimini aktiv edin</string>
-    <string name="protect_eye_hint_title">Göz rahatlığı</string>
+    <string name="protect_eye_hint_summry">Daha yaxşı oxuma təcrübəsi üçün Göz rahatlığı rejimini aktiv edin</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Aktiv et</string>
-    <string name="protect_eye_opened_summry">Tənzimləmələr > Ekran &amp; parlaqlıq > Göz rahatlığında tərcihləri redaktə edin</string>
-    <string name="protect_eye_opened_title">Oxuma rejimi açıqdır</string>
+    <string name="protect_eye_opened_summry">Tənzimləmələr > Ekran &amp; parlaqlıq > Xiaomi EyeCare Shield bölməsində tərcihləri redaktə edin</string>
+    <string name="protect_eye_opened_title">Göz rahatlığı rejimini aç</string>
     <string name="protocol_exception_title">Şəbəkə protokolu diaqnostikası</string>
     <string name="protocol_loop_back_exception_summary">Yerli dövr testi uğursuz oldu. Bu problemi bildirmək üçün Geri bildiriş tətbiqinə gedin və cihazınızdan bir xəta hesabatı göndərin.</string>
     <string name="province_selected_talkback" />
@@ -4706,6 +4726,7 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="repeat_type">Təkrarla</string>
     <string name="repeated_marked_number_summary">%d dəqiqə ərzində eyni bildirilən nömrədən ikinci bir zəngi əngəlləməyin</string>
     <string name="repeated_marked_number_title">Bildirilmiş nömrələrdən gələn təkrarlanan zəngləri əngəlləmə</string>
+    <string name="repeated_unknown_number_summary">Eyni naməlum nömrədən gələn ikinci zəngi %d dəqiqə ərzində əngəlləmə</string>
     <string name="replace_dns">DNS-i avtomatik olaraq dəyişdir</string>
     <string name="report">Bildir</string>
     <string name="report_error">Mesaj bildirilə bilmədi</string>
@@ -4945,6 +4966,7 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="sms_detail_fragment_title_traffic">Qalan məlumat</string>
     <string name="sms_filter">Ağıllı filtr</string>
     <string name="sms_guard_alert">İlkin Mesajlaşma tətbiqini dəyişdi. Xiaomi Mesajlaşma SMS spamı bloklaya bilməyəcək.</string>
+    <string name="sms_intercept_settings">Mesaj əngəlli siyahısı tənzimləmələri</string>
     <string name="sms_keywords">Əngəlli açar söz siyahısı</string>
     <string name="sms_malicious_url">Pisniyyətli internet ünvanı olan SMS-ləri əngəllə</string>
     <string name="sms_prefix">Əngəlli prefiks siyahısı</string>
@@ -5146,9 +5168,26 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="st_call_intercept_reported">Bildirilmiş nömrələrdən gələn zəngləri əngəllə</string>
     <string name="st_call_intercept_stranger">Yadlardan gələn zəngləri əngəllə</string>
     <string name="st_call_intercept_unknown">Gizli nömrələrdən gələn zəngləri əngəllə</string>
+    <string name="st_call_mark_agent">Daşınmaz əmlak</string>
+    <string name="st_call_mark_agent_intercept">Daşınmaz əmlak</string>
+    <string name="st_call_mark_decoration">Ev təmiri</string>
+    <string name="st_call_mark_decoration_intercept">Ev təmiri</string>
+    <string name="st_call_mark_edu">Təhsil</string>
+    <string name="st_call_mark_edu_intercept">Təhsil</string>
+    <string name="st_call_mark_high_risk">Yüksək risk</string>
+    <string name="st_call_mark_high_risk_intercept">Yüksək risk</string>
+    <string name="st_call_mark_insurance">İnvestisiya</string>
+    <string name="st_call_mark_insurance_intercept">İnvestisiya</string>
+    <string name="st_call_mark_loan">İpoteka</string>
+    <string name="st_call_mark_loan_intercept">İpoteka</string>
+    <string name="st_call_mark_sell">Reklamlar</string>
+    <string name="st_call_mark_sell_intercept">Reklamlar</string>
     <string name="st_call_other_group">Digər</string>
     <string name="st_call_settings">Əngəlli zəng siyahısı</string>
     <string name="st_call_stranger_group">Yadlardan gələn zəngləri əngəllə</string>
+    <string name="st_call_stranger_inercept_local">Naməlum nömrələri əngəllə</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">İstisnalarınızda olmayan istənilən nömrədən gələn zənglər əngəllənəcək. İndi əngəllənsin?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">İstisnalarınızda və ya kontaktlarınızda olmayan istənilən nömrədən gələn zənglər əngəllənəcək. İndi əngəllənsin?</string>
     <string name="st_confirm_call_all_dialog_summary">İstisnalarda və ya kontaktlarda olmayan hər hansı nömrədən olan zəng bloklanacaq. İndi aktiv edilsin?</string>
     <string name="st_confirm_dialog_btn_open">Əngəllə</string>
     <string name="st_confirm_dialog_summary_oversea_call">Xarici telefon nömrələrindən gələn bütün zənglər əngəllənəcək.</string>
@@ -5160,9 +5199,11 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="st_hint_add_head_number">Prefiks daxil edin</string>
     <string name="st_hint_add_phonenumber">Telefon nömrəsini daxil edin</string>
     <string name="st_hint_operatelist">Görünüşə görə bu qayda artıq mövcuddur</string>
+    <string name="st_intercept_dialog_title">Diqqət</string>
     <string name="st_mark_call_intercept_threshold_summary">Bir neçə dəfə artıq fırıldaqçı olaraq bildirilmiş nömrələri avtomatik blokla</string>
     <string name="st_mark_call_intercept_threshold_title">Blok həddi</string>
     <string name="st_mark_number_group">Bildirilmiş nömrələrdən gələn zəngləri əngəllə</string>
+    <string name="st_mark_number_net_group">Bildirilmiş nömrələri əngəllə</string>
     <string name="st_message_SMS_AntiSpam">SMS-ləri əngəllə</string>
     <string name="st_message_SMSpass">SMS-lərə icazə ver</string>
     <string name="st_message_phone_AntiSpam">Zəngləri əngəllə</string>
@@ -5175,13 +5216,26 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="st_msg_stranger_group">Yadlardan gələn mesajları əngəllə</string>
     <string name="st_settings_name">Əngəlli siyahısı tənzimləmələri</string>
     <string name="st_share_settings">SIM %d tənzimləmələrindən istifadə edin</string>
+    <string name="st_smg_intercept_all">Bütün mesajları əngəllə</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">İstisnalarınızda olmayan istənilən nömrədən və ya bölgədən gələn SMS və MMS əngəllənəcək. İndi əngəllənsin?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">İstisnalarınızda və kontaktlarınızda olmayan istənilən nömrədən və ya bölgədən gələn SMS və MMS əngəllənəcək. İndi əngəllənsin?</string>
+    <string name="st_smg_intercept_network_check">Onlayn qaydalardan istifadə edərək əngəllə</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Spam mesajlar</string>
+    <string name="st_smg_intercept_other">Əlavə tənzimləmələr</string>
+    <string name="st_smg_intercept_strange">Tanımadığınız şəxslərdən gələn mesajları əngəllə</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Xüsusi açar sözlər ehtiva edən tanımadığınız şəxslərdən gələn mesajları əngəllə</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Xüsusi nömrələrdən və bölgələrdən gələn mesajları əngəllə</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Xüsusi açar sözlər ehtiva edən tanımadığınız şəxslərdən gələn mesajları əngəlləmə</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">İstisnalarınızdakı nömrələrdən və bölgələrdən gələn mesajları əngəlləmə</string>
     <string name="st_sms_intercept_oversea">Beynəlxalq SMS</string>
     <string name="st_sub_title_customize_mode_name">Ad</string>
     <string name="st_sub_title_whiteblack_list_group">Əngəlli siyahısı</string>
     <string name="st_sum_call_wait">Kənarda mesajınız eyni zamanda gələn zənglər üçün məşğul siqnalı kimi oynadılacaq.</string>
     <string name="st_summary_blacklist_numbers">Xüsusi nömrə və ərazilərdən gələn zəng və mesajları əngəlləyin</string>
     <string name="st_summary_blacklist_numbers_international">Nömrə və ya prefiksə əsasən zəngləri bloklayın</string>
+    <string name="st_summary_intercept_blacklist_numbers">Xüsusi nömrələrdən və bölgələrdən gələn zəngləri və mesajları əngəllə</string>
     <string name="st_summary_keywords_blacklist">Mesajları əngəlləmək üçün açar sözlər əlavə edin</string>
+    <string name="st_summary_release_whitelist_numbers">İstisnalarınızdakı nömrələrdən və bölgələrdən gələn zəngləri və mesajları əngəlləmə</string>
     <string name="st_summary_special_numbers">İşarələnmiş telefon nömrələrini əngəlləyin</string>
     <string name="st_summary_whitelist_numbers">Xüsusi nömrə və ərazilərdən gələn zəng və mesajlara icazə verin</string>
     <string name="st_summary_whitelist_numbers_international">Nömrə və ya prefiksə əsasən zənglərə icazə verin</string>
@@ -5216,6 +5270,8 @@ Razılıq indi geri çəkilsin?"</string>
     <string name="st_title_markednumber_group">Bildirilmiş nömrələri əngəllə</string>
     <string name="st_title_mode_choose_group">Əngəlli siyahısı qaydaları</string>
     <string name="st_title_not_sim">Boş</string>
+    <string name="st_title_number_and_region_blacklist">Əngəllənmiş nömrələr və bölgələr</string>
+    <string name="st_title_number_and_region_whitelist">Nömrə və bölgə istisnaları</string>
     <string name="st_title_open_antispam">Əngəlli siyahısı</string>
     <string name="st_title_other_group">Digər</string>
     <string name="st_title_settings_other_group">Əlavə tənzimləmələr</string>
@@ -5375,7 +5431,7 @@ Formatlama ^2 mövcud məzmunu silir. Məzmunu itirməmək üçün onu başqa bi
     <string name="summary_default_app">%s ilkin təyin olunan sistem tətbiqi olaraq təyin edilməyib</string>
     <string name="summary_dev">Zərərli proqramların qarşısını alın və şəxsi məlumatlarınızı qoruyun</string>
     <string name="summary_do_not_disturb">NE rejimini istifadə edirsiniz.</string>
-    <string name="summary_eye_shield">Standart tənzimləmələrə geri qayıtmaq üçün Oxuma rejimini söndürün.</string>
+    <string name="summary_eye_shield">Standart tənzimləmələrə geri qayıtmaq üçün Göz rahatlığı rejimini söndürün.</string>
     <string name="summary_find_device">İstənilən yerdən cihazınızı tapın və kilidləyin</string>
     <string name="summary_first_aid_kit">Cihazınızdakı problemləri indi həll edin</string>
     <string name="summary_flow_notification">Bildiriş panelində aylıq trafik istifadəsi statistikalarınızı göstərin</string>

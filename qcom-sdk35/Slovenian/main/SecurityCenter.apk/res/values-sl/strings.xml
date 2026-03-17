@@ -196,6 +196,7 @@
     <string name="allow_onetime">Dovoli enkrat</string>
     <string name="already_close_gamebooster">Game Turbo je izklopljen</string>
     <string name="am">dop.</string>
+    <string name="anitispam_intercept_record">Zgodovina seznama blokiranih</string>
     <string name="anti_disturb_msg_detail">Izključi obvestila razen za dohodne klice</string>
     <string name="anti_disturb_msg_title">Ne moti</string>
     <string name="antispam_add_black_number_message">Vnesena številka je kratka. Želite blokirati vse številke, ki se začnejo s temi števkami?</string>
@@ -1023,6 +1024,9 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="call_delete_all_hint">Izbrišem vse blokirane klice?</string>
     <string name="call_delete_hint">Izbrišem vse blokirane klice iz te številke?</string>
     <string name="call_delete_title">Izbriši zgodovino klicev</string>
+    <string name="call_empty_number">Skrite številke</string>
+    <string name="call_forwarding_block">Preusmerjeni klici</string>
+    <string name="call_intercept_settings">Nastavitve seznama blokiranih klicev</string>
     <string name="call_notification_answer_action">Sprejmi</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Zavrni</string>
@@ -1031,6 +1035,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="call_notification_ongoing_text">Aktivni klic</string>
     <string name="call_notification_screening_text">Preverjanje dohodnega klica</string>
     <string name="call_oversea_block">Blokirani klici iz tujine</string>
+    <string name="call_overseas_block">Mednarodni klici</string>
     <string name="call_prefix">Seznam blokiranih predpon</string>
     <string name="call_private">Blokiraj klice neznanih številk</string>
     <string name="call_stranger_block">Blokiraj klice neznancev</string>
@@ -1040,12 +1045,20 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="cancel">Prekliči</string>
     <string name="cancel_button">Prekliči</string>
     <string name="car_sickness_relief_comment_text">Ko je zaznano gibanje vozila, se na obeh straneh zaslona prikažejo pike, ki kažejo, ali se vozilo premika, kar lahko pomaga odložiti nastanek potovalne slabosti.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Na obeh straneh zaslona bodo prikazane pike, ki označujejo gibanje vozila, kar lahko ublaži potovalno slabost.
+
+To funkcijo lahko vklopite ali izklopite v Nadzornem centru."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Na obeh straneh zaslona bodo dosledno prikazane pike, ki označujejo gibanje vozila, kar lahko ublaži potovalno slabost.
+
+To funkcijo lahko vklopite ali izklopite v Nadzornem centru."</string>
     <string name="car_sickness_relief_comment_text_opened">"Na obeh straneh zaslona bodo prikazane pike, ki označujejo gibanje vozila, kar lahko ublaži potovalno slabost.
 
 To funkcijo lahko vklopite ali izklopite v nadzornem središču."</string>
     <string name="car_sickness_relief_example_text_1">Ko vozilo pospeši ali upočasni hitrost</string>
     <string name="car_sickness_relief_example_text_2">Ko vozilo zavije ali zamenja vozni pas.</string>
     <string name="car_sickness_relief_exit_text">Lajšanje potovalne slabosti je prenehalo delovati</string>
+    <string name="car_sickness_relief_notification_text_close">Izklopi</string>
+    <string name="car_sickness_relief_notification_text_opened">Vklopljeno</string>
     <string name="car_sickness_relief_start_text">Lajšanje potovalne slabosti deluje</string>
     <string name="car_sickness_remind_time_title">Kazalniki gibanja</string>
     <string name="car_sickness_title">Lajšanje potovalne slabosti</string>
@@ -1877,7 +1890,7 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
 %3$d. Ta funkcija je na voljo samo na celinski Kitajski.
 %4$d. Ta funkcija deluje samo s 5G-SA omrežji."</string>
     <string name="function_shield_auto_bright">Izklopi samodejno svetlost</string>
-    <string name="function_shield_eye_shield">Izklopi Način za branje</string>
+    <string name="function_shield_eye_shield">Izklopite način za udobje oči</string>
     <string name="function_shield_pull_notification_bar">Ne odpri Plošče z obvestili</string>
     <string name="function_shield_settings_title">Med igranjem omeji naslednje funkcije</string>
     <string name="function_shield_summary">Med igranjem omeji izbrane sistemske funkcije</string>
@@ -2751,6 +2764,12 @@ Pritisnite in držite indikator za premikanje okna."</string>
     <string name="install_title">Namesti preko USB</string>
     <string name="install_type_instant">Instant aplikacija</string>
     <string name="installing">Nameščanje</string>
+    <string name="intercept_all_mark_calls">Blokiraj vse klice z oznako »%s«?</string>
+    <string name="intercept_calls_nofify_hide_text">Če želite nastaviti pravila blokiranja za druge označene številke, tapnite tukaj</string>
+    <string name="intercept_calls_notify_title">Klici s to oznako bodo samodejno končani. Želite blokirati zdaj?</string>
+    <string name="intercept_garbage_msg">Neželena sporočila</string>
+    <string name="intercept_record">Zgodovina</string>
+    <string name="intercept_strange_msg">Sporočila neznancev</string>
     <string name="international_Ad">Oglas</string>
     <string name="international_roaming_setting">Podatkovno gostovanje</string>
     <string name="intl_app_manager_card_permission_title">Zasebnost in dovoljenja</string>
@@ -2945,6 +2964,7 @@ operatera"</string>
     <string name="mark_harass_block">Prijavljen kot motnja</string>
     <string name="mark_harass_block_large">Motnje</string>
     <string name="mark_harass_time_setting">Blokiraj številke, ki so bile že nekajkrat določene kot motnje</string>
+    <string name="mark_num_open_intercept">Blokiraj</string>
     <string name="mark_number_agent">Agent</string>
     <string name="mark_number_fraud">Prevarant</string>
     <string name="mark_number_harass">Nadlegovalec</string>
@@ -4802,11 +4822,11 @@ Ali želite preklicati soglasje?"</string>
     <string name="prompt_all">Vprašaj za vse</string>
     <string name="prompt_input_time_illegal">Ni mogoče nastaviti ta čas, spremenite ga in poskusite ponovno</string>
     <string name="protect_eye_dont_open">Ne zdaj</string>
-    <string name="protect_eye_hint_summry">Vklopite način za branja za boljšo izkušnjo branja</string>
-    <string name="protect_eye_hint_title">Udobje za oči</string>
+    <string name="protect_eye_hint_summry">Vklopite način za udobje oči za boljšo izkušnjo branja</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Vklopi</string>
-    <string name="protect_eye_opened_summry">Uredite nastavitve v Nastavitve > Zaslon &amp; svetlost > Udobje za oči</string>
-    <string name="protect_eye_opened_title">Način za branje je vklopljen</string>
+    <string name="protect_eye_opened_summry">Uredite možnosti v nastavitvah > Zaslon in svetlost > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">Način za udobje oči je vklopljen</string>
     <string name="protocol_exception_title">Diagnostika protokola omrežja</string>
     <string name="protocol_loop_back_exception_summary">Test povratne povezave lokalne zanke ni uspel. Če želite prijaviti to težavo, pojdite v aplikacijo Povratne informacije in pošljite poročilo iz svoje naprave.</string>
     <string name="province_selected_talkback" />
@@ -4870,6 +4890,7 @@ Ali želite preklicati soglasje?"</string>
     <string name="repeat_type">Ponovitev</string>
     <string name="repeated_marked_number_summary">Ne blokiraj drugi klic od iste prijavljene številke v obdobju od %d minut</string>
     <string name="repeated_marked_number_title">Ne blokiraj ponovljenih klicev iz prijavljenih številk</string>
+    <string name="repeated_unknown_number_summary">Ne blokiraj drugi klic z iste neznane številke v obdobju %d minut</string>
     <string name="replace_dns">Samodejno zamenjaj DNS</string>
     <string name="report">Prijavi</string>
     <string name="report_error">Prijava sporočila ni uspela</string>
@@ -5110,6 +5131,7 @@ Ali želite preklicati soglasje?"</string>
     <string name="sms_detail_fragment_title_traffic">Preostali podatki</string>
     <string name="sms_filter">Pameten filter</string>
     <string name="sms_guard_alert">Privzeta aplikacija za sporočanje je spremenjena. Aplikacija Xiaomi Messaging ne bo mogla blokirati neželenih SMS sporočil.</string>
+    <string name="sms_intercept_settings">Nastavitve seznama blokiranih sporočil</string>
     <string name="sms_keywords">Seznam blokiranih ključnih besed</string>
     <string name="sms_malicious_url">Blokiraj SMSe z zlonamernimi povezavami</string>
     <string name="sms_prefix">Seznam blokiranih predpon</string>
@@ -5311,9 +5333,26 @@ Ali želite preklicati soglasje?"</string>
     <string name="st_call_intercept_reported">Blokiraj klice iz prijavljenih številk</string>
     <string name="st_call_intercept_stranger">Blokiraj klice neznancev</string>
     <string name="st_call_intercept_unknown">Blokiraj klice neznanih številk</string>
+    <string name="st_call_mark_agent">Nepremičnine</string>
+    <string name="st_call_mark_agent_intercept">Nepremičnine</string>
+    <string name="st_call_mark_decoration">Obnova doma</string>
+    <string name="st_call_mark_decoration_intercept">Obnova doma</string>
+    <string name="st_call_mark_edu">Izobraževanje</string>
+    <string name="st_call_mark_edu_intercept">Izobraževanje</string>
+    <string name="st_call_mark_high_risk">Visoko tveganje</string>
+    <string name="st_call_mark_high_risk_intercept">Visoko tveganje</string>
+    <string name="st_call_mark_insurance">Naložba</string>
+    <string name="st_call_mark_insurance_intercept">Naložba</string>
+    <string name="st_call_mark_loan">Hipoteka</string>
+    <string name="st_call_mark_loan_intercept">Hipoteka</string>
+    <string name="st_call_mark_sell">Oglasi</string>
+    <string name="st_call_mark_sell_intercept">Oglasi</string>
     <string name="st_call_other_group">Ostalo</string>
     <string name="st_call_settings">Seznam blokiranih klicev</string>
     <string name="st_call_stranger_group">Blokiraj klice neznancev</string>
+    <string name="st_call_stranger_inercept_local">Blokiraj neznane številke</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Klici s katere koli številke, ki ni v vaših izjemah, bodo blokirani. Želite blokirati zdaj?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Klici s katere koli številke, ki ni v vaših izjemah ali stikih, bodo blokirani. Želite blokirati zdaj?</string>
     <string name="st_confirm_call_all_dialog_summary">Klici s katere koli številke, ki ni v vaših izjemah, bodo blokirani. Želite vklopiti zdaj?</string>
     <string name="st_confirm_dialog_btn_open">Blokiraj</string>
     <string name="st_confirm_dialog_summary_oversea_call">Vsi klici iz tujih telefonskih številk bodo blokirani.</string>
@@ -5325,9 +5364,11 @@ Ali želite preklicati soglasje?"</string>
     <string name="st_hint_add_head_number">Vnesi predpono</string>
     <string name="st_hint_add_phonenumber">Vnesi telefonsko številko</string>
     <string name="st_hint_operatelist">Kaže, da to pravilo že obstaja</string>
+    <string name="st_intercept_dialog_title">Pozor</string>
     <string name="st_mark_call_intercept_threshold_summary">Samodejno blokirajte številke, ki so bile prijavljene več kot določeno število krat.</string>
     <string name="st_mark_call_intercept_threshold_title">Blokiraj mejo</string>
     <string name="st_mark_number_group">Blokiraj klice iz prijavljenih številk</string>
+    <string name="st_mark_number_net_group">Blokiraj prijavljene številke</string>
     <string name="st_message_SMS_AntiSpam">Blokiraj sporočila</string>
     <string name="st_message_SMSpass">Dovoli sporočila</string>
     <string name="st_message_phone_AntiSpam">Blokiraj klice</string>
@@ -5340,13 +5381,26 @@ Ali želite preklicati soglasje?"</string>
     <string name="st_msg_stranger_group">Blokirana sporočila neznancev</string>
     <string name="st_settings_name">Nastavitve seznama blokiranih</string>
     <string name="st_share_settings">Uporabi nastavitve SIM %d kartice</string>
+    <string name="st_smg_intercept_all">Blokiraj vsa sporočila</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">Sporočila SMS in MMS s številk ali iz regij, ki niso med vašimi izjemami, bodo blokirana. Želite blokirati zdaj?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">Sporočila SMS in MMS s številk ali iz regij, ki niso med vašimi izjemami ali stiki, bodo blokirana. Želite blokirati zdaj?</string>
+    <string name="st_smg_intercept_network_check">Blokiraj z uporabo spletnih definicij</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Neželena sporočila</string>
+    <string name="st_smg_intercept_other">Dodatne nastavitve</string>
+    <string name="st_smg_intercept_strange">Blokiraj sporočila neznancev</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Blokiraj sporočila neznancev, ki vsebujejo določene ključne besede</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Blokiraj sporočila določenih številk in regij</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Ne blokiraj sporočila neznancev, ki vsebujejo določene ključne besede</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Ne blokiraj sporočil s številk in iz regij, ki so med izjemami</string>
     <string name="st_sms_intercept_oversea">Mednarodni SMS</string>
     <string name="st_sub_title_customize_mode_name">Ime</string>
     <string name="st_sub_title_whiteblack_list_group">Seznam blokiranih</string>
     <string name="st_sum_call_wait">Vaše sporočilo »Odsoten sem« bo predvajano kot signal »Zasedeno« za dohodne klice.</string>
     <string name="st_summary_blacklist_numbers">Blokira klice in sporočila od določenih številk in področij</string>
     <string name="st_summary_blacklist_numbers_international">Blokiranje klicev na podlagi številke ali predpone</string>
+    <string name="st_summary_intercept_blacklist_numbers">Blokiraj klice in sporočila z določenih številk in regij</string>
     <string name="st_summary_keywords_blacklist">Dodaj ključne besede za blokiranje sporočil</string>
+    <string name="st_summary_release_whitelist_numbers">Ne blokiraj klicev in sporočil s številk in iz regij, ki so med izjemami</string>
     <string name="st_summary_special_numbers">Blokiraj označene številke</string>
     <string name="st_summary_whitelist_numbers">Dovoli klice in sporočila iz določenih številk in področij</string>
     <string name="st_summary_whitelist_numbers_international">Omogočanje klicev na podlagi številke ali predpone</string>
@@ -5381,6 +5435,8 @@ Ali želite preklicati soglasje?"</string>
     <string name="st_title_markednumber_group">Blokiraj prijavljene številke</string>
     <string name="st_title_mode_choose_group">Pravila seznama blokiranih</string>
     <string name="st_title_not_sim">Prazno</string>
+    <string name="st_title_number_and_region_blacklist">Blokirane številke in regije</string>
+    <string name="st_title_number_and_region_whitelist">Izjeme številk in regij</string>
     <string name="st_title_open_antispam">Seznam blokiranih</string>
     <string name="st_title_other_group">Ostalo</string>
     <string name="st_title_settings_other_group">Dodatne nastavitve</string>
@@ -5542,7 +5598,7 @@ Formatiranje bo izbrisalo vse obstoječe vsebine na ^2. Da bi preprečili izgubo
     <string name="summary_default_app">%s ni nastavljena kot privzeta aplikacija sistema</string>
     <string name="summary_dev">Preprečite zlonamerno prog. opremo in zaščitite osebne podatke</string>
     <string name="summary_do_not_disturb">Uporabljate način Ne moti.</string>
-    <string name="summary_eye_shield">Izklopite Način za branje za povrnitev na privzete nastavitve.</string>
+    <string name="summary_eye_shield">Izklopite način za udobje oči za povrnitev na privzete nastavitve.</string>
     <string name="summary_find_device">Najdite in zaklenite svojo napravo od koderkoli</string>
     <string name="summary_first_aid_kit">Takoj rešite težave na vaši napravi</string>
     <string name="summary_flow_notification">V Plošči obvestil prikaži mesečne statistične podatke o porabi podatkov</string>

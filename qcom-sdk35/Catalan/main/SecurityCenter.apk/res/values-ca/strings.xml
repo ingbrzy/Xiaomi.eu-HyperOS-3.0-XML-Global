@@ -196,6 +196,7 @@
     <string name="allow_onetime">Permetre un cop</string>
     <string name="already_close_gamebooster">"L'accelerador de jocs està desactivat"</string>
     <string name="am">AM</string>
+    <string name="anitispam_intercept_record">Historial de la llista de bloqueig</string>
     <string name="anti_disturb_msg_detail">Desactiva les notificacions excepte per a les trucades entrants</string>
     <string name="anti_disturb_msg_title">Mode no molesteu</string>
     <string name="antispam_add_black_number_message">El número que heu introduït és curt. Voleu bloquejar tots els números que comencen amb aquests dígits?</string>
@@ -1023,6 +1024,9 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="call_delete_all_hint">Voleu eliminar totes les trucades bloquejades?</string>
     <string name="call_delete_hint">"Voleu suprimir totes les trucades bloquejades d'aquest número?"</string>
     <string name="call_delete_title">"Suprimeix l'historial de trucades"</string>
+    <string name="call_empty_number">Números en blanc</string>
+    <string name="call_forwarding_block">Trucades reenviades</string>
+    <string name="call_intercept_settings">Configuració de la llista de bloqueig de trucades</string>
     <string name="call_notification_answer_action">Respon</string>
     <string name="call_notification_answer_video_action">Vídeo</string>
     <string name="call_notification_decline_action">Rebutja</string>
@@ -1031,6 +1035,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="call_notification_ongoing_text">Trucada en curs</string>
     <string name="call_notification_screening_text">"S'està filtrant una trucada entrant"</string>
     <string name="call_oversea_block">"Bloqueja trucades des de l'estranger"</string>
+    <string name="call_overseas_block">Trucades internacionals</string>
     <string name="call_prefix">Llista de bloqueig de prefixos</string>
     <string name="call_private">Bloqueja trucades de números ocults</string>
     <string name="call_stranger_block">Bloqueja trucades de desconeguts</string>
@@ -1040,12 +1045,20 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="cancel">Cancel·leu</string>
     <string name="cancel_button">Cancel·leu</string>
     <string name="car_sickness_relief_comment_text">"Quan es detecta moviment del vehicle, es mostren punts a banda i banda de la pantalla per indicar si el vehicle s'està movent, cosa que pot ajudar a retardar l'aparició del mal de moviment."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Es mostraran punts a banda i banda de la pantalla per indicar el moviment del vehicle, cosa que pot ajudar a retardar l'aparició del mareig.
+
+Podeu activar i desactivar aquesta funció al Centre de control."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Es mostraran punts de manera consistent a banda i banda de la pantalla per indicar el moviment del vehicle, cosa que pot ajudar a retardar l'aparició del mareig.
+
+Podeu activar i desactivar aquesta funció al Centre de control."</string>
     <string name="car_sickness_relief_comment_text_opened">"Es mostraran punts a banda i banda de la pantalla per indicar el moviment del vehicle, cosa que pot ajudar a retardar l'aparició del mareig.
 
 Podeu activar i desactivar aquesta funció al Centre de control."</string>
     <string name="car_sickness_relief_example_text_1">Quan el vehicle augmenta o disminueix la velocitat</string>
     <string name="car_sickness_relief_example_text_2">Quan el vehicle gira o canvia de carril</string>
     <string name="car_sickness_relief_exit_text">"L'alleujament del mareig ha deixat de funcionar"</string>
+    <string name="car_sickness_relief_notification_text_close">Desactiva</string>
+    <string name="car_sickness_relief_notification_text_opened">Activat</string>
     <string name="car_sickness_relief_start_text">"L'alleujament del mareig està funcionant"</string>
     <string name="car_sickness_remind_time_title">Indicadors de moviment</string>
     <string name="car_sickness_title">Alleujament del mareig</string>
@@ -1877,7 +1890,7 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
 %3$d. Aquesta funció només s'admet a la Xina continental.
 %4$d. Aquesta funció només funciona a les xarxes 5G-SA."</string>
     <string name="function_shield_auto_bright">Desactiva la brillantor automàtica</string>
-    <string name="function_shield_eye_shield">Desactiva el mode lectura</string>
+    <string name="function_shield_eye_shield">Desactiveu el Mode de confort ocular</string>
     <string name="function_shield_pull_notification_bar">No obriu la Barra de notificacions</string>
     <string name="function_shield_settings_title">Restringiu les funcions següents en jugar</string>
     <string name="function_shield_summary">Restringiu les funcions del sistema seleccionades en jugar</string>
@@ -2751,6 +2764,12 @@ per unir-vos a la nostra caça d'ous!"</string>
     <string name="install_title">"Instal·la a través d'USB"</string>
     <string name="install_type_instant">Aplicació instantània</string>
     <string name="installing">"S'està instal·lant"</string>
+    <string name="intercept_all_mark_calls">Voleu bloquejar totes les trucades etiquetades com a \"%s\"?</string>
+    <string name="intercept_calls_nofify_hide_text">Per definir regles de bloqueig per a altres números etiquetats, toqueu aquí</string>
+    <string name="intercept_calls_notify_title">Les trucades amb aquesta etiqueta finalitzaran automàticament. Voleu bloquejar-les ara?</string>
+    <string name="intercept_garbage_msg">Missatges brossa</string>
+    <string name="intercept_record">Historial</string>
+    <string name="intercept_strange_msg">Missatges de desconeguts</string>
     <string name="international_Ad">Anunci</string>
     <string name="international_roaming_setting">Itinerància de dades</string>
     <string name="intl_app_manager_card_permission_title">Privadesa i permisos</string>
@@ -2945,6 +2964,7 @@ de l'operador"</string>
     <string name="mark_harass_block">Notificat com a assetjament</string>
     <string name="mark_harass_block_large">Assetjaments</string>
     <string name="mark_harass_time_setting">Bloqueja els números que hagin estat notificats com a assetjaments un determinat nombre de vegades</string>
+    <string name="mark_num_open_intercept">Bloqueja</string>
     <string name="mark_number_agent">Agència</string>
     <string name="mark_number_fraud">Frau</string>
     <string name="mark_number_harass">Assetjament</string>
@@ -4803,11 +4823,11 @@ Voleu retirar el consentiment ara?"</string>
     <string name="prompt_all">Demana-ho tot</string>
     <string name="prompt_input_time_illegal">No es pot establir aquesta hora, canvieu-la i proveu-ho de nou</string>
     <string name="protect_eye_dont_open">Ara no</string>
-    <string name="protect_eye_hint_summry">Activa el mode de lectura per a una millor experiència de lectura</string>
-    <string name="protect_eye_hint_title">Confort ocular</string>
+    <string name="protect_eye_hint_summry">Activeu el Mode de confort ocular per a una millor experiència de lectura</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Activa</string>
-    <string name="protect_eye_opened_summry">Editeu les preferències a Configuració > Pantalla i brillantor > Confort ocular</string>
-    <string name="protect_eye_opened_title">El mode lectura està activat</string>
+    <string name="protect_eye_opened_summry">Editeu les preferències a Configuració > Pantalla i brillantor > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">El Mode de confort ocular està activat</string>
     <string name="protocol_exception_title">Diagnòstic del protocol de xarxa</string>
     <string name="protocol_loop_back_exception_summary">"S'ha produït un error en el test del bucle local. Per informar d'aquest problema, aneu a l'aplicació de comentaris i envieu un registre del vostre dispositiu."</string>
     <string name="province_selected_talkback" />
@@ -4871,6 +4891,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="repeat_type">Repeteix</string>
     <string name="repeated_marked_number_summary">No bloquegeu una segona trucada des del mateix número notificat en menys de %d minuts</string>
     <string name="repeated_marked_number_title">No bloquegis trucades repetides des de números notificats</string>
+    <string name="repeated_unknown_number_summary">No bloquegeu una segona trucada des del mateix número desconegut en menys de %d minuts</string>
     <string name="replace_dns">Substitueix DNS automàticament</string>
     <string name="report">Notifica</string>
     <string name="report_error">"No s'ha pogut notificar el missatge"</string>
@@ -5111,6 +5132,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="sms_detail_fragment_title_traffic">Dades restants</string>
     <string name="sms_filter">Filtre intel·ligent</string>
     <string name="sms_guard_alert">"S'ha canviat l'aplicació de missatgeria predeterminada. Missatgeria de Xiaomi no podrà bloquejar el correu brossa per SMS."</string>
+    <string name="sms_intercept_settings">Configuració de la llista de bloqueig de missatges</string>
     <string name="sms_keywords">Llista de bloqueig de paraules clau</string>
     <string name="sms_malicious_url">Bloqueja SMS amb URL malicioses</string>
     <string name="sms_prefix">Llista de bloqueig de prefixos</string>
@@ -5312,9 +5334,26 @@ Voleu retirar el consentiment ara?"</string>
     <string name="st_call_intercept_reported">Bloqueja trucades de números notificats</string>
     <string name="st_call_intercept_stranger">Bloqueja trucades de desconeguts</string>
     <string name="st_call_intercept_unknown">Bloqueja trucades de números ocults</string>
+    <string name="st_call_mark_agent">Béns immobles</string>
+    <string name="st_call_mark_agent_intercept">Béns immobles</string>
+    <string name="st_call_mark_decoration">Renovació de la llar</string>
+    <string name="st_call_mark_decoration_intercept">Renovació de la llar</string>
+    <string name="st_call_mark_edu">Educació</string>
+    <string name="st_call_mark_edu_intercept">Educació</string>
+    <string name="st_call_mark_high_risk">Alt risc</string>
+    <string name="st_call_mark_high_risk_intercept">Alt risc</string>
+    <string name="st_call_mark_insurance">Inversió</string>
+    <string name="st_call_mark_insurance_intercept">Inversió</string>
+    <string name="st_call_mark_loan">Hipoteca</string>
+    <string name="st_call_mark_loan_intercept">Hipoteca</string>
+    <string name="st_call_mark_sell">Publicitat</string>
+    <string name="st_call_mark_sell_intercept">Publicitat</string>
     <string name="st_call_other_group">Altres</string>
     <string name="st_call_settings">Llista de bloqueig de trucades</string>
     <string name="st_call_stranger_group">Bloqueja trucades de desconeguts</string>
+    <string name="st_call_stranger_inercept_local">Bloqueja números desconeguts</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Les trucades de qualsevol número que no estigui a les vostres excepcions seran bloquejades. Voleu bloquejar-les ara?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Les trucades de qualsevol número que no estigui a les vostres excepcions o contactes seran bloquejades. Voleu bloquejar-les ara?</string>
     <string name="st_confirm_call_all_dialog_summary">Les trucades de qualsevol número que no estigui a les vostres excepcions es bloquejaran. Voleu activar-ho ara?</string>
     <string name="st_confirm_dialog_btn_open">Bloqueja</string>
     <string name="st_confirm_dialog_summary_oversea_call">Es bloquejaran totes les trucades de números de telèfon estrangers.</string>
@@ -5326,9 +5365,11 @@ Voleu retirar el consentiment ara?"</string>
     <string name="st_hint_add_head_number">Introduïu el prefix</string>
     <string name="st_hint_add_phonenumber">Introduïu el número de telèfon</string>
     <string name="st_hint_operatelist">Sembla que aquesta regla ja existeix</string>
+    <string name="st_intercept_dialog_title">Atenció</string>
     <string name="st_mark_call_intercept_threshold_summary">"Bloqueja automàticament els números que s'han reportat durant un nombre determinat de vegades"</string>
     <string name="st_mark_call_intercept_threshold_title">Llindar de bloqueig</string>
     <string name="st_mark_number_group">Bloqueja trucades de números notificats</string>
+    <string name="st_mark_number_net_group">Bloqueja els números notificats</string>
     <string name="st_message_SMS_AntiSpam">Bloqueja els SMS</string>
     <string name="st_message_SMSpass">Permet els SMS</string>
     <string name="st_message_phone_AntiSpam">Bloqueja les trucades</string>
@@ -5341,13 +5382,26 @@ Voleu retirar el consentiment ara?"</string>
     <string name="st_msg_stranger_group">Bloqueja els missatges de desconeguts</string>
     <string name="st_settings_name">Configuració de la llista de bloqueig</string>
     <string name="st_share_settings">Utilitzeu la configuració SIM %d</string>
+    <string name="st_smg_intercept_all">Bloqueja tots els missatges</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">Els SMS i MMS de qualsevol número o regió que no estigui a les vostres excepcions seran bloquejats. Voleu bloquejar-los ara?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">Els SMS i MMS de qualsevol número o regió que no estigui a les vostres excepcions o contactes seran bloquejats. Voleu bloquejar-los ara?</string>
+    <string name="st_smg_intercept_network_check">Bloqueja mitjançant definicions en línia</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Missatges brossa</string>
+    <string name="st_smg_intercept_other">Configuracions addicionals</string>
+    <string name="st_smg_intercept_strange">Bloqueja els missatges de desconeguts</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Bloqueja els missatges de desconeguts que continguin paraules clau específiques</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Bloqueja els missatges de números i regions específics</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">No bloquegis els missatges de desconeguts que continguin paraules clau específiques</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">No bloquegeu els missatges de números i regions a les vostres excepcions</string>
     <string name="st_sms_intercept_oversea">SMS internacionals</string>
     <string name="st_sub_title_customize_mode_name">Nom</string>
     <string name="st_sub_title_whiteblack_list_group">Llista de bloqueig</string>
     <string name="st_sum_call_wait">"El missatge d'absència també es reproduirà com a senyal ocupat per a les trucades entrants."</string>
     <string name="st_summary_blacklist_numbers">Bloqueja les trucades i els missatges de números i àrees específics</string>
     <string name="st_summary_blacklist_numbers_international">Bloqueja les trucades segons el número o el prefix</string>
+    <string name="st_summary_intercept_blacklist_numbers">Bloqueja trucades i missatges de números i regions específics</string>
     <string name="st_summary_keywords_blacklist">Afegiu paraules clau per bloquejar missatges</string>
+    <string name="st_summary_release_whitelist_numbers">No bloquegeu les trucades ni els missatges dels números i les regions de les vostres excepcions</string>
     <string name="st_summary_special_numbers">Bloqueja els números de telèfon marcats</string>
     <string name="st_summary_whitelist_numbers">Permet les trucades i els missatges de números i prefixos específics</string>
     <string name="st_summary_whitelist_numbers_international">Permet les trucades segons el número o el prefix</string>
@@ -5382,6 +5436,8 @@ Voleu retirar el consentiment ara?"</string>
     <string name="st_title_markednumber_group">Bloqueja els números notificats</string>
     <string name="st_title_mode_choose_group">Regles de la llista de bloqueig</string>
     <string name="st_title_not_sim">Buit</string>
+    <string name="st_title_number_and_region_blacklist">Números i regions bloquejats</string>
+    <string name="st_title_number_and_region_whitelist">Excepcions de número i regió</string>
     <string name="st_title_open_antispam">Llista de bloqueig</string>
     <string name="st_title_other_group">Altres</string>
     <string name="st_title_settings_other_group">Configuracions addicionals</string>
@@ -5543,7 +5599,7 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="summary_default_app">"%s no s'ha configurat com a aplicació per defecte del sistema"</string>
     <string name="summary_dev">Eviteu el programari maliciós i protegiu les dades personals</string>
     <string name="summary_do_not_disturb">Esteu utilitzant el Mode no molesteu.</string>
-    <string name="summary_eye_shield">Desactiveu el Mode lectura per tornar a la configuració per defecte.</string>
+    <string name="summary_eye_shield">Desactiveu el Mode de confort ocular per tornar a la configuració per defecte.</string>
     <string name="summary_find_device">Localitzar i bloquejar el dispositiu des de qualsevol part</string>
     <string name="summary_first_aid_kit">Resoleu els problemes del vostre dispositiu ara</string>
     <string name="summary_flow_notification">"Mostra les estadístiques mensuals d'ús de dades a la barra de notificacions"</string>

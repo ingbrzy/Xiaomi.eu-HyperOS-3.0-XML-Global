@@ -23,15 +23,11 @@
     <string name="add_slide_hint">برای ایجاد اسلاید جدید ضربه بزنید</string>
     <string name="add_smiley">شکلک</string>
     <string name="add_timing">زمان‌بندی شده</string>
-    <string name="add_to_block_by_number">"‏%s به فهرست سیاه
-افزوده شد"</string>
-    <string name="add_to_block_by_number_failed">"%s به فهرست سیاه افزوده نشد.
-دوباره تلاش کنید."</string>
-    <string name="add_to_block_by_tag">"پیام‌های حاوی «%s»
-به فهرست سیاه افزوده شدند"</string>
-    <string name="add_to_block_by_tag_failed">"پیام‌های دارای «%s» به فهرست سیاه افزوده نشدند.
-دوباره تلاش کنید."</string>
-    <string name="add_to_block_cta_failed">به امنیت برای افزودن موارد به فهرست سیاه مجوزهای لازم را بدهید</string>
+    <string name="add_to_block_by_number">به فهرست سیاه افزوده شد</string>
+    <string name="add_to_block_by_number_failed">افزودن به فهرست سیاه امکان‌پذیر نبود. دوباره امتحان کنید.</string>
+    <string name="add_to_block_by_tag">این کلیدواژه به فهرست سیاه افزوده شد</string>
+    <string name="add_to_block_by_tag_failed">نمی‌توان کلیدواژه را به فهرست سیاه اضافه کرد. دوباره امتحان کنید.</string>
+    <string name="add_to_block_cta_failed">بخش «امنیت» را باز کنید و با «شرایط و ضوابط» موافقت کنید تا بتوانید از این قابلیت استفاده کنید</string>
     <string name="add_to_browser_favorite_failed">افزوده نشد</string>
     <string name="add_to_browser_favorite_success">با موفقیت افزوده شد</string>
     <string name="add_to_calender">افزودن به سالنامه</string>
@@ -121,9 +117,9 @@
     <string name="beidou_to_contacts">گیرنده: %s</string>
     <string name="billing">صورت‌حساب</string>
     <string name="block_messaging_entry_title">پیام کوتاه مسدود شده</string>
-    <string name="block_number_message">این شماره تلفن در فهرست سیاه افزوده خواهد شد. تمام پیام‌ها از این شماره مسدود خواهند شد.</string>
+    <string name="block_number_message">وقتی اضافه شود، همه تماس‌ها و پیام‌های ورودی از %s مسدود خواهند شد. حالا اضافه می‌کنید؟</string>
     <string name="block_support_text">پشتیبانی شده توسط Antiy.</string>
-    <string name="block_tag_message">تمام پیام‌های ارسال شده از سوی %s مسدود خواهند شد. ممکن است دیگر نتوانید کدهای تأیید یا صورت‌حساب‌های ارسال شده توسط این خدمات را دریافت کنید.</string>
+    <string name="block_tag_message">وقتی اضافه شد، همه پیام‌های حاوی کلیدواژه %s مسدود خواهند شد. این مسدودی ممکن است شامل کدهای احراز هویت و اطلاعات سفارش هم شود. حالا اضافه می‌کنید؟</string>
     <string name="boarding_time">زمان سوار شدن</string>
     <string name="bookmark">به موارد پسندیده افزوده شد</string>
     <string name="bookmark_confirm_delete_message">پیام‌های انتخاب شده از موارد پسندیده حذف شوند؟</string>
@@ -485,13 +481,13 @@
     <string name="menu_pick_from_contact">انتخاب از مخاطبین</string>
     <string name="menu_preferences">تنظیمات</string>
     <string name="menu_report">بازخورد</string>
-    <string name="menu_sms_block">فهرست سیاه</string>
+    <string name="menu_sms_block">افزودن به فهرست سیاه؟</string>
     <string name="menu_traffic_destination">مقصد</string>
     <string name="menu_unlock">حذف از موارد پسندیده</string>
     <string name="menu_view_contact">مشاهده مخاطب</string>
     <string name="menu_view_group_info">اطلاعات گروه</string>
     <string name="message_cannot_send_air_mode">برای ارسال پیام حالت هواپیما را خاموش کنید</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">سیم‌کارتی که استفاده می‌کنید نمی‌تواند پیام کوتاه ارسال کند</string>
     <string name="message_cannot_send_sim_unavailable">برای ارسال پیام سیم‌کارت را وارد کنید</string>
     <string name="message_class_label">"رده پیام: "</string>
     <string name="message_contact">مخاطب:</string>
@@ -1192,6 +1188,11 @@
     <string name="shortcut_new_msg">پیام جدید</string>
     <string name="shortcut_setting">تنظیمات</string>
     <string name="show_delivery_status">نمایش وضعیت تحویل</string>
+    <string name="silent_notification_notify_content">شما در مدتی کوتاه، کدهای تایید زیادی دریافت کردید. این اعلان‌ها به طور موقت ساکت می‌شوند.</string>
+    <string name="silent_notification_notify_double">سیم‌کارت %1$d و سیم‌کارت %2$d در مدتی کوتاه، کدهای تایید زیادی دریافت کرده‌اند. این اعلان‌ها به طور موقت ساکت می‌شوند.</string>
+    <string name="silent_notification_notify_single">سیم‌کارت %1$d در مدتی کوتاه، کدهای تایید زیادی دریافت کرده است. این اعلان‌ها به طور موقت ساکت می‌شوند.</string>
+    <string name="silent_notification_notify_title">ساکت کردن پیام کوتاه تاییدیه</string>
+    <string name="silent_notification_tip_exit">ساکت کردن پیام کوتاه تاییدیه متوقف شود</string>
     <string name="sim_card1">سیم‌کارت 1</string>
     <string name="sim_card2">سیم‌کارت 2</string>
     <string name="sim_card_cloud">%s (پیام Mi)</string>

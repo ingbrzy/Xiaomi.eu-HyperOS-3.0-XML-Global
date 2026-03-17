@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Tryk for at oprette nyt dias</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">På tid</string>
-    <string name="add_to_block_by_number">"Tilføjet %s
-til blokeringslisten"</string>
-    <string name="add_to_block_by_number_failed">"Kunne ikke tilføje %s til blokeringslisten.
-Prøv igen."</string>
-    <string name="add_to_block_by_tag">"Beskeder, der indeholder \"%s\"
-tilføjet til blokeringslisten"</string>
-    <string name="add_to_block_by_tag_failed">"Kunne ikke tilføje meddelelser indeholdende \"%s\" til blokeringslisten.
-Prøv igen."</string>
-    <string name="add_to_block_cta_failed">Giv Sikkerhed de krævede tilladelser for at kunne tilføje elementer til blokeringslisten</string>
+    <string name="add_to_block_by_number">Føjet til blokeringslisten</string>
+    <string name="add_to_block_by_number_failed">Kunne ikke føje til blokeringslisten. Prøv igen.</string>
+    <string name="add_to_block_by_tag">Nøgleordet er føjet til blokeringslisten</string>
+    <string name="add_to_block_by_tag_failed">Kunne ikke føje nøgleordet til blokeringslisten. Prøv igen.</string>
+    <string name="add_to_block_cta_failed">Åbn Sikkerhed, og acceptér vilkårene for at kunne bruge denne funktion</string>
     <string name="add_to_browser_favorite_failed">Kunne ikke tilføje</string>
     <string name="add_to_browser_favorite_success">Tilføjet</string>
     <string name="add_to_calender">Føj til kalender</string>
@@ -125,7 +121,7 @@ Prøv igen."</string>
     <string name="beidou_audio_not_support_multi_recipient">Kan ikke sende talebeskeder til flere modtagere lige nu</string>
     <string name="beidou_cannot_receive_airmode">Turn off Airplane mode to receive messages</string>
     <string name="beidou_cannot_send_mms">"BeiDou satellite communications doesn't support MMS"</string>
-    <string name="beidou_cannot_use">Turn off Tiantong satellite communications and try again</string>
+    <string name="beidou_cannot_use">Slå Tiantong-satellitkommunikation fra og prøv igen</string>
     <string name="beidou_exceed_send_limit">"Can't send any more messages this month"</string>
     <string name="beidou_exceed_words_limit">Delete some characters to be able to send</string>
     <string name="beidou_from_contacts">Reply from %s</string>
@@ -135,22 +131,22 @@ Prøv igen."</string>
     <string name="beidou_introduce">Learn more about BeiDou satellite communications</string>
     <string name="beidou_location_failed">"Couldn't get location. Go to an open area and try again."</string>
     <string name="beidou_max_support_contact_number">Add up to %d contacts</string>
-    <string name="beidou_message">BeiDou satellite messaging</string>
+    <string name="beidou_message">BeiDou-satellitkommunikation</string>
     <string name="beidou_new_message">Send</string>
     <string name="beidou_open_location_service">BeiDou satellite messaging needs permission to access your location in order to work normally.</string>
-    <string name="beidou_query_remain_time">Check balance</string>
+    <string name="beidou_query_remain_time">Tjek saldo</string>
     <string name="beidou_query_remain_time_failed">"Couldn't check balance"</string>
     <string name="beidou_receive_message">Modtag</string>
     <string name="beidou_satellite_sms_notification">This message was sent via BeiDou satellite communications</string>
     <string name="beidou_sim_not_support">"SIM card doesn't support BeiDou satellite messaging"</string>
     <string name="beidou_support_cta_tips">This app can also read, edit, send, and receive BeiDou satellite messages.</string>
     <string name="beidou_support_location_tips">For at bruge BeiDou-tjenester er adgang til din placering påkrævet.</string>
-    <string name="beidou_to_contacts">Recipient: %s</string>
+    <string name="beidou_to_contacts">Modtager: %s</string>
     <string name="billing">Regninger</string>
     <string name="block_messaging_entry_title">Blokeret SMS</string>
-    <string name="block_number_message">Dette telefonnummer vil blive føjet til blokeringslisten. Alle beskeder, der sendes fra dette nummer, vil blive blokeret.</string>
+    <string name="block_number_message">Når det er tilføjet, bliver alle indgående opkald og beskeder fra %s blokeret. Tilføj nu?</string>
     <string name="block_support_text">Understøttet af Antiy.</string>
-    <string name="block_tag_message">Alle beskeder, der sendes fra %s, vil blive blokeret. Du vil muligvis ikke kunne modtage verifikationskoder eller fakturaer, der er sendt via denne tjeneste.</string>
+    <string name="block_tag_message">Når det er tilføjet, bliver alle beskeder, der indeholder nøgleordet %s, blokeret. Det kan også omfatte bekræftelseskoder og ordreoplysninger. Tilføj nu?</string>
     <string name="boarding_time">Boardingtid</string>
     <string name="bookmark">Tilføjet til favoritter</string>
     <string name="bookmark_confirm_delete_message">Fjern valgte beskeder fra favoritter?</string>
@@ -236,7 +232,7 @@ Bemærk, at beskedtjenesten er midlertidigt afbrudt, indtil andet meddeles. Dett
     <string name="confirm_dialog_title_make_as_read">Markér som læst</string>
     <string name="confirm_export_dialog_description">Tidligere samtaler med denne kontaktperson vil ikke længere være skjulte.</string>
     <string name="confirm_export_dialog_title">Fjern fra private kontaktpersoner</string>
-    <string name="confirm_invalid_recipient">Got it</string>
+    <string name="confirm_invalid_recipient">Forstået</string>
     <string name="confirm_no_block_positive">Stop blokering</string>
     <string name="confirm_no_block_title">Stop blokering af sådanne beskeder? Tidligere blokerede beskeder vil blive vist i din Indbakke.</string>
     <string name="confirm_rate_limit">Et stort antal multimediebeskeder sendes.</string>
@@ -429,9 +425,9 @@ Bemærk, at beskedtjenesten er midlertidigt afbrudt, indtil andet meddeles. Dett
     <string name="fcm_fallback_notification_channel_label">Diverse</string>
     <string name="fdn_check_failure">Du kan kun sende beskeder til faste opkaldsnumre.</string>
     <string name="feature_mx">Mi Message</string>
-    <string name="feature_mx_summary"><b>Mi Message allows you to send messages to other Mi Message users over the internet without incurring charges</b>. An outgoing SMS message is required to activate this service. Your carrier will charge you for this message. Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_mx_summary"><b>Mi Message lader dig sende beskeder til andre Mi Message-brugere via internettet uden at blive pålagt gebyrer</b>. Der kræves en udgående SMS-besked for at aktivere denne tjeneste. Din udbyder vil opkræve dig for denne besked. Læs og accepter vores <font color="#B3000000"><a href="http://url1">Brugeraftale</a></font> og <font color="#B3000000"><a href="http://url2">Privatlivspolitik</a></font>, inden du bruger denne funktion.</string>
     <string name="feature_smart_sms">Smart Messaging</string>
-    <string name="feature_smart_sms_summary"><b>Smart Messaging provides Sender ID recognition and smart menus</b>". Smart Messaging is provided in part by Yulore. Read and agree to Yulore's "<font color="#B3000000"><a href="http://url3">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_smart_sms_summary"><b>Smart Messaging har genkendelse af afsender-id og smart-menuer</b>. Smart Messaging tilbydes delvist af Yulore. Læs og accepter Yulores <font color="#B3000000"><a href="http://url3">privatlivspolitik</a></font>, inden du bruger denne funktion.</string>
     <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Fly</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -581,13 +577,13 @@ Bemærk, at beskedtjenesten er midlertidigt afbrudt, indtil andet meddeles. Dett
     <string name="menu_pick_from_contact">Vælg fra kontaktpersoner</string>
     <string name="menu_preferences">Indstillinger</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Blokeringsliste</string>
+    <string name="menu_sms_block">Føj til blokeringsliste?</string>
     <string name="menu_traffic_destination">Destination</string>
     <string name="menu_unlock">Fjern fra favoritter</string>
     <string name="menu_view_contact">Se kontakt</string>
     <string name="menu_view_group_info">Gruppeoplysninger</string>
     <string name="message_cannot_send_air_mode">Slå flytilstand fra for at sende beskeder</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">Det SIM-kort, du bruger, understøtter ikke afsendelse af SMS</string>
     <string name="message_cannot_send_sim_unavailable">Indsæt SIM-kort for at sende beskeder</string>
     <string name="message_class_label">"Beskedklasse: "</string>
     <string name="message_contact">Kontaktperson:</string>
@@ -1141,9 +1137,9 @@ Tjek anbefalede chatbots!"</string>
     <string name="rcs_main_purpose">Du kan bruge denne tjeneste til at sende og modtage billeder, lydbeskeder, videoer og meget mere. For at bruge tjenesten kræves adgang til din placering.</string>
     <string name="rcs_message">5G messages</string>
     <string name="rcs_message_disable">Kan ikke se denne besked i Second space</string>
-    <string name="rcs_message_title">5G Messaging</string>
+    <string name="rcs_message_title">5G beskeder</string>
     <string name="rcs_more_bar_title">Oplysninger</string>
-    <string name="rcs_msg">5G Messaging</string>
+    <string name="rcs_msg">5G beskeder</string>
     <string name="rcs_msg_privacy_policy">Privatlivspolitik for 5G-beskeder</string>
     <string name="rcs_my_black_chatbot_title">Blokeringsliste</string>
     <string name="rcs_not_online">"Can't use 5G Messaging. Check your network settings and try again."</string>
@@ -1208,10 +1204,10 @@ Tjek anbefalede chatbots!"</string>
     <string name="recommend_tip_4">Mi Message kan automatisk genkende sender-id, så du kan se navnene på og profilbillederne af anerkendte forhandlere.</string>
     <string name="recommend_tip_5">Smart genkendelse af sender-id gør din indbakke mere ryddelig og hjælper dig med at identificere pålidelige sendere.</string>
     <string name="recommend_tip_6">De ovennævnte tjenester leveres med teknisk support fra Yulore.</string>
-    <string name="recommend_tip_7">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Mi Message.</string>
-    <string name="recommend_tip_8">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using free internet messaging provided by Mi Message.</string>
-    <string name="recommend_tip_9">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Smart sender ID recognition.</string>
-    <string name="recommend_tip_9_2">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using our services.</string>
+    <string name="recommend_tip_7">Læs og acceptér vores <font color="#B3000000"><a href="http://url1">Brugeraftale</a></font> og <font color="#B3000000"><a href="http://url2">Privatlivspolitik</a></font> såvel som <font color="#B3000000"><a href="http://url3">Yulores Privatlivspolitik</a></font>, før du bruger Mi Message.</string>
+    <string name="recommend_tip_8">Læs og acceptér vores <font color="#B3000000"><a href="http://url1">Brugeraftale</a></font> og <font color="#B3000000"><a href="http://url2">Privatlivspolitik</a></font> såvel som <font color="#B3000000"><a href="http://url3">Yulores Privatlivspolitik</a></font>, før du bruger gratis internet-beskedtjeneste leveret af Mi Message.</string>
+    <string name="recommend_tip_9">Læs og acceptér vores <font color="#B3000000"><a href="http://url1">Brugeraftale</a></font> og <font color="#B3000000"><a href="http://url2">Privatlivspolitik</a></font> såvel som <font color="#B3000000"><a href="http://url3">Yulores Privatlivspolitik</a></font>, før du bruger smart genkendelse af sender-id.</string>
+    <string name="recommend_tip_9_2">Læs og acceptér vores <font color="#B3000000"><a href="http://url1">Brugeraftale</a></font> og <font color="#B3000000"><a href="http://url2">Privatlivspolitik</a></font>, inden du bruger vores tjenester.</string>
     <string name="recommend_tip_default">Vælg Xiaomi Messaging som din standard-beskedapp for at få alle de sikkerhedsfordele, vi tilbyder</string>
     <string name="recommend_tip_other">Se andre beskedapps</string>
     <string name="recommend_tip_smart">Beskyttelse af personlige oplysninger. Smart genkendelse.</string>
@@ -1249,7 +1245,7 @@ Tjek anbefalede chatbots!"</string>
     <string name="rms_normal_file_length_too_large">Kan ikke sende filer, der er større end %1$d Mb</string>
     <string name="rms_original_image_length_too_large">Kan ikke sende billeder, der er større end %1$d Mb</string>
     <string name="rms_original_image_size_too_large">Dette billede er for stort</string>
-    <string name="rms_select_location">Location</string>
+    <string name="rms_select_location">Placering</string>
     <string name="rms_send_button">Send</string>
     <string name="rms_vcard_body">[Kontakt]</string>
     <string name="rms_video_body">[Video]</string>
@@ -1306,7 +1302,7 @@ Tjek anbefalede chatbots!"</string>
     <string name="select_sim_translation_for_pad">Vælg SIM-kort</string>
     <string name="select_top_text">Tekst øverst</string>
     <string name="send">Send</string>
-    <string name="send_rms_editor_hints">5G Messaging</string>
+    <string name="send_rms_editor_hints">5G beskeder</string>
     <string name="send_rms_editor_hints_omit">Mi Message</string>
     <string name="send_sms">Send besked</string>
     <string name="send_sms_with_location">Tillad denne app at få adgang til din placering, så den kan sende beskeder, der indeholder din placering. Du kan give denne tilladelse i Indstillinger.</string>
@@ -1325,6 +1321,11 @@ Tjek anbefalede chatbots!"</string>
     <string name="shortcut_new_msg">Ny besked</string>
     <string name="shortcut_setting">Indstillinger</string>
     <string name="show_delivery_status">Vis leveringsstatus</string>
+    <string name="silent_notification_notify_content">Du har modtaget mange bekræftelseskoder på kort tid. Disse notifikationer er midlertidigt sat på lydløs.</string>
+    <string name="silent_notification_notify_double">SIM %1$d og SIM %2$d har modtaget mange bekræftelseskoder på kort tid. Disse notifikationer er midlertidigt sat på lydløs.</string>
+    <string name="silent_notification_notify_single">SIM %1$d har modtaget mange bekræftelseskoder på kort tid. Disse notifikationer er midlertidigt sat på lydløs.</string>
+    <string name="silent_notification_notify_title">"Sæt bekræftelses-SMS'er på lydløs"</string>
+    <string name="silent_notification_tip_exit">"Slå lydløs fra for bekræftelses-SMS'er"</string>
     <string name="sim_card1">SIM-kort 1</string>
     <string name="sim_card2">SIM-kort 2</string>
     <string name="sim_card_cloud">%s (Mi Message)</string>

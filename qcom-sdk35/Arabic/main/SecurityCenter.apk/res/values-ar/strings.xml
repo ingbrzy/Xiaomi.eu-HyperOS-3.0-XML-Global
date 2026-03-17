@@ -196,6 +196,7 @@
     <string name="allow_onetime">سماح مرة</string>
     <string name="already_close_gamebooster">مسرع الألعاب متوقف</string>
     <string name="am">ص</string>
+    <string name="anitispam_intercept_record">سجل قائمة الحظر</string>
     <string name="anti_disturb_msg_detail">إيقاف تشغيل جميع الإشعارات ماعدا إشعارات المكالمات الواردة</string>
     <string name="anti_disturb_msg_title">عدم الازعاج</string>
     <string name="antispam_add_black_number_message">الرقم الذي أدخلته قصير. هل تريد حظر جميع الأرقام التي تبدأ بهذه الأرقام؟</string>
@@ -1023,6 +1024,9 @@
     <string name="call_delete_all_hint">مسح كل المكالمات المحظورة؟</string>
     <string name="call_delete_hint">حذف كل المكالمات المحظورة الواردة من هذا الرقم؟</string>
     <string name="call_delete_title">حذف سجل المكالمات</string>
+    <string name="call_empty_number">أرقام فارغة</string>
+    <string name="call_forwarding_block">المكالمات المعاد توجيهها</string>
+    <string name="call_intercept_settings">إعدادات القائمة المحظورة للمكالمات</string>
     <string name="call_notification_answer_action">ردّ</string>
     <string name="call_notification_answer_video_action">فيديو</string>
     <string name="call_notification_decline_action">رفض</string>
@@ -1031,6 +1035,7 @@
     <string name="call_notification_ongoing_text">مكالمة جارية</string>
     <string name="call_notification_screening_text">يتم فحص المكالمة الواردة</string>
     <string name="call_oversea_block">حظر المكالمات من الخارج</string>
+    <string name="call_overseas_block">المكالمات الدولية</string>
     <string name="call_prefix">قائمة حظر البادئات</string>
     <string name="call_private">حظر المكالمات من الأرقام المخفية</string>
     <string name="call_stranger_block">حظر المكالمات من الغرباء</string>
@@ -1040,12 +1045,20 @@
     <string name="cancel">إلغاء</string>
     <string name="cancel_button">إلغاء</string>
     <string name="car_sickness_relief_comment_text">عند اكتشاف حركة السيارة، يتم عرض النقاط على جانبي الشاشة للإشارة إلى ما إذا كانت السيارة تتحرك، مما قد يساعد في تأخير ظهور دوار الحركة.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"ستظهر نقاط على جانبي الشاشة للإشارة إلى حركة المركبة، مما قد يساعد في تأخير ظهور دوار الحركة.
+
+يمكنك تشغيل هذه الميزة وإيقافها في مركز التحكم."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"ستظهر نقاط بشكل مستمر على جانبي الشاشة للإشارة إلى حركة المركبة، مما قد يساعد في تأخير ظهور دوار الحركة.
+
+يمكنك تشغيل هذه الميزة وإيقافها في مركز التحكم."</string>
     <string name="car_sickness_relief_comment_text_opened">"ستظهر نقاط على جانبي الشاشة للإشارة إلى حركة المركبة، مما قد يساعد في تأخير ظهور دوار الحركة.
 
 يمكنك تشغيل هذه الميزة وإيقافها في مركز التحكم."</string>
     <string name="car_sickness_relief_example_text_1">عندما تزيد أو تتباطأ السيارة</string>
     <string name="car_sickness_relief_example_text_2">عندما تدور السيارة أو تغير مسارها</string>
     <string name="car_sickness_relief_exit_text">توقف علاج دوار الحركة عن العمل</string>
+    <string name="car_sickness_relief_notification_text_close">إيقاف</string>
+    <string name="car_sickness_relief_notification_text_opened">تشغيل</string>
     <string name="car_sickness_relief_start_text">تخفيف دوار الحركة يعمل</string>
     <string name="car_sickness_remind_time_title">مؤشرات الحركة</string>
     <string name="car_sickness_title">تخفيف دوار الحركة</string>
@@ -2084,7 +2097,7 @@
 %3$d. هذه الميزة مدعومة فقط في البر الرئيسي الصيني.
 %4$d. تعمل هذه الميزة فقط على شبكات 5G-SA."</string>
     <string name="function_shield_auto_bright">إيقاف تشغيل السطوع التلقائي</string>
-    <string name="function_shield_eye_shield">إيقاف تشغيل وضع القراءة</string>
+    <string name="function_shield_eye_shield">إيقاف وضع راحة العين</string>
     <string name="function_shield_pull_notification_bar">لا تفتح مركز الإشعارات</string>
     <string name="function_shield_settings_title">الحد من ميزات النظام التالية خلال اللعبة</string>
     <string name="function_shield_summary">الحد من ميزات النظام المحددة خلال اللعبة</string>
@@ -2958,6 +2971,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">التثبيت عبر USB</string>
     <string name="install_type_instant">تطبيق فوري</string>
     <string name="installing">جارٍ التثبيت</string>
+    <string name="intercept_all_mark_calls">هل تريد حظر جميع المكالمات المصنفة بـ \"%s\"؟</string>
+    <string name="intercept_calls_nofify_hide_text">لتعيين قواعد حظر للأرقام الأخرى المصنفة، انقر هنا</string>
+    <string name="intercept_calls_notify_title">سيتم إنهاء المكالمات التي تحمل هذا التصنيف تلقائيًا. هل تريد حظرها الآن؟</string>
+    <string name="intercept_garbage_msg">رسائل البريد المزعج</string>
+    <string name="intercept_record">السجل</string>
+    <string name="intercept_strange_msg">الرسائل من الغرباء</string>
     <string name="international_Ad">اعلان</string>
     <string name="international_roaming_setting">بيانات التجوال</string>
     <string name="intl_app_manager_card_permission_title">الخصوصية والأذونات</string>
@@ -3152,6 +3171,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mark_harass_block">المبلغ عنه كمضايقة</string>
     <string name="mark_harass_block_large">مضايقات</string>
     <string name="mark_harass_time_setting">حظر الأرقام المبلغ عنها كمضايقات لعدد معين من المرات</string>
+    <string name="mark_num_open_intercept">حظر</string>
     <string name="mark_number_agent">وكالة</string>
     <string name="mark_number_fraud">احتيال</string>
     <string name="mark_number_harass">مضايقة</string>
@@ -5029,11 +5049,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="prompt_all">اسأل للجميع</string>
     <string name="prompt_input_time_illegal">لا يمكن تعيين هذا الوقت، قم بتغييره ثم حاول مرة أخرى</string>
     <string name="protect_eye_dont_open">ليس الآن</string>
-    <string name="protect_eye_hint_summry">قم بتشغيل وضع القراءة للحصول على تجربة قراءة أفضل</string>
-    <string name="protect_eye_hint_title">راحة العين</string>
+    <string name="protect_eye_hint_summry">قم بتشغيل وضع راحة العين لتجربة قراءة أفضل</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">تشغيل</string>
-    <string name="protect_eye_opened_summry">تعديل التفضيلات في الإعدادات > العرض والسطوع > راحة العين</string>
-    <string name="protect_eye_opened_title">وضع القراءة مشغل</string>
+    <string name="protect_eye_opened_summry">تحرير التفضيلات في الإعدادات > العرض والسطوع > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">وضع راحة العين قيد التشغيل</string>
     <string name="protocol_exception_title">تشخيصات بروتوكول الشبكة</string>
     <string name="protocol_loop_back_exception_summary">تعذر الاختبار الخلفي للتكرار المحلي. للإبلاغ بهذه المشكلة، انتقل إلى تطبيق \"التعليقات\" وأرسل سجلاً من جهازك.</string>
     <string name="province_selected_talkback" />
@@ -5097,6 +5117,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="repeat_type">التكرار</string>
     <string name="repeated_marked_number_summary">لا تحظر المكالمة الثانية من نفس الرقم الذي تم الإبلاغ عنه خلال %d دقائق</string>
     <string name="repeated_marked_number_title">عدم حظر المكالمات المكررة من الأرقام المبلغ عنها</string>
+    <string name="repeated_unknown_number_summary">لا تحظر مكالمة ثانية من نفس الرقم المجهول خلال %d دقائق</string>
     <string name="replace_dns">استبدال DNS تلقائيًا</string>
     <string name="report">إبلاغ</string>
     <string name="report_error">تعذر الإبلاغ عن الرسالة</string>
@@ -5337,6 +5358,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="sms_detail_fragment_title_traffic">البيانات المتبقية</string>
     <string name="sms_filter">فلتر ذكي</string>
     <string name="sms_guard_alert">تم تغيير تطبيق المراسلة الافتراضي. لن يتمكن تطبيق رسائل Xiaomi من حظر الرسائل المزعجة (SMS).</string>
+    <string name="sms_intercept_settings">إعدادات القائمة المحظورة للرسائل</string>
     <string name="sms_keywords">قائمة حظر الكلمة المفتاحية</string>
     <string name="sms_malicious_url">حظر SMS الذي يحتوي على روابط URL خبيثة</string>
     <string name="sms_prefix">قائمة حظر البادئات</string>
@@ -5539,9 +5561,26 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_call_intercept_reported">حظر المكالمات الواردة من الأرقام المبلغ عنها</string>
     <string name="st_call_intercept_stranger">حظر المكالمات من الغرباء</string>
     <string name="st_call_intercept_unknown">حظر المكالمات من الأرقام المخفية</string>
+    <string name="st_call_mark_agent">العقارات</string>
+    <string name="st_call_mark_agent_intercept">العقارات</string>
+    <string name="st_call_mark_decoration">تجديد المنزل</string>
+    <string name="st_call_mark_decoration_intercept">تجديد المنزل</string>
+    <string name="st_call_mark_edu">تعليم</string>
+    <string name="st_call_mark_edu_intercept">تعليم</string>
+    <string name="st_call_mark_high_risk">عالي الخطورة</string>
+    <string name="st_call_mark_high_risk_intercept">عالي الخطورة</string>
+    <string name="st_call_mark_insurance">الاستثمار</string>
+    <string name="st_call_mark_insurance_intercept">الاستثمار</string>
+    <string name="st_call_mark_loan">الرهن</string>
+    <string name="st_call_mark_loan_intercept">الرهن</string>
+    <string name="st_call_mark_sell">إعلانات</string>
+    <string name="st_call_mark_sell_intercept">إعلانات</string>
     <string name="st_call_other_group">أخرى</string>
     <string name="st_call_settings">قائمة حظر المكالمات</string>
     <string name="st_call_stranger_group">حظر المكالمات من الغرباء</string>
+    <string name="st_call_stranger_inercept_local">حظر الأرقام المجهولة</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">سيتم حظر المكالمات الواردة من أي رقم غير مدرج في قائمة الاستثناءات. هل تريد الحظر الآن؟</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">سيتم حظر المكالمات الواردة من أي رقم غير مدرج في قائمة الاستثناءات أو جهات الاتصال الخاصة بك. هل تريد الحظر الآن؟</string>
     <string name="st_confirm_call_all_dialog_summary">سيتم حظر جميع أرقام المكالمات الغير موجودة في الاستثناءات الخاصة بك. هل ترغب في تشغيل ذلك الآن؟</string>
     <string name="st_confirm_dialog_btn_open">حظر</string>
     <string name="st_confirm_dialog_summary_oversea_call">سيتم حظر جميع المكالمات من أرقام الهواتف غير محلية.</string>
@@ -5553,9 +5592,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_hint_add_head_number">أدخل بادئة للاسم</string>
     <string name="st_hint_add_phonenumber">أدخل رقم الهاتف</string>
     <string name="st_hint_operatelist">يبدو أن هذه القاعدة موجودة مسبقا</string>
+    <string name="st_intercept_dialog_title">تنبيه</string>
     <string name="st_mark_call_intercept_threshold_summary">حظر الأرقام التي تم الإبلاغ عنها أكثر من عدد معين تلقائيًا</string>
     <string name="st_mark_call_intercept_threshold_title">حد الحظر</string>
     <string name="st_mark_number_group">حظر المكالمات الواردة من الأرقام المبلغ عنها</string>
+    <string name="st_mark_number_net_group">حظر الأرقام المبلغ عنها</string>
     <string name="st_message_SMS_AntiSpam">حظر الرسائل القصيرة</string>
     <string name="st_message_SMSpass">السماح SMS</string>
     <string name="st_message_phone_AntiSpam">حظر المكالمات</string>
@@ -5568,13 +5609,26 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_msg_stranger_group">حظر الرسائل من الغرباء</string>
     <string name="st_settings_name">إعدادات قائمة الحظر</string>
     <string name="st_share_settings">استخدام إعدادات SIM %d</string>
+    <string name="st_smg_intercept_all">حظر كافة الرسائل</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">سيتم حظر الرسائل النصية القصيرة والرسائل متعددة الوسائط من أي رقم أو منطقة غير مدرجة في استثناءاتك. هل تريد الحظر الآن؟</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">سيتم حظر الرسائل النصية القصيرة والرسائل متعددة الوسائط من أي رقم أو منطقة غير مدرجة في قائمة الاستثناءات أو جهات الاتصال الخاصة بك. هل تريد الحظر الآن؟</string>
+    <string name="st_smg_intercept_network_check">حظر باستخدام التعريفات عبر الإنترنت</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">رسائل البريد المزعج</string>
+    <string name="st_smg_intercept_other">الإعدادات الإضافية</string>
+    <string name="st_smg_intercept_strange">حظر الرسائل من الغرباء</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">حظر الرسائل من الغرباء التي تحتوي على كلمات مفتاحية محددة</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">حظر الرسائل من أرقام ومناطق محددة</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">لا تحظر الرسائل الواردة من الغرباء والتي تحتوي على كلمات مفتاحية محددة.</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">لا تقم بحظر الرسائل الواردة من أرقام أو مناطق محددة في استثناءاتك.</string>
     <string name="st_sms_intercept_oversea">رسائل دولية</string>
     <string name="st_sub_title_customize_mode_name">الإسم</string>
     <string name="st_sub_title_whiteblack_list_group">قائمة الحظر</string>
     <string name="st_sum_call_wait">سيتم عرض رسائل الغياب أيضًا كإشارة مشغول للمكالمات الواردة.</string>
     <string name="st_summary_blacklist_numbers">حظر المكالمات والرسائل من أرقام ومناطق محددة</string>
     <string name="st_summary_blacklist_numbers_international">حظر المكالمات بناءً على الرقم أو البادئة</string>
+    <string name="st_summary_intercept_blacklist_numbers">حظر المكالمات والرسائل من أرقام ومناطق محددة</string>
     <string name="st_summary_keywords_blacklist">إضافة كلمات مفتاحية لحظر الرسائل</string>
+    <string name="st_summary_release_whitelist_numbers">لا تقم بحظر المكالمات والرسائل من الأرقام والمناطق في قائمة الاستثناءات الخاصة بك.</string>
     <string name="st_summary_special_numbers">حظر ارقام الهاتف التي تم الابلاغ عنها</string>
     <string name="st_summary_whitelist_numbers">السماح للمكالمات والرسائل من أرقام ومناطق محددة</string>
     <string name="st_summary_whitelist_numbers_international">السماح بالمكالمات بناءً على الرقم أو البادئة</string>
@@ -5609,6 +5663,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_title_markednumber_group">حظر الأرقام المبلغ عنها</string>
     <string name="st_title_mode_choose_group">قواعد قائمة الحظر</string>
     <string name="st_title_not_sim">فارغ</string>
+    <string name="st_title_number_and_region_blacklist">الأرقام والمناطق المحظورة</string>
+    <string name="st_title_number_and_region_whitelist">استثناءات الأرقام والمناطق</string>
     <string name="st_title_open_antispam">قائمة الحظر</string>
     <string name="st_title_other_group">أخرى</string>
     <string name="st_title_settings_other_group">الإعدادات الإضافية</string>
@@ -5772,7 +5828,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="summary_default_app">%s غير معين كتطبيق نظام افتراضي</string>
     <string name="summary_dev">تجنب البرمجيات الخبيثة و قم بحماية البيانات الشخصية</string>
     <string name="summary_do_not_disturb">أنت في وضع عدم الازعاج.</string>
-    <string name="summary_eye_shield">أوقف تشغيل وضع القراءة للرجوع إلى الإعدادات الافتراضية.</string>
+    <string name="summary_eye_shield">أوقف وضع راحة العين للعودة إلى الإعدادات الافتراضية.</string>
     <string name="summary_find_device">تحديد وقفل جهازك من أي مكان</string>
     <string name="summary_first_aid_kit">حل المشاكل على جهازك الآن</string>
     <string name="summary_flow_notification">عرض إحصائيات استخدام البيانات شهرياً في مركز الإشعارات</string>

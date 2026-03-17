@@ -196,6 +196,7 @@
     <string name="allow_onetime">Consenti questa volta</string>
     <string name="already_close_gamebooster">Game Turbo disattivato</string>
     <string name="am">AM</string>
+    <string name="anitispam_intercept_record">Cronologia lista blocchi</string>
     <string name="anti_disturb_msg_detail">Disattiva tutte le notifiche eccetto quelle per le chiamate in arrivo</string>
     <string name="anti_disturb_msg_title">ND</string>
     <string name="antispam_add_black_number_message">Il numero inserito è breve. Bloccare tutti i numeri che iniziano con queste cifre?</string>
@@ -1023,6 +1024,9 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="call_delete_all_hint">Eliminare le chiamate bloccate?</string>
     <string name="call_delete_hint">Eliminare tutte le chiamate bloccate da questo numero?</string>
     <string name="call_delete_title">Elimina la cronologia delle chiamate</string>
+    <string name="call_empty_number">Numeri in bianco</string>
+    <string name="call_forwarding_block">Chiamate inoltrate</string>
+    <string name="call_intercept_settings">Impostazioni lista blocchi chiamate</string>
     <string name="call_notification_answer_action">Rispondi</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Rifiuta</string>
@@ -1031,6 +1035,7 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="call_notification_ongoing_text">Chiamata in corso</string>
     <string name="call_notification_screening_text">Applicazione filtro a chiamata in arrivo</string>
     <string name="call_oversea_block">"Blocca le chiamate dall'estero"</string>
+    <string name="call_overseas_block">Chiamate internazionali</string>
     <string name="call_prefix">Prefisso lista blocchi</string>
     <string name="call_private">Blocca le chiamate dai numeri nascosti</string>
     <string name="call_stranger_block">Blocca le chiamate dagli sconosciuti</string>
@@ -1040,12 +1045,20 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="cancel">Annulla</string>
     <string name="cancel_button">Annulla</string>
     <string name="car_sickness_relief_comment_text">"Quando viene rilevato il movimento del veicolo, su entrambi i lati dello schermo verranno mostrati dei punti per indicare se il veicolo è in movimento, il che può aiutare a ritardare l'insorgere della chinetosi."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"I punti saranno mostrati su entrambi i lati dello schermo per indicare il movimento del veicolo, il che potrebbe aiutare a ritardare l'insorgere della cinetosi.
+
+Puoi attivare e disattivare questa funzione nel Centro di controllo."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"I punti saranno mostrati uniformemente su entrambi i lati dello schermo per indicare il movimento del veicolo, il che potrebbe aiutare a ritardare l'insorgere della cinetosi.
+
+Puoi attivare e disattivare questa funzione nel Centro di controllo."</string>
     <string name="car_sickness_relief_comment_text_opened">"I punti saranno mostrati su entrambi i lati dello schermo per indicare il movimento del veicolo, il che potrebbe aiutare a ritardare l'insorgere della cinetosi.
 
 Puoi attivare e disattivare questa funzione nel Centro di controllo."</string>
     <string name="car_sickness_relief_example_text_1">Quando il veicolo accelera o rallenta</string>
     <string name="car_sickness_relief_example_text_2">Quando il veicolo svolta o cambia corsia</string>
     <string name="car_sickness_relief_exit_text">Il rimedio per la cinetosi non è più in esecuzione</string>
+    <string name="car_sickness_relief_notification_text_close">Disattiva</string>
+    <string name="car_sickness_relief_notification_text_opened">Attivo</string>
     <string name="car_sickness_relief_start_text">Il rimedio per la cinetosi è in esecuzione</string>
     <string name="car_sickness_remind_time_title">Indicatori di movimento</string>
     <string name="car_sickness_title">Rimedio contro la chinetosi</string>
@@ -1877,7 +1890,7 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
 %3$d. Questa funzionalità è supportata solo nella Cina continentale.
 %4$d. Questa funzionalità funziona solo con reti 5G-SA."</string>
     <string name="function_shield_auto_bright">Disattiva la luminosità automatica</string>
-    <string name="function_shield_eye_shield">Disattiva la modalità lettura</string>
+    <string name="function_shield_eye_shield">Disattiva modalità Comfort visivo</string>
     <string name="function_shield_pull_notification_bar">"Non aprire l'area delle notifiche"</string>
     <string name="function_shield_settings_title">Limita le seguenti funzionalità durante il gioco</string>
     <string name="function_shield_summary">Limita le funzionalità di sistema selezionate durante il gioco</string>
@@ -2751,6 +2764,12 @@ per partecipare alla nostra caccia alle uova!"</string>
     <string name="install_title">Installa tramite USB</string>
     <string name="install_type_instant">App istantanea</string>
     <string name="installing">Installazione</string>
+    <string name="intercept_all_mark_calls">Bloccare tutte le chiamate etichettate come \"%s\"?</string>
+    <string name="intercept_calls_nofify_hide_text">Per impostare le regole di blocco per gli altri numeri categorizzati, tocca qui</string>
+    <string name="intercept_calls_notify_title">Le chiamate con questa etichetta verranno terminate automaticamente. Bloccare ora?</string>
+    <string name="intercept_garbage_msg">Messaggi spam</string>
+    <string name="intercept_record">Cronologia</string>
+    <string name="intercept_strange_msg">Messaggi da sconosciuti</string>
     <string name="international_Ad">Pubblicità</string>
     <string name="international_roaming_setting">Roaming dati</string>
     <string name="intl_app_manager_card_permission_title">Privacy e permessi</string>
@@ -2945,6 +2964,7 @@ dell'operatore"</string>
     <string name="mark_harass_block">Segnalato come fastidioso</string>
     <string name="mark_harass_block_large">Fastidi</string>
     <string name="mark_harass_time_setting">Blocca i numeri che sono stati segnalati come fastidiosi uno specifico numero di volte</string>
+    <string name="mark_num_open_intercept">Blocca</string>
     <string name="mark_number_agent">Agente</string>
     <string name="mark_number_fraud">Frode</string>
     <string name="mark_number_harass">Molestatore</string>
@@ -4802,11 +4822,11 @@ Revocare il consenso?"</string>
     <string name="prompt_all">Chiedi per tutte</string>
     <string name="prompt_input_time_illegal">Impossibile impostare questo orario, cambialo e riprova</string>
     <string name="protect_eye_dont_open">Non ora</string>
-    <string name="protect_eye_hint_summry">Attiva la modalità Lettura per una migliore esperienza di lettura</string>
-    <string name="protect_eye_hint_title">Comfort visivo</string>
+    <string name="protect_eye_hint_summry">Attiva la modalità Comfort visivo per una migliore esperienza di lettura</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Attiva</string>
-    <string name="protect_eye_opened_summry">Modifica le preferenze in Impostazioni > Display e luminosità > Comfort visivo</string>
-    <string name="protect_eye_opened_title">Modalità Lettura attivata</string>
+    <string name="protect_eye_opened_summry">Modifica le preferenze in Impostazioni > Display e luminosità > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">Modalità Comfort visivo attiva</string>
     <string name="protocol_exception_title">Diagnostica di protocollo di rete</string>
     <string name="protocol_loop_back_exception_summary">"Test loopback locale non andato a buon fine. Per segnalare questo problema, apri l'applicazione Feedback e invia un log dal tuo dispositivo."</string>
     <string name="province_selected_talkback" />
@@ -4870,6 +4890,7 @@ Revocare il consenso?"</string>
     <string name="repeat_type">Ripeti</string>
     <string name="repeated_marked_number_summary">Non bloccare una seconda chiamata dallo stesso numero riportato entro %d minuti</string>
     <string name="repeated_marked_number_title">Non bloccare chiamate ripetute dai numeri riportati</string>
+    <string name="repeated_unknown_number_summary">Non bloccare una seconda chiamata dallo stesso numero sconosciuto ricevuta entro %d minuti</string>
     <string name="replace_dns">Cambia il DNS automaticamente</string>
     <string name="report">Segnala</string>
     <string name="report_error">Impossibile segnalare il messaggio</string>
@@ -5110,6 +5131,7 @@ Revocare il consenso?"</string>
     <string name="sms_detail_fragment_title_traffic">Dati residui</string>
     <string name="sms_filter">Filtro intelligente</string>
     <string name="sms_guard_alert">"È stata cambiata l'app di messaggistica predefinita. Xiaomi Messaggi non potrà bloccare gli SMS di spam."</string>
+    <string name="sms_intercept_settings">Impostazioni lista blocchi messaggi</string>
     <string name="sms_keywords">Lista blocchi parole chiave</string>
     <string name="sms_malicious_url">Blocca SMS con URL pericolosi</string>
     <string name="sms_prefix">Prefisso lista blocchi</string>
@@ -5311,9 +5333,26 @@ Revocare il consenso?"</string>
     <string name="st_call_intercept_reported">Blocca le chiamate dai numeri segnalati</string>
     <string name="st_call_intercept_stranger">Blocca le chiamate dagli sconosciuti</string>
     <string name="st_call_intercept_unknown">Blocca le chiamate dai numeri nascosti</string>
+    <string name="st_call_mark_agent">Agenzie immobiliari</string>
+    <string name="st_call_mark_agent_intercept">Agenzie immobiliari</string>
+    <string name="st_call_mark_decoration">Ristrutturazione casa</string>
+    <string name="st_call_mark_decoration_intercept">Ristrutturazione casa</string>
+    <string name="st_call_mark_edu">Istruzione</string>
+    <string name="st_call_mark_edu_intercept">Istruzione</string>
+    <string name="st_call_mark_high_risk">Rischio elevato</string>
+    <string name="st_call_mark_high_risk_intercept">Rischio elevato</string>
+    <string name="st_call_mark_insurance">Investimenti</string>
+    <string name="st_call_mark_insurance_intercept">Investimenti</string>
+    <string name="st_call_mark_loan">Mutui</string>
+    <string name="st_call_mark_loan_intercept">Mutui</string>
+    <string name="st_call_mark_sell">Annunci</string>
+    <string name="st_call_mark_sell_intercept">Annunci</string>
     <string name="st_call_other_group">Altro</string>
     <string name="st_call_settings">Lista blocchi chiamate</string>
     <string name="st_call_stranger_group">Blocca le chiamate dagli sconosciuti</string>
+    <string name="st_call_stranger_inercept_local">Blocca numeri sconosciuti</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Le chiamate provenienti da qualsiasi numero non incluso nelle eccezioni verranno bloccate. Bloccare ora?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Le chiamate provenienti da qualsiasi numero non incluso nelle eccezioni o tra i contatti verranno bloccate. Bloccare ora?</string>
     <string name="st_confirm_call_all_dialog_summary">Le chiamate da qualsiasi numero non presente nelle tue eccezioni saranno bloccate. Attivare ora?</string>
     <string name="st_confirm_dialog_btn_open">Blocca</string>
     <string name="st_confirm_dialog_summary_oversea_call">Verranno bloccate tutte le chiamate dai numeri stranieri.</string>
@@ -5325,9 +5364,11 @@ Revocare il consenso?"</string>
     <string name="st_hint_add_head_number">Inserisci il prefisso</string>
     <string name="st_hint_add_phonenumber">Inserisci il numero di telefono</string>
     <string name="st_hint_operatelist">Sembra che questa regola esista già</string>
+    <string name="st_intercept_dialog_title">Attenzione</string>
     <string name="st_mark_call_intercept_threshold_summary">Blocca automaticamente i numeri che sono stati segnalati per un determinato numero di volte.</string>
     <string name="st_mark_call_intercept_threshold_title">Soglia di blocco</string>
     <string name="st_mark_number_group">Blocca le chiamate dai numeri segnalati</string>
+    <string name="st_mark_number_net_group">Blocca i numeri segnalati</string>
     <string name="st_message_SMS_AntiSpam">Blocca SMS</string>
     <string name="st_message_SMSpass">Consenti SMS</string>
     <string name="st_message_phone_AntiSpam">Blocca chiamate</string>
@@ -5340,13 +5381,26 @@ Revocare il consenso?"</string>
     <string name="st_msg_stranger_group">Blocca i messaggi dagli sconosciuti</string>
     <string name="st_settings_name">Impostazioni lista blocchi</string>
     <string name="st_share_settings">Usa le impostazioni della SIM %d</string>
+    <string name="st_smg_intercept_all">Blocca tutti i messaggi</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">Gli SMS e gli MMS provenienti da numeri o regioni non inclusi nelle eccezioni verranno bloccati. Bloccare ora?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">Gli SMS e gli MMS provenienti da numeri o regioni non inclusi nelle eccezioni o nei contatti verranno bloccati. Bloccare ora?</string>
+    <string name="st_smg_intercept_network_check">Blocca utilizzando le definizioni online</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Messaggi spam</string>
+    <string name="st_smg_intercept_other">Impostazioni aggiuntive</string>
+    <string name="st_smg_intercept_strange">Blocca messaggi da sconosciuti</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Blocca messaggi contenenti parole chiave specifiche inviati da sconosciuti</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Blocca messaggi da regioni e numeri specifici</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Non bloccare messaggi contenenti parole chiave specifiche inviati da sconosciuti</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Non bloccare i messaggi provenienti da numeri e regioni presenti nelle eccezioni</string>
     <string name="st_sms_intercept_oversea">SMS internazionale</string>
     <string name="st_sub_title_customize_mode_name">Nome</string>
     <string name="st_sub_title_whiteblack_list_group">Lista blocchi</string>
     <string name="st_sum_call_wait">"Il tuo messaggio d'assenza verrà anch'esso riprodotto come segnale occupato per le chiamate in arrivo."</string>
     <string name="st_summary_blacklist_numbers">Blocca chiamate e messaggi da numeri e località specifiche</string>
     <string name="st_summary_blacklist_numbers_international">Blocca le chiamate in base al numero o al prefisso</string>
+    <string name="st_summary_intercept_blacklist_numbers">Blocca chiamate e messaggi da regioni e numeri specifici</string>
     <string name="st_summary_keywords_blacklist">Aggiungi parole chiave per bloccare i messaggi</string>
+    <string name="st_summary_release_whitelist_numbers">Non bloccare chiamate e messaggi da regioni e numeri specifici</string>
     <string name="st_summary_special_numbers">Blocca i numeri di telefono segnalati</string>
     <string name="st_summary_whitelist_numbers">Consenti chiamate e messaggi da numeri e località specifiche</string>
     <string name="st_summary_whitelist_numbers_international">Consenti le chiamate in base al numero o al prefisso</string>
@@ -5381,6 +5435,8 @@ Revocare il consenso?"</string>
     <string name="st_title_markednumber_group">Blocca i numeri segnalati</string>
     <string name="st_title_mode_choose_group">Regole lista blocchi</string>
     <string name="st_title_not_sim">Vuoto</string>
+    <string name="st_title_number_and_region_blacklist">Numeri e regioni bloccati</string>
+    <string name="st_title_number_and_region_whitelist">Eccezioni per numeri e regioni</string>
     <string name="st_title_open_antispam">Lista blocchi</string>
     <string name="st_title_other_group">Altro</string>
     <string name="st_title_settings_other_group">Impostazioni aggiuntive</string>
@@ -5542,7 +5598,7 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="summary_default_app">%s non è impostata come applicazione di sistema predefinita</string>
     <string name="summary_dev">Evita i malware e proteggi i dati personali</string>
     <string name="summary_do_not_disturb">Sei in modalità ND.</string>
-    <string name="summary_eye_shield">Disattiva la modalità lettura per tornare alle impostazioni predefinite.</string>
+    <string name="summary_eye_shield">Disattiva la modalità Comfort visivo per tornare alle impostazioni predefinite.</string>
     <string name="summary_find_device">Localizza e blocca il tuo dispositivo ovunque ti trovi</string>
     <string name="summary_first_aid_kit">Risolvi subito i problemi sul tuo dispositivo</string>
     <string name="summary_flow_notification">"Visualizza le statistiche mensili sull'utilizzo dei dati nell'area delle notifiche"</string>

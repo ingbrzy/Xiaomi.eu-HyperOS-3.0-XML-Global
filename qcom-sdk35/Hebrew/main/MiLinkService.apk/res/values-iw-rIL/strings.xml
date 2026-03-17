@@ -21,7 +21,12 @@
     <string name="answering_tel2">הועבר מהטלפון…</string>
     <string name="app_casting">היישום משדר</string>
     <string name="app_name">הקרנה</string>
+    <string name="app_name_call">טלפון</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">הודעות</string>
     <string name="app_name_vtcamera">מצלמה למכשירים מרובים</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -164,6 +169,10 @@
     <string name="circulate_camera_glasses_error_device_not_support">לא ניתן להעביר את תוכן המשקפיים למכשיר זה</string>
     <string name="circulate_car_card_use_camera">להשתמש במצלמה הקדמית של הרכב החשמלי</string>
     <string name="circulate_car_card_using_camera">משתמש במצלמה הקדמית של הרכב החשמלי</string>
+    <string name="circulate_card_audio_change_pad_title">מעבר לשמע של הטאבלט</string>
+    <string name="circulate_card_audio_change_phone_title">מעבר לשמע של הטלפון</string>
+    <string name="circulate_card_audio_playing_pad_title">משתמש בשמע של הטאבלט</string>
+    <string name="circulate_card_audio_playing_phone_title">משתמש בשמע של הטלפון</string>
     <string name="circulate_card_disconnect">התנתקות</string>
     <string name="circulate_card_loading_title_audio_stereo">מערכת סטריאו</string>
     <string name="circulate_card_loading_title_band">צמיד</string>
@@ -324,6 +333,14 @@
     <string name="circulate_headset_control_anc_disable_hint">האוזניות שלך מחוברות לשני מכשירים. אפשר לכוונן את עוצמת הקול רק מהמכשיר הזה.</string>
     <string name="circulate_headset_control_anc_noise_cancel">ביטול רעשים</string>
     <string name="circulate_headset_control_anc_off">מושבת</string>
+    <string name="circulate_headset_control_audio_effect_off">השבתת \"שמע מרחבי\"</string>
+    <string name="circulate_headset_control_audio_effect_spatial">הפעלת \"שמע מרחבי\"</string>
+    <string name="circulate_headset_control_audio_find_earphone">ניגון שמע</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">ביטול</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">המשך</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">יושמע צליל בעוצמת שמע גבוהה. אם אתם משתמשים באוזניות, המשך השימוש באוזניות עלול לפגוע בשמיעה. יש להוציא אותן לפני שתמשיכו.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">אזהרה על עוצמת שמע גבוהה</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">הפסקת ניגון שמע</string>
     <string name="circulate_headset_control_battery_case">מארז</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
@@ -413,6 +430,7 @@
     <string name="circulate_phone_card_using_cellular_wifi">שימוש באות ה-Wi-Fi של הטלפון</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">שימוש באות ה-WLAN של הטלפון</string>
     <string name="circulate_phone_card_using_desktop">משתמש במסך הבית+ של הטלפון</string>
+    <string name="circulate_phone_card_using_sink_desktop">שיתוף מסך הבית+ עם הטלפון</string>
     <string name="circulate_public_device_title_format">ה%2$s של %1$s</string>
     <string name="circulate_ringfind_button_hint_play">נגן צליל</string>
     <string name="circulate_ringfind_button_hint_stop">להפסיק ניגון שמע</string>
@@ -488,10 +506,12 @@
     <string name="connect_settings_general_summary_share_clipboard">העתקת טקסט, תמונות או קבצים במכשיר כלשהו והדבקה שלהם במכשיר אחר בסביבה (טלפון, טאבלט, מחשב או כלי רכב) שמחובר לחשבון Xiaomi שלכם</string>
     <string name="connect_settings_general_summary_share_file">גישה ישירה לקבצים המאוחסנים בטלפון ממחשבים בסביבה שמחוברים לחשבון Xiaomi שלכם</string>
     <string name="connect_settings_general_summary_share_launcher_phone">צפייה ושליטה בטלפון שלכם וגישה ליישומים שמותקנים בו מטאבלטים, ממחשבים ומכלי רכב שנמצאים בסביבה ומחוברים לחשבון Xiaomi שלכם</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">צפייה במכשיר זה, שליטה בו ושימוש ביישומים שלו ממכשירי טלפון או טאבלט, ממחשבים או מכלי רכב שנמצאים בסביבה ומחוברים לאותו החשבון</string>
     <string name="connect_settings_general_summary_share_notification_pad">תצוגת התראות סוללה חלשה מטלפונים ומטאבלטים בסביבה שמחוברים לחשבון Xiaomi שלכם.</string>
     <string name="connect_settings_general_summary_share_notification_phone">"תצוגת התראות טלפון חשובות במכשירי טלוויזיה, בטאבלטים ובמחשבים בסביבה שמחוברים לחשבון Xiaomi שלכם.
 עובד עם משלוחי מזון ואפליקציות לשיתוף נסיעות במכשירי טלוויזיה, וגם עם התראות סוללה חלשה בטאבלטים ובמחשבים."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">להציג התראות על סוללה חלשה מהטלפון שלך בטאבלט שנמצא בסביבה ומחובר לאותו החשבון</string>
+    <string name="connect_settings_known_button">הבנתי</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">העברת תוכן באמצעות NFC</string>
     <string name="connect_settings_not_opened">מושבת</string>
@@ -499,6 +519,7 @@
     <string name="connect_settings_presentation_password_error">סיסמה שגויה</string>
     <string name="connect_settings_presentation_password_title">נא להזין את סיסמת המנהל</string>
     <string name="connect_settings_privacy_policy">מדיניות הפרטיות</string>
+    <string name="connect_settings_refresh">רענון</string>
     <string name="connect_settings_relay_app">יישומים</string>
     <string name="connect_settings_same_account">מחשבון זה</string>
     <string name="connect_settings_screen_cast">שידור</string>
@@ -508,6 +529,7 @@
     <string name="connect_settings_share_launcher">מסך הבית+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">ביטול נעילה של טלפון Xiaomi ושל יישומים באמצעות Face ID או סיסמה של iPad</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">ביטול נעילה של טלפון Xiaomi ושל יישומים באמצעות טביעת אצבע או סיסמה של iPad</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">פתיחת טלפון Xiaomi והיישומים שבו באמצעות טביעת אצבע או סיסמה של iPhone</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">שימוש ב-Face ID או בסיסמה ב-iPhone לביטול של נעילת טלפון Xiaomi שלכם ויישומים שמותקנים בו</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">ביטול נעילה באמצעות פנים או סיסמה</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">שימוש בטביעת אצבע או בסיסמה ב-Mac לביטול של נעילת הטלפון והיישומים שלכם</string>
@@ -515,13 +537,52 @@
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">פתיחה ע\"י זיהוי פנים</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">פתיחת יישומים מהירה אחרי ביטול נעילה</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">שימוש בטביעת אצבע או בסיסמה בטאבלט Xiaomi לביטול של נעילת הטלפון והיישומים שלכם</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">שימוש בטביעת האצבע או הסיסמה של טלפון זה כדי לפתוח את המכשיר הזה ויישומים שמותקנים בו</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">הוספת יישומים מהטלפון למסך הבית בטאבלט שלכם. לאחר ביטול של נעילת הטלפון, ניתן לפתוח את היישומים ישירות מהטאבלט.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">יש להשתמש בטביעת אצבע או להזין סיסמה לביטול נעילה</string>
     <string name="connect_settings_share_notification">התראות</string>
+    <string name="connect_settings_share_notification_help">עזרה</string>
     <string name="connect_settings_share_notification_iphone_device">להציג התראות ממכשיר זה ב-iPhone</string>
     <string name="connect_settings_share_notification_local_device">להציג התראות מ-iPhone במכשיר זה</string>
+    <string name="connect_settings_share_notification_local_device_summary">כדי שיהיה ניתן לענות לשיחות ולקבל הודעות והתראות יישומים במכשיר זה, יש לאפשר סנכרון של התראות לטלפון Xiaomi שלך תחת Xiaomi Interconnectivity > סנכרון התראות > סנכרון ל-Xiaomi ב-iPhone שלך.</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">כדי לענות לשיחות ולקבל הודעות והתראות יישומים למכשיר Xiaomi שלך, יש לחבר אותו ל-iPhone שלך תחת Xiaomi Interconnectivity > סנכרון התראות > סנכרון ל-Xiaomi.</string>
+    <string name="connect_settings_share_notification_local_device_title">לקבל התראות מ-%1$s</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">צפייה בהתראות ממכשירי Xiaomi אחרים במכשיר זה</string>
     <string name="connect_settings_share_notification_mi_device">להציג התראות ממכשיר זה במכשירי Xiaomi</string>
+    <string name="connect_settings_share_notification_mi_device_category">סנכרון למכשירים בסביבה</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">מכשירים בסביבה</string>
+    <string name="connect_settings_share_notification_mi_device_v2">טאבלטים או טלוויזיות של Xiaomi</string>
+    <string name="connect_settings_share_notification_mi_device_v3">טאבלטים, מחשבים וטלוויזיות של Xiaomi</string>
     <string name="connect_settings_share_notification_more_feature">מאפיינים נוספים</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">צפייה בהתראות ממכשיר זה במכשירי Xiaomi אחרים</string>
+    <string name="connect_settings_share_notification_receive_tab">לקבל</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">מכשירים זמינים</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">מכשירים זמינים</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">יש לוודא שה-%1$s מחובר לאותו החשבון שאליו מחובר מכשיר זה, וכי קישוריות הדדית הופעלה בהגדרות.</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">לא ניתן להתחבר אל %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">יש לוודא ששני המכשירים מחוברים לאותו החשבון ולאותה הרשת, או לוודא ש-Bluetooth ו-WLAN מופעלים בשני המכשירים.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">יש לוודא ששני המכשירים מחוברים לאותו החשבון ולאותה הרשת, או לוודא ש-Bluetooth ו-Wi-Fi מופעלים בשני המכשירים.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">יש לוודא ששני המכשירים מחוברים לאותו החשבון וגם מחוברים לרשת או מופעל בהם WLAN</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">יש לוודא ששני המכשירים מחוברים לאותו החשבון וגם מחוברים לרשת או מופעל בהם Wi-Fi</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">מחפש את המכשיר שלך…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">כאשר מכשיר זה מחובר לרשת, ניתן לקבל התראות ממכשירים שמחוברים לאותו החשבון. אם יש בסביבה מכשיר עם Bluetooth ו-WLAN מופעלים, ניתן לשקף את היישומים שלו ולענות להודעות שהגיעו אליו.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">כאשר מכשיר זה מחובר לרשת, ניתן לקבל התראות ממכשירים שמחוברים לאותו החשבון. אם יש בסביבה מכשיר עם Bluetooth ו-Wi-Fi מופעלים, ניתן לשקף את היישומים שלו ולענות להודעות שהגיעו אליו.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• כאשר המכשיר הזה מחובר לרשת, ניתן לצפות ממנו בהתראות מטלפון Xiaomi נעול אחר שמחובר לאותו החשבון.
+• כאשר מכשירים שמחוברים לאותו החשבון נמצאים בסביבה ומופעלים בהם Bluetooth ו-WLAN, ניתן לענות להתראות מהמכשירים האחרים ישירות ממכשיר זה."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• כאשר המכשיר הזה מחובר לרשת, ניתן לצפות ממנו בהתראות מטלפון Xiaomi נעול אחר שמחובר לאותו החשבון.
+• כאשר מכשירים שמחוברים לאותו החשבון נמצאים בסביבה ומופעלים בהם Bluetooth ו-Wi-Fi, ניתן לענות להתראות מהמכשירים האחרים ישירות ממכשיר זה."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">לא נמצאו מכשירים זמינים</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">כדי לנהל התראות במכשיר זה, יש לאפשר סנכרון של התראות למכשיר Xiaomi שלך תחת Xiaomi Interconnectivity > סנכרון התראות > סנכרון ל-Xiaomi ב-%1$s שלך.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">\"סנכרון התראות\" מושבת למשך %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">לקבל</string>
+    <string name="connect_settings_share_notification_send_tab">סנכרון</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">סנכרון לטלפון</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">מכשירי הטלפון שלי</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"להציג התראות ממכשיר זה במכשירי טלפון, טאבלט או טלוויזיה שמחוברים לאותו החשבון.
+*מאפיינים נתמכים: מכשירי טלפון יכולים להציג שיחות, הודעות והתראות יישומים; מכשירי טלוויזיה יכולים להציג התרעות על משלוח ושיתוף נסיעות; מכשירי טאבלט ומחשבים יכולים להציג התרעות על סוללה חלשה מהטלפון."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• כאשר המכשיר הזה נעול, ניתן לצפות בהתראות ממכשיר זה במחשבים ובמכשירי טלפון, טאבלט או טלוויזיה שמחוברים לאותו החשבון.
+• ניתן לצפות בשיחות, בהודעות או בהתראות יישומים במכשירי טלפון, בהתראות לגבי משלוחי אוכל ושיתוף נסיעות במכשירי טלוויזיה, ובהתראות על סוללה חלשה במכשירי טאבלט ובמחשבים."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">סנכרון</string>
     <string name="connect_settings_summary"><Data>גילוי מכשירים בסביבה שמחוברים לחשבון Xiaomi שלך והוספתם ל-Xiaomi Smart Hub. &lt;a href=%1$s>למידע נוסף&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">לאפשר למכשירים שלך לתקשר ביניהם באופן אלחוטי</string>
     <string name="connect_settings_summary_corp_network">שימוש ברשת של הטלפון שלכם מטאבלטים או ממחשבים</string>
@@ -537,6 +598,7 @@
     <string name="connect_settings_summary_share_launcher_pad_v2">שליטה בטלפון מהטאבלט שלך</string>
     <string name="connect_settings_summary_share_launcher_phone">לאפשר לטאבלטים ולמחשבים בסביבה הקרובה לצפות במסך הבית של המכשיר הזה ולקיים אתו אינטראקציות</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">שליטה בטלפון שלכם מטאבלטים, מממחשבים או מכלי רכב</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">שליטה במכשיר זה מהטלפון, מהטאבלט, מהמחשב או מהמכונית שלך</string>
     <string name="connect_settings_summary_share_notification_pad">לקבל התראות ממכשירי טלפון בסביבה הקרובה שמחוברים לחשבון Xiaomi שלך</string>
     <string name="connect_settings_summary_share_notification_pad_v2">להציג במכשיר זה התראות ממכשירי טלפון בסביבה שמחוברים לחשבון Xiaomi שלכם</string>
     <string name="connect_settings_summary_share_notification_phone">להציג התראות בטאבלטים או מחשבים בסביבה הקרובה הנמצאים בשימוש בזמן שהמכשיר הזה נעול</string>
@@ -568,19 +630,31 @@
     <string name="device_permission_dialog_title">יש לתת הרשאה ב-%s</string>
     <string name="device_type_name_pad">טאבלט</string>
     <string name="device_type_name_phone">טלפון</string>
+    <string name="dialog_auth_title">קוד אימות</string>
     <string name="dialog_can_not_find_device">לא ניתן למצוא מכשירים בסביבה הקרובה</string>
     <string name="dialog_cancle">ביטול</string>
     <string name="dialog_close">להשבית</string>
+    <string name="dialog_confirm_button">הבנתי</string>
+    <string name="dialog_confirm_remote_status">לבדוק את סטטוס %1$s</string>
     <string name="dialog_connect_fail">לא ניתן להתחבר</string>
     <string name="dialog_connect_retry">הקש כדי לנסות שוב</string>
     <string name="dialog_connect_verify_perssion">קודם אשר שידור מסך במכשיר הטלוויזיה שלך</string>
     <string name="dialog_connect_verify_perssion_fail">לא ניתן לאשר את השידור במכשיר הטלוויזיה שלך. המתן דקה או שתיים ונסה שוב.</string>
     <string name="dialog_connected">התחבר</string>
     <string name="dialog_connecting">מתחבר…</string>
+    <string name="dialog_copy_it">העתקה</string>
+    <string name="dialog_enable_remote_notification">יש לאפשר התראות בין מכשירים ב-%1$s שלך</string>
+    <string name="dialog_enable_remote_notification_content_v2">לא ניתן לסנכרן התראות עכשיו. עליך לוודא שיש הרשאה לסנכרון התראות ב-%1$s תחת הגדרות > קישוריות הדדית > התראות בין מכשירים > סנכרון.</string>
     <string name="dialog_incoming_call_instruction">לענות ב-%1$s שלך</string>
     <string name="dialog_know_it">הבנתי</string>
     <string name="dialog_location_permission_message">יישום זה זקוק לגישה למיקום שלך כדי שהוא יוכל לאתר מסכים חיצוניים בסביבה הקרובה. יש לבחור באפשרות \"אפשר כל הזמן\" במתן הרשאה זו כדי למנוע שגיאות אפשריות.</string>
     <string name="dialog_location_permission_title">נדרשת הרשאה</string>
+    <string name="dialog_message_instruction_subtitle_call">ניתן לענות ב-%1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">ניתן לענות בטלפון Xiaomi</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">ניתן לענות ב-iPhone</string>
+    <string name="dialog_message_instruction_subtitle_reply">ניתן לענות ב-%1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">ניתן להשיב בטלפון Xiaomi</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">ניתן להשיב ב-iPhone</string>
     <string name="dialog_message_reply_instruction">להשיב ב-%1$s שלך</string>
     <string name="dialog_miplay_permission_message">אפשר למקרין להקליט שמע, לגשת לקבצים באחסון הפנימי ולגשת למיקום שלך כדי שתוכל להשתמש בתכונה זו באופן רגיל. הקש על \"הגדרות\" ובחר \"הרשאות אפליקציה\" כדי להמשיך.</string>
     <string name="dialog_miplay_permission_positive">הגדרות</string>
@@ -594,10 +668,18 @@
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. יש לחבר גם את המכשיר הנייד וגם את הטלוויזיה לאותה רשת WLAN.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. בדגמי טלוויזיה מסוימים, המאפיין הזה זמין רק כאשר מופעל שיקוף המסך. ראו &lt;a href=milink://com.milink.service/specification>\"עזרה\"&lt;/a> לקבלת מידע נוסף.</Data></string>
     <string name="dialog_ok">אישור</string>
     <string name="dialog_only_suport_content">הזרם תמונות, סרטונים או מוזיקה</string>
+    <string name="dialog_open_remote_switch_content">לא ניתן להחיל את ההגדרה. יש לוודא שה-%1$s שלך מחובר לאותו החשבון ולאותה הרשת שאליה מחובר מכשיר זה.</string>
     <string name="dialog_open_wifi_bt">הפעל</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"ודא שתכונת השידור האלחוטי מופעלת במכשיר היעד.
 עיין בדף העזרה אם יש לך בעיות בחיבור."</string>
     <string name="dialog_recent_connected">לאחרונה</string>
+    <string name="dialog_remote_authorization">יש לתת הרשאות ב-%1$s</string>
+    <string name="dialog_remote_authorization_content">יש לתת למאפיין הקישוריות ההדדית הרשאת גישה להתראות ב-%1$s שלך.</string>
+    <string name="dialog_reset_app_subscribe">יש לאפשר התראות מ-%1$s</string>
+    <string name="dialog_reset_app_subscribe_content">%2$s הוסר בעבר מה-%1$s שלך. לא ניתן לקבל התראות מהיישום במכשיר זה. יש לשנות את ההגדרות ולשנות שוב.</string>
+    <string name="dialog_reset_app_subscribe_multi">שינוי הגדרות ההתראות</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s ו-%3$s הוסרו בעבר מה-%1$s שלך. לא ניתן לקבל התראות מהיישומים במכשיר זה. יש לשנות את ההגדרות ולשנות שוב.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s ו-%4$s הוסרו בעבר מה-%1$s שלך. לא ניתן לקבל התראות מהיישומים במכשיר זה. יש לשנות את ההגדרות ולשנות שוב.</string>
     <string name="dialog_retry">נסה שוב</string>
     <string name="dialog_scan_message">"%1$d. חבר גם את המכשיר הנייד וגם את הטלוויזיה שלך לאותה רשת Wi-Fi.
 
@@ -621,6 +703,7 @@
     <string name="early_morning">מוקדם בבוקר</string>
     <string name="edit_device_group">עריכת קבוצות מכשירים</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">לא ניתן לקבל התראות עכשיו. עליך לוודא שיש הרשאה לסנכרון התראות ב-%1$s תחת הגדרות > קישוריות הדדית > התראות בין מכשירים > סנכרון.</string>
     <string name="enable_screen_projection_summary">הקרנת תוכן המסך לצג חיצוני</string>
     <string name="enable_screen_projection_summary_new">שידור של מסך המכשיר הנייד לטלוויזיות ולמסכים חיצוניים אחרים שנמצאים בסביבה</string>
     <string name="enable_screen_projection_summary_pad">שידור מסך הטאבלט לטלוויזיה או למכשיר אחר בסביבה הקרובה</string>
@@ -884,8 +967,10 @@
     <string name="miplay_song_title_empty">אין כאן פריטים</string>
     <string name="mirror_phone_content">להפעיל את מסך הבית+ עכשיו?</string>
     <string name="mirror_phone_content_remote">ניתן להפעיל את מסך הבית+ תחת הגדרות > קישוריות הדדית.</string>
+    <string name="mirror_phone_content_remote_V1">יש להפעיל את מסך הבית+ בהגדרות > קישוריות הדדית > מסך הבית+ במכשיר %1$s שלך.</string>
     <string name="mirror_phone_title">הפעלת מסך הבית+</string>
     <string name="mirror_phone_title_remote">להפעיל את מסך הבית+ בטלפון</string>
+    <string name="mirror_phone_title_remote_V1">קודם יש להפעיל את מסך הבית+</string>
     <string name="mirror_remote_pad_content">ניתן להפעיל את מסך הבית+ תחת הגדרות > קישוריות הדדית.</string>
     <string name="mirror_remote_pad_title">להפעיל את מסך הבית+ בטאבלט</string>
     <string name="miuix_access_state_desc">נבחר</string>
@@ -978,12 +1063,24 @@
     <string name="nothing_to_play">לא מנגן</string>
     <string name="notification_cast_desc">מקרין…</string>
     <string name="notification_channel_description">יש לבחור בסוגי ההתראות שיסונכרנו ממכשיר אחר למכשיר Xiaomi שלך</string>
+    <string name="notification_channel_subtitle_ref_call">שיחה מ-iPhone</string>
+    <string name="notification_channel_subtitle_ref_call_1">שיחה מ-%1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_1">הודעת Lark מ-%1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq">הודעת QQ מ-iPhone</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">הודעת QQ מ-%1$s</string>
+    <string name="notification_channel_subtitle_ref_sms">הודעה מ-iPhone</string>
+    <string name="notification_channel_subtitle_ref_sms_1">הודעה מ-%1$s</string>
+    <string name="notification_channel_subtitle_ref_xin">הודעת WeChat מ-iPhone</string>
+    <string name="notification_channel_subtitle_ref_xin_1">הודעת WeChat מ-%1$s</string>
     <string name="notification_channel_title_name">ההתראות המסונכרנות למכשיר Xiaomi</string>
     <string name="notification_desc_scanning">מחפש מכשירים בקרבת מקום…</string>
     <string name="notification_incoming_call_to_reply">שיחה נכנסת. לענות ב-%1$s.</string>
     <string name="notification_permission_content">לאפשר קבלת התראות ממכשיר זה בכל iPhone שבו מותקן יישום הקישוריות ההדדית שמחובר לחשבון שלך.</string>
+    <string name="notification_permission_new_content">יש לאפשר תצוגה של שיחות, הודעות והתראות יישומים ממכשיר זה ב-iPhone עם סנכרון התראות מופעל או במכשיר Xiaomi עם התראות בין מכשירים מופעלות.</string>
     <string name="notification_rc_title">עוזר XiaoMi TV</string>
+    <string name="notification_revice_phone">התראות מ-%1$s</string>
     <string name="notification_show_more">הקש לצפייה במאפיינים נוספים</string>
+    <string name="notification_support_applist">יישומים נתמכים</string>
     <string name="notify_wifiap_dialog_msg">כדי לסרוק את הקוד ולהגדיר את תצורת הרשת, בטל קודם נקודה חמה ניידת.</string>
     <string name="notify_wifiap_dialog_negative">הבנתי</string>
     <string name="notify_wifiap_dialog_title">הגדר תצורת רשת</string>
@@ -1180,6 +1277,7 @@
     <string name="path_setting_cast_feature">אפשרויות קישוריות נוספות/שידור/מאפיינים מיוחדים</string>
     <string name="path_setting_cast_help">אפשרויות קישוריות נוספות/שידור/עזרה</string>
     <string name="permission_allowed">ניתן</string>
+    <string name="permission_label_access_app_meta">גישה לנתוני היישום כשמשתמשים ביישומים ממכשירים שונים</string>
     <string name="permission_uballowed">לא ניתן</string>
     <string name="picker_view_description">מצלמה למכשירים מרובים. ניתן להקיש בתוך הכרטיס כדי לבחור מצלמות ממכשירים בסביבה.</string>
     <string name="picker_view_outside_description">הקישו לסגירת כרטיס זה.</string>
@@ -1292,6 +1390,7 @@
     <string name="screen_mirror_content">כל תוכן המסך יוצג ב-%1$s</string>
     <string name="screen_projection">הקרנה</string>
     <string name="screen_projection_characteristics">תכונות מיוחדות</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">ניתן לעבור לשידור היישום ב-Xiaomi HyperIsland כדי לשדר את היישום הנוכחי למסך חיצוני תוך שימוש ביישומים אחרים בטלפון שלך</string>
     <string name="screen_projection_characteristics_cast_summary">לשדר את תוכן המסך לטלוויזיה בסביבה הקרובה</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">כיבוי מסך המכשיר הנייד בזמן שידור כדי לחסוך סוללה ולמנוע התחממות יתר</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">כבו את המסך בזמן השידור כדי להפחית את צריכת החשמל והתחממות יתר</string>
@@ -1357,6 +1456,8 @@
     <string name="show_result_on_tv">צפייה בתוצאות על גבי טלוויזיה</string>
     <string name="small_window">מזער חלון</string>
     <string name="small_window_not_supported">לא ניתן למזער יישום זה במהלך הקרנתו</string>
+    <string name="sound_card_circulatable_control_text">בקרות ניגון</string>
+    <string name="sound_card_circulatable_source_text">מקור השמע</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">מצלמת המשקפיים נמצאת בשימוש. יש לנסות שוב מאוחר יותר.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">מקליט שמע. לא ניתן לפתוח את המצלמה.</string>
     <string name="start_forbidden_by_glasses_in_translation">מתרגם. לא ניתן לפתוח את המצלמה.</string>
@@ -1461,6 +1562,8 @@
     <string name="title_connection_interrupted">חל שיבוש בחיבור</string>
     <string name="title_install">להתקין את Mi קנבס</string>
     <string name="title_update">לעדכן את Mi קנבס</string>
+    <string name="toast_confirm_network">לא ניתן להשלים את ההתקנה. יש לוודא שהמכשיר הזה מחובר לרשת.</string>
+    <string name="toast_copy_auth_message_finish">העתקה בוצעה בהצלחה</string>
     <string name="toast_guide_show_more">מידע נוסף</string>
     <string name="toast_guide_title">כאן אפשר לגלות את המאפיינים החדשים שלנו</string>
     <string name="toast_invisible_mode">אתה במצב גלישה בסתר. לא ניתן להשתמש כעת בשידור.</string>
@@ -1469,6 +1572,9 @@
     <string name="toast_msg_for_small_window">ניתן למזער את החלון המשודר כדי להשתמש במאפיינים אחרים בטלפון שלך, בלי לפגוע בתהליך השידור.</string>
     <string name="toast_nfc_dont_move">אל תרחיק את הטלפון שלך</string>
     <string name="toast_nfc_same_wifi">חבר גם את הטלוויזיה וגם את המכשיר הזה לאותה רשת</string>
+    <string name="toast_remote_not_install">יישום זה לא מותקן ב-%1$s שלך.</string>
+    <string name="toast_retry">יש להמתין עד להחלת ההגדרות ולנסות שוב</string>
+    <string name="toast_synchronization">בודק את סטטוס המכשיר. יש לנסות שוב מאוחר יותר.</string>
     <string name="toast_title_for_small_window">בחר ב-\"מזער חלון\" באפליקציה</string>
     <string name="toast_turn_off_hotspot_before_cast">כבה את הנקודה החמה לפני השידור</string>
     <string name="today">היום</string>

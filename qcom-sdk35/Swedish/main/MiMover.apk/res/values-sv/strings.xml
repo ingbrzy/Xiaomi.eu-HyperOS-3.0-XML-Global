@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Nästa</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Dessa %1$d-bits appar kan inte överföras till en %2$d-bits enhet. Du kan ladda ner dem direkt från GetApps, efter överföringen.</string>
     <string name="audio">Ljud</string>
+    <string name="audio_permission_desc_new">För överföring av musik och ljud till den nya enheten</string>
     <string name="audio_video_document">Ljud, video och dokument</string>
     <string name="back">Tillbaka</string>
     <string name="backup_died_summary">Tryck på \"Anslut igen\". Överföringsprogressen kommer att återupptas från där du slutade.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Koden har inte angetts på länge. Anslut manuellt.</string>
     <string name="ble_enter_verifycode_timeout_title">Sessionens tidsgräns uppnåddes</string>
     <string name="ble_guest_connecting_title">Ansluter till den nya enheten…</string>
+    <string name="ble_guest_connecting_title_pad">Ansluter till den nya enheten…</string>
     <string name="ble_host_verification_summary">Ange en %d-siffrig kod på din gamla enhet.</string>
     <string name="ble_host_verification_title">Ansluter till den gamla enheten…</string>
     <string name="ble_manual_authorization_content">Bevilja de behörigheter som krävs för att kunna överföra objekt med Mi Mover. Du kan bevilja dessa behörigheter i Inställningar.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Internetdelning skapad. Väntar på att ansluta…</string>
     <string name="ble_starting_ap">Skapar hotspot…</string>
     <string name="ble_wait_verify_code">Genererar kod på ny enhet…</string>
+    <string name="ble_wait_verify_code_pad">Genererar kod på ny enhet…</string>
     <string name="ble_waiting_verify_code">Verifierar kod…</string>
     <string name="ble_waiting_verify_code_error">Koden du har angett är felaktig</string>
+    <string name="blutooth_permission_desc_new">För att upptäcka närliggande enheter som är redo att ansluta</string>
     <string name="btn_got_it">Uppfattat</string>
     <string name="btn_install_complete">Installerad</string>
     <string name="btn_mi_cloud_install_complete">Jag har installerat appen</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Pågående samtal</string>
     <string name="call_notification_screening_text">Ett inkommande samtal filtreras</string>
     <string name="calllog">Samtalshistorik</string>
+    <string name="camera_permission_content">För att upptäcka närliggande enheter</string>
     <string name="cancel">Avbryt</string>
     <string name="cancel_moving_dialog_message">Sluta importera nu?</string>
     <string name="cancel_moving_dialog_title">Sluta importera</string>
@@ -150,8 +155,10 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="connection_tips_owner_title">Om din gamla enhet är en Mi-telefon:</string>
     <string name="connection_tips_owner_title_global">Installera den senaste versionen av Mi Mover:</string>
     <string name="contact_records_permission_desc">För att överföra samtalshistorik till andra enheter</string>
+    <string name="contact_records_permission_desc_new">För att överföra samtalshistorik till den nya enhet</string>
     <string name="contacts">Kontakter</string>
     <string name="contacts_permission_desc">För att överföra kontakter till andra enheter</string>
+    <string name="contacts_permission_desc_new">För att överföra kontakter till den nya enhet</string>
     <string name="contains_unauthorized_data">Innehåller obehörig data</string>
     <string name="copy">Kopiera</string>
     <string name="current_user_not_supported_summary">Nuvarande systeminställningarna begränsar överföring av data via Mi Mover.</string>
@@ -180,6 +187,17 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="dialog_rating_desc_less">Vill du ge oss några förslag så att vi kan förbättra vår app?</string>
     <string name="dialog_rating_desc_perfect">Tack! Vill du även betygsätta Mi Mover i GetApps?</string>
     <string name="dialog_rating_title">Betygsätt Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"För att kunna överföra data från din gamla enhet till din nya, behöver den här appen ansluta till internet och kräver följande behörigheter:
+• Åtkomst till foton, ljud, kalender och videor
+•Åtkomst till meddelanden, kontakter och samtalshistorik
+• Åtkomst till lagring
+• Åtkomst till listan över appar som är installerade på enheten"</string>
+    <string name="dialog_request_all_permission_content_new_china">"För att kunna överföra data från din gamla enhet till din nya, behöver den här appen ansluta till internet och kräver följande behörigheter:
+• Åtkomst till foton, ljud, kalender och videor
+•Åtkomst till meddelanden, kontakter och samtalshistorik
+• Åtkomst till lagring
+• Åtkomst till listan över appar som är installerade på enheten"</string>
+    <string name="dialog_request_all_permission_title_new">Behörigheter krävs</string>
     <string name="dialog_request_network_btn_negative">Avsluta</string>
     <string name="dialog_request_network_btn_positive">Godkänn</string>
     <string name="dialog_request_permission_message">Välkommen till Mi Mover! Du kan använda den här appen för att överföra data från din gamla enhet till en ny. Informationen kommer att överföras mellan de två enheterna och kommer inte att laddas upp på våra servrar. Den här appen behöver ansluta till internet och kräver följande behörigheter för att kunna fungera normalt:</string>
@@ -188,6 +206,8 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="dialog_request_permission_message_extra_title">Obligatoriska behörigheter</string>
     <string name="dialog_request_permission_message_global">Denna behöver följande behörigheter för att kunna fungera normalt:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"För att till fullo förstå dina rättigheter som användare såväl som på vilka sätt vi använder din data, läsa och godkänna vår &lt;a href='%1s'>Användaravtalet för Xiaomis operativsystem&lt;/a> och &lt;a href='%2s'>Mi Movers integritetspolicy&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Låt den här appen ansluta till internet och bevilja de obligatoriska behörigheterna ovan. För att helt förstå dina rättigheter som en användare, så väl som på de sätt, vilka vi kommer att använda din data, ber vi dig att läsa och godkänna &lt;a href='%1s'>Användaravtalet för Xiaomis operativsystem&lt;/a> och &lt;a href='%2s'>Mi Mover Integritetspolicy&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Välkommen till Mi Mover! Du kan använda den här appen för att överföra data från din gamla enhet till en ny. Data kommer att överföras mellan de två enheterna och kommer inte att överföras till våra servrar.</string>
     <string name="dialog_request_permission_message_provision_link">Samtidigt, för att till fullo förstå dina rättigheter som användare, så väl som på vilket sätt vi använder din data, läs och godkänn vårt %1$s och %2$s.</string>
     <string name="dialog_request_permission_title">Obs!</string>
     <string name="dialog_request_permission_title_global">Behörigheter krävs</string>
@@ -367,9 +387,12 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="icloud_signin_fail_message">Ditt Apple ID låstes på grund av säkerhetsanledningar. Gå till iforgot.apple.com och följ instruktionerna.</string>
     <string name="icloud_start_now">Använd mobildata</string>
     <string name="icloud_verify_tips">Tryck ”Tillåt” på din iOS-enhet och ange koden som visas på den här.</string>
+    <string name="idm_discovery_summary_pad">Det verkar som om du aktiverar en ny enhet nu. Överför objekt från den här enheten till den nya?</string>
+    <string name="idm_discovery_title_pad">Överför objekt till din nya enhet</string>
     <string name="im_recipient">Jag är mottagare</string>
     <string name="im_sender">Jag är avsändare</string>
     <string name="image">Bilder</string>
+    <string name="image_video_permission_desc_new">För överföring av foton och videor till den nya enheten</string>
     <string name="import_again">Importera igen</string>
     <string name="import_data_from_icloud">Importera data från iCloud</string>
     <string name="install_app_dialog_title">Hitta inga enheter i närheten</string>
@@ -395,6 +418,8 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="lack_perm_title">Behörigheter krävs</string>
     <string name="launcher">Hemskärmslayout</string>
     <string name="loading_data">Vänta lite…</string>
+    <string name="location_permission_content_no_provisioned">Bevilja den här behörigheten för att kunna ansluta till en närliggande enhets hotspot. Om du inte ger den här behörigheten kan du inte överföra objekt.</string>
+    <string name="location_permission_content_provisioned">För anslutning till en närliggande enhets hotspot</string>
     <string name="location_permission_desc">För att hitta enheter i närheten</string>
     <string name="location_permission_request">För anslutning till andra enheter i närheten</string>
     <string name="lockscreen_access">Mönsterområde</string>
@@ -423,6 +448,8 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="manual_connection_title">Anslut till den gamla enheten manuellt</string>
     <string name="manual_connection_title_pad">Anslut gammal enhet till internetdelning</string>
     <string name="manual_connection_title_phone">Anslut gammal enhet till internetdelning</string>
+    <string name="manual_disconnect_guest">Ny enhet frånkopplad. Återanslut för att fortsätta överföringen.</string>
+    <string name="manual_disconnect_host">Gammal enhet frånkopplad. Återanslut för att fortsätta överföringen.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover behöver komma åt alla filer på den här enheten för att kunna flytta dem från din gamla enhet till en ny.</string>
     <string name="message_request_package_stats_perm">Mi Mover behöver det här tillståndet för att förstå vilka appar som är installerade på en enhet samt överföra dessa appar till en annan.</string>
     <string name="midnight">Natt</string>
@@ -513,6 +540,7 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
     <string name="msg_permission_desc">För att överföra meddelanden till andra enheter</string>
+    <string name="msg_permission_desc_new">För överföring av SMS och MMS till andra enheter</string>
     <string name="name_password_not_consistent">Det Apple ID och lösenord du angav matchar inte</string>
     <string name="need_location_permission_confirm">Inställningar</string>
     <string name="need_location_permission_summary">Tillåt att Mi Mover får åtkomst till din plats för att kunna hitta enheter i närheten.</string>
@@ -522,6 +550,20 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="need_more_memory_title">Det saknas ledigt lagringsutrymme</string>
     <string name="new_app_name">Ny version</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Uphovsrättsskyddat material</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Systemappar och data från andra märken kan vara inkompatibla med Mi Mover och kan inte överföras.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Appar och data som inte är kompatibla med den nya enheten kan inte överföras.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Vissa telefoninställningar och data är bundna till SIM-kortet. Om du sätter i SIM-kortet i den nya enheten överförs dessa data.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Vissa appdata</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Data i sekundärt utrymme</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Data i sekundärt utrymme</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Integritets- och säkerhetsrelaterad data</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Bankkort och bilnycklar kan inte överföras.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Teman och bakgrundsbilder omfattas av begränsningar för skärmupplösning och kan inte överföras mellan vissa modeller.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">På grund av Bluetooth-protokollbegränsningar kan inte poster för parkoppling av Bluetooth-hörlurar, högtalare och andra enheter överföras.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Det går inte att överföra driftsstatistik, t.ex. energiförbrukning, skärmtid och mobildataanvändning.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Data som är associerad med en särskild enhetsmodell</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Vilken data kan inte överföras med Mi Mover?</string>
     <string name="new_trans_intro_desc_2">Du behöver inte ange något lösenord i den nya versionen av Mi Mover. Öppna bara Mi Mover på din gamla enhet, tryck på \"Jag är en avsändare\", och tryck på namnet för surfzonen för att ansluta.</string>
     <string name="new_trans_intro_desc_2_pad">Du behöver inte ange något lösenord för internetdelning i den nya versionen av Mi Mover. Öppna bara Mi Mover på din gamla enhet, tryck på \"Jag är en avsändare\", och tryck på namnet för surfzonen för att ansluta.</string>
     <string name="new_trans_intro_desc_2_phone">Du behöver inte ange något lösenord för internetdelning i den nya versionen av Mi Mover. Öppna bara Mi Mover på din gamla enhet, tryck på \"Jag är en avsändare\", och tryck på namnet för surfzonen för att ansluta.</string>
@@ -532,18 +574,18 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="new_trans_intro_desc_6_pad">Det går inte att överföra appdata eftersom Mi Mover inte har nödvändig behörighet på enheter som inte är Xiaomi-enheter.</string>
     <string name="new_trans_intro_desc_6_phone">Det går inte att överföra appdata eftersom Mi Mover inte har nödvändig behörighet på enheter som inte är Xiaomi-enheter.</string>
     <string name="new_trans_intro_desc_7">Mi Mover kommer kunna fortsätta från där du slutade. Men du kan bli tvungen att börja om ingen om kompatibilitetsproblem på enheten förhindrar dig att återuppta den avbrutna överföringen.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover kommer kunna fortsätta från där du slutade. Men du kan bli tvungen att börja om ingen om kompatibilitetsproblem på enheten förhindrar dig att återuppta den avbrutna överföringen.</string>
     <string name="new_trans_intro_desc_8">WeChat-historik från din gamla enhet kommer skriva över WeChat-historiken på din nya enhet under överföringen.</string>
+    <string name="new_trans_intro_desc_8_pad">WeChat-historik från din gamla enhet kommer skriva över WeChat-historiken på din nya enhet under överföringen.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i Play-butiken eller trycka här: %2$s.
 %3$d. Om enhetens internetdelning inte visas i Mi Mover, öppna wifi-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
     <string name="new_trans_intro_desc_new_click">Ladda ner</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner den senaste versionen av Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Om internetdelningen fortfarande inte vill visas i Mi Mover öppnar du wifi-inställningarna och kontrollerar om du kan se den där. Om du kan det, återgå till Mi Mover och tryck på internetdelningens namn."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna WLAN-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner den senaste versionen av Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Om internetdelningen fortfarande inte vill visas i Mi Mover öppnar du wifi-inställningarna och kontrollerar om du kan se den där. Om du kan det, återgå till Mi Mover och tryck på internetdelningens namn."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Om enhetens internetdelning inte visas i Mi Mover, öppna WLAN-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner den senaste versionen av Mi Mover i Google Play Butik, eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
+%3$d. Om internetdelningen fortfarande inte vill visas i Mi Mover öppnar du wifi-inställningarna och kontrollerar om du kan se den där. Om du kan det, återgå till Mi Mover och tryck på internetdelningens namn."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner den senaste versionen av Mi Mover i Google Play, eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
+%3$d. Om internetdelningen fortfarande inte vill visas i Mi Mover öppnar du wifi-inställningarna och kontrollerar om du kan se den där. Om du kan det, återgå till Mi Mover och tryck på internetdelningens namn."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Kontrollera att den senaste versionen av Mi Mover är installerad på din nya enhet. Du kan ladda ner senaste versionen av Mi Mover i GetApps eller <Data>&lt;a href=%2$s>trycka här&lt;/a></Data>".
+%3$d. Om enhetens internetdelning inte visas i Mi Mover, öppna WLAN-inställningarna och kolla om du kan se den där. Om du ser den gå tillbaka till Mi Mover och tryck på internetdelningens namn."</string>
     <string name="new_trans_intro_desc_old">%d. Om internetdelningen inte visa ändå i Mi Mover, öppna WiFi-inställningarna och kolla om du kan se den där. Om du kan det, gå tillbaka till Mi Mover och tryck på internetdelningens namn.</string>
     <string name="new_trans_intro_question_1">%dVarför kan jag inte se internetdelningen från den nya enheten på den gamla enheten?</string>
     <string name="new_trans_intro_question_1_pad">%dVarför kan jag inte se internetdelningen från den nya enheten på den gamla enheten?</string>
@@ -573,15 +615,22 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="not_set">Inte angett</string>
     <string name="not_support_data_content1">%d. Objekt specifika till enhetsmodell</string>
     <string name="not_support_data_content2">%d. App-data</string>
+    <string name="not_support_data_content2_new">%d. Uphovsrättsskyddat material</string>
     <string name="not_support_data_content3">%dData i sekundärt utrymme</string>
+    <string name="not_support_data_content3_new">%d. Integritets- och säkerhetsrelaterad data</string>
     <string name="not_support_data_content4">%d. Dubbelappar</string>
+    <string name="not_support_data_content4_new">%d. Vissa appdata</string>
     <string name="not_support_data_content_2">%d. Utvalda appar och appdata</string>
     <string name="not_support_data_link">Objekt som inte kan överföras</string>
     <string name="not_support_data_summary1">Teman, bakgrunder, transportkort, och nyckelkort kan inte överföras med Mi Mover.</string>
+    <string name="not_support_data_summary1_new">Bankkort och bilnycklar kan inte överföras. Teman och bakgrundsbilder omfattas av begränsningar för skärmupplösning och kan inte överföras mellan vissa modeller.</string>
     <string name="not_support_data_summary2">App-data (så som konversationshistoriker) kan inte överföras.</string>
+    <string name="not_support_data_summary2_new">Det går inte att överföra teman, teckensnitt, stora ikoner, teman för Skärm alltid på och widgetar som köpts via ditt Xiaomi-konto och som skyddas av upphovsrätten. Logga in med ditt Xiaomi-konto på den nya enheten och ladda ned dem igen istället.</string>
     <string name="not_support_data_summary3">På grund av systemrestriktioner, kan objekt från Sekundära utrymmet inte överföras med Mi Mover.</string>
+    <string name="not_support_data_summary3_new">Fingeravtryck, ansiktsdata och andra data som är relaterade till enhetsägande, ekonomisk säkerhet och användarintegritet kan inte överföras från den gamla enheten i någon form. Detta omfattar även data från finansiella appar (t.ex. mobilbank).</string>
     <string name="not_support_data_summary4">Dubbelappar och deras data kan inte heller överföras. Du kan dock överföra motsvarande huvudappar.</string>
     <string name="not_support_data_summary_2">Vissa appar kan inte överföras på grund av Play Stores integritetsrestriktioner.</string>
+    <string name="not_support_data_summary_new">Systemappar och data från andra märken kan vara inkompatibla med Mi Mover och kan inte överföras.</string>
     <string name="not_support_data_title">Objekt som inte kan överföras</string>
     <string name="note">Anteckningar</string>
     <string name="nothing_chosen">Välj objekt först</string>
@@ -606,7 +655,7 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="notification_trans_running_title">Mi Mover arbetar nu…</string>
     <string name="notification_trans_send_message">Skickar data nu. Stäng inte av Wi-Fi eller byt mellan nätverk.</string>
     <string name="notification_trans_send_title">Skickar data…</string>
-    <string name="ok">OK</string>
+    <string name="ok">Okej</string>
     <string name="old_app_name">Gammal version</string>
     <string name="old_task_cleared">Gamla uppgifter har tagits bort</string>
     <string name="old_wait_link">Välj objekt att överföra på den gamla enheten</string>
@@ -641,27 +690,39 @@ Besök https://appleid.apple.com/#!&amp;page=signin för att avaktivera"</string
     <string name="permission_alert_message_usage_access">Mi Mover behöver åtkomst till statistik över appanvändning. Ge Mi Mover nödvändiga behörigheter i Inställningar.</string>
     <string name="permission_alert_title">Behörigheter krävs</string>
     <string name="permission_bluetooth_summary">För att hitta tillgängliga enheter i närheten</string>
+    <string name="permission_bluetooth_summary_new">För att hitta tillgängliga enheter i närheten</string>
     <string name="permission_bluetooth_title">Slå på eller stänga av Bluetooth</string>
     <string name="permission_calendar_summary">För överföring av kalenderhändelser</string>
     <string name="permission_calendar_title">Få åtkomst till kalender</string>
     <string name="permission_calender_summary">För att flytta händelser från den gamla enheten till den nya</string>
     <string name="permission_calender_summary_global">För överföring av kalenderhändelser till den nya enheten</string>
+    <string name="permission_calender_summary_new">För att flytta händelser från den gamla enheten till den nya</string>
     <string name="permission_calender_title">Få tillgång till kalenderhändelser</string>
+    <string name="permission_calender_title_new">Få tillgång till kalenderhändelser</string>
     <string name="permission_call_log_summary">För att överföra samtalshistorik till din nya enhet</string>
+    <string name="permission_call_log_summary_new">För att överföra samtalshistorik till din nya enhet</string>
     <string name="permission_call_log_title">Läser samtalshistorik</string>
     <string name="permission_contacts_summary">För att överföra kontakter till din nya enhet</string>
+    <string name="permission_contacts_summary_new">För att överföra kontakter till din nya enhet</string>
     <string name="permission_contacts_title">Läser kontakter</string>
     <string name="permission_grant_request">För att kunna överföra det här objektet behöver Mi Mover behörighet \"%1$s\".</string>
     <string name="permission_locale_summary">För att ansluta till närliggande enheter</string>
     <string name="permission_locale_title">Få tillgång till plats</string>
+    <string name="permission_locale_title_new">Få tillgång till plats</string>
     <string name="permission_message_summary">För att överföra meddelande till din nya enhet</string>
+    <string name="permission_message_summary_new">För att överföra meddelande till din nya enhet</string>
     <string name="permission_message_title">Få åtkomst till SMS-innehåll</string>
     <string name="permission_request_title">\"%1$s\"-behörigheter krävs</string>
     <string name="permission_setting_button">Inställningar</string>
     <string name="permission_storage_summary">För att överföra filer och foton till din nya enhet</string>
+    <string name="permission_storage_summary_new">För att överföra filer och foton till din nya enhet</string>
     <string name="permission_storage_title">Få åtkomst till och spara filer och foton på din enhet</string>
+    <string name="permission_storage_title_new">Få tillgång till lagringsutrymme</string>
     <string name="permission_wifi_summary">För att överföra objekt till din nya enhet</string>
+    <string name="permission_wifi_summary_new">För att överföra objekt till din nya enhet</string>
     <string name="permission_wifi_title">Slå på och stänga av Wi-Fi</string>
+    <string name="permission_wifi_title_new">Starta och stänga av Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Starta och stänga av WLAN</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="privacy_agree">Acceptera</string>
@@ -749,6 +810,7 @@ Frigör minst %s."</string>
     <string name="scanner_quit_alert_message_phone">Du måste ansluta de två enheterna igen om du avslutar Mi Mover nu. Avsluta ändå?</string>
     <string name="scanner_quit_alert_title">Avsluta nu?</string>
     <string name="scanner_send_dialog_btn">Uppfattat</string>
+    <string name="scanner_send_dialog_btn_i_know">Jag förstår</string>
     <string name="scanner_send_dialog_message">Slå inte av Wi-Fi eller växla inte mellan nätverk under överföringen.</string>
     <string name="scanner_size_selected">Vald: %s</string>
     <string name="scanner_subtitle_prd">Läs följande information noga innan du markerar varje objekt och startar överföringsprocessen.</string>
@@ -756,6 +818,7 @@ Frigör minst %s."</string>
     <string name="scanner_title_prd">Viktig information</string>
     <string name="scanner_title_tip">Välj objekt att ta överföra</string>
     <string name="scanner_wechat_overwrite_hit">På grund av restriktioner i tredjeparts-appar kommer chatt-historik och annan app-data på din nya enhet att ersättas med det från den gamla efter att överföringen är genomförd.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">På grund av restriktioner i tredjeparts-appar kommer chatt-historik och annan app-data på din nya enhet att ersättas med det från den gamla efter att överföringen är genomförd.</string>
     <string name="search_menu_title">Sök</string>
     <string name="searching_for_new_device">Söker efter den nya enheten…</string>
     <string name="searching_for_new_device_pad">Söker efter den nya enheten…</string>
@@ -889,27 +952,42 @@ Frigör minst %s."</string>
     <string name="time_spent">Tid: %1$s</string>
     <string name="tips_button_hint">Kontrollera varje objekt för att bekräfta först</string>
     <string name="tips_cover_content">Den här datan (inklusive chatthistorik) kommer att skrivas över om du fortsätter.</string>
+    <string name="tips_cover_content_pad">Den här datan (inklusive chatthistorik) kommer att skrivas över om du fortsätter.</string>
     <string name="tips_cover_content_tablet">Den här datan (inklusive chatthistorik) kommer att skrivas över om du fortsätter.</string>
     <string name="tips_cover_title">%1$d. Det finns redan data för följande appar på den nya enheten.</string>
+    <string name="tips_cover_title_pad">%1$d. Det finns redan data för följande appar på den nya enheten.</string>
     <string name="tips_cover_title_tablet">%1$d. Det finns redan data för följande appar på den nya enheten.</string>
     <string name="tips_dual_app_content">Dubbelappar kan inte överföras. Endast huvudappar och dess data kan överföras.</string>
     <string name="tips_dual_app_title">%d. Följande appar är dubbelappar.</string>
+    <string name="tips_dual_app_title_new">%d. Dubbelappar kan inte överföras.</string>
     <string name="tips_hot_content">Det är normalt. Din enhet kommer att kylas ner så snart överföringen avslutas.</string>
+    <string name="tips_hot_content_new">Det är normalt. Din enhet kommer att kylas ner så snart överföringen avslutas.</string>
     <string name="tips_hot_title">%d. Din enhet kanske blir varm under överföringsprocessen.</string>
+    <string name="tips_hot_title_content">%d. Din enhet kan bli varm.</string>
     <string name="tips_private_space_content">På grund av systemrestriktioner kan det sekundära utrymmets data överföras.</string>
+    <string name="tips_private_space_content_pad">Detta beror på systembegränsningar.</string>
+    <string name="tips_private_space_content_phone">Detta beror på systembegränsningar.</string>
     <string name="tips_private_space_content_tablet">På grund av systemrestriktioner kan det sekundära utrymmets data överföras.</string>
     <string name="tips_private_space_title">%d-. Sekundära utrymmet är aktiverat.</string>
+    <string name="tips_private_space_title_pad">%d. Sekundära appar kan inte överföras.</string>
+    <string name="tips_private_space_title_phone">%d. Sekundära appar kan inte överföras.</string>
     <string name="tips_private_space_title_tablet">%d-. Sekundära utrymmet är aktiverat.</string>
     <string name="tips_prudent_operation_content">Att avbryta anslutningen kommer att avsluta överföringen.</string>
     <string name="tips_prudent_operation_title">%d. Stäng inte av, eller byt wifi-internetdelning.</string>
+    <string name="tips_prudent_operation_title_new">%d. Stäng inte av, eller byt wifi-internetdelning.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Stäng inte av, eller byt WLAN-internetdelning.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Stäng inte av, eller byt WLAN-internetdelning.</string>
     <string name="tips_secret_content_one">Vissa privata objekt på den gamla enheten (%1$s) kan inte överföras. Ta bort dem från den privata mappen för att kunna överföra dem.</string>
+    <string name="tips_secret_content_one_new">Vissa privata objekt på den gamla enheten (%1$s) kan inte överföras. Ta bort dem från den privata mappen för att kunna överföra dem.</string>
     <string name="tips_secret_content_three">Vissa privata objekt på den gamla enheten (%1$s, %2$s, %3$s) kan inte överföras. Ta bort dem från den privata mappen för att kunna överföra dem.</string>
+    <string name="tips_secret_content_three_new">Vissa privata objekt på den gamla enheten (%1$s, %2$s, %3$s) kan inte överföras. Ta bort dem från den privata mappen för att kunna överföra dem.</string>
     <string name="tips_secret_content_two">Vissa privata objekt på den gamla enheten (%1$s, %2$s) kan inte överföras. Ta bort dem från den privata mappen för att kunna överföra dem.</string>
+    <string name="tips_secret_content_two_new">Vissa privata objekt på den gamla enheten (%1$s, %2$s) kan inte överföras. Ta bort dem från den privata mappen för att kunna överföra dem.</string>
     <string name="tips_secret_file">filer</string>
     <string name="tips_secret_gallery">album</string>
     <string name="tips_secret_note">anteckningar</string>
     <string name="tips_secret_title">%d. Vissa privata objekt kan inte överföras.</string>
+    <string name="tips_secret_title_content">%d. Privata objekt kan inte överföras.</string>
     <string name="tips_subtitle">Läs och bekräfta följande påminnelser innan du fortsätter.</string>
     <string name="title_compatibility_mode">Aktivera app-kompatibilitetsläge</string>
     <string name="title_open_wlan">Slå på Wi-Fi</string>
@@ -951,10 +1029,12 @@ Ladda ned och installera Mi Mover."</string>
     <string name="trans_send_time_remained_default">Skickade: %1$s</string>
     <string name="trans_show_qr_code_label">Öppna Mi Mover på den gamla enheten</string>
     <string name="trans_show_qr_code_label_for_pad">Öppna Mi Mover på den gamla enheten</string>
+    <string name="trans_show_qr_code_label_pad">Öppna Mi Mover på den gamla enheten</string>
     <string name="trans_sync_transfer_data_list">Välj objekt att överföra på den gamla enheten</string>
     <string name="trans_sync_transfer_data_list_apple">Överför objekt från din Apple-enhet</string>
     <string name="trans_sync_transfer_data_list_hint">Vänta en stund…</string>
     <string name="trans_sync_transfer_data_list_pad">Välj objekt på den gamla enheten, som du vill överföra</string>
+    <string name="trans_sync_transfer_data_list_phone">Välj objekt att överföra på den gamla enheten</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Markera objektet på din gamla enhet och tryck på \"Skicka\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Markera objektet på din gamla enhet och tryck på \"Skicka\".</string>
     <string name="trans_time_format_second">Mindre än %d minut</string>
@@ -977,6 +1057,7 @@ Ladda ned och installera Mi Mover."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Överföringsprocessen sparas. Du kan återuppta överföringen där du slutade nästa gång du ansluter till de två enheterna.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Överföringsprocessen sparas. Du kan återuppta överföringen där du slutade nästa gång du ansluter till de två enheterna.</string>
     <string name="transfer_quit_alert_title">Obs</string>
     <string name="transfer_snap_error">Kunde inte överföra</string>
     <string name="transfer_snap_new_receiving">Tar emot…</string>

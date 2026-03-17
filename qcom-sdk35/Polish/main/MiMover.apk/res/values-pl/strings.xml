@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Dalej</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Nie można przesłać aplikacji %1$d-bitowych na urządzenie %2$d-bitowe. Możesz pobrać je bezpośrednio z GetApps po transferze.</string>
     <string name="audio">Dźwięki</string>
+    <string name="audio_permission_desc_new">Do przenoszenia muzyki i plików audio na nowe urządzenie</string>
     <string name="audio_video_document">Dźwięki, wideo i dokumenty</string>
     <string name="back">Wróć</string>
     <string name="backup_died_summary">Dotknij „Połącz ponownie”. Przesyłanie zostanie wznowione od miejsca, w którym zostało przerwane.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Kod nie został wprowadzony przez długi czas. Połącz ręcznie.</string>
     <string name="ble_enter_verifycode_timeout_title">Upłynął limit czasu sesji</string>
     <string name="ble_guest_connecting_title">Łączenie z nowym urządzeniem…</string>
+    <string name="ble_guest_connecting_title_pad">Łączenie z nowym urządzeniem…</string>
     <string name="ble_host_verification_summary">Wpisz %d-cyfrowy kod na swoim starym urządzeniu</string>
     <string name="ble_host_verification_title">Łączenie ze starym urządzeniem…</string>
     <string name="ble_manual_authorization_content">Przyznaj uprawnienia niezbędne do przesyłania elementów za pomocą aplikacji Mi Mover. Uprawnienia można przyznać w ustawieniach.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Pomyślnie utworzono hotspot. Oczekiwanie na połączenie…</string>
     <string name="ble_starting_ap">Tworzenie hotspotu…</string>
     <string name="ble_wait_verify_code">Generowanie kodu na nowym urządzeniu…</string>
+    <string name="ble_wait_verify_code_pad">Generowanie kodu na nowym urządzeniu…</string>
     <string name="ble_waiting_verify_code">Weryfikacja kodu…</string>
     <string name="ble_waiting_verify_code_error">Wpisane hasło jest nieprawidłowe</string>
+    <string name="blutooth_permission_desc_new">Do wykrywania pobliskich urządzeń gotowych do nawiązania połączenia</string>
     <string name="btn_got_it">Rozumiem</string>
     <string name="btn_install_complete">Zainstalowano</string>
     <string name="btn_mi_cloud_install_complete">Zainstalowałem aplikację</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Trwa połączenie</string>
     <string name="call_notification_screening_text">Filtruję połączenie przychodzące</string>
     <string name="calllog">Historia połączeń</string>
+    <string name="camera_permission_content">Do odkrywania pobliskich urządzeń</string>
     <string name="cancel">Anuluj</string>
     <string name="cancel_moving_dialog_message">Zatrzymać importowanie teraz?</string>
     <string name="cancel_moving_dialog_title">Zatrzymaj importowanie</string>
@@ -150,8 +155,10 @@ Odwiedź https://appleid.apple.com/#!&amp;page=signin aby wyłączyć"</string>
     <string name="connection_tips_owner_title">Jeśli Twoje stare urządzenie to telefon Xiaomi:</string>
     <string name="connection_tips_owner_title_global">Zainstaluj najnowszą wersję Przenoszenia danych teraz:</string>
     <string name="contact_records_permission_desc">Do przenoszenia historii połączeń na inne urządzenia</string>
+    <string name="contact_records_permission_desc_new">Do przenoszenia historii połączeń na nowe urządzenie</string>
     <string name="contacts">Kontakty</string>
     <string name="contacts_permission_desc">Do przenoszenia kontaktów na inne urządzenia</string>
+    <string name="contacts_permission_desc_new">Do przenoszenia kontaktów na nowe urządzenie</string>
     <string name="contains_unauthorized_data">Zawiera nieautoryzowane dane</string>
     <string name="copy">Kopiuj</string>
     <string name="current_user_not_supported_summary">Obecne ustawienia systemu ograniczają przesyłanie danych.</string>
@@ -180,6 +187,17 @@ Odwiedź https://appleid.apple.com/#!&amp;page=signin aby wyłączyć"</string>
     <string name="dialog_rating_desc_less">Podaj nam swoje sugestie, abyśmy mogli ulepszyć naszą aplikację</string>
     <string name="dialog_rating_desc_perfect">Dzięki! Ocenisz Przenoszenie danych również w GetApps?</string>
     <string name="dialog_rating_title">Oceń aplikację Przenoszenie danych</string>
+    <string name="dialog_request_all_permission_content_new">"Aby przenieść dane ze starego urządzenia na nowe, aplikacja musi połączyć się z Internetem i wymaga następujących uprawnień:
+•Dostęp do plików audio, kalendarza oraz filmów
+•Dostęp do wiadomości, kontaktów i historii połączeń
+•Dostęp do pamięci
+•Dostęp do listy aplikacji zainstalowanych na urządzeniu"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Aby przenieść dane ze starego urządzenia na nowe, aplikacja musi połączyć się z Internetem i wymaga następujących uprawnień:
+•Dostęp do plików audio, kalendarza oraz filmów
+•Dostęp do wiadomości, kontaktów i historii połączeń
+•Dostęp do pamięci
+•Dostęp do listy aplikacji zainstalowanych na urządzeniu"</string>
+    <string name="dialog_request_all_permission_title_new">Wymagane uprawnienia</string>
     <string name="dialog_request_network_btn_negative">Wyjdź</string>
     <string name="dialog_request_network_btn_positive">Zgadzam się</string>
     <string name="dialog_request_permission_message">Witamy w Przenośniku Danych Mi! Celem aplikacji jest ułatwienie przenoszenia danych ze starego urządzenia na nowe. Dane zostaną przeniesione pomiędzy urządzeniami i nie zostaną wysłane do naszych serwerów. Ta aplikacja wymaga połączenia z internetem, a także następujących uprawnień, aby działać normalnie:</string>
@@ -188,6 +206,8 @@ Odwiedź https://appleid.apple.com/#!&amp;page=signin aby wyłączyć"</string>
     <string name="dialog_request_permission_message_extra_title">Obowiązkowe uprawnienia</string>
     <string name="dialog_request_permission_message_global">Aplikacja potrzebuje następujących uprawnień, aby móc normalnie działać:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Aby w pełni zrozumieć swoje prawa jako użytkownik, jak również sposób, w jaki wykorzystujemy Twoje dane, przeczytaj i zaakceptuj &lt;a href='%1s'>Umowę Użytkownika systemu operacyjnego Xiaomi&lt;/a> i &lt;a href='%2s'>Politykę Prywatności Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Zezwól tej aplikacji na łączenie się z Internetem i przyznaj obowiązkowe uprawnienia wymienione powyżej. Aby w pełni zrozumieć swoje prawa jako użytkownika, jak również sposób, w jaki wykorzystujemy Twoje dane, przeczytaj i zaakceptuj naszą &lt;a href='%1s'>Umowę Użytkownika Systemu Operacyjnego Xiaomi&lt;/a> oraz &lt;a href='%2s'>Politykę Prywatności Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Witamy w Mi Mover! Za pomocą tej aplikacji możesz przenieść dane ze starego urządzenia na nowe. Dane zostaną przeniesione między urządzeniami i nie zostaną przesłane na nasze serwery.</string>
     <string name="dialog_request_permission_message_provision_link">Jednocześnie, aby w pełni zrozumieć swoje prawa jako użytkownika, a także sposoby, w jakie wykorzystujemy Twoje dane, przeczytaj i zaakceptuj naszą %1$s i %2$s.</string>
     <string name="dialog_request_permission_title">Uwaga</string>
     <string name="dialog_request_permission_title_global">Wymagane uprawnienia</string>
@@ -367,9 +387,12 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="icloud_signin_fail_message">Twój identyfikator Apple został zablokowany ze względów bezpieczeństwa. Wejdź na iforgot.apple.com i postępuj zgodnie z instrukcjami.</string>
     <string name="icloud_start_now">Użyj danych mobilnych</string>
     <string name="icloud_verify_tips">Dotknij \"Zezwól\" na swoim urządzeniu z iOS i wpisz kod, który pojawi się tutaj.</string>
+    <string name="idm_discovery_summary_pad">Wygląda na to, że aktywujesz teraz nowe urządzenie. Przenieść elementy z tego urządzenia na nowe?</string>
+    <string name="idm_discovery_title_pad">Przenieś elementy na nowe urządzenie</string>
     <string name="im_recipient">Jestem odbiorcą</string>
     <string name="im_sender">Jestem nadawcą</string>
     <string name="image">Obrazy</string>
+    <string name="image_video_permission_desc_new">Do przenoszenia zdjęć i filmów na nowe urządzenie</string>
     <string name="import_again">Importuj ponownie</string>
     <string name="import_data_from_icloud">Importuj dane z iCloud</string>
     <string name="install_app_dialog_title">Nie udało się znaleźć urządzeń w pobliżu</string>
@@ -395,6 +418,8 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="lack_perm_title">Wymagane uprawnienia</string>
     <string name="launcher">Układ Ekranu głównego</string>
     <string name="loading_data">Chwileczkę…</string>
+    <string name="location_permission_content_no_provisioned">Przyznaj uprawnienie, aby móc połączyć się z hotspotem urządzenia w pobliżu. Jeśli nie przyznasz tego uprawnienia, nie będziesz w stanie przesyłać elementów.</string>
+    <string name="location_permission_content_provisioned">Do łączenia się z hotspotem urządzenia w pobliżu</string>
     <string name="location_permission_desc">Aby wyszukiwać urządzenia w pobliżu</string>
     <string name="location_permission_request">Łączenie się z innymi urządzeniami w pobliżu</string>
     <string name="lockscreen_access">Obszar wzoru</string>
@@ -423,6 +448,8 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="manual_connection_title">Połącz się ze starym urządzeniem ręcznie</string>
     <string name="manual_connection_title_pad">Połącz stare urządzenie z hotspotem</string>
     <string name="manual_connection_title_phone">Połącz stare urządzenie z hotspotem</string>
+    <string name="manual_disconnect_guest">Rozłączono z nowym urządzeniem. Połącz się z nim ponownie, aby kontynuować transfer.</string>
+    <string name="manual_disconnect_host">Rozłączono ze starym urządzeniem. Połącz się z nim ponownie, aby kontynuować transfer.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover potrzebuje uzyskać dostęp do wszystkich plików, aby móc przenosić je ze starego urządzenia do nowego.</string>
     <string name="message_request_package_stats_perm">Mi Mover potrzebuje tego uprawnienia, aby dowiedzieć się, jakie aplikacje są zainstalowane na urządzeniu i przenieść te aplikacje na inne.</string>
     <string name="midnight">Noc</string>
@@ -513,6 +540,7 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="more">Więcej</string>
     <string name="morning">Poranek</string>
     <string name="msg_permission_desc">Do przenoszenia wiadomości na inne urządzenia</string>
+    <string name="msg_permission_desc_new">Do przenoszenia wiadomości SMS i MMS na inne urządzenia</string>
     <string name="name_password_not_consistent">Wprowadzone Apple ID oraz hasło nie pasują</string>
     <string name="need_location_permission_confirm">Ustawienia</string>
     <string name="need_location_permission_summary">Pozwól przenoszeniu danych uzyskać dostęp do Twojej lokalizacji, aby móc znaleźć urządzenia w pobliżu.</string>
@@ -522,6 +550,20 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="need_more_memory_title">Za mało miejsca</string>
     <string name="new_app_name">Nowa wersja</string>
     <string name="new_main_activity_label">Przenoszenie danych</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Dane objęte prawami autorskimi</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Aplikacje systemowe i dane pochodzące od innych firm mogą być niezgodne z aplikacją Mi Mover i nie będzie możliwe ich przeniesienie.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Aplikacje i dane, które nie są kompatybilne z nowym urządzeniem, nie mogą zostać przeniesione.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Niektóre ustawienia telefonu są powiązane z kartą SIM. Włożenie karty SIM do nowego urządzenia pozwoli na przeniesienie tych danych.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Dane niektórych aplikacji</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Dane drugiej przestrzeni</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Dane drugiej przestrzeni</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Dane związane z prywatnością i bezpieczeństwem</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Nie można przenosić kart bankowych oraz kluczyków samochodowych.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Motywy oraz tapety są ograniczone rozdzielczością ekranu i nie można ich przenosić między niektórymi modelami.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Z powodu ograniczeń protokołu Bluetooth nie można przenosić zapisów parowania słuchawek, głośników i innych urządzeń Bluetooth.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Nie można przenosić danych statystycznych, takich jak zużycie energii, czas na ekranie i zużycie danych mobilnych.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Dane związane z konkretnym modelem urządzenia</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Jakie dane nie mogą zostać przeniesione za pomocą aplikacji Mi Mover?</string>
     <string name="new_trans_intro_desc_2">Nie ma potrzeby wprowadzania hasła w nowej wersji Przenoszenia danych. Po prostu otwórz Przenoszenie danych na swoim starym urządzeniu, dotknij \"Jestem nadawcą\" i wybierz nazwę hotspotu, aby się połączyć.</string>
     <string name="new_trans_intro_desc_2_pad">Nie ma potrzeby wprowadzania hasła hotspotu w nowej wersji Mi Mover. Po prostu otwórz aplikację Mi Mover na swoim starym urządzeniu, dotknij „Jestem nadawcą” i wybierz nazwę hotspotu, aby się połączyć.</string>
     <string name="new_trans_intro_desc_2_phone">Nie ma potrzeby wprowadzania hasła hotspotu w nowej wersji Mi Mover. Po prostu otwórz aplikację Mi Mover na swoim starym urządzeniu, dotknij „Jestem nadawcą” i wybierz nazwę hotspotu, aby się połączyć.</string>
@@ -532,18 +574,18 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="new_trans_intro_desc_6_pad">Dane aplikacji nie mogą zostać przeniesione, ponieważ Mi Mover nie ma niezbędnych uprawnień na urządzeniach innych niż Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Dane aplikacji nie mogą zostać przeniesione, ponieważ Mi Mover nie ma niezbędnych uprawnień na urządzeniach innych niż Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Przenoszenie danych będzie w stanie kontynuować pracę w miejscu, w którym skończyłeś. Być może trzeba będzie zacząć od nowa, jeśli problemy ze zgodnością urządzeń uniemożliwiają wznowienie przerwanego transferu.</string>
+    <string name="new_trans_intro_desc_7_pad">Aplikacja Mi Mover będzie mogła wznowić proces od miejsca, w którym został przerwany. Może być konieczne rozpoczęcie transferu od nowa, jeśli wystąpią problemy ze zgodnością urządzeń, które uniemożliwiają wznowienie przerwanego transferu.</string>
     <string name="new_trans_intro_desc_8">Historia WeChat ze starego urządzenia zastąpi historię nowego urządzenia podczas transferu.</string>
+    <string name="new_trans_intro_desc_8_pad">Historia WeChat ze starego urządzenia zastąpi historię nowego urządzenia podczas transferu.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Upewnij się, że Mi Mover jest aktualny. Możesz pobrać najnowszą wersję Mi Mover w Sklepie Play lub przechodząc do %2$s.
 %3$d. Jeśli hotspot nadal nie pojawia się w Mi Mover, otwórz ustawienia Wi-Fi i sprawdź czy tam jest wyświetlany. Jeśli tak, wróc do Mi Mover i dotknij nazwę hotspotu."</string>
     <string name="new_trans_intro_desc_new_click">Pobierz</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą Google Play lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień WLAN i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą Google Play lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień WLAN i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą Google Play lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
+%3$d. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą Google Play lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
+%3$d. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień Wi-Fi i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Upewnij się, że korzystasz z aktualnej wersji aplikacji Mi Mover. Możesz pobrać ją za pomocą GetApps lub <Data>&lt;a href=%2$s>dotykając tutaj&lt;/a></Data>".
+%3$d. Jeśli hotspot dalej nie pojawia się w aplikacji Mi Mover, przejdź do ustawień WLAN i sprawdź, czy jest on tam widoczny. Jeśli tak, wróć do aplikacji Mi Mover i dotknij nazwę hotspotu."</string>
     <string name="new_trans_intro_desc_old">%d. Jeśli hotspot nie pojawi się w Przenośniku Danych Mi, otwórz ustawienia Wi-Fi i sprawdź, czy można go tam zobaczyć. Jeśli tak, wróć do Przenośnika Danych Mi i dotknij nazwę hotspotu.</string>
     <string name="new_trans_intro_question_1">%d. Dlaczego nie widzę hotspotu nowego urządzenia na starym?</string>
     <string name="new_trans_intro_question_1_pad">%d. Dlaczego nie widzę hotspotu nowego urządzenia na starym urządzeniu?</string>
@@ -573,15 +615,22 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="not_set">Nie ustawiono</string>
     <string name="not_support_data_content1">%d. Elementy specyficzne dla modelu urządzenia</string>
     <string name="not_support_data_content2">%d. Dane aplikacji</string>
+    <string name="not_support_data_content2_new">%d. Dane objęte prawami autorskimi</string>
     <string name="not_support_data_content3">%d. Dane drugiej przestrzeni</string>
+    <string name="not_support_data_content3_new">%d. Dane związane z prywatnością i bezpieczeństwem</string>
     <string name="not_support_data_content4">%d. Sklonowane aplikacje</string>
+    <string name="not_support_data_content4_new">%d. Dane niektórych aplikacji</string>
     <string name="not_support_data_content_2">%d. Wybrane aplikacje i dane aplikacji</string>
     <string name="not_support_data_link">Przedmioty, których nie można przenieść</string>
     <string name="not_support_data_summary1">Motywów, tapet, kart transportowych i kart-kluczy nie można przenosić za pomocą Mi Mover.</string>
+    <string name="not_support_data_summary1_new">Nie można przenosić kart bankowych oraz kluczyków samochodowych. Motywy oraz tapety są ograniczone rozdzielczością ekranu i nie można ich przenosić między niektórymi modelami.</string>
     <string name="not_support_data_summary2">Nie można przenosić danych aplikacji (takich jak historia konwersacji).</string>
+    <string name="not_support_data_summary2_new">Motywy, czcionki, duże ikony, motywy funkcji „Ekran zawsze włączony” oraz widżety zakupione za pomocą konta Xiaomi, które są objęte prawami autorskimi, nie mogą zostać przeniesione. Zamiast tego zaloguj się za pomocą konta Xiaomi na nowym urządzeniu i pobierz je na nowo.</string>
     <string name="not_support_data_summary3">Ze względu na ograniczenia systemowe, przedmiotów z Drugiej przestrzeni nie można przenosić za pomocą Mi Mover.</string>
+    <string name="not_support_data_summary3_new">Odciski palców, dane twarzy i inne dane związane z własnością urządzenia, bezpieczeństwem finansowym i prywatnością użytkownika nie mogą zostać przeniesione ze starego urządzenia w żadnej formie. Dotyczy to również danych z aplikacji finansowych (np. bankowości mobilnej).</string>
     <string name="not_support_data_summary4">Nie można również przenosić sklonowanych aplikacji i ich danych. Możesz jednak przenieść odpowiednie główne aplikacje.</string>
     <string name="not_support_data_summary_2">Niektórych aplikacji nie można przenieść ze względu na ograniczenia prywatności w Sklepie Play.</string>
+    <string name="not_support_data_summary_new">Aplikacje systemowe i dane pochodzące od innych firm mogą być niezgodne z aplikacją Mi Mover i nie będzie możliwe ich przeniesienie.</string>
     <string name="not_support_data_title">Przedmioty, których nie można przenieść</string>
     <string name="note">Notatki</string>
     <string name="nothing_chosen">Wybierz najpierw elementy</string>
@@ -641,27 +690,39 @@ Otwórz WeChat i przejdź do Ja > Ustawienia > Ogólne > Utwórz kopię zapasow�
     <string name="permission_alert_message_usage_access">Mi Mover wymaga dostępu do statystyk użytkowania aplikacji. Przyznaj Mi Mover wymagane uprawnienia w Ustawieniach.</string>
     <string name="permission_alert_title">Wymagane uprawnienia</string>
     <string name="permission_bluetooth_summary">Aby wyszukiwać dostępne urządzenia w pobliżu</string>
+    <string name="permission_bluetooth_summary_new">Aby wyszukiwać dostępne urządzenia w pobliżu</string>
     <string name="permission_bluetooth_title">Włączanie i wyłączanie Bluetooth</string>
     <string name="permission_calendar_summary">Do przesyłania wydarzeń w kalendarzu</string>
     <string name="permission_calendar_title">Dostęp do kalendarza</string>
     <string name="permission_calender_summary">Do przenoszenia wydarzeń ze starego urządzenia na nowe</string>
     <string name="permission_calender_summary_global">Do przenoszenia wydarzeń z kalendarza na nowe urządzenie</string>
+    <string name="permission_calender_summary_new">Do przenoszenia wydarzeń ze starego urządzenia na nowe</string>
     <string name="permission_calender_title">Uzyskaj dostęp do wydarzeń w kalendarzu</string>
+    <string name="permission_calender_title_new">Dostęp do wydarzeń w kalendarzu</string>
     <string name="permission_call_log_summary">Do przenoszenia historii połączeń na nowe urządzenie</string>
+    <string name="permission_call_log_summary_new">Do przenoszenia historii połączeń na nowe urządzenie</string>
     <string name="permission_call_log_title">Dostęp do historii połączeń</string>
     <string name="permission_contacts_summary">Do przenoszenia kontaktów na nowe urządzenie</string>
+    <string name="permission_contacts_summary_new">Do przenoszenia kontaktów na nowe urządzenie</string>
     <string name="permission_contacts_title">Dostęp do kontaktów</string>
     <string name="permission_grant_request">Aby móc przenieść ten element, Przenośnik Danych Mi potrzebuje uprawnienia \"%1$s\".</string>
     <string name="permission_locale_summary">Do łączenia z pobliskimi urządzenia</string>
     <string name="permission_locale_title">Uzyskiwanie dostępu do lokalizacji</string>
+    <string name="permission_locale_title_new">Dostęp do lokalizacji</string>
     <string name="permission_message_summary">Do przenoszenia wiadomości na nowe urządzenie</string>
+    <string name="permission_message_summary_new">Do przenoszenia wiadomości na nowe urządzenie</string>
     <string name="permission_message_title">Dostęp do treści SMS</string>
     <string name="permission_request_title">Wymaga uprawnienia \"%1$s\"</string>
     <string name="permission_setting_button">Ustawienia</string>
     <string name="permission_storage_summary">Do przenoszenia plików i zdjęć na nowe urządzenie</string>
+    <string name="permission_storage_summary_new">Do przenoszenia plików i zdjęć na nowe urządzenie</string>
     <string name="permission_storage_title">Dostęp i zapisywanie plików i zdjęć przechowywanych na urządzeniu</string>
+    <string name="permission_storage_title_new">Dostęp do pamięci</string>
     <string name="permission_wifi_summary">Do przenoszenia elementów na nowe urządzenie</string>
+    <string name="permission_wifi_summary_new">Do przenoszenia elementów na nowe urządzenie</string>
     <string name="permission_wifi_title">Włączanie i wyłączanie Wi-Fi</string>
+    <string name="permission_wifi_title_new">Włączanie i wyłączanie Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Włączanie i wyłączanie WLAN</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Skopiowano „%1$s” do schowka.</string>
     <string name="privacy_agree">Zgadzam się</string>
@@ -749,6 +810,7 @@ Zwolnij przynajmniej %s."</string>
     <string name="scanner_quit_alert_message_phone">Jeśli wyjdziesz z aplikacji Mi Mover, konieczne będzie ponowne nawiązanie połączenia między urządzeniami. Opuścić aplikację mimo to?</string>
     <string name="scanner_quit_alert_title">Zakończyć teraz?</string>
     <string name="scanner_send_dialog_btn">Rozumiem</string>
+    <string name="scanner_send_dialog_btn_i_know">Rozumiem</string>
     <string name="scanner_send_dialog_message">Nie wyłączaj Wi-Fi lub nie przełączaj sieci Wi-Fi podczas przesyłania.</string>
     <string name="scanner_size_selected">Wybrano: %s</string>
     <string name="scanner_subtitle_prd">Przeczytaj uważnie poniższe informacje przed sprawdzeniem każdego elementu i rozpoczęciem procesu przesyłania.</string>
@@ -756,6 +818,7 @@ Zwolnij przynajmniej %s."</string>
     <string name="scanner_title_prd">Ważna informacja</string>
     <string name="scanner_title_tip">Wybierz elementy do przesłania</string>
     <string name="scanner_wechat_overwrite_hit">Ze względu na ograniczenia aplikacji innych producentów, historia rozmów i inne dane aplikacji zostaną zastąpione danymi ze starego urządzenia po zakończeniu transferu.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Ze względu na ograniczenia aplikacji innych producentów, historia rozmów i inne dane aplikacji zostaną zastąpione danymi ze starego urządzenia po zakończeniu transferu.</string>
     <string name="search_menu_title">Szukaj</string>
     <string name="searching_for_new_device">Wyszukiwanie nowego urządzenia…</string>
     <string name="searching_for_new_device_pad">Wyszukiwanie nowego urządzenia…</string>
@@ -889,27 +952,42 @@ Zwolnij przynajmniej %s."</string>
     <string name="time_spent">Czas: %1$s</string>
     <string name="tips_button_hint">Zaznacz poszczególne elementy, aby potwierdzić</string>
     <string name="tips_cover_content">Kontynuacja spowoduje nadpisanie wskazanych danych (w tym również historii czatu).</string>
+    <string name="tips_cover_content_pad">Kontynuacja spowoduje nadpisanie wskazanych danych (w tym również historii czatu).</string>
     <string name="tips_cover_content_tablet">Kontynuacja spowoduje nadpisanie wskazanych danych (w tym również historii czatu).</string>
     <string name="tips_cover_title">%1$d. Na nowym urządzeniu znajdują się już dane powiązane z poniższymi aplikacjami.</string>
+    <string name="tips_cover_title_pad">%1$d. Na nowym urządzeniu znajdują się już dane powiązane z poniższymi aplikacjami.</string>
     <string name="tips_cover_title_tablet">%1$d. Na nowym urządzeniu znajdują się już dane powiązane z poniższymi aplikacjami.</string>
     <string name="tips_dual_app_content">Nie można przenosić sklonowanych aplikacji. Można przenieść tylko główną aplikację i powiązane z nią dane.</string>
     <string name="tips_dual_app_title">%d. Poniższe aplikacje zostały sklonowane.</string>
+    <string name="tips_dual_app_title_new">%d. Nie można przenieść danych sklonowanych aplikacji.</string>
     <string name="tips_hot_content">Jest to normalne zjawisko. Po zakończeniu transferu temperatura urządzenia spadnie.</string>
+    <string name="tips_hot_content_new">Jest to normalne zjawisko. Po zakończeniu transferu temperatura urządzenia spadnie.</string>
     <string name="tips_hot_title">%d. Urządzenie może się nagrzewać podczas transferu.</string>
+    <string name="tips_hot_title_content">%d. Urządzenie może się nagrzewać.</string>
     <string name="tips_private_space_content">Ze względu na ograniczenia systemowe dane z drugiej przestrzeni nie mogą zostać przeniesione.</string>
+    <string name="tips_private_space_content_pad">Wynika to z ograniczeń systemowych.</string>
+    <string name="tips_private_space_content_phone">Wynika to z ograniczeń systemowych.</string>
     <string name="tips_private_space_content_tablet">Ze względu na ograniczenia systemowe dane z drugiej przestrzeni nie mogą zostać przeniesione.</string>
     <string name="tips_private_space_title">%d. Włączono drugą przestrzeń.</string>
+    <string name="tips_private_space_title_pad">%d. Nie można przenieść danych drugiej przestrzeni.</string>
+    <string name="tips_private_space_title_phone">%d. Nie można przenieść danych drugiej przestrzeni.</string>
     <string name="tips_private_space_title_tablet">%d. Włączono drugą przestrzeń.</string>
     <string name="tips_prudent_operation_content">Przerwanie połączenia spowoduje zatrzymanie transferu.</string>
     <string name="tips_prudent_operation_title">%d. Nie wyłączaj ani nie przełączaj hotspotu Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new">%d. Nie wyłączaj ani nie przełączaj hotspotu Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Nie wyłączaj ani nie przełączaj hotspotu WLAN.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Nie wyłączaj ani nie przełączaj hotspotu WLAN.</string>
     <string name="tips_secret_content_one">Nie można przenieść części prywatnych elementów (%1$s) znajdujących się na starym urządzeniu. Aby umożliwić transfer, przenieś je z folderu prywatnego.</string>
+    <string name="tips_secret_content_one_new">Nie można przenieść części prywatnych elementów (%1$s) znajdujących się na starym urządzeniu. Aby umożliwić transfer, przenieś je z folderu prywatnego.</string>
     <string name="tips_secret_content_three">Nie można przenieść części prywatnych elementów (%1$s, %2$s, %3$s) znajdujących się na starym urządzeniu. Aby umożliwić transfer, przenieś je z folderu prywatnego.</string>
+    <string name="tips_secret_content_three_new">Nie można przenieść części prywatnych elementów (%1$s, %2$s, %3$s) znajdujących się na starym urządzeniu. Aby umożliwić transfer, przenieś je z folderu prywatnego.</string>
     <string name="tips_secret_content_two">Nie można przenieść części prywatnych elementów (%1$s, %2$s) znajdujących się na starym urządzeniu. Aby umożliwić transfer, przenieś je z folderu prywatnego.</string>
+    <string name="tips_secret_content_two_new">Nie można przenieść części prywatnych elementów (%1$s, %2$s) znajdujących się na starym urządzeniu. Aby umożliwić transfer, przenieś je z folderu prywatnego.</string>
     <string name="tips_secret_file">plików</string>
     <string name="tips_secret_gallery">albumów</string>
     <string name="tips_secret_note">notatek</string>
     <string name="tips_secret_title">%d. Nie można przenieść części prywatnych elementów.</string>
+    <string name="tips_secret_title_content">%d. Nie można przenieść prywatnych elementów.</string>
     <string name="tips_subtitle">Przeczytaj i zaakceptuj poniższe uwagi, aby kontynuować.</string>
     <string name="title_compatibility_mode">Włącz tryb zgodności aplikacji</string>
     <string name="title_open_wlan">Włącz Wi-Fi</string>
@@ -951,10 +1029,12 @@ Pobierz i zainstaluj Mi Mover."</string>
     <string name="trans_send_time_remained_default">Wysłano: %1$s</string>
     <string name="trans_show_qr_code_label">Otwórz Przenoszenie danych na starym urządzeniu</string>
     <string name="trans_show_qr_code_label_for_pad">Otwórz Mi Mover na starym urządzeniu</string>
+    <string name="trans_show_qr_code_label_pad">Otwórz Mi Mover na starym urządzeniu</string>
     <string name="trans_sync_transfer_data_list">Wybierz elementy do przeniesienia na starym urządzeniu</string>
     <string name="trans_sync_transfer_data_list_apple">Prześlij elementy z urządzenia Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Chwileczkę…</string>
     <string name="trans_sync_transfer_data_list_pad">Wybierz elementy na starym urządzeniu, które chcesz przesłać</string>
+    <string name="trans_sync_transfer_data_list_phone">Wybierz elementy do przeniesienia na starym urządzeniu</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Wybierz elementy na swoim starym urządzeniu i dotknij „Wyślij”.</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Wybierz elementy na swoim starym urządzeniu i dotknij „Wyślij”.</string>
     <string name="trans_time_format_second">Mniej niż %d minuta</string>
@@ -977,6 +1057,7 @@ Pobierz i zainstaluj Mi Mover."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Stan przesyłania zostanie zapisany. Będzie można je wznowić od miejsca, w którym został przerwany, przy kolejnym połączeniu obu urządzeń.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Postęp transferu zostanie zapisany. Po ponownym połączeniu obu urządzeń możesz kontynuować proces od miejsca, w którym został przerwany.</string>
     <string name="transfer_quit_alert_title">Powiadomienie</string>
     <string name="transfer_snap_error">Nie udało się przesłać</string>
     <string name="transfer_snap_new_receiving">Odbieranie…</string>

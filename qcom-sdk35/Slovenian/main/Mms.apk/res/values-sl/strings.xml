@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Tapnite, da ustvarite nov diapozitiv</string>
     <string name="add_smiley">Smejko</string>
     <string name="add_timing">Čas</string>
-    <string name="add_to_block_by_number">"%s dodana
-na seznam blokiranih"</string>
-    <string name="add_to_block_by_number_failed">"%s ni bilo mogoče dodati na seznam blokiranega gradiva.
- Poskusite znova."</string>
-    <string name="add_to_block_by_tag">"Sporočila, ki vsebujejo \"%s\"
-so bila dodana na seznam blokiranih"</string>
-    <string name="add_to_block_by_tag_failed">"Sporočil, ki vsebujejo \"%s\", ni bilo mogoče dodati na seznam blokiranih.
- Poskusite ponovno."</string>
-    <string name="add_to_block_cta_failed">Aplikaciji Varnost dodelite zahtevana dovoljenja, da lahko doda predmete na seznam blokiranih</string>
+    <string name="add_to_block_by_number">Dodana na seznam blokiranih</string>
+    <string name="add_to_block_by_number_failed">Ni bilo mogoče dodati na seznam blokiranih. Poskusite ponovno.</string>
+    <string name="add_to_block_by_tag">Ta ključna beseda je bila dodana na seznam blokiranih</string>
+    <string name="add_to_block_by_tag_failed">Ključne besede ni bilo mogoče dodati na seznam blokiranih. Poskusite ponovno.</string>
+    <string name="add_to_block_cta_failed">Odprite razdelek Varnost in se strinjajte s pogoji in določili, če želite uporabljati to funkcijo</string>
     <string name="add_to_browser_favorite_failed">Ne morem dodati</string>
     <string name="add_to_browser_favorite_success">Uspešno dodano</string>
     <string name="add_to_calender">Dodaj v Koledar</string>
@@ -125,7 +121,7 @@ so bila dodana na seznam blokiranih"</string>
     <string name="beidou_audio_not_support_multi_recipient">Trenutno glasovnih sporočil ni mogoče pošiljati več prejemnikom</string>
     <string name="beidou_cannot_receive_airmode">Turn off Airplane mode to receive messages</string>
     <string name="beidou_cannot_send_mms">"BeiDou satellite communications doesn't support MMS"</string>
-    <string name="beidou_cannot_use">Turn off Tiantong satellite communications and try again</string>
+    <string name="beidou_cannot_use">Izklopite Tiantong satelitske komunikacije in poskusite znova</string>
     <string name="beidou_exceed_send_limit">"Can't send any more messages this month"</string>
     <string name="beidou_exceed_words_limit">Delete some characters to be able to send</string>
     <string name="beidou_from_contacts">Reply from %s</string>
@@ -135,22 +131,22 @@ so bila dodana na seznam blokiranih"</string>
     <string name="beidou_introduce">Learn more about BeiDou satellite communications</string>
     <string name="beidou_location_failed">"Couldn't get location. Go to an open area and try again."</string>
     <string name="beidou_max_support_contact_number">Add up to %d contacts</string>
-    <string name="beidou_message">BeiDou satellite messaging</string>
+    <string name="beidou_message">BeiDou satelitsko sporočanje</string>
     <string name="beidou_new_message">Pošlji</string>
     <string name="beidou_open_location_service">BeiDou satellite messaging needs permission to access your location in order to work normally.</string>
-    <string name="beidou_query_remain_time">Check balance</string>
+    <string name="beidou_query_remain_time">Preveri dobroimetje</string>
     <string name="beidou_query_remain_time_failed">"Couldn't check balance"</string>
     <string name="beidou_receive_message">Prejmi</string>
     <string name="beidou_satellite_sms_notification">This message was sent via BeiDou satellite communications</string>
     <string name="beidou_sim_not_support">"SIM card doesn't support BeiDou satellite messaging"</string>
     <string name="beidou_support_cta_tips">This app can also read, edit, send, and receive BeiDou satellite messages.</string>
     <string name="beidou_support_location_tips">Uporaba storitev BeiDou zahteva dostop do vaše lokacije.</string>
-    <string name="beidou_to_contacts">Recipient: %s</string>
+    <string name="beidou_to_contacts">Prejemnik: %s</string>
     <string name="billing">Računi</string>
     <string name="block_messaging_entry_title">Blokirani SMS-i</string>
-    <string name="block_number_message">Ta telefonska številka bo dodana na seznam blokiranih. Vsa sporočila, ki so poslana od te številke bodo blokirana.</string>
+    <string name="block_number_message">Ko bodo dodani, bodo vsi dohodni klici in sporočila uporabnika %s blokirani. Ali želite dodati zdaj?</string>
     <string name="block_support_text">Podprto od Antiy.</string>
-    <string name="block_tag_message">Vsa sporočila, ki so poslana od strani %s bodo blokirana. Morda ne boste mogli prejemati kod za preverjanje ali računov, ki jih pošilja ta storitev.</string>
+    <string name="block_tag_message">Ko bodo dodana, bodo vsa sporočila, ki vsebujejo ključno besedo »%s« blokirana. To lahko vključuje potrditvene kode in podatke o naročilih. Jih želite dodati zdaj?</string>
     <string name="boarding_time">Čas vkrcanja</string>
     <string name="bookmark">Dodano med priljubljene</string>
     <string name="bookmark_confirm_delete_message">Želite odstraniti izbrana sporočila iz priljubljenih?</string>
@@ -236,7 +232,7 @@ Upoštevajte, da je funkcija internetnih sporočil do nadaljnjega onemogočena. 
     <string name="confirm_dialog_title_make_as_read">Označi kot prebrano</string>
     <string name="confirm_export_dialog_description">Prejšnji pogovori s tem stikom ne bodo več skriti.</string>
     <string name="confirm_export_dialog_title">Odstrani iz zasebnih stikov</string>
-    <string name="confirm_invalid_recipient">Got it</string>
+    <string name="confirm_invalid_recipient">Razumem</string>
     <string name="confirm_no_block_positive">Odblokiraj</string>
     <string name="confirm_no_block_title">Želite prenehati blokirati takšna sporočila? Prej blokirana sporočila bodo prikazana v nabiralniku.</string>
     <string name="confirm_rate_limit">Pošilja se veliko število multimedijskih sporočil.</string>
@@ -429,9 +425,9 @@ Upoštevajte, da je funkcija internetnih sporočil do nadaljnjega onemogočena. 
     <string name="fcm_fallback_notification_channel_label">Razno</string>
     <string name="fdn_check_failure">Sporočila lahko pošljete le fiksnim klicnim številkam.</string>
     <string name="feature_mx">Mi Sporočila</string>
-    <string name="feature_mx_summary"><b>Mi Message allows you to send messages to other Mi Message users over the internet without incurring charges</b>. An outgoing SMS message is required to activate this service. Your carrier will charge you for this message. Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_mx_summary"><b>Mi Sporočila vam omogočajo pošiljanje sporočil drugim uporabnikom Mi Sporočila preko spleta in brez dodatnih stroškov</b>. Naprava bo poslala SMS sporočilo za aktivacijo te storitve. Vaš operater lahko zaračuna poslano sporočilo. Preden začnete uporabljati storitve se morate strinjati z našim <font color="#B3000000"><a href="http://url1">Uporabniškim dogovorom</a></font> in <font color="#B3000000"><a href="http://url2">Pravilnikom o zasebnosti</a></font>.</string>
     <string name="feature_smart_sms">Pametna Sporočila</string>
-    <string name="feature_smart_sms_summary"><b>Smart Messaging provides Sender ID recognition and smart menus</b>". Smart Messaging is provided in part by Yulore. Read and agree to Yulore's "<font color="#B3000000"><a href="http://url3">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_smart_sms_summary"><b>Aplikacija Pametna Sporočila zagotavlja prepoznavanje ID pošiljatelja in pametne menije</b>. Aplikacijo delno zagotavlja Yulore. Pred uporabo storitve preberite in se strinjajte z Yulore <font color="#B3000000"><a href="http://url3">Pravilnikom o zasebnosti</a></font>.</string>
     <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Let</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -581,13 +577,13 @@ Upoštevajte, da je funkcija internetnih sporočil do nadaljnjega onemogočena. 
     <string name="menu_pick_from_contact">Izberi iz stikov</string>
     <string name="menu_preferences">Nastavitve</string>
     <string name="menu_report">Povratne informacije</string>
-    <string name="menu_sms_block">Seznam blokiranih</string>
+    <string name="menu_sms_block">Želite dodati na seznam blokiranih?</string>
     <string name="menu_traffic_destination">Cilj</string>
     <string name="menu_unlock">Odstrani iz priljubljenih</string>
     <string name="menu_view_contact">Prikaži stik</string>
     <string name="menu_view_group_info">Podatki o skupini</string>
     <string name="message_cannot_send_air_mode">Za pošiljanje sporočil izklopite Letalski način</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">SIM kartica, ki jo uporabljate, ne podpira pošiljanja SMS sporočil</string>
     <string name="message_cannot_send_sim_unavailable">Za pošiljanje sporočil vstavite SIM kartico</string>
     <string name="message_class_label">"Vrsta sporočila: "</string>
     <string name="message_contact">Stik:</string>
@@ -1208,10 +1204,10 @@ Oglejte si priporočene klepetalne robote!"</string>
     <string name="recommend_tip_4">Mi Sporočila vam omogočajo samodejno prepoznavanje ID pošiljatelja, ki vam omogoča, da lahko vidite imena in fotografije profila zaupanja vrednih prodajalcev.</string>
     <string name="recommend_tip_5">Pametno prepoznavanje ID pošiljatelja vam pomaga urediti vaš nabiralnik ter prepoznati zanesljive pošiljatelje.</string>
     <string name="recommend_tip_6">Tehnično podporo za zgoraj omenjene storitve zagotavlja Yulore.</string>
-    <string name="recommend_tip_7">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Mi Message.</string>
-    <string name="recommend_tip_8">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using free internet messaging provided by Mi Message.</string>
-    <string name="recommend_tip_9">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Smart sender ID recognition.</string>
-    <string name="recommend_tip_9_2">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using our services.</string>
+    <string name="recommend_tip_7">Pred uporabo Mi Sporočil preberite in se strinjajte z <font color="#B3000000"><a href="http://url1">Uporabniškim dogovorom</a></font> in <font color="#B3000000"><a href="http://url2">Pravilnikom o zasebnosti</a></font>, prav tako tudi z <font color="#B3000000"><a href="http://url3">Yulore Pravilnikom o zasebnosti</a></font>.</string>
+    <string name="recommend_tip_8">Pred uporabo brezplačnih spletnih sporočil, ki jih zagotavljajo Mi Sporočila, preberite in se strinjajte z <font color="#B3000000"><a href="http://url1">Uporabniškim dogovorom</a></font> in <font color="#B3000000"><a href="http://url2">Pravilnikom o zasebnosti</a></font>, prav tako tudi z <font color="#B3000000"><a href="http://url3">Yulore Pravilnikom o zasebnosti</a></font>.</string>
+    <string name="recommend_tip_9">Pred uporabo Pametnega prepoznavanja ID pošiljatelja preberite in se strinjajte z <font color="#B3000000"><a href="http://url1">Uporabniškim dogovorom</a></font> in <font color="#B3000000"><a href="http://url2">Pravilnikom o zasebnosti</a></font>, prav tako tudi z <font color="#B3000000"><a href="http://url3">Yulore Pravilnikom o zasebnosti</a></font>.</string>
+    <string name="recommend_tip_9_2">Pred uporabo naših storitev preberite in se strinjajte z našim <font color="#B3000000"><a href="http://url1">Uporabniškim dogovorom</a></font> in <font color="#B3000000"><a href="http://url2">Pravilnikom o zasebnosti</a></font>.</string>
     <string name="recommend_tip_default">Nastavite Xiaomi aplikacijo Sporočila kot privzeto aplikacijo za sporočanje, da izkusite vse varnostne prednosti, ki jih ponujamo</string>
     <string name="recommend_tip_other">Ogled drugih aplikacij za sporočanje</string>
     <string name="recommend_tip_smart">Zaščita zasebnosti. Pametno prepoznavanje.</string>
@@ -1249,8 +1245,8 @@ Oglejte si priporočene klepetalne robote!"</string>
     <string name="rms_normal_file_length_too_large">Ni mogoče poslati datoteke, ki so večje od %1$d MB</string>
     <string name="rms_original_image_length_too_large">Ni mogoče poslati fotografije, ki so večje od %1$d MB</string>
     <string name="rms_original_image_size_too_large">Ta slika je prevelika</string>
-    <string name="rms_select_location">Location</string>
-    <string name="rms_send_button">Send</string>
+    <string name="rms_select_location">Lokacija</string>
+    <string name="rms_send_button">Pošlji</string>
     <string name="rms_vcard_body">[Stik]</string>
     <string name="rms_video_body">[Video]</string>
     <string name="rsc_chatbot_back">Nazaj</string>
@@ -1325,6 +1321,11 @@ Oglejte si priporočene klepetalne robote!"</string>
     <string name="shortcut_new_msg">Novo sporočilo</string>
     <string name="shortcut_setting">Nastavitve</string>
     <string name="show_delivery_status">Pokaži stanje dostave</string>
+    <string name="silent_notification_notify_content">V kratkem času ste prejeli veliko potrditvenih kod. Ta obvestila bodo začasno utišana.</string>
+    <string name="silent_notification_notify_double">SIM kartici %1$d in %2$d sta v kratkem času prejeli veliko potrditvenih kod. Ta obvestila bodo začasno utišana.</string>
+    <string name="silent_notification_notify_single">SIM kartica %1$d je v kratkem času prejela veliko potrditvenih kod. Ta obvestila bodo začasno utišana.</string>
+    <string name="silent_notification_notify_title">Utišanje potrditvenih SMS sporočil</string>
+    <string name="silent_notification_tip_exit">Ustavite utišanje potrditvenih SMS sporočil</string>
     <string name="sim_card1">SIM kartica 1</string>
     <string name="sim_card2">Sim kartica 2</string>
     <string name="sim_card_cloud">%s (Mi Sporočila)</string>

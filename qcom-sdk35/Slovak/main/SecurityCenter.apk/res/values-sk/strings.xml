@@ -196,6 +196,7 @@
     <string name="allow_onetime">Povoliť raz</string>
     <string name="already_close_gamebooster">Game Turbo je vypnuté</string>
     <string name="am">dop.</string>
+    <string name="anitispam_intercept_record">História blokových položiek</string>
     <string name="anti_disturb_msg_detail">Vypnúť všetky upozornenia okrem prich. hovorov</string>
     <string name="anti_disturb_msg_title">Režim nerušiť</string>
     <string name="antispam_add_black_number_message">Zadané číslo je príliš krátke. Blokovať všetky čísla začínajúce týmito číslicami?</string>
@@ -1023,6 +1024,9 @@ Niektoré z vašich transakcií však ešte nie sú dokončené. Ak chcete odvol
     <string name="call_delete_all_hint">Vymazať všetky blokované hovory?</string>
     <string name="call_delete_hint">Vymazať všetky blokované hovory z vybraného čísla?</string>
     <string name="call_delete_title">Vymazať históriu hovorov</string>
+    <string name="call_empty_number">Prázdne čísla</string>
+    <string name="call_forwarding_block">Presmerované hovory</string>
+    <string name="call_intercept_settings">Nastavenia zoznamu blokovaných hovorov</string>
     <string name="call_notification_answer_action">Prijať</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Odmietnuť</string>
@@ -1031,6 +1035,7 @@ Niektoré z vašich transakcií však ešte nie sú dokončené. Ak chcete odvol
     <string name="call_notification_ongoing_text">Prebiehajúci hovor</string>
     <string name="call_notification_screening_text">Preveruje sa prichádzajúci hovor</string>
     <string name="call_oversea_block">Blokovať hovory zo zahraničia</string>
+    <string name="call_overseas_block">Medzinárodné hovory</string>
     <string name="call_prefix">Blokované predvoľby</string>
     <string name="call_private">Blokovať hovory zo skrytých čísel</string>
     <string name="call_stranger_block">Blokovať hovory od neznámych ľudí</string>
@@ -1040,12 +1045,20 @@ Niektoré z vašich transakcií však ešte nie sú dokončené. Ak chcete odvol
     <string name="cancel">Zrušiť</string>
     <string name="cancel_button">Zrušiť</string>
     <string name="car_sickness_relief_comment_text">Keď sa zistí pohyb vozidla, na oboch stranách obrazovky sa zobrazia bodky, ktoré indikujú, či sa vozidlo pohybuje, čo môže pomôcť oddialiť nástup nevoľnosti z pohybu.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Na oboch stranách obrazovky sa budú zobrazovať bodky indikujúce pohyb vozidla, čo môže pomôcť oddialiť nástup pohybovej nevoľnosti.
+
+Túto funkciu môžete zapnúť alebo vypnúť v Centre ovládania."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Na oboch stranách obrazovky sa budú neustále zobrazovať bodky indikujúce pohyb vozidla, čo môže pomôcť oddialiť nástup pohybovej nevoľnosti.
+
+Túto funkciu môžete zapnúť alebo vypnúť v Centre ovládania."</string>
     <string name="car_sickness_relief_comment_text_opened">"Na oboch stranách obrazovky sa zobrazia bodky indikujúce pohyb vozidla, čo môže pomôcť oddialiť nástup pohybovej nevoľnosti.
 
 Túto funkciu môžete zapnúť alebo vypnúť v Centre ovládania."</string>
     <string name="car_sickness_relief_example_text_1">Keď vozidlo zrýchľuje alebo spomaľuje</string>
     <string name="car_sickness_relief_example_text_2">Keď vozidlo odbočuje alebo mení jazdný pruh</string>
     <string name="car_sickness_relief_exit_text">Úľava pri nevoľnosti z pohybu prestala pracovať</string>
+    <string name="car_sickness_relief_notification_text_close">Vypnúť</string>
+    <string name="car_sickness_relief_notification_text_opened">Zapnúť</string>
     <string name="car_sickness_relief_start_text">Úľava pri nevoľnosti z pohybu funguje</string>
     <string name="car_sickness_remind_time_title">Indikátory pohybu</string>
     <string name="car_sickness_title">Úľava od choroby z pohybu</string>
@@ -1876,7 +1889,7 @@ Bude pridané do výnimiek, no predošlé blokované položky sa nezobrazia v hi
 %3$d. Táto funkcia je podporovaná iba na čínskej pevnine.
 %4$d. Táto funkcia funguje iba v sieťach 5G-SA."</string>
     <string name="function_shield_auto_bright">Vypnúť automatický jas</string>
-    <string name="function_shield_eye_shield">Vypnúť Režim čítania</string>
+    <string name="function_shield_eye_shield">Vypnúť režim pohodlia očí</string>
     <string name="function_shield_pull_notification_bar">Neotvárať notifikačnú roletku</string>
     <string name="function_shield_settings_title">Zakázať nasledujúce funkcie počas hrania hier</string>
     <string name="function_shield_summary">Zakázať vybrané systémové funkcie počas hrania hier</string>
@@ -2750,6 +2763,12 @@ a zapojte sa do hľadania vajíčok!"</string>
     <string name="install_title">Inštalovať pomocou USB</string>
     <string name="install_type_instant">Rýchla aplikácia</string>
     <string name="installing">Inštaluje sa</string>
+    <string name="intercept_all_mark_calls">Blokovať všetky hovory označené ako „%s”?</string>
+    <string name="intercept_calls_nofify_hide_text">Pre nastavenie pravidiel blokovania pre iné označené čísla, ťuknite sem</string>
+    <string name="intercept_calls_notify_title">Hovory s týmto označením budú automaticky ukončené. Blokovať teraz?</string>
+    <string name="intercept_garbage_msg">Nevyžiadané správy</string>
+    <string name="intercept_record">História</string>
+    <string name="intercept_strange_msg">Správy z neznámych čísel</string>
     <string name="international_Ad">Reklama</string>
     <string name="international_roaming_setting">Dátový roaming</string>
     <string name="intl_app_manager_card_permission_title">Súkromie a povolenia</string>
@@ -2944,6 +2963,7 @@ operátora"</string>
     <string name="mark_harass_block">Nahlásené ako obťažovanie</string>
     <string name="mark_harass_block_large">Obťažuje</string>
     <string name="mark_harass_time_setting">Blokovať obťažujúce čísla nahlásené viackrát</string>
+    <string name="mark_num_open_intercept">Blokovať</string>
     <string name="mark_number_agent">Agent</string>
     <string name="mark_number_fraud">Otravný</string>
     <string name="mark_number_harass">Obťažovanie</string>
@@ -4796,11 +4816,11 @@ Odvolať váš súhlas teraz?"</string>
     <string name="prompt_all">Opýtať sa na všetko</string>
     <string name="prompt_input_time_illegal">Nie je možné nastaviť čas. Zmeňte ho a skúste to znovu</string>
     <string name="protect_eye_dont_open">Teraz nie</string>
-    <string name="protect_eye_hint_summry">Zapnite Režim čítania pre lepší zážitok z čítania</string>
-    <string name="protect_eye_hint_title">Šetrenie zraku</string>
+    <string name="protect_eye_hint_summry">Zapnite režim pohodlia očí pre lepší zážitok z čítania</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Zapnúť</string>
-    <string name="protect_eye_opened_summry">Upravte nastavenia v časti Nastavenia > Displej a jas > Šetrenie zraku</string>
-    <string name="protect_eye_opened_title">Režim čítania je zapnutý</string>
+    <string name="protect_eye_opened_summry">Upravte predvoľby v časti Nastavenia > Displej a jas > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">Režim pohodlia očí je zapnutý</string>
     <string name="protocol_exception_title">Diagnostika siete</string>
     <string name="protocol_loop_back_exception_summary">Test zlyhal. Odporúčame odoslať záznam o chybe cez aplikáciu Spätná väzba.</string>
     <string name="province_selected_talkback" />
@@ -4864,6 +4884,7 @@ Odvolať váš súhlas teraz?"</string>
     <string name="repeat_type">Opakovať</string>
     <string name="repeated_marked_number_summary">Neblokovať druhé volanie z toho istého čísla v priebehu %d minút</string>
     <string name="repeated_marked_number_title">Neblokovať opakujúce sa nahlásené volania</string>
+    <string name="repeated_unknown_number_summary">Neblokovať druhé volanie z toho istého neznámeho čísla v priebehu %d minút</string>
     <string name="replace_dns">Automaticky nahradiť</string>
     <string name="report">Nahlásiť</string>
     <string name="report_error">Nie je možné nahlásiť</string>
@@ -5104,6 +5125,7 @@ Odvolať váš súhlas teraz?"</string>
     <string name="sms_detail_fragment_title_traffic">Zostávajúce dáta</string>
     <string name="sms_filter">Chytrý filter</string>
     <string name="sms_guard_alert">Zmenená predvolená aplikácia pre správu správ. Xiaomi správy nebudú môcť blokovať SMS spam.</string>
+    <string name="sms_intercept_settings">Nastavenia zoznamu blokovaných správ</string>
     <string name="sms_keywords">Blokované kľúčové slová</string>
     <string name="sms_malicious_url">Zablokovať SMS so škodlivou URL adresou</string>
     <string name="sms_prefix">Blokované predvoľby</string>
@@ -5305,9 +5327,26 @@ Odvolať váš súhlas teraz?"</string>
     <string name="st_call_intercept_reported">Blokovať hovory z nahlásených čísel</string>
     <string name="st_call_intercept_stranger">Blokovať hovory od neznámych ľudí</string>
     <string name="st_call_intercept_unknown">Blokovať hovory zo skrytých čísel</string>
+    <string name="st_call_mark_agent">Nehnuteľnosti</string>
+    <string name="st_call_mark_agent_intercept">Nehnuteľnosti</string>
+    <string name="st_call_mark_decoration">Rekonštrukcia domu</string>
+    <string name="st_call_mark_decoration_intercept">Rekonštrukcia domu</string>
+    <string name="st_call_mark_edu">Vzdelávanie</string>
+    <string name="st_call_mark_edu_intercept">Vzdelávanie</string>
+    <string name="st_call_mark_high_risk">Vysoké riziko</string>
+    <string name="st_call_mark_high_risk_intercept">Vysoké riziko</string>
+    <string name="st_call_mark_insurance">Investície</string>
+    <string name="st_call_mark_insurance_intercept">Investície</string>
+    <string name="st_call_mark_loan">Hypotéka</string>
+    <string name="st_call_mark_loan_intercept">Hypotéka</string>
+    <string name="st_call_mark_sell">Reklama</string>
+    <string name="st_call_mark_sell_intercept">Reklama</string>
     <string name="st_call_other_group">Iné</string>
     <string name="st_call_settings">Blokované hovory</string>
     <string name="st_call_stranger_group">Blokovať hovory od neznámych ľudí</string>
+    <string name="st_call_stranger_inercept_local">Blokovať neznáme čísla</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Hovory z akéhokoľvek čísla, ktoré nie je vo vašich výnimkách, budú blokované. Blokovať teraz?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Hovory z akéhokoľvek čísla, ktoré nie je vo vašich výnimkách alebo kontaktoch, budú blokované. Blokovať teraz?</string>
     <string name="st_confirm_call_all_dialog_summary">Hovory z akéhokoľvek čísla, ktoré nie je vo vašich výnimkách, budú blokované. Zapnúť teraz?</string>
     <string name="st_confirm_dialog_btn_open">Blokovať</string>
     <string name="st_confirm_dialog_summary_oversea_call">Všetky hovory zo zahraničných čísel budú blokované.</string>
@@ -5319,9 +5358,11 @@ Odvolať váš súhlas teraz?"</string>
     <string name="st_hint_add_head_number">Zadajte predvoľbu (* bude pridaná automaticky)</string>
     <string name="st_hint_add_phonenumber">Zadajte telefónne číslo</string>
     <string name="st_hint_operatelist">Zdá sa, že toto pravidlo už existuje</string>
+    <string name="st_intercept_dialog_title">Upozornenie</string>
     <string name="st_mark_call_intercept_threshold_summary">Automaticky blokovať čísla, ktoré boli nahlásené viac ako nastavený počet krát</string>
     <string name="st_mark_call_intercept_threshold_title">Limit blokovania</string>
     <string name="st_mark_number_group">Blokovať hovory z nahlásených čísel</string>
+    <string name="st_mark_number_net_group">Blokovať nahlásené čísla</string>
     <string name="st_message_SMS_AntiSpam">Otravná SMS</string>
     <string name="st_message_SMSpass">Povoliť SMS</string>
     <string name="st_message_phone_AntiSpam">Otravný Hovor</string>
@@ -5334,13 +5375,26 @@ Odvolať váš súhlas teraz?"</string>
     <string name="st_msg_stranger_group">Blokovať správy z neznámych zdrojov</string>
     <string name="st_settings_name">Nastavenia Zoznamu blokovaných</string>
     <string name="st_share_settings">Použite nastavenia SIM %d</string>
+    <string name="st_smg_intercept_all">Blokovať všetky správy</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">SMS a MMS správy z akéhokoľvek čísla alebo oblasti, ktorá nie je vo vašich výnimkách, budú blokované. Blokovať teraz?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS a MMS správy z akéhokoľvek čísla alebo oblasti, ktorá nie je vo vašich výnimkách alebo kontaktoch, budú blokované. Blokovať teraz?</string>
+    <string name="st_smg_intercept_network_check">Blokovať pomocou online definícií</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Nevyžiadané správy</string>
+    <string name="st_smg_intercept_other">Ďalšie nastavenia</string>
+    <string name="st_smg_intercept_strange">Blokovať všetky správy od neznámych</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Blokovať správy od cudzích osôb obsahujúce konkrétne kľúčové slová</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Blokovať správy z konkrétnych čísel a regiónov</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Neblokovať správy od cudzích osôb obsahujúce konkrétne kľúčové slová</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Neblokovať správy z čísel a regiónov vo výnimkách</string>
     <string name="st_sms_intercept_oversea">Medzinárodná SMS</string>
     <string name="st_sub_title_customize_mode_name">Názov režimu</string>
     <string name="st_sub_title_whiteblack_list_group">Zoznam blokovaných</string>
     <string name="st_sum_call_wait">Ak váš tón čakajúceho hovoru nie je štandardný, môže to zmiasť volajúceho účastníka</string>
     <string name="st_summary_blacklist_numbers">Blokovať hovory a SMS pomocou čísla a smerového čísla</string>
     <string name="st_summary_blacklist_numbers_international">Blokovať hovory na základe čísla alebo predvoľby</string>
+    <string name="st_summary_intercept_blacklist_numbers">Blokovať hovory a správy z konkrétnych čísel a regiónov</string>
     <string name="st_summary_keywords_blacklist">Pridať slová pre blokovanie SMS</string>
+    <string name="st_summary_release_whitelist_numbers">Neblokovať hovory a správy z čísel a regiónov vo výnimkách</string>
     <string name="st_summary_special_numbers">Blokovať označené čísla</string>
     <string name="st_summary_whitelist_numbers">Povoliť hovory a SMS z určitých čísiel a krajín</string>
     <string name="st_summary_whitelist_numbers_international">Povoliť hovory na základe čísla alebo predvoľby</string>
@@ -5375,6 +5429,8 @@ Odvolať váš súhlas teraz?"</string>
     <string name="st_title_markednumber_group">Označené čísla</string>
     <string name="st_title_mode_choose_group">Pravidlá blokovania</string>
     <string name="st_title_not_sim">Prázdne</string>
+    <string name="st_title_number_and_region_blacklist">Blokované čísla a regióny</string>
+    <string name="st_title_number_and_region_whitelist">Výnimky čísel a regiónov</string>
     <string name="st_title_open_antispam">Zoznam blokovaných</string>
     <string name="st_title_other_group">Ostatné</string>
     <string name="st_title_settings_other_group">Ďalšie nastavenia</string>
@@ -5536,7 +5592,7 @@ Formátovanie vymaže existujúci obsah na ^2 karte. Aby ste sa vyhli strate úd
     <string name="summary_default_app">%s nie je nastavené ako predvolená aplikácia</string>
     <string name="summary_dev">Zabráňte aplikáciám zneužívať vaše súkromné dáta</string>
     <string name="summary_do_not_disturb">Používate Režim nerušiť.</string>
-    <string name="summary_eye_shield">Pre návrat do pôvodných predvolených nastavení ukončite Režim čítania.</string>
+    <string name="summary_eye_shield">Vypnite režim pohodlia očí pre návrat k predvoleným nastaveniam.</string>
     <string name="summary_find_device">Vyhľadajte a zablokujte vaše zariadenie kdekoľvek na svete</string>
     <string name="summary_first_aid_kit">Vyriešte problémy na vašom zariadení teraz</string>
     <string name="summary_flow_notification">Zobraziť mesačnú štatistiku spotreby dát v notifikačnej roletke</string>

@@ -30,6 +30,7 @@
     <string name="apps_cannot_be_transfered_next_button">הבא</string>
     <string name="apps_cannot_be_transfered_summary_formatted">לא ניתן להעביר את יישומי %1$d-ביט אלה למכשיר של %2$d-ביט. ניתן להוריד אותם ישירות מ-GetApps אחרי ההעברה.</string>
     <string name="audio">שמע</string>
+    <string name="audio_permission_desc_new">להעברת מוזיקה ושמע למכשיר החדש</string>
     <string name="audio_video_document">שמע, וידאו ומסמכים</string>
     <string name="back">הקודם</string>
     <string name="backup_died_summary">הקש על \"התחבר שוב\". ההעברה תמשיך מהנקודה בה עצרת.</string>
@@ -46,6 +47,7 @@
     <string name="ble_enter_verifycode_timeout_summary">הקוד לא הוזן זמן רב. התחבר ידנית.</string>
     <string name="ble_enter_verifycode_timeout_title">תם הזמן שהוקצב לפעולה</string>
     <string name="ble_guest_connecting_title">מתחבר למכשיר חדש…</string>
+    <string name="ble_guest_connecting_title_pad">מתחבר למכשיר חדש…</string>
     <string name="ble_host_verification_summary">הזן קוד בן %d ספרות במכשיר הישן שלך.</string>
     <string name="ble_host_verification_title">מתחבר למכשיר הישן…</string>
     <string name="ble_manual_authorization_content">יש לתת את ההרשאות הנדרשות כדי שתוכלו להעביר תוכן עם Mi Mover. ניתן לתת את ההרשאות האלה בהגדרות.</string>
@@ -56,8 +58,10 @@
     <string name="ble_start_ap_successed">נקודה חמה נוצרה בהצלחה. ממתין להתחברות…</string>
     <string name="ble_starting_ap">יוצר נקודה חמה…</string>
     <string name="ble_wait_verify_code">מייצר קוד במכשיר החדש…</string>
+    <string name="ble_wait_verify_code_pad">מייצר קוד במכשיר החדש…</string>
     <string name="ble_waiting_verify_code">מאמת קוד…</string>
     <string name="ble_waiting_verify_code_error">הקוד שהזנת שגוי</string>
+    <string name="blutooth_permission_desc_new">לגילוי מכשירים בסביבה שמוכנים להתחבר</string>
     <string name="btn_got_it">הבנתי</string>
     <string name="btn_install_complete">מותקן</string>
     <string name="btn_mi_cloud_install_complete">התקנתי את היישום</string>
@@ -70,6 +74,7 @@
     <string name="button_send">שליחה</string>
     <string name="calendar_permission_desc">כדי להעביר אירועים למכשירים אחרים</string>
     <string name="calllog">יומן שיחות</string>
+    <string name="camera_permission_content">לגילוי מכשירים בסביבה הקרובה</string>
     <string name="cancel">ביטול</string>
     <string name="cancel_moving_dialog_message">לעצור את הייבוא כעת?</string>
     <string name="cancel_moving_dialog_title">עצירת הייבוא</string>
@@ -115,8 +120,10 @@
     <string name="connection_tips_owner_title">אם המכשיר הישן שלך הוא טלפון Mi:</string>
     <string name="connection_tips_owner_title_global">התקן את הגרסה האחרונה של Mi Mover:</string>
     <string name="contact_records_permission_desc">כדי להעביר יומן שיחות למכשירים אחרים</string>
+    <string name="contact_records_permission_desc_new">להעברת יומן השיחות למכשיר החדש</string>
     <string name="contacts">אנשי קשר</string>
     <string name="contacts_permission_desc">כדי להעביר אנשי קשר למכשירים אחרים</string>
+    <string name="contacts_permission_desc_new">להעברת אנשי הקשר למכשיר החדש</string>
     <string name="contains_unauthorized_data">מכיל נתונים לא מורשים</string>
     <string name="current_user_not_supported_summary">הגדרות מערכת נוכחיות מגבילות העברת נתונים באמצעות Mi Mover.</string>
     <string name="current_user_not_supported_title">לא ניתן היה להעביר פריטים</string>
@@ -144,6 +151,17 @@
     <string name="dialog_rating_desc_less">תן לנו הצעות לשיפור על מנת שנוכל לשפר את היישום שלנו</string>
     <string name="dialog_rating_desc_perfect">תודה! האם תרצה לדרג את Mi Mover ב GetApps?</string>
     <string name="dialog_rating_title">דרג את Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"כדי להעביר נתונים מהמכשיר הישן למכשיר החדש, היישום הזה צריך להתחבר לאינטרנט ולקבל את ההרשאות הבאות:
+• גישה לתמונות, לשמע, ללוח השנה ולסרטונים
+• גישה להודעות, לאנשי הקשר וליומן השיחות
+• גישה לאחסון
+• גישה לרשימת היישומים המותקנים במכשיר"</string>
+    <string name="dialog_request_all_permission_content_new_china">"כדי להעביר נתונים מהמכשיר הישן למכשיר החדש, היישום הזה צריך להתחבר לאינטרנט ולקבל את ההרשאות הבאות:
+• גישה לתמונות, לשמע, ללוח השנה ולסרטונים
+• גישה להודעות, לאנשי הקשר וליומן השיחות
+• גישה לאחסון
+• גישה לרשימת היישומים המותקנים במכשיר"</string>
+    <string name="dialog_request_all_permission_title_new">נדרשות הרשאות</string>
     <string name="dialog_request_network_btn_negative">יציאה</string>
     <string name="dialog_request_network_btn_positive">מסכים</string>
     <string name="dialog_request_permission_message">ברוך הבא ל-Mi Mover! תוכל להשתמש באפליקציה זו כדי להעביר נתונים מהמכשיר הישן שלך למכשיר חדש. הנתונים יועברו בין שני המכשירים ולא יועלו לשרתים שלנו. אפליקציה זו צריכה להתחבר לאינטרנט ודורשת את ההרשאות הבאות כדי שתוכל לעבוד בצורה רגילה:</string>
@@ -152,6 +170,8 @@
     <string name="dialog_request_permission_message_extra_title">הרשאות חובה</string>
     <string name="dialog_request_permission_message_global">אפליקציה זו זקוקה להרשאות הבאות כדי שתוכל לעבוד בצורה רגילה:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"כדי להבין באופן מלא את הזכויות שלכם כמשתמשים ואת הדרכים שבהן אנו משתמשים בנתונים שלכם, יש לקרוא את &lt;a href='%1s'>הסכם המשתמשים למערכת ההפעלה Xiaomi&lt;/a> ואת &lt;a href='%2s'>מדיניות הפרטיות של Mi Mover&lt;/a> ולהסכים עמם."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"יש לאפשר ליישום הזה להתחבר לאינטרנט ולהעניק את הרשאות החובה הרשומות למעלה. כדי להבין באופן מלא את זכויותיכם כמשתמשים וגם את האופן שבו אנו משתמשים בנתונים שלכם, יש לקרוא את &lt;a href='%1s'>הסכם המשתמשים למערכת ההפעלה של Xiaomi&lt;/a> ואת &lt;a href='%2s'>מדיניות הפרטיות של Mi Mover&lt;/a> ולהסכים להם."</Data></string>
+    <string name="dialog_request_permission_message_new">ברוכים הבאים ל Mi Mover! ניתן להשתמש ביישום הזה כדי להעביר נתונים מהמכשיר הישן למכשיר חדש. הנתונים יועברו בין שני המכשירים, ולא יועלו לשרתים שלנו.</string>
     <string name="dialog_request_permission_message_provision_link">בתוך כך, על מנת להבין באופן מלא את זכויותיך כמשתמש וגם את הדרכים שבהן אנו משתמשים במידע שלך, עליך לקרוא את %1$s ואת %2$s שלנו ולהסכים אתם.</string>
     <string name="dialog_request_permission_title">שים לב</string>
     <string name="dialog_request_permission_title_global">נדרשת הרשאה</string>
@@ -330,9 +350,12 @@
     <string name="icloud_signin_fail_message">מסיבות אבטחה, מזהה apple שלך ננעל. עבור אל iforgot.apple.com ועקוב אחר ההוראות.</string>
     <string name="icloud_start_now">השתמש בנתונים סלולריים</string>
     <string name="icloud_verify_tips">לחץ על \"אפשר\" במכשיר ה iOS שלך והזן כאן את הקוד שמופיע בו.</string>
+    <string name="idm_discovery_summary_pad">נראה שעכשיו אתם מפעילים מכשיר חדש. להעביר תוכן מהמכשיר הזה למכשיר החדש?</string>
+    <string name="idm_discovery_title_pad">העברת תוכן למכשיר חדש שלך</string>
     <string name="im_recipient">אני הנמען</string>
     <string name="im_sender">אני השולח</string>
     <string name="image">תמונות</string>
+    <string name="image_video_permission_desc_new">להעברת תמונות וסרטונים למכשיר החדש</string>
     <string name="import_again">ייבא שוב</string>
     <string name="import_data_from_icloud">ייבוא נתונים מ-iCloud</string>
     <string name="install_app_dialog_title">לא ניתן היה למצוא מכשירים בקרבת מקום</string>
@@ -358,6 +381,8 @@
     <string name="lack_perm_title">נדרשת הרשאה</string>
     <string name="launcher">"פריסת 'מסך הבית'"</string>
     <string name="loading_data">רק רגע…</string>
+    <string name="location_permission_content_no_provisioned">יש לתת את ההרשאה הזו כדי להתחבר לנקודה החמה של מכשיר שנמצא בסביבה. לא יהיה ניתן להעביר קבצים ללא מתן ההרשאה הזו.</string>
+    <string name="location_permission_content_provisioned">כדי להתחבר לנקודה החמה של מכשיר שנמצא בסביבה</string>
     <string name="location_permission_desc">כדי למצוא מכשירים בסביבתך</string>
     <string name="location_permission_request">כדי להתחבר למכשירים אחרים בסביבה הקרובה</string>
     <string name="lockscreen_access">אזור התבנית</string>
@@ -386,6 +411,8 @@
     <string name="manual_connection_title">התחבר למכשיר הישן באופן ידני</string>
     <string name="manual_connection_title_pad">יש לחבר את המכשיר הישן לנקודה חמה</string>
     <string name="manual_connection_title_phone">יש לחבר את המכשיר הישן לנקודה חמה</string>
+    <string name="manual_disconnect_guest">המכשיר החדש מנותק. יש להתחבר מחדש כדי להמשיך בהעברה.</string>
+    <string name="manual_disconnect_host">המכשיר הישן מנותק. יש להתחבר מחדש כדי להמשיך בהעברה.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover צריך לגשת לכל הקבצים במכשיר זה כדי שיוכל להעביר אותם מהמכשיר הישן שלך למכשיר חדש.</string>
     <string name="message_request_package_stats_perm">Mi Mover זקוק להרשאה זו כדי לגלות אילו יישומים מותקנים במכשיר ולהעביר אותם למכשיר אחר.</string>
     <string name="midnight">לילה</string>
@@ -476,6 +503,7 @@
     <string name="more">עוד</string>
     <string name="morning">בוקר</string>
     <string name="msg_permission_desc">כדי להעביר הודעות למכשירים אחרים</string>
+    <string name="msg_permission_desc_new">להעברת הודעות SMS ו-MMS למכשירים אחרים</string>
     <string name="name_password_not_consistent">מספר הזיהוי עבור Apple והסיסמה שהזנת אינם תואמים</string>
     <string name="need_location_permission_confirm">הגדרות</string>
     <string name="need_location_permission_summary">אפשר ל Mi Mover לגשת למיקום שלך על מנת למצוא מכשירים בקרבת מקום.</string>
@@ -485,6 +513,20 @@
     <string name="need_more_memory_title">אין מספיק שטח לאחסון</string>
     <string name="new_app_name">גרסה חדשה</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. נתונים שחלים עליהם זכויות יוצרים</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">ייתכן שיישומי המערכת ונתונים ממכשירי מותגים אחרים אינם תואמים ל-Mi Mover, ולא ניתן להעביר אותם.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">לא ניתן להעביר יישומים ונתונים שאינם תואמים למכשיר החדש.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">הגדרות טלפון ונתונים מסוימים מקושרים לכרטיס ה-SIM. הכנסת כרטיס ה-SIM למכשיר החדש תגרום להעברת הנתונים הללו.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. נתוני יישומים מסוימים</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. נתוני השטח השני</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. נתוני השטח השני</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. נתונים הקשורים לפרטיות ולאבטחה</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">לא ניתן להעביר כרטיסים בנקאיים ומפתחות כלי רכב.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">ערכות נושא וטפטים כפופים להגבלות של רזולוציית המסך, ולא ניתן להעביר אותם בין דגמים מסוימים.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">עקב המגבלות של פרוטוקול Bluetooth, לא ניתן להעביר רשומות של קישור עבור אוזניות Bluetooth, רמקולים ומכשירים אחרים.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">לא ניתן להעביר נתונים סטטיסטיים תפעוליים, כמו צריכת חשמל, זמן מסך ושימוש בגלישה סלולרית.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. נתונים שקשורים לדגם מכשיר ספציפי</string>
+    <string name="new_trans_intro_data_not_support_title">%d. אילו נתונים לא ניתן להעביר עם Mi Mover?</string>
     <string name="new_trans_intro_desc_2">בגרסה החדשה של Mi Mover אין צורך להזין סיסמה. פשוט פתח את Mi Mover במכשיר הישן שלך, הקש על \"אני שולח\" והקש על שם הנקודה החמה כדי להתחבר.</string>
     <string name="new_trans_intro_desc_2_pad">בגרסה החדשה של Mi Mover אין צורך להזין את סיסמת הנקודה החמה. צריך רק לפתוח את Mi Mover במכשיר הישן, לשלוח על \"אני השולח/ת\" ולהקיש על שם הנקודה החמה כדי להתחבר.</string>
     <string name="new_trans_intro_desc_2_phone">בגרסה החדשה של Mi Mover אין צורך להזין את סיסמת הנקודה החמה. צריך רק לפתוח את Mi Mover במכשיר הישן, לשלוח על \"אני השולח/ת\" ולהקיש על שם הנקודה החמה כדי להתחבר.</string>
@@ -495,18 +537,18 @@
     <string name="new_trans_intro_desc_6_pad">לא ניתן להעביר נתוני יישומים כי במכשירים שאינם מכשירי Xiaomi אין ל-Mi Mover ההרשאות הנדרשות.</string>
     <string name="new_trans_intro_desc_6_phone">לא ניתן להעביר נתוני יישומים כי במכשירים שאינם מכשירי Xiaomi אין ל-Mi Mover ההרשאות הנדרשות.</string>
     <string name="new_trans_intro_desc_7">Mi Mover יוכל להמשיך מאיפה שהפסקת. עם זאת, ייתכן שתצטרך להתחיל את ההעברה מחדש אם היא לא תחודש בגלל בעיות תאימות של המכשיר.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover יוכל להמשיך מהמקום שבו הפסקתם. עם זאת, ייתכן שתצטרכו להתחיל את ההעברה שנקטעה מחדש אם היא לא תחודש בגלל בעיות תאימות במכשיר.</string>
     <string name="new_trans_intro_desc_8">במהלך ההעברה, היסטוריית WeChat של המכשיר הישן מוחקת את היסטוריית WeChat של המכשיר החדש.</string>
+    <string name="new_trans_intro_desc_8_pad">במהלך ההעברה, היסטוריית WeChat מהמכשיר הישן תדרוס את היסטוריית WeChat של המכשיר החדש.</string>
     <string name="new_trans_intro_desc_new">"%1$d. עליך לוודא כי גרסת ה-Mi Mover במכשיר החדש שלך מעודכנת. ניתן להוריד את הגרסה האחרונה של Mi Mover בחנות Play או להקיש כאן: %2$s.
 %3$d. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות Wi-Fi ולבדוק האם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
     <string name="new_trans_intro_desc_new_click">הורד</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-Google Play, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא תופיע ב-Mi Mover, יש לפתוח את הגדרות ה-Wi-Fi ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות ה-WLAN ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-Google Play, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא תופיע ב-Mi Mover, יש לפתוח את הגדרות ה-Wi-Fi ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות ה-WLAN ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. יש לוודא שה-Mi Mover במכשיר החדש מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-Google Play, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
+%3$d. אם הנקודה החמה עדיין לא תופיע ב-Mi Mover, יש לפתוח את הגדרות ה-Wi-Fi ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-Google Play, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
+%3$d. אם הנקודה החמה עדיין לא תופיע ב-Mi Mover, יש לפתוח את הגדרות ה-Wi-Fi ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. יש לוודא כי ה-Mi Mover במכשיר החדש שלך מעודכן. ניתן להוריד את הגרסה האחרונה של Mi Mover ב-GetApps, או <Data>&lt;a href=%2$s>להקיש כאן&lt;/a></Data>".
+%3$d. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, יש לפתוח את הגדרות ה-WLAN ולבדוק אם ניתן לראות אותה שם. אם כן, יש לחזור אל Mi Mover ולהקיש על שם הנקודה החמה."</string>
     <string name="new_trans_intro_desc_old">%d.2. אם הנקודה החמה עדיין לא מופיעה ב-Mi Mover, פתח את הגדרות ה-Wi-Fi ובדוק אם היא מופיעה שם. אם כן, חזור אל Mi Mover והקש על שם הנקודה החמה.</string>
     <string name="new_trans_intro_question_1">%d. למה אני לא יכול לראות את הנקודה החמה של המכשיר החדש במכשיר הישן?</string>
     <string name="new_trans_intro_question_1_pad">%d. למה אני רואה את הנקודה החמה של המכשיר החדש במכשיר הישן?</string>
@@ -535,15 +577,22 @@
     <string name="not_selectable">לא ניתן לבחור</string>
     <string name="not_support_data_content1">%d. פריטים הספציפיים לדגם המכשיר</string>
     <string name="not_support_data_content2">%d. נתוני יישומים</string>
+    <string name="not_support_data_content2_new">%d. נתונים שחלים עליהם זכויות יוצרים</string>
     <string name="not_support_data_content3">%d. נתוני שטח שני</string>
+    <string name="not_support_data_content3_new">%d. נתונים הקשורים לפרטיות ולאבטחה</string>
     <string name="not_support_data_content4">%d. יישומים כפולים</string>
+    <string name="not_support_data_content4_new">%d. נתוני יישומים מסוימים</string>
     <string name="not_support_data_content_2">%d. יישומים ונתוני יישומים שנבחרו</string>
     <string name="not_support_data_link">פריטים שלא ניתן להעביר</string>
     <string name="not_support_data_summary1">לא ניתן להעביר נושאים, טפטים, כרטיסי תחבורה וכרטיסי מפתח באמצעות Mi Mover.</string>
+    <string name="not_support_data_summary1_new">לא ניתן להעביר כרטיסים בנקאיים ומפתחות כלי רכב. ערכות נושא וטפטים כפופים להגבלות של רזולוציית המסך, ולא ניתן להעביר אותם בין דגמים מסוימים.</string>
     <string name="not_support_data_summary2">לא ניתן להעביר נתוני יישומים (כמו היסטוריית שיחות).</string>
+    <string name="not_support_data_summary2_new">"לא ניתן להעביר ערכות נושא, גופנים, סמלים גדולים, ערכות נושא של תצוגה תמידית וווידג'טים שנרכשו דרך חשבון Xiaomi שלך ומוגנים על-ידי זכויות יוצרים. במקום זאת, יש להתחבר עם חשבון Xiaomi שלך במכשיר החדש ולהוריד אותם מחדש."</string>
     <string name="not_support_data_summary3">בגלל מגבלות המערכת, לא ניתן להשתמש ב-Mi Mover להעברת פריטים מהשטח השני.</string>
+    <string name="not_support_data_summary3_new">לא ניתן להעביר מהמכשיר הישן טביעות אצבע, נתוני פנים ונתונים אחרים שקשורים לבעלי המכשיר, לאבטחה פיננסית ולפרטיות משתמשים, בכל צורה שהיא. זה כולל גם נתונים מיישומים פינסיים (למשל, יישומים בנקאיים לניידים).</string>
     <string name="not_support_data_summary4">לא ניתן להעביר גם יישומים כפולים עם הנתונים שלהם. אבל ניתן להעביר את הגרסאות העיקריות של אותם היישומים.</string>
     <string name="not_support_data_summary_2">לא ניתן להעביר יישומים מסוימים בגלל מגבלות פרטיות של חנות Play.</string>
+    <string name="not_support_data_summary_new">ייתכן שיישומי המערכת ונתונים ממכשירי מותגים אחרים אינם תואמים ל-Mi Mover, ולא ניתן להעביר אותם.</string>
     <string name="not_support_data_title">פריטים שלא ניתן להעביר</string>
     <string name="note">הערות</string>
     <string name="nothing_chosen">בחר פריטים תחילה</string>
@@ -603,27 +652,39 @@
     <string name="permission_alert_message_usage_access">Mi Mover צריך גישה לנתוני שימוש סטיסטיים. תן ל Mi Mover את ההרשאות הנדרשות בהגדרות.</string>
     <string name="permission_alert_title">נדרשות הרשאות</string>
     <string name="permission_bluetooth_summary">כדי למצוא מכשירים זמינים בקרבת מקום</string>
+    <string name="permission_bluetooth_summary_new">לאיתור מכשירים זמינים בסביבה</string>
     <string name="permission_bluetooth_title">להפעיל ולכבות את ה-Bluetooth</string>
     <string name="permission_calendar_summary">להעברה של אירועי לוח השנה</string>
     <string name="permission_calendar_title">גישה ללוח השנה</string>
     <string name="permission_calender_summary">להעברת אירועים מהמכשיר הישן למכשיר החדש</string>
     <string name="permission_calender_summary_global">כדי להעביר אירועים בלוח השנה למכשיר החדש שלך</string>
+    <string name="permission_calender_summary_new">להעברת אירועים מהמכשיר הישן למכשיר החדש</string>
     <string name="permission_calender_title">גישה לאירועים בלוח השנה</string>
+    <string name="permission_calender_title_new">גישה לאירועי לוח השנה</string>
     <string name="permission_call_log_summary">להעברת היסטוריית שיחות למכשיר החדש שלך</string>
+    <string name="permission_call_log_summary_new">להעברת יומן השיחות למכשיר החדש שלך</string>
     <string name="permission_call_log_title">ניש להיסטוריית השיחות</string>
     <string name="permission_contacts_summary">להעברת אנשי קשר למכשיר החדש שלך</string>
+    <string name="permission_contacts_summary_new">להעברת אנשי הקשר למכשיר החדש שלך</string>
     <string name="permission_contacts_title">ניגש לפרטי הקשר</string>
     <string name="permission_grant_request">כדי להעביר את הפריט, ל-Mi Mover נדרשת הרשאת \"%1$s\".</string>
     <string name="permission_locale_summary">להתחברות למכשירים קרובים</string>
     <string name="permission_locale_title">לגשת למיקום</string>
+    <string name="permission_locale_title_new">גישה למיקום</string>
     <string name="permission_message_summary">להעברת הודעות למכשיר החדש שלך</string>
+    <string name="permission_message_summary_new">להעברת הודעות למכשיר החדש שלך</string>
     <string name="permission_message_title">לגשת לתוכן SMS</string>
     <string name="permission_request_title">נדרשת הרשאת \"%1$s\"</string>
     <string name="permission_setting_button">הגדרות</string>
     <string name="permission_storage_summary">להעברת קבצים ותמונות למכשיר החדש שלך</string>
+    <string name="permission_storage_summary_new">להעברת קבצים ותמונות למכשיר החדש שלך</string>
     <string name="permission_storage_title">לגשת ולשמור קבצים ותמונות המאוחסנים במכשיר שלך</string>
+    <string name="permission_storage_title_new">גישה לאחסון</string>
     <string name="permission_wifi_summary">להעברת פריטים למכשיר החדש שלך</string>
+    <string name="permission_wifi_summary_new">להעברת תוכן למכשיר החדש שלך</string>
     <string name="permission_wifi_title">להפעיל ולכבות את ה-Wi-Fi</string>
+    <string name="permission_wifi_title_new">הפעלה וכיבוי של Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">הפעלה וכיבוי של WLAN</string>
     <string name="pm">PM</string>
     <string name="privacy_agree">מסכים</string>
     <string name="privacy_cancel">לא מסכים</string>
@@ -710,6 +771,7 @@
     <string name="scanner_quit_alert_message_phone">אם תצאו מ-Mi Mover עכשיו, תצטרכו לחבר בין שני המכשירים מחדש. לצאת בכל זאת?</string>
     <string name="scanner_quit_alert_title">האם לצאת כעת?</string>
     <string name="scanner_send_dialog_btn">הבנתי</string>
+    <string name="scanner_send_dialog_btn_i_know">הבנתי</string>
     <string name="scanner_send_dialog_message">אל תכבה את הרשת האלחוטית או תחליף בין שני רשתות תקשורת בזמן ההעברה.</string>
     <string name="scanner_size_selected">נבחרו: %s</string>
     <string name="scanner_subtitle_prd">קרא בעיון את המידע הבא לפני בדיקת כל פריט והתחלת תהליך ההעברה.</string>
@@ -717,6 +779,7 @@
     <string name="scanner_title_prd">מידע חשוב</string>
     <string name="scanner_title_tip">בחר פריטים להעברה</string>
     <string name="scanner_wechat_overwrite_hit">"בסיום ההעברה, עקב מגבלות יישום של צד שלישי, היסטוריות הצ'אט ונתונים נוספים של היישום שבמכשיר שלך יוחלפו באלו של היישום הישן."</string>
+    <string name="scanner_wechat_overwrite_hit_pad">בגלל מגבלות של יישומי צד שלישי, היסטוריית השיחות ונתוני היישומים האחרים במכשיר החדש יוחלפו בנתונים מהמכשיר הישן לאחר השלמת ההעברה.</string>
     <string name="searching_for_new_device">מחפש את המכשיר החדש…</string>
     <string name="searching_for_new_device_pad">מחפש את המכשיר החדש…</string>
     <string name="searching_for_new_device_phone">מחפש את המכשיר החדש…</string>
@@ -772,7 +835,7 @@
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
     <string name="size_suffix">%1$s %2$s</string>
-    <string name="size_tera_byte">TB</string>
+    <string name="size_tera_byte">ט\"ב</string>
     <string name="skip_compatibility_mode">לא עכשיו</string>
     <string name="skip_underline">דלג על צעד זה</string>
     <string name="sms">מסרונים</string>
@@ -847,27 +910,42 @@
     <string name="time_spent">זמן: %1$s</string>
     <string name="tips_button_hint">קודם יש לסמן כל פריט לאישור</string>
     <string name="tips_cover_content">"המשך יביא לדריסת הנתונים האלה (כולל היסטוריות הצ'אטים)."</string>
+    <string name="tips_cover_content_pad">המשך יביא לדריסת הנתונים האלה (כולל היסטוריות השיחות).</string>
     <string name="tips_cover_content_tablet">"המשך יביא לדריסת הנתונים האלה (כולל היסטוריות הצ'אטים)."</string>
     <string name="tips_cover_title">%1$d. כבר קיימים במכשיר החדש נתונים עבור היישומים הבאים.</string>
+    <string name="tips_cover_title_pad">%1$d. כבר קיימים במכשיר החדש נתונים עבור היישומים הבאים.</string>
     <string name="tips_cover_title_tablet">%1$d. כבר קיימים במכשיר החדש נתונים עבור היישומים הבאים.</string>
     <string name="tips_dual_app_content">לא ניתן להעביר יישומים משוכפלים. ניתן להעביר רק את היישום הראשי והנתונים שלו.</string>
     <string name="tips_dual_app_title">%d. היישומים הבאים הם יישומים משוכפלים.</string>
+    <string name="tips_dual_app_title_new">%d. לא ניתן להעביר נתונים של יישומים משוכפלים.</string>
     <string name="tips_hot_content">זה תקין. המכשיר יתקרר אחרי השלמת ההעברה.</string>
+    <string name="tips_hot_content_new">זה תקין. המכשיר יתקרר אחרי השלמת ההעברה.</string>
     <string name="tips_hot_title">%d. המכשיר עשוי להתחמם בתהליך ההעברה.</string>
+    <string name="tips_hot_title_content">%d. המכשיר עלול להתחמם.</string>
     <string name="tips_private_space_content">לא ניתן להעביר את נתוני השטח השני בגלל הגבלות המערכת.</string>
+    <string name="tips_private_space_content_pad">זה נובע ממגבלות המערכת.</string>
+    <string name="tips_private_space_content_phone">זה נובע ממגבלות המערכת.</string>
     <string name="tips_private_space_content_tablet">לא ניתן להעביר את נתוני השטח השני בגלל הגבלות המערכת.</string>
     <string name="tips_private_space_title">%d. שטח שני מופעל.</string>
+    <string name="tips_private_space_title_pad">%d. לא ניתן להעביר נתונים מהשטח השני.</string>
+    <string name="tips_private_space_title_phone">%d. לא ניתן להעביר נתונים מהשטח השני.</string>
     <string name="tips_private_space_title_tablet">%d. שטח שני מופעל.</string>
     <string name="tips_prudent_operation_content">שיבוש בחיבור יפסיק את ההעברה.</string>
     <string name="tips_prudent_operation_title">%d. אין לכבות או להחליף את הנקודה החמה של Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new">%d. אין להשבית או להחליף את הנקודה החמה של Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. אין להשבית או להחליף את הנקודה החמה של WLAN.</string>
     <string name="tips_prudent_operation_title_overseas">%d. אין לכבות או להחליף את הנקודה החמה של WLAN.</string>
     <string name="tips_secret_content_one">ישנם פריטים פרטיים מסוימים מהמכשיר הישן (%1$s) שלא ניתן להעביר. יש להוציא אותם מהתיקייה הפרטית כדי שניתן יהיה להעביר אותם.</string>
+    <string name="tips_secret_content_one_new">יש במכשיר הישן תוכן פרטי (%1$s) שלא ניתן להעביר. יש להסיר אותו מהתיקייה הפרטית כדי שיהיה ניתן להעביר אותו.</string>
     <string name="tips_secret_content_three">ישנם פריטים פרטיים מסוימים מהמכשיר הישן (%1$s, %2$s, %3$s) שלא ניתן להעביר. יש להוציא אותם מהתיקייה הפרטית כדי שניתן יהיה להעביר אותם.</string>
+    <string name="tips_secret_content_three_new">יש במכשיר הישן תוכן פרטי (%1$s, %2$s, %3$s) שלא ניתן להעביר. יש להסיר אותו מהתיקייה הפרטית כדי שיהיה ניתן להעביר אותו.</string>
     <string name="tips_secret_content_two">ישנם פריטים פרטיים מסוימים מהמכשיר הישן (%1$s, %2$s) שלא ניתן להעביר. יש להוציא אותם מהתיקייה הפרטית כדי שניתן יהיה להעביר אותם.</string>
+    <string name="tips_secret_content_two_new">יש במכשיר הישן תוכן פרטי (%1$s, %2$s) שלא ניתן להעביר. יש להסיר אותו מהתיקייה הפרטית כדי שיהיה ניתן להעביר אותו.</string>
     <string name="tips_secret_file">קבצים</string>
     <string name="tips_secret_gallery">אלבומים</string>
     <string name="tips_secret_note">פתקים</string>
     <string name="tips_secret_title">%d. ישנם פריטים פרטיים מסוימים שלא ניתן להעביר.</string>
+    <string name="tips_secret_title_content">%d. לא ניתן להעביר תוכן פרטי.</string>
     <string name="tips_subtitle">יש לקרוא ולאשר את התזכורות הבאות כדי להמשיך.</string>
     <string name="title_compatibility_mode">להפעיל את מצב תאימות היישומים</string>
     <string name="title_open_wlan">הפעל Wi-Fi</string>
@@ -909,10 +987,12 @@
     <string name="trans_send_time_remained_default">נשלחו: %1$s</string>
     <string name="trans_show_qr_code_label">פתיחת Mi Mover במכשיר הישן</string>
     <string name="trans_show_qr_code_label_for_pad">פתיחת Mi Mover במכשיר הישן</string>
+    <string name="trans_show_qr_code_label_pad">יש לפתוח את Mi Mover במכשיר הישן</string>
     <string name="trans_sync_transfer_data_list">בחר פריטים אשר ברצונך להעביר למכשיר הישן</string>
     <string name="trans_sync_transfer_data_list_apple">העברת פריטים ממכשיר ה-Apple שלכם</string>
     <string name="trans_sync_transfer_data_list_hint">רק רגע…</string>
     <string name="trans_sync_transfer_data_list_pad">בחרו פריטים להעברה במכשיר הישן</string>
+    <string name="trans_sync_transfer_data_list_phone">יש לבחור תוכן להעברה במכשיר הישן</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">נא לבחור תוכן במכשיר הישן שלך ולהקיש על \"שליחה\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">נא לבחור תוכן במכשיר הישן שלך ולהקיש על \"שליחה\".</string>
     <string name="trans_time_format_second">פחות מדקה %d</string>
@@ -935,6 +1015,7 @@
 
 "</string>
     <string name="transfer_quit_alert_message_extra">תהליך ההעברה ישמר. לא תוכל לחזור לתהליך ההעברה מהמקום בו הפסקת בפעם הבאה בו תחבר את שני המכשירים.</string>
+    <string name="transfer_quit_alert_message_extra_pad">התקדמת ההעברה תישמר. ניתן לחדש את ההעברה מהמקום שבו הפסקת בהתחברות הבאה בין שני המכשירים.</string>
     <string name="transfer_quit_alert_title">שים לב</string>
     <string name="transfer_snap_error">לא ניתן היה להעביר</string>
     <string name="transfer_snap_new_receiving">מקבל…</string>

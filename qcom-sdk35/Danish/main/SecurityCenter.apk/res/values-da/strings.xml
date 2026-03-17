@@ -196,6 +196,7 @@
     <string name="allow_onetime">Tillad én gang</string>
     <string name="already_close_gamebooster">Spilturbo er slået fra</string>
     <string name="am">AM</string>
+    <string name="anitispam_intercept_record">Blokeringshistorik</string>
     <string name="anti_disturb_msg_detail">Slå alle notifikationer fra med undtagelse af indgående opkald</string>
     <string name="anti_disturb_msg_title">DND</string>
     <string name="antispam_add_black_number_message">Det indtastede nummer er for kort. Blokér alle numre, der begynder med disse cifre?</string>
@@ -1023,6 +1024,9 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="call_delete_all_hint">Slet alle blokerede opkald?</string>
     <string name="call_delete_hint">Slet alle blokerede opkald fra dette nummer?</string>
     <string name="call_delete_title">Slet opkaldshistorik</string>
+    <string name="call_empty_number">Skjulte numre</string>
+    <string name="call_forwarding_block">Viderestillede opkald</string>
+    <string name="call_intercept_settings">Indstillinger for opkaldsblokering</string>
     <string name="call_notification_answer_action">Besvar</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Afvis</string>
@@ -1031,6 +1035,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="call_notification_ongoing_text">Igangværende opkald</string>
     <string name="call_notification_screening_text">Et indgående opkald screenes</string>
     <string name="call_oversea_block">Bloker opkald fra udlandet</string>
+    <string name="call_overseas_block">Internationale opkald</string>
     <string name="call_prefix">Præfiksblokeringsliste</string>
     <string name="call_private">Blokér opkald fra skjulte numre</string>
     <string name="call_stranger_block">Blokér opkald fra fremmede</string>
@@ -1040,12 +1045,20 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="cancel">Annuller</string>
     <string name="cancel_button">Annuller</string>
     <string name="car_sickness_relief_comment_text">Når der registreres køretøjsbevægelse, vises prikker på begge sider af skærmen for at indikere, om køretøjet bevæger sig. Det kan hjælpe med at forsinke starten af køresyge.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Prikker vises i begge sider af skærmen for at indikere køretøjets bevægelse, hvilket kan hjælpe med at udsætte begyndelsen på køresyge.
+
+Du kan slå funktionen til og fra i Kontrolcenter."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Prikker vises konstant i begge sider af skærmen for at indikere køretøjets bevægelse, hvilket kan hjælpe med at udsætte begyndelsen på køresyge.
+
+Du kan slå funktionen til og fra i Kontrolcenter."</string>
     <string name="car_sickness_relief_comment_text_opened">"Prikker vises i begge sider af skærmen for at indikere køretøjets bevægelse, hvilket kan hjælpe med at udsætte begyndelsen på køresyge.
 
 Du kan slå funktionen til og fra i Kontrolcenter."</string>
     <string name="car_sickness_relief_example_text_1">Når køretøjet accelererer eller bremser</string>
     <string name="car_sickness_relief_example_text_2">Når køretøjet drejer eller skifter vognbane</string>
     <string name="car_sickness_relief_exit_text">Lindring af køresyge er stoppet med at fungere</string>
+    <string name="car_sickness_relief_notification_text_close">Slå fra</string>
+    <string name="car_sickness_relief_notification_text_opened">Til</string>
     <string name="car_sickness_relief_start_text">Lindring af køresyge fungerer</string>
     <string name="car_sickness_remind_time_title">Bevægelsesindikatorer</string>
     <string name="car_sickness_title">Lindring af køresyge</string>
@@ -1877,7 +1890,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
 %3$d. Denne funktion understøttes kun på det kinesiske fastland.
 %4$d. Denne funktion virker kun på 5G-SA-netværk."</string>
     <string name="function_shield_auto_bright">Slå automatisk lysstyrke fra</string>
-    <string name="function_shield_eye_shield">Slå læsetilstand fra</string>
+    <string name="function_shield_eye_shield">Slå Øjenkomforttilstand fra</string>
     <string name="function_shield_pull_notification_bar">Undlad at åbne notifikationsskygge</string>
     <string name="function_shield_settings_title">Begræns følgende funktioner, når du spiller spil</string>
     <string name="function_shield_summary">Begræns valgte systemfunktioner, når du spiller spil</string>
@@ -2751,6 +2764,12 @@ for at være med i æggejagten!"</string>
     <string name="install_title">Installer via USB</string>
     <string name="install_type_instant">Instant-app</string>
     <string name="installing">Installerer</string>
+    <string name="intercept_all_mark_calls">Bloker alle opkald med etiketten \"%s\"?</string>
+    <string name="intercept_calls_nofify_hide_text">Hvis du vil oprette blokeringsregler for andre etiketter, skal du trykke her</string>
+    <string name="intercept_calls_notify_title">Opkald med denne etiket bliver automatisk afbrudt. Bloker nu?</string>
+    <string name="intercept_garbage_msg">Spam-beskeder</string>
+    <string name="intercept_record">Historik</string>
+    <string name="intercept_strange_msg">Beskeder fra fremmede</string>
     <string name="international_Ad">Annonce</string>
     <string name="international_roaming_setting">Data-roaming</string>
     <string name="intl_app_manager_card_permission_title">Privatliv og tilladelser</string>
@@ -2945,6 +2964,7 @@ svarer"</string>
     <string name="mark_harass_block">Anmeldt som pestilens</string>
     <string name="mark_harass_block_large">Pestilenser</string>
     <string name="mark_harass_time_setting">Blokér numre, der er blevet anmeldt som pestilenser et specifikt antal gange.</string>
+    <string name="mark_num_open_intercept">Bloker</string>
     <string name="mark_number_agent">Sælger</string>
     <string name="mark_number_fraud">Bedrag</string>
     <string name="mark_number_harass">Chikane</string>
@@ -4802,11 +4822,11 @@ Tilbagetræk samtykke nu?"</string>
     <string name="prompt_all">Spørg for alle</string>
     <string name="prompt_input_time_illegal">Kan ikke indstille denne tid. Ret den og prøv igen</string>
     <string name="protect_eye_dont_open">Ikke nu</string>
-    <string name="protect_eye_hint_summry">Slå læsetilstand til for en bedre læseoplevelse</string>
-    <string name="protect_eye_hint_title">Øjenkomfort</string>
+    <string name="protect_eye_hint_summry">Slå Øjenkomforttilstand til for en bedre læseoplevelse</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Slå til</string>
-    <string name="protect_eye_opened_summry">Rediger indstillinger under Indstillinger > Skærm og lysstyrke > Øjenkomfort</string>
-    <string name="protect_eye_opened_title">Læsetilstand er slået til</string>
+    <string name="protect_eye_opened_summry">Rediger indstillinger under Indstillinger > Skærm og lysstyrke > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">Øjenkomforttilstand er slået til</string>
     <string name="protocol_exception_title">Diagnose netværksprotokol</string>
     <string name="protocol_loop_back_exception_summary">Lokal loop-back-test mislykkedes. For at rapportere problemet skal du gå til appen Feedback og sende en logfil fra din enhed.</string>
     <string name="province_selected_talkback" />
@@ -4870,6 +4890,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="repeat_type">Gentag</string>
     <string name="repeated_marked_number_summary">Bloker ikke et andet opkald fra det samme rapporterede nummer inden for %d minutter</string>
     <string name="repeated_marked_number_title">Blokér ikke gentagne opkald fra anmeldte numre</string>
+    <string name="repeated_unknown_number_summary">Bloker ikke et nyt opkald fra det samme ukendte nummer inden for %d min.</string>
     <string name="replace_dns">Udskift automatisk DNS</string>
     <string name="report">Anmeld</string>
     <string name="report_error">Kunne ikke anmelde besked</string>
@@ -5110,6 +5131,7 @@ Tilbagetræk samtykke nu?"</string>
     <string name="sms_detail_fragment_title_traffic">Tilbageværende data</string>
     <string name="sms_filter">Smart filter</string>
     <string name="sms_guard_alert">Den primære beskedapp er ændret. Xiaomi Messaging kan ikke længere blokere SMS-spam.</string>
+    <string name="sms_intercept_settings">Indstillinger for beskedblokering</string>
     <string name="sms_keywords">Tastaturblokeringsliste</string>
     <string name="sms_malicious_url">"Blokér SMS med skadelige URL'er"</string>
     <string name="sms_prefix">Præfiksblokeringsliste</string>
@@ -5311,9 +5333,26 @@ Tilbagetræk samtykke nu?"</string>
     <string name="st_call_intercept_reported">Blokér opkald fra anmeldte numre</string>
     <string name="st_call_intercept_stranger">Blokér opkald fra fremmede</string>
     <string name="st_call_intercept_unknown">Blokér opkald fra skjulte numre</string>
+    <string name="st_call_mark_agent">Ejendom</string>
+    <string name="st_call_mark_agent_intercept">Ejendom</string>
+    <string name="st_call_mark_decoration">Boligrenovering</string>
+    <string name="st_call_mark_decoration_intercept">Boligrenovering</string>
+    <string name="st_call_mark_edu">Uddannelse</string>
+    <string name="st_call_mark_edu_intercept">Uddannelse</string>
+    <string name="st_call_mark_high_risk">Høj risiko</string>
+    <string name="st_call_mark_high_risk_intercept">Høj risiko</string>
+    <string name="st_call_mark_insurance">Investering</string>
+    <string name="st_call_mark_insurance_intercept">Investering</string>
+    <string name="st_call_mark_loan">Lån</string>
+    <string name="st_call_mark_loan_intercept">Lån</string>
+    <string name="st_call_mark_sell">Reklamer</string>
+    <string name="st_call_mark_sell_intercept">Reklamer</string>
     <string name="st_call_other_group">Andet</string>
     <string name="st_call_settings">Blokeringsliste for opkald</string>
     <string name="st_call_stranger_group">Blokér opkald fra fremmede</string>
+    <string name="st_call_stranger_inercept_local">Bloker ukendte numre</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Opkald fra alle numre, som ikke er på din undtagelsesliste, bliver blokeret. Bloker nu?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Opkald fra alle numre, som ikke er på din undtagelsesliste eller i kontakt, bliver blokeret. Bloker nu?</string>
     <string name="st_confirm_call_all_dialog_summary">Opkald fra numre, der ikke er på din undtagelsesliste, blokerees. Slå til nu?</string>
     <string name="st_confirm_dialog_btn_open">Blokér</string>
     <string name="st_confirm_dialog_summary_oversea_call">Alle opkald fra ukendte telefonnumre vil blive blokeret.</string>
@@ -5325,9 +5364,11 @@ Tilbagetræk samtykke nu?"</string>
     <string name="st_hint_add_head_number">Indtast præfiks</string>
     <string name="st_hint_add_phonenumber">Indtast telefonnummer</string>
     <string name="st_hint_operatelist">Det ser ud som om denne regel allerede findes</string>
+    <string name="st_intercept_dialog_title">Bemærk</string>
     <string name="st_mark_call_intercept_threshold_summary">Bloker automatisk numre, der er blevet rapporteret et bestemt antal gange</string>
     <string name="st_mark_call_intercept_threshold_title">Blokeringstærskel</string>
     <string name="st_mark_number_group">Blokér opkald fra anmeldte numre</string>
+    <string name="st_mark_number_net_group">Bloker rapporterede numre</string>
     <string name="st_message_SMS_AntiSpam">Blokér SMS</string>
     <string name="st_message_SMSpass">Tillad SMS</string>
     <string name="st_message_phone_AntiSpam">Blokér opkald</string>
@@ -5340,13 +5381,26 @@ Tilbagetræk samtykke nu?"</string>
     <string name="st_msg_stranger_group">Blokér beskeder fra fremmede</string>
     <string name="st_settings_name">Indstillinger for blokeringsliste</string>
     <string name="st_share_settings">Brug SIM %d indstillingerne</string>
+    <string name="st_smg_intercept_all">Bloker alle beskeder</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">SMS og MMS fra alle numre eller regioner, som ikke er på din undtagelsesliste, bliver blokeret. Bloker nu?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">SMS og MMS fra alle numre eller regioner, som ikke er på din undtagelsesliste eller i dine kontakter, bliver blokeret. Bloker nu?</string>
+    <string name="st_smg_intercept_network_check">Bloker ved hjælp af onlinedefinitioner</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Spam-beskeder</string>
+    <string name="st_smg_intercept_other">Yderligere indstillinger</string>
+    <string name="st_smg_intercept_strange">Bloker beskeder fra ukendte afsendere</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Bloker beskeder fra ukendte afsendere, der indeholder bestemte nøgleord</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Bloker beskeder fra bestemte numre og regioner</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Bloker ikke beskeder fra ukendte afsendere, der indeholder bestemte nøgleord</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Bloker ikke beskeder fra numre og regioner på din undtagelsesliste</string>
     <string name="st_sms_intercept_oversea">International SMS</string>
     <string name="st_sub_title_customize_mode_name">Navn</string>
     <string name="st_sub_title_whiteblack_list_group">Blokeringsliste</string>
     <string name="st_sum_call_wait">Din Ikke til stede-besked vil også blive afspillet som et optaget-signal for indkommende opkald.</string>
     <string name="st_summary_blacklist_numbers">Blokér opkald og beskeder fra specifikke numre og områder</string>
     <string name="st_summary_blacklist_numbers_international">Bloker opkald baseret på nummer eller præfiks</string>
+    <string name="st_summary_intercept_blacklist_numbers">Bloker opkald og beskeder fra bestemte numre og regioner</string>
     <string name="st_summary_keywords_blacklist">Tilføj nøgleord for at blokere beskeder</string>
+    <string name="st_summary_release_whitelist_numbers">Bloker ikke opkald og beskeder fra numre og regioner på din undtagelsesliste</string>
     <string name="st_summary_special_numbers">Blokér markerede telefonnumre</string>
     <string name="st_summary_whitelist_numbers">Tillad opkald og beskeder fra specifikke numre og områder</string>
     <string name="st_summary_whitelist_numbers_international">Tillad opkald baseret på nummer eller præfiks</string>
@@ -5381,6 +5435,8 @@ Tilbagetræk samtykke nu?"</string>
     <string name="st_title_markednumber_group">Blokér anmeldte numre</string>
     <string name="st_title_mode_choose_group">Regler for blokeringsliste</string>
     <string name="st_title_not_sim">Tom</string>
+    <string name="st_title_number_and_region_blacklist">Blokerede numre og regioner</string>
+    <string name="st_title_number_and_region_whitelist">Undtagelser for numre og regioner</string>
     <string name="st_title_open_antispam">Blokeringsliste</string>
     <string name="st_title_other_group">Andre</string>
     <string name="st_title_settings_other_group">Yderligere indstillinger</string>
@@ -5542,7 +5598,7 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="summary_default_app">%s er ikke indstillet som standard system-app</string>
     <string name="summary_dev">Undgå malware og beskyt personlige data</string>
     <string name="summary_do_not_disturb">Du bruger DND-tilstand.</string>
-    <string name="summary_eye_shield">Slå læsetilstand fra for at gå tilbage til standardindstillinger.</string>
+    <string name="summary_eye_shield">Slå Øjenkomforttilstand fra for at vende tilbage til standardindstillingerne.</string>
     <string name="summary_find_device">Find og lås din enhed, uanset hvor du befinder dig</string>
     <string name="summary_first_aid_kit">Løs problemerne på din enhed nu</string>
     <string name="summary_flow_notification">Vis din månedlige dataforbrugsstatistik i notifikationsskyggen</string>

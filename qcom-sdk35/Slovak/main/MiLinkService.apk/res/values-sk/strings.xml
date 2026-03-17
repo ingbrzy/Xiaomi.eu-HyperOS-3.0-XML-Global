@@ -48,7 +48,12 @@
     <string name="answering_tel2">Presmerované z telefónu…</string>
     <string name="app_casting">Prenášanie aplikácie</string>
     <string name="app_name">Prenos obrazu</string>
+    <string name="app_name_call">Telefón</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">Správy</string>
     <string name="app_name_vtcamera">Fotoaparát pre viacero zariadení</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -187,8 +192,6 @@ vaše zariadenia?"</string>
     <string name="cast_closed_captions">Skryté titulky</string>
     <string name="cast_closed_captions_unavailable">Skryté titulky nie sú k dispozícii</string>
     <string name="cast_connecting_to_device">Pripája sa k zariadeniu %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Hľadajú sa zariadenia</string>
-    <string name="cast_device_chooser_title">Prenášať do zariadenia</string>
     <string name="cast_disconnect">Odpojiť</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Obrázok, ktorý sa zobrazí, keď prijímač prenášaného obsahu bude prehrávať reklamu</string>
@@ -229,9 +232,6 @@ vaše zariadenia?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Titulky</string>
     <string name="cast_unmute">Zapnúť zvuk</string>
-    <string name="cast_zero_devices_found">"Neboli nájdené žiadne zariadenia.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Ako prenášať obsah do iných zariadení</a></string>
     <string name="casting_tips">Prenášanie…</string>
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
@@ -253,6 +253,10 @@ vaše zariadenia?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">Obsah okuliarov nemožno preniesť do tohto zariadenia</string>
     <string name="circulate_car_card_use_camera">Použite prednú kameru EV</string>
     <string name="circulate_car_card_using_camera">Používa sa predná kamera EV</string>
+    <string name="circulate_card_audio_change_pad_title">Prejsť na zvuk tabletu</string>
+    <string name="circulate_card_audio_change_phone_title">Prejsť na zvuk telefónu</string>
+    <string name="circulate_card_audio_playing_pad_title">Používanie zvuku na tablete</string>
+    <string name="circulate_card_audio_playing_phone_title">Používanie zvuku na telefóne</string>
     <string name="circulate_card_disconnect">Odpojiť</string>
     <string name="circulate_card_loading_title_audio_stereo">Stereo systém</string>
     <string name="circulate_card_loading_title_band">Náramok</string>
@@ -413,6 +417,14 @@ pre zrkadlenie obrazovky tabletu"</string>
     <string name="circulate_headset_control_anc_disable_hint">Vaše slúchadlá sú pripojené k dvom zariadeniam. Z tohto zariadenia môžete iba upravovať hlasitosť.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Potlačenie šumu</string>
     <string name="circulate_headset_control_anc_off">Vypnúť</string>
+    <string name="circulate_headset_control_audio_effect_off">Vypnúť funkciu Priestorový zvuk</string>
+    <string name="circulate_headset_control_audio_effect_spatial">Zapnúť funkciu Priestorový zvuk</string>
+    <string name="circulate_headset_control_audio_find_earphone">Prehrať zvuk</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">Zrušiť</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">Pokračovať</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">Zvuk bude prehraný s vysokou hlasitosťou. Ak máte nasadené slúchadlá, ich ďalšie používanie môže poškodiť váš sluch. Pred pokračovaním ich zložte dole.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">Upozornenie na vysokú hlasitosť</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">Zastaviť prehrávanie zvuku</string>
     <string name="circulate_headset_control_battery_case">Puzdro</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
@@ -502,6 +514,7 @@ vaše zariadenia?"</string>
     <string name="circulate_phone_card_using_cellular_wifi">Používanie Wi-Fi signálu telefónu</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">Používanie WLAN signálu telefónu</string>
     <string name="circulate_phone_card_using_desktop">Používanie Domovskej obrazovky+ na telefóne</string>
+    <string name="circulate_phone_card_using_sink_desktop">Zdieľanie Domovskej obrazovky+ s telefónom</string>
     <string name="circulate_public_device_title_format">%2$s používateľa %1$s</string>
     <string name="circulate_ringfind_button_hint_play">Prehrať zvuk</string>
     <string name="circulate_ringfind_button_hint_stop">Zastaviť prehrávanie zvuku</string>
@@ -596,10 +609,12 @@ Podporované pre telefóny, tablety a počítače."</string>
     <string name="connect_settings_general_summary_share_clipboard">Kopírujte text, obrázky alebo súbory v zariadení a vložte ich do iného blízkeho zariadenia (telefónu, tabletu, počítača alebo vozidla) prihláseného k vášmu Xiaomi kontu.</string>
     <string name="connect_settings_general_summary_share_file">Priamy prístup k súborom telefónu z okolitých počítačov prihlásených do Xiaomi konta</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Zobraziť a ovládať telefón a pristupovať k aplikáciám v ňom z blízkych tabletov, počítačov a vozidiel prihlásených do Xiaomi konta</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">Zobrazovanie a ovládanie tohto zariadenia a používanie jeho aplikácií z blízkych telefónov, tabletov, počítačov alebo vozidiel prihlásených pod rovnakým kontom</string>
     <string name="connect_settings_general_summary_share_notification_pad">Zobraziť upozornenia na slabú batériu z okolitých telefónov na tabletoch prihlásených do Xiaomi konta</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Zobrazujte dôležité upozornenia z telefónu na blízkych televízoroch, tabletoch a počítačoch prihlásených do Xiaomi konta.
 Spolupracuje s aplikáciami na donášku jedla a privolanie jazdy na televízoroch, ako aj s upozorneniami na vybitú batériu na tabletoch a počítačoch."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Zobraziť upozornenia na nízku úroveň batérie telefónu na tablete v blízkosti, ktorý je prihlásený do rovnakého konta</string>
+    <string name="connect_settings_known_button">Rozumiem</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">Prenos položiek cez NFC</string>
     <string name="connect_settings_not_opened">Vyp.</string>
@@ -607,6 +622,7 @@ Spolupracuje s aplikáciami na donášku jedla a privolanie jazdy na televízoro
     <string name="connect_settings_presentation_password_error">Nesprávne heslo</string>
     <string name="connect_settings_presentation_password_title">Zadajte administrátorské heslo</string>
     <string name="connect_settings_privacy_policy">Zásadami ochrany osobných údajov</string>
+    <string name="connect_settings_refresh">Obnoviť</string>
     <string name="connect_settings_relay_app">Aplikácie</string>
     <string name="connect_settings_same_account">Z tohto konta</string>
     <string name="connect_settings_screen_cast">Prenos obrazu</string>
@@ -616,6 +632,7 @@ Spolupracuje s aplikáciami na donášku jedla a privolanie jazdy na televízoro
     <string name="connect_settings_share_launcher">Domovská obrazovka+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">Odomknite svoj telefón a aplikácie Xiaomi pomocou aplikácie Face ID alebo prístupového kódu na iPade</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">Odomknite svoj telefón a aplikácie Xiaomi pomocou odtlačku prsta alebo prístupového kódu na iPade</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">Odomknite telefón Xiaomi a jeho aplikácie pomocou odtlačku prsta alebo prístupového kódu iPhonu</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">Použite Face ID alebo heslo v iPhone na odomknutie telefónu a aplikácií Xiaomi</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Odomykanie pomocou tváre alebo hesla</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Použite váš odtlačok prsta alebo heslo na Macu na odomknutie telefónu a aplikácií</string>
@@ -623,13 +640,52 @@ Spolupracuje s aplikáciami na donášku jedla a privolanie jazdy na televízoro
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Odomknutie pomocou tváre</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Rýchle spustenie aplikácie po odomknutí</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Použite odtlačok prsta alebo heslo v tablete Xiaomi na odomknutie telefónu a aplikácií</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">Na odomknutie tohto zariadenia a jeho aplikácií použite odtlačok prsta alebo heslo telefónu</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Pridajte aplikácie telefónu na domovskú obrazovku tabletu. Po odomknutí telefónu ich spustite priamo z tabletu.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Pre odomknutie použite odtlačok prsta alebo zadajte heslo</string>
     <string name="connect_settings_share_notification">Upozornenia</string>
+    <string name="connect_settings_share_notification_help">Pomoc</string>
     <string name="connect_settings_share_notification_iphone_device">Zobraziť upozornenia z tohto zariadenia na zariadení iPhone</string>
     <string name="connect_settings_share_notification_local_device">Zobraziť upozornenia z iPhonu na tomto zariadení</string>
+    <string name="connect_settings_share_notification_local_device_summary">Ak chcete prijímať hovory a dostávať správy a upozornenia aplikácií na tomto zariadení, povoľte synchronizáciu upozornení s telefónom Xiaomi v časti Xiaomi Interconnectivity > Synchronizácia upozornení > Synchronizácia so Xiaomi na iPhone.</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">Aby ste mohli odpovedať na hovory a dostávať správy a upozornenia aplikácií na zariadení Xiaomi, pripojte sa k nemu s vaším iPhone v ponuke Xiaomi Interconnectivity > Synchronizácia upozornenií > Synchronizácia so Xiaomi.</string>
+    <string name="connect_settings_share_notification_local_device_title">Dostávajte upozornenia zo zariadenia %1$s</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">Zobrazenie upozornení z iných Xiaomi zariadení na tomto zariadení</string>
     <string name="connect_settings_share_notification_mi_device">Zobraziť upozornenia z tohto zariadenia na zariadeniach Xiaomi</string>
+    <string name="connect_settings_share_notification_mi_device_category">Synchronizovať so zariadeniami v okolí</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">Zariadenia v okolí</string>
+    <string name="connect_settings_share_notification_mi_device_v2">Tablety alebo televízory Xiaomi</string>
+    <string name="connect_settings_share_notification_mi_device_v3">Tablety, počítače a televízory Xiaomi</string>
     <string name="connect_settings_share_notification_more_feature">Viac funkcií</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">Zobrazenie upozornení z tohto zariadenia na iných Xiaomi zariadeniach</string>
+    <string name="connect_settings_share_notification_receive_tab">Prijať</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">Dostupné zariadenia</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">Dostupné zariadenia</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">Uistite sa, že je vaše zariadenie %1$s prihlásené do rovnakého konta ako toto zariadenie a že je v Nastaveniach zapnuté prepojenie.</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">Nie je možné sa pripojiť k %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">Skontrolujte, či sú obe zariadenia prihlásené do rovnakého konta a pripojené k rovnakej sieti alebo či sú na oboch zariadeniach zapnuté funkcie Bluetooth a WLAN.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">Skontrolujte, či sú obe zariadenia prihlásené do rovnakého konta a pripojené k rovnakej sieti alebo či sú na oboch zariadeniach zapnuté funkcie Bluetooth a Wi-Fi.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">Uistite sa, že sú obe zariadenia prihlásené do rovnakého konta a sú pripojené k sieti alebo majú zapnutú sieť WLAN</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">Uistite sa, že sú obe zariadenia prihlásené do rovnakého konta a sú pripojené k sieti alebo majú zapnutú sieť Wi-Fi</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">Vyhľadávanie vášho zariadenia…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">Keď je toto zariadenie pripojené k sieti, môžete dostávať upozornenia zo zariadení prihlásených do rovnakého konta. Ak je v blízkosti zariadenie so zapnutým rozhraním Bluetooth a WLAN, môžete zrkadliť jeho aplikácie a odpovedať na správy.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">Keď je toto zariadenie pripojené k sieti, môžete dostávať upozornenia zo zariadení prihlásených do rovnakého konta. Ak je v blízkosti zariadenie so zapnutým rozhraním Bluetooth a Wi-Fi, môžete zrkadliť jeho aplikácie a odpovedať na správy.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• Keď je toto zariadenie pripojené k sieti, upozornenia z iného uzamknutého Xiaomi telefónu prihláseného do rovnakého konta je možné zobraziť na tomto zariadení.
+• Keď sú v okolí zariadenia prihlásené do rovnakého konta a majú zapnuté Bluetooth a WLAN, na upozornenia z iných zariadení môžete odpovedať priamo na tomto zariadení."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• Keď je toto zariadenie pripojené k sieti, upozornenia z iného uzamknutého Xiaomi telefónu prihláseného do rovnakého konta je možné zobraziť na tomto zariadení.
+• Keď sú v okolí zariadenia prihlásené do rovnakého konta a majú zapnuté Bluetooth a Wi-Fi, na upozornenia z iných zariadení môžete odpovedať priamo na tomto zariadení."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">Nepodarilo sa nájsť dostupné zariadenia</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">Ak chcete spravovať upozornenia na tomto zariadení, povoľte synchronizáciu upozornení so zariadením Xiaomi v časti Xiaomi Interconnectivity > Synchronizácia upozornení > Synchronizácia so Xiaomi na vaše zariadenie %1$s.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">„Synchronizácia upozornení“ je pre zariadenie %1$s vypnutá</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">Prijať</string>
+    <string name="connect_settings_share_notification_send_tab">Synchronizovať</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">Synchronizovať s telefónom</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">Moje telefóny</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"Zobrazovať upozornenia z tohto zariadenia na telefónoch, tabletoch alebo televízoroch prihlásených do rovnakého konta.
+*Podporované funkcie: V telefónoch sa môžu zobrazovať hovory, správy a upozornenia aplikácií; v televízoroch sa môžu zobrazovať upozornenia na doručenie zásielky a na prepravu; v tabletoch a počítačoch sa môžu zobrazovať upozornenia na vybitú batériu z telefónu."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• Keď je toto zariadenie uzamknuté, upozornenia z tohto zariadenia nie je možné zobraziť v telefónoch, tabletoch, počítačoch alebo televízoroch prihlásených do rovnakého konta.
+• Môžete zobraziť hovory, správy alebo upozornenia aplikácií na telefónoch, upozornenia na donášku jedla a služby prepravy na televízoroch a upozornenia na vybitú batériu na tabletoch a počítačoch."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">Synchronizovať</string>
     <string name="connect_settings_summary"><Data>Objavte zariadenia v okolí prihlásené do Xiaomi konta a pridajte ich do Xiaomi Smart Hub. &lt;a href=%1$s>Zistite viac&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Povoľte, aby zariadenia medzi sebou mohli bezdrôtovo komunikovať</string>
     <string name="connect_settings_summary_corp_network">Použite sieť telefónu v tabletoch alebo počítačoch</string>
@@ -645,6 +701,7 @@ Pred použitím zapnite Wi-Fi a Bluetooth."</string>
     <string name="connect_settings_summary_share_launcher_pad_v2">Ovládajte svoj telefón z tabletu</string>
     <string name="connect_settings_summary_share_launcher_phone">Povoľte tabletom a počítačom v okolí zobrazovať a interagovať s domovskou obrazovkou tohto zariadenia</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">Ovládajte svoj telefón z tabletov, počítačov alebo vozidiel</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">Ovládajte toto zariadenie zo svojho telefónu, tabletu, počítača alebo vozidla</string>
     <string name="connect_settings_summary_share_notification_pad">Dostávať upozornenia z okolitých telefónov prihlásených do vášho Xiaomi konta</string>
     <string name="connect_settings_summary_share_notification_pad_v2">Zobraziť oznámenia z okolitých telefónov prihlásených do Xiaomi konta na tomto zariadení</string>
     <string name="connect_settings_summary_share_notification_phone">Keď je toto zariadenie uzamknuté, zobrazovať upozornenia na tabletoch alebo počítačoch v okolí</string>
@@ -678,19 +735,31 @@ Pred použitím zapnite Wi-Fi a Bluetooth."</string>
     <string name="device_permission_dialog_title">Udeliť povolenie zariadeniu %s</string>
     <string name="device_type_name_pad">Tablet</string>
     <string name="device_type_name_phone">Telefón</string>
+    <string name="dialog_auth_title">Overovací kód</string>
     <string name="dialog_can_not_find_device">Nenašli sa zariadenia v okolí</string>
     <string name="dialog_cancle">Zrušiť</string>
     <string name="dialog_close">Vypnúť</string>
+    <string name="dialog_confirm_button">Rozumiem</string>
+    <string name="dialog_confirm_remote_status">Skontrolujte stav zariadenia %1$s</string>
     <string name="dialog_connect_fail">Nepodarilo sa pripojiť</string>
     <string name="dialog_connect_retry">Ťuknutím skúste znovu</string>
     <string name="dialog_connect_verify_perssion">Najskôr autorizujte prenos na vašej televízii</string>
     <string name="dialog_connect_verify_perssion_fail">Nepodarilo sa autorizovať prenos s vašou televíziou. Chvíľu počkajte a skúste to znovu.</string>
     <string name="dialog_connected">Pripojené</string>
     <string name="dialog_connecting">Pripájanie…</string>
+    <string name="dialog_copy_it">Kopírovať</string>
+    <string name="dialog_enable_remote_notification">Povoliť upozornenia naprieč zariadeniami na vašom zariadení %1$s</string>
+    <string name="dialog_enable_remote_notification_content_v2">Nie je možné synchronizovať upozornenia. Uistite sa, že je v zariadení %1$s povolená synchronizácia upozornení v časti Nastavenia > Prepojenie > Upozornenia naprieč zariadenia > Synchronizácia.</string>
     <string name="dialog_incoming_call_instruction">Zdvihnúť na vašom zariadení %1$s</string>
     <string name="dialog_know_it">Rozumiem</string>
     <string name="dialog_location_permission_message">Táto aplikácia si vyžaduje prístup k vašej polohe, aby mohla vyhľadať v blízkosti externé monitory. Počas udeľovania tohto povolenia vyberte možnosť „Vždy povoliť“, aby ste sa vyhli možným chybám.</string>
     <string name="dialog_location_permission_title">Vyžadujú sa povolenia</string>
+    <string name="dialog_message_instruction_subtitle_call">Môžete odpovedať na zariadení %1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">Môžete odpovedať na telefóne Xiaomi</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">Môžete odpovedať na iPhone</string>
+    <string name="dialog_message_instruction_subtitle_reply">Môžete odpovedať na zariadení %1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">Môžete odpovedať na telefóne Xiaomi</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">Môžete odpovedať na iPhone</string>
     <string name="dialog_message_reply_instruction">Odpovedať na vašom zariadení %1$s</string>
     <string name="dialog_miplay_permission_message">Prenášanie obrazu si vyžaduje pre správne fungovanie povolenie na nahrávanie zvuku, prístup k súborom na internom úložisku a prístup k vašej polohe. Pre pokračovanie ťuknite na \"Nastavenia\" a vyberte \"Povolenia aplikácií\".</string>
     <string name="dialog_miplay_permission_positive">Nastavenia</string>
@@ -704,10 +773,18 @@ Pred použitím zapnite Wi-Fi a Bluetooth."</string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Pripojte mobilné zariadenie aj televízor k rovnakej sieti WLAN.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Na niektorých modeloch televízorov je táto funkcia k dispozícii len vtedy, keď je zapnuté zrkadlenie obrazovky. Pre viac informácií si pozrite &lt;a href=milink://com.milink.service/specification>\"Pomoc\"&lt;/a>.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Streamovať fotografie, videá alebo hudbu</string>
+    <string name="dialog_open_remote_switch_content">Nastavenie nebolo možné použiť. Uistite sa, že je vaše zariadenie %1$s prihlásené do rovnakého konta a pripojené k rovnakej sieti ako toto zariadenie.</string>
     <string name="dialog_open_wifi_bt">Spustiť</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Uistite sa, že je povolená funkcia bezdrôtového prenosu na cieľovom zariadení.
 Ak máte problémy s pripojením, otvorte pomocníka."</string>
     <string name="dialog_recent_connected">Nedávne</string>
+    <string name="dialog_remote_authorization">Udeľte povolenia na zariadení %1$s</string>
+    <string name="dialog_remote_authorization_content">Udeľte povolenia na upozornenia na Prepojenie na vašom zariadení %1$s.</string>
+    <string name="dialog_reset_app_subscribe">Povoliť upozornenia z aplikácie %1$s</string>
+    <string name="dialog_reset_app_subscribe_content">Aplikácia %2$s bola predtým odinštalovaná z vášho zariadenia %1$s. Na tomto zariadení nie je možné dostávať upozornenia aplikácií. Zmeňte nastavenia a skúste to znova.</string>
+    <string name="dialog_reset_app_subscribe_multi">Zmeniť nastavenia upozornení</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">Aplikácie %2$s a %3$s boli predtým odinštalované z vášho zariadenia %1$s. Na tomto zariadení nie je možné dostávať upozornenia aplikácií. Zmeňte nastavenia a skúste to znova.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">Aplikácie %2$s, %3$s a %4$s boli predtým odinštalované z vášho zariadenia %1$s. Na tomto zariadení nie je možné dostávať upozornenia aplikácií. Zmeňte nastavenia a skúste to znova.</string>
     <string name="dialog_retry">Skúste to znovu</string>
     <string name="dialog_scan_message">"%1$d. Pripojte mobilné zariadenie aj televízor k rovnakej sieti Wi-Fi.
 
@@ -731,6 +808,7 @@ Ak máte problémy s pripojením, otvorte pomocníka."</string>
     <string name="early_morning">Ráno</string>
     <string name="edit_device_group">Upraviť skupiny zariadení</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">Nie je možné prijímať upozornenia. Uistite sa, že je v zariadení %1$s povolená synchronizácia upozornení v časti Nastavenia > Prepojenie > Upozornenia naprieč zariadenia > Synchronizácia.</string>
     <string name="enable_screen_projection_summary">Prenášajte obsah obrazovky na externý monitor</string>
     <string name="enable_screen_projection_summary_new">Prenášajte obrazovku mobilného zariadenia na blízke televízory a ďalšie externé monitory</string>
     <string name="enable_screen_projection_summary_pad">Prenášajte obrazovku tabletu na televízor alebo iné zariadenie v okolí</string>
@@ -952,6 +1030,7 @@ Ak je potrebné spustiť funkciu Miracast, stlačte tlačidlo [MENU] a vyberte M
 %1$d. Ak sa vyskytnú nejaké problémy, môžete ich nahlásiť pomocou našej aplikácie \"Služby a spätná väzba\"."</string>
     <string name="help_page_text_end">Pokiaľ značka vášho zariadenia nie je v zozname, kontaktujte výrobcu pre viac informácií o funkcii prenosu.</string>
     <string name="i_see">Rozumiem</string>
+    <string name="ic_media_route_learn_more_accessibility">Pokyny na prenos</string>
     <string name="icon_content_description">Ikona dialógového okna</string>
     <string name="image_transfer_failed">Prenos obrázka sa nepodaril</string>
     <string name="install">Inštalovať</string>
@@ -1017,8 +1096,10 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="miplay_song_title_empty">Žiadne položky</string>
     <string name="mirror_phone_content">Zapnúť Domovskú obrazovku+ teraz?</string>
     <string name="mirror_phone_content_remote">Domovskú obrazovku+ môžete zapnúť v časti Nastavenia > Interkonektivita.</string>
+    <string name="mirror_phone_content_remote_V1">Zapnite Domovskú obrazovku+ v časti Nastavenia > Prepojenie > Domovská obrazovka+ na vašom zariadení %1$s.</string>
     <string name="mirror_phone_title">Zapnite Domovskú obrazovku+</string>
     <string name="mirror_phone_title_remote">Zapnite Domovskú obrazovku+ na vašom telefóne</string>
+    <string name="mirror_phone_title_remote_V1">Najprv zapnite Domovskú obrazovku+</string>
     <string name="mirror_remote_pad_content">Domovskú obrazovku+ môžete zapnúť v časti Nastavenia > Interkonektivita.</string>
     <string name="mirror_remote_pad_title">Zapnite Domovskú obrazovku+ na vašom tablete</string>
     <string name="miuix_access_state_desc">Vybraté</string>
@@ -1102,8 +1183,17 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="mr_cast_button_connecting">Prenášať. Pripája sa</string>
     <string name="mr_cast_button_disconnected">Prenášať. Odpojené</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nie sú k dispozícii žiadne informácie</string>
+    <string name="mr_chooser_looking_for_devices">Hľadajú sa zariadenia…</string>
     <string name="mr_chooser_searching">Hľadajú sa zariadenia</string>
     <string name="mr_chooser_title">Prenos do zariadenia</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Ďalšie informácie</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako toto auto</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tento telefón</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tento tablet</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tento televízor</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako toto zariadenie</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tieto hodinky</string>
+    <string name="mr_chooser_zero_routes_found_title">Nie sú k dispozícii žiadne zariadenia</string>
     <string name="mr_controller_album_art">Obrázok albumu</string>
     <string name="mr_controller_casting_screen">Prenáša sa obrazovka</string>
     <string name="mr_controller_close_description">Zavrieť</string>
@@ -1182,12 +1272,24 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="nothing_to_play">Neprehráva sa</string>
     <string name="notification_cast_desc">Prenáša sa…</string>
     <string name="notification_channel_description">Vyberte typy upozornení, ktoré sa majú synchronizovať z iného zariadenia do zariadenia Xiaomi</string>
+    <string name="notification_channel_subtitle_ref_call">Hovor z iPhone</string>
+    <string name="notification_channel_subtitle_ref_call_1">Hovor zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_1">Lark správa zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq">QQ správa z iPhone</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">QQ správa zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms">Správa z iPhone</string>
+    <string name="notification_channel_subtitle_ref_sms_1">Správa zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin">WeChat správa z iPhone</string>
+    <string name="notification_channel_subtitle_ref_xin_1">WeChat správa zo zariadenia %1$s</string>
     <string name="notification_channel_title_name">Upozornenia synchronizované so zariadením Xiaomi</string>
     <string name="notification_desc_scanning">Vyhľadávajú sa zariadenia v okolí…</string>
     <string name="notification_incoming_call_to_reply">Prichádzajúci hovor. Odpovedať na zariadení %1$s.</string>
     <string name="notification_permission_content">Povoliť upozornenia tohto zariadenia na akomkoľvek iPhone s nainštalovanou aplikáciou Prepojenie a prihláseným kontom.</string>
+    <string name="notification_permission_new_content">Povoľte zobrazovanie hovorov, správ a upozornení aplikácií z tohto zariadenia na iPhone so zapnutou synchronizáciou upozornení alebo na zariadení Xiaomi so zapnutou funkciou Upozornenia naprieč zariadenia.</string>
     <string name="notification_rc_title">Asistent XiaoMi TV</string>
+    <string name="notification_revice_phone">Upozornenia zo zariadenia %1$s</string>
     <string name="notification_show_more">Ťuknite pre viac funkcií</string>
+    <string name="notification_support_applist">Podporované aplikácie</string>
     <string name="notify_wifiap_dialog_msg">Ak chcete naskenovať kód a konfigurovať sieť, najskôr vypnite prenosný hotspot.</string>
     <string name="notify_wifiap_dialog_negative">Rozumiem</string>
     <string name="notify_wifiap_dialog_title">Konfigurovať sieť</string>
@@ -1385,6 +1487,7 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="path_setting_cast_feature">Ďalšie možnosti pripojenia/Prenos obrazu/Špeciálne funkcie</string>
     <string name="path_setting_cast_help">Ďalšie možnosti pripojenia/Prenos obrazu/Pomoc</string>
     <string name="permission_allowed">Udelené</string>
+    <string name="permission_label_access_app_meta">Prístup k informáciám o aplikácii pri používaní aplikácií naprieč zariadeniami</string>
     <string name="permission_uballowed">Neudelené</string>
     <string name="picker_view_description">Kamera pre viacero zariadení. Ťuknutím do vnútra karty môžete vybrať fotoaparáty v zariadeniach v okolí.</string>
     <string name="picker_view_outside_description">Ťuknite na položku pre zatvorenie tejto karty.</string>
@@ -1471,7 +1574,7 @@ Pred použitím tejto funkcie si prečítajte a vyjadrite súhlas s našimi zmlu
     <string name="prompt_camera_prepare">Pripája sa…</string>
     <string name="prompt_camera_success">Pripojené</string>
     <string name="quick_settings">Nastavenia</string>
-    <string name="quick_settings_close_tips">Úspešne zapnuté. Funkciu môžete kedykoľvek vypnúť v Nastaveniach > Oznámenie a stavový riadok.</string>
+    <string name="quick_settings_close_tips">Úspešne zapnuté. Funkciu môžete kedykoľvek vypnúť v ponuke Nastavenia > Upozornenia a stavový riadok.</string>
     <string name="quick_settings_device_dialog_check_box">Viac nezobrazovať</string>
     <string name="quick_settings_device_dialog_message">Ak zapnete túto funkciu, budete môcť v Centre ovládania vyhľadať televízory, reproduktory a autá v okolí. Zapnúť teraz?</string>
     <string name="quick_settings_device_dialog_positive">Zapnúť</string>
@@ -1498,6 +1601,7 @@ Pred použitím tejto funkcie si prečítajte a vyjadrite súhlas s našimi zmlu
     <string name="screen_mirror_content">Všetok obsah obrazovky sa zobrazí na zariadení \"%1$s\"</string>
     <string name="screen_projection">Prenos obrazu</string>
     <string name="screen_projection_characteristics">Špeciálne funkcie</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">V Xiaomi HyperIsland sa môžete prepnúť na funkciu prenášanie aplikácie, aby ste mohli aktuálnu aplikáciu preniesť na externý monitor a zároveň používať iné aplikácie v telefóne</string>
     <string name="screen_projection_characteristics_cast_summary">Prenášať obsah obrazovky do blízkeho televízora</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Počas prenášania vypnite obrazovku mobilného zariadenia, aby ste šetrili batériu a predchádzali prehrievaniu.</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Vypnite obrazovku počas prenášania, aby ste znížili spotrebu energie a prehrievanie</string>
@@ -1567,6 +1671,8 @@ Pred prenášaním hier sa uistite, že ste zapli Game Turbo."</string>
     <string name="side_sheet_accessibility_pane_title">Bočný hárok</string>
     <string name="small_window">Minimalizovať okno</string>
     <string name="small_window_not_supported">Počas prenášania nie je možné minimalizovať túto aplikáciu</string>
+    <string name="sound_card_circulatable_control_text">Ovládacie prvky prehrávania</string>
+    <string name="sound_card_circulatable_source_text">Zdroj zvuku</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">Používa sa kamera na okuliaroch. Skúste to znova neskôr.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Nahrávanie zvuku. Fotoaparát nie je možné otvoriť.</string>
     <string name="start_forbidden_by_glasses_in_translation">Prekladanie. Nie je možné otvoriť fotoaparát.</string>
@@ -1673,6 +1779,8 @@ Pred prenášaním hier sa uistite, že ste zapli Game Turbo."</string>
     <string name="title_connection_interrupted">Pripojenie prerušené</string>
     <string name="title_install">Inštalovať Mi Plátno</string>
     <string name="title_update">Aktualizovať Mi Plátno</string>
+    <string name="toast_confirm_network">Nastavenie sa nepodarilo dokončiť. Uistite sa, že je toto zariadenie pripojené k sieti.</string>
+    <string name="toast_copy_auth_message_finish">Úspešne skopírované</string>
     <string name="toast_guide_show_more">Zistite viac</string>
     <string name="toast_guide_title">Objavte naše nové funkcie</string>
     <string name="toast_invisible_mode">Ste inkognito. Teraz môžete použiť prenášanie.</string>
@@ -1681,6 +1789,9 @@ Pred prenášaním hier sa uistite, že ste zapli Game Turbo."</string>
     <string name="toast_msg_for_small_window">Okno prenosu môžete minimalizovať, aby ste mohli používať iné funkcie telefónu bez prerušenia prenášania.</string>
     <string name="toast_nfc_dont_move">Neodkladajte váš telefón</string>
     <string name="toast_nfc_same_wifi">Pripojte vašu televíziu a toto zariadenie k rovnakej sieti</string>
+    <string name="toast_remote_not_install">Táto aplikácia nie je nainštalovaná na vašom zariadení %1$s.</string>
+    <string name="toast_retry">Počkajte, kým sa použijú nastavenia, a skúste to znova</string>
+    <string name="toast_synchronization">Kontrola stavu zariadenia. Skúste to neskôr.</string>
     <string name="toast_title_for_small_window">Vyberte \"Minimalizovať okno\" v aplikácii</string>
     <string name="toast_turn_off_hotspot_before_cast">Vypnúť prenosný hotspot pred prenášaním</string>
     <string name="today">Dnes</string>
