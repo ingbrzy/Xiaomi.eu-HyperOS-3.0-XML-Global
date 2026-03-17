@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Další</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Tyto %1$dbitové aplikace nelze přenést na %2$dbitové zařízení. Můžete si je stáhnout přímo z GetApps po přenosu.</string>
     <string name="audio">Zvuk</string>
+    <string name="audio_permission_desc_new">Pro přenos hudby a zvuku do nového zařízení</string>
     <string name="audio_video_document">Zvuk, video a dokumenty</string>
     <string name="back">Zpět</string>
     <string name="backup_died_summary">Klepněte na \"Připojit znovu\". Přenos bude obnoven v místě, kde byl naposledy přerušen.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Zadání tohoto kódu trvalo příliš dlouho. Připojte se manuálně.</string>
     <string name="ble_enter_verifycode_timeout_title">Čas relace vypršel</string>
     <string name="ble_guest_connecting_title">Připojování k novému zařízení…</string>
+    <string name="ble_guest_connecting_title_pad">Připojování k novému zařízení…</string>
     <string name="ble_host_verification_summary">Na starém zařízení zadejte %dmístný kód.</string>
     <string name="ble_host_verification_title">Připojování ke starému zařízení…</string>
     <string name="ble_manual_authorization_content">Udělte požadovaná oprávnění, abyste mohli přenést položky pomocí nástroje Přesun do nového zařízení (Mi Mover). Oprávnění můžete udělit v sekci Nastavení.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Hotspot úspěšně vytvořen. Čekání na připojení…</string>
     <string name="ble_starting_ap">Vytváření hotspotu…</string>
     <string name="ble_wait_verify_code">Generování kódu na novém zařízení…</string>
+    <string name="ble_wait_verify_code_pad">Generování kódu na novém zařízení…</string>
     <string name="ble_waiting_verify_code">Ověřování kódu…</string>
     <string name="ble_waiting_verify_code_error">Zadaný kód není správný</string>
+    <string name="blutooth_permission_desc_new">Pro hledání zařízení v okolí připravených k připojení</string>
     <string name="btn_got_it">Rozumím</string>
     <string name="btn_install_complete">Nainstalováno</string>
     <string name="btn_mi_cloud_install_complete">Aplikace je již nainstalována</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Probíhající hovor</string>
     <string name="call_notification_screening_text">Prověřování příchozího hovoru</string>
     <string name="calllog">Historie hovorů</string>
+    <string name="camera_permission_content">Pro nalezení zařízení v okolí</string>
     <string name="cancel">Zrušit</string>
     <string name="cancel_moving_dialog_message">Zastavit import?</string>
     <string name="cancel_moving_dialog_title">Zastavit import</string>
@@ -150,8 +155,10 @@ Pro vypnutí ověření přejděte na https://appleid.apple.com/#!&amp;page=sign
     <string name="connection_tips_owner_title">Pokud je vaše staré zařízení Mi telefon:</string>
     <string name="connection_tips_owner_title_global">Nainstalujte nejnovější verzi Přesunu do nového zařízení:</string>
     <string name="contact_records_permission_desc">Pro přenos historie hovorů do jiného zařízení</string>
+    <string name="contact_records_permission_desc_new">Pro přenos historie hovorů do nového zařízení</string>
     <string name="contacts">Kontakty</string>
     <string name="contacts_permission_desc">Pro přenos kontaktů do jiného zařízení</string>
+    <string name="contacts_permission_desc_new">Pro přenos kontaktů do nového zařízení</string>
     <string name="contains_unauthorized_data">Obsahuje nepovolená data</string>
     <string name="copy">Kopírovat</string>
     <string name="current_user_not_supported_summary">Současné nastavení nepovoluje přesun dat pomocí Přesunu do nového zařízení.</string>
@@ -180,6 +187,17 @@ Pro vypnutí ověření přejděte na https://appleid.apple.com/#!&amp;page=sign
     <string name="dialog_rating_desc_less">Dejte nám vědět, jak můžeme naši aplikaci vylepšit.</string>
     <string name="dialog_rating_desc_perfect">Děkujeme! Chcete aplikaci ohodnotit také v GetApps?</string>
     <string name="dialog_rating_title">Ohodnotit Přesun do nového zařízení</string>
+    <string name="dialog_request_all_permission_content_new">"Aby bylo možné přenést data ze starého zařízení do nového, musí tato aplikace být připojena k internetu a mít od vás následující povolení:
+• Přístup k fotografiím, zvuku, kalendáři a videím
+• Přístup ke zprávám, kontaktům a historii hovorů
+• Přístup k úložišti
+• Přístup k seznamu aplikací nainstalovaných na zařízení"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Aby bylo možné přenést data ze starého zařízení do nového, musí tato aplikace být připojena k internetu a mít od vás následující povolení:
+• Přístup k fotografiím, zvuku, kalendáři a videím
+• Přístup ke zprávám, kontaktům a historii hovorů
+• Přístup k úložišti
+• Přístup k seznamu aplikací nainstalovaných na zařízení"</string>
+    <string name="dialog_request_all_permission_title_new">Vyžadována povolení</string>
     <string name="dialog_request_network_btn_negative">Ukončit</string>
     <string name="dialog_request_network_btn_positive">Souhlasím</string>
     <string name="dialog_request_permission_message">Vítejte v aplikaci Přenos do nového zařízení (Mi Mover). Tato aplikace vám pomůže přenést data z vašeho starého zařízení do nového telefonu. Přenos dat proběhne pouze mezi dvěma zařízením a žádná z těchto dat nebudou nahrána na naše servery. Tato aplikace vyžaduje pro správné fungování připojení k internetu a udělení následujících oprávnění:</string>
@@ -188,6 +206,8 @@ Pro vypnutí ověření přejděte na https://appleid.apple.com/#!&amp;page=sign
     <string name="dialog_request_permission_message_extra_title">Povinná oprávnění</string>
     <string name="dialog_request_permission_message_global">Tato aplikace vyžaduje pro správné fungování udělení následujících oprávnění:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Abyste lépe porozuměli svým uživatelským právům a způsobu, jakým používáme vaše údaje, přečtěte si a potvrďte souhlas s našimi &lt;a href='%1s'>Smluvními podmínkami operačního systému Xiaomi&lt;/a> a &lt;a href='%2s'>Zásadami ochrany osobních údajů pro Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Povolte této aplikaci připojení k internetu a udělte výše uvedená povinná povolení. Přečtěte si a odsouhlaste &lt;a href='%1s'>smluvní podmínky operačního systému Xiaomi&lt;/a> a &lt;a href='%2s'>zásady ochrany osobních údajů Přesunu do nového zařízení (Mi Mover)&lt;/a>, abyste plně porozuměli svým uživatelským právům a způsobům, jakými používáme vaše údaje."</Data></string>
+    <string name="dialog_request_permission_message_new">Vítejte v nástroji Přesun do nového zařízení (Mi Mover)! Tuto aplikaci můžete použít k přenosu dat ze starého zařízení do nového. Data budou přenesena mezi těmito dvěma zařízeními a nebudou nahrána na naše servery.</string>
     <string name="dialog_request_permission_message_provision_link">Pro lepší porozumění vašim uživatelským právům a způsobům, jakými vaše data využíváme, si přečtěte a souhlaste s našimi %1$s a %2$s.</string>
     <string name="dialog_request_permission_title">Upozornění</string>
     <string name="dialog_request_permission_title_global">Vyžadována oprávnění</string>
@@ -367,9 +387,12 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="icloud_signin_fail_message">Vaše Apple ID bylo z bezpečnostních důvodů zablokováno. Přejděte na iforgot.apple.com a postupujte podle zobrazených instrukcí.</string>
     <string name="icloud_start_now">Použít mobilní data</string>
     <string name="icloud_verify_tips">Klepněte na \"Povolit\" na vašem iOS zařízení a zobrazený kód zadejte zde.</string>
+    <string name="idm_discovery_summary_pad">Vypadá to, že právě aktivujete nové zařízení. Chcete položky z tohoto zařízení přenést do nového?</string>
+    <string name="idm_discovery_title_pad">Přenos položek do nového zařízení</string>
     <string name="im_recipient">Jsem příjemce</string>
     <string name="im_sender">Jsem odesílatel</string>
     <string name="image">Obrázky</string>
+    <string name="image_video_permission_desc_new">Pro přenos fotografií a videí do nového zařízení</string>
     <string name="import_again">Importovat znovu</string>
     <string name="import_data_from_icloud">Import dat z iCloudu</string>
     <string name="install_app_dialog_title">Nalezení zařízení v okolí se nezdařilo</string>
@@ -395,6 +418,8 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="lack_perm_title">Vyžadována oprávnění</string>
     <string name="launcher">Rozložení Domovské obrazovky</string>
     <string name="loading_data">Ještě chvilku…</string>
+    <string name="location_permission_content_no_provisioned">Udělte toto povolení, abyste se mohli připojit k hotspotu zařízení v okolí. Pokud jej neudělíte, nebudete moci přenášet položky.</string>
+    <string name="location_permission_content_provisioned">Pro připojení k hotspotu zařízení v okolí</string>
     <string name="location_permission_desc">Pro nalezení zařízení v okolí</string>
     <string name="location_permission_request">Pro připojení k zařízením v okolí</string>
     <string name="lockscreen_access">Oblast vzoru</string>
@@ -423,6 +448,8 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="manual_connection_title">Připojte se ke starému zařízení manuálně</string>
     <string name="manual_connection_title_pad">Připojit staré zařízení k hotspotu</string>
     <string name="manual_connection_title_phone">Připojit staré zařízení k hotspotu</string>
+    <string name="manual_disconnect_guest">Nové zařízení bylo odpojeno. Chcete-li pokračovat v přenosu, připojte se znovu.</string>
+    <string name="manual_disconnect_host">Staré zařízení bylo odpojeno. Chcete-li pokračovat v přenosu, připojte se znovu.</string>
     <string name="message_request_manage_external_storage_perm">Přesun do nového zařízení vyžaduje povolení k přístupu ke všem souborům na zařízení pro jejich přesun ze starého zařízení do nového.</string>
     <string name="message_request_package_stats_perm">Přesun do nového zařízení vyžaduje udělení tohoto oprávnění pro zjištění, jaké aplikace jsou na zařízení nainstalována a jejich přenos do druhého zařízení.</string>
     <string name="midnight">Noc</string>
@@ -513,6 +540,7 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="more">Více</string>
     <string name="morning">Dopoledne</string>
     <string name="msg_permission_desc">Pro přenos zpráv do jiného zařízení</string>
+    <string name="msg_permission_desc_new">Pro přenos SMS a MMS do jiných zařízení</string>
     <string name="name_password_not_consistent">Apple ID a zadané heslo se neshodují</string>
     <string name="need_location_permission_confirm">Nastavení</string>
     <string name="need_location_permission_summary">Povolte aplikaci Přesun do nového zařízení (Mi Mover) přístup k informacím o vaší poloze pro nalezení zařízení v okolí.</string>
@@ -522,6 +550,20 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="need_more_memory_title">Nedostatek místa na úložišti</string>
     <string name="new_app_name">Nová verze</string>
     <string name="new_main_activity_label">Přesun do nového zařízení (Mi Mover)</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Data chráněná autorským zákonem</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Systémové aplikace a data jiných značek nemusí být kompatibilní s aplikací Přesun do nového zařízení (Mi Mover) a nelze je přenést.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Aplikace a data, která nejsou kompatibilní s novým zařízením, nelze přenášet.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Některá nastavení telefonu a data jsou vázána na SIM kartu. Vložením SIM karty do nového zařízení dojde k přenosu těchto dat.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Data některých aplikací</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Data z Druhého prostoru</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Data z Druhého prostoru</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Data týkající se soukromí a bezpečnosti</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Kreditní karty a digitální klíče od vozidel nelze přenášet.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Motivy a tapety podléhají omezením rozlišení obrazovky a nelze je přenášet mezi některými modely.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Kvůli omezením protokolu Bluetooth nelze přenášet párovací záznamy pro Bluetooth sluchátka, reproduktory a další zařízení.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Provozní statistiky, jako je spotřeba energie, čas na displeji a využití mobilních dat, nelze přenášet.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Data související se specifickým modelem zařízení</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Jaká data nelze přenést pomocí aplikace Přesun do nového zařízení (Mi Mover)?</string>
     <string name="new_trans_intro_desc_2">V nové verzi aplikace není potřeba zadávat heslo. Jednoduše otevřete Přenos do nového zařízení na starém zařízení, klepněte na \"Jsem odesílatel\" a klepněte na hotspot, ke kterému se chcete připojit.</string>
     <string name="new_trans_intro_desc_2_pad">V nové verzi aplikace Přesun do nového zařízení (Mi Mover) není potřeba zadávat heslo hotspotu. Jednoduše otevřete Přesun do nového zařízení (Mi Mover) na starém zařízení, klepněte na „Jsem odesílatel“ a klepněte na hotspot, ke kterému se chcete připojit.</string>
     <string name="new_trans_intro_desc_2_phone">V nové verzi aplikace Přesun do nového zařízení (Mi Mover) není potřeba zadávat heslo hotspotu. Jednoduše otevřete Přesun do nového zařízení (Mi Mover) na starém zařízení, klepněte na „Jsem odesílatel“ a klepněte na hotspot, ke kterému se chcete připojit.</string>
@@ -532,18 +574,18 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="new_trans_intro_desc_6_pad">Data aplikace nelze přenést, protože Přesun do nového zařízení (Mi Mover) nemá na jiných než Xiaomi zařízeních potřebná oprávnění.</string>
     <string name="new_trans_intro_desc_6_phone">Data aplikace nelze přenést, protože Přesun do nového zařízení (Mi Mover) nemá na jiných než Xiaomi zařízeních potřebná oprávnění.</string>
     <string name="new_trans_intro_desc_7">Aplikace zahájí přenos v bodě, kde byl naposledy ukončen. Problém s kompatibilitou zařízení však může způsobit, že přenos nebude možné obnovit a budete tedy muset začít od začátku.</string>
+    <string name="new_trans_intro_desc_7_pad">Aplikace Přesun do nového zařízení (Mi Mover) zahájí přenos v bodě, kde byl naposledy ukončen. Problém s kompatibilitou zařízení však může způsobit, že přenos nebude možné obnovit a budete tedy muset začít od začátku.</string>
     <string name="new_trans_intro_desc_8">Historie aplikace WeChat ze starého zařízení přepíše po přenosu historii WeChatu na novém zařízení.</string>
+    <string name="new_trans_intro_desc_8_pad">Historie aplikace WeChat ze starého zařízení přepíše po přenosu historii WeChatu na novém zařízení.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Aplikace Přesun do nového zařízení nainstalovaná ve vašem zařízewní musí být aktuální. Nejnovější verzi aplikace Přesun do nového zařízení si můžete stáhnout v Play Store nebo po klepnutí sem: %2$s.
 %3$d. Pokud se i tak v aplikaci Přesun do do nového zařízení nezobrazí hotspot, jděte do nastavení Wi-Fi a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení a klepněte na název hotspotu."</string>
     <string name="new_trans_intro_desc_new_click">Stáhnout</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Zkontrolujte, že aplikace Přesun do nového zařízení (Mi Mover) na vašem novém zařízení je aktuální. Nejnovější verzi aplikace Přesun do nového zařízení (Mi Mover) si můžete stáhnout ve službě Google Play nebo <Data>&lt;a href=%2$s>klepnutím sem&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Pokud se ani tak v aplikaci Přesun do do nového zařízení (Mi Mover) nezobrazí hotspot, přejděte do nastavení Wi-Fi a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení (Mi Mover) a klepněte na název hotspotu."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Aplikace Přesun do nového zařízení (Mi Mover) nainstalovaná ve vašem zařízení musí být aktuální. Nejnovější verzi aplikace Přesun do nového zařízení (Mi Mover) si můžete stáhnout v GetApps nebo po <Data>&lt;a href=%2$s>klepnutí sem&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Pokud se i tak v aplikaci Přesun do do nového zařízení (Mi Mover) nezobrazí hotspot, jděte do nastavení WLAN a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení (Mi Mover) a klepněte na název hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Zkontrolujte, že aplikace Přesun do nového zařízení (Mi Mover) na vašem novém zařízení je aktuální. Nejnovější verzi aplikace Přesun do nového zařízení (Mi Mover) si můžete stáhnout ve službě Google Play nebo <Data>&lt;a href=%2$s>klepnutím sem&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Pokud se ani tak v aplikaci Přesun do do nového zařízení (Mi Mover) nezobrazí hotspot, přejděte do nastavení Wi-Fi a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení (Mi Mover) a klepněte na název hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Aplikace Přesun do nového zařízení (Mi Mover) nainstalovaná ve vašem zařízení musí být aktuální. Nejnovější verzi aplikace Přesun do nového zařízení (Mi Mover) si můžete stáhnout v GetApps nebo po <Data>&lt;a href=%2$s>klepnutí sem&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Pokud se i tak v aplikaci Přesun do do nového zařízení (Mi Mover) nezobrazí hotspot, jděte do nastavení WLAN a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení (Mi Mover) a klepněte na název hotspotu."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Zkontrolujte, že aplikace Přesun do nového zařízení (Mi Mover) na vašem novém zařízení je aktuální. Nejnovější verzi aplikace Přesun do nového zařízení (Mi Mover) si můžete stáhnout v službě Google Play Store nebo <Data>&lt;a href=%2$s>klepnutím sem&lt;/a></Data>".
+%3$d. Pokud se ani v aplikaci Přesun do nového zařízení (Mi Mover) nezobrazí hotspot, přejděte do nastavení Wi-Fi a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení (Mi Mover) a klepněte na název hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Zkontrolujte, že aplikace Přesun do nového zařízení (Mi Mover) na vašem novém zařízení je aktuální. Nejnovější verzi aplikace Přesun do nového zařízení (Mi Mover) si můžete stáhnout ve službě Google Play nebo <Data>&lt;a href=%2$s>klepnutím sem&lt;/a></Data>".
+%3$d. Pokud se ani tak v aplikaci Přesun do do nového zařízení (Mi Mover) nezobrazí hotspot, přejděte do nastavení Wi-Fi a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení (Mi Mover) a klepněte na název hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Aplikace Přesun do nového zařízení (Mi Mover) nainstalovaná ve vašem zařízení musí být aktuální. Nejnovější verzi aplikace Přesun do nového zařízení (Mi Mover) si můžete stáhnout v GetApps nebo po <Data>&lt;a href=%2$s>klepnutí sem&lt;/a></Data>".
+%3$d. Pokud se i tak v aplikaci Přesun do do nového zařízení (Mi Mover) nezobrazí hotspot, jděte do nastavení WLAN a podívejte se, zda jej tam uvidíte. Pokud ano, přejděte zpět do aplikace Přesun do nového zařízení (Mi Mover) a klepněte na název hotspotu."</string>
     <string name="new_trans_intro_desc_old">%d. Pokud se hotspot v aplikaci ani poté nezobrazí, otevřete nastavení sítě Wi-Fi a zkontrolujte, zda se hotspot zobrazí tam. Pokud hotspot v nastavení Wi-Fi vidíte, přejděte zpět do aplikace a připojte se k tomuto hotspotu.</string>
     <string name="new_trans_intro_question_1">%d. Proč se hotspot nového zařízení nezobrazuje na mém starém zařízení?</string>
     <string name="new_trans_intro_question_1_pad">%d. Proč se hotspot nového zařízení nezobrazuje na mém starém zařízení?</string>
@@ -573,15 +615,22 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="not_set">Nenastaveno</string>
     <string name="not_support_data_content1">%d. Položky specifické pro model zařízení</string>
     <string name="not_support_data_content2">%d. Data aplikací</string>
+    <string name="not_support_data_content2_new">%d. Data chráněná autorským zákonem</string>
     <string name="not_support_data_content3">%d. Data z Druhého prostrou</string>
+    <string name="not_support_data_content3_new">%d. Data týkající se soukromí a bezpečnosti</string>
     <string name="not_support_data_content4">%d. Duální aplikace</string>
+    <string name="not_support_data_content4_new">%d. Data některých aplikací</string>
     <string name="not_support_data_content_2">%d. Vybrané aplikace a data aplikací</string>
     <string name="not_support_data_link">Položky, které nemohou být přeneseny</string>
     <string name="not_support_data_summary1">Témata, tapety, transportní karty a přístupové karty nemohou být přeneseny pomocí Přesunu do nového zařízení.</string>
+    <string name="not_support_data_summary1_new">Kreditní karty a digitální klíče od vozidel nelze přenášet. Motivy a tapety podléhají omezením rozlišení obrazovky a nelze je přenášet mezi některými modely.</string>
     <string name="not_support_data_summary2">Data aplikací (např. historie konverzací) nelze přenést.</string>
+    <string name="not_support_data_summary2_new">Témata, písma, velké ikony, témata aktivního displeje a widgety zakoupené prostřednictvím Xiaomi účtu, které jsou chráněné autorským zákonem, nelze přenášet. Přihlaste se ke Xiaomi účtu na novém zařízení a stáhněte si je znovu.</string>
     <string name="not_support_data_summary3">Z důvodu systémových omezení, položky z Druhého prostoru nelze pomocí Přesunu do nového zařízení přenést.</string>
+    <string name="not_support_data_summary3_new">Otisky prstů, tvář a další data související s vlastnictvím zařízení, finančním zabezpečením a soukromím uživatele nelze ze starého zařízení přenášet v žádné podobě. To zahrnuje také data z finančních aplikací (např. mobilní bankovnictví).</string>
     <string name="not_support_data_summary4">Duální aplikace a jejich data taktéž nemohou být přesunuta. Můžete však přenést hlavní aplikace.</string>
     <string name="not_support_data_summary_2">Některé aplikace nemohou být z důvodu omezení Play Storu týkající se ochrany osobních údajů přeneseny.</string>
+    <string name="not_support_data_summary_new">Systémové aplikace a data jiných značek nemusí být kompatibilní s aplikací Přesun do nového zařízení (Mi Mover) a nelze je přenést.</string>
     <string name="not_support_data_title">Položky, které nemohou být přeneseny</string>
     <string name="note">Poznámky</string>
     <string name="nothing_chosen">Nejprve vyberte položky</string>
@@ -641,27 +690,39 @@ Otevřete WeChat a přejděte do Me > Settings > General > Back up &amp; migrate
     <string name="permission_alert_message_usage_access">Přenos do nového zařízení (Mi Mover) vyžaduje přístup ke statistikám využití aplikace. Udělte aplikaci požadovaná oprávnění v Nastavení.</string>
     <string name="permission_alert_title">Vyžadována oprávnění</string>
     <string name="permission_bluetooth_summary">Pro nalezení dostupných zařízení v okolí</string>
+    <string name="permission_bluetooth_summary_new">K nalezení dostupných zařízení v okolí</string>
     <string name="permission_bluetooth_title">Zapnutí nebo vypnutí Bluetooth</string>
     <string name="permission_calendar_summary">Pro přenos událostí kalendáře</string>
     <string name="permission_calendar_title">Přístup ke kalendáři</string>
     <string name="permission_calender_summary">Pro přesun událostí ze starého zařízení do nového</string>
     <string name="permission_calender_summary_global">Pro přenos událostí z kalendáře do nového zařízení</string>
+    <string name="permission_calender_summary_new">Pro přesun událostí ze starého zařízení do nového</string>
     <string name="permission_calender_title">Přístup k událostem z kalendáře</string>
+    <string name="permission_calender_title_new">Přístup k událostem z kalendáře</string>
     <string name="permission_call_log_summary">Pro přenos historie hovorů do nového zařízení</string>
+    <string name="permission_call_log_summary_new">Pro přenos historie hovorů do nového zařízení</string>
     <string name="permission_call_log_title">Přístup k historii volání</string>
     <string name="permission_contacts_summary">Pro přenos kontaktů do nového zařízení</string>
+    <string name="permission_contacts_summary_new">Pro přenos kontaktů do nového zařízení</string>
     <string name="permission_contacts_title">Přístup ke kontaktům</string>
     <string name="permission_grant_request">Pro přenos této položky vyžaduje aplikace udělení oprávnění \"%1$s\".</string>
     <string name="permission_locale_summary">Pro připojení k zařízením v okolí</string>
     <string name="permission_locale_title">Přístup k informacím o poloze</string>
+    <string name="permission_locale_title_new">Přístup k informacím o poloze</string>
     <string name="permission_message_summary">Pro přenos zpráv do nového zařízení</string>
+    <string name="permission_message_summary_new">Pro přenos zpráv do nového zařízení</string>
     <string name="permission_message_title">Přístup k obsahu SMS zpráv</string>
     <string name="permission_request_title">Vyžadováno oprávnění pro \"%1$s\"</string>
     <string name="permission_setting_button">Nastavení</string>
     <string name="permission_storage_summary">Pro přenos souborů a fotografií do nového zařízení</string>
+    <string name="permission_storage_summary_new">Pro přenos souborů a fotografií do nového zařízení</string>
     <string name="permission_storage_title">Ukládání a přístup k souborům a fotografiím uloženým na vašem zařízení</string>
+    <string name="permission_storage_title_new">Přístup k úložišti</string>
     <string name="permission_wifi_summary">Pro přenos položek do nového zařízení</string>
+    <string name="permission_wifi_summary_new">Pro přenos položek do nového zařízení</string>
     <string name="permission_wifi_title">Zapnutí nebo vypnutí sítě Wi-Fi</string>
+    <string name="permission_wifi_title_new">Zapnutí nebo vypnutí sítě Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Zapnutí nebo vypnutí sítě WLAN</string>
     <string name="pm">odp.</string>
     <string name="preference_copied">Položka %1$s byla zkopírována do schránky.</string>
     <string name="privacy_agree">Souhlasím</string>
@@ -749,6 +810,7 @@ Uvolněte alespoň %s."</string>
     <string name="scanner_quit_alert_message_phone">Pokud Přesun do nového zařízení (Mi Mover) nyní ukončíte, budete muset příště připojit zařízení znovu. Přesto ukončit?</string>
     <string name="scanner_quit_alert_title">Ukončit nyní?</string>
     <string name="scanner_send_dialog_btn">Rozumím</string>
+    <string name="scanner_send_dialog_btn_i_know">Rozumím</string>
     <string name="scanner_send_dialog_message">Během přenosu nevypínejte Wi-Fi a nepřepínejte mezi sítěmi.</string>
     <string name="scanner_size_selected">Vybráno: %s</string>
     <string name="scanner_subtitle_prd">Před kontrolou jednotlivých položek a spuštění přenosu si pečlivě přečtěte dále uvedené informace.</string>
@@ -756,6 +818,7 @@ Uvolněte alespoň %s."</string>
     <string name="scanner_title_prd">Důležité informace</string>
     <string name="scanner_title_tip">Vyberte položky k přenosu</string>
     <string name="scanner_wechat_overwrite_hit">Kvůli omezení ze strany aplikace třetí strany budou po dokončení přenosu některé položky (historie konverzací a další data aplikace) na novém zařízení přepsány těmi ze starého zařízení.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Kvůli omezení ze strany aplikace třetí strany budou po dokončení přenosu některé položky (historie konverzací a další data aplikace) na novém zařízení přepsány těmi ze starého zařízení.</string>
     <string name="search_menu_title">Hledat</string>
     <string name="searching_for_new_device">Hledání nového zařízení…</string>
     <string name="searching_for_new_device_pad">Vyhledávání nového zařízení…</string>
@@ -889,27 +952,42 @@ Uvolněte alespoň %s."</string>
     <string name="time_spent">Čas: %1$s</string>
     <string name="tips_button_hint">Před potvrzením zkontrolujte každou položku</string>
     <string name="tips_cover_content">Pokud budete pokračovat, tato data (včetně historie chatu) budou přepsána.</string>
+    <string name="tips_cover_content_pad">Pokud budete pokračovat, tato data (včetně historie konverzací) budou přepsána.</string>
     <string name="tips_cover_content_tablet">Pokud budete pokračovat, tato data (včetně historie chatu) budou přepsána.</string>
     <string name="tips_cover_title">%1$d. V novém zařízení již existují data pro následující aplikace.</string>
+    <string name="tips_cover_title_pad">%1$d. V novém zařízení již existují data pro následující aplikace.</string>
     <string name="tips_cover_title_tablet">%1$d. V novém zařízení již existují data pro následující aplikace.</string>
     <string name="tips_dual_app_content">Duální aplikace nelze přenést. Je možné přenášet pouze hlavní aplikaci a její data.</string>
     <string name="tips_dual_app_title">%d. Následující aplikace jsou duální.</string>
+    <string name="tips_dual_app_title_new">%d. Data duálních aplikací nelze přenést.</string>
     <string name="tips_hot_content">To je normální. Jakmile bude přenos dokončen, vaše zařízení vychladne.</string>
+    <string name="tips_hot_content_new">To je normální. Jakmile bude přenos dokončen, vaše zařízení vychladne.</string>
     <string name="tips_hot_title">%d. Vaše zařízení se může během přenosu zahřívat.</string>
+    <string name="tips_hot_title_content">%d. Zařízení se může zahřívat.</string>
     <string name="tips_private_space_content">Kvůli systémovým omezením nelze přenést data druhého prostoru.</string>
+    <string name="tips_private_space_content_pad">Důvodem jsou systémová omezení.</string>
+    <string name="tips_private_space_content_phone">Důvodem jsou systémová omezení.</string>
     <string name="tips_private_space_content_tablet">Kvůli systémovým omezením nelze přenést data druhého prostoru.</string>
     <string name="tips_private_space_title">%d. Druhý prostor je zapnutý.</string>
+    <string name="tips_private_space_title_pad">%d. Data druhého prostoru nelze přenést.</string>
+    <string name="tips_private_space_title_phone">%d. Data druhého prostoru nelze přenést.</string>
     <string name="tips_private_space_title_tablet">%d. Druhý prostor je zapnutý.</string>
     <string name="tips_prudent_operation_content">Přerušení spojení způsobí zastavení přenosu.</string>
     <string name="tips_prudent_operation_title">%d. Nevypínejte ani nepřepínejte hotspot Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new">%d. Nevypínejte ani nepřepínejte hotspot Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Nevypínejte ani nepřepínejte hotspot WLAN.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Nevypínejte ani nepřepínejte hotspot WLAN.</string>
     <string name="tips_secret_content_one">Některé soukromé položky na starém zařízení (%1$s) nelze přenést. Chcete-li je přenést, odeberte je ze soukromé složky.</string>
+    <string name="tips_secret_content_one_new">Některé soukromé položky na starém zařízení (%1$s) nelze přenést. Chcete-li je přenést, odeberte je ze soukromé složky.</string>
     <string name="tips_secret_content_three">Některé soukromé položky na starém zařízení (%1$s, %2$s, %3$s) nelze přenést. Chcete-li je přenést, odeberte je ze soukromé složky.</string>
+    <string name="tips_secret_content_three_new">Některé soukromé položky na starém zařízení (%1$s, %2$s, %3$s) nelze přenést. Chcete-li je přenést, odeberte je ze soukromé složky.</string>
     <string name="tips_secret_content_two">Některé soukromé položky na starém zařízení (%1$s, %2$s) nelze přenést. Chcete-li je přenést, odeberte je ze soukromé složky.</string>
+    <string name="tips_secret_content_two_new">Některé soukromé položky na starém zařízení (%1$s, %2$s) nelze přenést. Chcete-li je přenést, odeberte je ze soukromé složky.</string>
     <string name="tips_secret_file">soubory</string>
     <string name="tips_secret_gallery">alba</string>
     <string name="tips_secret_note">poznámky</string>
     <string name="tips_secret_title">%d. Některé soukromé položky nelze přenést.</string>
+    <string name="tips_secret_title_content">%d. Soukromé položky nelze přenést.</string>
     <string name="tips_subtitle">Před pokračováním si přečtěte a potvrďte následující připomenutí.</string>
     <string name="title_compatibility_mode">Zapněte Režim kompatibility aplikací</string>
     <string name="title_open_wlan">Zapnout Wi-Fi</string>
@@ -951,10 +1029,12 @@ Stáhněte a nainstalujte Přesun do nového zařízení (Mi Mover)."</string>
     <string name="trans_send_time_remained_default">Odesláno: %1$s</string>
     <string name="trans_show_qr_code_label">Otevřete Přesun do nového zařízení na starém zařízení</string>
     <string name="trans_show_qr_code_label_for_pad">Otevřete Přesun do nového zařízení na starém zařízení</string>
+    <string name="trans_show_qr_code_label_pad">Otevřete Přesun do nového zařízení (Mi Mover) na starém zařízení</string>
     <string name="trans_sync_transfer_data_list">Na starém zařízení vyberte položky k odeslání</string>
     <string name="trans_sync_transfer_data_list_apple">Přenos položek ze zařízení Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Okamžik…</string>
     <string name="trans_sync_transfer_data_list_pad">Na starém zařízení vyberte položky k přenosu</string>
+    <string name="trans_sync_transfer_data_list_phone">Na starém zařízení vyberte položky k odeslání</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Vyberte položky na starém zařízení a klepněte na „Odeslat“.</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Vyberte položky na starém zařízení a klepněte na „Odeslat“.</string>
     <string name="trans_time_format_second">Méně než %d minuta</string>
@@ -977,6 +1057,7 @@ Stáhněte a nainstalujte Přesun do nového zařízení (Mi Mover)."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Po ukončení bude přenos uložen v bodě, kde byl naposledy přerušen. Při příštím připojení obou zařízení budete moci pokračovat tam, kde jste naposledy přestali.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Po ukončení bude přenos uložen v bodě, kde byl naposledy přerušen. Při příštím připojení obou zařízení budete moci pokračovat tam, kde jste naposledy přestali.</string>
     <string name="transfer_quit_alert_title">Upozornění</string>
     <string name="transfer_snap_error">Přenos se nezdařil</string>
     <string name="transfer_snap_new_receiving">Přijímání…</string>

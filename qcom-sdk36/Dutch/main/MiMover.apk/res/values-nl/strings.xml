@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Volgende</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Deze %1$d-bits apps kunnen niet worden overgezet naar een %2$d-bits apparaat. U kunt ze na de overdracht rechtstreeks downloaden van GetApps.</string>
     <string name="audio">Audio</string>
+    <string name="audio_permission_desc_new">Voor het overzetten van muziek en audio naar het nieuwe apparaat</string>
     <string name="audio_video_document">Audio, video en documenten</string>
     <string name="back">Terug</string>
     <string name="backup_died_summary">Tik op \"Opnieuw verbinden\". De voortgang van de overdracht wordt hervat vanaf het punt waar u was gebleven.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">De code is lange tijd niet ingevoerd. Maak handmatig verbinding.</string>
     <string name="ble_enter_verifycode_timeout_title">Sessie verlopen</string>
     <string name="ble_guest_connecting_title">Verbinding maken met nieuw apparaat…</string>
+    <string name="ble_guest_connecting_title_pad">Verbinden met het nieuwe apparaat…</string>
     <string name="ble_host_verification_summary">Voer een %d-cijferige code in op uw oude apparaat.</string>
     <string name="ble_host_verification_title">Verbinding maken met oud apparaat…</string>
     <string name="ble_manual_authorization_content">Verleen de vereiste toestemmingen om items te kunnen overdragen met Mi Mover. U kunt deze toestemmingen verlenen in Instellingen.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Hotspot succesvol aangemaakt. Wachten om verbinding te maken…</string>
     <string name="ble_starting_ap">Hotspot creëren…</string>
     <string name="ble_wait_verify_code">Code genereren op nieuw apparaat…</string>
+    <string name="ble_wait_verify_code_pad">Code genereren op nieuw apparaat…</string>
     <string name="ble_waiting_verify_code">Code verifiëren…</string>
     <string name="ble_waiting_verify_code_error">De code die u hebt ingevoerd is incorrect</string>
+    <string name="blutooth_permission_desc_new">Voor het vinden van apparaten in de buurt die klaar zijn om verbinding te maken</string>
     <string name="btn_got_it">Begrepen</string>
     <string name="btn_install_complete">Geïnstalleerd</string>
     <string name="btn_mi_cloud_install_complete">Ik heb de app geïnstalleerd</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Actief gesprek</string>
     <string name="call_notification_screening_text">Een inkomend gesprek screenen</string>
     <string name="calllog">Belgeschiedenis</string>
+    <string name="camera_permission_content">Voor het ontdekken van apparaten in de buurt</string>
     <string name="cancel">Annuleren</string>
     <string name="cancel_moving_dialog_message">Nu stoppen met importeren?</string>
     <string name="cancel_moving_dialog_title">Stop met importeren</string>
@@ -150,8 +155,10 @@ Ga naar https://appleid.apple.com/#!&amp;page=signin om uit te schakelen"</strin
     <string name="connection_tips_owner_title">Als uw oude apparaat een Mi Phone is:</string>
     <string name="connection_tips_owner_title_global">Installeer de nieuwste versie van Mi Mover:</string>
     <string name="contact_records_permission_desc">Voor het overzetten van belgeschiedenis naar andere apparaten</string>
+    <string name="contact_records_permission_desc_new">Voor het overzetten van de belgeschiedenis naar het nieuwe apparaat</string>
     <string name="contacts">Contacten</string>
     <string name="contacts_permission_desc">Voor het overzetten van contacten naar andere apparaten</string>
+    <string name="contacts_permission_desc_new">Voor het overzetten van contacten naar het nieuwe apparaat</string>
     <string name="contains_unauthorized_data">Bevat ongeautoriseerde gegevens</string>
     <string name="copy">Kopiëren</string>
     <string name="current_user_not_supported_summary">Huidige systeeminstellingen beperken de overdracht van data met behulp van Mi Mover.</string>
@@ -180,6 +187,17 @@ Ga naar https://appleid.apple.com/#!&amp;page=signin om uit te schakelen"</strin
     <string name="dialog_rating_desc_less">Kunt u ons een paar suggesties geven zodat we onze app kunnen verbeteren?</string>
     <string name="dialog_rating_desc_perfect">Bedankt! Mi Mover ook in GetApps beoordelen?</string>
     <string name="dialog_rating_title">Mi Mover beoordelen</string>
+    <string name="dialog_request_all_permission_content_new">"Om gegevens van uw oude apparaat naar uw nieuwe over te zetten, moet deze app verbinding maken met het internet en de volgende toestemmingen hebben:
+• Toegang tot foto's, audio, kalender en video's
+• Toegang tot berichten, contacten en belgeschiedenis
+• Toegang tot opslag
+• Toegang tot de lijst met apps die op het apparaat zijn geïnstalleerd"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Om gegevens van uw oude apparaat naar uw nieuwe over te zetten, moet deze app verbinding maken met het internet en de volgende toestemmingen hebben:
+• Toegang tot foto's, audio, kalender en video's
+• Toegang tot berichten, contacten en belgeschiedenis
+• Toegang tot opslag
+• Toegang tot de lijst met apps die op het apparaat zijn geïnstalleerd"</string>
+    <string name="dialog_request_all_permission_title_new">Toestemmingen vereist</string>
     <string name="dialog_request_network_btn_negative">Sluiten</string>
     <string name="dialog_request_network_btn_positive">Akkoord</string>
     <string name="dialog_request_permission_message">Welkom bij Mi Mover! U kunt deze app gebruiken om gegevens van uw oude apparaat naar een nieuwe apparaat over te zetten. De gegevens worden overgedragen tussen de twee apparaten en worden niet geüpload naar onze servers. Deze app moet verbinding maken met het internet en heeft de volgende toestemmingen nodig om normaal te kunnen werken:</string>
@@ -188,6 +206,8 @@ Ga naar https://appleid.apple.com/#!&amp;page=signin om uit te schakelen"</strin
     <string name="dialog_request_permission_message_extra_title">Vereiste toestemmingen</string>
     <string name="dialog_request_permission_message_global">Deze app heeft de volgende toestemmingen nodig om normaal te kunnen werken:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Om uw rechten als gebruiker en de manieren waarop wij uw gegevens gebruiken volledig te begrijpen, leest u en gaat u akkoord met onze &lt;a href='%1s'>Xiaomi Besturingssysteem Gebruikersovereenkomst&lt;/a> en &lt;a href='%2s'>Mi Mover Privacybeleid&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Sta deze app toe verbinding te maken met het internet en verleen de hierboven vermelde verplichte toestemmingen. Om uw rechten als gebruiker en de manier waarop wij uw gegevens gebruiken volledig te begrijpen, dient u de &lt;a href='%1s'>Xiaomi Besturingssysteem Gebruikersovereenkomst&lt;/a> en &lt;a href='%2s'>Mi Mover Privacybeleid&lt;/a> te lezen en hiermee akkoord te gaan."</Data></string>
+    <string name="dialog_request_permission_message_new">Welkom bij Mi Mover! Met deze app kunt u gegevens van uw oude apparaat naar een nieuw apparaat overzetten. De gegevens worden rechtstreeks tussen de twee apparaten overgedragen en niet naar onze servers geüpload.</string>
     <string name="dialog_request_permission_message_provision_link">Om uw rechten als gebruiker en de manieren waarop we uw gegevens gebruiken volledig te begrijpen, moet u tegelijkertijd onze %1$s en %2$s lezen en ermee akkoord gaan.</string>
     <string name="dialog_request_permission_title">Let op</string>
     <string name="dialog_request_permission_title_global">Toestemmingen vereist</string>
@@ -367,9 +387,12 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="icloud_signin_fail_message">Uw Apple ID is om veiligheidsredenen vergrendeld. Ga naar iforgot.apple.com en volg de instructies.</string>
     <string name="icloud_start_now">Mobiele data gebruiken</string>
     <string name="icloud_verify_tips">Tik op \"Toestaan\" op uw iOS-apparaat en voer hier de code in die erop verschijnt.</string>
+    <string name="idm_discovery_summary_pad">Het lijkt erop dat u nu een nieuw apparaat activeert. Wilt u items van dit apparaat overzetten naar het nieuwe?</string>
+    <string name="idm_discovery_title_pad">Zet items over naar uw nieuwe apparaat</string>
     <string name="im_recipient">Ik ben een ontvanger</string>
     <string name="im_sender">Ik ben een verzender</string>
     <string name="image">Afbeeldingen</string>
+    <string name="image_video_permission_desc_new">"Voor het overzetten van foto's en video's naar het nieuwe apparaat"</string>
     <string name="import_again">Opnieuw importeren</string>
     <string name="import_data_from_icloud">Gegevens importeren uit iCloud</string>
     <string name="install_app_dialog_title">Kon geen apparaten in de buurt vinden</string>
@@ -395,6 +418,8 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="lack_perm_title">Toestemmingen vereist</string>
     <string name="launcher">Startscherm lay-out</string>
     <string name="loading_data">Een ogenblik geduld…</string>
+    <string name="location_permission_content_no_provisioned">Geef deze toestemming om verbinding te kunnen maken met de hotspot van een apparaat in de buurt. Als u deze toestemming niet geeft, kunt u geen items overdragen.</string>
+    <string name="location_permission_content_provisioned">Om verbinding te maken met de hotspot van een apparaat in de buurt</string>
     <string name="location_permission_desc">Voor het vinden van apparaten in de buurt</string>
     <string name="location_permission_request">Om verbinding te maken met andere apparaten in de buurt</string>
     <string name="lockscreen_access">Patroongebied</string>
@@ -423,6 +448,8 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="manual_connection_title">Handmatig verbinding maken met het oude apparaat</string>
     <string name="manual_connection_title_pad">Sluit het oude apparaat aan op de hotspot</string>
     <string name="manual_connection_title_phone">Sluit het oude apparaat aan op de hotspot</string>
+    <string name="manual_disconnect_guest">Nieuw apparaat is losgekoppeld. Maak opnieuw verbinding om de overdracht voort te zetten.</string>
+    <string name="manual_disconnect_host">Het oude apparaat is losgekoppeld. Maak opnieuw verbinding om de overdracht voort te zetten.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover moet toegang hebben tot alle bestanden op dit apparaat om ze van uw oude naar een nieuwe apparaat te kunnen verplaatsen.</string>
     <string name="message_request_package_stats_perm">Mi Mover heeft deze toestemming nodig om te leren welke apps op een apparaat zijn geïnstalleerd en deze apps over te zetten naar een ander apparaat.</string>
     <string name="midnight">Nacht</string>
@@ -513,6 +540,7 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="more">Meer</string>
     <string name="morning">Ochtend</string>
     <string name="msg_permission_desc">Voor het overzetten van berichten naar andere apparaten</string>
+    <string name="msg_permission_desc_new">Voor het overzetten van sms en mms naar andere apparaten</string>
     <string name="name_password_not_consistent">Het ingevoerde Apple ID en wachtwoord komen niet overeen</string>
     <string name="need_location_permission_confirm">Instellingen</string>
     <string name="need_location_permission_summary">Geef Mi Mover toegang tot uw locatie om apparaten in de buurt te kunnen vinden.</string>
@@ -522,6 +550,20 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="need_more_memory_title">Niet genoeg opslagruimte</string>
     <string name="new_app_name">Nieuwe versie</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Auteursrechtelijk beschermde gegevens</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Systeem-apps en gegevens van andere merken zijn mogelijk niet compatibel met Mi Mover en kunnen niet worden overgezet.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Apps en gegevens die niet compatibel zijn met het nieuwe apparaat kunnen niet worden overgezet.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Sommige telefooninstellingen en gegevens zijn gekoppeld aan uw SIM-kaart. Wanneer u de SIM-kaart in het nieuwe apparaat plaatst, worden deze gegevens overgezet.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Enkele app-gegevens</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Gegevens Tweede ruimte</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Gegevens Tweede ruimte</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Privacy- en beveiligingsgerelateerde gegevens</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Bankpassen en autosleutels kunnen niet worden overgedragen.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">"Thema's en achtergronden zijn onderhevig aan beperkingen qua schermresolutie en kunnen niet tussen alle modellen worden overgezet."</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Vanwege beperkingen van het Bluetooth-protocol kunnen koppelingsgegevens voor Bluetooth-oortelefoons, -luidsprekers en andere apparaten niet worden overgedragen.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Operationele statistieken, zoals stroomverbruik, schermtijd en mobiel dataverbruik, kunnen niet worden overgedragen.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Gegevens die gekoppeld zijn aan een specifiek apparaatmodel</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Welke gegevens kunnen niet via Mi Mover worden overgedragen?</string>
     <string name="new_trans_intro_desc_2">Het is niet nodig om een wachtwoord in te voeren in de nieuwe versie van Mi Mover. Open Mi Mover op uw oude apparaat, tik op \"Ik ben een afzender\" en tik op de naam van de hotspot om verbinding te maken.</string>
     <string name="new_trans_intro_desc_2_pad">Het is niet nodig om het wachtwoord van de hotspot in te voeren in de nieuwe versie van Mi Mover. Open gewoon Mi Mover op uw oude apparaat, tik op \"Ik ben een afzender\" en tik op de naam van de hotspot om verbinding te maken.</string>
     <string name="new_trans_intro_desc_2_phone">Het is niet nodig om het wachtwoord van de hotspot in te voeren in de nieuwe versie van Mi Mover. Open gewoon Mi Mover op uw oude apparaat, tik op \"Ik ben een afzender\" en tik op de naam van de hotspot om verbinding te maken.</string>
@@ -532,18 +574,18 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="new_trans_intro_desc_6_pad">App-gegevens kunnen niet worden overgedragen omdat Mi Mover niet over de nodige toestemmingen beschikt op apparaten die niet van Xiaomi zijn.</string>
     <string name="new_trans_intro_desc_6_phone">App-gegevens kunnen niet worden overgedragen omdat Mi Mover niet over de nodige toestemmingen beschikt op apparaten die niet van Xiaomi zijn.</string>
     <string name="new_trans_intro_desc_7">Mi Mover kan verder gaan waar u was gebleven. Het kan echter zijn dat u opnieuw moet beginnen als problemen met de apparaatcompatibiliteit u verhinderen de onderbroken overdracht te hervatten.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover kan verder gaan waar u was gebleven. Het kan echter zijn dat u opnieuw moet beginnen als problemen met de apparaatcompatibiliteit u verhinderen de onderbroken overdracht te hervatten.</string>
     <string name="new_trans_intro_desc_8">WeChat geschiedenis van uw oude apparaat overschrijft de WeChat geschiedenis van uw nieuwe apparaat tijdens de overdracht.</string>
+    <string name="new_trans_intro_desc_8_pad">WeChat geschiedenis van uw oude apparaat overschrijft de WeChat geschiedenis van uw nieuwe apparaat tijdens de overdracht.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of tik hier: %2$s.
 %3$d. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
     <string name="new_trans_intro_desc_new_click">Downloaden</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in Google Play of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in Google Play of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Google Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+%3$d. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in Google Play of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+%3$d. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de wifi-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Zorg ervoor dat Mi Mover op uw nieuwe apparaat up-to-date is. U kunt de nieuwste versie van Mi Mover downloaden in de Play Store of <Data>&lt;a href=%2$s>tik hier&lt;/a></Data>".
+%3$d. Als de hotspot nog steeds niet in Mi Mover verschijnt, open dan de WLAN-instellingen en controleer of u hem daar kunt zien. Zo ja, ga dan terug naar Mi Mover en tik op de naam van de hotspot."</string>
     <string name="new_trans_intro_desc_old">%d. Als de hotspot nog steeds niet verschijnt in Mi Mover, open dan wifi-instellingen en controleer of u hem daar kunt zien. Ga dan terug naar Mi Mover en tik op de naam van de hotspot.</string>
     <string name="new_trans_intro_question_1">%d. Waarom kan ik de hotspot van het nieuwe apparaat niet zien op het oude apparaat?</string>
     <string name="new_trans_intro_question_1_pad">%d. Waarom kan ik de hotspot van het nieuwe apparaat niet op het oude zien?</string>
@@ -573,15 +615,22 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="not_set">Niet ingesteld</string>
     <string name="not_support_data_content1">%d. Items specifiek voor apparaatmodel</string>
     <string name="not_support_data_content2">%d. App-gegevens</string>
+    <string name="not_support_data_content2_new">%d. Auteursrechtelijk beschermde gegevens</string>
     <string name="not_support_data_content3">%d. Gegevens Tweede ruimte</string>
+    <string name="not_support_data_content3_new">%d. Privacy- en beveiligingsgerelateerde gegevens</string>
     <string name="not_support_data_content4">%d. Dubbele apps</string>
+    <string name="not_support_data_content4_new">%d. Enkele app-gegevens</string>
     <string name="not_support_data_content_2">%d. Geselecteerde apps en app-gegevens</string>
     <string name="not_support_data_link">Items die niet kunnen worden overgedragen</string>
     <string name="not_support_data_summary1">"Thema's, achtergronden, transportkaarten en sleutelkaarten kunnen niet worden overgedragen met Mi Mover."</string>
+    <string name="not_support_data_summary1_new">"Bankpassen en autosleutels kunnen niet worden overgedragen. Thema's en achtergronden zijn onderhevig aan beperkingen qua schermresolutie en kunnen niet tussen bepaalde modellen worden overgedragen."</string>
     <string name="not_support_data_summary2">App-gegevens (zoals gespreksgeschiedenis) kunnen niet worden overgedragen.</string>
+    <string name="not_support_data_summary2_new">"Thema's, lettertypen, grote pictogrammen, Altijd-aan-display-thema's en widgets die via uw Xiaomi Account zijn aangeschaft en auteursrechtelijk beschermd zijn, kunnen niet worden overgezet. Log in met uw Xiaomi Account op het nieuwe apparaat en download ze daar opnieuw."</string>
     <string name="not_support_data_summary3">Vanwege systeembeperkingen kunnen items uit Tweede ruimte niet worden overgedragen met Mi Mover.</string>
+    <string name="not_support_data_summary3_new">Vingerafdrukken, gezichtsgegevens en andere gegevens die verband houden met apparaateigendom, financiële beveiliging en privacy van de gebruiker, kunnen in geen enkele vorm van het oude apparaat worden overgezet. Dit geldt ook voor gegevens van financiële apps (bijv. mobiel bankieren).</string>
     <string name="not_support_data_summary4">Dubbele apps en hun gegevens kunnen ook niet worden overgedragen. U kunt echter de bijbehorende hoofd-apps overdragen.</string>
     <string name="not_support_data_summary_2">Sommige apps kunnen niet worden overgedragen vanwege privacybeperkingen in de Play Store.</string>
+    <string name="not_support_data_summary_new">Systeem-apps en gegevens van andere merken zijn mogelijk niet compatibel met Mi Mover en kunnen niet worden overgezet.</string>
     <string name="not_support_data_title">Items die niet kunnen worden overgedragen</string>
     <string name="note">Notities</string>
     <string name="nothing_chosen">Selecteer eerst items</string>
@@ -606,7 +655,7 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="notification_trans_running_title">Mi Mover wordt nu gebruikt…</string>
     <string name="notification_trans_send_message">Gegevens worden nu verzonden. Schakel wifi niet uit en wissel niet van netwerk.</string>
     <string name="notification_trans_send_title">Gegevens verzenden…</string>
-    <string name="ok">OK</string>
+    <string name="ok">OК</string>
     <string name="old_app_name">Oude versie</string>
     <string name="old_task_cleared">Oude taken succesvol verwijderd</string>
     <string name="old_wait_link">Selecteer de items om over te zetten op het oude apparaat</string>
@@ -641,27 +690,39 @@ Open WeChat en ga naar Mijn > Instellingen > Algemeen > Back-up en chats migrere
     <string name="permission_alert_message_usage_access">Mi Mover heeft toegang tot app-gebruik statistieken nodig. Geef Mi Mover de vereiste toestemmingen in de Instellingen.</string>
     <string name="permission_alert_title">Toestemmingen vereist</string>
     <string name="permission_bluetooth_summary">Voor het vinden van beschikbare apparaten in de buurt</string>
+    <string name="permission_bluetooth_summary_new">Voor het vinden van beschikbare apparaten in de buurt</string>
     <string name="permission_bluetooth_title">Bluetooth in- en uitschakelen</string>
     <string name="permission_calendar_summary">Voor het overzetten van kalendergebeurtenissen</string>
     <string name="permission_calendar_title">Toegang tot kalender</string>
     <string name="permission_calender_summary">Voor het verplaatsen van gebeurtenissen van het oude apparaat naar het nieuwe</string>
     <string name="permission_calender_summary_global">Voor het overzetten van kalendergebeurtenissen naar het nieuwe apparaat</string>
+    <string name="permission_calender_summary_new">Voor het verplaatsen van gebeurtenissen van het oude apparaat naar het nieuwe</string>
     <string name="permission_calender_title">Toegang tot kalendergebeurtenissen</string>
+    <string name="permission_calender_title_new">Toegang tot kalendergebeurtenissen</string>
     <string name="permission_call_log_summary">Om de belgeschiedenis over te zetten naar uw nieuwe apparaat</string>
+    <string name="permission_call_log_summary_new">Om de belgeschiedenis over te zetten naar uw nieuwe apparaat</string>
     <string name="permission_call_log_title">Toegang tot belgeschiedenis</string>
     <string name="permission_contacts_summary">Voor het overzetten van contacten naar uw nieuwe apparaat</string>
+    <string name="permission_contacts_summary_new">Voor het overzetten van contacten naar uw nieuwe apparaat</string>
     <string name="permission_contacts_title">Toegang tot contacten</string>
     <string name="permission_grant_request">Om dit item te kunnen overzetten, heeft Mi Mover de toestemming \"%1$s\" nodig.</string>
     <string name="permission_locale_summary">Om verbinding te maken met apparaten in de buurt</string>
     <string name="permission_locale_title">Toegang tot locatie</string>
+    <string name="permission_locale_title_new">Toegang tot locatie</string>
     <string name="permission_message_summary">Voor het overzetten van berichten naar uw nieuwe apparaat</string>
+    <string name="permission_message_summary_new">Voor het overzetten van berichten naar uw nieuwe apparaat</string>
     <string name="permission_message_title">Toegang tot sms-inhoud</string>
     <string name="permission_request_title">\"%1$s\" toestemming vereist</string>
     <string name="permission_setting_button">Instellingen</string>
     <string name="permission_storage_summary">"Voor het overzetten van bestanden en foto's naar uw nieuwe apparaat"</string>
+    <string name="permission_storage_summary_new">"Voor het overzetten van bestanden en foto's naar uw nieuwe apparaat"</string>
     <string name="permission_storage_title">"Bestanden en foto's openen en opslaan die op uw apparaat zijn opgeslagen"</string>
+    <string name="permission_storage_title_new">Toegang tot opslag</string>
     <string name="permission_wifi_summary">Voor het overzetten van items naar uw nieuwe apparaat</string>
+    <string name="permission_wifi_summary_new">Voor het overzetten van items naar uw nieuwe apparaat</string>
     <string name="permission_wifi_title">Wifi in- en uitschakelen</string>
+    <string name="permission_wifi_title_new">Wifi in- en uitschakelen</string>
+    <string name="permission_wifi_title_new_china">WLAN in- en uitschakelen</string>
     <string name="pm">PM</string>
     <string name="preference_copied">"'%1$s' is gekopieerd naar het klembord."</string>
     <string name="privacy_agree">Akkoord</string>
@@ -749,6 +810,7 @@ Maak minstens %s vrij."</string>
     <string name="scanner_quit_alert_message_phone">U zult de twee apparaten opnieuw moeten verbinden als u Mi Mover nu afsluit. Toch afsluiten?</string>
     <string name="scanner_quit_alert_title">Nu sluiten?</string>
     <string name="scanner_send_dialog_btn">Begrepen</string>
+    <string name="scanner_send_dialog_btn_i_know">Begrepen</string>
     <string name="scanner_send_dialog_message">Schakel wifi niet uit en wissel niet van netwerk gedurende de overdracht.</string>
     <string name="scanner_size_selected">Geselecteerd: %s</string>
     <string name="scanner_subtitle_prd">Lees de volgende informatie zorgvuldig door voordat u elk item controleert en het overdrachtsproces start.</string>
@@ -756,6 +818,7 @@ Maak minstens %s vrij."</string>
     <string name="scanner_title_prd">Belangrijke informatie</string>
     <string name="scanner_title_tip">Selecteer items om over te zetten</string>
     <string name="scanner_wechat_overwrite_hit">Vanwege app-beperkingen van derden, worden chatgeschiedenis en andere app-gegevens op uw nieuwe apparaat vervangen door die van het oude nadat de overdracht is voltooid.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Vanwege app-beperkingen van derden, worden chatgeschiedenis en andere app-gegevens op uw nieuwe apparaat vervangen door die van het oude nadat de overdracht is voltooid.</string>
     <string name="search_menu_title">Zoeken</string>
     <string name="searching_for_new_device">Zoeken naar het nieuw apparaat…</string>
     <string name="searching_for_new_device_pad">Zoeken naar het nieuw apparaat…</string>
@@ -889,27 +952,42 @@ Maak minstens %s vrij."</string>
     <string name="time_spent">Tijd: %1$s</string>
     <string name="tips_button_hint">Controleer eerst elk item om te bevestigen</string>
     <string name="tips_cover_content">Als u doorgaat, worden deze gegevens (inclusief chatgeschiedenis) overschreven.</string>
+    <string name="tips_cover_content_pad">Als u doorgaat, worden deze gegevens (inclusief chatgeschiedenis) overschreven.</string>
     <string name="tips_cover_content_tablet">Als u doorgaat, worden deze gegevens (inclusief chatgeschiedenis) overschreven.</string>
     <string name="tips_cover_title">%1$d. Er zijn al gegevens voor de volgende apps op het nieuwe apparaat.</string>
+    <string name="tips_cover_title_pad">%1$d. Er zijn al gegevens voor de volgende apps op het nieuwe apparaat.</string>
     <string name="tips_cover_title_tablet">%1$d. Er zijn al gegevens voor de volgende apps op het nieuwe apparaat.</string>
     <string name="tips_dual_app_content">Dubbele apps kunnen niet worden overgedragen. Alleen de hoofd-app en de bijbehorende gegevens kunnen worden overgedragen.</string>
     <string name="tips_dual_app_title">%d. De volgende apps zijn dubbele apps.</string>
+    <string name="tips_dual_app_title_new">%d. Gegevens van dubbele apps kunnen niet worden overgedragen.</string>
     <string name="tips_hot_content">Dit is normaal. Uw apparaat koelt af zodra de overdracht is voltooid.</string>
+    <string name="tips_hot_content_new">Dit is normaal. Uw apparaat koelt af zodra de overdracht is voltooid.</string>
     <string name="tips_hot_title">%d. Uw apparaat kan warm worden tijdens het overdrachtsproces.</string>
+    <string name="tips_hot_title_content">%d. Uw apparaat kan oververhit raken.</string>
     <string name="tips_private_space_content">Vanwege systeembeperkingen kunnen gegevens uit de Tweede ruimte niet worden overgedragen.</string>
+    <string name="tips_private_space_content_pad">Dit komt door systeembeperkingen.</string>
+    <string name="tips_private_space_content_phone">Dit komt door systeembeperkingen.</string>
     <string name="tips_private_space_content_tablet">Vanwege systeembeperkingen kunnen gegevens uit de Tweede ruimte niet worden overgedragen.</string>
     <string name="tips_private_space_title">%d. Tweede ruimte is ingeschakeld.</string>
+    <string name="tips_private_space_title_pad">%d. Gegevens in de Tweede ruimte kunnen niet worden overgedragen.</string>
+    <string name="tips_private_space_title_phone">%d. Gegevens in de Tweede ruimte kunnen niet worden overgedragen.</string>
     <string name="tips_private_space_title_tablet">%d. Tweede ruimte is ingeschakeld.</string>
     <string name="tips_prudent_operation_content">Als u de verbinding verbreekt, wordt de overdracht gestopt.</string>
     <string name="tips_prudent_operation_title">%d. Schakel wifi-hotspot niet uit en verander deze niet.</string>
+    <string name="tips_prudent_operation_title_new">%d. Schakel wifi-hotspot niet uit en verander deze niet.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Schakel WLAN-hotspot niet uit en verander deze niet.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Schakel WLAN-hotspot niet uit en verander deze niet.</string>
     <string name="tips_secret_content_one">Sommige privé-items op het oude apparaat (%1$s) kunnen niet worden overgedragen. Verwijder ze uit de privémap om ze te kunnen overdragen.</string>
+    <string name="tips_secret_content_one_new">Sommige privé-items op het oude apparaat (%1$s) kunnen niet worden overgedragen. Verwijder ze uit de privémap om ze te kunnen overdragen.</string>
     <string name="tips_secret_content_three">Sommige privé-items op het oude apparaat (%1$s, %2$s, %3$s) kunnen niet worden overgedragen. Verwijder ze uit de privémap om ze te kunnen overdragen.</string>
+    <string name="tips_secret_content_three_new">Sommige privé-items op het oude apparaat (%1$s, %2$s, %3$s) kunnen niet worden overgedragen. Verwijder ze uit de privémap om ze te kunnen overdragen.</string>
     <string name="tips_secret_content_two">Sommige privé-items op het oude apparaat (%1$s, %2$s) kunnen niet worden overgedragen. Verwijder ze uit de privémap om ze te kunnen overdragen.</string>
+    <string name="tips_secret_content_two_new">Sommige privé-items op het oude apparaat (%1$s, %2$s) kunnen niet worden overgedragen. Verwijder ze uit de privémap om ze te kunnen overdragen.</string>
     <string name="tips_secret_file">bestanden</string>
     <string name="tips_secret_gallery">albums</string>
     <string name="tips_secret_note">notities</string>
     <string name="tips_secret_title">%d. Sommige privé-items kunnen niet worden overgedragen.</string>
+    <string name="tips_secret_title_content">%d. Privé-items kunnen niet worden overgedragen.</string>
     <string name="tips_subtitle">Lees en bevestig de volgende herinneringen voordat u verdergaat.</string>
     <string name="title_compatibility_mode">App-compatibiliteitsmodus inschakelen</string>
     <string name="title_open_wlan">Wifi inschakelen</string>
@@ -951,10 +1029,12 @@ Download en installeer Mi Mover."</string>
     <string name="trans_send_time_remained_default">Verzonden: %1$s</string>
     <string name="trans_show_qr_code_label">Open Mi Mover op het oude apparaat</string>
     <string name="trans_show_qr_code_label_for_pad">Open Mi Mover op het oude apparaat</string>
+    <string name="trans_show_qr_code_label_pad">Open Mi Mover op het oude apparaat</string>
     <string name="trans_sync_transfer_data_list">Selecteer items om over te zetten op het oude apparaat</string>
     <string name="trans_sync_transfer_data_list_apple">Items overzetten van uw Apple-apparaat</string>
     <string name="trans_sync_transfer_data_list_hint">Een ogenblik geduld…</string>
     <string name="trans_sync_transfer_data_list_pad">Selecteer items op het oude apparaat om over te zetten</string>
+    <string name="trans_sync_transfer_data_list_phone">Selecteer items om over te zetten op het oude apparaat</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Selecteer items op uw oude apparaat en tik op \"Verzenden\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Selecteer items op uw oude apparaat en tik op \"Verzenden\".</string>
     <string name="trans_time_format_second">Minder dan %d minuut</string>
@@ -977,6 +1057,7 @@ Download en installeer Mi Mover."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Overdrachtsvoortgang zal opgeslagen worden. U zult de overdracht de volgende keer dat u de twee apparaten verbindt kunnen hervatten van waar u gebleven bent.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Overdrachtsvoortgang zal opgeslagen worden. U zult de overdracht de volgende keer dat u de twee apparaten verbindt kunnen hervatten van waar u gebleven bent.</string>
     <string name="transfer_quit_alert_title">Let op</string>
     <string name="transfer_snap_error">Kon niet overzetten</string>
     <string name="transfer_snap_new_receiving">Ontvangen…</string>

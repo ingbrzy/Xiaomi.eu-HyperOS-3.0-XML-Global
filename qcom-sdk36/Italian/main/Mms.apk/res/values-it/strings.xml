@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Tocca per creare una nuova diapositiva</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">Programma</string>
-    <string name="add_to_block_by_number">"%s aggiunto
-alla lista blocchi"</string>
-    <string name="add_to_block_by_number_failed">"Non abbiamo potuto aggiungere %s alla Lista blocchi.
-Riprova."</string>
-    <string name="add_to_block_by_tag">"I messaggi che includono \"%s\"
-sono aggiunti alla lista blocchi"</string>
-    <string name="add_to_block_by_tag_failed">"Non abbiamo potuto aggiungere i messaggi contenenti \"%s\" alla lista di blocco.
-Riprova."</string>
-    <string name="add_to_block_cta_failed">Concedi a Sicurezza i permessi necessari per poter aggiungere elementi alla lista di blocchi</string>
+    <string name="add_to_block_by_number">Aggiunto alla lista blocchi</string>
+    <string name="add_to_block_by_number_failed">Non è stato possibile aggiungere alla lista blocchi. Riprova.</string>
+    <string name="add_to_block_by_tag">Parola chiave aggiunta alla lista blocchi</string>
+    <string name="add_to_block_by_tag_failed">Non è stato possibile aggiungere la parola chiave alla lista blocchi. Riprova.</string>
+    <string name="add_to_block_cta_failed">Apri Sicurezza e accetta i termini e le condizioni per poter utilizzare questa funzione</string>
     <string name="add_to_browser_favorite_failed">Impossibile aggiungere</string>
     <string name="add_to_browser_favorite_success">Aggiunto correttamente</string>
     <string name="add_to_calender">Aggiungi al Calendario</string>
@@ -125,7 +121,7 @@ Riprova."</string>
     <string name="beidou_audio_not_support_multi_recipient">In questo momento non è possibile inviare messaggi vocali a più destinatari</string>
     <string name="beidou_cannot_receive_airmode">Turn off Airplane mode to receive messages</string>
     <string name="beidou_cannot_send_mms">"BeiDou satellite communications doesn't support MMS"</string>
-    <string name="beidou_cannot_use">Turn off Tiantong satellite communications and try again</string>
+    <string name="beidou_cannot_use">Disattiva le comunicazioni satellitari di Tiantong e riprova</string>
     <string name="beidou_exceed_send_limit">"Can't send any more messages this month"</string>
     <string name="beidou_exceed_words_limit">Delete some characters to be able to send</string>
     <string name="beidou_from_contacts">Reply from %s</string>
@@ -135,22 +131,22 @@ Riprova."</string>
     <string name="beidou_introduce">Learn more about BeiDou satellite communications</string>
     <string name="beidou_location_failed">"Couldn't get location. Go to an open area and try again."</string>
     <string name="beidou_max_support_contact_number">Add up to %d contacts</string>
-    <string name="beidou_message">BeiDou satellite messaging</string>
+    <string name="beidou_message">Messaggistica via satellite BeiDou</string>
     <string name="beidou_new_message">Invia</string>
     <string name="beidou_open_location_service">BeiDou satellite messaging needs permission to access your location in order to work normally.</string>
-    <string name="beidou_query_remain_time">Check balance</string>
+    <string name="beidou_query_remain_time">Verifica credito</string>
     <string name="beidou_query_remain_time_failed">"Couldn't check balance"</string>
     <string name="beidou_receive_message">Ricevi</string>
     <string name="beidou_satellite_sms_notification">This message was sent via BeiDou satellite communications</string>
     <string name="beidou_sim_not_support">"SIM card doesn't support BeiDou satellite messaging"</string>
     <string name="beidou_support_cta_tips">This app can also read, edit, send, and receive BeiDou satellite messages.</string>
     <string name="beidou_support_location_tips">"L'utilizzo dei servizi BeiDou richiede l'accesso alla tua posizione."</string>
-    <string name="beidou_to_contacts">Recipient: %s</string>
+    <string name="beidou_to_contacts">Destinatario: %s</string>
     <string name="billing">Spese</string>
     <string name="block_messaging_entry_title">SMS bloccati</string>
-    <string name="block_number_message">Il numero verrà aggiunto alla lista blocchi. Tutti i messaggi inviati da questo numero saranno bloccati.</string>
+    <string name="block_number_message">Una volta aggiunto, tutte le chiamate in entrata e i messaggi provenienti da %s saranno bloccati. Aggiungere ora?</string>
     <string name="block_support_text">Offerto da Antiy.</string>
-    <string name="block_tag_message">Tutti i messaggi inviati da %s saranno bloccati. Potresti non essere in grado di ricevere codici di verifica o fatture inviate da questo servizio.</string>
+    <string name="block_tag_message">Una volta aggiunta, tutti i messaggi contenenti la parola chiave \"%s\" saranno bloccati. Ciò potrebbe includere i codici di verifica e le informazioni relative agli ordini. Aggiungere ora?</string>
     <string name="boarding_time">Orario di imbarco</string>
     <string name="bookmark">Aggiunto ai preferiti</string>
     <string name="bookmark_confirm_delete_message">Rimuovere i messaggi selezionati dai preferiti?</string>
@@ -236,7 +232,7 @@ ti informiamo che la funzionalità di messaggistica Internet è sospesa fino a n
     <string name="confirm_dialog_title_make_as_read">Segna come già letto</string>
     <string name="confirm_export_dialog_description">Le precedenti conversazioni con questo contatto non saranno più nascoste.</string>
     <string name="confirm_export_dialog_title">Rimuovi dai contatti privati</string>
-    <string name="confirm_invalid_recipient">Got it</string>
+    <string name="confirm_invalid_recipient">Ho capito</string>
     <string name="confirm_no_block_positive">Sblocca</string>
     <string name="confirm_no_block_title">Interrompere il blocco di questi messaggi? I messaggi bloccati in precedenza appariranno nei messaggi ricevuti.</string>
     <string name="confirm_rate_limit">Stai per inviare numerosi messaggi multimediali.</string>
@@ -429,9 +425,9 @@ ti informiamo che la funzionalità di messaggistica Internet è sospesa fino a n
     <string name="fcm_fallback_notification_channel_label">Varie</string>
     <string name="fdn_check_failure">Puoi inviare messaggi solo ai numeri memorizzati.</string>
     <string name="feature_mx">Mi Message</string>
-    <string name="feature_mx_summary"><b>Mi Message allows you to send messages to other Mi Message users over the internet without incurring charges</b>. An outgoing SMS message is required to activate this service. Your carrier will charge you for this message. Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_mx_summary"><b>Mi Message ti consente di inviare messaggi ad altri utenti Mi Message tramite internet senza incorrere in addebiti</b>. È necessario un messaggio SMS in uscita per attivare questo servizio. Il tuo operatore ti addebiterà il costo del messaggio. Leggi e accetta il nostro <font color="#B3000000"><a href="http://url1">Accordo utente</a></font> e la nostra <font color="#B3000000"><a href="http://url2">Informativa sulla privacy</a></font> prima di utilizzare questa funzionalità.</string>
     <string name="feature_smart_sms">Messaggi smart</string>
-    <string name="feature_smart_sms_summary"><b>Smart Messaging provides Sender ID recognition and smart menus</b>". Smart Messaging is provided in part by Yulore. Read and agree to Yulore's "<font color="#B3000000"><a href="http://url3">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_smart_sms_summary"><b>"Messaggi smart fornisce il riconoscimento dell'ID del mittente e menu smart"</b>". Messaggi smart è fornito in parte da Yulore. Leggi e accetta l'"<font color="#B3000000"><a href="http://url3">Informativa sulla privacy</a></font> di Yulore prima di utilizzare questa funzionalità.</string>
     <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Volo</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -581,13 +577,13 @@ ti informiamo che la funzionalità di messaggistica Internet è sospesa fino a n
     <string name="menu_pick_from_contact">Seleziona dai contatti</string>
     <string name="menu_preferences">Impostazioni</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Lista blocchi</string>
+    <string name="menu_sms_block">Aggiungere alla lista blocchi?</string>
     <string name="menu_traffic_destination">Destinazione</string>
     <string name="menu_unlock">Rimuovi dai preferiti</string>
     <string name="menu_view_contact">Mostra contatto</string>
     <string name="menu_view_group_info">Info gruppo</string>
     <string name="message_cannot_send_air_mode">Disattiva la Modalità aereo per inviare messaggi</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">"La carta SIM che stai utilizzando non supporta l'invio di SMS"</string>
     <string name="message_cannot_send_sim_unavailable">Inserisci la scheda SIM per inviare messaggi</string>
     <string name="message_class_label">"Classe messaggio: "</string>
     <string name="message_contact">Contatto:</string>
@@ -1208,10 +1204,10 @@ Dai un'occhiata ai chatbot consigliati!"</string>
     <string name="recommend_tip_4">"Mi Message può riconoscere automaticamente l'ID del mittente consentendoti di visualizzare i nomi e le immagini del profilo di fornitori fidati."</string>
     <string name="recommend_tip_5">"Il riconoscimento intelligente dell'ID del mittente rende la tua casella di posta più ordinata e ti aiuta a identificare i mittenti affidabili."</string>
     <string name="recommend_tip_6">I servizi sopra citati sono forniti con il supporto tecnico di Yulore.</string>
-    <string name="recommend_tip_7">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Mi Message.</string>
-    <string name="recommend_tip_8">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using free internet messaging provided by Mi Message.</string>
-    <string name="recommend_tip_9">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Smart sender ID recognition.</string>
-    <string name="recommend_tip_9_2">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using our services.</string>
+    <string name="recommend_tip_7">Leggi e accetta il nostro <font color="#B3000000"><a href="http://url1">Accordo utente</a></font> e la nostra <font color="#B3000000"><a href="http://url2">Informativa sulla privacy</a></font>", oltre all'"<font color="#B3000000"><a href="http://url3">Informativa sulla privacy di Yulore</a></font> prima di utilizzare Mi Message.</string>
+    <string name="recommend_tip_8">Leggi e accetta il nostro <font color="#B3000000"><a href="http://url1">Accordo utente</a></font> e la nostra <font color="#B3000000"><a href="http://url2">Informativa sulla privacy</a></font>", oltre all'"<font color="#B3000000"><a href="http://url3">Informativa sulla privacy di Yulore</a></font> prima di utilizzare la messaggistica Internet gratuita fornita da Mi Message.</string>
+    <string name="recommend_tip_9">Leggi e accetta il nostro <font color="#B3000000"><a href="http://url1">Accordo utente</a></font> e la nostra <font color="#B3000000"><a href="http://url2">Informativa sulla privacy</a></font>", oltre all'"<font color="#B3000000"><a href="http://url3">Informativa sulla privacy di Yulore</a></font>" prima di utilizzare il riconoscimento intelligente dell'ID del mittente."</string>
+    <string name="recommend_tip_9_2">Leggi e accetta il nostro <font color="#B3000000"><a href="http://url1">Accordo utente</a></font> e la nostra <font color="#B3000000"><a href="http://url2">Informativa sulla privacy</a></font> prima di utilizzare i nostri servizi.</string>
     <string name="recommend_tip_default">Imposta Xiaomi Messaggi come app di messaggistica predefinita per avere tutti i vantaggi per la sicurezza che offriamo</string>
     <string name="recommend_tip_other">Altre app di messaggistica</string>
     <string name="recommend_tip_smart">Protezione della privacy. Riconoscimento intelligente.</string>
@@ -1249,8 +1245,8 @@ Dai un'occhiata ai chatbot consigliati!"</string>
     <string name="rms_normal_file_length_too_large">Impossibile inviare file di dimensioni superiori a %1$dMB</string>
     <string name="rms_original_image_length_too_large">Impossibile inviare immagini di dimensioni superiori a %1$dMB</string>
     <string name="rms_original_image_size_too_large">"L'immagine è troppo grande"</string>
-    <string name="rms_select_location">Location</string>
-    <string name="rms_send_button">Send</string>
+    <string name="rms_select_location">Posizione</string>
+    <string name="rms_send_button">Invia</string>
     <string name="rms_vcard_body">[Contatto]</string>
     <string name="rms_video_body">[Video]</string>
     <string name="rsc_chatbot_back">Indietro</string>
@@ -1325,6 +1321,11 @@ Dai un'occhiata ai chatbot consigliati!"</string>
     <string name="shortcut_new_msg">Nuovo messaggio</string>
     <string name="shortcut_setting">Impostazioni</string>
     <string name="show_delivery_status">Mostra stato di consegna</string>
+    <string name="silent_notification_notify_content">Hai ricevuto molti codici di verifica in poco tempo. Queste notifiche verranno temporaneamente silenziate.</string>
+    <string name="silent_notification_notify_double">La SIM %1$d e la SIM %2$d hanno ricevuto molti codici di verifica in poco tempo. Queste notifiche verranno temporaneamente silenziate.</string>
+    <string name="silent_notification_notify_single">La SIM %1$d ha ricevuto molti codici di verifica in poco tempo. Queste notifiche verranno temporaneamente silenziate.</string>
+    <string name="silent_notification_notify_title">Silenziamento degli SMS di verifica</string>
+    <string name="silent_notification_tip_exit">Interrompi silenziamento degli SMS di verifica</string>
     <string name="sim_card1">SIM 1</string>
     <string name="sim_card2">SIM 2</string>
     <string name="sim_card_cloud">%s (Mi Message)</string>

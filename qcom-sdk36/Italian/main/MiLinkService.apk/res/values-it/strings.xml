@@ -48,7 +48,12 @@
     <string name="answering_tel2">Trasferito dal telefono…</string>
     <string name="app_casting">Trasmissione app</string>
     <string name="app_name">Proiezione</string>
+    <string name="app_name_call">Telefono</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">Messaggi</string>
     <string name="app_name_vtcamera">Fotocamera multidispositivo</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -187,8 +192,6 @@ i dispositivi?"</string>
     <string name="cast_closed_captions">Sottotitoli codificati</string>
     <string name="cast_closed_captions_unavailable">Sottotitoli codificati non disponibili</string>
     <string name="cast_connecting_to_device">Collegamento a %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Ricerca di dispositivi</string>
-    <string name="cast_device_chooser_title">Trasmetti a</string>
     <string name="cast_disconnect">Disconnetti</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Immagine mostrata mentre il ricevitore Cast riproduce un annuncio</string>
@@ -229,9 +232,6 @@ i dispositivi?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Sottotitoli</string>
     <string name="cast_unmute">Riattiva audio</string>
-    <string name="cast_zero_devices_found">"Nessun dispositivo trovato.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Scopri di più</a> su come trasmettere i tuoi contenuti ad altri dispositivi.</string>
     <string name="casting_tips">Trasmissione in corso…</string>
     <string name="character_counter_content_description">%1$d caratteri inserirti su %2$d</string>
     <string name="character_counter_overflowed_content_description">Sono presenti %2$d caratteri in più rispetto al limite di %1$d</string>
@@ -253,6 +253,10 @@ i dispositivi?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">Il contenuto degli occhiali non può essere trasferito a questo dispositivo</string>
     <string name="circulate_car_card_use_camera">Utilizza la fotocamera frontale del VE</string>
     <string name="circulate_car_card_using_camera">Utilizzo della fotocamera frontale del VE in corso</string>
+    <string name="circulate_card_audio_change_pad_title">"Passa all'audio del tablet"</string>
+    <string name="circulate_card_audio_change_phone_title">"Passa all'audio del telefono"</string>
+    <string name="circulate_card_audio_playing_pad_title">"Utilizzo dell'audio del tablet"</string>
+    <string name="circulate_card_audio_playing_phone_title">"Utilizzo dell'audio del telefono"</string>
     <string name="circulate_card_disconnect">Disconnetti</string>
     <string name="circulate_card_loading_title_audio_stereo">Impianto stereo</string>
     <string name="circulate_card_loading_title_band">Band</string>
@@ -413,6 +417,14 @@ per duplicare lo schermo di questo tablet"</string>
     <string name="circulate_headset_control_anc_disable_hint">I tuoi auricolari sono connessi a due dispositivi. Potrai regolare il volume soltanto da questo dispositivo.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Cancellazione del rumore</string>
     <string name="circulate_headset_control_anc_off">Disattiva</string>
+    <string name="circulate_headset_control_audio_effect_off">Disattiva audio spaziale</string>
+    <string name="circulate_headset_control_audio_effect_spatial">Attiva audio spaziale</string>
+    <string name="circulate_headset_control_audio_find_earphone">Riproduci suono</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">Annulla</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">Continua</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">Il suono verrà riprodotto ad alto volume. Se stai indossando delle cuffie, continuare a farlo potrebbe danneggiare il tuo udito. Rimuovile prima di continuare.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">Avviso di volume elevato</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">Interrompi la riproduzione del suono</string>
     <string name="circulate_headset_control_battery_case">Custodia</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
@@ -502,6 +514,7 @@ i dispositivi?"</string>
     <string name="circulate_phone_card_using_cellular_wifi">Utilizzo del segnale Wi-Fi del telefono</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">Utilizzo del segnale WLAN del telefono</string>
     <string name="circulate_phone_card_using_desktop">Utilizzo della schermata Home+ del telefono</string>
+    <string name="circulate_phone_card_using_sink_desktop">Condivisione di Schermata Home+ con il telefono</string>
     <string name="circulate_public_device_title_format">%2$s di %1$s</string>
     <string name="circulate_ringfind_button_hint_play">"Riproduci l'audio"</string>
     <string name="circulate_ringfind_button_hint_stop">Interrompi la riproduzione del suono</string>
@@ -596,10 +609,12 @@ Supportato per telefoni, tablet e computer."</string>
     <string name="connect_settings_general_summary_share_clipboard">Copia testi, immagini o file su un dispositivo e incollali su un altro dispositivo nelle vicinanze (telefono, tablet, computer o veicolo) avente accesso al tuo Xiaomi Account</string>
     <string name="connect_settings_general_summary_share_file">Accedi direttamente ai file del telefono da computer nelle vicinanze con accesso al tuo Xiaomi Account</string>
     <string name="connect_settings_general_summary_share_launcher_phone">"Visualizza e controlla il tuo telefono e accedi alle sue app da tablet, computer e veicoli nelle vicinanze con l'accesso al tuo Xiaomi Account"</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">"Visualizza e controlla questo dispositivo e utilizza le sue app da telefoni, tablet, computer o veicoli vicini che hanno effettuato l'accesso con lo stesso account"</string>
     <string name="connect_settings_general_summary_share_notification_pad">"Mostra gli avvisi di batteria in esaurimento dai telefoni nelle vicinanze sui tablet che hanno effettuato l'accesso al tuo Xiaomi Account"</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Mostra le notifiche importanti del telefono sui TV, i tablet e i computer nelle vicinanze con l'accesso al tuo Xiaomi Account.
 Funziona con le app di consegna di cibo e di ride hailing sui TV e con gli avvisi di batteria in esaurimento su tablet e computer."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Mostra le notifiche di batteria scarica del tuo telefono su un tablet nelle vicinanze connesso allo stesso account</string>
+    <string name="connect_settings_known_button">Ho capito</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">Trasferisci elementi tramite NFC</string>
     <string name="connect_settings_not_opened">Disattivo</string>
@@ -607,6 +622,7 @@ Funziona con le app di consegna di cibo e di ride hailing sui TV e con gli avvis
     <string name="connect_settings_presentation_password_error">Password errata</string>
     <string name="connect_settings_presentation_password_title">Inserisci la password admin</string>
     <string name="connect_settings_privacy_policy">Informativa sulla privacy</string>
+    <string name="connect_settings_refresh">Aggiorna</string>
     <string name="connect_settings_relay_app">App</string>
     <string name="connect_settings_same_account">Da questo account</string>
     <string name="connect_settings_screen_cast">Trasmetti</string>
@@ -616,6 +632,7 @@ Funziona con le app di consegna di cibo e di ride hailing sui TV e con gli avvis
     <string name="connect_settings_share_launcher">Schermata Home+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">"Sblocca il tuo telefono Xiaomi e le app utilizzando il Face ID o il codice di accesso dell'iPad"</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">"Sblocca il tuo telefono Xiaomi e le app utilizzando l'impronta digitale o il codice di accesso dell'iPad"</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">"Sblocca il telefono Xiaomi e le sue app utilizzando l'impronta o il codice di accesso dell'iPhone"</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">Utilizza Face ID o la password del tuo iPhone per sbloccare il telefono e le app Xiaomi</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Sblocco con viso o password</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Utilizza la tua impronta digitale o la password sul tuo Mac per sbloccare il telefono e le app</string>
@@ -623,13 +640,52 @@ Funziona con le app di consegna di cibo e di ride hailing sui TV e con gli avvis
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Riconoscimento facciale</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Avvio rapido delle app dopo lo sblocco</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">"Utilizza l'impronta o la password del tuo tablet Xiaomi per sbloccare il telefono e le app"</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">"Utilizza l'impronta digitale o la password del telefono per sbloccare il dispositivo e le sue app"</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Aggiungi le app del telefono alla schermata Home del tablet. Una volta sbloccato il telefono, potrai avviarle direttamente dal tablet.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Usa la tua impronta digitale o inserisci la password per sbloccare</string>
     <string name="connect_settings_share_notification">Notifiche</string>
+    <string name="connect_settings_share_notification_help">Guida</string>
     <string name="connect_settings_share_notification_iphone_device">Mostra le notifiche di questo dispositivo su iPhone</string>
     <string name="connect_settings_share_notification_local_device">"Mostra le notifiche dell'iPhone su questo dispositivo"</string>
+    <string name="connect_settings_share_notification_local_device_summary">Per poter rispondere alle chiamate e ricevere i messaggi e le notifiche delle app su questo dispositivo, consenti la sincronizzazione delle notifiche con il tuo telefono Xiaomi in Interconnettività Xiaomi > Sincronizza notifiche > Sincronizza con Xiaomi sul tuo iPhone.</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">Per poter rispondere alle chiamate e ricevere i messaggi e le notifiche delle app sul tuo dispositivo Xiaomi, connettiti ad esso sul tuo iPhone in Interconnettività Xiaomi > Sincronizza notifiche > Sincronizza con Xiaomi.</string>
+    <string name="connect_settings_share_notification_local_device_title">Ricevi notifiche da %1$s</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">Visualizzazione delle notifiche da altri dispositivi Xiaomi su questo dispositivo</string>
     <string name="connect_settings_share_notification_mi_device">Mostra le notifiche di questo dispositivo sui dispositivi Xiaomi</string>
+    <string name="connect_settings_share_notification_mi_device_category">Sincronizza con i dispositivi vicini</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">Dispositivi nelle vicinanze</string>
+    <string name="connect_settings_share_notification_mi_device_v2">Tablet o TV Xiaomi</string>
+    <string name="connect_settings_share_notification_mi_device_v3">Tablet, computer e TV Xiaomi</string>
     <string name="connect_settings_share_notification_more_feature">Altre funzioni</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">Visualizzazione delle notifiche da questo dispositivo su altri dispositivi Xiaomi</string>
+    <string name="connect_settings_share_notification_receive_tab">Ricevi</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">Dispositivi disponibili</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">Dispositivi disponibili</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">"Assicurati che il tuo %1$s abbia effettuato l'accesso allo stesso account di questo dispositivo e che l'Interconnettività sia attivata nelle Impostazioni."</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">Non è possibile connettersi a %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">"Assicurati che entrambi i dispositivi abbiano effettuato l'accesso allo stesso account e siano connessi alla stessa rete, oppure che il Bluetooth e la WLAN siano attivati su entrambi i dispositivi."</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">"Assicurati che entrambi i dispositivi abbiano effettuato l'accesso allo stesso account e siano connessi alla stessa rete, oppure che il Bluetooth e il Wi-Fi siano attivati su entrambi i dispositivi."</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">"Assicurati che entrambi i dispositivi abbiano effettuato l'accesso allo stesso account e siano connessi alla rete o che la WLAN sia attivata"</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">"Assicurati che entrambi i dispositivi abbiano effettuato l'accesso allo stesso account e siano connessi alla rete o che il Wi-Fi sia attivato"</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">Ricerca del tuo dispositivo...…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">Quando questo dispositivo è connesso alla rete puoi ricevere le notifiche dai dispositivi connessi allo stesso account. Se un dispositivo nelle vicinanze ha attivato il Bluetooth e la WLAN, puoi eseguire la duplicazione delle sue app e rispondere ai messaggi.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">Quando questo dispositivo è connesso alla rete puoi ricevere le notifiche dai dispositivi connessi allo stesso account. Se un dispositivo nelle vicinanze ha attivato il Bluetooth e il Wi-Fi, puoi eseguire la duplicazione delle sue app e rispondere ai messaggi.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• Quando questo dispositivo è connesso alla rete, le notifiche di un altro telefono Xiaomi bloccato e connesso allo stesso account potranno essere visualizzate su questo dispositivo.
+• Quando i dispositivi connessi allo stesso account sono nelle vicinanze e hanno attivato il Bluetooth e la WLAN, è possibile rispondere alle notifiche di altri dispositivi direttamente su questo dispositivo."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• Quando questo dispositivo è connesso alla rete, le notifiche di un altro telefono Xiaomi bloccato e connesso allo stesso account potranno essere visualizzate su questo dispositivo.
+• Quando i dispositivi connessi allo stesso account sono nelle vicinanze e hanno attivato il Bluetooth e il Wi-Fi, è possibile rispondere alle notifiche di altri dispositivi direttamente su questo dispositivo."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">Non è stato possibile trovare dispositivi disponibili</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">Per poter gestire le notifiche su questo dispositivo, consenti la sincronizzazione delle notifiche con il tuo dispositivo Xiaomi in Interconnettività Xiaomi > Sincronizza notifiche > Sincronizza con Xiaomi sul tuo %1$s.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">La funzione \"Sincronizza notifiche\" è disattivata per %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">Ricevi</string>
+    <string name="connect_settings_share_notification_send_tab">Sincronizza</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">Sincronizza con il telefono</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">I miei telefoni</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"Mostra le notifiche di questo dispositivo su telefoni, tablet o TV con lo stesso account.
+*Funzioni supportate: i telefoni possono mostrare le chiamate, i messaggi e le notifiche delle app; i TV possono mostrare gli avvisi di consegna e di ride-hailing; i tablet e i computer possono mostrare gli avvisi di batteria in esaurimento dal tuo telefono."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• Quando il dispositivo è bloccato, le notifiche di quest'ultimo possono essere visualizzate su telefoni, tablet, computer o TV con accesso allo stesso account.
+• Puoi visualizzare le notifiche di chiamate, messaggi o app sui telefoni, le notifiche di consegna di cibo e ride-hailing sui TV e le notifiche di batteria in esaurimento su tablet e computer."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">Sincronizza</string>
     <string name="connect_settings_summary"><Data>Scopri i dispositivi nelle vicinanze con il tuo Xiaomi Account e aggiungili a Xiaomi Smart Hub. &lt;a href=%1$s>Scopri di più&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Consenti ai tuoi dispositivi di interagire tra loro in modalità wireless</string>
     <string name="connect_settings_summary_corp_network">Utilizza la rete del tuo telefono su tablet o computer</string>
@@ -645,6 +701,7 @@ Attiva il Wi-Fi e il Bluetooth prima dell'utilizzo."</string>
     <string name="connect_settings_summary_share_launcher_pad_v2">Controlla il telefono dal tuo tablet</string>
     <string name="connect_settings_summary_share_launcher_phone">Consenti ai tablet e ai computer nelle vicinanze di visualizzare e interagire con la schermata Home di questo dispositivo</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">Controlla il tuo telefono da tablet, computer o veicoli</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">Controlla il dispositivo dal telefono, tablet, computer o veicolo</string>
     <string name="connect_settings_summary_share_notification_pad">"Ricevi notifiche dai telefoni nelle vicinanze che hanno effettuato l'accesso al tuo Xiaomi Account"</string>
     <string name="connect_settings_summary_share_notification_pad_v2">"Mostra le notifiche dei telefoni nelle vicinanze che hanno effettuato l'accesso al tuo Xiaomi Account su questo dispositivo"</string>
     <string name="connect_settings_summary_share_notification_phone">Mostra le notifiche sui tablet nelle vicinanze o sui computer in uso quando questo dispositivo è bloccato</string>
@@ -669,28 +726,40 @@ Attiva il Wi-Fi e il Bluetooth prima dell'utilizzo."</string>
     <string name="device_desc_trust">Dispositivi attendibili</string>
     <string name="device_permission_authorize_dialog_message">Successivamente, questo dispositivo sarà in grado di utilizzare la fotocamera di %s per scattare foto e registrare video.</string>
     <string name="device_permission_authorize_dialog_title">Concedi i permessi su %s</string>
-    <string name="device_permission_dialog_message">Su \"%s\", vai su Impostazioni > Privacy &amp; sicurezza > Interconnettività e autorizzazioni e concedi alla fotocamera le autorizzazioni per poter utilizzare questa funzione.</string>
+    <string name="device_permission_dialog_message">Su \"%s\", vai su Impostazioni > Privacy e sicurezza > Interconnettività e autorizzazioni e concedi alla fotocamera le autorizzazioni per poter utilizzare questa funzione.</string>
     <string name="device_permission_dialog_message_car">"Sul tuo %s, consenti l'accesso alla fotocamera in Impostazioni > Sistema > Gestione app > Autorizzazioni speciali > Interconnettività."</string>
-    <string name="device_permission_dialog_message_car_pad">Per poter utilizzare questa funzione, concedi le autorizzazoni per la fotocamera sul tuo tablet in Impostazioni > Privacy &amp; sicurezza > Interconnettività e autorizzazioni.</string>
+    <string name="device_permission_dialog_message_car_pad">Per poter utilizzare questa funzione, concedi le autorizzazoni per la fotocamera sul tuo tablet in Impostazioni > Privacy e sicurezza > Interconnettività e autorizzazioni.</string>
     <string name="device_permission_dialog_message_global">"Nell'app di sicurezza del tuo %s vai su Protezione della privacy > Interconnettività e autorizzazioni e concedi le autorizzazioni alla Fotocamera per poter utilizzare questa funzione."</string>
     <string name="device_permission_dialog_message_global_old">Nelle Impostazioni del tuo %s vai su Interconnettività > Interconnettività e autorizzazioni e concedi alla Fotocamera le autorizzazioni per poter utilizzare questa funzione.</string>
     <string name="device_permission_dialog_positive_button">Ho capito</string>
     <string name="device_permission_dialog_title">Concedi i permessi su %s</string>
     <string name="device_type_name_pad">Tablet</string>
     <string name="device_type_name_phone">Telefono</string>
+    <string name="dialog_auth_title">Codice di verifica</string>
     <string name="dialog_can_not_find_device">Impossibile trovare dispositivi nelle vicinanze</string>
     <string name="dialog_cancle">Annulla</string>
     <string name="dialog_close">Disattiva</string>
+    <string name="dialog_confirm_button">Ho capito</string>
+    <string name="dialog_confirm_remote_status">Controlla lo stato del tuo %1$s</string>
     <string name="dialog_connect_fail">Impossibile connettere</string>
     <string name="dialog_connect_retry">Tocca per riprovare</string>
     <string name="dialog_connect_verify_perssion">Autorizza prima la trasmissione sul TV</string>
     <string name="dialog_connect_verify_perssion_fail">Impossibile autorizzare la trasmissione sul tuo TV. Aspetta un minuto o due e riprova.</string>
     <string name="dialog_connected">Connesso</string>
     <string name="dialog_connecting">Connessione…</string>
+    <string name="dialog_copy_it">Copia</string>
+    <string name="dialog_enable_remote_notification">Consenti le notifiche multidispositivo sul tuo %1$s</string>
+    <string name="dialog_enable_remote_notification_content_v2">Non è possibile ricevere le notifiche in questo momento. Assicurati che sia consentito sincronizzare le notifiche su %1$s in Impostazioni > Interconnettività > Notifiche multidispositivo > Sincronizza.</string>
     <string name="dialog_incoming_call_instruction">Rispondi sul tuo %1$s</string>
     <string name="dialog_know_it">Ho capito</string>
     <string name="dialog_location_permission_message">Questa app deve accedere alla tua posizione per trovare monitor esterni nelle vicinanze. Seleziona \"Consenti sempre\" quando concedi questo permesso per evitare possibili errori.</string>
     <string name="dialog_location_permission_title">Permessi richiesti</string>
+    <string name="dialog_message_instruction_subtitle_call">Puoi rispondere su %1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">Puoi rispondere sul telefono Xiaomi</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">Puoi rispondere su iPhone</string>
+    <string name="dialog_message_instruction_subtitle_reply">Puoi rispondere su %1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">Puoi rispondere sul telefono Xiaomi</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">Puoi rispondere su iPhone</string>
     <string name="dialog_message_reply_instruction">Rispondi sul tuo %1$s</string>
     <string name="dialog_miplay_permission_message">Consenti a Trasmetti di registrare audio, accedere ai file nella memoria interna e accedere alla tua posizione per utilizzare questa funzionalità normalmente. Tocca \"Impostazioni\" e seleziona \"Permessi app\" per continuare.</string>
     <string name="dialog_miplay_permission_positive">Impostazioni</string>
@@ -704,10 +773,18 @@ Attiva il Wi-Fi e il Bluetooth prima dell'utilizzo."</string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connetti il dispositivo mobile e il TV alla stessa rete WLAN.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Su alcuni modelli di TV, questa funzione è disponibile solo quando la funzione di duplicazione dello schermo è attiva. Visualizza la sezione &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> per saperne di più.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Riproduci foto, video o musica in streaming</string>
+    <string name="dialog_open_remote_switch_content">"Non è stato possibile applicare l'impostazione. Assicurati che il tuo %1$s abbia effettuato l'accesso con lo stesso account e sia connesso alla stessa rete di questo dispositivo."</string>
     <string name="dialog_open_wifi_bt">Attiva</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Assicurati che la funzione di trasmissione wireless sia attiva sul dispositivo di destinazione.
 Visualizza la guida in caso di problemi di connessione."</string>
     <string name="dialog_recent_connected">Recenti</string>
+    <string name="dialog_remote_authorization">Concedi le autorizzazioni su %1$s</string>
+    <string name="dialog_remote_authorization_content">Concedi le autorizzazioni di notifica a Interconnettività sul tuo %1$s.</string>
+    <string name="dialog_reset_app_subscribe">Consenti notifiche da %1$s</string>
+    <string name="dialog_reset_app_subscribe_content">"%2$s in precedenza è stato disinstallato dal tuo %1$s. Non è possibile ricevere le notifiche di quest'app su questo dispositivo. Cambia le impostazioni e riprova."</string>
+    <string name="dialog_reset_app_subscribe_multi">Cambia le impostazioni di notifica</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s e %3$s in precedenza sono stati disinstallati dal tuo %1$s. Non è possibile ricevere le notifiche app su questo dispositivo. Cambia le impostazioni e riprova.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s, e %4$s in precedenza sono stati disinstallati dal tuo %1$s. Non è possibile ricevere le notifiche app su questo dispositivo. Cambia le impostazioni e riprova.</string>
     <string name="dialog_retry">Riprova</string>
     <string name="dialog_scan_message">"%1$d. Connetti il dispositivo mobile e il TV alla stessa rete Wi-Fi.
 
@@ -731,6 +808,7 @@ Visualizza la guida in caso di problemi di connessione."</string>
     <string name="early_morning">Mattino</string>
     <string name="edit_device_group">Modifica i gruppi di dispositivi</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">Non è possibile ricevere le notifiche in questo momento. Assicurati che sia consentito sincronizzare le notifiche su %1$s in Impostazioni > Interconnettività > Notifiche multidispositivo > Sincronizza.</string>
     <string name="enable_screen_projection_summary">Trasmetti i contenuti dello schermo su un monitor esterno</string>
     <string name="enable_screen_projection_summary_new">Trasmetti lo schermo del dispositivo mobile ai televisori nelle vicinanze e ad altri monitor esterni</string>
     <string name="enable_screen_projection_summary_pad">Trasmetti lo schermo del tablet su un TV o un altro dispositivo nelle vicinanze</string>
@@ -952,6 +1030,7 @@ Per attivare Miracast, premi il tasto [MENU] e seleziona Le mie app > Trasmetti 
 %1$d. Se riscontri problemi, puoi segnalarli utilizzando la nostra app \"Servizi e feedback\"."</string>
     <string name="help_page_text_end">"Se la marca del tuo dispositivo non è nell'elenco, contatta il produttore per ulteriori informazioni sulla funzionalità di trasmissione."</string>
     <string name="i_see">Ho capito</string>
+    <string name="ic_media_route_learn_more_accessibility">Scopri come trasmettere contenuti</string>
     <string name="icon_content_description">Icona della finestra di dialogo</string>
     <string name="image_transfer_failed">"Non è stato possibile trasferire l'immagine"</string>
     <string name="install">Installa</string>
@@ -1017,8 +1096,10 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="miplay_song_title_empty">Nessun elemento</string>
     <string name="mirror_phone_content">Attivare la schermata Home+ subito?</string>
     <string name="mirror_phone_content_remote">Puoi attivare la schermata Home+ in Impostazioni > Interconnettività.</string>
+    <string name="mirror_phone_content_remote_V1">Attiva la schermata Home+ in Impostazioni > Interconnettività > Schermata Home+ sul tuo %1$s.</string>
     <string name="mirror_phone_title">Attiva la schermata Home+</string>
     <string name="mirror_phone_title_remote">Attiva la schermata Home+ sul telefono</string>
+    <string name="mirror_phone_title_remote_V1">Attiva prima la schermata Home+</string>
     <string name="mirror_remote_pad_content">Puoi attivare la schermata Home+ in Impostazioni > Interconnettività.</string>
     <string name="mirror_remote_pad_title">Attiva la schermata Home+ sul tablet</string>
     <string name="miuix_access_state_desc">Selezionato</string>
@@ -1102,8 +1183,17 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="mr_cast_button_connecting">Trasmetti. Connessione</string>
     <string name="mr_cast_button_disconnected">Trasmetti. Disconnesso</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nessuna informazione disponibile</string>
+    <string name="mr_chooser_looking_for_devices">Ricerca di dispositivi in corso…</string>
     <string name="mr_chooser_searching">Ricerca di dispositivi</string>
     <string name="mr_chooser_title">Trasmetti a</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Scopri di più</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questa auto"</string>
+    <string name="mr_chooser_wifi_warning_description_phone">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo smartphone"</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo tablet"</string>
+    <string name="mr_chooser_wifi_warning_description_tv">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questa TV"</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo dispositivo"</string>
+    <string name="mr_chooser_wifi_warning_description_watch">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo orologio"</string>
+    <string name="mr_chooser_zero_routes_found_title">Nessun dispositivo disponibile</string>
     <string name="mr_controller_album_art">"Copertina dell'album"</string>
     <string name="mr_controller_casting_screen">Trasmissione dello schermo attiva</string>
     <string name="mr_controller_close_description">Chiudi</string>
@@ -1116,7 +1206,7 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="mr_controller_play">Riproduci</string>
     <string name="mr_controller_stop">Interrompi</string>
     <string name="mr_controller_stop_casting">Interrompi trasmissione</string>
-    <string name="mr_controller_volume_slider">Dispositivo di scorrimento del volume</string>
+    <string name="mr_controller_volume_slider">Cursore del volume</string>
     <string name="mr_dialog_default_group_name">Gruppo</string>
     <string name="mr_dialog_groupable_header">Aggiungi un dispositivo</string>
     <string name="mr_dialog_transferable_header">Riproduci su un gruppo</string>
@@ -1182,12 +1272,24 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="nothing_to_play">Non in riproduzione</string>
     <string name="notification_cast_desc">Trasmissione in corso…</string>
     <string name="notification_channel_description">Seleziona i tipi di notifiche da sincronizzare da un altro dispositivo al tuo dispositivo Xiaomi</string>
+    <string name="notification_channel_subtitle_ref_call">Chiamata da iPhone</string>
+    <string name="notification_channel_subtitle_ref_call_1">Chiamata da %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_1">Messaggio Lark da %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq">Messaggio QQ da iPhone</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">Messaggio QQ da %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms">Messaggio da iPhone</string>
+    <string name="notification_channel_subtitle_ref_sms_1">Messaggio da %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin">Messaggio WeChat da iPhone</string>
+    <string name="notification_channel_subtitle_ref_xin_1">Messaggio WeChat da %1$s</string>
     <string name="notification_channel_title_name">Notifiche sincronizzate con il dispositivo Xiaomi</string>
     <string name="notification_desc_scanning">Ricerca dispositivi nelle vicinanze…</string>
     <string name="notification_incoming_call_to_reply">Chiamata in arrivo. Rispondi su %1$s.</string>
     <string name="notification_permission_content">Consenti le notifiche di questo dispositivo su qualsiasi iPhone con la funzione Interconnettività installata e con accesso al tuo account.</string>
+    <string name="notification_permission_new_content">"Consenti che le chiamate, i messaggi e le notifiche delle app di quest'app vengano visualizzate su iPhone con la funzione Sincronizza notifiche attivata o su un dispositivo Xiaomi con la funzione Notifiche multidispositivo attivata."</string>
     <string name="notification_rc_title">Assistente Mi TV</string>
+    <string name="notification_revice_phone">Notifiche da %1$s</string>
     <string name="notification_show_more">Tocca per visualizzare più funzionalità</string>
+    <string name="notification_support_applist">App supportate</string>
     <string name="notify_wifiap_dialog_msg">"Per eseguire la scansione del codice e configurare la rete, disattiva prima l'hotspot portatile."</string>
     <string name="notify_wifiap_dialog_negative">Ho capito</string>
     <string name="notify_wifiap_dialog_title">Configura la rete</string>
@@ -1385,6 +1487,7 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="path_setting_cast_feature">Altre opzioni di connettività/Trasmetti/Funzionalità speciali</string>
     <string name="path_setting_cast_help">Altre opzioni di connettività/Trasmetti/Guida</string>
     <string name="permission_allowed">Concesso</string>
+    <string name="permission_label_access_app_meta">Accedi alle informazioni sulle app quando le utilizzi su più dispositivi</string>
     <string name="permission_uballowed">Non concesso</string>
     <string name="picker_view_description">Fotocamera multidispositivo. Puoi toccare la scheda per selezionare le fotocamere dei dispositivi nelle vicinanze.</string>
     <string name="picker_view_outside_description">Tocca per chiudere questa scheda.</string>
@@ -1476,7 +1579,7 @@ Leggi e accetta il nostro &lt;a href=%1$s>Accordo utente&lt;/a> e la nostra &lt;
     <string name="quick_settings_device_dialog_message">Se attivi questa funzionalità, potrai scoprire TV, altoparlanti e auto nelle vicinanze nel Centro di controllo. Accendere subito?</string>
     <string name="quick_settings_device_dialog_positive">Attiva</string>
     <string name="quick_settings_device_dialog_title">Scopri i dispositivi nelle vicinanze</string>
-    <string name="quick_settings_notification_control_center">Notifiche &amp; barra di stato</string>
+    <string name="quick_settings_notification_control_center">Notifiche e barra di stato</string>
     <string name="remote_hotspot_opening">"Disattiva l'hotspot dell'altro dispositivo e riprova"</string>
     <string name="remote_speaker_list">Playlist</string>
     <string name="remote_speaker_loop">Riproduci in ordine</string>
@@ -1498,6 +1601,7 @@ Leggi e accetta il nostro &lt;a href=%1$s>Accordo utente&lt;/a> e la nostra &lt;
     <string name="screen_mirror_content">Il contenuto dello schermo verrà mostrato su \"%1$s\"</string>
     <string name="screen_projection">Trasmetti</string>
     <string name="screen_projection_characteristics">Funzionalità speciali</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">"Puoi passare a Trasmissione dell'App in Xiaomi HyperIsland per eseguire la trasmissione dell'app corrente su un monitor esterno mentre utilizzi altre app sul tuo telefono"</string>
     <string name="screen_projection_characteristics_cast_summary">Trasmetti i contenuti dello schermo a un TV vicino</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Spegni lo schermo del dispositivo mobile durante la trasmissione per risparmiare batteria ed evitare il surriscaldamento</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Spegni lo schermo durante la trasmissione per ridurre il consumo di energia e il surriscaldamento</string>
@@ -1567,6 +1671,8 @@ Assicurati di aver attivato Game Turbo prima di trasmettere i giochi."</string>
     <string name="side_sheet_accessibility_pane_title">Scheda secondaria</string>
     <string name="small_window">Riduci la finestra</string>
     <string name="small_window_not_supported">Impossibile ridurre a icona questa app durante la trasmissione</string>
+    <string name="sound_card_circulatable_control_text">Comandi di riproduzione</string>
+    <string name="sound_card_circulatable_source_text">Sorgente audio</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">La fotocamera degli occhiali è in uso. Riprova più tardi.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Registrazione audio in corso. Non è possibile aprire la fotocamera.</string>
     <string name="start_forbidden_by_glasses_in_translation">Traduzione in corso. Non è possibile aprire la fotocamera.</string>
@@ -1673,6 +1779,8 @@ Assicurati di aver attivato Game Turbo prima di trasmettere i giochi."</string>
     <string name="title_connection_interrupted">Connessione interrotta</string>
     <string name="title_install">Installa Mi Canvas</string>
     <string name="title_update">Aggiorna Mi Canvas</string>
+    <string name="toast_confirm_network">Non è stato possibile completare la configurazione. Assicurati che il dispositivo sia connesso alla rete.</string>
+    <string name="toast_copy_auth_message_finish">Copiato correttamente</string>
     <string name="toast_guide_show_more">Scopri di più</string>
     <string name="toast_guide_title">Esplora qui le nostre nuove funzionalità</string>
     <string name="toast_invisible_mode">Sei in incognito. Impossibile utilizzare la trasmissione.</string>
@@ -1681,6 +1789,9 @@ Assicurati di aver attivato Game Turbo prima di trasmettere i giochi."</string>
     <string name="toast_msg_for_small_window">È possibile ridurre a icona la finestra trasmessa per poter utilizzare le altre funzionalità del telefono senza interrompere il processo di trasmissione.</string>
     <string name="toast_nfc_dont_move">Non spostare il telefono</string>
     <string name="toast_nfc_same_wifi">Connetti il TV e il dispositivo alla stessa rete</string>
+    <string name="toast_remote_not_install">"Quest'app non è installata sul tuo %1$s."</string>
+    <string name="toast_retry">Attendi che le impostazioni vengano applicate e riprova</string>
+    <string name="toast_synchronization">Controllo dello stato del dispositivo. Riprova più tardi.</string>
     <string name="toast_title_for_small_window">Seleziona \"Riduci la finestra\" nella app</string>
     <string name="toast_turn_off_hotspot_before_cast">"Disattiva l'hotspot personale prima di trasmettere"</string>
     <string name="today">Oggi</string>

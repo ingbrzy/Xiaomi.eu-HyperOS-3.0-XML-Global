@@ -196,6 +196,7 @@
     <string name="allow_onetime">Egyszeri engedélyezés</string>
     <string name="already_close_gamebooster">Játékgyorsító kikapcsolva</string>
     <string name="am">DE</string>
+    <string name="anitispam_intercept_record">Tiltólista előzményei</string>
     <string name="anti_disturb_msg_detail">Az összes értesítés kikapcsolása, kivéve a bejövő hívásokat</string>
     <string name="anti_disturb_msg_title">Ne zavarjanak</string>
     <string name="antispam_add_black_number_message">A megadott szám rövid. Letiltja az összes számot, amely ezekkel a számjegyekkel kezdődik?</string>
@@ -1023,6 +1024,9 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="call_delete_all_hint">Törli a tiltólista hívásait?</string>
     <string name="call_delete_hint">Törli az összes letiltott hívást erről a számról?</string>
     <string name="call_delete_title">Hívásnapló törlése</string>
+    <string name="call_empty_number">Rejtett számok</string>
+    <string name="call_forwarding_block">Átirányított hívások</string>
+    <string name="call_intercept_settings">Hívástiltólista beállításai</string>
     <string name="call_notification_answer_action">Fogadás</string>
     <string name="call_notification_answer_video_action">Videó</string>
     <string name="call_notification_decline_action">Elutasítás</string>
@@ -1031,6 +1035,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="call_notification_ongoing_text">Hívás folyamatban</string>
     <string name="call_notification_screening_text">Bejövő hívás szűrése</string>
     <string name="call_oversea_block">Külföldről érkező hívások tiltása</string>
+    <string name="call_overseas_block">Nemzetközi hívások</string>
     <string name="call_prefix">Előtag tiltólista</string>
     <string name="call_private">Rejtett számról érkező hívások tiltása</string>
     <string name="call_stranger_block">Ismeretlentől érkező hívások tiltása</string>
@@ -1040,12 +1045,20 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="cancel">Mégse</string>
     <string name="cancel_button">Mégse</string>
     <string name="car_sickness_relief_comment_text">A jármű mozgásának észlelésekor a képernyő mindkét oldalán pontok jelzik, hogy a jármű mozog-e, ami segíthet késleltetni az utazási betegség kialakulását.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"A képernyő mindkét oldalán pontok jelennek meg, amelyek jelzik a jármű mozgását, ami késleltetheti az émelygés kialakulását.
+
+Ezt a funkciót az Irányítóközpontban kapcsolhatja ki és be."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"A képernyő mindkét oldalán folyamatos pontok jelennek meg, amelyek jelzik a jármű mozgását, ami késleltetheti az émelygés kialakulását.
+
+Ezt a funkciót az Irányítóközpontban kapcsolhatja ki és be."</string>
     <string name="car_sickness_relief_comment_text_opened">"A képernyő mindkét oldalán pontok jelennek meg, amelyek jelzik a jármű mozgását, ami késleltetheti az émelygés kialakulását.
 
 Ezt a funkciót a Vezérlőközpontban kapcsolhatja ki- és be."</string>
     <string name="car_sickness_relief_example_text_1">Amikor a jármű felgyorsul vagy lelassul</string>
     <string name="car_sickness_relief_example_text_2">Amikor a jármű kanyarodik vagy sávot vált</string>
     <string name="car_sickness_relief_exit_text">Az émelygés elleni hatás megszűnt</string>
+    <string name="car_sickness_relief_notification_text_close">Kikapcsol</string>
+    <string name="car_sickness_relief_notification_text_opened">Aktiválva</string>
     <string name="car_sickness_relief_start_text">Az émelygés elleni hatás érvényesül</string>
     <string name="car_sickness_remind_time_title">Mozgásérzékelők</string>
     <string name="car_sickness_title">Utazási betegség enyhítése</string>
@@ -1877,7 +1890,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
 %3$d. A funkció csak a Kontinentális Kínában támogatott.
 %4$d. A funkció csak az 5G-SA hálózatokban működik."</string>
     <string name="function_shield_auto_bright">Az automatikus fényerőszabályzás kikapcsolása</string>
-    <string name="function_shield_eye_shield">Az Olvasómód kikapcsolása</string>
+    <string name="function_shield_eye_shield">Szemkomfort mód kikapcsolása</string>
     <string name="function_shield_pull_notification_bar">Az Értesítési felület rejtve hagyása</string>
     <string name="function_shield_settings_title">A következő szolgáltatások korlátozása játék közben</string>
     <string name="function_shield_summary">A kiválasztott rendszerszolgáltatások korlátozása játék közben</string>
@@ -2751,6 +2764,12 @@ hogy csatlakozzon a tojásvadászatunkhoz!"</string>
     <string name="install_title">Telepítés USB-n keresztül</string>
     <string name="install_type_instant">Azonnali alkalmazás</string>
     <string name="installing">Telepítés</string>
+    <string name="intercept_all_mark_calls">Letiltsa az összes \"%s\" címkével ellátott hívást?</string>
+    <string name="intercept_calls_nofify_hide_text">Más címkézett számra vonatkozó tiltási szabályok beállításához koppintson ide</string>
+    <string name="intercept_calls_notify_title">E címkével ellátott hívások automatikusan befejeződnek. Letiltja most?</string>
+    <string name="intercept_garbage_msg">Spam üzenetek</string>
+    <string name="intercept_record">Előzmények</string>
+    <string name="intercept_strange_msg">Ismeretlen üzenetek</string>
     <string name="international_Ad">Reklám</string>
     <string name="international_roaming_setting">Nemzetközi adatbarangolás</string>
     <string name="intl_app_manager_card_permission_title">Adatvédelem és engedélyek</string>
@@ -2945,6 +2964,7 @@ hogy válaszoljon"</string>
     <string name="mark_harass_block">Bejelentett zaklatás</string>
     <string name="mark_harass_block_large">Zaklatás</string>
     <string name="mark_harass_time_setting">Bejelentett zaklató-telefonszám letiltása a megadott időszakban</string>
+    <string name="mark_num_open_intercept">Letiltás</string>
     <string name="mark_number_agent">Ügynök</string>
     <string name="mark_number_fraud">Csaló</string>
     <string name="mark_number_harass">Zaklatás</string>
@@ -4802,11 +4822,11 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="prompt_all">Kérjen mindegyiknél</string>
     <string name="prompt_input_time_illegal">Nem lehet erre az időre beállítani, módosítsa és próbálja újra</string>
     <string name="protect_eye_dont_open">Nem most</string>
-    <string name="protect_eye_hint_summry">Kapcsolja be az Olvasómódot a jobb olvasási élmény érdekében</string>
-    <string name="protect_eye_hint_title">Szemkomfort</string>
+    <string name="protect_eye_hint_summry">Kapcsolja be a Szemkomfort módot a jobb olvasási élményért</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Bekapcsolás</string>
-    <string name="protect_eye_opened_summry">Beállítások szerkesztése: Beállítások > Kijelző és fényerő > Szemkomfort</string>
-    <string name="protect_eye_opened_title">Olvasómód bekapcsolva</string>
+    <string name="protect_eye_opened_summry">Beállítások szerkesztése: Beállítások > Kijelző és fényerő > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">Szemkomfort mód bekapcsolva</string>
     <string name="protocol_exception_title">Hálózati protokoll diagnosztika</string>
     <string name="protocol_loop_back_exception_summary">Helyi visszacsatolási teszt sikertelen. Ahhoz, hogy jelentse a problémát, menjen a Hibajelentés alkalmazásba és küldjön egy naplót a készülékről.</string>
     <string name="province_selected_talkback" />
@@ -4870,6 +4890,7 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="repeat_type">Ismétlés</string>
     <string name="repeated_marked_number_summary">%d percen belül ne blokkoljon második hívást ugyanarról a bejelentett számról</string>
     <string name="repeated_marked_number_title">Ne tiltsa az ismétlődő hívásokat a bejelentett számokról</string>
+    <string name="repeated_unknown_number_summary">%d percen belül ne tiltson le második hívást ugyanarról az ismeretlen számról</string>
     <string name="replace_dns">Automatikus DNS csere</string>
     <string name="report">Bejelentés</string>
     <string name="report_error">Bejelentés sikertelen</string>
@@ -5110,6 +5131,7 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="sms_detail_fragment_title_traffic">Hátralévő adat</string>
     <string name="sms_filter">Okosszűrő</string>
     <string name="sms_guard_alert">Változott az alapértelmezett üzenetküldő alkalmazás. A Xiaomi Messaging nem tudja blokkolni az SMS spamet.</string>
+    <string name="sms_intercept_settings">Az üzenetek tiltólistájának beállításai</string>
     <string name="sms_keywords">Kulcsszavas tiltólista</string>
     <string name="sms_malicious_url">Rosszindulatú hivatkozásokat tartalmazó SMS-ek tiltása</string>
     <string name="sms_prefix">Előtag tiltólista</string>
@@ -5311,9 +5333,26 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="st_call_intercept_reported">Bejelentett számról érkező hívások tiltása</string>
     <string name="st_call_intercept_stranger">Ismeretlentől érkező hívások tiltása</string>
     <string name="st_call_intercept_unknown">Rejtett számról érkező hívások tiltása</string>
+    <string name="st_call_mark_agent">Ingatlan</string>
+    <string name="st_call_mark_agent_intercept">Ingatlan</string>
+    <string name="st_call_mark_decoration">Lakásfelújítás</string>
+    <string name="st_call_mark_decoration_intercept">Lakásfelújítás</string>
+    <string name="st_call_mark_edu">Oktatás</string>
+    <string name="st_call_mark_edu_intercept">Oktatás</string>
+    <string name="st_call_mark_high_risk">Magas kockázat</string>
+    <string name="st_call_mark_high_risk_intercept">Magas kockázat</string>
+    <string name="st_call_mark_insurance">Befektetés</string>
+    <string name="st_call_mark_insurance_intercept">Befektetés</string>
+    <string name="st_call_mark_loan">Jelzálog</string>
+    <string name="st_call_mark_loan_intercept">Jelzálog</string>
+    <string name="st_call_mark_sell">Hirdetések</string>
+    <string name="st_call_mark_sell_intercept">Hirdetések</string>
     <string name="st_call_other_group">Egyéb</string>
     <string name="st_call_settings">Hívás-tiltólista</string>
     <string name="st_call_stranger_group">Ismeretlentől érkező hívások tiltása</string>
+    <string name="st_call_stranger_inercept_local">Ismeretlen számok letiltása</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">A kivételektől eltérő számokról érkező hívások le lesznek tiltva. Letiltja most?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">A kivételektől és névjegyektől eltérő számokról érkező hívások le lesznek tiltva. Letiltja most?</string>
     <string name="st_confirm_call_all_dialog_summary">Minden olyan számról érkező hívás letiltása, amely nem szerepel a kivételek között. Bekapcsolja most?</string>
     <string name="st_confirm_dialog_btn_open">Letiltás</string>
     <string name="st_confirm_dialog_summary_oversea_call">Minden külföldi telefonszámról érkező hívást letiltunk.</string>
@@ -5325,9 +5364,11 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="st_hint_add_head_number">Írja be az előtagot</string>
     <string name="st_hint_add_phonenumber">Írja be a telefonszámot</string>
     <string name="st_hint_operatelist">Úgy tűnik, hogy ez a szabály már létezik</string>
+    <string name="st_intercept_dialog_title">Figyelem</string>
     <string name="st_mark_call_intercept_threshold_summary">Automatikusan letiltja azokat a számokat, amelyeket egy adott számnál többször jelentettek.</string>
     <string name="st_mark_call_intercept_threshold_title">Letiltási küszöbérték</string>
     <string name="st_mark_number_group">Bejelentett számról érkező hívások tiltása</string>
+    <string name="st_mark_number_net_group">A már bejelentett számok letiltása</string>
     <string name="st_message_SMS_AntiSpam">Üzenetek elutasítása</string>
     <string name="st_message_SMSpass">SMS engedélyezése</string>
     <string name="st_message_phone_AntiSpam">Hívások elutasítása</string>
@@ -5340,13 +5381,26 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="st_msg_stranger_group">Idegenektől érkező üzenetek blokkolása</string>
     <string name="st_settings_name">A Tiltólista beállításai</string>
     <string name="st_share_settings">%d SIM beállítások használata</string>
+    <string name="st_smg_intercept_all">Az összes üzenet letiltása</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">A kivételek között nem szereplő számok vagy régiók SMS- és MMS-üzeneteit letiltjuk. Letiltja most?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">A kivételek vagy névjegyek között nem szereplő számok vagy régiók SMS- és MMS-üzeneteit letiltjuk. Letiltja most?</string>
+    <string name="st_smg_intercept_network_check">Letiltás online definíciók használatával</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Spam üzenetek</string>
+    <string name="st_smg_intercept_other">További beállítások</string>
+    <string name="st_smg_intercept_strange">Idegenektől érkező üzenetek letiltása</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Idegenektől érkező, adott kulcsszavakat tartalmazó üzenetek letiltása</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">Üzenetek letiltása bizonyos számokról és régiókból</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Ne tiltsa le az idegenektől érkező, adott kulcsszavakat tartalmazó üzeneteket</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">Ne tiltsa le a kivételekben szereplő számok és régiók üzeneteit</string>
     <string name="st_sms_intercept_oversea">Nemzetközi SMS</string>
     <string name="st_sub_title_customize_mode_name">Név</string>
     <string name="st_sub_title_whiteblack_list_group">Tiltólista</string>
     <string name="st_sum_call_wait">Ez a foglalt jelzés lesz használatban beérkező hívásokhoz is.</string>
     <string name="st_summary_blacklist_numbers">Hívások és üzenetek letiltása bizonyos számokról és körzetekből</string>
     <string name="st_summary_blacklist_numbers_international">Hívások letiltása szám vagy előhívószám alapján</string>
+    <string name="st_summary_intercept_blacklist_numbers">Adott számokról és régiókból érkező hívások és üzenetek letiltása</string>
     <string name="st_summary_keywords_blacklist">Kulcsszavak hozzáadása üzenetek letiltására</string>
+    <string name="st_summary_release_whitelist_numbers">Ne tiltsa le a kivételekben szereplő számok és régiók hívásait és üzeneteit</string>
     <string name="st_summary_special_numbers">Már bejelentett telefonszámok tiltása</string>
     <string name="st_summary_whitelist_numbers">Hívások és üzenetek engedélyezése bizonyos számokról és körzetekből</string>
     <string name="st_summary_whitelist_numbers_international">Hívások engedélyezése szám vagy előhívószám alapján</string>
@@ -5381,6 +5435,8 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="st_title_markednumber_group">Bejelentett számok tiltása</string>
     <string name="st_title_mode_choose_group">Tiltólista szabályai</string>
     <string name="st_title_not_sim">Nincs SIM</string>
+    <string name="st_title_number_and_region_blacklist">Letiltott számok és régiók</string>
+    <string name="st_title_number_and_region_whitelist">Szám- és régiókivételek</string>
     <string name="st_title_open_antispam">Tiltólista</string>
     <string name="st_title_other_group">Egyéb</string>
     <string name="st_title_settings_other_group">További beállítások</string>
@@ -5542,7 +5598,7 @@ A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak el
     <string name="summary_default_app">%s nincs beállítva alapértelmezett rendszeralkalmazásnak</string>
     <string name="summary_dev">Felhasználói adatok védelme</string>
     <string name="summary_do_not_disturb">Ön engedélyezte a Ne zavarjanak módot.</string>
-    <string name="summary_eye_shield">Kapcsolja ki az Olvasómódot az alapbeállításokhoz való visszatéréshez.</string>
+    <string name="summary_eye_shield">Kapcsolja ki a Szemkomfort módot, hogy visszatérjen az alapbeállításokhoz.</string>
     <string name="summary_find_device">Helymeghatározás és a készülék zárolása bárhonnan</string>
     <string name="summary_first_aid_kit">Gyorsan megoldhatja a készülékén található problémákat</string>
     <string name="summary_flow_notification">Havi adatforgalmi statisztikák kijelzése az értesítési felületen</string>

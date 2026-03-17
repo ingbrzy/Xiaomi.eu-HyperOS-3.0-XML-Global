@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Seuraava</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Näitä %1$d-tavun sovelluksia ei voida siirtää %2$d-tavun laiteelle. Voit ladata ne suoraan GetAppsista siirron jälkeen.</string>
     <string name="audio">Ääni</string>
+    <string name="audio_permission_desc_new">Musiikin ja äänitiedostojen siirtämiseen uuteen laitteeseen</string>
     <string name="audio_video_document">Äänet, videot ja asiakirjat</string>
     <string name="back">Takaisin</string>
     <string name="backup_died_summary">Napauta \"Yhdistä uudelleen\". Siirron eteneminen jatkuu lopettamastasi kohdasta.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Koodia ei ole annettu pitkään aikaan. Yhdistä manuaalisesti.</string>
     <string name="ble_enter_verifycode_timeout_title">Istunnon aikakatkaisu</string>
     <string name="ble_guest_connecting_title">Yhdistetään uuteen laitteeseen…</string>
+    <string name="ble_guest_connecting_title_pad">Yhdistetään uuteen laitteeseen…</string>
     <string name="ble_host_verification_summary">Syötä %d-numeroinen koodi vanhaan laitteeseesi.</string>
     <string name="ble_host_verification_title">Yhdistetään vanhaan laitteeseen…</string>
     <string name="ble_manual_authorization_content">Anna tarvittavat käyttöluvat, jotta voit siirtää kohteita Mi Moverilla. Voit myöntää käyttöluvat asetuksissa.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Tukiasema luotiin onnistuneesti. Odotetaan yhdistämistä…</string>
     <string name="ble_starting_ap">Luodaan tukiasemaa…</string>
     <string name="ble_wait_verify_code">Luodaan koodia uudelle laitteelle…</string>
+    <string name="ble_wait_verify_code_pad">Luodaan koodia uudella laitteella…</string>
     <string name="ble_waiting_verify_code">Vahvistetaan koodia…</string>
     <string name="ble_waiting_verify_code_error">Antamasi koodi on virheellinen</string>
+    <string name="blutooth_permission_desc_new">Lähellä olevien yhdistämisvalmiiden laitteiden löytämiseen</string>
     <string name="btn_got_it">Selvä</string>
     <string name="btn_install_complete">Asennettu</string>
     <string name="btn_mi_cloud_install_complete">Olen asentanut sovelluksen</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Käynnissä oleva puhelu</string>
     <string name="call_notification_screening_text">Seulotaan saapuvaa puhelua</string>
     <string name="calllog">Puheluhistoria</string>
+    <string name="camera_permission_content">Lähellä olevien laitteiden löytämiseen</string>
     <string name="cancel">Peruuta</string>
     <string name="cancel_moving_dialog_message">Lopetetaanko tuonti nyt?</string>
     <string name="cancel_moving_dialog_title">Lopeta tuonti</string>
@@ -150,8 +155,10 @@ Vieraile osoitteessa https://appleid.apple.com/#!&amp;page=signin sammuttaaksesi
     <string name="connection_tips_owner_title">Jos vanha laitteesi on Mi-puhelin:</string>
     <string name="connection_tips_owner_title_global">Asennetaan viimeisin Mi Mover -versio:</string>
     <string name="contact_records_permission_desc">Puheluhistorian siirtämiseen muihin laitteisiin</string>
+    <string name="contact_records_permission_desc_new">Puheluhistorian siirtämiseen uuteen laitteeseen</string>
     <string name="contacts">Yhteystiedot</string>
     <string name="contacts_permission_desc">Yhteystietojen siirtämiseen muihin laitteisiin</string>
+    <string name="contacts_permission_desc_new">Yhteystietojen siirtämiseen uuteen laitteeseen</string>
     <string name="contains_unauthorized_data">Sisältää luvattomia tietoja</string>
     <string name="copy">Kopioi</string>
     <string name="current_user_not_supported_summary">Nykyiset järjestelmäasetukset rajoittavat tiedonsiirtoa kohdetta Mi Mover käyttäen.</string>
@@ -180,6 +187,17 @@ Vieraile osoitteessa https://appleid.apple.com/#!&amp;page=signin sammuttaaksesi
     <string name="dialog_rating_desc_less">Anna meille muutama ehdotus, jotta voisimme parantaa sovellustamme?</string>
     <string name="dialog_rating_desc_perfect">Kiitos! Arvioi Mi Mover myös kohteessa GetApps?</string>
     <string name="dialog_rating_title">Arvioi Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"Jotta tiedot voidaan siirtää vanhasta laitteesta uuteen, tämän sovelluksen on muodostettava internet-yhteys ja se tarvitsee seuraavat käyttöluvat:
+• Pääsy kuviin, äänitiedostoihin, kalenteriin ja videoihin
+• Pääsy viesteihin, yhteystietoihin ja puheluhistoriaan
+• Pääsy tallennustilaan
+• Pääsy laitteeseen asennettujen sovellusten luetteloon"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Jotta tiedot voidaan siirtää vanhasta laitteesta uuteen, tämän sovelluksen on muodostettava internet-yhteys ja se tarvitsee seuraavat käyttöluvat:
+• Pääsy kuviin, äänitiedostoihin, kalenteriin ja videoihin
+• Pääsy viesteihin, yhteystietoihin ja puheluhistoriaan
+• Pääsy tallennustilaan
+• Pääsy laitteeseen asennettujen sovellusten luetteloon"</string>
+    <string name="dialog_request_all_permission_title_new">Käyttöoikeuksia vaaditaan</string>
     <string name="dialog_request_network_btn_negative">Poistu</string>
     <string name="dialog_request_network_btn_positive">Hyväksy</string>
     <string name="dialog_request_permission_message">Tervetuloa Mi Moveriin! Tämän sovelluksen avulla voit siirtää tietoja vanhasta laitteestasi uuteen. Tiedot siirretään kahden laitteen välillä, eikä niitä lähetetä palvelimillemme. Tämän sovelluksen on muodostettava yhteys Internetiin ja se tarvitsee seuraavat käyttöoikeudet voidakseen toimia normaalisti:</string>
@@ -188,6 +206,8 @@ Vieraile osoitteessa https://appleid.apple.com/#!&amp;page=signin sammuttaaksesi
     <string name="dialog_request_permission_message_extra_title">Vaaditut käyttöoikeudet</string>
     <string name="dialog_request_permission_message_global">Tämä sovellus tarvitsee seuraavat käyttöoikeudet voidakseen toimia normaalisti:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Ymmärtääksesi täysin oikeutesi käyttäjänä sekä tapoja, joilla käytämme tietojasi, lue ja hyväksy &lt;a href='%1s'>Xiaomi-käyttöjärjestelmän käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Mi Moverin tietosuojakäytäntö&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Salli tämän sovelluksen muodostaa internet-yhteys ja myönnä yllä luetellut pakolliset käyttöluvat. Ymmärtääksesi täysin käyttäjän oikeutesi sekä tavat, joilla käytämme tietojasi, lue ja hyväksy &lt;a href='%1s'>Xiaomi-käyttöjärjestelmän käyttäjäsopimus&lt;/a> ja &lt;a href='%2s'>Mi Moverin tietosuojakäytäntö&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Tervetuloa Mi Moveriin! Tämän sovelluksen avulla voit siirtää tietoja vanhasta laitteesta uuteen. Tiedot siirretään kahden laitteen välillä, eikä niitä ladata palvelimillemme.</string>
     <string name="dialog_request_permission_message_provision_link">Samalla ymmärtääksesi täysin oikeutesi käyttäjänä sekä tavat, joilla käytämme tietojasi, lue ja hyväksy meidän %1$s ja %2$s.</string>
     <string name="dialog_request_permission_title">Huomio</string>
     <string name="dialog_request_permission_title_global">Käyttöoikeuksia vaaditaan</string>
@@ -367,9 +387,12 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="icloud_signin_fail_message">Apple-tunnuksesi lukittiin turvallisuussyistä. Siirry osoitteeseen iforgot.apple.com ja seuraa ohjeita.</string>
     <string name="icloud_start_now">Käytä mobiilidataa</string>
     <string name="icloud_verify_tips">Napauta \"Salli\" iOS-laitteellasi ja syötä tähän ilmestyvä koodi.</string>
+    <string name="idm_discovery_summary_pad">Näyttää siltä, että olet aktivoimassa uutta laitetta. Siirretäänkö kohteet tästä laitteesta uuteen?</string>
+    <string name="idm_discovery_title_pad">Siirrä kohteet uuteen laitteeseen</string>
     <string name="im_recipient">Olen vastaanottaja</string>
     <string name="im_sender">Olen lähettäjä</string>
     <string name="image">Kuvat</string>
+    <string name="image_video_permission_desc_new">Kuvien ja videoiden siirtämiseen uuteen laitteeseen</string>
     <string name="import_again">Tuo uudelleen</string>
     <string name="import_data_from_icloud">Tuo tietoja kohteesta iCloud</string>
     <string name="install_app_dialog_title">Laitteita ei löytynyt lähistöllä</string>
@@ -395,6 +418,8 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="lack_perm_title">Käyttöoikeuksia vaaditaan</string>
     <string name="launcher">Aloitusnäytön ulkoasu</string>
     <string name="loading_data">Hetki vain…</string>
+    <string name="location_permission_content_no_provisioned">Myönnä nämä käyttöluvat, jotta voit muodostaa yhteyden lähellä olevan laitteen tukiasemaan. Jos et myönnä näitä käyttölupia, et voi siirtää kohteita.</string>
+    <string name="location_permission_content_provisioned">Yhteyden muodostamiseen lähellä olevan laitteen tukiasemaan</string>
     <string name="location_permission_desc">Lähellä olevien laitteiden etsimiseksi</string>
     <string name="location_permission_request">Yhteyden muodostamiseen muihin lähellä oleviin laitteisiin</string>
     <string name="lockscreen_access">Kuvioalue</string>
@@ -423,6 +448,8 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="manual_connection_title">Yhdistä vanhaan laitteeseen manuaalisesti</string>
     <string name="manual_connection_title_pad">Yhdistä vanha laite tukiasemaan</string>
     <string name="manual_connection_title_phone">Yhdistä vanha laite tukiasemaan</string>
+    <string name="manual_disconnect_guest">Uusi laite irrotettu. Jatka siirtoa muodostamalla yhteys uudelleen.</string>
+    <string name="manual_disconnect_host">Vanha laite irrotettu. Jatka siirtoa muodostamalla yhteys uudelleen.</string>
     <string name="message_request_manage_external_storage_perm">Mi Moverin on päästävä kaikkiin tämän laitteen tiedostoihin voidakseen siirtää ne vanhasta laitteestasi uuteen.</string>
     <string name="message_request_package_stats_perm">Mi Mover tarvitsee tämän luvan oppia, mitkä sovellukset on asennettu laitteeseen, ja siirtääkseen nämä sovellukset toiseen.</string>
     <string name="midnight">Yö</string>
@@ -513,6 +540,7 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="more">Lisää</string>
     <string name="morning">Aamu</string>
     <string name="msg_permission_desc">Viestien siirtämiseen muihin laitteisiin</string>
+    <string name="msg_permission_desc_new">Teksti- ja multimediaviestien siirtämiseen muihin laitteisiin</string>
     <string name="name_password_not_consistent">Antamasi Apple ID ja salasana eivät täsmää</string>
     <string name="need_location_permission_confirm">Asetukset</string>
     <string name="need_location_permission_summary">Salli kohteen Mi Mover käyttää sijaintiasi löytääksesi lähellä olevia laitteita.</string>
@@ -522,6 +550,20 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="need_more_memory_title">Ei tarpeeksi tallennustilaa</string>
     <string name="new_app_name">Uusi versio</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Tekijänoikeudella suojatut tiedot</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Järjestelmäsovellukset ja muiden tuotemerkkien data eivät välttämättä ole yhteensopivia Mi Moverin kanssa, eikä niitä voi siirtää.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Sovelluksia ja tietoja, jotka eivät ole yhteensopivia uuden laitteen kanssa, ei voi siirtää.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Jotkin puhelimen asetukset ja tiedot on sidottu SIM-korttiin. SIM-kortin asettaminen uuteen laitteeseen siirtää nämä tiedot.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Tietyt sovellustiedot</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Toisen tilan tiedot</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Toisen tilan tiedot</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Tietosuojaan ja tietoturvaan liittyvät tiedot</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Pankkikortteja ja auton avaimia ei voi siirtää.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Teemoja ja taustakuvia koskevat näytön resoluution rajoitukset, eikä niitä voi siirtää joidenkin mallien välillä.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Bluetooth-protokollarajoitusten vuoksi Bluetooth-korvakuulokkeiden, -kaiuttimien ja muiden Bluetooth-laitteiden parinmuodostusta ei voi siirtää.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Toimintatilastoja, kuten virrankulutusta, ruutuaikaa ja mobiilidatan käyttöä, ei voi siirtää.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Tiettyyn laitemalliin liittyvät tiedot</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Mitä tietoja ei voi siirtää Mi Moverin kautta?</string>
     <string name="new_trans_intro_desc_2">Ei tarvitse syöttää salasanaa uudessa Mi Mover -versiossa. Avaa vain Mi Mover vanhalla laitteella, napauta \"Olen lähettäjä \" ja napauta tukiaseman nimeä yhteyden muodostamiseksi.</string>
     <string name="new_trans_intro_desc_2_pad">Tukiaseman salasanaa ei tarvitse syöttää Mi Moverin uudessa versiossa. Avaa vain Mi Mover vanhalla laitteellasi, napauta sitten \"Olen lähettäjä\", ja valitse tukiaseman nimi yhdistääksesi siihen.</string>
     <string name="new_trans_intro_desc_2_phone">Tukiaseman salasanaa ei tarvitse syöttää Mi Moverin uudessa versiossa. Avaa vain Mi Mover vanhalla laitteellasi, napauta sitten \"Olen lähettäjä\", ja valitse tukiaseman nimi yhdistääksesi siihen.</string>
@@ -532,18 +574,18 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="new_trans_intro_desc_6_pad">Sovellustietoja ei voi siirtää, koska Mi Moverilla ei ole tarvittavia käyttölupia muissa kuin Xiaomi-laitteissa.</string>
     <string name="new_trans_intro_desc_6_phone">Sovellustietoja ei voi siirtää, koska Mi Moverilla ei ole tarvittavia käyttölupia muissa kuin Xiaomi-laitteissa.</string>
     <string name="new_trans_intro_desc_7">Mi Mover voi jatkaa siitä, mistä jäit pois. Sinun on kuitenkin ehkä aloitettava alusta, jos laitteen yhteensopivuusongelmat estävät sinua jatkamasta keskeytyneitä siirtoja.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover voi jatkaa siitä, mihin jäit. Sinun on kuitenkin ehkä aloitettava alusta, jos laitteen yhteensopivuusongelmat estävät jatkamasta keskeytyttä siirtoa.</string>
     <string name="new_trans_intro_desc_8">Vanhan laitteesi WeChat-historia korvaa uuden laitteesi WeChat-historian siirron aikana.</string>
+    <string name="new_trans_intro_desc_8_pad">Vanhan laitteesi WeChat-historia korvaa uuden laitteesi WeChat-historian siirron aikana.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Varmista, että Mi Mover uudessa laitteessasi on ajan tasalla. Voit ladata Mi Moverin uusimman version Play Kaupasta tai napauta tätä: %2$s.
 %3$d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näetkö sen siellä. Jos näin on, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
     <string name="new_trans_intro_desc_new_click">Lataa</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version Google Playsta tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version Google Playsta tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Varmista, että uuden laitteen Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version Google Play -kaupasta tai <Data>&lt;a href=%2$s>napauttaa tästä&lt;/a></Data>".
+%3$d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$dVarmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version Google Playsta tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+%3$d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Varmista, että uuden laitteesi Mi Mover on ajan tasalla. Voit ladata Mi Moverin uusimman version GetAppsista tai <Data>&lt;a href=%2$s>napauta tästä&lt;/a></Data>".
+%3$d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa WLAN-asetukset ja tarkista, näkyykö se siellä. Jos näkyy, palaa Mi Moveriin ja napauta tukiaseman nimeä."</string>
     <string name="new_trans_intro_desc_old">%d. Jos tukiasema ei vieläkään näy Mi Moverissa, avaa Wi-Fi-asetukset ja tarkista, näetkö sen siellä. Jos näin on, palaa Mi Moveriin ja napauta tukiaseman nimeä.</string>
     <string name="new_trans_intro_question_1">%d. Miksi en näe uuden laitteen tukiasemaa vanhassa?</string>
     <string name="new_trans_intro_question_1_pad">%d. Miksi en näe uuden laitteen tukiasemaa vanhalla laitteella?</string>
@@ -573,15 +615,22 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="not_set">Ei asetettu</string>
     <string name="not_support_data_content1">%d. Laitemallikohtaiset kohteet</string>
     <string name="not_support_data_content2">%d. Sovellustiedot</string>
+    <string name="not_support_data_content2_new">%d. Tekijänoikeudella suojatut tiedot</string>
     <string name="not_support_data_content3">%d. Toisen tilan tiedot</string>
+    <string name="not_support_data_content3_new">%d. Tietosuojaan ja tietoturvaan liittyvät tiedot</string>
     <string name="not_support_data_content4">%d. Kaksoissovellukset</string>
+    <string name="not_support_data_content4_new">%d. Tietyt sovellustiedot</string>
     <string name="not_support_data_content_2">%d. Valitut sovellukset ja sovellustiedot</string>
     <string name="not_support_data_link">Kohteet, joita ei voi siirtää</string>
     <string name="not_support_data_summary1">Teemoja, taustakuvia, liikennekortteja ja avainkortteja ei voi siirtää Mi Moverin avulla.</string>
+    <string name="not_support_data_summary1_new">Pankkikortteja ja auton avaimia ei voi siirtää. Teemoja ja taustakuvia koskevat näytön resoluution rajoitukset, eikä niitä voi siirtää joidenkin mallien välillä.</string>
     <string name="not_support_data_summary2">Sovellustietoja (kuten keskusteluhistoriaa) ei voi siirtää.</string>
+    <string name="not_support_data_summary2_new">Teemoja, fontteja, suuria kuvakkeita, Aina näytössä -teemoja tai Xiaomi-tilin kautta ostettuja widgettejä, jotka on suojattu tekijänoikeudella, ei voi siirtää. Kirjaudu sisään Xiaomi-tilillesi uudella laitteella ja lataa ne sen sijaan uudelleen.</string>
     <string name="not_support_data_summary3">Järjestelmärajoitusten vuoksi kohteita toisesta tilasta ei voida siirtää Mi Moverin avulla.</string>
+    <string name="not_support_data_summary3_new">Sormenjälkiä, kasvotietoja ja muita tietoja, jotka liittyvät laitteen omistajuuteen, taloudelliseen tietoturvaan tai käyttäjän yksityisyyteen, ei voi siirtää vanhasta laitteesta missään muodossa. Näihin sisältyvät myös tiedot rahoitussovelluksista (esim. mobiilipankki).</string>
     <string name="not_support_data_summary4">Kaksoissovelluksia ja niiden tietoja ei myöskään voi siirtää. Voit kuitenkin siirtää vastaavat pääohjelmat.</string>
     <string name="not_support_data_summary_2">Joitakin sovelluksia ei voida siirtää Play Kaupan tietosuojarajoitusten vuoksi.</string>
+    <string name="not_support_data_summary_new">Järjestelmäsovellukset ja muiden tuotemerkkien data eivät välttämättä ole yhteensopivia Mi Moverin kanssa, eikä niitä voi siirtää.</string>
     <string name="not_support_data_title">Kohteet, joita ei voi siirtää</string>
     <string name="note">Muistio</string>
     <string name="nothing_chosen">Valitse kohteet ensin</string>
@@ -641,27 +690,39 @@ Avaa WeChat ja siirry kohtaan Me > Settings > General > Back up &amp; migrate ch
     <string name="permission_alert_message_usage_access">Kohteen Mi Mover on käytettävä sovelluksen käyttötilastoja. Anna kohteelle Mi Mover tarvittavat käyttöoikeudet Asetuksissa.</string>
     <string name="permission_alert_title">Käyttöoikeuksia vaaditaan</string>
     <string name="permission_bluetooth_summary">Läheisten käytettävissä olevien laitteiden löytämiseksi</string>
+    <string name="permission_bluetooth_summary_new">Käytettävissä olevien laitteiden etsimiseen lähistöltä</string>
     <string name="permission_bluetooth_title">Bluetoothin kytkeminen päälle ja pois</string>
     <string name="permission_calendar_summary">Kalenteritapahtumien siirtämiseen</string>
     <string name="permission_calendar_title">Pääsy kalenteriin</string>
     <string name="permission_calender_summary">Tapahtumien siirtämiseen vanhasta laitteesta uuteen</string>
     <string name="permission_calender_summary_global">Kalenteritapahtumien siirtämiseen uuteen laitteeseen</string>
+    <string name="permission_calender_summary_new">Tapahtumien siirtämiseen vanhasta laitteesta uuteen</string>
     <string name="permission_calender_title">Pääsy kalenteritapahtumiin</string>
+    <string name="permission_calender_title_new">Pääsy kalenteritapahtumiin</string>
     <string name="permission_call_log_summary">Puheluhistorian siirtämiseen uudelle laitteellesi</string>
+    <string name="permission_call_log_summary_new">Puheluhistorian siirtämiseen uudelle laitteellesi</string>
     <string name="permission_call_log_title">Pääsy puheluhistoriaan</string>
     <string name="permission_contacts_summary">Yhteystietojen siirtämiseen uudelle laitteellesi</string>
+    <string name="permission_contacts_summary_new">Yhteystietojen siirtämiseen uudelle laitteellesi</string>
     <string name="permission_contacts_title">Pääsy yhteystietoihin</string>
     <string name="permission_grant_request">Voidakseen siirtää tämän kohteen Mi Mover tarvitsee \"%1$s\" -oikeuden.</string>
     <string name="permission_locale_summary">Läheisten laitteiden kytkemiseen</string>
     <string name="permission_locale_title">Sijainnin käyttäminen</string>
+    <string name="permission_locale_title_new">Sijainnin käyttäminen</string>
     <string name="permission_message_summary">Viestien siirtämiseen uudelle laitteellesi</string>
+    <string name="permission_message_summary_new">Viestien siirtämiseen uudelle laitteellesi</string>
     <string name="permission_message_title">Tekstiviestisisällön käyttäminen</string>
     <string name="permission_request_title">\"%1$s\" -oikeus vaaditaan</string>
     <string name="permission_setting_button">Asetukset</string>
     <string name="permission_storage_summary">Tiedostojen ja valokuvien siirtämistä uudelle laitteellesi</string>
+    <string name="permission_storage_summary_new">Tiedostojen ja kuvien siirtämiseen uudelle laitteellesi</string>
     <string name="permission_storage_title">Laitteeseen tallennettujen tiedostojen ja valokuvien käyttäminen ja tallentaminen</string>
+    <string name="permission_storage_title_new">Pääsy tallennustilaan</string>
     <string name="permission_wifi_summary">Kohteiden siirtämiseen uudelle laitteellesi</string>
+    <string name="permission_wifi_summary_new">Kohteiden siirtämiseen uudelle laitteellesi</string>
     <string name="permission_wifi_title">Wi-Fi:n kytkeminen päälle ja pois</string>
+    <string name="permission_wifi_title_new">Wi-Fi:n kytkeminen päälle ja pois</string>
+    <string name="permission_wifi_title_new_china">WLAN:in kytkeminen päälle ja pois</string>
     <string name="pm">ip.</string>
     <string name="preference_copied">%1$s kopioitiin leikepöydälle.</string>
     <string name="privacy_agree">Hyväksy</string>
@@ -749,6 +810,7 @@ Vapauta vähintään %s."</string>
     <string name="scanner_quit_alert_message_phone">Sinun on yhdistettävä laitteet uudelleen, jos poistut kohteesta Mi Mover nyt. Haluatko silti poistua?</string>
     <string name="scanner_quit_alert_title">Poistutaanko nyt?</string>
     <string name="scanner_send_dialog_btn">Selvä</string>
+    <string name="scanner_send_dialog_btn_i_know">Selvä</string>
     <string name="scanner_send_dialog_message">Älä katkaise Wi-Fi-yhteyttä tai vaihda verkkojen välillä siirron aikana.</string>
     <string name="scanner_size_selected">Valittu %s</string>
     <string name="scanner_subtitle_prd">Lue seuraavat tiedot huolellisesti ennen kunkin kohteen tarkistamista ja siirtoprosessin aloittamista.</string>
@@ -756,6 +818,7 @@ Vapauta vähintään %s."</string>
     <string name="scanner_title_prd">Tärkeää tietoa</string>
     <string name="scanner_title_tip">Valitse siirrettävät kohteet</string>
     <string name="scanner_wechat_overwrite_hit">Kolmannen osapuolen sovellusrajoituksista johtuen keskusteluhistoriat ja muut sovellustiedot uudella laitteella korvataan vanhoilla, kun siirto on valmis.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Kolmannen osapuolen sovellusrajoitusten vuoksi uudessa laitteessasi olevat keskusteluhistoriat ja muut sovellustiedot korvataan vanhan laitteen tiedoilla, kun siirto on valmis.</string>
     <string name="search_menu_title">Haku</string>
     <string name="searching_for_new_device">Etsitään uutta laitetta…</string>
     <string name="searching_for_new_device_pad">Etsitään uutta laitetta…</string>
@@ -889,27 +952,42 @@ Vapauta vähintään %s."</string>
     <string name="time_spent">Aika: %1$s</string>
     <string name="tips_button_hint">Tarkista jokainen kohde ensin vahvistaaksesi</string>
     <string name="tips_cover_content">Nämä tiedot (mukaan lukien keskusteluhistoriat) korvataan, jos jatkat.</string>
+    <string name="tips_cover_content_pad">Nämä tiedot (mukaan lukien keskusteluhistoriat) korvataan, jos jatkat.</string>
     <string name="tips_cover_content_tablet">Nämä tiedot (mukaan lukien keskusteluhistoriat) korvataan, jos jatkat.</string>
     <string name="tips_cover_title">%1$d. Uudessa laitteessa on jo tietoja seuraavista sovelluksista.</string>
+    <string name="tips_cover_title_pad">%1$d. Uudessa laitteessa on jo seuraavien sovellusten tiedot.</string>
     <string name="tips_cover_title_tablet">%1$d. Uudessa laitteessa on jo tietoja seuraavista sovelluksista.</string>
     <string name="tips_dual_app_content">Kaksoissovelluksia ei voi siirtää. Vain pääsovellus ja sen tiedot voidaan siirtää.</string>
     <string name="tips_dual_app_title">%d. Seuraavat sovellukset ovat kaksoissovelluksia.</string>
+    <string name="tips_dual_app_title_new">%d. Kaksoissovellusten tietoja ei voi siirtää.</string>
     <string name="tips_hot_content">Tämä on normaalia. Laitteesi jäähtyy, kun siirto on valmis.</string>
+    <string name="tips_hot_content_new">Tämä on normaalia. Laite jäähtyy, kun siirto on valmis.</string>
     <string name="tips_hot_title">%d. Laitteesi voi kuumentua siirtoprosessin aikana.</string>
+    <string name="tips_hot_title_content">%d. Laite saattaa kuumentua.</string>
     <string name="tips_private_space_content">Järjestelmärajoitusten vuoksi toisen tilan tietoja ei voida siirtää.</string>
+    <string name="tips_private_space_content_pad">Tämä johtuu järjestelmän rajoituksista.</string>
+    <string name="tips_private_space_content_phone">Tämä johtuu järjestelmän rajoituksista.</string>
     <string name="tips_private_space_content_tablet">Järjestelmärajoitusten vuoksi toisen tilan tietoja ei voida siirtää.</string>
     <string name="tips_private_space_title">%d. Toinen tila on päällä.</string>
+    <string name="tips_private_space_title_pad">%d. Toisen tilan tietoja ei voi siirtää.</string>
+    <string name="tips_private_space_title_phone">%d. Toisen tilan tietoja ei voi siirtää.</string>
     <string name="tips_private_space_title_tablet">%d. Toinen tila on päällä.</string>
     <string name="tips_prudent_operation_content">Yhteyden katkaiseminen keskeyttää siirron.</string>
     <string name="tips_prudent_operation_title">%d. Älä sammuta tai vaihda Wi-Fi-tukiasemaa.</string>
+    <string name="tips_prudent_operation_title_new">%d. Älä sammuta tai vaihda Wi-Fi-tukiasemaa.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Älä sammuta tai vaihda WLAN-tukiasemaa.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Älä sammuta tai vaihda WLAN-tukiasemaa.</string>
     <string name="tips_secret_content_one">Joitakin yksityisiä kohteita vanhalla laitteella (%1$s) ei voi siirtää. Poista ne yksityisestä kansiosta, jotta voit siirtää ne.</string>
+    <string name="tips_secret_content_one_new">Joitakin vanhan laitteen (%1$s) yksityisiä kohteita ei voi siirtää. Poista ne yksityisestä kansiosta, jotta voit siirtää ne.</string>
     <string name="tips_secret_content_three">Joitakin vanhan laitteen yksityisiä kohteita (%1$s, %2$s, %3$s) ei voi siirtää. Poista ne yksityisestä kansiosta, jotta voit siirtää ne.</string>
+    <string name="tips_secret_content_three_new">Joitakin vanhan laitteen yksityisiä kohteita (%1$s, %2$s, %3$s) ei voi siirtää. Poista ne yksityisestä kansiosta, jotta voit siirtää ne.</string>
     <string name="tips_secret_content_two">Joitakin vanhan laitteen yksityisiä kohteita (%1$s, %2$s) ei voi siirtää. Poista ne yksityisestä kansiosta, jotta voit siirtää ne.</string>
+    <string name="tips_secret_content_two_new">Joitakin vanhan laitteen yksityisiä kohteita (%1$s, %2$s) ei voi siirtää. Poista ne yksityisestä kansiosta, jotta voit siirtää ne.</string>
     <string name="tips_secret_file">tiedostot</string>
     <string name="tips_secret_gallery">albumit</string>
     <string name="tips_secret_note">muistiinpanot</string>
     <string name="tips_secret_title">%d. Joitakin yksityisiä kohteita ei voi siirtää.</string>
+    <string name="tips_secret_title_content">%d. Yksityisiä kohteita ei voi siirtää.</string>
     <string name="tips_subtitle">Lue ja vahvista seuraavat muistutukset ennen kuin jatkat.</string>
     <string name="title_compatibility_mode">Ota sovellusten yhteensopivuustila käyttöön</string>
     <string name="title_open_wlan">Käynnistä Wi-Fi</string>
@@ -951,10 +1029,12 @@ Lataa ja asenna Mi Mover."</string>
     <string name="trans_send_time_remained_default">Lähetetty: %1$s</string>
     <string name="trans_show_qr_code_label">Avaa Mi Mover vanhalla laitteella</string>
     <string name="trans_show_qr_code_label_for_pad">Avaa Mi Mover vanhalla laitteella</string>
+    <string name="trans_show_qr_code_label_pad">Avaa Mi Mover vanhalla laitteella</string>
     <string name="trans_sync_transfer_data_list">Valitse siirrettävät kohteet vanhalla laitteella</string>
     <string name="trans_sync_transfer_data_list_apple">Siirrä kohteita Apple-laitteeltasi</string>
     <string name="trans_sync_transfer_data_list_hint">Hetki vain…</string>
     <string name="trans_sync_transfer_data_list_pad">Valitse siirrettävät kohteet vanhasta laitteesta</string>
+    <string name="trans_sync_transfer_data_list_phone">Valitse siirrettävät kohteet vanhalla laitteella</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Valitse kohteita vanhalta laitteeltasi ja napauta \"Lähetä\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Valitse kohteita vanhalta laitteeltasi ja napauta \"Lähetä\".</string>
     <string name="trans_time_format_second">Alle %d minuutti</string>
@@ -977,6 +1057,7 @@ Lataa ja asenna Mi Mover."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Siirron eteneminen tallennetaan. Voit jatkaa siirtoa siitä kohdasta, josta lopetit seuraavan kerran, kun kytket kaksi laitetta.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Siirron edistyminen tallennetaan. Voit jatkaa siirtoa siitä, mihin jäit, seuraavalla kerralla, kun liität nämä kaksi laitetta.</string>
     <string name="transfer_quit_alert_title">Huomio</string>
     <string name="transfer_snap_error">Ei voitu siirtää</string>
     <string name="transfer_snap_new_receiving">Vastaanotetaan…</string>

@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Ďalej</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Tieto %1$d-bitové aplikácie nie je možné previesť na %2$d-bitové zariadenie. Po prevode si ich môžete stiahnuť priamo z GetApps.</string>
     <string name="audio">Zvuk</string>
+    <string name="audio_permission_desc_new">Na prenos hudby a zvuku do nového zariadenia</string>
     <string name="audio_video_document">Zvuk, video a dokumenty</string>
     <string name="back">Späť</string>
     <string name="backup_died_summary">Ťuknite na \"Znova pripojiť\". Prenos sa obnoví na mieste, kde ste naposledy skončili.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Kód nebol použitý po dlhšiu dobu. Pripojte sa manuálne.</string>
     <string name="ble_enter_verifycode_timeout_title">Platnosť relácie vypršala</string>
     <string name="ble_guest_connecting_title">Pripája sa ku novému zariadeniu…</string>
+    <string name="ble_guest_connecting_title_pad">Pripájanie k novému zariadeniu…</string>
     <string name="ble_host_verification_summary">Zadajte %d-miestny kód na vašom starom zariadení.</string>
     <string name="ble_host_verification_title">Pripája sa k starému zariadeniu…</string>
     <string name="ble_manual_authorization_content">Udeľte požadované povolenia, aby ste mohli prenášať položky pomocou aplikácie Mi Mover. Tieto povolenia môžete udeliť v Nastaveniach.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Hotspot úspešne vytvorený. Čaká sa na pripojenie…</string>
     <string name="ble_starting_ap">Vytvára sa hotspot…</string>
     <string name="ble_wait_verify_code">Generuje sa kód na nové zariadenie…</string>
+    <string name="ble_wait_verify_code_pad">Generuje sa kód na nové zariadenie…</string>
     <string name="ble_waiting_verify_code">Overuje sa kód…</string>
     <string name="ble_waiting_verify_code_error">Zadaný kód je nesprávny</string>
+    <string name="blutooth_permission_desc_new">Na vyhľadávanie zariadení v okolí, ktoré sú pripravené na pripojenie</string>
     <string name="btn_got_it">Rozumiem</string>
     <string name="btn_install_complete">Nainštalované</string>
     <string name="btn_mi_cloud_install_complete">Aplikáciu mám už nainštalovanú</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Prebiehajúci hovor</string>
     <string name="call_notification_screening_text">Preveruje sa prichádzajúci hovor</string>
     <string name="calllog">História hovorov</string>
+    <string name="camera_permission_content">Na objavovanie zariadení v okolí</string>
     <string name="cancel">Zrušiť</string>
     <string name="cancel_moving_dialog_message">Zastaviť importovanie teraz?</string>
     <string name="cancel_moving_dialog_title">Zastaviť importovanie</string>
@@ -150,8 +155,10 @@ Navštívte https://appleid.apple.com/#!&amp;page=signin pre vypnutie autentifik
     <string name="connection_tips_owner_title">Ak je vaše staré zariadenie Mi telefón:</string>
     <string name="connection_tips_owner_title_global">Nainštalujte najnovšiu verziu aplikácie Mi Mover:</string>
     <string name="contact_records_permission_desc">Na prenos histórie hovorov do iných zariadení</string>
+    <string name="contact_records_permission_desc_new">Na prenos histórie hovorov do nového zariadenia</string>
     <string name="contacts">Kontakty</string>
     <string name="contacts_permission_desc">Na prenos kontaktov do iných zariadení</string>
+    <string name="contacts_permission_desc_new">Na prenos kontaktov do nového zariadenia</string>
     <string name="contains_unauthorized_data">Obsahuje neautorizované údaje</string>
     <string name="copy">Kopírovať</string>
     <string name="current_user_not_supported_summary">Aktuálne systémové nastavenia zakazujú prenos dát pomocou aplikácie Mi Mover.</string>
@@ -180,6 +187,17 @@ Navštívte https://appleid.apple.com/#!&amp;page=signin pre vypnutie autentifik
     <string name="dialog_rating_desc_less">Máte nejaké návrhy na vylepšenie našej aplikácie?</string>
     <string name="dialog_rating_desc_perfect">Ďakujeme! Ohodnotiť Mi Mover aj v GetApps?</string>
     <string name="dialog_rating_title">Ohodnotiť Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"Na prenos údajov zo starého zariadenia do nového sa táto aplikácia musí pripojiť k internetu a vyžaduje si nasledujúce povolenia:
+• Prístup k fotografiám, zvuku, kalendáru a videám
+• Prístup k správam, kontaktom a histórii hovorov
+• Prístup k úložisku
+• Prístup k zoznamu aplikácií nainštalovaných v zariadení"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Na prenos údajov zo starého zariadenia do nového sa táto aplikácia musí pripojiť k internetu a vyžaduje si nasledujúce povolenia:
+• Prístup k fotografiám, zvuku, kalendáru a videám
+• Prístup k správam, kontaktom a histórii hovorov
+• Prístup k úložisku
+• Prístup k zoznamu aplikácií nainštalovaných v zariadení"</string>
+    <string name="dialog_request_all_permission_title_new">Vyžadujú sa povolenia</string>
     <string name="dialog_request_network_btn_negative">Koniec</string>
     <string name="dialog_request_network_btn_positive">Súhlasím</string>
     <string name="dialog_request_permission_message">Vitajte v aplikácii Mi Mover! Túto aplikáciu môžete použiť na prenos údajov zo starého zariadenia do nového. Údaje sa budú prenášať medzi týmito dvoma zariadeniami a nebudú nahrané na naše servery. Táto aplikácia sa musí pripojiť k internetu a pre správne fungovanie si vyžaduje nasledujúce povolenia:</string>
@@ -188,6 +206,8 @@ Navštívte https://appleid.apple.com/#!&amp;page=signin pre vypnutie autentifik
     <string name="dialog_request_permission_message_extra_title">Povinné povolenia</string>
     <string name="dialog_request_permission_message_global">Aby mohla táto aplikácia pracovať správne, potrebuje nasledovné povolenia:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Ak chcete plne porozumieť svojim právam ako používateľa, ako aj spôsobom, akými používame vaše údaje, prečítajte si a vyjadrite súhlas s našimi zmluvami &lt;a href='%1s'>Podmienky používania operačného systému Xiaomi&lt;/a> a &lt;a href='%2s'>Zásady ochrany osobných údajov Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Povoľte tejto aplikácii pripojenie k internetu a udeľte jej vyššie uvedené povinné povolenia. Ak chcete úplne pochopiť svoje práva ako používateľa, ako aj spôsob, akým používame vaše údaje, prečítajte si a vyjadrite súhlas so zmluvami &lt;a href='%1s'>Podmienky používania operačného systému Xiaomi&lt;/a> a &lt;a href='%2s'>Zásady ochrany osobných údajov Mi Mover&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Vitajte v aplikácii Mi Mover! Pomocou tejto aplikácie môžete prenášať údaje zo starého zariadenia do nového. Údaje sa prenesú medzi oboma zariadeniami a nebudú sa odosielať na naše servery.</string>
     <string name="dialog_request_permission_message_provision_link">Aby ste v plnom rozsahu porozumeli svojim používateľským právam a spôsobom, akým používame vaše údaje, prečítajte si a vyjadrite súhlas s našimi zmluvami %1$s a %2$s.</string>
     <string name="dialog_request_permission_title">Upozornenie</string>
     <string name="dialog_request_permission_title_global">Vyžadujú sa povolenia</string>
@@ -197,7 +217,7 @@ Navštívte https://appleid.apple.com/#!&amp;page=signin pre vypnutie autentifik
     <string name="dialog_version_title_tip">Je dostupná nová aktualizácia</string>
     <string name="dialog_wechat_data_transfer_fail_button">Rozumiem</string>
     <string name="dialog_wechat_data_transfer_fail_message">"Nebolo možné preniesť dáta a históriu chatovania aplikácie WeChat z dôvodu obmedzení aplikácie. Skúste vstavanú funkciu zálohovania.
-Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</string>
+Otvorte WeChat a prejdite na ponuku Moje > Nastavenia > Záloha a migrácia chatov."</string>
     <string name="dialog_wechat_data_transfer_fail_title">Nebolo možné preniesť údaje aplikácie WeChat</string>
     <string name="document">Dokumenty</string>
     <string name="early_morning">Ráno</string>
@@ -367,9 +387,12 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="icloud_signin_fail_message">Vaše Apple ID bolo zamknuté z bezpečnostných dôvodov. Prejdite na stránku iforgot.apple.com a postupujte podľa pokynov.</string>
     <string name="icloud_start_now">Použiť mobilné dáta</string>
     <string name="icloud_verify_tips">Ťuknite na \"Povoliť\" na vašom iOS zariadení a zadajte kód, ktorý sa tu objaví.</string>
+    <string name="idm_discovery_summary_pad">Zdá sa, že práve aktivujete nové zariadenie. Preniesť položky z tohto zariadenia do nového?</string>
+    <string name="idm_discovery_title_pad">Prenos položiek do nového zariadenia</string>
     <string name="im_recipient">Som príjemca</string>
     <string name="im_sender">Som odosielateľ</string>
     <string name="image">Obrázky</string>
+    <string name="image_video_permission_desc_new">Na prenos fotografií a videí do nového zariadenia</string>
     <string name="import_again">Importovať znovu</string>
     <string name="import_data_from_icloud">Importovať údaje z iCloudu</string>
     <string name="install_app_dialog_title">Nenašli sa zariadenia v okolí</string>
@@ -395,6 +418,8 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="lack_perm_title">Vyžadujú sa povolenia</string>
     <string name="launcher">Rozloženie domovskej obrazovky</string>
     <string name="loading_data">Malý moment…</string>
+    <string name="location_permission_content_no_provisioned">Udeľte toto povolenie, aby ste sa mohli pripojiť k hotspotu blízkeho zariadenia. Ak toto povolenie neudelíte, nebudete môcť prenášať položky.</string>
+    <string name="location_permission_content_provisioned">Pre pripojenie k hotspotu blízkeho zariadenia</string>
     <string name="location_permission_desc">Pre vyhľadanie zariadení v okolí</string>
     <string name="location_permission_request">Pre pripojenie na zariadenia v blízkosti</string>
     <string name="lockscreen_access">Priestor pre vzor</string>
@@ -423,6 +448,8 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="manual_connection_title">Pripojiť sa k starému zariadeniu manuálne</string>
     <string name="manual_connection_title_pad">Pripojte staré zariadenie k hotspotu</string>
     <string name="manual_connection_title_phone">Pripojte staré zariadenie k hotspotu</string>
+    <string name="manual_disconnect_guest">Nové zariadenie je odpojené. Ak chcete pokračovať v prenose, znovu sa pripojte.</string>
+    <string name="manual_disconnect_host">Staré zariadenie je odpojené. Ak chcete pokračovať v prenose, znovu sa pripojte.</string>
     <string name="message_request_manage_external_storage_perm">Aplikácia Mi Mover potrebuje prístup ku všetkým súborom na tomto zariadení, aby ich bolo možné presunúť zo starého zariadenia do nového.</string>
     <string name="message_request_package_stats_perm">Aplikácia Mi Mover potrebuje toto povolenie, aby zistila, ktoré aplikácie sú nainštalované v zariadení a mohla ich prenášať do druhého zariadenia.</string>
     <string name="midnight">Noc</string>
@@ -513,6 +540,7 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="more">Viac</string>
     <string name="morning">Ráno</string>
     <string name="msg_permission_desc">Na prenos správ do iných zariadení</string>
+    <string name="msg_permission_desc_new">Na prenos SMS a MMS do iných zariadení</string>
     <string name="name_password_not_consistent">Zadané Apple ID a heslo sa nezhodujú</string>
     <string name="need_location_permission_confirm">Nastavenia</string>
     <string name="need_location_permission_summary">Povoliť aplikácii Mi Mover prístup k vašej polohe a umožniť vyhľadávanie zariadení v blízkom okolí.</string>
@@ -522,6 +550,20 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="need_more_memory_title">Nedostatok miesta v úložisku</string>
     <string name="new_app_name">Nová verzia</string>
     <string name="new_main_activity_label">Mi Mover</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Údaje chránené autorským právom</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Systémové aplikácie a údaje iných značiek môžu byť nekompatibilné s aplikáciou Mi Mover a nie je možné ich preniesť.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Aplikácie a údaje, ktoré nie sú kompatibilné s novým zariadením, nie je možné preniesť.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Niektoré nastavenia telefónu a údaje sú viazané na SIM kartu. Vložením SIM karty do nového zariadenia sa tieto údaje prenesú.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Niektoré údaje aplikácie</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Údaje Druhého priestoru</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Údaje Druhého priestoru</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Údaje týkajúce sa súkromia a bezpečnosti</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Bankové karty a kľúče od auta nie je možné prenášať.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Motívy a tapety podliehajú obmedzeniam rozlíšenia obrazovky a nedajú sa prenášať medzi niektorými modelmi.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Z dôvodu obmedzení protokolu Bluetooth nie je možné prenášať záznamy o párovaní slúchadiel Bluetooth, reproduktorov a iných zariadení.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Prevádzkové štatistiky, ako je spotreba energie, čas na obrazovke a využívanie mobilných dát, nie je možné prenášať.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Údaje spojené s konkrétnym modelom zariadenia</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Ktoré údaje nie je možné prenášať prostredníctvom aplikácie Mi Mover?</string>
     <string name="new_trans_intro_desc_2">Nie je nutné zadávať heslo v novej verzii aplikácie Mi Mover. Jednoducho otvorte aplikáciu Mi Mover na vašom starom zariadení, ťuknite na \"Som odosielateľ\" a ťuknite na názov hotspotu pre pripojenie.</string>
     <string name="new_trans_intro_desc_2_pad">Nie je nutné zadávať heslo hotspotu v novej verzii aplikácie Mi Mover. Jednoducho otvorte aplikáciu Mi Mover na vašom starom zariadení, ťuknite na \"Som odosielateľ\" a ťuknite na názov hotspotu pre pripojenie.</string>
     <string name="new_trans_intro_desc_2_phone">Nie je nutné zadávať heslo hotspotu v novej verzii aplikácie Mi Mover. Jednoducho otvorte aplikáciu Mi Mover na vašom starom zariadení, ťuknite na \"Som odosielateľ\" a ťuknite na názov hotspotu pre pripojenie.</string>
@@ -532,18 +574,18 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="new_trans_intro_desc_6_pad">Dáta aplikácie nie je možné preniesť, pretože Mi Mover nemá potrebné povolenia na zariadeniach, ktoré nie sú od spoločnosti Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Dáta aplikácie nie je možné preniesť, pretože Mi Mover nemá potrebné povolenia na zariadeniach, ktoré nie sú od spoločnosti Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Aplikácia Mi Mover bude schopná pokračovať na mieste, kde ste naposledy skončili. Avšak v prípade problémov s kompatibilitou bude možno potrebné začať odznovu.</string>
+    <string name="new_trans_intro_desc_7_pad">Aplikácia Mi Mover bude schopná pokračovať na mieste, kde ste naposledy skončili. Avšak v prípade problémov s kompatibilitou bude možno potrebné začať odznovu.</string>
     <string name="new_trans_intro_desc_8">História WeChatu vášho starého zariadenia prepíše počas prenosu históriu WeChatu na novom zariadení.</string>
+    <string name="new_trans_intro_desc_8_pad">História WeChatu vášho starého zariadenia prepíše počas prenosu históriu WeChatu na novom zariadení.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Uistite sa, že Mi Mover na vašom novom zariadení je aktuálny. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť v Obchode Play alebo ťuknúť sem: %2$s.
 %3$d. Ak sa prístupový bod stále nezobrazuje v aplikácii Mi Mover, otvorte nastavenia Wi-Fi a skontrolujte, či sa zobrazuje tam. Ak áno, vráťte sa späť do aplikácie Mi Mover a ťuknite na názov prístupového bodu."</string>
     <string name="new_trans_intro_desc_new_click">Stiahnuť</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Uistite sa, že aplikácia Mi Mover vo vašom zariadení je aktuálna. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť cez GetApps alebo <Data>&lt;a href=%2$s>ťuknutím sem&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ak sa vám v aplikácii Mi Mover hotspot stále nezobrazuje, otvorte nastavenia Wi-Fi a skontrolujte, či ho uvidíte tam. Ak áno, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Uistite sa, že aplikácia Mi Mover vo vašom zariadení je aktuálna. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť cez GetApps alebo <Data>&lt;a href=%2$s>ťuknutí sem&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ak sa vám v aplikácii Mi Mover hotspot naďalej nezobrazí, otvorte nastavenia WLAN a skontrolujte, či ho uvidíte tam. Ak áno, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Uistite sa, že aplikácia Mi Mover vo vašom zariadení je aktuálna. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť cez GetApps alebo <Data>&lt;a href=%2$s>ťuknutím sem&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ak sa vám v aplikácii Mi Mover hotspot stále nezobrazuje, otvorte nastavenia Wi-Fi a skontrolujte, či ho uvidíte tam. Ak áno, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Uistite sa, že aplikácia Mi Mover vo vašom zariadení je aktuálna. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť cez GetApps alebo <Data>&lt;a href=%2$s>ťuknutí sem&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ak sa vám v aplikácii Mi Mover hotspot naďalej nezobrazí, otvorte nastavenia WLAN a skontrolujte, či ho uvidíte tam. Ak áno, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Uistite sa, že aplikácia Mi Mover vo vašom zariadení je aktuálna. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť obchod Google Play alebo <Data>&lt;a href=%2$s>ťuknutím sem&lt;/a></Data>".
+%3$d Ak sa vám v aplikácii Mi Mover hotspot stále nezobrazuje, otvorte nastavenia Wi-Fi a skontrolujte, či ho uvidíte tam. Ak áno, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Uistite sa, že aplikácia Mi Mover vo vašom zariadení je aktuálna. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť cez GetApps alebo <Data>&lt;a href=%2$s>ťuknutím sem&lt;/a></Data>".
+%3$d. Ak sa vám v aplikácii Mi Mover hotspot stále nezobrazuje, otvorte nastavenia Wi-Fi a skontrolujte, či ho uvidíte tam. Ak áno, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Uistite sa, že aplikácia Mi Mover vo vašom zariadení je aktuálna. Najnovšiu verziu aplikácie Mi Mover si môžete stiahnuť cez GetApps alebo <Data>&lt;a href=%2$s>ťuknutí sem&lt;/a></Data>".
+%3$d. Ak sa vám v aplikácii Mi Mover hotspot naďalej nezobrazí, otvorte nastavenia WLAN a skontrolujte, či ho uvidíte tam. Ak áno, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu."</string>
     <string name="new_trans_intro_desc_old">%d. Ak sa hotspot v aplikácii Mi Mover stále nezobrazuje, otvorte nastavenia Wi-Fi a skontrolujte, či ho tam vidíte. Ak je to tak, vráťte sa do aplikácie Mi Mover a ťuknite na názov hotspotu.</string>
     <string name="new_trans_intro_question_1">%d. Prečo nevidím na starom zariadení hotspot nového zariadenia?</string>
     <string name="new_trans_intro_question_1_pad">%d. Prečo nevidím na starom zariadení hotspot nového zariadenia?</string>
@@ -573,15 +615,22 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="not_set">Nenastavené</string>
     <string name="not_support_data_content1">%d. Položky pre konkrétny model zariadenia</string>
     <string name="not_support_data_content2">%d. Údaje aplikácie</string>
+    <string name="not_support_data_content2_new">%d. Údaje chránené autorským právom</string>
     <string name="not_support_data_content3">%d. Údaje Druhého priestoru</string>
+    <string name="not_support_data_content3_new">%d. Údaje týkajúce sa súkromia a bezpečnosti</string>
     <string name="not_support_data_content4">%d. Duálne aplikácie</string>
+    <string name="not_support_data_content4_new">%d. Niektoré údaje aplikácie</string>
     <string name="not_support_data_content_2">%d. Vybrané aplikácie a údaje aplikácie</string>
     <string name="not_support_data_link">Položky nie je možné preniesť</string>
     <string name="not_support_data_summary1">Pomocou aplikácie Mi Mover nie je možné prenášať motívy, tapety a dopravné a prístupové karty.</string>
+    <string name="not_support_data_summary1_new">Bankové karty a kľúče od auta nie je možné preniesť. Motívy a tapety podliehajú obmedzeniam rozlíšenia obrazovky a nie je možné ich prenášať medzi niektorými modelmi.</string>
     <string name="not_support_data_summary2">Údaje aplikácie (napríklad históriu konverzácií) nie je možné preniesť.</string>
+    <string name="not_support_data_summary2_new">Motívy, písma, veľké ikony, motívy aktívneho displeja a widgety zakúpené prostredníctvom Xiaomi konta, ktoré sú chránené autorskými právami, nie je možné prenášať. Prihláste sa pomocou svojho Xiaomi konta na novom zariadení a stiahnite si ich znova.</string>
     <string name="not_support_data_summary3">Z dôvodu systémových obmedzení, položky z Druhého priestoru nemožno pomocou aplikácie Mi Mover preniesť.</string>
+    <string name="not_support_data_summary3_new">Odtlačky prstov, údaje o tvári a ďalšie údaje, ktoré súvisia s vlastníctvom zariadenia, finančnou bezpečnosťou a súkromím používateľa, nie je možné preniesť zo starého zariadenia v žiadnej forme. To sa týka aj údajov z finančných aplikácií (napr. mobilného bankovníctva).</string>
     <string name="not_support_data_summary4">Duálne aplikácie a ich dáta nemôžu byť presunuté tiež. Môžete však preniesť hlavné aplikácie.</string>
     <string name="not_support_data_summary_2">Niektoré aplikácie nie je možné preniesť z dôvodu obmedzení pravidiel súkromia Obchodu Play.</string>
+    <string name="not_support_data_summary_new">Systémové aplikácie a údaje iných značiek môžu byť nekompatibilné s aplikáciou Mi Mover a nie je možné ich preniesť.</string>
     <string name="not_support_data_title">Položky nie je možné preniesť</string>
     <string name="note">Poznámky</string>
     <string name="nothing_chosen">Najskôr vyberte položky</string>
@@ -641,27 +690,39 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="permission_alert_message_usage_access">Mi Mover si vyžaduje prístup k štatistikám používania. Dajte aplikácii Mi Mover požadované oprávnenia v Nastaveniach.</string>
     <string name="permission_alert_title">Vyžadujú sa povolenia</string>
     <string name="permission_bluetooth_summary">Na vyhľadanie dostupných zariadení v okolí</string>
+    <string name="permission_bluetooth_summary_new">Na vyhľadanie dostupných zariadení v okolí</string>
     <string name="permission_bluetooth_title">Zapínanie a vypínanie Bluetooth</string>
     <string name="permission_calendar_summary">Na prenos udalostí kalendára</string>
     <string name="permission_calendar_title">Prístup ku kalendáru</string>
     <string name="permission_calender_summary">Na presun udalostí zo starého zariadenia do nového</string>
     <string name="permission_calender_summary_global">Na prenos udalostí v kalendári do nového zariadenia</string>
+    <string name="permission_calender_summary_new">Na presun udalostí zo starého zariadenia do nového</string>
     <string name="permission_calender_title">Prístup k udalostiam v kalendári</string>
+    <string name="permission_calender_title_new">Prístup k udalostiam v kalendári</string>
     <string name="permission_call_log_summary">Na prenos histórie hovorov do nového zariadenia</string>
+    <string name="permission_call_log_summary_new">Na prenos histórie hovorov do nového zariadenia</string>
     <string name="permission_call_log_title">Prístup k histórii hovorov</string>
     <string name="permission_contacts_summary">Na prenos kontaktov do nového zariadenia</string>
+    <string name="permission_contacts_summary_new">Na prenos kontaktov do nového zariadenia</string>
     <string name="permission_contacts_title">Prístup ku kontaktom</string>
     <string name="permission_grant_request">Na prenos tejto položky potrebuje aplikácia Mi Mover povolenie \"%1$s\".</string>
     <string name="permission_locale_summary">Na pripojenie zariadení v okolí</string>
     <string name="permission_locale_title">Prístup k polohe</string>
+    <string name="permission_locale_title_new">Zisťovanie informácií o polohe</string>
     <string name="permission_message_summary">Na prenos správ do nového zariadenia</string>
+    <string name="permission_message_summary_new">Na prenos správ do nového zariadenia</string>
     <string name="permission_message_title">Prístup k obsahu SMS</string>
     <string name="permission_request_title">Vyžaduje sa povolenie \"%1$s\"</string>
     <string name="permission_setting_button">Nastavenia</string>
     <string name="permission_storage_summary">Na prenos súborov a fotografií do nového zariadenia</string>
+    <string name="permission_storage_summary_new">Na prenos súborov a fotografií do nového zariadenia</string>
     <string name="permission_storage_title">Prístup a ukladanie súborov a fotografií uložených vo vašom zariadení</string>
+    <string name="permission_storage_title_new">Prístup k úložisku</string>
     <string name="permission_wifi_summary">Na prenos položiek do nového zariadenia</string>
+    <string name="permission_wifi_summary_new">Na prenos položiek do nového zariadenia</string>
     <string name="permission_wifi_title">Zapínanie a vypínanie Wi-Fi</string>
+    <string name="permission_wifi_title_new">Zapínanie a vypínanie Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Zapínanie a vypínanie WLAN</string>
     <string name="pm">pop.</string>
     <string name="preference_copied">Položka %1$s bola skopírovaná do schránky.</string>
     <string name="privacy_agree">Súhlasím</string>
@@ -700,7 +761,7 @@ Otvorte WeChat a prejdite na Moje > Nastavenia > Záloha a migrácia chatov."</s
     <string name="receiver_finish_not_transferred">Neprenesené</string>
     <string name="receiver_finish_title">Hotovo!</string>
     <string name="receiver_finish_transferred">Prenesené</string>
-    <string name="recent_one_year_formatted">Posledný rok</string>
+    <string name="recent_one_year_formatted">Minulý %d rok</string>
     <string name="recent_seven_days_formatted">Posledných %d dní</string>
     <string name="recent_thirty_days_formatted">Posledných %d dní</string>
     <string name="reconnect">Pripojiť znova</string>
@@ -749,6 +810,7 @@ Uvoľnite aspoň %s."</string>
     <string name="scanner_quit_alert_message_phone">Ak teraz ukončíte Mi Mover, budete musieť opäť pripojiť 2 zariadenia. Ukončiť napriek tomu?</string>
     <string name="scanner_quit_alert_title">Ukončiť teraz?</string>
     <string name="scanner_send_dialog_btn">Rozumiem</string>
+    <string name="scanner_send_dialog_btn_i_know">Rozumiem</string>
     <string name="scanner_send_dialog_message">Počas prenosu nevypínajte Wi-Fi alebo neprepínajte medzi sieťami.</string>
     <string name="scanner_size_selected">Vybrané: %s</string>
     <string name="scanner_subtitle_prd">Pred kontrolou jednotlivých položiek a spustenia prenosu si starostlivo prečítajte nasledujúce informácie.</string>
@@ -756,6 +818,7 @@ Uvoľnite aspoň %s."</string>
     <string name="scanner_title_prd">Dôležitá informácia</string>
     <string name="scanner_title_tip">Vyberte položky, ktoré chcete preniesť</string>
     <string name="scanner_wechat_overwrite_hit">Z dôvodu obmedzení aplikácií, histórie chatov a iných údajov aplikácií, budú po dokončení prenosu údaje na vašom novom zariadení nahradené údajmi zo starého zariadenia.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Z dôvodu obmedzení aplikácií, histórie chatov a iných údajov aplikácií, budú po dokončení prenosu údaje na vašom novom zariadení nahradené údajmi zo starého zariadenia.</string>
     <string name="search_menu_title">Hľadať</string>
     <string name="searching_for_new_device">Vyhľadáva sa nové zariadenie…</string>
     <string name="searching_for_new_device_pad">Vyhľadáva sa nové zariadenie…</string>
@@ -889,27 +952,42 @@ Uvoľnite aspoň %s."</string>
     <string name="time_spent">Čas: %1$s</string>
     <string name="tips_button_hint">Pred potvrdením skontrolujte každú položku</string>
     <string name="tips_cover_content">Ak budete pokračovať, tieto údaje (vrátane histórie chatu) sa prepíšu.</string>
+    <string name="tips_cover_content_pad">Ak budete pokračovať, tieto údaje (vrátane histórie chatu) sa prepíšu.</string>
     <string name="tips_cover_content_tablet">Ak budete pokračovať, tieto údaje (vrátane histórie chatu) sa prepíšu.</string>
     <string name="tips_cover_title">%1$d. V novom zariadení už existujú údaje pre nasledujúce aplikácie.</string>
+    <string name="tips_cover_title_pad">%1$d. V novom zariadení už existujú údaje pre nasledujúce aplikácie.</string>
     <string name="tips_cover_title_tablet">%1$d. V novom zariadení už existujú údaje pre nasledujúce aplikácie.</string>
     <string name="tips_dual_app_content">Duálne aplikácie nie je možné prenášať. Prenášať možno len hlavnú aplikáciu a jej údaje.</string>
     <string name="tips_dual_app_title">%d. Nasledujúce aplikácie sú duálne.</string>
+    <string name="tips_dual_app_title_new">%d. Údaje duálnych aplikácií nie je možné prenášať.</string>
     <string name="tips_hot_content">To je normálne. Po dokončení prenosu sa zariadenie ochladí.</string>
+    <string name="tips_hot_content_new">To je normálne. Po dokončení prenosu sa zariadenie ochladí.</string>
     <string name="tips_hot_title">%d. Vaše zariadenie sa môže počas prenosu zahrievať.</string>
+    <string name="tips_hot_title_content">%d. Vaše zariadenie sa môže prehrievať.</string>
     <string name="tips_private_space_content">Z dôvodu systémových obmedzení nie je možné preniesť údaje Druhého priestoru.</string>
+    <string name="tips_private_space_content_pad">Je to spôsobené systémovými obmedzeniami.</string>
+    <string name="tips_private_space_content_phone">Je to spôsobené systémovými obmedzeniami.</string>
     <string name="tips_private_space_content_tablet">Z dôvodu systémových obmedzení nie je možné preniesť údaje Druhého priestoru.</string>
     <string name="tips_private_space_title">%d. Druhý priestor je zapnutý.</string>
+    <string name="tips_private_space_title_pad">%d. Údaje druhého priestoru nie je možné prenášať.</string>
+    <string name="tips_private_space_title_phone">%d. Údaje druhého priestoru nie je možné prenášať.</string>
     <string name="tips_private_space_title_tablet">%d. Druhý priestor je zapnutý.</string>
     <string name="tips_prudent_operation_content">Prerušenie spojenia spôsobí zastavenie prenosu.</string>
     <string name="tips_prudent_operation_title">%d. Nevypínajte ani neprepínajte Wi-Fi hotspot.</string>
+    <string name="tips_prudent_operation_title_new">%d. Nevypínajte ani neprepínajte Wi-Fi hotspot.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Nevypínajte ani neprepínajte WLAN hotspot.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Nevypínajte ani neprepínajte WLAN hotspot.</string>
     <string name="tips_secret_content_one">Niektoré súkromné položky v starom zariadení (%1$s) nemožno preniesť. Ak ich chcete preniesť, odstráňte ich zo súkromného priečinka.</string>
+    <string name="tips_secret_content_one_new">Niektoré súkromné položky v starom zariadení (%1$s) nie je možné preniesť. Ak ich chcete preniesť, odstráňte ich zo súkromného priečinka.</string>
     <string name="tips_secret_content_three">Niektoré súkromné položky v starom zariadení (%1$s, %2$s, %3$s) nemožno preniesť. Ak ich chcete preniesť, odstráňte ich zo súkromného priečinka.</string>
+    <string name="tips_secret_content_three_new">Niektoré súkromné položky v starom zariadení (%1$s, %2$s, %3$s) nie je možné preniesť. Ak ich chcete preniesť, odstráňte ich zo súkromného priečinka.</string>
     <string name="tips_secret_content_two">Niektoré súkromné položky v starom zariadení (%1$s, %2$s) nemožno preniesť. Ak ich chcete preniesť, odstráňte ich zo súkromného priečinka.</string>
+    <string name="tips_secret_content_two_new">Niektoré súkromné položky v starom zariadení (%1$s, %2$s) nie je možné preniesť. Ak ich chcete preniesť, odstráňte ich zo súkromného priečinka.</string>
     <string name="tips_secret_file">súbory</string>
     <string name="tips_secret_gallery">albumy</string>
     <string name="tips_secret_note">poznámky</string>
     <string name="tips_secret_title">%d. Niektoré súkromné položky nie je možné preniesť.</string>
+    <string name="tips_secret_title_content">%d. Súkromné položky nie je možné preniesť.</string>
     <string name="tips_subtitle">Pred pokračovaním si prečítajte a potvrďte nasledujúce pripomienky.</string>
     <string name="title_compatibility_mode">Zapnite Režim kompatibility aplikácií</string>
     <string name="title_open_wlan">Zapnúť Wi-Fi</string>
@@ -951,10 +1029,12 @@ Stiahnite a nainštalujte si aplikáciu Mi Mover."</string>
     <string name="trans_send_time_remained_default">Odoslané: %1$s</string>
     <string name="trans_show_qr_code_label">Otvorte Mi Mover na starom zariadení</string>
     <string name="trans_show_qr_code_label_for_pad">Otvorte Mi Mover na starom zariadení</string>
+    <string name="trans_show_qr_code_label_pad">Otvorte Mi Mover na starom zariadení</string>
     <string name="trans_sync_transfer_data_list">Na starom zariadení vyberte položky, ktoré si prajete preniesť</string>
     <string name="trans_sync_transfer_data_list_apple">Preneste položky z vášho Apple zariadenia</string>
     <string name="trans_sync_transfer_data_list_hint">Malý moment…</string>
     <string name="trans_sync_transfer_data_list_pad">Vyberte položky v starom zariadení, ktoré chcete preniesť</string>
+    <string name="trans_sync_transfer_data_list_phone">Na starom zariadení vyberte položky, ktoré si prajete preniesť</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Vyberte položky na starom zariadení a ťuknite na „Odoslať\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Vyberte položky na starom zariadení a ťuknite na „Odoslať\".</string>
     <string name="trans_time_format_second">Menej ako %d minúta</string>
@@ -977,6 +1057,7 @@ Stiahnite a nainštalujte si aplikáciu Mi Mover."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Proces prenosu bude uložený. Nabudúce sa prenos obnoví na rovnakom mieste, na ktorom ste naposledy skončili.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Proces prenosu bude uložený. Nabudúce sa prenos obnoví na rovnakom mieste, na ktorom ste naposledy skončili.</string>
     <string name="transfer_quit_alert_title">Upozornenie</string>
     <string name="transfer_snap_error">Nepodarilo sa preniesť</string>
     <string name="transfer_snap_new_receiving">Prijíma sa…</string>

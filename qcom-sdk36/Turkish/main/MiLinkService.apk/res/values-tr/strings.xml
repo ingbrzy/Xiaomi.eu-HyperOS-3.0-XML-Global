@@ -48,7 +48,12 @@
     <string name="answering_tel2">Telefondan aktarıldı…</string>
     <string name="app_casting">Uygulama yansıtma</string>
     <string name="app_name">Yansıtma</string>
+    <string name="app_name_call">Telefon</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">Mesajlaşma</string>
     <string name="app_name_vtcamera">Cihazlar arası kamera</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -187,8 +192,6 @@ bulunamıyor mu?"</string>
     <string name="cast_closed_captions">Alt yazılar</string>
     <string name="cast_closed_captions_unavailable">Altyazılar kullanılamıyor</string>
     <string name="cast_connecting_to_device">%1$s cihazına bağlanılıyor</string>
-    <string name="cast_device_chooser_searching_for_devices">Cihazlar bulunuyor</string>
-    <string name="cast_device_chooser_title">Şuraya yayınla:</string>
     <string name="cast_disconnect">Bağlantıyı kes</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Yayın alıcıda bir reklam oynatılırken gösterilen resim</string>
@@ -229,9 +232,6 @@ bulunamıyor mu?"</string>
     <string name="cast_tracks_chooser_dialog_ok">Tamam</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Altyazılar</string>
     <string name="cast_unmute">Sesi aç</string>
-    <string name="cast_zero_devices_found">"Hiçbir cihaz bulunamadı.
-"</string>
-    <string name="cast_zero_devices_learn_more_description">İçeriklerinizi diğer cihazlara nasıl yayınlayabileceğiniz hakkında <a href="https://support.google.com/chromecastbuiltin/answer/3006709">daha fazla bilgi edinin</a>.</string>
     <string name="casting_tips">Yansıtılıyor…</string>
     <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
@@ -253,6 +253,10 @@ bulunamıyor mu?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">Gözlük içeriği bu cihaza aktarılamıyor</string>
     <string name="circulate_car_card_use_camera">"EV'in ön kamerasını kullan"</string>
     <string name="circulate_car_card_using_camera">"EV'in ön kamerası kullanılıyor"</string>
+    <string name="circulate_card_audio_change_pad_title">Tablet sesine geç</string>
+    <string name="circulate_card_audio_change_phone_title">Telefon sesine geç</string>
+    <string name="circulate_card_audio_playing_pad_title">Tablet sesini kullanma</string>
+    <string name="circulate_card_audio_playing_phone_title">Telefon sesini kullanma</string>
     <string name="circulate_card_disconnect">Bağlantıyı kes</string>
     <string name="circulate_card_loading_title_audio_stereo">Stereo sistem</string>
     <string name="circulate_card_loading_title_band">Bileklik</string>
@@ -413,6 +417,14 @@ başka bir cihaza sürükleyin"</string>
     <string name="circulate_headset_control_anc_disable_hint">Kulaklıklarınız iki cihaza bağlı. Bu cihazdan yalnızca ses seviyesini ayarlayabilirsiniz.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Gürültü engelleme</string>
     <string name="circulate_headset_control_anc_off">Kapat</string>
+    <string name="circulate_headset_control_audio_effect_off">"Mekânsal ses'i kapat"</string>
+    <string name="circulate_headset_control_audio_effect_spatial">"Mekânsal ses'i aç"</string>
+    <string name="circulate_headset_control_audio_find_earphone">Sesi çal</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">İptal</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">Devam et</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">Ses yüksek seviyede çalınacak. Kulaklığı takıyorsanız böyle devam etmek işitmenize zarar verebilir. Devam etmeden önce kulaklığı çıkarın.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">Yüksek ses uyarısı</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">Ses çalmayı durdur</string>
     <string name="circulate_headset_control_battery_case">Kutu</string>
     <string name="circulate_headset_control_battery_left">Sol</string>
     <string name="circulate_headset_control_battery_right">Sağ</string>
@@ -502,6 +514,7 @@ bulunamıyor mu?"</string>
     <string name="circulate_phone_card_using_cellular_wifi">Telefonun Wi-Fi sinyalini kullanmak</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">Telefonun WLAN sinyalini kullanmak</string>
     <string name="circulate_phone_card_using_desktop">"Telefonun Ana ekran+'ı kullanılıyor"</string>
+    <string name="circulate_phone_card_using_sink_desktop">Ana ekran+ telefon ile paylaşılıyor</string>
     <string name="circulate_public_device_title_format">"%1$s's %2$s"</string>
     <string name="circulate_ringfind_button_hint_play">Sesi çal</string>
     <string name="circulate_ringfind_button_hint_stop">Ses çalmayı durdur</string>
@@ -596,10 +609,12 @@ Telefonlar, tabletler ve bilgisayarlar için desteklenir."</string>
     <string name="connect_settings_general_summary_share_clipboard">Cihazdaki metni, görüntüleri veya dosyaları kopyalayın ve bunları Xiaomi Hesabınızda oturum açmış yakındaki başka bir cihaza (telefon, tablet, bilgisayar veya araç) yapıştırın</string>
     <string name="connect_settings_general_summary_share_file">Xiaomi Hesabınızda oturum açmış yakındaki bilgisayarlardan doğrudan telefon dosyalarına erişin</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Telefonunuzu görüntüleyin ve kontrol edin ve Xiaomi Hesabınızda oturum açmış olan yakındaki tabletlerden, bilgisayarlardan ve araçlardan telefonunuzdaki uygulamalara erişin</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">Bu cihazı görüntüleyip kontrol edin ve aynı hesapta oturum açmış olan yakındaki telefonlardan, tabletlerden, bilgisayarlardan veya araçlardan uygulamaları kullanın</string>
     <string name="connect_settings_general_summary_share_notification_pad">Xiaomi Hesabınızda oturum açmış olan tabletlerde yakındaki telefonlardan gelen düşük pil uyarılarını göster</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Xiaomi Hesabınızda oturum açmış olan yakındaki TV'lerde, tabletlerde ve bilgisayarlarda önemli telefon bildirimlerini göster.
 TV'lerdeki yemek teslimatı ve araç çağırma uygulamalarıyla, ayrıca tablet ve bilgisayarlardaki düşük pil uyarılarıyla çalışır."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Telefonunuzun düşük pil bildirimlerini aynı hesapta oturum açmış yakındaki bir tablette gösterin</string>
+    <string name="connect_settings_known_button">Anladım</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">Ögeleri NFC ile aktar</string>
     <string name="connect_settings_not_opened">Kapalı</string>
@@ -607,6 +622,7 @@ TV'lerdeki yemek teslimatı ve araç çağırma uygulamalarıyla, ayrıca tablet
     <string name="connect_settings_presentation_password_error">Hatalı şifre</string>
     <string name="connect_settings_presentation_password_title">Admin şifresi girin</string>
     <string name="connect_settings_privacy_policy">Gizlilik Politikası</string>
+    <string name="connect_settings_refresh">Yenile</string>
     <string name="connect_settings_relay_app">Uygulamalar</string>
     <string name="connect_settings_same_account">Bu hesaptan</string>
     <string name="connect_settings_screen_cast">Yansıt</string>
@@ -616,6 +632,7 @@ TV'lerdeki yemek teslimatı ve araç çağırma uygulamalarıyla, ayrıca tablet
     <string name="connect_settings_share_launcher">Ana ekran+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">iPad yüz verisi veya şifreyi kullanarak Xiaomi telefonunuzun ve uygulamalarınızın kilidini açın</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">iPad parmak izi veya şifreyi kullanarak Xiaomi telefonunuzun ve uygulamalarınızın kilidini açın</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">iPhone parmak izi veya şifreyi kullanarak Xiaomi telefonun ve uygulamaların kilidini açın</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">"Xiaomi telefonunuzun ve uygulamaların kilidini açmak için iPhone'unuzdaki Yüz kimliğini veya şifreyi kullanın"</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Yüz veya şifre ile kilit açma</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">"Telefonunuzun ve uygulamaların kilidini açmak için Mac'inizde parmak izini veya şifreyi kullanın"</string>
@@ -623,13 +640,52 @@ TV'lerdeki yemek teslimatı ve araç çağırma uygulamalarıyla, ayrıca tablet
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Yüz ile kilit açma</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Kilidi açtıktan sonra hızlı uygulama başlatma</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Telefonunuzun ve uygulamaların kilidini açmak için Xiaomi tabletinizdeki parmak izini veya şifreyi kullanın</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">Bu cihazın ve uygulamaların kilidini açmak için bu telefonun parmak izini veya şifresini kullanın</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Telefon uygulamalarını tabletinizin Ana ekranına ekleyin. Telefonun kilidini açtığınızda onları doğrudan tabletten başlatın.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Kilidi açmak için parmak izinizi kullanın veya şifreyi girin</string>
     <string name="connect_settings_share_notification">Bildirimler</string>
+    <string name="connect_settings_share_notification_help">Yardım</string>
     <string name="connect_settings_share_notification_iphone_device">Bu cihazdan gelen bildirimleri iPhone cihazlarda göster</string>
     <string name="connect_settings_share_notification_local_device">Bu cihazda iPhone bildirimlerini göster</string>
+    <string name="connect_settings_share_notification_local_device_summary">"Bu cihazdan gelen aramaları yanıtlayabilmek, mesajları ve uygulama bildirimlerini alabilmek için Xiaomi Interconnectivity > Bildirimleri senkronize et > iPhone'da Xiaomi ile senkronize et menüsünde bildirimlerin Xiaomi cihazınız ile senkronize edilmesine izin verin."</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">"Xiaomi cihazınızda aramaları yanıtlayabilmek, mesajları ve uygulama bildirimlerini alabilmek için iPhone'da Xiaomi Interconnectivity > Bildirimleri senkronize et > Xiaomi ile senkronize et menüsünde telefona bağlanın."</string>
+    <string name="connect_settings_share_notification_local_device_title">%1$s cihazından bildirimleri al</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">Diğer Xiaomi cihazlardan gelen bildirimleri bu cihazda görüntüleme</string>
     <string name="connect_settings_share_notification_mi_device">Bu cihazdan gelen bildirimleri Xiaomi cihazlarda göster</string>
+    <string name="connect_settings_share_notification_mi_device_category">Yakındaki cihazlarla senkronize et</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">Yakındaki cihazlar</string>
+    <string name="connect_settings_share_notification_mi_device_v2">"Xiaomi tabletler veya TV'ler"</string>
+    <string name="connect_settings_share_notification_mi_device_v3">"Xiaomi tabletler, bilgisayarlar ve TV'ler"</string>
     <string name="connect_settings_share_notification_more_feature">Daha fazla özellik</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">Bu cihazdan gelen bildirimleri diğer Xiaomi cihazlarda görüntüleme</string>
+    <string name="connect_settings_share_notification_receive_tab">Al</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">Kullanılabilir cihazlar</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">Kullanılabilir cihazlar</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">"%1$s cihazınızın bu cihaz ile aynı hesapta oturum açtığından ve Ayarlar menüsünde Ara bağlantı'nın açık olduğundan emin olun."</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">%1$s ile bağlanılamıyor</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">"Her iki cihazın da aynı hesapta oturum açtığından ve aynı ağa bağlı olduğundan veya her iki cihazda da Bluetooth ve WLAN'ın açık olduğundan emin olun."</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">"Her iki cihazın da aynı hesapta oturum açtığından ve aynı ağa bağlı olduğundan veya her iki cihazda da Bluetooth ve Wi-Fi'nin açık olduğundan emin olun."</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">"Her iki cihazın da aynı hesapta oturum açtığından ve aynı ağa bağlı olduğundan veya her iki cihazda da WLAN'ın açık olduğundan emin olun"</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">"Her iki cihazın da aynı hesapta oturum açtığından ve aynı ağa bağlı olduğundan veya her iki cihazda da Wi-Fi'nin açık olduğundan emin olun"</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">Cihazınız aranıyor…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">Bu cihaz ağa bağlandığında aynı hesapta oturum açmış cihazlardan bildirim alabilirsiniz. Yakınınızda Bluetooth ve WLAN açık bir cihaz varsa bu cihazın uygulamalarını yansıtabilir ve mesajlara yanıt verebilirsiniz.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">Bu cihaz ağa bağlandığında aynı hesapta oturum açmış cihazlardan bildirim alabilirsiniz. Yakınınızda Bluetooth ve Wi-Fi açık bir cihaz varsa bu cihazın uygulamalarını yansıtabilir ve mesajlara yanıt verebilirsiniz.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• Bu cihaz ağa bağlandığında aynı hesapta oturum açmış olan diğer kilitli Xiaomi telefondan gelen bildirimleri bu cihazda görüntüleyebilirsiniz.
+• Aynı hesapta oturum açmış cihazlar yakın olduğunda ve Bluetooth ve WLAN açık olduğunda diğer cihazlardan bildirimler doğrudan bu cihazda yanıtlanabilir."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• Bu cihaz ağa bağlandığında aynı hesapta oturum açmış olan diğer kilitli Xiaomi telefondan gelen bildirimleri bu cihazda görüntüleyebilirsiniz.
+• Aynı hesapta oturum açmış cihazlar yakın olduğunda ve Bluetooth ve Wi-Fi açık olduğunda diğer cihazlardan bildirimler doğrudan bu cihazda yanıtlanabilir."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">Hiçbir kullanılabilir cihaz bulunamadı</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">Bu cihazdaki bildirimleri yönetebilmek için Xiaomi Interconnectivity > Bildirimleri senkronize et > %1$s cihazda Xiaomi ile senkronize et menüsünde bildirimlerin Xiaomi cihazınız ile senkronize edilmesine izin verin.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">"''Bildirimleri senkronize et'' %1$s için kapatıldı"</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">Al</string>
+    <string name="connect_settings_share_notification_send_tab">Senkronize et</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">Telefon ile senkronize et</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">Telefonlarım</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"Bu cihazdan gelen bildirimleri aynı hesapta oturum açmış telefonlarda, tabletlerde veya TV'lerde gösterin.
+Desteklenen özellikler: Telefonlar aramaları, mesajları ve uygulama bildirimlerini gösterebilir; TV'ler teslimat ve taksi çağırma uyarılanı gösterebilir; tabletler ve bilgisayarlar telefonunuzdan düşük pil uyarılarını gösterebilir."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• Bu cihazın kilitli olduğundan bu cihazdan gelen bildirimler aynı hesapta oturum açmış olan telefonlarda, tabletlerde, bilgisayarlarda veya TV'lerde görüntülenebilir.
+•Telefonlarda aramaları, mesajları veya uygulama bildirimlerini, televizyonlarda yemek siparişi ve taksi çağırma bildirimlerini, tabletlerde ve bilgisayarlarda düşük pil bildirimlerini görüntüleyebilirsiniz."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">Senkronize et</string>
     <string name="connect_settings_summary"><Data>"Xiaomi Hesabınızda oturum açmış olan yakındaki cihazları keşfedin ve Xiaomi Smart Hub'a ekleyin. &lt;a href=%1$s>Daha fazla bilgi edinin&lt;/a>"</Data></string>
     <string name="connect_settings_summary_connection_service">Cihazlarınızın kablosuz olarak birbirleri ile etkileşime geçmesine izin verin</string>
     <string name="connect_settings_summary_corp_network">Telefon ağınızı tabletlerde ve bilgisayarlarda kullanın</string>
@@ -645,6 +701,7 @@ Kullanmadan önce Wi-Fi ve Bluetooth'u açın."</string>
     <string name="connect_settings_summary_share_launcher_pad_v2">Tabletinizden telefonunuzu kontrol edin</string>
     <string name="connect_settings_summary_share_launcher_phone">Yakındaki tabletlerin ve bilgisayarların bu cihazın Ana ekranını görüntülemesine ve bu ekranla iletişime girmesine izin verin</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">Telefonunuzu tabletlerden, bilgisayarlardan ve araçlardan kontrol edin</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">Telefonunuzdan, tabletinizden, bilgisayarınızdan veya aracınızdan bu cihazı kontrol edin</string>
     <string name="connect_settings_summary_share_notification_pad">Xiaomi Hesabınızda oturum açmış yakındaki telefonlardan bildirimler alın</string>
     <string name="connect_settings_summary_share_notification_pad_v2">Bu cihazda Xiaomi Hesabınızda oturum açmış yakındaki telefonlardan gelen bildirimleri gösterin</string>
     <string name="connect_settings_summary_share_notification_phone">Bu cihaz kilitlendiğinde kullanımda olan yakındaki tabletlerde veya bilgisayarlarda bildirimleri göster</string>
@@ -678,19 +735,31 @@ Kullanmadan önce Wi-Fi ve Bluetooth'u açın."</string>
     <string name="device_permission_dialog_title">"%s'te izin ver"</string>
     <string name="device_type_name_pad">Tablet</string>
     <string name="device_type_name_phone">Telefon</string>
+    <string name="dialog_auth_title">Doğrulama kodu</string>
     <string name="dialog_can_not_find_device">Yakınlarda cihaz bulunamadı</string>
     <string name="dialog_cancle">İptal et</string>
     <string name="dialog_close">Kapat</string>
+    <string name="dialog_confirm_button">Anladım</string>
+    <string name="dialog_confirm_remote_status">%1$s durumunu kontrol edin</string>
     <string name="dialog_connect_fail">Bağlanılamadı</string>
     <string name="dialog_connect_retry">Tekrar denemek için dokunun</string>
     <string name="dialog_connect_verify_perssion">Önce televizyonunuzda yansıtmaya izin verin</string>
     <string name="dialog_connect_verify_perssion_fail">Televizyonunuzda yansıtma yetkisi verilemedi. Bir veya iki dakika bekleyin ve tekrar deneyin.</string>
     <string name="dialog_connected">Bağlandı</string>
     <string name="dialog_connecting">Bağlanıyor…</string>
+    <string name="dialog_copy_it">Kopyala</string>
+    <string name="dialog_enable_remote_notification">%1$s cihazınızda Cihazlar arası bildirimlere izin verin</string>
+    <string name="dialog_enable_remote_notification_content_v2">Bildirimler şu an senkronize edilemiyor. Ayarlar > Ara bağlantı > Cihazlar arası bildirimler > Senkronizasyon menüsünde bildirimlerin %1$s cihazında senkronize edilmesine izin verildiğinden emin olun.</string>
     <string name="dialog_incoming_call_instruction">Cevapla: %1$s</string>
     <string name="dialog_know_it">Anladım</string>
     <string name="dialog_location_permission_message">"Bu uygulamanın yakındaki harici monitörleri bulabilmek için konumunuza erişmesi gerekmektedir. Olası hatalardan kaçınmak için bu izni verirken ''Her zaman izin ver'' seçeneğini seçin."</string>
     <string name="dialog_location_permission_title">İzin gerekli</string>
+    <string name="dialog_message_instruction_subtitle_call">Şurada yanıtlayabilirsiniz: %1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">Xiaomi telefonda cevaplayabilirsiniz</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">"iPhone'da cevaplayabilirsiniz"</string>
+    <string name="dialog_message_instruction_subtitle_reply">Şurada yanıtlayabilirsiniz: %1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">Xiaomi telefonda yanıtlayabilirsiniz</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">"iPhone'da yanıtlayabilirsiniz"</string>
     <string name="dialog_message_reply_instruction">Yanıtla: %1$s</string>
     <string name="dialog_miplay_permission_message">"Yansıtma'nın, bu özelliği normal bir şekilde kullanabilmesi için ses kaydetmesine, dahili depolama alanındaki dosyalara erişimine ve konumunuza erişimine izin verin. ''Ayarlar'' menüsüne dokunun ve devam etmek için ''Uygulama izinleri'' seçeneğini seçin."</string>
     <string name="dialog_miplay_permission_positive">Ayarlar</string>
@@ -704,10 +773,18 @@ Kullanmadan önce Wi-Fi ve Bluetooth'u açın."</string>
     <string name="dialog_no_device_message_china"><Data>"&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Hem mobil cihazınızı hem TV'nizi aynı WLAN ağına bağlayın.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Bazı TV modellerinde bu özellik yalnızca ekran yansıtma açık olduğunda kullanılabilirdir. Daha fazla bilgi edinmek için &lt;a href=milink://com.milink.service/specification>\"Yardım\"&lt;/a> ögesini görüntüleyin."</Data></string>
     <string name="dialog_ok">Tamam</string>
     <string name="dialog_only_suport_content">Fotoğraf, video veya müzik yayınlayın</string>
+    <string name="dialog_open_remote_switch_content">Ayar uygulanamadı. %1$s cihazının aynı hesapta oturum açtığından ve bu cihazla aynı ağa bağlandığından emin olun.</string>
     <string name="dialog_open_wifi_bt">Aç</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Kablosuz döküm özelliğinin hedef cihazda açık olduğundan emin olun.
 Eğer bağlantı sorunu yaşıyorsanız yardım için görüntüleyin."</string>
     <string name="dialog_recent_connected">Son kullanılanlar</string>
+    <string name="dialog_remote_authorization">%1$s cihazında izinleri verin</string>
+    <string name="dialog_remote_authorization_content">"%1$s cihazınızda Ara bağlantı'ya bildirim izinlerini verin."</string>
+    <string name="dialog_reset_app_subscribe">%1$s cihazından gelen bildirimlere izin ver</string>
+    <string name="dialog_reset_app_subscribe_content">%2$s %1$s cihazından daha önce kaldırıldı. Bu cihazda uygulama bildirimleri alınamıyor. Ayarlarınızı değiştirin ve tekrar deneyin.</string>
+    <string name="dialog_reset_app_subscribe_multi">Bildirim ayarlarını değiştirin</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s ve %3$s %1$s cihazınızdan daha önce kaldırıldı. Bu cihazda uygulama bildirimleri alınamıyor. Ayarlarınızı değiştirin ve tekrar deneyin.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s ve %4$s %1$s cihazınızdan daha önce kaldırıldı. Bu cihazda uygulama bildirimleri alınamıyor. Ayarlarınızı değiştirin ve tekrar deneyin.</string>
     <string name="dialog_retry">Tekrar dene</string>
     <string name="dialog_scan_message">"%1$d. Hem mobil cihazınızı hem TV'nizi aynı Wi-Fi ağına bağlayın.
 
@@ -731,6 +808,7 @@ Eğer bağlantı sorunu yaşıyorsanız yardım için görüntüleyin."</string>
     <string name="early_morning">Sabah</string>
     <string name="edit_device_group">Cihaz gruplarını düzenle</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">Şu an bildirim alınamıyor. Ayarlar > Ara bağlantı > Cihazlar arası bildirimler > Senkronizasyon menüsünde bildirimlerin %1$s cihazında senkronize edilmesine izin verildiğinden emin olun.</string>
     <string name="enable_screen_projection_summary">Ekran içeriklerini harici bir ekrana yansıtın</string>
     <string name="enable_screen_projection_summary_new">"Mobil cihaz ekranını yakındaki TV'lere ve diğer harici monitörlere yansıtın"</string>
     <string name="enable_screen_projection_summary_pad">"Tablet ekranını yakındaki bir TV'ye veya diğer cihaza yansıtın"</string>
@@ -952,6 +1030,7 @@ Miracast özelliğini açmanız gerekirse [MENU] tuşuna basın ve Uygulamaları
 %1$d. Herhangi bir sorunla karşılaşırsanız, bu sorunu \"Hizmetler &amp; geri bildirim\" uygulamamızı kullanarak bildirebilirsiniz."</string>
     <string name="help_page_text_end">Cihazınızın markası listede yoksa, yansıtma işlevi hakkında daha fazla bilgi almak için üretici ile iletişime geçin.</string>
     <string name="i_see">Anladım</string>
+    <string name="ic_media_route_learn_more_accessibility">Nasıl yayınlayacağınızı öğrenin</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
     <string name="image_transfer_failed">Görüntü aktarılamadı</string>
     <string name="install">Yükle</string>
@@ -1017,8 +1096,10 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="miplay_song_title_empty">Burada öge yok</string>
     <string name="mirror_phone_content">Ana ekran+ şimdi açılsın mı?</string>
     <string name="mirror_phone_content_remote">"Ayarlar > Bağlantı menüsünde Ana ekran+'ı açabilirsiniz."</string>
+    <string name="mirror_phone_content_remote_V1">"%1$s'de Ayarlar > Ara bağlantı > Ana ekran+ menüsünde Ana ekran+'ı açın."</string>
     <string name="mirror_phone_title">"Ana ekran+'ı aç"</string>
     <string name="mirror_phone_title_remote">"Telefonda Ana ekran+'ı aç"</string>
+    <string name="mirror_phone_title_remote_V1">"Önce Ana ekran+'ı açın"</string>
     <string name="mirror_remote_pad_content">"Ayarlar > Bağlantı menüsünde Ana ekran+'ı açabilirsiniz."</string>
     <string name="mirror_remote_pad_title">"Tablette Ana ekran+'ı aç"</string>
     <string name="miuix_access_state_desc">Seçili</string>
@@ -1102,8 +1183,17 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="mr_cast_button_connecting">Yayınla. Bağlanıyor</string>
     <string name="mr_cast_button_disconnected">Yayınla. Bağlı değil</string>
     <string name="mr_cast_dialog_title_view_placeholder">Bilgi yok</string>
+    <string name="mr_chooser_looking_for_devices">Cihazlar aranıyor...</string>
     <string name="mr_chooser_searching">Cihazlar bulunuyor</string>
     <string name="mr_chooser_title">Yayınlanacak yer:</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Daha fazla bilgi</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Diğer cihazın bu araba ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Diğer cihazın bu telefon ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Diğer cihazın bu tablet ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Diğer cihazın bu tv ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Diğer cihazın bu cihaz ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Diğer cihazın bu kol saati ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_zero_routes_found_title">Kullanılabilir cihaz yok</string>
     <string name="mr_controller_album_art">Albüm kapağı</string>
     <string name="mr_controller_casting_screen">Ekran yayınlanıyor</string>
     <string name="mr_controller_close_description">Kapat</string>
@@ -1182,12 +1272,24 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="nothing_to_play">Oynatılmıyor</string>
     <string name="notification_cast_desc">Yansıtılıyor…</string>
     <string name="notification_channel_description">Diğer cihazdan Xiaomi cihazınıza senkronize edilebilecek bildirim türlerini seçin</string>
+    <string name="notification_channel_subtitle_ref_call">"iPhone'dan ara"</string>
+    <string name="notification_channel_subtitle_ref_call_1">%1$s cihazından arama</string>
+    <string name="notification_channel_subtitle_ref_lary_1">%1$s cihazından Lark mesajı</string>
+    <string name="notification_channel_subtitle_ref_mqq">"iPhone'dan QQ mesajı"</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">%1$s cihazından QQ mesajı</string>
+    <string name="notification_channel_subtitle_ref_sms">"iPhone'dan mesaj"</string>
+    <string name="notification_channel_subtitle_ref_sms_1">%1$s cihazından mesaj</string>
+    <string name="notification_channel_subtitle_ref_xin">"iPhone'dan WeChat mesajı"</string>
+    <string name="notification_channel_subtitle_ref_xin_1">%1$s cihazından WeChat mesajı</string>
     <string name="notification_channel_title_name">Bildirimler Xiaomi cihazla senkronize edildi</string>
     <string name="notification_desc_scanning">Yakınlardaki cihazlar aranıyor…</string>
     <string name="notification_incoming_call_to_reply">Gelen arama. Şu cihazda cevaplandı: %1$s.</string>
     <string name="notification_permission_content">"Ara Bağlantı yüklü ve hesabınızda oturum açmış herhangi bir iPhone'da bu cihazın bildirimlerine izin verin."</string>
+    <string name="notification_permission_new_content">"Bu cihazdan gelen aramaların, mesajların ve uygulama bildirimlerinin Bildirimleri senkronize et özelliğinin açık olduğu bir iPhone'da veya Cihazlar arası bildirimler özelliğinin açık olduğu bir Xiaomi cihazda gösterilmesine izin verin."</string>
     <string name="notification_rc_title">XiaoMi TV Asistanı</string>
+    <string name="notification_revice_phone">%1$s cihazından bildirim</string>
     <string name="notification_show_more">Daha fazla özelliği görüntülemek için dokunun</string>
+    <string name="notification_support_applist">Desteklenen uygulamalar</string>
     <string name="notify_wifiap_dialog_msg">Kodu taramak ve ağı yapılandırmak için önce taşınabilir bağlantı noktasını kapatın.</string>
     <string name="notify_wifiap_dialog_negative">Anladım</string>
     <string name="notify_wifiap_dialog_title">Ağı yapılandır</string>
@@ -1385,6 +1487,7 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="path_setting_cast_feature">Daha fazla bağlantı seçeneği/Yasıtma/Özel özellikler</string>
     <string name="path_setting_cast_help">Daha fazla bağlantı seçeneği/Yasıtma/Yardım</string>
     <string name="permission_allowed">İzin verildi</string>
+    <string name="permission_label_access_app_meta">Farklı cihazlarda uygulama kullanırken uygulama bildirimlerine eriş</string>
     <string name="permission_uballowed">İzin verilmedi</string>
     <string name="picker_view_description">Cihazlar arası kamera. Yakındaki cihazlardaki kameraları seçmek için kartın içine dokunabilirsiniz.</string>
     <string name="picker_view_outside_description">Bu kartı kapatmak için dokunun.</string>
@@ -1498,6 +1601,7 @@ Bu özelliği kullanmadan önce &lt;a href=%1$s>Kullanıcı Sözleşmesi&lt;/a> 
     <string name="screen_mirror_content">"Tüm ekran içeriği ''%1$s'' üzerinde görüntülenecek"</string>
     <string name="screen_projection">Yansıt</string>
     <string name="screen_projection_characteristics">Özel özellikler</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">"Telefonunuzda diğer uygulamaları kullanırken mevcut uygulamayı harici bir monitöre yansıtmak için Xiaomi HyperIsland'de Uygulama yansıtma özelliğine geçebilirsiniz"</string>
     <string name="screen_projection_characteristics_cast_summary">"Ekran içeriğini yakındaki bir TV'ye yansıtın"</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Yansıtırken pil tasarrufu yapmak ve aşırı ısınmadan kaçınmak için mobil cihaz ekranını kapatın</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Güç tüketimini ve aşırı ısınmayı azaltmak için yansıtırken ekranı kapatın</string>
@@ -1567,6 +1671,8 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="side_sheet_accessibility_pane_title">Yan Sayfa</string>
     <string name="small_window">Pencereyi küçült</string>
     <string name="small_window_not_supported">Yansıtma yapılıyorken bu uygulama simge durumuna küçültülemez</string>
+    <string name="sound_card_circulatable_control_text">Oynatma kontrolleri</string>
+    <string name="sound_card_circulatable_source_text">Ses kaynağı</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">Gözlük kamerası kullanımda. Daha sonra tekrar deneyin.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Ses kaydediliyor. Kamera açılamıyor.</string>
     <string name="start_forbidden_by_glasses_in_translation">Çeviri yapılıyor. Kamera açılamıyor.</string>
@@ -1673,6 +1779,8 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="title_connection_interrupted">Bağlantı kesildi</string>
     <string name="title_install">"Mi Kanvas'ı yükle"</string>
     <string name="title_update">"Mi Kanvas'ı güncelle"</string>
+    <string name="toast_confirm_network">Kurulum tamamlanamadı. Bu cihazın ağa bağlı olduğundan emin olun.</string>
+    <string name="toast_copy_auth_message_finish">Başarıyla kopyalandı</string>
     <string name="toast_guide_show_more">Daha fazla bilgi edinin</string>
     <string name="toast_guide_title">Yeni özelliklerimizi burada keşfedin</string>
     <string name="toast_invisible_mode">Gizlisiniz. Yansıtma şimdi kullanılamıyor.</string>
@@ -1681,6 +1789,9 @@ Oyunları yansıtmadan önce Game Turbo'yu açtığınızdan emin olun."</string
     <string name="toast_msg_for_small_window">Yansıtma işlemini bölmeden cihazınızdaki diğer özellikleri kullanabilmek için yansıtılan pencereyi küçültebilirsiniz.</string>
     <string name="toast_nfc_dont_move">Telefonunuzu uzaklaştırmayın</string>
     <string name="toast_nfc_same_wifi">Televizyonunuzu ve bu cihazı aynı ağa bağlayın</string>
+    <string name="toast_remote_not_install">Bu uygulama %1$s cihazınızda yüklü değil.</string>
+    <string name="toast_retry">Ayarların uygulanmasını bekleyin ve tekrar deneyin</string>
+    <string name="toast_synchronization">Cihaz durumu kontrol ediliyor. Daha sonra tekrar deneyin.</string>
     <string name="toast_title_for_small_window">Uygulamada \"Pencereyi küçült\" seçeneğini seçin</string>
     <string name="toast_turn_off_hotspot_before_cast">Yansıtmadan önce taşınabilir bağlantı noktasını kapatın</string>
     <string name="today">Bugün</string>

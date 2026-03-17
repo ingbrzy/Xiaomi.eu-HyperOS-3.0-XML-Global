@@ -196,6 +196,7 @@
     <string name="allow_onetime">Eenmaal toestaan</string>
     <string name="already_close_gamebooster">Game Turbo is uitgeschakeld</string>
     <string name="am">AM</string>
+    <string name="anitispam_intercept_record">Blokkeerlijstgeschiedenis</string>
     <string name="anti_disturb_msg_detail">Schakel alle meldingen uit, behalve voor inkomende oproepen</string>
     <string name="anti_disturb_msg_title">Niet storen</string>
     <string name="antispam_add_black_number_message">Het ingevoerde nummer is kort. Wilt u alle nummers die met deze cijfers beginnen blokkeren?</string>
@@ -1023,6 +1024,9 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="call_delete_all_hint">Alle geblokkeerde gesprekken verwijderen?</string>
     <string name="call_delete_hint">Alle geblokkeerde oproepen van dit nummer verwijderen?</string>
     <string name="call_delete_title">Verwijder oproepgeschiedenis</string>
+    <string name="call_empty_number">Lege nummers</string>
+    <string name="call_forwarding_block">Doorgeschakelde oproepen</string>
+    <string name="call_intercept_settings">Instellingen voor de blokkeerlijst voor oproepen</string>
     <string name="call_notification_answer_action">Beantwoorden</string>
     <string name="call_notification_answer_video_action">Video</string>
     <string name="call_notification_decline_action">Weigeren</string>
@@ -1031,6 +1035,7 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="call_notification_ongoing_text">Actief gesprek</string>
     <string name="call_notification_screening_text">Een inkomend gesprek screenen</string>
     <string name="call_oversea_block">Blokkeer gesprekken uit het buitenland</string>
+    <string name="call_overseas_block">Internationale gesprekken</string>
     <string name="call_prefix">Voorvoegsel-blokkeerlijst</string>
     <string name="call_private">Blokkeer oproepen van verborgen nummers</string>
     <string name="call_stranger_block">Blokkeer oproepen van vreemden</string>
@@ -1040,12 +1045,20 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="cancel">Annuleren</string>
     <string name="cancel_button">Annuleren</string>
     <string name="car_sickness_relief_comment_text">Wanneer er beweging van het voertuig wordt gedetecteerd, worden er aan beide kanten van het scherm stippen weergegeven. Deze geven aan of het voertuig beweegt. Dit kan helpen om het begin van wagenziekte uit te stellen.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"Aan beide zijden van het scherm worden stippen weergegeven om de beweging van het voertuig aan te geven, wat het begin van wagenziekte kan vertragen.
+
+U kunt deze functie in- en uitschakelen in Controlecentrum."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"Aan beide zijden van het scherm worden constant stippen weergegeven om de beweging van het voertuig aan te geven, wat het ontstaan ​​van wagenziekte kan vertragen.
+
+U kunt deze functie in- en uitschakelen in Controlecentrum."</string>
     <string name="car_sickness_relief_comment_text_opened">"Aan beide zijden van het scherm worden stippen weergegeven om de beweging van het voertuig aan te geven, wat het begin van wagenziekte kan vertragen.
 
 U kunt deze functie in- en uitschakelen in Controlecentrum."</string>
     <string name="car_sickness_relief_example_text_1">Wanneer het voertuig versnelt of vertraagt</string>
     <string name="car_sickness_relief_example_text_2">Wanneer het voertuig draait of van rijstrook verandert</string>
     <string name="car_sickness_relief_exit_text">Verlichting van reisziekte werkt niet meer</string>
+    <string name="car_sickness_relief_notification_text_close">Uitzetten</string>
+    <string name="car_sickness_relief_notification_text_opened">Aan</string>
     <string name="car_sickness_relief_start_text">Verlichting van reisziekte werkt</string>
     <string name="car_sickness_remind_time_title">Bewegingsindicatoren</string>
     <string name="car_sickness_title">Verlichting van reisziekte</string>
@@ -1877,7 +1890,7 @@ Het nummer zal worden toegevoegd aan de uitzonderingen, maar eerder geblokkeerde
 %3$d. Deze functie wordt alleen ondersteund op het Chinese vasteland.
 %4$d. Deze functie werkt alleen in 5G-SA-netwerken."</string>
     <string name="function_shield_auto_bright">Automatische helderheid uitschakelen</string>
-    <string name="function_shield_eye_shield">Leesmodus uitschakelen</string>
+    <string name="function_shield_eye_shield">Oogcomfortmodus uitschakelen</string>
     <string name="function_shield_pull_notification_bar">Meldingenpaneel niet openen</string>
     <string name="function_shield_settings_title">Blokkeer de volgende systeemfuncties tijdens het gamen</string>
     <string name="function_shield_summary">Blokkeer geselecteerde systeemfuncties tijdens het gamen</string>
@@ -2751,6 +2764,12 @@ om mee te doen aan onze eierenjacht!"</string>
     <string name="install_title">Installeren via USB</string>
     <string name="install_type_instant">Instant-app</string>
     <string name="installing">Aan het installeren</string>
+    <string name="intercept_all_mark_calls">Alle oproepen met het label \"%s\" blokkeren?</string>
+    <string name="intercept_calls_nofify_hide_text">Om blokkeringsregels in te stellen voor andere nummers met labels, tik hier</string>
+    <string name="intercept_calls_notify_title">Gesprekken met dit label worden automatisch beëindigd. Nu blokkeren?</string>
+    <string name="intercept_garbage_msg">Spamberichten</string>
+    <string name="intercept_record">Geschiedenis</string>
+    <string name="intercept_strange_msg">Berichten van vreemden</string>
     <string name="international_Ad">Advertentie</string>
     <string name="international_roaming_setting">Dataroaming</string>
     <string name="intl_app_manager_card_permission_title">Privacy en toestemmingen</string>
@@ -2945,6 +2964,7 @@ Herinneringen worden niet ondersteund voor geblokkeerde groepen of bij gebruik v
     <string name="mark_harass_block">Gerapporteerd als overlast</string>
     <string name="mark_harass_block_large">Overlast</string>
     <string name="mark_harass_time_setting">Blokkeer nummers die een bepaald aantal keer als overlast zijn gerapporteerd</string>
+    <string name="mark_num_open_intercept">Blokkeren</string>
     <string name="mark_number_agent">Agent</string>
     <string name="mark_number_fraud">Bedrog</string>
     <string name="mark_number_harass">Intimidatie</string>
@@ -4802,11 +4822,11 @@ Toestemming nu intrekken?"</string>
     <string name="prompt_all">Vraag om alles</string>
     <string name="prompt_input_time_illegal">Kan deze tijd niet instellen, wijzig en probeer opnieuw</string>
     <string name="protect_eye_dont_open">Niet nu</string>
-    <string name="protect_eye_hint_summry">Schakel Leesmodus in voor een betere leeservaring</string>
-    <string name="protect_eye_hint_title">Oogcomfort</string>
+    <string name="protect_eye_hint_summry">Schakel de Oogcomfortmodus in voor een betere leeservaring</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Inschakelen</string>
-    <string name="protect_eye_opened_summry">Bewerk uw voorkeuren in Instellingen > Scherm en helderheid > Oogcomfort</string>
-    <string name="protect_eye_opened_title">Leesmodus is ingeschakeld</string>
+    <string name="protect_eye_opened_summry">Bewerk uw voorkeuren in Instellingen > Scherm en helderheid > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">Oogcomfortmodus is ingeschakeld</string>
     <string name="protocol_exception_title">Diagnose van netwerkprotocollen</string>
     <string name="protocol_loop_back_exception_summary">Lokale lusbacktest mislukt. Om dit probleem te melden, gaat u naar de Feedback-app en verzendt u een logboek vanaf uw apparaat.</string>
     <string name="province_selected_talkback" />
@@ -4870,6 +4890,7 @@ Toestemming nu intrekken?"</string>
     <string name="repeat_type">Herhalen</string>
     <string name="repeated_marked_number_summary">Blokkeer geen tweede oproep van hetzelfde gerapporteerde nummer binnen %d minuten</string>
     <string name="repeated_marked_number_title">Blokkeer geen herhaalde oproepen van gerapporteerde nummers</string>
+    <string name="repeated_unknown_number_summary">Blokkeer geen tweede oproep van hetzelfde onbekende nummer binnen %d minuten</string>
     <string name="replace_dns">Vervang DNS automatisch</string>
     <string name="report">Rapporteren</string>
     <string name="report_error">Kan bericht niet rapporteren</string>
@@ -5110,6 +5131,7 @@ Toestemming nu intrekken?"</string>
     <string name="sms_detail_fragment_title_traffic">Resterende data</string>
     <string name="sms_filter">Smart filter</string>
     <string name="sms_guard_alert">Standaard berichten-app gewijzigd. Xiaomi Messaging kan sms-spam niet meer blokkeren.</string>
+    <string name="sms_intercept_settings">Instellingen voor de blokkeerlijst voor berichten</string>
     <string name="sms_keywords">Trefwoord-blokkeerlijst</string>
     <string name="sms_malicious_url">"Blokkeer sms met kwaadaardige URL's"</string>
     <string name="sms_prefix">Voorvoegsel-blokkeerlijst</string>
@@ -5311,9 +5333,26 @@ Toestemming nu intrekken?"</string>
     <string name="st_call_intercept_reported">Blokkeer oproepen van gerapporteerde nummers</string>
     <string name="st_call_intercept_stranger">Blokkeer oproepen van vreemden</string>
     <string name="st_call_intercept_unknown">Blokkeer oproepen van verborgen nummers</string>
+    <string name="st_call_mark_agent">Vastgoed</string>
+    <string name="st_call_mark_agent_intercept">Vastgoed</string>
+    <string name="st_call_mark_decoration">Huisrenovatie</string>
+    <string name="st_call_mark_decoration_intercept">Huisrenovatie</string>
+    <string name="st_call_mark_edu">Onderwijs</string>
+    <string name="st_call_mark_edu_intercept">Onderwijs</string>
+    <string name="st_call_mark_high_risk">Hoog risico</string>
+    <string name="st_call_mark_high_risk_intercept">Hoog risico</string>
+    <string name="st_call_mark_insurance">Investering</string>
+    <string name="st_call_mark_insurance_intercept">Investering</string>
+    <string name="st_call_mark_loan">Hypotheek</string>
+    <string name="st_call_mark_loan_intercept">Hypotheek</string>
+    <string name="st_call_mark_sell">Advertenties</string>
+    <string name="st_call_mark_sell_intercept">Advertenties</string>
     <string name="st_call_other_group">Ander</string>
     <string name="st_call_settings">Blokkeerlijst oproepen</string>
     <string name="st_call_stranger_group">Blokkeer oproepen van vreemden</string>
+    <string name="st_call_stranger_inercept_local">Blokkeer onbekende nummers</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">Oproepen van nummers die niet in uw uitzonderingen staan, worden geblokkeerd. Nu blokkeren?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">Oproepen van nummers die niet in uw uitzonderingen of contacten staan, worden geblokkeerd. Nu blokkeren?</string>
     <string name="st_confirm_call_all_dialog_summary">Oproepen van elk nummer dat niet op uw uitzonderingen staat, worden geblokkeerd. Nu inschakelen?</string>
     <string name="st_confirm_dialog_btn_open">Blokkeren</string>
     <string name="st_confirm_dialog_summary_oversea_call">Alle oproepen van buitenlandse telefoonnummers worden geblokkeerd.</string>
@@ -5325,9 +5364,11 @@ Toestemming nu intrekken?"</string>
     <string name="st_hint_add_head_number">Voorvoegsel invoeren</string>
     <string name="st_hint_add_phonenumber">Voer telefoonnummer in</string>
     <string name="st_hint_operatelist">Het lijkt erop dat deze regel al bestaat</string>
+    <string name="st_intercept_dialog_title">Let op</string>
     <string name="st_mark_call_intercept_threshold_summary">Automatisch nummers blokkeren die een bepaald aantal keren zijn gerapporteerd</string>
     <string name="st_mark_call_intercept_threshold_title">Blokdrempel</string>
     <string name="st_mark_number_group">Blokkeer oproepen van gerapporteerde nummers</string>
+    <string name="st_mark_number_net_group">Blokkeer gerapporteerde nummers</string>
     <string name="st_message_SMS_AntiSpam">Blokkeer sms</string>
     <string name="st_message_SMSpass">Sta sms toe</string>
     <string name="st_message_phone_AntiSpam">Blokkeer oproepen</string>
@@ -5340,13 +5381,26 @@ Toestemming nu intrekken?"</string>
     <string name="st_msg_stranger_group">Blokkeer berichten van vreemden</string>
     <string name="st_settings_name">Blokkeerlijst-instellingen</string>
     <string name="st_share_settings">Gebruik SIM %d instellingen</string>
+    <string name="st_smg_intercept_all">Blokkeer alle berichten</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">"Sms- en mms-berichten van nummers of regio's die niet in uw uitzonderingen staan, worden geblokkeerd. Nu blokkeren?"</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">"Sms- en mms-berichten van nummers of regio's die niet in uw uitzonderingen of contacten staan, worden geblokkeerd. Nu blokkeren?"</string>
+    <string name="st_smg_intercept_network_check">Blokkeren met behulp van online definities</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">Spamberichten</string>
+    <string name="st_smg_intercept_other">Aanvullende instellingen</string>
+    <string name="st_smg_intercept_strange">Blokkeer berichten van vreemden</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">Blokkeer berichten van onbekenden die specifieke trefwoorden bevatten</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">"Blokkeer berichten van specifieke nummers en regio's"</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">Blokkeer geen berichten van onbekenden die specifieke trefwoorden bevatten</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">"Blokkeer geen berichten van nummers en regio's die in uw uitzonderingen staan"</string>
     <string name="st_sms_intercept_oversea">Internationale SMS</string>
     <string name="st_sub_title_customize_mode_name">Naam</string>
     <string name="st_sub_title_whiteblack_list_group">Blokkeerlijst</string>
     <string name="st_sum_call_wait">"Uw 'niet bereikbaar' bericht zal ook worden gespeeld als een bezettoon voor inkomende oproepen."</string>
     <string name="st_summary_blacklist_numbers">Blokkeer oproepen en berichten van specifieke telefoonnummers of gebieden</string>
     <string name="st_summary_blacklist_numbers_international">Blokkeer oproepen op basis van nummer of netnummer</string>
+    <string name="st_summary_intercept_blacklist_numbers">"Blokkeer oproepen en berichten van specifieke nummers en regio's"</string>
     <string name="st_summary_keywords_blacklist">Voeg trefwoorden toe om berichten te blokkeren</string>
+    <string name="st_summary_release_whitelist_numbers">"Blokkeer geen oproepen en berichten van nummers en regio's die in uw uitzonderingen staan"</string>
     <string name="st_summary_special_numbers">Blokkeer gemarkeerde telefoonnummers</string>
     <string name="st_summary_whitelist_numbers">Sta oproepen en berichten van specifieke telefoonnummers of gebieden toe</string>
     <string name="st_summary_whitelist_numbers_international">Oproepen toestaan ​​op basis van nummer of netnummer</string>
@@ -5381,6 +5435,8 @@ Toestemming nu intrekken?"</string>
     <string name="st_title_markednumber_group">Blokkeer gerapporteerde nummers</string>
     <string name="st_title_mode_choose_group">Blokkeerlijst-regels</string>
     <string name="st_title_not_sim">Leeg</string>
+    <string name="st_title_number_and_region_blacklist">"Geblokkeerde nummers en regio's"</string>
+    <string name="st_title_number_and_region_whitelist">"Uitzonderingen op het gebied van nummers en regio's"</string>
     <string name="st_title_open_antispam">Blokkeerlijst</string>
     <string name="st_title_other_group">Ander</string>
     <string name="st_title_settings_other_group">Aanvullende instellingen</string>
@@ -5542,7 +5598,7 @@ Formatteren wist bestaande inhoud op de ^2. Om te voorkomen dat u inhoud verlies
     <string name="summary_default_app">%s is niet ingesteld als een standaard systeem-app</string>
     <string name="summary_dev">Vermijd malware en bescherm persoonlijke gegevens</string>
     <string name="summary_do_not_disturb">De Niet storen modus is ingeschakeld.</string>
-    <string name="summary_eye_shield">Schakel de Leesmodus uit om terug te gaan naar de standaardinstellingen.</string>
+    <string name="summary_eye_shield">Schakel de Oogcomfortmodus uit om terug te gaan naar de standaardinstellingen.</string>
     <string name="summary_find_device">Lokaliseer en vergrendel uw toestel vanaf overal</string>
     <string name="summary_first_aid_kit">Los nu de problemen op uw apparaat op</string>
     <string name="summary_flow_notification">Toon uw maandelijkse datagebruik statistieken op het meldingenpaneel</string>

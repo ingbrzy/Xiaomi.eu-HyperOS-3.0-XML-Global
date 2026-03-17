@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Siguiente</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Estas aplicaciones de %1$d bits no se pueden transferir a un dispositivo de %2$d bits. Puede descargarlas directamente desde GetApps después de la transferencia.</string>
     <string name="audio">Audio</string>
+    <string name="audio_permission_desc_new">Para transferir música y audio al nuevo dispositivo</string>
     <string name="audio_video_document">Audio, video y documentos</string>
     <string name="back">Atrás</string>
     <string name="backup_died_summary">Toque \"Conectar de nuevo\". El estado de la transferencia se reanudará desde donde lo dejó.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">El código no ha sido ingresado por mucho tiempo. Conectarse manualmente.</string>
     <string name="ble_enter_verifycode_timeout_title">La sesión expiró</string>
     <string name="ble_guest_connecting_title">Conectándose a nuevo dispositivo…</string>
+    <string name="ble_guest_connecting_title_pad">Conectándose a nuevo dispositivo…</string>
     <string name="ble_host_verification_summary">Introduzca un código de %d dígitos en su dispositivo antiguo.</string>
     <string name="ble_host_verification_title">Conectando con el dispositivo antiguo…</string>
     <string name="ble_manual_authorization_content">Otorgue los permisos necesarios para transferir elementos con Mi Mudanza. Puede otorgarlos en Configuración.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Punto de acceso creado con éxito. Esperando para conectar…</string>
     <string name="ble_starting_ap">Creando un punto de acceso…</string>
     <string name="ble_wait_verify_code">Generando código en el nuevo dispositivo…</string>
+    <string name="ble_wait_verify_code_pad">Generando código en el nuevo dispositivo…</string>
     <string name="ble_waiting_verify_code">Verificando código…</string>
     <string name="ble_waiting_verify_code_error">El código introducido es incorrecto</string>
+    <string name="blutooth_permission_desc_new">Para detectar dispositivos cercanos que estén listos para conectarse</string>
     <string name="btn_got_it">Entendido</string>
     <string name="btn_install_complete">Instalado</string>
     <string name="btn_mi_cloud_install_complete">He instalado la aplicación</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Llamada en curso</string>
     <string name="call_notification_screening_text">Filtrando una llamada entrante</string>
     <string name="calllog">Historial de llamadas</string>
+    <string name="camera_permission_content">Para detectar dispositivos cercanos</string>
     <string name="cancel">Cancelar</string>
     <string name="cancel_moving_dialog_message">¿Detener importación?</string>
     <string name="cancel_moving_dialog_title">Detener importación</string>
@@ -150,8 +155,10 @@ visite https://appleid.apple.com/#!&amp;page=signin para desactivar"</string>
     <string name="connection_tips_owner_title">Si su dispositivo antiguo es un teléfono Mi:</string>
     <string name="connection_tips_owner_title_global">¿Instalar la última versión de Mi Mudanza?</string>
     <string name="contact_records_permission_desc">Para transferir el historial de llamadas a otros dispositivos</string>
+    <string name="contact_records_permission_desc_new">Para transferir el historial de llamadas al nuevo dispositivo</string>
     <string name="contacts">Contactos</string>
     <string name="contacts_permission_desc">Para transferir contactos a otros dispositivos</string>
+    <string name="contacts_permission_desc_new">Para transferir contactos al nuevo dispositivo</string>
     <string name="contains_unauthorized_data">Contiene datos no autorizados</string>
     <string name="copy">Copiar</string>
     <string name="current_user_not_supported_summary">Los ajustes del sistema actuales restringen la transferencia de datos usando Mi Mudanza.</string>
@@ -180,6 +187,17 @@ visite https://appleid.apple.com/#!&amp;page=signin para desactivar"</string>
     <string name="dialog_rating_desc_less">Díganos sus sugerencias para mejorar nuestra aplicación</string>
     <string name="dialog_rating_desc_perfect">¡Gracias! ¿Calificar Mi Mudanza en GetApps?</string>
     <string name="dialog_rating_title">Calificar Mi Mudanza</string>
+    <string name="dialog_request_all_permission_content_new">"Para transferir datos de su dispositivo antiguo al nuevo, esta aplicación necesita conectarse a Internet y requiere los siguientes permisos:
+• Acceder a fotos, audio, calendario y videos
+• Acceder a mensajes, contactos e historial de llamadas
+• Acceder al almacenamiento
+• Acceder a la lista de aplicaciones instaladas en el dispositivo"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Para transferir datos de su dispositivo antiguo al nuevo, esta aplicación necesita conectarse a Internet y requiere los siguientes permisos:
+• Acceder a fotos, audio, calendario y videos
+• Acceder a mensajes, contactos e historial de llamadas
+• Acceder al almacenamiento
+• Acceder a la lista de aplicaciones instaladas en el dispositivo"</string>
+    <string name="dialog_request_all_permission_title_new">Permisos necesarios</string>
     <string name="dialog_request_network_btn_negative">Salir</string>
     <string name="dialog_request_network_btn_positive">Aceptar</string>
     <string name="dialog_request_permission_message">¡Bienvenido a Mi Mudanza! Puede utilizar esta aplicación para transferir datos de su dispositivo antiguo a uno nuevo. Los datos se transferirán entre los dos dispositivos y no se cargarán en nuestros servidores. Esta aplicación necesita conectarse a Internet y requiere los siguientes permisos para poder funcionar con normalidad:</string>
@@ -188,6 +206,8 @@ visite https://appleid.apple.com/#!&amp;page=signin para desactivar"</string>
     <string name="dialog_request_permission_message_extra_title">Permisos obligatorios</string>
     <string name="dialog_request_permission_message_global">Esta aplicación necesita los siguientes permisos para poder funcionar con normalidad:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Para comprender completamente sus derechos como usuario, así como las formas en que usamos sus datos, lea y acepte nuestro &lt;a href='%1s'>Acuerdo de Usuario del Sistema Operativo Xiaomi&lt;/a> y la &lt;a href='%2s'>Política de Privacidad de Mi Mudanza&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Permita que esta aplicación se conecte a Internet y conceda los permisos obligatorios mencionados anteriormente. Para entender plenamente sus derechos como usuario, así como la forma en que utilizamos sus datos, lea y acepte el &lt;a href='%1s'>Acuerdo de Usuario del Sistema Operativo Xiaomi&lt;/a> y la &lt;a href='%2s'>Política de Privacidad de Mi Mudanzay&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">¡Bienvenido a Mi Mudanza! Puede usar esta aplicación para transferir datos de su dispositivo antiguo a uno nuevo. Los datos se transferirán entre los dos dispositivos y no se cargarán en nuestros servidores.</string>
     <string name="dialog_request_permission_message_provision_link">Al mismo tiempo, para comprender plenamente sus derechos como usuario y las formas en que usamos sus datos, lea y acepte nuestro %1$s y nuestra%2$s.</string>
     <string name="dialog_request_permission_title">Atención</string>
     <string name="dialog_request_permission_title_global">Permisos necesarios</string>
@@ -197,7 +217,7 @@ visite https://appleid.apple.com/#!&amp;page=signin para desactivar"</string>
     <string name="dialog_version_title_tip">Una actualización disponible</string>
     <string name="dialog_wechat_data_transfer_fail_button">Entendido</string>
     <string name="dialog_wechat_data_transfer_fail_message">"No se pudieron transferir los datos de la aplicación WeChat y el historial de chat debido a restricciones de la aplicación. Pruebe la función de copia de seguridad en la aplicación.
-Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar chats."</string>
+Abra WeChat y vaya a Yo > Configuración > General > Copia de seguridad y migrar chats."</string>
     <string name="dialog_wechat_data_transfer_fail_title">No se pudieron transferir los datos de la aplicación WeChat</string>
     <string name="document">Documentos</string>
     <string name="early_morning">Mañana</string>
@@ -367,9 +387,12 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="icloud_signin_fail_message">Su ID de Apple fue bloqueado por razones de seguridad. Vaya a iforgot.apple.com y siga las instrucciones.</string>
     <string name="icloud_start_now">Usar datos móviles</string>
     <string name="icloud_verify_tips">Toque \"Permitir\" en su dispositivo iOS e ingrese aquí el código que aparezca en dicho dispositivo.</string>
+    <string name="idm_discovery_summary_pad">Parece que está activando un nuevo dispositivo. ¿Desea transferir elementos de este dispositivo al nuevo?</string>
+    <string name="idm_discovery_title_pad">Transfiera elementos a su nuevo dispositivo</string>
     <string name="im_recipient">Soy destinatario</string>
     <string name="im_sender">Soy remitente</string>
     <string name="image">Imágenes</string>
+    <string name="image_video_permission_desc_new">Para transferir fotos y videos al nuevo dispositivo</string>
     <string name="import_again">Importar de nuevo</string>
     <string name="import_data_from_icloud">Importar datos desde iCloud</string>
     <string name="install_app_dialog_title">No se encontraron dispositivos cercanos</string>
@@ -395,6 +418,8 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="lack_perm_title">Permisos necesarios</string>
     <string name="launcher">Diseño de la pantalla de inicio</string>
     <string name="loading_data">Un momento…</string>
+    <string name="location_permission_content_no_provisioned">Conceda este permiso para poder conectarse al punto de acceso de un dispositivo cercano. Si no concede este permiso, no podrá transferir elementos.</string>
+    <string name="location_permission_content_provisioned">Para conectarse al punto de acceso de un dispositivo cercano</string>
     <string name="location_permission_desc">Para encontrar dispositivos cercanos</string>
     <string name="location_permission_request">Para conectarse a otros dispositivos cercanos</string>
     <string name="lockscreen_access">Área del patrón</string>
@@ -423,6 +448,8 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="manual_connection_title">Conectarse al dispositivo antiguo manualmente</string>
     <string name="manual_connection_title_pad">Conecte el dispositivo antiguo al punto de acceso</string>
     <string name="manual_connection_title_phone">Conecte el dispositivo antiguo al punto de acceso</string>
+    <string name="manual_disconnect_guest">Dispositivo nuevo desconectado. Vuelva a conectarse para continuar con la transferencia.</string>
+    <string name="manual_disconnect_host">Dispositivo antiguo desconectado. Vuelva a conectarse para continuar con la transferencia.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mudanza necesita acceder a todos los archivos de este dispositivo para poder moverlos de su dispositivo anterior a uno nuevo.</string>
     <string name="message_request_package_stats_perm">Mi Mudanza necesita este permiso para saber qué aplicaciones están instaladas en un dispositivo y transferir estas aplicaciones a otro.</string>
     <string name="midnight">Noche</string>
@@ -513,6 +540,7 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="more">Más</string>
     <string name="morning">Mañana</string>
     <string name="msg_permission_desc">Para transferir mensajes a otros dispositivos</string>
+    <string name="msg_permission_desc_new">Para transferir SMS y MMS a otros dispositivos</string>
     <string name="name_password_not_consistent">La contraseña y Apple ID que ingresó no coinciden</string>
     <string name="need_location_permission_confirm">Configuración</string>
     <string name="need_location_permission_summary">Permita a Mi Mudanza acceder a su ubicación para encontrar dispositivos cercanos.</string>
@@ -522,6 +550,20 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="need_more_memory_title">No hay suficiente espacio de almacenamiento</string>
     <string name="new_app_name">Nueva versión</string>
     <string name="new_main_activity_label">Mi Mudanza</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Datos con derechos de autor</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Es posible que las aplicaciones del sistema y los datos de otras marcas no sean compatibles con Mi Mudanza y no se puedan transferir.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Las aplicaciones y los datos que no sean compatibles con el nuevo dispositivo no se pueden transferir.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Algunas configuraciones y datos del teléfono están vinculados a su tarjeta SIM. Al insertar la tarjeta SIM en el nuevo dispositivo, se transferirán estos datos.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Algunos datos de la aplicación</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Datos del Segundo espacio</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Datos del Segundo espacio</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Datos relacionados con la privacidad y la seguridad</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Las tarjetas bancarias y las llaves del coche no se pueden transferir.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Las tarjetas bancarias y las llaves del coche no se pueden transferir. Los temas y fondos de pantalla están sujetos a límites de resolución de pantalla y no se pueden transferir entre algunos modelos.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Debido a las limitaciones del protocolo Bluetooth, no se pueden transferir los registros de emparejamiento de audífonos, altavoces y otros dispositivos Bluetooth.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Las estadísticas de funcionamiento, como el consumo de energía, el tiempo en pantalla y el uso de datos móviles, no se pueden transferir.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Datos asociados a un modelo de dispositivo específico</string>
+    <string name="new_trans_intro_data_not_support_title">%d. ¿Qué datos no se pueden transferir a través de Mi Mudanza?</string>
     <string name="new_trans_intro_desc_2">No es necesario ingresar una contraseña en la nueva versión de Mi Mudanza. Simplemente abra Mi Mudanza en su antiguo dispositivo, toque \"Soy un remitente\" y toque el nombre del hotspot para conectarse.</string>
     <string name="new_trans_intro_desc_2_pad">No es necesario ingresar la contraseña del punto de acceso en la nueva versión de Mi Mudanza. Simplemente abra Mi Mudanza en su antiguo dispositivo, toque \"Soy un remitente\" y toque el nombre del punto de acceso para conectarse.</string>
     <string name="new_trans_intro_desc_2_phone">No es necesario ingresar la contraseña del punto de acceso en la nueva versión de Mi Mudanza. Simplemente abra Mi Mudanza en su antiguo dispositivo, toque \"Soy un remitente\" y toque el nombre del punto de acceso para conectarse.</string>
@@ -532,18 +574,18 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="new_trans_intro_desc_6_pad">Los datos de la aplicación no se pueden transferir porque Mi Mudanza no tiene los permisos necesarios en dispositivos que no son Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Los datos de la aplicación no se pueden transferir porque Mi Mudanza no tiene los permisos necesarios en dispositivos que no son Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mudanza podrá retomar desde donde lo dejó. Sin embargo, es posible que deba comenzar de nuevo si los problemas de compatibilidad del dispositivo le impiden reanudar la transferencia interrumpida.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mudanza podrá retomar desde donde lo dejó. Sin embargo, es posible que deba comenzar de nuevo si los problemas de compatibilidad entre dispositivos le impiden reanudar la transferencia interrumpida.</string>
     <string name="new_trans_intro_desc_8">El historial de WeChat de su dispositivo antiguo sobrescribirá el historial de WeChat en su nuevo dispositivo durante la transferencia.</string>
+    <string name="new_trans_intro_desc_8_pad">El historial de WeChat de su dispositivo antiguo sobrescribirá el historial de WeChat de su nuevo dispositivo durante la transferencia.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Asegúrese de que Mi Mudanza esté actualizado en su nuevo dispositivo. Puede descargar la última versión de Mi Mudanza en la Play Store o pulsar aquí: %2$s.
 %3$d. Si el hotspot aún no aparece en Mi Mover, abra los ajustes de Wi-Fi y compruebe si puede verlo allí. Si es así, regrese a Mi Mudanza y pulse sobre el nombre del hotspot."</string>
     <string name="new_trans_intro_desc_new_click">Descargar</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Asegúrate de que Mi Mover esté actualizado en tu nuevo dispositivo. Puedes descargar la última versión de Mi Mover en Google Play o <Data>&lt;a href=%2$s>pulsar aquí&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punto de acceso sigue sin aparecer en Mi Mover, abre los ajustes de Wi-Fi y comprueba si aparece allí. En ese caso, vuelve a Mi Mover y pulsa el nombre del punto de acceso."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Asegúrese de que Mi Mover en su nuevo dispositivo esté actualizado. Puede descargar la versión más reciente de Mi Mover en GetApps o <Data>&lt;a href=%2$s>hacer clic aquí&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punto de acceso aún no aparece en Mi Mover, abra la configuración de WLAN y compruebe si puede visualizarlo allí. En caso afirmativo, regrese a Mi Mover y toque el nombre del punto de acceso."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Asegúrate de que Mi Mover esté actualizado en tu nuevo dispositivo. Puedes descargar la última versión de Mi Mover en Google Play o <Data>&lt;a href=%2$s>pulsar aquí&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punto de acceso sigue sin aparecer en Mi Mover, abre los ajustes de Wi-Fi y comprueba si aparece allí. En ese caso, vuelve a Mi Mover y pulsa el nombre del punto de acceso."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Asegúrese de que Mi Mover en su nuevo dispositivo esté actualizado. Puede descargar la versión más reciente de Mi Mover en GetApps o <Data>&lt;a href=%2$s>hacer clic aquí&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Si el punto de acceso aún no aparece en Mi Mover, abra la configuración de WLAN y compruebe si puede visualizarlo allí. En caso afirmativo, regrese a Mi Mover y toque el nombre del punto de acceso."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Asegúrese de que Mi Mudanza esté actualizado en su nuevo dispositivo. Puede descargar la versión más reciente de Mi Mudanza en GetApps o <Data>&lt;a href=%2$s>pulsar aquí&lt;/a></Data>".
+%3$d. Si el punto de acceso aún no aparece en Mi Mudanza, abra la configuración de Wi-Fi y compruebe si puede visualizarlo allí. En caso afirmativo, regrese a Mi Mudanza y pulse el nombre del punto de acceso."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Asegúrate de que Mi Mover esté actualizado en tu nuevo dispositivo. Puedes descargar la última versión de Mi Mover en Google Play o <Data>&lt;a href=%2$s>pulsar aquí&lt;/a></Data>".
+%3$d. Si el punto de acceso sigue sin aparecer en Mi Mover, abre los ajustes de Wi-Fi y comprueba si aparece allí. En ese caso, vuelve a Mi Mover y pulsa el nombre del punto de acceso."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Asegúrese de que Mi Mover en su nuevo dispositivo esté actualizado. Puede descargar la versión más reciente de Mi Mover en GetApps o <Data>&lt;a href=%2$s>hacer clic aquí&lt;/a></Data>".
+%3$d. Si el punto de acceso aún no aparece en Mi Mover, abra la configuración de WLAN y compruebe si puede visualizarlo allí. En caso afirmativo, regrese a Mi Mover y toque el nombre del punto de acceso."</string>
     <string name="new_trans_intro_desc_old">%d. Si el hotspot aún no aparece en Mi Mudanza, abra los ajustes del Wi-Fi y verifique si puede verlo allí. Si es así, vaya a Mi Mudanza y toque el nombre del hotspot.</string>
     <string name="new_trans_intro_question_1">%d. ¿Por qué no puedo ver el punto de acceso del nuevo dispositivo en el anterior?</string>
     <string name="new_trans_intro_question_1_pad">%d. ¿Por qué no puedo ver el punto de acceso del nuevo dispositivo en el anterior?</string>
@@ -573,15 +615,22 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="not_set">Sin definir</string>
     <string name="not_support_data_content1">%d. Elementos específicos del modelo de dispositivo</string>
     <string name="not_support_data_content2">%d. Datos de aplicaciones</string>
+    <string name="not_support_data_content2_new">%d. Datos con derechos de autor</string>
     <string name="not_support_data_content3">%d. Datos del Segundo espacio</string>
+    <string name="not_support_data_content3_new">%d. Datos relacionados con la privacidad y la seguridad</string>
     <string name="not_support_data_content4">%d. Aplicaciones duales</string>
+    <string name="not_support_data_content4_new">%d. Algunos datos de la aplicación</string>
     <string name="not_support_data_content_2">%d. Aplicaciones seleccionadas y datos de aplicaciones</string>
     <string name="not_support_data_link">Elementos que no se pueden transferir</string>
     <string name="not_support_data_summary1">Los temas, los fondos de pantalla, las tarjetas de transporte y las tarjetas de acceso no se pueden transferir con Mi Mudanza.</string>
+    <string name="not_support_data_summary1_new">Las tarjetas bancarias y las llaves del coche no se pueden transferir. Los temas y fondos de pantalla están sujetos a límites de resolución de pantalla y no se pueden transferir entre algunos modelos.</string>
     <string name="not_support_data_summary2">Los datos de aplicaciones (como el historial de conversaciones) no se pueden transferir.</string>
+    <string name="not_support_data_summary2_new">Los temas, fuentes, iconos grandes, temas de pantalla siempre activa y widgets comprados a través de su Cuenta Mi que estén protegidos por derechos de autor no se pueden transferir. Inicie sesión con su Cuenta Mi en el nuevo dispositivo y vuelva a descargarlos.</string>
     <string name="not_support_data_summary3">Debido a las restricciones del sistema, los elementos del Segundo espacio no se pueden transferir con Mi Mudanza.</string>
+    <string name="not_support_data_summary3_new">Las huellas digitales, los datos faciales y otros datos relacionados con la propiedad del dispositivo, la seguridad financiera y la privacidad del usuario no se pueden transferir del dispositivo antiguo en ninguna forma. Esto también incluye los datos de las aplicaciones financieras (por ejemplo, la banca móvil).</string>
     <string name="not_support_data_summary4">Las aplicaciones duales y sus datos tampoco se pueden transferir. Sin embargo, puede transferir las aplicaciones principales correspondientes.</string>
     <string name="not_support_data_summary_2">Algunas aplicaciones no se pueden transferir debido a restricciones de privacidad de Play Store.</string>
+    <string name="not_support_data_summary_new">Es posible que las aplicaciones del sistema y los datos de otras marcas no sean compatibles con Mi Mudanza y no se puedan transferir.</string>
     <string name="not_support_data_title">Elementos que no se pueden transferir</string>
     <string name="note">Notas</string>
     <string name="nothing_chosen">Seleccione los elementos primero</string>
@@ -641,27 +690,39 @@ Abra WeChat y vaya a Yo > Ajustes > General > Copia de seguridad &amp;migrar cha
     <string name="permission_alert_message_usage_access">Mi Mudanza necesita acceder a las estadísticas de uso de aplicaciones. Conceda a Mi Mudanza los permisos necesarios en Ajustes.</string>
     <string name="permission_alert_title">Permisos necesarios</string>
     <string name="permission_bluetooth_summary">Para encontrar dispositivos cercanos disponibles</string>
+    <string name="permission_bluetooth_summary_new">Para encontrar dispositivos disponibles cercanos</string>
     <string name="permission_bluetooth_title">Activar y desactivar el Bluetooth</string>
     <string name="permission_calendar_summary">Para transferir eventos del calendario</string>
     <string name="permission_calendar_title">Acceder al calendario</string>
     <string name="permission_calender_summary">Para mover eventos del dispositivo antiguo al nuevo</string>
     <string name="permission_calender_summary_global">Para transferir eventos del calendario al nuevo dispositivo</string>
+    <string name="permission_calender_summary_new">Para transferir eventos del dispositivo antiguo al nuevo</string>
     <string name="permission_calender_title">Acceder a los eventos del calendario</string>
+    <string name="permission_calender_title_new">Acceda a los eventos del calendario</string>
     <string name="permission_call_log_summary">Para transferir el historial de llamadas a su nuevo dispositivo</string>
+    <string name="permission_call_log_summary_new">Para transferir el historial de llamadas a su nuevo dispositivo</string>
     <string name="permission_call_log_title">Accediendo al historial de llamadas</string>
     <string name="permission_contacts_summary">Para transferir contactos a su nuevo dispositivo</string>
+    <string name="permission_contacts_summary_new">Para transferir contactos a su nuevo dispositivo</string>
     <string name="permission_contacts_title">Accediendo a contactos</string>
     <string name="permission_grant_request">Para poder transferir este elemento, Mi Mudanza necesita el permiso \"%1$s\".</string>
     <string name="permission_locale_summary">Para conectar con dispositivos cercanos</string>
     <string name="permission_locale_title">Acceder a la ubicación</string>
+    <string name="permission_locale_title_new">Acceso a la ubicación</string>
     <string name="permission_message_summary">Para transferir mensajes a su nuevo dispositivo</string>
+    <string name="permission_message_summary_new">Para transferir mensajes a su nuevo dispositivo</string>
     <string name="permission_message_title">Acceder al contenido SMS</string>
     <string name="permission_request_title">Se requiere el permiso \"%1$s\"</string>
     <string name="permission_setting_button">Configuración</string>
     <string name="permission_storage_summary">Para transferir archivos y fotos a su nuevo dispositivo</string>
+    <string name="permission_storage_summary_new">Para transferir archivos y fotos a su nuevo dispositivo</string>
     <string name="permission_storage_title">Acceder y guardar archivos o fotos almacenados en su dispositivo</string>
+    <string name="permission_storage_title_new">Acceda al almacenamiento</string>
     <string name="permission_wifi_summary">Para transferir elementos a tu nuevo dispositivo</string>
+    <string name="permission_wifi_summary_new">Para transferir elementos a su nuevo dispositivo</string>
     <string name="permission_wifi_title">Activar y desactivar el Wi-Fi</string>
+    <string name="permission_wifi_title_new">Activar y desactivar el Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Activar y desactivar WLAN</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Se copió \"%1$s\" en el portapapeles.</string>
     <string name="privacy_agree">Aceptar</string>
@@ -749,6 +810,7 @@ Libere al menos %s."</string>
     <string name="scanner_quit_alert_message_phone">Tendrá que volver a conectar ambos dispositivos si sale de Mi Mudanza. ¿Salir?</string>
     <string name="scanner_quit_alert_title">¿Salir?</string>
     <string name="scanner_send_dialog_btn">Entendido</string>
+    <string name="scanner_send_dialog_btn_i_know">Entendido</string>
     <string name="scanner_send_dialog_message">No desactive el Wi-Fi o cambie la red durante la transferencia.</string>
     <string name="scanner_size_selected">Seleccionado: %s</string>
     <string name="scanner_subtitle_prd">Lea atentamente la siguiente información antes de verificar cada elemento e iniciar el proceso de transferencia.</string>
@@ -756,6 +818,7 @@ Libere al menos %s."</string>
     <string name="scanner_title_prd">Información importante</string>
     <string name="scanner_title_tip">Seleccione elementos a transferir</string>
     <string name="scanner_wechat_overwrite_hit">Debido a restricciones de aplicaciones de terceros, el historial de conversaciones y otros datos de aplicaciones en su nuevo dispositivo serán reemplazados por los del dispositivo antiguo una vez que la transferencia se haya completado.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Debido a restricciones de aplicaciones de terceros, los historiales de chat y otros datos de aplicaciones en su nuevo dispositivo se reemplazarán por los del antiguo una vez finalizada la transferencia.</string>
     <string name="search_menu_title">Buscar</string>
     <string name="searching_for_new_device">Buscando nuevo dispositivo…</string>
     <string name="searching_for_new_device_pad">Buscando el nuevo dispositivo…</string>
@@ -889,27 +952,42 @@ Libere al menos %s."</string>
     <string name="time_spent">Tiempo: %1$s</string>
     <string name="tips_button_hint">Primero marque cada elemento para confirmar</string>
     <string name="tips_cover_content">Estos datos (incluido el historial de conversaciones) se sobrescribirán si continúa.</string>
+    <string name="tips_cover_content_pad">Estos datos (incluidos los historiales de chat) se sobrescribirán si continúa.</string>
     <string name="tips_cover_content_tablet">Estos datos (incluido el historial de conversaciones) se sobrescribirán si continúa.</string>
     <string name="tips_cover_title">%1$d. Ya hay datos para las siguientes aplicaciones en el nuevo dispositivo.</string>
+    <string name="tips_cover_title_pad">%1$d. Ya hay datos de las siguientes aplicaciones en el nuevo dispositivo.</string>
     <string name="tips_cover_title_tablet">%1$d. Ya hay datos para las siguientes aplicaciones en el nuevo dispositivo.</string>
     <string name="tips_dual_app_content">No se puede transferir aplicaciones duales. Solo se puede transferir la aplicación principal y sus datos.</string>
     <string name="tips_dual_app_title">%d. Las siguientes aplicaciones son aplicaciones duales.</string>
+    <string name="tips_dual_app_title_new">%d. No se pueden transferir los datos de las aplicaciones duales.</string>
     <string name="tips_hot_content">Esto es normal. El dispositivo se enfriará una vez que se complete la transferencia.</string>
+    <string name="tips_hot_content_new">Esto es normal. Su dispositivo se enfriará una vez que finalice la transferencia.</string>
     <string name="tips_hot_title">%d. Puede que su dispositivo se caliente durante el proceso de transferencia.</string>
+    <string name="tips_hot_title_content">%d. Es posible que su dispositivo se caliente.</string>
     <string name="tips_private_space_content">Debido a restricciones del sistema, no se pueden transferir datos del Segundo espacio.</string>
+    <string name="tips_private_space_content_pad">Esto se debe a restricciones del sistema.</string>
+    <string name="tips_private_space_content_phone">Esto se debe a restricciones del sistema.</string>
     <string name="tips_private_space_content_tablet">Debido a restricciones del sistema, no se pueden transferir datos del Segundo espacio.</string>
     <string name="tips_private_space_title">%d. El Segundo espacio está activado.</string>
+    <string name="tips_private_space_title_pad">%d. No se pueden transferir los datos del segundo espacio.</string>
+    <string name="tips_private_space_title_phone">%d. No se pueden transferir los datos del segundo espacio.</string>
     <string name="tips_private_space_title_tablet">%d. El Segundo espacio está activado.</string>
     <string name="tips_prudent_operation_content">Interrumpir la conexión detendrá la transferencia.</string>
     <string name="tips_prudent_operation_title">%d. No desactive o cambie el punto de acceso Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new">%d. No desactive ni cambie el punto de acceso Wi-Fi.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. DNo desactive ni cambie el punto de acceso WLAN.</string>
     <string name="tips_prudent_operation_title_overseas">%d. No desactive o cambie el punto de acceso WLAN.</string>
     <string name="tips_secret_content_one">No se pueden transferir algunos elementos privados del dispositivo anterior (%1$s). Elimínelos de la carpeta privada para poder transferirlos.</string>
+    <string name="tips_secret_content_one_new">Algunos elementos privados del dispositivo antiguo (%1$s) no se pueden transferir. Elimínelos de la carpeta privada para poder transferirlos.</string>
     <string name="tips_secret_content_three">No se pueden transferir algunos elementos privados del dispositivo anterior (%1$s, %2$s, %3$s). Elimínelos de la carpeta privada para poder transferirlos.</string>
+    <string name="tips_secret_content_three_new">Algunos elementos privados del dispositivo antiguo (%1$s, %2$s, %3$s) no se pueden transferir. Elimínelos de la carpeta privada para poder transferirlos.</string>
     <string name="tips_secret_content_two">No se pueden transferir algunos elementos privados del dispositivo anterior (%1$s, %2$s). Elimínelos de la carpeta privada para poder transferirlos.</string>
+    <string name="tips_secret_content_two_new">Algunos elementos privados del dispositivo antiguo (%1$s, %2$s) no se pueden transferir. Elimínelos de la carpeta privada para poder transferirlos.</string>
     <string name="tips_secret_file">archivos</string>
     <string name="tips_secret_gallery">álbumes</string>
     <string name="tips_secret_note">notas</string>
     <string name="tips_secret_title">%d. Algunos elementos privados no se pueden transferir.</string>
+    <string name="tips_secret_title_content">%d. Los elementos privados no se pueden transferir.</string>
     <string name="tips_subtitle">Lea y confirme los siguientes recordatorios antes de continuar.</string>
     <string name="title_compatibility_mode">Activar Modo compatibilidad de aplicaciones</string>
     <string name="title_open_wlan">Activar Wi-Fi</string>
@@ -951,10 +1029,12 @@ Descargue e instale Mi Mudanza."</string>
     <string name="trans_send_time_remained_default">Enviado: %1$s</string>
     <string name="trans_show_qr_code_label">Abra Mi Mudanza en el dispositivo antiguo</string>
     <string name="trans_show_qr_code_label_for_pad">Abra Mi Mover en el dispositivo antiguo</string>
+    <string name="trans_show_qr_code_label_pad">Abrir Mi Mudanza en el dispositivo antiguo</string>
     <string name="trans_sync_transfer_data_list">Seleccionar elementos a transferir al dispositivo antiguo</string>
     <string name="trans_sync_transfer_data_list_apple">Transfiera elementos desde su dispositivo Apple</string>
     <string name="trans_sync_transfer_data_list_hint">Un momento…</string>
     <string name="trans_sync_transfer_data_list_pad">Seleccione elementos en el dispositivo antiguo para transferir</string>
+    <string name="trans_sync_transfer_data_list_phone">Seleccionar elementos a transferir en el dispositivo antiguo</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Seleccione elementos en su dispositivo antiguo y pulse \"Enviar\".</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Seleccione elementos en su dispositivo antiguo y pulse \"Enviar\".</string>
     <string name="trans_time_format_second">Menos de %d minuto</string>
@@ -977,6 +1057,7 @@ Descargue e instale Mi Mudanza."</string>
 
 "</string>
     <string name="transfer_quit_alert_message_extra">El progreso de la transferencia será guardado. Podrá reanudar la transferencia desde el punto en que la dejó la próxima vez que conecte ambos dispositivos.</string>
+    <string name="transfer_quit_alert_message_extra_pad">El progreso de la transferencia se guardará. Podrá reanudar la transferencia desde el punto en el que la dejó la próxima vez que conecte ambos dispositivos.</string>
     <string name="transfer_quit_alert_title">Atención</string>
     <string name="transfer_snap_error">No se pudo transferir</string>
     <string name="transfer_snap_new_receiving">Recibiendo…</string>

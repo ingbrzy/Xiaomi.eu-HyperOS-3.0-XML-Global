@@ -169,6 +169,7 @@
     <string name="allow_onetime">לאפשר פעם אחת</string>
     <string name="already_close_gamebooster">מאיץ המשחקים כבוי</string>
     <string name="am">AM</string>
+    <string name="anitispam_intercept_record">היסטוריית חסימות</string>
     <string name="anti_disturb_msg_detail">כבה את כל ההתראות למעט עבור שיחות נכנסות</string>
     <string name="anti_disturb_msg_title">נא לא להפריע</string>
     <string name="antispam_add_black_number_message">המספר שהזנתם קצר מדי. לחסום את כל המספרים שמתחילים עם הספרות האלה?</string>
@@ -996,7 +997,11 @@
     <string name="call_delete_all_hint">מחק את כל השיחות שנחסמו?</string>
     <string name="call_delete_hint">למחוק את כל השיחות החסומות ממספר זה?</string>
     <string name="call_delete_title">מחיקת יומן שיחות</string>
+    <string name="call_empty_number">מספרים ריקים</string>
+    <string name="call_forwarding_block">שיחות שהועברו</string>
+    <string name="call_intercept_settings">הגדרות רשימת החסומים לשיחות</string>
     <string name="call_oversea_block">חסום שיחות מחו\"ל</string>
+    <string name="call_overseas_block">שיחות בינלאומיות</string>
     <string name="call_prefix">רשימת קידומות חסומות</string>
     <string name="call_private">חסום שיחות ממספרים נסתרים</string>
     <string name="call_stranger_block">חסום שיחות מזרים</string>
@@ -1006,12 +1011,20 @@
     <string name="cancel">ביטול</string>
     <string name="cancel_button">ביטול</string>
     <string name="car_sickness_relief_comment_text">כאשר זוהה שהרכב בתנועה, בשני צידי המסך מוצגות נקודות שמעידות על כך שהרכב נמצא בתנועה, וזה עשוי לסייע לעיכוב של תחילת מחלת הנסיעה.</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_support">"בשני צידי המסך יוצגו נקודות שמסמנות תנועה של כלי רכב. זה עשוי לסייע בעיכוב של תחילת מחלת התנועה.
+
+ניתן להפעיל ולהשבית את המאפיין הזה במרכז הבקרה."</string>
+    <string name="car_sickness_relief_comment_text_driver_mode_unsupport">"בשני צידי המסך יוצגו באופן קבוע נקודות שמסמנות תנועה של כלי רכב. זה עשוי לסייע בעיכוב של תחילת מחלת התנועה.
+
+ניתן להפעיל ולהשבית את המאפיין הזה במרכז הבקרה."</string>
     <string name="car_sickness_relief_comment_text_opened">"בשני צידי המסך יוצגו נקודות שמסמנות תנועה של כלי רכב. זה עשוי לסייע בעיכוב של תחילת מחלת התנועה.
 
 ניתן להפעיל ולהשבית את המאפיין הזה במרכז הבקרה."</string>
     <string name="car_sickness_relief_example_text_1">כשהרכב מאיץ או מאט</string>
     <string name="car_sickness_relief_example_text_2">כשהרכב מסתובב או עובר נתיב</string>
     <string name="car_sickness_relief_exit_text">ההקלה על מחלת הנסיעה הפסיקה לעבוד</string>
+    <string name="car_sickness_relief_notification_text_close">מושבת</string>
+    <string name="car_sickness_relief_notification_text_opened">מופעל</string>
     <string name="car_sickness_relief_start_text">ההקלה על מחלת הנסיעה עובדת</string>
     <string name="car_sickness_remind_time_title">מחווני תנועה</string>
     <string name="car_sickness_title">הקלה על מחלת הנסיעה</string>
@@ -1762,7 +1775,7 @@
 %3$d. מאפיין זה נתמך רק בסין היבשתית.
 %4$d. מאפיין זה עובד רק ברשתות 5G-SA."</string>
     <string name="function_shield_auto_bright">הפעל בהירות אוטומטית</string>
-    <string name="function_shield_eye_shield">כבה מצב קריאה</string>
+    <string name="function_shield_eye_shield">כיבוי של מצב נוחות לעיניים</string>
     <string name="function_shield_pull_notification_bar">אל תפתח את לוח ההתראות</string>
     <string name="function_shield_settings_title">הגבל את התכונות שלהלן כאשר אתה משחק במשחקים</string>
     <string name="function_shield_summary">הגבל בחירה בתכונות המערכת כאשר אתה משחק במשחקים</string>
@@ -2635,6 +2648,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">התקן באמצעות USB</string>
     <string name="install_type_instant">אפליקציה מיידית</string>
     <string name="installing">מתקין</string>
+    <string name="intercept_all_mark_calls">לחסום את כל השיחות עם תיוג \"%s\"?</string>
+    <string name="intercept_calls_nofify_hide_text">כדי להגדיר כללי חסימה עבור מספרים מתויגים אחרים, יש להקיש כאן</string>
+    <string name="intercept_calls_notify_title">שיחות עם תיוג זה ינותקו באופן אוטומטי. האם לחסום עכשיו?</string>
+    <string name="intercept_garbage_msg">הודעות ספאם</string>
+    <string name="intercept_record">היסטוריה</string>
+    <string name="intercept_strange_msg">הודעות מאנשים זרים</string>
     <string name="international_Ad">פרסומת</string>
     <string name="international_roaming_setting">נדידת נתונים</string>
     <string name="intl_app_manager_card_permission_title">פרטיות והרשאות</string>
@@ -2828,6 +2847,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mark_harass_block">דווח כמטרד</string>
     <string name="mark_harass_block_large">מטרדים</string>
     <string name="mark_harass_time_setting">חסום מספרים שדווחו כמטרד מספר מסוים של פעמים</string>
+    <string name="mark_num_open_intercept">לחסום</string>
     <string name="mark_number_agent">סוכן</string>
     <string name="mark_number_fraud">הונאה</string>
     <string name="mark_number_harass">מטרד</string>
@@ -4638,11 +4658,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="prompt_all">שאל עבור הכל</string>
     <string name="prompt_input_time_illegal">לא ניתן להגדיר זמן זה, שנה ונסה שוב</string>
     <string name="protect_eye_dont_open">לא עכשיו</string>
-    <string name="protect_eye_hint_summry">יש להפעיל את מצב קריאה לחוויית קריאה טובה יותר</string>
-    <string name="protect_eye_hint_title">נוחות לעיניים</string>
+    <string name="protect_eye_hint_summry">יש להפעיל את מצב נוחות לעיניים לחוויית קריאה טובה יותר</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">להפעיל</string>
-    <string name="protect_eye_opened_summry">ניתן לערוך את ההעדפות תחת הגדרות > תצוגה ובהירות > נוחות לעיניים</string>
-    <string name="protect_eye_opened_title">מצב קריאה מופעל</string>
+    <string name="protect_eye_opened_summry">ניתן לערוך את ההעדפות תחת הגדרות > תצוגה ובהירות > Xiaomi EyeCare Shield</string>
+    <string name="protect_eye_opened_title">מצב נוחות לעיניים מופעל</string>
     <string name="protocol_exception_title">אבחון פרוטוקול רשת</string>
     <string name="protocol_loop_back_exception_summary">"בדיקת לולאה חוזרת מקומית נכשלה. לדיווח על בעיה זו יש לעבור אל היישום 'משוב' ולשלוח יומן שגיאות מהמכשיר שלך."</string>
     <string name="province_selected_talkback" />
@@ -4706,6 +4726,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="repeat_type">חזור</string>
     <string name="repeated_marked_number_summary">למשך %d דקות, אל תחסום שיחה נוספת מאותו מספר שדווח</string>
     <string name="repeated_marked_number_title">אל תחסום שיחות חוזרות ממספרים שדווחו</string>
+    <string name="repeated_unknown_number_summary">לא לחסום שיחה שנייה מאותו מספר לא מזוהה תוך %d דקות</string>
     <string name="replace_dns">החלף DNS באופן אוטומטי</string>
     <string name="report">דווח</string>
     <string name="report_error">לא ניתן היה לדווח על ההודעה</string>
@@ -4945,6 +4966,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="sms_detail_fragment_title_traffic">נתונים שנותרו</string>
     <string name="sms_filter">מסנן חכם</string>
     <string name="sms_guard_alert">יישום ברירת המחדל להודעות שוּנה. יישום ההודעות של Xiaomi לא יוכל לחסום מסרוני ספאם.</string>
+    <string name="sms_intercept_settings">הגדרות רשימת החסומים להודעות</string>
     <string name="sms_keywords">רשימת מילות מפתח חסומות</string>
     <string name="sms_malicious_url">חסום מסרונים המכילים קישורים זדוניים</string>
     <string name="sms_prefix">רשימת קידומות חסומות</string>
@@ -5146,9 +5168,26 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_call_intercept_reported">חסום שיחות ממספרים שדווחו</string>
     <string name="st_call_intercept_stranger">חסום שיחות מזרים</string>
     <string name="st_call_intercept_unknown">חסום שיחות ממספרים נסתרים</string>
+    <string name="st_call_mark_agent">נדל\"ן</string>
+    <string name="st_call_mark_agent_intercept">נדל\"ן</string>
+    <string name="st_call_mark_decoration">שיפוץ הבית</string>
+    <string name="st_call_mark_decoration_intercept">שיפוץ הבית</string>
+    <string name="st_call_mark_edu">חינוך</string>
+    <string name="st_call_mark_edu_intercept">חינוך</string>
+    <string name="st_call_mark_high_risk">סיכון גבוה</string>
+    <string name="st_call_mark_high_risk_intercept">סיכון גבוה</string>
+    <string name="st_call_mark_insurance">השקעות</string>
+    <string name="st_call_mark_insurance_intercept">השקעות</string>
+    <string name="st_call_mark_loan">משכנתאות</string>
+    <string name="st_call_mark_loan_intercept">משכנתאות</string>
+    <string name="st_call_mark_sell">פרסומות</string>
+    <string name="st_call_mark_sell_intercept">פרסומות</string>
     <string name="st_call_other_group">אחר</string>
     <string name="st_call_settings">רשימת שיחות חסומות</string>
     <string name="st_call_stranger_group">חסום שיחות מזרים</string>
+    <string name="st_call_stranger_inercept_local">לחסום מספרים לא מזוהים</string>
+    <string name="st_confirm_call_all_dialog_all_open_summary">שיחות מכל מספר שלא נמצא ברשימת החריגים ייחסמו. האם לחסום עכשיו?</string>
+    <string name="st_confirm_call_all_dialog_strange_open_summary">שיחות מכל מספר שלא נמצא ברשימת החריגים או ברשימת אנשי הקשר ייחסמו. האם לחסום עכשיו?</string>
     <string name="st_confirm_call_all_dialog_summary">שיחות מכל מספר שלא נמצא ברשימת החריגים ייחסמו. להפעיל עכשיו?</string>
     <string name="st_confirm_dialog_btn_open">חסימה</string>
     <string name="st_confirm_dialog_summary_oversea_call">כל השיחות ממספרי טלפון מחו\"ל ייחסמו.</string>
@@ -5160,9 +5199,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_hint_add_head_number">הזן קידומת</string>
     <string name="st_hint_add_phonenumber">הזן מספר טלפון</string>
     <string name="st_hint_operatelist">נראה כי החוק הזה כבר קיים</string>
+    <string name="st_intercept_dialog_title">לתשומת ליבך</string>
     <string name="st_mark_call_intercept_threshold_summary">חסימה אוטומטית של מספרים שדווחו מספר מסוים של פעמים</string>
     <string name="st_mark_call_intercept_threshold_title">סף החסימה</string>
     <string name="st_mark_number_group">חסום שיחות ממספרים שדווחו</string>
+    <string name="st_mark_number_net_group">לחסום מספרים שדווחו</string>
     <string name="st_message_SMS_AntiSpam">חסום מסרונים</string>
     <string name="st_message_SMSpass">אפשר מסרונים</string>
     <string name="st_message_phone_AntiSpam">חסום שיחות</string>
@@ -5175,13 +5216,26 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_msg_stranger_group">חסום הודעות מזרים</string>
     <string name="st_settings_name">"הגדרות 'רשימת החסומים'"</string>
     <string name="st_share_settings">השתמש בהגדרות SIM %d</string>
+    <string name="st_smg_intercept_all">לחסום את כל ההודעות</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_all">הודעות SMS ו-MMS מכל מספר או מכל אזור שלא נמצא ברשימת החריגים ייחסמו. האם לחסום עכשיו?</string>
+    <string name="st_smg_intercept_confirm_dialog_summary_stranger">הודעות SMS ו-MMS מכל מספר או מכל אזור שלא נמצא ברשימת החריגים או ברשימת אנשי הקשר ייחסמו. האם לחסום עכשיו?</string>
+    <string name="st_smg_intercept_network_check">לחסום תוך שימוש בהגדרות מקוונות</string>
+    <string name="st_smg_intercept_network_check_garbage_msg">הודעות ספאם</string>
+    <string name="st_smg_intercept_other">הגדרות נוספות</string>
+    <string name="st_smg_intercept_strange">לחסום הודעות מאנשים זרים</string>
+    <string name="st_smg_summary_intercept_blacklist_keyword">לחסום הודעות מאנשים זרים שמכילות מילות מפתח ספציפיות</string>
+    <string name="st_smg_summary_intercept_blacklist_numbers">לחסום הודעות ממספרים ומאזורים ספציפיים</string>
+    <string name="st_smg_summary_intercept_whitelist_keyword">לא לחסום הודעות מאנשים זרים שמכילות מילות מפתח ספציפיות</string>
+    <string name="st_smg_summary_intercept_whitelist_numbers">לא לחסום הודעות ממספרים ומאזורים שנכללים ברשימת החריגים שלך</string>
     <string name="st_sms_intercept_oversea">הודעות טקסט בינלאומיות</string>
     <string name="st_sub_title_customize_mode_name">שם</string>
     <string name="st_sub_title_whiteblack_list_group">רשימת החסומים</string>
     <string name="st_sum_call_wait">"הודעת ה'לא זמין' שלך תושמע גם כצליל 'תפוס' עבור שיחות נכנסות."</string>
     <string name="st_summary_blacklist_numbers">חסום קבלת שיחות והודעות ממספרים ואזורים מסויימים</string>
     <string name="st_summary_blacklist_numbers_international">לחסום שיחות בהתבסס על מספר או קידומת</string>
+    <string name="st_summary_intercept_blacklist_numbers">לחסום שיחות והודעות ממספרים ומאזורים ספציפיים</string>
     <string name="st_summary_keywords_blacklist">הוסף מילות מפתח לחסימת הודעות</string>
+    <string name="st_summary_release_whitelist_numbers">לא לחסום שיחות והודעות ממספרים ומאזורים שנכללים ברשימת החריגים שלך</string>
     <string name="st_summary_special_numbers">חסום מספרי טלפון המסומנים בדגל</string>
     <string name="st_summary_whitelist_numbers">אפשר קבלת שיחות והודעות ממספרים ואזורים מסויימים</string>
     <string name="st_summary_whitelist_numbers_international">לאפשר שיחות בהתבסס על מספר או קידומת</string>
@@ -5216,6 +5270,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="st_title_markednumber_group">חסום מספרים שדווחו</string>
     <string name="st_title_mode_choose_group">"חוקי 'רשימת החסומים'"</string>
     <string name="st_title_not_sim">ריק</string>
+    <string name="st_title_number_and_region_blacklist">מספרים ואזורים חסומים</string>
+    <string name="st_title_number_and_region_whitelist">רשימת החריגים למספרים ולאזורים</string>
     <string name="st_title_open_antispam">רשימת החסומים</string>
     <string name="st_title_other_group">אחר</string>
     <string name="st_title_settings_other_group">הגדרות נוספות</string>
@@ -5375,7 +5431,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="summary_default_app">%s אינו מוגדר כיישום ברירת מחדל של המערכת</string>
     <string name="summary_dev">המנע מתוכנות זדוניות והגן על נתוניך האישיים</string>
     <string name="summary_do_not_disturb">אתה משתמש במצב \"לא להפריע\".</string>
-    <string name="summary_eye_shield">כבה את מצב הקריאה כדי לחזור להגדרות ברירת המחדל.</string>
+    <string name="summary_eye_shield">יש לכבות את מצב הנוחות לעיניים כדי לחזור להגדרות ברירת המחדל.</string>
     <string name="summary_find_device">אתר ונעל את מכשירך מכל מקום</string>
     <string name="summary_first_aid_kit">פתור את הבעיות במכשירך ברגע זה</string>
     <string name="summary_flow_notification">הצג את סטטיסטיקות חודשיות אודות שימוש בנתונים בלוח ההתראות</string>

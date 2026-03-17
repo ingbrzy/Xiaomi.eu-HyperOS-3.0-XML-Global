@@ -57,6 +57,7 @@
     <string name="apps_cannot_be_transfered_next_button">Даље</string>
     <string name="apps_cannot_be_transfered_summary_formatted">Ове %1$d-битне апликације не могу бити пренете на %2$d-битни уређај. Можете их директно преузети са GetApps-а након преноса.</string>
     <string name="audio">Звук</string>
+    <string name="audio_permission_desc_new">За пренос музике и звука на нови уређај</string>
     <string name="audio_video_document">Аудио, видео и документи</string>
     <string name="back">Назад</string>
     <string name="backup_died_summary">Додирните „Повежи се опет“. Напредак трансфера ће се наставити од момента где је заустављен.</string>
@@ -73,6 +74,7 @@
     <string name="ble_enter_verifycode_timeout_summary">Овај код није био унет дуго времена. Повежите се ручно.</string>
     <string name="ble_enter_verifycode_timeout_title">Сесија је истекла</string>
     <string name="ble_guest_connecting_title">Повезивање на нови уређај…</string>
+    <string name="ble_guest_connecting_title_pad">Повезивање на нови уређај…</string>
     <string name="ble_host_verification_summary">Унесите %d-цифрени код на старом уређају.</string>
     <string name="ble_host_verification_title">Повезивање на стари уређај…</string>
     <string name="ble_manual_authorization_content">Дајте потребне дозволе да бисте могли да преносите ставке помоћу Mi Mover-а. Ове дозволе можете дати у Подешавањима.</string>
@@ -83,8 +85,10 @@
     <string name="ble_start_ap_successed">Успешно је креирана приступна тачка. Чекање везе…</string>
     <string name="ble_starting_ap">Креирање приступне тачке…</string>
     <string name="ble_wait_verify_code">Генерисање кода на новом уређају…</string>
+    <string name="ble_wait_verify_code_pad">Генерисање кода на новом уређају…</string>
     <string name="ble_waiting_verify_code">Потврђивање кода…</string>
     <string name="ble_waiting_verify_code_error">Код који сте унели није тачан</string>
+    <string name="blutooth_permission_desc_new">За откривање уређаја у близини који су спремни за повезивање</string>
     <string name="btn_got_it">Схватам</string>
     <string name="btn_install_complete">Инсталирано</string>
     <string name="btn_mi_cloud_install_complete">Инсталирао сам апликацију</string>
@@ -104,6 +108,7 @@
     <string name="call_notification_ongoing_text">Позив је у току</string>
     <string name="call_notification_screening_text">Проверава се долазни позив</string>
     <string name="calllog">Историја позива</string>
+    <string name="camera_permission_content">За откривање уређаја у близини</string>
     <string name="cancel">Откажи</string>
     <string name="cancel_moving_dialog_message">Зауставити увоз сада?</string>
     <string name="cancel_moving_dialog_title">Заустави увоз</string>
@@ -150,8 +155,10 @@
     <string name="connection_tips_owner_title">Ако је ваш стари уређај Mi телефон:</string>
     <string name="connection_tips_owner_title_global">Инсталирајте последњу верзију Mi Mover-а:</string>
     <string name="contact_records_permission_desc">За пренос историје позива на друге уређаје</string>
+    <string name="contact_records_permission_desc_new">За пренос историје позива на нови уређај</string>
     <string name="contacts">Контакти</string>
     <string name="contacts_permission_desc">За пренос контаката на друге уређаје</string>
+    <string name="contacts_permission_desc_new">За пренос контаката на нови уређај</string>
     <string name="contains_unauthorized_data">Садржи неовлашћене податке</string>
     <string name="copy">Копирај</string>
     <string name="current_user_not_supported_summary">Тренутна подешавања система ограничавају пренос података преко Mi Mover-а.</string>
@@ -180,6 +187,17 @@
     <string name="dialog_rating_desc_less">Желите ли нам дати предлоге за побољшање апликације?</string>
     <string name="dialog_rating_desc_perfect">Хвала! Да ли желите да оцените Mi Mover и на GetApps?</string>
     <string name="dialog_rating_title">Оцените Mi Mover</string>
+    <string name="dialog_request_all_permission_content_new">"Да бисте пренели податке са старог уређаја на нови, ова апликација мора да се повеже на интернет и захтева следеће дозволе:
+• Приступ фотографијама, аудио снимцима, календару и видео снимцима
+• Приступ порукама, контактима и историји позива
+• Приступ складишном простору
+• Приступ листи апликација инсталираних на уређају"</string>
+    <string name="dialog_request_all_permission_content_new_china">"Да бисте пренели податке са старог уређаја на нови, ова апликација мора да се повеже на интернет и захтева следеће дозволе:
+• Приступ фотографијама, аудио снимцима, календару и видео снимцима
+• Приступ порукама, контактима и историји позива
+• Приступ складишном простору
+• Приступ листи апликација инсталираних на уређају"</string>
+    <string name="dialog_request_all_permission_title_new">Потребне су дозволе</string>
     <string name="dialog_request_network_btn_negative">Излаз</string>
     <string name="dialog_request_network_btn_positive">Прихватам</string>
     <string name="dialog_request_permission_message">Добро дошли у Mi Mover! Ову апликацију можете да користите за пренос података са старог уређаја на нови. Подаци ће се преносити између два уређаја и неће се учитавати на наше сервере. Ова апликација мора да се повеже на интернет и захтева следеће дозволе да би могла нормално да ради:</string>
@@ -188,6 +206,8 @@
     <string name="dialog_request_permission_message_extra_title">Обавезне дозволе</string>
     <string name="dialog_request_permission_message_global">Ова апликација захтева следеће дозволе да би радила нормално:</string>
     <string name="dialog_request_permission_message_link" formatted="false"><Data>"Да бисте у потпуности разумели ваша права као корисника као и начине на које користимо ваше податке, прочитајте и прихватите наш &lt;a href='%1s'>Кориснички уговор о Xiaomi оперативном систему&lt;/a> и &lt;a href='%2s'>Правила о приватности Mi Mover-а&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_link_new" formatted="false"><Data>"Дозволите овој апликацији да се повеже на интернет и дајте обавезне дозволе наведене горе. Да бисте у потпуности разумели своја корисничка права, као и начине на које користимо ваше податке, прочитајте и прихватите &lt;a href='%1s'>Уговор о коришћењу оперативног система Xiaomi&lt;/a> и &lt;a href='%2s'>Mi Mover Правила о приватности&lt;/a>."</Data></string>
+    <string name="dialog_request_permission_message_new">Добро дошли у Mi Mover! Ову апликацију можете користити за пренос података са вашег старог уређаја на нови. Подаци ће бити пренети између два уређаја и неће бити отпремљени на наше сервере.</string>
     <string name="dialog_request_permission_message_provision_link">Истовремено, ради потпуног разумевања ваших корисничких права, као и начина на које користимо ваше податке, прочитајте и прихватите наш %1$s и %2$s.</string>
     <string name="dialog_request_permission_title">Пажња</string>
     <string name="dialog_request_permission_title_global">Потребне су дозволе</string>
@@ -367,9 +387,12 @@
     <string name="icloud_signin_fail_message">Ваш apple ID је закључан због безбедности. Идите на iforgot.apple.com и пратите упутства.</string>
     <string name="icloud_start_now">Користи мобилне податке</string>
     <string name="icloud_verify_tips">Додирните „Дозволи” на iOS уређају и унесите код који се овде појави.</string>
+    <string name="idm_discovery_summary_pad">Изгледа да сада активирате нови уређај. Пренети ставке са овог уређаја на нови?</string>
+    <string name="idm_discovery_title_pad">Пренеси ставке на нови уређај</string>
     <string name="im_recipient">Ја сам прималац</string>
     <string name="im_sender">Ја сам пошиљалац</string>
     <string name="image">Слике</string>
+    <string name="image_video_permission_desc_new">За пренос фотографија и видео снимака на нови уређај</string>
     <string name="import_again">Увези поново</string>
     <string name="import_data_from_icloud">Увези податке са iCloud-а</string>
     <string name="install_app_dialog_title">Нису пронађени уређаји у близини</string>
@@ -395,6 +418,8 @@
     <string name="lack_perm_title">Потребне су дозволе</string>
     <string name="launcher">Распоред Почетног екрана</string>
     <string name="loading_data">Само тренутак…</string>
+    <string name="location_permission_content_no_provisioned">Дајте ову дозволу да бисте могли да се повежете са приступном тачком уређаја у близини. Ако не дате ову дозволу, нећете моћи да преносите ставке.</string>
+    <string name="location_permission_content_provisioned">За повезивање са приступном тачком уређаја у близини</string>
     <string name="location_permission_desc">За проналажење уређаја у близини</string>
     <string name="location_permission_request">За повезивање на друге уређаје у близини</string>
     <string name="lockscreen_access">Област за шаблон</string>
@@ -423,6 +448,8 @@
     <string name="manual_connection_title">Повежи се ручно на стари уређај</string>
     <string name="manual_connection_title_pad">Повежите стари уређај са приступном тачком</string>
     <string name="manual_connection_title_phone">Повежите стари уређај са приступном тачком</string>
+    <string name="manual_disconnect_guest">Нови уређај је искључен. Поново се повежите да бисте наставили пренос.</string>
+    <string name="manual_disconnect_host">Стари уређај је искључен. Поново се повежите да бисте наставили пренос.</string>
     <string name="message_request_manage_external_storage_perm">Mi Mover треба да приступи свим фајловима на овом уређају да би могао да их премести са старог уређаја на нови.</string>
     <string name="message_request_package_stats_perm">Mi Mover захтева ову дозволу да би сазнао које су апликације инсталиране на уређају и пребацио их на други.</string>
     <string name="midnight">Ноћ</string>
@@ -513,6 +540,7 @@
     <string name="more">Више</string>
     <string name="morning">Јутро</string>
     <string name="msg_permission_desc">За пренос порука на друге уређаје</string>
+    <string name="msg_permission_desc_new">За пренос SMS и MMS порука на друге уређаје</string>
     <string name="name_password_not_consistent">Унети Apple ID и лозинка се не подударају</string>
     <string name="need_location_permission_confirm">Подешавања</string>
     <string name="need_location_permission_summary">Дозволите да Mi Mover приступи вашој локацији да би се могли пронаћи уређаји у близини.</string>
@@ -522,6 +550,20 @@
     <string name="need_more_memory_title">Нема довољно складишног простора</string>
     <string name="new_app_name">Нова верзија</string>
     <string name="new_main_activity_label">Мi Моver</string>
+    <string name="new_trans_intro_data_not_support_by_copyright_title">%d. Подаци су заштићени ауторским правима</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_1">Системске апликације и подаци других брендова могу бити некомпатибилни са Mi Mover-ом и не могу се пренети.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_2">Апликације и подаци који нису компатибилни са новим уређајем не могу се пренети.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_content_3">Нека подешавања и подаци телефона су везани за вашу SIM картицу. Уметањем SIM картице у нови уређај, ови подаци ће бити пренети.</string>
+    <string name="new_trans_intro_data_not_support_by_otherness_title">%d. Неки подаци апликације</string>
+    <string name="new_trans_intro_data_not_support_by_pad_title">%d. Подаци Другог простора</string>
+    <string name="new_trans_intro_data_not_support_by_phone_title">%d. Подаци Другог простора</string>
+    <string name="new_trans_intro_data_not_support_by_secret_title">%d. Подаци везани за приватност и безбедност</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_1">Банковне картице и кључеви од аута се не могу преносити.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_2">Теме и позадине подлежу ограничењима резолуције екрана и не могу се преносити између неких модела.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_3">Због ограничења Bluetooth протокола, записи упаривања за Bluetooth слушалице, звучнике и друге уређаје не могу се пренети.</string>
+    <string name="new_trans_intro_data_not_support_by_type_content_4">Оперативне статистике, као што су потрошња енергије, време проведено испред екрана и коришћење мобилних података, не могу се пренети.</string>
+    <string name="new_trans_intro_data_not_support_by_type_title">%d. Подаци повезани са одређеним моделом уређаја</string>
+    <string name="new_trans_intro_data_not_support_title">%d. Који подаци се не могу преносити путем Mi Mover-а?</string>
     <string name="new_trans_intro_desc_2">Нема потребе да уносите лозинку у нову верзију Mi Mover-а. За повезивање, отворите Mi Mover на старом уређају, додирните „Ја сам пошиљалац”, а затим назив приступне тачке.</string>
     <string name="new_trans_intro_desc_2_pad">Нема потребе да уносите лозинку приступне тачке у нову верзију Mi Mover-а. За повезивање, отворите Mi Mover на старом уређају, додирните „Ја сам пошиљалац”, а затим назив приступне тачке.</string>
     <string name="new_trans_intro_desc_2_phone">Нема потребе да уносите лозинку приступне тачке у нову верзију Mi Mover-а. За повезивање, отворите Mi Mover на старом уређају, додирните „Ја сам пошиљалац”, а затим назив приступне тачке.</string>
@@ -532,18 +574,18 @@
     <string name="new_trans_intro_desc_6_pad">Подаци апликације не могу се пренети јер Mi Mover нема потребне дозволе на уређајима који нису Xiaomi.</string>
     <string name="new_trans_intro_desc_6_phone">Подаци апликације не могу се пренети јер Mi Mover нема потребне дозволе на уређајима који нису Xiaomi.</string>
     <string name="new_trans_intro_desc_7">Mi Mover ће наставити са места где сте стали. Ипак, можда ћете морати поново започети ако проблеми са компатибилношћу уређаја спречавају наставак започетог преноса.</string>
+    <string name="new_trans_intro_desc_7_pad">Mi Mover ће наставити са места где сте стали. Ипак, можда ћете морати поново започети ако проблеми са компатибилношћу уређаја спречавају наставак започетог преноса.</string>
     <string name="new_trans_intro_desc_8">WeChat историја са старог уређаја ће заменити Wechat историју новог уређаја током преноса.</string>
+    <string name="new_trans_intro_desc_8_pad">WeChat историја са старог уређаја ће заменити Wechat историју новог уређаја током преноса.</string>
     <string name="new_trans_intro_desc_new">"%1$d. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Можете да преузмете најновију верзију Mi Mover-а у Play продавници или додирните овде: %2$s.
 %3$d. Ако се приступна тачка и даље неће појавити у Mi Mover-у, отворите Wi-Fi подешавања и проверите да ли можете да је видите тамо. Ако јесте, вратите се на Mi Move и додирните назив приступне тачке."</string>
     <string name="new_trans_intro_desc_new_click">Преузми</string>
-    <string name="new_trans_intro_desc_new_pad">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети на Google Play-у или <Data>&lt;a href=%2$s>додирните овде&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако је видите, вратите се у Mi Mover и додирните назив приступне тачке."</string>
-    <string name="new_trans_intro_desc_new_pad_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите WLAN подешавања и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
-    <string name="new_trans_intro_desc_new_phone">&lt;xliff:g id=\"step_one\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети на Google Play-у или <Data>&lt;a href=%2$s>додирните овде&lt;/a></Data>".
-&lt;xliff:g id=\"step_two\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако је видите, вратите се у Mi Mover и додирните назив приступне тачке."</string>
-    <string name="new_trans_intro_desc_new_phone_china">&lt;xliff:g id=\"count\" refersto=\"1\">%1$d&lt;/xliff:g>. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
-&lt;xliff:g id=\"count\" refersto=\"2\">%3$d&lt;/xliff:g>. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите WLAN подешавања и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
+    <string name="new_trans_intro_desc_new_pad">%1$d. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у Google Play продавници или <Data>&lt;a href=%2$s>додирните овде&lt;/a></Data>".
+%3$d. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако је видите, вратите се у Mi Mover и додирните назив приступне тачке."</string>
+    <string name="new_trans_intro_desc_new_phone">%1$d. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети на Google Play-у или <Data>&lt;a href=%2$s>додирните овде&lt;/a></Data>".
+%3$d. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите подешавања Wi-Fi-ја и проверите да ли је тамо видите. Ако је видите, вратите се у Mi Mover и додирните назив приступне тачке."</string>
+    <string name="new_trans_intro_desc_new_phone_china">%1$d. Уверите се да је Mi Mover на вашем новом уређају ажуриран. Најновију верзију Mi Mover-а можете преузети у GetApps-у или <Data>&lt;a href=%2$s>додирнути овде&lt;/a></Data>".
+%3$d. Ако се приступна тачка и даље не појављује у Mi Mover-у, отворите WLAN подешавања и проверите да ли је тамо видите. Ако се појављује, вратите се у Mi Mover и додирните назив приступне тачке."</string>
     <string name="new_trans_intro_desc_old">%d. Ако се приступна тачка и даље не приказује у Mi Mover-у, отворите Wi-Fi подешавања и проверите да ли је тамо видите. Ако је видите, вратите се на Mi Mover и додирните назив приступне тачке.</string>
     <string name="new_trans_intro_question_1">%d. Зашто не видим приступну тачку новог уређаја на старом?</string>
     <string name="new_trans_intro_question_1_pad">%d. Зашто не видим приступну тачку новог уређаја на старом?</string>
@@ -573,15 +615,22 @@
     <string name="not_set">Није подешено</string>
     <string name="not_support_data_content1">%d. Ставке специфичне за модел уређаја</string>
     <string name="not_support_data_content2">%d. Подаци апликације</string>
+    <string name="not_support_data_content2_new">%d. Подаци су заштићени ауторским правима</string>
     <string name="not_support_data_content3">%d. Подаци Другог простора</string>
+    <string name="not_support_data_content3_new">%d. Подаци везани за приватност и безбедност</string>
     <string name="not_support_data_content4">%d. Двојне апликације</string>
+    <string name="not_support_data_content4_new">%d. Неки подаци апликације</string>
     <string name="not_support_data_content_2">%d. Изабране апликације и подаци апликација</string>
     <string name="not_support_data_link">Ставке које се не могу пренети</string>
     <string name="not_support_data_summary1">Теме, позадине, превозне картице и картице за откључавање се не могу пренети преко Mi Mover-а.</string>
+    <string name="not_support_data_summary1_new">Банковне картице и кључеви од аута се не могу преносити. Теме и позадине подлежу ограничењима резолуције екрана и не могу се преносити између неких модела.</string>
     <string name="not_support_data_summary2">Подаци апликације (као што су историје разговора) не могу да се пренесу.</string>
+    <string name="not_support_data_summary2_new">Теме, фонтови, велике иконе, теме за Увек укључени екран и виџети купљени преко вашег Xiaomi Налога који су заштићени ауторским правима не могу се пренети. Пријавите се са својим Xiaomi Налогом на новом уређају и поново их преузмите.</string>
     <string name="not_support_data_summary3">Због системских ограничења, ставке из Другог простора се не могу преносити помоћу Mi Mover-а.</string>
+    <string name="not_support_data_summary3_new">Отисци прстију, подаци о лицу и други подаци који се односе на власништво над уређајем, финансијску безбедност и приватност корисника не могу се пренети са старог уређаја ни у ком облику. Ово такође укључује податке из финансијских апликација (нпр. мобилно банкарство).</string>
     <string name="not_support_data_summary4">Двојне апликације и њихови подаци се такође не могу пренети. Ипак, можете пренети одговарајуће главне апликације.</string>
     <string name="not_support_data_summary_2">Неке апликације се не могу пренети због ограничења приватности Play продавнице.</string>
+    <string name="not_support_data_summary_new">Системске апликације и подаци других брендова могу бити некомпатибилни са Mi Mover-ом и не могу се пренети.</string>
     <string name="not_support_data_title">Ставке које се не могу пренети</string>
     <string name="note">Белешке</string>
     <string name="nothing_chosen">Прво изаберите ставке</string>
@@ -641,27 +690,39 @@
     <string name="permission_alert_message_usage_access">Потребно је да Mi Mover приступи статистици коришћења података апликације. Дајте потребне дозволе Mi Mover-а у Подешавањима.</string>
     <string name="permission_alert_title">Потребне су дозволе</string>
     <string name="permission_bluetooth_summary">За проналажење доступних уређаја у близини</string>
+    <string name="permission_bluetooth_summary_new">За проналажење доступних уређаја у близини</string>
     <string name="permission_bluetooth_title">Укључивање и искључивање Bluetooth-а</string>
     <string name="permission_calendar_summary">За пренос догађаја из календара</string>
     <string name="permission_calendar_title">Приступ календару</string>
     <string name="permission_calender_summary">За премештање догађаја са старог уређаја на нови</string>
     <string name="permission_calender_summary_global">За пренос календарских догађаја на нови уређај</string>
+    <string name="permission_calender_summary_new">За премештање догађаја са старог уређаја на нови</string>
     <string name="permission_calender_title">Приступи календарским догађајима</string>
+    <string name="permission_calender_title_new">Приступи календарским догађајима</string>
     <string name="permission_call_log_summary">За пренос историје позива на нови уређај</string>
+    <string name="permission_call_log_summary_new">За пренос историје позива на нови уређај</string>
     <string name="permission_call_log_title">Приступање историји позива</string>
     <string name="permission_contacts_summary">За пренос контаката на нови уређај</string>
+    <string name="permission_contacts_summary_new">За пренос контаката на нови уређај</string>
     <string name="permission_contacts_title">Приступање контактима</string>
     <string name="permission_grant_request">Да би могао да пренесе ову ставку, Mi Mover-у је потребна \"%1$s\" дозвола.</string>
     <string name="permission_locale_summary">За повезивање са уређајима у близини</string>
     <string name="permission_locale_title">Приступање локацији</string>
+    <string name="permission_locale_title_new">Приступање локацији</string>
     <string name="permission_message_summary">За пренос порука на нови уређај</string>
+    <string name="permission_message_summary_new">За пренос порука на нови уређај</string>
     <string name="permission_message_title">Приступање SMS садржају</string>
     <string name="permission_request_title">\"%1$s\" дозвола је потребна</string>
     <string name="permission_setting_button">Подешавања</string>
     <string name="permission_storage_summary">За пренос фајлова и фотографија на ваш нови уређај</string>
+    <string name="permission_storage_summary_new">За пренос фајлова и фотографија на ваш нови уређај</string>
     <string name="permission_storage_title">Приступање и чување фајлова и фотографија са вашег уређаја</string>
+    <string name="permission_storage_title_new">Приступи складишту</string>
     <string name="permission_wifi_summary">За пренос контаката на нови уређај</string>
+    <string name="permission_wifi_summary_new">За пренос контаката на нови уређај</string>
     <string name="permission_wifi_title">Укључивање и искључивање Wi-Fi</string>
+    <string name="permission_wifi_title_new">Укључивање и искључивање Wi-Fi</string>
+    <string name="permission_wifi_title_new_china">Укључивање и искључивање WLAN-а</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
     <string name="privacy_agree">Прихватам</string>
@@ -749,6 +810,7 @@
     <string name="scanner_quit_alert_message_phone">Биће потребно да се поново повежете на два уређаја ако сада напустите Mi Mover. Ипак напустити?</string>
     <string name="scanner_quit_alert_title">Напустити сада?</string>
     <string name="scanner_send_dialog_btn">Схватам</string>
+    <string name="scanner_send_dialog_btn_i_know">Схватам</string>
     <string name="scanner_send_dialog_message">Не искључујте Wi-Fi и не мењајте мреже током преноса.</string>
     <string name="scanner_size_selected">Изабрано %s</string>
     <string name="scanner_subtitle_prd">Пажљиво прочитајте следеће информације пре него што проверите сваку ставку и започнете процес преноса.</string>
@@ -756,6 +818,7 @@
     <string name="scanner_title_prd">Важна информација</string>
     <string name="scanner_title_tip">Изаберите ставке за пренос</string>
     <string name="scanner_wechat_overwrite_hit">Због ограничења апликација треће стране, историја ћаскања и други подаци апликације на вашем новом уређају ће бити замењени оним са старог уређаја након преноса.</string>
+    <string name="scanner_wechat_overwrite_hit_pad">Због ограничења апликација треће стране, историја ћаскања и други подаци апликације на вашем новом уређају ће бити замењени оним са старог уређаја након преноса.</string>
     <string name="search_menu_title">Претражите</string>
     <string name="searching_for_new_device">Тражење новог уређаја…</string>
     <string name="searching_for_new_device_pad">Тражи се нови уређај…</string>
@@ -806,11 +869,11 @@
     <string name="settings_sms">Подешавање порука</string>
     <string name="settings_system">Подешавање система</string>
     <string name="settings_wifi">Wi-Fi подешавање</string>
-    <string name="size_byte">B</string>
+    <string name="size_byte">Б</string>
     <string name="size_giga_byte">GB</string>
-    <string name="size_kilo_byte">KB</string>
-    <string name="size_mega_byte">MB</string>
-    <string name="size_peta_byte">PB</string>
+    <string name="size_kilo_byte">КБ</string>
+    <string name="size_mega_byte">МB</string>
+    <string name="size_peta_byte">ПБ</string>
     <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_compatibility_mode">Не сада</string>
@@ -889,27 +952,42 @@
     <string name="time_spent">Време: %1$s</string>
     <string name="tips_button_hint">Прво проверите сваку ставку да бисте потврдили</string>
     <string name="tips_cover_content">Ови подаци (укључујући историје ћаскања) ће бити замењени ако наставите.</string>
+    <string name="tips_cover_content_pad">Ови подаци (укључујући историје ћаскања) ће бити замењени ако наставите.</string>
     <string name="tips_cover_content_tablet">Ови подаци (укључујући историје ћаскања) ће бити замењени ако наставите.</string>
     <string name="tips_cover_title">%1$d. Већ постоје подаци за следеће апликације на новом уређају.</string>
+    <string name="tips_cover_title_pad">%1$d. Већ постоје подаци за следеће апликације на новом уређају.</string>
     <string name="tips_cover_title_tablet">%1$d. Већ постоје подаци за следеће апликације на новом уређају.</string>
     <string name="tips_dual_app_content">Двојне апликације се не могу пренети. Могу се пренети само главна апликација и њени подаци.</string>
     <string name="tips_dual_app_title">%d. Следеће апликације су двојне апликације.</string>
+    <string name="tips_dual_app_title_new">%d. Подаци двојних апликација се не могу пренети.</string>
     <string name="tips_hot_content">Ово је нормално. Уређај ће се охладити када се пренос заврши.</string>
+    <string name="tips_hot_content_new">Ово је нормално. Уређај ће се охладити када се пренос заврши.</string>
     <string name="tips_hot_title">%d. Уређај се може загрејати током преноса.</string>
+    <string name="tips_hot_title_content">%d. Уређај се може загрејати.</string>
     <string name="tips_private_space_content">Због системских ограничења, подаци из Другог простора се не могу пренети.</string>
+    <string name="tips_private_space_content_pad">Ово је због системских ограничења.</string>
+    <string name="tips_private_space_content_phone">Ово је због системских ограничења.</string>
     <string name="tips_private_space_content_tablet">Због системских ограничења, подаци из Другог простора се не могу пренети.</string>
     <string name="tips_private_space_title">%d. Други простор је укључен.</string>
+    <string name="tips_private_space_title_pad">%d. Подаци из Другог простора се не могу пренети.</string>
+    <string name="tips_private_space_title_phone">%d. Подаци из Другог простора се не могу пренети.</string>
     <string name="tips_private_space_title_tablet">%d. Други простор је укључен.</string>
     <string name="tips_prudent_operation_content">Прекид везе ће зауставити пренос.</string>
     <string name="tips_prudent_operation_title">%d. Не искључујте и не мењајте Wi-Fi приступну тачку.</string>
+    <string name="tips_prudent_operation_title_new">%d. Не искључујте и не мењајте Wi-Fi приступну тачку.</string>
+    <string name="tips_prudent_operation_title_new_china">%d. Не искључујте и не мењајте WLAN приступну тачку.</string>
     <string name="tips_prudent_operation_title_overseas">%d. Не искључујте и не мењајте WLAN приступну тачку.</string>
     <string name="tips_secret_content_one">Неке приватне ставке на старом уређају (%1$s) не могу да се пренесу. Уклоните их из приватног фолдера да бисте могли да их пренесете.</string>
+    <string name="tips_secret_content_one_new">Неке приватне ставке на старом уређају (%1$s) не могу да се пренесу. Уклоните их из приватног фолдера да бисте могли да их пренесете.</string>
     <string name="tips_secret_content_three">Неке приватне ставке на старом уређају (%1$s, %2$s, %3$s) не могу да се пренесу. Уклоните их из приватног фолдера да бисте могли да их пренесете.</string>
+    <string name="tips_secret_content_three_new">Неке приватне ставке на старом уређају (%1$s, %2$s, %3$s) не могу да се пренесу. Уклоните их из приватног фолдера да бисте могли да их пренесете.</string>
     <string name="tips_secret_content_two">Неке приватне ставке на старом уређају (%1$s, %2$s) не могу да се пренесу. Уклоните их из приватног фолдера да бисте могли да их пренесете.</string>
+    <string name="tips_secret_content_two_new">Неке приватне ставке на старом уређају (%1$s, %2$s) не могу да се пренесу. Уклоните их из приватног фолдера да бисте могли да их пренесете.</string>
     <string name="tips_secret_file">фајлови</string>
     <string name="tips_secret_gallery">албуми</string>
     <string name="tips_secret_note">белешке</string>
     <string name="tips_secret_title">%d. Неке приватне ставке се не могу пренети.</string>
+    <string name="tips_secret_title_content">%d. Приватне ставке се не могу пренети.</string>
     <string name="tips_subtitle">Прочитајте и потврдите следеће подсетнике пре него што наставите.</string>
     <string name="title_compatibility_mode">Укључите Режим компатибилности апликација</string>
     <string name="title_open_wlan">Укључи Wi-Fi</string>
@@ -951,10 +1029,12 @@
     <string name="trans_send_time_remained_default">Послато: %1$s</string>
     <string name="trans_show_qr_code_label">Отворите Mi Mover на старом уређају</string>
     <string name="trans_show_qr_code_label_for_pad">Отворите Mi Mover на старом уређају</string>
+    <string name="trans_show_qr_code_label_pad">Отворите Mi Mover на старом уређају</string>
     <string name="trans_sync_transfer_data_list">Изаберите ставке за слање на стари уређај</string>
     <string name="trans_sync_transfer_data_list_apple">Пренесите ставке са свог Apple уређаја</string>
     <string name="trans_sync_transfer_data_list_hint">Само тренутак…</string>
     <string name="trans_sync_transfer_data_list_pad">Изаберите ставке на старом уређају за пренос</string>
+    <string name="trans_sync_transfer_data_list_phone">Изаберите ставке за слање на стари уређај</string>
     <string name="trans_sync_transfer_data_list_summary_for_pad">Изаберите ставке на старом уређају и додирните „Пошаљи“.</string>
     <string name="trans_sync_transfer_data_list_summary_for_phone">Изаберите ставке на старом уређају и додирните „Пошаљи“.</string>
     <string name="trans_time_format_second">Мање од %d минута</string>
@@ -977,6 +1057,7 @@
 
 "</string>
     <string name="transfer_quit_alert_message_extra">Напредак преноса ће бити сачуван. Моћи ћете наставити пренос са места на ком је заустављен када следећи пут повежете уређаје.</string>
+    <string name="transfer_quit_alert_message_extra_pad">Напредак преноса ће бити сачуван. Моћи ћете наставити пренос са места на ком је заустављен када следећи пут повежете уређаје.</string>
     <string name="transfer_quit_alert_title">Пажња</string>
     <string name="transfer_snap_error">Пренос није успео</string>
     <string name="transfer_snap_new_receiving">Примање…</string>

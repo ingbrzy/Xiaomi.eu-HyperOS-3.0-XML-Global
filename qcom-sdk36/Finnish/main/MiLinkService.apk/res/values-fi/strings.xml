@@ -48,7 +48,12 @@
     <string name="answering_tel2">Siirretty puhelimesta…</string>
     <string name="app_casting">Sovelluksen näytönjako</string>
     <string name="app_name">Peilaus</string>
+    <string name="app_name_call">Puhelin</string>
+    <string name="app_name_feishu">Lark</string>
+    <string name="app_name_qq">QQ</string>
+    <string name="app_name_sms">Viestit</string>
     <string name="app_name_vtcamera">Laitteiden välinen kamera</string>
+    <string name="app_name_wechat">WeChat</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1,0</string>
@@ -187,8 +192,6 @@ laitteitasi?"</string>
     <string name="cast_closed_captions">Tekstitykset</string>
     <string name="cast_closed_captions_unavailable">Tekstitykset eivät ole käytettävissä.</string>
     <string name="cast_connecting_to_device">%1$s muodostaa yhteyttä</string>
-    <string name="cast_device_chooser_searching_for_devices">Etsitään laitteita</string>
-    <string name="cast_device_chooser_title">Suoratoiston kohde</string>
     <string name="cast_disconnect">Katkaise yhteys</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Kuva näytetään vastaanottimen toistaessa mainosta.</string>
@@ -229,9 +232,6 @@ laitteitasi?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Tekstitykset</string>
     <string name="cast_unmute">Poista mykistys</string>
-    <string name="cast_zero_devices_found">"Laitteita ei löytynyt.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Lue lisää</a> sisällön striimaamisesta muille laitteille.</string>
     <string name="casting_tips">Jaetaan näyttöä…</string>
     <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
     <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
@@ -253,6 +253,10 @@ laitteitasi?"</string>
     <string name="circulate_camera_glasses_error_device_not_support">Silmälasien sisältöä ei voi siirtää tähän laitteeseen</string>
     <string name="circulate_car_card_use_camera">Käytä sähköauton etukameraa</string>
     <string name="circulate_car_card_using_camera">Käytetään sähköauton etukameraa</string>
+    <string name="circulate_card_audio_change_pad_title">Vaihda tabletin ääneen</string>
+    <string name="circulate_card_audio_change_phone_title">Vaihda puhelimen ääneen</string>
+    <string name="circulate_card_audio_playing_pad_title">Tabletin äänen käyttö</string>
+    <string name="circulate_card_audio_playing_phone_title">Puhelimen äänen käyttö</string>
     <string name="circulate_card_disconnect">Katkaise yhteys</string>
     <string name="circulate_card_loading_title_audio_stereo">Stereojärjestelmä</string>
     <string name="circulate_card_loading_title_band">Ranneke</string>
@@ -413,6 +417,14 @@ peilataksesi tämän tabletin näytön"</string>
     <string name="circulate_headset_control_anc_disable_hint">Kuulokkeet on yhdistetty kahteen laitteeseen. Voit säätää äänenvoimakkuutta vain tästä laitteesta.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Melunvaimennus</string>
     <string name="circulate_headset_control_anc_off">Pois päältä</string>
+    <string name="circulate_headset_control_audio_effect_off">Poista tilaääni käytöstä</string>
+    <string name="circulate_headset_control_audio_effect_spatial">Ota tilaääni käyttöön</string>
+    <string name="circulate_headset_control_audio_find_earphone">Toista ääni</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_cancel">Peruuta</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_confirm">Jatka</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_content">Ääni toistetaan korkealla äänenvoimakkuudella. Jos käytät kuulokkeita, niiden käytön jatkaminen voi vahingoittaa kuuloasi. Poista ne ennen jatkamista.</string>
+    <string name="circulate_headset_control_audio_find_earphone_wearing_info_title">Korkean äänenvoimakkuuden varoitus</string>
+    <string name="circulate_headset_control_audio_stop_find_earphone">Lopeta äänen toisto</string>
     <string name="circulate_headset_control_battery_case">Kotelo</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
@@ -502,6 +514,7 @@ laitteitasi?"</string>
     <string name="circulate_phone_card_using_cellular_wifi">Puhelimen Wi-Fi-signaalin käyttäminen</string>
     <string name="circulate_phone_card_using_cellular_wifi_china">Puhelimen WLAN-signaalin käyttäminen</string>
     <string name="circulate_phone_card_using_desktop">Käytössä puhelimen Aloitusnäyttö+</string>
+    <string name="circulate_phone_card_using_sink_desktop">Jaetaan Aloitusnäyttö+ puhelimen kanssa</string>
     <string name="circulate_public_device_title_format">Henkilön %1$s %2$s</string>
     <string name="circulate_ringfind_button_hint_play">Toista ääni</string>
     <string name="circulate_ringfind_button_hint_stop">Lopeta äänen toisto</string>
@@ -596,10 +609,12 @@ Tuettu puhelimille, tableteille ja tietokoneille."</string>
     <string name="connect_settings_general_summary_share_clipboard">Kopioi tekstiä, kuvia tai tiedostoja laitteestasi ja liitä ne lähellä olevaan laitteeseen (puhelimeen, tablettiin, tietokoneeseen tai ajoneuvoon), jolla olet kirjautuneena Xiaomi-tilillesi.</string>
     <string name="connect_settings_general_summary_share_file">Käytä puhelimen tiedostoja suoraan lähellä olevista tietokoneista, joilla olet kirjautunut Xiaomi-tilillesi</string>
     <string name="connect_settings_general_summary_share_launcher_phone">Tarkastele ja ohjaa puhelintasi ja käytä sen sovelluksia lähellä olevilla tableteilla, tietokoneilla ja ajoneuvoilla, jotka ovat kirjautuneet Xiaomi-tilillesi</string>
+    <string name="connect_settings_general_summary_share_launcher_phone_v2">Tarkastele ja hallitse tätä laitetta ja käytä sen sovelluksia lähellä olevilla puhelimilla, tableteilla, tietokoneilla tai ajoneuvoilla, joihin on kirjauduttu samalla tilillä</string>
     <string name="connect_settings_general_summary_share_notification_pad">Näytä lähellä olevien puhelimien akun heikon varauksen hälytykset tableteilla, joihin olet kirjautunut Xiaomi-tilillesi</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Näytä tärkeät puhelinilmoitukset lähellä olevissa televisioissa, tableteissa ja tietokoneissa, joilla olet kirjautunut Xiaomi-tilillesi.
 Toimii ruokakuljetus- ja kyytipalvelusovellusten kanssa televisioissa sekä akun heikkenemisen ilmoitusten kanssa tableteissa ja tietokoneissa."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Näytä puhelimen akun varauksen ilmoitukset lähistöllä olevalla tabletilla, joka on kirjautunut samalle tilille</string>
+    <string name="connect_settings_known_button">Selvä</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
     <string name="connect_settings_nfc_share">Siirrä kohteita NFC:n kautta</string>
     <string name="connect_settings_not_opened">Pois</string>
@@ -607,6 +622,7 @@ Toimii ruokakuljetus- ja kyytipalvelusovellusten kanssa televisioissa sekä akun
     <string name="connect_settings_presentation_password_error">Väärä salasana</string>
     <string name="connect_settings_presentation_password_title">Anna järjestelmänvalvojan salasana</string>
     <string name="connect_settings_privacy_policy">Tietosuojakäytäntö</string>
+    <string name="connect_settings_refresh">Päivitä</string>
     <string name="connect_settings_relay_app">Sovellukset</string>
     <string name="connect_settings_same_account">Tältä tililtä</string>
     <string name="connect_settings_screen_cast">Näytönjako</string>
@@ -616,6 +632,7 @@ Toimii ruokakuljetus- ja kyytipalvelusovellusten kanssa televisioissa sekä akun
     <string name="connect_settings_share_launcher">Aloitusnäyttö+</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_face_summary_unlock">Avaa Xiaomi-puhelimesi ja -sovelluksesi iPadin Face ID:llä tai pääsykoodilla</string>
     <string name="connect_settings_share_launcher_sub_feature_ipad_fingerprint_summary_unlock">Avaa Xiaomi-puhelimesi ja -sovelluksesi iPadin sormenjäljellä tai pääsykoodilla</string>
+    <string name="connect_settings_share_launcher_sub_feature_iphone_fingerprint_summary_unlock">Avaa Xiaomi-puhelin ja sen sovellukset iPhonen sormenjäljellä tai salasanalla</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_summary_unlock">Käytä Face ID:tä tai salasanaa iPhonessasi avataksesi Xiaomi-puhelimesi ja -sovelluksesi</string>
     <string name="connect_settings_share_launcher_sub_feature_iphone_unlock">Lukituksen avaus kasvotiedoilla tai salasanalla</string>
     <string name="connect_settings_share_launcher_sub_feature_macbook_summary_unlock">Käytä Mac-laitteen sormenjälkeä tai salasanaa avataksesi puhelimen ja sovellusten lukituksen</string>
@@ -623,13 +640,52 @@ Toimii ruokakuljetus- ja kyytipalvelusovellusten kanssa televisioissa sekä akun
     <string name="connect_settings_share_launcher_sub_feature_micar_unlock">Lukituksen avaus kasvotiedoilla</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_quick_open_app">Pikasovelluksen käynnistys lukituksen avaamisen jälkeen</string>
     <string name="connect_settings_share_launcher_sub_feature_pad_summary_unlock">Käytä Xiaomi-tabletin sormenjälkeä tai salasanaa avataksesi puhelimen ja sovellusten lukituksen</string>
+    <string name="connect_settings_share_launcher_sub_feature_phone_summary_unlock">Avaa tämä laite ja sen sovellukset tämän puhelimen sormenjäljellä tai salasanalla</string>
     <string name="connect_settings_share_launcher_sub_feature_summary_pad_quick_open_app">Lisää puhelinsovelluksia tablettisi aloitusnäyttöön. Kun puhelimen lukitus on avattu, käynnistä ne suoraan tabletistasi.</string>
     <string name="connect_settings_share_launcher_sub_feature_unlock">Avaa lukitus sormenjäljellä tai syöttämällä salasana</string>
     <string name="connect_settings_share_notification">Ilmoitukset</string>
+    <string name="connect_settings_share_notification_help">Ohje</string>
     <string name="connect_settings_share_notification_iphone_device">Näytä tämän laitteen ilmoitukset iPhonessa</string>
     <string name="connect_settings_share_notification_local_device">Näytä iPhone-ilmoitukset tässä laitteessa</string>
+    <string name="connect_settings_share_notification_local_device_summary">Voit vastata puheluihin ja vastaanottaa viestejä sekä sovellusilmoituksia tällä laitteella sallimalla ilmoitusten synkronoinnin Xiaomi-puhelimeen iPhonella kohdassa Xiaomi Interconnectivity > Synkronoi ilmoitukset > Synkronoi Xiaomiin.</string>
+    <string name="connect_settings_share_notification_local_device_summary_v2">Jotta voisit vastata puheluihin ja vastaanottaa viestejä ja sovellusilmoituksia Xiaomi-laitteellasi, muodosta yhteys siihen iPhonellasi sovelluksessa Xiaomi Interconnectivity > Synkronoi ilmoitukset > Synkronoi Xiaomiin.</string>
+    <string name="connect_settings_share_notification_local_device_title">Vastaanota ilmoituksia laitteesta %1$s</string>
+    <string name="connect_settings_share_notification_local_other_mi_device">Muiden Xiaomi-laitteiden ilmoitusten näyttäminen tässä laitteessa</string>
     <string name="connect_settings_share_notification_mi_device">Näytä tämän laitteen ilmoitukset Xiaomi-laitteissa</string>
+    <string name="connect_settings_share_notification_mi_device_category">Synkronoi lähellä oleviin laitteisiin</string>
+    <string name="connect_settings_share_notification_mi_device_category_v2">Lähellä olevat laitteet</string>
+    <string name="connect_settings_share_notification_mi_device_v2">Xiaomi-tabletit tai -televisiot</string>
+    <string name="connect_settings_share_notification_mi_device_v3">Xiaomi-tabletit, -tietokoneet ja -televisiot</string>
     <string name="connect_settings_share_notification_more_feature">Lisää ominaisuuksia</string>
+    <string name="connect_settings_share_notification_other_mi_local_device">Tämän laitteen ilmoitusten näyttäminen muissa Xiaomi-laitteissa</string>
+    <string name="connect_settings_share_notification_receive_tab">Vastaanota</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category">Käytettävissä olevat laitteet</string>
+    <string name="connect_settings_share_notification_receive_tab_device_category_v2">Käytettävissä olevat laitteet</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_summary">Varmista, että olet kirjautunut sisään samalle tilille tällä laitteella ja laitteella %1$s ja että yhteenliitettävyys on otettu käyttöön asetuksissa.</string>
+    <string name="connect_settings_share_notification_receive_tab_offline_title">Yhteyden muodostaminen kohteeseen %1$s epäonnistui</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_china">Varmista, että olet kirjautunut sisään samalle tilille kummallakin laitteella ja että ne ovat yhteydessä samaan verkkoon, tai että Bluetooth ja WLAN on otettu käyttöön molemmissa laitteissa.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_global">Varmista, että olet kirjautunut sisään samalle tilille kummallakin laitteella ja että ne ovat yhteydessä samaan verkkoon, tai että Bluetooth ja Wi-Fi on otettu käyttöön molemmissa laitteissa.</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_china">Varmista, että olet kirjautunut sisään samalle tilille kummallakin laitteella ja että ne ovat yhteydessä verkkoon, tai että WLAN on käytössä molemmissa laitteissa</string>
+    <string name="connect_settings_share_notification_receive_tab_search_summary_v2_global">Varmista, että olet kirjautunut sisään samalle tilille kummallakin laitteella ja että ne ovat yhteydessä verkkoon, tai että Wi-Fi on käytössä molemmissa laitteissa</string>
+    <string name="connect_settings_share_notification_receive_tab_searching_title">Etsitään laitetta…</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_china">Kun tämä laite on yhdistetty verkkoon, voit vastaanottaa ilmoituksia laitteilta, joilla on kirjauduttu sisään samalle tilille. Jos lähellä on laite, jossa Bluetooth ja WLAN on otettu käyttöön, voit peilata sen sovellukset ja vastata viesteihin.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_global">Kun tämä laite on yhdistetty verkkoon, voit vastaanottaa ilmoituksia laitteilta, joilla on kirjauduttu sisään samalle tilille. Jos lähellä on laite, jossa Bluetooth ja Wi-Fi on otettu käyttöön, voit peilata sen sovellukset ja vastata viesteihin.</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_china">"• Kun tämä laite on yhdistetty verkkoon, toiseen lukittuun Xiaomi-puhelimeen, jolla on kirjauduttu sisään samalle tilille, saapuvia ilmoituksia voidaan tarkastella tällä laitteella.
+• Kun samalle tilille kirjautuneet laitteet ovat lähellä toisiaan ja Bluetooth ja WLAN ovat käytössä, muiden laitteiden ilmoituksiin voidaan vastata suoraan tällä laitteella."</string>
+    <string name="connect_settings_share_notification_receive_tab_summary_v2_global">"• Kun tämä laite on yhdistetty verkkoon, toiseen lukittuun Xiaomi-puhelimeen, jolla on kirjauduttu sisään samalle tilille, saapuvia ilmoituksia voidaan tarkastella tällä laitteella.
+• Kun samalle tilille kirjautuneet laitteet ovat lähellä toisiaan ja Bluetooth ja Wi-Fi ovat käytössä, muiden laitteiden ilmoituksiin voidaan vastata suoraan tällä laitteella."</string>
+    <string name="connect_settings_share_notification_receive_tab_unfound_title">Käytettävissä olevia laitteita ei löytynyt</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_summary">Voit hallita ilmoituksia tässä laitteessa sallimalla ilmoitusten synkronoinnin Xiaomi-laitteeseen kohdassa Xiaomi Interconnectivity > Synkronoi ilmoitukset > Synkronoi Xiaomiin laitteella %1$s.</string>
+    <string name="connect_settings_share_notification_receive_tab_unsubscribe_title">\"Synkronoi ilmoitukset\" on poistettu käytöstä laitteelta %1$s</string>
+    <string name="connect_settings_share_notification_receive_tab_v2">Vastaanota</string>
+    <string name="connect_settings_share_notification_send_tab">Synkronoi</string>
+    <string name="connect_settings_share_notification_send_tab_device_category">Synkronoi puhelimeen</string>
+    <string name="connect_settings_share_notification_send_tab_device_category_v2">Omat puhelimet</string>
+    <string name="connect_settings_share_notification_send_tab_summary">"Näytä tämän laitteen ilmoitukset samalle tilille kirjautuneissa puhelimissa, tableteissa tai televisioissa.
+*Tuetut ominaisuudet: Puhelimet voivat näyttää puheluita, viestejä ja sovellusilmoituksia; televisiot voivat näyttää toimitus- ja kyytihälytyksiä; tabletit ja tietokoneet voivat näyttää puhelimesi alhaisen akun varauksen hälytyksiä."</string>
+    <string name="connect_settings_share_notification_send_tab_summary_v2">"• Kun tämä laite on lukittu, tältä laitteelta tulevia ilmoituksia voidaan tarkastella puhelimilla, tableteilla, tietokoneilla tai televisioilla, joilla on kirjauduttu sisään samalle tilille.
+• Voit tarkastella puheluita, viestejä tai sovellusilmoituksia puhelimilla, ruoan kotiinkuljetus- ja kyytipalveluilmoituksia televisioilla sekä akun vähäisen varaustason ilmoituksia tableteilla ja tietokoneilla."</string>
+    <string name="connect_settings_share_notification_send_tab_v2">Synkronoi</string>
     <string name="connect_settings_summary"><Data>Löydä lähellä olevat laitteet, joilla olet kirjautunut Xiaomi-tilillesi, ja lisää ne Xiaomi Smart Hubiin. &lt;a href=%1$s>Lisätietoja&lt;/a></Data></string>
     <string name="connect_settings_summary_connection_service">Anna laitteidesi olla vuorovaikutuksessa toistensa kanssa langattomasti</string>
     <string name="connect_settings_summary_corp_network">Käytä puhelimesi verkkoa tableteilla tai tietokoneilla</string>
@@ -645,6 +701,7 @@ Ota Wi-Fi ja Bluetooth käyttöön ensin."</string>
     <string name="connect_settings_summary_share_launcher_pad_v2">Ohjaa puhelintasi tabletillasi</string>
     <string name="connect_settings_summary_share_launcher_phone">Salli lähellä olevien tablettien ja tietokoneiden tarkastella tämän laitteen aloitusnäyttöä ja olla vuorovaikutuksessa sen kanssa</string>
     <string name="connect_settings_summary_share_launcher_phone_v2">Ohjaa puhelintasi tableteilla, tietokoneilla tai ajoneuvoilla</string>
+    <string name="connect_settings_summary_share_launcher_phone_v3">Hallitse tätä laitetta puhelimellasi, tabletillasi, tietokoneellasi tai ajoneuvollasi</string>
     <string name="connect_settings_summary_share_notification_pad">Vastaanota ilmoituksia Xiaomi-tilillesi kirjautuneista lähellä olevista puhelimista</string>
     <string name="connect_settings_summary_share_notification_pad_v2">Näytä ilmoitukset lähellä olevista puhelimista, jotka olet kirjautunut Xiaomi-tilillesi tällä laitteella</string>
     <string name="connect_settings_summary_share_notification_phone">Näytä ilmoitukset lähellä olevista tableteista tai käytössä olevista tietokoneista, kun tämä laite on lukittu</string>
@@ -678,19 +735,31 @@ Ota Wi-Fi ja Bluetooth käyttöön ensin."</string>
     <string name="device_permission_dialog_title">Myönnä käyttöoikeus laitteelle %s</string>
     <string name="device_type_name_pad">Tabletti</string>
     <string name="device_type_name_phone">Puhelin</string>
+    <string name="dialog_auth_title">Vahvistuskoodi</string>
     <string name="dialog_can_not_find_device">Laitteita ei löytynyt lähellä</string>
     <string name="dialog_cancle">Peruuta</string>
     <string name="dialog_close">Sammuta</string>
+    <string name="dialog_confirm_button">Selvä</string>
+    <string name="dialog_confirm_remote_status">Tarkista laitteen %1$s tila</string>
     <string name="dialog_connect_fail">Ei voitu yhdistää</string>
     <string name="dialog_connect_retry">Yritä uudelleen napauttamalla</string>
     <string name="dialog_connect_verify_perssion">Valtuuta näytönjako televisiossasi ensin</string>
     <string name="dialog_connect_verify_perssion_fail">Television näytönjaon valtuuttaminen epäonnistui. Odota pari minuuttia ja yritä uudelleen.</string>
     <string name="dialog_connected">Yhdistetty</string>
     <string name="dialog_connecting">Yhdistetään…</string>
+    <string name="dialog_copy_it">Kopioi</string>
+    <string name="dialog_enable_remote_notification">Salli laitteidenväliset ilmoitukset laitteella %1$s</string>
+    <string name="dialog_enable_remote_notification_content_v2">Ilmoituksia ei voi synkronoida nyt. Varmista, että ilmoitusten synkronointi on sallittu laitteella %1$s kohdassa Asetukset > Yhteenliitettävyys > Laitteidenväliset ilmoitukset > Synkronoi.</string>
     <string name="dialog_incoming_call_instruction">Vastaa laitteella %1$s</string>
     <string name="dialog_know_it">Selvä</string>
     <string name="dialog_location_permission_message">Tämän sovelluksen on päästävä sijaintiisi, jotta se voi löytää lähistöltä ulkoisia näyttöjä. Valitse \"Salli koko ajan\" samalla kun annat tämän luvan mahdollisten virheiden välttämiseksi.</string>
     <string name="dialog_location_permission_title">Käyttöoikeuksia vaaditaan</string>
+    <string name="dialog_message_instruction_subtitle_call">Voit vastata laitteella %1$s</string>
+    <string name="dialog_message_instruction_subtitle_call_1">Voit vastata puheluun Xiaomi-puhelimella</string>
+    <string name="dialog_message_instruction_subtitle_call_phone_1">Voit vastata puheluun iPhonella</string>
+    <string name="dialog_message_instruction_subtitle_reply">Voit vastata laitteella %1$s</string>
+    <string name="dialog_message_instruction_subtitle_reply_1">Voit vastata viestiin Xiaomi-puhelimella</string>
+    <string name="dialog_message_instruction_subtitle_reply_phone_1">Voit vastata viestiin iPhonella</string>
     <string name="dialog_message_reply_instruction">Vastaa laitteella %1$s</string>
     <string name="dialog_miplay_permission_message">Salli Näytönjaon nauhoittaa ääntä, käyttää tiedostoja sisäisessä tallennustilassa ja käyttää sijaintiasi voidaksesi käyttää tätä ominaisuutta normaalisti. Napauta \"Asetukset\" ja valitse \"Sovelluksen käyttöoikeudet\" jatkaaksesi.</string>
     <string name="dialog_miplay_permission_positive">Asetukset</string>
@@ -704,10 +773,18 @@ Ota Wi-Fi ja Bluetooth käyttöön ensin."</string>
     <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Yhdistä mobiililaite ja televisio samaan WLAN-verkkoon.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. Joissakin televisiomalleissa tämä ominaisuus on käytettävissä vain, kun näytön peilaus on käytössä. Katso &lt;a href=milink://com.milink.service/specification>\"Ohje\"&lt;/a> tutustuaksesi lisää.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Suoratoista valokuvia, videoita tai musiikkia</string>
+    <string name="dialog_open_remote_switch_content">Asetusta ei voitu ottaa käyttöön. Varmista, että %1$s on kirjautunut samalle tilille ja yhdistetty samaan verkkoon kuin tämä laite.</string>
     <string name="dialog_open_wifi_bt">Ota käyttöön</string>
     <string name="dialog_please_make_sure_tv_ok_or_help">"Varmista, että langaton näytönjakotoiminto on kytketty päälle kohdelaitteessa.
 Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="dialog_recent_connected">Viimeaikainen</string>
+    <string name="dialog_remote_authorization">Myönnä käyttöluvat laitteella %1$s</string>
+    <string name="dialog_remote_authorization_content">Myönnä ilmoitusten käyttöluvat yhteenliitettävyyteen laitteella %1$s.</string>
+    <string name="dialog_reset_app_subscribe">Salli ilmoitukset kohteesta %1$s</string>
+    <string name="dialog_reset_app_subscribe_content">Sovelluksen %2$s asennus poistettiin aikaisemmin laitteelta %1$s. Sovellusilmoituksia ei voi vastaanottaa tähän laitteeseen. Muuta asetuksia ja yritä uudelleen.</string>
+    <string name="dialog_reset_app_subscribe_multi">Muuta ilmoitusasetuksia</string>
+    <string name="dialog_reset_app_subscribe_multi_2_content">Sovellusten %2$s ja %3$s asennukset poistettiin aikaisemmin laitteelta %1$s. Sovellusilmoituksia ei voi vastaanottaa tähän laitteeseen. Muuta asetuksia ja yritä uudelleen.</string>
+    <string name="dialog_reset_app_subscribe_multi_3_content">Sovellusten %2$s, %3$s ja %4$s asennukset poistettiin aikaisemmin laitteelta %1$s. Sovellusilmoituksia ei voi vastaanottaa tähän laitteeseen. Muuta asetuksia ja yritä uudelleen.</string>
     <string name="dialog_retry">Yritä uudelleen</string>
     <string name="dialog_scan_message">"%1$d. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.
 
@@ -731,6 +808,7 @@ Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_device_group">Muokkaa laiteryhmiä</string>
     <string name="empty" />
+    <string name="enable_remote_notification_to_local_v2">Ilmoituksia ei voi vastaanottaa nyt. Varmista, että ilmoitusten synkronointi on sallittu laitteella %1$s kohdassa Asetukset > Yhteenliitettävyys > Laitteidenväliset ilmoitukset > Synkronoi.</string>
     <string name="enable_screen_projection_summary">Peilaa näytön sisältö ulkoiseen näyttöön</string>
     <string name="enable_screen_projection_summary_new">Suoratoista mobiililaitteen näyttö lähellä oleviin televisioihin ja muihin ulkoisiin monitoreihin</string>
     <string name="enable_screen_projection_summary_pad">Suoratoista tabletin näyttö lähellä olevaan televisioon tai muuhun laitteeseen</string>
@@ -952,6 +1030,7 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
 %1$d. Jos sinulla on ongelmia, voit ilmoittaa niistä käyttämällä meidän sovellusta \"Palvelut &amp; palaute\"."</string>
     <string name="help_page_text_end">Jos laitteesi tuotemerkkiä ei ole lueteltu tässä, ota yhteyttä valmistajaan saadaksesi lisätietoja peilaustoiminnoista.</string>
     <string name="i_see">Selvä</string>
+    <string name="ic_media_route_learn_more_accessibility">Näin striimaaminen onnistuu</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="image_transfer_failed">Ei voitu siirtää kuvaa</string>
     <string name="install">Asenna</string>
@@ -1017,8 +1096,10 @@ Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominais
     <string name="miplay_song_title_empty">Ei kohteita täällä</string>
     <string name="mirror_phone_content">Ota Aloitusnäyttö+ käyttöön nyt?</string>
     <string name="mirror_phone_content_remote">Voit ottaa Aloitusnäyttö+ käyttöön kohdassa Asetukset > Yhteenliitettävyys.</string>
+    <string name="mirror_phone_content_remote_V1">Ota käyttöön Aloitusnäyttö+ laitteella %1$s kohdassa Asetukset > Yhteenliitettävyys > Aloitusnäyttö+.</string>
     <string name="mirror_phone_title">Ota Aloitusnäyttö+ käyttöön</string>
     <string name="mirror_phone_title_remote">Ota Aloitusnäyttö+ käyttöön puhelimella</string>
+    <string name="mirror_phone_title_remote_V1">Ota ensin käyttöön Aloitusnäyttö+</string>
     <string name="mirror_remote_pad_content">Voit ottaa Aloitusnäyttö+ käyttöön kohdassa Asetukset > Yhteenliitettävyys.</string>
     <string name="mirror_remote_pad_title">Ota Aloitusnäyttö+ käyttöön tabletilla</string>
     <string name="miuix_access_state_desc">Valittu</string>
@@ -1102,8 +1183,17 @@ Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominais
     <string name="mr_cast_button_connecting">Striimaa. Yhdistetään</string>
     <string name="mr_cast_button_disconnected">Striimaa. Yhteys katkaistu</string>
     <string name="mr_cast_dialog_title_view_placeholder">Ei tietoja saatavilla</string>
+    <string name="mr_chooser_looking_for_devices">Haetaan laitteita…</string>
     <string name="mr_chooser_searching">Etsitään laitteita</string>
     <string name="mr_chooser_title">Katso TV:stä</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Lue lisää</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
+    <string name="mr_chooser_zero_routes_found_title">Ei laitteita käytettävissä</string>
     <string name="mr_controller_album_art">Albumin kansikuva</string>
     <string name="mr_controller_casting_screen">Suoratoistetaan näyttöä</string>
     <string name="mr_controller_close_description">Sulje</string>
@@ -1182,12 +1272,24 @@ Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominais
     <string name="nothing_to_play">Ei toisteta</string>
     <string name="notification_cast_desc">Peilataan…</string>
     <string name="notification_channel_description">Valitse ilmoitustyypit, jotka synkronoidaan toisesta laitteesta Xiaomi-laitteeseen</string>
+    <string name="notification_channel_subtitle_ref_call">Puhelu iPhonesta</string>
+    <string name="notification_channel_subtitle_ref_call_1">Puhelu laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_1">Lark-viesti laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq">QQ-viesti iPhonesta</string>
+    <string name="notification_channel_subtitle_ref_mqq_1">QQ-viesti laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms">Viesti iPhonesta</string>
+    <string name="notification_channel_subtitle_ref_sms_1">Viesti laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin">WeChat-viesti iPhonesta</string>
+    <string name="notification_channel_subtitle_ref_xin_1">WeChat-viesti laitteesta %1$s</string>
     <string name="notification_channel_title_name">Ilmoitukset synkronoitu Xiaomi-laitteeseen</string>
     <string name="notification_desc_scanning">Etsitään lähistöllä olevia laitteita…</string>
     <string name="notification_incoming_call_to_reply">Saapuva puhelu. Vastaa laitteella %1$s.</string>
     <string name="notification_permission_content">Salli tämän laitteen ilmoitukset kaikissa iPhone-laitteissa, joihin on asennettu yhteenliitettävyys ja joihin olet kirjautunut tilillesi.</string>
+    <string name="notification_permission_new_content">Salli tämän laitteen puheluiden, viestien ja sovellusilmoitusten näyttäminen iPhonessa, kun Synkronoi ilmoitukset -ominaisuus on otettu käyttöön, tai Xiaomi-laitteessa, jossa on otettu käyttöön laitteidenväliset ilmoitukset.</string>
     <string name="notification_rc_title">XiaoMi TV -avustaja</string>
+    <string name="notification_revice_phone">Ilmoitukset laitteesta %1$s</string>
     <string name="notification_show_more">Napauta nähdäksesi lisää ominaisuuksia</string>
+    <string name="notification_support_applist">Tuetut sovellukset</string>
     <string name="notify_wifiap_dialog_msg">Jos haluat skannata koodin ja määrittää verkon, sammuta ensin kannettava tukipiste.</string>
     <string name="notify_wifiap_dialog_negative">Selvä</string>
     <string name="notify_wifiap_dialog_title">Määritä verkko</string>
@@ -1385,6 +1487,7 @@ Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominais
     <string name="path_setting_cast_feature">Lisää liitäntävaihtoehtoja/Cast/Erikoisominaisuudet</string>
     <string name="path_setting_cast_help">Lisää liitäntävaihtoehtoja/Cast/Ohje</string>
     <string name="permission_allowed">Myönnetty</string>
+    <string name="permission_label_access_app_meta">Käytä sovellustietoja, kun käytät sovelluksia eri laitteissa</string>
     <string name="permission_uballowed">Ei myönnetty</string>
     <string name="picker_view_description">Laitteiden välinen kamera. Voit napauttaa kortin sisäpuolta valitaksesi kamerat lähellä olevista laitteista.</string>
     <string name="picker_view_outside_description">Sulje tämä kortti napauttamalla.</string>
@@ -1498,6 +1601,7 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
     <string name="screen_mirror_content">Kaikki näytön sisältö näytetään laitteessa \"%1$s\"</string>
     <string name="screen_projection">Näytönjako</string>
     <string name="screen_projection_characteristics">Erityisominaisuudet</string>
+    <string name="screen_projection_characteristics_app_casting_summary_new">Voit peilata nykyisen sovelluksen ulkoiseen näyttöön vaihtamalla sovelluksen peilaukseen Xiaomi HyperIslandissa ja käyttää sitten samanaikaisesti muita puhelimen sovelluksia</string>
     <string name="screen_projection_characteristics_cast_summary">Jaa näytön sisältö läheiseen televisioon</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Sammuta mobiililaitteen näyttö suoratoiston ajaksi säästääksesi akkua ja välttääksesi ylikuumenemisen</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Sammuta näyttö suoratoiston ajaksi vähentääksesi virrankulutusta ja ylikuumenemista</string>
@@ -1567,6 +1671,8 @@ Varmista, että olet ottanut Game Turbon käyttöön ennen pelien ruudunjakoa."<
     <string name="side_sheet_accessibility_pane_title">Sivupalkki</string>
     <string name="small_window">Pienennä ikkuna</string>
     <string name="small_window_not_supported">Tätä sovellusta ei voi minimoida, kun sitä peilataan</string>
+    <string name="sound_card_circulatable_control_text">Toiston säätimet</string>
+    <string name="sound_card_circulatable_source_text">Äänilähde</string>
     <string name="start_forbidden_by_glasses_camera_in_use_toast">Silmälasikamera on käytössä. Yritä myöhemmin uudelleen.</string>
     <string name="start_forbidden_by_glasses_in_audio_record">Tallennetaan ääntä. Kameraa ei voida avata.</string>
     <string name="start_forbidden_by_glasses_in_translation">Käännetään. Kameraa ei voida avata.</string>
@@ -1673,6 +1779,8 @@ Varmista, että olet ottanut Game Turbon käyttöön ennen pelien ruudunjakoa."<
     <string name="title_connection_interrupted">Yhteys katkesi</string>
     <string name="title_install">Asenna Mi Canvas</string>
     <string name="title_update">Päivitä Mi Canvas</string>
+    <string name="toast_confirm_network">Asennusta ei voitu suorittaa loppuun. Varmista, että tämä laite on liitetty verkkoon.</string>
+    <string name="toast_copy_auth_message_finish">Kopioitu onnistuneesti</string>
     <string name="toast_guide_show_more">Tutustu lisää</string>
     <string name="toast_guide_title">Tutustu meidän uusiin ominaisuuksiin täällä</string>
     <string name="toast_invisible_mode">Olet inkognito. Suoratoistoa ei voi nyt käyttää.</string>
@@ -1681,6 +1789,9 @@ Varmista, että olet ottanut Game Turbon käyttöön ennen pelien ruudunjakoa."<
     <string name="toast_msg_for_small_window">Voit pienentää ikkunan, jota peilataan muiden ominaisuuksien käyttämiseksi puhelimellasi ilman peilausprosessin keskeyttämistä.</string>
     <string name="toast_nfc_dont_move">Älä siirrä puhelinta poispäin</string>
     <string name="toast_nfc_same_wifi">Yhdistä sekä televisio että tämä laite samaan verkkoon</string>
+    <string name="toast_remote_not_install">Tätä sovellusta ei ole asennettu laitteeseen %1$s.</string>
+    <string name="toast_retry">Odota, kunnes asetukset on otettu käyttöön, ja yritä uudelleen</string>
+    <string name="toast_synchronization">Tarkistetaan laitteen tilaa. Yritä myöhemmin uudelleen.</string>
     <string name="toast_title_for_small_window">Valitse \"Pienennä ikkuna\" sovelluksessa</string>
     <string name="toast_turn_off_hotspot_before_cast">Sammuta kannettava tukiasema ennen näytönjakoa</string>
     <string name="today">Tänään</string>

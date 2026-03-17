@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Додирните за креирање новог слајда</string>
     <string name="add_smiley">Емотикон</string>
     <string name="add_timing">Темпирано</string>
-    <string name="add_to_block_by_number">"Додато %s
-на листу блокираних"</string>
-    <string name="add_to_block_by_number_failed">"Не може се додати %s на листу блокираних.
-Покушајте опет."</string>
-    <string name="add_to_block_by_tag">"Поруке које садрже \"%s\"
-су додате на листу блокираних"</string>
-    <string name="add_to_block_by_tag_failed">"Додавање поруке која садржи \"%s\" у листу блокираних није успело.
-Покушајте опет."</string>
-    <string name="add_to_block_cta_failed">Дајте апликацији Безбедност потребне дозволе да бисте могли да додајете ставке на листу блокираних</string>
+    <string name="add_to_block_by_number">Додато на листу блокираних</string>
+    <string name="add_to_block_by_number_failed">Не може се додати на листу блокираних. Покушајте опет.</string>
+    <string name="add_to_block_by_tag">Ова кључна реч је додата на листу блокираних</string>
+    <string name="add_to_block_by_tag_failed">Додавање кључне речи на листу блокираних није успело. Покушајте опет.</string>
+    <string name="add_to_block_cta_failed">Отворите Безбедност и прихватите њене услове коришћења да бисте могли да користите ову функцију</string>
     <string name="add_to_browser_favorite_failed">Не може се додати</string>
     <string name="add_to_browser_favorite_success">Успешно додато</string>
     <string name="add_to_calender">Додај у Календар</string>
@@ -148,9 +144,9 @@
     <string name="beidou_to_contacts">Прималац: %s</string>
     <string name="billing">Рачуни</string>
     <string name="block_messaging_entry_title">Блокиране SMS поруке</string>
-    <string name="block_number_message">Овај број ће бити додат на листу блокираних. Све поруке послате са овог броја ће бити блокиране.</string>
+    <string name="block_number_message">Када се дода, сви долазни позиви и поруке са %s биће блокирани. Додати сада?</string>
     <string name="block_support_text">Подржава Antiy</string>
-    <string name="block_tag_message">Све поруке %s ће бити блокиране. Можда нећете моћи примати кодове за потврду или рачуне ове услуге.</string>
+    <string name="block_tag_message">Једном када се додају, све поруке које садрже кључну реч „%s“ биће блокиране. Ово може да садржи потврђене кодове и информације о поруџбини. Додати сада?</string>
     <string name="boarding_time">Време укрцавања</string>
     <string name="bookmark">Додато у омиљене</string>
     <string name="bookmark_confirm_delete_message">Уклонити изабране поруке из омиљених?</string>
@@ -581,13 +577,13 @@
     <string name="menu_pick_from_contact">Изаберите из контаката</string>
     <string name="menu_preferences">Подешавања</string>
     <string name="menu_report">Повратне информације</string>
-    <string name="menu_sms_block">Листа блокираних</string>
+    <string name="menu_sms_block">Додати на листу блокираних?</string>
     <string name="menu_traffic_destination">Одредиште</string>
     <string name="menu_unlock">Уклони из омиљених</string>
     <string name="menu_view_contact">Приказ контакта</string>
     <string name="menu_view_group_info">Информације о групи</string>
     <string name="message_cannot_send_air_mode">Искључите Авионски режим да бисте слали поруке</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">SIM картица коју користите не подржава слање SMS порука</string>
     <string name="message_cannot_send_sim_unavailable">Уметните SIM картицу за слање порука</string>
     <string name="message_class_label">"Класа поруке: "</string>
     <string name="message_contact">Контакт:</string>
@@ -1325,6 +1321,11 @@
     <string name="shortcut_new_msg">Нова порука</string>
     <string name="shortcut_setting">Подешавања</string>
     <string name="show_delivery_status">Прикажи статус испоруке</string>
+    <string name="silent_notification_notify_content">Примили сте много кодова за потврду у кратком времену. Ова обавештења ће бити привремено утишана.</string>
+    <string name="silent_notification_notify_double">SIM картица %1$d и SIM картица %2$d су примиле много кодова за потврду у кратком временском периоду. Ова обавештења ће бити привремено утишана.</string>
+    <string name="silent_notification_notify_single">SIM картица %1$d је примила много кодова за потврду у кратком времену. Ова обавештења ће бити привремено утишана.</string>
+    <string name="silent_notification_notify_title">Утишавање SMS-а за потврду</string>
+    <string name="silent_notification_tip_exit">Заустави утишавање SMS порука за потврду</string>
     <string name="sim_card1">SIM картица 1</string>
     <string name="sim_card2">SIM картица 2</string>
     <string name="sim_card_cloud">%s (Mi Порука)</string>

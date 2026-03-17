@@ -140,6 +140,10 @@
         <item quantity="one">Sendt %1$s meldinger</item>
         <item quantity="other">Sent %1$s messages</item>
     </plurals>
+    <plurals name="silent_notification_confirm_exit">
+        <item quantity="one">Hvis du fortsetter, vil du motta varslinger for alle innkommende bekreftelseskoder. Disse varslingene vil ikke bli dempet i %1$d minutt. Stoppe demping nå?</item>
+        <item quantity="other">Hvis du fortsetter, vil du motta varslinger for alle innkommende bekreftelseskoder. Disse varslingene vil ikke bli dempet i %1$d minutter. Stoppe demping nå?</item>
+    </plurals>
     <plurals name="slide_audio_duration">
         <item quantity="one">%d sek</item>
         <item quantity="other">%d sek</item>
@@ -165,7 +169,7 @@
         <item quantity="other">Puls: %1$d BPM (%2$s)</item>
     </plurals>
     <plurals name="vital_signs_data_spo2">
-        <item quantity="one">SpO₂: %1$d%1$ %2$ (%2$s)</item>
-        <item quantity="other">SpO₂: %1$d%1$ %2$ (%2$s)</item>
+        <item quantity="one">SpO₂: %1$d%% (%2$s)</item>
+        <item quantity="other">SpO₂: %1$d%% (%2$s)</item>
     </plurals>
 </resources>

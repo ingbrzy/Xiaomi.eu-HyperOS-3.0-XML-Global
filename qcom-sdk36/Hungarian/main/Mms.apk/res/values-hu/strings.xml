@@ -50,15 +50,11 @@
     <string name="add_slide_hint">Új dia létrehozásához koppintson ide</string>
     <string name="add_smiley">Smiley</string>
     <string name="add_timing">Időzítés</string>
-    <string name="add_to_block_by_number">"%s
-hozzáadva a tiltólistához"</string>
-    <string name="add_to_block_by_number_failed">"Nem sikerült hozzáadni %s-t a tiltólistához.
-Próbálja újra."</string>
-    <string name="add_to_block_by_tag">"A(z) \"%s\"
-tartalmú üzenetek a tiltólistára kerültek"</string>
-    <string name="add_to_block_by_tag_failed">"Nem sikerült hozzáadni a(z) \"%s\"-t tartalmazó üzeneteket a tiltólistához.
-Próbálja újra."</string>
-    <string name="add_to_block_cta_failed">Adja meg a Biztonság alkalmazásnak a szükséges jogosultságokat, hogy elemeket tudjon hozzáadni a tiltólistához.</string>
+    <string name="add_to_block_by_number">Hozzáadva a tiltólistához</string>
+    <string name="add_to_block_by_number_failed">Nem sikerült hozzáadni a tiltólistához. Próbálja újra.</string>
+    <string name="add_to_block_by_tag">A kulcsszó hozzá lett adva a tiltólistához</string>
+    <string name="add_to_block_by_tag_failed">Nem sikerült hozzáadni a kulcsszót a tiltólistához. Próbálja újra.</string>
+    <string name="add_to_block_cta_failed">Nyissa meg a Biztonság menüpontot, és fogadja el a felhasználási feltételeit, hogy használni tudja ezt a funkciót</string>
     <string name="add_to_browser_favorite_failed">Nem tudja hozzáadni</string>
     <string name="add_to_browser_favorite_success">A hozzáadás sikeres</string>
     <string name="add_to_calender">Hozzáadás a Naptárhoz</string>
@@ -125,7 +121,7 @@ Próbálja újra."</string>
     <string name="beidou_audio_not_support_multi_recipient">Jelenleg nem lehet hangüzenetet küldeni több címzettnek</string>
     <string name="beidou_cannot_receive_airmode">Turn off Airplane mode to receive messages</string>
     <string name="beidou_cannot_send_mms">"BeiDou satellite communications doesn't support MMS"</string>
-    <string name="beidou_cannot_use">Turn off Tiantong satellite communications and try again</string>
+    <string name="beidou_cannot_use">Kapcsolja ki a Tiantong műholdas kommunikációt, és próbálja újra</string>
     <string name="beidou_exceed_send_limit">"Can't send any more messages this month"</string>
     <string name="beidou_exceed_words_limit">Delete some characters to be able to send</string>
     <string name="beidou_from_contacts">Reply from %s</string>
@@ -135,22 +131,22 @@ Próbálja újra."</string>
     <string name="beidou_introduce">Learn more about BeiDou satellite communications</string>
     <string name="beidou_location_failed">"Couldn't get location. Go to an open area and try again."</string>
     <string name="beidou_max_support_contact_number">Add up to %d contacts</string>
-    <string name="beidou_message">BeiDou satellite messaging</string>
+    <string name="beidou_message">BeiDou műholdas üzenetküldés</string>
     <string name="beidou_new_message">Küldés</string>
     <string name="beidou_open_location_service">BeiDou satellite messaging needs permission to access your location in order to work normally.</string>
-    <string name="beidou_query_remain_time">Check balance</string>
+    <string name="beidou_query_remain_time">Egyenleg ellenőrzése</string>
     <string name="beidou_query_remain_time_failed">"Couldn't check balance"</string>
     <string name="beidou_receive_message">Fogadás</string>
     <string name="beidou_satellite_sms_notification">This message was sent via BeiDou satellite communications</string>
     <string name="beidou_sim_not_support">"SIM card doesn't support BeiDou satellite messaging"</string>
     <string name="beidou_support_cta_tips">This app can also read, edit, send, and receive BeiDou satellite messages.</string>
     <string name="beidou_support_location_tips">A BeiDou szolgáltatások használatához hozzáférés szükséges a tartózkodási helyéhez.</string>
-    <string name="beidou_to_contacts">Recipient: %s</string>
+    <string name="beidou_to_contacts">Címzett: %s</string>
     <string name="billing">Számlák</string>
     <string name="block_messaging_entry_title">Blokkolt üzenetek</string>
-    <string name="block_number_message">Ez a telefonszám hozzáadása kerül a tiltólistához. Minden üzenet letiltásra kerül erről a számról.</string>
+    <string name="block_number_message">A hozzáadás után a %s számról érkező összes bejövő hívás és üzenet tiltva lesz. Hozzáadja most?</string>
     <string name="block_support_text">Antiy által támogatva.</string>
-    <string name="block_tag_message">Minden üzenet letiltásra kerül a következőről: %s. Lehet, hogy nem tud erről a szolgáltatásról küldött ellenőrzőkódokat vagy számlákat fogadni.</string>
+    <string name="block_tag_message">A hozzáadás után minden olyan üzenet tiltva lesz, amely tartalmazza a(z) „%s” kulcsszót. Ez magában foglalhatja az ellenőrző kódokat és a rendelési információkat is. Hozzáadja most?</string>
     <string name="boarding_time">Beszállás ideje</string>
     <string name="bookmark">Kedvencekhez adva</string>
     <string name="bookmark_confirm_delete_message">Eltávolítja a kiválasztott üzeneteket a kedvencekből?</string>
@@ -236,7 +232,7 @@ Felhívjuk a figyelmét, hogy az internetes üzenetküldő funkció további ér
     <string name="confirm_dialog_title_make_as_read">Olvasottként jelöl</string>
     <string name="confirm_export_dialog_description">A kiválasztott privát névjegy eltávolításra kerül, a beszélgetések a normál SMS-hez lesznek áthelyezve. Folytatja?</string>
     <string name="confirm_export_dialog_title">Privát névjegy eltávolítása</string>
-    <string name="confirm_invalid_recipient">Got it</string>
+    <string name="confirm_invalid_recipient">Rendben</string>
     <string name="confirm_no_block_positive">Feloldás</string>
     <string name="confirm_no_block_title">Leállítja az ilyen üzenetek letiltását? Az előzőleg letiltott üzenetek a beérkezett üzenetekben jelennek meg.</string>
     <string name="confirm_rate_limit">Sok multimédiás üzenetet készül elküldeni. Folytatja?</string>
@@ -429,9 +425,9 @@ Felhívjuk a figyelmét, hogy az internetes üzenetküldő funkció további ér
     <string name="fcm_fallback_notification_channel_label">Egyéb</string>
     <string name="fdn_check_failure">Csak a fix hívószámokra tud üzeneteket küldeni.</string>
     <string name="feature_mx">Mi Üzenet</string>
-    <string name="feature_mx_summary"><b>Mi Message allows you to send messages to other Mi Message users over the internet without incurring charges</b>. An outgoing SMS message is required to activate this service. Your carrier will charge you for this message. Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_mx_summary"><b>A Mi Üzenet használatval az interneten keresztül, díjmentesen küldhet üzenetet más Mi Üzenet felhasználóknak</b>. A szolgáltatás aktiválásához egy üzenet küldésére van szükség. Szolgáltatója ezért díjat számít fel Önnek. A funkció használata előtt olvassa el és fogadja el <font color="#B3000000"><a href="http://url1">Felhasználói megállapodásunkat</a></font> és <font color="#B3000000"><a href="http://url2">Adatvédelmi irányelvünket</a></font>.</string>
     <string name="feature_smart_sms">Okos Üzenetváltás</string>
-    <string name="feature_smart_sms_summary"><b>Smart Messaging provides Sender ID recognition and smart menus</b>". Smart Messaging is provided in part by Yulore. Read and agree to Yulore's "<font color="#B3000000"><a href="http://url3">Privacy Policy</a></font> before using this feature.</string>
+    <string name="feature_smart_sms_summary"><b>Az Okos Üzenetváltás megadja a feladó azonosítóját és okos menüket kínál Önnek</b>. Az Okos Üzenetváltást a Yulore biztosítja. A funkció használata előtt olvassa el és fogadja el a Yulore <font color="#B3000000"><a href="http://url3">Adatvédelmi szabályzatát</a></font>.</string>
     <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Repülő</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -581,13 +577,13 @@ Felhívjuk a figyelmét, hogy az internetes üzenetküldő funkció további ér
     <string name="menu_pick_from_contact">Válasszon a névjegyzékből</string>
     <string name="menu_preferences">Beállítások</string>
     <string name="menu_report">Visszajelzés</string>
-    <string name="menu_sms_block">Tiltólista</string>
+    <string name="menu_sms_block">Hozzáadja a tiltólistához?</string>
     <string name="menu_traffic_destination">Célállomás</string>
     <string name="menu_unlock">Eltávolítás a kedvencekből</string>
     <string name="menu_view_contact">Névjegy megtekintése</string>
     <string name="menu_view_group_info">Csoportinformáció</string>
     <string name="message_cannot_send_air_mode">Üzenet küldéséhez kapcsolja ki a Repülőgép módot</string>
-    <string name="message_cannot_send_invalid_sim">"The SIM card you're using doesn't support sending SMS"</string>
+    <string name="message_cannot_send_invalid_sim">A használt SIM-kártya nem támogatja az SMS-küldést</string>
     <string name="message_cannot_send_sim_unavailable">Üzenet küldéséhez helyezzen be egy SIM-kártyát</string>
     <string name="message_class_label">"Üzenet osztálya: "</string>
     <string name="message_contact">Névjegy:</string>
@@ -904,7 +900,7 @@ Egyetlen kimenő SMS-üzenet indítása szükséges a Mi Üzenet aktiválásáho
     <string name="phrase_confirm_delete_message">A válasz törlésre kerül.</string>
     <string name="phrase_empty">Nincs válasz</string>
     <string name="phrase_from">Feladó: %1s</string>
-    <string name="phrase_list_title">Gyors válaszok</string>
+    <string name="phrase_list_title">Gyorsválaszok</string>
     <string name="pick_too_many_recipients">Túl sok címzett</string>
     <string name="play">Lejátszás</string>
     <string name="playing_failed">Nem játszható le</string>
@@ -1141,9 +1137,9 @@ Tekintse meg az ajánlott chatbotokat!"</string>
     <string name="rcs_main_purpose">Ezzel a szolgáltatással például fényképeket, hangüzeneteket és videókat küldhet és fogadhat. A szolgáltatás helymeghatározási hozzáférést igényel.</string>
     <string name="rcs_message">5G messages</string>
     <string name="rcs_message_disable">Az üzenet nem tekinthető meg Második helyen</string>
-    <string name="rcs_message_title">5G Messaging</string>
+    <string name="rcs_message_title">5G üzenetküldés</string>
     <string name="rcs_more_bar_title">Részletek</string>
-    <string name="rcs_msg">5G Messaging</string>
+    <string name="rcs_msg">5G üzenetküldés</string>
     <string name="rcs_msg_privacy_policy">5G Üzenetek Adatvédelmi irányelvek</string>
     <string name="rcs_my_black_chatbot_title">Tiltólista</string>
     <string name="rcs_not_online">"Can't use 5G Messaging. Check your network settings and try again."</string>
@@ -1208,10 +1204,10 @@ Tekintse meg az ajánlott chatbotokat!"</string>
     <string name="recommend_tip_4">A Mi Üzenet automatikusan felismeri a feladó azonosítóját, így megtekintheti a megbízható szolgáltatók nevét és profilképét.</string>
     <string name="recommend_tip_5">Az intelligens küldőazonosító felismerés átláthatóbbá teszi a beérkező leveleket, és segít azonosítani a megbízható küldőket.</string>
     <string name="recommend_tip_6">A fenti szolgáltatásokhoz technikai támogatás jár a Yulore-tól.</string>
-    <string name="recommend_tip_7">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Mi Message.</string>
-    <string name="recommend_tip_8">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using free internet messaging provided by Mi Message.</string>
-    <string name="recommend_tip_9">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font>, as well as <font color="#B3000000"><a href="http://url3">Yulore Privacy Policy</a></font> before using Smart sender ID recognition.</string>
-    <string name="recommend_tip_9_2">Read and agree to our <font color="#B3000000"><a href="http://url1">User Agreement</a></font> and <font color="#B3000000"><a href="http://url2">Privacy Policy</a></font> before using our services.</string>
+    <string name="recommend_tip_7">Olvassa el és fogadja el a <font color="#B3000000"><a href="http://url1">Felhasználói megállapodásunkat</a></font> és az <font color="#B3000000"><a href="http://url2">Adatvédelmi irányelveinket</a></font>, valamint a <font color="#B3000000"><a href="http://url3">Yulore Adatvédelmi irányelveit </a></font> a Mi Üzenet használata előtt.</string>
+    <string name="recommend_tip_8">Olvassa el és fogadja el a <font color="#B3000000"><a href="http://url1">Felhasználói megállapodásunkat</a></font> és az <font color="#B3000000"><a href="http://url2">Adatvédelmi irányelveinket</a></font>, valamint a <font color="#B3000000"><a href="http://url3">Yulore Adatvédelmi irányelveit </a></font> a Mi Üzenet által biztosított ingyenes internetes üzenetküldés használata előtt.</string>
+    <string name="recommend_tip_9">Olvassa el és fogadja el a <font color="#B3000000"><a href="http://url1">Felhasználói megállapodásunkat</a></font> és az <font color="#B3000000"><a href="http://url2">Adatvédelmi irányelveinket</a></font>, valamint a <font color="#B3000000"><a href="http://url3">Yulore Adatvédelmi irányelveit </a></font> a az intelligens küldőazonosító felismerés használata előtt.</string>
+    <string name="recommend_tip_9_2">Olvassa el és fogadja el a <font color="#B3000000"><a href="http://url1">Felhasználói szerződésünket</a></font> és az <font color="#B3000000"><a href="http://url2">Adatvédelmi irányelveinket</a></font> a szolgáltatásaink használata előtt.</string>
     <string name="recommend_tip_default">Állítsa be a Xiaomi Messaging-alkalmazást alapértelmezett üzenetküldő alkalmazásként, hogy minden biztonsági előnyt használni tudjon</string>
     <string name="recommend_tip_other">Más üzenetküldő alkalmazások megtekintése</string>
     <string name="recommend_tip_smart">Adatvédelem. Okos felismerés.</string>
@@ -1249,8 +1245,8 @@ Tekintse meg az ajánlott chatbotokat!"</string>
     <string name="rms_normal_file_length_too_large">Nem küldhet %1$dMB-nál nagyobb fájlt</string>
     <string name="rms_original_image_length_too_large">Nem küldhet %1$dMB-nál nagyobb képet</string>
     <string name="rms_original_image_size_too_large">Ez a kép túl nagy</string>
-    <string name="rms_select_location">Location</string>
-    <string name="rms_send_button">Send</string>
+    <string name="rms_select_location">Tartózkodási hely</string>
+    <string name="rms_send_button">Küldés</string>
     <string name="rms_vcard_body">[Névjegy]</string>
     <string name="rms_video_body">[Videó]</string>
     <string name="rsc_chatbot_back">Vissza</string>
@@ -1306,7 +1302,7 @@ Tekintse meg az ajánlott chatbotokat!"</string>
     <string name="select_sim_translation_for_pad">Válasszon SIM-kártyát</string>
     <string name="select_top_text">A szöveg felül</string>
     <string name="send">Küldés</string>
-    <string name="send_rms_editor_hints">5G Messaging</string>
+    <string name="send_rms_editor_hints">5G üzenetküldés</string>
     <string name="send_rms_editor_hints_omit">Mi Üzenet</string>
     <string name="send_sms">Üzenet küldése</string>
     <string name="send_sms_with_location">Engedélyezze az alkalmazásnak a helyadathoz való hozzáférést, hogy a tartózkodási helyét is tartalmazó üzeneteket küldhessen. Ezt az engedélyt a Beállításokban adhatja meg.</string>
@@ -1325,6 +1321,11 @@ Tekintse meg az ajánlott chatbotokat!"</string>
     <string name="shortcut_new_msg">Új üzenet</string>
     <string name="shortcut_setting">Beállítások</string>
     <string name="show_delivery_status">Kézbesítési jelentés mutatása</string>
+    <string name="silent_notification_notify_content">Rövid időn belül sok ellenőrző kódot kapott. Ezek az értesítések ideiglenesen el lesznek némítva.</string>
+    <string name="silent_notification_notify_double">SIM %1$d és SIM %2$d rövid idő alatt sok ellenőrző kódot kapott. Ezek az értesítések ideiglenesen el lesznek némítva.</string>
+    <string name="silent_notification_notify_single">SIM %1$d rövid időn belül sok ellenőrző kódot kapott. Ezek az értesítések ideiglenesen el lesznek némítva.</string>
+    <string name="silent_notification_notify_title">SMS-visszaigazolás elnémítása</string>
+    <string name="silent_notification_tip_exit">SMS-visszaigazolás elnémításának leállítása</string>
     <string name="sim_card1">SIM-kártya 1</string>
     <string name="sim_card2">SIM-kártya 2</string>
     <string name="sim_card_cloud">%s (Mi Üzenet)</string>
