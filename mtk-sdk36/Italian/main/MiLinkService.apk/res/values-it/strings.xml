@@ -192,6 +192,8 @@ i dispositivi?"</string>
     <string name="cast_closed_captions">Sottotitoli codificati</string>
     <string name="cast_closed_captions_unavailable">Sottotitoli codificati non disponibili</string>
     <string name="cast_connecting_to_device">Collegamento a %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Ricerca di dispositivi</string>
+    <string name="cast_device_chooser_title">Trasmetti a</string>
     <string name="cast_disconnect">Disconnetti</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Immagine mostrata mentre il ricevitore Cast riproduce un annuncio</string>
@@ -232,6 +234,9 @@ i dispositivi?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Sottotitoli</string>
     <string name="cast_unmute">Riattiva audio</string>
+    <string name="cast_zero_devices_found">"Nessun dispositivo trovato.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Scopri di più</a> su come trasmettere i tuoi contenuti ad altri dispositivi.</string>
     <string name="casting_tips">Trasmissione in corso…</string>
     <string name="character_counter_content_description">%1$d caratteri inserirti su %2$d</string>
     <string name="character_counter_overflowed_content_description">Sono presenti %2$d caratteri in più rispetto al limite di %1$d</string>
@@ -417,6 +422,7 @@ per duplicare lo schermo di questo tablet"</string>
     <string name="circulate_headset_control_anc_disable_hint">I tuoi auricolari sono connessi a due dispositivi. Potrai regolare il volume soltanto da questo dispositivo.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Cancellazione del rumore</string>
     <string name="circulate_headset_control_anc_off">Disattiva</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Audio dimensionale</string>
     <string name="circulate_headset_control_audio_effect_off">Disattiva audio spaziale</string>
     <string name="circulate_headset_control_audio_effect_spatial">Attiva audio spaziale</string>
     <string name="circulate_headset_control_audio_find_earphone">Riproduci suono</string>
@@ -429,6 +435,10 @@ per duplicare lo schermo di questo tablet"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">In carica</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Controllo del rumore</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Traccia il movimento della testa</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Disattivato</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Audio immersivo</string>
     <string name="circulate_headset_control_more_settings">Impostazioni aggiuntive</string>
     <string name="circulate_headset_duplicate_cancel">Annulla</string>
     <string name="circulate_headset_duplicate_dialog_message">Sembra che un altro paio di auricolari sia connesso al tuo %1$s. Sostituirli con il paio corrente?</string>
@@ -440,6 +450,8 @@ per duplicare lo schermo di questo tablet"</string>
     <string name="circulate_headset_duplicate_ok">Sostituisci</string>
     <string name="circulate_headset_error_account_not_match">Assicurati di utilizzare lo stesso Xiaomi Account su entrambi i dispositivi</string>
     <string name="circulate_headset_error_acquired_by_other_host">Un altro dispositivo è in uso. Riprova più tardi.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Per prima cosa, indossa gli auricolari</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Indossa entrambi gli auricolari per utilizzare questa funzionalità</string>
     <string name="circulate_headset_error_camera_glasses_not_support">"Gli occhiali non supportano il trasferimento da un dispositivo all'altro"</string>
     <string name="circulate_headset_error_default">Connessione scaduta</string>
     <string name="circulate_headset_error_device_not_support">Impossibile connettere gli auricolari a questo dispositivo</string>
@@ -1030,7 +1042,6 @@ Per attivare Miracast, premi il tasto [MENU] e seleziona Le mie app > Trasmetti 
 %1$d. Se riscontri problemi, puoi segnalarli utilizzando la nostra app \"Servizi e feedback\"."</string>
     <string name="help_page_text_end">"Se la marca del tuo dispositivo non è nell'elenco, contatta il produttore per ulteriori informazioni sulla funzionalità di trasmissione."</string>
     <string name="i_see">Ho capito</string>
-    <string name="ic_media_route_learn_more_accessibility">Scopri come trasmettere contenuti</string>
     <string name="icon_content_description">Icona della finestra di dialogo</string>
     <string name="image_transfer_failed">"Non è stato possibile trasferire l'immagine"</string>
     <string name="install">Installa</string>
@@ -1183,17 +1194,8 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="mr_cast_button_connecting">Trasmetti. Connessione</string>
     <string name="mr_cast_button_disconnected">Trasmetti. Disconnesso</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nessuna informazione disponibile</string>
-    <string name="mr_chooser_looking_for_devices">Ricerca di dispositivi in corso…</string>
     <string name="mr_chooser_searching">Ricerca di dispositivi</string>
     <string name="mr_chooser_title">Trasmetti a</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Scopri di più</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questa auto"</string>
-    <string name="mr_chooser_wifi_warning_description_phone">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo smartphone"</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo tablet"</string>
-    <string name="mr_chooser_wifi_warning_description_tv">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questa TV"</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo dispositivo"</string>
-    <string name="mr_chooser_wifi_warning_description_watch">"Assicurati che l'altro dispositivo sia connesso alla stessa rete Wi-Fi di questo orologio"</string>
-    <string name="mr_chooser_zero_routes_found_title">Nessun dispositivo disponibile</string>
     <string name="mr_controller_album_art">"Copertina dell'album"</string>
     <string name="mr_controller_casting_screen">Trasmissione dello schermo attiva</string>
     <string name="mr_controller_close_description">Chiudi</string>
@@ -1206,7 +1208,7 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="mr_controller_play">Riproduci</string>
     <string name="mr_controller_stop">Interrompi</string>
     <string name="mr_controller_stop_casting">Interrompi trasmissione</string>
-    <string name="mr_controller_volume_slider">Cursore del volume</string>
+    <string name="mr_controller_volume_slider">Dispositivo di scorrimento del volume</string>
     <string name="mr_dialog_default_group_name">Gruppo</string>
     <string name="mr_dialog_groupable_header">Aggiungi un dispositivo</string>
     <string name="mr_dialog_transferable_header">Riproduci su un gruppo</string>
@@ -1487,7 +1489,6 @@ Nota: quando attivi le funzioni di accessibilità, riceverai un avviso di sistem
     <string name="path_setting_cast_feature">Altre opzioni di connettività/Trasmetti/Funzionalità speciali</string>
     <string name="path_setting_cast_help">Altre opzioni di connettività/Trasmetti/Guida</string>
     <string name="permission_allowed">Concesso</string>
-    <string name="permission_label_access_app_meta">Accedi alle informazioni sulle app quando le utilizzi su più dispositivi</string>
     <string name="permission_uballowed">Non concesso</string>
     <string name="picker_view_description">Fotocamera multidispositivo. Puoi toccare la scheda per selezionare le fotocamere dei dispositivi nelle vicinanze.</string>
     <string name="picker_view_outside_description">Tocca per chiudere questa scheda.</string>

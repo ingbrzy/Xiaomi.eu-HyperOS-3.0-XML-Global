@@ -192,6 +192,8 @@ swoich urządzeń?"</string>
     <string name="cast_closed_captions">Napisy</string>
     <string name="cast_closed_captions_unavailable">Napisy są niedostępne</string>
     <string name="cast_connecting_to_device">Łączę z urządzeniem %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Szukam urządzeń</string>
+    <string name="cast_device_chooser_title">Przesyłaj na</string>
     <string name="cast_disconnect">Odłącz</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Obraz wyświetlany, gdy odbiornik przesyłanych danych odtwarza reklamę</string>
@@ -232,6 +234,9 @@ swoich urządzeń?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Napisy</string>
     <string name="cast_unmute">Wyłącz wyciszenie</string>
+    <string name="cast_zero_devices_found">"Nie znaleziono urządzeń.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Dowiedz się więcej</a> o sposobach przesyłania treści na inne urządzenia.</string>
     <string name="casting_tips">Wyświetlanie…</string>
     <string name="character_counter_content_description">%1$d z %2$d znaków</string>
     <string name="character_counter_overflowed_content_description">Przekroczono limit znaków (%1$d z %2$d)</string>
@@ -417,6 +422,7 @@ aby udostępnić ekran tabletu"</string>
     <string name="circulate_headset_control_anc_disable_hint">Twoje słuchawki są podłączone do dwóch urządzeń. Głośność możesz regulować tylko na tym urządzeniu.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Redukcja szumów</string>
     <string name="circulate_headset_control_anc_off">Wył.</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dźwięk przestrzenny</string>
     <string name="circulate_headset_control_audio_effect_off">Wyłącz Dźwięk przestrzenny</string>
     <string name="circulate_headset_control_audio_effect_spatial">Włącz dźwięk przestrzenny</string>
     <string name="circulate_headset_control_audio_find_earphone">Odtwórz dźwięk</string>
@@ -429,6 +435,10 @@ aby udostępnić ekran tabletu"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Ładowanie</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Kontrola hałasu</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Śledź ruchy głowy</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Wył.</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Dźwięk przestrzenny</string>
     <string name="circulate_headset_control_more_settings">Dodatkowe ustawienia</string>
     <string name="circulate_headset_duplicate_cancel">Anuluj</string>
     <string name="circulate_headset_duplicate_dialog_message">Wygląda na to, że inny komplet słuchawek jest podłączony do %1$s. Zastąpić je obecnym kompletem?</string>
@@ -440,6 +450,8 @@ aby udostępnić ekran tabletu"</string>
     <string name="circulate_headset_duplicate_ok">Zastąp</string>
     <string name="circulate_headset_error_account_not_match">Upewnij się, że korzystasz z tej samej wersji konta Xiaomi na obu urządzeniach</string>
     <string name="circulate_headset_error_acquired_by_other_host">Korzystanie z innego urządzenia. Spróbuj ponownie później.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Najpierw włóż obie słuchawki</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Załóż obie słuchawki, aby móc korzystać z tej funkcji</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Okulary nie obsługują przesyłania danych między urządzeniami</string>
     <string name="circulate_headset_error_default">Przekroczono czas połączenia</string>
     <string name="circulate_headset_error_device_not_support">Nie można połączyć słuchawek z tym urządzeniem</string>
@@ -1030,7 +1042,6 @@ Jeśli chcesz włączyć Miracast, naciśnij przycisk [MENU] i wybierz Moje apli
 %1$d. Jeśli napotkasz jakiekolwiek problemy, możesz je zgłosić za pomocą naszej aplikacji \"Usługi i opinie\"."</string>
     <string name="help_page_text_end">Jeśli marki Twojego urządzenia nie ma na liście, skontaktuj się z producentem, aby dowiedzieć się więcej na temat funkcji wyświetlania.</string>
     <string name="i_see">Rozumiem</string>
-    <string name="ic_media_route_learn_more_accessibility">Dowiedz się, jak przesyłać treści</string>
     <string name="icon_content_description">Ikona okna</string>
     <string name="image_transfer_failed">Nie udało się przesłać obrazu</string>
     <string name="install">Instaluj</string>
@@ -1183,17 +1194,8 @@ Uwaga: Po włączeniu funkcji dostępności wyświetlą się standardowe ostrze�
     <string name="mr_cast_button_connecting">Przesyłanie. Łączę.</string>
     <string name="mr_cast_button_disconnected">Przesyłanie. Odłączono.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Brak informacji</string>
-    <string name="mr_chooser_looking_for_devices">Szukam urządzeń…</string>
     <string name="mr_chooser_searching">Szukam urządzeń</string>
     <string name="mr_chooser_title">Przesyłaj na</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Więcej informacji</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Sprawdź, czy drugie urządzenie jest połączone z tą samą siecią Wi-Fi co samochód</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Sprawdź, czy drugie urządzenie jest połączone z tą samą siecią Wi-Fi co telefon</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Sprawdź, czy drugie urządzenie jest połączone z tą samą siecią Wi-Fi co tablet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Sprawdź, czy drugie urządzenie jest połączone z tą samą siecią Wi-Fi co telewizor</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Sprawdź, czy drugie urządzenie jest połączone z tą samą siecią Wi-Fi co to urządzenie</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Sprawdź, czy drugie urządzenie jest połączone z tą samą siecią Wi-Fi co zegarek</string>
-    <string name="mr_chooser_zero_routes_found_title">Brak dostępnych urządzeń</string>
     <string name="mr_controller_album_art">Okładka albumu</string>
     <string name="mr_controller_casting_screen">Przesyłam ekran</string>
     <string name="mr_controller_close_description">Zamknij</string>
@@ -1487,7 +1489,6 @@ Uwaga: Po włączeniu funkcji dostępności wyświetlą się standardowe ostrze�
     <string name="path_setting_cast_feature">Więcej funkcji łączności/Projekcja/Spejclane funkcje</string>
     <string name="path_setting_cast_help">Więcej funkcji łączności/Projekcja/Pomoc</string>
     <string name="permission_allowed">Przyznano</string>
-    <string name="permission_label_access_app_meta">Uzyskaj dostęp do informacji o aplikacji podczas korzystania z aplikacji na różnych urządzeniach</string>
     <string name="permission_uballowed">Nie przyznano</string>
     <string name="picker_view_description">Aparat na różnych urządzeniach. Możesz stuknąć wewnątrz karty, aby wybrać aparaty na urządzeniach w pobliżu.</string>
     <string name="picker_view_outside_description">Dotknij, by zamknąć kartę.</string>

@@ -192,6 +192,8 @@
     <string name="cast_closed_captions">Приховані субтитри</string>
     <string name="cast_closed_captions_unavailable">Субтитри недоступні</string>
     <string name="cast_connecting_to_device">Під’єднання до пристрою %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Пошук пристроїв</string>
+    <string name="cast_device_chooser_title">Транслювати на…</string>
     <string name="cast_disconnect">Відключити</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Зображення, яке з’являється, коли приймач Google Cast відтворює оголошення</string>
@@ -232,6 +234,9 @@
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Субтитри</string>
     <string name="cast_unmute">Увімкнути звук</string>
+    <string name="cast_zero_devices_found">"Пристроїв не знайдено.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Докладніше</a> про можливості трансляції вашого контенту на інші пристрої.</string>
     <string name="casting_tips">Трансляція…</string>
     <string name="character_counter_content_description">Введено символів: %1$d з %2$d</string>
     <string name="character_counter_overflowed_content_description">Перевищено ліміт символів: %1$d з %2$d</string>
@@ -417,6 +422,7 @@
     <string name="circulate_headset_control_anc_disable_hint">Ваші навушники підключені до двох пристроїв. З цього пристрою можна регулювати тільки гучність.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Шумопоглинання</string>
     <string name="circulate_headset_control_anc_off">Вимк.</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Просторове звучання</string>
     <string name="circulate_headset_control_audio_effect_off">Вимкнути просторовий звук</string>
     <string name="circulate_headset_control_audio_effect_spatial">Увімкнути просторовий звук</string>
     <string name="circulate_headset_control_audio_find_earphone">Відтворювати звук</string>
@@ -429,6 +435,10 @@
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Заряджання</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Керування шумом</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Відстеження руху голови</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Вимк.</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Імерсивний звук</string>
     <string name="circulate_headset_control_more_settings">Додаткові налаштування</string>
     <string name="circulate_headset_duplicate_cancel">Скасувати</string>
     <string name="circulate_headset_duplicate_dialog_message">Схоже, що до %1$s підключена інша пара навушників. Замінити їх поточними?</string>
@@ -440,6 +450,8 @@
     <string name="circulate_headset_duplicate_ok">Замінити</string>
     <string name="circulate_headset_error_account_not_match">Переконайтеся, що ви використовуєте однаковий Xiaomi акаунт на обох пристроях</string>
     <string name="circulate_headset_error_acquired_by_other_host">Зараз використовується інший пристрій. Повторіть спробу пізніше.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Спочатку одягніть навушники</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Щоб скористатися цією функцією, вставте обидва навушника.</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Окуляри не підтримують передачу між пристроями</string>
     <string name="circulate_headset_error_default">Час очікування сплив</string>
     <string name="circulate_headset_error_device_not_support">Не вдається підключити навушники до цього пристрою</string>
@@ -1030,7 +1042,6 @@
 %1$d. Якщо у вас виникнуть будь-які проблеми, ви можете повідомити про них за допомогою нашої програми \"Послуги та зворотний зв'язок\"."</string>
     <string name="help_page_text_end">"Якщо вашого пристрою немає у списку, зв'яжіться з виробником та дізнайтеся про підтримку функції трансляції."</string>
     <string name="i_see">Зрозуміло</string>
-    <string name="ic_media_route_learn_more_accessibility">Дізнайтеся, як транслювати контент</string>
     <string name="icon_content_description">Значок вікна</string>
     <string name="image_transfer_failed">Не вдалося передати зображення</string>
     <string name="install">Встановити</string>
@@ -1183,17 +1194,8 @@
     <string name="mr_cast_button_connecting">Трансляція. Підключення</string>
     <string name="mr_cast_button_disconnected">Трансляція. Відключено</string>
     <string name="mr_cast_dialog_title_view_placeholder">Немає інформації</string>
-    <string name="mr_chooser_looking_for_devices">Пошук пристроїв…</string>
     <string name="mr_chooser_searching">Пошук пристроїв</string>
     <string name="mr_chooser_title">Транслювати на…</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Докладніше</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Переконайтеся, що інший пристрій підключено до тієї самої мережі Wi-Fi, що й цей автомобіль</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Переконайтеся, що інший пристрій підключено до тієї самої мережі Wi-Fi, що й цей телефон</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Переконайтеся, що інший пристрій підключено до тієї самої мережі Wi-Fi, що й цей планшет</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Переконайтеся, що інший пристрій підключено до тієї самої мережі Wi-Fi, що й цей телевізор</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Переконайтеся, що інший пристрій підключено до тієї самої мережі Wi-Fi, що й цей пристрій</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Переконайтеся, що інший пристрій підключено до тієї самої мережі Wi-Fi, що й цей годинник</string>
-    <string name="mr_chooser_zero_routes_found_title">Немає доступних пристроїв</string>
     <string name="mr_controller_album_art">Обкладинка альбому</string>
     <string name="mr_controller_casting_screen">Трансляція екрана</string>
     <string name="mr_controller_close_description">Закрити</string>
@@ -1487,7 +1489,6 @@
     <string name="path_setting_cast_feature">Додаткові параметри підключення/Трансляція/Спеціальні функції</string>
     <string name="path_setting_cast_help">Додаткові параметри підключення/Демонстрації/Довідка</string>
     <string name="permission_allowed">Надано</string>
-    <string name="permission_label_access_app_meta">Доступ до відомостей про програму при використанні програм на різних пристроях</string>
     <string name="permission_uballowed">Не надано</string>
     <string name="picker_view_description">Камера для декількох пристроїв. Ви можете натиснути всередині картки, щоб вибрати камери на пристроях поблизу.</string>
     <string name="picker_view_outside_description">Натисніть, щоб закрити цю картку.</string>

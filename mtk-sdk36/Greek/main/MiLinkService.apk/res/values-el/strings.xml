@@ -192,6 +192,8 @@
     <string name="cast_closed_captions">Υπότιτλοι</string>
     <string name="cast_closed_captions_unavailable">Οι υπότιτλοι δεν είναι διαθέσιμοι</string>
     <string name="cast_connecting_to_device">Σύνδεση στη συσκευή %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Εύρεση συσκευών</string>
+    <string name="cast_device_chooser_title">Μετάδοση σε</string>
     <string name="cast_disconnect">Αποσύνδεση</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Εικόνα που προβάλλεται ενώ ο δέκτης της μετάδοσης κάνει αναπαραγωγή μιας διαφήμισης</string>
@@ -232,6 +234,9 @@
     <string name="cast_tracks_chooser_dialog_ok">ΟΚ</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Υπότιτλοι</string>
     <string name="cast_unmute">Κατάργηση σίγασης</string>
+    <string name="cast_zero_devices_found">"Δεν βρέθηκαν συσκευές.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Μάθετε περισσότερα</a> σχετικά με το πώς μπορείτε να μεταδώσετε το περιεχόμενό σας σε άλλες συσκευές.</string>
     <string name="casting_tips">Γίνεται μετάδοση…</string>
     <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
     <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
@@ -417,6 +422,7 @@
     <string name="circulate_headset_control_anc_disable_hint">Τα ακουστικά σας είναι συνδεδεμένα σε δύο συσκευές. Μπορείτε να ρυθμίσετε την ένταση μόνο από αυτήν τη συσκευή.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Ακύρωση θορύβου</string>
     <string name="circulate_headset_control_anc_off">Ανενεργή</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Ήχος διάστασης</string>
     <string name="circulate_headset_control_audio_effect_off">Απενεργοποίηση Χωρικού Ήχου</string>
     <string name="circulate_headset_control_audio_effect_spatial">Ενεργοποίηση Χωρικού Ήχου</string>
     <string name="circulate_headset_control_audio_find_earphone">Αναπαραγωγή ήχου</string>
@@ -429,6 +435,10 @@
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Φόρτιση</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Έλεγχος θορύβου</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Παρακολούθηση κίνησης κεφαλιού</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Ανενεργό</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Ήχος καθήλωσης</string>
     <string name="circulate_headset_control_more_settings">Πρόσθετες ρυθμίσεις</string>
     <string name="circulate_headset_duplicate_cancel">Ακύρωση</string>
     <string name="circulate_headset_duplicate_dialog_message">Φαίνεται ότι ένα άλλο σετ ακουστικών earphones είναι συνδεδεμένο στο %1$s σας. Αντικατάστασή τους με το τρέχον σετ;</string>
@@ -440,6 +450,8 @@
     <string name="circulate_headset_duplicate_ok">Αντικατάσταση</string>
     <string name="circulate_headset_error_account_not_match">Βεβαιωθείτε ότι χρησιμοποιείτε τον ίδιο Λογαριασμό Xiaomi και στις δύο συσκευές</string>
     <string name="circulate_headset_error_acquired_by_other_host">Χρησιμοποιείται άλλη συσκευή τώρα. Προσπαθήστε ξανά αργότερα.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Φορέστε πρώτα και τα ακουστικά σας</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Φορέστε και τα δύο ακουστικά για χρήση αυτής της λειτουργίας</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Τα γυαλιά δεν υποστηρίζουν μεταφορά μεταξύ συσκευών</string>
     <string name="circulate_headset_error_default">Έληξε το χρονικό όριο σύνδεσης</string>
     <string name="circulate_headset_error_device_not_support">Αδυναμία σύνδεσης ακουστικών σε αυτήν τη συσκευή</string>
@@ -1030,7 +1042,6 @@
 %1$d. Εάν αντιμετωπίζετε δυσκολίες, μπορείτε να τις αναφέρετε χρησιμοποιώντας την εφαρμογή \"Υπηρεσίες &amp; ανατροφοδότηση\"."</string>
     <string name="help_page_text_end">Εάν η μάρκα της συσκευής σας δεν αναφέρετε στη λίστα εδώ, επικοινωνήστε με τον κατασκευαστή για να μάθετε περισσότερα για τη λειτουργία μετάδοσης.</string>
     <string name="i_see">Κατανοητό</string>
-    <string name="ic_media_route_learn_more_accessibility">Μάθετε πώς μπορείτε να κάνετε μετάδοση</string>
     <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
     <string name="image_transfer_failed">Αδυναμία μεταφοράς εικόνας</string>
     <string name="install">Εγκατάσταση</string>
@@ -1183,17 +1194,8 @@
     <string name="mr_cast_button_connecting">Μετάδοση. Σύνδεση</string>
     <string name="mr_cast_button_disconnected">Μετάδοση. Αποσυνδέθηκε</string>
     <string name="mr_cast_dialog_title_view_placeholder">Δεν υπάρχουν διαθέσιμες πληροφορίες</string>
-    <string name="mr_chooser_looking_for_devices">Αναζήτηση συσκευών…</string>
     <string name="mr_chooser_searching">Εύρεση συσκευών</string>
     <string name="mr_chooser_title">Μετάδοση σε</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Μάθετε περισσότερα</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το αυτοκίνητο</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το τηλέφωνο</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το tablet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτήν την τηλεόραση</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτήν τη συσκευή</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το ρολόι</string>
-    <string name="mr_chooser_zero_routes_found_title">Δεν υπάρχουν διαθέσιμες συσκευές</string>
     <string name="mr_controller_album_art">Εξώφυλλο άλμπουμ</string>
     <string name="mr_controller_casting_screen">Μετάδοση οθόνης</string>
     <string name="mr_controller_close_description">Κλείσιμο</string>
@@ -1487,7 +1489,6 @@
     <string name="path_setting_cast_feature">Περισσότερες επιλογές συνδεσιμότητας/Μετάδοση/Ειδικές δυνατότητες</string>
     <string name="path_setting_cast_help">Περισσότερες επιλογές συνδεσιμότητας/Μετάδοση/Βοήθεια</string>
     <string name="permission_allowed">Έγινε παραχώρηση</string>
-    <string name="permission_label_access_app_meta">Πρόσβαση σε πληροφορίες εφαρμογών κατά τη χρήση εφαρμογών σε διάφορες συσκευές</string>
     <string name="permission_uballowed">Δεν έγινε παραχώρηση</string>
     <string name="picker_view_description">Κάμερα μεταξύ συσκευών. Μπορείτε να πατήσετε μέσα στην κάρτα για να επιλέξετε κάμερες από κοντινές συσκευές.</string>
     <string name="picker_view_outside_description">Πατήστε για να κλείσετε αυτήν την κάρτα.</string>

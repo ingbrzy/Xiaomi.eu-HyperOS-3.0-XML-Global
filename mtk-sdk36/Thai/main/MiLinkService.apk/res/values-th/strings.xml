@@ -189,9 +189,11 @@
     <string name="cast_auth_count_down">ป้อนโค้ดจาก \"%1$s\" เพื่อเริ่มฉายภาพ (%2$dวิ)</string>
     <string name="cast_auth_title">ป้อนรหัส</string>
     <string name="cast_casting_to_device">กำลังแคสต์ไปยัง %1$s</string>
-    <string name="cast_closed_captions">คำบรรยายแทนเสียง</string>
-    <string name="cast_closed_captions_unavailable">คำบรรยายแทนเสียงไม่พร้อมใช้งาน</string>
+    <string name="cast_closed_captions">คำอธิบายภาพ</string>
+    <string name="cast_closed_captions_unavailable">คำบรรยายไม่พร้อมใช้งาน</string>
     <string name="cast_connecting_to_device">กำลังเชื่อมต่อ %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">กำลังค้นหาอุปกรณ์</string>
+    <string name="cast_device_chooser_title">แคสต์ไปยัง</string>
     <string name="cast_disconnect">ยกเลิกการเชื่อมต่อ</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">ภาพที่แสดงขณะที่เครื่องรับการแคสต์กำลังเล่นโฆษณา</string>
@@ -226,12 +228,15 @@
     <string name="cast_stop_live_stream">หยุดการสตรีมแบบสด</string>
     <string name="cast_tracks_chooser_dialog_audio">เสียง</string>
     <string name="cast_tracks_chooser_dialog_cancel">ยกเลิก</string>
-    <string name="cast_tracks_chooser_dialog_closed_captions">คำบรรยายแทนเสียง</string>
+    <string name="cast_tracks_chooser_dialog_closed_captions">คำอธิบายภาพ</string>
     <string name="cast_tracks_chooser_dialog_default_track_name">ติดตาม %1$d</string>
     <string name="cast_tracks_chooser_dialog_none">ไม่มี</string>
     <string name="cast_tracks_chooser_dialog_ok">ตกลง</string>
     <string name="cast_tracks_chooser_dialog_subtitles">คำบรรยาย</string>
     <string name="cast_unmute">เปิดเสียง</string>
+    <string name="cast_zero_devices_found">"ไม่พบอุปกรณ์
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">ดูข้อมูลเพิ่มเติม</a>เกี่ยวกับวิธีแคสต์เนื้อหาไปยังอุปกรณ์อื่นๆ</string>
     <string name="casting_tips">กำลังฉายภาพ…</string>
     <string name="character_counter_content_description">ป้อนอักขระแล้ว %1$d จาก %2$d ตัว</string>
     <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
@@ -417,6 +422,7 @@
     <string name="circulate_headset_control_anc_disable_hint">หูฟังของคุณเชื่อมต่อกับอุปกรณ์สองเครื่อง คุณสามารถปรับระดับเสียงได้จากอุปกรณ์นี้เท่านั้น</string>
     <string name="circulate_headset_control_anc_noise_cancel">การตัดเสียงรบกวน</string>
     <string name="circulate_headset_control_anc_off">ปิด</string>
+    <string name="circulate_headset_control_audio_effect_card_title">เสียงมิติ</string>
     <string name="circulate_headset_control_audio_effect_off">ปิดใช้งานเสียงรอบทิศทาง</string>
     <string name="circulate_headset_control_audio_effect_spatial">เปิดใช้งานเสียงรอบทิศทาง</string>
     <string name="circulate_headset_control_audio_find_earphone">เล่นเสียง</string>
@@ -429,6 +435,10 @@
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">การชาร์จ</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">การควบคุมเสียงรบกวน</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">ติดตามการเคลื่อนไหวของศีรษะ</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">ปิด</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">เสียงสมจริง</string>
     <string name="circulate_headset_control_more_settings">การตั้งค่าเพิ่มเติม</string>
     <string name="circulate_headset_duplicate_cancel">ยกเลิก </string>
     <string name="circulate_headset_duplicate_dialog_message">ดูเหมือนหูฟังอีกชุดเชื่อมต่อกับ %1$s ของคุณ แทนที่ด้วยชุดปัจจุบันหรือไม่?</string>
@@ -440,6 +450,8 @@
     <string name="circulate_headset_duplicate_ok">แทนที่</string>
     <string name="circulate_headset_error_account_not_match">ตรวจสอบให้แน่ใจว่าคุณใช้บัญชี Xiaomi เดียวกันบนอุปกรณ์ทั้งสอง</string>
     <string name="circulate_headset_error_acquired_by_other_host">ใช้อุปกรณ์อื่นในขณะนี้ ลองอีกครั้งในภายหลัง</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">สวมหูฟังของคุณก่อน</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">ใส่หูฟังทั้งสองข้างเพื่อใช้งานฟีเจอร์นี้</string>
     <string name="circulate_headset_error_camera_glasses_not_support">แว่นตาไม่รองรับการถ่ายโอนข้ามอุปกรณ์</string>
     <string name="circulate_headset_error_default">หมดเวลาการเชื่อมต่อ</string>
     <string name="circulate_headset_error_device_not_support">ไม่สามารถเชื่อมต่อหูฟังกับอุปกรณ์นี้ได้</string>
@@ -1030,7 +1042,6 @@
 %1$d. หากคุณพบปัญหาใดๆ คุณสามารถรายงานปัญหาโดยใช้แอป \"บริการและข้อเสนอแนะ\" ของเรา"</string>
     <string name="help_page_text_end">หากแบรนด์ของอุปกรณ์ของคุณไม่อยู่ในรายการที่นี่ ติดต่อผู้ผลิตเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับฟังก์ชั่นการส่งสัญญาณ</string>
     <string name="i_see">รับทราบ</string>
-    <string name="ic_media_route_learn_more_accessibility">ดูวิธีแคสต์</string>
     <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
     <string name="image_transfer_failed">ไม่สามารถถ่ายโอนรูปภาพได้</string>
     <string name="install">ติดตั้ง</string>
@@ -1183,17 +1194,8 @@
     <string name="mr_cast_button_connecting">แคสต์ กำลังเชื่อมต่อ</string>
     <string name="mr_cast_button_disconnected">แคสต์ เลิกเชื่อมต่อแล้ว</string>
     <string name="mr_cast_dialog_title_view_placeholder">ไม่มีข้อมูล</string>
-    <string name="mr_chooser_looking_for_devices">กำลังค้นหาอุปกรณ์...</string>
     <string name="mr_chooser_searching">กำลังค้นหาอุปกรณ์</string>
     <string name="mr_chooser_title">แคสต์ไปยัง</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">ดูข้อมูลเพิ่มเติม</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับรถคันนี้</string>
-    <string name="mr_chooser_wifi_warning_description_phone">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับโทรศัพท์เครื่องนี้</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับแท็บเล็ตเครื่องนี้</string>
-    <string name="mr_chooser_wifi_warning_description_tv">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับทีวีเครื่องนี้</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับอุปกรณ์เครื่องนี้</string>
-    <string name="mr_chooser_wifi_warning_description_watch">ตรวจสอบว่าอุปกรณ์อื่นๆ อยู่ในเครือข่าย Wi-Fi เดียวกันกับนาฬิกาเรือนนี้</string>
-    <string name="mr_chooser_zero_routes_found_title">ไม่มีอุปกรณ์ที่ใช้ได้</string>
     <string name="mr_controller_album_art">ปกอัลบั้ม</string>
     <string name="mr_controller_casting_screen">กำลังแคสต์หน้าจอ</string>
     <string name="mr_controller_close_description">ปิด</string>
@@ -1487,7 +1489,6 @@
     <string name="path_setting_cast_feature">ตัวเลือกการเชื่อมต่อเพิ่มเติม/ฉายภาพ/คุณสมบัติพิเศษ</string>
     <string name="path_setting_cast_help">ตัวเลือกการเชื่อมต่อเพิ่มเติม/ฉายภาพ/ช่วยเหลือ</string>
     <string name="permission_allowed">ยินยอมแล้ว</string>
-    <string name="permission_label_access_app_meta">เข้าถึงข้อมูลแอปเมื่อใช้งานแอปบนอุปกรณ์ต่างๆ</string>
     <string name="permission_uballowed">ไม่ได้รับการยินยอม</string>
     <string name="picker_view_description">กล้องข้ามอุปกรณ์ คุณสามารถแตะภายในการ์ดเพื่อเลือกกล้องบนอุปกรณ์ใกล้เคียง</string>
     <string name="picker_view_outside_description">แตะเพื่อปิดการ์ดนี้</string>

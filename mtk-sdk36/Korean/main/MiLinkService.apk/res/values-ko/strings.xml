@@ -192,6 +192,8 @@
     <string name="cast_closed_captions">자막</string>
     <string name="cast_closed_captions_unavailable">자막 사용 불가</string>
     <string name="cast_connecting_to_device">%1$s에 연결 중</string>
+    <string name="cast_device_chooser_searching_for_devices">기기를 찾는 중</string>
+    <string name="cast_device_chooser_title">전송 대상</string>
     <string name="cast_disconnect">연결 해제</string>
     <string name="cast_dynamic_group_name_format">%1$s 외 %2$d대</string>
     <string name="cast_expanded_controller_ad_image_description">Cast 수신기에서 광고를 재생할 때 이미지가 표시됨</string>
@@ -232,6 +234,9 @@
     <string name="cast_tracks_chooser_dialog_ok">확인</string>
     <string name="cast_tracks_chooser_dialog_subtitles">자막</string>
     <string name="cast_unmute">음소거 해제</string>
+    <string name="cast_zero_devices_found">"기기를 찾을 수 없습니다.
+"</string>
+    <string name="cast_zero_devices_learn_more_description">콘텐츠를 다른 기기로 전송하는 방법을 <a href="https://support.google.com/chromecastbuiltin/answer/3006709">자세히 알아보세요</a>.</string>
     <string name="casting_tips">캐스트 중…</string>
     <string name="character_counter_content_description">입력된 글자 %1$d/%2$d</string>
     <string name="character_counter_overflowed_content_description">글자 수 제한이 초과되었습니다(%1$d/%2$d).</string>
@@ -417,6 +422,7 @@
     <string name="circulate_headset_control_anc_disable_hint">이어폰이 2대의 기기에 연결되었습니다. 이 기기에서 볼륨만 조절하실 수 있습니다.</string>
     <string name="circulate_headset_control_anc_noise_cancel">노이즈 캔슬링</string>
     <string name="circulate_headset_control_anc_off">끄기</string>
+    <string name="circulate_headset_control_audio_effect_card_title">디멘셔널 오디오</string>
     <string name="circulate_headset_control_audio_effect_off">공간 음향 오디오 끄기</string>
     <string name="circulate_headset_control_audio_effect_spatial">공간 음향 오디오 켜기</string>
     <string name="circulate_headset_control_audio_find_earphone">소리 재생</string>
@@ -429,6 +435,10 @@
     <string name="circulate_headset_control_battery_left">좌</string>
     <string name="circulate_headset_control_battery_right">우</string>
     <string name="circulate_headset_control_charging">충전 중</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">노이즈 컨트롤</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">머리 움직임 추적</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">끔</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">이머시브 사운드</string>
     <string name="circulate_headset_control_more_settings">추가 설정</string>
     <string name="circulate_headset_duplicate_cancel">취소</string>
     <string name="circulate_headset_duplicate_dialog_message">%1$s에 다른 이어폰이 연결되어 있는 것 같습니다. 현재 이어폰으로 대체하시겠습니까?</string>
@@ -440,6 +450,8 @@
     <string name="circulate_headset_duplicate_ok">교체</string>
     <string name="circulate_headset_error_account_not_match">두 기기에서 동일한 Xiaomi 계정을 사용하고 있는지 확인하세요</string>
     <string name="circulate_headset_error_acquired_by_other_host">현재 다른 기기를 사용 중입니다. 나중에 다시 시도하세요.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">먼저 이어폰을 착용하세요.</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">이 기능을 사용하려면 양쪽 이어폰을 착용하세요.</string>
     <string name="circulate_headset_error_camera_glasses_not_support">안경은 기기 간 전송을 지원하지 않음</string>
     <string name="circulate_headset_error_default">연결 시간 초과됨</string>
     <string name="circulate_headset_error_device_not_support">이 기기에 이어폰을 연결할 수 없음</string>
@@ -1032,7 +1044,6 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
 %1$d. 만약 다른 문제가 발생하시는 경우, \"서비스 &amp; 피드백\" 앱을 사용하여 보고해 주세요."</string>
     <string name="help_page_text_end">목록에 기기의 브랜드가 없는 경우, 해당 제조사에 캐스트 기능에 대해 문의하세요.</string>
     <string name="i_see">알겠습니다</string>
-    <string name="ic_media_route_learn_more_accessibility">전송 방법 알아보기</string>
     <string name="icon_content_description">대화상자 아이콘</string>
     <string name="image_transfer_failed">이미지 전송 실패</string>
     <string name="install">설치</string>
@@ -1185,17 +1196,8 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="mr_cast_button_connecting">전송 버튼입니다. 기기 연결 중입니다</string>
     <string name="mr_cast_button_disconnected">전송 버튼입니다. 기기가 연결 해제되었습니다</string>
     <string name="mr_cast_dialog_title_view_placeholder">사용할 수 있는 정보 없음</string>
-    <string name="mr_chooser_looking_for_devices">기기 검색 중…</string>
     <string name="mr_chooser_searching">기기를 찾는 중</string>
     <string name="mr_chooser_title">전송 대상</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">자세히 알아보기</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">다른 기기가 이 자동차와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
-    <string name="mr_chooser_wifi_warning_description_phone">다른 기기가 이 휴대전화와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">다른 기기가 이 태블릿과 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
-    <string name="mr_chooser_wifi_warning_description_tv">다른 기기가 이 TV와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">다른 기기가 이 기기와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
-    <string name="mr_chooser_wifi_warning_description_watch">다른 기기가 이 시계와 동일한 Wi-Fi 네트워크에 연결되어 있어야 합니다.</string>
-    <string name="mr_chooser_zero_routes_found_title">사용 가능한 기기 없음</string>
     <string name="mr_controller_album_art">앨범아트</string>
     <string name="mr_controller_casting_screen">화면 전송 중</string>
     <string name="mr_controller_close_description">닫기</string>
@@ -1489,7 +1491,6 @@ Miracast의 실행을 원하시는 경우, [MENU] 버튼을 누르고 내 앱 > 
     <string name="path_setting_cast_feature">더 많은 연결 옵션/캐스트/특수 기능</string>
     <string name="path_setting_cast_help">더 많은 연결 옵션/캐스트/도움말</string>
     <string name="permission_allowed">권한 부여됨</string>
-    <string name="permission_label_access_app_meta">여러 기기에서 앱 사용 시 앱 정보에 접근</string>
     <string name="permission_uballowed">권한 부여되지 않음</string>
     <string name="picker_view_description">기기 간 카메라. 카드의 내부를 탭하여 주변 기기의 카메라를 선택할 수 있습니다.</string>
     <string name="picker_view_outside_description">이 카드를 닫으려면 탭하세요.</string>

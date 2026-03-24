@@ -192,6 +192,8 @@ vaše zariadenia?"</string>
     <string name="cast_closed_captions">Skryté titulky</string>
     <string name="cast_closed_captions_unavailable">Skryté titulky nie sú k dispozícii</string>
     <string name="cast_connecting_to_device">Pripája sa k zariadeniu %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Hľadajú sa zariadenia</string>
+    <string name="cast_device_chooser_title">Prenášať do zariadenia</string>
     <string name="cast_disconnect">Odpojiť</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Obrázok, ktorý sa zobrazí, keď prijímač prenášaného obsahu bude prehrávať reklamu</string>
@@ -232,6 +234,9 @@ vaše zariadenia?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Titulky</string>
     <string name="cast_unmute">Zapnúť zvuk</string>
+    <string name="cast_zero_devices_found">"Neboli nájdené žiadne zariadenia.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Ako prenášať obsah do iných zariadení</a></string>
     <string name="casting_tips">Prenášanie…</string>
     <string name="character_counter_content_description">Zadané znaky: %1$d z %2$d</string>
     <string name="character_counter_overflowed_content_description">Bol prekročený povolený počet znakov (%1$d z %2$d)</string>
@@ -417,6 +422,7 @@ pre zrkadlenie obrazovky tabletu"</string>
     <string name="circulate_headset_control_anc_disable_hint">Vaše slúchadlá sú pripojené k dvom zariadeniam. Z tohto zariadenia môžete iba upravovať hlasitosť.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Potlačenie šumu</string>
     <string name="circulate_headset_control_anc_off">Vypnúť</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dimenzionálny zvuk</string>
     <string name="circulate_headset_control_audio_effect_off">Vypnúť funkciu Priestorový zvuk</string>
     <string name="circulate_headset_control_audio_effect_spatial">Zapnúť funkciu Priestorový zvuk</string>
     <string name="circulate_headset_control_audio_find_earphone">Prehrať zvuk</string>
@@ -429,6 +435,10 @@ pre zrkadlenie obrazovky tabletu"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Nabíjanie</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Ovládanie šumu</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Sledovať pohyb hlavy</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Vyp.</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Pohlcujúci zvuk</string>
     <string name="circulate_headset_control_more_settings">Ďalšie nastavenia</string>
     <string name="circulate_headset_duplicate_cancel">Zrušiť</string>
     <string name="circulate_headset_duplicate_dialog_message">Zdá sa, že k zariadeniu %1$s sú pripojené ďalšie slúchadlá. Nahradiť ich aktuálnou súpravou?</string>
@@ -440,6 +450,8 @@ pre zrkadlenie obrazovky tabletu"</string>
     <string name="circulate_headset_duplicate_ok">Nahradiť</string>
     <string name="circulate_headset_error_account_not_match">Uistite sa, že na obidvoch zariadeniach používate rovnaké Xiaomi konto</string>
     <string name="circulate_headset_error_acquired_by_other_host">Používa sa iné zariadenie. Skúste to znova neskôr.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Najprv si nasaďte obe slúchadlá</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Na využitie tejto funkcie vložte obidve slúchadlá do puzdra</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Okuliare nepodporujú prenos naprieč zariadeniami</string>
     <string name="circulate_headset_error_default">Časový limit pripojenia vypršal</string>
     <string name="circulate_headset_error_device_not_support">Slúchadlá nie je možné pripojiť k tomuto zariadeniu</string>
@@ -1030,7 +1042,6 @@ Ak je potrebné spustiť funkciu Miracast, stlačte tlačidlo [MENU] a vyberte M
 %1$d. Ak sa vyskytnú nejaké problémy, môžete ich nahlásiť pomocou našej aplikácie \"Služby a spätná väzba\"."</string>
     <string name="help_page_text_end">Pokiaľ značka vášho zariadenia nie je v zozname, kontaktujte výrobcu pre viac informácií o funkcii prenosu.</string>
     <string name="i_see">Rozumiem</string>
-    <string name="ic_media_route_learn_more_accessibility">Pokyny na prenos</string>
     <string name="icon_content_description">Ikona dialógového okna</string>
     <string name="image_transfer_failed">Prenos obrázka sa nepodaril</string>
     <string name="install">Inštalovať</string>
@@ -1183,17 +1194,8 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="mr_cast_button_connecting">Prenášať. Pripája sa</string>
     <string name="mr_cast_button_disconnected">Prenášať. Odpojené</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nie sú k dispozícii žiadne informácie</string>
-    <string name="mr_chooser_looking_for_devices">Hľadajú sa zariadenia…</string>
     <string name="mr_chooser_searching">Hľadajú sa zariadenia</string>
     <string name="mr_chooser_title">Prenos do zariadenia</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Ďalšie informácie</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako toto auto</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tento telefón</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tento tablet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tento televízor</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako toto zariadenie</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Skontrolujte, či je vaše druhé zariadenie pripojené k rovnakej sieti Wi‑Fi ako tieto hodinky</string>
-    <string name="mr_chooser_zero_routes_found_title">Nie sú k dispozícii žiadne zariadenia</string>
     <string name="mr_controller_album_art">Obrázok albumu</string>
     <string name="mr_controller_casting_screen">Prenáša sa obrazovka</string>
     <string name="mr_controller_close_description">Zavrieť</string>
@@ -1487,7 +1489,6 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="path_setting_cast_feature">Ďalšie možnosti pripojenia/Prenos obrazu/Špeciálne funkcie</string>
     <string name="path_setting_cast_help">Ďalšie možnosti pripojenia/Prenos obrazu/Pomoc</string>
     <string name="permission_allowed">Udelené</string>
-    <string name="permission_label_access_app_meta">Prístup k informáciám o aplikácii pri používaní aplikácií naprieč zariadeniami</string>
     <string name="permission_uballowed">Neudelené</string>
     <string name="picker_view_description">Kamera pre viacero zariadení. Ťuknutím do vnútra karty môžete vybrať fotoaparáty v zariadeniach v okolí.</string>
     <string name="picker_view_outside_description">Ťuknite na položku pre zatvorenie tejto karty.</string>

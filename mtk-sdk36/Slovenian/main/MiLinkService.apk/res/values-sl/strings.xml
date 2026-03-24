@@ -192,6 +192,8 @@ naprave?"</string>
     <string name="cast_closed_captions">Podnapisi</string>
     <string name="cast_closed_captions_unavailable">Podnapisi niso na voljo</string>
     <string name="cast_connecting_to_device">Povezovanje z napravo za predvajanje %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Iskanje naprav</string>
+    <string name="cast_device_chooser_title">Predvajanje v napravi</string>
     <string name="cast_disconnect">Prekini povezavo</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Slika, ki je uporabniku prikazana med predvajanjem oglasa</string>
@@ -232,6 +234,9 @@ naprave?"</string>
     <string name="cast_tracks_chooser_dialog_ok">V redu</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Podnapisi</string>
     <string name="cast_unmute">Vklop zvoka</string>
+    <string name="cast_zero_devices_found">"Nobena naprava ni bila najdena.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Preberite več</a> o tem, kako lahko predvajate vsebino v drugih napravah.</string>
     <string name="casting_tips">Predvajanje…</string>
     <string name="character_counter_content_description">Število vnesenih znakov je %1$d od %2$d</string>
     <string name="character_counter_overflowed_content_description">Omejitev števila znakov je presegla %1$d od %2$d</string>
@@ -417,6 +422,7 @@ da bi zrcalili zaslon"</string>
     <string name="circulate_headset_control_anc_disable_hint">Vaše slušalke so povezane z dvema napravama. S te naprave lahko prilagodite samo glasnost.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Odpravljanje šumov</string>
     <string name="circulate_headset_control_anc_off">Izklopi</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Prostorski zvok</string>
     <string name="circulate_headset_control_audio_effect_off">Izklopi prostorski zvok</string>
     <string name="circulate_headset_control_audio_effect_spatial">Vklopi prostorski zvok</string>
     <string name="circulate_headset_control_audio_find_earphone">Predvajaj zvok</string>
@@ -429,6 +435,10 @@ da bi zrcalili zaslon"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Polnjenje</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Nadzor hrupa</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Sledenje gibanju glave</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Izklopljeno</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Poglobljen zvok</string>
     <string name="circulate_headset_control_more_settings">Dodatne nastavitve</string>
     <string name="circulate_headset_duplicate_cancel">Prekliči</string>
     <string name="circulate_headset_duplicate_dialog_message">Videti je, da so druge slušalke že povezane z vašo napravo %1$s. Ali jih želite zamenjati s trenutnim slušalkami?</string>
@@ -440,6 +450,8 @@ da bi zrcalili zaslon"</string>
     <string name="circulate_headset_duplicate_ok">Zamenjaj</string>
     <string name="circulate_headset_error_account_not_match">Prepričajte se, da uporabljate isti Xiaomi Račun na obeh napravah</string>
     <string name="circulate_headset_error_acquired_by_other_host">Zdaj uporabljate drugo napravo. Poskusite ponovno kasneje.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Najprej si nadenite obe slušalki</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Da bi lahko uporabljali to funkcijo, vstavite obe slušalki v ušesa</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Očala ne podpirajo prenosa med napravami.</string>
     <string name="circulate_headset_error_default">Povezava je potekla</string>
     <string name="circulate_headset_error_device_not_support">S to napravo ni mogoče povezati slušalk</string>
@@ -1030,7 +1042,6 @@ Povežite mobilno napravo in zunanji zaslon (npr. vaš TV) na isto omrežje, ali
 %1$d. Če naletite na kakšne težave, jih lahko prijavite z uporabo naše aplikacije »Storitve in povratne informacije«."</string>
     <string name="help_page_text_end">Če znamka vaše naprave ni navedena tukaj, se obrnite na proizvajalca, če želite izvedeti več o funkciji predvajanja.</string>
     <string name="i_see">Razumem</string>
-    <string name="ic_media_route_learn_more_accessibility">Več o tem, kako predvajati</string>
     <string name="icon_content_description">Ikona pogovornega okna</string>
     <string name="image_transfer_failed">Slike ni bilo mogoče prenesti</string>
     <string name="install">Namesti</string>
@@ -1183,17 +1194,8 @@ Opomba: Ko vklopite funkcije dostopnosti, boste prejeli rutinsko sistemsko opozo
     <string name="mr_cast_button_connecting">Predvajanje. Povezovanje</string>
     <string name="mr_cast_button_disconnected">Predvajanje. Ni povezave</string>
     <string name="mr_cast_dialog_title_view_placeholder">Ni podatkov</string>
-    <string name="mr_chooser_looking_for_devices">Iskanje naprav …</string>
     <string name="mr_chooser_searching">Iskanje naprav</string>
     <string name="mr_chooser_title">Predvajanje v napravi:</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Več o tem</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Prepričajte se, da je druga naprava povezana v isto omrežje Wi-Fi kot ta avtomobil</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Prepričajte se, da je druga naprava povezana v isto omrežje Wi-Fi kot ta telefon</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Prepričajte se, da je druga naprava povezana v isto omrežje Wi-Fi kot ta tablični računalnik</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Prepričajte se, da je druga naprava povezana v isto omrežje Wi-Fi kot ta televizor</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Prepričajte se, da je druga naprava povezana v isto omrežje Wi-Fi kot ta naprava</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Prepričajte se, da je druga naprava povezana v isto omrežje Wi-Fi kot ta ura</string>
-    <string name="mr_chooser_zero_routes_found_title">Nobena naprava ni na voljo</string>
     <string name="mr_controller_album_art">Naslovnica albuma</string>
     <string name="mr_controller_casting_screen">Predvajanje vsebine zaslona</string>
     <string name="mr_controller_close_description">Zapri</string>
@@ -1487,7 +1489,6 @@ Opomba: Ko vklopite funkcije dostopnosti, boste prejeli rutinsko sistemsko opozo
     <string name="path_setting_cast_feature">Več možnosti povezovanja/Oddajanje/Posebne funkcije</string>
     <string name="path_setting_cast_help">Več možnosti povezovanja/Oddajanje/Pomoč</string>
     <string name="permission_allowed">Odobreno</string>
-    <string name="permission_label_access_app_meta">Dostopajte do podatkov o aplikacijah, ko uporabljate aplikacije v različnih napravah</string>
     <string name="permission_uballowed">Ni odobreno</string>
     <string name="picker_view_description">Kamera med napravami. Z dotikom znotraj kartice lahko izberete kamere v napravah v bližini.</string>
     <string name="picker_view_outside_description">Tapnite za zapiranje te kartice.</string>

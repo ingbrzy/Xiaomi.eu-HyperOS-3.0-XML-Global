@@ -192,6 +192,8 @@ os seus dispositivos?"</string>
     <string name="cast_closed_captions">Legendas ocultas</string>
     <string name="cast_closed_captions_unavailable">Legendas ocultas não disponíveis</string>
     <string name="cast_connecting_to_device">A ligar a %1$s…</string>
+    <string name="cast_device_chooser_searching_for_devices">A procurar dispositivos</string>
+    <string name="cast_device_chooser_title">Transmita para</string>
     <string name="cast_disconnect">Desassociar</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Imagem apresentada enquanto o recetor de transmissão está a reproduzir um anúncio</string>
@@ -232,6 +234,9 @@ os seus dispositivos?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Legendas</string>
     <string name="cast_unmute">Reativar o som</string>
+    <string name="cast_zero_devices_found">"Não foram encontrados dispositivos.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Saiba mais</a> sobre como pode transmitir conteúdo para outros dispositivos.</string>
     <string name="casting_tips">A transmitir…</string>
     <string name="character_counter_content_description">Carateres introduzidos: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Limite de carateres excedido: %1$d de %2$d</string>
@@ -417,6 +422,7 @@ para espelhar este ecrã do tablet"</string>
     <string name="circulate_headset_control_anc_disable_hint">Os seus auriculares estão ligados a dois dispositivos. Só pode ajustar o volume a partir deste dispositivo.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Cancelamento de ruído</string>
     <string name="circulate_headset_control_anc_off">Desligado</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Áudio dimensional</string>
     <string name="circulate_headset_control_audio_effect_off">Desativar Áudio Espacial</string>
     <string name="circulate_headset_control_audio_effect_spatial">Ativar Áudio Espacial</string>
     <string name="circulate_headset_control_audio_find_earphone">Reproduzir som</string>
@@ -429,6 +435,10 @@ para espelhar este ecrã do tablet"</string>
     <string name="circulate_headset_control_battery_left">G</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">A carregar</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Controlo de ruído</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Rastrear movimento da cabeça</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Desativado</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Som imersivo</string>
     <string name="circulate_headset_control_more_settings">Definições adicionais</string>
     <string name="circulate_headset_duplicate_cancel">Cancelar</string>
     <string name="circulate_headset_duplicate_dialog_message">Parece que outro conjunto de auriculares está ligado ao seu %1$s. Substituí-los pelo conjunto atual?</string>
@@ -440,6 +450,8 @@ para espelhar este ecrã do tablet"</string>
     <string name="circulate_headset_duplicate_ok">Substituir</string>
     <string name="circulate_headset_error_account_not_match">Certifique-se de estar a utilizar a mesma Conta Xiaomi nos dois dispositivos</string>
     <string name="circulate_headset_error_acquired_by_other_host">A utilizar outro dispositivo agora. Tente novamente mais tarde.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Coloque os seus auriculares primeiro</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Coloque os dois auriculares para poder utilizar esta funcionalidade</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Os óculos não suportam a transferência entre dispositivos</string>
     <string name="circulate_headset_error_default">Tempo limite atingido</string>
     <string name="circulate_headset_error_device_not_support">Não é possível ligar auriculares a este dispositivo</string>
@@ -1030,7 +1042,6 @@ Se precisar ligar o Miracast, pressione o botão [MENU] e selecione As minhas ap
 %1$d. Se encontrar algum problema, pode relatá-lo ao utilizar nossa aplicação \"Serviços e Comentários\"."</string>
     <string name="help_page_text_end">Se o modelo do seu dispositivo não estiver listado aqui, entre em contacto com o fabricante para saber mais sobre a funcionalidade de transmissão.</string>
     <string name="i_see">Percebi</string>
-    <string name="ic_media_route_learn_more_accessibility">Saiba como transmitir</string>
     <string name="icon_content_description">Ícone de caixa de diálogo</string>
     <string name="image_transfer_failed">Não foi possível transferir a imagem</string>
     <string name="install">Instalar</string>
@@ -1183,17 +1194,8 @@ Observação: Receberá um alerta de rotina do sistema quando ligar as funcional
     <string name="mr_cast_button_connecting">Transmitir. A ligar</string>
     <string name="mr_cast_button_disconnected">Transmitir. Desligado</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nenhuma informação disponível</string>
-    <string name="mr_chooser_looking_for_devices">A procurar dispositivos…</string>
     <string name="mr_chooser_searching">A localizar dispositivos...</string>
     <string name="mr_chooser_title">Transmitir para</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Saiba mais</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Certifique-se de que o outro dispositivo se encontra na mesma rede Wi-Fi que este carro</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Certifique-se de que o outro dispositivo se encontra na mesma rede Wi-Fi que este telemóvel</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Certifique-se de que o outro dispositivo se encontra na mesma rede Wi-Fi que este tablet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Certifique-se de que o outro dispositivo se encontra na mesma rede Wi-Fi que esta TV</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Certifique-se de que o outro dispositivo se encontra na mesma rede Wi-Fi que este dispositivo</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Certifique-se de que o outro dispositivo se encontra na mesma rede Wi-Fi que este relógio</string>
-    <string name="mr_chooser_zero_routes_found_title">Nenhum dispositivo disponível</string>
     <string name="mr_controller_album_art">Imagem do álbum</string>
     <string name="mr_controller_casting_screen">A transmitir o ecrã...</string>
     <string name="mr_controller_close_description">Fechar</string>
@@ -1487,7 +1489,6 @@ Observação: Receberá um alerta de rotina do sistema quando ligar as funcional
     <string name="path_setting_cast_feature">Mais opções de conectividade/Transmissão/Funcionalidades especiais</string>
     <string name="path_setting_cast_help">Mais opções de conectividade/Transmissão/Ajuda</string>
     <string name="permission_allowed">Concedido</string>
-    <string name="permission_label_access_app_meta">Aceder a informações da aplicação ao utilizar aplicações entre dispositivos</string>
     <string name="permission_uballowed">Não concedido</string>
     <string name="picker_view_description">Câmara entre dispositivos. Pode tocar dentro do cartão para selecionar câmaras em dispositivos próximos.</string>
     <string name="picker_view_outside_description">Toque para fechar esse cartão.</string>

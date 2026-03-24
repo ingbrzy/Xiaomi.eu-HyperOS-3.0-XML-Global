@@ -192,6 +192,8 @@
     <string name="cast_closed_captions">الترجمة والشرح</string>
     <string name="cast_closed_captions_unavailable">الترجمة والشرح غير متاحة</string>
     <string name="cast_connecting_to_device">جارٍ الاتصال بـ %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">جارٍ البحث عن أجهزة</string>
+    <string name="cast_device_chooser_title">البث إلى</string>
     <string name="cast_disconnect">إلغاء الربط</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">‏الصورة المعروضة أثناء تشغيل مستقبل cast لأحد الإعلانات</string>
@@ -232,6 +234,9 @@
     <string name="cast_tracks_chooser_dialog_ok">حسنًا</string>
     <string name="cast_tracks_chooser_dialog_subtitles">الترجمات المصاحبة</string>
     <string name="cast_unmute">إعادة الصوت</string>
+    <string name="cast_zero_devices_found">"‏لم يتم العثور على أي أجهزة.
+"</string>
+    <string name="cast_zero_devices_learn_more_description">تعرَّف على <a href="https://support.google.com/chromecastbuiltin/answer/3006709">مزيد من المعلومات</a> حول طريقة بث المحتوى على أجهزة أخرى.</string>
     <string name="casting_tips">جارٍ بث الشاشة…</string>
     <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
@@ -417,6 +422,7 @@
     <string name="circulate_headset_control_anc_disable_hint">سماعات الأذن متصلة بجهازين. يمكنك ضبط مستوى الصوت فقط من هذا الجهاز.</string>
     <string name="circulate_headset_control_anc_noise_cancel">إلغاء الضجيج</string>
     <string name="circulate_headset_control_anc_off">متوقفة</string>
+    <string name="circulate_headset_control_audio_effect_card_title">صوت متعدد الأبعاد</string>
     <string name="circulate_headset_control_audio_effect_off">إيقاف تشغيل الصوت المكاني</string>
     <string name="circulate_headset_control_audio_effect_spatial">تشغيل الصوت المكاني</string>
     <string name="circulate_headset_control_audio_find_earphone">تشغيل الصوت</string>
@@ -429,6 +435,10 @@
     <string name="circulate_headset_control_battery_left">كبير</string>
     <string name="circulate_headset_control_battery_right">أحمر</string>
     <string name="circulate_headset_control_charging">جارٍ الشحن</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">التحكم في الضوضاء</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">تتبع حركة الرأس</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">إيقاف</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">صوت غامر</string>
     <string name="circulate_headset_control_more_settings">الإعدادات الإضافية</string>
     <string name="circulate_headset_duplicate_cancel">إلغاء</string>
     <string name="circulate_headset_duplicate_dialog_message">يبدو أن هناك سماعات أذن أخرى متصلة بـ %1$s. هل تريد استبدالها بالسماعات الحالية؟</string>
@@ -440,6 +450,8 @@
     <string name="circulate_headset_duplicate_ok">استبدل</string>
     <string name="circulate_headset_error_account_not_match">تأكد من استخدام نفس حساب Mi على كلا الجهازين</string>
     <string name="circulate_headset_error_acquired_by_other_host">يتم استخدام جهاز آخر. يرجى إعادة المحاولة لاحقا.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">ارتدي سماعاتك أولاً</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">قم بوضع السماعتين لاستخدام هذه الميزة</string>
     <string name="circulate_headset_error_camera_glasses_not_support">النظارات لا تدعم النقل بين الأجهزة</string>
     <string name="circulate_headset_error_default">انتهت مهلة الاتصال</string>
     <string name="circulate_headset_error_device_not_support">لا يمكن توصيل سماعات الأذن بهذا الجهاز</string>
@@ -1030,7 +1042,6 @@
 %1$d. إذا واجهتك أي مشاكل، فيمكنك الإبلاغ عنها باستخدام تطبيق \"الخدمات والتعليقات\"."</string>
     <string name="help_page_text_end">إذا لم تكن ماركة جهازك مدرجة هنا، فاتصل بالشركة المصنعة لمعرفة المزيد عن وظيفة بث الشاشة.</string>
     <string name="i_see">حسنًا</string>
-    <string name="ic_media_route_learn_more_accessibility">التعرُّف على كيفية البثّ</string>
     <string name="icon_content_description">رمز مربع الحوار</string>
     <string name="image_transfer_failed">تعذر نقل الصورة</string>
     <string name="install">تثبيت</string>
@@ -1183,17 +1194,8 @@
     <string name="mr_cast_button_connecting">إرسال جارٍ الاتصال</string>
     <string name="mr_cast_button_disconnected">إرسال غير متصل</string>
     <string name="mr_cast_dialog_title_view_placeholder">لا تتوفر أي معلومات</string>
-    <string name="mr_chooser_looking_for_devices">جارٍ البحث عن أجهزة…</string>
     <string name="mr_chooser_searching">جارٍ البحث عن أجهزة</string>
     <string name="mr_chooser_title">البث إلى</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">مزيد من المعلومات</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">‏تأكَّد من أنّ الجهاز الآخر وهذه السيارة متّصلان بشبكة Wi-Fi نفسها.</string>
-    <string name="mr_chooser_wifi_warning_description_phone">‏تأكَّد من أنّ الجهاز الآخر وهذا الهاتف متّصلان بشبكة Wi-Fi نفسها.</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">‏تأكَّد من أنّ الجهاز الآخر وهذا الجهاز اللوحي متّصلان بشبكة Wi-Fi نفسها.</string>
-    <string name="mr_chooser_wifi_warning_description_tv">‏تأكَّد من أنّ الجهاز الآخر وهذا التلفزيون متّصلان بشبكة Wi-Fi نفسها.</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">‏تأكَّد من أنّ الجهاز الآخر وهذا الجهاز متّصلان بشبكة Wi-Fi نفسها.</string>
-    <string name="mr_chooser_wifi_warning_description_watch">‏تأكَّد من أنّ الجهاز الآخر وهذه الساعة متّصلان بشبكة Wi-Fi نفسها.</string>
-    <string name="mr_chooser_zero_routes_found_title">لا تتوفّر أي أجهزة</string>
     <string name="mr_controller_album_art">صورة الألبوم</string>
     <string name="mr_controller_casting_screen">جارٍ إرسال الشاشة</string>
     <string name="mr_controller_close_description">إغلاق</string>
@@ -1487,7 +1489,6 @@
     <string name="path_setting_cast_feature">مزيد من خيارات الاتصال البيني/بث الشاشة/ميزات خاصة</string>
     <string name="path_setting_cast_help">مزيد من خيارات الاتصال البيني/بث الشاشة/المساعدة</string>
     <string name="permission_allowed">ممنوح</string>
-    <string name="permission_label_access_app_meta">يمكنك الوصول إلى معلومات التطبيق عند استخدام التطبيقات على مختلف الأجهزة.</string>
     <string name="permission_uballowed">غير ممنوح</string>
     <string name="picker_view_description">كاميرا متعددة الأجهزة. يمكنك النقر داخل البطاقة لتحديد الكاميرات الموجودة على الأجهزة القريبة.</string>
     <string name="picker_view_outside_description">انقر لإغلاق هذه البطاقة.</string>
