@@ -192,6 +192,8 @@ a készülékeit?"</string>
     <string name="cast_closed_captions">Feliratok</string>
     <string name="cast_closed_captions_unavailable">A feliratok nem érhetők el</string>
     <string name="cast_connecting_to_device">Csatlakozás a következőhöz: %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Eszközök keresése</string>
+    <string name="cast_device_chooser_title">Átküldés ide:</string>
     <string name="cast_disconnect">Szétválasztás</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Ez a kép látható, amíg a Cast-erősítő hirdetést jelenít meg</string>
@@ -232,6 +234,9 @@ a készülékeit?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Feliratok</string>
     <string name="cast_unmute">Némítás feloldása</string>
+    <string name="cast_zero_devices_found">"Nem találhatók eszközök.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">További információ</a> arról, hogy miként küldhet át tartalmakat más eszközökre.</string>
     <string name="casting_tips">Kivetítés…</string>
     <string name="character_counter_content_description">Begépelt karakterszám: %2$d/%1$d</string>
     <string name="character_counter_overflowed_content_description">Maximális karakterszám túllépve: %2$d/%1$d</string>
@@ -417,6 +422,7 @@ a tablet képernyőjének tükrözéséhez"</string>
     <string name="circulate_headset_control_anc_disable_hint">A fülhallgató két eszközhöz van csatlakoztatva. A hangerőt csak erről az eszközről tudja beállítani.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Zajszűrés</string>
     <string name="circulate_headset_control_anc_off">Kikapcsolva</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dimenzionális hang</string>
     <string name="circulate_headset_control_audio_effect_off">Térbeli hang kikapcsolása</string>
     <string name="circulate_headset_control_audio_effect_spatial">Térbeli hang bekapcsolása</string>
     <string name="circulate_headset_control_audio_find_earphone">Hang lejátszása</string>
@@ -429,6 +435,10 @@ a tablet képernyőjének tükrözéséhez"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Töltés</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Zajszűrés</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Fejmozgás lekövetése</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Ki</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Immerzív hang</string>
     <string name="circulate_headset_control_more_settings">További beállítások</string>
     <string name="circulate_headset_duplicate_cancel">Mégse</string>
     <string name="circulate_headset_duplicate_dialog_message">Úgy tűnik, egy másik fülhallgató csatlakozik a(z) %1$s készülékhez. Kicseréli a jelenlegi szettre?</string>
@@ -440,6 +450,8 @@ a tablet képernyőjének tükrözéséhez"</string>
     <string name="circulate_headset_duplicate_ok">Csere</string>
     <string name="circulate_headset_error_account_not_match">Ügyeljen rá, hogy ugyanazt a Xiaomi Fiókot használja mindkét készüléken</string>
     <string name="circulate_headset_error_acquired_by_other_host">Mostantól másik készüléket használ. Próbálja újra később!</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Először viselje a fülhallgatót</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">A funkció használatához mindkét fülhallgatót be kell dugni</string>
     <string name="circulate_headset_error_camera_glasses_not_support">A Szemüveg nem támogatja az eszközök közötti átvitelt</string>
     <string name="circulate_headset_error_default">Kapcsolat időtúllépés</string>
     <string name="circulate_headset_error_device_not_support">Nem lehet fülhallgatót csatlakoztatni ehhez a készülékhez</string>
@@ -1030,7 +1042,6 @@ Ha be kell kapcsolnia a Miracastot, nyomja meg a [MENU] gombot és válassza az 
 %1$d. Ha problémába ütközik, a „Szolgáltatások és visszajelzés” alkalmazásban jelentheti."</string>
     <string name="help_page_text_end">Ha eszközének márkája nem látható itt, vegye fel a kapcsolatot a kivetítési funkcióval kapcsolatos további információkért.</string>
     <string name="i_see">Rendben</string>
-    <string name="ic_media_route_learn_more_accessibility">A tartalomátküldés elsajátítása</string>
     <string name="icon_content_description">Párbeszédpanel ikonja</string>
     <string name="image_transfer_failed">Nem sikerült a kép átvitele</string>
     <string name="install">Telepítés</string>
@@ -1184,17 +1195,8 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="mr_cast_button_connecting">Átküldés. Csatlakozás…</string>
     <string name="mr_cast_button_disconnected">Átküldés. Leválasztva.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nincs információ</string>
-    <string name="mr_chooser_looking_for_devices">Eszközök keresése…</string>
     <string name="mr_chooser_searching">Eszközök keresése</string>
     <string name="mr_chooser_title">Átküldés ide:</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">További információ</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez az autó.</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez a telefon.</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez a táblagép.</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez a tévé.</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez az eszköz.</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Gondoskodjon arról, hogy a másik eszköz ugyanahhoz a Wi-Fi-hálózathoz csatlakozzon, mint ez az óra.</string>
-    <string name="mr_chooser_zero_routes_found_title">Nincs rendelkezésre álló eszköz</string>
     <string name="mr_controller_album_art">Lemezborító</string>
     <string name="mr_controller_casting_screen">Képernyőtartalom átküldése…</string>
     <string name="mr_controller_close_description">Bezárás</string>
@@ -1488,7 +1490,6 @@ Megjegyzés: A Kisegítő lehetőségek funkciók bekapcsolásakor egy rutinszer
     <string name="path_setting_cast_feature">További csatlakozási lehetőségek/Kivetítés/Különleges funkciók</string>
     <string name="path_setting_cast_help">További csatlakozási lehetőségek/Kivetítés/Súgó</string>
     <string name="permission_allowed">Engedély megadva</string>
-    <string name="permission_label_access_app_meta">Hozzáférés az alkalmazás információihoz, amikor alkalmazásokat használ</string>
     <string name="permission_uballowed">Az engedély nincs megadva</string>
     <string name="picker_view_description">Készülékek közötti kamera. A kártya belsejére koppintva kiválaszthatja a közeli készülékek kameráit.</string>
     <string name="picker_view_outside_description">Koppintson a kártya bezárásához.</string>

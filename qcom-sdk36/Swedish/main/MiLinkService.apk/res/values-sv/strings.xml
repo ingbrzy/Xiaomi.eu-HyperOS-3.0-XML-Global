@@ -192,6 +192,8 @@ dina enheter?"</string>
     <string name="cast_closed_captions">Textning</string>
     <string name="cast_closed_captions_unavailable">Textning är inte tillgänglig</string>
     <string name="cast_connecting_to_device">Ansluter till %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Söker efter enheter</string>
+    <string name="cast_device_chooser_title">Casta till</string>
     <string name="cast_disconnect">Koppla från</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d till</string>
     <string name="cast_expanded_controller_ad_image_description">Bild som visas medan en annons spelas upp på Cast-mottagaren</string>
@@ -232,6 +234,9 @@ dina enheter?"</string>
     <string name="cast_tracks_chooser_dialog_ok">Ok</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Undertexter</string>
     <string name="cast_unmute">Slå på ljudet</string>
+    <string name="cast_zero_devices_found">"Inga enheter hittades.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Läs mer</a> om hur du kan casta innehåll till andra enheter.</string>
     <string name="casting_tips">Castar…</string>
     <string name="character_counter_content_description">%1$d av %2$d tecken har angetts</string>
     <string name="character_counter_overflowed_content_description">Teckengränsen har överskridits: %1$d av %2$d</string>
@@ -417,6 +422,7 @@ för att spegla den här surfplattans skärm"</string>
     <string name="circulate_headset_control_anc_disable_hint">Dina hörlurar är ansluta till två enheter. Du kan endast justera volymen från den här enheten.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Brusreducering</string>
     <string name="circulate_headset_control_anc_off">Av</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dimensionellt ljud</string>
     <string name="circulate_headset_control_audio_effect_off">Inaktivera spatialljud</string>
     <string name="circulate_headset_control_audio_effect_spatial">Aktivera spatialljud</string>
     <string name="circulate_headset_control_audio_find_earphone">Spela upp ljud</string>
@@ -429,6 +435,10 @@ för att spegla den här surfplattans skärm"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Laddar</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Bruskontroll</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Spåra huvudrörelse</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Av</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Uppslukande ljud</string>
     <string name="circulate_headset_control_more_settings">Ytterligare inställningar</string>
     <string name="circulate_headset_duplicate_cancel">Avbryt</string>
     <string name="circulate_headset_duplicate_dialog_message">Det verkar som om ett annat par hörlurar är anslutna till din %1$s. Ersätt dem med det aktuella paret?</string>
@@ -440,6 +450,8 @@ för att spegla den här surfplattans skärm"</string>
     <string name="circulate_headset_duplicate_ok">Byt ut</string>
     <string name="circulate_headset_error_account_not_match">Säkerställ att du använder samma Xiaomi-konto på båda enheterna</string>
     <string name="circulate_headset_error_acquired_by_other_host">Använda en annan enhet nu. Testa igen senare.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Använd hörlurarna först</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Sätt i båda hörlurarna för att kunna använda denna funktion</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Glasögonen stöder inte överföring mellan enheter</string>
     <string name="circulate_headset_error_default">Anslutningens tidsgräns uppnåddes</string>
     <string name="circulate_headset_error_device_not_support">Kan inte ansluta hörlurar till den här enheten</string>
@@ -1030,7 +1042,6 @@ Om du behöver aktivera Miracast trycker du på [MENU]-knappen och väljer Mina 
 %1$d. Om du stöter på några problem kan du rapportera dem med hjälp av appen ”Tjänster och feedback”."</string>
     <string name="help_page_text_end">Om märket för din enhet inte anges här kan du kontakta tillverkaren för att lära dig mer om castingfunktion.</string>
     <string name="i_see">Jag förstår</string>
-    <string name="ic_media_route_learn_more_accessibility">Så castar du</string>
     <string name="icon_content_description">Dialogikon</string>
     <string name="image_transfer_failed">Kunde inte överföra bild</string>
     <string name="install">Installera</string>
@@ -1183,17 +1194,8 @@ Notera: Du kommer att få en rutinmässig systemvarning när du aktiverar tillg�
     <string name="mr_cast_button_connecting">Casta. Ansluter</string>
     <string name="mr_cast_button_disconnected">Casta. Frånkopplad</string>
     <string name="mr_cast_dialog_title_view_placeholder">Det finns ingen tillgänglig information</string>
-    <string name="mr_chooser_looking_for_devices">Söker efter enheter …</string>
     <string name="mr_chooser_searching">Letar efter enheter</string>
     <string name="mr_chooser_title">Casta till</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Läs mer</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna bil</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna telefon</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna surfplatta</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna tv</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna enhet</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Kontrollera att den andra enheten är ansluten till samma wifi-nätverk som denna klocka</string>
-    <string name="mr_chooser_zero_routes_found_title">Inga tillgängliga enheter</string>
     <string name="mr_controller_album_art">Skivomslag</string>
     <string name="mr_controller_casting_screen">Skärmen castas</string>
     <string name="mr_controller_close_description">Stäng</string>
@@ -1487,7 +1489,6 @@ Notera: Du kommer att få en rutinmässig systemvarning när du aktiverar tillg�
     <string name="path_setting_cast_feature">Fler anslutningsalternativ/Casta/Specialfunktioner</string>
     <string name="path_setting_cast_help">Fler anslutningsalternativ/Casta/Hjälp</string>
     <string name="permission_allowed">Beviljat</string>
-    <string name="permission_label_access_app_meta">Få åtkomst till appinformation när du använder appar på flera enheter</string>
     <string name="permission_uballowed">Ej beviljat</string>
     <string name="picker_view_description">Kamera mellan enheter. Du kan trycka på inne i kortet för att välja kameror på närliggande enheter.</string>
     <string name="picker_view_outside_description">Tryck för att stänga det här kortet.</string>

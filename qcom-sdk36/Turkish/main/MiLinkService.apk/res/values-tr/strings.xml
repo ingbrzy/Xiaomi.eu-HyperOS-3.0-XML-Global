@@ -192,6 +192,8 @@ bulunamıyor mu?"</string>
     <string name="cast_closed_captions">Alt yazılar</string>
     <string name="cast_closed_captions_unavailable">Altyazılar kullanılamıyor</string>
     <string name="cast_connecting_to_device">%1$s cihazına bağlanılıyor</string>
+    <string name="cast_device_chooser_searching_for_devices">Cihazlar bulunuyor</string>
+    <string name="cast_device_chooser_title">Şuraya yayınla:</string>
     <string name="cast_disconnect">Bağlantıyı kes</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Yayın alıcıda bir reklam oynatılırken gösterilen resim</string>
@@ -232,6 +234,9 @@ bulunamıyor mu?"</string>
     <string name="cast_tracks_chooser_dialog_ok">Tamam</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Altyazılar</string>
     <string name="cast_unmute">Sesi aç</string>
+    <string name="cast_zero_devices_found">"Hiçbir cihaz bulunamadı.
+"</string>
+    <string name="cast_zero_devices_learn_more_description">İçeriklerinizi diğer cihazlara nasıl yayınlayabileceğiniz hakkında <a href="https://support.google.com/chromecastbuiltin/answer/3006709">daha fazla bilgi edinin</a>.</string>
     <string name="casting_tips">Yansıtılıyor…</string>
     <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
@@ -417,6 +422,7 @@ başka bir cihaza sürükleyin"</string>
     <string name="circulate_headset_control_anc_disable_hint">Kulaklıklarınız iki cihaza bağlı. Bu cihazdan yalnızca ses seviyesini ayarlayabilirsiniz.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Gürültü engelleme</string>
     <string name="circulate_headset_control_anc_off">Kapat</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Boyutlu ses</string>
     <string name="circulate_headset_control_audio_effect_off">"Mekânsal ses'i kapat"</string>
     <string name="circulate_headset_control_audio_effect_spatial">"Mekânsal ses'i aç"</string>
     <string name="circulate_headset_control_audio_find_earphone">Sesi çal</string>
@@ -429,6 +435,10 @@ başka bir cihaza sürükleyin"</string>
     <string name="circulate_headset_control_battery_left">Sol</string>
     <string name="circulate_headset_control_battery_right">Sağ</string>
     <string name="circulate_headset_control_charging">Şarj oluyor</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Gürültü kontrolü</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Kafa hareketini izle</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Kapalı</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Sürükleyici ses</string>
     <string name="circulate_headset_control_more_settings">Ek ayarlar</string>
     <string name="circulate_headset_duplicate_cancel">İptal</string>
     <string name="circulate_headset_duplicate_dialog_message">Başka bir kulaklık çifti %1$s cihazınıza bağlı görünüyor. Mevcut çift ile değiştirilsin mi?</string>
@@ -440,6 +450,8 @@ başka bir cihaza sürükleyin"</string>
     <string name="circulate_headset_duplicate_ok">Değiştir</string>
     <string name="circulate_headset_error_account_not_match">"Her iki cihazda da aynı Xiaomi Hesabı'nı kulandığınızdan emin olun"</string>
     <string name="circulate_headset_error_acquired_by_other_host">Şimdi başka bir cihaz kullanılıyor. Daha sonra tekrar deneyin.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Önce kulaklıkları takın</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Bu özelliği kullanabilmek için her iki kulaklığı da takın</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Gözlük cihazlar arası aktarımı desteklemiyor</string>
     <string name="circulate_headset_error_default">Bağlantı zaman aşımına uğradı</string>
     <string name="circulate_headset_error_device_not_support">Kulaklıklar bu cihaza bağlanamıyor</string>
@@ -1030,7 +1042,6 @@ Miracast özelliğini açmanız gerekirse [MENU] tuşuna basın ve Uygulamaları
 %1$d. Herhangi bir sorunla karşılaşırsanız, bu sorunu \"Hizmetler &amp; geri bildirim\" uygulamamızı kullanarak bildirebilirsiniz."</string>
     <string name="help_page_text_end">Cihazınızın markası listede yoksa, yansıtma işlevi hakkında daha fazla bilgi almak için üretici ile iletişime geçin.</string>
     <string name="i_see">Anladım</string>
-    <string name="ic_media_route_learn_more_accessibility">Nasıl yayınlayacağınızı öğrenin</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
     <string name="image_transfer_failed">Görüntü aktarılamadı</string>
     <string name="install">Yükle</string>
@@ -1183,17 +1194,8 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="mr_cast_button_connecting">Yayınla. Bağlanıyor</string>
     <string name="mr_cast_button_disconnected">Yayınla. Bağlı değil</string>
     <string name="mr_cast_dialog_title_view_placeholder">Bilgi yok</string>
-    <string name="mr_chooser_looking_for_devices">Cihazlar aranıyor...</string>
     <string name="mr_chooser_searching">Cihazlar bulunuyor</string>
     <string name="mr_chooser_title">Yayınlanacak yer:</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Daha fazla bilgi</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Diğer cihazın bu araba ile aynı kablosuz ağa bağlandığından emin olun</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Diğer cihazın bu telefon ile aynı kablosuz ağa bağlandığından emin olun</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Diğer cihazın bu tablet ile aynı kablosuz ağa bağlandığından emin olun</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Diğer cihazın bu tv ile aynı kablosuz ağa bağlandığından emin olun</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Diğer cihazın bu cihaz ile aynı kablosuz ağa bağlandığından emin olun</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Diğer cihazın bu kol saati ile aynı kablosuz ağa bağlandığından emin olun</string>
-    <string name="mr_chooser_zero_routes_found_title">Kullanılabilir cihaz yok</string>
     <string name="mr_controller_album_art">Albüm kapağı</string>
     <string name="mr_controller_casting_screen">Ekran yayınlanıyor</string>
     <string name="mr_controller_close_description">Kapat</string>
@@ -1487,7 +1489,6 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="path_setting_cast_feature">Daha fazla bağlantı seçeneği/Yasıtma/Özel özellikler</string>
     <string name="path_setting_cast_help">Daha fazla bağlantı seçeneği/Yasıtma/Yardım</string>
     <string name="permission_allowed">İzin verildi</string>
-    <string name="permission_label_access_app_meta">Farklı cihazlarda uygulama kullanırken uygulama bildirimlerine eriş</string>
     <string name="permission_uballowed">İzin verilmedi</string>
     <string name="picker_view_description">Cihazlar arası kamera. Yakındaki cihazlardaki kameraları seçmek için kartın içine dokunabilirsiniz.</string>
     <string name="picker_view_outside_description">Bu kartı kapatmak için dokunun.</string>

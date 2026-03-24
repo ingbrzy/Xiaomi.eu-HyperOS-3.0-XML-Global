@@ -192,6 +192,8 @@ konnten nicht gefunden werden?"</string>
     <string name="cast_closed_captions">Untertitel</string>
     <string name="cast_closed_captions_unavailable">Untertitel nicht verfügbar</string>
     <string name="cast_connecting_to_device">Verbindung mit %1$s wird hergestellt</string>
+    <string name="cast_device_chooser_searching_for_devices">Geräte werden gesucht</string>
+    <string name="cast_device_chooser_title">Streamen auf</string>
     <string name="cast_disconnect">Verbindung aufheben</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Das Bild wird angezeigt, während der Cast-Receiver eine Werbung wiedergibt</string>
@@ -232,6 +234,9 @@ konnten nicht gefunden werden?"</string>
     <string name="cast_tracks_chooser_dialog_ok">Ok</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Untertitel</string>
     <string name="cast_unmute">Stummschaltung aufheben</string>
+    <string name="cast_zero_devices_found">"Keine Geräte gefunden.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Weitere Informationen zum Streamen von Inhalten auf andere Geräte.</a></string>
     <string name="casting_tips">Übertragung…</string>
     <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
     <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
@@ -417,6 +422,7 @@ um den Bildschirm dieses Tablets zu zu spiegeln"</string>
     <string name="circulate_headset_control_anc_disable_hint">Deine Kopfhörer sind mit zwei Geräten verbunden. Du kannst die Lautstärke nur von diesem Gerät aus einstellen.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Geräuschunterdrückung</string>
     <string name="circulate_headset_control_anc_off">Aus</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dimensionales Audio</string>
     <string name="circulate_headset_control_audio_effect_off">Räumlichen Ton ausschalten</string>
     <string name="circulate_headset_control_audio_effect_spatial">Räumlichen Ton einschalten</string>
     <string name="circulate_headset_control_audio_find_earphone">Ton abspielen</string>
@@ -429,6 +435,10 @@ um den Bildschirm dieses Tablets zu zu spiegeln"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Aufladen</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Antischall</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Kopfbewegung verfolgen</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Aus</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Immersiver Sound</string>
     <string name="circulate_headset_control_more_settings">Weitere Einstellungen</string>
     <string name="circulate_headset_duplicate_cancel">Abbrechen</string>
     <string name="circulate_headset_duplicate_dialog_message">Es sieht so aus, als ob ein weiteres Paar Kopfhörer an dein %1$s angeschlossen ist. Diese durch die aktuellen Kopfhörer ersetzen?</string>
@@ -440,6 +450,8 @@ um den Bildschirm dieses Tablets zu zu spiegeln"</string>
     <string name="circulate_headset_duplicate_ok">Ersetzen</string>
     <string name="circulate_headset_error_account_not_match">Stelle sicher, dass du auf beiden Geräte das gleiche Xiaomi-Konto verwendest</string>
     <string name="circulate_headset_error_acquired_by_other_host">Jetzt ein anderes Gerät verwenden. Versuchen Sie es später erneut.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Trage zuerst deine Kopfhörer</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Setze beide Kopfhörer ein, um diese Funktion nutzen zu können</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Die Brille unterstützt keine geräteübergreifende Übertragung</string>
     <string name="circulate_headset_error_default">Zeitüberschreitung der Verbindung</string>
     <string name="circulate_headset_error_device_not_support">Verbinden der Kopfhörer mit diesem Gerät fehlgeschlagen</string>
@@ -1030,7 +1042,6 @@ Wenn du Miracast einschalten musst, drücke auf die [MENU]-Schaltfläche und wä
 %1$d. Im Falle von Problemen kannst du sie mithilfe unserer „Services und Feedback“-App melden."</string>
     <string name="help_page_text_end">Wenn die Marke deines Geräts hier nicht aufgelistet ist, kontaktiere den Hersteller, um mehr über die Übertragungsfunktionalität zu erfahren.</string>
     <string name="i_see">Verstanden</string>
-    <string name="ic_media_route_learn_more_accessibility">Informationen zum Streamen</string>
     <string name="icon_content_description">Dialogfeldsymbol</string>
     <string name="image_transfer_failed">Übertragen des Bildes fehlgeschlagen</string>
     <string name="install">Installieren</string>
@@ -1183,17 +1194,8 @@ Hinweis: Du erhältst eine routinemäßige Systemwarnung, wenn du die Barrierefr
     <string name="mr_cast_button_connecting">Streamen. Verbindung wird hergestellt.</string>
     <string name="mr_cast_button_disconnected">Streamen. Nicht verbunden.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Keine Informationen verfügbar</string>
-    <string name="mr_chooser_looking_for_devices">Suche nach Geräten läuft…</string>
     <string name="mr_chooser_searching">Geräte werden gesucht</string>
     <string name="mr_chooser_title">Streamen auf</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Weitere Informationen</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Auto befindet</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Smartphone befindet</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Tablet befindet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieser Fernseher befindet</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Gerät befindet</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Achte darauf, dass sich das andere Gerät im selben WLAN wie diese Smartwatch befindet</string>
-    <string name="mr_chooser_zero_routes_found_title">Keine Geräte verfügbar</string>
     <string name="mr_controller_album_art">Albumcover</string>
     <string name="mr_controller_casting_screen">Bildschirm wird übertragen</string>
     <string name="mr_controller_close_description">Schließen</string>
@@ -1487,7 +1489,6 @@ Hinweis: Du erhältst eine routinemäßige Systemwarnung, wenn du die Barrierefr
     <string name="path_setting_cast_feature">Mehr Verbindungsoptionen/Übertragen/Besondere Funktionen</string>
     <string name="path_setting_cast_help">Mehr Verbindungsoptionen/Übertragen/Hilfe</string>
     <string name="permission_allowed">Erteilt</string>
-    <string name="permission_label_access_app_meta">Zugriff auf App-Informationen, wenn Apps geräteübergreifend verwendet werden</string>
     <string name="permission_uballowed">Nicht erteilt</string>
     <string name="picker_view_description">Geräteübergreifende Kamera. Du kannst innerhalb der Karte tippen, um Kameras auf Geräten in der Nähe auszuwählen.</string>
     <string name="picker_view_outside_description">Tippe, um diese Karte zu schließen.</string>

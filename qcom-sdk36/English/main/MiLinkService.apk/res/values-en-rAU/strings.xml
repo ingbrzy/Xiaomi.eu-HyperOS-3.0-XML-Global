@@ -365,6 +365,7 @@ to mirror this tablet's screen"</string>
     <string name="circulate_headset_control_anc_disable_hint">Your earphones are connected to two devices. You can only adjust volume from this device.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Noise cancellation</string>
     <string name="circulate_headset_control_anc_off">Off</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dimensional audio</string>
     <string name="circulate_headset_control_audio_effect_off">Turn off Spatial Audio</string>
     <string name="circulate_headset_control_audio_effect_spatial">Turn on Spatial Audio</string>
     <string name="circulate_headset_control_audio_find_earphone">Play sound</string>
@@ -377,6 +378,10 @@ to mirror this tablet's screen"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Charging</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Noise control</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Track head movement</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Off</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Immersive sound</string>
     <string name="circulate_headset_control_more_settings">Additional settings</string>
     <string name="circulate_headset_duplicate_cancel">Cancel</string>
     <string name="circulate_headset_duplicate_dialog_message">Looks like another set of earphones is connected to your %1$s. Replace them with the current set?</string>
@@ -388,6 +393,8 @@ to mirror this tablet's screen"</string>
     <string name="circulate_headset_duplicate_ok">Replace</string>
     <string name="circulate_headset_error_account_not_match">"Make sure you're using the same Xiaomi Account on both devices"</string>
     <string name="circulate_headset_error_acquired_by_other_host">Using another device now. Try again later.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Wear your earphones first</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Put in both earphones to be able to use this feature</string>
     <string name="circulate_headset_error_camera_glasses_not_support">"Glasses don't support cross-device transfer"</string>
     <string name="circulate_headset_error_default">Connection timed out</string>
     <string name="circulate_headset_error_device_not_support">"Can't connect earphones to this device"</string>
@@ -942,7 +949,6 @@ If you need to turn on Miracast, press the [MENU] button and select My apps > Ca
 %1$d. If you encounter any issues, you can report them using our \"Services &amp; feedback\" app."</string>
     <string name="help_page_text_end">"If the brand of your device isn't listed here, contact the manufacturer to learn more about casting functionality."</string>
     <string name="i_see">Got it</string>
-    <string name="ic_media_route_learn_more_accessibility">Learn how to cast</string>
     <string name="image_transfer_failed">"Couldn't transfer image"</string>
     <string name="install">Install</string>
     <string name="inter_connect_setting_unavailable_dialog_message">Open Settings > Interconnectivity to turn on cross-device camera.</string>
@@ -1018,17 +1024,8 @@ Note: You'll receive a routine system warning when you turn on accessibility fea
     <string name="mr_cast_button_connecting">Cast. Connecting</string>
     <string name="mr_cast_button_disconnected">Cast. Disconnected</string>
     <string name="mr_cast_dialog_title_view_placeholder">No info available</string>
-    <string name="mr_chooser_looking_for_devices">Looking for devices...</string>
     <string name="mr_chooser_searching">Finding devices</string>
     <string name="mr_chooser_title">Cast to</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Learn more</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Make sure that the other device is on the same Wi-Fi network as this car</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Make sure that the other device is on the same Wi-Fi network as this phone</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Make sure that the other device is on the same Wi-Fi network as this tablet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Make sure that the other device is on the same Wi-Fi network as this TV</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Make sure that the other device is on the same Wi-Fi network as this device</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Make sure that the other device is on the same Wi-Fi network as this watch</string>
-    <string name="mr_chooser_zero_routes_found_title">No devices available</string>
     <string name="mr_controller_album_art">Album art</string>
     <string name="mr_controller_casting_screen">Casting screen</string>
     <string name="mr_controller_close_description">Close</string>
@@ -1274,7 +1271,6 @@ Note: You'll receive a routine system warning when you turn on accessibility fea
     <string name="path_setting_cast_feature">More connectivity options/Cast/Special features</string>
     <string name="path_setting_cast_help">More connectivity options/Cast/Help</string>
     <string name="permission_allowed">Granted</string>
-    <string name="permission_label_access_app_meta">Access app info when using apps across devices</string>
     <string name="permission_uballowed">Not granted</string>
     <string name="picker_view_description">Cross-device camera. You can tap inside the card to select cameras on nearby devices.</string>
     <string name="picker_view_outside_description">Tap to close this card.</string>

@@ -192,6 +192,8 @@ vostres dispositius?"</string>
     <string name="cast_closed_captions">Subtítols</string>
     <string name="cast_closed_captions_unavailable">Els subtítols no estan disponibles</string>
     <string name="cast_connecting_to_device">"S'està connectant a %1$s"</string>
+    <string name="cast_device_chooser_searching_for_devices">"S'estan cercant dispositius"</string>
+    <string name="cast_device_chooser_title">Emet contingut a</string>
     <string name="cast_disconnect">Desconnecta</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Imatge que es mostra mentre el receptor de Google Cast està reproduint un anunci</string>
@@ -232,6 +234,9 @@ vostres dispositius?"</string>
     <string name="cast_tracks_chooser_dialog_ok">"D'acord"</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Subtítols</string>
     <string name="cast_unmute">Deixa de silenciar</string>
+    <string name="cast_zero_devices_found">"No s'ha trobat cap dispositiu.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Obtén més informació</a> sobre com pots emetre contingut a altres dispositius.</string>
     <string name="casting_tips">Emetent…</string>
     <string name="character_counter_content_description">Caràcters introduïts: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">"S'ha superat el límit de caràcters (%1$d de %2$d)"</string>
@@ -417,6 +422,7 @@ per reflectir la pantalla d'aquesta tauleta"</string>
     <string name="circulate_headset_control_anc_disable_hint">"Els vostres auriculars estan connectats a dos dispositius. Només pots ajustar el volum des d'aquest dispositiu."</string>
     <string name="circulate_headset_control_anc_noise_cancel">Cancel·lació de soroll</string>
     <string name="circulate_headset_control_anc_off">Desactivats</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Àudio dimensional</string>
     <string name="circulate_headset_control_audio_effect_off">"Desactiva l'àudio espacial"</string>
     <string name="circulate_headset_control_audio_effect_spatial">"Activa l'àudio espacial"</string>
     <string name="circulate_headset_control_audio_find_earphone">Reproduïu so</string>
@@ -429,6 +435,10 @@ per reflectir la pantalla d'aquesta tauleta"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">"S'està carregant"</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Control de veu</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Seguiment del moviment del cap</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Desactiva</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">So immersiu</string>
     <string name="circulate_headset_control_more_settings">Configuració addicional</string>
     <string name="circulate_headset_duplicate_cancel">Cancel·la</string>
     <string name="circulate_headset_duplicate_dialog_message">"Sembla que un altre joc d'auriculars està connectat al teu %1$s. Vols substituir-los pel conjunt actual?"</string>
@@ -440,6 +450,8 @@ per reflectir la pantalla d'aquesta tauleta"</string>
     <string name="circulate_headset_duplicate_ok">Reemplaça</string>
     <string name="circulate_headset_error_account_not_match">Assegureu-vos que feu servir el mateix Compte Xiaomi als dos dispositius</string>
     <string name="circulate_headset_error_acquired_by_other_host">"S'està fent servir un altre dispositiu ara. Torna-ho a provar més tard."</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Poseu-vos primer els dos auriculars</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Poseu-vos els dos auriculars per poder utilitzar aquesta funció</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Les ulleres no admeten la transferència entre dispositius</string>
     <string name="circulate_headset_error_default">Temps de connexió excedit</string>
     <string name="circulate_headset_error_device_not_support">No es poden connectar els auriculars a aquest dispositiu</string>
@@ -1030,7 +1042,6 @@ Si necessites activar Miracast, prem el botó [MENU] i selecciona Les meves apps
 %1$d. Si tens problemes, pots informar-te mitjançant L'aplicació \"Serveis i comentaris\"."</string>
     <string name="help_page_text_end">"Si la marca del teu dispositiu no apareix aquí, posa't en contacte amb el fabricant per obtenir més informació sobre les funcions d'emissió."</string>
     <string name="i_see">Entesos</string>
-    <string name="ic_media_route_learn_more_accessibility">Informació sobre com pots emetre contingut</string>
     <string name="icon_content_description">Icona del quadre de diàleg</string>
     <string name="image_transfer_failed">"No s'ha pogut transferir la imatge"</string>
     <string name="install">Instal·la</string>
@@ -1183,17 +1194,8 @@ Nota: rebreu un avís del sistema habitual quan activeu les funcions d'accessibi
     <string name="mr_cast_button_connecting">"Emet. S'està connectant."</string>
     <string name="mr_cast_button_disconnected">Emet. Desconnectat.</string>
     <string name="mr_cast_dialog_title_view_placeholder">No hi ha informació disponible</string>
-    <string name="mr_chooser_looking_for_devices">"S'estan cercant dispositius..."</string>
     <string name="mr_chooser_searching">"S'estan cercant dispositius"</string>
     <string name="mr_chooser_title">Emet contingut a</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Més informació</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">"Assegura't que l'altre dispositiu estigui connectat a la mateixa xarxa Wi‑Fi que aquest cotxe"</string>
-    <string name="mr_chooser_wifi_warning_description_phone">"Assegura't que l'altre dispositiu estigui connectat a la mateixa xarxa Wi‑Fi que aquest telèfon"</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">"Assegura't que l'altre dispositiu estigui connectat a la mateixa xarxa Wi‑Fi que aquesta tauleta"</string>
-    <string name="mr_chooser_wifi_warning_description_tv">"Assegura't que l'altre dispositiu estigui connectat a la mateixa xarxa Wi‑Fi que aquest televisor"</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">"Assegura't que l'altre dispositiu estigui connectat a la mateixa xarxa Wi‑Fi que aquest dispositiu"</string>
-    <string name="mr_chooser_wifi_warning_description_watch">"Assegura't que l'altre dispositiu estigui connectat a la mateixa xarxa Wi‑Fi que aquest rellotge"</string>
-    <string name="mr_chooser_zero_routes_found_title">No hi ha cap dispositiu disponible</string>
     <string name="mr_controller_album_art">"Imatge de l'àlbum"</string>
     <string name="mr_controller_casting_screen">"S'està emetent la pantalla"</string>
     <string name="mr_controller_close_description">Tanca</string>
@@ -1487,7 +1489,6 @@ Nota: rebreu un avís del sistema habitual quan activeu les funcions d'accessibi
     <string name="path_setting_cast_feature">Més opcions de connectivitat/Emet/Funcions especials</string>
     <string name="path_setting_cast_help">Més opcions de connectivitat/Emet/Ajuda</string>
     <string name="permission_allowed">Concedit</string>
-    <string name="permission_label_access_app_meta">"Accedir a la informació de l'aplicació quan s'utilitzen aplicacions entre dispositius"</string>
     <string name="permission_uballowed">Sense concedir</string>
     <string name="picker_view_description">Càmera multidispositiu. Podeu tocar dins de la targeta per seleccionar les càmeres dels dispositius propers.</string>
     <string name="picker_view_outside_description">Toqueu per tancar aquesta targeta.</string>

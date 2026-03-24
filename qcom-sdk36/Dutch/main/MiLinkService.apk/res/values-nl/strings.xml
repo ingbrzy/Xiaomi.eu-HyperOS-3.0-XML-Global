@@ -192,6 +192,8 @@ uw apparaten niet vinden?"</string>
     <string name="cast_closed_captions">Ondertiteling</string>
     <string name="cast_closed_captions_unavailable">Ondertiteling niet beschikbaar</string>
     <string name="cast_connecting_to_device">Verbinden met %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Apparaten zoeken</string>
+    <string name="cast_device_chooser_title">Casten naar</string>
     <string name="cast_disconnect">Verbinding verbreken</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Afbeelding die wordt weergegeven terwijl de Cast-receiver een advertentie afspeelt</string>
@@ -232,6 +234,9 @@ uw apparaten niet vinden?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Ondertiteling</string>
     <string name="cast_unmute">Dempen opheffen</string>
+    <string name="cast_zero_devices_found">"Geen apparaten gevonden.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Meer informatie</a> over hoe je je content naar andere apparaten kunt casten.</string>
     <string name="casting_tips">Aan het casten…</string>
     <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
     <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
@@ -417,6 +422,7 @@ om het scherm van deze tablet te spiegelen"</string>
     <string name="circulate_headset_control_anc_disable_hint">Uw oortelefoons zijn verbonden met twee apparaten. U kunt het volume alleen vanaf dit apparaat aanpassen.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Ruisonderdrukking</string>
     <string name="circulate_headset_control_anc_off">Uit</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dimensionale audio</string>
     <string name="circulate_headset_control_audio_effect_off">Ruimtelijke audio uitschakelen</string>
     <string name="circulate_headset_control_audio_effect_spatial">Ruimtelijke audio inschakelen</string>
     <string name="circulate_headset_control_audio_find_earphone">Geluid afspelen</string>
@@ -429,6 +435,10 @@ om het scherm van deze tablet te spiegelen"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Opladen</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Geluidsbeheersing</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Volg hoofdbeweging</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Uit</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Meeslepend geluid</string>
     <string name="circulate_headset_control_more_settings">Aanvullende instellingen</string>
     <string name="circulate_headset_duplicate_cancel">Annuleren</string>
     <string name="circulate_headset_duplicate_dialog_message">Het lijkt erop dat er nog een set oortelefoons is aangesloten op uw %1$s. Vervangen door de huidige set?</string>
@@ -440,6 +450,8 @@ om het scherm van deze tablet te spiegelen"</string>
     <string name="circulate_headset_duplicate_ok">Vervangen</string>
     <string name="circulate_headset_error_account_not_match">Zorg ervoor dat u op beide apparaten hetzelfde Xiaomi Account gebruikt</string>
     <string name="circulate_headset_error_acquired_by_other_host">Gebruik nu een ander apparaat. Probeer het later opnieuw.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Doe eerst uw oortelefoons in</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Doe beide oortelefoons in om deze functie te kunnen gebruiken</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Brillen ondersteunen geen overdracht tussen apparaten</string>
     <string name="circulate_headset_error_default">Verbinding verlopen</string>
     <string name="circulate_headset_error_device_not_support">Kan geen oortelefoons op dit apparaat aansluiten</string>
@@ -561,7 +573,7 @@ uw apparaten niet vinden?"</string>
     <string name="close_invisible_mode_dialog_ok">Instellingen</string>
     <string name="close_invisible_mode_dialog_title">U bent incognito</string>
     <string name="common_google_play_services_enable_button">Aanzetten</string>
-    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services aanzet.</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
     <string name="common_google_play_services_enable_title">Google Play-services aanzetten</string>
     <string name="common_google_play_services_install_button">Installeren</string>
     <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
@@ -1030,7 +1042,6 @@ Als u Miracast moet inschakelen, druk dan op de knop [MENU] en selecteer Mijn ap
 %1$d. Als u problemen ondervindt, kunt u deze melden met behulp van onze app \"Services en feedback\"."</string>
     <string name="help_page_text_end">Als uw merk apparaat hier niet genoemd is, neem dan contact op met de producent voor meer informatie over casten.</string>
     <string name="i_see">Begrepen</string>
-    <string name="ic_media_route_learn_more_accessibility">Meer informatie over casten</string>
     <string name="icon_content_description">Icoon voor dialoogvenster</string>
     <string name="image_transfer_failed">Kon afbeelding niet overzetten</string>
     <string name="install">Installeren</string>
@@ -1183,17 +1194,8 @@ Opmerking: U ontvangt een routinematige systeemwaarschuwing wanneer u toegankeli
     <string name="mr_cast_button_connecting">Casten. Verbinding maken.</string>
     <string name="mr_cast_button_disconnected">Casten. Verbinding verbroken.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Geen informatie beschikbaar</string>
-    <string name="mr_chooser_looking_for_devices">Apparaten zoeken...</string>
     <string name="mr_chooser_searching">Apparaten zoeken</string>
     <string name="mr_chooser_title">Casten naar</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Meer informatie</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze auto</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze telefoon</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze tablet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze tv</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als dit apparaat</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Zorg dat het andere apparaat is verbonden met hetzelfde wifi-netwerk als deze smartwatch</string>
-    <string name="mr_chooser_zero_routes_found_title">Geen apparaten beschikbaar</string>
     <string name="mr_controller_album_art">Albumhoes</string>
     <string name="mr_controller_casting_screen">Scherm casten</string>
     <string name="mr_controller_close_description">Sluiten</string>
@@ -1487,7 +1489,6 @@ Opmerking: U ontvangt een routinematige systeemwaarschuwing wanneer u toegankeli
     <string name="path_setting_cast_feature">Meer connectiviteitsopties/Casten/Speciale functies</string>
     <string name="path_setting_cast_help">Meer connectiviteitsopties/Casten/Help</string>
     <string name="permission_allowed">Toegekend</string>
-    <string name="permission_label_access_app_meta">Toegang tot app-info bij het gebruik van apps op verschillende apparaten</string>
     <string name="permission_uballowed">Niet toegekend</string>
     <string name="picker_view_description">"Camera voor meerdere apparaten. U kunt op de kaart tikken om camera's op apparaten in de buurt te selecteren."</string>
     <string name="picker_view_outside_description">Tik om deze kaart te sluiten.</string>
