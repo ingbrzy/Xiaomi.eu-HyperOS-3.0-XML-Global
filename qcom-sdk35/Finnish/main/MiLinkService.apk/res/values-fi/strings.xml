@@ -192,6 +192,8 @@ laitteitasi?"</string>
     <string name="cast_closed_captions">Tekstitykset</string>
     <string name="cast_closed_captions_unavailable">Tekstitykset eivät ole käytettävissä.</string>
     <string name="cast_connecting_to_device">%1$s muodostaa yhteyttä</string>
+    <string name="cast_device_chooser_searching_for_devices">Etsitään laitteita</string>
+    <string name="cast_device_chooser_title">Suoratoiston kohde</string>
     <string name="cast_disconnect">Katkaise yhteys</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Kuva näytetään vastaanottimen toistaessa mainosta.</string>
@@ -232,6 +234,9 @@ laitteitasi?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Tekstitykset</string>
     <string name="cast_unmute">Poista mykistys</string>
+    <string name="cast_zero_devices_found">"Laitteita ei löytynyt.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Lue lisää</a> sisällön striimaamisesta muille laitteille.</string>
     <string name="casting_tips">Jaetaan näyttöä…</string>
     <string name="character_counter_content_description">%1$d/%2$d merkkiä kirjoitettu</string>
     <string name="character_counter_overflowed_content_description">Merkkiraja ylitetty: %1$d/%2$d</string>
@@ -417,6 +422,7 @@ peilataksesi tämän tabletin näytön"</string>
     <string name="circulate_headset_control_anc_disable_hint">Kuulokkeet on yhdistetty kahteen laitteeseen. Voit säätää äänenvoimakkuutta vain tästä laitteesta.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Melunvaimennus</string>
     <string name="circulate_headset_control_anc_off">Pois päältä</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Moniulotteinen ääni</string>
     <string name="circulate_headset_control_audio_effect_off">Poista tilaääni käytöstä</string>
     <string name="circulate_headset_control_audio_effect_spatial">Ota tilaääni käyttöön</string>
     <string name="circulate_headset_control_audio_find_earphone">Toista ääni</string>
@@ -429,6 +435,10 @@ peilataksesi tämän tabletin näytön"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Ladataan</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Melun hallinta</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Seuraa pään liikettä</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Pois päältä</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Mukaansatempaava ääni</string>
     <string name="circulate_headset_control_more_settings">Lisäasetukset</string>
     <string name="circulate_headset_duplicate_cancel">Peruuta</string>
     <string name="circulate_headset_duplicate_dialog_message">Näyttää siltä, että laitteeseesi %1$s on kytketty toinen kuulokesarja. Korvataanko ne nykyisellä sarjalla?</string>
@@ -440,6 +450,8 @@ peilataksesi tämän tabletin näytön"</string>
     <string name="circulate_headset_duplicate_ok">Korvaa</string>
     <string name="circulate_headset_error_account_not_match">Varmista, että käytät samaa Xiaomi-tiliä molemmissa laitteissa</string>
     <string name="circulate_headset_error_acquired_by_other_host">Käytä nyt toista laitetta. Yritä myöhemmin uudelleen.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Aseta ensin korvakuulokkeet korviin</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Aseta molemmat korvakuulokkeet korviin, jotta voit käyttää tätä ominaisuutta</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Silmälasit eivät tue siirtoa laitteiden välillä</string>
     <string name="circulate_headset_error_default">Yhteys aikakatkaistiin</string>
     <string name="circulate_headset_error_device_not_support">Kuulokkeita ei voi yhdistää tähän laitteeseen</string>
@@ -1030,7 +1042,6 @@ Jos sinun tarvitsee ottaa Miracast käyttöön, paina [MENU]-painiketta ja valit
 %1$d. Jos sinulla on ongelmia, voit ilmoittaa niistä käyttämällä meidän sovellusta \"Palvelut &amp; palaute\"."</string>
     <string name="help_page_text_end">Jos laitteesi tuotemerkkiä ei ole lueteltu tässä, ota yhteyttä valmistajaan saadaksesi lisätietoja peilaustoiminnoista.</string>
     <string name="i_see">Selvä</string>
-    <string name="ic_media_route_learn_more_accessibility">Näin striimaaminen onnistuu</string>
     <string name="icon_content_description">Valintaikkunan kuvake</string>
     <string name="image_transfer_failed">Ei voitu siirtää kuvaa</string>
     <string name="install">Asenna</string>
@@ -1183,17 +1194,8 @@ Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominais
     <string name="mr_cast_button_connecting">Striimaa. Yhdistetään</string>
     <string name="mr_cast_button_disconnected">Striimaa. Yhteys katkaistu</string>
     <string name="mr_cast_dialog_title_view_placeholder">Ei tietoja saatavilla</string>
-    <string name="mr_chooser_looking_for_devices">Haetaan laitteita…</string>
     <string name="mr_chooser_searching">Etsitään laitteita</string>
     <string name="mr_chooser_title">Katso TV:stä</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Lue lisää</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Varmista, että tämä ja toinen laite ovat yhdistettynä samaan Wi-Fi-verkkoon</string>
-    <string name="mr_chooser_zero_routes_found_title">Ei laitteita käytettävissä</string>
     <string name="mr_controller_album_art">Albumin kansikuva</string>
     <string name="mr_controller_casting_screen">Suoratoistetaan näyttöä</string>
     <string name="mr_controller_close_description">Sulje</string>
@@ -1487,7 +1489,6 @@ Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominais
     <string name="path_setting_cast_feature">Lisää liitäntävaihtoehtoja/Cast/Erikoisominaisuudet</string>
     <string name="path_setting_cast_help">Lisää liitäntävaihtoehtoja/Cast/Ohje</string>
     <string name="permission_allowed">Myönnetty</string>
-    <string name="permission_label_access_app_meta">Käytä sovellustietoja, kun käytät sovelluksia eri laitteissa</string>
     <string name="permission_uballowed">Ei myönnetty</string>
     <string name="picker_view_description">Laitteiden välinen kamera. Voit napauttaa kortin sisäpuolta valitaksesi kamerat lähellä olevista laitteista.</string>
     <string name="picker_view_outside_description">Sulje tämä kortti napauttamalla.</string>

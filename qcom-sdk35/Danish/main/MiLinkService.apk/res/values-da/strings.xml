@@ -192,6 +192,8 @@ dine enheder?"</string>
     <string name="cast_closed_captions">Undertekster</string>
     <string name="cast_closed_captions_unavailable">Undertekster er ikke tilgængelige</string>
     <string name="cast_connecting_to_device">Der oprettes forbindelse til %1$s</string>
+    <string name="cast_device_chooser_searching_for_devices">Finder enheder</string>
+    <string name="cast_device_chooser_title">Cast til</string>
     <string name="cast_disconnect">Afbryd</string>
     <string name="cast_dynamic_group_name_format">%1$s+%2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Billede, der vises, mens Cast-modtageren afspiller en annonce</string>
@@ -232,6 +234,9 @@ dine enheder?"</string>
     <string name="cast_tracks_chooser_dialog_ok">OK</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Undertekster</string>
     <string name="cast_unmute">Slå lyden til</string>
+    <string name="cast_zero_devices_found">"Der blev ikke fundet nogen enheder.
+"</string>
+    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Få flere oplysninger</a> om, hvordan du caster indhold til andre enheder.</string>
     <string name="casting_tips">Caster…</string>
     <string name="character_counter_content_description">Du har brugt %1$d ud af %2$d tegn</string>
     <string name="character_counter_overflowed_content_description">Du har brugt %1$d tegn og dermed overskredet tegnbegrænsningen på %2$d.</string>
@@ -417,6 +422,7 @@ for at spejle denne tablets skærm"</string>
     <string name="circulate_headset_control_anc_disable_hint">Dine øretelefoner er forbundet til to enheder. Du kan kun justere lydstyrken fra denne enhed.</string>
     <string name="circulate_headset_control_anc_noise_cancel">Støjreduktion</string>
     <string name="circulate_headset_control_anc_off">Deaktiveret</string>
+    <string name="circulate_headset_control_audio_effect_card_title">Dimensionerende lyd</string>
     <string name="circulate_headset_control_audio_effect_off">Slå Rumlig lyd fra</string>
     <string name="circulate_headset_control_audio_effect_spatial">Slå Rumlig lyd til</string>
     <string name="circulate_headset_control_audio_find_earphone">Afspil lyd</string>
@@ -429,6 +435,10 @@ for at spejle denne tablets skærm"</string>
     <string name="circulate_headset_control_battery_left">L</string>
     <string name="circulate_headset_control_battery_right">R</string>
     <string name="circulate_headset_control_charging">Oplader</string>
+    <string name="circulate_headset_control_mi_audio_effect_card_title">Støjreduktion</string>
+    <string name="circulate_headset_control_mi_audio_effect_head_tracking">Track hovedbevægelse</string>
+    <string name="circulate_headset_control_mi_audio_effect_off">Fra</string>
+    <string name="circulate_headset_control_mi_audio_effect_spatial">Immersiv lyd</string>
     <string name="circulate_headset_control_more_settings">Yderligere indstillinger</string>
     <string name="circulate_headset_duplicate_cancel">Annuller</string>
     <string name="circulate_headset_duplicate_dialog_message">Det ser ud til, at et andet sæt øretelefoner er tilsluttet din %1$s. Vil du udskifte dem med det aktuelle sæt?</string>
@@ -440,6 +450,8 @@ for at spejle denne tablets skærm"</string>
     <string name="circulate_headset_duplicate_ok">Udskift</string>
     <string name="circulate_headset_error_account_not_match">Sørg for, at du bruger den samme Xiaomi-konto på begge enheder</string>
     <string name="circulate_headset_error_acquired_by_other_host">Bruger en anden enhed nu. Prøv igen senere.</string>
+    <string name="circulate_headset_error_airpods_headset_both_in_box">Tag dine øretelefoner på først</string>
+    <string name="circulate_headset_error_airpods_headset_not_worn">Tag begge øretelefoner på for at kunne bruge denne funktion</string>
     <string name="circulate_headset_error_camera_glasses_not_support">Brillerne understøtter ikke overførsel mellem enheder</string>
     <string name="circulate_headset_error_default">Forbindelsen udløb</string>
     <string name="circulate_headset_error_device_not_support">Kan ikke tilslutte øretelefoner til denne enhed</string>
@@ -1030,7 +1042,6 @@ Hvis du skal aktivere Miracast, skal du trykke på knappen [MENU] og vælge Mine
 %1$d. Hvis du oplever problemer, kan du rapportere dem ved brug af vores \"Tjenester og feedback\"-app."</string>
     <string name="help_page_text_end">Hvis mærket på din enhed ikke vises her, kan du kontakte producenten for at lære mere om castingfunktion.</string>
     <string name="i_see">Forstået</string>
-    <string name="ic_media_route_learn_more_accessibility">Sådan caster du indhold</string>
     <string name="icon_content_description">Ikon for dialogboks</string>
     <string name="image_transfer_failed">Kunne ikke overføre billede</string>
     <string name="install">Installer</string>
@@ -1183,17 +1194,8 @@ Bemærk: Du modtager en rutinemæssig systemadvarsel, når du slår tilgængelig
     <string name="mr_cast_button_connecting">Cast. Forbinder</string>
     <string name="mr_cast_button_disconnected">Cast. Afbrudt</string>
     <string name="mr_cast_dialog_title_view_placeholder">Der er ingen tilgængelige oplysninger</string>
-    <string name="mr_chooser_looking_for_devices">Søger efter enheder…</string>
     <string name="mr_chooser_searching">Finder enheder</string>
     <string name="mr_chooser_title">Cast til</string>
-    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Få flere oplysninger</a></string>
-    <string name="mr_chooser_wifi_warning_description_car">Sørg for, at den anden enhed har forbindelse til det samme Wi-Fi-netværk som denne bil</string>
-    <string name="mr_chooser_wifi_warning_description_phone">Sørg for, at den anden enhed har forbindelse til det samme Wi-Fi-netværk som denne telefon</string>
-    <string name="mr_chooser_wifi_warning_description_tablet">Sørg for, at den anden enhed har forbindelse til det samme Wi-Fi-netværk som denne tablet</string>
-    <string name="mr_chooser_wifi_warning_description_tv">Sørg for, at den anden enhed har forbindelse til det samme Wi-Fi-netværk som dette fjernsyn</string>
-    <string name="mr_chooser_wifi_warning_description_unknown">Sørg for, at den anden enhed har forbindelse til det samme Wi-Fi-netværk som denne enhed</string>
-    <string name="mr_chooser_wifi_warning_description_watch">Sørg for, at den anden enhed har forbindelse til det samme Wi-Fi-netværk som dette ur</string>
-    <string name="mr_chooser_zero_routes_found_title">Der er ingen tilgængelige enheder</string>
     <string name="mr_controller_album_art">Albumgrafik</string>
     <string name="mr_controller_casting_screen">Skærmen castes</string>
     <string name="mr_controller_close_description">Luk</string>
@@ -1487,7 +1489,6 @@ Bemærk: Du modtager en rutinemæssig systemadvarsel, når du slår tilgængelig
     <string name="path_setting_cast_feature">Flere tilslutningsmuligheder/Cast/Specielle funktioner</string>
     <string name="path_setting_cast_help">Flere tilslutningsmuligheder/Cast/Hjælp</string>
     <string name="permission_allowed">Givet</string>
-    <string name="permission_label_access_app_meta">Få adgang til appoplysninger ved brug af apps på tværs af enheder</string>
     <string name="permission_uballowed">Ikke givet</string>
     <string name="picker_view_description">Kamera på tværs af enheder. Du kan trykke inde i kortet for at vælge kameraer på nærliggende enheder.</string>
     <string name="picker_view_outside_description">Tryk for at lukke dette kort.</string>
