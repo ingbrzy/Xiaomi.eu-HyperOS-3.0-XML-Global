@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Yeni slayt oluşturmak için dokunun</string>
     <string name="add_smiley">İfade</string>
     <string name="add_timing">Zamanlama</string>
-    <string name="add_to_block_by_number">Engellenenler listesine eklendi</string>
-    <string name="add_to_block_by_number_failed">Engellenenler listesine eklenemedi.Tekrar deneyin.</string>
-    <string name="add_to_block_by_tag">Bu anahtar kelime engellenenler listesine eklendi</string>
-    <string name="add_to_block_by_tag_failed">Anahtar kelime engellenenler listesine eklenemedi.Tekrar deneyin.</string>
-    <string name="add_to_block_cta_failed">Güvenlik uygulamasını açın ve bu özelliği kullanabilmek için şartlar ve koşullarını kabul edin</string>
+    <string name="add_to_block_by_number">"%s
+engellenenler listesine eklendi"</string>
+    <string name="add_to_block_by_number_failed">"%s engellenenler listesine eklenemedi.
+Tekrar deneyin."</string>
+    <string name="add_to_block_by_tag">"''%s''
+içeren mesajlar engellenenler listesine eklendi"</string>
+    <string name="add_to_block_by_tag_failed">"''%s'' içeren mesajlar engellenenler listesine eklenemedi.
+Tekrar deneyin."</string>
+    <string name="add_to_block_cta_failed">Ögeleri engellenenler listesine ekleyebilmek için Güvenlik uygulamasına gerekli izinleri verin</string>
     <string name="add_to_browser_favorite_failed">Eklenemedi</string>
     <string name="add_to_browser_favorite_success">Başarıyla eklendi</string>
     <string name="add_to_calender">Takvime ekle</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Alıcı: %s</string>
     <string name="billing">Faturalar</string>
     <string name="block_messaging_entry_title">Engelli SMS</string>
-    <string name="block_number_message">Eklendikten sonra %s numarasından gelen tüm gelen aramalar ve mesajlar engellenecek. Şimdi eklensin mi?</string>
+    <string name="block_number_message">Bu telefon numarası, engellenenler listesine eklenecek. Bu numaradan gelen tüm mesajlar engellenecektir.</string>
     <string name="block_support_text">Antiy tarafından desteklenmektedir.</string>
-    <string name="block_tag_message">"Eklendikten sonra ''%s'' anahtar kelimesini içeren tüm mesajlar engellenecek. Bu, doğrulama kodları ve sipariş bilgileri içerebilir. Şimdi eklensin mi?"</string>
+    <string name="block_tag_message">%s tarafından gönderilen tüm mesajlar engellendi. Bu hizmet tarafından gönderilen doğrulama kodlarını veya faturaları alamayacaksınız.</string>
     <string name="boarding_time">Biniş zamanı</string>
     <string name="bookmark">Favorilere eklendi</string>
     <string name="bookmark_confirm_delete_message">Seçilen mesajlar favorilerden kaldırılsın mı?</string>
@@ -294,6 +298,8 @@ Lütfen internet mesajlaşma işlevinin bir sonraki bildirime kadar askıya alı
     <string name="delete_message">Sil</string>
     <string name="delete_phrase">Yanıtı sil</string>
     <string name="delete_unlocked">Kilitli mesajları sil</string>
+    <string name="delete_verification_code_sms_message">Tek seferlik şifreler silinsin mi?</string>
+    <string name="delete_verification_code_sms_title">Tek seferlik şifreleri sil</string>
     <string name="delete_wild_sims">Numaraları sil</string>
     <string name="delete_wild_sims_confirm">Seçili numaraya ait tüm mesajlar bu telefonda silinecektir. Mesajlarınızı i.mi.com adresinde geri yükleyebilirsiniz.</string>
     <string name="delete_wild_sims_title">Seçili numaraları sil</string>
@@ -506,6 +512,8 @@ Lütfen internet mesajlaşma işlevinin bir sonraki bildirime kadar askıya alı
     <string name="group_notify_message_title">Grup sohbeti bildirimleri</string>
     <string name="group_rejoin_failed">Grup sohbetine katılım sağlanamadı</string>
     <string name="group_resend_message">Tekrar gönder (%d)</string>
+    <string name="group_verification_codes_summary">Tek seferlik şifreleri otomatik olarak gruplandırın</string>
+    <string name="group_verification_codes_title">Tek seferlik şifreleri gruplandır</string>
     <string name="group_view_settings_disolved">Mesajlar görüntülenemiyor. Grup sohbeti silinmiş.</string>
     <string name="group_view_settings_not_memeber">Mesaj görüntülenemiyor. Bu grup sohbetinin bir üyesi değilsiniz.</string>
     <string name="groupchat_list_title">Grup sohbetleri</string>
@@ -577,7 +585,7 @@ Lütfen internet mesajlaşma işlevinin bir sonraki bildirime kadar askıya alı
     <string name="menu_pick_from_contact">Kişilerden seçin</string>
     <string name="menu_preferences">Ayarlar</string>
     <string name="menu_report">Geri bildirim</string>
-    <string name="menu_sms_block">Engellenenler listesine eklensin mi?</string>
+    <string name="menu_sms_block">Engellenenler listesi</string>
     <string name="menu_traffic_destination">Hedef</string>
     <string name="menu_unlock">Favorilerden kaldır</string>
     <string name="menu_view_contact">Kişiyi görüntüle</string>
@@ -1565,6 +1573,7 @@ Eğer kişisel bilgilerinizin yüklenmesini, paylaşılmasını ya da böyle izi
     <string name="v7_preference_off">KAPALI</string>
     <string name="v7_preference_on">AÇIK</string>
     <string name="verification_code_flow_title">%1$s doğrulama kodu</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Doğrulama kodları</string>
     <string name="verification_code_safety_warning">Bu kodları diğer insanlara açıklamayın</string>
     <string name="view">Görüntüle</string>

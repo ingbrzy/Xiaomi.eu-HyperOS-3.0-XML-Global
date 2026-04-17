@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Atingeți pentru a crea o pagină nouă</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">Temporizat</string>
-    <string name="add_to_block_by_number">Adăugat la lista neagră</string>
-    <string name="add_to_block_by_number_failed">Nu s-a putut adăuga la lista neagră. Încercați din nou.</string>
-    <string name="add_to_block_by_tag">Acest cuvânt cheie a fost adăugat la lista neagră</string>
-    <string name="add_to_block_by_tag_failed">Nu s-a putut adăuga cuvântul cheie la lista neagră. Încercați din nou.</string>
-    <string name="add_to_block_cta_failed">Deschideți Securitate și acceptați termenii și condițiile acesteia pentru a putea utiliza această funcție</string>
+    <string name="add_to_block_by_number">"%s adăugat
+la lista neagră"</string>
+    <string name="add_to_block_by_number_failed">"Nu s-a putut adăuga %s în lista neagră.
+Încercați din nou."</string>
+    <string name="add_to_block_by_tag">"Mesaje care conțin \"%s\"
+ sunt adăugate la lista neagră"</string>
+    <string name="add_to_block_by_tag_failed">"Nu s-au putut adăuga mesaje care conțin \"%s\" în lista neagră.
+Încercați din nou."</string>
+    <string name="add_to_block_cta_failed">Acordați securității permisiunile necesare pentru a putea adăuga elemente la lista neagră</string>
     <string name="add_to_browser_favorite_failed">Nu s-a putut adăuga</string>
     <string name="add_to_browser_favorite_success">Adăugat cu succes</string>
     <string name="add_to_calender">Adaugă la Calendar</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Destinatar: %s</string>
     <string name="billing">Facturi</string>
     <string name="block_messaging_entry_title">SMS blocat</string>
-    <string name="block_number_message">Odată adăugate, toate apelurile și mesajele primite de la %s vor fi blocate. Adăugați acum?</string>
+    <string name="block_number_message">Acest număr de telefon va fi adăugat la lista neagră. Toate mesajele trimise de la acest număr vor fi blocate.</string>
     <string name="block_support_text">Susținut de Antiy.</string>
-    <string name="block_tag_message">Odată adăugate, toate mesajele care conțin cuvântul cheie \"%s\" vor fi blocate. Acestea pot include coduri de verificare și informații despre comandă. Adăugați acum?</string>
+    <string name="block_tag_message">Toate mesajele trimise de la %s vor fi blocate. S-ar putea să nu primiți coduri de verificare sau facturi trimise de acest serviciu.</string>
     <string name="boarding_time">Ora de imbarcare</string>
     <string name="bookmark">Adăugat la favorite</string>
     <string name="bookmark_confirm_delete_message">Eliminați mesajele selectate din favorite?</string>
@@ -294,6 +298,8 @@ Vă rugăm să rețineți că funcționalitatea de mesagerie pe internet este ac
     <string name="delete_message">Șterge</string>
     <string name="delete_phrase">Şterge răspunsul</string>
     <string name="delete_unlocked">Ștergeți mesajele blocate</string>
+    <string name="delete_verification_code_sms_message">Ștergeți toate parolele de unică folosință?</string>
+    <string name="delete_verification_code_sms_title">Ștergeți parolele de unică folosință</string>
     <string name="delete_wild_sims">Șterge numerele</string>
     <string name="delete_wild_sims_confirm">Toate mesajele care aparțin de numerele selectate vor fi șterse din telefon. Puteți să le restabiliți la i.mi.com.</string>
     <string name="delete_wild_sims_title">Șterge numerele selectate</string>
@@ -506,6 +512,8 @@ Vă rugăm să rețineți că funcționalitatea de mesagerie pe internet este ac
     <string name="group_notify_message_title">Notificări grup chat</string>
     <string name="group_rejoin_failed">Nu se poate participa la grupul de chat</string>
     <string name="group_resend_message">Retrimite (%d)</string>
+    <string name="group_verification_codes_summary">Grupează automat parolele de unică folosință</string>
+    <string name="group_verification_codes_title">Parole de unică folosință de grup</string>
     <string name="group_view_settings_disolved">Nu se pot vizualiza elementele. Acest grup de chat a fost șters.</string>
     <string name="group_view_settings_not_memeber">Nu se pot vizualiza elementele. Nu sunteți membru al acestui grup de chat.</string>
     <string name="groupchat_list_title">Grupuri chat</string>
@@ -577,7 +585,7 @@ Vă rugăm să rețineți că funcționalitatea de mesagerie pe internet este ac
     <string name="menu_pick_from_contact">Selectează din contacte</string>
     <string name="menu_preferences">Setări</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Adăugați la lista neagră?</string>
+    <string name="menu_sms_block">Lista neagră</string>
     <string name="menu_traffic_destination">Destinație</string>
     <string name="menu_unlock">Elimină de la favorite</string>
     <string name="menu_view_contact">Vizualizează contactul</string>
@@ -1565,6 +1573,7 @@ Dacă nu sunteți de acord să acordați astfel de permisiuni sau să împărtă
     <string name="v7_preference_off">DEZACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
     <string name="verification_code_flow_title">Cod de verificare %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Coduri de verificare</string>
     <string name="verification_code_safety_warning">Nu divulga aceste coduri altor persoane</string>
     <string name="view">Vizualizează</string>

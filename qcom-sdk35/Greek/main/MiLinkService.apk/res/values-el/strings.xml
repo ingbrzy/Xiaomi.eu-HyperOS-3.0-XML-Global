@@ -192,8 +192,6 @@
     <string name="cast_closed_captions">Υπότιτλοι</string>
     <string name="cast_closed_captions_unavailable">Οι υπότιτλοι δεν είναι διαθέσιμοι</string>
     <string name="cast_connecting_to_device">Σύνδεση στη συσκευή %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Εύρεση συσκευών</string>
-    <string name="cast_device_chooser_title">Μετάδοση σε</string>
     <string name="cast_disconnect">Αποσύνδεση</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Εικόνα που προβάλλεται ενώ ο δέκτης της μετάδοσης κάνει αναπαραγωγή μιας διαφήμισης</string>
@@ -234,9 +232,6 @@
     <string name="cast_tracks_chooser_dialog_ok">ΟΚ</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Υπότιτλοι</string>
     <string name="cast_unmute">Κατάργηση σίγασης</string>
-    <string name="cast_zero_devices_found">"Δεν βρέθηκαν συσκευές.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Μάθετε περισσότερα</a> σχετικά με το πώς μπορείτε να μεταδώσετε το περιεχόμενό σας σε άλλες συσκευές.</string>
     <string name="casting_tips">Γίνεται μετάδοση…</string>
     <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
     <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
@@ -624,7 +619,7 @@
     <string name="connect_settings_general_summary_share_launcher_phone_v2">Προβάλετε και ελέγξτε αυτήν τη συσκευή και χρησιμοποιήστε τις εφαρμογές της από κοντινά τηλέφωνα, τάμπλετ, υπολογιστές ή οχήματα που είναι συνδεδεμένα με τον ίδιο λογαριασμό</string>
     <string name="connect_settings_general_summary_share_notification_pad">Εμφάνιση ειδοποιήσεων για χαμηλή μπαταρία από κοντινά τηλέφωνα σε τάμπλετ που είναι συνδεδεμένα με τον Λογαριασμό Xiaomi σας</string>
     <string name="connect_settings_general_summary_share_notification_phone">"Εμφάνιση σημαντικών ειδοποιήσεων τηλεφώνου σε κοντινές τηλεοράσεις, τάμπλετ και υπολογιστές που είναι συνδεδεμένοι με τον ίδιο Λογαριασμό Xiaomi.
-Λειτουργεί με εφαρμογές παράδοσης φαγητού και κλήσεων μεταφοράς στις τηλεοράσεις, καθώς και με ειδοποιήσεις χαμηλής μπαταρίας σε τάμπλετ και υπολογιστές."</string>
+Λειτουργεί με εφαρμογές παράδοσης φαγητού και υπηρεσίες μετακίνησης στις τηλεοράσεις, καθώς και με ειδοποιήσεις χαμηλής μπαταρίας σε τάμπλετ και υπολογιστές."</string>
     <string name="connect_settings_general_summary_share_notification_phone_global">Εμφάνιση ειδοποιήσεων χαμηλής μπαταρίας του τηλεφώνου σας σε κοντινό τάμπλετ που είναι συνδεδεμένο στον ίδιο λογαριασμό</string>
     <string name="connect_settings_known_button">Κατανοητό</string>
     <string name="connect_settings_mi_share">Xiaomi Share</string>
@@ -1042,6 +1037,7 @@
 %1$d. Εάν αντιμετωπίζετε δυσκολίες, μπορείτε να τις αναφέρετε χρησιμοποιώντας την εφαρμογή \"Υπηρεσίες &amp; ανατροφοδότηση\"."</string>
     <string name="help_page_text_end">Εάν η μάρκα της συσκευής σας δεν αναφέρετε στη λίστα εδώ, επικοινωνήστε με τον κατασκευαστή για να μάθετε περισσότερα για τη λειτουργία μετάδοσης.</string>
     <string name="i_see">Κατανοητό</string>
+    <string name="ic_media_route_learn_more_accessibility">Μάθετε πώς μπορείτε να κάνετε μετάδοση</string>
     <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
     <string name="image_transfer_failed">Αδυναμία μεταφοράς εικόνας</string>
     <string name="install">Εγκατάσταση</string>
@@ -1194,8 +1190,17 @@
     <string name="mr_cast_button_connecting">Μετάδοση. Σύνδεση</string>
     <string name="mr_cast_button_disconnected">Μετάδοση. Αποσυνδέθηκε</string>
     <string name="mr_cast_dialog_title_view_placeholder">Δεν υπάρχουν διαθέσιμες πληροφορίες</string>
+    <string name="mr_chooser_looking_for_devices">Αναζήτηση συσκευών…</string>
     <string name="mr_chooser_searching">Εύρεση συσκευών</string>
     <string name="mr_chooser_title">Μετάδοση σε</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Μάθετε περισσότερα</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το αυτοκίνητο</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το τηλέφωνο</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το tablet</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτήν την τηλεόραση</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτήν τη συσκευή</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Βεβαιωθείτε ότι η άλλη συσκευή είναι συνδεδεμένη στο ίδιο δίκτυο Wi-Fi με αυτό το ρολόι</string>
+    <string name="mr_chooser_zero_routes_found_title">Δεν υπάρχουν διαθέσιμες συσκευές</string>
     <string name="mr_controller_album_art">Εξώφυλλο άλμπουμ</string>
     <string name="mr_controller_casting_screen">Μετάδοση οθόνης</string>
     <string name="mr_controller_close_description">Κλείσιμο</string>
@@ -1375,7 +1380,7 @@
     <string name="passport_error_length_limit">Το κείμενο που εισαγάγατε είναι πολύ μακρύ</string>
     <string name="passport_error_network">Αδυναμία σύνδεσης στο δίκτυο</string>
     <string name="passport_error_no_password_user">Δεν έχετε ορίσει κωδικό ακόμη. Συνδεθείτε με SMS.</string>
-    <string name="passport_error_phone">Μη έγκυρος αριθμός τηλεφώνου</string>
+    <string name="passport_error_phone">Εισαγάγετε έναν έγκυρο αριθμό τηλεφώνου</string>
     <string name="passport_error_server">Σφάλμα διακομιστή</string>
     <string name="passport_error_sms_limit">Πάρα πολλοί κωδικοί επαλήθευσης έχουν σταλεί σε αυτό τον αριθμό. Προσπαθήστε ξανά αργότερα.</string>
     <string name="passport_error_ticket_invalid">Αυτός ο κωδικός είναι εσφαλμένος</string>
@@ -1489,6 +1494,7 @@
     <string name="path_setting_cast_feature">Περισσότερες επιλογές συνδεσιμότητας/Μετάδοση/Ειδικές δυνατότητες</string>
     <string name="path_setting_cast_help">Περισσότερες επιλογές συνδεσιμότητας/Μετάδοση/Βοήθεια</string>
     <string name="permission_allowed">Έγινε παραχώρηση</string>
+    <string name="permission_label_access_app_meta">Πρόσβαση σε πληροφορίες εφαρμογών κατά τη χρήση εφαρμογών σε διάφορες συσκευές</string>
     <string name="permission_uballowed">Δεν έγινε παραχώρηση</string>
     <string name="picker_view_description">Κάμερα μεταξύ συσκευών. Μπορείτε να πατήσετε μέσα στην κάρτα για να επιλέξετε κάμερες από κοντινές συσκευές.</string>
     <string name="picker_view_outside_description">Πατήστε για να κλείσετε αυτήν την κάρτα.</string>
@@ -1647,7 +1653,7 @@
     <string name="server_toast_camera_prepare">Προετοιμασία για κοινή χρήση της ροής κάμερας…</string>
     <string name="set_negative_button">Ρυθμίσεις</string>
     <string name="settings_cross_notify">Ειδοποιήσεις μεταξύ συσκευών</string>
-    <string name="settings_cross_notify_app">Ειδοποιήσεις εφαρμογής</string>
+    <string name="settings_cross_notify_app">Ειδοποιήσεις εφαρμογών</string>
     <string name="settings_cross_notify_hidden">Απόκρυψη περιεχομένου ειδοποίησης</string>
     <string name="settings_cross_notify_hidden_tips">Εμφάνιση ειδοποιήσεων σε άλλες συσκευές με κρυφό περιεχόμενο και πατήστε για να εμφανιστεί η απόκρυψη</string>
     <string name="settings_cross_notify_manager">Ειδοποιήσεις μεταξύ συσκευών</string>

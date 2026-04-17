@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Додирните за креирање новог слајда</string>
     <string name="add_smiley">Емотикон</string>
     <string name="add_timing">Темпирано</string>
-    <string name="add_to_block_by_number">Додато на листу блокираних</string>
-    <string name="add_to_block_by_number_failed">Не може се додати на листу блокираних. Покушајте опет.</string>
-    <string name="add_to_block_by_tag">Ова кључна реч је додата на листу блокираних</string>
-    <string name="add_to_block_by_tag_failed">Додавање кључне речи на листу блокираних није успело. Покушајте опет.</string>
-    <string name="add_to_block_cta_failed">Отворите Безбедност и прихватите њене услове коришћења да бисте могли да користите ову функцију</string>
+    <string name="add_to_block_by_number">"Додато %s
+на листу блокираних"</string>
+    <string name="add_to_block_by_number_failed">"Не може се додати %s на листу блокираних.
+Покушајте опет."</string>
+    <string name="add_to_block_by_tag">"Поруке које садрже \"%s\"
+су додате на листу блокираних"</string>
+    <string name="add_to_block_by_tag_failed">"Додавање поруке која садржи \"%s\" у листу блокираних није успело.
+Покушајте опет."</string>
+    <string name="add_to_block_cta_failed">Дајте апликацији Безбедност потребне дозволе да бисте могли да додајете ставке на листу блокираних</string>
     <string name="add_to_browser_favorite_failed">Не може се додати</string>
     <string name="add_to_browser_favorite_success">Успешно додато</string>
     <string name="add_to_calender">Додај у Календар</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Прималац: %s</string>
     <string name="billing">Рачуни</string>
     <string name="block_messaging_entry_title">Блокиране SMS поруке</string>
-    <string name="block_number_message">Када се дода, сви долазни позиви и поруке са %s биће блокирани. Додати сада?</string>
+    <string name="block_number_message">Овај број ће бити додат на листу блокираних. Све поруке послате са овог броја ће бити блокиране.</string>
     <string name="block_support_text">Подржава Antiy</string>
-    <string name="block_tag_message">Једном када се додају, све поруке које садрже кључну реч „%s“ биће блокиране. Ово може да садржи потврђене кодове и информације о поруџбини. Додати сада?</string>
+    <string name="block_tag_message">Све поруке %s ће бити блокиране. Можда нећете моћи примати кодове за потврду или рачуне ове услуге.</string>
     <string name="boarding_time">Време укрцавања</string>
     <string name="bookmark">Додато у омиљене</string>
     <string name="bookmark_confirm_delete_message">Уклонити изабране поруке из омиљених?</string>
@@ -294,6 +298,8 @@
     <string name="delete_message">Обриши</string>
     <string name="delete_phrase">Обриши одговор</string>
     <string name="delete_unlocked">Обриши закључане поруке</string>
+    <string name="delete_verification_code_sms_message">Обрисати све једнократне лозинке?</string>
+    <string name="delete_verification_code_sms_title">Обриши једнократне лозинке</string>
     <string name="delete_wild_sims">Обриши бројеве</string>
     <string name="delete_wild_sims_confirm">Све поруке које припадају изабраним бројевима ће бити обрисане са телефона. Можете их вратити на i.mi.com.</string>
     <string name="delete_wild_sims_title">Обриши изабране бројеве</string>
@@ -506,6 +512,8 @@
     <string name="group_notify_message_title">Обавештења о групном ћаскању</string>
     <string name="group_rejoin_failed">Придруживање групном ћаскању није успело</string>
     <string name="group_resend_message">Пошаљи опет (%d)</string>
+    <string name="group_verification_codes_summary">Аутоматски групиши једнократне лозинке</string>
+    <string name="group_verification_codes_title">Групишите једнократне лозинке</string>
     <string name="group_view_settings_disolved">Не могу се видети ставке. Ова група за ћаскање је обрисана.</string>
     <string name="group_view_settings_not_memeber">Не могу се видети ставке. Нисте члан ове групе за ћаскање.</string>
     <string name="groupchat_list_title">Групна ћаскања</string>
@@ -577,7 +585,7 @@
     <string name="menu_pick_from_contact">Изаберите из контаката</string>
     <string name="menu_preferences">Подешавања</string>
     <string name="menu_report">Повратне информације</string>
-    <string name="menu_sms_block">Додати на листу блокираних?</string>
+    <string name="menu_sms_block">Листа блокираних</string>
     <string name="menu_traffic_destination">Одредиште</string>
     <string name="menu_unlock">Уклони из омиљених</string>
     <string name="menu_view_contact">Приказ контакта</string>
@@ -1565,6 +1573,7 @@
     <string name="v7_preference_off">ИСКЉУЧЕНО</string>
     <string name="v7_preference_on">УКЉУЧЕНО</string>
     <string name="verification_code_flow_title">%1$s код за потврду</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Кодови за потврду</string>
     <string name="verification_code_safety_warning">Не откривајте ове кодове другима</string>
     <string name="view">Прикажи</string>

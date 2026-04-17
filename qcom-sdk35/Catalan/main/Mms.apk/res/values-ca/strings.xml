@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Premeu per crear una nova diapositiva</string>
     <string name="add_smiley">Emoticona</string>
     <string name="add_timing">Programat</string>
-    <string name="add_to_block_by_number">Afegida a la llista de bloqueig</string>
-    <string name="add_to_block_by_number_failed">"No s'ha pogut afegir a la llista de bloqueig. Torneu-ho a provar."</string>
-    <string name="add_to_block_by_tag">"S'ha afegit aquesta paraula clau a la llista de bloqueig"</string>
-    <string name="add_to_block_by_tag_failed">"No s'ha pogut afegir la paraula clau a la llista de bloqueig. Torneu-ho a provar."</string>
-    <string name="add_to_block_cta_failed">Obriu Seguretat i accepteu els termes i condicions per poder utilitzar aquesta funció</string>
+    <string name="add_to_block_by_number">"Afegit %s
+ a la llista de bloqueig"</string>
+    <string name="add_to_block_by_number_failed">"No s'ha pogut afegir %s a la llista de bloqueig.
+Torneu-ho a provar."</string>
+    <string name="add_to_block_by_tag">"Missatges que contenen \"%s\"
+afegits a la llista de bloqueig"</string>
+    <string name="add_to_block_by_tag_failed">"No s'han pogut afegir missatges que contenen \"%s\" a la llista de bloqueig.
+Torneu-ho a provar."</string>
+    <string name="add_to_block_cta_failed">Concediu a Seguretat els permisos necessaris per poder afegir elements a la llista de bloqueig</string>
     <string name="add_to_browser_favorite_failed">"No s'ha pogut afegir"</string>
     <string name="add_to_browser_favorite_success">"S'ha afegit amb èxit"</string>
     <string name="add_to_calender">Afegir al calendari</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Destinatari: %s</string>
     <string name="billing">Factures</string>
     <string name="block_messaging_entry_title">SMS bloquejats</string>
-    <string name="block_number_message">Un cop afegits, totes les trucades i missatges entrants de %s seran bloquejats. Voleu afegir-los ara?</string>
+    <string name="block_number_message">"Aquest número de telèfon s'afegirà a la llista de bloqueig. Es bloquejaran tots els missatges enviats des d'aquest número."</string>
     <string name="block_support_text">"Amb el suport d'Antiy."</string>
-    <string name="block_tag_message">Un cop afegits, tots els missatges que continguin la paraula clau \"%s\" seran bloquejats. Això pot incloure codis de verificació i informació de la comanda. Voleu afegir-los ara?</string>
+    <string name="block_tag_message">Es bloquejaran tots els missatges enviats des de %s. És possible que no pugueu rebre codis de verificació ni factures enviades per aquest servei.</string>
     <string name="boarding_time">"Hora d'embarcament"</string>
     <string name="bookmark">Afegit als preferits</string>
     <string name="bookmark_confirm_delete_message">Eliminar els missatges seleccionats dels preferits?</string>
@@ -294,6 +298,8 @@ Tingueu en compte que la funcionalitat de missatgeria a Internet està suspesa f
     <string name="delete_message">Suprimeix</string>
     <string name="delete_phrase">Suprimiu resposta</string>
     <string name="delete_unlocked">Suprimiu els missatges bloquejats</string>
+    <string name="delete_verification_code_sms_message">"Voleu suprimir totes les contrasenyes d'un sol ús?"</string>
+    <string name="delete_verification_code_sms_title">"Suprimeix les contrasenyes d'un sol ús"</string>
     <string name="delete_wild_sims">Suprimeix els números</string>
     <string name="delete_wild_sims_confirm">"Tots els missatges que pertanyen als números seleccionats se suprimiran d'aquest telèfon. Podreu restaurar-los a i.mi.com."</string>
     <string name="delete_wild_sims_title">Suprimeix els números seleccionats</string>
@@ -506,6 +512,8 @@ Tingueu en compte que la funcionalitat de missatgeria a Internet està suspesa f
     <string name="group_notify_message_title">Notificacions de xat de grup</string>
     <string name="group_rejoin_failed">No us heu pogut unir al xat de grup</string>
     <string name="group_resend_message">Reenvia (%d)</string>
+    <string name="group_verification_codes_summary">"Agrupa automàticament les contrasenyes d'un sol ús"</string>
+    <string name="group_verification_codes_title">"Contrasenyes d'un sol ús en grup"</string>
     <string name="group_view_settings_disolved">"No es poden veure elements. S'ha suprimit aquest xat de grup."</string>
     <string name="group_view_settings_not_memeber">"No podeu veure elements. No sou membres d'aquest xat de grup."</string>
     <string name="groupchat_list_title">Xerrades de grup</string>
@@ -577,7 +585,7 @@ Tingueu en compte que la funcionalitat de missatgeria a Internet està suspesa f
     <string name="menu_pick_from_contact">Seleccioneu dels contactes</string>
     <string name="menu_preferences">Configuració</string>
     <string name="menu_report">Comentaris</string>
-    <string name="menu_sms_block">Afegeix a la llista de bloqueig?</string>
+    <string name="menu_sms_block">Llista de bloqueig</string>
     <string name="menu_traffic_destination">Destinació</string>
     <string name="menu_unlock">Elimina de preferits</string>
     <string name="menu_view_contact">Mostra el contacte</string>
@@ -1565,6 +1573,7 @@ Si no estàs d'acord amb donar aquests permisos ni amb compartir i carregar les 
     <string name="v7_preference_off">DESACTIVAT</string>
     <string name="v7_preference_on">ACTIVAT</string>
     <string name="verification_code_flow_title">Codi de verificació de %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Codis de verificació</string>
     <string name="verification_code_safety_warning">No revelis aquests codis a altres persones</string>
     <string name="view">Mostra</string>

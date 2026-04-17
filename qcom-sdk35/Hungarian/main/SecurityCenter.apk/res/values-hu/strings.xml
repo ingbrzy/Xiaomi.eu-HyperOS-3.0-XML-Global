@@ -982,6 +982,7 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="bubble_notification_switch">Párbeszéd buborékok megjelenítése</string>
     <string name="bubble_notification_switch_desc">Ha egy üzenetküldő alkalmazás egy lebegő ablakban el van rejtve a képernyő szélén, a bejövő üzenetek buborékokban jelennek meg</string>
     <string name="bubble_pickup_voice_print_auto">Hangminta rögzítése…</string>
+    <string name="bubble_pickup_voice_print_success">Hangminta rögzítve</string>
     <string name="button_background_connection">Engedélyezés</string>
     <string name="button_block_calls_from_cantacts">Tiltás feloldása</string>
     <string name="button_block_calls_from_strangers">Tiltás feloldása</string>
@@ -1015,6 +1016,8 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="button_to_setting">Beállítások</string>
     <string name="button_toll_correction">Egyenleg kalibrálása</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Váltás a következő hónapra</string>
+    <string name="calendar_date_picker_a11y_prev_month">Váltás az előző hónapra</string>
     <string name="call_address">Körzetszám tiltólista</string>
     <string name="call_all_number_block">Minden hívás letiltása</string>
     <string name="call_and_contact">Hívások és névjegyek</string>
@@ -1950,6 +1953,17 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="game_toolbox_auto_brightness_talkback">Automatikus fényerő</string>
     <string name="game_toolbox_btn_back_talkback">Vissza</string>
     <string name="game_toolbox_cellular_network">Mobilhálózati sebességgyorsítás</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">yyyy. MM. dd.</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Mégse</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">A hálózat stabilitásának javítása érdekében a rendszer a valós idejű késleltetés alapján automatikusan létrehoz egy VPN-kapcsolatot. Az igénybevétele után %d év ingyenes hozzáférést kap.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Érvényességi időszak: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Lejárt</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Igénylés</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Bejelentkezés</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Igénylés</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Hálózati kapcsolat gyorsítása</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Hozzon létre egy késleltetésen alapuló magánhálózatot a kapcsolat stabilitásának javítása érdekében</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Hálózati kapcsolat gyorsítása</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Kapcsolja be a képminőség enyhe csökkentéséhez és az energiafogyasztás jelentős mérsékléséhez</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Megjegyzés:
@@ -3035,6 +3049,30 @@ Készüléke ennyivel gyorsabb: %s."</string>
     <string name="menu_item_virus_install_monitor_summary">Az alkalmazások ellenőrzése telepítése előtt</string>
     <string name="menu_item_virus_install_monitor_title">Telepítés előtti ellenőrzés</string>
     <string name="menu_item_virus_lib_auto_update_summary">Utolsó frissítés: %s</string>
+    <string name="menu_item_virus_risky_app_detect">Kockázatos alkalmazások észlelése</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Mégse</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Biztonsági kockázatok észlelhetők. Most nem lehet kikapcsolni.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Ha a hatóságok, az ügyfélszolgálat munkatársai vagy ismerősei arra kérik, hogy kapcsolja ki ezt a funkciót, a folytatás előtt ellenőrizze személyazonosságukat.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Ha kikapcsolja ezt a funkciót, a továbbiakban nem történik meg a kockázatos alkalmazásviselkedések valós idejű észlelése, ami személyes adatok kiszivárgásához vagy pénzügyi veszteséghez vezethet. Mégis kikapcsolja?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Megnyitás</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Kikapcsolás</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Mégse</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Megnyitás</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Rendben</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Ne mutassa újra</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Kilépés</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Kikapcsolja?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s poses unknown security risks and may lead to privacy leaks or financial loss. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Ha nem ért egyet ezzel a figyelmeztetéssel, érintse meg itt a visszajelzés küldéséhez.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Alkalmazás neve: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Csomag neve: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Írja le részletesen a problémát: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Alkalmazás aláírás: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Figyelem</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Az alkalmazás nem elérhető</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Figyelmeztetés</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Kockázatos alkalmazások letiltása vagy azokról való értesítés</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Eltávolítás</string>
     <string name="menu_remove">Törlés</string>
     <string name="menu_report">Hibajelentés</string>
     <string name="menu_setting_traffic">Manuális beállítás</string>
@@ -3091,6 +3129,7 @@ Készüléke ennyivel gyorsabb: %s."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Fenntartás csak egy megadott felhasználó hangja számára</string>
     <string name="midnight">Éjszakai</string>
     <string name="midrop_post_notification_contentTitle">Fájlátvitelre van szüksége?</string>
+    <string name="milink_init_loading">Kivetítés előkészítése…</string>
     <string name="miui_blur_location">Hozzávetőleges helyzet</string>
     <string name="miui_optimization_close_final_tip">Rendszeroptimalizálás kikapcsolása?</string>
     <string name="miui_optimization_close_title">Ez a funkció fejlesztőknek készült és lehetséges, hogy általános felhasználók számára nem megfelelő. A rendszeroptimalizáció kikapcsolása lehet, hogy a következő változásokat hozza magával:</string>
@@ -3785,6 +3824,21 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_low_batterty_got_it">Megértettem</string>
     <string name="pc_low_battery_fast_charge">Töltés felgyorsítása</string>
     <string name="pc_low_battery_fast_charge_summary">Csatlakoztassa a mellékelt töltőt a töltés felgyorsításához, amikor a képernyő ki van kapcsolva és az akkumulátor lemerült. Ez a funkció a készülék felmelegedését okozhatja.</string>
+    <string name="pc_low_battery_health_msg_1">Az akkumulátor állapota %1$s alatt van. Azt javasoljuk, hogy az akkumulátor cseréjéhez vegye fel a kapcsolatot a Xiaomi értékesítés utáni szervizszolgáltatójával.</string>
+    <string name="pc_low_battery_health_msg_2">Koppintson az &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>értékesítés utáni szerviz&lt;/a> lehetőségre, és keresse meg a közelben lévő engedélyezett szervizeket. Lefoglalhat egy üzletben történő javítást, de kérhet postázást is.&lt;br />&lt;br />Az akkumulátor állapotával kapcsolatban érdemes tudni:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Természetes öregedés: a lítium akkumulátorok korlátozott számú töltési ciklussal rendelkeznek, és idővel fokozatosan elhasználódnak.
+%2$d. Töltési szokások: a magas hőmérsékleten történő töltés, az akkumulátor teljes lemerülése töltés előtt, vagy a nem hivatalos gyorstöltők használata felgyorsíthatja az öregedést.
+%3$d. Szélsőséges környezetek: a túlzott hő (például közvetlen napfény vagy intenzív játék) vagy a nagyon hideg körülmények károsíthatják az akkumulátort és lerövidíthetik az élettartamát."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. A rövidebb akkumulátor-üzemidő gyakrabban igényel töltést.
+%2$d. A teljesítmény csökken a nagy energiaigényű feladatok (például intenzív játék vagy videószerkesztés) során, ami befolyásolhatja a zökkenőmentességet.
+%3$d. Szélsőséges esetekben a töltés lelassul, vagy az eszköz automatikusan kikapcsol alacsony hőmérsékletű környezetben."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Tartsa az akkumulátor töltöttségi szintjét %2$s és %3$s között. Kerülje a hosszú ideig tartó teljes feltöltést vagy teljes lemerítést.
+%4$d. Kerülje a töltést magas hőmérsékleten. Töltés közben vegye le a telefontokot, és kerülje az intenzív játékot.
+%5$d. Az akkumulátor védelme érdekében használjon hivatalos vagy tanúsított töltőket és kábeleket."</string>
+    <string name="pc_low_battery_health_title">Akkumulátorállapot-emlékeztető</string>
+    <string name="pc_low_battery_health_title_1">Az akkumulátor-állapot romlásának okai</string>
+    <string name="pc_low_battery_health_title_2">Az alacsony akkumulátor-állapot hatásai</string>
+    <string name="pc_low_battery_health_title_3">Az akkumulátor-állapot növelésének elősegítése</string>
     <string name="pc_low_temp_charge_summary">Tartsa a töltőt csatlakoztatva, és várja meg, hogy az akkumulátor felmelegedjen, miután a képernyő kikapcsolt a normális töltés érdekében</string>
     <string name="pc_low_temp_charge_title">Alacsony hőmérsékletű töltés</string>
     <string name="pc_low_temp_disable_otg_message">A külső eszközök és a fordított töltés jelenleg nem használható, mert a hőmérséklet vagy az akkumulátor töltöttségi szintje túl alacsony. Próbálkozzon újra, ha a hőmérséklet vagy az akkumulátor töltöttségi szintje emelkedik.</string>
@@ -3811,6 +3865,8 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_night_sleep_mode_summary_pad">A képernyő kikapcsolt állapotában a készülék bezárja a háttérben futó alkalmazásokat, és korlátozza a hálózathasználatot. Ha a készülék hosszabb ideig nincs használatban, automatikusan alvó módba kerül vagy kikapcsol.</string>
     <string name="pc_night_sleep_mode_title">Éjszakai mód</string>
     <string name="pc_no_more_remind">Ne emlékeztessen</string>
+    <string name="pc_notify_low_battery_health_msg">Ideje kicserélni az akkumulátort</string>
+    <string name="pc_notify_low_battery_health_title">Az akkumulátor állapota %1$s alatt van</string>
     <string name="pc_ordinary_charge_summary">%1$s értékig engedi a töltést</string>
     <string name="pc_ordinary_charge_title">Normál töltés</string>
     <string name="pc_performance_mode_dialog_summary">Az Ön készüléke %s ideig fog működni Teljesítménymódban. Vegye figyelembe, hogy a Teljesítménymód növeli az energiafogyasztást, és túlmelegedéshez vezethet.</string>
@@ -3879,6 +3935,7 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pc_this_time_charge_full_work">Majdnem teljesen feltöltve</string>
     <string name="pc_timely_charging_summary">Az akkumulátor töltöttsége %1$s alatt van. Károsodhat az akkumulátor, ha a készülék túlmelegszik, miközben a töltöttségi szint alacsony.</string>
     <string name="pc_timely_charging_title">Töltse fel készülékét</string>
+    <string name="pc_tip_low_battery_health">Ideje kicserélni az akkumulátort</string>
     <string name="pc_to_phone_install">%s telepítése letiltva az USB-ről</string>
     <string name="pc_toady_charge_time_title">Mai töltések száma</string>
     <string name="pc_wait_device_cools_down">Várja meg, amíg a készülék lehűl, hogy használni tudja ezt a funkciót.</string>
@@ -4086,6 +4143,8 @@ Ultraerős akkumulátorkímélő"</string>
     <string name="pin_toast">Az alkalmazás feloldásához csúsztassa felfelé a képernyő aljáról, majd tartson szünetet</string>
     <string name="pin_toast_nav">Nyomja meg és tartsa lenyomva a Vissza és Előnézet gombokat az alkalmazás rögzítésének feloldásához</string>
     <string name="pkg_traffic">Felhasznált adatforgalom beállítása</string>
+    <string name="pkg_traffic_settings_instruction">Figyelem</string>
+    <string name="pkg_traffic_settings_instruction_text">A szolgáltatói frissítések miatt előfordulhat, hogy bizonyos információk nem érhetők el. A „Forgalom – Speciális beállítások” részben megjelenített adatok csak tájékoztató jellegűek, és eltérhetnek a szolgáltató adataitól. A pontos használat érdekében ellenőrizze a szolgáltató számlázási kimutatását.</string>
     <string name="pm">DU</string>
     <string name="pm_auto_start_by_other">Kiváltott indítás</string>
     <string name="pm_auto_start_by_other_app">Alkalmazás más alkalmazás általi indítás engedélyezése</string>
@@ -4718,7 +4777,6 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="privacy_risk_detection_title">Adatvédelmi kockázatok észlelése</string>
     <string name="privacy_risk_detection_user">Személyes adatok</string>
     <string name="privacy_risk_install_app">Nem megbízható alkalmazások</string>
-    <string name="privacy_risk_photo_delete">Előfordulhat, hogy a fotókat az Ön engedélye nélkül töröljük</string>
     <string name="privacy_risk_photo_location">Fotók helyadatokkal</string>
     <string name="privacy_risk_photo_location_msg">Ha nincs szükség rá, akkor a Galériához való hozzáférés korlátozása</string>
     <string name="privacy_risk_photo_msg">Fotók érzékeny információkkal</string>
@@ -4729,8 +4787,6 @@ Visszavonja most a hozzájárulását?"</string>
     <string name="privacy_risk_result_ignore_btn">Kihagyás</string>
     <string name="privacy_risk_result_item_safe">Nem találhatók kockázatok</string>
     <string name="privacy_risk_result_open_btn">Bekapcsolás</string>
-    <string name="privacy_risk_result_photo_delete">Értesítések fogadása a törölt fotókról</string>
-    <string name="privacy_risk_result_photo_delete_msg">Értesítések fogadása, ha az alkalmazások az Ön engedélye nélkül törölnek elemeket a Galériából</string>
     <string name="privacy_risk_result_photo_sensitive">A fotói személyes információkat tartalmaznak</string>
     <string name="privacy_risk_result_protection">Adatvédelem</string>
     <string name="privacy_risk_result_screen_fuzzy">Előnézet-elhomályosítás</string>
@@ -5532,6 +5588,7 @@ A(z) ^1 ezzel az eszközzel való használatához először be kell állítania.
     <string name="storage_fbo_notification_start_content">A folyamat során a készülék késhet</string>
     <string name="storage_fbo_notification_start_title">Tárhely defragmentálása</string>
     <string name="storage_fbo_number_tip">%1$s időpontban feldolgozva</string>
+    <string name="storage_fbo_time_talkback">MMMM d.</string>
     <string name="storage_fbo_tools">Tárhely-optimalizálás</string>
     <string name="storage_file_delete_tip">A kijelölt elemek végleges törlése? Néhány közülük szükség esetén újra betölthető.</string>
     <string name="storage_file_dialog_delete_title">Elemek törlése</string>
@@ -5763,12 +5820,20 @@ A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak el
     <string name="tc_sms_report_upload_when_net">Köszönjük visszajelzését!</string>
     <string name="tc_web_correct_error">Sikertelen kalibráció</string>
     <string name="ten_percent_total_pkg">%s (Az adatforgalom 10%%-a)</string>
+    <string name="terminal_flares_current_camera_mic">Az eszköz kamerájának és mikrofonjának használata</string>
+    <string name="terminal_flares_current_camera_mic_screen">Az eszköz kamerájának, mikrofonjának és képernyőjének használata</string>
+    <string name="terminal_flares_recent_camera_mic">Legutóbb használt eszköz kamerája és mikrofonja</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Legutóbb használt eszköz kamerája, mikrofonja és képernyője</string>
     <string name="terminal_flars_current_camera">A készülék kamerájának használata</string>
+    <string name="terminal_flars_current_record">Az eszköz mikrofonjának használata</string>
     <string name="terminal_flars_current_screen">Hozzáférés a készülék képernyőjéhez</string>
     <string name="terminal_flars_current_screen_camera">A készülék kamerájának és kijelzőjének használata</string>
+    <string name="terminal_flars_current_screen_mic">Az eszköz képernyőjének és mikrofonjának használata</string>
     <string name="terminal_flars_recent_camera">Nemrégiben használta a készülék kameráját</string>
+    <string name="terminal_flars_recent_record">Nemrég használt eszköz mikrofonja</string>
     <string name="terminal_flars_recent_screen">Nemrégiben hozzáfért a készülék képernyőjéhez</string>
     <string name="terminal_flars_recent_screen_camera">Nemrégiben használta a készülék kameráját és képernyőjét</string>
+    <string name="terminal_flars_recent_screen_mic">Nemrég használt eszköz képernyője és mikrofonja</string>
     <string name="tether_custom_dialog_title">Mobiladat-korlát</string>
     <string name="tether_limit_dialog_title">Mobiladat-korlát</string>
     <string name="tether_limit_value_custom">Egyéni</string>

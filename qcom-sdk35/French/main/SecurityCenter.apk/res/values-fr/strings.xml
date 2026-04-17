@@ -982,6 +982,7 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="bubble_notification_switch">Afficher les bulles de conversation</string>
     <string name="bubble_notification_switch_desc">"Lorsqu'une application de messagerie dans une fenêtre flottante est masquée au bord de l'écran, afficher les messages entrants dans des bulles"</string>
     <string name="bubble_pickup_voice_print_auto">"Enregistrement de l'empreinte vocale…"</string>
+    <string name="bubble_pickup_voice_print_success">Voiceprint recorded</string>
     <string name="button_background_connection">Autoriser</string>
     <string name="button_block_calls_from_cantacts">Débloquer</string>
     <string name="button_block_calls_from_strangers">Débloquer</string>
@@ -1015,6 +1016,8 @@ Cependant, certaines de vos transactions ne sont pas encore terminées. Pour pou
     <string name="button_to_setting">Paramètres</string>
     <string name="button_toll_correction">Étalonner le solde</string>
     <string name="byteShort">o</string>
+    <string name="calendar_date_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="calendar_date_picker_a11y_prev_month">Passer au mois précédent</string>
     <string name="call_address">Liste noire des zones</string>
     <string name="call_all_number_block">Bloquer tous les appels</string>
     <string name="call_and_contact">Appels et contacts</string>
@@ -2097,7 +2100,7 @@ de surveillance de séisme"</string>
 %3$d. Cette fonctionnalité est uniquement prise en charge dans la Chine continentale.
 %4$d. Cette fonctionnalité ne fonctionne que sur les réseaux 5G-SA."</string>
     <string name="function_shield_auto_bright">Désactiver la luminosité auto</string>
-    <string name="function_shield_eye_shield">Désactiver le Mode confort des yeux</string>
+    <string name="function_shield_eye_shield">Turn off Eye comfort mode</string>
     <string name="function_shield_pull_notification_bar">Ne pas ouvrir le panneau de notification</string>
     <string name="function_shield_settings_title">Limitez les fonctionnalités suivantes lorsque vous jouez</string>
     <string name="function_shield_summary">Restreindre certaines fonctionnalités du système lorsque vous jouez</string>
@@ -2157,6 +2160,17 @@ de surveillance de séisme"</string>
     <string name="game_toolbox_auto_brightness_talkback">Luminosité auto</string>
     <string name="game_toolbox_btn_back_talkback">Retour</string>
     <string name="game_toolbox_cellular_network">Augmentation de la vitesse du réseau mobile</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Annuler</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">"Une connexion VPN sera automatiquement créée en fonction de la latence en temps réel afin d'améliorer la stabilité du réseau. Après votre demande, vous bénéficierez de %d années d'accès gratuites."</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Période de validité: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Expiré</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Réclamer</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Connexion</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Réclamer</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Augmenter la connexion réseau</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Créez un réseau privé basé sur la latence pour améliorer la stabilité de la connexion</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Augmenter la connexion réseau</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">"Activez pour réduire légèrement la qualité de l'image et réduire considérablement la consommation d'énergie"</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Remarque : 
@@ -3262,6 +3276,30 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="menu_item_virus_install_monitor_summary">"Vérifier l'absence de virus avant l'installation d'applications"</string>
     <string name="menu_item_virus_install_monitor_title">"Analyser avant d'installer"</string>
     <string name="menu_item_virus_lib_auto_update_summary">Mise à jour le %s</string>
+    <string name="menu_item_virus_risky_app_detect">Détecter les applications à risque</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Annuler</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Risques de sécurité détectés. Impossible de désactiver maintenant.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Si les autorités, le personnel du service client ou des personnes que vous connaissez vous demandent de désactiver cette fonctionnalité, vérifiez leur identité avant de continuer.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">"Si vous désactivez cette fonctionnalité, la détection en temps réel des comportements à risque dans l'application ne sera plus effectuée, ce qui peut entraîner des fuites de données personnelles ou des pertes financières. Désactiver quand même ?"</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Ouvrir</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Désactiver</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Annuler</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Ouvrir</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">"C'est compris"</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Ne plus afficher</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Quitter</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Désactiver ?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s présente des risques de sécurité inconnus et peut entraîner des fuites de données personnelles ou des pertes financières. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">"Si vous n'êtes pas d'accord avec cette alerte, cliquez ici pour nous faire part de vos commentaires."</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">"Nom de l'application : %s"</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Nom du paquet : %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Décrivez le problème en détail : %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">"Signature de l'application : %s"</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Attention</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">"L'application n'est pas disponible"</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Avertissement</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Bloquer ou signaler les applications à risque</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Désinstaller</string>
     <string name="menu_remove">Supprimer</string>
     <string name="menu_report">Signaler une erreur</string>
     <string name="menu_setting_traffic">Définir manuellement</string>
@@ -3318,6 +3356,7 @@ Votre appareil est désormais %s plus rapide."</string>
     <string name="mic_noise_reduction_voiceprint_desc">"Ne conserver que l'audio d'un utilisateur spécifié"</string>
     <string name="midnight">Nuit</string>
     <string name="midrop_post_notification_contentTitle">Besoin de partager des fichiers?</string>
+    <string name="milink_init_loading">Preparing to cast…</string>
     <string name="miui_blur_location">Localisation approximative</string>
     <string name="miui_optimization_close_final_tip">"Désactiver l'optimisation du système?"</string>
     <string name="miui_optimization_close_title">"Cette fonctionnalité est destinée aux développeurs et peut ne pas convenir aux utilisateurs généraux. La désactivation de l'optimisation du système peut entraîner les modifications suivantes :"</string>
@@ -4012,6 +4051,21 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pc_low_batterty_got_it">"J'ai compris"</string>
     <string name="pc_low_battery_fast_charge">Accélérer la charge</string>
     <string name="pc_low_battery_fast_charge_summary">"Connectez le chargeur fourni pour accélérer la charge lorsque l'écran est éteint et que la batterie est faible. Cette fonctionnalité peut faire chauffer votre appareil."</string>
+    <string name="pc_low_battery_health_msg_1">"L'état de votre batterie est inférieur à %1$s. Nous vous recommandons de contacter le service après-vente de Xiaomi pour faire remplacer votre batterie."</string>
+    <string name="pc_low_battery_health_msg_2">"Appuyez sur &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>service après-vente&lt;/a> pour trouver des réparateurs agréés près de chez vous. Vous pouvez prendre rendez-vous pour une réparation en magasin ou demander un service d'envoi postal.&lt;br />&lt;br />Concernant l'état de la batterie, voici quelques informations utiles :"</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Vieillissement naturel : les batteries au lithium ont un nombre limité de cycles de charge et s'usent progressivement avec le temps.
+%2$d Habitudes de charge : charger par fortes chaleurs, laisser la batterie se décharger complètement avant de la recharger ou utiliser des chargeurs rapides non officiels peut accélérer le vieillissement.
+%3$d. Environnements extrêmes : une chaleur excessive (comme l'exposition directe au soleil ou les jeux vidéo intensifs) ou des températures très basses peuvent endommager la batterie et réduire sa durée de vie."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Une autonomie réduite nécessite des recharges plus fréquentes.
+%2$d. Les performances sont diminuées lors de tâches exigeantes (comme les jeux vidéo intensifs ou le montage vidéo), ce qui peut affecter la fluidité.
+%3$d. Dans des cas extrêmes, la charge est plus lente ou l'appareil s'éteint automatiquement en cas de basses températures."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Maintenez le niveau de votre batterie entre %2$s et %3$s. Évitez de la laisser complètement chargée ou déchargée pendant de longues périodes.
+%4$d. Évitez de charger votre téléphone par fortes chaleurs. Retirez la coque pendant la charge et évitez les jeux gourmands en ressources pendant ce temps.
+%5$d. Utilisez des chargeurs et des câbles officiels ou certifiés pour protéger la batterie."</string>
+    <string name="pc_low_battery_health_title">"Rappel de l'état de la batterie"</string>
+    <string name="pc_low_battery_health_title_1">"Pourquoi l'état de la batterie se détériore"</string>
+    <string name="pc_low_battery_health_title_2">Comment une batterie faible vous affecte</string>
+    <string name="pc_low_battery_health_title_3">"Comment contribuer à prolonger l'état de la batterie"</string>
     <string name="pc_low_temp_charge_summary">"Gardez le chargeur connecté et attendez que la batterie se réchauffe après que l'écran se soit éteint pour charger normalement"</string>
     <string name="pc_low_temp_charge_title">Charge en basse température</string>
     <string name="pc_low_temp_disable_otg_message">"Impossible d'utiliser les appareils externes et la recharge inversée pour le moment, car la température ou le niveau de la batterie est trop faible. Réessayez dès que la température ou le niveau de la batterie augmente."</string>
@@ -4038,6 +4092,8 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pc_night_sleep_mode_summary_pad">"Lorsque l'écran est éteint, votre appareil ferme les applications en arrière-plan et limite l'utilisation du réseau. Si l'appareil n'est pas utilisé pendant une longue période, il se met automatiquement en veille ou s'éteint."</string>
     <string name="pc_night_sleep_mode_title">Mode nuit</string>
     <string name="pc_no_more_remind">Ne plus me rappeler</string>
+    <string name="pc_notify_low_battery_health_msg">Il est temps de remplacer votre batterie</string>
+    <string name="pc_notify_low_battery_health_title">"L'état de la batterie est inférieur à %1$s"</string>
     <string name="pc_ordinary_charge_summary">"Toujours autoriser la charge jusqu'à %1$s"</string>
     <string name="pc_ordinary_charge_title">Chargement régulier</string>
     <string name="pc_performance_mode_dialog_summary">"Votre appareil pourra fonctionner pendant %s en Mode performance. Notez que le mode Performance augmente la consommation d'énergie et peut entraîner une surchauffe."</string>
@@ -4106,6 +4162,7 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pc_this_time_charge_full_work">Presque pleinement chargé</string>
     <string name="pc_timely_charging_summary">"La batterie est inférieure à %1$s. Si l'appareil surchauffe alors que la batterie est faible, cela peut endommager la batterie."</string>
     <string name="pc_timely_charging_title">Charger votre appareil</string>
+    <string name="pc_tip_low_battery_health">Il est temps de remplacer votre batterie</string>
     <string name="pc_to_phone_install">"L'installation de %s via USB est bloquée"</string>
     <string name="pc_toady_charge_time_title">"Nombre de charges aujourd'hui"</string>
     <string name="pc_wait_device_cools_down">Attendez que votre appareil se refroidisse pour pouvoir utiliser cette fonctionnalité.</string>
@@ -4313,6 +4370,8 @@ de l'économiseur de batterie Ultra"</string>
     <string name="pin_toast">"Faites glisser vers le haut à partir du bas de l'écran et faites une pause pour désépingler cette application"</string>
     <string name="pin_toast_nav">Appuyez et maintenez les boutons retour et aperçu pour désépingler cette application</string>
     <string name="pkg_traffic">"Définir la limite d'utilisation de données"</string>
+    <string name="pkg_traffic_settings_instruction">Attention</string>
+    <string name="pkg_traffic_settings_instruction_text">"Due to recent carrier updates, some info may not be available. Data shown in \"Traffic Advanced Settings\" is for reference only and may not match your carrier's records. Check your carrier's billing statement for the most accurate usage."</string>
     <string name="pm">Après-midi</string>
     <string name="pm_auto_start_by_other">Démarrer le déclencheur</string>
     <string name="pm_auto_start_by_other_app">"Autoriser l'application à être démarrée par d'autres applications"</string>
@@ -4945,7 +5004,6 @@ Retirer le consentement maintenant ?"</string>
     <string name="privacy_risk_detection_title">Détectez les risques de confidentialité</string>
     <string name="privacy_risk_detection_user">Infos personnelles</string>
     <string name="privacy_risk_install_app">Applications peu fiables</string>
-    <string name="privacy_risk_photo_delete">Les photos peuvent être supprimées sans votre autorisation</string>
     <string name="privacy_risk_photo_location">Photos avec informations de localisation</string>
     <string name="privacy_risk_photo_location_msg">"Restreindre l'accès à la galerie lorsque cela n'est pas nécessaire"</string>
     <string name="privacy_risk_photo_msg">Photos contenant des informations sensibles</string>
@@ -4956,8 +5014,6 @@ Retirer le consentement maintenant ?"</string>
     <string name="privacy_risk_result_ignore_btn">Ignorer</string>
     <string name="privacy_risk_result_item_safe">Aucun risque détecté</string>
     <string name="privacy_risk_result_open_btn">Activer</string>
-    <string name="privacy_risk_result_photo_delete">Recevoir des notifications sur les photos supprimées</string>
-    <string name="privacy_risk_result_photo_delete_msg">Recevez des notifications lorsque des applications suppriment des éléments de la galerie sans votre autorisation</string>
     <string name="privacy_risk_result_photo_sensitive">Vos photos contiennent des informations privées</string>
     <string name="privacy_risk_result_protection">Protection de la vie privée</string>
     <string name="privacy_risk_result_screen_fuzzy">"Flouter les aperçus d'applications"</string>
@@ -5760,6 +5816,7 @@ Pour utiliser cette ^1 avec cet appareil, vous devez d'abord la définir."</stri
     <string name="storage_fbo_notification_start_content">"L'appareil peut être en retard pendant ce processus"</string>
     <string name="storage_fbo_notification_start_title">Défragmentation du stockage</string>
     <string name="storage_fbo_number_tip">Traité sur %1$s</string>
+    <string name="storage_fbo_time_talkback">MMMM d</string>
     <string name="storage_fbo_tools">Optimisation du stockage</string>
     <string name="storage_file_delete_tip">"Supprimer les éléments sélectionnés définitivement ? Certains d'entre eux peuvent être chargés à nouveau si nécessaire."</string>
     <string name="storage_file_dialog_delete_title">Supprimer les éléments</string>
@@ -5991,12 +6048,20 @@ Le formatage effacera le contenu existant sur la ^2. Pour éviter de perdre du c
     <string name="tc_sms_report_upload_when_net">Merci pour vos commentaires !</string>
     <string name="tc_web_correct_error">"Impossible d'étalonner"</string>
     <string name="ten_percent_total_pkg">%s (10%% de données mensuelles)</string>
+    <string name="terminal_flares_current_camera_mic">"Utilisation de l'appareil photo et microphone de cet appareil"</string>
+    <string name="terminal_flares_current_camera_mic_screen">"Utilisation de l'appareil photo, microphone et écran de cet appareil"</string>
+    <string name="terminal_flares_recent_camera_mic">"Utilisation récente de l'appareil photo et microphone de cet appareil"</string>
+    <string name="terminal_flares_recent_camera_mic_screen">"Utilisation récente de l'appareil photo, microphone et écran de cet appareil"</string>
     <string name="terminal_flars_current_camera">"Utilisation de l'appareil photo de cet appareil"</string>
+    <string name="terminal_flars_current_record">Utilisation du microphone de cet appareil</string>
     <string name="terminal_flars_current_screen">"Accéder à l'écran de cet appareil"</string>
     <string name="terminal_flars_current_screen_camera">"Utilisation de l'appareil photo et écran de cet appareil"</string>
+    <string name="terminal_flars_current_screen_mic">"Utilisation de l'écran et microphone de cet appareil"</string>
     <string name="terminal_flars_recent_camera">"Récemment utilisé l'appareil photo de cet appareil"</string>
+    <string name="terminal_flars_recent_record">Utilisation récente du microphone de cet appareil</string>
     <string name="terminal_flars_recent_screen">"Récemment accédé à l'écran de cet appareil"</string>
     <string name="terminal_flars_recent_screen_camera">"Récemment utilisé l'appareil photo et écran de cet appareil"</string>
+    <string name="terminal_flars_recent_screen_mic">Utilisation récente du microphone et écran de cet appareil</string>
     <string name="tether_custom_dialog_title">Limite de données mobiles</string>
     <string name="tether_limit_dialog_title">Limite de données mobiles</string>
     <string name="tether_limit_value_custom">Personnaliser</string>
@@ -6416,12 +6481,12 @@ L'activation de l'un désactivera l'autre."</string>
     <string name="vb_video_effects_spatial_summary_new">"Expérimentez une amélioration de la sensation d'espace et de la direction pour l'audio et lorsque vous utilisez les écouteurs"</string>
     <string name="vb_video_effects_srs_premium_sound">Son</string>
     <string name="vb_video_super_division">Amélioré</string>
-    <string name="vb_video_super_division_desc">"Améliorez automatiquement la résolution lorsqu'elle est ≤720P.
+    <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720P.
 
-L'utilisation de cette fonctionnalité augmente la consommation d'énergie.
+Using this feature increases power consumption.
 
-Cette fonctionnalité ne fonctionne pas avec le lissage de mouvement.
-L'activation de l'une des fonctionnalités désactive l'autre."</string>
+This feature doesn't work with motion smoothing.
+Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"Pas assez clair?
 Essayez d'améliorer la résolution!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Les animations améliorées sont déconnectées</string>

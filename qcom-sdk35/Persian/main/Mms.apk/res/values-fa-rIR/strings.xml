@@ -23,11 +23,15 @@
     <string name="add_slide_hint">برای ایجاد اسلاید جدید ضربه بزنید</string>
     <string name="add_smiley">شکلک</string>
     <string name="add_timing">زمان‌بندی شده</string>
-    <string name="add_to_block_by_number">به فهرست سیاه افزوده شد</string>
-    <string name="add_to_block_by_number_failed">افزودن به فهرست سیاه امکان‌پذیر نبود. دوباره امتحان کنید.</string>
-    <string name="add_to_block_by_tag">این کلیدواژه به فهرست سیاه افزوده شد</string>
-    <string name="add_to_block_by_tag_failed">نمی‌توان کلیدواژه را به فهرست سیاه اضافه کرد. دوباره امتحان کنید.</string>
-    <string name="add_to_block_cta_failed">بخش «امنیت» را باز کنید و با «شرایط و ضوابط» موافقت کنید تا بتوانید از این قابلیت استفاده کنید</string>
+    <string name="add_to_block_by_number">"‏%s به فهرست سیاه
+افزوده شد"</string>
+    <string name="add_to_block_by_number_failed">"%s به فهرست سیاه افزوده نشد.
+دوباره تلاش کنید."</string>
+    <string name="add_to_block_by_tag">"پیام‌های حاوی «%s»
+به فهرست سیاه افزوده شدند"</string>
+    <string name="add_to_block_by_tag_failed">"پیام‌های دارای «%s» به فهرست سیاه افزوده نشدند.
+دوباره تلاش کنید."</string>
+    <string name="add_to_block_cta_failed">به امنیت برای افزودن موارد به فهرست سیاه مجوزهای لازم را بدهید</string>
     <string name="add_to_browser_favorite_failed">افزوده نشد</string>
     <string name="add_to_browser_favorite_success">با موفقیت افزوده شد</string>
     <string name="add_to_calender">افزودن به سالنامه</string>
@@ -117,9 +121,9 @@
     <string name="beidou_to_contacts">گیرنده: %s</string>
     <string name="billing">صورت‌حساب</string>
     <string name="block_messaging_entry_title">پیام کوتاه مسدود شده</string>
-    <string name="block_number_message">وقتی اضافه شود، همه تماس‌ها و پیام‌های ورودی از %s مسدود خواهند شد. حالا اضافه می‌کنید؟</string>
+    <string name="block_number_message">این شماره تلفن در فهرست سیاه افزوده خواهد شد. تمام پیام‌ها از این شماره مسدود خواهند شد.</string>
     <string name="block_support_text">پشتیبانی شده توسط Antiy.</string>
-    <string name="block_tag_message">وقتی اضافه شد، همه پیام‌های حاوی کلیدواژه %s مسدود خواهند شد. این مسدودی ممکن است شامل کدهای احراز هویت و اطلاعات سفارش هم شود. حالا اضافه می‌کنید؟</string>
+    <string name="block_tag_message">تمام پیام‌های ارسال شده از سوی %s مسدود خواهند شد. ممکن است دیگر نتوانید کدهای تأیید یا صورت‌حساب‌های ارسال شده توسط این خدمات را دریافت کنید.</string>
     <string name="boarding_time">زمان سوار شدن</string>
     <string name="bookmark">به موارد پسندیده افزوده شد</string>
     <string name="bookmark_confirm_delete_message">پیام‌های انتخاب شده از موارد پسندیده حذف شوند؟</string>
@@ -259,6 +263,8 @@
     <string name="delete_message">حذف</string>
     <string name="delete_phrase">حذف پاسخ</string>
     <string name="delete_unlocked">پیام قفل شده حذف شوند؟</string>
+    <string name="delete_verification_code_sms_message">همه گذرواژه‌های یک‌بار مصرف حذف شوند؟</string>
+    <string name="delete_verification_code_sms_title">حذف گذرواژه‌های یک‌بار مصرف</string>
     <string name="delete_wild_sims">حذف شماره‌ها</string>
     <string name="delete_wild_sims_confirm">همه پیام‌های متعلق به شماره‌های انتخاب شده از این گوشی حذف خواهند شد. شما می‌توانید آنها را در i.mi.com بازیابی کنید.</string>
     <string name="delete_wild_sims_title">حذف شماره‌های انتخاب شده</string>
@@ -424,6 +430,8 @@
     <string name="group_notify_message_title">اعلان‌های گپ‌های گروهی</string>
     <string name="group_rejoin_failed">وارد گروه گپ نشد</string>
     <string name="group_resend_message">ارسال دوباره (%d)</string>
+    <string name="group_verification_codes_summary">گذرواژه‌های یک‌بار مصرف را به طور خودکار گروه‌بندی کنید</string>
+    <string name="group_verification_codes_title">گروه‌بندی گذرواژه‌های یک‌بار مصرف</string>
     <string name="group_view_settings_disolved">این موارد نمایش داده نمی‌شوند. این گروه گپ حذف شده است.</string>
     <string name="group_view_settings_not_memeber">موارد نمایش داده نمی‌شوند. شما عضو این گروه نیستید.</string>
     <string name="groupchat_list_title">گپ‌های گروهی</string>
@@ -481,7 +489,7 @@
     <string name="menu_pick_from_contact">انتخاب از مخاطبین</string>
     <string name="menu_preferences">تنظیمات</string>
     <string name="menu_report">بازخورد</string>
-    <string name="menu_sms_block">افزودن به فهرست سیاه؟</string>
+    <string name="menu_sms_block">فهرست سیاه</string>
     <string name="menu_traffic_destination">مقصد</string>
     <string name="menu_unlock">حذف از موارد پسندیده</string>
     <string name="menu_view_contact">مشاهده مخاطب</string>
@@ -1428,6 +1436,7 @@
     <string name="user_agreement">توافق‌نامه کاربر</string>
     <string name="user_term">توافقنامه کاربر</string>
     <string name="verification_code_flow_title">کد تأیید %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">کدهای تایید</string>
     <string name="verification_code_safety_warning">این کدها را برای دیگران افشا نکنید</string>
     <string name="view">مشاهده</string>

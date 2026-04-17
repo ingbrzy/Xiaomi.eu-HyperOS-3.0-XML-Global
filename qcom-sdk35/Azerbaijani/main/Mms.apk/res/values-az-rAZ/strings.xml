@@ -23,11 +23,15 @@
     <string name="add_slide_hint">Yeni slayd yaratmaq üçün toxunun</string>
     <string name="add_smiley">Emosiya</string>
     <string name="add_timing">Müddətli</string>
-    <string name="add_to_block_by_number">Əngəlli siyahısına əlavə edildi</string>
-    <string name="add_to_block_by_number_failed">Əngəlli siyahısına əlavə etmək mümkün olmadı. Yenidən cəhd edin.</string>
-    <string name="add_to_block_by_tag">Bu açar sözü əngəlli siyahısına əlavə edildi</string>
-    <string name="add_to_block_by_tag_failed">Açar sözünü əngəlli siyahısına əlavə etmək mümkün olmadı. Yenidən cəhd edin.</string>
-    <string name="add_to_block_cta_failed">Bu xüsusiyyəti istifadə edə bilmək üçün Təhlükəsizliyi açın və onun şərtlərini və qaydalarını qəbul edin</string>
+    <string name="add_to_block_by_number">"%s
+ əngəlli siyashında əlavə edildi"</string>
+    <string name="add_to_block_by_number_failed">"%s əngəlli siyahısına əlavə etmək mümkün olmadı.
+Yenidən cəhd edin."</string>
+    <string name="add_to_block_by_tag">"\"%s\"
+ehtiva edən mesajlar əngəlli siyahısına əlavə edildi"</string>
+    <string name="add_to_block_by_tag_failed">"\"%s\" olan mesajları əngəlli siyahısına əlavə etmək mümkün olmadı.
+Yenidən cəhd edin."</string>
+    <string name="add_to_block_cta_failed">Əngəlli siyahısına elementlər əlavə etmək üçün Təhlükəsizliyə tələb olunan icazələri verin</string>
     <string name="add_to_browser_favorite_failed">Əlavə edilmədi</string>
     <string name="add_to_browser_favorite_success">Uğurla əlavə edildi</string>
     <string name="add_to_calender">Təqvimə əlavə et</string>
@@ -117,9 +121,9 @@
     <string name="beidou_to_contacts">Qəbul edən: %s</string>
     <string name="billing">Fakturalar</string>
     <string name="block_messaging_entry_title">Əngəllənmiş SMS</string>
-    <string name="block_number_message">Əlavə edildikdən sonra %s nömrəsindən gələn bütün zənglər və mesajlar əngəllənəcək. İndi əlavə edilsin?</string>
+    <string name="block_number_message">Bu telefon nömrəsi əngəlli siyahısına əlavə ediləcək. Bu nömrədən göndərilən bütün mesajlar əngəllənəcək.</string>
     <string name="block_support_text">Antiy tərəfindən dəstələklənir.</string>
-    <string name="block_tag_message">Əlavə edildikdən sonra \"%s\" açar sözünü ehtiva edən bütün mesajlar əngəllənəcək. Buraya doğrulama kodları və sifariş məlumatları daxil ola bilər. İndi əlavə edilsin?</string>
+    <string name="block_tag_message">%s tərəfindən göndərilən bütün mesajlar əngəllənəcək. Bu xidmət tərəfindən göndərilən təsdiqləmə kodları və ya fakturaları ala bilməyəcəksiniz.</string>
     <string name="boarding_time">Minik vaxtı</string>
     <string name="bookmark">Sevimlilərə əlavə edildi</string>
     <string name="bookmark_confirm_delete_message">Seçilmiş elementlər sevimlilərdən silinsin?</string>
@@ -259,6 +263,8 @@ Zəhmət olmasa unutmayın ki, internet mesajlaşma funksiyası bir daha bildiri
     <string name="delete_message">Sil</string>
     <string name="delete_phrase">Cavabı sil</string>
     <string name="delete_unlocked">Kilidli mesajları sil</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Nömrələri sil</string>
     <string name="delete_wild_sims_confirm">Seçilmiş nömrəyə aid bütün mesajlar bu telefondan silinəcək. Mesajlarınızı i.mi.com ünvanında bərpa edə bilərsiniz.</string>
     <string name="delete_wild_sims_title">Seçilmiş nömrələri sil</string>
@@ -424,6 +430,8 @@ Zəhmət olmasa unutmayın ki, internet mesajlaşma funksiyası bir daha bildiri
     <string name="group_notify_message_title">Qrup söhbəti bildirişləri</string>
     <string name="group_rejoin_failed">Qrup söhbətinə qoşula bilmədi</string>
     <string name="group_resend_message">Yenidən göndər (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Elementlər göstərilə bilmir. Bu qrup söhbəti silinib.</string>
     <string name="group_view_settings_not_memeber">Elementlər göstərilə bilmir. Bu qrup söhbətinin üzvü deyilsiniz.</string>
     <string name="groupchat_list_title">Qrup söhbətləri</string>
@@ -481,7 +489,7 @@ Zəhmət olmasa unutmayın ki, internet mesajlaşma funksiyası bir daha bildiri
     <string name="menu_pick_from_contact">Kontaktlardan seçin</string>
     <string name="menu_preferences">Tənzimləmələr</string>
     <string name="menu_report">Geri bildiriş</string>
-    <string name="menu_sms_block">Əngəlli siyahısına əlavə edilsin?</string>
+    <string name="menu_sms_block">Əngəlli siyahısı</string>
     <string name="menu_traffic_destination">Hədəf</string>
     <string name="menu_unlock">Sevimlilərdən sil</string>
     <string name="menu_view_contact">Kontakta bax</string>
@@ -1428,6 +1436,7 @@ Tövsiyə olunan söhbət robotlarını yoxlayın!"</string>
     <string name="user_agreement">İstifadəçi Sazişi</string>
     <string name="user_term">İstifadəçi Sazişi</string>
     <string name="verification_code_flow_title">%1$s təsdiqləmə kodu</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Təsdiqləmə kodları</string>
     <string name="verification_code_safety_warning">Bu kodları digər insanlara açıqlamayın</string>
     <string name="view">Göstər</string>

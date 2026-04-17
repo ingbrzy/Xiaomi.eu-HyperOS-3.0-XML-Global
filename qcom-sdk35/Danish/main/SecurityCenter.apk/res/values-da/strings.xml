@@ -982,6 +982,7 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="bubble_notification_switch">Vis boblenotifikationer</string>
     <string name="bubble_notification_switch_desc">Når en messenger-app i et flydende vindue er skjult i kanten af skærmen, vises indgående beskeder i bobler</string>
     <string name="bubble_pickup_voice_print_auto">Optager stemmeprint…</string>
+    <string name="bubble_pickup_voice_print_success">Voiceprint recorded</string>
     <string name="button_background_connection">Tillad</string>
     <string name="button_block_calls_from_cantacts">Fjern blokering</string>
     <string name="button_block_calls_from_strangers">Fjern blokering</string>
@@ -1015,6 +1016,8 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="button_to_setting">Indstillinger</string>
     <string name="button_toll_correction">Kalibrer saldo</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Skift til næste måned</string>
+    <string name="calendar_date_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="call_address">Områdeblokeringsliste</string>
     <string name="call_all_number_block">Bloker alle opkald</string>
     <string name="call_and_contact">Opkald og kontakter</string>
@@ -1890,7 +1893,7 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
 %3$d. Denne funktion understøttes kun på det kinesiske fastland.
 %4$d. Denne funktion virker kun på 5G-SA-netværk."</string>
     <string name="function_shield_auto_bright">Slå automatisk lysstyrke fra</string>
-    <string name="function_shield_eye_shield">Slå Øjenkomforttilstand fra</string>
+    <string name="function_shield_eye_shield">Turn off Eye comfort mode</string>
     <string name="function_shield_pull_notification_bar">Undlad at åbne notifikationsskygge</string>
     <string name="function_shield_settings_title">Begræns følgende funktioner, når du spiller spil</string>
     <string name="function_shield_summary">Begræns valgte systemfunktioner, når du spiller spil</string>
@@ -1950,6 +1953,17 @@ Det vil blive føjet til undtagelser, men tidligere blokerede elementer vil ikke
     <string name="game_toolbox_auto_brightness_talkback">Automatisk lysstyrke</string>
     <string name="game_toolbox_btn_back_talkback">Tilbage</string>
     <string name="game_toolbox_cellular_network">Boost hastighed på mobilnetværket</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd.MM.yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Annuller</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">En VPN-forbindelse oprettes automatisk baseret på latenstid i realtid for at forbedre netværksstabiliteten. Efter aktivering får du %d års gratis adgang.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Gyldighedsperiode: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Udløbet</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Indløs</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Log ind</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Indløs</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Forstærk netværksforbindelse</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Opret et privat netværk baseret på latenstid for at forbedre forbindelsesstabilitet</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Forstærk netværksforbindelse</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Slå til for at reducere billedkvalitet en smule og markant sænke strømforbrug</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Bemærk:
@@ -3035,6 +3049,30 @@ Din enhed er nu %s hurtigere."</string>
     <string name="menu_item_virus_install_monitor_summary">Kontroller apps for virusser, inden de installeres</string>
     <string name="menu_item_virus_install_monitor_title">Scan inden installation</string>
     <string name="menu_item_virus_lib_auto_update_summary">Opdateret den %s</string>
+    <string name="menu_item_virus_risky_app_detect">Registrer risikable apps</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Annuller</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Sikkerhedsrisici er registreret. Kan ikke slås fra nu.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Hvis myndigheder, kundeservicemedarbejdere eller personer, du kender, beder dig om at slå denne funktion fra, skal du bekræfte deres identitet, før du fortsætter.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Hvis du slår denne funktion fra, udføres registrering i realtid af risikabel appadfærd ikke længere, og det kan føre til lækage af personlige data eller økonomisk tab. Slå fra alligevel?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Åbn</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Slå fra</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Annuller</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Åbn</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Forstået</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Vis ikke igen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Afslut</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Slå fra?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s udgør ukendte sikkerhedsrisici og kan føre til lækage af personlige oplysninger eller økonomisk tab. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Hvis du er uenig i denne advarsel, skal du trykke her for at indsende feedback.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Appnavn: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Pakkenavn: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Beskriv problemet i detaljer: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Appsignatur: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Bemærk</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">App er ikke tilgængelig</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Advarsel</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Bloker eller giv besked om risikable apps</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Afinstaller</string>
     <string name="menu_remove">Slet</string>
     <string name="menu_report">Rapporter fejl</string>
     <string name="menu_setting_traffic">Indstil manuelt</string>
@@ -3091,6 +3129,7 @@ Din enhed er nu %s hurtigere."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Behold kun lyd fra en bestemt bruger</string>
     <string name="midnight">Nat</string>
     <string name="midrop_post_notification_contentTitle">Skal du dele filer?</string>
+    <string name="milink_init_loading">Preparing to cast…</string>
     <string name="miui_blur_location">Omtrentlig placering</string>
     <string name="miui_optimization_close_final_tip">Deaktivér systemoptimering?</string>
     <string name="miui_optimization_close_title">Denne funktion er beregnet til udviklere og er muligvis ikke egnet til almene brugere. At slukke for systemoptimering kan medføre følgende ændringer:</string>
@@ -3785,6 +3824,21 @@ slås fra"</string>
     <string name="pc_low_batterty_got_it">Forstået</string>
     <string name="pc_low_battery_fast_charge">Gør opladning hurtigere</string>
     <string name="pc_low_battery_fast_charge_summary">Tilslut den medfølgende oplader for at fremskynde opladningen, når skærmen er slukket, og batteriet er lavt. Denne funktion kan få din enhed til at blive varm.</string>
+    <string name="pc_low_battery_health_msg_1">Dit batteris tilstand er under %1$s. Vi anbefaler, at du kontakter Xiaomis kundeservice for at få batteriet udskiftet.</string>
+    <string name="pc_low_battery_health_msg_2">Tryk på &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>eftersalgsservice&lt;/a> for at finde autoriserede serviceudbydere i nærheden af dig. Du kan booke en reparation i butik eller anmode om indsendelsesreparation.&lt;br />&lt;br />Om batteriets tilstand kan det være nyttigt at vide:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Naturlig aldring: Lithiumbatterier har et begrænset antal opladningscyklusser og slides gradvist over tid.
+%2$d. Opladningsvaner: Opladning ved høje temperaturer, at lade batteriet løbe helt tør før opladning, eller brug af uofficielle hurtigopladere kan fremskynde aldring.
+%3$d. Ekstreme miljøer: Kraftig varme (som direkte sollys eller intensiv gaming) eller meget kolde forhold kan skade batteriet og forkorte dets levetid."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Kortere batteritid kræver hyppigere opladning.
+%2$d. Ydelsen kan blive reduceret ved krævende opgaver (som intensiv gaming eller videoredigering), hvilket kan påvirke systemets flydende funktion.
+%3$d. I ekstreme tilfælde kan opladningen blive langsommere, eller enheden kan slukke automatisk i kolde omgivelser."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Hold batteriniveauet mellem %2$s og %3$s. Undgå at lade batteriet være fuldt opladet eller helt afladet i længere perioder.
+%4$d. Undgå opladning ved høje temperaturer. Fjern telefoncoveret under opladning, og undgå intensiv gaming, mens telefonen oplader.
+%5$d. Brug officielle eller certificerede opladere og kabler for at beskytte batteriet."</string>
+    <string name="pc_low_battery_health_title">Påmindelse om batteriets tilstand</string>
+    <string name="pc_low_battery_health_title_1">Hvorfor batteriets tilstand forringes</string>
+    <string name="pc_low_battery_health_title_2">Hvordan lav batteritilstand påvirker dig</string>
+    <string name="pc_low_battery_health_title_3">Sådan kan du forlænge batteriets levetid</string>
     <string name="pc_low_temp_charge_summary">Hold opladeren tilsluttet, og vent på, at batteriet varmes op, efter at skærmen slukker, for at oplade normalt</string>
     <string name="pc_low_temp_charge_title">Opladning ved lav temperatur</string>
     <string name="pc_low_temp_disable_otg_message">Eksterne enheder og omvendt opladning kan ikke bruges nu, fordi temperaturen eller batteriet er for lavt. Prøv igen, når temperaturen eller batteriniveauet er højere.</string>
@@ -3811,6 +3865,8 @@ slås fra"</string>
     <string name="pc_night_sleep_mode_summary_pad">Når skærmen er slukket, lukker din enhed baggrundsapps og begrænser netværksbrug. Hvis du ikke bruger enheden i længere tid, går den automatisk i dvale eller slukker.</string>
     <string name="pc_night_sleep_mode_title">Nattilstand</string>
     <string name="pc_no_more_remind">Mind ikke om</string>
+    <string name="pc_notify_low_battery_health_msg">Det er tid til at udskifte dit batteri</string>
+    <string name="pc_notify_low_battery_health_title">Batteriets tilstand er under %1$s</string>
     <string name="pc_ordinary_charge_summary">Tillad altid opladning op til %1$s</string>
     <string name="pc_ordinary_charge_title">Regelmæssig opladning</string>
     <string name="pc_performance_mode_dialog_summary">Din enhed kan køre i %s i præstationstilstand. Bemærk, at præstationstilstanden øger strømforbruget og kan medføre overophedning.</string>
@@ -3879,6 +3935,7 @@ slås fra"</string>
     <string name="pc_this_time_charge_full_work">Næsten fuldt opladet</string>
     <string name="pc_timely_charging_summary">Batteriet er under %1$s. Hvis enheden overophedes, mens batteriniveauet er lavt, kan det beskadige batteriet.</string>
     <string name="pc_timely_charging_title">Skift din enhed</string>
+    <string name="pc_tip_low_battery_health">Det er tid til at udskifte dit batteri</string>
     <string name="pc_to_phone_install">Blokerede installation af %s via USB</string>
     <string name="pc_toady_charge_time_title">Antal opladninger i dag</string>
     <string name="pc_wait_device_cools_down">Vent, indtil enheden er kølet ned, for at kunne bruge denne funktion.</string>
@@ -4086,6 +4143,8 @@ slås fra"</string>
     <string name="pin_toast">Kør opad fra bunden af skærmen, og hold pause for at frigøre denne app</string>
     <string name="pin_toast_nav">Tryk og hold knapperne Tilbage og Forhåndsvisning for at frigøre denne app</string>
     <string name="pkg_traffic">Sæt grænse dataforbrug</string>
+    <string name="pkg_traffic_settings_instruction">Attention</string>
+    <string name="pkg_traffic_settings_instruction_text">"Due to recent carrier updates, some info may not be available. Data shown in \"Traffic Advanced Settings\" is for reference only and may not match your carrier's records. Check your carrier's billing statement for the most accurate usage."</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Udløst start</string>
     <string name="pm_auto_start_by_other_app">Tillad, at appen startes af andre apps</string>
@@ -4718,7 +4777,6 @@ Tilbagetræk samtykke nu?"</string>
     <string name="privacy_risk_detection_title">Detektér privatlivsrisici</string>
     <string name="privacy_risk_detection_user">Personlige oplysninger</string>
     <string name="privacy_risk_install_app">Upålidelige apps</string>
-    <string name="privacy_risk_photo_delete">Fotos bliver måske slettet uden din tilladelse</string>
     <string name="privacy_risk_photo_location">Fotos uden placeringsoplysninger</string>
     <string name="privacy_risk_photo_location_msg">Begræns adgang til galleri, når det er unødvendigt</string>
     <string name="privacy_risk_photo_msg">Fotos med følsomme oplysninger</string>
@@ -4729,8 +4787,6 @@ Tilbagetræk samtykke nu?"</string>
     <string name="privacy_risk_result_ignore_btn">Ignorer</string>
     <string name="privacy_risk_result_item_safe">Ingen risici detekteret</string>
     <string name="privacy_risk_result_open_btn">Aktivér</string>
-    <string name="privacy_risk_result_photo_delete">Modtag notifikationer om slettede fotos</string>
-    <string name="privacy_risk_result_photo_delete_msg">Modtag notifikationer, når apps sletter elementer fra galleriet uden din tilladelse</string>
     <string name="privacy_risk_result_photo_sensitive">Dine fotos indeholder private oplysninger</string>
     <string name="privacy_risk_result_protection">Beskyttelse af personlige oplysninger</string>
     <string name="privacy_risk_result_screen_fuzzy">Slør apps forhåndsvisninger</string>
@@ -5532,6 +5588,7 @@ For at bruge dette ^1 med denne enhed skal du først konfigurere det."</string>
     <string name="storage_fbo_notification_start_content">Enheden kan blive langsommere under denne proces</string>
     <string name="storage_fbo_notification_start_title">Defragmenterer lagerplads</string>
     <string name="storage_fbo_number_tip">Behandlet den %1$s</string>
+    <string name="storage_fbo_time_talkback">MMMM d</string>
     <string name="storage_fbo_tools">Lageroptimering</string>
     <string name="storage_file_delete_tip">Slet valgte elementer permanent? Nogle af dem indlæses muligvis igen efter behov.</string>
     <string name="storage_file_dialog_delete_title">Slet elementer</string>
@@ -5763,12 +5820,20 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="tc_sms_report_upload_when_net">Tak for din feedback!</string>
     <string name="tc_web_correct_error">Kunne ikke kalibrere</string>
     <string name="ten_percent_total_pkg">%s (10%% af månedlig)</string>
+    <string name="terminal_flares_current_camera_mic">Bruger denne enheds kamera og mikrofon</string>
+    <string name="terminal_flares_current_camera_mic_screen">Bruger denne enheds kamera, mikrofon og skærm</string>
+    <string name="terminal_flares_recent_camera_mic">Har for nylig brugt denne enheds kamera og mikrofon</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Har for nylig brugt denne enheds kamera, mikrofon og skærm</string>
     <string name="terminal_flars_current_camera">Brug af denne enheds kamera</string>
+    <string name="terminal_flars_current_record">Bruger af denne enheds mikrofon</string>
     <string name="terminal_flars_current_screen">Adgang til denne enheds skærm</string>
     <string name="terminal_flars_current_screen_camera">Brug af denne enheds kamera og skærm</string>
+    <string name="terminal_flars_current_screen_mic">Bruger denne enheds skærm og mikrofon</string>
     <string name="terminal_flars_recent_camera">Har for nylig brugt denne enheds kamera</string>
+    <string name="terminal_flars_recent_record">Har for nylig brugt denne enheds mikrofon</string>
     <string name="terminal_flars_recent_screen">Har for nylig haft adgang til denne enheds skærm</string>
     <string name="terminal_flars_recent_screen_camera">Har for nylig brugt denne enheds kamera og skærm</string>
+    <string name="terminal_flars_recent_screen_mic">Har for nylig brugt denne enheds skærm og mikrofon</string>
     <string name="tether_custom_dialog_title">Grænse for mobildata</string>
     <string name="tether_limit_dialog_title">Grænse for mobildata</string>
     <string name="tether_limit_value_custom">Brugertilpasset</string>
@@ -6187,12 +6252,12 @@ Hvis du tænder for den ene, deaktiveres den anden."</string>
     <string name="vb_video_effects_spatial_summary_new">Oplev forbedret følelse af rumlighed og retning af understøttet lyd, når du bruger hovedtelefoner</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>
     <string name="vb_video_super_division">Øg opløsningen</string>
-    <string name="vb_video_super_division_desc">"Øg automatisk opløsningen, når den er ≤720P.
+    <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720P.
 
-Brug af denne funktion øger strømforbruget.
+Using this feature increases power consumption.
 
-Denne funktion fungerer ikke med bevægelsesudjævning.
-Når der tændes for én funktion, slukkes den anden."</string>
+This feature doesn't work with motion smoothing.
+Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"Ikke tydelig nok?
 Prøv at øge opløsningen!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Forbedrede animationer er deaktiveret</string>

@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Tippen um neue Folie zu erstellen</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">Zeitlich festgelegt</string>
-    <string name="add_to_block_by_number">Zur Sperrliste hinzugefügt</string>
-    <string name="add_to_block_by_number_failed">Konnte nicht zur Sperrliste hinzugefügt werden. Versuche es erneut.</string>
-    <string name="add_to_block_by_tag">Dieses Schlüsselwort wurde zur Sperrliste hinzugefügt</string>
-    <string name="add_to_block_by_tag_failed">Schlüsselwort konnte nicht zur Sperrliste hinzugefügt werden. Versuche erneut.</string>
-    <string name="add_to_block_cta_failed">Öffne Sicherheit und stimme den Geschäftsbedingungen zu, um die Funktionen nutzen zu können</string>
+    <string name="add_to_block_by_number">"%s zur Sperrliste
+hinzugefügt"</string>
+    <string name="add_to_block_by_number_failed">"%s konnte nicht zur Sperrliste hinzugefügt werden.
+Erneut versuchen."</string>
+    <string name="add_to_block_by_tag">"Nachrichten, die \"%s\" beinhalten,
+wurden zur Sperrliste hinzugefügt"</string>
+    <string name="add_to_block_by_tag_failed">"Nachrichten mit „%s“ konnten nicht zur Sperrliste hinzugefügt werden.
+Erneut versuchen."</string>
+    <string name="add_to_block_cta_failed">Gewähre Sicherheit die erforderlichen Berechtigungen, um Elemente zur Sperrliste hinzufügen zu können.</string>
     <string name="add_to_browser_favorite_failed">Konnte nicht hinzugefügt werden</string>
     <string name="add_to_browser_favorite_success">Erfolgreich hinzugefügt</string>
     <string name="add_to_calender">Zu Kalender hinzufügen</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Empfänger: %s</string>
     <string name="billing">Rechnungen</string>
     <string name="block_messaging_entry_title">Blockierte SMS</string>
-    <string name="block_number_message">Nach dem Hinzufügen werden alle eingehenden Anrufe und Nachrichten von %s blockiert. Jetzt hinzufügen?</string>
+    <string name="block_number_message">Diese Telefonnummer wird der Sperrliste hinzugefügt. Alle Nachrichten, die von dieser Nummer gesendet werden, werden blockiert.</string>
     <string name="block_support_text">Unterstützt von Antiy.</string>
-    <string name="block_tag_message">Nach dem Hinzufügen werden alle Nachrichten, die das Schlüsselwort „%s“ enthalten, blockiert. Das kann Verifizierungscodes und Bestellinformationen beinhalten. Jetzt hinzufügen?</string>
+    <string name="block_tag_message">Alle von %s gesendeten Nachrichten werden blockiert. Möglicherweise kannst du keine Bestätigungscodes oder Rechnungen erhalten, die von diesem Dienst gesendet wurden.</string>
     <string name="boarding_time">Boarding-Zeit</string>
     <string name="bookmark">Zu Favoriten hinzugefügt</string>
     <string name="bookmark_confirm_delete_message">Ausgewählte Nachrichten aus Favoriten entfernen?</string>
@@ -295,6 +299,8 @@ bitte beachten Sie, dass die Internet-Messaging-Funktionalität jetzt bis auf we
     <string name="delete_message">Löschen</string>
     <string name="delete_phrase">Antwort löschen</string>
     <string name="delete_unlocked">Blockierte Nachrichten löschen</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Nummern löschen</string>
     <string name="delete_wild_sims_confirm">Alle Nachrichten zu den ausgewählten Nummern werden von deinem Gerät gelöscht. In i.mi.com können sie wiederhergestellt werden.</string>
     <string name="delete_wild_sims_title">Ausgewählte Nummern löschen</string>
@@ -509,6 +515,8 @@ bitte beachten Sie, dass die Internet-Messaging-Funktionalität jetzt bis auf we
     <string name="group_notify_message_title">Gruppen-Chat-Benachrichtigungen</string>
     <string name="group_rejoin_failed">Gruppen-Chat konnte nicht beigetreten werden</string>
     <string name="group_resend_message">Erneut senden (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Anzeigen von Elementen nicht möglich. Dieser Gruppen-Chat wurde gelöscht.</string>
     <string name="group_view_settings_not_memeber">Anzeigen von Elementen nicht möglich. Du bist kein Mitglied dieses Gruppen-Chats.</string>
     <string name="groupchat_list_title">Gruppen-Chats</string>
@@ -580,7 +588,7 @@ bitte beachten Sie, dass die Internet-Messaging-Funktionalität jetzt bis auf we
     <string name="menu_pick_from_contact">Aus Kontakten wählen</string>
     <string name="menu_preferences">Einstellungen</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Zu Sperrliste hinzufügen?</string>
+    <string name="menu_sms_block">Sperrliste</string>
     <string name="menu_traffic_destination">Zielort</string>
     <string name="menu_unlock">Aus Favoriten entfernen</string>
     <string name="menu_view_contact">Kontakt anzeigen</string>
@@ -1575,6 +1583,7 @@ Wenn du nicht zustimmst, solche Berechtigungen zu gewähren oder deine persönli
     <string name="v7_preference_off">AUS</string>
     <string name="v7_preference_on">AN</string>
     <string name="verification_code_flow_title">%1$s-Bestätigungscode</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Bestätigungscodes</string>
     <string name="verification_code_safety_warning">Zeige diese Codes niemand anderem</string>
     <string name="view">Anzeigen</string>

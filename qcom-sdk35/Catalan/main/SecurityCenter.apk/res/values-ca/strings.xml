@@ -982,6 +982,7 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="bubble_notification_switch">Mostra bombolles de conversa</string>
     <string name="bubble_notification_switch_desc">"Quan una aplicació de missatgeria en una finestra flotant s'amaga a la vora de la pantalla, mostra els missatges entrants en bombolles"</string>
     <string name="bubble_pickup_voice_print_auto">"S'està gravant l'empremta de veu…"</string>
+    <string name="bubble_pickup_voice_print_success">Empremta de veu enregistrada</string>
     <string name="button_background_connection">Permet</string>
     <string name="button_block_calls_from_cantacts">Desbloqueja</string>
     <string name="button_block_calls_from_strangers">Desbloqueja</string>
@@ -1015,6 +1016,8 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="button_to_setting">Configuració</string>
     <string name="button_toll_correction">"Calibra l'equilibri"</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Canvia al mes següent</string>
+    <string name="calendar_date_picker_a11y_prev_month">Canvia al mes anterior</string>
     <string name="call_address">"Llista de bloqueig d'àrea"</string>
     <string name="call_all_number_block">Bloqueja totes les trucades</string>
     <string name="call_and_contact">Trucades i contactes</string>
@@ -1950,6 +1953,17 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="game_toolbox_auto_brightness_talkback">Brillantor automàtica</string>
     <string name="game_toolbox_btn_back_talkback">Enrere</string>
     <string name="game_toolbox_cellular_network">Augment de velocitat de la xarxa mòbil</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Cancel·la</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">"Es crearà automàticament una connexió VPN basada en la latència en temps real per millorar l'estabilitat de la xarxa. Després de reclamar-la, obtindreu %d anys d'accés gratuït."</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Període de validesa: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Expirat</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Reclama</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Inicia sessió</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Reclama</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Augmenta la connexió de xarxa</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">"Crea una xarxa privada basada en la latència per millorar l'estabilitat de la connexió"</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Augmenta la connexió de xarxa</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">"Activeu-lo per reduir lleugerament la qualitat de la imatge i reduir significativament el consum d'energia"</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Nota:
@@ -3035,6 +3049,30 @@ El teu dispositiu va un %s més ràpid."</string>
     <string name="menu_item_virus_install_monitor_summary">"Comproveu si hi ha virus abans d'instal·lar les aplicacions"</string>
     <string name="menu_item_virus_install_monitor_title">"Escaneja abans d'instal·lar"</string>
     <string name="menu_item_virus_lib_auto_update_summary">Darrera actualització: %s</string>
+    <string name="menu_item_virus_risky_app_detect">Detecteu aplicacions de risc</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Cancel·la</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">"S'han detectat riscos de seguretat. No es pot desactivar ara."</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">"Si les autoritats, el personal d'atenció al client o persones que coneixeu us demanen que desactiveu aquesta funció, verifiqueu la seva identitat abans de continuar."</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Si desactiveu aquesta funció, ja no es durà a terme la detecció en temps real de comportaments de les aplicacions de risc, cosa que pot provocar filtracions de dades personals o pèrdues econòmiques. Voleu desactivar-la igualment?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Obre</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Desactiva</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Cancel·la</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Obre</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Entesos</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">No ho tornis a mostrar</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Surt</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Desactiva?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s presenta riscos de seguretat desconeguts i pot provocar filtracions de privadesa o pèrdues financeres. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">"Si no esteu d'acord amb aquesta alerta, toqueu aquí per enviar comentaris."</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">"Nom de l'aplicació: %s"</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Nom del paquet: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Descriviu el problema detalladament: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">"Signatura de l'aplicació: %s"</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Avís</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">"L'aplicació no està disponible"</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Advertència</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Bloqueja o notifica aplicacions de risc</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Desinstal·la</string>
     <string name="menu_remove">Elimina</string>
     <string name="menu_report">"Informa d'error"</string>
     <string name="menu_setting_traffic">Estableix manualment</string>
@@ -3091,6 +3129,7 @@ El teu dispositiu va un %s més ràpid."</string>
     <string name="mic_noise_reduction_voiceprint_desc">"Conserveu només l'àudio d'un usuari especificat"</string>
     <string name="midnight">Nit</string>
     <string name="midrop_post_notification_contentTitle">Necessiteu compartir fitxers?</string>
+    <string name="milink_init_loading">"S'està preparant una emissió…"</string>
     <string name="miui_blur_location">Ubicació aproximada</string>
     <string name="miui_optimization_close_final_tip">"Desactiva l'optimització del sistema?"</string>
     <string name="miui_optimization_close_title">"Aquesta funció està pensada per a desenvolupadors i pot no ser convenient per a usuaris generals. Si es desactiva l'optimització del sistema, es poden produir els següents canvis:"</string>
@@ -3786,6 +3825,21 @@ l'Estalvi de bateria ultra"</string>
     <string name="pc_low_batterty_got_it">Entesos</string>
     <string name="pc_low_battery_fast_charge">Accelera la càrrega</string>
     <string name="pc_low_battery_fast_charge_summary">"Connecteu el carregador subministrat per accelerar la càrrega quan la pantalla estigui apagada i la bateria estigui baixa. Aquesta funció pot provocar que el vostre dispositiu s'escalfi."</string>
+    <string name="pc_low_battery_health_msg_1">"L'estat de la bateria és inferior a %1$s. Us recomanem que us poseu en contacte amb el servei postvenda de Xiaomi per substituir la bateria."</string>
+    <string name="pc_low_battery_health_msg_2">"Toqueu el &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>servei postvenda&lt;/a> per trobar proveïdors autoritzats a prop vostre. Podeu reservar una reparació a la botiga o sol·licitar un servei d'enviament per correu.&lt;br />&lt;br />Pel que fa a l'estat de la bateria, potser voldreu saber:"</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Envelliment natural: Les bateries de liti tenen un nombre limitat de cicles de càrrega i es desgasten gradualment amb el temps.
+%2$d. Hàbits de càrrega: Carregar a altes temperatures, deixar que la bateria s'esgoti completament abans de carregar-la o utilitzar carregadors ràpids no oficials pot accelerar l'envelliment.
+%3$d. Entorns extrems: La calor excessiva (com ara la llum solar directa o els jocs intensius) o les condicions de molt fred poden danyar la bateria i escurçar-ne la vida útil."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Una bateria de durada més curta requereix una càrrega més freqüent.
+%2$d. El rendiment es redueix durant tasques exigents (com ara jocs intensius o edició de vídeo), cosa que pot afectar la suavitat.
+%3$d. En casos extrems, la càrrega es torna més lenta o el dispositiu s'apaga automàticament en ambients de baixa temperatura."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Mantingueu el nivell de la bateria entre %2$s i %3$s. Eviteu deixar-la completament carregada o completament esgotada durant llargs períodes.
+%4$d. Eviteu carregar-la a altes temperatures. Traieu la funda del telèfon mentre es carrega i eviteu jugar a fons durant la càrrega.
+%5$d. Utilitzeu carregadors i cables oficials o certificats per protegir la bateria."</string>
+    <string name="pc_low_battery_health_title">"Recordatori de l'estat de la bateria"</string>
+    <string name="pc_low_battery_health_title_1">"Per què empitjora l'estat de la bateria"</string>
+    <string name="pc_low_battery_health_title_2">Com us afecta la baixa qualitat de la bateria</string>
+    <string name="pc_low_battery_health_title_3">Com ajudar a allargar la vida útil de la bateria</string>
     <string name="pc_low_temp_charge_summary">"Mantingueu el carregador connectat i espereu que la bateria s'escalfi després que la pantalla s'apagui per carregar-se amb normalitat"</string>
     <string name="pc_low_temp_charge_title">Càrrega a baixa temperatura</string>
     <string name="pc_low_temp_disable_otg_message">Els dispositius externs i la càrrega inversa no es poden utilitzar ara perquè la temperatura o la bateria és massa baixa. Torneu-ho a provar quan la temperatura o el nivell de la bateria augmenti.</string>
@@ -3812,6 +3866,8 @@ l'Estalvi de bateria ultra"</string>
     <string name="pc_night_sleep_mode_summary_pad">"Mentre la pantalla estigui apagada, el dispositiu tancarà les aplicacions en segon pla i restringirà l'ús de la xarxa. Si el dispositiu no s'utilitza durant molt de temps, s'aturarà o s'apagarà automàticament."</string>
     <string name="pc_night_sleep_mode_title">Mode nocturn</string>
     <string name="pc_no_more_remind">No recordeu</string>
+    <string name="pc_notify_low_battery_health_msg">És hora de substituir la bateria</string>
+    <string name="pc_notify_low_battery_health_title">"L'estat de la bateria és inferior a %1$s"</string>
     <string name="pc_ordinary_charge_summary">Permetre sempre la càrrega fins a %1$s</string>
     <string name="pc_ordinary_charge_title">Càrrega regular</string>
     <string name="pc_performance_mode_dialog_summary">"El vostre dispositiu podrà funcionar durant %s en Mode rendiment. Tingueu en compte que el Mode rendiment augmenta el consum d'energia i pot provocar un sobreescalfament."</string>
@@ -3880,6 +3936,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="pc_this_time_charge_full_work">Quasi carregada</string>
     <string name="pc_timely_charging_summary">La bateria està per sota de %1$s. Si el dispositiu es sobreescalfa mentre la bateria és baixa, això pot danyar-la.</string>
     <string name="pc_timely_charging_title">Carrega el teu dispositiu</string>
+    <string name="pc_tip_low_battery_health">És hora de substituir la bateria</string>
     <string name="pc_to_phone_install">"Instal·lació bloquejada per %s a través d'USB"</string>
     <string name="pc_toady_charge_time_title">Nombre de càrregues avui</string>
     <string name="pc_wait_device_cools_down">Espereu fins que el dispositiu es refredi per poder utilitzar aquesta funció.</string>
@@ -4087,6 +4144,8 @@ l'Estalvi de bateria ultra"</string>
     <string name="pin_toast">Llisqueu cap amunt des de la part inferior de la pantalla i feu una pausa per desfixar aquesta aplicació</string>
     <string name="pin_toast_nav">"Premeu prolongadament els botons d'enrere i de vista prèvia per anul·lar aquesta aplicació"</string>
     <string name="pkg_traffic">"Estableix el límit d'ús de dades"</string>
+    <string name="pkg_traffic_settings_instruction">Atenció</string>
+    <string name="pkg_traffic_settings_instruction_text">"A causa de les actualitzacions recents de l'operador, és possible que alguna informació no estigui disponible. Les dades que es mostren a \"Configuració avançada de trànsit\" són només de referència i poden no coincidir amb els registres del vostre operador. Consulteu l'extracte de facturació del vostre operador per obtenir l'ús més precís."</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Inici desencadenat</string>
     <string name="pm_auto_start_by_other_app">"\"Permetre a l'aplicació iniciï altres apps"</string>
@@ -4719,7 +4778,6 @@ Voleu retirar el consentiment ara?"</string>
     <string name="privacy_risk_detection_title">Detectar riscos de privadesa</string>
     <string name="privacy_risk_detection_user">Informació personal</string>
     <string name="privacy_risk_install_app">Aplicacions poc fiables</string>
-    <string name="privacy_risk_photo_delete">Es poden eliminar les fotos sense el vostre permís</string>
     <string name="privacy_risk_photo_location">"Fotos amb informació d'ubicació"</string>
     <string name="privacy_risk_photo_location_msg">"Restringiu l'accés a la Galeria quan no sigui necessari"</string>
     <string name="privacy_risk_photo_msg">Fotos amb informació sensible</string>
@@ -4730,8 +4788,6 @@ Voleu retirar el consentiment ara?"</string>
     <string name="privacy_risk_result_ignore_btn">Ignora</string>
     <string name="privacy_risk_result_item_safe">No s’ha detectat cap risc</string>
     <string name="privacy_risk_result_open_btn">Activa</string>
-    <string name="privacy_risk_result_photo_delete">Rep notificacions de fotos eliminades</string>
-    <string name="privacy_risk_result_photo_delete_msg">Rep notificacions quan les aplicacions eliminin elements de la galeria sense el vostre permís</string>
     <string name="privacy_risk_result_photo_sensitive">Les vostres fotos contenen informació privada</string>
     <string name="privacy_risk_result_protection">Protecció de privadesa</string>
     <string name="privacy_risk_result_screen_fuzzy">"Desenfoca les previsualitzacions de l'aplicació"</string>
@@ -5533,6 +5589,7 @@ Per a fer servir aquest/a ^1 amb aquest dispositiu, primer l'has de configurar."
     <string name="storage_fbo_notification_start_content">El dispositiu pot quedar endarrerit durant aquest procés</string>
     <string name="storage_fbo_notification_start_title">"S'està desfragmentant l'emmagatzematge"</string>
     <string name="storage_fbo_number_tip">Processat el %1$s</string>
+    <string name="storage_fbo_time_talkback">d MMMM</string>
     <string name="storage_fbo_tools">"Optimització d'emmagatzematge"</string>
     <string name="storage_file_delete_tip">"Vols suprimir els elements seleccionats permanentment? Alguns d'ells es poden tornar a carregar quan sigui necessari."</string>
     <string name="storage_file_dialog_delete_title">Voleu eliminar els elements</string>
@@ -5764,12 +5821,20 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="tc_sms_report_upload_when_net">Gràcies pel vostre comentari!</string>
     <string name="tc_web_correct_error">"No s'ha pogut calibrar"</string>
     <string name="ten_percent_total_pkg">%s (10%% de les dades mensuals)</string>
+    <string name="terminal_flares_current_camera_mic">"S'està utilitzant la càmera i el micròfon d'aquest dispositiu"</string>
+    <string name="terminal_flares_current_camera_mic_screen">"Utilitzant la càmera, el micròfon i la pantalla d'aquest dispositiu"</string>
+    <string name="terminal_flares_recent_camera_mic">"S'ha utilitzat recentment la càmera i el micròfon d'aquest dispositiu"</string>
+    <string name="terminal_flares_recent_camera_mic_screen">"S'ha utilitzat recentment la càmera, el micròfon i la pantalla d'aquest dispositiu"</string>
     <string name="terminal_flars_current_camera">"S'està fent servir la càmera d'aquest dispositiu"</string>
+    <string name="terminal_flars_current_record">"S'està utilitzant el micròfon d'aquest dispositiu"</string>
     <string name="terminal_flars_current_screen">"Accedint a la pantalla d'aquest dispositiu"</string>
     <string name="terminal_flars_current_screen_camera">"Utilitzant la càmera i la pantalla d'aquest dispositiu"</string>
+    <string name="terminal_flars_current_screen_mic">"S'està utilitzant la pantalla i el micròfon d'aquest dispositiu"</string>
     <string name="terminal_flars_recent_camera">"S'ha utilitzat recentment la càmera d'aquest dispositiu"</string>
+    <string name="terminal_flars_recent_record">"S'ha utilitzat recentment el micròfon d'aquest dispositiu"</string>
     <string name="terminal_flars_recent_screen">"S'ha accedit recentment a la pantalla d'aquest dispositiu"</string>
     <string name="terminal_flars_recent_screen_camera">"S'ha utilitzat recentment la càmera i la pantalla d'aquest dispositiu"</string>
+    <string name="terminal_flars_recent_screen_mic">"S'ha utilitzat recentment la pantalla i el micròfon d'aquest dispositiu"</string>
     <string name="tether_custom_dialog_title">Límit de dades mòbils</string>
     <string name="tether_limit_dialog_title">Límit de dades mòbils</string>
     <string name="tether_limit_value_custom">Personalitzat</string>

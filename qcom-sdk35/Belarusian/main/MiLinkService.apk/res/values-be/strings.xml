@@ -192,8 +192,6 @@
     <string name="cast_closed_captions">Субцітры</string>
     <string name="cast_closed_captions_unavailable">Субцітры недаступныя</string>
     <string name="cast_connecting_to_device">Падключэнне да прылады %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">Пошук прылад</string>
-    <string name="cast_device_chooser_title">Трансліраваць на прыладу</string>
     <string name="cast_disconnect">Адключыць</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Відарыс, які адлюстроўваецца ў той час, калі на прыёмніку Cast прайграецца рэклама</string>
@@ -234,9 +232,6 @@
     <string name="cast_tracks_chooser_dialog_ok">ОК</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Субцітры</string>
     <string name="cast_unmute">Уключыць гук</string>
-    <string name="cast_zero_devices_found">"Прылады не знойдзены.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Даведайцеся больш</a> пра спосабы трансляцыі змесціва на іншыя прылады.</string>
     <string name="casting_tips">Трансляцыя…</string>
     <string name="character_counter_content_description">Уведзена сімвалаў: %1$d з %2$d</string>
     <string name="character_counter_overflowed_content_description">Абмежаванне колькасці сімвалаў перавышана: %1$d з %2$d</string>
@@ -1042,6 +1037,7 @@
 %1$d. Калі вы сутыкнецеся з праблемамі, вы можаце паведаміць пра іх у нашай праграме «Сэрвісы і зваротная сувязь»."</string>
     <string name="help_page_text_end">Калі маркі вашай прылады няма ў спісе, звярніцеся да вытворцы, каб даведацца больш пра функцыю трансляцыі.</string>
     <string name="i_see">Зразумела</string>
+    <string name="ic_media_route_learn_more_accessibility">Як пачаць трансляцыю</string>
     <string name="icon_content_description">Значок дыялогавага акна</string>
     <string name="image_transfer_failed">Не ўдалося перадаць выяву</string>
     <string name="install">Усталяваць</string>
@@ -1194,8 +1190,17 @@
     <string name="mr_cast_button_connecting">Трансліраваць. Ідзе падключэнне</string>
     <string name="mr_cast_button_disconnected">Трансліраваць. Адключана</string>
     <string name="mr_cast_dialog_title_view_placeholder">Інфармацыя адсутнічае</string>
+    <string name="mr_chooser_looking_for_devices">Ідзе пошук прылад…</string>
     <string name="mr_chooser_searching">Пошук прылад</string>
     <string name="mr_chooser_title">Трансліраваць на прыладу</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Даведацца больш</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і аўтамабіль</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і тэлефон</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і планшэт</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і тэлевізар</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і гэта</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Упэўніцеся, што другая прылада падключана да той жа сеткі Wi-Fi, што і гадзіннік</string>
+    <string name="mr_chooser_zero_routes_found_title">Няма даступных прылад</string>
     <string name="mr_controller_album_art">Вокладка альбома</string>
     <string name="mr_controller_casting_screen">Трансліруецца змесціва экрана</string>
     <string name="mr_controller_close_description">Закрыць</string>
@@ -1375,7 +1380,7 @@
     <string name="passport_error_length_limit">Вы ўвялі занадта доўгі тэкст</string>
     <string name="passport_error_network">Немагчыма злучыцца з сеткай</string>
     <string name="passport_error_no_password_user">Вы яшчэ не ўстанавілі пароль. Увайдзіце з дапамогай SMS.</string>
-    <string name="passport_error_phone">Няправільны нумар тэлефона</string>
+    <string name="passport_error_phone">Увядзіце сапраўдны нумар тэлефона</string>
     <string name="passport_error_server">Памылка сервера</string>
     <string name="passport_error_sms_limit">На гэты нумар было даслана занадта шмат праверачных кодаў. Паспрабуйце зноў пазней.</string>
     <string name="passport_error_ticket_invalid">Гэты код неправільны</string>
@@ -1489,6 +1494,7 @@
     <string name="path_setting_cast_feature">Дадатковыя магчымасці падлучэння/Трансляцыя/Спецыяльныя функцыі</string>
     <string name="path_setting_cast_help">Дадатковыя параметры падключэння/Трансляцыя/Даведка</string>
     <string name="permission_allowed">Прадастаўлены</string>
+    <string name="permission_label_access_app_meta">Доступ да інфармацыі пра праграмы пры выкарыстанні праграм на розных прыладах</string>
     <string name="permission_uballowed">Не прадастаўлены</string>
     <string name="picker_view_description">Выкарыстанне камер некалькіх прылад. Вы можаце націснуць унутры карткі, каб выбраць камеры на прыладах паблізу.</string>
     <string name="picker_view_outside_description">Націсніце, каб закрыць гэтую картку.</string>

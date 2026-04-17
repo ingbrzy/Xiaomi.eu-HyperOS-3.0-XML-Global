@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Нажмите для добавления слайда</string>
     <string name="add_smiley">Смайлик</string>
     <string name="add_timing">Таймер</string>
-    <string name="add_to_block_by_number">Добавлено в Антиспам</string>
-    <string name="add_to_block_by_number_failed">Не удалось добавить в Антиспам. Повторите попытку.</string>
-    <string name="add_to_block_by_tag">Это ключевое слово добавлено в Антиспам</string>
-    <string name="add_to_block_by_tag_failed">Не удалось добавить ключевое слово в Антиспам. Повторите попытку.</string>
-    <string name="add_to_block_cta_failed">Откройте «Безопасность» и примите условия для использования этой функции</string>
+    <string name="add_to_block_by_number">"\"%s\" добавлено
+в антиспам"</string>
+    <string name="add_to_block_by_number_failed">"Не удалось добавить \"%s\" в список заблокированных.
+Повторите попытку."</string>
+    <string name="add_to_block_by_tag">"Сообщения, содержащие \"%s\",
+добавлены в антиспам"</string>
+    <string name="add_to_block_by_tag_failed">"Не удалось добавить в список заблокированных сообщения, содержащие \"%s\".
+Повторите попытку."</string>
+    <string name="add_to_block_cta_failed">Чтобы добавить объекты в список заблокированных, предоставьте приложению Безопасность необходимые разрешения.</string>
     <string name="add_to_browser_favorite_failed">Не удалось добавить</string>
     <string name="add_to_browser_favorite_success">Успешно добавлено</string>
     <string name="add_to_calender">Добавить в календарь</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Получатель: %s</string>
     <string name="billing">Счета</string>
     <string name="block_messaging_entry_title">Заблокированные SMS</string>
-    <string name="block_number_message">После добавления все входящие вызовы и сообщения от %s будут заблокированы. Добавить сейчас?</string>
+    <string name="block_number_message">Этот номер телефона будет добавлен в черный список. Все сообщения с этого номера будут заблокированы.</string>
     <string name="block_support_text">Поддержка: Antiy</string>
-    <string name="block_tag_message">После добавления все сообщения, содержащие ключевое слово «%s», будут заблокированы. К ним могут относиться сообщения с кодами подтверждения и информацией о заказах. Добавить сейчас?</string>
+    <string name="block_tag_message">Все сообщения, отправленные с %s, будут заблокированы. Вы не сможете получать коды подтверждения или счета, отправленные этим сервисом.</string>
     <string name="boarding_time">Время посадки</string>
     <string name="bookmark">Добавлено в избранные</string>
     <string name="bookmark_confirm_delete_message">Удалить выбранные сообщения из избранных?</string>
@@ -294,6 +298,8 @@
     <string name="delete_message">Удалить</string>
     <string name="delete_phrase">Удалить ответ</string>
     <string name="delete_unlocked">Удалить закрепленные сообщения</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Удалить номера</string>
     <string name="delete_wild_sims_confirm">Все сообщения от выбранных номеров будут удалены с этого телефона. Вы можете восстановить их из i.mi.com.</string>
     <string name="delete_wild_sims_title">Удаление выбранных номеров</string>
@@ -506,6 +512,8 @@
     <string name="group_notify_message_title">Уведомления групповых чатов</string>
     <string name="group_rejoin_failed">Не удалось присоединиться к чату</string>
     <string name="group_resend_message">Повторить (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Просмотр невозможен. Этот чат был удален.</string>
     <string name="group_view_settings_not_memeber">Просмотр невозможен. Вы не являетесь участником этого чата.</string>
     <string name="groupchat_list_title">Групповые чаты</string>
@@ -577,7 +585,7 @@
     <string name="menu_pick_from_contact">Выбрать из контактов</string>
     <string name="menu_preferences">Настройки</string>
     <string name="menu_report">Отчет</string>
-    <string name="menu_sms_block">Добавить в Антиспам?</string>
+    <string name="menu_sms_block">Антиспам</string>
     <string name="menu_traffic_destination">Пункт назначения</string>
     <string name="menu_unlock">Удалить из избранных</string>
     <string name="menu_view_contact">Просмотреть контакт</string>
@@ -1565,6 +1573,7 @@
     <string name="v7_preference_off">ВЫКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="verification_code_flow_title">Проверочный код %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Коды подтверждения</string>
     <string name="verification_code_safety_warning">Не передавайте коды другим людям.</string>
     <string name="view">Просмотреть</string>

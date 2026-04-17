@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Dodirni za stvaranje novog slajda</string>
     <string name="add_smiley">Smješko</string>
     <string name="add_timing">Vrijeme</string>
-    <string name="add_to_block_by_number">Dodali ste na listu blokiranih</string>
-    <string name="add_to_block_by_number_failed">Nije moguće dodati na popis blokiranih. Pokušajte ponovno.</string>
-    <string name="add_to_block_by_tag">Ova ključna riječ dodana je na popis blokiranih</string>
-    <string name="add_to_block_by_tag_failed">Nije moguće dodati ključnu riječ na popis blokiranih. Pokušajte ponovno.</string>
-    <string name="add_to_block_cta_failed">Otvorite Sigurnost i prihvatite uvjete i odredbe kako biste mogli koristiti ovu značajku</string>
+    <string name="add_to_block_by_number">"Dodali ste %s
+na listu blokiranih"</string>
+    <string name="add_to_block_by_number_failed">"Nije moguće dodati %s na popis blokiranih.
+Pokušajte ponovno."</string>
+    <string name="add_to_block_by_tag">"Poruka sadrži \"%s\"
+s liste blokiranih"</string>
+    <string name="add_to_block_by_tag_failed">"Nije moguće dodati poruke koje sadrže \"%s\" na popis blokiranih.
+Pokušajte ponovno."</string>
+    <string name="add_to_block_cta_failed">Dajte Sigurnosti potrebna dopuštenja kako biste mogli dodavati stavke na popis blokiranih</string>
     <string name="add_to_browser_favorite_failed">Ne mogu dodati</string>
     <string name="add_to_browser_favorite_success">Uspješno dodano</string>
     <string name="add_to_calender">Dodaj u Kalendar</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Primatelj: %s</string>
     <string name="billing">Računi</string>
     <string name="block_messaging_entry_title">Blokirani SMS-i</string>
-    <string name="block_number_message">Nakon dodavanja, svi dolazni pozivi i poruke s %s bit će blokirani. Dodati odmah?</string>
+    <string name="block_number_message">Ovaj telefonski broj bit će dodan na listu blokiranih. Sve poruke poslane s tog broja bit će blokirane.</string>
     <string name="block_support_text">Podržano od strane Antiy.</string>
-    <string name="block_tag_message">Nakon dodavanja, sve poruke koje sadrže ključnu riječ \"%s\" bit će blokirane. To može uključivati ​​verifikacijske kodove i podatke o narudžbi. Dodati sada?</string>
+    <string name="block_tag_message">Sve poruke poslane iz %s bit će blokiran. Možda nećete moći primati kodove potvrde ili račune koje šalje ova usluga.</string>
     <string name="boarding_time">Vrijeme ukrcavanja</string>
     <string name="bookmark">Dodano u omiljeno</string>
     <string name="bookmark_confirm_delete_message">Ukloni odabrane poruke iz omiljenih?</string>
@@ -294,6 +298,8 @@ Napominjemo da je značajka internet poruka od sada obustavljena do daljnjeg. To
     <string name="delete_message">Izbriši</string>
     <string name="delete_phrase">Brisanje odgovora</string>
     <string name="delete_unlocked">Izbriši zaključane poruke</string>
+    <string name="delete_verification_code_sms_message">Obrisati sve jednokratne zaporke?</string>
+    <string name="delete_verification_code_sms_title">Obriši jednokratne zaporke</string>
     <string name="delete_wild_sims">Izbriši brojeve</string>
     <string name="delete_wild_sims_confirm">Sve poruke koje pripadaju odabranim brojevima biti će izbrisane u ovom telefonu. Možete ih vratiti na i.mi.com.</string>
     <string name="delete_wild_sims_title">Izbriši odabrane brojeve</string>
@@ -506,6 +512,8 @@ Napominjemo da je značajka internet poruka od sada obustavljena do daljnjeg. To
     <string name="group_notify_message_title">Grupne obavijesti</string>
     <string name="group_rejoin_failed">Ne mogu se pridružiti grupnom razgovoru</string>
     <string name="group_resend_message">Ponovno slanje (%d)</string>
+    <string name="group_verification_codes_summary">Automatski grupiraj jednokratne zaporke</string>
+    <string name="group_verification_codes_title">Grupirajte jednokratne zaporke</string>
     <string name="group_view_settings_disolved">Ne mogu se vidjeti stavke. Ova grupa za razgovor je izbrisana.</string>
     <string name="group_view_settings_not_memeber">Ne možete vidjeti stavke. Niste član ove grupe za razgovor.</string>
     <string name="groupchat_list_title">Grupni razgovori</string>
@@ -577,7 +585,7 @@ Napominjemo da je značajka internet poruka od sada obustavljena do daljnjeg. To
     <string name="menu_pick_from_contact">Odabrati iz kontkata</string>
     <string name="menu_preferences">Postavke</string>
     <string name="menu_report">Povratna informacija</string>
-    <string name="menu_sms_block">Dodajte na listu blokiranih?</string>
+    <string name="menu_sms_block">Lista blokiranih</string>
     <string name="menu_traffic_destination">Odredište</string>
     <string name="menu_unlock">Ukloni iz omiljenih</string>
     <string name="menu_view_contact">Prikaži kontakt</string>
@@ -1565,6 +1573,7 @@ Ukoliko se ne slažete dati takvu dozvolu ili učitati i dijeliti Vaše osobne p
     <string name="v7_preference_off">ISKLJUČENO</string>
     <string name="v7_preference_on">UKLJUČENO</string>
     <string name="verification_code_flow_title">%1$s kod provjere</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Kodovi potvrde</string>
     <string name="verification_code_safety_warning">Ne otkrivajte ove kodove drugim ljudima</string>
     <string name="view">Prikaži</string>

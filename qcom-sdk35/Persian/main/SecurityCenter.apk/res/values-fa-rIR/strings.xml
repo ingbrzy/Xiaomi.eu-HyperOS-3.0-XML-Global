@@ -955,6 +955,7 @@
     <string name="bubble_notification_switch">نمایش حباب‌های گفتگو</string>
     <string name="bubble_notification_switch_desc">هنگامی که یک برنامه پیام‌رسان در یک پنجره شناور در لبه صفحه پنهان می‌شود، پیام‌های دریافتی به صورت حباب نمایان می‌شوند</string>
     <string name="bubble_pickup_voice_print_auto">درحال ضبط اثر صدا…</string>
+    <string name="bubble_pickup_voice_print_success">اثر صدا ضبط شد</string>
     <string name="button_background_connection">اجازه دادن</string>
     <string name="button_block_calls_from_cantacts">رفع انسداد</string>
     <string name="button_block_calls_from_strangers">رفع انسداد</string>
@@ -1775,7 +1776,7 @@
 %3$d. این ویژگی فقط در سزمین اصلی چین پشتیبانی می‌شود.
 %4$d. این ویژگی فقط در شبکه‌های 5G-SA کار می‌کند."</string>
     <string name="function_shield_auto_bright">خاموش کردن روشنایی خودکار</string>
-    <string name="function_shield_eye_shield">غیرفعال کردن حالت محافظت از چشم</string>
+    <string name="function_shield_eye_shield">خاموش کردن حالت محافظت از چشم</string>
     <string name="function_shield_pull_notification_bar">کرکره اعلان باز نشود</string>
     <string name="function_shield_settings_title">محدود کردن ویژگی‌های زیر هنگام بازی کردن</string>
     <string name="function_shield_summary">ویژگی‌های سیستم انتخاب شده را هنگام بازی کردن محدود می‌کند</string>
@@ -1835,6 +1836,17 @@
     <string name="game_toolbox_auto_brightness_talkback">تنظیم روشنایی خودکار</string>
     <string name="game_toolbox_btn_back_talkback">قبلی</string>
     <string name="game_toolbox_cellular_network">افزایش سرعت شبکه موبایل</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">MM/dd/yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">لغو</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">اتصال VPN، بر اساس خودکار و بر اساس تاخیر زمانی‌ای که در لحظه دارید به وجود خواهد آمد تا پایداری شبکه بیشتر شود. بعد از این که طلبش کنید، %d سال دسترسی رایگان خواهید داشت.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">مهلت اعتبار: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">منقضی شد</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">طلب کردن</string>
+    <string name="game_toolbox_dedicated_network_booster_login">ورود به حساب</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">طلب کردن</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">تقویت اتصال به شبکه</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">ساخت شبکه‌ای خصوصی بر اساس تاخیر، تا پایداری اتصال بالا برود</string>
+    <string name="game_toolbox_dedicated_network_booster_title">تقویت اتصال به شبکه</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">با روشن کردن این گزینه کیفیت تصویر اندکی کاهش و مصرف انرژی به صورت قابل توجهی پایین می‌آید</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"توجه:
@@ -2906,6 +2918,30 @@
     <string name="menu_item_virus_install_monitor_summary">بررسی برنامه‌ها از نظر ویروس پیش از نصب کردن</string>
     <string name="menu_item_virus_install_monitor_title">اسکن کردن پیش از نصب</string>
     <string name="menu_item_virus_lib_auto_update_summary">به‌روز شده در %s</string>
+    <string name="menu_item_virus_risky_app_detect">شناسایی اپلیکیشن‌های خطرساز</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">لغو</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">خطر امنیتی شناسایی شد. در حال حاضر نمی‌توان خاموشش کرد.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">اگر مقامات دولتی، کارمندان خدمات مشتری یا افرادی که آن‌ها را می‌شناسید از شما می‌خواهند این امکان را خاموش کنید، قبل از هرچیز از هویت‌شان مطمئن شوید.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">اگر این امکان را خاموش کنید، بررسی آنی اپلیکیشن‌های خطرساز دیگر انجام نمی‌شود. این کار می‌تواند باعث شود اطلاعات شخصی‌تان درز پیدا کند یا ضرر مالی ببینید. باز هم می‌خواهید خاموش شود؟</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">باز کردن</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">خاموش کردن</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">لغو</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">باز کردن</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">فهمیدم</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">دوباره نمایش داده نشود</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">خروج</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">خاموش شود؟</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s خطر امنیتی ناشناخته‌ای دارد و می‌تواند باعث شود تا اطلاعات شخصی‌تان درز پیدا کند یا ضرر مالی ببینید. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">اگر با این هشدار موافق نیستید، اینجا را بزنید تا بازخورد ارسال شود.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">نام برنامه: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">نام بسته:%s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">مشکل‌تان را با جزئیات شرح دهید: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">امضای برنامه: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">توجه</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">برنامه در دسترس نیست</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">هشدار</string>
+    <string name="menu_item_virus_risky_app_detect_summary">مسدودسازی یا اطلاع‌رسانی درباره‌ی اپلیکیشن‌های خطرساز</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">حذف برنامه</string>
     <string name="menu_remove">حذف</string>
     <string name="menu_report">گزارش خطا</string>
     <string name="menu_setting_traffic">تنظیم به‌صورت دستی</string>
@@ -2962,6 +2998,7 @@
     <string name="mic_noise_reduction_voiceprint_desc">نگه داشتن صدا فقط از یک کاربر مشخص</string>
     <string name="midnight">شب</string>
     <string name="midrop_post_notification_contentTitle">نیاز به هم‌رسانی فایل‌ها دارید؟</string>
+    <string name="milink_init_loading">در حال آماده‌سازی برای بازتاباندن…</string>
     <string name="miui_blur_location">موقعیت تقریبی</string>
     <string name="miui_optimization_close_final_tip">بهینه‌سازی سیستم خاموش شود؟</string>
     <string name="miui_optimization_close_title">این ویژگی برای توسعه‌دهندگان در نظر گرفته شده و ممکن است برای کاربران عمومی مناسب نباشد. خاموش کردن بهینه‌سازی سیستم ممکن است تغییرات زیر را در بر داشته باشد:</string>
@@ -3622,6 +3659,21 @@
     <string name="pc_low_batterty_got_it">متوجه‌ام</string>
     <string name="pc_low_battery_fast_charge">افزایش سرعت شارژ</string>
     <string name="pc_low_battery_fast_charge_summary">هنگام خاموش بودن صفحه و کم بودن باتری، شارژر ارائه شده را وصل کرده تا سرعت شارژ افزایش یابد. این ویژگی ممکن است سبب داغ شدن دستگاه شما شود.</string>
+    <string name="pc_low_battery_health_msg_1">سلامت باتری‌تان زیر %1$s است. توصیه می‌کنیم با خدمات پس از فروش Xiaomi تماس بگیرید تا باتری‌تان را تعویض کنید.</string>
+    <string name="pc_low_battery_health_msg_2">روی &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>خدمات پس از فروش&lt;/a> بزنید تا ارائه‌دهندگان مجاز اطراف‌تان را پیدا کنید. می‌توانید برای تعمیرات داخل فروشگاه وقت بگیرید یا درخواست خدمات پستی دهید. &lt;br />&lt;br /> احتمالا بخواهید موارد زیر را درباره‌ی سلامت باتری بدانید:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. افزایش عمر طبیعی: باتری‌های لیتیومی را می‌توان به تعداد دفعات مشخصی شارژ کرد. این باتری‌ها در گذر زمان فرسوده می‌شوند.
+%2$d عادت‌های شارژ: شارژ کردن در دمای بالا، شارژ کردن بعد از این که باتری کاملا خالی شده باشد یا استفاده از شارژرهای سریع غیر اصلی می‌توانند عمر باتری را کم کنند.
+%3$d شرایط محیطی خاص: دمای بسیار بالا (مثل تابش مستقیم خورشید) یا دمای بسیار سرد می‌تواند باتری شما را خراب و عمرش را کم کند."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. عمر کمتر باتری به معنای افزایش دفعات شارژ کردن است.
+%2$d. کارایی دستگاه، زمانی که کارهای سنگین (مثل بازی یا پردازش ویدیو انجام می‌دهید) کاهش پیدا می‌کند.
+%3$d در شرایط شدید، سرعت شارژ کم می‌شود یا دستگاه در دماهای پایین خاموش می‌شود."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. سطح باتری‌تان را بین %2$s و %3$s نگه دارید. برای مدت طولانی آن را در حالت شارژ کامل یا خالی نگه ندارید
+%4$d. دستگاه را در دمای بالا شارژ نکنید. قاب گوشی را در طول زمان شارژ بردارید و در طول مدت شارژ، بازی نکنید
+%5$d. برای محافظت از باتری، فقط از شارژرها و کابل‌های تایید شده و اصلی استفاده کنید."</string>
+    <string name="pc_low_battery_health_title">یادآور سلامت باتری</string>
+    <string name="pc_low_battery_health_title_1">چرا سلامت باتری کم می‌شود</string>
+    <string name="pc_low_battery_health_title_2">سلامت باتری بر شما چه اثری دارد</string>
+    <string name="pc_low_battery_health_title_3">چگونه کمک کنیم تا سلامت باتری زیاد شود</string>
     <string name="pc_low_temp_charge_summary">شارژر را متصل نگه دارید و منتظر بمانید تا باتری پس از خاموش شدن نمایشگر گرم شود تا به طور معمول شارژ شود</string>
     <string name="pc_low_temp_charge_title">شارژ با دمای پایین</string>
     <string name="pc_low_temp_disable_otg_message">به دلیل پایین بودن دما یا سطح باتری، هم‌اکنون امکان استفاده از دستگاه‌های خارجی و شارژ معکوس وجود ندارد. پس از افزایش دما یا سطح باتری، دوباره تلاش کنید.</string>
@@ -3648,6 +3700,8 @@
     <string name="pc_night_sleep_mode_summary_pad">هنگام خاموش بودن نمایشگر، دستگاه شما برنامه‌های پس‌زمینه را می‌بندد و استفاده از شبکه را محدود می‌کند. اگر دستگاه برای مدت طولانی استفاده نشود، به طور خودکار به حالت استراحت رفته و یا خاموش می‌شود.</string>
     <string name="pc_night_sleep_mode_title">حالت شب</string>
     <string name="pc_no_more_remind">یادآوری نشود</string>
+    <string name="pc_notify_low_battery_health_msg">وقت عوض کردن باتری‌تان است</string>
+    <string name="pc_notify_low_battery_health_title">سلامت باتری زیر %1$s است</string>
     <string name="pc_ordinary_charge_summary">همیشه اجازه شارژ کردن تا %1$s داده شود</string>
     <string name="pc_ordinary_charge_title">شارژ عادی</string>
     <string name="pc_performance_mode_dialog_summary">دستگاه شما قادر خواهد بود برای %s در حالت کارایی کار کند. توجه داشته باشید که حالت کارایی باعث افزایش مصرف برق شده و ممکن است منجر به داغ شدن بیش از حد شود.</string>
@@ -3716,6 +3770,7 @@
     <string name="pc_this_time_charge_full_work">تقریباً کامل شارژ شده است</string>
     <string name="pc_timely_charging_summary">سطح باتری کمتر از %1$s است. اگر دستگاه در زمانی که باتری کم است بیش از حد گرم شود، ممکن است به باتری آسیب برسد.</string>
     <string name="pc_timely_charging_title">دستگاه خود را شارژ کنید</string>
+    <string name="pc_tip_low_battery_health">وقت عوض کردن باتری‌تان است</string>
     <string name="pc_to_phone_install">نصب %s از طریق USB مسدود شد</string>
     <string name="pc_toady_charge_time_title">تعداد دفعات شارژ امروز</string>
     <string name="pc_wait_device_cools_down">برای امکان استفاده از این ویژگی صبر کنید تا دستگاهتان خنک شود.</string>
@@ -3923,6 +3978,8 @@
     <string name="pin_toast">برای برداشتن از پایین صفحه به سمت بالا کشیده و مکث کنید</string>
     <string name="pin_toast_nav">برای برداشتن این برنامه دکمه‌های بازگشت پیش‌نمایش را فشرده و نگه دارید</string>
     <string name="pkg_traffic">تنظیم سقف مصرف اینترنت همراه</string>
+    <string name="pkg_traffic_settings_instruction">توجه</string>
+    <string name="pkg_traffic_settings_instruction_text">به دلیل به‌روزرسانی‌های اخیر اپراتور، بعضی از اطلاعات ممکن است در دسترس نباشند. داده‌هایی که در «تنظیمات پیشرفته‌ی ترافیک» نشان داده می‌شوند، فقط برای اطلاع شما هستند و ممکن است با داده‌های اپراتور موبایل‌تان همخوانی نداشته باشند. برای اطلاع از کارکرد دقیق، ریز اطلاعات پرداختی اپراتورتان را ببینید.</string>
     <string name="pm">ب.ظ</string>
     <string name="pm_auto_start_by_other">راه‌اندازی آغاز شد</string>
     <string name="pm_auto_start_by_other_app">به برنامه اجازه داده شود تا به‌وسیله برنامه‌های دیگر آغاز شود</string>
@@ -4554,7 +4611,6 @@
     <string name="privacy_risk_detection_title">شناسایی خطرات مربوط به حفظ حریم خصوصی</string>
     <string name="privacy_risk_detection_user">اطلاعات شخصی</string>
     <string name="privacy_risk_install_app">برنامه‌های غیر قابل اعتماد</string>
-    <string name="privacy_risk_photo_delete">ممکن است عکس‌ها بدون اجازه شما حذف شوند</string>
     <string name="privacy_risk_photo_location">عکس‌ها با اطلاعات موقعیت</string>
     <string name="privacy_risk_photo_location_msg">محدود کردن دسترسی به گالری غیرضروری</string>
     <string name="privacy_risk_photo_msg">عکس‌هایی با اطلاعات حساس</string>
@@ -4565,8 +4621,6 @@
     <string name="privacy_risk_result_ignore_btn">نادیده گرفتن</string>
     <string name="privacy_risk_result_item_safe">هیچ خطری شناسایی نشده است</string>
     <string name="privacy_risk_result_open_btn">فعال کردن</string>
-    <string name="privacy_risk_result_photo_delete">دریافت اعلان‌ها درباره عکس‌های حذف شد</string>
-    <string name="privacy_risk_result_photo_delete_msg">دریافت اعلان‌ها هنگامی ‌که برنامه‌ها بدون اجازه شما موارد را از گالری حذف می‌کنند</string>
     <string name="privacy_risk_result_photo_sensitive">عکس‌های شما حاوی اطلاعات خصوصی است</string>
     <string name="privacy_risk_result_protection">حفاظت از حریم خصوصی</string>
     <string name="privacy_risk_result_screen_fuzzy">تار کردن پیش‌نمایش برنامه‌ها</string>
@@ -5366,6 +5420,7 @@
     <string name="storage_fbo_notification_start_content">دستگاه ممکن است در طول این فرآیند تاخیر داشته باشد</string>
     <string name="storage_fbo_notification_start_title">یکپارچه سازی فضای ذخیره‌ سازی</string>
     <string name="storage_fbo_number_tip">پردازش در %1$s</string>
+    <string name="storage_fbo_time_talkback">MMMM d</string>
     <string name="storage_fbo_tools">بهینه‌سازی حافظه</string>
     <string name="storage_file_delete_tip">موارد انتخاب شده برای همیشه حذف شوند؟ برخی از آن‌ها ممکن است در زمان لازم دوباره بارگذاری شوند.</string>
     <string name="storage_file_dialog_delete_title">حذف موارد</string>
@@ -5596,12 +5651,20 @@
     <string name="tc_sms_report_upload_when_net">از ارائه بازخورد شما متشکریم!</string>
     <string name="tc_web_correct_error">یکسان‌سازی نشد</string>
     <string name="ten_percent_total_pkg">%s (۱۰%% اینترنت همراه ماهانه)</string>
+    <string name="terminal_flares_current_camera_mic">در حال استفاده از دوربین و میکروفن این دستگاه</string>
+    <string name="terminal_flares_current_camera_mic_screen">استفاده از دوربین، میکروفن و صفحه این دستگاه</string>
+    <string name="terminal_flares_recent_camera_mic">به تازگی از دوربین و میکروفن این دستگاه استفاده کرده است</string>
+    <string name="terminal_flares_recent_camera_mic_screen">به تازگی از دوربین، میکروفن و صفحه این دستگاه استفاده کرده است</string>
     <string name="terminal_flars_current_camera">در حال استفاده از دوربین این دستگاه</string>
+    <string name="terminal_flars_current_record">در حال استفاده از میکروفن این دستگاه</string>
     <string name="terminal_flars_current_screen">در حال دسترسی به صفحه این دستگاه است</string>
     <string name="terminal_flars_current_screen_camera">استفاده از دوربین و صفحه این دستگاه</string>
+    <string name="terminal_flars_current_screen_mic">در حال استفاده از صفحه و میکروفن این دستگاه</string>
     <string name="terminal_flars_recent_camera">به تازگی از دوربین این دستگاه استفاده کرده است</string>
+    <string name="terminal_flars_recent_record">به تازگی از میکروفن این دستگاه استفاده کرده است</string>
     <string name="terminal_flars_recent_screen">به تازگی به صفحه این دستگاه دسترسی پیدا کرد</string>
     <string name="terminal_flars_recent_screen_camera">به تازگی از دوربین و صفحه این دستگاه استفاده کرده است</string>
+    <string name="terminal_flars_recent_screen_mic">به تازگی از صفحه و میکروفن این دستگاه استفاده کرده است</string>
     <string name="tether_custom_dialog_title">سقف اینترنت همراه</string>
     <string name="tether_limit_dialog_title">سقف اینترنت همراه</string>
     <string name="tether_limit_value_custom">سفارشی</string>
@@ -6018,12 +6081,12 @@
     <string name="vb_video_effects_spatial_summary_new">هنگام استفاده از هدفون، حس بهتر فضا و جهت را برای صدای پشتیبانی شده تجربه کنید</string>
     <string name="vb_video_effects_srs_premium_sound">صدا</string>
     <string name="vb_video_super_division">افزایش وضوح</string>
-    <string name="vb_video_super_division_desc">"افزایش وضوح به صورت خودکار هنگامی که ≤720P باشد.
+    <string name="vb_video_super_division_desc">"افزایش وضوح به طور خودکار، وقتی از 720P کمتر می‌شود.
 
-استفاده از این ویژگی مصرف برق را افزایش می‌دهد.
+استفاده از این امکان مصرف باتری را افزایش می‌دهد.
 
-این ویژگی در حالت هموارسازی حرکت کار نمی‌کند.
-روشن کردن یک ویژگی، ویژگی دیگر را خاموش می‌کند."</string>
+استفاده از این امکان همزمان با هموارسازی حرکت ممکن نیست.
+هرکدام از این دو روشن شوند، دیگری خاموش خواهد شد."</string>
     <string name="vb_video_super_division_tips">"به اندازه کافی واضح نیستید؟
  مقیاس وضوح را امتحان کنید!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">انیمیشن‌های بهینه شده خاموشند</string>
