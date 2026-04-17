@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Chạm để tạo trang trình bày mới</string>
     <string name="add_smiley">Biểu tượng cảm xúc</string>
     <string name="add_timing">Hẹn giờ</string>
-    <string name="add_to_block_by_number">Đã thêm vào danh sách chặn</string>
-    <string name="add_to_block_by_number_failed">Không thể thêm vào danh sách chặn. Thử lại.</string>
-    <string name="add_to_block_by_tag">Đã thêm từ khóa này vào danh sách chặn</string>
-    <string name="add_to_block_by_tag_failed">Không thể thêm từ khóa vào danh sách chặn. Thử lại.</string>
-    <string name="add_to_block_cta_failed">Mở Bảo mật và đồng ý với các điều khoản và điều kiện để có thể sử dụng tính năng này</string>
+    <string name="add_to_block_by_number">"Thêm %s
+vào danh sách chặn"</string>
+    <string name="add_to_block_by_number_failed">"Không thể thêm %s vào danh sách chặn.
+Thử lại."</string>
+    <string name="add_to_block_by_tag">"Tin nhắn có chứa \"%s\"
+đã thêm vào danh sách chặn"</string>
+    <string name="add_to_block_by_tag_failed">"Không thể thêm tin nhắn chứa \"%s\" vào danh sách chặn.
+Thử lại."</string>
+    <string name="add_to_block_cta_failed">Cấp cho Bảo mật các quyền yêu cầu để có thể thêm mục vào danh sách chặn</string>
     <string name="add_to_browser_favorite_failed">Không thể thêm</string>
     <string name="add_to_browser_favorite_success">Thêm thành công</string>
     <string name="add_to_calender">Thêm vào Lịch</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Người nhận: %s</string>
     <string name="billing">Hóa đơn</string>
     <string name="block_messaging_entry_title">SMS bị chặn</string>
-    <string name="block_number_message">Sau khi thêm, tất cả cuộc gọi và tin nhắn từ %s sẽ bị chặn. Thêm ngay?</string>
+    <string name="block_number_message">Số điện thoại này sẽ được thêm vào danh sách chặn. Tất cả tin nhắn được gửi từ số này sẽ bị khóa.</string>
     <string name="block_support_text">Được hỗ trợ bởi Antiy.</string>
-    <string name="block_tag_message">Sau khi thêm, tất cả các tin nhắn chứa từ khóa \"%s\" sẽ bị chặn. Điều này có thể bao gồm mã xác minh và thông tin đơn hàng. Thêm ngay?</string>
+    <string name="block_tag_message">Tất cả tin nhắn từ %s sẽ bị chặn. Bạn có thể không nhận được mã xác minh hoặc hóa đơn thanh toán từ dịch vụ này.</string>
     <string name="boarding_time">Thời gian lên máy bay</string>
     <string name="bookmark">Đã thêm vào yêu thích</string>
     <string name="bookmark_confirm_delete_message">Xóa tin nhắn đã chọn khỏi yêu thích?</string>
@@ -294,6 +298,8 @@ Xin chú ý rằng chức năng nhắn tin qua internet hiện đã bị tạm d
     <string name="delete_message">Xóa</string>
     <string name="delete_phrase">Xóa trả lời</string>
     <string name="delete_unlocked">Xóa các tin nhắn đã chặn</string>
+    <string name="delete_verification_code_sms_message">Xóa tất cả mật khẩu một lần?</string>
+    <string name="delete_verification_code_sms_title">Xóa mật khẩu một lần</string>
     <string name="delete_wild_sims">Xóa số</string>
     <string name="delete_wild_sims_confirm">Tất cả tin nhắn thuộc số đã chọn sẽ bị xóa trên điện thoại này. Bạn có thể khôi phục tại i.mi.com.</string>
     <string name="delete_wild_sims_title">Xóa số đã chọn</string>
@@ -506,6 +512,8 @@ Xin chú ý rằng chức năng nhắn tin qua internet hiện đã bị tạm d
     <string name="group_notify_message_title">Thông báo trò chuyện nhóm</string>
     <string name="group_rejoin_failed">Không thể tham gia trò chuyện nhóm</string>
     <string name="group_resend_message">Gửi lại (%d)</string>
+    <string name="group_verification_codes_summary">Tự động nhóm các mật khẩu một lần</string>
+    <string name="group_verification_codes_title">Nhóm mật khẩu một lần</string>
     <string name="group_view_settings_disolved">Không thể xem các mục. Trò chuyện nhóm này đã bị xóa.</string>
     <string name="group_view_settings_not_memeber">Không thể xem các mục. Bạn không phải là thành viên của trò chuyện nhóm này.</string>
     <string name="groupchat_list_title">Trò chuyện nhóm</string>
@@ -577,7 +585,7 @@ Xin chú ý rằng chức năng nhắn tin qua internet hiện đã bị tạm d
     <string name="menu_pick_from_contact">Chọn từ liên hệ</string>
     <string name="menu_preferences">Cài đặt</string>
     <string name="menu_report">Phản hồi</string>
-    <string name="menu_sms_block">Thêm vào danh sách chặn?</string>
+    <string name="menu_sms_block">Danh sách chặn</string>
     <string name="menu_traffic_destination">Điểm đến</string>
     <string name="menu_unlock">Xóa khỏi yêu thích</string>
     <string name="menu_view_contact">Xem liên hệ</string>
@@ -1565,6 +1573,7 @@ Nếu bạn không đồng ý cấp các quyền đó hoặc chia sẻ và tải
     <string name="v7_preference_off">TẮT</string>
     <string name="v7_preference_on">BẬT</string>
     <string name="verification_code_flow_title">Mã xác minh %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Mã xác minh</string>
     <string name="verification_code_safety_warning">Không tiết lộ các mã này cho người khác</string>
     <string name="view">Xem</string>

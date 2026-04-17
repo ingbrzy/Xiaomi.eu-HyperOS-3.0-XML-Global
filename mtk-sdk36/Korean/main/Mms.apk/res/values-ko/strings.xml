@@ -50,11 +50,15 @@
     <string name="add_slide_hint">새 슬라이드를 만들려면 탭하세요.</string>
     <string name="add_smiley">이모티콘</string>
     <string name="add_timing">예약</string>
-    <string name="add_to_block_by_number">차단 목록에 추가했습니다</string>
-    <string name="add_to_block_by_number_failed">차단 목록에 추가할 수 없습니다. 다시 시도해 주세요.</string>
-    <string name="add_to_block_by_tag">키워드를 차단 목록에 추가했습니다</string>
-    <string name="add_to_block_by_tag_failed">키워드를 차단 목록에 추가할 수 없습니다. 다시 시도해 주세요.</string>
-    <string name="add_to_block_cta_failed">이 기능을 사용하려면 보안을 열고 이용 약관에 동의해야 합니다</string>
+    <string name="add_to_block_by_number">"차단 목록에
+%s 추가됨"</string>
+    <string name="add_to_block_by_number_failed">"%s을(를) 차단 목록에 추가할 수 없습니다.
+다시 시도하세요."</string>
+    <string name="add_to_block_by_tag">"메시지에 \"%s\" 포함
+차단 목록에 추가됨"</string>
+    <string name="add_to_block_by_tag_failed">"\"%s\"이(가) 포함된 메시지를 차단 목록에 추가할 수 없습니다.
+다시 시도하세요."</string>
+    <string name="add_to_block_cta_failed">보안에서 차단 목록에 항목을 추가할 수 있도록 필요한 권한 부여하세요</string>
     <string name="add_to_browser_favorite_failed">추가 실패</string>
     <string name="add_to_browser_favorite_success">추가 성공</string>
     <string name="add_to_calender">캘린더에 추가</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">수신자: %s</string>
     <string name="billing">청구서</string>
     <string name="block_messaging_entry_title">차단된 SMS</string>
-    <string name="block_number_message">추가하면 %s의 모든 수신 전화와 메시지가 차단됩니다. 지금 추가하시겠습니까?</string>
+    <string name="block_number_message">이 전화번호는 차단 목록에 추가될 것입니다. 해당 번호에서 전송된 모든 메시지는 차단될 것입니다.</string>
     <string name="block_support_text">Antiy 제공</string>
-    <string name="block_tag_message">"추가하면 키워드 '%s'이(가) 포함된 모든 메시지가 차단됩니다. 여기에는 인증 코드 및 주문 정보가 포함될 수 있습니다. 지금 추가하시겠습니까?"</string>
+    <string name="block_tag_message">%s에서 전송된 모든 메시지가 차단될 것입니다. 해당 번호에서의 인증 코드 또는 영수증을 수신할 수 없게 됩니다.</string>
     <string name="boarding_time">탑승 시간</string>
     <string name="bookmark">즐겨찾기에 추가됨</string>
     <string name="bookmark_confirm_delete_message">즐겨찾기에서 선택한 메시지를 삭제하시겠습니까?</string>
@@ -295,6 +299,8 @@
     <string name="delete_message">삭제</string>
     <string name="delete_phrase">답장 삭제</string>
     <string name="delete_unlocked">잠긴 메시지 삭제</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">번호 삭제</string>
     <string name="delete_wild_sims_confirm">선택한 번호와 관련된 모든 메시지가 이 휴대전화에서 삭제될 것입니다. i.mi.com에서 복구하실 수 있습니다.</string>
     <string name="delete_wild_sims_title">선택한 번호 삭제</string>
@@ -509,6 +515,8 @@
     <string name="group_notify_message_title">그룹 채팅 알림</string>
     <string name="group_rejoin_failed">그룹 챗팅 참여 실패</string>
     <string name="group_resend_message">재전송(%d개)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">항목 보기 실패, 해당 그룹 채팅은 삭제되었습니다.</string>
     <string name="group_view_settings_not_memeber">항목 보기 실패, 귀하는 해당 그룹 채팅의 멤버가 아닙니다.</string>
     <string name="groupchat_list_title">그룹 채팅</string>
@@ -580,7 +588,7 @@
     <string name="menu_pick_from_contact">연락처에서 선택</string>
     <string name="menu_preferences">설정</string>
     <string name="menu_report">피드백</string>
-    <string name="menu_sms_block">차단 목록에 추가할까요?</string>
+    <string name="menu_sms_block">차단 목록</string>
     <string name="menu_traffic_destination">목적지</string>
     <string name="menu_unlock">즐겨찾기에서 제거</string>
     <string name="menu_view_contact">연락처 보기</string>
@@ -1575,6 +1583,7 @@ Mi 메시지 활성화를 위해 SMS 메시지 발송이 요구됩니다. 통신
     <string name="v7_preference_off">사용 안함</string>
     <string name="v7_preference_on">사용</string>
     <string name="verification_code_flow_title">%1$s 인증 코드</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">인증 코드</string>
     <string name="verification_code_safety_warning">코드를 다른 사람과 공유하지 마세요</string>
     <string name="view">보기</string>

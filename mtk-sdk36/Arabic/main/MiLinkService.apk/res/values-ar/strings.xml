@@ -192,8 +192,6 @@
     <string name="cast_closed_captions">الترجمة والشرح</string>
     <string name="cast_closed_captions_unavailable">الترجمة والشرح غير متاحة</string>
     <string name="cast_connecting_to_device">جارٍ الاتصال بـ %1$s</string>
-    <string name="cast_device_chooser_searching_for_devices">جارٍ البحث عن أجهزة</string>
-    <string name="cast_device_chooser_title">البث إلى</string>
     <string name="cast_disconnect">إلغاء الربط</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">‏الصورة المعروضة أثناء تشغيل مستقبل cast لأحد الإعلانات</string>
@@ -234,9 +232,6 @@
     <string name="cast_tracks_chooser_dialog_ok">حسنًا</string>
     <string name="cast_tracks_chooser_dialog_subtitles">الترجمات المصاحبة</string>
     <string name="cast_unmute">إعادة الصوت</string>
-    <string name="cast_zero_devices_found">"‏لم يتم العثور على أي أجهزة.
-"</string>
-    <string name="cast_zero_devices_learn_more_description">تعرَّف على <a href="https://support.google.com/chromecastbuiltin/answer/3006709">مزيد من المعلومات</a> حول طريقة بث المحتوى على أجهزة أخرى.</string>
     <string name="casting_tips">جارٍ بث الشاشة…</string>
     <string name="character_counter_content_description">تمّ إدخال %1$d حرف من إجمالي %2$d.</string>
     <string name="character_counter_overflowed_content_description">تجاوز عدد الأحرف المسموح به %1$d من %2$d.</string>
@@ -1042,6 +1037,7 @@
 %1$d. إذا واجهتك أي مشاكل، فيمكنك الإبلاغ عنها باستخدام تطبيق \"الخدمات والتعليقات\"."</string>
     <string name="help_page_text_end">إذا لم تكن ماركة جهازك مدرجة هنا، فاتصل بالشركة المصنعة لمعرفة المزيد عن وظيفة بث الشاشة.</string>
     <string name="i_see">حسنًا</string>
+    <string name="ic_media_route_learn_more_accessibility">التعرُّف على كيفية البثّ</string>
     <string name="icon_content_description">رمز مربع الحوار</string>
     <string name="image_transfer_failed">تعذر نقل الصورة</string>
     <string name="install">تثبيت</string>
@@ -1194,8 +1190,17 @@
     <string name="mr_cast_button_connecting">إرسال جارٍ الاتصال</string>
     <string name="mr_cast_button_disconnected">إرسال غير متصل</string>
     <string name="mr_cast_dialog_title_view_placeholder">لا تتوفر أي معلومات</string>
+    <string name="mr_chooser_looking_for_devices">جارٍ البحث عن أجهزة…</string>
     <string name="mr_chooser_searching">جارٍ البحث عن أجهزة</string>
     <string name="mr_chooser_title">البث إلى</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">مزيد من المعلومات</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">‏تأكَّد من أنّ الجهاز الآخر وهذه السيارة متّصلان بشبكة Wi-Fi نفسها.</string>
+    <string name="mr_chooser_wifi_warning_description_phone">‏تأكَّد من أنّ الجهاز الآخر وهذا الهاتف متّصلان بشبكة Wi-Fi نفسها.</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">‏تأكَّد من أنّ الجهاز الآخر وهذا الجهاز اللوحي متّصلان بشبكة Wi-Fi نفسها.</string>
+    <string name="mr_chooser_wifi_warning_description_tv">‏تأكَّد من أنّ الجهاز الآخر وهذا التلفزيون متّصلان بشبكة Wi-Fi نفسها.</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">‏تأكَّد من أنّ الجهاز الآخر وهذا الجهاز متّصلان بشبكة Wi-Fi نفسها.</string>
+    <string name="mr_chooser_wifi_warning_description_watch">‏تأكَّد من أنّ الجهاز الآخر وهذه الساعة متّصلان بشبكة Wi-Fi نفسها.</string>
+    <string name="mr_chooser_zero_routes_found_title">لا تتوفّر أي أجهزة</string>
     <string name="mr_controller_album_art">صورة الألبوم</string>
     <string name="mr_controller_casting_screen">جارٍ إرسال الشاشة</string>
     <string name="mr_controller_close_description">إغلاق</string>
@@ -1375,7 +1380,7 @@
     <string name="passport_error_length_limit">النص طويل جدا</string>
     <string name="passport_error_network">تعذر الاتصال بالشبكة</string>
     <string name="passport_error_no_password_user">لم تقم بتعيين كلمة المرور حتى الآن. تسجيل الدخول باستخدام SMS.</string>
-    <string name="passport_error_phone">رقم هاتف غير صالح</string>
+    <string name="passport_error_phone">أدخل رقم هاتف صحيح</string>
     <string name="passport_error_server">خطأ في الخادم</string>
     <string name="passport_error_sms_limit">تم إرسال الكثير من رموز التحقق إلى هذا الرقم. حاول مرة أخرى لاحقا.</string>
     <string name="passport_error_ticket_invalid">هذا الرمز غير صحيح</string>
@@ -1489,6 +1494,7 @@
     <string name="path_setting_cast_feature">مزيد من خيارات الاتصال البيني/بث الشاشة/ميزات خاصة</string>
     <string name="path_setting_cast_help">مزيد من خيارات الاتصال البيني/بث الشاشة/المساعدة</string>
     <string name="permission_allowed">ممنوح</string>
+    <string name="permission_label_access_app_meta">يمكنك الوصول إلى معلومات التطبيق عند استخدام التطبيقات على مختلف الأجهزة.</string>
     <string name="permission_uballowed">غير ممنوح</string>
     <string name="picker_view_description">كاميرا متعددة الأجهزة. يمكنك النقر داخل البطاقة لتحديد الكاميرات الموجودة على الأجهزة القريبة.</string>
     <string name="picker_view_outside_description">انقر لإغلاق هذه البطاقة.</string>

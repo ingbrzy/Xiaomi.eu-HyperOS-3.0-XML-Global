@@ -192,8 +192,6 @@ konnten nicht gefunden werden?"</string>
     <string name="cast_closed_captions">Untertitel</string>
     <string name="cast_closed_captions_unavailable">Untertitel nicht verfügbar</string>
     <string name="cast_connecting_to_device">Verbindung mit %1$s wird hergestellt</string>
-    <string name="cast_device_chooser_searching_for_devices">Geräte werden gesucht</string>
-    <string name="cast_device_chooser_title">Streamen auf</string>
     <string name="cast_disconnect">Verbindung aufheben</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Das Bild wird angezeigt, während der Cast-Receiver eine Werbung wiedergibt</string>
@@ -234,9 +232,6 @@ konnten nicht gefunden werden?"</string>
     <string name="cast_tracks_chooser_dialog_ok">Ok</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Untertitel</string>
     <string name="cast_unmute">Stummschaltung aufheben</string>
-    <string name="cast_zero_devices_found">"Keine Geräte gefunden.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Weitere Informationen zum Streamen von Inhalten auf andere Geräte.</a></string>
     <string name="casting_tips">Übertragung…</string>
     <string name="character_counter_content_description">Eingegebene Zeichen: %1$d von %2$d</string>
     <string name="character_counter_overflowed_content_description">Zeichenbeschränkung überschritten: %1$d/%2$d</string>
@@ -1042,6 +1037,7 @@ Wenn du Miracast einschalten musst, drücke auf die [MENU]-Schaltfläche und wä
 %1$d. Im Falle von Problemen kannst du sie mithilfe unserer „Services und Feedback“-App melden."</string>
     <string name="help_page_text_end">Wenn die Marke deines Geräts hier nicht aufgelistet ist, kontaktiere den Hersteller, um mehr über die Übertragungsfunktionalität zu erfahren.</string>
     <string name="i_see">Verstanden</string>
+    <string name="ic_media_route_learn_more_accessibility">Informationen zum Streamen</string>
     <string name="icon_content_description">Dialogfeldsymbol</string>
     <string name="image_transfer_failed">Übertragen des Bildes fehlgeschlagen</string>
     <string name="install">Installieren</string>
@@ -1194,8 +1190,17 @@ Hinweis: Du erhältst eine routinemäßige Systemwarnung, wenn du die Barrierefr
     <string name="mr_cast_button_connecting">Streamen. Verbindung wird hergestellt.</string>
     <string name="mr_cast_button_disconnected">Streamen. Nicht verbunden.</string>
     <string name="mr_cast_dialog_title_view_placeholder">Keine Informationen verfügbar</string>
+    <string name="mr_chooser_looking_for_devices">Suche nach Geräten läuft…</string>
     <string name="mr_chooser_searching">Geräte werden gesucht</string>
     <string name="mr_chooser_title">Streamen auf</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Weitere Informationen</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Auto befindet</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Smartphone befindet</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Tablet befindet</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieser Fernseher befindet</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Achte darauf, dass sich das andere Gerät im selben WLAN wie dieses Gerät befindet</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Achte darauf, dass sich das andere Gerät im selben WLAN wie diese Smartwatch befindet</string>
+    <string name="mr_chooser_zero_routes_found_title">Keine Geräte verfügbar</string>
     <string name="mr_controller_album_art">Albumcover</string>
     <string name="mr_controller_casting_screen">Bildschirm wird übertragen</string>
     <string name="mr_controller_close_description">Schließen</string>
@@ -1375,7 +1380,7 @@ Hinweis: Du erhältst eine routinemäßige Systemwarnung, wenn du die Barrierefr
     <string name="passport_error_length_limit">Der eingegebene Text ist zu lang</string>
     <string name="passport_error_network">Verbindung zum Netzwerk kann nicht hergestellt werden</string>
     <string name="passport_error_no_password_user">Du hast noch kein Passwort festgelegt. Melde dich mithilfe von SMS an.</string>
-    <string name="passport_error_phone">Ungültige Telefonnummer</string>
+    <string name="passport_error_phone">Gib eine gültige Telefonnummer ein</string>
     <string name="passport_error_server">Serverfehler</string>
     <string name="passport_error_sms_limit">Zu viele Bestätigungscodes wurden an diese Nummer gesendet. Versuche es später erneut.</string>
     <string name="passport_error_ticket_invalid">Dieser Code ist falsch</string>
@@ -1489,6 +1494,7 @@ Hinweis: Du erhältst eine routinemäßige Systemwarnung, wenn du die Barrierefr
     <string name="path_setting_cast_feature">Mehr Verbindungsoptionen/Übertragen/Besondere Funktionen</string>
     <string name="path_setting_cast_help">Mehr Verbindungsoptionen/Übertragen/Hilfe</string>
     <string name="permission_allowed">Erteilt</string>
+    <string name="permission_label_access_app_meta">Zugriff auf App-Informationen, wenn Apps geräteübergreifend verwendet werden</string>
     <string name="permission_uballowed">Nicht erteilt</string>
     <string name="picker_view_description">Geräteübergreifende Kamera. Du kannst innerhalb der Karte tippen, um Kameras auf Geräten in der Nähe auszuwählen.</string>
     <string name="picker_view_outside_description">Tippe, um diese Karte zu schließen.</string>
@@ -1811,7 +1817,7 @@ Stelle vor der Übertragung von Spielen sicher, dass Spiel-Turbo eingeschaltet i
     <string name="unlock_screen_to_authorize_camera_car">%s greift auf die Kamera des Gerätes zu</string>
     <string name="update">Aktualisier.</string>
     <string name="upgrade_accessibility_cancel_download">Download abgebrochen</string>
-    <string name="upgrade_accessibility_finish_all_upgrade">Erfolgreich aktualisiert. Die aktuelle Version ist auf dem neuesten Stand.</string>
+    <string name="upgrade_accessibility_finish_all_upgrade">Erfolgreich aktualisiert. Aktuelle Version ist auf dem neuesten Stand.</string>
     <string name="upgrade_accessibility_finish_upgrade">Erfolgreich aktualisiert</string>
     <string name="upgrade_accessibility_fold_devicelist">Update-Liste von %1$s zusammengeklappt</string>
     <string name="upgrade_accessibility_unfold_devicelist">Update-Liste von %1$s erweitert</string>

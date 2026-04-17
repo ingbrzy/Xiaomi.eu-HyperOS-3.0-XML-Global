@@ -982,6 +982,7 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="bubble_notification_switch">Konuşma baloncuklarını göster</string>
     <string name="bubble_notification_switch_desc">Kayan bir pencerede bir mesajlaşma uygulaması ekranın kenarına gizlendiğinde, gelen mesajlar baloncuklarda gösterilir</string>
     <string name="bubble_pickup_voice_print_auto">Ses izi kaydediliyor…</string>
+    <string name="bubble_pickup_voice_print_success">Ses izi kaydedildi</string>
     <string name="button_background_connection">İzin ver</string>
     <string name="button_block_calls_from_cantacts">Engeli kaldır</string>
     <string name="button_block_calls_from_strangers">Engeli kaldır</string>
@@ -1015,6 +1016,8 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="button_to_setting">Ayarlar</string>
     <string name="button_toll_correction">Bakiyeyi kalibre et</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="calendar_date_picker_a11y_prev_month">Önceki aya değiştir</string>
     <string name="call_address">Engellenen alan listesi</string>
     <string name="call_all_number_block">Tüm aramaları engelle</string>
     <string name="call_and_contact">Aramalar ve Kişiler</string>
@@ -1950,6 +1953,17 @@ Numara istisnalara eklenecek, ancak daha önce engellenen ögeler arama geçmiş
     <string name="game_toolbox_auto_brightness_talkback">Otomatik parlaklık</string>
     <string name="game_toolbox_btn_back_talkback">Geri</string>
     <string name="game_toolbox_cellular_network">Mobil ağ hızı artırma</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">İptal</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">Ağ kararlılığını iyileştirmek için gerçek zamanlı gecikme süresine dayalı bir VPN bağlantısı oluşturulacak. Talep ettikten sonra %d yıl ücretsiz erişim alacaksınız.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Geçerlilik süresi: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Süresi doldu</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Talep et</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Oturum aç</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Talep et</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Ağ bağlantısını hızlandır</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Bağlantı kararlılığını iyileştirmek için gecikme süresine dayalı özel bir ağ oluşturun</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Ağ bağlantısını hızlandır</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Resim kalitesini biraz azaltmak ve güç tüketimini önemli ölçüde düşürmek için açın</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Not:
@@ -3034,6 +3048,30 @@ Cihazınız şimdi %s daha hızlı."</string>
     <string name="menu_item_virus_install_monitor_summary">Uygulamaları yüklemeden önce virüs taramasından geçir</string>
     <string name="menu_item_virus_install_monitor_title">Yüklemeden önce tara</string>
     <string name="menu_item_virus_lib_auto_update_summary">%s tarihinde güncellendi</string>
+    <string name="menu_item_virus_risky_app_detect">Riskli uygulamaları tespit et</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">İptal</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Güvenlik riskleri algılandı. Şimdi kapatılamıyor.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Yetkililer, müşteri hizmetleri çalışanı veya tanıdığınız kişiler bu özelliği kapatmanızı isterse devam etmeden önce kimliklerini doğrulayın.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Bu özelliği kapatırsanız riskli uygulama davranışlarının gerçek zamanlı tespiti artık yapılmayacak, bu da kişisel verilerin sızıntısına veya finansal kayıplara yol açabilir. Yine de kapatılsın mı?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Aç</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Kapat</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">İptal</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Aç</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Anladım</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Tekrar gösterme</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Çık</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Kapatılsın mı?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s bilinmeyen güvenlik riskleri barındırıyor ve gizlilik ihlallerine veya finansal kayıplara neden olabilir. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Bu uyarıya katılmıyorsanız geri bildirim göndermek için buraya dokunun.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Uygulama adı: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paket adı: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Sorunu ayrıntılı olarak açıklayın: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Uygulama imzası: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Dikkat</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Uygulama kullanılamıyor</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Uyarı</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Riskli uygulamaları engelle veya bildir</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Kaldır</string>
     <string name="menu_remove">Sil</string>
     <string name="menu_report">Hata bildir</string>
     <string name="menu_setting_traffic">Manuel ayarla</string>
@@ -3090,6 +3128,7 @@ Cihazınız şimdi %s daha hızlı."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Yalnızca belirli bir kullanıcıdan gelen sesi sakla</string>
     <string name="midnight">Gece</string>
     <string name="midrop_post_notification_contentTitle">Dosya paylaşmaya mı ihtiyacınız var?</string>
+    <string name="milink_init_loading">Yansıtmaya hazırlanıyor…</string>
     <string name="miui_blur_location">Yaklaşık konum</string>
     <string name="miui_optimization_close_final_tip">Sistem optimizasyonu kapatılsın mı?</string>
     <string name="miui_optimization_close_title">Bu özellik, geliştiriciler içindir ve genel kullanıcılar için uygun olmayabilir. Sistem optimizasyonunu kapatmak aşağıdaki değişiklikleri getirebilir:</string>
@@ -3812,6 +3851,21 @@ kapatılıyor"</string>
     <string name="pc_low_batterty_got_it">Anladım</string>
     <string name="pc_low_battery_fast_charge">Şarj işlemini hızlandır</string>
     <string name="pc_low_battery_fast_charge_summary">Ekran kapalıyken ve pil zayıfken şarjı hızlandırmak için verilen şarj cihazını bağlayın. Bu özellik cihazınızın ısınmasına neden olabilir.</string>
+    <string name="pc_low_battery_health_msg_1">"Pil sağlığınız %1$s'in altında. Pili değiştirmek için Xiaomi'nin satış sonrası hizmeti ile iletişime geçmenizi öneririz."</string>
+    <string name="pc_low_battery_health_msg_2">Yakınınızdaki yetkili sağlayıcıları bulmak için &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>satış sonrası hizmet&lt;/a> seçeneğine dokunun. Mağazada tamir randevusu alabilir veya kargo ile servis talebinde bulunabilirsiniz.&lt;br />&lt;br />Pil sağlığı ile ilgili bilmek isteyebilecekleriniz:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Doğal yaşlanma: Lityum pillerin doğal döngü sayısı sınırlıdır ve zamanla kademeli olarak yıpranır.
+%2$d. Şarj alışkanlıkları: Yüksek sıcaklıklarda şarj etmek, şarj etmeden önce pilin tamamen boşalmasına izin vermek veya resmi olmayan hızlı şarj cihazları kullanmak pilin ömrünü kısaltabilir.
+%3$d. Aşırı ortamlar: Aşırı ısı (doğrudan güneş ışığı veya aşırı oyun oynama gibi) veya çok soğuk koşullar pile zarar verebilir ve kullanım ömrünü kısaltabilir."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Daha kısa pil ömrü daha sık şarj etmeyi gerektirir.
+%2$d. Yoğun oyun oynama veya video düzenleme gibi zorlu görevler sırasında performans düşer ve bu da akıcılığı etkileyebilir.
+%3$d. Aşırı durumlarda, düşük sıcaklık ortamlarında şarj yavaşlar veya cihaz otomatik olarak kapanır."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Şarj seviyenizi %2$s ve %3$s arasında tutun. Cihazı uzun süre tamamen şarjlı veya tamamen boş halde bırakmaktan kaçının.
+%4$d. Yüksek sıcaklıklarda şarjdan kaçının. Şarj olurken telefon kılıfını çıkarın ve şarj sırasında aşırı oyun oynamaktan kaçının.
+%5$d. Pili korumak için resmi veya sertifikalı şarj cihazlarını ve kablolarını kullanın."</string>
+    <string name="pc_low_battery_health_title">Pil sağlığı hatırlatıcısı</string>
+    <string name="pc_low_battery_health_title_1">Pil sağlığı neden azalır</string>
+    <string name="pc_low_battery_health_title_2">Düşük pil sağlığı sizi nasıl etkiler</string>
+    <string name="pc_low_battery_health_title_3">Pil sağlığını artırmaya nasıl yardımcı olunur</string>
     <string name="pc_low_temp_charge_summary">Şarj cihazını bağlı tutun ve normal şekilde şarj etmek için ekran kapandıktan sonra pilin ısınmasını bekleyin</string>
     <string name="pc_low_temp_charge_title">Düşük sıcaklıkta şarj</string>
     <string name="pc_low_temp_disable_otg_message">Harici cihazlar ve ters şarj şu an kullanılamıyor çünkü sıcaklık veya pil çok düşük. Sıcaklık veya pil seviyesi arttığında tekrar deneyin.</string>
@@ -3838,6 +3892,8 @@ kapatılıyor"</string>
     <string name="pc_night_sleep_mode_summary_pad">Ekran kapalıyken cihazınız arka plandaki uygulamaları kapatacak ve ağ kullanımını kısıtlayacak. Cihazınız uzun bir süredir kullanılmıyorsa otomatik olarak uyuyacak veya kapanacak.</string>
     <string name="pc_night_sleep_mode_title">Gece modu</string>
     <string name="pc_no_more_remind">Hatırlatma</string>
+    <string name="pc_notify_low_battery_health_msg">Pilinizi değiştirme zamanı</string>
+    <string name="pc_notify_low_battery_health_title">"Pil sağlığı %1$s'in altında"</string>
     <string name="pc_ordinary_charge_summary">%1$s olana kadar şarj olmasına her zaman izin verin</string>
     <string name="pc_ordinary_charge_title">Normal şarj</string>
     <string name="pc_performance_mode_dialog_summary">Cihazınız Performans modunda %s çalışacaktır. Performans modunun güç tüketimini artırdığını ve aşırı ısınmaya yol açabileceğini unutmayın.</string>
@@ -3906,6 +3962,7 @@ kapatılıyor"</string>
     <string name="pc_this_time_charge_full_work">Neredeyse tamamen şarj edildi</string>
     <string name="pc_timely_charging_summary">"Pil %1$s'in altında. Pil düşük iken cihaz aşırı ısınırsa bu, pile zarar verebilir."</string>
     <string name="pc_timely_charging_title">Cihazınızı şarj edin</string>
+    <string name="pc_tip_low_battery_health">Pilinizi değiştirme zamanı</string>
     <string name="pc_to_phone_install">USB üzerinden %s yüklemesi engellendi</string>
     <string name="pc_toady_charge_time_title">Bugünkü şarj sayısı</string>
     <string name="pc_wait_device_cools_down">Bu özelliği kullanabilmek için cihazınız soğuyana kadar bekleyin.</string>
@@ -4113,6 +4170,8 @@ kapatılıyor"</string>
     <string name="pin_toast">Ekranın altından yukarı kaydırın ve bu uygulamanın sabitlemesini kaldırmak için duraklatın</string>
     <string name="pin_toast_nav">Bu uygulamanın sabitlemesini kaldırmak için geri ve önizleme tuşlarına basılı tutun</string>
     <string name="pkg_traffic">Veri kullanım limitini ayarlayın</string>
+    <string name="pkg_traffic_settings_instruction">Uyarı</string>
+    <string name="pkg_traffic_settings_instruction_text">"Son operatör güncellemelerinden dolayı bazı bilgiler kullanılamayabilir. ''Gelişmiş Trafik Ayarları'' menüsünde gösterilen veriler yalnızca referans amaçlıdır ve operatörünüzün kayıtlarıyla eşleşmeyebilir. En doğru kullanım bilgileri için operatörünüzün fatura ekstresini kontrol edin."</string>
     <string name="pm">ÖS</string>
     <string name="pm_auto_start_by_other">Başlatma tetiklendi</string>
     <string name="pm_auto_start_by_other_app">Uygulamanın diğer uygulamalar tarafından başlatılmasına izin ver</string>
@@ -4745,7 +4804,6 @@ kapatılıyor"</string>
     <string name="privacy_risk_detection_title">Gizlilik risklerini sapta</string>
     <string name="privacy_risk_detection_user">Kişisel bilgi</string>
     <string name="privacy_risk_install_app">Güvenilmez uygulamalar</string>
-    <string name="privacy_risk_photo_delete">Fotoğraflar izniniz olmadan silinebilir</string>
     <string name="privacy_risk_photo_location">Konum bilgisi içeren fotoğraflar</string>
     <string name="privacy_risk_photo_location_msg">"Gereksiz olduğunda Galeri'ye erişimi kısıtla"</string>
     <string name="privacy_risk_photo_msg">Hassas bilgi içeren fotoğraflar</string>
@@ -4756,8 +4814,6 @@ kapatılıyor"</string>
     <string name="privacy_risk_result_ignore_btn">Yok say</string>
     <string name="privacy_risk_result_item_safe">Risk saptanmadı</string>
     <string name="privacy_risk_result_open_btn">Aç</string>
-    <string name="privacy_risk_result_photo_delete">Silinen fotoğraflar hakkında bildirimler al</string>
-    <string name="privacy_risk_result_photo_delete_msg">"Uygulamalar izniniz olmadan Galeri'den ögeleri sildiğinde bildirim alın"</string>
     <string name="privacy_risk_result_photo_sensitive">Fotoğraflarınız özel bilgiler içermektedir</string>
     <string name="privacy_risk_result_protection">Gizlilik koruması</string>
     <string name="privacy_risk_result_screen_fuzzy">Uygulama önizlemelerini bulanıklaştır</string>
@@ -5559,6 +5615,7 @@ Bu ^1 bu cihaz ile kullanmak için, önce onu kurmalısınız."</string>
     <string name="storage_fbo_notification_start_content">Cihazınız bu işlem sırasında gecikebilir</string>
     <string name="storage_fbo_notification_start_title">Depolama birleştiriliyor</string>
     <string name="storage_fbo_number_tip">%1$s tarihinde işlendi</string>
+    <string name="storage_fbo_time_talkback">d MMMM</string>
     <string name="storage_fbo_tools">Depolama alanı optimizasyonu</string>
     <string name="storage_file_delete_tip">Seçili ögeler kalıcı olarak silinsin mi? Ögelerden bazıları gerektiğinde tekrar yüklenebilir.</string>
     <string name="storage_file_dialog_delete_title">Ögeleri sil</string>
@@ -5790,12 +5847,20 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="tc_sms_report_upload_when_net">Geri bildiriminiz için teşekkürler!</string>
     <string name="tc_web_correct_error">Kalibre edilemedi</string>
     <string name="ten_percent_total_pkg">%s (aylık verinin %%10 oranı)</string>
+    <string name="terminal_flares_current_camera_mic">Bu cihazın kamerasını ve mikrofonunu kullanıyor</string>
+    <string name="terminal_flares_current_camera_mic_screen">Bu cihazın kamerasını, mikrofonunu ve ekranını kullanıyor</string>
+    <string name="terminal_flares_recent_camera_mic">Son zamanlarda bu cihazın kamerasını ve mikrofonunu kullandı</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Son zamanlarda bu cihazın kamerasını, mikrofonunu ve ekranını kullandı</string>
     <string name="terminal_flars_current_camera">Bu cihazın kamerasını kullanıyor</string>
+    <string name="terminal_flars_current_record">Bu cihazın mikrofonunu kullanıyor</string>
     <string name="terminal_flars_current_screen">Bu cihazın ekranına erişiyor</string>
     <string name="terminal_flars_current_screen_camera">Bu cihazın kamerasını ve ekranını kullanıyor</string>
+    <string name="terminal_flars_current_screen_mic">Bu cihazın ekranını ve mikrofonunu kullanıyor</string>
     <string name="terminal_flars_recent_camera">Son zamanlarda bu cihazın kamerasını kullandı</string>
+    <string name="terminal_flars_recent_record">Son zamanlarda bu cihazın mikrofonunu kullandı</string>
     <string name="terminal_flars_recent_screen">Son zamanlarda bu cihazın ekranına erişti</string>
     <string name="terminal_flars_recent_screen_camera">Son zamanlarda bu cihazın kamerasını ve ekranını kullandı</string>
+    <string name="terminal_flars_recent_screen_mic">Son zamanlarda bu cihazın ekranını ve mikrofonunu kullandı</string>
     <string name="tether_custom_dialog_title">Mobil veri sınırı</string>
     <string name="tether_limit_dialog_title">Mobil veri sınırı</string>
     <string name="tether_limit_value_custom">Özel</string>

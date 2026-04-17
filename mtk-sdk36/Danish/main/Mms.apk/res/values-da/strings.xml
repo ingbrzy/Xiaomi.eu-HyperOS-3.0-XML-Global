@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Tryk for at oprette nyt dias</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">På tid</string>
-    <string name="add_to_block_by_number">Føjet til blokeringslisten</string>
-    <string name="add_to_block_by_number_failed">Kunne ikke føje til blokeringslisten. Prøv igen.</string>
-    <string name="add_to_block_by_tag">Nøgleordet er føjet til blokeringslisten</string>
-    <string name="add_to_block_by_tag_failed">Kunne ikke føje nøgleordet til blokeringslisten. Prøv igen.</string>
-    <string name="add_to_block_cta_failed">Åbn Sikkerhed, og acceptér vilkårene for at kunne bruge denne funktion</string>
+    <string name="add_to_block_by_number">"Tilføjet %s
+til blokeringslisten"</string>
+    <string name="add_to_block_by_number_failed">"Kunne ikke tilføje %s til blokeringslisten.
+Prøv igen."</string>
+    <string name="add_to_block_by_tag">"Beskeder, der indeholder \"%s\"
+tilføjet til blokeringslisten"</string>
+    <string name="add_to_block_by_tag_failed">"Kunne ikke tilføje meddelelser indeholdende \"%s\" til blokeringslisten.
+Prøv igen."</string>
+    <string name="add_to_block_cta_failed">Giv Sikkerhed de krævede tilladelser for at kunne tilføje elementer til blokeringslisten</string>
     <string name="add_to_browser_favorite_failed">Kunne ikke tilføje</string>
     <string name="add_to_browser_favorite_success">Tilføjet</string>
     <string name="add_to_calender">Føj til kalender</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Modtager: %s</string>
     <string name="billing">Regninger</string>
     <string name="block_messaging_entry_title">Blokeret SMS</string>
-    <string name="block_number_message">Når det er tilføjet, bliver alle indgående opkald og beskeder fra %s blokeret. Tilføj nu?</string>
+    <string name="block_number_message">Dette telefonnummer vil blive føjet til blokeringslisten. Alle beskeder, der sendes fra dette nummer, vil blive blokeret.</string>
     <string name="block_support_text">Understøttet af Antiy.</string>
-    <string name="block_tag_message">Når det er tilføjet, bliver alle beskeder, der indeholder nøgleordet %s, blokeret. Det kan også omfatte bekræftelseskoder og ordreoplysninger. Tilføj nu?</string>
+    <string name="block_tag_message">Alle beskeder, der sendes fra %s, vil blive blokeret. Du vil muligvis ikke kunne modtage verifikationskoder eller fakturaer, der er sendt via denne tjeneste.</string>
     <string name="boarding_time">Boardingtid</string>
     <string name="bookmark">Tilføjet til favoritter</string>
     <string name="bookmark_confirm_delete_message">Fjern valgte beskeder fra favoritter?</string>
@@ -294,6 +298,8 @@ Bemærk, at beskedtjenesten er midlertidigt afbrudt, indtil andet meddeles. Dett
     <string name="delete_message">Slet</string>
     <string name="delete_phrase">Slet svar</string>
     <string name="delete_unlocked">Slet låste beskeder</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Slet numre</string>
     <string name="delete_wild_sims_confirm">Alle beskederne, som tilhører valgte numre, vil blive slettet i denne telefon. Du kan gendanne dem i i.mi.com.</string>
     <string name="delete_wild_sims_title">Slet valgte numre</string>
@@ -506,6 +512,8 @@ Bemærk, at beskedtjenesten er midlertidigt afbrudt, indtil andet meddeles. Dett
     <string name="group_notify_message_title">Gruppechatnotifikationer</string>
     <string name="group_rejoin_failed">Kunne ikke deltage i gruppechat</string>
     <string name="group_resend_message">Gensend (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Kan ikke vise elementer. Denne gruppechat er blevet slettet.</string>
     <string name="group_view_settings_not_memeber">Kan ikke vise elementer. Du er ikke medlem af denne gruppechat.</string>
     <string name="groupchat_list_title">Gruppechats</string>
@@ -577,7 +585,7 @@ Bemærk, at beskedtjenesten er midlertidigt afbrudt, indtil andet meddeles. Dett
     <string name="menu_pick_from_contact">Vælg fra kontaktpersoner</string>
     <string name="menu_preferences">Indstillinger</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Føj til blokeringsliste?</string>
+    <string name="menu_sms_block">Blokeringsliste</string>
     <string name="menu_traffic_destination">Destination</string>
     <string name="menu_unlock">Fjern fra favoritter</string>
     <string name="menu_view_contact">Se kontakt</string>
@@ -1565,6 +1573,7 @@ Hvis du ikke accepterer at give sådanne tilladelser eller dele og uploade dine 
     <string name="v7_preference_off">FRA</string>
     <string name="v7_preference_on">TIL</string>
     <string name="verification_code_flow_title">%1$s-verifikationskode</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Bekræftelseskoder</string>
     <string name="verification_code_safety_warning">Videregiv ikke disse koder til andre personer</string>
     <string name="view">Se</string>

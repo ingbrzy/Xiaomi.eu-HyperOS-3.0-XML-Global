@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Чукнете, за създаване на нов слайд</string>
     <string name="add_smiley">Емотикони</string>
     <string name="add_timing">Добави тайминги</string>
-    <string name="add_to_block_by_number">Добавени към списъка с блокирани</string>
-    <string name="add_to_block_by_number_failed">Неуспешно добавяне към списъка с блокирани. Опитайте отново.</string>
-    <string name="add_to_block_by_tag">Тази ключова дума е добавена към списъка с блокирани</string>
-    <string name="add_to_block_by_tag_failed">Неуспешно добавяне на ключовата дума към списъка с блокирани. Опитайте отново.</string>
-    <string name="add_to_block_cta_failed">Отворете защитата и приемете правилата и условията, за да можете да използвате тази функция</string>
+    <string name="add_to_block_by_number">"%s е добавен
+към Списъка на блокирани"</string>
+    <string name="add_to_block_by_number_failed">"Неуспешно добавяне на %s към списъка на блокирани.
+Опитайте отново."</string>
+    <string name="add_to_block_by_tag">"Съобщения, които съдържат \"%s\"
+бяха добавени в Списъка на блокирани"</string>
+    <string name="add_to_block_by_tag_failed">"Съобщенията, съдържащи „%s“, не можаха да бъдат добавени към списъка на блокирани.
+Опитайте отново."</string>
+    <string name="add_to_block_cta_failed">Предоставете на Сигурност необходимите разрешения, за да можете да добавяте елементи към списъка на блокирани</string>
     <string name="add_to_browser_favorite_failed">Неуспешно добавяне</string>
     <string name="add_to_browser_favorite_success">Успешно добавено</string>
     <string name="add_to_calender">Добави в Календар</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Получател: %s</string>
     <string name="billing">Сметки</string>
     <string name="block_messaging_entry_title">Блокиран SMS</string>
-    <string name="block_number_message">След добавяне всички входящи повиквания и съобщения от %s ще бъдат блокирани. Искате ли да ​​добавите?</string>
+    <string name="block_number_message">Този телефонен номер ще бъде добавен към списъка на блокирани. Всички изпратени от този номер съобщения ще бъдат блокирани.</string>
     <string name="block_support_text">Поддържа се от Antiy.</string>
-    <string name="block_tag_message">След добавяне всички съобщенията, съдържащи ключовата дума „%s“, ще бъдат блокирани. Това може да включва кодове за потвърждение и информация за поръчки. Искате ли да ​​добавите?</string>
+    <string name="block_tag_message">Всички изпратени от %s съобщения ще бъдат блокирани. Възможно е да не можете да получавате кодове за проверка или сметки, изпращани от тази услуга.</string>
     <string name="boarding_time">Време на качване</string>
     <string name="bookmark">Добавено в любими</string>
     <string name="bookmark_confirm_delete_message">Да се премахнат ли избраните съобщения от любими?</string>
@@ -294,6 +298,8 @@
     <string name="delete_message">Изтрий</string>
     <string name="delete_phrase">Изтрийте отговор</string>
     <string name="delete_unlocked">Изтрий заключени съобщения</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Изтриване на номера</string>
     <string name="delete_wild_sims_confirm">Всички съобщения от тези номера ще бъдат изтрити от вашия телефон. Можете да ги възстановите на i.mi.com.</string>
     <string name="delete_wild_sims_title">Изтриване на избрани номера</string>
@@ -506,6 +512,8 @@
     <string name="group_notify_message_title">Известия за групов чат</string>
     <string name="group_rejoin_failed">Неуспешно присъединяване към групов чат</string>
     <string name="group_resend_message">Повт. изпращане (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Не можете да видите елементите. Този групов чат беше изтрит.</string>
     <string name="group_view_settings_not_memeber">Не можете да видите елементите. Вие не сте член на този групов чат.</string>
     <string name="groupchat_list_title">Групови чатове</string>
@@ -577,7 +585,7 @@
     <string name="menu_pick_from_contact">Избери от контакти</string>
     <string name="menu_preferences">Настройки</string>
     <string name="menu_report">Отзиви</string>
-    <string name="menu_sms_block">Добавяне към списъка с блокирани?</string>
+    <string name="menu_sms_block">Списък на блокирани</string>
     <string name="menu_traffic_destination">Дестинация</string>
     <string name="menu_unlock">Премахни от любими</string>
     <string name="menu_view_contact">Преглед на контакт</string>
@@ -1565,6 +1573,7 @@
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="verification_code_flow_title">%1$s код за потвърждение</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Кодове за потвърждение</string>
     <string name="verification_code_safety_warning">Не разкривайте тези кодове на други хора</string>
     <string name="view">Преглед</string>

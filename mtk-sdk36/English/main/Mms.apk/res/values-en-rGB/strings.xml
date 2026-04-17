@@ -50,10 +50,14 @@
     <string name="add_slide_hint">Tap to create new slide</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">Timed</string>
-    <string name="add_to_block_by_number">Added to blocklist</string>
-    <string name="add_to_block_by_number_failed">"Couldn't add to blocklist. Try again."</string>
-    <string name="add_to_block_by_tag">Added this keyword to blocklist</string>
-    <string name="add_to_block_by_tag_failed">"Couldn't add keyword to blocklist. Try again."</string>
+    <string name="add_to_block_by_number">"Added %s
+to blocklist"</string>
+    <string name="add_to_block_by_number_failed">"Couldn't add %s to blocklist.
+Try again."</string>
+    <string name="add_to_block_by_tag">"Messages containing \"%s\"
+added to blocklist"</string>
+    <string name="add_to_block_by_tag_failed">"Couldn't add messages containing \"%s\" to blocklist.
+Try again."</string>
     <string name="add_to_block_cta_failed">Open Security and agree to its terms and conditions to be able to use this feature</string>
     <string name="add_to_browser_favorite_failed">"Couldn't add"</string>
     <string name="add_to_browser_favorite_success">Added successfully</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Recipient: %s</string>
     <string name="billing">Bills</string>
     <string name="block_messaging_entry_title">Blocked SMS</string>
-    <string name="block_number_message">Once added, all incoming calls and messages from %s will be blocked. Add now?</string>
+    <string name="block_number_message">This phone number will be added to blocklist. All messages sent from this number will be blocked.</string>
     <string name="block_support_text">Supported by Antiy.</string>
-    <string name="block_tag_message">Once added, all messages containing the keyword \"%s\" will be blocked. This may include verification codes and order information. Add now?</string>
+    <string name="block_tag_message">All messages sent from %s will be blocked. You might not be able to receive verification codes or bills sent by this service.</string>
     <string name="boarding_time">Boarding time</string>
     <string name="bookmark">Added to favourites</string>
     <string name="bookmark_confirm_delete_message">Remove selected messages from favourites?</string>
@@ -292,6 +296,8 @@ Please note that the internet messaging functionality is now suspended until fur
     <string name="delete_message">Delete</string>
     <string name="delete_phrase">Delete reply</string>
     <string name="delete_unlocked">Delete locked messages</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Delete numbers</string>
     <string name="delete_wild_sims_confirm">All the messages belong to selected numbers will be deleted in this phone. You can restore them in i.mi.com.</string>
     <string name="delete_wild_sims_title">Delete selected numbers</string>
@@ -504,6 +510,8 @@ Please note that the internet messaging functionality is now suspended until fur
     <string name="group_notify_message_title">Group chat notifications</string>
     <string name="group_rejoin_failed">"Couldn't join group chat"</string>
     <string name="group_resend_message">Resend (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">"Can't view items. This group chat was deleted."</string>
     <string name="group_view_settings_not_memeber">"Can't view items. You aren't a member of this group chat."</string>
     <string name="groupchat_list_title">Group chats</string>
@@ -1563,6 +1571,7 @@ If you don't agree to grant such permissions or share and upload your personal i
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="verification_code_flow_title">%1$s verification code</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Verification codes</string>
     <string name="verification_code_safety_warning">"Don't disclose these codes to other people"</string>
     <string name="view">View</string>

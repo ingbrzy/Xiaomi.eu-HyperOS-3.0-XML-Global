@@ -982,6 +982,7 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="bubble_notification_switch">Zobrazit bubliny konverzací</string>
     <string name="bubble_notification_switch_desc">Pokud je aplikace zpráv v plovoucím okně skryta na okraji obrazovky, příchozí zprávy budou zobrazeny v bublině.</string>
     <string name="bubble_pickup_voice_print_auto">Zaznamenávání hlasového otisku…</string>
+    <string name="bubble_pickup_voice_print_success">Byl zaznamenán hlas</string>
     <string name="button_background_connection">Povolit</string>
     <string name="button_block_calls_from_cantacts">Odblokovat</string>
     <string name="button_block_calls_from_strangers">Odblokovat</string>
@@ -1015,6 +1016,8 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="button_to_setting">Nastavení</string>
     <string name="button_toll_correction">Kalibrovat zůstatek</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Přejít na další měsíc</string>
+    <string name="calendar_date_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
     <string name="call_address">Blokované oblasti</string>
     <string name="call_all_number_block">Blokovat všechny hovory</string>
     <string name="call_and_contact">Hovory a Kontakty</string>
@@ -1950,6 +1953,17 @@ Všechna data na vašem zařízení mohou být smazána a heslo Zamykací obrazo
     <string name="game_toolbox_auto_brightness_talkback">Automatický jas</string>
     <string name="game_toolbox_btn_back_talkback">Zpět</string>
     <string name="game_toolbox_cellular_network">Zvyšte rychlost mobilní sítě</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd. MM. yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Zrušit</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">Stabilita sítě bude vylepšena automatickým vytvořením VPN připojení přizpůsobeného podle aktuální latence. Po vyzvednutí získáte bezplatný přístup na tento počet let: %d.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Platnost: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Platnost vypršela</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Získat</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Přihlášení</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Vyzvednout</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Zlepšete síťové připojení</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Vytvořte soukromou síť podle latence a zlepšete stabilitu připojení</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Zrychlete síťové připojení</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Zapnutím mírně snížíte kvalitu obrazu, ale výrazně snížíte spotřebu energie</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Poznámka:
@@ -3035,6 +3049,30 @@ Vaše zařízení je nyní o %s rychlejší."</string>
     <string name="menu_item_virus_install_monitor_summary">Zkontrolovat přítomnost virů před nainstalováním aplikace</string>
     <string name="menu_item_virus_install_monitor_title">Kontrola instalací</string>
     <string name="menu_item_virus_lib_auto_update_summary">Naposledy aktualizováno: %s</string>
+    <string name="menu_item_virus_risky_app_detect">Odhalit rizikové aplikace</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Zrušit</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Zjištěna bezpečnostní rizika. Vypnutí není možné.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">V případě, že by vás zaměstnanci úřadů, pracovníci zákaznického centra nebo známí lidé vyzvali k vypnutí této funkce, ověřte si jejich totožnost, než tak učiníte.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Když tuto funkci vypnete, nebude již v reálném čase zjišťovat rizikové chování aplikací, což může vést k úniku osobních údajů nebo finanční ztrátě. Chcete ji přesto vypnout?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Otevřít</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Vypnout</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Zrušit</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Otevřít</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Rozumím</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Znovu nezobrazovat</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Ukončit</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Vypnout?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s představuje neznámá bezpečnostní rizika a může vést k úniku informací o soukromí nebo finanční ztrátě. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Pokud s tímto upozorněním nesouhlasíte, klepnutím sem odešlete zpětnou vazbu.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Název aplikace: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Název balíčku: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Podrobně popište problém: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Podpis aplikace: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Upozornění</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Aplikace je nedostupná</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Varování</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Zablokovat nebo oznámit rizikové aplikace</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Odinstalovat</string>
     <string name="menu_remove">Vymazat</string>
     <string name="menu_report">Nahlásit chybu</string>
     <string name="menu_setting_traffic">Nastavit manuálně</string>
@@ -3091,6 +3129,7 @@ Vaše zařízení je nyní o %s rychlejší."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Zachování zvuku pouze od zadaného uživatele</string>
     <string name="midnight">Noc</string>
     <string name="midrop_post_notification_contentTitle">Potřebujete sdílet soubory?</string>
+    <string name="milink_init_loading">Příprava na přenos…</string>
     <string name="miui_blur_location">Přibližná poloha</string>
     <string name="miui_optimization_close_final_tip">Vypnout optimalizaci systému?</string>
     <string name="miui_optimization_close_title">Tato funkce je určena pro vývojáře a nemusí být vhodná pro běžné uživatele. Vypnutí systému optimalizace může způsobit následující změny:</string>
@@ -3785,6 +3824,21 @@ Ultra spořiče baterie"</string>
     <string name="pc_low_batterty_got_it">Rozumím</string>
     <string name="pc_low_battery_fast_charge">Zrychlit nabíjení</string>
     <string name="pc_low_battery_fast_charge_summary">Připojte dodanou nabíječku a zrychlete nabíjení, když je vypnutá obrazovka a vybitá baterie. Tato funkce může způsobit zahřívání zařízení.</string>
+    <string name="pc_low_battery_health_msg_1">Zdraví baterie je pod %1$s. Doporučujeme kontaktovat poprodejní servis Xiaomi ohledně výměny baterie.</string>
+    <string name="pc_low_battery_health_msg_2">Chcete-li nalézt autorizované prodejce ve svém okolí, klepněte na &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>poprodejní servis&lt;/a>. Můžete si rezervovat opravu na místě nebo požádat o zásilkovou službu.&lt;br />&lt;br />Ohledně zdraví baterie byste možná měli vědět:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Přirozené stárnutí: Lithiové baterie mají omezený počet nabíjecích cyklů a postupně se opotřebovávají.
+%2$d. Způsoby nabíjení: Nabíjení při vysokých teplotách, úplné vybití baterie před jejím nabitím nebo používání neoriginálních rychlonabíječek může urychlit proces stárnutí.
+%3$d. Extrémní prostředí: Nadměrné teplo (např. přímé sluneční světlo nebo intenzivní hraní) nebo naopak velmi nízké teploty mohou baterii poškodit a zkrátit její životnost."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Kratší výdrž baterie vyžaduje častější nabíjení.
+%2$d. Při náročných úlohách (např. intenzivní hraní nebo editace videa) dochází ke snížení výkonu, což může ovlivnit plynulost.
+%3$d. V extrémních případech se nabíjení zpomalí nebo se zařízení automaticky vypne v prostředí s nízkými teplotami."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Baterii udržujte nabitou v rozmezí %2$s až %3$s. Nenechávejte ji dlouhodobě plně nabitou ani plně vybitou.
+%4$d. Baterii nenabíjejte při vysokých teplotách. Během nabíjení sundejte pouzdro telefonu a vyhněte se intenzivnímu hraní her.
+%5$d. Z důvodu ochrany baterie používejte oficiální nebo certifikované nabíječky a kabely."</string>
+    <string name="pc_low_battery_health_title">Připomenutí zdraví baterie</string>
+    <string name="pc_low_battery_health_title_1">Proč dochází ke zhoršování zdraví baterie</string>
+    <string name="pc_low_battery_health_title_2">Jak nízké zdraví baterie ovlivňuje váš telefon</string>
+    <string name="pc_low_battery_health_title_3">Jak co nejdéle udržet zdraví baterie</string>
     <string name="pc_low_temp_charge_summary">Ponechejte nabíječku připojenou a počkejte, než se baterie zahřeje po vypnutí obrazovky, aby se spustilo normální nabíjení</string>
     <string name="pc_low_temp_charge_title">Nabíjení při nízké teplotě</string>
     <string name="pc_low_temp_disable_otg_message">Nyní nelze používat externí zařízení a zpětné nabíjení, protože teplota je nízká nebo baterie je téměř vybitá. Zkuste to znovu, až se zvýší teplota nebo úroveň nabití baterie.</string>
@@ -3811,6 +3865,8 @@ Ultra spořiče baterie"</string>
     <string name="pc_night_sleep_mode_summary_pad">Když je obrazovka vypnutá, vaše zařízení zavře aplikace běžící na pozadí a omezí využívání sítě. Pokud se zařízení dlouho nevyužívá, automaticky přejde do režimu spánku nebo se vypne.</string>
     <string name="pc_night_sleep_mode_title">Noční režim</string>
     <string name="pc_no_more_remind">Nepřipomínat</string>
+    <string name="pc_notify_low_battery_health_msg">Je čas vyměnit baterii</string>
+    <string name="pc_notify_low_battery_health_title">Zdraví baterie je pod %1$s</string>
     <string name="pc_ordinary_charge_summary">Nabíjení vždy umožněte až na %1$s</string>
     <string name="pc_ordinary_charge_title">Normální nabíjení</string>
     <string name="pc_performance_mode_dialog_summary">Ve výkonném režimu bude vaše zařízení schopno %s provozu. Upozorňujeme, že Výkonný režim zvyšuje spotřebu energie zařízení a může vést k přehřívání.</string>
@@ -3879,6 +3935,7 @@ Ultra spořiče baterie"</string>
     <string name="pc_this_time_charge_full_work">Téměř plně nabito</string>
     <string name="pc_timely_charging_summary">Kapacita baterie je méně než %1$s. Pokud se zařízení přehřeje, když je nízká kapacita baterie, může se baterie poškodit.</string>
     <string name="pc_timely_charging_title">Nabijte zařízení</string>
+    <string name="pc_tip_low_battery_health">Je čas vyměnit baterii</string>
     <string name="pc_to_phone_install">Blokována instalace %s aplikací přes USB</string>
     <string name="pc_toady_charge_time_title">Počet dobití dnes</string>
     <string name="pc_wait_device_cools_down">Pro použití této funkce počkejte, dokud zařízení nezchládne.</string>
@@ -4086,6 +4143,8 @@ Ultra spořiče baterie"</string>
     <string name="pin_toast">Potažením z dolního okraje obrazovky a zastavením tuto aplikaci odepnete</string>
     <string name="pin_toast_nav">Přidržením tlačítek zpět a náhled tuto aplikaci odepnete</string>
     <string name="pkg_traffic">Nastavit datový limit</string>
+    <string name="pkg_traffic_settings_instruction">Upozornění</string>
+    <string name="pkg_traffic_settings_instruction_text">Kvůli nedávným aktualizacím operátora nemusí být některé informace k dispozici. Údaje zobrazené v části „Pokročilé nastavení provozu“ jsou pouze orientační a nemusí odpovídat záznamům vašeho operátora. V zájmu maximální správnosti se podívejte na vyúčtování od operátora.</string>
     <string name="pm">odp.</string>
     <string name="pm_auto_start_by_other">Podmíněné spuštění</string>
     <string name="pm_auto_start_by_other_app">Povolit spuštění aplikace pomocí jiných aplikací</string>
@@ -4718,7 +4777,6 @@ Odebrat souhlas nyní?"</string>
     <string name="privacy_risk_detection_title">Kontrola ochrany soukromí</string>
     <string name="privacy_risk_detection_user">Osobní informace</string>
     <string name="privacy_risk_install_app">Nespolehlivé aplikace</string>
-    <string name="privacy_risk_photo_delete">Fotografie mohou být smazány bez vašeho vědomí</string>
     <string name="privacy_risk_photo_location">Fotografie s informacemi o poloze</string>
     <string name="privacy_risk_photo_location_msg">Zakázat přístup do Galerie, pokud přístup není potřeba</string>
     <string name="privacy_risk_photo_msg">Fotografie obsahující citlivé informace</string>
@@ -4729,8 +4787,6 @@ Odebrat souhlas nyní?"</string>
     <string name="privacy_risk_result_ignore_btn">Ignorovat</string>
     <string name="privacy_risk_result_item_safe">Nenalezeny žádné hrozby</string>
     <string name="privacy_risk_result_open_btn">Zapnout</string>
-    <string name="privacy_risk_result_photo_delete">Příjem upozornění na smazání fotografií</string>
-    <string name="privacy_risk_result_photo_delete_msg">Přijímat upozornění, pokud aplikace odstraní položky z Galerie bez vašeho vědomí</string>
     <string name="privacy_risk_result_photo_sensitive">Vaše fotografie obsahují osobní informace</string>
     <string name="privacy_risk_result_protection">Ochrana soukromí</string>
     <string name="privacy_risk_result_screen_fuzzy">Rozostřit náhledy aplikací</string>
@@ -5532,6 +5588,7 @@ Pro využití ^1 s tímto zařízením, toto úložiště nejprve nastavte."</st
     <string name="storage_fbo_notification_start_content">Během tohoto procesu může být zařízení pomalejší</string>
     <string name="storage_fbo_notification_start_title">Defragmentace úložiště</string>
     <string name="storage_fbo_number_tip">Zpracováno %1$s</string>
+    <string name="storage_fbo_time_talkback">d. MMMM</string>
     <string name="storage_fbo_tools">Optimalizace úložiště</string>
     <string name="storage_file_delete_tip">Trvale smazat vybrané položky? Některé z těchto položek mohou být v případě potřeby systémem opětovně vytvořeny.</string>
     <string name="storage_file_dialog_delete_title">Odstranit položky</string>
@@ -5763,12 +5820,20 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="tc_sms_report_upload_when_net">Děkujeme vám za vaši zpětnou vazbu!</string>
     <string name="tc_web_correct_error">Kalibrace se nezdařila</string>
     <string name="ten_percent_total_pkg">%s (10%% z měsíčního objemu dat)</string>
+    <string name="terminal_flares_current_camera_mic">Používá fotoaparát a mikrofon tohoto zařízení</string>
+    <string name="terminal_flares_current_camera_mic_screen">Používá fotoaparát, mikrofon a obrazovku tohoto zařízení</string>
+    <string name="terminal_flares_recent_camera_mic">Nedávno byly použity fotoaparát a mikrofon tohoto zařízení</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Nedávno byly použity fotoaparát, mikrofon a obrazovka tohoto zařízení</string>
     <string name="terminal_flars_current_camera">Používá fotoaparát tohoto zařízení</string>
+    <string name="terminal_flars_current_record">Používá mikrofon tohoto zařízení</string>
     <string name="terminal_flars_current_screen">Přistupuje k obrazovce tohoto zařízení</string>
     <string name="terminal_flars_current_screen_camera">Používá fotoaparát a obrazovku tohoto zařízení</string>
+    <string name="terminal_flars_current_screen_mic">Používá obrazovku a mikrofon tohoto zařízení</string>
     <string name="terminal_flars_recent_camera">Nedávno použila fotoaparát tohoto zařízení</string>
+    <string name="terminal_flars_recent_record">Nedávno byl použit mikrofon tohoto zařízení</string>
     <string name="terminal_flars_recent_screen">Nedávno přistoupila k obrazovce tohoto zařízení</string>
     <string name="terminal_flars_recent_screen_camera">Nedávno použila fotoaparát a obrazovku tohoto zařízení</string>
+    <string name="terminal_flars_recent_screen_mic">Nedávno byly použity obrazovka a mikrofon tohoto zařízení</string>
     <string name="tether_custom_dialog_title">Limit mobilních dat</string>
     <string name="tether_limit_dialog_title">Limit mobilních dat</string>
     <string name="tether_limit_value_custom">Vlastní</string>
@@ -6187,7 +6252,7 @@ Zapnutím jedné funkce vypnete druhou funkci."</string>
     <string name="vb_video_effects_spatial_summary_new">Vylepšený zvukový zážitek z prostoru a směru pro podporované audio soubory při využití sluchátek</string>
     <string name="vb_video_effects_srs_premium_sound">Zvuk</string>
     <string name="vb_video_super_division">Zvýšit</string>
-    <string name="vb_video_super_division_desc">"Automaticky zvýšit rozlišení při kvalitě obrazu ≤720P.
+    <string name="vb_video_super_division_desc">"Automaticky zvýšit rozlišení při kvalitě obrazu ≤ 720 P.
 
 Spuštění této funkce rychleji vybíjí baterii.
 

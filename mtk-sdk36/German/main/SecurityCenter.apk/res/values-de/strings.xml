@@ -982,6 +982,7 @@ Jedoch sind einige deiner Transaktionen noch nicht abgeschlossen. Um deine Zusti
     <string name="bubble_notification_switch">Gesprächsblasen anzeigen</string>
     <string name="bubble_notification_switch_desc">Wenn eine Messenger-App in einem schwebenden Fenster am Rand des Bildschirms verborgen ist, werden eingehende Nachrichten in Blasen angezeigt.</string>
     <string name="bubble_pickup_voice_print_auto">Voiceprint wird aufgenommen…</string>
+    <string name="bubble_pickup_voice_print_success">Voiceprint aufgenommen</string>
     <string name="button_background_connection">Erlauben</string>
     <string name="button_block_calls_from_cantacts">Blockierung aufheben</string>
     <string name="button_block_calls_from_strangers">Blockierung aufheben</string>
@@ -1015,6 +1016,8 @@ Jedoch sind einige deiner Transaktionen noch nicht abgeschlossen. Um deine Zusti
     <string name="button_to_setting">Einstellungen</string>
     <string name="button_toll_correction">Guthaben kalibrieren</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
+    <string name="calendar_date_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
     <string name="call_address">Ortssperrliste</string>
     <string name="call_all_number_block">Alle Anrufe blockieren</string>
     <string name="call_and_contact">Anrufe und Kontakte</string>
@@ -2157,6 +2160,17 @@ Du musst verstehen, dass diese Funktion nur zu deiner Information bereitgestellt
     <string name="game_toolbox_auto_brightness_talkback">Auto-Helligkeit</string>
     <string name="game_toolbox_btn_back_talkback">Zurück</string>
     <string name="game_toolbox_cellular_network">Speed Boost des mobilen Netzwerks</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd.MM.yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Abbrechen</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">Es wird automatisch eine VPN-Verbindung hergestellt, die sich nach der Echtzeit-Latenz richtet, um die Netzwerkstabilität zu verbessern. Nach dem Beanspruchen erhältst du %d Jahre kostenlosen Zugang.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Gültigkeitsdauer: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Abgelaufen</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Beanspruchen</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Anmelden</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Beanspruchen</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Netzwerkverbindung beschleunigen</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Erstelle ein privates Netzwerk auf Basis der Latenz, um die Verbindungsstabilität zu verbessern</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Netzwerkverbindung beschleunigen</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Einschalten, um die Bildqualität etwas zu verringern und den Stromverbrauch deutlich zu senken</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Hinweis:
@@ -3262,6 +3276,30 @@ Dein Gerät ist jetzt %s schneller."</string>
     <string name="menu_item_virus_install_monitor_summary">Apps vor der Installation auf Viren prüfen</string>
     <string name="menu_item_virus_install_monitor_title">Vor Installation scannen</string>
     <string name="menu_item_virus_lib_auto_update_summary">Aktualisiert am %s</string>
+    <string name="menu_item_virus_risky_app_detect">Riskante Apps entdecken</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Abbrechen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Sicherheitsrisiken entdeckt. Kann jetzt nicht ausgeschaltet werden.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Wenn Behörden, Kundendienstmitarbeiter oder Personen, die du möglicherweise kennst, dich bitten, diese Funktion auszuschalten, überprüfe ihre Identität, bevor du fortfährst.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Wenn du diese Funktion ausschaltest, wird das riskante Verhalten von Apps nicht mehr in Echtzeit erkannt, was zu Datenlecks oder finanziellen Verlusten führen kann. Trotzdem ausschalten?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Öffnen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Ausschalten</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Abbrechen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Öffnen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Verstanden</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Nicht mehr anzeigen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Verlassen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Ausschalten?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s birgt unbekannte Sicherheitsrisiken und kann zu Datenschutzverletzungen oder finanziellen Verlusten führen. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Wenn du mit dieser Warnung nicht einverstanden bist, tippe hier, um Feedback einzureichen.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">App-Name: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paketname: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Beschreibe das Problem ausführlich: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">App-Signatur: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Achtung</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">App ist nicht verfügbar</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Warnung</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Riskante Apps blockieren oder darüber benachrichtigen</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Deinstallieren</string>
     <string name="menu_remove">Löschen</string>
     <string name="menu_report">Fehler melden</string>
     <string name="menu_setting_traffic">Manuell festlegen</string>
@@ -3318,6 +3356,7 @@ Dein Gerät ist jetzt %s schneller."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Nur Audio von einem bestimmten Benutzer beibehalten</string>
     <string name="midnight">Nacht</string>
     <string name="midrop_post_notification_contentTitle">Müssen Dateien geteilt werden?</string>
+    <string name="milink_init_loading">Übertragung vorbereiten…</string>
     <string name="miui_blur_location">Ungefährer Standort</string>
     <string name="miui_optimization_close_final_tip">System-Optimierung ausschalten?</string>
     <string name="miui_optimization_close_title">Diese Funktion ist für Entwickler gedacht und für allgemeine Benutzer möglicherweise nicht geeignet. Das Abschalten der System-Optimierung könnte die folgenden Änderungen mit sich bringen:</string>
@@ -4012,6 +4051,21 @@ wird ausgeschaltet"</string>
     <string name="pc_low_batterty_got_it">Verstanden</string>
     <string name="pc_low_battery_fast_charge">Aufladen beschleunigen</string>
     <string name="pc_low_battery_fast_charge_summary">Schließe das mitgelieferte Ladegerät an, um den Ladevorgang zu beschleunigen, wenn der Bildschirm ausgeschaltet ist und der Akku leer ist. Diese Funktion kann dazu führen, dass sich dein Gerät erwärmt.</string>
+    <string name="pc_low_battery_health_msg_1">Dein Akkuzustand ist unter %1$s. Wir empfehlen, den After-Sales-Service zu kontaktieren, um deinen Akku zu ersetzen.</string>
+    <string name="pc_low_battery_health_msg_2">Tippe auf &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>After-Sales-Service&lt;/a>, um autorisierte Anbieter in deiner Nähe zu finden. Du kannst eine Reparatur im Geschäft buchen oder per Postversand anfordern.&lt;br />&lt;br />In Bezug auf den Akkuzustand solltest du vielleicht Folgendes wissen:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Natürliche Alterung: Lithium-Batterien haben eine begrenzte Anzahl von Ladezyklen und nutzen sich mit der Zeit allmählich ab.
+%2$d. Aufladegewohnheiten: Das Aufladen bei hohen Temperaturen, das vollständige Entladen des Akkus vor dem Laden oder die Verwendung nicht offizieller Schnell-Ladegeräte kann die Alterung beschleunigen.
+%3$d. Extreme Umgebungen: Übermäßige Hitze (z. B. durch direkte Sonneneinstrahlung oder intensives Gaming) oder sehr kalte Bedingungen können den Akku beschädigen und seine Lebensdauer verkürzen."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Eine kürzere Akkulaufzeit erfordert häufigeres Aufladen.
+%2$d. Die Leistung wird bei anspruchsvollen Aufgaben (wie intensiven Spielen oder Videobearbeitung) reduziert, was sich auf die Laufruhe auswirken kann.
+%3$d. In extremen Fällen verlangsamt sich der Ladevorgang oder das Gerät schaltet sich in Umgebungen mit niedrigen Temperaturen automatisch aus."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Halte deinen Akkustand zwischen %2$s und %3$s. Vermeide es, den Akku über längere Zeit vollständig geladen oder vollständig entladen zu lassen.
+%4$d. Vermeide das Laden bei hohen Temperaturen. Entferne das Telefongehäuse während des Ladevorgangs und vermeide intensives Spielen während des Ladevorgangs.
+%5$d. Verwende zum Schutz des Akkus nur offizielle oder zertifizierte Ladegeräte und Kabel."</string>
+    <string name="pc_low_battery_health_title">Akkuzustand-Erinnerung</string>
+    <string name="pc_low_battery_health_title_1">Warum sich der Akkuzustand verschlechtert</string>
+    <string name="pc_low_battery_health_title_2">Welche Auswirkungen ein niedriger Akkuzustand auf dich hat</string>
+    <string name="pc_low_battery_health_title_3">Wie du den Akkuzustand verlängern kannst</string>
     <string name="pc_low_temp_charge_summary">Lass das Ladegerät angeschlossen und warte, bis sich der Akku nach dem Ausschalten des Bildschirms erwärmt hat, um normal zu laden.</string>
     <string name="pc_low_temp_charge_title">Laden bei niedriger Temperatur</string>
     <string name="pc_low_temp_disable_otg_message">Externe Geräte und Umladung können im Moment nicht verwendet werden, da die Akkutemperatur zu niedrig ist. Versuche es erneut, wenn die Temperatur des Akkus gestiegen ist.</string>
@@ -4038,6 +4092,8 @@ wird ausgeschaltet"</string>
     <string name="pc_night_sleep_mode_summary_pad">Wenn der Bildschirm ausgeschaltet ist, schließt dein Gerät Hintergrund-Apps und schränkt die Netzwerknutzung ein. Wenn das Gerät längere Zeit nicht verwendet wird, wird es automatisch in den Ruhezustand versetzt oder ausgeschaltet.</string>
     <string name="pc_night_sleep_mode_title">Nachtmodus</string>
     <string name="pc_no_more_remind">Nicht erinnern</string>
+    <string name="pc_notify_low_battery_health_msg">Es ist an der Zeit, deinen Akku zu ersetzen</string>
+    <string name="pc_notify_low_battery_health_title">Akkuzustand ist unter %1$s</string>
     <string name="pc_ordinary_charge_summary">Immer Aufladen bis zu %1$s erlauben.</string>
     <string name="pc_ordinary_charge_title">Normales Aufladen</string>
     <string name="pc_performance_mode_dialog_summary">Dein Gerät kann für %s im Leistungsmodus arbeiten. Bitte beachte, dass der Leistungsmodus den Energieverbrauch erhöht und zur Überhitzung führen kann.</string>
@@ -4106,6 +4162,7 @@ wird ausgeschaltet"</string>
     <string name="pc_this_time_charge_full_work">Fast voll aufgeladen</string>
     <string name="pc_timely_charging_summary">Akkustand ist unter %1$s. Sollte das Gerät bei niedrigem Akkustand überhitzen, könnte dies den Akku beschädigen.</string>
     <string name="pc_timely_charging_title">Lade dein Gerät auf</string>
+    <string name="pc_tip_low_battery_health">Es ist an der Zeit, deinen Akku zu ersetzen</string>
     <string name="pc_to_phone_install">Installation von %s über USB blockiert</string>
     <string name="pc_toady_charge_time_title">Anzahl heutiger Aufladungen</string>
     <string name="pc_wait_device_cools_down">Warten Sie, bis Ihr Gerät abgekühlt ist, um diese Funktion nutzen zu können.</string>
@@ -4313,6 +4370,8 @@ wird ausgeschaltet"</string>
     <string name="pin_toast">Streiche vom unteren Rand des Bildschirms nach oben und halte an, um diese App zu lösen.</string>
     <string name="pin_toast_nav">Halte und drücke die Schaltflächen Zurück und Vorschau, um diese App zu lösen.</string>
     <string name="pkg_traffic">Datenlimit festlegen</string>
+    <string name="pkg_traffic_settings_instruction">Achtung</string>
+    <string name="pkg_traffic_settings_instruction_text">Aufgrund aktueller Aktualisierungen seitens der Mobilfunkanbieter sind einige Informationen möglicherweise nicht verfügbar. Die unter „Erweiterte Traffic-Einstellungen“ angezeigten Daten dienen nur als Referenz und stimmen möglicherweise nicht mit den Aufzeichnungen deines Mobilfunkanbieters überein. Die genauesten Nutzungsdaten findest du auf der Abrechnung deines Mobilfunkanbieters.</string>
     <string name="pm">abends</string>
     <string name="pm_auto_start_by_other">Ausgelöster Start</string>
     <string name="pm_auto_start_by_other_app">App erlauben, von anderen Apps gestartet zu werden</string>
@@ -4945,7 +5004,6 @@ Zustimmung jetzt widerrufen?"</string>
     <string name="privacy_risk_detection_title">Risiken auf Privatsphäre erkennen</string>
     <string name="privacy_risk_detection_user">Persönliche Daten</string>
     <string name="privacy_risk_install_app">Unglaubwürdige Apps</string>
-    <string name="privacy_risk_photo_delete">Fotos könnten ohne deine Zustimmung gelöscht werden</string>
     <string name="privacy_risk_photo_location">Fotos mit Standortinformationen</string>
     <string name="privacy_risk_photo_location_msg">Galeriezugriff einschränken, wenn dieser nicht nötig ist</string>
     <string name="privacy_risk_photo_msg">Fotos mit sensiblen Informationen</string>
@@ -4956,8 +5014,6 @@ Zustimmung jetzt widerrufen?"</string>
     <string name="privacy_risk_result_ignore_btn">Ignorieren</string>
     <string name="privacy_risk_result_item_safe">Keine Risiken gefunden</string>
     <string name="privacy_risk_result_open_btn">Einschalten</string>
-    <string name="privacy_risk_result_photo_delete">Benachrichtigungen über gelöschte Fotos erhalten</string>
-    <string name="privacy_risk_result_photo_delete_msg">Erhalte Benachrichtigungen, wenn Apps ohne deine Zustimmung Objekte aus der Galerie löschen</string>
     <string name="privacy_risk_result_photo_sensitive">Deine Fotos enthalten persönliche Daten</string>
     <string name="privacy_risk_result_protection">Datenschutz</string>
     <string name="privacy_risk_result_screen_fuzzy">App-Vorschau verschwommen anzeigen</string>
@@ -5760,6 +5816,7 @@ Um ^1 mit diesem Gerät zu verwenden, muss sie zuerst eingerichtet werden."</str
     <string name="storage_fbo_notification_start_content">Während dieses Vorgangs kann es zu Verzögerungen beim Gerät kommen</string>
     <string name="storage_fbo_notification_start_title">Defragmentieren des Speichers</string>
     <string name="storage_fbo_number_tip">Verarbeitet am %1$s</string>
+    <string name="storage_fbo_time_talkback">d. MMMM</string>
     <string name="storage_fbo_tools">Speicheroptimierung</string>
     <string name="storage_file_delete_tip">Ausgewählte Elemente dauerhaft löschen? Einige können erneut geladen werden, wenn notwendig.</string>
     <string name="storage_file_dialog_delete_title">Elemente löschen</string>
@@ -5991,12 +6048,20 @@ Das Formatieren wird existierende Inhalte auf ^2 löschen. Um den Verlust von In
     <string name="tc_sms_report_upload_when_net">Danke für dein Feedback!</string>
     <string name="tc_web_correct_error">Kalibrierung nicht möglich</string>
     <string name="ten_percent_total_pkg">%s (10%% von monatlichen Daten)</string>
+    <string name="terminal_flares_current_camera_mic">Die Kamera und das Mikrofon dieses Geräts wird verwendet</string>
+    <string name="terminal_flares_current_camera_mic_screen">Die Kamera, das Mikrofon und der Bildschirm dieses Geräts wird verwendet</string>
+    <string name="terminal_flares_recent_camera_mic">Die Kamera und das Mikrofon dieses Geräts wurde kürzlich verwendet</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Die Kamera, das Mikrofon und der Bildschirm dieses Geräts wurde kürzlich verwendet</string>
     <string name="terminal_flars_current_camera">Verwenden der Kamera dieses Geräts</string>
+    <string name="terminal_flars_current_record">Das Mikrofon dieses Geräts wird verwendet</string>
     <string name="terminal_flars_current_screen">Zugriff auf den Bildschirm dieses Geräts</string>
     <string name="terminal_flars_current_screen_camera">Verwenden der Kamera und des Bildschirms dieses Geräts</string>
+    <string name="terminal_flars_current_screen_mic">Der Bildschirm und das Mikrofon dieses Geräts wird verwendet</string>
     <string name="terminal_flars_recent_camera">Kürzlich die Kamera dieses Geräts benutzt</string>
+    <string name="terminal_flars_recent_record">Das Mikrofon dieses Geräts wurde kürzlich verwendet</string>
     <string name="terminal_flars_recent_screen">Kürzlich auf den Bildschirm dieses Geräts zugegriffen</string>
     <string name="terminal_flars_recent_screen_camera">Kürzlich die Kamera und den Bildschirm dieses Geräts benutzt</string>
+    <string name="terminal_flars_recent_screen_mic">Der Bildschirm und das Mikrofon dieses Geräts wurde kürzlich verwendet</string>
     <string name="tether_custom_dialog_title">Mobiles Datenlimit</string>
     <string name="tether_limit_dialog_title">Mobiles Datenlimit</string>
     <string name="tether_limit_value_custom">Benutzerdefiniert</string>

@@ -982,6 +982,7 @@
     <string name="bubble_notification_switch">Показване на чат балони</string>
     <string name="bubble_notification_switch_desc">Когато приложение за съобщения е скрито в плаващ прозорец в края на екрана, входящите съобщения ще бъдат показвани в балони</string>
     <string name="bubble_pickup_voice_print_auto">Записане на гласов отпечатък…</string>
+    <string name="bubble_pickup_voice_print_success">Гласовият отпечатък е записан</string>
     <string name="button_background_connection">Позволи</string>
     <string name="button_block_calls_from_cantacts">Отблокирай</string>
     <string name="button_block_calls_from_strangers">Отблокирай</string>
@@ -1015,6 +1016,8 @@
     <string name="button_to_setting">Настройки</string>
     <string name="button_toll_correction">Калибрирай баланса</string>
     <string name="byteShort">Б</string>
+    <string name="calendar_date_picker_a11y_next_month">Преминаване към следващия месец</string>
+    <string name="calendar_date_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="call_address">Списък с блокирани по място</string>
     <string name="call_all_number_block">Блокирай всички повиквания</string>
     <string name="call_and_contact">Обаждания и Контакти</string>
@@ -1890,7 +1893,7 @@
 %3$d. Тази функция е налична само в Континентален Китай.
 %4$d. Тази функция е налична само за 5G-SA мрежи."</string>
     <string name="function_shield_auto_bright">Изключване на автоматична яркост</string>
-    <string name="function_shield_eye_shield">Изключване на Режима за комфорт на очите</string>
+    <string name="function_shield_eye_shield">Изключи режима за комфорт на очите</string>
     <string name="function_shield_pull_notification_bar">Не отваряй Лентата с известия</string>
     <string name="function_shield_settings_title">Ограничаване на следните системни услуги когато играете игри</string>
     <string name="function_shield_summary">Ограничете избраните системни услуги по време на игри</string>
@@ -1950,6 +1953,17 @@
     <string name="game_toolbox_auto_brightness_talkback">Автоматична яркост</string>
     <string name="game_toolbox_btn_back_talkback">Назад</string>
     <string name="game_toolbox_cellular_network">Увеличаване на скоростта на мобилната мрежа</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd.MM.yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Отмени</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">VPN връзка ще бъде създадена автоматично въз основа на латентността в реално време, за да се подобри стабилността на мрежата. След заявяване ще получите %d години безплатен достъп.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Период на валидност: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Изтекло</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Заяви</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Вписване</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Заяви</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Усилване на мрежовата връзка</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Създайте частна мрежа, базирана на латентност, за да подобрите стабилността на връзката</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Усилване на мрежовата връзка</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Включете, за да намалите леко качеството на картината и значително да намалите консумацията на енергия</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Забележка:
@@ -3035,6 +3049,30 @@ Xiaomi Gaming Cooler"</string>
     <string name="menu_item_virus_install_monitor_summary">Проверявай приложенията за вируси преди инсталиране</string>
     <string name="menu_item_virus_install_monitor_title">Контрол на инсталиране</string>
     <string name="menu_item_virus_lib_auto_update_summary">Последна актуализация: %s</string>
+    <string name="menu_item_virus_risky_app_detect">Откриване на рискови приложения</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Отмени</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Открити са рискове за сигурността. Не може да се изключи сега.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Ако властите, служителите за обслужване на клиенти или хората, които познавате, Ви помолят да изключите тази функция, проверете самоличността им, преди да продължите.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Ако изключите тази функция, засичането в реално време на рискови поведения на приложенията вече няма да се извършва, което може да доведе до изтичане на лични данни или финансова загуба. Изключване въпреки това?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Отвори</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Изключи</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Отмени</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Отвори</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Разбрах</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Не показвай отново</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Изход</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Изключване?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s представлява неизвестни рискове за сигурността и може да доведе до изтичане на поверителност или финансови загуби. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Ако не сте съгласни с този сигнал, докоснете тук, за да изпратите обратна връзка.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Име на приложение: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Име на пакета: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Опишете проблема в детайли: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Подпис на приложението: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Внимание</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Приложението не е налично</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Предупреждение</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Блокиране или уведомяване за рискови приложения</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Деинсталиране</string>
     <string name="menu_remove">Изтрий</string>
     <string name="menu_report">Докладвай грешка</string>
     <string name="menu_setting_traffic">Задай ръчно</string>
@@ -3091,6 +3129,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mic_noise_reduction_voiceprint_desc">Запазване на аудио само от определен потребител</string>
     <string name="midnight">Нощ</string>
     <string name="midrop_post_notification_contentTitle">Трябва да споделите файлове?</string>
+    <string name="milink_init_loading">Подготовка за проекция…</string>
     <string name="miui_blur_location">Приблизителна локация</string>
     <string name="miui_optimization_close_final_tip">Изключване на оптимизация на системата?</string>
     <string name="miui_optimization_close_title">Тази функция е предназначена за програмисти и може да не бъде удобна за основните потребители. Изключването на оптимизацията на системата може да доведе до следните промени:</string>
@@ -3785,6 +3824,21 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_low_batterty_got_it">Разбрах</string>
     <string name="pc_low_battery_fast_charge">Ускорено зареждане</string>
     <string name="pc_low_battery_fast_charge_summary">Свържете предоставеното зарядно устройство, за да ускорите зареждането, когато екранът е изключен и батерията е изтощена. Тази функция може да доведе до нагряване на устройството.</string>
+    <string name="pc_low_battery_health_msg_1">Състоянието на батерията е под %1$s. Препоръчваме да се свържете с отдела за обслужване след продажба на Xiaomi, за да замените батерията си.</string>
+    <string name="pc_low_battery_health_msg_2">Натиснете върху &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>обслужване след продажбата&lt;/a>, за да намерите упълномошени доставчици близо до Вас. Можете да резервирате ремонт в магазина или да поискате услуга по пощата.&lt;br />&lt;br />По отношение на състоянието на батерията, може да Ви е интересно да знаете следното:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Естествено износване: Литиевите батерии имат ограничен брой цикли на зареждане и с течение на времето постепенно се износват.
+%2$d. Навици при зареждане: Зареждането при високи температури, изтощаването на батерията докрай преди зареждане или използването на неофициални бързи зарядни устройства може да ускори износването.
+%3$d. Екстремни условия: Прекомерната топлина (като пряка слънчева светлина или интензивно използване на игри) или много ниски температури могат да повредят батерията и да съкратят нейния живот."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Намаляването на живота на батерията изисква по-често зареждане.
+%2$d. Производителността се понижава при натоварващи задачи (като интензивни игри или редактиране на видео), което може да повлияе на безпроблемната работа.
+%3$d. В екстремни случаи зареждането работи по-бавно или устройството се изключва автоматично в среда с ниска температура."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Поддържайте нивото на батерията между %2$s и %3$s. Не я оставяйте напълно заредена или напълно изтощена за дълги периоди от време.
+%4$d. Избягвайте зареждането при високи температури. Свалете калъфа на телефона по време на зареждане и избягвайте интензивни игри по време на зареждане.
+%5$d. Използвайте официални или одобрени зарядни устройства и кабели, за да предпазите батерията."</string>
+    <string name="pc_low_battery_health_title">Напомняне за състоянието на батерията</string>
+    <string name="pc_low_battery_health_title_1">Защо се влошава състоянието на батерията</string>
+    <string name="pc_low_battery_health_title_2">Как ниското ниво на батерията оказва влияние върху Вас</string>
+    <string name="pc_low_battery_health_title_3">Как да удължите живота на батерията</string>
     <string name="pc_low_temp_charge_summary">Дръжте зарядното устройство свързано и изчакайте батерията да се загрее, след като екранът изгасне, за да се зарежда нормално</string>
     <string name="pc_low_temp_charge_title">Зареждане при ниска температура</string>
     <string name="pc_low_temp_disable_otg_message">Външни устройства и обратно зареждане не могат да се използват сега, защото температурата или батерията са твърде ниски/ слаби. Опитайте отново, когато температурата или нивото на батерията се покачат.</string>
@@ -3811,6 +3865,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_night_sleep_mode_summary_pad">Докато екранът е изключен, Вашето устройство ще затвори фоновите приложения и ще ограничи използването на мрежата. Ако устройството не се използва дълго време, то автоматично ще заспи или ще се изключи.</string>
     <string name="pc_night_sleep_mode_title">Нощен режим</string>
     <string name="pc_no_more_remind">Не напомняй</string>
+    <string name="pc_notify_low_battery_health_msg">Време е да смените батерията си</string>
+    <string name="pc_notify_low_battery_health_title">Състоянието на батерията е под %1$s</string>
     <string name="pc_ordinary_charge_summary">Винаги разрешавай зареждане до %1$s</string>
     <string name="pc_ordinary_charge_title">Стандартно зареждане</string>
     <string name="pc_performance_mode_dialog_summary">Вашето устройство ще може да работи за %s в режим Производителност. Забележете, че режим Производителност повишава консумацията на енергия и може да доведе до прегряване.</string>
@@ -3879,6 +3935,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_this_time_charge_full_work">Почти заредена изцяло</string>
     <string name="pc_timely_charging_summary">Батерията е под %1$s. Ако устройството прегрее, докато батерията е изтощена, това може да я повреди.</string>
     <string name="pc_timely_charging_title">Заредете батерията</string>
+    <string name="pc_tip_low_battery_health">Време е да смените батерията си</string>
     <string name="pc_to_phone_install">Блокирано инсталиране на %s през USB</string>
     <string name="pc_toady_charge_time_title">Брой зареждания днес</string>
     <string name="pc_wait_device_cools_down">Изчакайте, докато устройството Ви се охлади, за да можете да използвате тази функция.</string>
@@ -4086,6 +4143,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pin_toast">Плъзнете нагоре от долната част на екрана и поставете на пауза, за да откачите това приложение</string>
     <string name="pin_toast_nav">Натиснете и задръжте бутоните за назад и преглед, за да откачите това приложение</string>
     <string name="pkg_traffic">Настройка на лимит за трафика</string>
+    <string name="pkg_traffic_settings_instruction">Внимание</string>
+    <string name="pkg_traffic_settings_instruction_text">Поради скорошни обновления от оператора част от информацията може да не е налична. Данните, показани в „Разширени настройки за трафика“, са само за справка и може да не съвпадат със записите на оператора. За най-точна информация провери фактурата си от оператора.</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Автоматичен старт</string>
     <string name="pm_auto_start_by_other_app">Разрешава прил. да се стартират от други прил.</string>
@@ -4718,7 +4777,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_risk_detection_title">Засичане на рискове за сигурността</string>
     <string name="privacy_risk_detection_user">Лична информация</string>
     <string name="privacy_risk_install_app">Ненадеждни разрешения</string>
-    <string name="privacy_risk_photo_delete">Възможно е снимки да бъдат изтрити без ваше разрешение</string>
     <string name="privacy_risk_photo_location">Снимки с информация за местоположението</string>
     <string name="privacy_risk_photo_location_msg">Ограничете достъпа до Галерията когато той не е необходим</string>
     <string name="privacy_risk_photo_msg">Снимки с чувствителна информация</string>
@@ -4729,8 +4787,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_risk_result_ignore_btn">Игнорирай</string>
     <string name="privacy_risk_result_item_safe">Не са засечени рискове</string>
     <string name="privacy_risk_result_open_btn">Включване</string>
-    <string name="privacy_risk_result_photo_delete">Получаване на известия за изтрити снимки</string>
-    <string name="privacy_risk_result_photo_delete_msg">Получавайте известия когато приложения изтриват елементи от Галерията без ваше разрешение</string>
     <string name="privacy_risk_result_photo_sensitive">Вашите снимки съдържат лична информация</string>
     <string name="privacy_risk_result_protection">Защита на личните данни</string>
     <string name="privacy_risk_result_screen_fuzzy">Замъгляване прегледите на приложения</string>
@@ -5532,6 +5588,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="storage_fbo_notification_start_content">Устройството може да изостава по време на този процес</string>
     <string name="storage_fbo_notification_start_title">Дефрагментиране на паметта</string>
     <string name="storage_fbo_number_tip">Обработено на %1$s</string>
+    <string name="storage_fbo_time_talkback">d MMMM</string>
     <string name="storage_fbo_tools">Оптимизация на памет</string>
     <string name="storage_file_delete_tip">Изтриване на избраните елементи за постоянно? Някои от тях могат да бъдат заредени отново при нужда.</string>
     <string name="storage_file_dialog_delete_title">Изтрий елементи</string>
@@ -5763,12 +5820,20 @@ Xiaomi Gaming Cooler"</string>
     <string name="tc_sms_report_upload_when_net">Благодарим ви за вашето мнение!</string>
     <string name="tc_web_correct_error">Не може да се калибрира</string>
     <string name="ten_percent_total_pkg">%s (10%% от месечния ви план за данни)</string>
+    <string name="terminal_flares_current_camera_mic">Използване на камерата и микрофона на това устройство</string>
+    <string name="terminal_flares_current_camera_mic_screen">Използване на камерата, микрофона и екрана на това устройство</string>
+    <string name="terminal_flares_recent_camera_mic">Наскоро използва камерата и микрофона на това устройство</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Наскоро използва камерата, микрофона и екрана на това устройство</string>
     <string name="terminal_flars_current_camera">Използване на камерата на устройството</string>
+    <string name="terminal_flars_current_record">Използване на микрофона на това устройство</string>
     <string name="terminal_flars_current_screen">Получаване на достъп до екрана на устройството</string>
     <string name="terminal_flars_current_screen_camera">Използване на камерата и екрана на устройството</string>
+    <string name="terminal_flars_current_screen_mic">Използване на екрана и микрофона на това устройство</string>
     <string name="terminal_flars_recent_camera">Наскоро използва камерата на устройството</string>
+    <string name="terminal_flars_recent_record">Наскоро използва микрофона на това устройство</string>
     <string name="terminal_flars_recent_screen">Наскоро получи достъп до екрана на устройството</string>
     <string name="terminal_flars_recent_screen_camera">Наскоро използва камерата и екрана на устройството</string>
+    <string name="terminal_flars_recent_screen_mic">Наскоро използва екрана и микрофона на това устройство</string>
     <string name="tether_custom_dialog_title">Лимит за мобилни данни</string>
     <string name="tether_limit_dialog_title">Лимит за мобилни данни</string>
     <string name="tether_limit_value_custom">По избор</string>
@@ -6189,7 +6254,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_super_division">Увеличаване</string>
     <string name="vb_video_super_division_desc">"Автоматично увеличаване на резолюцията когато е ≤720P.
 
-Тази функция изразходва повече енергия.
+Тази функция увеличава консумацията на енергия.
 
 Тази функция не работи с изглаждане на движенията.
 Включването на една от двете функции ще изключи другата."</string>

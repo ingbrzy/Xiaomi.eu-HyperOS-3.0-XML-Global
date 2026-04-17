@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Új dia létrehozásához koppintson ide</string>
     <string name="add_smiley">Smiley</string>
     <string name="add_timing">Időzítés</string>
-    <string name="add_to_block_by_number">Hozzáadva a tiltólistához</string>
-    <string name="add_to_block_by_number_failed">Nem sikerült hozzáadni a tiltólistához. Próbálja újra.</string>
-    <string name="add_to_block_by_tag">A kulcsszó hozzá lett adva a tiltólistához</string>
-    <string name="add_to_block_by_tag_failed">Nem sikerült hozzáadni a kulcsszót a tiltólistához. Próbálja újra.</string>
-    <string name="add_to_block_cta_failed">Nyissa meg a Biztonság menüpontot, és fogadja el a felhasználási feltételeit, hogy használni tudja ezt a funkciót</string>
+    <string name="add_to_block_by_number">"%s
+hozzáadva a tiltólistához"</string>
+    <string name="add_to_block_by_number_failed">"Nem sikerült hozzáadni %s-t a tiltólistához.
+Próbálja újra."</string>
+    <string name="add_to_block_by_tag">"A(z) \"%s\"
+tartalmú üzenetek a tiltólistára kerültek"</string>
+    <string name="add_to_block_by_tag_failed">"Nem sikerült hozzáadni a(z) \"%s\"-t tartalmazó üzeneteket a tiltólistához.
+Próbálja újra."</string>
+    <string name="add_to_block_cta_failed">Adja meg a Biztonság alkalmazásnak a szükséges jogosultságokat, hogy elemeket tudjon hozzáadni a tiltólistához.</string>
     <string name="add_to_browser_favorite_failed">Nem tudja hozzáadni</string>
     <string name="add_to_browser_favorite_success">A hozzáadás sikeres</string>
     <string name="add_to_calender">Hozzáadás a Naptárhoz</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Címzett: %s</string>
     <string name="billing">Számlák</string>
     <string name="block_messaging_entry_title">Blokkolt üzenetek</string>
-    <string name="block_number_message">A hozzáadás után a %s számról érkező összes bejövő hívás és üzenet tiltva lesz. Hozzáadja most?</string>
+    <string name="block_number_message">Ez a telefonszám hozzáadása kerül a tiltólistához. Minden üzenet letiltásra kerül erről a számról.</string>
     <string name="block_support_text">Antiy által támogatva.</string>
-    <string name="block_tag_message">A hozzáadás után minden olyan üzenet tiltva lesz, amely tartalmazza a(z) „%s” kulcsszót. Ez magában foglalhatja az ellenőrző kódokat és a rendelési információkat is. Hozzáadja most?</string>
+    <string name="block_tag_message">Minden üzenet letiltásra kerül a következőről: %s. Lehet, hogy nem tud erről a szolgáltatásról küldött ellenőrzőkódokat vagy számlákat fogadni.</string>
     <string name="boarding_time">Beszállás ideje</string>
     <string name="bookmark">Kedvencekhez adva</string>
     <string name="bookmark_confirm_delete_message">Eltávolítja a kiválasztott üzeneteket a kedvencekből?</string>
@@ -294,6 +298,8 @@ Felhívjuk a figyelmét, hogy az internetes üzenetküldő funkció további ér
     <string name="delete_message">Törlés</string>
     <string name="delete_phrase">Válasz törlése</string>
     <string name="delete_unlocked">Zárolt üzenetek törlése</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Számok törlése</string>
     <string name="delete_wild_sims_confirm">A kijelölt számokhoz tartozó összes üzenet törölve lesz a telefonról. Vissza tudja állítani őket az i.mi.com-on.</string>
     <string name="delete_wild_sims_title">Kiválasztott számok törlése</string>
@@ -506,6 +512,8 @@ Felhívjuk a figyelmét, hogy az internetes üzenetküldő funkció további ér
     <string name="group_notify_message_title">Csoportos csevegési értesítések</string>
     <string name="group_rejoin_failed">Nem sikerült csatlakozni a csoporthoz</string>
     <string name="group_resend_message">Küldés (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Nem tekintheti meg a tételeket. A csoportos csevegés törlésre került.</string>
     <string name="group_view_settings_not_memeber">Nem tekintheti meg a tételeket. Ön nem tagja ennek a csoportos csevegésnek.</string>
     <string name="groupchat_list_title">Csoportos csevegések</string>
@@ -577,7 +585,7 @@ Felhívjuk a figyelmét, hogy az internetes üzenetküldő funkció további ér
     <string name="menu_pick_from_contact">Válasszon a névjegyzékből</string>
     <string name="menu_preferences">Beállítások</string>
     <string name="menu_report">Visszajelzés</string>
-    <string name="menu_sms_block">Hozzáadja a tiltólistához?</string>
+    <string name="menu_sms_block">Tiltólista</string>
     <string name="menu_traffic_destination">Célállomás</string>
     <string name="menu_unlock">Eltávolítás a kedvencekből</string>
     <string name="menu_view_contact">Névjegy megtekintése</string>
@@ -1565,6 +1573,7 @@ Ha nem egyezik bele ezen engedélyek megadásába vagy személyes adatainak mego
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
     <string name="verification_code_flow_title">%1$s hitelesítő kód</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Ellenőrző kódok</string>
     <string name="verification_code_safety_warning">Ne adja ki ezeket a kódokat másoknak</string>
     <string name="view">Megtekintés</string>

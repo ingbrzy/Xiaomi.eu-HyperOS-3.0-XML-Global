@@ -983,6 +983,7 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="bubble_notification_switch">Rodyti pokalbių debesėlius</string>
     <string name="bubble_notification_switch_desc">Kai pranešimų programa laikinajame lange yra paslėpta ekrano krašte, rodyti gaunamus pranešimus debesėliais</string>
     <string name="bubble_pickup_voice_print_auto">Įrašomos balso ypatybės…</string>
+    <string name="bubble_pickup_voice_print_success">Balso ypatybės įrašytos</string>
     <string name="button_background_connection">Leisti</string>
     <string name="button_block_calls_from_cantacts">Atblokuoti</string>
     <string name="button_block_calls_from_strangers">Atblokuoti</string>
@@ -1016,6 +1017,8 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="button_to_setting">Parametrai</string>
     <string name="button_toll_correction">Kalibruoti balansą</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
+    <string name="calendar_date_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="call_address">Blokuojamų vietų sąrašas</string>
     <string name="call_all_number_block">Blokuoti visus skambučius</string>
     <string name="call_and_contact">Skambučiai ir Kontaktai</string>
@@ -1952,6 +1955,17 @@ Numeris bus įtrauktas į išimtis, tačiau anksčiau užblokuoti elementai neat
     <string name="game_toolbox_auto_brightness_talkback">Automatinis ryškumas</string>
     <string name="game_toolbox_btn_back_talkback">Grįžti</string>
     <string name="game_toolbox_cellular_network">Mobiliojo tinklo greičio didinimas</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">yyyy-MM-dd</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Atšaukti</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">VPN ryšys bus automatiškai sukurtas atsižvelgiant į realaus laiko delsą, siekiant pagerinti tinklo stabilumą. Užsiprenumeravę gausite %d metų nemokamą prieigą.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Galiojimo laikotarpis: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Nebegalioja</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Atsiimti</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Prisijungti</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Atsiimti</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Paspartinti tinklo ryšį</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Sukurti privatų tinklą remiantis gaištimi, kad pagerintumėte ryšio stabilumą</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Paspartinti tinklo ryšį</string>
     <string name="game_toolbox_display_avrs">AVRS (automatinio atsakymo balsu sistemos)</string>
     <string name="game_toolbox_display_avrs_desc">Įjunkite, kad šiek tiek sumažintumėte vaizdo kokybę ir ypač sumažintumėte galios suvartojimą</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Pastaba:
@@ -3037,6 +3051,30 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_item_virus_install_monitor_summary">Prieš įdiegiant programas patikrinti, ar nėra virusų</string>
     <string name="menu_item_virus_install_monitor_title">Tikrinti prieš įdiegiant</string>
     <string name="menu_item_virus_lib_auto_update_summary">Atnaujinta %s</string>
+    <string name="menu_item_virus_risky_app_detect">Aptikti rizikingas programas</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Atšaukti</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Aptikta saugumo rizikų. Dabar negalima išjungti.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Jei institucijos, klientų aptarnavimo darbuotojai ar galbūt pažįstami žmonės prašo išjungti šią funkciją, prieš tęsdami patikrinkite jų tapatybę.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Jei šią funkciją išjungsite, realiuoju laiku nebebus atliekamas rizikingų programų elgsenos nustatymas, o tai gali lemti asmens duomenų nutekėjimą ar finansinius nuostolius. Vis tiek išjungti?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Atidaryti</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Išjungti</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Atšaukti</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Atidaryti</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Supratau</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Daugiau neberodyti</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Išeiti</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Išjungti?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s kelia nežinomą saugumo riziką, kuri gali lemti asmens duomenų nutekėjimą ar finansinius nuostolius. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Jei nesutinkate su šiuo perspėjimu, bakstelėkite čia, kad pateiktumėte atsiliepimą.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Programos pavadinimas: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paketo pavadinimas: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Išsamiai apibūdinkite problemą: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Programos parašas: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Dėmesio</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Programa nepasiekiama</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Įspėjimas</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Blokuoti arba pranešti apie rizikingas programas</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Išdiegti</string>
     <string name="menu_remove">Trinti</string>
     <string name="menu_report">Pranešti apie klaidą</string>
     <string name="menu_setting_traffic">Nustatyti rankiniu būdu</string>
@@ -3093,6 +3131,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Garsą gauti tik iš tam tikro naudotojo</string>
     <string name="midnight">Naktis</string>
     <string name="midrop_post_notification_contentTitle">Norite bendrinti failus?</string>
+    <string name="milink_init_loading">Ruošiamasi perdavimui…</string>
     <string name="miui_blur_location">Apytikslė vieta</string>
     <string name="miui_optimization_close_final_tip">Išjungti sistemos optimizavimą?</string>
     <string name="miui_optimization_close_title">Ši funkcija skirta kūrėjams ir gali būti neparankti įprastiems naudotojams. Dėl sistemos optimizavimo išjungimo gali įsigalioti tolesni pokyčiai:</string>
@@ -3787,6 +3826,21 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_low_batterty_got_it">Supratau</string>
     <string name="pc_low_battery_fast_charge">Pagreitinti įkrovimą</string>
     <string name="pc_low_battery_fast_charge_summary">Prijunkite pateiktą įkroviklį, kad pagreitintumėte įkrovimą, kai ekranas išjungtas ir baterija išsikrovusi. Dėl šios funkcijos jūsų įrenginys gali įkaisti.</string>
+    <string name="pc_low_battery_health_msg_1">Jūsų baterijos techninė būklė yra mažesnė nei %1$s. Rekomenduojame kreiptis į „Xiaomi“ garantinio aptarnavimo tarnybą, kad būtų pakeista jūsų baterija.</string>
+    <string name="pc_low_battery_health_msg_2">Bakstelėkite &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>after-sales service&lt;/a>, kad rastumėte artimiausius įgaliotuosius tiekėjus. Galite užsisakyti remontą parduotuvėje arba kreiptis paslaugos paštu. &lt;br />&lt;br />Dėl baterijos techninės būklės galbūt norėsite žinoti:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Natūralus nusidėvėjimas: ličio baterijos turi ribotą įkrovimo ciklų skaičių ir, bėgant laikui, palaipsniui susidėvi.
+%2$d. Įkrovimo įpročiai: įkrovimas esant aukštai temperatūrai, baterijos išsikrovimas iki visiško išsikrovimo prieš įkrovimą arba neoficialių greitojo įkrovimo įrenginių naudojimas gali pagreitinti nusidėvėjimą.
+%3$d. Ekstremalios aplinkos sąlygos: per didelis karštis (pvz., tiesioginiai saulės spinduliai arba intensyvus žaidimas) arba labai šaltos sąlygos gali pažeisti bateriją ir sutrumpinti jos naudojimo terminą."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Dėl trumpesnio baterijos veikimo laiko reikia dažniau įkrauti.
+%2$d. Atliekant sudėtingas užduotis (pavyzdžiui, intensyviai žaidžiant žaidimus ar redaguojant vaizdo įrašus), našumas sumažėja, tai gali turėti įtakos sklandumui.
+%3$d. Ekstremaliais atvejais įkrovimas sulėtėja arba įrenginys automatiškai išsijungia esant žemai temperatūrai."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Laikykite baterijos įkrovos lygį tarp %2$s ir %3$s. Venkite ilgai laikyti bateriją visiškai įkrautą arba visiškai išsikrovusią.
+%4$d. Venkite įkrauti bateriją esant aukštai temperatūrai. Įkraudami nuimkite telefono dėklą ir nežaiskite intensyviai įrenginiu įkrovimo metu.
+%5$d. Naudokite oficialius arba atestuotus įkroviklius ir laidus, kad apsaugotumėte bateriją."</string>
+    <string name="pc_low_battery_health_title">Priminimas apie baterijos techninę būklę</string>
+    <string name="pc_low_battery_health_title_1">Kodėl baterijos techninė būklė prastėja</string>
+    <string name="pc_low_battery_health_title_2">Kaip prasta baterijos techninė būklė veikia jus</string>
+    <string name="pc_low_battery_health_title_3">Kaip padėti prailginti baterijos veikimo trukmę</string>
     <string name="pc_low_temp_charge_summary">Laikykite įkroviklį prijungtą ir palaukite, kol ekranui išsijungus akumuliatorius sušils, kad įkrautumėte įprastai</string>
     <string name="pc_low_temp_charge_title">Įkrovimas žemoje temperatūroje</string>
     <string name="pc_low_temp_disable_otg_message">Dabar negalima naudoti išorinių įrenginių ir atvirkštinio krovimo, nes per žema temperatūra arba beveik išsikrovusi baterija. Bandykite dar kartą, kai padidės temperatūra arba įsikraus baterija.</string>
@@ -3813,6 +3867,8 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_night_sleep_mode_summary_pad">Kai išjungtas ekranas, jūsų įrenginys uždarys fone veikusias programas ir apribos tinklo naudojimą. Jei įrenginys nenaudojamas ilgą laiką, jis automatiškai užmigs ir išsijungs.</string>
     <string name="pc_night_sleep_mode_title">Naktinio laiko režimas</string>
     <string name="pc_no_more_remind">Nepriminti</string>
+    <string name="pc_notify_low_battery_health_msg">Laikas pakeisti savo bateriją</string>
+    <string name="pc_notify_low_battery_health_title">Baterijos techninė būklė yra žemesnė nei %1$s</string>
     <string name="pc_ordinary_charge_summary">Visada leisti įkrauti iki %1$s</string>
     <string name="pc_ordinary_charge_title">Įprastas krovimas</string>
     <string name="pc_performance_mode_dialog_summary">Jūsų įrenginys galės veikti %s našumo režimu. Įsidėmėkite, kad našumo režimas didina galios sunaudojimą ir gali sukelti perkaitimą.</string>
@@ -3881,6 +3937,7 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pc_this_time_charge_full_work">Beveik pilnai įkrauta</string>
     <string name="pc_timely_charging_summary">Baterijos įkrovos lygis nesiekia %1$s. Jei įrenginys perkais, kai akumuliatoriaus įkrova žema, įrenginys gali būti sugadintas.</string>
     <string name="pc_timely_charging_title">Įkraukite įrenginį</string>
+    <string name="pc_tip_low_battery_health">Laikas pakeisti savo bateriją</string>
     <string name="pc_to_phone_install">%s diegimas per USB užblokuotas</string>
     <string name="pc_toady_charge_time_title">Šiandienos įkrovimų skaičius</string>
     <string name="pc_wait_device_cools_down">Norėdami naudoti šią funkciją, palaukite, kol įrenginys atvės</string>
@@ -4088,6 +4145,8 @@ Ultra energijos taupymas išjungiamas"</string>
     <string name="pin_toast">Norėdami atsegti šią programą, slinkite aukštyn nuo ekrano apačios</string>
     <string name="pin_toast_nav">Norėdami atsegti šią programą, paspauskite ir palaikykite nuspaudę grįžimo ir peržiūros mygtukus</string>
     <string name="pkg_traffic">Nustatyti duomenų vartojimo limitą</string>
+    <string name="pkg_traffic_settings_instruction">Dėmesio</string>
+    <string name="pkg_traffic_settings_instruction_text">Dėl naujausių operatoriaus naujinimų kai kuri informacija gali būti nepasiekiama. Duomenys, rodomi dalyje „Išplėstiniai eismo parametrai“, skirti tik informacijai ir gali neatitikti operatoriaus įrašų. Patikrinkite, ar jūsų operatoriaus atsiskaitymo išrašas naudojamas tiksliausiai.</string>
     <string name="pm">Popiet</string>
     <string name="pm_auto_start_by_other">Fiksuotas paleidimas</string>
     <string name="pm_auto_start_by_other_app">Leisti programai būti paleistai kitų programų</string>
@@ -4721,7 +4780,6 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_risk_detection_title">Aptikti privatumo pavojus</string>
     <string name="privacy_risk_detection_user">Asmeninė informacija</string>
     <string name="privacy_risk_install_app">Nepatikimos programos</string>
-    <string name="privacy_risk_photo_delete">Nuotraukos gali būti pašalintos be jūsų sutikimo</string>
     <string name="privacy_risk_photo_location">Nuotraukos su vietos informacija</string>
     <string name="privacy_risk_photo_location_msg">Apriboti prieigą prie galerijos, kai tai nebūtina</string>
     <string name="privacy_risk_photo_msg">Nuotraukos su slapta Informacija</string>
@@ -4732,8 +4790,6 @@ Atšaukti sutikimą dabar?"</string>
     <string name="privacy_risk_result_ignore_btn">Nepaisyti</string>
     <string name="privacy_risk_result_item_safe">Nerasta pavojų</string>
     <string name="privacy_risk_result_open_btn">Įjungti</string>
-    <string name="privacy_risk_result_photo_delete">Gauti pranešimus apie pašalintas nuotraukas</string>
-    <string name="privacy_risk_result_photo_delete_msg">Gaukite pranešimus, kai programos pašalina elementus iš galerijos be jūsų leidimo</string>
     <string name="privacy_risk_result_photo_sensitive">Jūsų nuotraukose yra asmeninės informacijos</string>
     <string name="privacy_risk_result_protection">Privatumo apsauga</string>
     <string name="privacy_risk_result_screen_fuzzy">Sulieti programų peržiūrą</string>
@@ -4826,7 +4882,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="prompt_input_time_illegal">Negalima nustatyti šio laiko. Pakeiskite jį ir pabandykite dar kartą</string>
     <string name="protect_eye_dont_open">Ne dabar</string>
     <string name="protect_eye_hint_summry">Geresnei skaitymo patirčiai įjunkite akių komforto režimą</string>
-    <string name="protect_eye_hint_title">„Xiaomi EyeCare Shield“</string>
+    <string name="protect_eye_hint_title">Xiaomi EyeCare Shield</string>
     <string name="protect_eye_open">Įjungti</string>
     <string name="protect_eye_opened_summry">Redaguokite nuostatas skiltyje Parametrai > Ekranas ir ryškumas > „Xiaomi EyeCare Shield“</string>
     <string name="protect_eye_opened_title">Akių komforto režimas įjungtas</string>
@@ -5535,6 +5591,7 @@ Norėdami naudoti šią ^1 šiame įrenginyje, pirmiausia ją įdiekite."</strin
     <string name="storage_fbo_notification_start_content">Proceso metu įrenginys gali veikti lėčiau.</string>
     <string name="storage_fbo_notification_start_title">Defragmentuojama saugykla</string>
     <string name="storage_fbo_number_tip">Apdorota per %1$s</string>
+    <string name="storage_fbo_time_talkback">MMMM d.</string>
     <string name="storage_fbo_tools">Saugyklos optimizavimas</string>
     <string name="storage_file_delete_tip">Negrįžtamai ištrinti pasirinktus elementus? Kai kuriuos iš jų prireikus vėl bus galima įkelti.</string>
     <string name="storage_file_dialog_delete_title">Trinti elementus</string>
@@ -5766,12 +5823,20 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="tc_sms_report_upload_when_net">Dėkojame už jūsų atsiliepimą!</string>
     <string name="tc_web_correct_error">Kalibruoti nepavyko</string>
     <string name="ten_percent_total_pkg">%s (10%% mėnesinių duomenų)</string>
+    <string name="terminal_flares_current_camera_mic">Naudoja šio įrenginio kamerą ir mikrofoną</string>
+    <string name="terminal_flares_current_camera_mic_screen">Naudoja šio įrenginio kamerą, mikrofoną ir ekraną</string>
+    <string name="terminal_flares_recent_camera_mic">Nesenai naudojo šio įrenginio kamerą ir mikrofoną</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Neseniai naudojo šio įrenginio kamerą, mikrofoną ir ekraną</string>
     <string name="terminal_flars_current_camera">Naudojant šio įrenginio fotoaparatą</string>
+    <string name="terminal_flars_current_record">Naudoja šio įrenginio mikrofoną</string>
     <string name="terminal_flars_current_screen">Pasiekti šio įrenginio ekraną</string>
     <string name="terminal_flars_current_screen_camera">Naudojant šio įrenginio fotoaparatą ir ekraną</string>
+    <string name="terminal_flars_current_screen_mic">Naudoja šio įrenginio ekraną ir mikrofoną</string>
     <string name="terminal_flars_recent_camera">Nesenai naudojo šio įrenginio fotoaparatą</string>
+    <string name="terminal_flars_recent_record">Nesenai naudojo šio įrenginio mikrofoną</string>
     <string name="terminal_flars_recent_screen">Nesenai pasiekė šio įrenginio ekraną</string>
     <string name="terminal_flars_recent_screen_camera">Nesenai naudojo šio įrenginio fotoaparatą ir ekraną</string>
+    <string name="terminal_flars_recent_screen_mic">Nesenai naudojo šio įrenginio ekraną ir mikrofoną</string>
     <string name="tether_custom_dialog_title">Mobiliųjų duomenų limitas</string>
     <string name="tether_limit_dialog_title">Mobiliųjų duomenų limitas</string>
     <string name="tether_limit_value_custom">Pasirinktinis</string>
