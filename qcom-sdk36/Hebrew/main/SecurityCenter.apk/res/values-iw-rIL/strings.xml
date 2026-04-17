@@ -955,6 +955,7 @@
     <string name="bubble_notification_switch">להציג בועות שיחה</string>
     <string name="bubble_notification_switch_desc">להציג הודעות נכנסות בבועות כאשר יישום הודעות בחלון צף מוסתר בשולי המסך</string>
     <string name="bubble_pickup_voice_print_auto">מקליט טביעת קול…</string>
+    <string name="bubble_pickup_voice_print_success">הוקלטה טביעת קול</string>
     <string name="button_background_connection">אשר</string>
     <string name="button_block_calls_from_cantacts">בטל חסימה</string>
     <string name="button_block_calls_from_strangers">בטל חסימה</string>
@@ -1835,6 +1836,17 @@
     <string name="game_toolbox_auto_brightness_talkback">בהירות אוטומטית</string>
     <string name="game_toolbox_btn_back_talkback">חזרה</string>
     <string name="game_toolbox_cellular_network">האצת מהירות הרשת הסלולרית</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">ביטול</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">ייווצר חיבור VPN אוטומטי בהתבסס על זמן השהיה בזמן אמת כדי לשפר את יציבות הרשת. אחרי המימוש, תקבלו %d שנים של גישה בחינם.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">תקופת התוקף: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">פג תוקף</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">לממש</string>
+    <string name="game_toolbox_dedicated_network_booster_login">התחברות</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">לממש</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">שיפור החיבור לרשת</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">יצירת רשת פרטית המבוססת על זמן ההשהיה כדי לשפר את יציבות החיבור</string>
+    <string name="game_toolbox_dedicated_network_booster_title">שיפור החיבור לרשת</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">יש להפעיל לירידה קלה באיכות התמונה ולירידה משמעותית בצריכת החשמל</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"הערה:
@@ -2906,6 +2918,30 @@ Xiaomi Gaming Cooler"</string>
     <string name="menu_item_virus_install_monitor_summary">סרוק אחר וירוסים ביישומים לפני ההתקנה</string>
     <string name="menu_item_virus_install_monitor_title">סרוק לפני ההתקנה</string>
     <string name="menu_item_virus_lib_auto_update_summary">עודכן ב- %s</string>
+    <string name="menu_item_virus_risky_app_detect">זיהוי יישומים מסוכנים</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">ביטול</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">זוהו סיכוני אבטחה. לא ניתן להשבית כרגע.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">אם רשויות, נציגי שירות לקוחות או אנשים שאתם מכירים מבקשים מכם להשבית את המאפיין הזה, יש לאמת את זהותם לפני שתמשיכו.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">לאחר השבתת מאפיין זה, לא יתבצע יותר זיהוי בזמן אמת של התנהגות מסוכנת של יישומים. זה עלול להוביל לדליפת נתונים אישיים או להפסדים כספיים. האם להשבית בכל זאת?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">פתיחה</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">להשבית</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">ביטול</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">פתיחה</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">הבנתי</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">לא להציג שוב</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">יציאה</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">להשבית?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"יש ב-%s סיכוני אבטחה שאינם ידועים, והוא עלול להוביל לפגיעה בפרטיות או להפסדים כספיים. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">אם אתם לא מסכימים עם ההתרעה הזו, הקישו כאן לשליחת משוב.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">שם היישום: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">שם החבילה: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">נא לתאר את הבעיה בפירוט: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">חתימת היישום: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">לתשומת ליבכם</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">היישום לא זמין</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">אזהרה</string>
+    <string name="menu_item_virus_risky_app_detect_summary">חסימת יישומים מסוכנים או התראה עליהם</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">להסיר</string>
     <string name="menu_remove">מחיקה</string>
     <string name="menu_report">דיווח על שגיאה</string>
     <string name="menu_setting_traffic">הגדר באופן ידני</string>
@@ -2962,6 +2998,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mic_noise_reduction_voiceprint_desc">לשמור שמע רק ממשתמש ספציפי</string>
     <string name="midnight">לילה</string>
     <string name="midrop_post_notification_contentTitle">צריך לשתף קבצים?</string>
+    <string name="milink_init_loading">מתכונן לשידור…</string>
     <string name="miui_blur_location">מיקום משוער</string>
     <string name="miui_optimization_close_final_tip">להשבית את האופטימיזציה של המערכת?</string>
     <string name="miui_optimization_close_title">מאפיין זה מיועד למפתחים, וייתכן שהוא לא יהיה נוח לכלל המשתמשים. השבתת אופטימיזציה של המערכת עשויה להביא לשינויים הבאים:</string>
@@ -3622,6 +3659,21 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_low_batterty_got_it">הבנתי</string>
     <string name="pc_low_battery_fast_charge">האצת הטעינה</string>
     <string name="pc_low_battery_fast_charge_summary">לחבר את המטען המסופק כדי להאיץ את הטעינה בזמן שהמסך כבוי ורמת הסוללה נמוכה. מאפיין זה עלול לגרום להתחממות המכשיר.</string>
+    <string name="pc_low_battery_health_msg_1">בריאות הסוללה מתחת ל-%1$s. אנו ממליצים לפנות לשירות לאחר מכירה של Xiaomi כדי להחליף את הסוללה.</string>
+    <string name="pc_low_battery_health_msg_2">הקישו על &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>שירות לאחר מכירה&lt;/a> כדי למצוא ספקי שירות מורשים בסביבה שלכם. ניתן להזמין תיקון במקום, או להזמין שירות עם משלוח בדואר.&lt;br />&lt;br />בעניין בריאות הסוללה, כדאי לדעת:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. בלאי טבעי: מספר מחזורי הטעינה של סוללות ליתיום מוגבל, והן מתבלות בהדרגה במהלך הזמן.
+%2$d. דפוסי טעינה: אם טוענים בטמפרטורה גבוהה, מאפשרים לסוללה להתרוקן לחלוטין לפני שטוענים אותה, או אם משתמשים במטענים מהירים לא רשמיים, זה עלול להאיץ את בלאי הסוללה.
+%3$d. תנאים סביבתיים קיצוניים: חום קיצוני (למשל, אור שמש ישיר או גיימינג אינטנסיבי) או סביבה קרה מאוד עלולים לפגוע בסוללה ולקצר את אורך החיים שלה."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. משך חיי סוללה קצר יותר מחייב טעינה לעיתים תכופות יותר.
+%2$d. הביצועים יורדים בביצוע משימות תובעניות (למשל, גיימינג אינטנסיבי או עריכת וידאו), מה שיכול לגרום לכך שתפעול המכשיר יהיה פחות חלק.
+%3$d. במקרים קיצוניים, הטעינה נהיית יותר איטית או המכשיר נכבה באופן אוטומטי בסביבה עם טמפרטורה נמוכה."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$dמומלץ לשמור על אחוז טעינת הסוללה בטווח בין %2$s ל-%3$s. הימנעו מטעינה מלאה או מהתרוקנות מלאה של הסוללה למשך תקופות ארוכות.
+%4$d. הימנעו מטעינה בטמפרטורה גבוהה. מומלץ להסיר את כיסוי הטלפון ולהימנע מגיימינג אינטנסיבי בזמן טעינה.
+%5$d. השתמשו במטענים ובכבלים רשמיים או מאושרים כדי להגן על הסוללה."</string>
+    <string name="pc_low_battery_health_title">תזכורת על בריאות הסוללה</string>
+    <string name="pc_low_battery_health_title_1">למה חלה ירידה בבריאות הסוללה</string>
+    <string name="pc_low_battery_health_title_2">איך בריאות הסוללה משפיעה עליכם</string>
+    <string name="pc_low_battery_health_title_3">איך לתרום לשיפור בריאות הסוללה</string>
     <string name="pc_low_temp_charge_summary">יש להשאיר את המטען מחובר ולחכות עד שהסוללה תתחמם אחרי כיבוי המסך כדי לטעון כרגיל</string>
     <string name="pc_low_temp_charge_title">טעינה בטמפרטורה נמוכה</string>
     <string name="pc_low_temp_disable_otg_message">לא ניתן להשתמש במכשירים חיצוניים ובטעינה הפוכה כרגע, כי הטמפרטורה או רמת הסוללה נמוכה מדי. יש לנסות שוב ברגע שהטמפרטורה או רמת הסוללה תעלה.</string>
@@ -3648,6 +3700,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_night_sleep_mode_summary_pad">כשהמסך כבוי, המכשיר יסגור את יישומי הרקע ויגביל שימוש ברשת. אם לא משתמשים במכשיר במשך זמן רב, הוא ייכנס למצב שינה או ייכבה באופן אוטומטי.</string>
     <string name="pc_night_sleep_mode_title">מצב לילה</string>
     <string name="pc_no_more_remind">לא להזכיר</string>
+    <string name="pc_notify_low_battery_health_msg">הגיע הזמן להחליף את הסוללה</string>
+    <string name="pc_notify_low_battery_health_title">בריאות הסוללה מתחת ל-%1$s</string>
     <string name="pc_ordinary_charge_summary">אפשר תמיד טעינה של עד %1$s</string>
     <string name="pc_ordinary_charge_title">טעינה רגילה</string>
     <string name="pc_performance_mode_dialog_summary">במצב ביצועים, המכשיר יוכל לעבוד במשך %s. שים לב, מצב ביצועים מגביר את צריכת האנרגיה ועלול לגרום להתחממות יתר.</string>
@@ -3716,6 +3770,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_this_time_charge_full_work">הסוללה נטענה כמעט במלואה</string>
     <string name="pc_timely_charging_summary">אחוז הסוללה הוא מתחת ל-%1$s. התחממות יתר של המכשיר כשהסוללה חלשה עלולה לפגוע בסוללה.</string>
     <string name="pc_timely_charging_title">טען את מכשירך</string>
+    <string name="pc_tip_low_battery_health">הגיע הזמן להחליף את הסוללה</string>
     <string name="pc_to_phone_install">התקנת %s באמצעות USB נחסמה</string>
     <string name="pc_toady_charge_time_title">מספר הטעינות היום</string>
     <string name="pc_wait_device_cools_down">נא להמתין עד שהמכשיר שלך יתקרר במידה מספקת כדי להשתמש במאפיין זה.</string>
@@ -3923,6 +3978,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pin_toast">יש להחליק כלפי מעלה מתחתית המסך ולעצור כדי לבטל את נעיצת היישום הזה</string>
     <string name="pin_toast_nav">"יש ללחוץ לחיצה ממושכת על המקשים 'הקודם' ו'תצוגה מקדימה' לביטול הנעיצה של יישום זה"</string>
     <string name="pkg_traffic">הגדר מגבלת שימוש בנתונים</string>
+    <string name="pkg_traffic_settings_instruction">לתשומת ליבך</string>
+    <string name="pkg_traffic_settings_instruction_text">ייתכן שחלק מהמידע לא זמין עקב העדכונים האחרונים של ספק הרשת. הנתונים המוצגים תחת \"הגדרות תעבורת נתונים מתקדמות\" הם לעיונך בלבד, וייתכן שהם לא תואמים לנתוני ספק הרשת. יש לבדוק את פירוט החשבון של ספק הרשת לנתוני השימוש המדויקים ביותר.</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">הפעלה הדדית</string>
     <string name="pm_auto_start_by_other_app">אפשר ליישומים אחרים להפעיל יישום זה</string>
@@ -4554,7 +4611,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_risk_detection_title">זהה סיכוני פרטיות</string>
     <string name="privacy_risk_detection_user">מידע אישי</string>
     <string name="privacy_risk_install_app">יישומים לא מהימנים</string>
-    <string name="privacy_risk_photo_delete">ייתכן שתמונות יימחקו ללא רשותך</string>
     <string name="privacy_risk_photo_location">תמונות עם פרטי מיקום</string>
     <string name="privacy_risk_photo_location_msg">הגבל את הגישה לגלריה כאשר זה לא הכרחי</string>
     <string name="privacy_risk_photo_msg">תמונות עם מידע רגיש</string>
@@ -4565,8 +4621,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_risk_result_ignore_btn">התעלם</string>
     <string name="privacy_risk_result_item_safe">לא זוהו סיכונים</string>
     <string name="privacy_risk_result_open_btn">הפעל</string>
-    <string name="privacy_risk_result_photo_delete">קבלת התראות על תמונות שנמחקו</string>
-    <string name="privacy_risk_result_photo_delete_msg">קבל התראות כאשר יישומים מוחקים פריטים מהגלריה ללא רשותך</string>
     <string name="privacy_risk_result_photo_sensitive">התמונות שלך מכילות מידע פרטי</string>
     <string name="privacy_risk_result_protection">הגנת פרטיות</string>
     <string name="privacy_risk_result_screen_fuzzy">טשטש תצוגות מקדימות של יישומים</string>
@@ -5366,6 +5420,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="storage_fbo_notification_start_content">ייתכנו עיכובים במכשיר בזמן התהליך הזה</string>
     <string name="storage_fbo_notification_start_title">מבצע איחוי של האחסון</string>
     <string name="storage_fbo_number_tip">עובד ב-%1$s</string>
+    <string name="storage_fbo_time_talkback">d MMMM</string>
     <string name="storage_fbo_tools">טיוב אחסון</string>
     <string name="storage_file_delete_tip">למחוק לצמיתות את הפריטים שנבחרו? חלקם עשויים להיטען שוב בעת הצורך.</string>
     <string name="storage_file_dialog_delete_title">למחוק פריטים</string>
@@ -5596,12 +5651,20 @@ Xiaomi Gaming Cooler"</string>
     <string name="tc_sms_report_upload_when_net">תודה לך על המשוב!</string>
     <string name="tc_web_correct_error">לא ניתן היה לבצע כיול</string>
     <string name="ten_percent_total_pkg">%s (10%% מהנתונים החודשיים)</string>
+    <string name="terminal_flares_current_camera_mic">נעשה שימוש במצלמה ובמיקרופון של מכשיר זה</string>
+    <string name="terminal_flares_current_camera_mic_screen">נעשה שימוש במצלמה, במיקרופון ובמסך של מכשיר זה</string>
+    <string name="terminal_flares_recent_camera_mic">לאחרונה נעשה שימוש במצלמה ובמיקרופון של מכשיר זה</string>
+    <string name="terminal_flares_recent_camera_mic_screen">לאחרונה נעשה שימוש במצלמה, במיקרופון ובמסך של מכשיר זה</string>
     <string name="terminal_flars_current_camera">משתמש במצלמת המכשיר הזה</string>
+    <string name="terminal_flars_current_record">נעשה שימוש במיקרופון של מכשיר זה</string>
     <string name="terminal_flars_current_screen">מקבל גישה למסך המכשיר הזה</string>
     <string name="terminal_flars_current_screen_camera">משתמש במצלמה ובמסך של המכשיר הזה</string>
+    <string name="terminal_flars_current_screen_mic">נעשה שימוש במסך ובמיקרופון של מכשיר זה</string>
     <string name="terminal_flars_recent_camera">קיבל גישה למצלמת המכשיר הזה לאחרונה</string>
+    <string name="terminal_flars_recent_record">לאחרונה נעשה שימוש במיקרופון של מכשיר זה</string>
     <string name="terminal_flars_recent_screen">קיבל גישה למסך המכשיר הזה לאחרונה</string>
     <string name="terminal_flars_recent_screen_camera">השתמש במצלמה ובמסך של המכשיר הזה לאחרונה</string>
+    <string name="terminal_flars_recent_screen_mic">לאחרונה נעשה שימוש במסך ובמיקרופון של מכשיר זה</string>
     <string name="tether_custom_dialog_title">מגבלת נתונים סלולריים</string>
     <string name="tether_limit_dialog_title">מגבלת נתונים סלולריים</string>
     <string name="tether_limit_value_custom">מותאם אישית</string>
@@ -6018,12 +6081,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_effects_spatial_summary_new">חוויה של תחושת מרחב וכיוון משופרים עבור שמע נתמך בעת השימוש באוזניות</string>
     <string name="vb_video_effects_srs_premium_sound">צליל</string>
     <string name="vb_video_super_division">שדרג</string>
-    <string name="vb_video_super_division_desc">"שדרג את הרזולוציה באופן אוטומטי כאשר היא ≤720P.
+    <string name="vb_video_super_division_desc">"שדרוג רזולוציה אוטומטי כאשר היא 720P או פחות.
 
 שימוש במאפיין זה מגדיל את צריכת החשמל.
 
 מאפיין זה לא עובד עם החלקת תנועה.
-הפעלת אחד משני המאפיינים האלה תביא להשבתת המאפיין השני."</string>
+הפעלת אחד משני המאפיינים האלה תגרום להשבתת המאפיין השני."</string>
     <string name="vb_video_super_division_tips">"התמונה לא חדה מספיק?
 נסה לשדרג את הרזולוציה!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">אנימציות משופרות כבויות</string>

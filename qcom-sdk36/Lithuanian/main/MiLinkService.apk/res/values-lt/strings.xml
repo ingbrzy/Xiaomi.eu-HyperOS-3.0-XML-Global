@@ -192,8 +192,6 @@
     <string name="cast_closed_captions">Subtitrai</string>
     <string name="cast_closed_captions_unavailable">Subtitrai nepasiekiami</string>
     <string name="cast_connecting_to_device">Prisijungiama prie „%1$s“</string>
-    <string name="cast_device_chooser_searching_for_devices">Ieškoma įrenginių</string>
-    <string name="cast_device_chooser_title">Perduoti į</string>
     <string name="cast_disconnect">Atjungti</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Vaizdas, rodomas, kol „Cast“ imtuvas leidžia skelbimą</string>
@@ -234,9 +232,6 @@
     <string name="cast_tracks_chooser_dialog_ok">Gerai</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Subtitrai</string>
     <string name="cast_unmute">Įjungti garsą</string>
-    <string name="cast_zero_devices_found">"Įrenginių nerasta.
-"</string>
-    <string name="cast_zero_devices_learn_more_description"><a href="https://support.google.com/chromecastbuiltin/answer/3006709">Sužinokite daugiau</a> apie tai, kaip perduoti turinį į kitus įrenginius.</string>
     <string name="casting_tips">Perduodama…</string>
     <string name="character_counter_content_description">Įvesta simbolių: %1$d iš %2$d</string>
     <string name="character_counter_overflowed_content_description">Viršytas simbolių skaičius: %1$d iš %2$d</string>
@@ -1042,6 +1037,7 @@ Norėdami įjungti „Miracast“, paspauskite [MENU] mygtuką ir pasirinkite Ma
 %1$d. Iškilus problemoms, apie jas galite pranešti naudodami mūsų „Paslaugų ir atsiliepimo“ programą."</string>
     <string name="help_page_text_end">Jei jūsų įrenginio prekės ženklo sąraše nėra, susisiekite su gamintoju, kad sužinotumėte apie perdavimo funkciją.</string>
     <string name="i_see">Supratau</string>
+    <string name="ic_media_route_learn_more_accessibility">Sužinokite, kaip perduoti</string>
     <string name="icon_content_description">Dialogo lango piktograma</string>
     <string name="image_transfer_failed">Nepavyko perkelti vaizdo</string>
     <string name="install">Įdiegti</string>
@@ -1194,8 +1190,17 @@ Pastaba: įjungus pritaikymo neįgaliesiems funkcijas, sulauksite sistemos įsp�
     <string name="mr_cast_button_connecting">Perduoti. Prisijungiama</string>
     <string name="mr_cast_button_disconnected">Perduoti. Atsijungta</string>
     <string name="mr_cast_dialog_title_view_placeholder">Nėra jokios informacijos</string>
+    <string name="mr_chooser_looking_for_devices">Ieškoma įrenginių...</string>
     <string name="mr_chooser_searching">Randami įrenginiai</string>
     <string name="mr_chooser_title">Perduoti į</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Sužinokite daugiau</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Patikrinkite, ar kitas įrenginys prijungtas prie to paties „Wi-Fi“ tinklo kaip šis automobilis</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Patikrinkite, ar kitas įrenginys prijungtas prie to paties „Wi-Fi“ tinklo kaip šis telefonas</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Patikrinkite, ar kitas įrenginys prijungtas prie to paties „Wi-Fi“ tinklo kaip šis planšetinis kompiuteris</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Patikrinkite, ar kitas įrenginys prijungtas prie to paties „Wi-Fi“ tinklo kaip šis televizorius</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Patikrinkite, ar kitas įrenginys prijungtas prie to paties „Wi-Fi“ tinklo kaip šis įrenginys</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Patikrinkite, ar kitas įrenginys prijungtas prie to paties „Wi-Fi“ tinklo kaip šis laikrodis</string>
+    <string name="mr_chooser_zero_routes_found_title">Nėra jokių pasiekiamų įrenginių</string>
     <string name="mr_controller_album_art">Albumo viršelis</string>
     <string name="mr_controller_casting_screen">Perduodamas ekranas</string>
     <string name="mr_controller_close_description">Uždaryti</string>
@@ -1375,7 +1380,7 @@ Pastaba: įjungus pritaikymo neįgaliesiems funkcijas, sulauksite sistemos įsp�
     <string name="passport_error_length_limit">Įvestas tekstas per ilgas</string>
     <string name="passport_error_network">Nepavyksta prisijungti prie tinklo</string>
     <string name="passport_error_no_password_user">Dar nesukūrėte slaptažodžio. Prisijunkite su SMS.</string>
-    <string name="passport_error_phone">Neteisingas telefono numeris</string>
+    <string name="passport_error_phone">Įveskite galiojantį telefono numerį</string>
     <string name="passport_error_server">Serverio klaida</string>
     <string name="passport_error_sms_limit">Šiuo numeriu išsiųsta per daug patvirtinimo kodų. Pabandykite vėliau.</string>
     <string name="passport_error_ticket_invalid">Kodas neteisingas</string>
@@ -1489,6 +1494,7 @@ Pastaba: įjungus pritaikymo neįgaliesiems funkcijas, sulauksite sistemos įsp�
     <string name="path_setting_cast_feature">Daugiau jungiamumo parinkčių / perdavimas / specialiosios funkcijos</string>
     <string name="path_setting_cast_help">Daugiau jungiamumo parinkčių / perdavimas / pagalba</string>
     <string name="permission_allowed">Suteikta</string>
+    <string name="permission_label_access_app_meta">Prieiga prie programos informacijos naudojant programas įvairiuose įrenginiuose</string>
     <string name="permission_uballowed">Nesuteikta</string>
     <string name="picker_view_description">Kelių įrenginių fotoaparatas. Galite spustelėti kortelėje, kad pasirinktumėte netoliese esančių įrenginių kameras.</string>
     <string name="picker_view_outside_description">Spustelėkite, jei norite uždaryti šią kortelę.</string>

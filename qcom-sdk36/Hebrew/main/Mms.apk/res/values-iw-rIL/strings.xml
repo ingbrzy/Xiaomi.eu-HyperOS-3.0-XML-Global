@@ -23,11 +23,15 @@
     <string name="add_slide_hint">לחץ ליצירת שקופית חדשה</string>
     <string name="add_smiley">"אימוג'י"</string>
     <string name="add_timing">תזמון</string>
-    <string name="add_to_block_by_number">נוסף לרשימת החסומים</string>
-    <string name="add_to_block_by_number_failed">לא ניתן להוסיף לרשימת החסומים. יש לנסות שוב.</string>
-    <string name="add_to_block_by_tag">מילת המפתח נוספה לרשימת החסומים</string>
-    <string name="add_to_block_by_tag_failed">לא ניתן להוסיף את מילת המפתח לרשימת החסומים. יש לנסות שוב.</string>
-    <string name="add_to_block_cta_failed">יש לפתוח את יישום האבטחה ולהסכים לתנאים ולהגבלות שלו כדי להשתמש במאפיין זה</string>
+    <string name="add_to_block_by_number">"%s נוסף
+לרשימת החסומים"</string>
+    <string name="add_to_block_by_number_failed">"לא ניתן להוסיף את %s לרשימת החסומים.
+נא לנסות שוב."</string>
+    <string name="add_to_block_by_tag">"הודעות שמכילות \"%s\"
+נוספו לרשימת החסומים"</string>
+    <string name="add_to_block_by_tag_failed">"לא ניתן היה להוסיף הודעות שמכילות \"%s\" לרשימת החסומים.
+נא לנסות שוב."</string>
+    <string name="add_to_block_cta_failed">כדי להוסיף פריטים לרשימת החסומים יש לתת ליישום האבטחה את ההרשאות הנדרשות</string>
     <string name="add_to_browser_favorite_failed">לא ניתן היה להוסיף</string>
     <string name="add_to_browser_favorite_success">נוסף בהצלחה</string>
     <string name="add_to_calender">הוסף ללוח השנה</string>
@@ -117,9 +121,9 @@
     <string name="beidou_to_contacts">המקבל/ת: %s</string>
     <string name="billing">חשבונות</string>
     <string name="block_messaging_entry_title">מסרונים שנחסמו</string>
-    <string name="block_number_message">לאחר הוספה, כל השיחות וההודעות הנכנסות מ-%s ייחסמו. להוסיף עכשיו?</string>
+    <string name="block_number_message">מספר הטלפון יתווסף לרשימת החסומים. כל ההודעות שנשלחו ממספר זה יחסמו.</string>
     <string name="block_support_text">מופעל על ידי Antiy.</string>
-    <string name="block_tag_message">לאחר הוספה, כל ההודעות שמכילות את מילת המפתח \"%s\" ייחסמו. זה עשוי לכלול קודי אימות ופרטי הזמנות. להוסיף עכשיו?</string>
+    <string name="block_tag_message">כל ההודעות שנשלחו מ%s יחסמו. יכול להיות שלא תוכל לקבל קוד אימות או חשבונית שנשלחו באמצעות שירות זה.</string>
     <string name="boarding_time">זמן עלייה למטוס</string>
     <string name="bookmark">נוסף למועדפים</string>
     <string name="bookmark_confirm_delete_message">להסיר את ההודעות שנבחרו מרשימת המועדפים?</string>
@@ -259,6 +263,8 @@
     <string name="delete_message">מחיקה</string>
     <string name="delete_phrase">מחק תגובה</string>
     <string name="delete_unlocked">מחק הודעות נעולות</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">מחיקת מספרים</string>
     <string name="delete_wild_sims_confirm">כל ההודעות שהתקבלו ממספרים שנבחרו ימחקו מהטלפון. תוכל לשחזר אותן מ-i.mi.com.</string>
     <string name="delete_wild_sims_title">מחק מספרים שנבחרו</string>
@@ -424,6 +430,8 @@
     <string name="group_notify_message_title">"התרעות צא'ט קבוצתי"</string>
     <string name="group_rejoin_failed">"לא יכול להצטרף לקבוצת צ'אט"</string>
     <string name="group_resend_message">שלח מחדש (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">"אינך יכול לראות פריטים. קבוצת צא'ט זו נמחקה."</string>
     <string name="group_view_settings_not_memeber">"אין אפשרות להציג פריטים. אינך חבר בקבוצת צ'אט זו."</string>
     <string name="groupchat_list_title">"קבוצות צא'ט"</string>
@@ -481,7 +489,7 @@
     <string name="menu_pick_from_contact">בחר מתוך אנשי קשר</string>
     <string name="menu_preferences">הגדרות</string>
     <string name="menu_report">משוב</string>
-    <string name="menu_sms_block">להוסיף לרשימת החסומים?</string>
+    <string name="menu_sms_block">רשימת החסומים</string>
     <string name="menu_traffic_destination">יעד</string>
     <string name="menu_unlock">הסר מהמועדפים</string>
     <string name="menu_view_contact">צפיה באיש קשר</string>
@@ -1428,6 +1436,7 @@
     <string name="user_agreement">הסכם משתמש</string>
     <string name="user_term">הסכם משתמש</string>
     <string name="verification_code_flow_title">קוד האימות של %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">קודי אימות</string>
     <string name="verification_code_safety_warning">אל תיתן את הקודים האלו לאנשים אחרים</string>
     <string name="view">הצגה</string>

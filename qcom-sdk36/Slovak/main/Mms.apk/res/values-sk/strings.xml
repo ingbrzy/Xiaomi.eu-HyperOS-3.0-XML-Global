@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Umožňuje vytvoriť nový snímok.</string>
     <string name="add_smiley">Pridať smajlíka</string>
     <string name="add_timing">Pridať časovanie</string>
-    <string name="add_to_block_by_number">Pridané do zoznamu blokovaných</string>
-    <string name="add_to_block_by_number_failed">Nebolo možné pridať do zoznamu blokovaných. Skúste to znova.</string>
-    <string name="add_to_block_by_tag">Toto kľúčové slovo bolo pridané do zoznamu blokovaných</string>
-    <string name="add_to_block_by_tag_failed">Kľúčové slovo sa nepodarilo pridať do zoznamu blokovaných. Skúste to znova.</string>
-    <string name="add_to_block_cta_failed">Pre použitie tejto funkcie je potrebné otvoriť Zabezpečenie a vyjadriť súhlas s podmienkami.</string>
+    <string name="add_to_block_by_number">"Číslo %s bolo pridané
+do zoznamu blokovaných"</string>
+    <string name="add_to_block_by_number_failed">"Nebolo možné pridať %s do zoznamu blokovaných.
+Skúste to znova."</string>
+    <string name="add_to_block_by_tag">"Správy obsahujúce výraz \"%s\"
+boli pridané do zoznamu blokovaných"</string>
+    <string name="add_to_block_by_tag_failed">"Položky obsahujúce „%s\" nebolo možné pridať do zoznamu blokovaných.
+Skúste to znova."</string>
+    <string name="add_to_block_cta_failed">Udeľte Zabezpečeniu potrebné povolenia, aby bolo možné pridávať položky do zoznamu blokovaných</string>
     <string name="add_to_browser_favorite_failed">zlyhalo</string>
     <string name="add_to_browser_favorite_success">úspešné</string>
     <string name="add_to_calender">Pridať do Kalendára</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Príjemca: %s</string>
     <string name="billing">Účty</string>
     <string name="block_messaging_entry_title">Blokované SMS</string>
-    <string name="block_number_message">Po pridaní budú všetky prichádzajúce hovory a správy z/od %s blokované. Pridať teraz?</string>
+    <string name="block_number_message">Toto telefónne číslo bude pridané do zoznamu blokovaných. Všetky správy odoslané z tohto čísla budú zablokované.</string>
     <string name="block_support_text">Podporované Antiy.</string>
-    <string name="block_tag_message">Po pridaní budú všetky správy obsahujúce kľúčové slovo „%s“ blokované. Môže ísť aj o overovacie kódy a informácie o objednávkach. Pridať teraz?</string>
+    <string name="block_tag_message">Všetky správy z %s budú zablokované. Môže sa stať, že z tejto služby nebudete dostávať overovacie kódy alebo účty.</string>
     <string name="boarding_time">Čas nástupu</string>
     <string name="bookmark">Pridané do obľúbených</string>
     <string name="bookmark_confirm_delete_message">Odstrániť vybrané položky z obľúbených?</string>
@@ -294,6 +298,8 @@ prosíme zoberte na vedomie, že funkčnosť internetových správ je pozastaven
     <string name="delete_message">Vymazať</string>
     <string name="delete_phrase">Vymazať odpoveď</string>
     <string name="delete_unlocked">Odstrániť zamknuté</string>
+    <string name="delete_verification_code_sms_message">Vymazať všetky jednorazové heslá?</string>
+    <string name="delete_verification_code_sms_title">Vymazať jednorazové heslá</string>
     <string name="delete_wild_sims">Vymazať čísla</string>
     <string name="delete_wild_sims_confirm">Všetky správy patriaci do vybraných čísiel budú v tomto telefóne odstránené. Môžete ich obnoviť na i.mi.com.</string>
     <string name="delete_wild_sims_title">Vymazať vybrané čísla</string>
@@ -506,6 +512,8 @@ prosíme zoberte na vedomie, že funkčnosť internetových správ je pozastaven
     <string name="group_notify_message_title">Upozornenia skupinových chatov</string>
     <string name="group_rejoin_failed">Nepodarilo sa pripojiť ku skupinovému chatu</string>
     <string name="group_resend_message">Odosielanie (%d)</string>
+    <string name="group_verification_codes_summary">Automaticky zoskupovať jednorazové heslá</string>
+    <string name="group_verification_codes_title">Zoskupovať jednorazové heslá</string>
     <string name="group_view_settings_disolved">Položky nie je možné zobraziť. Tento skupinový chat bol vymazaný.</string>
     <string name="group_view_settings_not_memeber">Položky nie je možné zobraziť. Nie ste členom tejto skupiny.</string>
     <string name="groupchat_list_title">Skupinové chaty</string>
@@ -577,7 +585,7 @@ prosíme zoberte na vedomie, že funkčnosť internetových správ je pozastaven
     <string name="menu_pick_from_contact">Vybrať z kontaktov</string>
     <string name="menu_preferences">Nastavenia</string>
     <string name="menu_report">Spätná väzba</string>
-    <string name="menu_sms_block">Pridať do zoznamu blokovaných?</string>
+    <string name="menu_sms_block">Zoznam blokovaných</string>
     <string name="menu_traffic_destination">Destinácia</string>
     <string name="menu_unlock">Odstrániť z obľúbených</string>
     <string name="menu_view_contact">Zobraziť kontakt</string>
@@ -1565,6 +1573,7 @@ Ak nesúhlasíte s udelením takých povolení alebo zdieľaním alebo nahrávan
     <string name="v7_preference_off">Vypnuté</string>
     <string name="v7_preference_on">Zapnuté</string>
     <string name="verification_code_flow_title">%1$s overovací kód</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Overovacie kódy</string>
     <string name="verification_code_safety_warning">Neukazujte tieto kódy iným ľuďom</string>
     <string name="view">Zobraziť</string>

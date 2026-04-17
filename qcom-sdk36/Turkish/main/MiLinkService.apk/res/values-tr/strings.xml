@@ -192,8 +192,6 @@ bulunamıyor mu?"</string>
     <string name="cast_closed_captions">Alt yazılar</string>
     <string name="cast_closed_captions_unavailable">Altyazılar kullanılamıyor</string>
     <string name="cast_connecting_to_device">%1$s cihazına bağlanılıyor</string>
-    <string name="cast_device_chooser_searching_for_devices">Cihazlar bulunuyor</string>
-    <string name="cast_device_chooser_title">Şuraya yayınla:</string>
     <string name="cast_disconnect">Bağlantıyı kes</string>
     <string name="cast_dynamic_group_name_format">%1$s + %2$d</string>
     <string name="cast_expanded_controller_ad_image_description">Yayın alıcıda bir reklam oynatılırken gösterilen resim</string>
@@ -234,9 +232,6 @@ bulunamıyor mu?"</string>
     <string name="cast_tracks_chooser_dialog_ok">Tamam</string>
     <string name="cast_tracks_chooser_dialog_subtitles">Altyazılar</string>
     <string name="cast_unmute">Sesi aç</string>
-    <string name="cast_zero_devices_found">"Hiçbir cihaz bulunamadı.
-"</string>
-    <string name="cast_zero_devices_learn_more_description">İçeriklerinizi diğer cihazlara nasıl yayınlayabileceğiniz hakkında <a href="https://support.google.com/chromecastbuiltin/answer/3006709">daha fazla bilgi edinin</a>.</string>
     <string name="casting_tips">Yansıtılıyor…</string>
     <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
     <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
@@ -1042,6 +1037,7 @@ Miracast özelliğini açmanız gerekirse [MENU] tuşuna basın ve Uygulamaları
 %1$d. Herhangi bir sorunla karşılaşırsanız, bu sorunu \"Hizmetler &amp; geri bildirim\" uygulamamızı kullanarak bildirebilirsiniz."</string>
     <string name="help_page_text_end">Cihazınızın markası listede yoksa, yansıtma işlevi hakkında daha fazla bilgi almak için üretici ile iletişime geçin.</string>
     <string name="i_see">Anladım</string>
+    <string name="ic_media_route_learn_more_accessibility">Nasıl yayınlayacağınızı öğrenin</string>
     <string name="icon_content_description">İletişim kutusu simgesi</string>
     <string name="image_transfer_failed">Görüntü aktarılamadı</string>
     <string name="install">Yükle</string>
@@ -1194,8 +1190,17 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="mr_cast_button_connecting">Yayınla. Bağlanıyor</string>
     <string name="mr_cast_button_disconnected">Yayınla. Bağlı değil</string>
     <string name="mr_cast_dialog_title_view_placeholder">Bilgi yok</string>
+    <string name="mr_chooser_looking_for_devices">Cihazlar aranıyor...</string>
     <string name="mr_chooser_searching">Cihazlar bulunuyor</string>
     <string name="mr_chooser_title">Yayınlanacak yer:</string>
+    <string name="mr_chooser_wifi_learn_more"><a href="https://support.google.com/chromecast/?p=trouble-finding-devices">Daha fazla bilgi</a></string>
+    <string name="mr_chooser_wifi_warning_description_car">Diğer cihazın bu araba ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_phone">Diğer cihazın bu telefon ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_tablet">Diğer cihazın bu tablet ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_tv">Diğer cihazın bu tv ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_unknown">Diğer cihazın bu cihaz ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_wifi_warning_description_watch">Diğer cihazın bu kol saati ile aynı kablosuz ağa bağlandığından emin olun</string>
+    <string name="mr_chooser_zero_routes_found_title">Kullanılabilir cihaz yok</string>
     <string name="mr_controller_album_art">Albüm kapağı</string>
     <string name="mr_controller_casting_screen">Ekran yayınlanıyor</string>
     <string name="mr_controller_close_description">Kapat</string>
@@ -1375,7 +1380,7 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="passport_error_length_limit">Girdiğiniz metin çok uzun</string>
     <string name="passport_error_network">Ağa bağlanılamıyor</string>
     <string name="passport_error_no_password_user">Henüz bir şifre oluşturmadınız. SMS ile oturum açın.</string>
-    <string name="passport_error_phone">Geçersiz telefon numarası</string>
+    <string name="passport_error_phone">Geçerli bir telefon numarası girin</string>
     <string name="passport_error_server">Sunucu hatası</string>
     <string name="passport_error_sms_limit">Bu numaraya çok fazla sayıda doğrulama kodu gönderildi. Daha sonra tekrar deneyin.</string>
     <string name="passport_error_ticket_invalid">Bu kod yanlış</string>
@@ -1489,6 +1494,7 @@ Not: Erişilebilirlik özelliklerini açtığınızda rutin bir sistem uyarısı
     <string name="path_setting_cast_feature">Daha fazla bağlantı seçeneği/Yasıtma/Özel özellikler</string>
     <string name="path_setting_cast_help">Daha fazla bağlantı seçeneği/Yasıtma/Yardım</string>
     <string name="permission_allowed">İzin verildi</string>
+    <string name="permission_label_access_app_meta">Farklı cihazlarda uygulama kullanırken uygulama bildirimlerine eriş</string>
     <string name="permission_uballowed">İzin verilmedi</string>
     <string name="picker_view_description">Cihazlar arası kamera. Yakındaki cihazlardaki kameraları seçmek için kartın içine dokunabilirsiniz.</string>
     <string name="picker_view_outside_description">Bu kartı kapatmak için dokunun.</string>

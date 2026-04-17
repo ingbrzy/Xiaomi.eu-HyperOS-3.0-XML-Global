@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Napauta luodaksesi uuden dian</string>
     <string name="add_smiley">Hymiö</string>
     <string name="add_timing">Ajastettu</string>
-    <string name="add_to_block_by_number">Lisätty estolistalle</string>
-    <string name="add_to_block_by_number_failed">Estolistalle lisääminen ei onnistunut. Yritä uudelleen.</string>
-    <string name="add_to_block_by_tag">Avainsana lisätty estolistalle</string>
-    <string name="add_to_block_by_tag_failed">Avainsanan lisääminen estolistalle ei onnistunut. Yritä uudelleen.</string>
-    <string name="add_to_block_cta_failed">Avaa Tietoturva ja hyväksy sen käyttöehdot, jotta voit käyttää tätä ominaisuutta</string>
+    <string name="add_to_block_by_number">"Lisätty %s
+estolistalle"</string>
+    <string name="add_to_block_by_number_failed">"Ei voitu lisätä %s estolistalle.
+Yritä uudelleen."</string>
+    <string name="add_to_block_by_tag">"Viestit, jotka sisältävät \"%s\"
+on lisätty estolistalle"</string>
+    <string name="add_to_block_by_tag_failed">"Ei voitu lisätä viestejä, jotka sisältävät \"%s\" estolistalle.
+Yritä uudelleen."</string>
+    <string name="add_to_block_cta_failed">Myönnä Tietoturvalle tarvittavat käyttöoikeudet, jotta se voi lisätä kohteita estolistalle</string>
     <string name="add_to_browser_favorite_failed">Ei voi lisätä</string>
     <string name="add_to_browser_favorite_success">Lisätty onnistuneesti</string>
     <string name="add_to_calender">Lisää kalenteriin</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Vastaanottaja: %s</string>
     <string name="billing">Laskut</string>
     <string name="block_messaging_entry_title">Estetty tekstiviesti</string>
-    <string name="block_number_message">Kun olet lisännyt numeron %s estolistalle, kaikki siitä saapuvat puhelut ja viestit estetään. Haluatko lisätä nyt?</string>
+    <string name="block_number_message">Tämä puhelinnumero on lisätty estollistalle. Kaikki tästä numerosta lähetetyt viestit estetään.</string>
     <string name="block_support_text">Antiy:n tukema.</string>
-    <string name="block_tag_message">Kun olet lisännyt avainsanan \"%s\" estolistalle, kaikki sen sisältävät viestit estetään. Ne voivat sisältää vahvistuskoodeja ja tilaustietoja. Haluatko lisätä nyt?</string>
+    <string name="block_tag_message">Kaikki viestit lähettäjältä %s estetään. Voi olla, ettet pysty vastaanottamaan vahvistuskoodeja tai laskuja tältä palvelulta.</string>
     <string name="boarding_time">Nousuaika</string>
     <string name="bookmark">Lisätty suosikkeihin</string>
     <string name="bookmark_confirm_delete_message">Poistetaanko valitut viestit suosikeista?</string>
@@ -294,6 +298,8 @@ Huomaa, että Internet-viestintä on nyt keskeytetty toistaiseksi. Tämä ei mil
     <string name="delete_message">Poista</string>
     <string name="delete_phrase">Poista vastaus</string>
     <string name="delete_unlocked">Poista lukitut viestit</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Poista numerot</string>
     <string name="delete_wild_sims_confirm">Kaikki viestit valituista numeroista poistetaan tältä puhelimelta. Voit palauttaa ne osoitteessa i.mi.com.</string>
     <string name="delete_wild_sims_title">Poista valitut numerot</string>
@@ -506,6 +512,8 @@ Huomaa, että Internet-viestintä on nyt keskeytetty toistaiseksi. Tämä ei mil
     <string name="group_notify_message_title">Ryhmäkeskustelu-ilmoitukset</string>
     <string name="group_rejoin_failed">Ei voitu liittyä ryhmäkeskusteluun</string>
     <string name="group_resend_message">Lähetä uudelleen (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Kohteita ei voi katsoa. Tämä ryhmäkeskustelu poistettiin.</string>
     <string name="group_view_settings_not_memeber">Kohteita ei voida katsoa. Et ole tämän ryhmäkeskustelun jäsen.</string>
     <string name="groupchat_list_title">Ryhmäkeskustelut</string>
@@ -577,7 +585,7 @@ Huomaa, että Internet-viestintä on nyt keskeytetty toistaiseksi. Tämä ei mil
     <string name="menu_pick_from_contact">Valitse yhteystiedoista</string>
     <string name="menu_preferences">Asetukset</string>
     <string name="menu_report">Palaute</string>
-    <string name="menu_sms_block">Lisää estolistalle?</string>
+    <string name="menu_sms_block">Estolista</string>
     <string name="menu_traffic_destination">Määränpää</string>
     <string name="menu_unlock">Poista suosikeista</string>
     <string name="menu_view_contact">Näytä yhteystiedot</string>
@@ -1565,6 +1573,7 @@ Jos et suostu myöntämään tällaisia lupia tai jakamaan ja lähettämään he
     <string name="v7_preference_off">POIS KÄYTÖSTÄ</string>
     <string name="v7_preference_on">KÄYTÖSSÄ</string>
     <string name="verification_code_flow_title">Laitteen %1$s vahvistuskoodi</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Vahvistuskoodit</string>
     <string name="verification_code_safety_warning">Älä paljasta näitä koodeja muille</string>
     <string name="view">Näytä</string>

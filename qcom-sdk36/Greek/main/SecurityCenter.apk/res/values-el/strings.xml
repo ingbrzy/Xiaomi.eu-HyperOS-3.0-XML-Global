@@ -982,6 +982,7 @@
     <string name="bubble_notification_switch">Προβολή φούσκων συνομιλίας</string>
     <string name="bubble_notification_switch_desc">Όταν μια εφαρμογή μηνυμάτων σε ένα αναδυόμενο παράθυρο είναι κρυμμένη στην άκρη της οθόνης, εμφανίστε τα εισερχόμενα μηνύματα σε φούσκες</string>
     <string name="bubble_pickup_voice_print_auto">Ηχογράφηση φωνητικού αποτυπώματος…</string>
+    <string name="bubble_pickup_voice_print_success">Voiceprint recorded</string>
     <string name="button_background_connection">Αποδοχή</string>
     <string name="button_block_calls_from_cantacts">Άρση αποκλεισμού</string>
     <string name="button_block_calls_from_strangers">Άρση αποκλεισμού</string>
@@ -1015,6 +1016,8 @@
     <string name="button_to_setting">Ρυθμίσεις</string>
     <string name="button_toll_correction">Βαθμονόμηση υπολοίπου</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="calendar_date_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
     <string name="call_address">Λίστα αποκλεισμού περιοχής</string>
     <string name="call_all_number_block">Αποκλεισμός όλων των κλήσεων</string>
     <string name="call_and_contact">Κλήσεις και Επαφές</string>
@@ -1892,7 +1895,7 @@
 %3$d. Αυτή η δυνατότητα υποστηρίζεται μόνο στην ηπειρωτική Κίνα.
 %4$d. Αυτή η δυνατότητα λειτουργεί μόνο σε δίκτυα 5G-SA."</string>
     <string name="function_shield_auto_bright">Απενεργοποίηση αυτόματης φωτεινότητας</string>
-    <string name="function_shield_eye_shield">Απενεργοποίηση Λειτουργίας άνεσης ματιών</string>
+    <string name="function_shield_eye_shield">Turn off Eye comfort mode</string>
     <string name="function_shield_pull_notification_bar">Μην ανοίξετε το Συρτάρι ειδοποιήσεων</string>
     <string name="function_shield_settings_title">Περιορισμός των επόμενων λειτουργιών συστήματος κατά τη διάρκεια παιχνιδιών</string>
     <string name="function_shield_summary">Περιορισμός επιλεγμένων λειτουργιών συστήματος κατά τη διάρκεια παιχνιδιών</string>
@@ -1952,6 +1955,17 @@
     <string name="game_toolbox_auto_brightness_talkback">Αυτόματη φωτεινότητα</string>
     <string name="game_toolbox_btn_back_talkback">Πίσω</string>
     <string name="game_toolbox_cellular_network">Ενίσχυση ταχύτητας δικτύου κινητής τηλεφωνίας</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Ακύρωση</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">Μια σύνδεση VPN θα δημιουργηθεί αυτόματα με βάση την καθυστέρηση σε πραγματικό χρόνο για τη βελτίωση της σταθερότητας του δικτύου. Μετά την υποβολή της αξίωσης, θα λάβετε %d χρόνια δωρεάν πρόσβασης.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Περίοδος ισχύος: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Έληξε</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Διεκδίκηση</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Σύνδεση</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Διεκδίκηση</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Ενίσχυση σύνδεσης στο δίκτυο</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Δημιουργήστε ένα ιδιωτικό δίκτυο με βάση την καθυστέρηση για να βελτιώσετε τη σταθερότητα της σύνδεσης</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Ενίσχυση σύνδεσης στο δίκτυο</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Ενεργοποιήστε το για να μειώσετε ελαφρώς την ποιότητα της εικόνας και να μειώσετε σημαντικά την κατανάλωση ενέργειας</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Σημείωση:
@@ -3037,6 +3051,30 @@ Xiaomi Gaming Cooler"</string>
     <string name="menu_item_virus_install_monitor_summary">Έλεγχος εφαρμογών για ιούς πριν την εγκατάστασή τους</string>
     <string name="menu_item_virus_install_monitor_title">Σάρωση πριν την εγκατάσταση</string>
     <string name="menu_item_virus_lib_auto_update_summary">Ενημερώθηκε στο %s</string>
+    <string name="menu_item_virus_risky_app_detect">Εντοπισμός επικίνδυνων εφαρμογών</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Ακύρωση</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Εντοπίστηκαν κίνδυνοι ασφαλείας. Δεν είναι δυνατή η απενεργοποίηση τώρα.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Εάν οι αρχές, το προσωπικό εξυπηρέτησης πελατών ή άτομα που μπορεί να γνωρίζετε σας ζητήσουν να απενεργοποιήσετε αυτήν τη λειτουργία, επαληθεύστε την ταυτότητά τους πριν συνεχίσετε.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Εάν απενεργοποιήσετε αυτήν τη λειτουργία, δεν θα πραγματοποιείται πλέον ανίχνευση σε πραγματικό χρόνο επικίνδυνων συμπεριφορών εφαρμογών, κάτι που μπορεί να οδηγήσει σε διαρροές προσωπικών δεδομένων ή οικονομικές απώλειες. Απενεργοποίηση ούτως ή άλλως;</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Άνοιγμα</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Απενεργοποίηση</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Ακύρωση</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Άνοιγμα</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Κατανοητό</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Να μην εμφανιστεί ξανά</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Έξοδος</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Απενεργοποίηση;</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"Η εφαρμογή %s ενέχει άγνωστους κινδύνους ασφαλείας και μπορεί να οδηγήσει σε διαρροές απορρήτου ή οικονομικές απώλειες. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Εάν διαφωνείτε με αυτήν την ειδοποίηση, πατήστε εδώ για να υποβάλετε ανατροφοδότηση.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Όνομα εφαρμογής: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Όνομα πακέτου: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Περιγράψτε το πρόβλημα λεπτομερώς: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Υπογραφή εφαρμογής: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Προσοχή</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Η εφαρμογή δεν είναι διαθέσιμη</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Προσοχή</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Αποκλεισμός ή ειδοποίηση σχετικά με επικίνδυνες εφαρμογές</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Απεγκατάσταση</string>
     <string name="menu_remove">Διαγραφή</string>
     <string name="menu_report">Αναφορά σφάλματος</string>
     <string name="menu_setting_traffic">Ρυθμίστε μόνοι σας</string>
@@ -3093,6 +3131,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mic_noise_reduction_voiceprint_desc">Διατηρήστε μόνο ήχο από έναν καθορισμένο χρήστη</string>
     <string name="midnight">Νύχτα</string>
     <string name="midrop_post_notification_contentTitle">Χρειάζεται να κοινοποιήσετε αρχεία;</string>
+    <string name="milink_init_loading">Preparing to cast…</string>
     <string name="miui_blur_location">Τοποθεσία κατά προσέγγιση</string>
     <string name="miui_optimization_close_final_tip">Απενεργοποίηση βελτιστοποίησης συστήματος;</string>
     <string name="miui_optimization_close_title">Η λειτουργία αυτή προορίζεται για προγραμματιστές και μπορεί να μην είναι χρήσιμη για τους γενικούς χρήστες. Η απενεργοποίηση της βελτιστοποίησης συστήματος μπορεί να επιφέρει τις ακόλουθες αλλαγές:</string>
@@ -3787,6 +3826,21 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="pc_low_batterty_got_it">Κατανοητό</string>
     <string name="pc_low_battery_fast_charge">Επιτάχυνση φόρτισης</string>
     <string name="pc_low_battery_fast_charge_summary">Συνδέστε τον παρεχόμενο φορτιστή για να επιταχύνετε τη φόρτιση όταν η οθόνη είναι απενεργοποιημένη και η μπαταρία είναι χαμηλή. Αυτή η λειτουργία μπορεί να προκαλέσει τη θέρμανση της συσκευής σας.</string>
+    <string name="pc_low_battery_health_msg_1">Η κατάσταση της μπαταρίας σας είναι κάτω από %1$s. Σας συνιστούμε να επικοινωνήσετε με την εξυπηρέτηση πελατών της Xiaomi για να αντικαταστήσετε την μπαταρία σας.</string>
+    <string name="pc_low_battery_health_msg_2">Πατήστε &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>υπηρεσίες μετά την πώληση&lt;/a> για να βρείτε εξουσιοδοτημένους παρόχους κοντά σας. Μπορείτε να κλείσετε ραντεβού για επισκευή στο κατάστημα ή να ζητήσετε υπηρεσία ταχυδρομικής αποστολής.&lt;br />&lt;br />Όσον αφορά την κατάσταση της μπαταρίας, ίσως θελήσετε να μάθετε τα εξής:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Φυσική γήρανση: Οι μπαταρίες λιθίου έχουν περιορισμένο αριθμό κύκλων φόρτισης και φθείρονται σταδιακά με την πάροδο του χρόνου.
+%2$d. Συνήθειες φόρτισης: Η φόρτιση σε υψηλές θερμοκρασίες, η πλήρης αποφόρτιση της μπαταρίας πριν από τη φόρτιση ή η χρήση μη επίσημων γρήγορων φορτιστών μπορεί να επιταχύνει τη γήρανση.
+%3$d. Ακραία περιβάλλοντα: Η υπερβολική θερμότητα (όπως το άμεσο ηλιακό φως ή τα έντονα παιχνίδια) ή οι πολύ χαμηλές θερμοκρασίες μπορούν να προκαλέσουν ζημιά στην μπαταρία και να μειώσουν τη διάρκεια ζωής της."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Η μικρότερη διάρκεια ζωής της μπαταρίας απαιτεί συχνότερη φόρτιση.
+%2$d. Η απόδοση μειώνεται κατά τη διάρκεια απαιτητικών εργασιών (όπως εντατικό παιχνίδι ή επεξεργασία βίντεο), γεγονός που μπορεί να επηρεάσει την ομαλότητα.
+%3$d. Σε ακραίες περιπτώσεις, η φόρτιση επιβραδύνεται ή η συσκευή απενεργοποιείται αυτόματα σε περιβάλλοντα χαμηλής θερμοκρασίας."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Διατηρήστε το επίπεδο της μπαταρίας σας μεταξύ %2$s και %3$s. Αποφύγετε να το αφήνετε πλήρως φορτισμένο ή εντελώς αποφορτισμένο για μεγάλα χρονικά διαστήματα.
+%4$d. Αποφύγετε τη φόρτιση σε υψηλές θερμοκρασίες. Αφαιρέστε τη θήκη του τηλεφώνου κατά τη φόρτιση και αποφύγετε τα έντονα παιχνίδια κατά τη διάρκεια της φόρτισης.
+%5$d. Χρησιμοποιήστε επίσημους ή πιστοποιημένους φορτιστές και καλώδια για την προστασία της μπαταρίας."</string>
+    <string name="pc_low_battery_health_title">Υπενθύμιση υγείας μπαταρίας</string>
+    <string name="pc_low_battery_health_title_1">Γιατί επιδεινώνεται η υγεία της μπαταρίας</string>
+    <string name="pc_low_battery_health_title_2">Πώς σας επηρεάζει η χαμηλή υγεία μπαταρίας</string>
+    <string name="pc_low_battery_health_title_3">Πώς να βοηθήσετε στην παράταση της υγείας της μπαταρίας</string>
     <string name="pc_low_temp_charge_summary">Κρατήστε τον φορτιστή συνδεδεμένο και περιμένετε να ζεσταθεί η μπαταρία αφού σβήσει η οθόνη για να φορτιστεί κανονικά</string>
     <string name="pc_low_temp_charge_title">Φόρτιση χαμηλής θερμοκρασίας</string>
     <string name="pc_low_temp_disable_otg_message">Δεν είναι δυνατή η χρήση εξωτερικών συσκευών και αντίστροφης φόρτισης τώρα, επειδή η θερμοκρασία ή η στάθμη της μπαταρίας είναι πολύ χαμηλή. Δοκιμάστε ξανά μόλις αυξηθεί η θερμοκρασία ή η στάθμη της μπαταρίας.</string>
@@ -3813,6 +3867,8 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="pc_night_sleep_mode_summary_pad">Ενώ η οθόνη είναι απενεργοποιημένη, η συσκευή σας θα κλείσει τις εφαρμογές παρασκηνίου και θα περιορίσει τη χρήση του δικτύου. Εάν η συσκευή δεν χρησιμοποιηθεί για μεγάλο χρονικό διάστημα, θα απενεργοποιηθεί αυτόματα ή θα απενεργοποιηθεί.</string>
     <string name="pc_night_sleep_mode_title">Νυχτερινή λειτουργία</string>
     <string name="pc_no_more_remind">Να μην γίνει υπενθύμιση</string>
+    <string name="pc_notify_low_battery_health_msg">Ώρα να αντικαταστήσετε την μπαταρία σας</string>
+    <string name="pc_notify_low_battery_health_title">Υγεία μπαταρίας κάτω από %1$s</string>
     <string name="pc_ordinary_charge_summary">Να επιτρέπεται πάντα η φόρτιση μέχρι %1$s</string>
     <string name="pc_ordinary_charge_title">Κανονική φόρτιση</string>
     <string name="pc_performance_mode_dialog_summary">Η συσκευή σας θα μπορεί να λειτουργεί για %s στη Λειτουργία απόδοσης. Σημειώστε ότι η Λειτουργία απόδοσης αυξάνει την κατανάλωση ενέργειας και μπορεί να οδηγήσει σε υπερθέρμανση.</string>
@@ -3881,6 +3937,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="pc_this_time_charge_full_work">Σχεδόν πλήρης φόρτιση</string>
     <string name="pc_timely_charging_summary">Η μπαταρία είναι κάτω από το %1$s. Εάν η συσκευή υπερθερμανθεί ενώ η μπαταρία είναι χαμηλή, αυτό μπορεί να προκαλέσει βλάβη στην μπαταρία.</string>
     <string name="pc_timely_charging_title">Φορτίστε τη συσκευή σας</string>
+    <string name="pc_tip_low_battery_health">Ώρα να αντικαταστήσετε την μπαταρία σας</string>
     <string name="pc_to_phone_install">Έγινε αποκλεισμός εγκατάστασης του %s μέσω USB</string>
     <string name="pc_toady_charge_time_title">Αριθμός φορτίσεων σήμερα</string>
     <string name="pc_wait_device_cools_down">Περιμένετε μέχρι να κρυώσει η συσκευή σας για να μπορέσετε να χρησιμοποιήσετε αυτήν τη λειτουργία.</string>
@@ -4088,6 +4145,8 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="pin_toast">Σύρετε προς τα πάνω από το κάτω μέρος της οθόνης και κάντε παύση για να ξεκαρφιτσώσετε αυτήν την εφαρμογή</string>
     <string name="pin_toast_nav">Πατήστε παρατεταμένα τα κουμπιά πίσω και προεπισκόπησης για να ξεκαρφιτσώσετε αυτήν την εφαρμογή</string>
     <string name="pkg_traffic">Ορισμός ορίου χρήσης δεδομένων</string>
+    <string name="pkg_traffic_settings_instruction">Προσοχή</string>
+    <string name="pkg_traffic_settings_instruction_text">Λόγω πρόσφατων ενημερώσεων της εταιρείας κινητής τηλεφωνίας, ορισμένες πληροφορίες ενδέχεται να μην είναι διαθέσιμες. Τα δεδομένα που εμφανίζονται στις \"Σύνθετες Ρυθμίσεις Κυκλοφορίας\" είναι μόνο για αναφορά σας και ενδέχεται να μην ταιριάζουν με τα αρχεία της εταιρείας κινητής τηλεφωνίας σας. Ελέγξτε την κατάσταση χρέωσης της εταιρείας κινητής τηλεφωνίας σας για την πιο ακριβή χρήση.</string>
     <string name="pm">ΜΜ</string>
     <string name="pm_auto_start_by_other">Ξεκίνησε η έναρξη</string>
     <string name="pm_auto_start_by_other_app">Να επιτρέπεται η εκκίνηση της εφαρμογής από άλλες εφαρμογές</string>
@@ -4719,7 +4778,6 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="privacy_risk_detection_title">Ανίχνευση ρίσκων απορρήτου</string>
     <string name="privacy_risk_detection_user">Προσωπικές πληροφορίες</string>
     <string name="privacy_risk_install_app">Αναξιόπιστες εφαρμογές</string>
-    <string name="privacy_risk_photo_delete">Οι φωτογραφίες ενδέχεται να διαγραφούν χωρίς την άδειά σας</string>
     <string name="privacy_risk_photo_location">Φωτογραφίες με πληροφορίες τοποθεσίας</string>
     <string name="privacy_risk_photo_location_msg">Περιορίστε την πρόσβαση στη Συλλογή όταν δεν είναι απαραίτητη</string>
     <string name="privacy_risk_photo_msg">Φωτογραφίες με ευαίσθητες πληροφορίες</string>
@@ -4730,8 +4788,6 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="privacy_risk_result_ignore_btn">Παράλειψη</string>
     <string name="privacy_risk_result_item_safe">Δεν εντοπίστηκαν κίνδυνοι</string>
     <string name="privacy_risk_result_open_btn">Ενεργοποίηση</string>
-    <string name="privacy_risk_result_photo_delete">Λήψη ειδοποιήσεων για διαγραμμένες φωτογραφίες</string>
-    <string name="privacy_risk_result_photo_delete_msg">Λάβετε ειδοποιήσεις όταν οι εφαρμογές διαγράφουν στοιχεία από τη Συλλογή χωρίς την άδειά σας</string>
     <string name="privacy_risk_result_photo_sensitive">Οι φωτογραφίες σας περιέχουν ιδιωτικές πληροφορίες</string>
     <string name="privacy_risk_result_protection">Προστασία απορρήτου</string>
     <string name="privacy_risk_result_screen_fuzzy">Θόλωμα προβολών εφαρμογών</string>
@@ -5533,6 +5589,7 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="storage_fbo_notification_start_content">Η συσκευή ενδέχεται να παρουσιάσει καθυστερήσεις κατά τη διάρκεια αυτής της διαδικασίας</string>
     <string name="storage_fbo_notification_start_title">Ανασυγκρότηση αποθήκευσης</string>
     <string name="storage_fbo_number_tip">Επεξεργάστηκε στις %1$s</string>
+    <string name="storage_fbo_time_talkback">MMMM d</string>
     <string name="storage_fbo_tools">Βελτιστοποίηση χώρου αποθήκευσης</string>
     <string name="storage_file_delete_tip">Διαγραφή επιλεγμένων στοιχείων οριστικά; Ορισμένα από αυτά μπορεί να φορτωθούν ξανά όταν είναι απαραίτητο.</string>
     <string name="storage_file_dialog_delete_title">Διαγραφή αντικειμένων</string>
@@ -5764,12 +5821,20 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="tc_sms_report_upload_when_net">Ευχαριστούμε για την ανατροφοδότηση σας!</string>
     <string name="tc_web_correct_error">Αδυναμία βαθμονόμησης</string>
     <string name="ten_percent_total_pkg">%s (10%% μηνιαίων δεδομένων)</string>
+    <string name="terminal_flares_current_camera_mic">Χρήση της κάμερας και του μικροφώνου αυτής της συσκευής</string>
+    <string name="terminal_flares_current_camera_mic_screen">Χρήση της κάμερας, του μικροφώνου και της οθόνης αυτής της συσκευής</string>
+    <string name="terminal_flares_recent_camera_mic">Πρόσφατα χρησιμοποιήθηκε η κάμερα και το μικρόφωνο αυτής της συσκευής</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Πρόσφατα χρησιμοποιήθηκε η κάμερα, το μικρόφωνο, και η οθόνη αυτής της συσκευής</string>
     <string name="terminal_flars_current_camera">Χρήση της κάμερας αυτής της συσκευής</string>
+    <string name="terminal_flars_current_record">Χρήση του μικροφώνου αυτής της συσκευής</string>
     <string name="terminal_flars_current_screen">Πρόσβαση στην οθόνη αυτής της συσκευής</string>
     <string name="terminal_flars_current_screen_camera">Χρήση της κάμερας και οθόνης αυτής της συσκευής</string>
+    <string name="terminal_flars_current_screen_mic">Χρήση της οθόνης και του μικροφώνου αυτής της συσκευής</string>
     <string name="terminal_flars_recent_camera">Πρόσφατα χρησιμοποίησε την κάμερα αυτής της συσκευής</string>
+    <string name="terminal_flars_recent_record">Πρόσφατα χρησιμοποιήθηκε το μικρόφωνο αυτής της συσκευής</string>
     <string name="terminal_flars_recent_screen">Πρόσφατα απέκτησε πρόσβαση στην οθόνη αυτής της συσκευής</string>
     <string name="terminal_flars_recent_screen_camera">Πρόσφατα χρησιμοποίησε την κάμερα και οθόνη αυτής της συσκευής</string>
+    <string name="terminal_flars_recent_screen_mic">Πρόσφατα χρησιμοποιήθηκε η οθόνη και το μικρόφωνο αυτής της συσκευής</string>
     <string name="tether_custom_dialog_title">Όριο δεδομένων κινητής τηλεφωνίας</string>
     <string name="tether_limit_dialog_title">Όριο δεδομένων κινητής τηλεφωνίας</string>
     <string name="tether_limit_value_custom">Προσαρμογή</string>
@@ -6188,12 +6253,12 @@ Ultra εξοικονόμησης μπαταρίας"</string>
     <string name="vb_video_effects_spatial_summary_new">Απολαύστε βελτιωμένη αίσθηση χώρου και κατεύθυνσης για υποστηριζόμενο ήχο όταν χρησιμοποιείτε ακουστικά headphones</string>
     <string name="vb_video_effects_srs_premium_sound">Ήχος</string>
     <string name="vb_video_super_division">Αύξηση ανάλυσης</string>
-    <string name="vb_video_super_division_desc">"Αυτόματη αναβάθμιση ποιότητας ανάλυσης όταν είναι ≤720P.
+    <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720P.
 
-Η χρήση αυτής της δυνατότητας αυξάνει την κατανάλωση ενέργειας.
+Using this feature increases power consumption.
 
-Αυτή η δυνατότητα δεν λειτουργεί με την εξομάλυνση κίνησης.
-Αν ενεργοποιήσετε μία από τις δυνατότητες θα απενεργοποιηθεί η άλλη."</string>
+This feature doesn't work with motion smoothing.
+Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"Δεν είναι αρκετά σαφές;
 Δοκιμάστε την αναβάθμιση της ανάλυσης!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Ενισχυμένα κινούμενα σχέδια ανενεργά</string>

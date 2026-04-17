@@ -982,6 +982,7 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="bubble_notification_switch">Prikaži obvestila v mehurčku</string>
     <string name="bubble_notification_switch_desc">Ko bo plavajoče okno aplikacije za sporočila skrito na robu zaslona, bosta dohodna sporočila prikazana v mehurčkih</string>
     <string name="bubble_pickup_voice_print_auto">Snemanje glasovnega odtisa…</string>
+    <string name="bubble_pickup_voice_print_success">Glasovni odtis je posnet</string>
     <string name="button_background_connection">Dovoli</string>
     <string name="button_block_calls_from_cantacts">Odblokiraj</string>
     <string name="button_block_calls_from_strangers">Odblokiraj</string>
@@ -1015,6 +1016,8 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="button_to_setting">Nastavitve</string>
     <string name="button_toll_correction">Uskladi stanje</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Spremeni na naslednji mesec</string>
+    <string name="calendar_date_picker_a11y_prev_month">Spremeni na prejšnji mesec</string>
     <string name="call_address">Seznam blokiranih lokacij</string>
     <string name="call_all_number_block">Blokiraj vse klice</string>
     <string name="call_and_contact">Klici in stiki</string>
@@ -1950,6 +1953,17 @@ Dodana bo na seznam izjem, ampak pretekli blokirani predmeti ne bodo prikazani v
     <string name="game_toolbox_auto_brightness_talkback">Samodejna svetlost</string>
     <string name="game_toolbox_btn_back_talkback">Nazaj</string>
     <string name="game_toolbox_cellular_network">Pospeševanje hitrosti mobilnega omrežja</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">d. M. yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Prekliči</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">Povezava VPN bo samodejno ustvarjena na podlagi zakasnitve v realnem času za izboljšanje stabilnosti omrežja. Po prevzemu boste prejeli %d let brezplačnega dostopa.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Obdobje veljavnosti: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Poteklo</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Prevzemi</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Prijava</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Prevzemi</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Izboljšaj omrežno povezavo</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Ustvarite zasebno omrežje na podlagi zakasnitve za izboljšanje stabilnosti povezave</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Izboljšaj omrežno povezavo</string>
     <string name="game_toolbox_display_avrs">AVRS (avtomatiziran sistem glasovnega odziva)</string>
     <string name="game_toolbox_display_avrs_desc">Vklopite, da rahlo zmanjšate kakovost slike in občutno zmanjšate porabo energije</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Opomba:
@@ -3035,6 +3049,30 @@ Vaša naprava je zdaj hitrejša za %s."</string>
     <string name="menu_item_virus_install_monitor_summary">Aplikacije preveri za viruse, preden jih namestite</string>
     <string name="menu_item_virus_install_monitor_title">Skeniraj pred namestitvijo</string>
     <string name="menu_item_virus_lib_auto_update_summary">Posodobljeno na %s</string>
+    <string name="menu_item_virus_risky_app_detect">Zaznaj tvegane aplikacije</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Prekliči</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Zaznana varnostna tveganja. Trenutno ni mogoče izklopiti.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Če uradne osebe, podpora strankam ali znanci od vas zahtevajo izklop te funkcije, najprej preverite njihovo istovetnost.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Če to funkcijo izklopite, se ne bo več izvajalo zaznavanje tveganega obnašanja aplikacij v realnem času, kar lahko povzroči uhajanje osebnih podatkov ali finančno izgubo. Želite vseeno izklopiti?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Odpri</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Izklopi</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Prekliči</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Odpri</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Razumem</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Ne prikaži več</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Izhod</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Želite izklopiti?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s predstavlja neznana varnostna tveganja in lahko povzroči uhajanje osebnih podatkov ali finančno izgubo. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Če se ne strinjate s tem opozorilom, tapnite tukaj za pošiljanje povratnih informacij.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Ime aplikacije: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Ime paketa: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Podrobno opišite težavo: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Podpis aplikacije: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Pozor</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Aplikacija ni na voljo</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Opozorilo</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Blokiraj ali obvesti o tveganih aplikacijah</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Odstrani</string>
     <string name="menu_remove">Izbriši</string>
     <string name="menu_report">Poročaj o napaki</string>
     <string name="menu_setting_traffic">Nastavite ročno</string>
@@ -3091,6 +3129,7 @@ Vaša naprava je zdaj hitrejša za %s."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Ohrani samo zvok določenega uporabnika</string>
     <string name="midnight">Noč</string>
     <string name="midrop_post_notification_contentTitle">Želite deliti datoteke?</string>
+    <string name="milink_init_loading">Priprava za oddajanje…</string>
     <string name="miui_blur_location">Približna lokacija</string>
     <string name="miui_optimization_close_final_tip">Izklopi optimizacijo sistema?</string>
     <string name="miui_optimization_close_title">Ta funkcija je namenjena razvijalcem in morda ne bo primerna za splošne uporabnike. Izklop optimizacije sistema lahko povzroči naslednje spremembe:</string>
@@ -3785,6 +3824,21 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pc_low_batterty_got_it">Razumem</string>
     <string name="pc_low_battery_fast_charge">Pospeši polnjenje</string>
     <string name="pc_low_battery_fast_charge_summary">Priključite priloženi polnilnik, da pospešite polnjenje, ko je zaslon izklopljen in je baterija skoraj prazna. Ta funkcija lahko povzroči segrevanje vaše naprave.</string>
+    <string name="pc_low_battery_health_msg_1">Zdravje baterije je pod %1$s. Priporočamo, da se obrnete na poprodajno službo Xiaomi, da zamenjate baterijo.</string>
+    <string name="pc_low_battery_health_msg_2">Tapnite &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>poprodajne storitve&lt;/a>, da poiščete pooblaščene ponudnike v svoji bližini. Rezervirate lahko popravilo v trgovini ali zahtevate poštno storitev.&lt;br />&lt;br />Kar zadeva zdravje baterije, nekaj dodatnih informacij:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Naravno staranje: Litijeve baterije imajo omejeno število ciklov polnjenja in se sčasoma izrabijo.
+%2$d. Navade pri polnjenju: Polnjenje pri visokih temperaturah, popolna izpraznitev baterije pred polnjenjem ali uporaba neoriginalnih hitrih polnilnikov lahko pospeši staranje baterije.
+%3$d. Ekstremna okolja: Prekomerna toplota (kot sta neposredna sončna svetloba ali intenzivno igranje iger) ali hud mraz lahko poškodujeta baterijo in skrajšajo njeno življenjsko dobo."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Krajša življenjska doba baterije zahteva pogostejše polnjenje.
+%2$d. Zmogljivost se zmanjša med zahtevnejšimi opravili (kot sta intenzivno igranje iger ali urejanje videoposnetkov), kar lahko vpliva na nemotenost delovanja.
+%3$d. V ekstremnih primerih se hitrost polnjenja upočasni, v hladnih okoljih pa se lahko naprava samodejno izklopi."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Raven napolnjenosti baterije vzdržujte med %2$s in %3$s. Izogibajte se dolgotrajnemu stanju popolnoma napolnjene ali povsem izpraznjene baterije.
+%4$d. Izogibajte se polnjenju pri visokih temperaturah. Med polnjenjem odstranite ovitek telefona in se izogibajte intenzivnemu igranju iger.
+%5$d. Za zaščito baterije uporabljajte originalne ali certificirane polnilnike in kable."</string>
+    <string name="pc_low_battery_health_title">Opomnik o zdravju baterije</string>
+    <string name="pc_low_battery_health_title_1">Zakaj pride do upada zdravja baterije</string>
+    <string name="pc_low_battery_health_title_2">Kako slabo zdravje baterije vpliva na vas</string>
+    <string name="pc_low_battery_health_title_3">Kako podaljšati zdravje baterije</string>
     <string name="pc_low_temp_charge_summary">Polnilec naj bo priključen in počakajte, da se baterija po izklopu zaslona segreje, da se normalno napolni.</string>
     <string name="pc_low_temp_charge_title">Polnjenje pri nizki temperaturi</string>
     <string name="pc_low_temp_disable_otg_message">Zunanjih naprav in povratnega polnjenja trenutno ni mogoče uporabljati, ker je temperatura ali baterija prenizka. Poskusite znova, ko se temperatura ali raven napolnjenosti baterije zvišata.</string>
@@ -3811,6 +3865,8 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pc_night_sleep_mode_summary_pad">Ko je zaslon izklopljen, bo vaša naprava zaprla aplikacije v ozadju in omejila uporabo omrežja. Če naprave dlje časa ne uporabljate, bo samodejno preklopila v način spanja ali se izklopila.</string>
     <string name="pc_night_sleep_mode_title">Nočni način</string>
     <string name="pc_no_more_remind">Ne opominjaj</string>
+    <string name="pc_notify_low_battery_health_msg">Čas je, da zamenjate baterijo</string>
+    <string name="pc_notify_low_battery_health_title">Stanje baterije je pod %1$s</string>
     <string name="pc_ordinary_charge_summary">Vedno dovoli polnjenje do %1$s</string>
     <string name="pc_ordinary_charge_title">Redno polnjenje</string>
     <string name="pc_performance_mode_dialog_summary">V Načinu učinkovitosti delovanja, napravo lahko uporabljate %s. Upoštevajte, da Način učinkovitosti delovanja poveča porabo baterije in lahko povzroči pregrevanje.</string>
@@ -3879,6 +3935,7 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pc_this_time_charge_full_work">Skoraj v celoti napolnjeno</string>
     <string name="pc_timely_charging_summary">Baterija je pod %1$s. Če se naprava pregreje, ko je baterija prazna, lahko to poškoduje baterijo.</string>
     <string name="pc_timely_charging_title">Napolnite vašo napravo</string>
+    <string name="pc_tip_low_battery_health">Čas je, da zamenjate baterijo</string>
     <string name="pc_to_phone_install">Blokirana namestitev %s preko USB</string>
     <string name="pc_toady_charge_time_title">Število današnjih polnjenj</string>
     <string name="pc_wait_device_cools_down">Za uporabo te funkcije počakajte, da se naprava ohladi.</string>
@@ -4086,6 +4143,8 @@ Skrajnega varčevanja z baterijo"</string>
     <string name="pin_toast">Z dna zaslona podrsajte navzgor in zadržite, če želite to aplikacijo odpeti.</string>
     <string name="pin_toast_nav">Pritisnite in pridržite gumba za nazaj in za predogled, da odstranite to aplikacijo</string>
     <string name="pkg_traffic">Nastavite omejitev porabe podatkov</string>
+    <string name="pkg_traffic_settings_instruction">Pozor</string>
+    <string name="pkg_traffic_settings_instruction_text">Zaradi nedavnih posodobitev operaterja nekateri podatki morda ne bodo na voljo. Podatki, prikazani v razdelku »Napredne nastavitve prometa«, so zgolj informativni in se morda ne ujemajo z evidenco vašega operaterja. Za najbolj točen prikaz porabe preverite obračun svojega operaterja.</string>
     <string name="pm">pop.</string>
     <string name="pm_auto_start_by_other">Aktiviran zagon</string>
     <string name="pm_auto_start_by_other_app">Dovoliti aplikaciji da bo zagnana s strani druge aplikacije</string>
@@ -4718,7 +4777,6 @@ Ali želite preklicati soglasje?"</string>
     <string name="privacy_risk_detection_title">Zaznaj varnostna tveganja</string>
     <string name="privacy_risk_detection_user">Osebni podatki</string>
     <string name="privacy_risk_install_app">Nezanesljive aplikacije</string>
-    <string name="privacy_risk_photo_delete">Fotografije bodo mogoče izbrisane brez vašega dovoljenja</string>
     <string name="privacy_risk_photo_location">Fotografije s podatki lokacije</string>
     <string name="privacy_risk_photo_location_msg">Omeji dostop do Galerije, ko le-ta ni potreben</string>
     <string name="privacy_risk_photo_msg">Fotografije z občutljivimi podatki</string>
@@ -4729,8 +4787,6 @@ Ali želite preklicati soglasje?"</string>
     <string name="privacy_risk_result_ignore_btn">Prezri</string>
     <string name="privacy_risk_result_item_safe">Ni zaznanih tveganj</string>
     <string name="privacy_risk_result_open_btn">Vklopi</string>
-    <string name="privacy_risk_result_photo_delete">Sprejmi obvestila o izbrisanih fotografijah</string>
-    <string name="privacy_risk_result_photo_delete_msg">Sprejmi obvestilo, če aplikacija izbriše predmete iz Galerije brez dovoljenja</string>
     <string name="privacy_risk_result_photo_sensitive">Vaše fotografije vsebujejo osebne podatke</string>
     <string name="privacy_risk_result_protection">Zaščita zasebnosti</string>
     <string name="privacy_risk_result_screen_fuzzy">Zamegli predoglede aplikacij</string>
@@ -5532,6 +5588,7 @@ Za uporabo te ^1 s to napravo, jo prvo morate nastaviti."</string>
     <string name="storage_fbo_notification_start_content">Naprava lahko med tem postopkom zaostaja</string>
     <string name="storage_fbo_notification_start_title">Defragmentiranje pomnilnika</string>
     <string name="storage_fbo_number_tip">Obdelano: %1$s</string>
+    <string name="storage_fbo_time_talkback">d. MMMM</string>
     <string name="storage_fbo_tools">Optimizacija pomnilnika</string>
     <string name="storage_file_delete_tip">Želite trajno izbrisati izbrane predmete? Nekatere od njih se lahko po potrebi ponovno naložijo.</string>
     <string name="storage_file_dialog_delete_title">Želite izbrisati predmete</string>
@@ -5763,12 +5820,20 @@ Formatiranje bo izbrisalo vse obstoječe vsebine na ^2. Da bi preprečili izgubo
     <string name="tc_sms_report_upload_when_net">Hvala vam za povratno informacijo!</string>
     <string name="tc_web_correct_error">Ni bilo mogoče kalibrirati</string>
     <string name="ten_percent_total_pkg">%s (10 %% mesečnih podatkov)</string>
+    <string name="terminal_flares_current_camera_mic">Uporaba kamere in mikrofona te naprave</string>
+    <string name="terminal_flares_current_camera_mic_screen">Uporaba kamere, mikrofona in zaslona te naprave</string>
+    <string name="terminal_flares_recent_camera_mic">Nedavna uporaba kamere in mikrofona te naprave</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Nedavna uporaba kamere, mikrofona in zaslona te naprave</string>
     <string name="terminal_flars_current_camera">Uporaba kamere te naprave</string>
+    <string name="terminal_flars_current_record">Uporaba mikrofona te naprave</string>
     <string name="terminal_flars_current_screen">Dostopanje do zaslona te naprave</string>
     <string name="terminal_flars_current_screen_camera">Uporaba kamere in zaslona te naprave</string>
+    <string name="terminal_flars_current_screen_mic">Uporaba zaslona in mikrofona te naprave</string>
     <string name="terminal_flars_recent_camera">Nedavna uporaba kamere te naprave</string>
+    <string name="terminal_flars_recent_record">Nedavna uporaba mikrofona te naprave</string>
     <string name="terminal_flars_recent_screen">Nedavni dostop do zaslona te naprave</string>
     <string name="terminal_flars_recent_screen_camera">Nedavna uporaba kamere in zaslona te naprave</string>
+    <string name="terminal_flars_recent_screen_mic">Nedavna uporaba zaslona in mikrofona te naprave</string>
     <string name="tether_custom_dialog_title">Omejitev mobilnih podatkov</string>
     <string name="tether_limit_dialog_title">Omejitev mobilnih podatkov</string>
     <string name="tether_limit_value_custom">Po meri</string>
@@ -6187,11 +6252,11 @@ Ta funkcija ne deluje z izboljšanimi videoposnetki.
     <string name="vb_video_effects_spatial_summary_new">Izkusite izboljšan občutek za prostor in smer za podprte zvoke med uporabo slušalk</string>
     <string name="vb_video_effects_srs_premium_sound">Zvok</string>
     <string name="vb_video_super_division">Povečaj ločljivost</string>
-    <string name="vb_video_super_division_desc">"Samodejno poveča ločljivost, ko je le-ta ≤720P.
+    <string name="vb_video_super_division_desc">"Samodejno povečaj ločljivost, ko je ta ≤720 P.
 
 Uporaba te funkcije poveča porabo baterije.
 
-Te funkcije ne morete uporabiti istočasno z gladenjem gibanja.
+Te funkcije ne morete uporabiti istočasno s funkcijo gladenja gibanja.
 Vklop ene funkcije bo izklopil drugo."</string>
     <string name="vb_video_super_division_tips">"Ni dovolj jasno?
 Poskusite povečati ločljivost!"</string>

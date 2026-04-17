@@ -982,6 +982,7 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="bubble_notification_switch">Gespreksballonnen weergeven</string>
     <string name="bubble_notification_switch_desc">Wanneer een messenger-app in een zwevend venster aan de rand van het scherm is verborgen, toon inkomende berichten dan in ballonnen</string>
     <string name="bubble_pickup_voice_print_auto">Stemafdruk opnemen…</string>
+    <string name="bubble_pickup_voice_print_success">Voiceprint recorded</string>
     <string name="button_background_connection">Toestaan</string>
     <string name="button_block_calls_from_cantacts">Deblokkeren</string>
     <string name="button_block_calls_from_strangers">Deblokkeren</string>
@@ -1015,6 +1016,8 @@ Sommige van uw transacties zijn echter nog niet voltooid. Om uw toestemming in t
     <string name="button_to_setting">Instellingen</string>
     <string name="button_toll_correction">Saldo kalibreren</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="calendar_date_picker_a11y_prev_month">Naar vorige maand gaan</string>
     <string name="call_address">Netnummer-blokkeerlijst</string>
     <string name="call_all_number_block">Alle oproepen blokkeren</string>
     <string name="call_and_contact">Oproepen en contacten</string>
@@ -1890,7 +1893,7 @@ Het nummer zal worden toegevoegd aan de uitzonderingen, maar eerder geblokkeerde
 %3$d. Deze functie wordt alleen ondersteund op het Chinese vasteland.
 %4$d. Deze functie werkt alleen in 5G-SA-netwerken."</string>
     <string name="function_shield_auto_bright">Automatische helderheid uitschakelen</string>
-    <string name="function_shield_eye_shield">Oogcomfortmodus uitschakelen</string>
+    <string name="function_shield_eye_shield">Turn off Eye comfort mode</string>
     <string name="function_shield_pull_notification_bar">Meldingenpaneel niet openen</string>
     <string name="function_shield_settings_title">Blokkeer de volgende systeemfuncties tijdens het gamen</string>
     <string name="function_shield_summary">Blokkeer geselecteerde systeemfuncties tijdens het gamen</string>
@@ -1950,6 +1953,17 @@ Het nummer zal worden toegevoegd aan de uitzonderingen, maar eerder geblokkeerde
     <string name="game_toolbox_auto_brightness_talkback">Automatische helderheid</string>
     <string name="game_toolbox_btn_back_talkback">Terug</string>
     <string name="game_toolbox_cellular_network">Mobiele netwerk snelheidsboost</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd-MM-yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Annuleren</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">Er wordt automatisch een VPN-verbinding tot stand gebracht op basis van realtime latentie om de netwerkstabiliteit te verbeteren. Na het claimen krijgt u %d jaar gratis toegang.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Geldigheidsduur: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Verlopen</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Claimen</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Aanmelden</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Claimen</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Netwerkverbinding versterken</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Creëer een privénetwerk op basis van latentie om de verbindingsstabiliteit te verbeteren</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Netwerkverbinding versterken</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Inschakelen om de beeldkwaliteit enigszins te verminderen en het stroomverbruik aanzienlijk te verlagen</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Let op:
@@ -3035,6 +3049,30 @@ Uw apparaat is %s sneller nu."</string>
     <string name="menu_item_virus_install_monitor_summary">Controleer apps voor het installeren op virussen</string>
     <string name="menu_item_virus_install_monitor_title">Scannen vóór installatie</string>
     <string name="menu_item_virus_lib_auto_update_summary">Bijgewerkt op %s</string>
+    <string name="menu_item_virus_risky_app_detect">Detecteer risicovolle apps</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Annuleren</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">"Beveiligingsrisico's gedetecteerd. Kan nu niet worden uitgeschakeld."</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Als autoriteiten, medewerkers van de klantenservice of bekenden u vragen deze functie uit te schakelen, verifieer dan eerst hun identiteit voordat u verdergaat.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Als u deze functie uitschakelt, wordt er geen realtime detectie meer uitgevoerd van risicovol app-gedrag, wat kan leiden tot datalekken of financieel verlies. Toch uitschakelen?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Openen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Uitschakelen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Annuleren</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Openen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Begrepen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Niet meer tonen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Afsluiten</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Uitschakelen?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s brengt onbekende beveiligingsrisico's met zich mee en kan leiden tot het lekken van privacygevoelige gegevens of financieel verlies. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Als u het niet eens bent met deze melding, tik dan hier om feedback te geven.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Appnaam: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Pakketnaam: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Beschrijf het probleem in detail: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">App-handtekening: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Let op</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">App is niet beschikbaar</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Waarschuwing</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Risicovolle apps blokkeren of er een melding over geven</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Verwijderen</string>
     <string name="menu_remove">Verwijderen</string>
     <string name="menu_report">Rapporteer een fout</string>
     <string name="menu_setting_traffic">Handmatig instellen</string>
@@ -3091,6 +3129,7 @@ Uw apparaat is %s sneller nu."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Bewaar alleen audio van een gespecificeerde gebruiker</string>
     <string name="midnight">Nacht</string>
     <string name="midrop_post_notification_contentTitle">Wilt u bestanden delen?</string>
+    <string name="milink_init_loading">Preparing to cast…</string>
     <string name="miui_blur_location">Geschatte locatie</string>
     <string name="miui_optimization_close_final_tip">Systeemoptimalisatie uitschakelen?</string>
     <string name="miui_optimization_close_title">Deze functie is bedoeld voor ontwikkelaars en is mogelijk niet geschikt voor algemene gebruikers. Het uitschakelen van systeemoptimalisatie kan de volgende veranderingen met zich meebrengen:</string>
@@ -3785,6 +3824,21 @@ Ultra batterijbesparing"</string>
     <string name="pc_low_batterty_got_it">Begrepen</string>
     <string name="pc_low_battery_fast_charge">Versnel het opladen</string>
     <string name="pc_low_battery_fast_charge_summary">Sluit de meegeleverde oplader aan om het opladen te versnellen wanneer het scherm is uitgeschakeld en de batterij bijna leeg is. Deze functie kan ervoor zorgen dat uw apparaat warm wordt.</string>
+    <string name="pc_low_battery_health_msg_1">De batterijstatus is lager dan %1$s. We raden u aan contact op te nemen met de klantenservice van Xiaomi om uw batterij te laten vervangen.</string>
+    <string name="pc_low_battery_health_msg_2">Tik op &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>after-sales service&lt;/a> om geautoriseerde servicepunten bij u in de buurt te vinden. U kunt een reparatie in de winkel boeken of een reparatie via de post aanvragen.&lt;br />&lt;br />Wat betreft de batterijstatus, wilt u wellicht het volgende weten:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Natuurlijke veroudering: Lithiumbatterijen hebben een beperkt aantal laadcycli en slijten geleidelijk na verloop van tijd.
+%2$d. Laadgewoonten: Opladen bij hoge temperaturen, de batterij volledig laten leeglopen voordat deze wordt opgeladen, of het gebruik van niet-officiële snelladers kan de veroudering versnellen.
+%3$d. Extreme omstandigheden: Overmatige hitte (zoals direct zonlicht of intensief gamen) of zeer koude omstandigheden kunnen de batterij beschadigen en de levensduur verkorten."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Een kortere batterijduur vereist vaker opladen.
+%2$d. De prestaties nemen af ​​tijdens veeleisende taken (zoals intensief gamen of videobewerking), wat de vloeiendheid kan beïnvloeden.
+%3$d. In extreme gevallen verloopt het opladen trager of schakelt het apparaat automatisch uit in omgevingen met lage temperaturen."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Houd het batterijniveau tussen %2$s en %3$s. Vermijd het langdurig volledig opgeladen of volledig leeg laten staan.
+%4$d. Vermijd opladen bij hoge temperaturen. Verwijder het telefoonhoesje tijdens het opladen en vermijd intensief gamen tijdens het opladen.
+%5$d. Gebruik officiële of gecertificeerde opladers en kabels om de batterij te beschermen."</string>
+    <string name="pc_low_battery_health_title">Herinnering batterijstatus</string>
+    <string name="pc_low_battery_health_title_1">Waarom de staat van de batterij achteruitgaat</string>
+    <string name="pc_low_battery_health_title_2">Hoe een lage staat van de batterij u beïnvloedt</string>
+    <string name="pc_low_battery_health_title_3">Hoe verlengt u de staat van de batterij</string>
     <string name="pc_low_temp_charge_summary">Houd de oplader aangesloten en wacht tot de batterij is opgewarmd nadat het scherm is uitgeschakeld om normaal op te laden</string>
     <string name="pc_low_temp_charge_title">Opladen bij lage temperatuur</string>
     <string name="pc_low_temp_disable_otg_message">Externe apparaten en omgekeerd opladen kunnen nu niet worden gebruikt vanwege de temperatuur of het batterijniveau te laag. Probeer het opnieuw zodra de temperatuur of het batterijniveau weer stijgt.</string>
@@ -3811,6 +3865,8 @@ Ultra batterijbesparing"</string>
     <string name="pc_night_sleep_mode_summary_pad">Terwijl het scherm uit is, sluit uw apparaat achtergrondapps en beperkt het netwerkgebruik. Als het apparaat langere tijd niet wordt gebruikt, gaat het automatisch in de slaapstand of wordt het uitgeschakeld.</string>
     <string name="pc_night_sleep_mode_title">Nachtmodus</string>
     <string name="pc_no_more_remind">Niet meer herinneren</string>
+    <string name="pc_notify_low_battery_health_msg">Het is tijd om uw batterij te vervangen</string>
+    <string name="pc_notify_low_battery_health_title">Staat van de batterij is lager dan %1$s</string>
     <string name="pc_ordinary_charge_summary">Laat altijd opladen tot %1$s toe</string>
     <string name="pc_ordinary_charge_title">Normaal opladen</string>
     <string name="pc_performance_mode_dialog_summary">Uw apparaat kan %s werken in de Prestatiemodus. Let er op dat de Prestatiemodus het stroomverbruik verhoogt en tot oververhitting kan leiden.</string>
@@ -3879,6 +3935,7 @@ Ultra batterijbesparing"</string>
     <string name="pc_this_time_charge_full_work">Bijna volledig opgeladen</string>
     <string name="pc_timely_charging_summary">Batterij is minder dan %1$s. Als het apparaat oververhit raakt terwijl de batterij bijna leeg is, kan dit de batterij beschadigen.</string>
     <string name="pc_timely_charging_title">Laad uw apparaat op</string>
+    <string name="pc_tip_low_battery_health">Het is tijd om uw batterij te vervangen</string>
     <string name="pc_to_phone_install">Installatie van %s via USB geblokkeerd</string>
     <string name="pc_toady_charge_time_title">Het aantal keer opgeladen vandaag</string>
     <string name="pc_wait_device_cools_down">Wacht tot uw apparaat is afgekoeld om deze functie te kunnen gebruiken.</string>
@@ -4086,6 +4143,8 @@ Ultra batterijbesparing"</string>
     <string name="pin_toast">Schuif omhoog vanaf de onderkant van het scherm en pauzeer om deze app los te maken</string>
     <string name="pin_toast_nav">Houd de knoppen Vorige en Preview ingedrukt om deze app los te maken</string>
     <string name="pkg_traffic">Stel datalimiet in</string>
+    <string name="pkg_traffic_settings_instruction">Attention</string>
+    <string name="pkg_traffic_settings_instruction_text">"Due to recent carrier updates, some info may not be available. Data shown in \"Traffic Advanced Settings\" is for reference only and may not match your carrier's records. Check your carrier's billing statement for the most accurate usage."</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Start veroorzaakt</string>
     <string name="pm_auto_start_by_other_app">Sta de app toe om door andere apps te worden gestart</string>
@@ -4718,7 +4777,6 @@ Toestemming nu intrekken?"</string>
     <string name="privacy_risk_detection_title">"Detecteer privacyrisico's"</string>
     <string name="privacy_risk_detection_user">Persoonlijke info</string>
     <string name="privacy_risk_install_app">Onbetrouwbare apps</string>
-    <string name="privacy_risk_photo_delete">"Foto's kunnen worden verwijderd zonder uw toestemming"</string>
     <string name="privacy_risk_photo_location">"Foto's met locatie info"</string>
     <string name="privacy_risk_photo_location_msg">Beperk de toegang tot Galerij wanneer dit niet nodig is</string>
     <string name="privacy_risk_photo_msg">"Foto's met gevoelige informatie"</string>
@@ -4729,8 +4787,6 @@ Toestemming nu intrekken?"</string>
     <string name="privacy_risk_result_ignore_btn">Negeren</string>
     <string name="privacy_risk_result_item_safe">"Geen risico's gedetecteerd"</string>
     <string name="privacy_risk_result_open_btn">Inschakelen</string>
-    <string name="privacy_risk_result_photo_delete">"Ontvang meldingen over verwijderde foto's"</string>
-    <string name="privacy_risk_result_photo_delete_msg">Ontvang meldingen wanneer apps items uit Galerij verwijderen zonder uw toestemming</string>
     <string name="privacy_risk_result_photo_sensitive">"Uw foto's bevatten privégegevens"</string>
     <string name="privacy_risk_result_protection">Privacybescherming</string>
     <string name="privacy_risk_result_screen_fuzzy">App-previews vervagen</string>
@@ -5532,6 +5588,7 @@ Om te gebruiken deze ^1 bij dit apparaat moet u het eerst instellen."</string>
     <string name="storage_fbo_notification_start_content">Het apparaat kan tijdens dit proces vertraging oplopen</string>
     <string name="storage_fbo_notification_start_title">Opslag defragmenteren</string>
     <string name="storage_fbo_number_tip">Verwerkt op %1$s</string>
+    <string name="storage_fbo_time_talkback">MMMM d</string>
     <string name="storage_fbo_tools">Opslagoptimalisatie</string>
     <string name="storage_file_delete_tip">Geselecteerde items definitief verwijderen? Sommige kunnen indien nodig opnieuw worden geladen.</string>
     <string name="storage_file_dialog_delete_title">Items verwijderen</string>
@@ -5763,12 +5820,20 @@ Formatteren wist bestaande inhoud op de ^2. Om te voorkomen dat u inhoud verlies
     <string name="tc_sms_report_upload_when_net">Bedankt voor de feedback!</string>
     <string name="tc_web_correct_error">Kon niet kalibreren</string>
     <string name="ten_percent_total_pkg">%s (10%% van maandelijkse data)</string>
+    <string name="terminal_flares_current_camera_mic">De camera en de microfoon van dit apparaat gebruiken</string>
+    <string name="terminal_flares_current_camera_mic_screen">Door gebruik te maken van de camera, microfoon en het scherm van dit apparaat</string>
+    <string name="terminal_flares_recent_camera_mic">Onlangs de camera en microfoon van dit apparaat gebruikt</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Onlangs de camera, microfoon en het scherm van dit apparaat gebruikt</string>
     <string name="terminal_flars_current_camera">De camera van dit apparaat gebruiken</string>
+    <string name="terminal_flars_current_record">De microfoon van dit apparaat gebruiken</string>
     <string name="terminal_flars_current_screen">Toegang tot het scherm van dit apparaat</string>
     <string name="terminal_flars_current_screen_camera">De camera en het scherm van dit apparaat gebruiken</string>
+    <string name="terminal_flars_current_screen_mic">Het scherm en de microfoon van dit apparaat gebruiken</string>
     <string name="terminal_flars_recent_camera">Onlangs de camera van dit apparaat gebruikt</string>
+    <string name="terminal_flars_recent_record">Onlangs de microfoon van dit apparaat gebruikt</string>
     <string name="terminal_flars_recent_screen">Onlangs toegang gehad tot het scherm van dit apparaat</string>
     <string name="terminal_flars_recent_screen_camera">Onlangs de camera en het scherm van dit apparaat gebruikt</string>
+    <string name="terminal_flars_recent_screen_mic">Onlangs het scherm en de microfoon van dit apparaat gebruikt</string>
     <string name="tether_custom_dialog_title">Mobiele datalimiet</string>
     <string name="tether_limit_dialog_title">Mobiele datalimiet</string>
     <string name="tether_limit_value_custom">Aangepast</string>
@@ -6187,12 +6252,12 @@ Als u het ene inschakelt, wordt het andere uitgeschakeld."</string>
     <string name="vb_video_effects_spatial_summary_new">Ervaar een verbeterd gevoel van ruimte en richting voor ondersteunde audio bij gebruik van hoofdtelefoons</string>
     <string name="vb_video_effects_srs_premium_sound">Geluid</string>
     <string name="vb_video_super_division">Opschalen</string>
-    <string name="vb_video_super_division_desc">"Schaal de resolutie automatisch op wanneer deze ≤720P is.
+    <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720P.
 
-Het gebruik van deze functie verhoogt het stroomverbruik.
+Using this feature increases power consumption.
 
-Deze functie werkt niet met beweging vloeiend maken.
-Als u een van de functies inschakelt, wordt de andere uitgeschakeld."</string>
+This feature doesn't work with motion smoothing.
+Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"Niet duidelijk genoeg?
 Probeer de resolutie op te schalen!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Verbeterde animaties zijn uitgeschakeld</string>

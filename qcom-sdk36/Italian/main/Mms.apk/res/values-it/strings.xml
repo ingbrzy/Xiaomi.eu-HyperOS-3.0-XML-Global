@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Tocca per creare una nuova diapositiva</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">Programma</string>
-    <string name="add_to_block_by_number">Aggiunto alla lista blocchi</string>
-    <string name="add_to_block_by_number_failed">Non è stato possibile aggiungere alla lista blocchi. Riprova.</string>
-    <string name="add_to_block_by_tag">Parola chiave aggiunta alla lista blocchi</string>
-    <string name="add_to_block_by_tag_failed">Non è stato possibile aggiungere la parola chiave alla lista blocchi. Riprova.</string>
-    <string name="add_to_block_cta_failed">Apri Sicurezza e accetta i termini e le condizioni per poter utilizzare questa funzione</string>
+    <string name="add_to_block_by_number">"%s aggiunto
+alla lista blocchi"</string>
+    <string name="add_to_block_by_number_failed">"Non abbiamo potuto aggiungere %s alla Lista blocchi.
+Riprova."</string>
+    <string name="add_to_block_by_tag">"I messaggi che includono \"%s\"
+sono aggiunti alla lista blocchi"</string>
+    <string name="add_to_block_by_tag_failed">"Non abbiamo potuto aggiungere i messaggi contenenti \"%s\" alla lista di blocco.
+Riprova."</string>
+    <string name="add_to_block_cta_failed">Concedi a Sicurezza i permessi necessari per poter aggiungere elementi alla lista di blocchi</string>
     <string name="add_to_browser_favorite_failed">Impossibile aggiungere</string>
     <string name="add_to_browser_favorite_success">Aggiunto correttamente</string>
     <string name="add_to_calender">Aggiungi al Calendario</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Destinatario: %s</string>
     <string name="billing">Spese</string>
     <string name="block_messaging_entry_title">SMS bloccati</string>
-    <string name="block_number_message">Una volta aggiunto, tutte le chiamate in entrata e i messaggi provenienti da %s saranno bloccati. Aggiungere ora?</string>
+    <string name="block_number_message">Il numero verrà aggiunto alla lista blocchi. Tutti i messaggi inviati da questo numero saranno bloccati.</string>
     <string name="block_support_text">Offerto da Antiy.</string>
-    <string name="block_tag_message">Una volta aggiunta, tutti i messaggi contenenti la parola chiave \"%s\" saranno bloccati. Ciò potrebbe includere i codici di verifica e le informazioni relative agli ordini. Aggiungere ora?</string>
+    <string name="block_tag_message">Tutti i messaggi inviati da %s saranno bloccati. Potresti non essere in grado di ricevere codici di verifica o fatture inviate da questo servizio.</string>
     <string name="boarding_time">Orario di imbarco</string>
     <string name="bookmark">Aggiunto ai preferiti</string>
     <string name="bookmark_confirm_delete_message">Rimuovere i messaggi selezionati dai preferiti?</string>
@@ -294,6 +298,8 @@ ti informiamo che la funzionalità di messaggistica Internet è sospesa fino a n
     <string name="delete_message">Elimina</string>
     <string name="delete_phrase">Elimina risposta</string>
     <string name="delete_unlocked">Elimina i messaggi bloccati</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Elimina numeri</string>
     <string name="delete_wild_sims_confirm">Tutti i messaggi relativi ai numeri selezionati verranno eliminati da questo telefono. Puoi ripristinarli su i.mi.com.</string>
     <string name="delete_wild_sims_title">Elimina i numeri selezionati</string>
@@ -506,6 +512,8 @@ ti informiamo che la funzionalità di messaggistica Internet è sospesa fino a n
     <string name="group_notify_message_title">Notifiche chat di gruppo</string>
     <string name="group_rejoin_failed">Impossibile partecipare alla chat di gruppo</string>
     <string name="group_resend_message">Reinvia (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Impossibile visualizzare gli elementi. Questa chat di gruppo è stata eliminata.</string>
     <string name="group_view_settings_not_memeber">Impossibile visualizzare gli elementi. Non sei un membro di questa chat di gruppo.</string>
     <string name="groupchat_list_title">Chat di gruppo</string>
@@ -577,7 +585,7 @@ ti informiamo che la funzionalità di messaggistica Internet è sospesa fino a n
     <string name="menu_pick_from_contact">Seleziona dai contatti</string>
     <string name="menu_preferences">Impostazioni</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Aggiungere alla lista blocchi?</string>
+    <string name="menu_sms_block">Lista blocchi</string>
     <string name="menu_traffic_destination">Destinazione</string>
     <string name="menu_unlock">Rimuovi dai preferiti</string>
     <string name="menu_view_contact">Mostra contatto</string>
@@ -1565,6 +1573,7 @@ Se rifiuti di concedere tali autorizzazioni o condividere e caricare le tue info
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <string name="verification_code_flow_title">Codice di verifica di %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Codici di verifica</string>
     <string name="verification_code_safety_warning">Non rivelare questi codici ad altre persone</string>
     <string name="view">Visualizza</string>

@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Πατήστε για δημιουργία νέας διαφάνειας</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">Προστέθηκε χρόνος</string>
-    <string name="add_to_block_by_number">Έγινε προσθήκη στη λίστα αποκλεισμού</string>
-    <string name="add_to_block_by_number_failed">Δεν ήταν δυνατή η προσθήκη στη λίστα αποκλεισμού. Δοκιμάστε ξανά.</string>
-    <string name="add_to_block_by_tag">Προστέθηκε αυτή η λέξη-κλειδί στη λίστα αποκλεισμού</string>
-    <string name="add_to_block_by_tag_failed">Δεν ήταν δυνατή η προσθήκη λέξης-κλειδιού στη λίστα αποκλεισμού. Δοκιμάστε ξανά.</string>
-    <string name="add_to_block_cta_failed">Ανοίξτε την Ασφάλεια και αποδεχτείτε τους όρους και τις προϋποθέσεις της για να μπορέσετε να χρησιμοποιήσετε αυτήν τη λειτουργία</string>
+    <string name="add_to_block_by_number">"Έγινε προσθήκη %s
+στη λίστα αποκλεισμού"</string>
+    <string name="add_to_block_by_number_failed">"Δεν ήταν δυνατή η προσθήκη %s στη λίστα αποκλεισμού.
+Δοκιμάστε ξανά."</string>
+    <string name="add_to_block_by_tag">"Μηνύματα που περιέχουν \"%s\"
+προστέθηκαν στη λίστα αποκλεισμού"</string>
+    <string name="add_to_block_by_tag_failed">"Δεν ήταν δυνατή η προσθήκη μηνυμάτων που περιέχουν \"%s\" στη λίστα αποκλεισμού.
+Δοκιμάστε ξανά."</string>
+    <string name="add_to_block_cta_failed">Παραχωρήστε στην Ασφάλεια τις απαιτούμενες άδειες για να μπορείτε να προσθέσετε στοιχεία στη λίστα αποκλεισμού</string>
     <string name="add_to_browser_favorite_failed">Αδυναμία προσθήκης</string>
     <string name="add_to_browser_favorite_success">Επιτυχής προσθήκη</string>
     <string name="add_to_calender">Προσθήκη στο Ημερολόγιο</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Παραλήπτης: %s</string>
     <string name="billing">Λογαριασμοί</string>
     <string name="block_messaging_entry_title">Αποκλεισμένα SMS</string>
-    <string name="block_number_message">Μόλις προστεθεί, όλες οι εισερχόμενες κλήσεις και μηνύματα από τον/την %s θα αποκλειστούν. Προσθήκη τώρα;</string>
+    <string name="block_number_message">Αυτός ο αριθμός θα προστεθεί στη λίστα αποκλεισμού. Όλα τα μηνύματα που θα σταλούν από αυτόν τον αριθμό, θα αποκλειστούν.</string>
     <string name="block_support_text">Υποστηρίζεται από το Antiy.</string>
-    <string name="block_tag_message">Μόλις προστεθεί, όλα τα μηνύματα που περιέχουν τη λέξη-κλειδί \"%s\" θα αποκλειστούν. Αυτό μπορεί να περιλαμβάνει κωδικούς επαλήθευσης και πληροφορίες παραγγελίας. Προσθήκη τώρα;</string>
+    <string name="block_tag_message">Όλα τα μηνύματα από %s θα αποκλειστούν. Ενδέχεται να μην μπορείτε να λαμβάνετε κωδικούς επαλήθευσης ή λογαριασμούς που αποστέλλονται από αυτή την υπηρεσία.</string>
     <string name="boarding_time">Ωρα επιβίβασης</string>
     <string name="bookmark">Έγινε προσθήκη στα αγαπημένα</string>
     <string name="bookmark_confirm_delete_message">Αφαίρεση επιλεγμένων αντικειμένων από τα αγαπημένα;</string>
@@ -294,6 +298,8 @@
     <string name="delete_message">Διαγραφή</string>
     <string name="delete_phrase">Διαγραφή απάντησης</string>
     <string name="delete_unlocked">Διαγραφή κλειδωμένων μηνυμάτων</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Διαγραφή αριθμών</string>
     <string name="delete_wild_sims_confirm">Όλα τα μηνύματα που ανήκουν στους επιλεγμένους αριθμούς θα διαγραφούν από το τηλέφωνο. Μπορείτε να τα επαναφέρετε στο i.mi.com.</string>
     <string name="delete_wild_sims_title">Διαγραφή επιλεγμένων αριθμών</string>
@@ -506,6 +512,8 @@
     <string name="group_notify_message_title">Ειδοποιήσεις ομαδικής συνομιλίας</string>
     <string name="group_rejoin_failed">Αδυναμία συμμετοχής στην ομαδική συνομιλία</string>
     <string name="group_resend_message">Αποστολή ξανά (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Αδυναμία προβολής στοιχείων. Αυτή η ομαδική συνομιλία έχει διαγραφεί.</string>
     <string name="group_view_settings_not_memeber">Αδυναμία προβολής στοιχείων. Δεν είστε πλέον μέλος αυτής της ομαδικής συνομιλίας.</string>
     <string name="groupchat_list_title">Ομαδικές συνομιλίες</string>
@@ -577,7 +585,7 @@
     <string name="menu_pick_from_contact">Επιλογή από επαφές</string>
     <string name="menu_preferences">Ρυθμίσεις</string>
     <string name="menu_report">Ανατροφοδότηση</string>
-    <string name="menu_sms_block">Προσθήκη στη λίστα αποκλεισμού;</string>
+    <string name="menu_sms_block">Λίστα αποκλεισμού</string>
     <string name="menu_traffic_destination">Προορισμός</string>
     <string name="menu_unlock">Αφαίρεση από τα αγαπημένα</string>
     <string name="menu_view_contact">Προβολή επαφής</string>
@@ -1565,6 +1573,7 @@
     <string name="v7_preference_off">ΑΝΕΝΕΡΓΗ</string>
     <string name="v7_preference_on">ΕΝΕΡΓΗ</string>
     <string name="verification_code_flow_title">Κωδικός επαλήθευσης %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Κωδικοί επαλήθευσης</string>
     <string name="verification_code_safety_warning">Μην αποκαλύπτετε αυτούς τους κωδικούς σε άλλα άτομα</string>
     <string name="view">Προβολή</string>

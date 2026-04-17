@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Tryck för att skapa ny bild</string>
     <string name="add_smiley">Uttryckssymbol</string>
     <string name="add_timing">Tidsinställt</string>
-    <string name="add_to_block_by_number">Tillagt till blockeringslistan</string>
-    <string name="add_to_block_by_number_failed">Kunde inte lägga till i blockeringslistan. Försök igen.</string>
-    <string name="add_to_block_by_tag">Lade till nyckelordet i blockeringslistan</string>
-    <string name="add_to_block_by_tag_failed">Det gick inte att lägga till nyckelordet i blockeringslistan. Försök igen.</string>
-    <string name="add_to_block_cta_failed">Öppna Säkerhet och godkänna dess villkor för att kunna använda den här funktionen</string>
+    <string name="add_to_block_by_number">"Tillagt %s
+till blockeringslistan"</string>
+    <string name="add_to_block_by_number_failed">"Kunde inte lägga till %s i blockeringslistan.
+Försök igen."</string>
+    <string name="add_to_block_by_tag">"Meddelanden som innehåller %s
+added till blockeringslista"</string>
+    <string name="add_to_block_by_tag_failed">"Kunde inte lägga till meddelanden som innehåller \"%s\" i blockeringslistan.
+Försök igen."</string>
+    <string name="add_to_block_cta_failed">Ge Säkerhet de obligatoriska behörigheterna för att kunna lägga till objekt till blockeringslistor</string>
     <string name="add_to_browser_favorite_failed">Kunde inte lägga till</string>
     <string name="add_to_browser_favorite_success">Tillagd</string>
     <string name="add_to_calender">Lägg till i kalender</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Mottagare: %s</string>
     <string name="billing">Fakturor</string>
     <string name="block_messaging_entry_title">Blockerade SMS</string>
-    <string name="block_number_message">Väl tillagd kommer alla samtal och meddelanden från %s att blockeras. Lägg till nu?</string>
+    <string name="block_number_message">Detta telefonnummer kommer att läggas till i blocklistan. Alla meddelanden som skickas från detta nummer kommer att blockeras.</string>
     <string name="block_support_text">Stöds av Antiy.</string>
-    <string name="block_tag_message">Väl tillagd kommer alla meddlenaden som innehåller nyckelordet \"%s\" att blockeras. Det här kan inkludera verifieringskoder och orderinformation. Lägg till nu?</string>
+    <string name="block_tag_message">Alla meddelanden som skickas från %s kommer att blockeras. Du kanske inte kan ta emot verifieringskoder eller fakturor som skickas med den här tjänsten.</string>
     <string name="boarding_time">Boardingtid</string>
     <string name="bookmark">Tillagd i favoriter</string>
     <string name="bookmark_confirm_delete_message">Ta bort valda objekt från favoriter?</string>
@@ -294,6 +298,8 @@ Var god observera att funktionen för internetmeddelanden nu är avstängd tills
     <string name="delete_message">Ta bort</string>
     <string name="delete_phrase">Ta bort svar</string>
     <string name="delete_unlocked">Ta bort låsta meddelanden</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Ta bort nummer</string>
     <string name="delete_wild_sims_confirm">Alla meddelanden som tillhör valda nummer kommer att raderas på den här telefonen. Du kan återställa dem på i.mi.com.</string>
     <string name="delete_wild_sims_title">Ta bort markerade nummer</string>
@@ -506,6 +512,8 @@ Var god observera att funktionen för internetmeddelanden nu är avstängd tills
     <string name="group_notify_message_title">Notifikationer för gruppkonversationer</string>
     <string name="group_rejoin_failed">Det gick inte att gå med i gruppkonversationen</string>
     <string name="group_resend_message">Skicka (%d) igen</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Det går inte att se objekt. Denna gruppkonversationen har tagits bort.</string>
     <string name="group_view_settings_not_memeber">Det går inte att se objekt. Du inte är medlem i denna gruppkonversation.</string>
     <string name="groupchat_list_title">Gruppkonversationer</string>
@@ -577,7 +585,7 @@ Var god observera att funktionen för internetmeddelanden nu är avstängd tills
     <string name="menu_pick_from_contact">Välj från kontakter</string>
     <string name="menu_preferences">Inställningar</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Lägg till i blockeringslistan?</string>
+    <string name="menu_sms_block">Blockeringslista</string>
     <string name="menu_traffic_destination">Destination</string>
     <string name="menu_unlock">Ta bort från favoriter</string>
     <string name="menu_view_contact">Visa kontakt</string>
@@ -1565,6 +1573,7 @@ Om du inte accepterar att bevilja sådana behörigheter eller dela och ladda upp
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="verification_code_flow_title">Verifieringskod för %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Verifieringskod</string>
     <string name="verification_code_safety_warning">Avslöja inte dessa koder för andra människor</string>
     <string name="view">Visa</string>

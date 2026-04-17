@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Trykk for å lage nytt lysbilde</string>
     <string name="add_smiley">Uttrykksikon</string>
     <string name="add_timing">Tidsberegnet</string>
-    <string name="add_to_block_by_number">Lagt til blokkeringslisten</string>
-    <string name="add_to_block_by_number_failed">Kunne ikke legge til i blokkeringslisten. Prøv igjen.</string>
-    <string name="add_to_block_by_tag">La dette nummeret til blokkeringslisten</string>
-    <string name="add_to_block_by_tag_failed">Kunne ikke legge nøkkelordet til i blokkeringslisten. Prøv igjen.</string>
-    <string name="add_to_block_cta_failed">For å kunne bruke denne funksjonen må du åpne Sikkerhet og godta brukerivlkårene</string>
+    <string name="add_to_block_by_number">"La %s
+til blokkeringslisten"</string>
+    <string name="add_to_block_by_number_failed">"Kunne ikke legge til %s i blokkeringslisten.
+Prøv igjen."</string>
+    <string name="add_to_block_by_tag">"Meldinger som inneholder \"%s\"
+lagt til blokkeringslisten"</string>
+    <string name="add_to_block_by_tag_failed">"Kunne ikke legge til meldinger som inneholder «%s» i blokkeringslisten.
+Prøv igjen."</string>
+    <string name="add_to_block_cta_failed">Gi Sikkerhet de nødvendige tillatelsene for å kunne legge til elementer i blokkeringslisten</string>
     <string name="add_to_browser_favorite_failed">Kunne ikke legge til</string>
     <string name="add_to_browser_favorite_success">Lagt til</string>
     <string name="add_to_calender">Legg til i kalender</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Mottaker: %s</string>
     <string name="billing">Fakturaer</string>
     <string name="block_messaging_entry_title">Blokkert SMS</string>
-    <string name="block_number_message">Når tillagt vil alle anrop og meldinger fra %s bli blokkert. Legge til nå?</string>
+    <string name="block_number_message">Dette telefonnummeret blir lagt til i blokkeringslisten. Alle meldinger sendt fra dette nummeret blokkeres.</string>
     <string name="block_support_text">Støttet av Antiy.</string>
-    <string name="block_tag_message">Når tillagt vil alle meldinger som inneholder nøkkelordet \"%s\" bli blokkert. Det kan inkludere bekreftelseskoder og ordreinformasjon. Legge til nå?</string>
+    <string name="block_tag_message">Alle meldinger sendt fra %s blokkeres. Du vil kanskje ikke kunne motta verifiseringskoder eller fakturaer sendt av denne tjenesten.</string>
     <string name="boarding_time">Ombordstigingstidspunkt</string>
     <string name="bookmark">Lagt til favoritter</string>
     <string name="bookmark_confirm_delete_message">Fjerne valgte meldinger fra favoritter?</string>
@@ -294,6 +298,8 @@ Vær oppmerksom på at funksjonaliteten for meldinger over internett er suspende
     <string name="delete_message">Slett</string>
     <string name="delete_phrase">Slett svar</string>
     <string name="delete_unlocked">Slett låste meldinger</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Slett numre</string>
     <string name="delete_wild_sims_confirm">Alle meldinger tilhørende utvalgte numre vil bli slettet i denne telefonen. Du kan gjenopprette dem på i.mi.com.</string>
     <string name="delete_wild_sims_title">Slett valgte numre</string>
@@ -506,6 +512,8 @@ Vær oppmerksom på at funksjonaliteten for meldinger over internett er suspende
     <string name="group_notify_message_title">Varsler for gruppesamtale</string>
     <string name="group_rejoin_failed">Kunne ikke bli med i gruppesamtalen</string>
     <string name="group_resend_message">Send på nytt (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Kan ikke vise elementer. Denne gruppesamtalen ble slettet.</string>
     <string name="group_view_settings_not_memeber">Kan ikke vise elementer. Du er ikke medlem av denne gruppesamtalen.</string>
     <string name="groupchat_list_title">Gruppesamtaler</string>
@@ -577,7 +585,7 @@ Vær oppmerksom på at funksjonaliteten for meldinger over internett er suspende
     <string name="menu_pick_from_contact">Velg fra kontakter</string>
     <string name="menu_preferences">Innstillinger</string>
     <string name="menu_report">Tilbakemelding</string>
-    <string name="menu_sms_block">Legge til blokkeringsliste?</string>
+    <string name="menu_sms_block">Blokkeringsliste</string>
     <string name="menu_traffic_destination">Destinasjon</string>
     <string name="menu_unlock">Fjern fra favoritter</string>
     <string name="menu_view_contact">Vis kontakt</string>
@@ -1565,6 +1573,7 @@ Hvis du ikke samtykker i å gi slike tillatelser, eller i å dele og laste opp p
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="verification_code_flow_title">%1$s bekreftelseskode</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Verifiseringskoder</string>
     <string name="verification_code_safety_warning">Ikke utlever disse kodene til andre personer</string>
     <string name="view">Vis</string>

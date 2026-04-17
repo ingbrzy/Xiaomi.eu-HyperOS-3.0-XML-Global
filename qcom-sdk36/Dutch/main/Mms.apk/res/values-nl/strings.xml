@@ -50,11 +50,15 @@
     <string name="add_slide_hint">Tik om nieuwe dia te creëren</string>
     <string name="add_smiley">Emoticon</string>
     <string name="add_timing">Getimed</string>
-    <string name="add_to_block_by_number">Toegevoegd aan blokkeerlijst</string>
-    <string name="add_to_block_by_number_failed">Kon niet aan de blokkeerlijst worden toegevoegd. Probeer het opnieuw.</string>
-    <string name="add_to_block_by_tag">Dit trefwoord is toegevoegd aan de blokkeerlijst</string>
-    <string name="add_to_block_by_tag_failed">Het lukte niet om het trefwoord aan de blokkeerlijst toe te voegen. Probeer het opnieuw.</string>
-    <string name="add_to_block_cta_failed">Open Beveiliging en ga akkoord met de algemene voorwaarden om deze functie te kunnen gebruiken</string>
+    <string name="add_to_block_by_number">"%s
+toegevoegd aan blokkeerlijst"</string>
+    <string name="add_to_block_by_number_failed">"Kon %s niet toevoegen aan de blokkeerlijst.
+Probeer het opnieuw."</string>
+    <string name="add_to_block_by_tag">"Berichten met \"%s\"
+toegevoegd aan blokkeerlijst"</string>
+    <string name="add_to_block_by_tag_failed">"Kon berichten met \"%s\" niet toevoegen aan blokkeerlijst.
+Probeer het opnieuw."</string>
+    <string name="add_to_block_cta_failed">Verleen Beveiliging de vereiste toestemmingen om items aan de blokkeerlijst toe te kunnen voegen</string>
     <string name="add_to_browser_favorite_failed">Kon niet toevoegen</string>
     <string name="add_to_browser_favorite_success">Succesvol toegevoegd</string>
     <string name="add_to_calender">Toevoegen aan kalender</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">Ontvanger: %s</string>
     <string name="billing">Facturen</string>
     <string name="block_messaging_entry_title">Geblokkeerde SMS</string>
-    <string name="block_number_message">Zodra dit nummer is toegevoegd, worden alle inkomende oproepen en berichten van %s geblokkeerd. Nu toevoegen?</string>
+    <string name="block_number_message">Dit telefoonnummer zal toegevoegd worden aan de blokkeerlijst. Alle berichten van dit nummer zullen geblokkeerd worden.</string>
     <string name="block_support_text">Ondersteund door Antiy.</string>
-    <string name="block_tag_message">Na toevoeging worden alle berichten die het trefwoord \"%s\" bevatten, geblokkeerd. Dit kan verificatiecodes en orderinformatie omvatten. Nu toevoegen?</string>
+    <string name="block_tag_message">Alle berichten van %s zullen geblokkeerd worden. U kunt wellicht geen verificatiecodes of rekeningen ontvangen die verzonden worden door deze service.</string>
     <string name="boarding_time">Boarding tijd</string>
     <string name="bookmark">Toegevoegd aan favorieten</string>
     <string name="bookmark_confirm_delete_message">Geselecteerde berichten uit favorieten verwijderen?</string>
@@ -294,6 +298,8 @@ Let er op dat de internetberichtenfunctionaliteit tot nader order is opgeschort.
     <string name="delete_message">Verwijderen</string>
     <string name="delete_phrase">Antwoord verwijderen</string>
     <string name="delete_unlocked">Verwijder geblokkeerde berichten</string>
+    <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">Nummers verwijderen</string>
     <string name="delete_wild_sims_confirm">Alle berichten die horen bij de geselecteerde nummers zullen van deze telefoon worden verwijderd. Dit kan worden hersteld op i.mi.com.</string>
     <string name="delete_wild_sims_title">Geselecteerde nummers verwijderen</string>
@@ -506,6 +512,8 @@ Let er op dat de internetberichtenfunctionaliteit tot nader order is opgeschort.
     <string name="group_notify_message_title">Groepschat meldingen</string>
     <string name="group_rejoin_failed">Kon niet meedoen aan de groepschat</string>
     <string name="group_resend_message">Opnieuw versturen (%d)</string>
+    <string name="group_verification_codes_summary">Automatically group one-time passwords together</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">Kan geen items bekijken. Deze groepschat is al verwijderd.</string>
     <string name="group_view_settings_not_memeber">Kan geen items bekijken. U bent geen lid van deze groepschat.</string>
     <string name="groupchat_list_title">Groepschats</string>
@@ -577,7 +585,7 @@ Let er op dat de internetberichtenfunctionaliteit tot nader order is opgeschort.
     <string name="menu_pick_from_contact">Selecteer uit contacten</string>
     <string name="menu_preferences">Instellingen</string>
     <string name="menu_report">Feedback</string>
-    <string name="menu_sms_block">Toevoegen aan blokkeerlijst?</string>
+    <string name="menu_sms_block">Blokkeerlijst</string>
     <string name="menu_traffic_destination">Bestemming</string>
     <string name="menu_unlock">Uit favorieten verwijderen</string>
     <string name="menu_view_contact">Bekijk contact</string>
@@ -1565,6 +1573,7 @@ Als u niet akkoord gaat met het verlenen van dergelijke toestemmingen of het del
     <string name="v7_preference_off">UIT</string>
     <string name="v7_preference_on">AAN</string>
     <string name="verification_code_flow_title">%1$s-verificatiecode</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">Verificatiecodes</string>
     <string name="verification_code_safety_warning">Maak deze codes niet bekend aan andere mensen</string>
     <string name="view">Weergeven</string>

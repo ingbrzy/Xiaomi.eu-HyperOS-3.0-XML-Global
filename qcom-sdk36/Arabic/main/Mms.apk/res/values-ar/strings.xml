@@ -50,11 +50,15 @@
     <string name="add_slide_hint">انقر لإنشاء شريحة جديدة</string>
     <string name="add_smiley">تعبيرات</string>
     <string name="add_timing">مؤقتة</string>
-    <string name="add_to_block_by_number">تم إضافة إلى قائمة الحظر</string>
-    <string name="add_to_block_by_number_failed">تعذر الإضافة إلى قائمة الحظر. حاول مرة أخرى.</string>
-    <string name="add_to_block_by_tag">تمت إضافة هذه الكلمة المفتاحية إلى قائمة الحظر</string>
-    <string name="add_to_block_by_tag_failed">تعذر إضافة الكلمة المفتاحية إلى قائمة الحظر. حاول مرة أخرى.</string>
-    <string name="add_to_block_cta_failed">أوافق على شروط وأحكام Open Security لاستخدام هذه الميزة</string>
+    <string name="add_to_block_by_number">"تم إضافة %s
+إلى قائمة الحظر"</string>
+    <string name="add_to_block_by_number_failed">"تعذر إضافة %s إلى قائمة الحظر.
+حاول مجددا."</string>
+    <string name="add_to_block_by_tag">"تم إضافة الرسائل التي تحتوي على \"%s\"
+إلى قائمة الحظر"</string>
+    <string name="add_to_block_by_tag_failed">"لا يمكن إضافة رسائل تحتوي على \"%s\" إلى قائمة الحظر.
+ حاول مجددًا"</string>
+    <string name="add_to_block_cta_failed">امنح الحماية الأذونات المطلوبة لتتمكن من إضافة العناصر إلى قائمة الحظر</string>
     <string name="add_to_browser_favorite_failed">تعذر الإضافة</string>
     <string name="add_to_browser_favorite_success">تمت الاضافة بنجاح</string>
     <string name="add_to_calender">إضافة إلى التقويم</string>
@@ -144,9 +148,9 @@
     <string name="beidou_to_contacts">المستلم: %s</string>
     <string name="billing">الفواتير</string>
     <string name="block_messaging_entry_title">الرسائل المحظورة</string>
-    <string name="block_number_message">بمجرد الإضافة، سيتم حظر جميع المكالمات والرسائل الواردة من %s. هل تريد الإضافة الآن؟</string>
+    <string name="block_number_message">سيتم إضافة رقم الهاتف هذا إلى قائمة الحظر. وسيتم حظر جميع الرسائل المرسلة من هذا الرقم.</string>
     <string name="block_support_text">مدعومة من Antiy.</string>
-    <string name="block_tag_message">بمجرد الإضافة، سيتم حظر جميع الرسائل التي تحتوي على الكلمة المفتاحية \"%s\". قد يشمل ذلك رموز التحقق ومعلومات الطلب. هل تريد الإضافة الآن؟</string>
+    <string name="block_tag_message">سيتم حظر جميع الرسائل المرسلة من %s. قد لا تتمكن من استلام رموز تحقق أو فواتير مرسلة من هذه الخدمة.</string>
     <string name="boarding_time">وقت المغادرة</string>
     <string name="bookmark">تم الإضافة إلى المفضلة</string>
     <string name="bookmark_confirm_delete_message">حذف الرسائل المحددة من المفضلة؟</string>
@@ -295,6 +299,8 @@
     <string name="delete_message">حذف</string>
     <string name="delete_phrase">حذف الرد</string>
     <string name="delete_unlocked">حذف الرسائل المؤمَنة</string>
+    <string name="delete_verification_code_sms_message">حذف جميع كلمات المرور لمرة واحدة؟</string>
+    <string name="delete_verification_code_sms_title">Delete one-time passwords</string>
     <string name="delete_wild_sims">حذف الأرقام</string>
     <string name="delete_wild_sims_confirm">سيتم حذف جميع الرسائل المتعلق بالأرقام المحددة في هذا الهاتف. يمكنك استعادتها من i.mi.com</string>
     <string name="delete_wild_sims_title">حذف الأرقام المحددة</string>
@@ -509,6 +515,8 @@
     <string name="group_notify_message_title">إشعارات الدردشة الجماعية</string>
     <string name="group_rejoin_failed">لا يمكن الانضمام إلى الدردشة الجماعية</string>
     <string name="group_resend_message">إعادة إرسال (%d)</string>
+    <string name="group_verification_codes_summary">تجميع كلمات المرور لمرة واحدة معًا تلقائيًا</string>
+    <string name="group_verification_codes_title">Group one-time passwords</string>
     <string name="group_view_settings_disolved">لا يمكن عرض العناصر. تم حذف هذه الدردشة.</string>
     <string name="group_view_settings_not_memeber">لا يمكن عرض العناصر. لست عضو في هذه الدردشة.</string>
     <string name="groupchat_list_title">الدردشات الجماعية</string>
@@ -580,7 +588,7 @@
     <string name="menu_pick_from_contact">تحديد من جهات الاتصال</string>
     <string name="menu_preferences">الإعدادات</string>
     <string name="menu_report">التعليقات</string>
-    <string name="menu_sms_block">إضافة إلى قائمة الحظر؟</string>
+    <string name="menu_sms_block">قائمة الحظر</string>
     <string name="menu_traffic_destination">الوجهة</string>
     <string name="menu_unlock">حذف من المفضلة</string>
     <string name="menu_view_contact">عرض جهات الإتصال</string>
@@ -1575,6 +1583,7 @@
     <string name="v7_preference_off">إيقاف</string>
     <string name="v7_preference_on">مفعّلة</string>
     <string name="verification_code_flow_title">رمز التحقق %1$s</string>
+    <string name="verification_code_icon_name">V</string>
     <string name="verification_code_list_title">رموز التحقق</string>
     <string name="verification_code_safety_warning">لا تشارك هذه الكودات مع أشخاص آخرين</string>
     <string name="view">عرض</string>

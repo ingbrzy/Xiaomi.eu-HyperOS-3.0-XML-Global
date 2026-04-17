@@ -982,6 +982,7 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="bubble_notification_switch">Afișează bule de conversație</string>
     <string name="bubble_notification_switch_desc">Când o aplicație de mesagerie într-o fereastră plutitoare este ascunsă la marginea ecranului, afișează mesajele primite în bule</string>
     <string name="bubble_pickup_voice_print_auto">Se înregistrează amprenta vocală…</string>
+    <string name="bubble_pickup_voice_print_success">Voiceprint recorded</string>
     <string name="button_background_connection">Permite</string>
     <string name="button_block_calls_from_cantacts">Deblochează</string>
     <string name="button_block_calls_from_strangers">Deblochează</string>
@@ -1015,6 +1016,8 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="button_to_setting">Setări</string>
     <string name="button_toll_correction">Calibrați soldul</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="calendar_date_picker_a11y_prev_month">Treceți la luna anterioară</string>
     <string name="call_address">Lista neagră zonă</string>
     <string name="call_all_number_block">Blocați toate apelurile</string>
     <string name="call_and_contact">Apeluri și contacte</string>
@@ -1890,7 +1893,7 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
 %3$d. Această funcție este acceptată numai în China Continentală.
 %4$d. Această funcție funcționează numai în rețelele 5G-SA."</string>
     <string name="function_shield_auto_bright">Opriți luminozitatea automată</string>
-    <string name="function_shield_eye_shield">Dezactivați Mod confort pentru ochi</string>
+    <string name="function_shield_eye_shield">Turn off Eye comfort mode</string>
     <string name="function_shield_pull_notification_bar">Nu deschideți Panoul de notificări</string>
     <string name="function_shield_settings_title">Restricționați următoarele funcții atunci când jucați jocuri</string>
     <string name="function_shield_summary">Restricționați funcțiile selectate ale sistemului atunci când jucați jocuri</string>
@@ -1950,6 +1953,17 @@ Va fi adăugat la excepții, dar elementele blocate anterior nu vor apărea în 
     <string name="game_toolbox_auto_brightness_talkback">Luminozitate automată</string>
     <string name="game_toolbox_btn_back_talkback">Înapoi</string>
     <string name="game_toolbox_cellular_network">Creșterea vitezei a rețelei mobile</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd.MM.yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Anulează</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">O conexiune VPN va fi creată automat pe baza latenței în timp real pentru a îmbunătăți stabilitatea rețelei. După revendicare, veți primi %d ani de acces gratuit.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Perioada de valabilitate: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Expirat</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Revendică</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Conectați-vă</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Revendică</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Îmbunătățește conexiunea la rețea</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Creați o rețea privată bazată pe latență pentru a îmbunătăți stabilitatea conexiunii</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Îmbunătățește conexiunea la rețea</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Activați pentru a reduce ușor calitatea imaginii și a reduce semnificativ consumul de energie</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Notă:
@@ -3033,6 +3047,30 @@ Dispozitivul dvs. este mai rapid cu %s acum."</string>
     <string name="menu_item_virus_install_monitor_summary">Verifică aplicațiile dacă au viruși înainte de instalare</string>
     <string name="menu_item_virus_install_monitor_title">Scanează înainte de instalare</string>
     <string name="menu_item_virus_lib_auto_update_summary">A actualizat pe %s</string>
+    <string name="menu_item_virus_risky_app_detect">Detectează aplicațiile riscante</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Anulează</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Riscuri de securitate detectate. Nu se poate dezactiva acum.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Dacă autoritățile, personalul serviciului clienți sau persoane pe care le cunoașteți vă solicită să dezactivați această funcție, verificați-le identitatea înainte de a continua.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Dacă dezactivați această funcție, detectarea în timp real a comportamentelor riscante din aplicații nu va mai fi efectuată, ceea ce poate duce la scurgeri de date personale sau pierderi financiare. Dezactivați oricum?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Deschide</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Dezactivează</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Anulează</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Deschide</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Am înțeles</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Nu mai afișa din nou</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Ieșire</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Dezactivați?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s prezintă riscuri de securitate necunoscute și poate duce la scurgeri de informații confidențiale sau pierderi financiare. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Dacă nu sunteți de acord cu această alertă, atingeți aici pentru a trimite feedback.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Nume aplicație: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Nume pachet: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Descrieți problema în detaliu: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Semnătură aplicație: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Atenție</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Aplicația nu este disponibilă</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Avertisment</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Blochează sau notifică despre aplicațiile riscante</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Dezinstalează</string>
     <string name="menu_remove">Șterge</string>
     <string name="menu_report">Raportează eroarea</string>
     <string name="menu_setting_traffic">Setează manual</string>
@@ -3089,6 +3127,7 @@ Dispozitivul dvs. este mai rapid cu %s acum."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Păstrați audio numai de la un utilizator specificat</string>
     <string name="midnight">Noapte</string>
     <string name="midrop_post_notification_contentTitle">Aveți nevoie să partajați fișiere?</string>
+    <string name="milink_init_loading">Preparing to cast…</string>
     <string name="miui_blur_location">Locație aproximativă</string>
     <string name="miui_optimization_close_final_tip">Dezactivați optimizarea de sistem?</string>
     <string name="miui_optimization_close_title">Această funcție este destinată dezvoltatorilor și s-ar putea să nu fie convenabilă pentru utilizatorii generali. Dezactivarea optimizării de sistem poate aduce următoarele modificări:</string>
@@ -3783,6 +3822,21 @@ Economizator baterie ultra"</string>
     <string name="pc_low_batterty_got_it">Am înțeles</string>
     <string name="pc_low_battery_fast_charge">Accelerează încărcarea</string>
     <string name="pc_low_battery_fast_charge_summary">Conectați încărcătorul furnizat pentru a accelera încărcarea atunci când ecranul este oprit și bateria este descărcată. Această funcție poate provoca încălzirea dispozitivului.</string>
+    <string name="pc_low_battery_health_msg_1">Sănătatea bateriei este sub %1$s. Vă recomandăm să contactați serviciul de asistență post-vânzare Xiaomi pentru a înlocui bateria.</string>
+    <string name="pc_low_battery_health_msg_2">Atingeți &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>serviciu post-vânzare&lt;/a> pentru a găsi furnizori autorizați în apropierea dvs. Puteți rezerva o reparație în magazin sau puteți solicita serviciul de livrare prin poștă.&lt;br />&lt;br />În ceea ce privește sănătatea bateriei, este posibil să doriți să știți:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Îmbătrânire naturală: Bateriile cu litiu au un număr limitat de cicluri de încărcare și se uzează treptat în timp.
+%2$d. Obiceiuri de încărcare: Încărcarea la temperaturi ridicate, lăsarea bateriei să se descarce complet înainte de încărcare sau utilizarea încărcătoarelor rapide neoficiale pot accelera îmbătrânirea.
+%3$d. Medii extreme: Căldura excesivă (cum ar fi lumina directă a soarelui sau jocurile intense) sau condițiile foarte reci pot deteriora bateria și îi pot scurta durata de viață."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Durata de viață mai scurtă a bateriei necesită încărcare mai frecventă.
+%2$d. Performanța este redusă în timpul sarcinilor solicitante (cum ar fi jocurile intensive sau editarea video), ceea ce poate afecta fluiditatea.
+%3$d. În cazuri extreme, încărcarea devine mai lentă sau dispozitivul se oprește automat în medii cu temperaturi scăzute."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Mențineți nivelul bateriei între %2$s și %3$s. Evitați să o lăsați complet încărcată sau complet descărcată pentru perioade lungi de timp.
+%4$d. Evitați încărcarea la temperaturi ridicate. Scoateți carcasa telefonului în timpul încărcării și evitați jocurile intense în timpul încărcării.
+%5$d. Folosiți încărcătoare și cabluri oficiale sau certificate pentru a proteja bateria."</string>
+    <string name="pc_low_battery_health_title">Memento privind sănătatea bateriei</string>
+    <string name="pc_low_battery_health_title_1">De ce scade sănătatea bateriei</string>
+    <string name="pc_low_battery_health_title_2">Cum te afectează sănătatea slabă a bateriei</string>
+    <string name="pc_low_battery_health_title_3">Cum să prelungești starea de funcționare a bateriei</string>
     <string name="pc_low_temp_charge_summary">Țineți încărcătorul conectat și așteptați ca bateria să se încălzească după ce ecranul se stinge pentru a se încărca normal</string>
     <string name="pc_low_temp_charge_title">Încărcare la temperatură scăzută</string>
     <string name="pc_low_temp_disable_otg_message">Dispozitivele externe și încărcarea inversă nu pot fi utilizate acum deoarece temperatura sau nivelul bateriei este prea scăzut. Încercați din nou după ce temperatura sau nivelul bateriei crește.</string>
@@ -3809,6 +3863,8 @@ Economizator baterie ultra"</string>
     <string name="pc_night_sleep_mode_summary_pad">În timp ce ecranul este oprit, dispozitivul închide aplicațiile de fundal și limitează utilizarea rețelei. Dacă dispozitivul nu va fi folosit o perioadă lungă de timp, acesta va intra în modul de repaus sau se va opri automat.</string>
     <string name="pc_night_sleep_mode_title">Mod nocturn</string>
     <string name="pc_no_more_remind">Nu-mi aminti</string>
+    <string name="pc_notify_low_battery_health_msg">Este timpul să vă înlocuiți bateria</string>
+    <string name="pc_notify_low_battery_health_title">Sănătatea bateriei este sub %1$s</string>
     <string name="pc_ordinary_charge_summary">Permiteți întotdeauna încărcarea până la %1$s</string>
     <string name="pc_ordinary_charge_title">Încărcare regulată</string>
     <string name="pc_performance_mode_dialog_summary">Dispozitivul dvs. va putea funcționa pentru %s în modul Performanță. Rețineți că modul Performanță crește consumul de energie și poate duce la supraîncălzire.</string>
@@ -3877,6 +3933,7 @@ Economizator baterie ultra"</string>
     <string name="pc_this_time_charge_full_work">Aproape complet încărcat</string>
     <string name="pc_timely_charging_summary">Bateria este sub %1$s. Dacă dispozitivul se supraîncălzește în timp ce bateria este descărcată, aceasta poate deteriora bateria.</string>
     <string name="pc_timely_charging_title">Încarcă dispozitivul</string>
+    <string name="pc_tip_low_battery_health">Este timpul să vă înlocuiți bateria</string>
     <string name="pc_to_phone_install">Blochează instalarea %s prin USB</string>
     <string name="pc_toady_charge_time_title">Numărul de încărcări astăzi</string>
     <string name="pc_wait_device_cools_down">Așteptați până când dispozitivul se răcește pentru a putea folosi această funcție.</string>
@@ -4084,6 +4141,8 @@ Economizator baterie ultra"</string>
     <string name="pin_toast">Glisați în sus din partea de jos a ecranului și întrerupeți pentru a anula fixarea acestei aplicații</string>
     <string name="pin_toast_nav">Țineți apăsat butoanele înapoi și previzualizare pentru a anula fixarea acestei aplicații</string>
     <string name="pkg_traffic">Setează trafic limită</string>
+    <string name="pkg_traffic_settings_instruction">Attention</string>
+    <string name="pkg_traffic_settings_instruction_text">"Due to recent carrier updates, some info may not be available. Data shown in \"Traffic Advanced Settings\" is for reference only and may not match your carrier's records. Check your carrier's billing statement for the most accurate usage."</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Pornirea a declanșat</string>
     <string name="pm_auto_start_by_other_app">Permiteți aplicației să fie pornită de alte aplicații</string>
@@ -4716,7 +4775,6 @@ Vă retrageți consimțământul acum?"</string>
     <string name="privacy_risk_detection_title">Detectați riscurile de confidențialitate</string>
     <string name="privacy_risk_detection_user">Informații personale</string>
     <string name="privacy_risk_install_app">Aplicații nesigure</string>
-    <string name="privacy_risk_photo_delete">Fotografiile pot fi șterse fără permisiunea dvs.</string>
     <string name="privacy_risk_photo_location">Fotografii cu informații despre locație</string>
     <string name="privacy_risk_photo_location_msg">Restricționați accesul la Galerie atunci când nu este necesar</string>
     <string name="privacy_risk_photo_msg">Fotografii cu informații sensibile</string>
@@ -4727,8 +4785,6 @@ Vă retrageți consimțământul acum?"</string>
     <string name="privacy_risk_result_ignore_btn">Ignoră</string>
     <string name="privacy_risk_result_item_safe">Nu sunt detectate riscuri</string>
     <string name="privacy_risk_result_open_btn">Pornește</string>
-    <string name="privacy_risk_result_photo_delete">Primiți notificări despre fotografiile șterse</string>
-    <string name="privacy_risk_result_photo_delete_msg">Primiți notificări atunci când aplicațiile șterg elemente din Galerie fără permisiunea dvs.</string>
     <string name="privacy_risk_result_photo_sensitive">Fotografiile dvs. conțin informații private</string>
     <string name="privacy_risk_result_protection">Protecție confidențialitate</string>
     <string name="privacy_risk_result_screen_fuzzy">Previzualizări estompare aplicație</string>
@@ -5530,6 +5586,7 @@ Pentru a utiliza acest ^1 cu acest dispozitiv, trebuie să setați mai întâi."
     <string name="storage_fbo_notification_start_content">Dispozitivul poate întârzia în timpul acestui proces</string>
     <string name="storage_fbo_notification_start_title">Defragmentarea stocării</string>
     <string name="storage_fbo_number_tip">Procesat pe %1$s</string>
+    <string name="storage_fbo_time_talkback">MMMM d</string>
     <string name="storage_fbo_tools">Optimizare stocare</string>
     <string name="storage_file_delete_tip">Ștergeți definitiv elementele selectate? Unele dintre ele pot fi încărcate din nou atunci când este necesar.</string>
     <string name="storage_file_dialog_delete_title">Ștergeți elementele</string>
@@ -5761,12 +5818,20 @@ Formatarea va șterge conținutul existent pe ^2. Pentru a evita pierderea conț
     <string name="tc_sms_report_upload_when_net">Mulțumim pentru feedback!</string>
     <string name="tc_web_correct_error">Nu s-a putut calibra</string>
     <string name="ten_percent_total_pkg">%s (10%% din traficul lunar)</string>
+    <string name="terminal_flares_current_camera_mic">Utilizarea camerei și microfonului acestui dispozitiv</string>
+    <string name="terminal_flares_current_camera_mic_screen">Utilizarea camerei, microfonului și ecranului acestui dispozitiv</string>
+    <string name="terminal_flares_recent_camera_mic">Ai folosit recent camera și microfonul acestui dispozitiv</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Ai folosit recent camera, microfonul și ecranul acestui dispozitiv</string>
     <string name="terminal_flars_current_camera">Folosind camera acestui dispozitiv</string>
+    <string name="terminal_flars_current_record">Utilizarea microfonului acestui dispozitiv</string>
     <string name="terminal_flars_current_screen">Accesarea ecranului acestui dispozitiv</string>
     <string name="terminal_flars_current_screen_camera">Folosind camera acestui dispozitiv și ecranul</string>
+    <string name="terminal_flars_current_screen_mic">Utilizarea ecranului și microfonului acestui dispozitiv</string>
     <string name="terminal_flars_recent_camera">Recent a fost utilizat camera dispozitivului</string>
+    <string name="terminal_flars_recent_record">Ai folosit recent microfonul acestui dispozitiv</string>
     <string name="terminal_flars_recent_screen">Recent a fost accesat ecranul acestui dispozitiv</string>
     <string name="terminal_flars_recent_screen_camera">Recent a fost utilizat camera dispozitivului și ecranul</string>
+    <string name="terminal_flars_recent_screen_mic">Ai folosit recent ecranul și microfonul acestui dispozitiv</string>
     <string name="tether_custom_dialog_title">Limită date mobile</string>
     <string name="tether_limit_dialog_title">Limită date mobile</string>
     <string name="tether_limit_value_custom">Personalizați</string>
@@ -6185,12 +6250,12 @@ Pornirea unuia îl va dezactiva pe celălalt."</string>
     <string name="vb_video_effects_spatial_summary_new">Experimentați un sentiment îmbunătățit de spațiu și direcție pentru sunetul compatibil atunci când utilizați căștile</string>
     <string name="vb_video_effects_srs_premium_sound">Sunet</string>
     <string name="vb_video_super_division">Mărește rezoluția</string>
-    <string name="vb_video_super_division_desc">"Creșteți automat rezoluția când este ≤720P.
+    <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720P.
 
-Folosirea acestei funcții crește consumul de energie.
+Using this feature increases power consumption.
 
-Această funcție nu funcționează cu mișcări netede.
-Activarea uneia dintre funcții o va dezactiva pe cealaltă."</string>
+This feature doesn't work with motion smoothing.
+Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"Nu este suficient de clar?
 Încercați să măriți rezoluția!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Animațiile îmbunătățite sunt oprite</string>

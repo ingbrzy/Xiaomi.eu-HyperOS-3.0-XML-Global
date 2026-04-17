@@ -982,6 +982,7 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="bubble_notification_switch">Vis samtalebobler</string>
     <string name="bubble_notification_switch_desc">Når en meldingsapp i et flytende vindu skjules på kanten av skjermen, skal innkommende meldinger vises i bobler</string>
     <string name="bubble_pickup_voice_print_auto">Tar opp stemmeavtrykk…</string>
+    <string name="bubble_pickup_voice_print_success">Stemmeavtrykk registrert</string>
     <string name="button_background_connection">Tillat</string>
     <string name="button_block_calls_from_cantacts">Fjern blokkering</string>
     <string name="button_block_calls_from_strangers">Fjern blokkering</string>
@@ -1015,6 +1016,8 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="button_to_setting">Innstillinger</string>
     <string name="button_toll_correction">Kalibrer saldo</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Endre til neste måned</string>
+    <string name="calendar_date_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="call_address">Område-blokkeringsliste</string>
     <string name="call_all_number_block">Blokker alle anrop</string>
     <string name="call_and_contact">Samtaler og kontakter</string>
@@ -1950,6 +1953,17 @@ Det blir lagt til unntak, men elementer som allerede er blitt blokkert vises ikk
     <string name="game_toolbox_auto_brightness_talkback">Automatisk lysstyrke</string>
     <string name="game_toolbox_btn_back_talkback">Tilbake</string>
     <string name="game_toolbox_cellular_network">Øke hastigheten på mobilnettverk</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">dd.MM.yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Avbryt</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">En VPN-tilkobling opprettes automatisk basert på latens i sanntid for å gi bedre nettverksstabilitet. Etter innløsning vil du få %d års gratis tilgang.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Gyldighetsperiode: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Utløpt</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Innløs</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Logg på</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Innløs</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Øk nettverkstilkobling</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Opprett et privat nettverk basert på latens for å gi bedre tilkoblingsstabilitet</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Øk nettverkstilkobling</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Aktiver for å redusere bildekvaliteten litt og redusere strømforbruket betydelig</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Merk:
@@ -3035,6 +3049,30 @@ Enheten din er %s raskere nå."</string>
     <string name="menu_item_virus_install_monitor_summary">Sjekk apper for virus før installering</string>
     <string name="menu_item_virus_install_monitor_title">Skann før installering</string>
     <string name="menu_item_virus_lib_auto_update_summary">Oppdatert %s</string>
+    <string name="menu_item_virus_risky_app_detect">Oppdag risikable apper</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Avbryt</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Sikkerhetsrisiko oppdaget. Kan ikke deaktivere nå.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Hvis myndighetene, kundeservicepersonell eller personer du kjenner ber deg deaktivere denne funksjonen, må du bekrefte identiteten deres før du fortsetter.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Hvis du deaktiverer denne funksjonen, utføres ikke lenger sanntidsoppdagelse av risikofylt app-atferd, hvilket kan føre til datalekkasjer eller økonomisk tap. Deaktivere likevel?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Åpne</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Deaktiver</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Avbryt</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Åpne</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Skjønner</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Ikke vis igjen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Avslutt</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Deaktiver?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s utgjør ukjente sikkerhetsrisikoer og kan medføre personvernlekkasjer eller økonomisk tap. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Hvis du er uenig i dette varselet, kan du trykke her for å sende tilbakemelding.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Appnavn: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Pakkenavn: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Beskriv problemet i detalj: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Appsignatur: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Obs!</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Appen er ikke tilgjengelig</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Advarsel</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Blokker eller varsle om risikable apper</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Avinstaller</string>
     <string name="menu_remove">Slett</string>
     <string name="menu_report">Rapporter feil</string>
     <string name="menu_setting_traffic">Velg manuelt</string>
@@ -3091,6 +3129,7 @@ Enheten din er %s raskere nå."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Bare behold lyd fra en bestemt bruker</string>
     <string name="midnight">Natt</string>
     <string name="midrop_post_notification_contentTitle">Trenger du å dele filer?</string>
+    <string name="milink_init_loading">Forbereder strømming…</string>
     <string name="miui_blur_location">Omtrentlig plassering</string>
     <string name="miui_optimization_close_final_tip">Slå av systemoptimalisering?</string>
     <string name="miui_optimization_close_title">Denne funksjonen er ment for utviklere og er kanskje ikke praktisk for vanlige brukere. Hvis du deaktiverer systemoptimalisering, kan det føre til følgende endringer:</string>
@@ -3785,6 +3824,21 @@ Ultrabatterisparer"</string>
     <string name="pc_low_batterty_got_it">Skjønner</string>
     <string name="pc_low_battery_fast_charge">Øk ladehastighet</string>
     <string name="pc_low_battery_fast_charge_summary">Koble til den medfølgende laderen for å lade raskere når skjermen er av og batterinivået er lavt. Denne funksjonen kan føre til at enheten opphetes.</string>
+    <string name="pc_low_battery_health_msg_1">Batteritilstanden er under %1$s. Vi anbefaler at du kontakter Xiaomis ettersalgsservice for å skifte ut batteriet.</string>
+    <string name="pc_low_battery_health_msg_2">Trykk på &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>ettersalgsservice&lt;/a> for å finne godkjente leverandører i nærheten. Du kan bestille reparasjon i butikken eller be om innleveringsservice.&lt;br />&lt;br />Med hensyn til batteritilstanden, bør du vite følgende:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Naturlig aldring: Litiumbatterier har et begrenset antall ladesykluser og vil med tiden gradvis slites ut.
+%2$d. Ladevaner: Lading i høy temperatur, å la batteriet utlades helt før det lades og bruk av ikke-offisielle hurtigladere kan fremskynde aldringen.
+%3$d. Ekstreme miljøer: For høy varme (f.eks. i direkte sollys eller ved intens spilling) eller under svært kalde forhold kan skade batteriet og forkorte levetiden."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Kortere batterilevetid krever hyppigere lading.
+%2$d. Ytelsen reduseres under krevende oppgaver (f.eks. intensiv spilling eller videoredigering), og det kan påvirke jevnheten.
+%3$d. I ekstreme tilfeller vil ladingen gå saktere eller enheten slås av automatisk i kalde miljøer."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Hold batterinivået mellom %2$s og %3$s. Unngå å la det lades helt opp eller utlades helt ut over lengre perioder.
+%4$d. Unngå lading i høye temperaturer. Ta av telefonetuiet under lading og unngå intens spilling mens ladingen pågår.
+%5$d. Bruk offisielle eller sertifiserte ladere og kable for å beskytte batteriet."</string>
+    <string name="pc_low_battery_health_title">Påminnelse om batteritilstand</string>
+    <string name="pc_low_battery_health_title_1">Hvorfor batteritilstanden forverres</string>
+    <string name="pc_low_battery_health_title_2">Slik påvirker dårlig batteritilstand deg</string>
+    <string name="pc_low_battery_health_title_3">Slik kan du forlenge batteriets levetid</string>
     <string name="pc_low_temp_charge_summary">La laderen forbli tilkoblet og vent til at batteriet er varmet opp etter at skjermen slås av for å lade normalt</string>
     <string name="pc_low_temp_charge_title">Lading med lav temperatur</string>
     <string name="pc_low_temp_disable_otg_message">Eksterne enheter og omvendt lading kan ikke brukes for øyeblikket, fordi temperaturen eller batterinivået er for lavt. Prøv igjen når temperaturen eller batterinivået har økt.</string>
@@ -3811,6 +3865,8 @@ Ultrabatterisparer"</string>
     <string name="pc_night_sleep_mode_summary_pad">Når skjermen er av, vil enheten lukke bakgrunnsapper og begrense nettverksbruken. Hvis enheten ikke brukes over lengre tid, går den automatisk i dvalemodus eller slår seg av.</string>
     <string name="pc_night_sleep_mode_title">Nattmodus</string>
     <string name="pc_no_more_remind">Ikke påminn</string>
+    <string name="pc_notify_low_battery_health_msg">Det er på tide å skifte ut batteriet</string>
+    <string name="pc_notify_low_battery_health_title">Batteritilstanden er under %1$s</string>
     <string name="pc_ordinary_charge_summary">Tillat alltid lading opptil %1$s</string>
     <string name="pc_ordinary_charge_title">Regelmessig lading</string>
     <string name="pc_performance_mode_dialog_summary">Enheten fungerer i %s i Ytelsesmodus. Merk at Ytelsesmodus øker strømforbruket og kan føre til overoppheting.</string>
@@ -3879,6 +3935,7 @@ Ultrabatterisparer"</string>
     <string name="pc_this_time_charge_full_work">Nesten fulladet</string>
     <string name="pc_timely_charging_summary">Batterinivået er under %1$s. Hvis enheten overopphetes mens batterinivået er lavt, kan det skade batteriet.</string>
     <string name="pc_timely_charging_title">Lad enheten din</string>
+    <string name="pc_tip_low_battery_health">Det er på tide å skifte ut batteriet</string>
     <string name="pc_to_phone_install">Blokkert installasjon av %s via USB</string>
     <string name="pc_toady_charge_time_title">Antall ladinger i dag</string>
     <string name="pc_wait_device_cools_down">Vent til enheten er nedkjølt før du kan bruke denne funksjonen.</string>
@@ -4086,6 +4143,8 @@ Ultrabatterisparer"</string>
     <string name="pin_toast">Skyv opp fra nederst på skjermen og sett på pause for å oppheve festing av denne appen</string>
     <string name="pin_toast_nav">Trykk og hold inne tilbake- og forhåndsvisningsknappene for å løsne denne appen</string>
     <string name="pkg_traffic">Angi grense for databruk</string>
+    <string name="pkg_traffic_settings_instruction">Obs!</string>
+    <string name="pkg_traffic_settings_instruction_text">På grunn av nylige oppdateringer fra operatøren kan det hende at noen opplysninger ikke er tilgjengelige. Data som vises i \"Avanserte trafikkinnstillinger\" er bare ment som referanse og samsvarer kanskje ikke med operatørens registreringer. Sjekk operatørens fakturautskrift for mest mulig nøyaktig bruk.</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Utløst start</string>
     <string name="pm_auto_start_by_other_app">La appen bli statet av andre apper</string>
@@ -4718,7 +4777,6 @@ Trekke tilbake samtykket nå?"</string>
     <string name="privacy_risk_detection_title">Oppdag personvernrisikoer</string>
     <string name="privacy_risk_detection_user">Personlig informasjon</string>
     <string name="privacy_risk_install_app">Upålitelige apper</string>
-    <string name="privacy_risk_photo_delete">Bilder kan slettes uten din tillatelse</string>
     <string name="privacy_risk_photo_location">Bilder med plasseringsinformasjon</string>
     <string name="privacy_risk_photo_location_msg">Begrens tilgang til Galleri når det ikke er nødvendig</string>
     <string name="privacy_risk_photo_msg">Bilder med sensitiv informasjon</string>
@@ -4729,8 +4787,6 @@ Trekke tilbake samtykket nå?"</string>
     <string name="privacy_risk_result_ignore_btn">Ignorer</string>
     <string name="privacy_risk_result_item_safe">Ingen risikoer oppdaget</string>
     <string name="privacy_risk_result_open_btn">Aktiver</string>
-    <string name="privacy_risk_result_photo_delete">Motta varsler om slettede bilder</string>
-    <string name="privacy_risk_result_photo_delete_msg">Motta varsler når apper sletter elementer fra Galleri uten tillatelse fra deg</string>
     <string name="privacy_risk_result_photo_sensitive">Bildene dine inneholder privat informasjon</string>
     <string name="privacy_risk_result_protection">Personvernsbeskyttelse</string>
     <string name="privacy_risk_result_screen_fuzzy">Gjør appforhåndsvisninger uskarpe</string>
@@ -5532,6 +5588,7 @@ For å bruke dette ^1 med denne enheten, må du konfigurere det først."</string
     <string name="storage_fbo_notification_start_content">Enheten kan gå tregt mens denne prosessen pågår</string>
     <string name="storage_fbo_notification_start_title">Defragmenterer lagringsplass</string>
     <string name="storage_fbo_number_tip">Behandlet den %1$s</string>
+    <string name="storage_fbo_time_talkback">d. MMMM</string>
     <string name="storage_fbo_tools">Lagringsoptimalisering</string>
     <string name="storage_file_delete_tip">Slette valgte elementer permanent? Noen av dem kan lastes inn igjen når det er nødvendig.</string>
     <string name="storage_file_dialog_delete_title">Slette elementer</string>
@@ -5763,12 +5820,20 @@ Formatering vil slette alt eksisterende innhold på ^2. For å unngå å miste i
     <string name="tc_sms_report_upload_when_net">Takk for tilbakemeldingen din!</string>
     <string name="tc_web_correct_error">Kunne ikke kalibrere</string>
     <string name="ten_percent_total_pkg">%s (10%% av månedlig data)</string>
+    <string name="terminal_flares_current_camera_mic">Bruke denne enhetens kamera og mikrofon</string>
+    <string name="terminal_flares_current_camera_mic_screen">Bruke denne enhetens kamera, mikrofon og skjerm</string>
+    <string name="terminal_flares_recent_camera_mic">Brukte nylig denne enhetens kamera og mikrofon</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Brukte nylig denne enhetens kamera, mikrofon og skjerm</string>
     <string name="terminal_flars_current_camera">Bruke denne enhetens kamera</string>
+    <string name="terminal_flars_current_record">Bruke denne enhetens mikrofon</string>
     <string name="terminal_flars_current_screen">Tilgang til denne enhetens skjerm</string>
     <string name="terminal_flars_current_screen_camera">Bruke denne enhetens kamera og skjerm</string>
+    <string name="terminal_flars_current_screen_mic">Bruke denne enhetens skjerm og mikrofon</string>
     <string name="terminal_flars_recent_camera">Brukte nylig denne enhetens kamera</string>
+    <string name="terminal_flars_recent_record">Brukte nylig denne enhetens mikrofon</string>
     <string name="terminal_flars_recent_screen">Fikk nylig tilgang til denne enhetens skjerm</string>
     <string name="terminal_flars_recent_screen_camera">Brukte nylig denne enhetens kamera og skjerm</string>
+    <string name="terminal_flars_recent_screen_mic">Brukte nylig denne enhetens skjerm og mikrofon</string>
     <string name="tether_custom_dialog_title">Mobildatagrense</string>
     <string name="tether_limit_dialog_title">Mobildatagrense</string>
     <string name="tether_limit_value_custom">Tilpass</string>

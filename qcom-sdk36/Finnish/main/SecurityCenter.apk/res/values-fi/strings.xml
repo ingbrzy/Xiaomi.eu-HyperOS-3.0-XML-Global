@@ -982,6 +982,7 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="bubble_notification_switch">Näytä keskustelukuplat</string>
     <string name="bubble_notification_switch_desc">Kun kelluvassa ikkunassa oleva viestimissovellus on piilotettu näytön reunaan, näytä saapuvat viestit kuplina</string>
     <string name="bubble_pickup_voice_print_auto">Tallennetaan äänijälkeä…</string>
+    <string name="bubble_pickup_voice_print_success">Äänipainatus tallennettu</string>
     <string name="button_background_connection">Salli</string>
     <string name="button_block_calls_from_cantacts">Poista esto</string>
     <string name="button_block_calls_from_strangers">Poista esto</string>
@@ -1015,6 +1016,8 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="button_to_setting">Asetukset</string>
     <string name="button_toll_correction">Kalibroi saldo</string>
     <string name="byteShort">t</string>
+    <string name="calendar_date_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
+    <string name="calendar_date_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="call_address">Alueellinen estolista</string>
     <string name="call_all_number_block">Estä kaikki puhelut</string>
     <string name="call_and_contact">Puhelut ja yhteystiedot</string>
@@ -1950,6 +1953,17 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_toolbox_auto_brightness_talkback">Automaattinen kirkkaudensäätö</string>
     <string name="game_toolbox_btn_back_talkback">Takaisin</string>
     <string name="game_toolbox_cellular_network">Mobiiliverkon nopeuden lisääminen</string>
+    <string name="game_toolbox_dedicated_network_booster_date_format">d.M.yyyy</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Peruuta</string>
+    <string name="game_toolbox_dedicated_network_booster_dialog_msg">VPN-yhteys luodaan automaattisesti reaaliaikaisen viiveen perusteella verkon vakauden parantamiseksi. Lunastamisen jälkeen saat %d vuoden ilmaisen käyttöoikeuden.</string>
+    <string name="game_toolbox_dedicated_network_booster_expired_time_des">Voimassaoloaika: %s</string>
+    <string name="game_toolbox_dedicated_network_booster_free_expired">Vanhentunut</string>
+    <string name="game_toolbox_dedicated_network_booster_free_get">Lunasta</string>
+    <string name="game_toolbox_dedicated_network_booster_login">Kirjaudu sisään</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_confirm">Lunasta</string>
+    <string name="game_toolbox_dedicated_network_booster_open_dialog_title">Tehosta verkkoyhteyttä</string>
+    <string name="game_toolbox_dedicated_network_booster_sub_title">Luo latenssiin perustuva yksityinen verkko yhteyden vakauden parantamiseksi</string>
+    <string name="game_toolbox_dedicated_network_booster_title">Tehosta verkkoyhteyttä</string>
     <string name="game_toolbox_display_avrs">AVRS</string>
     <string name="game_toolbox_display_avrs_desc">Kytke päälle vähentääksesi kuvanlaatua hieman ja virrankulutusta merkittävästi</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Huomio:
@@ -3035,6 +3049,30 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="menu_item_virus_install_monitor_summary">Tarkista sovellukset viruksilta ennen asentamista</string>
     <string name="menu_item_virus_install_monitor_title">Skannaa ennen asentamista</string>
     <string name="menu_item_virus_lib_auto_update_summary">Päivitetty %s</string>
+    <string name="menu_item_virus_risky_app_detect">Tunnista riskialttiit sovellukset</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_cancel">Peruuta</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_close_failed">Tietoturvariskejä havaittu. Käytöstä poistaminen ei onnistu nyt.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_Bottom">Jos viranomaiset, asiakaspalveluhenkilöstö tai muut henkilöt, jotka saatat tuntea, pyytävät sinua poistamaan tämän ominaisuuden käytöstä, varmista heidän henkilöllisyytensä ennen kuin jatkat.</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_content_top">Jos poistat tämän ominaisuuden käytöstä, sovelluksen riskialtista käyttäytymistä ei enää havaita reaaliaikaisesti, mikä voi johtaa henkilötietojen vuotamiseen tai taloudellisiin menetyksiin. Haluatko silti poistaa ominaisuuden käytöstä?</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_go_open">Avaa</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_close">Poista käytöstä</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_open">Peruuta</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_keep_use">Avaa</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_known">Selvä</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_not_remind">Älä näytä uudelleen</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_quit">Poistu</string>
+    <string name="menu_item_virus_risky_app_detect_close_dialog_title">Poista käytöstä?</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s aiheuttaa tuntemattomia tietoturvariskejä ja voi johtaa tietosuojavuotoihin tai taloudellisiin menetyksiin. "</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Jos et hyväksy tätä ilmoitusta, lähetä palautetta napauttamalla tätä.</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Sovelluksen nimi: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paketin nimi: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Kuvaile ongelmaa yksityiskohtaisesti: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Sovelluksen allekirjoitus: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_notify">Huomio</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_stop">Sovellus ei ole käytettävissä</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_level_warning">Varoitus</string>
+    <string name="menu_item_virus_risky_app_detect_summary">Estä riskialttiit sovellukset tai ilmoita niistä</string>
+    <string name="menu_item_virus_risky_app_detect_uninstall">Poista asennus</string>
     <string name="menu_remove">Poista</string>
     <string name="menu_report">Ilmoita ongelmasta</string>
     <string name="menu_setting_traffic">Aseta manuaalisesti</string>
@@ -3091,6 +3129,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="mic_noise_reduction_voiceprint_desc">Säilytä vain tietyn käyttäjän ääni</string>
     <string name="midnight">Yö</string>
     <string name="midrop_post_notification_contentTitle">Tarvitseeko sinun jakaa tiedostoja?</string>
+    <string name="milink_init_loading">Valmistaudutaan peilaamaan…</string>
     <string name="miui_blur_location">Arvioitu sijainti</string>
     <string name="miui_optimization_close_final_tip">Poista järjestelmäoptimointi käytöstä?</string>
     <string name="miui_optimization_close_title">Tämä ominaisuus on tarkoitettu kehittäjille, eikä se välttämättä ole kätevä tavallisille käyttäjille. Järjestelmäoptimoinnin poistaminen käytöstä saattaa aiheuttaa seuraavia muutoksia:</string>
@@ -3785,6 +3824,21 @@ ultravirransäästö"</string>
     <string name="pc_low_batterty_got_it">Selvä</string>
     <string name="pc_low_battery_fast_charge">Nopeuta lataamista</string>
     <string name="pc_low_battery_fast_charge_summary">Liitä mukana toimitettuun laturiin nopeuttaaksesi latausta, kun näyttö on pois päältä ja akku on vähissä. Tämä ominaisuus voi saada laitteesi kuumenemaan.</string>
+    <string name="pc_low_battery_health_msg_1">Akun kunto on alle %1$s. Suosittelemme ottamaan yhteyttä Xiaomin huoltopalveluun akun vaihtamiseksi.</string>
+    <string name="pc_low_battery_health_msg_2">Napauta &lt;a href=https://m.mi.com/hd/wx/2023/officialService/index.html?g_utm=MIUI.Settings.Service.MyDevice.AfterSale&amp;imei=ODYzOTgxMDczNDg5MTg2#/>Huoltopalvelu&lt;/a>, jos haluat etsiä lähelläsi olevia valtuutettuja palveluntarjoajia. Voit varata korjauksen myymälästä tai pyytää postituspalvelua.&lt;br />&lt;br />Akun kuntoon liittyvää tietoa:</string>
+    <string name="pc_low_battery_health_msg_3">"%1$d. Luonnollinen kuluminen: Litiumakuilla on rajallinen määrä lataussyklejä, ja ne kuluvat vähitellen ajan myötä.
+%2$d. Lataustottumukset: Lataaminen korkeissa lämpötiloissa, akun päästäminen täysin tyhjäksi ennen lataamista tai epävirallisten pikalatureiden käyttö voi nopeuttaa kulumista.
+%3$d. Äärimmäiset olosuhteet: Liiallinen kuumuus (kuten suora auringonvalo tai intensiivinen pelaaminen) tai erittäin kylmät olosuhteet voivat vahingoittaa akkua ja lyhentää sen käyttöikää."</string>
+    <string name="pc_low_battery_health_msg_4">"%1$d. Lyhyempi akunkesto edellyttää tiheämpää lataamista.
+%2$d. Suorituskyky heikkenee vaativissa tehtävissä (kuten intensiivisessä pelaamisessa tai videon editoinnissa), mikä voi vaikuttaa sujuvuuteen.
+%3$d. Äärimmäisissä tapauksissa lataus hidastuu tai laite sammuu automaattisesti matalissa lämpötiloissa."</string>
+    <string name="pc_low_battery_health_msg_5">"%1$d. Pidä akun varaustaso välillä %2$s–%3$s. Vältä akun pitämistä täysin ladattuna tai täysin tyhjänä pitkiä aikoja.
+%4$d. Vältä lataamista korkeissa lämpötiloissa. Poista puhelimen suojakuori latauksen ajaksi ja vältä intensiivistä pelaamista latauksen aikana.
+%5$d. Käytä virallisia tai sertifioituja latureita ja kaapeleita akun suojaamiseksi."</string>
+    <string name="pc_low_battery_health_title">Akun kuntoa koskeva muistutus</string>
+    <string name="pc_low_battery_health_title_1">Miksi akun kunto heikkenee</string>
+    <string name="pc_low_battery_health_title_2">Kuinka alhainen akun kunto vaikuttaa sinuun</string>
+    <string name="pc_low_battery_health_title_3">Akun kunnon heikkenemisen hidastaminen</string>
     <string name="pc_low_temp_charge_summary">Pidä laturi kytkettynä ja odota, että akku kuumenee, kun näyttö sammuu, jotta lataus alkaa normaalisti</string>
     <string name="pc_low_temp_charge_title">Lataus alhaisessa lämpötilassa</string>
     <string name="pc_low_temp_disable_otg_message">Ulkoisia laitteita ja käänteistä latausta ei voi käyttää nyt, koska lämpötila tai akun varaustaso on liian alhainen. Yritä uudelleen, kun lämpötila tai akun varaustaso nousee.</string>
@@ -3811,6 +3865,8 @@ ultravirransäästö"</string>
     <string name="pc_night_sleep_mode_summary_pad">Kun näyttö on pois päältä, laitteesi sulkee taustasovellukset ja rajoittaa verkon käyttöä. Jos laitetta ei käytetä pitkään aikaan, se menee automaattisesti lepotilaan tai sammuu.</string>
     <string name="pc_night_sleep_mode_title">Yötila</string>
     <string name="pc_no_more_remind">Älä muistuta</string>
+    <string name="pc_notify_low_battery_health_msg">On aika vaihtaa akku</string>
+    <string name="pc_notify_low_battery_health_title">Akun kunto on alle %1$s</string>
     <string name="pc_ordinary_charge_summary">Salli aina lataus enintään %1$s</string>
     <string name="pc_ordinary_charge_title">Säännöllinen lataus</string>
     <string name="pc_performance_mode_dialog_summary">Laitteesi voi toimia %s suorituskykytilassa. Huomaa, että suorituskykytila lisää virrankulutusta ja voi johtaa ylikuumenemiseen.</string>
@@ -3879,6 +3935,7 @@ ultravirransäästö"</string>
     <string name="pc_this_time_charge_full_work">Melkein ladattu täyteen</string>
     <string name="pc_timely_charging_summary">Akun varaustaso on alle %1$s. Jos laite ylikuumenee akun ollessa vähissä, se voi vahingoittaa akkua.</string>
     <string name="pc_timely_charging_title">Lataa laitteesi</string>
+    <string name="pc_tip_low_battery_health">On aika vaihtaa akku</string>
     <string name="pc_to_phone_install">Estettiin USB:n kautta asennettava %s</string>
     <string name="pc_toady_charge_time_title">Latauksien määrä tänään</string>
     <string name="pc_wait_device_cools_down">Odota, kunnes laitteesi jäähtyy, jotta voit käyttää tätä ominaisuutta.</string>
@@ -4086,6 +4143,8 @@ ultravirransäästö"</string>
     <string name="pin_toast">"Liu'uta ylös näytön alareunasta ja keskeytä tämän sovelluksen kiinnitys"</string>
     <string name="pin_toast_nav">Irrota tämä sovellus pitämällä takaisin- ja esikatselupainikkeita painettuna</string>
     <string name="pkg_traffic">Aseta datan käyttörajoitus</string>
+    <string name="pkg_traffic_settings_instruction">Huomio</string>
+    <string name="pkg_traffic_settings_instruction_text">Viimeaikaisten operaattoripäivitysten vuoksi kaikki tiedot eivät ehkä ole käytettävissä. Liikenteen lisäasetuksissa näkyvät tiedot ovat vain viitteellisiä, eivätkä ne välttämättä vastaa operaattorisi tietoja. Tarkista operaattorisi laskutustiedot mahdollisimman tarkan käytön varalta.</string>
     <string name="pm">ip.</string>
     <string name="pm_auto_start_by_other">Pyydetty käynnistys</string>
     <string name="pm_auto_start_by_other_app">Salli sovelluksen käynnistyä toisen sovelluksen pyynnöstä</string>
@@ -4718,7 +4777,6 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="privacy_risk_detection_title">Tunnista yksityisyyden riskit</string>
     <string name="privacy_risk_detection_user">Henkilökohtaiset tiedot</string>
     <string name="privacy_risk_install_app">Epäluotettavat sovellukset</string>
-    <string name="privacy_risk_photo_delete">Valokuvat voidaan poistaa ilman lupaasi</string>
     <string name="privacy_risk_photo_location">Valokuvat, joissa on sijaintitiedot</string>
     <string name="privacy_risk_photo_location_msg">Rajoita pääsyä Galleriaan, kun se on tarpeetonta</string>
     <string name="privacy_risk_photo_msg">Valokuvat, joissa on arkaluontoisia tietoja</string>
@@ -4729,8 +4787,6 @@ Peruutetaanko suostumus nyt?"</string>
     <string name="privacy_risk_result_ignore_btn">Ohita</string>
     <string name="privacy_risk_result_item_safe">Ei havaittu riskejä</string>
     <string name="privacy_risk_result_open_btn">Ota käyttöön</string>
-    <string name="privacy_risk_result_photo_delete">Vastaanota ilmoituksia poistetuista valokuvista</string>
-    <string name="privacy_risk_result_photo_delete_msg">Vastaanota ilmoituksia, kun sovellukset poistavat kohteita Galleriasta ilman lupaasi</string>
     <string name="privacy_risk_result_photo_sensitive">Valokuvasi sisältävät yksityisiä tietoja</string>
     <string name="privacy_risk_result_protection">Yksityisyydensuoja</string>
     <string name="privacy_risk_result_screen_fuzzy">Sumenna sovellusten esikatselut</string>
@@ -5532,6 +5588,7 @@ Käyttääksesi tätä ^1 tällä laitteella sinun täytyy asettaa se ensin."</s
     <string name="storage_fbo_notification_start_content">Laite saattaa viivästyä tämän prosessin aikana</string>
     <string name="storage_fbo_notification_start_title">Tallennustilan eheyttäminen</string>
     <string name="storage_fbo_number_tip">Käsitelty %1$s</string>
+    <string name="storage_fbo_time_talkback">d. MMMM</string>
     <string name="storage_fbo_tools">Tallennuksen optimointi</string>
     <string name="storage_file_delete_tip">Poistetaanko valitut kohteet pysyvästi? Jotkut niistä voidaan ladata uudelleen tarvittaessa.</string>
     <string name="storage_file_dialog_delete_title">Poistetaanko kohteet</string>
@@ -5763,12 +5820,20 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="tc_sms_report_upload_when_net">Kiitos palautteesta!</string>
     <string name="tc_web_correct_error">Ei voitu kalibroida</string>
     <string name="ten_percent_total_pkg">%s (10%% kuukausidatasta)</string>
+    <string name="terminal_flares_current_camera_mic">Käytetään tämän laitteen kameraa ja mikrofonia</string>
+    <string name="terminal_flares_current_camera_mic_screen">Käytetään tämän laitteen kameraa, mikrofonia ja näyttöä</string>
+    <string name="terminal_flares_recent_camera_mic">Äskettäin käytetty tämän laitteen kameraa ja mikrofonia</string>
+    <string name="terminal_flares_recent_camera_mic_screen">Äskettäin käytetty tämän laitteen kameraa, mikrofonia ja näyttöä</string>
     <string name="terminal_flars_current_camera">Tämän laitteen kameran käyttäminen</string>
+    <string name="terminal_flars_current_record">Käytetään tämän laitteen mikrofonia</string>
     <string name="terminal_flars_current_screen">Pääsy tämän laitteen näyttöön</string>
     <string name="terminal_flars_current_screen_camera">Tämän laitteen kameran ja näytön käyttäminen</string>
+    <string name="terminal_flars_current_screen_mic">Käytetään tämän laitteen näyttöä ja mikrofonia</string>
     <string name="terminal_flars_recent_camera">Äskettäin käytetty tämän laitteen kameraa</string>
+    <string name="terminal_flars_recent_record">Äskettäin käytetty tämän laitteen mikrofonia</string>
     <string name="terminal_flars_recent_screen">Äskettäin käytetty tämän laitteen näyttöä</string>
     <string name="terminal_flars_recent_screen_camera">Äskettäin käytetty tämän laitteen kameraa ja näyttöä</string>
+    <string name="terminal_flars_recent_screen_mic">Äskettäin käytetty tämän laitteen näyttöä ja mikrofonia</string>
     <string name="tether_custom_dialog_title">Mobiilidata rajoitus</string>
     <string name="tether_limit_dialog_title">Mobiilidata rajoitus</string>
     <string name="tether_limit_value_custom">Muokkaa</string>
@@ -6187,7 +6252,7 @@ Yhden päälle kytkeminen sammuttaa toisen."</string>
     <string name="vb_video_effects_spatial_summary_new">Koe parannettu tilan ja suunnan tunne tuetulle äänelle, kun käytät kuulokkeita</string>
     <string name="vb_video_effects_srs_premium_sound">Ääni</string>
     <string name="vb_video_super_division">Korota</string>
-    <string name="vb_video_super_division_desc">"Korota resoluutiota automaattisesti, kun se on ≤720P.
+    <string name="vb_video_super_division_desc">"Kohenna resoluutiota automaattisesti, kun se on ≤720P.
 
 Tämän ominaisuuden käyttö lisää virrankulutusta.
 
