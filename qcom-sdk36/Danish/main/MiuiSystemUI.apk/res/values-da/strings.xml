@@ -853,6 +853,7 @@ Sluk med Tænd-knappen."</string>
     <string name="font_scaling_dialog_title">Skriftstørrelse</string>
     <string name="font_scaling_larger">Forstør</string>
     <string name="font_scaling_smaller">Formindsk</string>
+    <string name="forget_password_string">Glemt adgangskode</string>
     <string name="forget_password_string_for_esim"><u>Glemt PUK-kode?</u></string>
     <string name="format_day_desc">Dag i måneden: %s,</string>
     <string name="format_day_week_desc">Dag i måneden: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Tryk for at få flere oplysninger"</string>
     <string name="kg_password_wrong_pin_code_pukked">Forkert pinkode til SIM-kort. Du er nu nødt til at kontakte dit mobilselskab for at låse din enhed op.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Du har angivet en forkert PUK-kode til SIM-kortet. Du har # forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.}one{Du har angivet en forkert PUK-kode til SIM-kortet. Du har # forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.}other{Du har angivet en forkert PUK-kode til SIM-kortet. Du har # forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM-kortet er ubrugeligt. Kontakt dit mobilselskab.</string>
-    <string name="kg_primary_auth_locked_out_password">For mange forsøg med forkert adgangskode</string>
-    <string name="kg_primary_auth_locked_out_pattern">For mange forsøg med forkert mønster</string>
-    <string name="kg_primary_auth_locked_out_pin">For mange forsøg med forkert pinkode</string>
     <string name="kg_prompt_added_security_password">Der kræves en adgangskode som ekstra beskyttelse</string>
     <string name="kg_prompt_added_security_pattern">Der kræves et mønster som ekstra beskyttelse</string>
     <string name="kg_prompt_added_security_pin">Der kræves en pinkode som ekstra beskyttelse</string>
@@ -1201,7 +1199,6 @@ Tryk for at få flere oplysninger"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Deaktiver eSIM for at bruge enheden uden mobiltjeneste.</string>
     <string name="kg_sim_pin_instructions">Angiv pinkoden til SIM-kortet.</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortet låses op…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Prøv igen om # sekund.}one{Prøv igen om # sekund.}other{Prøv igen om # sekunder.}}</string>
     <string name="kg_trust_agent_disabled">Trust agent er ikke tilgængelig</string>
     <string name="kg_unlock_with_password_or_fp">Lås op med adgangskode eller fingeraftryk</string>
     <string name="kg_unlock_with_pattern_or_fp">Lås op med mønster eller fingeraftryk</string>
@@ -1253,6 +1250,7 @@ for at flytte appen"</string>
     <string name="lockscreen_access_pattern_detected">Mønster fuldført</string>
     <string name="lockscreen_access_pattern_start">Mønster startet</string>
     <string name="lockscreen_none">Ingen</string>
+    <string name="lockscreen_reverse_charging_msg">Omvendt opladning</string>
     <string name="lockscreen_shortcut_left">Venstre genvej</string>
     <string name="lockscreen_shortcut_right">Højre genvej</string>
     <string name="lockscreen_unlock_left">Venstre genvej låser også op</string>
@@ -1338,7 +1336,7 @@ Selvom du ikke giver denne app adgang til alle enhedslogs, kan den stadig tilgå
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Del skærm</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s har deaktiveret denne valgmulighed</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Understøttes ikke af appen</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Vil du dele din skærm med %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Vil du begynde at optage eller caste via %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Når du deler hele skærmen, er alt på din skærm synligt for %s. Vær derfor forsigtig med f.eks. adgangskoder, betalingsoplysninger, beskeder, billeder, lyd og video.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Når du deler en app, er alt, der vises eller afspilles i den pågældende app, synligt for %s. Vær derfor forsigtig med f.eks. adgangskoder, betalingsoplysninger, beskeder, billeder, lyd og video.</string>
     <string name="media_projection_entry_cast_app_selector_title">Vælg den app, du caste</string>
@@ -1422,6 +1420,7 @@ d.M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Vis tilpassede notifikationer fra \"%1$s\" i Notifikationsskygge?</string>
     <string name="miui_notification_menu_msg_not_allow">Slå alle notifikationer fra for %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Du er ved at deaktivere notifikations-spotlight for %1$s. Disse notifikationer vil blive vist normalt. Deaktivér nu?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Det stopper alle liveopdateringer fra %1$s. Nye notifikationer vises i det normale format. Stop liveopdateringer nu?</string>
     <string name="miui_notification_menu_setting_success">Udført</string>
     <string name="miui_notification_menu_snooze">Slumre</string>
     <string name="miui_notification_menu_title_custom_fold">Gruppér tilpassede notifikationer</string>
@@ -1429,6 +1428,8 @@ d.M"</string>
     <string name="miui_notification_menu_title_no_drawable">Fortsæt på inderskærmen</string>
     <string name="miui_notification_menu_title_not_allow">Slå fra</string>
     <string name="miui_notification_menu_unfocus">Deaktivér notifikations-spotlight</string>
+    <string name="miui_notification_menu_unliveupdate">Stop liveopdateringer</string>
+    <string name="miui_notification_slide_menu_ongoing">Begræns permanente notifikationer</string>
     <string name="miui_oversize_a_date">"dd
 .
 MM"</string>
@@ -1868,6 +1869,12 @@ Kontakt %2$s, hvis du har spørgsmål."</string>
     <string name="quick_settings_color_correction_label">Farvekorrigering</string>
     <string name="quick_settings_connected">Forbundet</string>
     <string name="quick_settings_connecting">Opretter forbindelse…</string>
+    <string name="quick_settings_coolingfan_lable">Køleblæser</string>
+    <string name="quick_settings_coolingfan_mode">Blæsertilstand</string>
+    <string name="quick_settings_coolingfan_mode_high">Ydeevne</string>
+    <string name="quick_settings_coolingfan_mode_silent">Stille</string>
+    <string name="quick_settings_coolingfan_mode_smart">Smart</string>
+    <string name="quick_settings_coolingfan_state_off">Køleblæseren er slået fra</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Batterisparefunktion</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Tænd kl. %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Aktiveret ved sengetid</string>
@@ -2308,6 +2315,8 @@ Tryk for at få flere oplysninger"</string>
     <string name="tile_unavailable">Ikke tilgængelig</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Batteri</string>
+    <string name="tiny_camera_content_description">Kamera</string>
     <string name="tip_close_flares">Du modtager ikke notifikationer om app-adfærd i løbet af denne session</string>
     <string name="title_for_empty_state_cta">Få hurtig adgang til dine foretrukne appwidgets uden at låse din tablet op.</string>
     <string name="title_usb_accessory">USB-ekstraudstyr</string>

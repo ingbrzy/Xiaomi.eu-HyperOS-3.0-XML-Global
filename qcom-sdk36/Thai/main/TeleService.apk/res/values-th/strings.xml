@@ -439,6 +439,8 @@
     <string name="copy">คัดลอก</string>
     <string name="crescendo_ringer_summary">ระดับเสียงเรียกเข้าจะค่อยๆดังขึ้นถึงระดับที่คุณตั้งไว้</string>
     <string name="crescendo_ringer_title">ระดับเสียงเรียกเข้าที่เพิ่มขึ้น</string>
+    <string name="customized_message_emm_cause_6">อุปกรณ์นี้ไม่สามารถสร้างโปรไฟล์เครือข่ายได้เนื่องจากขาดการรับรองที่หน่วยงานท้องถิ่นกำหนด</string>
+    <string name="customized_title_emm_cause_6">ไม่สามารถสร้างโปรไฟล์เครือข่ายได้</string>
     <string name="data_disable_warning_no_mms">คุณจะไม่สามารถส่งและรับข้อความ MMS ได้หากปิดข้อมูลมือถือ (WCDMA/LTE) อย่างไรก็ตามคุณจะสามารถทำเช่นนั้นได้ต่อเมื่ออุปกรณ์ของคุณเชื่อมต่อกับ Wi-Fi</string>
     <string name="data_disable_warning_with_mms">คุณจะยังสามารถส่งและรับข้อความ MMS ได้หากคุณปิดข้อมูลมือถือ (WCDMA/LTE) หากต้องการใช้อินเทอร์เน็ต ให้เชื่อมต่อกับ Wi-Fi</string>
     <string name="data_enable_always_warn">ถามว่าจะใช้ข้อมูลมือถือหรือไม่</string>
@@ -1238,8 +1240,10 @@
     <string name="obtain_location_information">ตำแหน่งพิกัด</string>
     <string name="obtain_location_information_summary">สำหรับการปรับสภาพแวดล้อมเครือข่ายปัจจุบันให้เหมาะสมที่สุด</string>
     <string name="oem_radio_info_label">ข้อมูล/การตั้งค่าเฉพาะตาม OEM</string>
+    <string name="offline_call">การสื่อสารแบบออฟไลน์ของ Xiaomi</string>
     <string name="offline_call_has_call">คนอื่นกำลังยุ่งอยู่ โปรดลองใหม่อีกครั้งในอีก 1-2 นาที</string>
     <string name="offline_call_not_match_contact">ไม่สามารถโทรได้ คุณไม่ใช่ผู้ติดต่อของอีกฝ่าย</string>
+    <string name="offline_call_summary">โทรหาโทรศัพท์ Xiaomi ใกล้เคียงผ่านบลูทูธโดยไม่ต้องเชื่อมต่อกับเครือข่าย</string>
     <string name="ok">ตกลง</string>
     <string name="oldPin2Label">PIN2 เก่า</string>
     <string name="oldPinLabel">PIN เก่า</string>
@@ -1263,6 +1267,15 @@
     <string name="opened_dual_4g_confirm_prompt">ดูเหมือนคุณจะมีซิมการ์ด 4G เท่านั้น 4G คู่ ถูกเปิดโดยอัตโนมัติ</string>
     <string name="opened_dual_4g_confirm_prompt_with_sim">ซิม %1$s รองรับเฉพาะ 4G เพื่อให้แน่ใจว่าซิมการ์ดของคุณใช้งานได้ตามปกติจะเปิดใช้งาน 4G คู่</string>
     <string name="operator">ผู้ให้บริการ</string>
+    <string name="osu_dialog_cancel_btn_text">ไม่ใช่ตอนนี้</string>
+    <string name="osu_dialog_message">อัปเดตโมดูล eSIM เพื่อแก้ไขปัญหาความเข้ากันได้และปัญหาด้านความปลอดภัยที่อาจเกิดขึ้น ในระหว่างการอัปเดต eSIM ของคุณจะไม่สามารถใช้งานได้</string>
+    <string name="osu_dialog_ok_btn_text">อัปเดต</string>
+    <string name="osu_dialog_title">อัปเดตโมดูล eSIM</string>
+    <string name="osu_error_toast_message">ไม่สามารถอัปเดต eSIM ได้ รอสักครู่แล้วลองอีกครั้ง</string>
+    <string name="osu_notification_message">อัปเดตโมดูล eSIM เพื่อป้องกันปัญหาด้านความปลอดภัยที่อาจเกิดขึ้น</string>
+    <string name="osu_notification_title">อัปเดตโมดูล eSIM</string>
+    <string name="osu_progress_dialog_message">กำลังอัปเดตโมดูล ฟังก์ชันบางอย่างอาจใช้งานไม่ได้</string>
+    <string name="osu_success_toast_message">อัปเดตเรียบร้อยแล้ว</string>
     <string name="ota_activate">เปิดการใช้งาน</string>
     <string name="ota_call_end">กลับ</string>
     <string name="ota_failure">ไม่สามารถเขียนโปรแกรมสำหรับโทรศัพท์ได้</string>
@@ -1887,6 +1900,7 @@
     <string name="telephony_setting">โทรศัพท์</string>
     <string name="telocation_auto_country_code">เพิ่มรหัสประเทศ</string>
     <string name="telocation_auto_country_code_summary">ใส่รหัสประเทศอัตโนมัติเมื่อโทรหาเลขหมายในรายชื่อ</string>
+    <string name="telocation_auto_country_code_summary_while_roaming">เพิ่มรหัสประเทศลงในหมายเลขติดต่อโดยอัตโนมัติเมื่อโทรออกขณะโรมมิ่ง หมายเลขที่มีรหัสประเทศอยู่แล้วจะถูกโทรออกตามเดิม</string>
     <string name="telocation_call_assistant">ตัวช่วยการโทร</string>
     <string name="telocation_confim_delete_title">ลบข้อความนี้?</string>
     <string name="telocation_contacts_countrycode">ค่าเริ่มต้นของรหัสประเทศ</string>

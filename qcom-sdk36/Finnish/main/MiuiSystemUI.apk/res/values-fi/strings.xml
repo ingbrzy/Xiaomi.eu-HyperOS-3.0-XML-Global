@@ -853,6 +853,7 @@ Sammuta virtapainikkeella."</string>
     <string name="font_scaling_dialog_title">Fonttikoko</string>
     <string name="font_scaling_larger">Suurenna</string>
     <string name="font_scaling_smaller">Pienennä</string>
+    <string name="forget_password_string">Salasana unohtunut</string>
     <string name="forget_password_string_for_esim"><u>PUK-koodi unohtunut</u></string>
     <string name="format_day_desc">Kuukauden päivä: %s</string>
     <string name="format_day_week_desc">Kuukauden päivä: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Lue lisää napauttamalla"</string>
     <string name="kg_password_wrong_pin_code_pukked">Virheellinen SIM-kortin PIN-koodi. Sinun on nyt otettava yhteys operaattoriin laitteen lukituksen avaamiseksi.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Virheellinen SIM-kortin PUK-koodi. Sinulla on # yritys jäljellä, ennen kuin SIM-kortti poistuu käytöstä pysyvästi.}other{Virheellinen SIM-kortin PUK-koodi. Sinulla on # yritystä jäljellä, ennen kuin SIM-kortti poistuu käytöstä pysyvästi.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM-korttia ei voi käyttää. Ota yhteys operaattoriin.</string>
-    <string name="kg_primary_auth_locked_out_password">Liian monta yritystä väärällä salasanalla</string>
-    <string name="kg_primary_auth_locked_out_pattern">Liian monta yritystä väärällä kuviolla</string>
-    <string name="kg_primary_auth_locked_out_pin">Liian monta yritystä väärällä PIN-koodilla</string>
     <string name="kg_prompt_added_security_password">Salasana vaaditaan suojauksen parantamiseksi.</string>
     <string name="kg_prompt_added_security_pattern">Kuvio vaaditaan suojauksen parantamiseksi.</string>
     <string name="kg_prompt_added_security_pin">PIN-koodi vaaditaan suojauksen parantamiseksi.</string>
@@ -1201,7 +1199,6 @@ Lue lisää napauttamalla"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Poista eSIM käytöstä, jos haluat käyttää laitetta ilman mobiililiittymää.</string>
     <string name="kg_sim_pin_instructions">Anna SIM-kortin PIN-koodi.</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kortin lukitusta avataan…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Yritä uudelleen # sekunnin kuluttua.}other{Yritä uudelleen # sekunnin kuluttua.}}</string>
     <string name="kg_trust_agent_disabled">Luotettava taho ei ole käytettävissä</string>
     <string name="kg_unlock_with_password_or_fp">Avaa: salasana/sormenjälki</string>
     <string name="kg_unlock_with_pattern_or_fp">Avaa: kuvio/sormenjälki</string>
@@ -1253,6 +1250,7 @@ haluat siirtää sovellusta"</string>
     <string name="lockscreen_access_pattern_detected">Kuvio valmis</string>
     <string name="lockscreen_access_pattern_start">Kuvio aloitettu</string>
     <string name="lockscreen_none">Ei mitään</string>
+    <string name="lockscreen_reverse_charging_msg">Käänteinen lataus</string>
     <string name="lockscreen_shortcut_left">Vasen pikakuvake</string>
     <string name="lockscreen_shortcut_right">Oikea pikakuvake</string>
     <string name="lockscreen_unlock_left">Myös vasen pikakuvake avaa lukituksen</string>
@@ -1338,7 +1336,7 @@ Jos et salli tälle sovellukselle pääsyä kaikkiin laitelokeihin, sillä on ku
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Jaa näyttö</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s on poistanut vaihtoehdon käytöstä</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Sovellus ei tue tätä</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Saako %s nähdä näyttösi?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Haluatko, että %s aloittaa tallennuksen tai striimauksen?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Kun jaat koko näytön, %s näkee kaiken sen sisälllön. Ole siis varovainen, kun lisäät salasanoja, maksutietoja, viestejä, kuvia, audiota tai videoita.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Kun jaat sovelluksen, %s näkee kaiken sovelluksessa näkyvän tai toistetun sisällön. Ole siis varovainen, kun lisäät salasanoja, maksutietoja, viestejä, kuvia, audiota tai videoita.</string>
     <string name="media_projection_entry_cast_app_selector_title">Valitse striimattava sovellus</string>
@@ -1422,6 +1420,7 @@ d.M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Näytetäänkö mukautetut ilmoitukset kohteesta \"%1$s\" ilmoitusalueella?</string>
     <string name="miui_notification_menu_msg_not_allow">Poistetaanko käytöstä kaikki ilmoitukset sovelluksesta %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Olet poistamassa ilmoitusten korostuksen käytöstä sovellukselta %1$s. Nämä ilmoitukset näytetään normaalisti. Otetaanko pois käytöstä?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Tämä toiminto pysäyttää kaikki reaaliaikaiset päivitykset kohteesta %1$s. Uudet ilmoitukset näytetään tavallisessa muodossa. Lopetetaanko reaaliaikaiset päivitykset nyt?</string>
     <string name="miui_notification_menu_setting_success">Valmis</string>
     <string name="miui_notification_menu_snooze">Torkuta</string>
     <string name="miui_notification_menu_title_custom_fold">Ryhmittele mukautetut ilmoitukset</string>
@@ -1429,6 +1428,8 @@ d.M"</string>
     <string name="miui_notification_menu_title_no_drawable">Jatka sisänäytöltä</string>
     <string name="miui_notification_menu_title_not_allow">Poista käytöstä</string>
     <string name="miui_notification_menu_unfocus">Ota ilmoitusten korostus pois käytöstä</string>
+    <string name="miui_notification_menu_unliveupdate">Lopeta reaaliaikaiset päivitykset</string>
+    <string name="miui_notification_slide_menu_ongoing">Rajoita pysyviä ilmoituksia</string>
     <string name="miui_oversize_a_date">"d
 .
 M"</string>
@@ -1868,6 +1869,12 @@ Jos sinulla on kysyttävää, ota yhteyttä laitteen tarjoajaan: %2$s."</string>
     <string name="quick_settings_color_correction_label">Värinkorjaus</string>
     <string name="quick_settings_connected">Yhdistetty</string>
     <string name="quick_settings_connecting">Yhdistetään…</string>
+    <string name="quick_settings_coolingfan_lable">Jäähdytystuuletin</string>
+    <string name="quick_settings_coolingfan_mode">Tuuletintila</string>
+    <string name="quick_settings_coolingfan_mode_high">Suorituskyky</string>
+    <string name="quick_settings_coolingfan_mode_silent">Hiljainen</string>
+    <string name="quick_settings_coolingfan_mode_smart">Älykäs</string>
+    <string name="quick_settings_coolingfan_state_off">Jäähdytystuuletin on pois päältä</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Virransäästö</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Päälle klo %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Päällä nukkuma-aikana</string>
@@ -2308,6 +2315,8 @@ Lue lisää napauttamalla"</string>
     <string name="tile_unavailable">Ei käytettävissä</string>
     <string name="time_picker_label_hour">T</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Akku</string>
+    <string name="tiny_camera_content_description">Kamera</string>
     <string name="tip_close_flares">Et saa ilmoituksia sovellusten toiminnasta tämän istunnon aikana</string>
     <string name="title_for_empty_state_cta">Pääset nopeasti tuttuihin sovelluswidgeteihin avaamatta tabletin lukitusta.</string>
     <string name="title_usb_accessory">USB-lisälaite</string>

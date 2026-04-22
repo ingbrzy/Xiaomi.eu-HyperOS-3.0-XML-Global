@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="HIPS_Action_Accept">Tillåt</string>
+    <string name="HIPS_Action_Reject">Neka</string>
     <string name="abc_action_bar_home_description">Navigera hem</string>
     <string name="abc_action_bar_up_description">Navigera uppåt</string>
     <string name="abc_action_menu_overflow_description">Fler alternativ</string>
@@ -27,11 +29,14 @@
     <string name="abc_shareactionprovider_share_with">Dela med</string>
     <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
     <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="access_denied_info">För många försök. Vänta en minut eller två och försök igen.</string>
     <string name="accessibility_sliding_button_state_description_off">Avaktiverad</string>
     <string name="accessibility_sliding_button_state_description_on">Påslaget</string>
     <string name="accessibility_tab_state_description_unselect">Inte vald</string>
     <string name="actionbar_button_up_description">Tillbaka</string>
     <string name="afternoon">Eftermiddag</string>
+    <string name="airpods_fast_connect_fail_summary">Tryck och håll ned knappen på baksidan av laddningsfodralet, eller dubbelknacka på fodralets framsida, tills statuslampan blinkar vitt</string>
+    <string name="airpods_fast_connect_fail_summary_single">Tryck och håll in bruskontrollknappen på hörlurarna tills statuslampan blinkar vitt</string>
     <string name="am">F.m</string>
     <string name="app_name">Bluetooth-tillägg</string>
     <string name="audio_relay_default_device_name">Mi AI högtalare</string>
@@ -108,6 +113,8 @@
     <string name="easy_tether_connecting">Ansluter</string>
     <string name="easy_tether_disconnected">Frånkopplad</string>
     <string name="easy_tether_discover_available_networks">Tillgängliga nätverk</string>
+    <string name="easy_tether_hotspot_connected">Ansluten till internetdelning</string>
+    <string name="easy_tether_mobile_data_connected">Anslut till mobildata</string>
     <string name="easy_tether_mobile_data_is_being_used">Dela mobildata</string>
     <string name="easy_tether_next_auto_connect">Anslut automatiskt nästa gång?</string>
     <string name="easy_tether_statusbar_auto_connected_title">Ansluten till internetdelning: %1$s</string>
@@ -126,6 +133,7 @@
     <string name="easy_tether_statusbar_dialog_connected_title_car_talk_back">Fordon, ansluten</string>
     <string name="easy_tether_statusbar_dialog_connected_title_pad_talk_back">Platta, ansluten</string>
     <string name="easy_tether_statusbar_dialog_connected_title_phone_talk_back">Telefon, ansluten</string>
+    <string name="easy_tether_using_mobile_data">Använder mobildata…</string>
     <string name="easy_tether_wlan_signal_is_being_used">Dela wifi-nätverk</string>
     <string name="easy_tether_wlan_signal_is_being_used_china">Dela WLAN-nätverk</string>
     <string name="empty" />
@@ -275,6 +283,7 @@ Snabbare anslutningsprotokoll."</string>
     <string name="install_package">Installera %1$s för mer funktioner</string>
     <string name="lea_disable_successfully">Växlade till vanlig Bluetooth</string>
     <string name="lea_enable_successfully">Växlade till Bluetooth LE-ljud</string>
+    <string name="location_display_title">Visa plats</string>
     <string name="mi_audio_relay_cancel">OK</string>
     <string name="mi_audio_relay_connect_failed">Försök igen</string>
     <string name="mi_audio_relay_localphone">Den här enheten</string>
@@ -403,6 +412,9 @@ Snabbare anslutningsprotokoll."</string>
     <string name="month_september_shortest">Sep</string>
     <string name="more">Mer</string>
     <string name="morning">Morgon</string>
+    <string name="nearby_contacts">Kontakter i närheten</string>
+    <string name="network_error_info">Ett nätverksfel uppstod. Kontrollera dina nätverksinställningar och försök igen.</string>
+    <string name="network_timeout_info">Det gick inte att ansluta till nätverket. Försök igen.</string>
     <string name="night">Kväll</string>
     <string name="noon">Middagstid</string>
     <string name="not_set">Inte angett</string>
@@ -412,10 +424,65 @@ Snabbare anslutningsprotokoll."</string>
     <string name="notification_talk_permission">Att låta den här appen använda notifikationer kommer att låta den ta emot notifikationer (WeChat, Meddelanden m.m.) på din enhet. Du låter den här appen använda notifikationer om du fortsätter.</string>
     <string name="notify_device_lose_connection_text">Tryck för att frånkoppla %1$s</string>
     <string name="notify_device_lose_connection_title">Tappat anslutningen med %1$s</string>
+    <string name="offline_app_name">Xiaomi offline-kommunikation</string>
+    <string name="offline_call_balack_list">Blockeringslista</string>
+    <string name="offline_call_balack_list_join">Lägg till i blockeringslistan</string>
+    <string name="offline_call_balack_list_join_title">Lägg till %1$s i blockeringslistan?</string>
+    <string name="offline_call_balack_list_remove_device_title">Ta bort %1$s från blockeringslistan?</string>
+    <string name="offline_call_balack_list_remove_title">Ta bort den här personen från blockeringslistan?</string>
+    <string name="offline_call_callable_all">Alla</string>
+    <string name="offline_call_callable_close">Av</string>
+    <string name="offline_call_callable_only_contact">Endast kontakter</string>
+    <string name="offline_call_callable_title">Vem kan ringa mig</string>
+    <string name="offline_call_cancel">Avbryt</string>
+    <string name="offline_call_create_shortcut_success">Tillagd</string>
+    <string name="offline_call_dial_out">Ring ett samtal</string>
+    <string name="offline_call_earthquake_summary">Aktivera Xiaomi offline-kommunikation, automatiskt vid händelse av en jordbävning där du är</string>
+    <string name="offline_call_earthquake_title">Aktivera automatiskt vid en jordbävning</string>
+    <string name="offline_call_join">Lägg till</string>
+    <string name="offline_call_map_baidu">Baidu-kartor</string>
+    <string name="offline_call_map_gaode">Amap</string>
+    <string name="offline_call_map_mode">Kartläge</string>
+    <string name="offline_call_map_navigation">Navigera till deras plats</string>
+    <string name="offline_call_map_select">Välj navigeringsmetod</string>
+    <string name="offline_call_map_tengxun">Tencent-kartor</string>
+    <string name="offline_call_nearby_all_device">Platskarta för närliggande personer</string>
+    <string name="offline_call_nearby_device_refresh">Uppdatera</string>
     <string name="offline_call_nearby_device_refreshing">Skanna efter enheter</string>
+    <string name="offline_call_nearby_device_title">Närliggande personer</string>
+    <string name="offline_call_nearby_dialog_message">Du kan navigera till %1$ss plats, eller ringa %1$s.</string>
+    <string name="offline_call_nearby_dialog_negative">Navigera</string>
+    <string name="offline_call_nearby_dialog_positive">Ring</string>
+    <string name="offline_call_notification_broadcast_close">Stäng av</string>
+    <string name="offline_call_notification_broadcast_location">Xiaomi offline-kommunikation delar din plats</string>
+    <string name="offline_call_notification_broadcast_start">Xiaomi offline-kommunikation sänder</string>
+    <string name="offline_call_remove">Ta bort</string>
+    <string name="offline_call_repeatedly_create_shortcut">Denna genväg finns redan</string>
+    <string name="offline_call_settings_summary">Kommunicera med närliggande Xiaomi-telefoner när du är offline, om Bluetooth är aktiverat på båda enheterna</string>
+    <string name="offline_call_settings_title">Xiaomi offfline-kommunikation</string>
+    <string name="offline_call_shortcut_display">Lägg till genväg på Hemskärmen</string>
+    <string name="offline_call_show_location_title">Dela min plats med närliggande personer</string>
+    <string name="offline_chat_summary">Kommunicera med kontakter i närheten via Bluetooth utan att vara ansluten till internet. Den här funktionen stöder inte användande av Bluetooth-hörlurar under samtal.</string>
+    <string name="offline_chat_summary_global">Kommunicera med närliggande Xiaomi-telefoner när du är offline, om Bluetooth är aktiverat på båda enheterna (Aktuell enhet: %1$s)</string>
+    <string name="offline_chat_title">Xiaomi offline-kommunikation</string>
+    <string name="offline_chat_title_global">Xiaomi offline-kommunikation (demoläge)</string>
+    <string name="offline_connecting">Ansluter…</string>
     <string name="ok_button">Okej</string>
+    <string name="p8g_activity_bt_cancel">Avbryt</string>
+    <string name="p8g_activity_bt_connect">Aktivera Bluetooth</string>
+    <string name="p8g_activity_bt_connect_failed">Kunde inte ansluta</string>
+    <string name="p8g_activity_bt_connecting">Ansluter…</string>
+    <string name="p8g_activity_bt_retry">Försök igen</string>
+    <string name="p8g_activity_new_prompt">Behåll ditt handhållna retrofodral till konsolen, på</string>
+    <string name="p8g_activity_prompt">Aktivera skalet</string>
+    <string name="p8g_island_opened">Aktiverad</string>
+    <string name="p8g_island_peripherals_opened">Enheten är aktiverad</string>
+    <string name="p8g_island_peripherals_to_close">Avaktivera</string>
+    <string name="p8g_island_product_name">Spelskal</string>
     <string name="perm_ble_des">Tillträd BLE-inställningar</string>
     <string name="perm_ble_lab">Tillträd BLE-inställningar</string>
+    <string name="permgroupdesc_location">Tillåter du att %1$s får åtkomst till platsinformation?</string>
+    <string name="phone_in_talk">Ett samtal pågår redan</string>
     <string name="plugin_alert_cancel">Senare</string>
     <string name="plugin_alert_kill">Återstarta</string>
     <string name="plugin_alert_text">Bluetooth-plugin-program har uppdaterats. Aktivera och inaktivera Bluetooth för att tillämpa ändringar.</string>
@@ -443,13 +510,19 @@ Snabbare anslutningsprotokoll."</string>
     <string name="pm">E.m</string>
     <string name="preference_copied">%1$s har kopierats till Urklipp.</string>
     <string name="progress_scanning">Söker…</string>
+    <string name="progressbar_title">Skannar efter säkerhetsproblem…</string>
+    <string name="request_open_bluetooth_title">Tillåt Xiaomi offline-kommunikation att aktivera Bluetooth?</string>
     <string name="reset_function_msg">Återställa denna funktion kan förhindra %1$s från att fungera normalt.</string>
     <string name="saturday">Lördag</string>
     <string name="saturday_short">Lör</string>
     <string name="saturday_shortest">Lör</string>
     <string name="search_menu_title">Sök</string>
     <string name="send">Skicka</string>
+    <string name="sim_identify_failed">Kan inte öppna. Kände inte igen SIM-kort.</string>
     <string name="some_app_taking">(%1$s använder redan denna funktion)</string>
+    <string name="start_failed_confirm">Ok</string>
+    <string name="start_failed_content">Sätt i ett SIM-kort och logga in med Xiaomi-konto för att kunna använda Xiaomi offline-kommunikation.</string>
+    <string name="start_failed_title">Kunde inte aktivera</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stylus_firmware_failed_summary">Sätt tillbaka stylus-pennan, starta om Bluetooth och försök igen.</string>
     <string name="stylus_firmware_failed_summaryV2">Kontrollera att platstjänster är aktiverade, starta om Bluetooth och försök igen när Stylus är ansluten via Bluetooth.</string>
@@ -466,6 +539,7 @@ Snabbare anslutningsprotokoll."</string>
     <string name="sunday">Söndag</string>
     <string name="sunday_short">Sön</string>
     <string name="sunday_shortest">Sön</string>
+    <string name="system_error_info">Systemet är upptaget. Vänta en minut eller två och försök igen.</string>
     <string name="the_anniversary_of_lifting_martial_law">Årsdagen för lyftande av undantagstillstånd</string>
     <string name="the_anti_aggression_day">Anti-våldsdagen</string>
     <string name="the_arbor_day">Arbor Day</string>
@@ -529,6 +603,12 @@ Snabbare anslutningsprotokoll."</string>
     <string name="unbind_device_alert_content">Tappat anslutningen med %1$s. För att spara batteri, frånkoppla enheten nu.</string>
     <string name="unbind_device_alert_ok">Frånkoppla</string>
     <string name="unbind_device_alert_title">Frånkoppla enhet</string>
+    <string name="unknown_error_info">Okänt fel</string>
+    <string name="user_agreement_cancel">Avbryt</string>
+    <string name="user_agreement_confirm">Acceptera</string>
+    <string name="user_agreement_content">Xiaomi offline-kommunikation är en Buletooth-baserad röstsamtalstjänst (här efter kallad \"den här tjänsten\") som tillhandahålls av Xiaomi Inc. (här efter kallat \"Xiaomi\", \"vi\", \"vår\", eller \"oss\"). Vi tar skyddet av din integritet och personliga information på allvar. Vi kommer att tillhandahålla motsvarande säkerhetsskyddsåtgärder för din personliga information som anges av juridiska krav och industristandarder.&lt;br>&lt;b>När du aktiverar den här funktionen kommer vi att få åtkomst till dina kontakter, telefonnummer, inloggningsstatusen för Xiaomi-konto, Bluetooth MAC-adress, samtalsstatus och SIM-kortsstatus, för att låta dig kommunicera med valda kontakter när du inte är ansluten till internet. &lt;/b> &lt;br>&lt;b>När du aktiverar \"Visa plats\" och \"Aktivera automatiskt vid en jordbävning\", kommer vi att samla in din exakta plats för att visa till dina utvalda kontakter.&lt;/b> &lt;br>&lt;b>Den här informationen kommer endast att behandlas på din enhet, och kommer inte att laddas upp i molnet.&lt;/b> &lt;br>Följande behörigheter behövs när du använder Xiaomi kommunikationstjänster offline: &lt;br>• Bluetooth-behörigheter: för att utföra röstsamtal till närliggande enheter&lt;br>• Åtkomst till kontakter: för att upptäcka och ringa närliggande kontakter&lt;br>• Behörighet att ansluta till internet: för att ansluta till nätverket och få åtkomst till kartinnehåll&lt;br>• Platsåtkomst: för att visa exakt plats för de valda kontakterna&lt;br>• Telefonbehörigheter: för åtkomst till samtalsstatus (Xiaomi offline-kommunikation kan inte används när ett samtal pågår)&lt;br>Om du inte samtycker till ovanstående behörigheter kommer du inte att kunna använda den här tjänsten.&lt;br>Vissa funktioner tillhandahålls av tredjepartstjänsteleverantörer. Av den här anledningen behöver vi tillhandahålla en del av din personliga information till dessa tredjeparter. &lt;a href=https://privacy.mi.com/Bluetoothcall-Share/>Tryck här för att visa&lt;/a> under vilka omständigheter vi delar din personliga information med våra samarbetspartners, partners och tredjeparter.&lt;br>Vi behandlar endast din personliga information under insamlingsperioden som beskrivs i den här integritetsupplysningen, eller så som krävs av gällande lagar.&lt;br>Den här tjänsten (Xiaomi offline-kommunikation) och relaterade företag, hanteras av Xiaomi. Vi har en hel avdelning avsedd endast för skyddet av personlig information. Om du har några frågor eller kommentarer om den här integritetsupplysningen, eller om vår insamling, vårt användande, eller utlämnande av din personliga information, kan du kontakta oss på &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. Vi kommer försöka att svara inom femton arbetsdagar.&lt;br>Tryck på \"Godkänn\" för att ange att du har läst och samtycker till den här integritetsupplysningen.</string>
+    <string name="user_agreement_content_global">Xiaomi offline-kommunikation är en Buletooth-baserad röstsamtalstjänst (här efter kallad \"den här tjänsten\") som tillhandahålls av Xiaomi Inc. (här efter kallat \"Xiaomi\", \"vi\", \"vår\", eller \"oss\"). Vi tar skyddet av din integritet och personliga information på allvar. Vi kommer att tillhandahålla motsvarande säkerhetsskyddsåtgärder för din personliga information som anges av juridiska krav och industristandarder.&lt;br>&lt;b>När du aktiverar den här funktionen kommer vi att få åtkomst till dina kontakter, telefonnummer, inloggningsstatusen för Xiaomi-konto, Bluetooth MAC-adress, samtalsstatus och SIM-kortsstatus, för att låta dig kommunicera med valda kontakter när du inte är ansluten till internet. &lt;/b> &lt;br>&lt;b>Den här informationen kommer endast att behandlas på din enhet, och kommer inte att laddas upp i molnet.&lt;/b> &lt;br>Följande behörigheter behövs när du använder Xiaomi kommunikationstjänster offline: &lt;br>• Bluetooth-behörigheter: för att utföra röstsamtal till närliggande enheter&lt;br>• Åtkomst till kontakter: för att upptäcka och ringa närliggande kontakter&lt;br>• Telefonbehörigheter: för åtkomst till samtalsstatus (Xiaomi offline-kommunikation kan inte används när ett samtal pågår)&lt;br>Om du inte samtycker till ovanstående behörigheter kommer du inte att kunna använda den här tjänsten.&lt;br>Vi behandlar endast din personliga information under insamlingsperioden som beskrivs i den här integritetsupplysningen, eller så som krävs av gällande lagar.&lt;br>Den här tjänsten (Xiaomi offline-kommunikation) och relaterade företag, hanteras av Xiaomi. Vi har en hel avdelning avsedd endast för skyddet av personlig information. Om du har några frågor eller kommentarer om den här integritetsupplysningen, eller om vår insamling, vårt användande, eller utlämnande av din personliga information, kan du kontakta oss på &lt;a href=https://privacy.mi.com/support>https://privacy.mi.com/support&lt;/a>. Vi kommer försöka att svara inom femton arbetsdagar.&lt;br>Tryck på \"Godkänn\" för att ange att du har läst och samtycker till den här integritetsupplysningen.</string>
+    <string name="user_agreement_title">Integritetspolicy för Xiaomi offline-kommunikation</string>
     <string name="v7_preference_off">AV</string>
     <string name="v7_preference_on">PÅ</string>
     <string name="wednesday">Onsdag</string>

@@ -853,6 +853,7 @@
     <string name="font_scaling_dialog_title">Розмір шрифту</string>
     <string name="font_scaling_larger">Збільшити</string>
     <string name="font_scaling_smaller">Зменшити</string>
+    <string name="forget_password_string">Забули пароль?</string>
     <string name="forget_password_string_for_esim"><u>Забули PUК-код?</u></string>
     <string name="format_day_desc">День місяця: %s</string>
     <string name="format_day_week_desc">День місяця: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@
     <string name="kg_password_wrong_pin_code_pukked">Неправильний PIN-код SIM-карти. Зв’яжіться зі своїм оператором, щоб розблокувати пристрій.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Неправильний PUK-код SIM-карти. У вас залишилась # спроба. Після цього SIM-карту буде назавжди заблоковано.}one{Неправильний PUK-код SIM-карти. У вас залишилася # спроба. Після цього SIM-карту буде назавжди заблоковано.}few{Неправильний PUK-код SIM-карти. У вас залишилося # спроби. Після цього SIM-карту буде назавжди заблоковано.}many{Неправильний PUK-код SIM-карти. У вас залишилося # спроб. Після цього SIM-карту буде назавжди заблоковано.}other{Неправильний PUK-код SIM-карти. У вас залишилося # спроби. Після цього SIM-карту буде назавжди заблоковано.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM-карту заблоковано. Зв’яжіться з оператором.</string>
-    <string name="kg_primary_auth_locked_out_password">Неправильний пароль введено забагато разів</string>
-    <string name="kg_primary_auth_locked_out_pattern">Неправильний ключ намальовано забагато разів</string>
-    <string name="kg_primary_auth_locked_out_pin">Неправильний PIN-код введено забагато разів</string>
     <string name="kg_prompt_added_security_password">Для додаткового захисту потрібно ввести пароль</string>
     <string name="kg_prompt_added_security_pattern">Для додаткового захисту потрібно ввести ключ</string>
     <string name="kg_prompt_added_security_pin">Для додаткового захисту потрібно ввести PIN-код</string>
@@ -1201,7 +1199,6 @@
     <string name="kg_sim_lock_esim_instructions">%1$s Вимкніть eSIM-карту, щоб використовувати пристрій без мобільного зв’язку.</string>
     <string name="kg_sim_pin_instructions">Введіть PIN-код SIM-карти.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Розблокування SIM-карти…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Повторіть спробу через # секунду.}one{Повторіть спробу через # секунду.}few{Повторіть спробу через # секунди.}many{Повторіть спробу через # секунд.}other{Повторіть спробу через # секунди.}}</string>
     <string name="kg_trust_agent_disabled">Довірчий агент недоступний</string>
     <string name="kg_unlock_with_password_or_fp">Розблокування паролем або відбитком пальця</string>
     <string name="kg_unlock_with_pattern_or_fp">Розблокування ключем або відбитком пальця</string>
@@ -1253,6 +1250,7 @@
     <string name="lockscreen_access_pattern_detected">Кінець ключа</string>
     <string name="lockscreen_access_pattern_start">Початок ключа</string>
     <string name="lockscreen_none">Немає</string>
+    <string name="lockscreen_reverse_charging_msg">Зворотня зарядка</string>
     <string name="lockscreen_shortcut_left">Комбінація клавіш ліворуч</string>
     <string name="lockscreen_shortcut_right">Комбінація клавіш праворуч</string>
     <string name="lockscreen_unlock_left">Комбінація клавіш ліворуч також розблоковує</string>
@@ -1338,7 +1336,7 @@
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Показати екран</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">Додаток %1$s вимкнув цю опцію</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Не підтримується додатком</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Показати екран у додатку %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Почати запис або трансляцію за допомогою додатка %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Коли ви показуєте весь екран, для додатка %s стає видимим увесь контент на ньому. Тому будьте обережні з паролями, повідомленнями, фотографіями, аудіо, відео, платіжною інформацією тощо.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Коли ви показуєте вікно додатка, увесь контент, що відображається або відтворюється в ньому, стає видимим у додатку %s. Тому будьте обережні з паролями, повідомленнями, фотографіями, аудіо, відео, платіжною інформацією тощо.</string>
     <string name="media_projection_entry_cast_app_selector_title">Виберіть додаток для трансляції</string>
@@ -1422,6 +1420,7 @@ d.M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Показувати персональні сповіщення від \"%1$s\" у Панелі сповіщень?</string>
     <string name="miui_notification_menu_msg_not_allow">Вимкнути всі сповіщення від %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Ви збираєтеся вимкнути підствічення сповіщень на %1$s. Наступні сповіщення будуть відображатися у звичайному форматі. Вимкнути?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Це зупинить всі оновлення в реальному часі від %1$s. Нові сповіщення будуть відображатися у звичайному форматі. Зупинити оновлення в реальному часі?</string>
     <string name="miui_notification_menu_setting_success">Готово</string>
     <string name="miui_notification_menu_snooze">Відкласти</string>
     <string name="miui_notification_menu_title_custom_fold">Групувати персональні сповіщення</string>
@@ -1429,6 +1428,8 @@ d.M"</string>
     <string name="miui_notification_menu_title_no_drawable">Продовжуйте роботу на внутрішньому екрані</string>
     <string name="miui_notification_menu_title_not_allow">Вимкнути</string>
     <string name="miui_notification_menu_unfocus">Вимкнути пісвічення сповіщень</string>
+    <string name="miui_notification_menu_unliveupdate">Зупинити оновлення в реальному часі</string>
+    <string name="miui_notification_slide_menu_ongoing">Обмежити постійні сповіщення</string>
     <string name="miui_oversize_a_date">"dd
 .
 MM"</string>
@@ -1868,6 +1869,12 @@ mm"</string>
     <string name="quick_settings_color_correction_label">Корекція кольору</string>
     <string name="quick_settings_connected">Під’єднано</string>
     <string name="quick_settings_connecting">З’єднання…</string>
+    <string name="quick_settings_coolingfan_lable">Вентилятор</string>
+    <string name="quick_settings_coolingfan_mode">Режим вентилятора</string>
+    <string name="quick_settings_coolingfan_mode_high">Продуктивність</string>
+    <string name="quick_settings_coolingfan_mode_silent">Тихий</string>
+    <string name="quick_settings_coolingfan_mode_smart">Смарт</string>
+    <string name="quick_settings_coolingfan_state_off">Вентилятор вимкнений</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Режим енергозбереження</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Вмикається о %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Вмикати на початку часу сну</string>
@@ -2308,6 +2315,8 @@ mm"</string>
     <string name="tile_unavailable">Недоступно</string>
     <string name="time_picker_label_hour">Г</string>
     <string name="time_picker_label_minute">Х</string>
+    <string name="tiny_accessibility_kg_battery_level">Батарея</string>
+    <string name="tiny_camera_content_description">Камера</string>
     <string name="tip_close_flares">Ви не будете отримувати сповіщення про дії програми під час цього сеансу.</string>
     <string name="title_for_empty_state_cta">Отримуйте швидкий доступ до віджетів улюблених додатків, не розблоковуючи планшет.</string>
     <string name="title_usb_accessory">Пристрій USB</string>

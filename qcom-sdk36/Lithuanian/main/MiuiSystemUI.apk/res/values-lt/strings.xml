@@ -853,6 +853,7 @@ Išjunkite paspausdami maitinimo mygtuką."</string>
     <string name="font_scaling_dialog_title">Šrifto dydis</string>
     <string name="font_scaling_larger">Padaryti didesnius</string>
     <string name="font_scaling_smaller">Padaryti mažesnius</string>
+    <string name="forget_password_string">Pamiršau slaptažodį</string>
     <string name="forget_password_string_for_esim"><u>Pamiršote PUK kodą</u></string>
     <string name="format_day_desc">Mėnesio diena: %s</string>
     <string name="format_day_week_desc">Mėnesio diena: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Palietę gausite daugiau informacijos"</string>
     <string name="kg_password_wrong_pin_code_pukked">Netinkamas SIM kortelės PIN kodas. Reikės susisiekti su operatoriumi, kad atrakintų įrenginį.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Netinkamas SIM kortelės PUK kodas. Jums liko # bandymas. Paskui visiškai nebegalėsite naudoti SIM kortelės.}one{Netinkamas SIM kortelės PUK kodas. Jums liko # bandymas. Paskui visiškai nebegalėsite naudoti SIM kortelės.}few{Netinkamas SIM kortelės PUK kodas. Jums liko # bandymai. Paskui visiškai nebegalėsite naudoti SIM kortelės.}many{Netinkamas SIM kortelės PUK kodas. Jums liko # bandymo. Paskui visiškai nebegalėsite naudoti SIM kortelės.}other{Netinkamas SIM kortelės PUK kodas. Jums liko # bandymų. Paskui visiškai nebegalėsite naudoti SIM kortelės.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM kortelės naudoti nebegalima. Susisiekite su operatoriumi.</string>
-    <string name="kg_primary_auth_locked_out_password">Per daug bandymų naudojant netinkamą slaptažodį</string>
-    <string name="kg_primary_auth_locked_out_pattern">Per daug bandymų naudojant netinkamą atrakinimo piešinį</string>
-    <string name="kg_primary_auth_locked_out_pin">Per daug bandymų naudojant netinkamą PIN kodą</string>
     <string name="kg_prompt_added_security_password">Norint užtikrinti papildomą saugą būtinas slaptažodis</string>
     <string name="kg_prompt_added_security_pattern">Norint užtikrinti papildomą saugą būtinas atrakinimo piešinys</string>
     <string name="kg_prompt_added_security_pin">Norint užtikrinti papildomą saugą būtinas PIN kodas</string>
@@ -1201,7 +1199,6 @@ Palietę gausite daugiau informacijos"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Išjunkite eSIM kortelę ir naudokite įrenginį be mobiliojo ryšio paslaugos.</string>
     <string name="kg_sim_pin_instructions">Įveskite SIM kortelės PIN kodą.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Atrakinama SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Bandykite dar kartą po # sekundės.}one{Bandykite dar kartą po # sekundės.}few{Bandykite dar kartą po # sekundžių.}many{Bandykite dar kartą po # sekundės.}other{Bandykite dar kartą po # sekundžių.}}</string>
     <string name="kg_trust_agent_disabled">Patikima priemonė nepasiekiama</string>
     <string name="kg_unlock_with_password_or_fp">Atrakinkite slaptažodžiu arba piršto atspaudu</string>
     <string name="kg_unlock_with_pattern_or_fp">Atrakinkite atrakinimo piešiniu arba piršto atspaudu</string>
@@ -1253,6 +1250,7 @@ perkeltumėte šią programą"</string>
     <string name="lockscreen_access_pattern_detected">Raktas baigtas</string>
     <string name="lockscreen_access_pattern_start">Šablonas pradėtas</string>
     <string name="lockscreen_none">Nėra</string>
+    <string name="lockscreen_reverse_charging_msg">Atvirkštinis įkrovimas</string>
     <string name="lockscreen_shortcut_left">Spartusis klavišas kairėje</string>
     <string name="lockscreen_shortcut_right">Spartusis klavišas dešinėje</string>
     <string name="lockscreen_unlock_left">Spartusis klavišas kairėje taip pat atrakina</string>
@@ -1338,7 +1336,7 @@ Jei neleisite šiai programai pasiekti visų įrenginio žurnalų, ji vis tiek g
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Bendrinti ekraną</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">Programoje „%1$s“ ši parinktis išjungta</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Nepalaiko programa</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Bendrinti ekraną su „%s“?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Pradėti įrašyti ar perduoti turinį naudojant „%s“?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Kai bendrinate visą ekraną, „%s“ matomas visas ekrano turinys. Todėl būkite atsargūs naudodami slaptažodžius, išsamią mokėjimo metodo informaciją, pranešimus, nuotraukas ir garso bei vaizdo įrašus.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Kai bendrinate programą, „%s“ matomas visas toje programoje rodomas ar leidžiamas turinys. Todėl būkite atsargūs naudodami slaptažodžius, išsamią mokėjimo metodo informaciją, pranešimus, nuotraukas ir garso bei vaizdo įrašus.</string>
     <string name="media_projection_entry_cast_app_selector_title">Norimos perduoti programos pasirinkimas</string>
@@ -1422,6 +1420,7 @@ M-d"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Rodyti tinkintus pranešimus iš „%1$s“, kuris yra pranešimų juostoje?</string>
     <string name="miui_notification_menu_msg_not_allow">Išjungti visus pranešimus iš %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Ketinate išjungti pranešimų išskyrimą elementui %1$s. Šie pranešimai bus rodomi įprastai. Išjungti dabar?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Tai sustabdys visus tiesioginius atnaujinimus iš %1$s. Nauji pranešimai bus rodomi įprastu formatu. Sustabdyti tiesioginius atnaujinimus dabar?</string>
     <string name="miui_notification_menu_setting_success">Baigta</string>
     <string name="miui_notification_menu_snooze">Snūstelėti</string>
     <string name="miui_notification_menu_title_custom_fold">Grupuoti tinkintus pranešimus</string>
@@ -1429,6 +1428,8 @@ M-d"</string>
     <string name="miui_notification_menu_title_no_drawable">Tęsti vidiniame lange</string>
     <string name="miui_notification_menu_title_not_allow">Išjungti</string>
     <string name="miui_notification_menu_unfocus">Išjungti pranešimų išskyrimą</string>
+    <string name="miui_notification_menu_unliveupdate">Stabdyti tiesioginius atnaujinimus</string>
+    <string name="miui_notification_slide_menu_ongoing">Apriboti nuolatinius pranešimus</string>
     <string name="miui_oversize_a_date">"M
 /
 d"</string>
@@ -1868,6 +1869,12 @@ Jei kyla klausimų, susisiekite su „%2$s“."</string>
     <string name="quick_settings_color_correction_label">Spalvų taisymas</string>
     <string name="quick_settings_connected">Prijungtas</string>
     <string name="quick_settings_connecting">Prisijungiama...</string>
+    <string name="quick_settings_coolingfan_lable">Aušinimo ventiliatorius</string>
+    <string name="quick_settings_coolingfan_mode">Ventiliatoriaus režimas</string>
+    <string name="quick_settings_coolingfan_mode_high">Efektyvumas</string>
+    <string name="quick_settings_coolingfan_mode_silent">Ramus</string>
+    <string name="quick_settings_coolingfan_mode_smart">Išmanus</string>
+    <string name="quick_settings_coolingfan_state_off">Aušinimo ventiliatorius išjungtas</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Akum. taus. priemonė</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">%s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Atėjus laikui miegoti</string>
@@ -2308,6 +2315,8 @@ Palietę gausite daugiau informacijos"</string>
     <string name="tile_unavailable">Nepasiekiama</string>
     <string name="time_picker_label_hour">V</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Akumuliatorius</string>
+    <string name="tiny_camera_content_description">Fotoaparatas</string>
     <string name="tip_close_flares">Šios sesijos metu negausite pranešimų apie programos veiksmus</string>
     <string name="title_for_empty_state_cta">Sparčiai pasiekite mėgstamiausius programų valdiklius neatrakinę planšetinio kompiuterio.</string>
     <string name="title_usb_accessory">USB reikmuo</string>

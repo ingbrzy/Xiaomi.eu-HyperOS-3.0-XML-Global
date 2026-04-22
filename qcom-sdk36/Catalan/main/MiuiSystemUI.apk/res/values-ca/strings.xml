@@ -853,6 +853,7 @@ Apagueu-la amb el Botó d'encesa."</string>
     <string name="font_scaling_dialog_title">Cos de font</string>
     <string name="font_scaling_larger">Amplia</string>
     <string name="font_scaling_smaller">Redueix</string>
+    <string name="forget_password_string">Contrasenya oblidada</string>
     <string name="forget_password_string_for_esim"><u>Heu oblidat el codi PUK</u></string>
     <string name="format_day_desc">Dia del mes: %s</string>
     <string name="format_day_week_desc">Dia del mes: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Toca per obtenir més informació."</string>
     <string name="kg_password_wrong_pin_code_pukked">"El codi PIN de la SIM no és correcte. Contacta amb l'operador de telefonia mòbil per desbloquejar el dispositiu."</string>
     <string name="kg_password_wrong_puk_code">"{count,plural, =1{El codi PUK de la SIM no és correcte. Et queda # intent; si no l'encertes, la SIM no es podrà tornar a fer servir.}many{El codi PUK de la SIM no és correcte. Et queden # intents; si no l'encertes, la SIM no es podrà tornar a fer servir.}other{El codi PUK de la SIM no és correcte. Et queden # intents; si no l'encertes, la SIM no es podrà tornar a fer servir.}}"</string>
     <string name="kg_password_wrong_puk_code_dead">"La SIM no es pot fer servir. Contacta amb l'operador de telefonia mòbil."</string>
-    <string name="kg_primary_auth_locked_out_password">Massa intents amb una contrasenya incorrecta</string>
-    <string name="kg_primary_auth_locked_out_pattern">Massa intents amb un patró incorrecte</string>
-    <string name="kg_primary_auth_locked_out_pin">Massa intents amb un PIN incorrecte</string>
     <string name="kg_prompt_added_security_password">Cal introduir la contrasenya per disposar de més seguretat</string>
     <string name="kg_prompt_added_security_pattern">Cal introduir el patró per disposar de més seguretat</string>
     <string name="kg_prompt_added_security_pin">Cal introduir el PIN per disposar de més seguretat</string>
@@ -1201,7 +1199,6 @@ Toca per obtenir més informació."</string>
     <string name="kg_sim_lock_esim_instructions">"%1$s Desactiva l'eSIM per utilitzar el dispositiu sense servei mòbil."</string>
     <string name="kg_sim_pin_instructions">Introdueix el PIN de la SIM.</string>
     <string name="kg_sim_unlock_progress_dialog_message">"S'està desbloquejant la targeta SIM…"</string>
-    <string name="kg_too_many_failed_attempts_countdown">"{count,plural, =1{Torna-ho a provar d'aquí a # segon.}many{Torna-ho a provar d'aquí a # segons.}other{Torna-ho a provar d'aquí a # segons.}}"</string>
     <string name="kg_trust_agent_disabled">"L'agent de confiança no està disponible"</string>
     <string name="kg_unlock_with_password_or_fp">Desbloqueja amb contrasenya o empremta</string>
     <string name="kg_unlock_with_pattern_or_fp">Desbloqueja amb patró o empremta</string>
@@ -1253,6 +1250,7 @@ moure aquesta aplicació"</string>
     <string name="lockscreen_access_pattern_detected">"S'ha completat el patró"</string>
     <string name="lockscreen_access_pattern_start">"S'ha iniciat el patró"</string>
     <string name="lockscreen_none">Cap</string>
+    <string name="lockscreen_reverse_charging_msg">Càrrega inversa</string>
     <string name="lockscreen_shortcut_left">"Drecera de l'esquerra"</string>
     <string name="lockscreen_shortcut_right">Drecera de la dreta</string>
     <string name="lockscreen_unlock_left">"La drecera de l'esquerra també desbloqueja el dispositiu"</string>
@@ -1338,7 +1336,7 @@ Encara que no permetis que aquesta aplicació accedeixi a tots els registres del
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Comparteix la pantalla</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s ha desactivat aquesta opció</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">"No és compatible amb l'aplicació"</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Vols compartir la pantalla amb %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Vols començar a gravar o emetre contingut amb %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">"Quan comparteixes tota la pantalla, qualsevol cosa que es mostra en pantalla és visible a %s. Per aquest motiu, ves amb compte amb les contrasenyes, les dades de pagament, els missatges, les fotos i l'àudio i el vídeo."</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">"Quan comparteixes una aplicació, %s pot veure qualsevol cosa que s'hi mostra o que s'hi reprodueix. Per aquest motiu, ves amb compte amb les contrasenyes, les dades de pagament, els missatges, les fotos i l'àudio i el vídeo."</string>
     <string name="media_projection_entry_cast_app_selector_title">Tria una aplicació per emetre</string>
@@ -1422,6 +1420,7 @@ d/M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Voleu mostrar les notificacions personalitzades de \"%1$s\" a la Barra de notificacions?</string>
     <string name="miui_notification_menu_msg_not_allow">Voleu desactivar totes les notificacions de %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Esteu a punt de desactivar el Destacat de notificacions per a %1$s. Aquestes notificacions es mostraran normalment. Voleu desactivar-la ara?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Això aturarà totes les actualitzacions en directe de %1$s. Les noves notificacions es mostraran en el format normal. Voleu aturar les actualitzacions en directe ara?</string>
     <string name="miui_notification_menu_setting_success">Fet</string>
     <string name="miui_notification_menu_snooze">Postposar</string>
     <string name="miui_notification_menu_title_custom_fold">Agrupa les notificacions personalitzades</string>
@@ -1429,6 +1428,8 @@ d/M"</string>
     <string name="miui_notification_menu_title_no_drawable">Continueu a la pantalla interior</string>
     <string name="miui_notification_menu_title_not_allow">Desactiva</string>
     <string name="miui_notification_menu_unfocus">Desactiva el destacat de notificacions</string>
+    <string name="miui_notification_menu_unliveupdate">Atura les actualitzacions en directe</string>
+    <string name="miui_notification_slide_menu_ongoing">Restringeix les notificacions permanents</string>
     <string name="miui_oversize_a_date">"d
 /
 M"</string>
@@ -1868,6 +1869,12 @@ Si tens cap pregunta, contacta amb %2$s."</string>
     <string name="quick_settings_color_correction_label">Correcció de color</string>
     <string name="quick_settings_connected">Connectat</string>
     <string name="quick_settings_connecting">"S'està connectant..."</string>
+    <string name="quick_settings_coolingfan_lable">Ventilador de refrigeració</string>
+    <string name="quick_settings_coolingfan_mode">Mode de ventilador</string>
+    <string name="quick_settings_coolingfan_mode_high">Rendiment</string>
+    <string name="quick_settings_coolingfan_mode_silent">Silenci</string>
+    <string name="quick_settings_coolingfan_mode_smart">Intel·ligent</string>
+    <string name="quick_settings_coolingfan_state_off">El ventilador de refrigeració està apagat</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Estalvi de bateria</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Activat a les %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">"Activat a l'hora de dormir"</string>
@@ -2308,6 +2315,8 @@ Toca per obtenir més informació."</string>
     <string name="tile_unavailable">No disponible</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Bateria</string>
+    <string name="tiny_camera_content_description">Càmera</string>
     <string name="tip_close_flares">"No rebràs notificacions sobre la conducta de l'aplicació durant aquesta sessió"</string>
     <string name="title_for_empty_state_cta">"Accedeix ràpidament als teus widgets d'aplicacions preferits sense desbloquejar la tauleta."</string>
     <string name="title_usb_accessory">Accessori USB</string>

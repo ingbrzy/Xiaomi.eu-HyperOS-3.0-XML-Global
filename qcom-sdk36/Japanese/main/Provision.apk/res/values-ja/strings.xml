@@ -64,7 +64,7 @@
     <string name="back">戻る</string>
     <string name="backup_introduction">このアプリを使用して、デバイス上のアイテムをバックアップおよび復元できます。</string>
     <string name="bluetooth_introduction">Bluetoothは、システムによりワイヤレス通信に使用されています。Bluetoothが正常に動作するには、以下のアクセス許可が必要です。</string>
-    <string name="bluetooth_usage_desc">初期設定により、このデバイスの基本的な環境設定を行うことができます。デバイスを正常に設定するために、Bluetoothシステムサービスは以下の権限を使用します。</string>
+    <string name="bluetooth_usage_desc">初期設定により、このデバイスの基本的な環境設定を行うことができます。デバイスを正常に設定するために、以下の権限が必要です。</string>
     <string name="boot_video_replay">もう一度再生</string>
     <string name="boot_video_skip">スキップ</string>
     <string name="calculator_introduction">このアプリは、計算、単位と通貨の変換、住宅ローンの返済の見積もりに使用できます。</string>
@@ -80,6 +80,7 @@
     <string name="carrier_introduction_china_rothko">ご利用者に提供するサービスの質を向上させるため、このデバイスで実行されるプログラム (SystemHelper、RegService、通信事業者サービスを含む) は、このデバイスまたは SIM カードに関する情報 (IMEI、IMSI、MSISDN、MEID、ICCID、MAC アドレス、システムバージョン、Android バージョン、デバイスモデル、基本的なハードウェア構成、電話番号を含む) と、おおよその位置情報 (地域、座標、近隣識別子、基地局 ID を含む) を、WLAN、モバイルネットワーク、または SMS 経由で通信事業者に送信する場合があります。通話を行う際、DCService はネットワークに接続します。通信事業者は、これらの情報が分析、サービス品質の向上、またはカスタマイズされたサービスや技術の提供にのみ使用され、個人を特定できるような形で第三者に共有されることは決してないことを保証します。詳細については、ご利用の通信事業者の関連声明を参照してください。関連するサービス料金については、通信事業者に直接お問い合わせください。</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>相互接続性機能を使用すると、デバイス間でのアイテムの転送や操作を行うことができます。この機能をオンにすると、&lt;a href=%1$s>プライバシーポリシー&lt;/a >に同意したことになります。このサービスはインターネットに接続し、次の権限にアクセスする必要があります:</Data></string>
+    <string name="china_mobile_components_manager_app">AI カスタムコンポーネントマネージャー</string>
     <string name="clearable_edittext_clear_description">消去</string>
     <string name="clock_introduction">このアプリでは、時刻の表示に加え、タイマー、世界時計、ストップウォッチの使用やアラームの設定などができます。</string>
     <string name="close">閉じる</string>
@@ -438,11 +439,13 @@
 送信されるデータには、このデバイスとその使用方法に関する一般的な情報が含まれます (例: バッテリー残量、システムとアプリのアクティビティやエラー)。これらのデータは、当社デバイスの改善のために使用されます。
 この機能をオフにしても、このデバイスはシステムのアップデートやセキュリティなどの重要なサービスに必要な情報を送信することができます。
 設定で「使用状況と診断データ」を検索すると、この機能をオン・オフできます。"</string>
-    <string name="other_settings_upload_debug_log_summary">診断情報やデバイスとアプリの使用状況データをXiaomiに自動的に送信することで、使用体験の向上に協力できます。これらの情報は、バッテリー駆動時間やシステムとアプリの安定性などの改善に役立ちます。</string>
+    <string name="other_settings_upload_debug_log_summary">"診断情報やデバイスとアプリの使用状況データを Xiaomi に自動的に送信することで、使用体験の向上に協力できます。これらの情報は、バッテリー駆動時間やシステムとアプリの安定性などの改善に役立ちます。 "</string>
     <string name="other_settings_upload_debug_log_title">使用状況と診断データを送信</string>
     <string name="other_settings_user_experience">ユーザーエクスペリエンスプログラム</string>
     <string name="other_settings_user_experience_summary">"使用状況の統計と分析結果を提供し、当社の製品やサービスの改善にご協力ください。 "</string>
     <string name="other_settings_user_experience_summary_index">詳細を表示</string>
+    <string name="other_settings_xiaomi_share">Xiaomi Share</string>
+    <string name="other_settings_xiaomi_share_summary"><Data>Xiaomi Shareを使用すると、デバイス間でファイルを転送できます。スイッチをオンにすると、Xiaomi Shareの&lt;a href=%1$s>プライバシーポリシー&lt;/a>に同意したことになります。&lt;br/>システムバージョンやデバイスモデルの違いにより、お使いのデバイスにおけるXiaomi Shareの機能は異なる場合があります。詳細は公式ウェブサイトをご確認ください。</Data></string>
     <string name="permission_MIUIDaemon_introduction">システム Daemonを使用すると、デバイスの画面が破損した場合にデバイスからデータを転送することができます。</string>
     <string name="permission_access_calendar">カレンダーへのアクセス</string>
     <string name="permission_access_calendar_fast_application_summary">クイックアプリにカレンダーへのアクセスを許可するため;</string>
@@ -457,6 +460,8 @@
     <string name="permission_call_records_describe_bluetooth_summary">このデバイスに接続されている他の互換性のあるデバイスが通話履歴にアクセスできるようにするために使用されます。これは、他のデバイス経由で通話履歴の使用を積極的に要求した場合にのみ発生します。システムによりBluetoothで共有された通話履歴や連絡先は、ローカルにキャッシュされ、ご利用者の許可を得たデバイスにのみ共有されます。</string>
     <string name="permission_call_records_introduction">ブロックしたアイテムを表示するために通話履歴にアクセスするため</string>
     <string name="permission_call_state_introduction">電話ステータスへのアクセス、通話の録音、着信時の録音の一時停止のため</string>
+    <string name="permission_china_mobile_ai_function">デバイスの固有識別子 (IMEI) および電話番号</string>
+    <string name="permission_china_mobile_ai_function_describe">カスタマイズされた China Mobile のスマート端末デバイスでパーソナライズされた情報を表示するには、初期設定プロセス中に以下の情報にアクセスし、China Mobile と同期する必要があります。</string>
     <string name="permission_clock_info_introduction">アラームデータを保存するため</string>
     <string name="permission_contact">連絡先へのアクセス</string>
     <string name="permission_contact_describe">連絡先へのアクセス</string>
@@ -510,6 +515,8 @@
     <string name="permission_quality_describe_summary">アプリのクラッシュに関する情報を収集するため</string>
     <string name="permission_read_app_list">このデバイスにインストールされているアプリのリストへのアクセス</string>
     <string name="permission_read_application_list_summary">ダウンロードしたアプリのアップデートや、パッケージインストーラーで使用するアプリ情報の確認を行うため;</string>
+    <string name="permission_read_apps">このデバイスにインストールされているアプリのリストへのアクセス</string>
+    <string name="permission_read_apps_introduction">ネットワークアクセスとデータ使用状況の統計</string>
     <string name="permission_read_call_records">通話履歴の編集</string>
     <string name="permission_read_call_records_introduction">通話履歴にアイテムを追加し、ブロックした通話を削除するため</string>
     <string name="permission_read_contacts">連絡先へのアクセス</string>
@@ -816,6 +823,7 @@
     <string name="title_recent_tasks_style">最近のタスクのレイアウト</string>
     <string name="title_set_fingerprint">画面ロック</string>
     <string name="title_setting_up_face">顔データを設定</string>
+    <string name="title_stacked_layout">スタック</string>
     <string name="title_vertical_layout">縦</string>
     <string name="today">今日</string>
     <string name="tomorrow">明日</string>

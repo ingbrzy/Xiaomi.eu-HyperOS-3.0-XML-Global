@@ -853,6 +853,7 @@
     <string name="font_scaling_dialog_title">Размер на шрифта</string>
     <string name="font_scaling_larger">Увеличаване на размера</string>
     <string name="font_scaling_smaller">Намаляване на размера</string>
+    <string name="forget_password_string">Забравена парола</string>
     <string name="forget_password_string_for_esim"><u>Забравен PUK код?</u></string>
     <string name="format_day_desc">Ден от месеца: %s</string>
     <string name="format_day_week_desc">Ден от месеца: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@
     <string name="kg_password_wrong_pin_code_pukked">Неправилен ПИН код за SIM картата – сега трябва да се свържете с оператора си, за да отключите устройството.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Неправилен PUK код за SIM картата. Остава ви # опит, преди тя да стане неизползваема завинаги.}other{Неправилен PUK код за SIM картата. Остават ви # опита, преди тя да стане неизползваема завинаги.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM картата е неизползваема. Свържете се с оператора си.</string>
-    <string name="kg_primary_auth_locked_out_password">Твърде много опити с грешна парола</string>
-    <string name="kg_primary_auth_locked_out_pattern">Твърде много опити с грешна фигура</string>
-    <string name="kg_primary_auth_locked_out_pin">Твърде много опити с грешен ПИН код</string>
     <string name="kg_prompt_added_security_password">За допълнителна сигурност се изисква парола</string>
     <string name="kg_prompt_added_security_pattern">За допълнителна сигурност се изисква фигура</string>
     <string name="kg_prompt_added_security_pin">За допълнителна сигурност се изисква ПИН код</string>
@@ -1201,7 +1199,6 @@
     <string name="kg_sim_lock_esim_instructions">%1$s Деактивирайте електронната SIM карта, за да използвате устройството без мобилна услуга.</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата.</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Опитайте отново след # секунда.}other{Опитайте отново след # секунди.}}</string>
     <string name="kg_trust_agent_disabled">Функцията за надежден агент не е налице</string>
     <string name="kg_unlock_with_password_or_fp">Отключ. с парола/отпечатък</string>
     <string name="kg_unlock_with_pattern_or_fp">Отключ. с фигура/отпечатък</string>
@@ -1253,6 +1250,7 @@
     <string name="lockscreen_access_pattern_detected">Фигурата е завършена</string>
     <string name="lockscreen_access_pattern_start">Фигурата е започната</string>
     <string name="lockscreen_none">Няма</string>
+    <string name="lockscreen_reverse_charging_msg">Обратно зареждане</string>
     <string name="lockscreen_shortcut_left">Ляв пряк път</string>
     <string name="lockscreen_shortcut_right">Десен пряк път</string>
     <string name="lockscreen_unlock_left">Левият пряк път също служи за отключване</string>
@@ -1338,7 +1336,7 @@
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Споделяне на екрана</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s деактивира тази опция</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Не се поддържа от приложението</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Да се сподели ли екранът ви с(ъс) %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Искате ли да стартирате записване или предаване чрез %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Когато споделяте целия си екран, всичко, което се показва на него, е видимо за %s. Затова бъдете внимателни с неща като пароли, подробности за начини на плащане, съобщения, снимки, аудио и видео.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Когато споделяте приложение, всичко, което се показва или възпроизвежда в него, е видимо за %s. Затова бъдете внимателни с неща като пароли, подробности за начини на плащане, съобщения, снимки, аудио и видео.</string>
     <string name="media_projection_entry_cast_app_selector_title">Изберете приложение за предаване</string>
@@ -1422,6 +1420,7 @@ d.M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Показване на персонализираните известия от \"%1$s\" в Лентата с известия?</string>
     <string name="miui_notification_menu_msg_not_allow">Изключване на всички известия от %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">На път сте да изключите Акцентирани известия за %1$s. Тези известия ще се показват нормално. Изключване сега?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Това ще спре всички актуализации на живо от %1$s. Новите известия ще се показват в обикновен формат. Спиране на актуализациите на живо сега?</string>
     <string name="miui_notification_menu_setting_success">Готово</string>
     <string name="miui_notification_menu_snooze">Отлагане</string>
     <string name="miui_notification_menu_title_custom_fold">Групиране на персонализирани известия</string>
@@ -1429,6 +1428,8 @@ d.M"</string>
     <string name="miui_notification_menu_title_no_drawable">Продължете на вътрешния екран</string>
     <string name="miui_notification_menu_title_not_allow">Изключване</string>
     <string name="miui_notification_menu_unfocus">Изключване на Акцентирани известия</string>
+    <string name="miui_notification_menu_unliveupdate">Спри актуализациите на живо</string>
+    <string name="miui_notification_slide_menu_ongoing">Ограничаване на постоянните известия</string>
     <string name="miui_oversize_a_date">"dd
 .
 MM"</string>
@@ -1868,6 +1869,12 @@ mm"</string>
     <string name="quick_settings_color_correction_label">Корекция на цветове</string>
     <string name="quick_settings_connected">Установена е връзка</string>
     <string name="quick_settings_connecting">Установява се връзка...</string>
+    <string name="quick_settings_coolingfan_lable">Вентилатор за охлаждане</string>
+    <string name="quick_settings_coolingfan_mode">Режим „вентилатор“</string>
+    <string name="quick_settings_coolingfan_mode_high">Ефективност</string>
+    <string name="quick_settings_coolingfan_mode_silent">Тих</string>
+    <string name="quick_settings_coolingfan_mode_smart">Смарт</string>
+    <string name="quick_settings_coolingfan_state_off">Вентилаторът за охлаждане е изключен</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Запазв. на батерията</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Ще се включи в %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Включване, когато стане време за сън</string>
@@ -2308,6 +2315,8 @@ mm"</string>
     <string name="tile_unavailable">Не е налице</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Батерия</string>
+    <string name="tiny_camera_content_description">Камера</string>
     <string name="tip_close_flares">Няма да можете да получавате известия относно поведението на приложението по време на тази сесия</string>
     <string name="title_for_empty_state_cta">Получете бърз достъп до любимите си приспособления за приложения, без да отключвате таблета си.</string>
     <string name="title_usb_accessory">Аксесоар за USB</string>

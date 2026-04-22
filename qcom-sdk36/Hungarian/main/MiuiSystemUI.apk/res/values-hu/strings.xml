@@ -853,6 +853,7 @@ Kapcsolja ki a bekapcsológombbal."</string>
     <string name="font_scaling_dialog_title">Betűméret</string>
     <string name="font_scaling_larger">Nagyobb</string>
     <string name="font_scaling_smaller">Kisebb</string>
+    <string name="forget_password_string">Elfelejtett jelszó</string>
     <string name="forget_password_string_for_esim"><u>Elfelejtette PUK-kódot?</u></string>
     <string name="format_day_desc">A hónap napja: %s,</string>
     <string name="format_day_week_desc">A hónap napja: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Koppintson, ha további információra van szüksége."</string>
     <string name="kg_password_wrong_pin_code_pukked">Helytelen PIN-kód a SIM-kártyához. Az eszköz feloldása érdekében, kérjük, vegye fel a kapcsolatot szolgáltatójával.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Helytelen PUK-kód a SIM-kártyához. Még # próbálkozása maradt, mielőtt a SIM-kártya végleg használhatatlanná válik.}other{Helytelen PUK-kód a SIM-kártyához; még # próbálkozása van, mielőtt a SIM-kártya végleg használhatatlan lesz.}}</string>
     <string name="kg_password_wrong_puk_code_dead">A SIM-kártya használhatatlan. Vegye fel a kapcsolatot szolgáltatójával.</string>
-    <string name="kg_primary_auth_locked_out_password">Túl sok próbálkozás helytelen jelszóval</string>
-    <string name="kg_primary_auth_locked_out_pattern">Túl sok próbálkozás helytelen mintával</string>
-    <string name="kg_primary_auth_locked_out_pin">Túl sok próbálkozás helytelen PIN-kóddal</string>
     <string name="kg_prompt_added_security_password">A nagyobb biztonság érdekében jelszó szükséges</string>
     <string name="kg_prompt_added_security_pattern">A nagyobb biztonság érdekében minta szükséges</string>
     <string name="kg_prompt_added_security_pin">A nagyobb biztonság érdekében PIN-kód szükséges</string>
@@ -1201,7 +1199,6 @@ Koppintson, ha további információra van szüksége."</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Tiltsa le az e-SIM-et az eszköz mobilszolgáltatás nélküli használatához.</string>
     <string name="kg_sim_pin_instructions">Adja meg a SIM-kártya PIN-kódját.</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM zárolásának feloldása…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Próbálja újra # másodperc múlva.}other{Próbálja újra # másodperc múlva.}}</string>
     <string name="kg_trust_agent_disabled">A trust agent komponens nem áll rendelkezésre</string>
     <string name="kg_unlock_with_password_or_fp">Feloldás jelszóval vagy ujjlenyomattal</string>
     <string name="kg_unlock_with_pattern_or_fp">Feloldás mintával vagy ujjlenyomattal</string>
@@ -1253,6 +1250,7 @@ az alkalmazás áthelyezéséhez"</string>
     <string name="lockscreen_access_pattern_detected">A feloldóminta befejezve</string>
     <string name="lockscreen_access_pattern_start">A feloldóminta elkezdődött</string>
     <string name="lockscreen_none">Nincs</string>
+    <string name="lockscreen_reverse_charging_msg">Fordított töltés</string>
     <string name="lockscreen_shortcut_left">Bal oldali parancsikon</string>
     <string name="lockscreen_shortcut_right">Jobb oldali parancsikon</string>
     <string name="lockscreen_unlock_left">A bal oldali parancsikon szintén feloldja a zárolást</string>
@@ -1338,7 +1336,7 @@ Ha nem engedélyezi ennek az alkalmazásnak, hogy hozzáférjen az összes eszk�
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Képernyő megosztása</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s letiltotta ezt a beállítást</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Nem támogatja az alkalmazás</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Megosztja a képernyőjét a(z) %s alkalmazással?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Elkezdi a rögzítést vagy az átküldést a következővel: %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">A teljes képernyő megosztása esetén a képernyő teljes tartalma látható lesz a(z) %s számára. Ezért legyen elővigyázatos a jelszavakkal, a fizetési adatokkal, az üzenetekkel, a fotókkal, valamint a hang- és videófelvételekkel.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Alkalmazás megosztása közben az adott appban megjelenített vagy lejátszott minden tartalom látható a(z) %s számára. Ezért legyen elővigyázatos a jelszavakkal, a fizetési adatokkal, az üzenetekkel, a fotókkal, valamint a hang- és videófelvételekkel.</string>
     <string name="media_projection_entry_cast_app_selector_title">Válassza ki az átküldeni kívánt alkalmazást</string>
@@ -1422,6 +1420,7 @@ M. d."</string>
     <string name="miui_notification_menu_msg_custom_unfold">\"%1$s\" egyéni értesítéseit mutassa az \"Értesítési felületen\"?</string>
     <string name="miui_notification_menu_msg_not_allow">Kikapcsolja a(z) %1$s összes értesítését?</string>
     <string name="miui_notification_menu_msg_unfocus">Arra készül, hogy kikapcsolja az Értesítések kiemelését a(z) %1$s alkalmazáshoz. Ezek az értesítések a megszokott módon jelennek meg. Kikapcsolja most?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Ez leállítja az összes élő frissítést innen: %1$s. Az új értesítések a szokásos formátumban jelennek meg. Most leállítja az élő frissítéseket?</string>
     <string name="miui_notification_menu_setting_success">Kész</string>
     <string name="miui_notification_menu_snooze">Szundi</string>
     <string name="miui_notification_menu_title_custom_fold">Egyéni értesítések csoportosítása</string>
@@ -1429,6 +1428,8 @@ M. d."</string>
     <string name="miui_notification_menu_title_no_drawable">Folytatás a belső képernyőn</string>
     <string name="miui_notification_menu_title_not_allow">Kikapcsolom</string>
     <string name="miui_notification_menu_unfocus">Értesítések kiemelésének kikapcsolása</string>
+    <string name="miui_notification_menu_unliveupdate">Élő frissítések leállítása</string>
+    <string name="miui_notification_slide_menu_ongoing">Az állandó értesítések korlátozása</string>
     <string name="miui_oversize_a_date">"MM
 .
 dd"</string>
@@ -1868,6 +1869,12 @@ Ha kérdései vannak, forduljon a következőhöz: %2$s."</string>
     <string name="quick_settings_color_correction_label">Színkorrekció</string>
     <string name="quick_settings_connected">Csatlakoztatva</string>
     <string name="quick_settings_connecting">Csatlakozás…</string>
+    <string name="quick_settings_coolingfan_lable">Hűtőventilátor</string>
+    <string name="quick_settings_coolingfan_mode">Ventilátor mód</string>
+    <string name="quick_settings_coolingfan_mode_high">Teljesítmény</string>
+    <string name="quick_settings_coolingfan_mode_silent">Csendes</string>
+    <string name="quick_settings_coolingfan_mode_smart">Intelligens</string>
+    <string name="quick_settings_coolingfan_state_off">A hűtőventilátor ki van kapcsolva</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Akkumulátorkímélő mód</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Be: %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Bekapcsol alvásidőkor</string>
@@ -2308,6 +2315,8 @@ Koppintson, ha további információra van szüksége."</string>
     <string name="tile_unavailable">Nem használható</string>
     <string name="time_picker_label_hour">Ó</string>
     <string name="time_picker_label_minute">P</string>
+    <string name="tiny_accessibility_kg_battery_level">Akkumulátor</string>
+    <string name="tiny_camera_content_description">Kamera</string>
     <string name="tip_close_flares">A munkamenet során nem kap értesítést az alkalmazások viselkedéséről</string>
     <string name="title_for_empty_state_cta">Táblagépe feloldása nélkül, gyorsan hozzáférhet kedvenc alkalmazásmoduljaihoz.</string>
     <string name="title_usb_accessory">USB-kellék</string>

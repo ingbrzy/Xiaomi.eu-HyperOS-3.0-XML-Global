@@ -853,6 +853,7 @@ Vypnete ju môžete stlačením Tlačidla napájania."</string>
     <string name="font_scaling_dialog_title">Veľkosť písma</string>
     <string name="font_scaling_larger">Zväčšiť</string>
     <string name="font_scaling_smaller">Zmenšiť</string>
+    <string name="forget_password_string">Zabudnuté heslo</string>
     <string name="forget_password_string_for_esim"><u>Zabudnutý PUK kód</u></string>
     <string name="format_day_desc">Deň v mesiaci: %s,</string>
     <string name="format_day_week_desc">Deň v mesiaci: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Viac sa dozviete po klepnutí."</string>
     <string name="kg_password_wrong_pin_code_pukked">Nesprávny kód PIN SIM karty. Teraz musíte kontaktovať svojho operátora, aby vám odomkol zariadenie.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Nesprávny kód PUK SIM karty. Zostáva vám # pokus, potom sa SIM karta natrvalo zablokuje.}few{Nesprávny kód PUK SIM karty. Zostávajú vám # pokusy, potom sa SIM karta natrvalo zablokuje.}many{Incorrect SIM PUK code, you have # remaining attempts before SIM becomes permanently unusable.}other{Nesprávny kód PUK SIM karty. Zostáva vám # pokusov, potom sa SIM karta natrvalo zablokuje.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM karta je nepoužiteľná. Kontaktujte svojho operátora.</string>
-    <string name="kg_primary_auth_locked_out_password">Priveľa pokusov s nesprávnym heslom</string>
-    <string name="kg_primary_auth_locked_out_pattern">Priveľa pokusov s nesprávnym vzorom</string>
-    <string name="kg_primary_auth_locked_out_pin">Priveľa pokusov s nesprávnym kódom PIN</string>
     <string name="kg_prompt_added_security_password">Zvýšenie zabezpečenia vyžaduje heslo</string>
     <string name="kg_prompt_added_security_pattern">Zvýšenie zabezpečenia vyžaduje vzor</string>
     <string name="kg_prompt_added_security_pin">Zvýšenie zabezpečenia vyžaduje kód PIN</string>
@@ -1201,7 +1199,6 @@ Viac sa dozviete po klepnutí."</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Zakážte eSIM kartu a používajte zariadenie bez mobilnej služby.</string>
     <string name="kg_sim_pin_instructions">Zadajte PIN pre SIM kartu</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM karta sa odomyká…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Skúste to znova o # sekundu.}few{Skúste to znova o # sekundy.}many{Skúste to znova o # sekundy.}other{Skúste to znova o # sekúnd.}}</string>
     <string name="kg_trust_agent_disabled">Agent dôvery nie je k dispozícii</string>
     <string name="kg_unlock_with_password_or_fp">Odomknúť heslom/odtlačkom</string>
     <string name="kg_unlock_with_pattern_or_fp">Odomknúť vzorom/odtlačkom</string>
@@ -1253,6 +1250,7 @@ presuniete dvojitým klepnutím"</string>
     <string name="lockscreen_access_pattern_detected">Vzor dokončený</string>
     <string name="lockscreen_access_pattern_start">Vzor spustený</string>
     <string name="lockscreen_none">Žiadna</string>
+    <string name="lockscreen_reverse_charging_msg">Reverzné nabíjanie</string>
     <string name="lockscreen_shortcut_left">Odkaz vľavo</string>
     <string name="lockscreen_shortcut_right">Odkaz vpravo</string>
     <string name="lockscreen_unlock_left">Ľavá skratka tiež odomkne</string>
@@ -1338,7 +1336,7 @@ Ak tejto aplikácii nepovolíte prístup k všetkým denníkom zariadenia, stá
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Zdieľať obrazovku</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">Aplikácia %1$s túto možnosť zakázala</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Aplikácia to nepodporuje</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Chcete zdieľať obrazovku s aplikáciou %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Chcete spustiť nahrávanie alebo prenos s aktivovaným povolením %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Pri zdieľaní celej obrazovky vidí aplikácia %s všetko, čo sa na nej zobrazuje. Preto zvýšte pozornosť v prípade položiek, ako sú heslá, platobné údaje, správy, fotky a zvuk či video.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Pri zdieľaní aplikácie vidí aplikácia %s všetko, čo sa v zdieľanej aplikácii zobrazuje alebo prehráva. Preto zvýšte pozornosť v prípade položiek, ako sú heslá, platobné údaje, správy, fotky a zvuk či video.</string>
     <string name="media_projection_entry_cast_app_selector_title">Výber aplikácie na prenos</string>
@@ -1422,6 +1420,7 @@ d. M."</string>
     <string name="miui_notification_menu_msg_custom_unfold">Zobraziť vlastné upozornenia z \"%1$s\" v Notifikačnej roletke?</string>
     <string name="miui_notification_menu_msg_not_allow">Vypnúť všetky upozornenia z aplikácie %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Chystáte sa vypnúť zvýraznenie upozornenia pre %1$s. Tieto upozornenia sa zobrazia normálne. Vypnúť teraz?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Toto zastaví všetky živé aktualizácie z aplikácie %1$s. Nové upozornenia sa budú zobrazovať v bežnom formáte. Zastaviť živé aktualizácie teraz?</string>
     <string name="miui_notification_menu_setting_success">Hotovo</string>
     <string name="miui_notification_menu_snooze">Odložiť</string>
     <string name="miui_notification_menu_title_custom_fold">Zoskupiť vlastné upozornenia</string>
@@ -1429,6 +1428,8 @@ d. M."</string>
     <string name="miui_notification_menu_title_no_drawable">Pokračujte na vnútornej obrazovke</string>
     <string name="miui_notification_menu_title_not_allow">Vypnúť</string>
     <string name="miui_notification_menu_unfocus">Vypnúť zvýraznenie upozornenia</string>
+    <string name="miui_notification_menu_unliveupdate">Zastaviť živé aktualizácie</string>
+    <string name="miui_notification_slide_menu_ongoing">Zakázať trvalé upozornenia</string>
     <string name="miui_oversize_a_date">"d
 /
 M"</string>
@@ -1868,6 +1869,12 @@ V prípade otázok kontaktujte organizáciu %2$s."</string>
     <string name="quick_settings_color_correction_label">Úprava farieb</string>
     <string name="quick_settings_connected">Pripojené</string>
     <string name="quick_settings_connecting">Pripája sa...</string>
+    <string name="quick_settings_coolingfan_lable">Ventilátor</string>
+    <string name="quick_settings_coolingfan_mode">Režim ventilátoru</string>
+    <string name="quick_settings_coolingfan_mode_high">Výkonný</string>
+    <string name="quick_settings_coolingfan_mode_silent">Tichý</string>
+    <string name="quick_settings_coolingfan_mode_smart">Inteligentný</string>
+    <string name="quick_settings_coolingfan_state_off">Ventilátor je vypnutý</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Šetrič batérie</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Zapne sa o %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Zapnuté pri večierke</string>
@@ -2308,6 +2315,8 @@ Viac sa dozviete po klepnutí."</string>
     <string name="tile_unavailable">Nedostupné</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Batéria</string>
+    <string name="tiny_camera_content_description">Fotoaparát</string>
     <string name="tip_close_flares">Počas tejto relácie nebudete dostávať upozornenia na správanie aplikácie</string>
     <string name="title_for_empty_state_cta">Majte k dispozícii rýchly prístup k svojim obľúbeným miniaplikáciám bez odomykania tabletu</string>
     <string name="title_usb_accessory">Periférne zariadenie USB</string>

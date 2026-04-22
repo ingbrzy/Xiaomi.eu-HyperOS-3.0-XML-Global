@@ -64,7 +64,7 @@
     <string name="back">Înapoi</string>
     <string name="backup_introduction">Puteți utiliza această aplicație pentru a face copii de rezervă și a restabili elementele de pe dispozitiv.</string>
     <string name="bluetooth_introduction">Bluetooth este utilizat de sistem pentru comunicații wireless. Pentru a putea funcționa normal, Bluetooth are nevoie de următoarele permisiuni:</string>
-    <string name="bluetooth_usage_desc">Initial setup allows you to set your basic preferences for this device. To set up your device successfully, Bluetooth system services will use the following permissions:</string>
+    <string name="bluetooth_usage_desc">Configurarea inițială vă permite să setați preferințele de bază pentru acest dispozitiv. Pentru a configura dispozitivul cu succes, sunt necesare următoarele permisiuni:</string>
     <string name="boot_video_replay">Redă din nou</string>
     <string name="boot_video_skip">Treci peste</string>
     <string name="calculator_introduction">Puteți utiliza această aplicație pentru calcule, conversie de unități, valute și pentru estimarea rambursărilor ipotecare.</string>
@@ -80,6 +80,7 @@
     <string name="carrier_introduction_china_rothko">Pentru a îmbunătăți calitatea serviciilor oferite, programele care rulează pe acest dispozitiv (inclusiv serviciile SystemHelper, RegService și Carrier) pot trimite informații despre acest dispozitiv sau cartela SIM (inclusiv IMEI, IMSI, MSISDN, MEID, ICCID, adresa MAC, versiunea sistemului, versiunea Android, modelul dispozitivului, configurația hardware de bază și numărul de telefon), precum și locația dvs. aproximativă (inclusiv regiunea, coordonatele, identificatorul cartierului și ID-ul stației de bază), către operatorul dvs. prin WLAN, rețele mobile sau SMS. Când efectuați apeluri, DCService se va conecta la rețea. Operatorii de telefonie mobilă garantează că aceste informații vor fi utilizate numai pentru analiză, îmbunătățirea calității serviciilor sau pentru furnizarea de servicii sau tehnologii personalizate și nu vor fi niciodată partajate cu nimeni într-un mod care ar putea permite să vă identifice personal. Consultați declarația relevantă de la operatorul dvs. pentru detalii. Puteți întreba despre toate taxele de servicii aferente direct de la operatorul dvs.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Cu ajutorul funcției Interconectivitate, puteți transfera elemente între dispozitive și puteți utiliza controale între dispozitive. Activarea acestei funcții indică faptul că sunteți de acord cu &lt;a href=%1$s>Politica de confidențialitate&lt;/a >. Acest serviciu trebuie să se conecteze la internet și să acceseze următoarele permisiuni:</Data></string>
+    <string name="china_mobile_components_manager_app">Manager de componente personalizate IA</string>
     <string name="clearable_edittext_clear_description">Șterge</string>
     <string name="clock_introduction">Puteți utiliza această aplicație pentru a vizualiza ora, precum și pentru a utiliza temporizatorul, ceasul mondial, cronometrul, setați alarme și multe altele.</string>
     <string name="close">Închide</string>
@@ -438,11 +439,13 @@ Puteți dezactiva actualizările automate în GetApps > Setări > Actualizări a
 Datele pe care le vei trimite vor conține informații generale despre acest dispozitiv și despre modul în care îl utilizezi (de exemplu: nivelul bateriei, activitatea sistemului și a aplicațiilor și erorile). Datele vor fi utilizate pentru a îmbunătăți dispozitivele noastre.
 Dezactivarea acestei funcții nu afectează capacitatea acestui dispozitiv de a trimite informațiile necesare pentru servicii esențiale, cum ar fi actualizările de sistem și securitatea.
 Poți activa sau dezactiva această funcție căutând \"Utilizare și diagnosticare\" în Setări."</string>
-    <string name="other_settings_upload_debug_log_summary">Contribuiți la îmbunătățirea experienței trimițând date despre diagnostic, dispozitiv și utilizare a aplicației către Xiaomi. Acest lucru va ajuta la îmbunătățirea duratei de viață a bateriei, a stabilității sistemului, a aplicațiilor și multe altele.</string>
+    <string name="other_settings_upload_debug_log_summary">"Contribuiți la îmbunătățirea experienței trimițând date despre diagnostic, dispozitiv și utilizare a aplicației către Xiaomi. Acest lucru va ajuta la îmbunătățirea duratei de viață a bateriei, a stabilității sistemului, a aplicațiilor și multe altele. "</string>
     <string name="other_settings_upload_debug_log_title">Trimiteți date de utilizare și de diagnosticare</string>
     <string name="other_settings_user_experience">Program Experiență Utilizator</string>
     <string name="other_settings_user_experience_summary">"Ajutați-ne să ne îmbunătățim produsele și serviciile, împărtășind statisticile dvs. de utilizare și analizele cu noi. "</string>
     <string name="other_settings_user_experience_summary_index">Vezi detalii</string>
+    <string name="other_settings_xiaomi_share">Xiaomi Share</string>
+    <string name="other_settings_xiaomi_share_summary"><Data>Cu Xiaomi Share, puteți transfera fișiere între dispozitive. Prin activarea comutatorului, sunteți de acord cu &lt;a href=%1$s>Politica de confidențialitate&lt;/a> Xiaomi Share.&lt;br/>Din cauza variațiilor dintre versiunile de sistem și modelele de dispozitive, funcționalitatea Xiaomi Share pentru dispozitivul dvs. actual poate varia. Consultați site-ul oficial pentru mai multe informații.</Data></string>
     <string name="permission_MIUIDaemon_introduction">Sistemul Daemon vă permite să transferați date de pe dispozitiv atunci când ecranul său este deteriorat.</string>
     <string name="permission_access_calendar">Accesare calendar</string>
     <string name="permission_access_calendar_fast_application_summary">Pentru a permite aplicațiilor rapide să acceseze calendarul;</string>
@@ -457,6 +460,8 @@ Poți activa sau dezactiva această funcție căutând \"Utilizare și diagnosti
     <string name="permission_call_records_describe_bluetooth_summary">Pentru a permite altor dispozitive compatibile pe care le conectați la acest dispozitiv să acceseze istoricul apelurilor. Acest lucru se va întâmpla numai atunci când solicitați în mod proactiv utilizarea istoricului apelurilor prin alt dispozitiv. Istoricul apelurilor și contactele partajate de sistem prin Bluetooth vor fi stocate în cache doar local pe dispozitivele dvs. și partajate cu ei cu permisiunea dvs.</string>
     <string name="permission_call_records_introduction">Pentru accesarea istoricului apelurilor pentru a afișa articole blocate</string>
     <string name="permission_call_state_introduction">Pentru accesarea stării telefonului, înregistrarea apelurilor și întreruperea înregistrărilor în timpul apelurilor de intrare</string>
+    <string name="permission_china_mobile_ai_function">Identificatorul unic (IMEI) și numărul de telefon al dispozitivului</string>
+    <string name="permission_china_mobile_ai_function_describe">Pentru a afișa informații personalizate pe dispozitivele inteligente personalizate China Mobile, următoarele informații trebuie accesate și sincronizate cu China Mobile în timpul procesului de configurare inițială:</string>
     <string name="permission_clock_info_introduction">Pentru salvarea datelor de alarmă</string>
     <string name="permission_contact">Accesează contacte</string>
     <string name="permission_contact_describe">Accesare contacte</string>
@@ -510,6 +515,8 @@ Poți activa sau dezactiva această funcție căutând \"Utilizare și diagnosti
     <string name="permission_quality_describe_summary">Pentru colectarea de informații despre blocările aplicațiilor</string>
     <string name="permission_read_app_list">Accesați lista aplicațiilor instalate pe acest dispozitiv</string>
     <string name="permission_read_application_list_summary">Pentru actualizarea aplicațiilor descărcate și confirmarea informațiilor aplicației utilizate de instalatorul de pachete;</string>
+    <string name="permission_read_apps">Accesare lista aplicațiilor instalate pe acest dispozitiv</string>
+    <string name="permission_read_apps_introduction">Pentru statistici privind accesul la rețea și utilizarea datelor;</string>
     <string name="permission_read_call_records">Editează istoricul apelurilor</string>
     <string name="permission_read_call_records_introduction">Pentru adăugarea elementelor în istoricul apelurilor și ștergerea apelurilor blocate</string>
     <string name="permission_read_contacts">Accesarea contactelor</string>
@@ -816,6 +823,7 @@ Trebuie să fiți de acord cu Politica de confidențialitate Tastatură Mint în
     <string name="title_recent_tasks_style">Aspecte recente</string>
     <string name="title_set_fingerprint">Blocare ecran</string>
     <string name="title_setting_up_face">Setați date faciale</string>
+    <string name="title_stacked_layout">Stivuit</string>
     <string name="title_vertical_layout">Vertical</string>
     <string name="today">Astăzi</string>
     <string name="tomorrow">Mâine</string>

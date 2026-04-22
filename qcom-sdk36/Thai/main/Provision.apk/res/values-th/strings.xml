@@ -64,7 +64,7 @@
     <string name="back">ย้อนกลับ</string>
     <string name="backup_introduction">คุณสามารถใช้แอปนี้เพื่อสำรองและกู้คืนรายการในอุปกรณ์ของคุณ</string>
     <string name="bluetooth_introduction">ระบบใช้บลูทูธสำหรับการสื่อสารแบบไร้สาย เพื่อให้สามารถทำงานได้ตามปกติ บลูทูธจำเป็นต้องได้รับการอนุญาตดังต่อไปนี้:</string>
-    <string name="bluetooth_usage_desc">Initial setup allows you to set your basic preferences for this device. To set up your device successfully, Bluetooth system services will use the following permissions:</string>
+    <string name="bluetooth_usage_desc">การตั้งค่าเริ่มต้นช่วยให้คุณสามารถตั้งค่าพื้นฐานสำหรับอุปกรณ์นี้ได้ ในการตั้งค่าอุปกรณ์ของคุณให้สำเร็จ จำเป็นต้องได้รับสิทธิ์การเข้าถึงต่อไปนี้:</string>
     <string name="boot_video_replay">เล่นอีกครั้ง</string>
     <string name="boot_video_skip">ข้าม</string>
     <string name="calculator_introduction">คุณสามารถใช้แอปนี้ในการคำนวณ แปลงหน่วย และสกุลเงิน และประเมินการชำระเงินกู้ของคุณ</string>
@@ -80,6 +80,7 @@
     <string name="carrier_introduction_china_rothko">เพื่อปรับปรุงคุณภาพบริการที่มอบให้คุณ โปรแกรมที่ทำงานบนอุปกรณ์นี้ (รวมถึง SystemHelper, RegService และบริการของผู้ให้บริการ) อาจส่งข้อมูลเกี่ยวกับอุปกรณ์นี้หรือซิมการ์ดของคุณ (รวมถึง IMEI, IMSI, MSISDN, MEID, ICCID, ที่อยู่ MAC, เวอร์ชันระบบ, เวอร์ชัน Android, รุ่นอุปกรณ์, การกำหนดค่าฮาร์ดแวร์พื้นฐาน และหมายเลขโทรศัพท์) รวมถึงตำแหน่งโดยประมาณของคุณ (รวมถึงภูมิภาค, พิกัด, ตัวระบุพื้นที่ใกล้เคียง และ ID สถานีฐาน) ไปยังผู้ให้บริการของคุณผ่าน WLAN, เครือข่ายมือถือ หรือ SMS เมื่อทำการโทร DCService จะเชื่อมต่อกับเครือข่าย ผู้ให้บริการมือถือรับประกันว่าข้อมูลนี้จะใช้เพื่อการวิเคราะห์ ปรับปรุงคุณภาพบริการ หรือให้บริการหรือเทคโนโลยีที่ปรับแต่งเองเท่านั้น และจะไม่เปิดเผยข้อมูลนี้กับใครก็ตามในลักษณะที่อาจระบุตัวตนของคุณได้ ดูรายละเอียดได้จากคำชี้แจงที่เกี่ยวข้องจากผู้ให้บริการของคุณ คุณสามารถสอบถามเกี่ยวกับค่าบริการที่เกี่ยวข้องทั้งหมดได้โดยตรงจากผู้ให้บริการของคุณ</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>ด้วยการเชื่อมต่อระหว่างกัน คุณสามารถถ่ายโอนรายการข้ามอุปกรณ์และใช้การควบคุมข้ามอุปกรณ์ได้ การเปิดฟีเจอร์นี้แสดงว่าคุณยอมรับ&lt;a href=%1$s>นโยบายความเป็นส่วนตัว&lt;/a > บริการนี้จำเป็นต้องเชื่อมต่อกับอินเทอร์เน็ตและเข้าถึงสิทธิ์ต่อไปนี้:</Data></string>
+    <string name="china_mobile_components_manager_app">ตัวจัดการส่วนประกอบ AI แบบกำหนดเอง</string>
     <string name="clearable_edittext_clear_description">ล้าง</string>
     <string name="clock_introduction">คุณสามารถใช้แอปนี้เพื่อดูเวลา รวมถึงใช้ ตัวจับเวลา นาฬิกาโลก นาฬิกาจับเวลา ตั้งนาฬิกาปลุก และอื่นๆ</string>
     <string name="close">ปิด</string>
@@ -438,11 +439,13 @@
 ข้อมูลที่คุณส่งจะมีข้อมูลทั่วไปเกี่ยวกับอุปกรณ์นี้และวิธีการใช้งานของคุณ (เช่น ระดับแบตเตอรี่ กิจกรรมของระบบและแอป และข้อผิดพลาด) ข้อมูลดังกล่าวจะถูกนำไปใช้เพื่อปรับปรุงอุปกรณ์ของเรา
 การปิดฟีเจอร์นี้จะไม่ส่งผลต่อความสามารถของอุปกรณ์ในการส่งข้อมูลที่จำเป็นสำหรับบริการสำคัญ เช่น การอัปเดตระบบและความปลอดภัย
 คุณสามารถเปิดหรือปิดฟีเจอร์นี้ได้โดยค้นหา \"การใช้งานและการวินิจฉัย\" ในการตั้งค่า"</string>
-    <string name="other_settings_upload_debug_log_summary">ช่วยปรับปรุงประสบการณ์ของคุณโดยส่งข้อมูลการวินิจฉัย อุปกรณ์ และการใช้งานแอปไปยัง Xiaomi โดยอัตโนมัติ ซึ่งจะช่วยปรับปรุงอายุการใช้งานแบตเตอรี่ ระบบและความเสถียรของแอป และอื่นๆ</string>
+    <string name="other_settings_upload_debug_log_summary">"ช่วยปรับปรุงประสบการณ์ของคุณโดยส่งข้อมูลการวินิจฉัย อุปกรณ์ และการใช้งานแอปไปยัง Xiaomi โดยอัตโนมัติ ซึ่งจะช่วยปรับปรุงอายุการใช้งานแบตเตอรี่ ระบบและความเสถียรของแอป และอื่นๆ "</string>
     <string name="other_settings_upload_debug_log_title">ส่งข้อมูลการใช้งานและการวินิจฉัย</string>
     <string name="other_settings_user_experience">โปรแกรมประสบการณ์ผู้ใช้</string>
     <string name="other_settings_user_experience_summary">"ช่วยพัฒนาสินค้าและบริการของเรา​ด้วยการแชร์สถิติการใช้และการวิเคราะห์ของคุณกับเรา "</string>
     <string name="other_settings_user_experience_summary_index">เรียกดูรายละเอียด</string>
+    <string name="other_settings_xiaomi_share">Xiaomi Share</string>
+    <string name="other_settings_xiaomi_share_summary"><Data>ด้วย Xiaomi Share คุณสามารถถ่ายโอนไฟล์ระหว่างอุปกรณ์ต่างๆ ได้ การเปิดใช้งานหมายความว่าคุณยอมรับ &lt;a href=%1$s>นโยบายความเป็นส่วนตัว&lt;/a> ของ Xiaomi Share&lt;br/>เนื่องจากความแตกต่างระหว่างเวอร์ชันระบบและรุ่นอุปกรณ์ ฟังก์ชันการทำงานของ Xiaomi Share สำหรับอุปกรณ์ของคุณในปัจจุบันอาจแตกต่างกันไป โปรดดูข้อมูลเพิ่มเติมได้ที่เว็บไซต์อย่างเป็นทางการ</Data></string>
     <string name="permission_MIUIDaemon_introduction">Daemon ระบบ ช่วยให้คุณสามารถถ่ายโอนข้อมูลจากอุปกรณ์ของคุณเมื่อหน้าจอเสียหาย</string>
     <string name="permission_access_calendar">เข้าถึงปฏิทิน</string>
     <string name="permission_access_calendar_fast_application_summary">เพื่อให้แอปด่วนเข้าถึงปฏิทินได้;</string>
@@ -457,6 +460,8 @@
     <string name="permission_call_records_describe_bluetooth_summary">เพื่อให้อุปกรณ์ที่รองรับอื่นๆ ที่คุณเชื่อมต่อกับอุปกรณ์นี้เข้าถึงประวัติการโทรได้ สิ่งนี้จะเกิดขึ้นเมื่อคุณต้องใช้ประวัติการโทรผ่านอุปกรณ์อื่นในเชิงรุกเท่านั้น ประวัติการโทรและผู้ติดต่อที่แชร์โดยระบบผ่าน บลูทูธ จะถูกแคชในอุปกรณ์ของคุณเท่านั้นและแชร์กับพวกเขาโดยได้รับอนุญาตจากคุณ</string>
     <string name="permission_call_records_introduction">สำหรับการเข้าถึงประวัติการโทรเพื่อแสดงรายการที่ถูกบล็อก</string>
     <string name="permission_call_state_introduction">สำหรับการเข้าถึงสถานะโทรศัพท์การบันทึกการโทรและการหยุดการบันทึกชั่วคราวระหว่างการโทรเข้า</string>
+    <string name="permission_china_mobile_ai_function">หมายเลขประจำตัวที่ไม่ซ้ำกัน (IMEI) และหมายเลขโทรศัพท์ของอุปกรณ์</string>
+    <string name="permission_china_mobile_ai_function_describe">เพื่อแสดงข้อมูลส่วนบุคคลบนอุปกรณ์สมาร์ทโฟน China Mobile ที่ปรับแต่งเองได้ จะต้องเข้าถึงและซิงค์ข้อมูลต่อไปนี้กับ China Mobile ในระหว่างขั้นตอนการตั้งค่าเริ่มต้น:</string>
     <string name="permission_clock_info_introduction">สำหรับบันทึกข้อมูลเตือนภัย</string>
     <string name="permission_contact">เข้าถึงรายชื่อผู้ติดต่อ</string>
     <string name="permission_contact_describe">เข้าถึงรายชื่อผู้ติดต่อ</string>
@@ -510,6 +515,8 @@
     <string name="permission_quality_describe_summary">เพื่อรวบรวมข้อมูลเกี่ยวกับความผิดพลาดของแอป</string>
     <string name="permission_read_app_list">เข้าถึงรายการแอปที่ติดตั้งบนอุปกรณ์นี้</string>
     <string name="permission_read_application_list_summary">สำหรับการอัปเดทแอปที่ดาวน์โหลดและยืนยันข้อมูลแอปที่ใช้โดยตัวติดตั้งแพ็คเกจ;</string>
+    <string name="permission_read_apps">เข้าถึงรายการแอปที่ติดตั้งบนอุปกรณ์นี้</string>
+    <string name="permission_read_apps_introduction">สำหรับการเข้าถึงเครือข่ายและสถิติการใช้ข้อมูล;</string>
     <string name="permission_read_call_records">แก้ไขประวัติการโทร</string>
     <string name="permission_read_call_records_introduction">สำหรับการเพิ่มรายการในประวัติการโทรและการลบสายที่ถูกบล็อก</string>
     <string name="permission_read_contacts">การเข้าถึงรายชื่อผู้ติดต่อ</string>
@@ -816,6 +823,7 @@
     <string name="title_recent_tasks_style">เค้าโครงล่าสุด</string>
     <string name="title_set_fingerprint">ล็อกหน้าจอ</string>
     <string name="title_setting_up_face">ตั้งค่าข้อมูลใบหน้า</string>
+    <string name="title_stacked_layout">ซ้อนกัน</string>
     <string name="title_vertical_layout">แนวตั้ง</string>
     <string name="today">วันนี้</string>
     <string name="tomorrow">พรุ่งนี้</string>

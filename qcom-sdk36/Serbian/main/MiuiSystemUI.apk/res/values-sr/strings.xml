@@ -853,6 +853,7 @@
     <string name="font_scaling_dialog_title">Величина фонта</string>
     <string name="font_scaling_larger">Увећајте</string>
     <string name="font_scaling_smaller">Умањите</string>
+    <string name="forget_password_string">Заборављена лозинка</string>
     <string name="forget_password_string_for_esim"><u>Заборављен PUK код</u></string>
     <string name="format_day_desc">Дан у месецу: %s</string>
     <string name="format_day_week_desc">Дан у месецу: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@
     <string name="kg_password_wrong_pin_code_pukked">Нетачан PIN кôд за SIM. Сада морате да контактирате мобилног оператера да бисте откључали уређај.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Нетачан SIM PUK кôд. Имате још # покушај пре него што SIM картица постане трајно неупотребљива.}one{Нетачан PUK кôд за SIM. Имате још # покушај пре него што SIM картица постане трајно неупотребљива.}few{Нетачан PUK кôд за SIM. Имате још # покушаја пре него што SIM картица постане трајно неупотребљива.}other{Нетачан PUK кôд за SIM. Имате још # покушаја пре него што SIM картица постане трајно неупотребљива.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM картица је неупотребљива. Контактирајте мобилног оператера.</string>
-    <string name="kg_primary_auth_locked_out_password">Превише покушаја са нетачном лозинком</string>
-    <string name="kg_primary_auth_locked_out_pattern">Превише покушаја са нетачним шаблоном</string>
-    <string name="kg_primary_auth_locked_out_pin">Превише покушаја са нетачним PIN-ом</string>
     <string name="kg_prompt_added_security_password">Треба да унесете лозинку ради додатне безбедности</string>
     <string name="kg_prompt_added_security_pattern">Треба да унесете шаблон ради додатне безбедности</string>
     <string name="kg_prompt_added_security_pin">Треба да унесете PIN ради додатне безбедности</string>
@@ -1201,7 +1199,6 @@
     <string name="kg_sim_lock_esim_instructions">%1$s Онемогућите eSIM да бисте уређај користили без мобилне услуге.</string>
     <string name="kg_sim_pin_instructions">Унесите PIN за SIM.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Откључава се SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Пробајте поново за # секунду.}one{Пробајте поново за # секунду.}few{Пробајте поново за # секунде.}other{Пробајте поново за # секунди.}}</string>
     <string name="kg_trust_agent_disabled">Поуздани агент је недоступан</string>
     <string name="kg_unlock_with_password_or_fp">Откључајте лозинком или отиском прста</string>
     <string name="kg_unlock_with_pattern_or_fp">Откључајте шаблоном или отиском прста</string>
@@ -1253,6 +1250,7 @@
     <string name="lockscreen_access_pattern_detected">Узорак је довршен</string>
     <string name="lockscreen_access_pattern_start">Шаблон је покренут</string>
     <string name="lockscreen_none">Ништа</string>
+    <string name="lockscreen_reverse_charging_msg">Обрнуто пуњење</string>
     <string name="lockscreen_shortcut_left">Лева пречица</string>
     <string name="lockscreen_shortcut_right">Десна пречица</string>
     <string name="lockscreen_unlock_left">И лева пречица откључава</string>
@@ -1338,7 +1336,7 @@
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Дели екран</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">Апликација %1$s је онемогућила ову опцију</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Апликација то не подржава</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Желите да делите екран са апликацијом %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Желите да почнете снимање или пребацивање помоћу апликације %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Када делите цео екран, %s види све што је на њему. Зато пазите на лозинке, информације о плаћању, поруке, слике, аудио и видео садржај.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Када делите апликацију, %s види сав садржај који се приказује или пушта у њој. Зато пазите на лозинке, информације о плаћању, поруке, слике, аудио и видео садржај.</string>
     <string name="media_projection_entry_cast_app_selector_title">Одаберите апликацију коју желите да пребаците</string>
@@ -1422,6 +1420,7 @@ d. M."</string>
     <string name="miui_notification_menu_msg_custom_unfold">Приказати прилагођена обавештења од \"%1$s\" у Панелу обавештења?</string>
     <string name="miui_notification_menu_msg_not_allow">Искључити сва обавештења за %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Истицање обавештења ће бити искључено за %1$s. Ова обавештења ће се нормално приказивати. Искључити сада?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Овим ће се зауставити сва ажурирања уживо од %1$s. Нова обавештења ће се приказивати у уобичајеном формату. Зауставити ажурирања уживо сада?</string>
     <string name="miui_notification_menu_setting_success">Готово</string>
     <string name="miui_notification_menu_snooze">Одложи</string>
     <string name="miui_notification_menu_title_custom_fold">Групиши прилагођена обавештења</string>
@@ -1429,6 +1428,8 @@ d. M."</string>
     <string name="miui_notification_menu_title_no_drawable">Наставите на унутрашњем екрану</string>
     <string name="miui_notification_menu_title_not_allow">Искључи</string>
     <string name="miui_notification_menu_unfocus">Искључи Истицање обавештења</string>
+    <string name="miui_notification_menu_unliveupdate">Заустави ажурирања уживо</string>
+    <string name="miui_notification_slide_menu_ongoing">Ограничи стална обавештења</string>
     <string name="miui_oversize_a_date">"d
 .
 M"</string>
@@ -1868,6 +1869,12 @@ mm"</string>
     <string name="quick_settings_color_correction_label">Корекција боја</string>
     <string name="quick_settings_connected">Повезан</string>
     <string name="quick_settings_connecting">Повезује се...</string>
+    <string name="quick_settings_coolingfan_lable">Вентилатор за хлађење</string>
+    <string name="quick_settings_coolingfan_mode">Режим вентилатора</string>
+    <string name="quick_settings_coolingfan_mode_high">Перформансе</string>
+    <string name="quick_settings_coolingfan_mode_silent">Тихо</string>
+    <string name="quick_settings_coolingfan_mode_smart">Паметно</string>
+    <string name="quick_settings_coolingfan_state_off">Вентилатор за хлађење је искључен</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Уштеда батерије</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Укључује се у %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Укључује се у време за спавање</string>
@@ -2308,6 +2315,8 @@ mm"</string>
     <string name="tile_unavailable">Недоступно</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Батерија</string>
+    <string name="tiny_camera_content_description">Камера</string>
     <string name="tip_close_flares">Нећете добијати обавештења о понашању апликације током ове сесије</string>
     <string name="title_for_empty_state_cta">Брзо приступајте омиљеним виџетима за апликације без откључавања таблета.</string>
     <string name="title_usb_accessory">USB помоћни уређај</string>

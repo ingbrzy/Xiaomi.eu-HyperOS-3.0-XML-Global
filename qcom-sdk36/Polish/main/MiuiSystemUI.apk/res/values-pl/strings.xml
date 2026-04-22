@@ -853,6 +853,7 @@ Wyłącz za pomocą przycisku zasilania."</string>
     <string name="font_scaling_dialog_title">Rozmiar czcionki</string>
     <string name="font_scaling_larger">Powiększ</string>
     <string name="font_scaling_smaller">Pomniejsz</string>
+    <string name="forget_password_string">Nie pamiętam hasła</string>
     <string name="forget_password_string_for_esim"><u>Nie pamiętam kodu PUK</u></string>
     <string name="format_day_desc">%s dzień miesiąca</string>
     <string name="format_day_week_desc">%2$s, %1$s dzień miesiąca</string>
@@ -1169,9 +1170,6 @@ Kliknij, aby dowiedzieć się więcej"</string>
     <string name="kg_password_wrong_pin_code_pukked">Nieprawidłowy kod PIN karty SIM. Musisz teraz skontaktować się z operatorem, by odblokował Twoje urządzenie.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Nieprawidłowy kod PUK karty SIM. Masz jeszcze # próbę, zanim karta SIM zostanie trwale zablokowana.}few{Nieprawidłowy kod PUK karty SIM. Masz jeszcze # próby, zanim karta SIM zostanie trwale zablokowana.}many{Nieprawidłowy kod PUK karty SIM. Masz jeszcze # prób, zanim karta SIM zostanie trwale zablokowana.}other{Nieprawidłowy kod PUK karty SIM. Masz jeszcze # próby, zanim karta SIM zostanie trwale zablokowana.}}</string>
     <string name="kg_password_wrong_puk_code_dead">Karta SIM została trwale zablokowana. Skontaktuj się z operatorem.</string>
-    <string name="kg_primary_auth_locked_out_password">Zbyt wiele nieudanych prób wpisania hasła</string>
-    <string name="kg_primary_auth_locked_out_pattern">Zbyt wiele nieudanych prób narysowania wzoru</string>
-    <string name="kg_primary_auth_locked_out_pin">Zbyt wiele nieudanych prób wpisania kodu PIN</string>
     <string name="kg_prompt_added_security_password">Dla większego bezpieczeństwa musisz podać hasło</string>
     <string name="kg_prompt_added_security_pattern">Dla większego bezpieczeństwa musisz narysować wzór</string>
     <string name="kg_prompt_added_security_pin">Dla większego bezpieczeństwa musisz podać kod PIN</string>
@@ -1201,7 +1199,6 @@ Kliknij, aby dowiedzieć się więcej"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Wyłącz kartę eSIM, by używać urządzenia bez usługi sieci komórkowej.</string>
     <string name="kg_sim_pin_instructions">Wpisz kod PIN karty SIM.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Odblokowuję kartę SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Spróbuj ponownie za # sekundę}few{Spróbuj ponownie za # sekundy}many{Spróbuj ponownie za # sekund}other{Spróbuj ponownie za # sekundy}}</string>
     <string name="kg_trust_agent_disabled">Agent zaufania jest niedostępny</string>
     <string name="kg_unlock_with_password_or_fp">Odblokuj hasłem lub odciskiem palca</string>
     <string name="kg_unlock_with_pattern_or_fp">Odblokuj wzorem lub odciskiem palca</string>
@@ -1253,6 +1250,7 @@ kliknij dwukrotnie"</string>
     <string name="lockscreen_access_pattern_detected">Wzór kompletny</string>
     <string name="lockscreen_access_pattern_start">Wzór rozpoczęty</string>
     <string name="lockscreen_none">Brak</string>
+    <string name="lockscreen_reverse_charging_msg">Odwrotne ładowanie</string>
     <string name="lockscreen_shortcut_left">Lewy skrót</string>
     <string name="lockscreen_shortcut_right">Prawy skrót</string>
     <string name="lockscreen_unlock_left">Lewy skrót również odblokowuje</string>
@@ -1338,7 +1336,7 @@ Nawet jeśli nie zezwolisz tej aplikacji na dostęp do wszystkich dzienników na
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Udostępnij ekran</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s ma wyłączoną tę opcję</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Funkcja nieobsługiwana przez tę aplikację</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Udostępnić ekran aplikacji %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Rozpocząć nagrywanie lub przesyłanie za pomocą aplikacji %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Kiedy udostępniasz treści z całego ekranu, aplikacja %s ma dostęp do całości obrazu z wyświetlacza. Dlatego zachowaj ostrożność w zakresie haseł, danych do płatności, wiadomości, zdjęć, audio i filmów.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Kiedy udostępniasz obraz z aplikacji %s, widoczne jest wszystko to, co jest w niej wyświetlane lub odtwarzane. Dlatego zachowaj ostrożność w zakresie haseł, danych do płatności, wiadomości, zdjęć, audio i filmów.</string>
     <string name="media_projection_entry_cast_app_selector_title">Wybierz aplikację do przesyłania</string>
@@ -1422,6 +1420,7 @@ d.M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Wyświetlać powiadomienia niestandardowe od „%1$s” w panelu powiadomień?</string>
     <string name="miui_notification_menu_msg_not_allow">Wyłączyć powiadomienia od %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Za chwilę wyłączysz Oświetlenie powiadomień dla %1$s. Te powiadomienia będą wyświetlane normalnie. Wyłączyć?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Spowoduje to zatrzymanie wszystkich aktualizacji na żywo z aplikacji %1$s. Nowe powiadomienia będą wyświetlane w standardowym formacie. Zatrzymać aktualizacje na żywo?</string>
     <string name="miui_notification_menu_setting_success">Zakończono</string>
     <string name="miui_notification_menu_snooze">Drzemka</string>
     <string name="miui_notification_menu_title_custom_fold">Grupuj powiadomienia niestandardowe</string>
@@ -1429,6 +1428,8 @@ d.M"</string>
     <string name="miui_notification_menu_title_no_drawable">Kontynuuj na ekranie wewnętrznym</string>
     <string name="miui_notification_menu_title_not_allow">Wyłącz</string>
     <string name="miui_notification_menu_unfocus">Wyłącz Oświetlenie powiadomień</string>
+    <string name="miui_notification_menu_unliveupdate">Zatrzymaj aktualizacje na żywo</string>
+    <string name="miui_notification_slide_menu_ongoing">Ogranicz stałe powiadomienia</string>
     <string name="miui_oversize_a_date">"d
 .
 MM"</string>
@@ -1868,6 +1869,12 @@ Jeśli masz pytania, skontaktuj się z organizacją %2$s."</string>
     <string name="quick_settings_color_correction_label">Korekcja kolorów</string>
     <string name="quick_settings_connected">Połączono</string>
     <string name="quick_settings_connecting">Łączę...</string>
+    <string name="quick_settings_coolingfan_lable">Chłodzenie</string>
+    <string name="quick_settings_coolingfan_mode">Tryb chłodzenia</string>
+    <string name="quick_settings_coolingfan_mode_high">Wydajny</string>
+    <string name="quick_settings_coolingfan_mode_silent">Cichy</string>
+    <string name="quick_settings_coolingfan_mode_smart">Inteligentny</string>
+    <string name="quick_settings_coolingfan_state_off">Chłodzenie jest wyłączone</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Oszczędzanie baterii</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Włącz o %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Włączony w porze snu</string>
@@ -2308,6 +2315,8 @@ Kliknij, aby dowiedzieć się więcej"</string>
     <string name="tile_unavailable">Niedostępne</string>
     <string name="time_picker_label_hour">G</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Bateria</string>
+    <string name="tiny_camera_content_description">Aparat</string>
     <string name="tip_close_flares">Nie będziesz otrzymywać powiadomień o zachowaniu aplikacji podczas tej sesji</string>
     <string name="title_for_empty_state_cta">Uzyskaj szybki dostęp do ulubionych widżetów aplikacji bez odblokowywania tabletu.</string>
     <string name="title_usb_accessory">Akcesorium USB</string>

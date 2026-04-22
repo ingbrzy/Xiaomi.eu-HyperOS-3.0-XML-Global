@@ -853,6 +853,7 @@ Tắt bằng phím Nguồn."</string>
     <string name="font_scaling_dialog_title">Cỡ chữ</string>
     <string name="font_scaling_larger">Phóng to</string>
     <string name="font_scaling_smaller">Thu nhỏ</string>
+    <string name="forget_password_string">Quên mật khẩu</string>
     <string name="forget_password_string_for_esim"><u>Quên mã PUK</u></string>
     <string name="format_day_desc">Ngày trong tháng: %s</string>
     <string name="format_day_week_desc">Ngày trong tháng: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Hãy nhấn để biết thêm thông tin"</string>
     <string name="kg_password_wrong_pin_code_pukked">Mã PIN của SIM không chính xác, bây giờ bạn phải liên hệ với nhà cung cấp dịch vụ để mở khóa thiết bị của mình.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Mã PUK của SIM không chính xác, bạn còn # lần thử trước khi SIM vĩnh viễn không thể sử dụng được.}other{Mã PUK của SIM không chính xác, bạn còn # lần thử trước khi SIM vĩnh viễn không thể sử dụng được.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM không thể sử dụng được. Hãy liên hệ với nhà cung cấp dịch vụ của bạn.</string>
-    <string name="kg_primary_auth_locked_out_password">Bạn đã nhập sai mật khẩu quá nhiều lần</string>
-    <string name="kg_primary_auth_locked_out_pattern">Bạn đã vẽ sai hình mở khoá quá nhiều lần</string>
-    <string name="kg_primary_auth_locked_out_pin">Bạn đã nhập sai mã PIN quá nhiều lần</string>
     <string name="kg_prompt_added_security_password">Yêu cầu mật khẩu để tăng cường bảo mật</string>
     <string name="kg_prompt_added_security_pattern">Yêu cầu hình mở khoá để tăng cường bảo mật</string>
     <string name="kg_prompt_added_security_pin">Yêu cầu mã PIN để tăng cường bảo mật</string>
@@ -1201,7 +1199,6 @@ Hãy nhấn để biết thêm thông tin"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Tắt eSIM để sử dụng thiết bị khi không có dịch vụ di động.</string>
     <string name="kg_sim_pin_instructions">Nhập mã PIN của SIM.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Đang mở khoá SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Hãy thử lại sau # giây.}other{Hãy thử lại sau # giây.}}</string>
     <string name="kg_trust_agent_disabled">Không dùng được tác nhân tin cậy</string>
     <string name="kg_unlock_with_password_or_fp">Mở khoá bằng mật khẩu hoặc vân tay</string>
     <string name="kg_unlock_with_pattern_or_fp">Mở khoá bằng hình mở khoá hoặc vân tay</string>
@@ -1253,6 +1250,7 @@ di chuyển ứng dụng này"</string>
     <string name="lockscreen_access_pattern_detected">Hình mở khóa hoàn tất</string>
     <string name="lockscreen_access_pattern_start">Bắt đầu hình mở khóa</string>
     <string name="lockscreen_none">Không có</string>
+    <string name="lockscreen_reverse_charging_msg">Sạc ngược</string>
     <string name="lockscreen_shortcut_left">Lối tắt bên trái</string>
     <string name="lockscreen_shortcut_right">Lối tắt bên phải</string>
     <string name="lockscreen_unlock_left">Lối tắt bên trái cũng mở khóa</string>
@@ -1338,7 +1336,7 @@ Nếu bạn không cho phép ứng dụng này truy cập vào mọi nhật ký 
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Chia sẻ màn hình</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s đã tắt lựa chọn này</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Không được ứng dụng hỗ trợ</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Chia sẻ màn hình của bạn với %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Bắt đầu ghi hoặc truyền bằng %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Khi bạn chia sẻ toàn bộ màn hình, %s sẽ thấy được mọi nội dung trên màn hình của bạn. Vì vậy, hãy thận trọng để không làm lộ thông tin như mật khẩu, thông tin thanh toán, tin nhắn, ảnh, âm thanh và video.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Khi bạn chia sẻ một ứng dụng, %s sẽ thấy được mọi nội dung hiển thị hoặc phát trong ứng dụng đó. Vì vậy, hãy thận trọng để không làm lộ thông tin như mật khẩu, thông tin thanh toán, tin nhắn, ảnh, âm thanh và video.</string>
     <string name="media_projection_entry_cast_app_selector_title">Chọn ứng dụng để truyền</string>
@@ -1422,6 +1420,7 @@ d/M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Nhóm thông báo tùy chỉnh từ \"%1$s\" trong Thanh thông báo?</string>
     <string name="miui_notification_menu_msg_not_allow">Tắt tất cả thông báo từ %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Bạn sắp tắt Tiêu điểm thông báo cho %1$s. Các thông báo này sẽ được hiển thị bình thường. Tắt ngay?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Điều này sẽ dừng tất cả cập nhật trực tiếp từ %1$s. Thông báo mới sẽ được hiển thị theo định dạng thông thường. Dừng cập nhật trực tiếp ngay?</string>
     <string name="miui_notification_menu_setting_success">Hoàn tất</string>
     <string name="miui_notification_menu_snooze">Báo lại</string>
     <string name="miui_notification_menu_title_custom_fold">Nhóm thông báo tùy chỉnh</string>
@@ -1429,6 +1428,8 @@ d/M"</string>
     <string name="miui_notification_menu_title_no_drawable">Tiếp tục trên màn hình bên trong</string>
     <string name="miui_notification_menu_title_not_allow">Tắt</string>
     <string name="miui_notification_menu_unfocus">Tắt Tiêu điểm thông báo</string>
+    <string name="miui_notification_menu_unliveupdate">Dừng cập nhật trực tiếp</string>
+    <string name="miui_notification_slide_menu_ongoing">Giới hạn thông báo cố định</string>
     <string name="miui_oversize_a_date">"d
 /
 M"</string>
@@ -1868,6 +1869,12 @@ Nếu bạn có thắc mắc, hãy liên hệ với %2$s."</string>
     <string name="quick_settings_color_correction_label">Chỉnh màu</string>
     <string name="quick_settings_connected">Đã kết nối</string>
     <string name="quick_settings_connecting">Đang kết nối...</string>
+    <string name="quick_settings_coolingfan_lable">Quạt làm mát</string>
+    <string name="quick_settings_coolingfan_mode">Chế độ quạt</string>
+    <string name="quick_settings_coolingfan_mode_high">Hiệu suất</string>
+    <string name="quick_settings_coolingfan_mode_silent">Yên tĩnh</string>
+    <string name="quick_settings_coolingfan_mode_smart">Thông minh</string>
+    <string name="quick_settings_coolingfan_state_off">Quạt làm mát đã tắt</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Trình tiết kiệm pin</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Bật vào lúc %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Bật vào giờ đi ngủ</string>
@@ -2308,6 +2315,8 @@ Hãy nhấn để biết thêm thông tin"</string>
     <string name="tile_unavailable">Không có sẵn</string>
     <string name="time_picker_label_hour">Giờ</string>
     <string name="time_picker_label_minute">Phút</string>
+    <string name="tiny_accessibility_kg_battery_level">Pin</string>
+    <string name="tiny_camera_content_description">Camera</string>
     <string name="tip_close_flares">Bạn sẽ không nhận được thông báo về hành vi ứng dụng lần này</string>
     <string name="title_for_empty_state_cta">Truy cập nhanh vào các tiện ích ứng dụng bạn yêu thích mà không cần mở khoá máy tính bảng.</string>
     <string name="title_usb_accessory">Phụ kiện USB</string>

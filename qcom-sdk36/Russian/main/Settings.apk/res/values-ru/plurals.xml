@@ -120,6 +120,30 @@
         <item quantity="many">%d</item>
         <item quantity="other">%d</item>
     </plurals>
+    <plurals name="enter_digit_password_max_length">
+        <item quantity="one">Можно ввести до %1$d цифры</item>
+        <item quantity="few">Можно ввести до %1$d цифр</item>
+        <item quantity="many">Можно ввести до %1$d цифр</item>
+        <item quantity="other">Можно ввести до %1$d цифр</item>
+    </plurals>
+    <plurals name="enter_digit_password_min_length">
+        <item quantity="one">Введите как минимум %1$d цифру</item>
+        <item quantity="few">Введите минимум %1$d цифр(-ы)</item>
+        <item quantity="many">Введите минимум %1$d цифр(-ы)</item>
+        <item quantity="other">Введите минимум %1$d цифр(-ы)</item>
+    </plurals>
+    <plurals name="enter_mix_password_max_length">
+        <item quantity="one">Можно ввести до %d символа</item>
+        <item quantity="few">Можно ввести до %d символов</item>
+        <item quantity="many">Можно ввести до %d символов</item>
+        <item quantity="other">Можно ввести до %d символов</item>
+    </plurals>
+    <plurals name="enter_mix_password_min_chars">
+        <item quantity="one">Введите как минимум %1$d символ</item>
+        <item quantity="few">Введите не менее %1$d символов</item>
+        <item quantity="many">Введите не менее %1$d символов</item>
+        <item quantity="other">Введите не менее %1$d символов</item>
+    </plurals>
     <plurals name="firewall_item_summary">
         <item quantity="one">Ограничено подключение для %s приложения</item>
         <item quantity="few">Ограничено подключение для %s приложений</item>
@@ -167,6 +191,12 @@
         <item quantity="few">через %d мин</item>
         <item quantity="many">через %d мин</item>
         <item quantity="other">через %d мин</item>
+    </plurals>
+    <plurals name="keyguard_lock_too_many_attempts">
+        <item quantity="one">Слишком много попыток. Повторите через %d с.</item>
+        <item quantity="few">Слишком много попыток. Повторите через %d с.</item>
+        <item quantity="many">Слишком много попыток. Повторите через %d с.</item>
+        <item quantity="other">Слишком много попыток. Повторите через %d с.</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="one">Только что</item>
@@ -282,6 +312,12 @@
         <item quantity="many">%d мин назад</item>
         <item quantity="other">%d мин назад</item>
     </plurals>
+    <plurals name="remaining_attempts_message">
+        <item quantity="one">Осталась %1$d попытка</item>
+        <item quantity="few">Осталось %1$d попытки</item>
+        <item quantity="many">Осталось %1$d попыток</item>
+        <item quantity="other">Осталось %1$d попыток</item>
+    </plurals>
     <plurals name="saved_network_checked_num">
         <item quantity="one">Выбран %d объект</item>
         <item quantity="few">Выбрано %d объекта</item>
@@ -377,6 +413,18 @@
         <item quantity="few">Получать уведомления, когда один из наушников находится вне футляра для зарядки более %d минут.</item>
         <item quantity="many">Получать уведомления, когда один из наушников находится вне футляра для зарядки более %d минут.</item>
         <item quantity="other">Получать уведомления, когда один из наушников находится вне футляра для зарядки более %d минут.</item>
+    </plurals>
+    <plurals name="tiny_accessibility_battery_level">
+        <item quantity="one">Текущий уровень заряда %s процент.</item>
+        <item quantity="few">Текущий уровень заряда %s процента</item>
+        <item quantity="many">Текущий уровень заряда %s процентов</item>
+        <item quantity="other">Текущий уровень заряда %s процента</item>
+    </plurals>
+    <plurals name="tiny_accessibility_battery_level_charging">
+        <item quantity="one">Заряжается. Текущий уровень заряда %d процент.</item>
+        <item quantity="few">Заряжается. Текущий уровень заряда %d процента.</item>
+        <item quantity="many">Заряжается. Текущий уровень заряда %d процентов.</item>
+        <item quantity="other">Заряжается. Текущий уровень заряда %d процента.</item>
     </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="one">Разблокирован %d раз</item>

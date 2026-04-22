@@ -853,6 +853,7 @@ Mit der Ein/Aus-Taste ausschalten."</string>
     <string name="font_scaling_dialog_title">Schriftgröße</string>
     <string name="font_scaling_larger">Vergrößern</string>
     <string name="font_scaling_smaller">Verkleinern</string>
+    <string name="forget_password_string">Kennwort vergessen</string>
     <string name="forget_password_string_for_esim"><u>PUK-Code vergessen?</u></string>
     <string name="format_day_desc">Monatstag: %s</string>
     <string name="format_day_week_desc">Monatstag: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Für mehr Informationen tippen."</string>
     <string name="kg_password_wrong_pin_code_pukked">Falscher PIN-Code der SIM-Karte. Bitte wende dich an deinen Mobilfunkanbieter, damit er dein Gerät entsperrt.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Falscher PUK-Code für die SIM-Karte. Du hast noch # Versuch, bevor die SIM-Karte endgültig gesperrt wird.}other{Falscher PUK-Code für die SIM-Karte. Du hast noch # Versuche, bevor die SIM-Karte endgültig gesperrt wird.}}</string>
     <string name="kg_password_wrong_puk_code_dead">Die SIM-Karte kann nicht verwendet werden. Bitte wende dich an deinen Mobilfunkanbieter.</string>
-    <string name="kg_primary_auth_locked_out_password">Zu viele Versuche mit falschem Passwort</string>
-    <string name="kg_primary_auth_locked_out_pattern">Zu viele Versuche mit falschem Muster</string>
-    <string name="kg_primary_auth_locked_out_pin">Zu viele Versuche mit falscher PIN</string>
     <string name="kg_prompt_added_security_password">Zur Verbesserung der Sicherheit ist ein Passwort erforderlich</string>
     <string name="kg_prompt_added_security_pattern">Zur Verbesserung der Sicherheit ist ein Muster erforderlich</string>
     <string name="kg_prompt_added_security_pin">Zur Verbesserung der Sicherheit ist eine PIN erforderlich</string>
@@ -1201,7 +1199,6 @@ Für mehr Informationen tippen."</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Deaktiviere die eSIM, um das Gerät ohne Mobilfunkdienst zu verwenden.</string>
     <string name="kg_sim_pin_instructions">Gib die SIM-PIN ein</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-Karte wird entsperrt…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{In # Sekunde noch einmal versuchen.}other{In # Sekunden noch einmal versuchen.}}</string>
     <string name="kg_trust_agent_disabled">Trust Agent nicht verfügbar</string>
     <string name="kg_unlock_with_password_or_fp">Entsperrung mit Passwort/Fingerabdruck</string>
     <string name="kg_unlock_with_pattern_or_fp">Entsperrung mit Muster/Fingerabdruck</string>
@@ -1253,6 +1250,7 @@ doppeltippen"</string>
     <string name="lockscreen_access_pattern_detected">Muster abgeschlossen</string>
     <string name="lockscreen_access_pattern_start">Muster gestartet</string>
     <string name="lockscreen_none">Keine</string>
+    <string name="lockscreen_reverse_charging_msg">Umgekehrtes Laden</string>
     <string name="lockscreen_shortcut_left">Linke Verknüpfung</string>
     <string name="lockscreen_shortcut_right">Rechte Verknüpfung</string>
     <string name="lockscreen_unlock_left">Linke Verknüpfung entsperrt außerdem</string>
@@ -1338,7 +1336,7 @@ Wenn du dieser App keinen Zugriff auf alle Geräteprotokolle gewährst, kann sie
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Bildschirm teilen</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s hat diese Option deaktiviert</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Wird von der App nicht unterstützt</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Bildschirm mit %s teilen?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Aufnehmen oder Streamen mit der %s App starten?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Wenn du den gesamten Bildschirm teilst, ist für %s alles auf dem Bildschirm sichtbar. Sei also vorsichtig mit Informationen wie Passwörtern, Zahlungsdetails, Nachrichten, Fotos sowie Audio- und Videoinhalten.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Wenn du eine App streamst, ist für %s alles sichtbar, was in dieser App angezeigt oder abgespielt wird. Sei also vorsichtig mit Informationen wie Passwörtern, Zahlungsdetails, Nachrichten, Fotos sowie Audio- und Videoinhalten.</string>
     <string name="media_projection_entry_cast_app_selector_title">App zum Streamen auswählen</string>
@@ -1423,6 +1421,7 @@ d.M."</string>
     <string name="miui_notification_menu_msg_custom_unfold">Benutzerdefinierte Benachrichtigungen von „%1$s“ in der Benachrichtigungsleiste anzeigen?</string>
     <string name="miui_notification_menu_msg_not_allow">Alle Benachrichtigungen von %1$s ausschalten?</string>
     <string name="miui_notification_menu_msg_unfocus">Du wirst das Spotlight für Benachrichtigungen für %1$s ausschalten. Diese Benachrichtigungen werden normal angezeigt. Jetzt ausschalten?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Dadurch werden alle Live-Updates von %1$s gestoppt. Neue Benachrichtigungen werden im regulären Format angezeigt. Live-Updates jetzt stoppen?</string>
     <string name="miui_notification_menu_setting_success">Fertig</string>
     <string name="miui_notification_menu_snooze">Schlummern</string>
     <string name="miui_notification_menu_title_custom_fold">Benutzerdefinierte Benachrichtigungen gruppieren</string>
@@ -1430,6 +1429,8 @@ d.M."</string>
     <string name="miui_notification_menu_title_no_drawable">Nur auf dem inneren Bildschirm fortfahren</string>
     <string name="miui_notification_menu_title_not_allow">Ausschalten</string>
     <string name="miui_notification_menu_unfocus">Spotlight für Benachrichtigungen ausschalten</string>
+    <string name="miui_notification_menu_unliveupdate">Live-Updates stoppen</string>
+    <string name="miui_notification_slide_menu_ongoing">Dauerhafte Benachrichtigungen einschränken</string>
     <string name="miui_oversize_a_date">"d
 .
 M"</string>
@@ -1869,6 +1870,12 @@ Falls du Fragen hast, wende dich an %2$s."</string>
     <string name="quick_settings_color_correction_label">Farbkorrektur</string>
     <string name="quick_settings_connected">Verbunden</string>
     <string name="quick_settings_connecting">Verbindung wird hergestellt…</string>
+    <string name="quick_settings_coolingfan_lable">Kühlventilator</string>
+    <string name="quick_settings_coolingfan_mode">Ventilatormodus</string>
+    <string name="quick_settings_coolingfan_mode_high">Leistung</string>
+    <string name="quick_settings_coolingfan_mode_silent">Leise</string>
+    <string name="quick_settings_coolingfan_mode_smart">Smart</string>
+    <string name="quick_settings_coolingfan_state_off">Kühlventilator ist aus</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Energiesparmodus</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">An um %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Wird zur Schlafenszeit aktiviert</string>
@@ -2309,6 +2316,8 @@ Für mehr Informationen tippen."</string>
     <string name="tile_unavailable">Nicht verfügbar</string>
     <string name="time_picker_label_hour">Std</string>
     <string name="time_picker_label_minute">Min.</string>
+    <string name="tiny_accessibility_kg_battery_level">Akku</string>
+    <string name="tiny_camera_content_description">Kamera</string>
     <string name="tip_close_flares">Du wirst während dieser Sitzung keine Benachrichtigungen über das Verhalten der Anwendung erhalten</string>
     <string name="title_for_empty_state_cta">Greife schnell auf deine App-Widgets zu, ohne das Tablet entsperren zu müssen.</string>
     <string name="title_usb_accessory">USB-Zubehör</string>
@@ -2580,7 +2589,7 @@ WLAN-Adresse (BSSID)
     <string name="wind_direction_6">Westwind</string>
     <string name="wind_direction_7">Nordwestwind</string>
     <string name="wind_direction_7_f">Nordwestwind</string>
-    <string name="wind_format">%1$s | Level %2$s</string>
+    <string name="wind_format">%1$s | Stärke %2$s</string>
     <string name="winscope_tracing">WinScope-Traces erfassen</string>
     <string name="wireless_change_to_ac_charging">Zu kabelgebundenem Aufladen gewechselt</string>
     <string name="wireless_charge_dialog_cancel">Verstanden</string>

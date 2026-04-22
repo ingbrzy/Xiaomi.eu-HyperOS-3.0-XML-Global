@@ -853,6 +853,7 @@
     <string name="font_scaling_dialog_title">ขนาดแบบอักษร</string>
     <string name="font_scaling_larger">ทำให้ใหญ่ขึ้น</string>
     <string name="font_scaling_smaller">ทำให้เล็กลง</string>
+    <string name="forget_password_string">ลืมรหัสผ่าน</string>
     <string name="forget_password_string_for_esim"><u>ลืมรหัส PUK</u></string>
     <string name="format_day_desc">วันของเดือน: %s,</string>
     <string name="format_day_week_desc">วันของเดือน: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@
     <string name="kg_password_wrong_pin_code_pukked">รหัส PIN ของซิมไม่ถูกต้อง ตอนนี้คุณต้องติดต่อผู้ให้บริการเพื่อปลดล็อกอุปกรณ์ของคุณ</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{รหัส PUK ของซิมไม่ถูกต้อง คุณพยายามได้อีก # ครั้งก่อนที่ซิมจะใช้งานไม่ได้อย่างถาวร}other{รหัส PUK ของซิมไม่ถูกต้อง คุณพยายามได้อีก # ครั้งก่อนที่ซิมจะใช้งานไม่ได้อย่างถาวร}}</string>
     <string name="kg_password_wrong_puk_code_dead">ซิมไม่สามารถใช้งานได้ โปรดติดต่อผู้ให้บริการ</string>
-    <string name="kg_primary_auth_locked_out_password">ลองโดยใช้รหัสผ่านที่ไม่ถูกต้องหลายครั้งเกินไป</string>
-    <string name="kg_primary_auth_locked_out_pattern">ลองโดยใช้รูปแบบที่ไม่ถูกต้องหลายครั้งเกินไป</string>
-    <string name="kg_primary_auth_locked_out_pin">ลองโดยใช้ PIN ที่ไม่ถูกต้องหลายครั้งเกินไป</string>
     <string name="kg_prompt_added_security_password">ต้องป้อนรหัสผ่านเพื่อเป็นการรักษาความปลอดภัยเพิ่มเติม</string>
     <string name="kg_prompt_added_security_pattern">ต้องใช้รูปแบบเพื่อเป็นการรักษาความปลอดภัยเพิ่มเติม</string>
     <string name="kg_prompt_added_security_pin">ต้องระบุ PIN เพื่อเป็นการรักษาความปลอดภัยเพิ่มเติม</string>
@@ -1201,7 +1199,6 @@
     <string name="kg_sim_lock_esim_instructions">%1$s ปิดใช้ eSIM เพื่อใช้อุปกรณ์โดยไม่มีบริการมือถือ</string>
     <string name="kg_sim_pin_instructions">ป้อน PIN ของซิม</string>
     <string name="kg_sim_unlock_progress_dialog_message">กำลังปลดล็อก SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{ลองอีกครั้งใน # วินาที}other{ลองอีกครั้งใน # วินาที}}</string>
     <string name="kg_trust_agent_disabled">เอเจนต์ความน่าเชื่อถือไม่พร้อมใช้งาน</string>
     <string name="kg_unlock_with_password_or_fp">ปลดล็อกด้วยรหัสผ่านหรือลายนิ้วมือ</string>
     <string name="kg_unlock_with_pattern_or_fp">ปลดล็อกด้วยรูปแบบหรือลายนิ้วมือ</string>
@@ -1253,6 +1250,7 @@
     <string name="lockscreen_access_pattern_detected">การลากเส้นตามรูปแบบเสร็จสิ้น</string>
     <string name="lockscreen_access_pattern_start">เริ่มรูปแบบแล้ว</string>
     <string name="lockscreen_none">ไม่มี</string>
+    <string name="lockscreen_reverse_charging_msg">ชาร์จย้อนกลับ</string>
     <string name="lockscreen_shortcut_left">ทางลัดทางซ้าย</string>
     <string name="lockscreen_shortcut_right">ทางลัดทางขวา</string>
     <string name="lockscreen_unlock_left">ทางลัดทางซ้ายปลดล็อกได้ด้วย</string>
@@ -1338,7 +1336,7 @@
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">แชร์หน้าจอ</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s ปิดใช้ตัวเลือกนี้</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">แอปไม่รองรับ</string>
-    <string name="media_projection_entry_app_permission_dialog_title">แชร์หน้าจอกับ %s ไหม</string>
+    <string name="media_projection_entry_app_permission_dialog_title">เริ่มบันทึกหรือแคสต์ด้วย %s เลยไหม</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">เมื่อกำลังแชร์ทั้งหน้าจอ %s จะมองเห็นทุกสิ่งที่อยู่บนหน้าจอ ดังนั้นโปรดระวังสิ่งต่างๆ อย่างเช่นรหัสผ่าน รายละเอียดการชำระเงิน ข้อความ รูปภาพ รวมถึงเสียงและวิดีโอ</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">เมื่อกำลังแชร์แอป %s จะมองเห็นทุกสิ่งที่แสดงหรือเล่นอยู่ในแอปดังกล่าว ดังนั้นโปรดระวังสิ่งต่างๆ อย่างเช่นรหัสผ่าน รายละเอียดการชำระเงิน ข้อความ รูปภาพ รวมถึงเสียงและวิดีโอ</string>
     <string name="media_projection_entry_cast_app_selector_title">เลือกแอปที่จะแคสต์</string>
@@ -1422,6 +1420,7 @@ d/M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">แสดงการแจ้งเตือนที่กำหนดเองจาก \"%1$s\" ในแถบการแจ้งเตือนหรือไม่?</string>
     <string name="miui_notification_menu_msg_not_allow">ปิดการแจ้งเตือนทั้งหมดจาก %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">คุณกำลังจะปิดสปอตไลท์การแจ้งเตือนสำหรับ %1$s การแจ้งเตือนเหล่านี้จะแสดงตามปกติ ปิดตอนนี้เลย?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">การดำเนินการนี้จะหยุดการอัปเดตแบบเรียลไทม์ทั้งหมดจาก %1$s การแจ้งเตือนใหม่จะแสดงในรูปแบบปกติ ต้องการหยุดการอัปเดตสดตอนนี้หรือไม่?</string>
     <string name="miui_notification_menu_setting_success">เสร็จสิ้น</string>
     <string name="miui_notification_menu_snooze">เลื่อนปลุก</string>
     <string name="miui_notification_menu_title_custom_fold">จัดกลุ่มการแจ้งเตือนแบบกำหนดเอง</string>
@@ -1429,6 +1428,8 @@ d/M"</string>
     <string name="miui_notification_menu_title_no_drawable">ดำเนินการต่อบนหน้าจอด้านใน</string>
     <string name="miui_notification_menu_title_not_allow">ปิดใช้งาน</string>
     <string name="miui_notification_menu_unfocus">ปิดสปอตไลท์การแจ้งเตือน</string>
+    <string name="miui_notification_menu_unliveupdate">หยุดการอัปเดตสด</string>
+    <string name="miui_notification_slide_menu_ongoing">จำกัดการแจ้งเตือนถาวร</string>
     <string name="miui_oversize_a_date">"d
 /
 M"</string>
@@ -1868,6 +1869,12 @@ mm"</string>
     <string name="quick_settings_color_correction_label">การแก้สี</string>
     <string name="quick_settings_connected">เชื่อมต่อ</string>
     <string name="quick_settings_connecting">กำลังเชื่อมต่อ...</string>
+    <string name="quick_settings_coolingfan_lable">พัดลมระบายความร้อน</string>
+    <string name="quick_settings_coolingfan_mode">โหมดพัดลม</string>
+    <string name="quick_settings_coolingfan_mode_high">ประสิทธิภาพ</string>
+    <string name="quick_settings_coolingfan_mode_silent">เงียบ</string>
+    <string name="quick_settings_coolingfan_mode_smart">อัจฉริยะ</string>
+    <string name="quick_settings_coolingfan_state_off">พัดลมระบายความร้อนปิดอยู่</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">โหมดประหยัดแบตเตอรี่</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">เปิดเวลา %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">เปิดเมื่อถึงเวลาเข้านอน</string>
@@ -2308,6 +2315,8 @@ mm"</string>
     <string name="tile_unavailable">ไม่พร้อมใช้งาน</string>
     <string name="time_picker_label_hour">ชม.</string>
     <string name="time_picker_label_minute">น.</string>
+    <string name="tiny_accessibility_kg_battery_level">แบตเตอรี่</string>
+    <string name="tiny_camera_content_description">กล้อง</string>
     <string name="tip_close_flares">คุณจะไม่ได้รับการแจ้งเตือนเกี่ยวกับพฤติกรรมของแอปในระหว่างเซสชั่นนี้</string>
     <string name="title_for_empty_state_cta">เข้าถึงวิดเจ็ตแอปโปรดได้อย่างรวดเร็วโดยไม่ต้องปลดล็อกแท็บเล็ต</string>
     <string name="title_usb_accessory">อุปกรณ์เสริม USB</string>

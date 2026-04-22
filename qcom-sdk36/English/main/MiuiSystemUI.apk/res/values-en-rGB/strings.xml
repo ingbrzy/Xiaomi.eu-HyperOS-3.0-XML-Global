@@ -855,6 +855,7 @@ Turn off with the Power button."</string>
     <string name="font_scaling_dialog_title">Font size</string>
     <string name="font_scaling_larger">Make larger</string>
     <string name="font_scaling_smaller">Make smaller</string>
+    <string name="forget_password_string">Forgot password</string>
     <string name="forget_password_string_for_esim"><u>Forgot PUK code</u></string>
     <string name="format_day_desc">Day of the month: %s</string>
     <string name="format_day_week_desc">Day of the month: %1$s, %2$s</string>
@@ -1171,9 +1172,6 @@ Tap for more info"</string>
     <string name="kg_password_wrong_pin_code_pukked">Incorrect SIM PIN code; you must now contact your operator to unlock your device.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Incorrect SIM PUK code; you have # remaining attempt before SIM becomes permanently unusable.}other{Incorrect SIM PUK code, you have # remaining attempts before SIM becomes permanently unusable.}}</string>
     <string name="kg_password_wrong_puk_code_dead">SIM is unusable. Contact your operator.</string>
-    <string name="kg_primary_auth_locked_out_password">Too many attempts with incorrect password</string>
-    <string name="kg_primary_auth_locked_out_pattern">Too many attempts with incorrect pattern</string>
-    <string name="kg_primary_auth_locked_out_pin">Too many attempts with incorrect PIN</string>
     <string name="kg_prompt_added_security_password">Password required for additional security</string>
     <string name="kg_prompt_added_security_pattern">Pattern required for additional security</string>
     <string name="kg_prompt_added_security_pin">PIN required for additional security</string>
@@ -1203,7 +1201,6 @@ Tap for more info"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Disable eSIM to use device without mobile service.</string>
     <string name="kg_sim_pin_instructions">Enter SIM PIN.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Unlocking SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Try again in # second.}other{Try again in # seconds.}}</string>
     <string name="kg_trust_agent_disabled">Trust agent is unavailable</string>
     <string name="kg_unlock_with_password_or_fp">Unlock with password or fingerprint</string>
     <string name="kg_unlock_with_pattern_or_fp">Unlock with pattern or fingerprint</string>
@@ -1255,6 +1252,7 @@ move this app"</string>
     <string name="lockscreen_access_pattern_detected">Pattern completed</string>
     <string name="lockscreen_access_pattern_start">Pattern started</string>
     <string name="lockscreen_none">None</string>
+    <string name="lockscreen_reverse_charging_msg">Reverse charging</string>
     <string name="lockscreen_shortcut_left">Left shortcut</string>
     <string name="lockscreen_shortcut_right">Right shortcut</string>
     <string name="lockscreen_unlock_left">Left shortcut also unlocks</string>
@@ -1340,7 +1338,7 @@ If you don’t allow this app to access all device logs, it can still access its
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Share screen</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s has disabled this option</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Not supported by the app</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Share your screen with %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Start recording or casting with %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">"When you're sharing your entire screen, anything on your screen is visible to %s. So be careful with things like passwords, payment details, messages, photos, audio and video."</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">"When you're sharing an app, anything shown or played in that app is visible to %s. So be careful with things like passwords, payment details, messages, photos, audio and video."</string>
     <string name="media_projection_entry_cast_app_selector_title">Choose app to cast</string>
@@ -1425,6 +1423,7 @@ d/M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Show custom notifications from \"%1$s\" in the Notification shade?</string>
     <string name="miui_notification_menu_msg_not_allow">Turn off all notifications from %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">"You're about to turn off Notification spotlight for %1$s. These notifications will be displayed normally. Turn off now?"</string>
+    <string name="miui_notification_menu_msg_unliveupdate">This will stop all live updates from %1$s. New notifications will be displayed in the regular format. Stop live updates now?</string>
     <string name="miui_notification_menu_setting_success">Done</string>
     <string name="miui_notification_menu_snooze">Snooze</string>
     <string name="miui_notification_menu_title_custom_fold">Group custom notifications</string>
@@ -1432,6 +1431,8 @@ d/M"</string>
     <string name="miui_notification_menu_title_no_drawable">Continue on the inner screen</string>
     <string name="miui_notification_menu_title_not_allow">Turn off</string>
     <string name="miui_notification_menu_unfocus">Turn off Notification spotlight</string>
+    <string name="miui_notification_menu_unliveupdate">Stop live updates</string>
+    <string name="miui_notification_slide_menu_ongoing">Restrict permanent notifications</string>
     <string name="miui_oversize_a_date">"M
 /
 d"</string>
@@ -1871,6 +1872,12 @@ If you have questions, contact %2$s."</string>
     <string name="quick_settings_color_correction_label">Colour correction</string>
     <string name="quick_settings_connected">Connected</string>
     <string name="quick_settings_connecting">Connecting...</string>
+    <string name="quick_settings_coolingfan_lable">Cooling fan</string>
+    <string name="quick_settings_coolingfan_mode">Fan mode</string>
+    <string name="quick_settings_coolingfan_mode_high">Performance</string>
+    <string name="quick_settings_coolingfan_mode_silent">Quiet</string>
+    <string name="quick_settings_coolingfan_mode_smart">Smart</string>
+    <string name="quick_settings_coolingfan_state_off">Cooling fan is off</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Battery Saver</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">On at %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">On at bedtime</string>
@@ -2311,6 +2318,8 @@ Tap for more info"</string>
     <string name="tile_unavailable">Unavailable</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Battery</string>
+    <string name="tiny_camera_content_description">Camera</string>
     <string name="tip_close_flares">"You won't receive notifications about app behaviour during this session"</string>
     <string name="title_for_empty_state_cta">Get quick access to your favourite app widgets without unlocking your tablet.</string>
     <string name="title_usb_accessory">USB accessory</string>

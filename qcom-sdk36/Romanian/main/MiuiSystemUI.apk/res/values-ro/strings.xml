@@ -853,6 +853,7 @@ Dezactivează cu Butonul de pornire."</string>
     <string name="font_scaling_dialog_title">Mărimea fontului</string>
     <string name="font_scaling_larger">Mărește</string>
     <string name="font_scaling_smaller">Micșorează</string>
+    <string name="forget_password_string">Parolă uitată</string>
     <string name="forget_password_string_for_esim"><u>Am uitat codul PUK</u></string>
     <string name="format_day_desc">Ziua lunii: %s</string>
     <string name="format_day_week_desc">Ziua lunii: %1$s, %2$s</string>
@@ -1169,9 +1170,6 @@ Atinge pentru mai multe informații"</string>
     <string name="kg_password_wrong_pin_code_pukked">Codul PIN pentru cardul SIM este incorect. Contactează operatorul pentru a debloca dispozitivul.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Codul PUK pentru cardul SIM e incorect. Ți-a mai rămas # încercare până când cardul SIM va deveni inutilizabil definitiv.}few{Codul PUK pentru cardul SIM e incorect. Ți-au mai rămas # încercări până când cardul SIM va deveni inutilizabil definitiv.}other{Codul PUK pentru cardul SIM e incorect. Ți-au mai rămas # de încercări până când cardul SIM va deveni inutilizabil definitiv.}}</string>
     <string name="kg_password_wrong_puk_code_dead">Cardul SIM nu poate fi utilizat. Contactează operatorul.</string>
-    <string name="kg_primary_auth_locked_out_password">Prea multe încercări cu o parolă incorectă</string>
-    <string name="kg_primary_auth_locked_out_pattern">Prea multe încercări cu un model incorect</string>
-    <string name="kg_primary_auth_locked_out_pin">Prea multe încercări cu un cod PIN incorect</string>
     <string name="kg_prompt_added_security_password">Parola este necesară pentru securitate suplimentară</string>
     <string name="kg_prompt_added_security_pattern">Modelul este necesar pentru securitate suplimentară</string>
     <string name="kg_prompt_added_security_pin">Codul PIN este necesar pentru securitate suplimentară</string>
@@ -1201,7 +1199,6 @@ Atinge pentru mai multe informații"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Dezactivează cardul eSIM pentru a folosi dispozitivul fără serviciu mobil.</string>
     <string name="kg_sim_pin_instructions">Introdu codul PIN al cardului SIM.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Se deblochează cardul SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Reîncearcă peste o secundă.}few{Reîncearcă peste # secunde.}other{Reîncearcă peste # de secunde.}}</string>
     <string name="kg_trust_agent_disabled">Agentul de încredere nu este disponibil</string>
     <string name="kg_unlock_with_password_or_fp">Deblochează cu parola sau amprenta</string>
     <string name="kg_unlock_with_pattern_or_fp">Deblochează cu modelul sau amprenta</string>
@@ -1253,6 +1250,7 @@ ca să muți aplicația"</string>
     <string name="lockscreen_access_pattern_detected">Model completat</string>
     <string name="lockscreen_access_pattern_start">Model început</string>
     <string name="lockscreen_none">Niciuna</string>
+    <string name="lockscreen_reverse_charging_msg">Încărcare inversă</string>
     <string name="lockscreen_shortcut_left">Comanda rapidă din stânga</string>
     <string name="lockscreen_shortcut_right">Comanda rapidă din dreapta</string>
     <string name="lockscreen_unlock_left">Comanda rapidă din stânga și deblochează</string>
@@ -1338,7 +1336,7 @@ Dacă nu permiți accesul aplicației la toate jurnalele dispozitivului, aceasta
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Permite accesul la ecran</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">%1$s a dezactivat această opțiune</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Nu este acceptată de aplicație</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Permiți accesul %s la ecran?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Începi să înregistrezi sau să proiectezi cu %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Când permiți accesul la tot ecranul, tot conținutul de pe ecran este vizibil pentru %s. Prin urmare, ai grijă cu parolele, detaliile de plată, mesajele, fotografiile și conținutul audio și video.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Când permiți accesul la o aplicație, orice conținut se afișează sau se redă în aplicație este vizibil pentru %s. Prin urmare, ai grijă cu parolele, detaliile de plată, mesajele, fotografiile și conținutul audio și video.</string>
     <string name="media_projection_entry_cast_app_selector_title">Alege aplicația de proiectat</string>
@@ -1422,6 +1420,7 @@ d.M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Afișează notificări personalizate de la \"%1$s\" în Panoul de notificări?</string>
     <string name="miui_notification_menu_msg_not_allow">Dezactivați toate notificările de la %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Ești pe cale să dezactivezi Notificări în evidență pentru %1$s. Aceste notificări vor fi afișate în mod normal. Dezactivați acum?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Aceasta va opri toate actualizările live de la %1$s. Notificările noi vor fi afișate în formatul obișnuit. Opriți actualizările live acum?</string>
     <string name="miui_notification_menu_setting_success">Efectuat</string>
     <string name="miui_notification_menu_snooze">Amână</string>
     <string name="miui_notification_menu_title_custom_fold">Grupează notificările personalizate</string>
@@ -1429,6 +1428,8 @@ d.M"</string>
     <string name="miui_notification_menu_title_no_drawable">Continuați pe ecranul interior</string>
     <string name="miui_notification_menu_title_not_allow">Dezactivează</string>
     <string name="miui_notification_menu_unfocus">Dezactivează Notificări în evidență</string>
+    <string name="miui_notification_menu_unliveupdate">Oprește actualizările live</string>
+    <string name="miui_notification_slide_menu_ongoing">Restricționați notificările permanente</string>
     <string name="miui_oversize_a_date">"dd
 .
 MM"</string>
@@ -1868,6 +1869,12 @@ Dacă ai întrebări, ia legătura cu %2$s."</string>
     <string name="quick_settings_color_correction_label">Corecția culorii</string>
     <string name="quick_settings_connected">Conectat</string>
     <string name="quick_settings_connecting">Se conectează...</string>
+    <string name="quick_settings_coolingfan_lable">Ventilator de răcire</string>
+    <string name="quick_settings_coolingfan_mode">Mod ventilator</string>
+    <string name="quick_settings_coolingfan_mode_high">Performanță</string>
+    <string name="quick_settings_coolingfan_mode_silent">Silențios</string>
+    <string name="quick_settings_coolingfan_mode_smart">Inteligent</string>
+    <string name="quick_settings_coolingfan_state_off">Ventilatorul de răcire este oprit</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Economisire baterie</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Activată la %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Activată la ora de culcare</string>
@@ -2308,6 +2315,8 @@ Atinge pentru mai multe informații"</string>
     <string name="tile_unavailable">Indisponibil</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Baterie</string>
+    <string name="tiny_camera_content_description">Aparat foto</string>
     <string name="tip_close_flares">Nu veți primi notificări despre comportamentul aplicației în timpul acestei sesiuni</string>
     <string name="title_for_empty_state_cta">Accesează rapid widgeturile aplicațiilor preferate fără să deblochezi tableta.</string>
     <string name="title_usb_accessory">Accesoriu USB</string>

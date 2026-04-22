@@ -854,6 +854,7 @@
     <string name="font_scaling_dialog_title">حجم الخط</string>
     <string name="font_scaling_larger">تكبير الحجم</string>
     <string name="font_scaling_smaller">تصغير الحجم</string>
+    <string name="forget_password_string">نسيت كلمة المرور</string>
     <string name="forget_password_string_for_esim"><u>نسيت رمز PUK؟</u></string>
     <string name="format_day_desc">اليوم في الشهر: %s</string>
     <string name="format_day_week_desc">اليوم في الشهر: %1$s، %2$s</string>
@@ -1170,9 +1171,6 @@
     <string name="kg_password_wrong_pin_code_pukked">‏رمز \"رقم التعريف الشخصي\" لشريحة SIM غير صحيح، ويلزمك الاتصال الآن بمشغّل شبكة الجوّال لإلغاء قفل الجهاز.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{‏رمز PUK لشريحة SIM غير صحيح. تتبقّى لديك محاولة واحدة قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا.}zero{‏رمز PUK لشريحة SIM غير صحيح. تتبقّى لديك # محاولة قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا.}two{‏رمز PUK لشريحة SIM غير صحيح. تتبقّى لديك محاولتان قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا.}few{‏رمز PUK لشريحة SIM غير صحيح. تتبقّى لديك # محاولات قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا.}many{‏رمز PUK لشريحة SIM غير صحيح. تتبقّى لديك # محاولة قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا.}other{‏رمز PUK لشريحة SIM غير صحيح. تتبقّى لديك # محاولة قبل أن تصبح شريحة SIM غير صالحة للاستخدام نهائيًا.}}</string>
     <string name="kg_password_wrong_puk_code_dead">‏شريحة SIM غير صالحة للاستخدام. يُرجى الاتصال بمشغّل شبكة الجوّال.</string>
-    <string name="kg_primary_auth_locked_out_password">أجريت محاولات كثيرة جدًا باستخدام كلمة مرور خاطئة</string>
-    <string name="kg_primary_auth_locked_out_pattern">أجريت محاولات كثيرة جدًا باستخدام نقش خاطئ</string>
-    <string name="kg_primary_auth_locked_out_pin">أجريت محاولات كثيرة جدًا باستخدام رقم تعريف شخصي خاطئ</string>
     <string name="kg_prompt_added_security_password">يجب إدخال كلمة المرور لمزيد من الأمان</string>
     <string name="kg_prompt_added_security_pattern">يجب رسم النقش لمزيد من الأمان</string>
     <string name="kg_prompt_added_security_pin">يجب إدخال رقم التعريف الشخصي لمزيد من الأمان</string>
@@ -1202,7 +1200,6 @@
     <string name="kg_sim_lock_esim_instructions">‏%1$s يجب إيقاف eSIM لاستخدام الجهاز بدون خدمة الأجهزة الجوّالة.</string>
     <string name="kg_sim_pin_instructions">‏أدخل رقم التعريف الشخصي لشريحة SIM.</string>
     <string name="kg_sim_unlock_progress_dialog_message">‏جارٍ إلغاء قفل شريحة SIM…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{أعِد المحاولة خلال ثانية واحدة.}zero{أعِد المحاولة خلال # ثانية.}two{أعِد المحاولة خلال ثانيتين.}few{أعِد المحاولة خلال # ثوانٍ.}many{أعِد المحاولة خلال # ثانية.}other{أعِد المحاولة خلال # ثانية.}}</string>
     <string name="kg_trust_agent_disabled">ميزة \"الوكيل المعتمد\" غير متاحة.</string>
     <string name="kg_unlock_with_password_or_fp">افتح القفل بكلمة مرور أو ببصمة إصبع.</string>
     <string name="kg_unlock_with_pattern_or_fp">افتح بالنقش أو بصمة الإصبع</string>
@@ -1254,6 +1251,7 @@
     <string name="lockscreen_access_pattern_detected">اكتمل النمط</string>
     <string name="lockscreen_access_pattern_start">تم بدء النقش</string>
     <string name="lockscreen_none">بدون</string>
+    <string name="lockscreen_reverse_charging_msg">الشحن العكسي</string>
     <string name="lockscreen_shortcut_left">اختصار اليسار</string>
     <string name="lockscreen_shortcut_right">اختصار اليمين</string>
     <string name="lockscreen_unlock_left">اختصار اليسار يلغي أيضًا تأمين</string>
@@ -1339,7 +1337,7 @@
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">مشاركة الشاشة</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">تم إيقاف هذا الخيار من خلال تطبيق %1$s.</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">لا يتيح التطبيق هذه الميزة</string>
-    <string name="media_projection_entry_app_permission_dialog_title">هل تريد مشاركة الشاشة مع تطبيق \"%s\"؟</string>
+    <string name="media_projection_entry_app_permission_dialog_title">هل تريد بدء التسجيل أو البثّ باستخدام \"%s\"؟</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">أثناء مشاركة محتوى الشاشة بالكامل، سيكون كل المحتوى المعروض على شاشتك مرئيًا لتطبيق \"%s\". لذا يُرجى توخي الحذر بشأن المعلومات، مثل كلمات المرور وتفاصيل الدفع والرسائل والصور وملفات الصوت والفيديو.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">ستتم مشاركة كل المحتوى المعروض أو المشغَّل على شاشة هذا التطبيق مع تطبيق \"%s\"، لذا يُرجى توخي الحذر بشأن المعلومات الظاهرة على الشاشة، مثل كلمات المرور وتفاصيل الدفع والرسائل والصور والمقاطع الصوتية والفيديوهات.</string>
     <string name="media_projection_entry_cast_app_selector_title">يُرجى اختيار تطبيق لبث محتواه</string>
@@ -1423,6 +1421,7 @@ d/M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">إظهار الإشعارات المخصصة من \"%1$s\" في ظل الإشعارات؟</string>
     <string name="miui_notification_menu_msg_not_allow">إيقاف تشغيل جميع الإشعارات من %1$s؟</string>
     <string name="miui_notification_menu_msg_unfocus">أنت على وشك إيقاف تمييز إشعارات %1$s. سيتم عرض هذه الإشعارات بعد ذلك بشكل عادي. متابعة؟</string>
+    <string name="miui_notification_menu_msg_unliveupdate">سيؤدي هذا إلى إيقاف جميع التحديثات المباشرة من %1$s. ستظهر الإشعارات الجديدة بالتنسيق المعتاد. هل تريد إيقاف التحديثات المباشرة الآن؟</string>
     <string name="miui_notification_menu_setting_success">تم</string>
     <string name="miui_notification_menu_snooze">غفوة</string>
     <string name="miui_notification_menu_title_custom_fold">إشعارات المجموعة المخصصة</string>
@@ -1430,6 +1429,8 @@ d/M"</string>
     <string name="miui_notification_menu_title_no_drawable">متابعة على الشاشة الداخلية</string>
     <string name="miui_notification_menu_title_not_allow">إيقاف التشغيل</string>
     <string name="miui_notification_menu_unfocus">إيقاف تمييز الإشعارات</string>
+    <string name="miui_notification_menu_unliveupdate">إيقاف التحديثات المباشرة</string>
+    <string name="miui_notification_slide_menu_ongoing">تقييد الإشعارات الدائمة</string>
     <string name="miui_oversize_a_date">"d
 /
 M"</string>
@@ -1869,6 +1870,12 @@ mm"</string>
     <string name="quick_settings_color_correction_label">تصحيح الألوان</string>
     <string name="quick_settings_connected">متصل</string>
     <string name="quick_settings_connecting">جارٍ الاتصال...</string>
+    <string name="quick_settings_coolingfan_lable">مروحة تبريد</string>
+    <string name="quick_settings_coolingfan_mode">وضع المروحة</string>
+    <string name="quick_settings_coolingfan_mode_high">أداء</string>
+    <string name="quick_settings_coolingfan_mode_silent">هادئ</string>
+    <string name="quick_settings_coolingfan_mode_smart">ذكي</string>
+    <string name="quick_settings_coolingfan_state_off">مروحة التبريد متوقفة</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">توفير شحن البطارية</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">تفعيل الوضع في %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">مفعّل في وقت النوم</string>
@@ -2309,6 +2316,8 @@ mm"</string>
     <string name="tile_unavailable">غير متوفّر</string>
     <string name="time_picker_label_hour">س</string>
     <string name="time_picker_label_minute">دق</string>
+    <string name="tiny_accessibility_kg_battery_level">البطارية</string>
+    <string name="tiny_camera_content_description">الكاميرا</string>
     <string name="tip_close_flares">لن تتلقى أشعارات عن سلوك التطبيق خلال هذه الجلسة</string>
     <string name="title_for_empty_state_cta">يمكنك الوصول سريعًا إلى تطبيقاتك المصغّرة المفضّلة بدون فتح قفل جهازك اللوحي.</string>
     <string name="title_usb_accessory">‏ملحق USB</string>

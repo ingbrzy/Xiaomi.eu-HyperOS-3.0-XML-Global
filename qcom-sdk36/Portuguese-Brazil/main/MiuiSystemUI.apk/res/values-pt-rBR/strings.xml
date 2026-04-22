@@ -852,6 +852,7 @@ Desligue com o botão Liga/Desliga."</string>
     <string name="font_scaling_dialog_title">Tamanho da fonte</string>
     <string name="font_scaling_larger">Aumentar</string>
     <string name="font_scaling_smaller">Diminuir</string>
+    <string name="forget_password_string">Esqueci a senha</string>
     <string name="forget_password_string_for_esim"><u>Esqueci o código PUK</u></string>
     <string name="format_day_desc">Dia do mês: %s</string>
     <string name="format_day_week_desc">Dia do mês: %1$s, %2$s</string>
@@ -1168,9 +1169,6 @@ Toque para saber mais"</string>
     <string name="kg_password_wrong_pin_code_pukked">Código PIN do chip incorreto. Entre em contato com a operadora para desbloquear o dispositivo.</string>
     <string name="kg_password_wrong_puk_code">{count,plural, =1{Código PUK do chip incorreto. Você tem # tentativa restante. Se o código correto não for digitado, o chip vai ficar permanentemente inutilizável.}one{Código PUK do chip incorreto. Você tem # tentativa restante. Se o código correto não for digitado, o chip vai ficar permanentemente inutilizável.}many{Código PUK do chip incorreto. Você tem # de tentativas restantes. Se o código correto não for digitado, o chip vai ficar permanentemente inutilizável.}other{Código PUK do chip incorreto. Você tem # tentativas restantes. Se o código correto não for digitado, o chip vai ficar permanentemente inutilizável.}}</string>
     <string name="kg_password_wrong_puk_code_dead">O chip não pode ser utilizado. Entre em contato com a operadora.</string>
-    <string name="kg_primary_auth_locked_out_password">Muitas tentativas com a senha incorreta</string>
-    <string name="kg_primary_auth_locked_out_pattern">Muitas tentativas com o padrão incorreto</string>
-    <string name="kg_primary_auth_locked_out_pin">Muitas tentativas com o PIN incorreto</string>
     <string name="kg_prompt_added_security_password">A senha é necessária para aumentar a segurança</string>
     <string name="kg_prompt_added_security_pattern">O padrão é necessário para aumentar a segurança</string>
     <string name="kg_prompt_added_security_pin">O PIN é necessário para aumentar a segurança</string>
@@ -1200,7 +1198,6 @@ Toque para saber mais"</string>
     <string name="kg_sim_lock_esim_instructions">%1$s Desative o eSIM para usar o dispositivo sem serviço móvel.</string>
     <string name="kg_sim_pin_instructions">Informe o PIN do chip.</string>
     <string name="kg_sim_unlock_progress_dialog_message">Desbloqueando chip…</string>
-    <string name="kg_too_many_failed_attempts_countdown">{count,plural, =1{Tente novamente em # segundo.}one{Tente novamente em # segundo.}many{Tente novamente em # segundos.}other{Tente novamente em # segundos.}}</string>
     <string name="kg_trust_agent_disabled">O agente de confiança não está disponível</string>
     <string name="kg_unlock_with_password_or_fp">Dsblq. c/ senha ou digital</string>
     <string name="kg_unlock_with_pattern_or_fp">Desbloq. c/ padrão/digital</string>
@@ -1252,6 +1249,7 @@ mover o app"</string>
     <string name="lockscreen_access_pattern_detected">Padrão concluído</string>
     <string name="lockscreen_access_pattern_start">Padrão iniciado</string>
     <string name="lockscreen_none">Nenhum</string>
+    <string name="lockscreen_reverse_charging_msg">Carregamento reverso</string>
     <string name="lockscreen_shortcut_left">Atalho à esquerda</string>
     <string name="lockscreen_shortcut_right">Atalho à direita</string>
     <string name="lockscreen_unlock_left">O atalho à esquerda também desbloqueia</string>
@@ -1337,7 +1335,7 @@ Se você não permitir que esse app acesse todos os registros do dispositivo, el
     <string name="media_projection_entry_app_permission_dialog_continue_entire_screen">Compartilhar tela</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_disabled">O app %1$s desativou essa opção</string>
     <string name="media_projection_entry_app_permission_dialog_single_app_not_supported">Indisponível no app</string>
-    <string name="media_projection_entry_app_permission_dialog_title">Compartilhar a tela com o app %s?</string>
+    <string name="media_projection_entry_app_permission_dialog_title">Iniciar gravação ou transmissão com o app %s?</string>
     <string name="media_projection_entry_app_permission_dialog_warning_entire_screen">Quando você compartilha a tela inteira, tudo nela fica visível para o app %s. Tenha cuidado com senhas, detalhes de pagamento, mensagens, fotos, áudios e vídeos.</string>
     <string name="media_projection_entry_app_permission_dialog_warning_single_app">Quando você compartilha um aplicativo, todas as informações mostradas ou abertas nele ficam visíveis para o app %s. Tenha cuidado com senhas, detalhes de pagamento, mensagens, fotos, áudios e vídeos.</string>
     <string name="media_projection_entry_cast_app_selector_title">Escolha um app para transmitir</string>
@@ -1421,6 +1419,7 @@ d/M"</string>
     <string name="miui_notification_menu_msg_custom_unfold">Mostrar notificações personalizadas de “%1$s” na Área de notificações?</string>
     <string name="miui_notification_menu_msg_not_allow">Desativar todas as notificações de %1$s?</string>
     <string name="miui_notification_menu_msg_unfocus">Você está prestes a desativar o Destaque de notificações para o %1$s. Estas notificações serão exibidas normalmente. Desativar agora?</string>
+    <string name="miui_notification_menu_msg_unliveupdate">Isto parará todas as atualizações ao vivo de %1$s. Novas notificações serão exibidas no formato padrão. Parar as atualizações ao vivo agora?</string>
     <string name="miui_notification_menu_setting_success">Concluído</string>
     <string name="miui_notification_menu_snooze">Adiar</string>
     <string name="miui_notification_menu_title_custom_fold">Agrupar notificações personalizadas</string>
@@ -1428,6 +1427,8 @@ d/M"</string>
     <string name="miui_notification_menu_title_no_drawable">Continue na tela interna</string>
     <string name="miui_notification_menu_title_not_allow">Desativar</string>
     <string name="miui_notification_menu_unfocus">Desativar Destaque de notificações</string>
+    <string name="miui_notification_menu_unliveupdate">Parar atualizações ao vivo</string>
+    <string name="miui_notification_slide_menu_ongoing">Restringir notificações permanentes</string>
     <string name="miui_oversize_a_date">"d
 /
 M"</string>
@@ -1867,6 +1868,12 @@ Em caso de dúvidas, entre em contato com %2$s."</string>
     <string name="quick_settings_color_correction_label">Correção de cor</string>
     <string name="quick_settings_connected">Conectado</string>
     <string name="quick_settings_connecting">Conectando...</string>
+    <string name="quick_settings_coolingfan_lable">Ventoinha de resfriamento</string>
+    <string name="quick_settings_coolingfan_mode">Modo da ventoinha</string>
+    <string name="quick_settings_coolingfan_mode_high">Desempenho</string>
+    <string name="quick_settings_coolingfan_mode_silent">Silencioso</string>
+    <string name="quick_settings_coolingfan_mode_smart">Inteligente</string>
+    <string name="quick_settings_coolingfan_state_off">Ventoinha de resfriamento desligada</string>
     <string name="quick_settings_dark_mode_secondary_label_battery_saver">Economia de bateria</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at">Ativar: %s</string>
     <string name="quick_settings_dark_mode_secondary_label_on_at_bedtime">Ativado na hora de dormir</string>
@@ -2307,6 +2314,8 @@ Toque para saber mais"</string>
     <string name="tile_unavailable">Indisponível</string>
     <string name="time_picker_label_hour">H</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="tiny_accessibility_kg_battery_level">Bateria</string>
+    <string name="tiny_camera_content_description">Câmera</string>
     <string name="tip_close_flares">Você não receberá notificações sobre o comportamento do app durante esta sessão</string>
     <string name="title_for_empty_state_cta">Acesse os widgets dos seus apps favoritos sem desbloquear o tablet.</string>
     <string name="title_usb_accessory">Acessório USB</string>
