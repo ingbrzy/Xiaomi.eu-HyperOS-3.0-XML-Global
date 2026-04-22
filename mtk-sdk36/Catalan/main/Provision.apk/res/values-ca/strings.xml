@@ -64,7 +64,7 @@
     <string name="back">Enrere</string>
     <string name="backup_introduction">Pots utilitzar aquesta aplicació per fer una còpia de seguretat i restaurar els elements del teu dispositiu.</string>
     <string name="bluetooth_introduction">El sistema utilitza Bluetooth per a la comunicació sense fil. Per poder funcionar amb normalitat, Bluetooth necessita els permisos següents:</string>
-    <string name="bluetooth_usage_desc">Initial setup allows you to set your basic preferences for this device. To set up your device successfully, Bluetooth system services will use the following permissions:</string>
+    <string name="bluetooth_usage_desc">La configuració inicial us permet definir les preferències bàsiques per a aquest dispositiu. Per configurar el dispositiu correctament, calen els permisos següents:</string>
     <string name="boot_video_replay">Reproduir de nou</string>
     <string name="boot_video_skip">Omet</string>
     <string name="calculator_introduction">Pots fer servir aquesta aplicació per a fer càlculs, convertir unitats i monedes, i calcular els pagaments de la teva hipoteca.</string>
@@ -76,10 +76,11 @@
     <string name="carousel_privacy"><Data>"Llegiu i accepteu la &lt;a href=\"%1$s\">Política de privadesa&lt;/a> i l'&lt;a href=\"%2$s\">Acord d'usuari&lt;/a> del nostre proveïdor de serveis de confiança abans d'utilitzar el Tipus de fons de pantalla."</Data></string>
     <string name="carousel_setting">Configura la teva pantalla de bloqueig</string>
     <string name="carousel_setting_sub">Tipus de fons de pantalla us mostrarà històries noves cada vegada que desbloquegeu el dispositiu</string>
-    <string name="carrier_introduction_china">"Per oferir-vos millors serveis, els processos que s'executen al vostre dispositiu (inclosos SystemHelper, RegService i Carrier Services) poden enviar periòdicament la informació relacionada amb el vostre dispositiu i la targeta SIM (inclosos IMEI, IMSI, MSISDN, MEID, ICCID, adreça MAC, versió del sistema, versió d'Android, model de dispositiu i especificacions bàsiques de maquinari), així com informació d'ubicació aproximada (incloent-hi la regió, les coordenades, l'identificador d'àrea i l'identificador de l'estació base) a l'operador mitjançant WLAN, xarxa de dades mòbils o SMS gratuïts. L'operador es compromet a analitzar la informació rellevant només per millorar la qualitat dels serveis o per proporcionar serveis o tecnologies personalitzats, i no revelarà informació rellevant a tercers en cap forma que l'identifiqui personalment. Prevaldrà la declaració específica de l'operador. Consulteu el vostre operador sobre el cost d'utilitzar aquest servei."</string>
+    <string name="carrier_introduction_china">"Per tal de millorar la qualitat dels serveis que se us proporcionen, els programes que s'executen en aquest dispositiu (inclosos els serveis de SystemHelper, RegService i Carrier) poden enviar la informació sobre aquest dispositiu o la vostra targeta SIM (inclosos IMEI, IMSI, MSISDN, MEID, ICCID), l'adreça MAC, la versió del sistema, la versió d'Android, el model del dispositiu, la configuració bàsica del maquinari i el número de telèfon), així com la vostra ubicació aproximada (incloent-hi la regió, les coordenades, l'identificador del barri i l'identificador de l'estació base) al vostre operador mitjançant WLAN, mòbil xarxes o SMS. Els operadors de telefonia mòbil garanteixen que aquesta informació només s'utilitzarà per a l'anàlisi, la millora de la qualitat del servei o la prestació de serveis o tecnologies personalitzats i mai es compartirà amb ningú d'una manera que permeti identificar-vos personalment. Consulteu la declaració corresponent del vostre operador per obtenir més informació. Podeu consultar totes les tarifes de servei relacionades directament amb el vostre operador."</string>
     <string name="carrier_introduction_china_rothko">"Per tal de millorar la qualitat dels serveis que se us proporcionen, els programes que s'executen en aquest dispositiu (inclosos els serveis de SystemHelper, RegService i Carrier) poden enviar la informació sobre aquest dispositiu o la vostra targeta SIM (inclosos IMEI, IMSI, MSISDN, MEID, ICCID), l'adreça MAC, la versió del sistema, la versió d'Android, el model del dispositiu, la configuració bàsica del maquinari i el número de telèfon), així com la vostra ubicació aproximada (incloent-hi la regió, les coordenades, l'identificador del barri i l'identificador de l'estació base) al vostre operador mitjançant WLAN, mòbil xarxes o SMS. Quan feu trucades, DCService es connectarà a la xarxa. Els operadors de telefonia mòbil garanteixen que aquesta informació només s'utilitzarà per a l'anàlisi, la millora de la qualitat del servei o la prestació de serveis o tecnologies personalitzats i mai es compartirà amb ningú d'una manera que permeti identificar-vos personalment. Consulteu la declaració corresponent del vostre operador per obtenir més informació. Podeu consultar totes les tarifes de servei relacionades directament amb el vostre operador."</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Amb la Interconnectivitat, podeu transferir elements entre dispositius i utilitzar controls entre dispositius. Si activeu aquesta funció, indiqueu que accepteu la &lt;a href=%1$s>Política de privadesa&lt;/a >. Aquest servei necessita connectar-se a Internet i accedir als permisos següents:</Data></string>
+    <string name="china_mobile_components_manager_app">Gestor de components personalitzats amb IA</string>
     <string name="clearable_edittext_clear_description">Netejar</string>
     <string name="clock_introduction">"Pots utilitzar aquesta aplicació per a veure l'hora, a més de fer servir un temporitzador o un cronòmetre, el rellotge mundial, configurar alarmes i més."</string>
     <string name="close">Tanca</string>
@@ -438,12 +439,14 @@ Pots desactivar les actualitzacions automàtiques a GetApps > Configuració > Ac
 Les dades que envieu inclouran informació general sobre aquest dispositiu i sobre com el feu servir (per exemple, el nivell de bateria, l'activitat del sistema i de l'aplicació i els errors). Les dades s’utilitzaran per millorar els nostres dispositius.
 La desactivació d’aquesta funció no afecta la capacitat del dispositiu d’enviar la informació necessària per a serveis essencials, com ara actualitzacions del sistema i seguretat.
 Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Configuració."</string>
-    <string name="other_settings_upload_debug_log_summary">"Ajudeu a millorar la vostra experiència enviant automàticament dades de diagnòstic, dispositiu i ús de les aplicacions a Xiaomi. Això ajudarà a millorar la durada de la bateria, el sistema i l'estabilitat de l'aplicació, etc."</string>
+    <string name="other_settings_upload_debug_log_summary">"Ajudeu a millorar la vostra experiència enviant automàticament dades de diagnòstic, dispositiu i ús de les aplicacions a Xiaomi. Això ajudarà a millorar la durada de la bateria, el sistema i l'estabilitat de l'aplicació, etc. "</string>
     <string name="other_settings_upload_debug_log_title">Enviar dades d’ús i diagnòstic</string>
     <string name="other_settings_user_experience">"Programa d'experiència d'usuari"</string>
-    <string name="other_settings_user_experience_summary">Ajudeu-nos a millorar els nostres productes i serveis compartint les estadístiques d’ús i dades amb nosaltres.</string>
+    <string name="other_settings_user_experience_summary">"Ajudeu-nos a millorar els nostres productes i serveis compartint les estadístiques d’ús i dades amb nosaltres. "</string>
     <string name="other_settings_user_experience_summary_index">Mostra els detalls</string>
-    <string name="permission_MIUIDaemon_introduction">System Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="other_settings_xiaomi_share">Xiaomi Share</string>
+    <string name="other_settings_xiaomi_share_summary"><Data>"Amb Xiaomi Share, podeu transferir fitxers entre dispositius. En activar l'interruptor, accepteu la &lt;a href=%1$s>Política de privadesa&lt;/a> de Xiaomi Share.&lt;br/>A causa de les variacions entre les versions del sistema i els models de dispositiu, la funcionalitat de Xiaomi Share per al vostre dispositiu actual pot variar. Consulta el lloc web oficial per obtenir més informació."</Data></string>
+    <string name="permission_MIUIDaemon_introduction">Daemon del sistema us permet transferir dades del vostre dispositiu quan la pantalla està danyada.</string>
     <string name="permission_access_calendar">Accedir al calendari</string>
     <string name="permission_access_calendar_fast_application_summary">Per permetre que les aplicacions ràpides accedeixin al calendari;</string>
     <string name="permission_account">Accedir als comptes del teu dispositiu</string>
@@ -457,6 +460,8 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="permission_call_records_describe_bluetooth_summary">"Per permetre que els altres dispositius compatibles que connecteu a aquest dispositiu accedeixin a l'historial de trucades. Això només passarà quan demaneu utilitzar l'historial de trucades de manera proactiva mitjançant un altre dispositiu. L'historial de trucades i els contactes compartits pel sistema mitjançant Bluetooth només s'emmagatzemaran a la memòria cau localment als vostres dispositius i es compartiran amb ells amb el vostre permís."</string>
     <string name="permission_call_records_introduction">"Per a accedir a l'historial de trucades per tal de mostrar els elements bloquejats"</string>
     <string name="permission_call_state_introduction">Per a accedir als estats del telèfon, gravar trucades i aturar gravacions durant trucades entrants</string>
+    <string name="permission_china_mobile_ai_function">Identificador únic (IMEI) i número de telèfon del dispositiu</string>
+    <string name="permission_china_mobile_ai_function_describe">Per mostrar informació personalitzada en dispositius intel·ligents personalitzats de China Mobile, cal accedir a la informació següent i sincronitzar-la amb China Mobile durant el procés de configuració inicial:</string>
     <string name="permission_clock_info_introduction">"Per a desar dades d'alarma"</string>
     <string name="permission_contact">Accediu als contactes</string>
     <string name="permission_contact_describe">Accediu als contactes</string>
@@ -627,7 +632,7 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="service_interconnection_communication">Serveis de comunicació per Internet de Xiaomi</string>
     <string name="service_location_share_policy">&lt;Data>RLlegiu i accepteu la &lt;a href=%1$s>Declaració de privadesa dels serveis d’ubicació&lt;/a > abans de continuar.&lt;/Data></string>
     <string name="service_mi_account">Compte Mi</string>
-    <string name="service_name_MIUIDaemon">System Daemon</string>
+    <string name="service_name_MIUIDaemon">Daemon del sistema</string>
     <string name="service_name_address_dialing">Contactes i Telèfon</string>
     <string name="service_name_album">Galeria</string>
     <string name="service_name_application_package">Instal·lador de paquets</string>
@@ -726,8 +731,8 @@ Podeu activar o desactivar aquesta funció cercant \"Ús i diagnòstic\" a Confi
     <string name="terms_of_use_label_landscape">Vista del paisage</string>
     <string name="terms_of_use_label_mab">MAB</string>
     <string name="terms_of_use_label_mi_account">Compte Mi</string>
-    <string name="terms_of_use_label_miuiDaemon">System Daemon</string>
-    <string name="terms_of_use_label_miuisdk">System SDK</string>
+    <string name="terms_of_use_label_miuiDaemon">Daemon del sistema</string>
+    <string name="terms_of_use_label_miuisdk">SDK del sistema</string>
     <string name="terms_of_use_label_os">Configuració OS IA</string>
     <string name="terms_of_use_label_package">Instal·lador de paquets</string>
     <string name="terms_of_use_label_parallel_windows">Finestres paral·leles</string>
@@ -818,6 +823,7 @@ Has d'acceptar la Política de privadesa del teclat Mint abans de fer servir aqu
     <string name="title_recent_tasks_style">Disposicions de Recents</string>
     <string name="title_set_fingerprint">Bloqueig de pantalla</string>
     <string name="title_setting_up_face">Establiu les dades facials</string>
+    <string name="title_stacked_layout">Apilat</string>
     <string name="title_vertical_layout">Vertical</string>
     <string name="today">Avui</string>
     <string name="tomorrow">Demà</string>

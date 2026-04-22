@@ -64,7 +64,7 @@
     <string name="back">Vissza</string>
     <string name="backup_introduction">A készüléken megtalálható elemek biztonsági mentéséhez és helyreállításához használhatja ezt az alkalmazást.</string>
     <string name="bluetooth_introduction">A Bluetooth kapcsolatot a rendszer vezeték nélküli kommunikációra használja. Ahhoz, hogy a Bluetooth megfelelően működjön, a következő engedélyekre van szükség:</string>
-    <string name="bluetooth_usage_desc">A kezdeti beállítás lehetővé teszi az eszköz alapvető beállításainak megadását. Az eszköz sikeres beállításához a Bluetooth-rendszerszolgáltatások a következő engedélyeket használják:</string>
+    <string name="bluetooth_usage_desc">A kezdeti beállítás lehetővé teszi az eszköz alapvető beállításainak megadását. Az eszköz sikeres beállításához a következő engedélyek szükségesek:</string>
     <string name="boot_video_replay">Újrajátszás</string>
     <string name="boot_video_skip">Kihagyás</string>
     <string name="calculator_introduction">Az alkalmazással számolhat, átválthat mértékegységeket és kiszámíthatja a jelzálogtörlesztőjét.</string>
@@ -76,10 +76,11 @@
     <string name="carousel_privacy"><Data>A Váltakozó háttérképek használata előtt olvassa el és fogadja el a megbízható harmadik fél szolgáltatónk &lt;a href=\"%1$s\">Adatvédelmi irányelveit&lt;/a> és &lt;a href=\"%2$s\">Felhasználói szerződését&lt;/a>.</Data></string>
     <string name="carousel_setting">Állítsa be a képernyőzárát</string>
     <string name="carousel_setting_sub">A Váltakozó háttérképek a készülék minden feloldásakor friss történeteket mutat Önnek</string>
-    <string name="carrier_introduction_china">Annak érdekében, hogy még jobb szolgáltatást biztosíthassunk Önnek, a készülékén futó folyamatok (ideértve a SystemHelper, RegService és Carrier Services szolgáltatásokat) időről időre elküldik szolgáltatója számára az Ön készülékével és SIM-kártyájával kapcsolatos adatait (beleértve az IMEI-,az IMSI-,az MSISDN-,MEID-, ICCID-, a MAC-címet, rendszerverziót, Android-verziót, készülékmodellt, és alap hardver specifikációkat), valamint az Ön körülbelüli tartózkodási helyét (beleértve az alap állomásazonosítót is) WLAN-n, mobiladatforgalmon vagy ingyenes SMS-en keresztül. A szolgáltató ígérete szerint kizárólag a vonatkozó adatokat használja fel a szolgáltatások minőségének javítására, illetve testre szabott szolgáltatások vagy technológiák biztosítására és nem teszi közzé a vonatkozó adatokat harmadik felek számára olyan formában, hogy azok beazonosíthatóak legyenek. A szolgáltató konkrét nyilatkozata érvényes. A szolgáltatás használatának költségeiről érdeklődjön szolgáltatójánál.</string>
+    <string name="carrier_introduction_china">Az Önnek nyújtott szolgáltatások minőségének javítása érdekében az eszközön futó programok (beleértve a SystemHelper, RegService és Carrier szolgáltatásokat) WLAN-on, mobilszolgáltatókon vagy SMS-ben elküldhetik a szolgáltatónak a készülékre vagy a SIM-kártyára vonatkozó információkat (beleértve az IMEI, IMSI, MSISDN, MEID, ICCID, MAC cím, rendszerverzió, Android-verzió, készülékmodell, alapvető hardverkonfiguráció és telefonszám), valamint az Ön hozzávetőleges helyét (beleértve a régiót, koordinátákat, a környék azonosítóját és a bázisállomás azonosítóját). A mobilszolgáltatók garantálják, hogy ezeket az információkat kizárólag elemzésre, a szolgáltatás minőségének javítására, illetve személyre szabott szolgáltatások vagy technológiák nyújtására használják fel, és soha nem osztják meg senkivel olyan módon, amely lehetővé tenné az Ön személyes azonosítását. A részletekért olvassa el a szolgáltatója vonatkozó nyilatkozatát. A kapcsolódó szolgáltatási díjakról közvetlenül a szolgáltatójánál érdeklődhet.</string>
     <string name="carrier_introduction_china_rothko">Az Önnek nyújtott szolgáltatások minőségének javítása érdekében az eszközön futó programok (beleértve a SystemHelper, RegService és Carrier szolgáltatásokat) WLAN-on, mobilhálózatokon vagy SMS-ben elküldhetik a szolgáltatónak az eszközre vagy a SIM-kártyára vonatkozó információkat (beleértve az IMEI, IMSI, MSISDN, MEID, ICCID, MAC-cím, rendszerverzió, Android verzió, készülékmodell, alapvető hardverkonfiguráció és telefonszám), valamint az Ön hozzávetőleges tartózkodási helyét (beleértve a régiót, koordinátákat, a környék azonosítóját és a bázisállomás azonosítóját). Hívások kezdeményezésekor a DCService csatlakozik a hálózathoz. A mobilszolgáltatók garantálják, hogy ezeket az információkat kizárólag elemzésre, a szolgáltatás minőségének javítására, illetve személyre szabott szolgáltatások vagy technológiák nyújtására használják fel, és soha nem osztják meg senkivel olyan módon, amely lehetővé tenné az Ön személyes azonosítását. A részletekért olvassa el a szolgáltatója vonatkozó nyilatkozatát. A kapcsolódó szolgáltatási díjakról közvetlenül a szolgáltatójánál érdeklődhet.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Az Összekapcsolhatóság segítségével átvihet elemeket a készülékek között, és készülékek közötti vezérlőket használhat. A funkció bekapcsolásával elfogadja az &lt;a href=%1$s>Adatvédelmi irányelveket&lt;/a >. Ez a szolgáltatás internetkapcsolatot igényel, valamint hozzáférést a következő engedélyekhez:</Data></string>
+    <string name="china_mobile_components_manager_app">AI Custom Component Manager</string>
     <string name="clearable_edittext_clear_description">Törlés</string>
     <string name="clock_introduction">Az alkalmazással megnézheti az időt, valamint használhatja az időzítőt, a stoppert, beállíthat ébresztőt és még sok mást.</string>
     <string name="close">Bezárás</string>
@@ -438,12 +439,14 @@ Az automatikus frissítéseket a GetApps > Beállítások > Automatikus frissít
 Az elküldött adatok általános információkat tartalmaznak erről a készülékről és arról, hogyan használja azt (pl. az akkumulátor szintje, a rendszer és az alkalmazások aktivitása, valamint a hibák). Az adatokat a készülékeink fejlesztésére használjuk.
 A funkció kikapcsolása nem befolyásolja a készüléke azon képességét, hogy elküldje az olyan alapvető szolgáltatásokhoz szükséges információkat, mint a rendszerfrissítések és a biztonság.
 Ezt a funkciót a Beállításokban a \"Használat és diagnosztika\" menüpontot keresve kapcsolhatja be vagy ki."</string>
-    <string name="other_settings_upload_debug_log_summary">Segítsen javítani a használati élményt automatikus diagnosztikai, készülék- és alkalmazáshasználati adatok küldésével a Xiaomi számára. Ez segít javítani többek között az akkumulátor élettartamát, a rendszer és az alkalmazások stabilitását.</string>
+    <string name="other_settings_upload_debug_log_summary">"Segítsen javítani a használati élményt automatikus diagnosztikai, készülék- és alkalmazáshasználati adatok küldésével a Xiaomi számára. Ez segít javítani többek között az akkumulátor élettartamát, a rendszer és az alkalmazások stabilitását. "</string>
     <string name="other_settings_upload_debug_log_title">Használati és diagnosztikai adatok küldése</string>
     <string name="other_settings_user_experience">Felhasználói Élményprogram</string>
-    <string name="other_settings_user_experience_summary">Segítse termékeink és szolgáltatásaink fejlesztését használati adatainak és analitikáinak a megosztásával.</string>
+    <string name="other_settings_user_experience_summary">"Segítse termékeink és szolgáltatásaink fejlesztését használati adatainak és analitikáinak a megosztásával. "</string>
     <string name="other_settings_user_experience_summary_index">Részletek megtekintése</string>
-    <string name="permission_MIUIDaemon_introduction">System Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="other_settings_xiaomi_share">Xiaomi Share</string>
+    <string name="other_settings_xiaomi_share_summary"><Data>A Xiaomi Share segítségével fájlokat vihet át egyik készülékről a másikra. A kapcsoló bekapcsolásával elfogadja a Xiaomi Share &lt;a href=%1$s>Adatvédelmi irányelveit&lt;/a>.&lt;br/>A rendszerverziók és a készülékmodellek közötti eltérések miatt a Xiaomi Share funkciók az Ön jelenlegi készülékén eltérőek lehetnek. További információkért látogasson el a hivatalos weboldalra.</Data></string>
+    <string name="permission_MIUIDaemon_introduction">A Rendszerdémon lehetővé teszi az adatok átvitelét a készülékről, ha annak képernyője megsérült.</string>
     <string name="permission_access_calendar">Hozzáférés a naptárhoz</string>
     <string name="permission_access_calendar_fast_application_summary">Naptárhoz való hozzáférés engedélyezéséhez a Gyors alkalmazások számára</string>
     <string name="permission_account">Hozzáférés a készülékén lévő fiókokhoz</string>
@@ -457,6 +460,8 @@ Ezt a funkciót a Beállításokban a \"Használat és diagnosztika\" menüponto
     <string name="permission_call_records_describe_bluetooth_summary">Hozzáférés engedélyezése a hívásnaplókhoz az ehhez az eszközhöz csatlakoztatott egyéb kompatibilis eszközök számára. Csak akkor történik, ha proaktívan van szüksége hívásnaplóra másik eszközről. A Bluetooth-on keresztü a rendszerben megosztott hívásnapók és névjegyek csak az eszközök gyorsítótáraiban jelennek meg, és csak a felhasználó jóváhagyását követően lesznek megosztva.</string>
     <string name="permission_call_records_introduction">A híváselőzményekhez való hozzáféréshez a tiltott elemek megjelenítése érdekében</string>
     <string name="permission_call_state_introduction">A telefonstátuszhoz való hozzáféréshez, hívások rögzítéséhez, valamint felvételek szüneteltetéséhez bejövő hívások alatt</string>
+    <string name="permission_china_mobile_ai_function">Az eszköz egyedi azonosítója (IMEI) és telefonszáma</string>
+    <string name="permission_china_mobile_ai_function_describe">A testreszabott China Mobile intelligens terminál eszközök személyre szabott adatainak megjelenítéséhez a következő információkat kell elérni és szinkronizálni a China Mobile-hoz a kezdeti beállítási folyamat során:</string>
     <string name="permission_clock_info_introduction">Az ébresztési adatok mentéséhez</string>
     <string name="permission_contact">Hozzáférés a névjegyekhez</string>
     <string name="permission_contact_describe">Hozzáférés a névjegyekhez</string>
@@ -627,7 +632,7 @@ Ezt a funkciót a Beállításokban a \"Használat és diagnosztika\" menüponto
     <string name="service_interconnection_communication">Xiaomi Internet Communication Services</string>
     <string name="service_location_share_policy">&lt;Data>Folytatás előtt olvassa el és fogadja el a &lt;a href=%1$s>Helymeghatározó szolgáltatásokra vonatkozó adatvédelmi irányelvet&lt;/a >.&lt;/Data></string>
     <string name="service_mi_account">Mi Fiók</string>
-    <string name="service_name_MIUIDaemon">System Daemon</string>
+    <string name="service_name_MIUIDaemon">Rendszerdémon</string>
     <string name="service_name_address_dialing">Névjegyek és telefon</string>
     <string name="service_name_album">Galéria</string>
     <string name="service_name_application_package">Csomagtelepítő</string>
@@ -726,8 +731,8 @@ Ezt a funkciót a Beállításokban a \"Használat és diagnosztika\" menüponto
     <string name="terms_of_use_label_landscape">Vízszintes nézet</string>
     <string name="terms_of_use_label_mab">MAB</string>
     <string name="terms_of_use_label_mi_account">Mi Fiók</string>
-    <string name="terms_of_use_label_miuiDaemon">System Daemon</string>
-    <string name="terms_of_use_label_miuisdk">System SDK</string>
+    <string name="terms_of_use_label_miuiDaemon">Rendszerdémon</string>
+    <string name="terms_of_use_label_miuisdk">Rendszer SDK</string>
     <string name="terms_of_use_label_os">OS AI Beállítások</string>
     <string name="terms_of_use_label_package">Csomagtelepítő</string>
     <string name="terms_of_use_label_parallel_windows">Párhuzamos ablakok</string>
@@ -818,6 +823,7 @@ A funkció használata előtt el kell fogadnia a Mint Keyboard adatvédelmi Irá
     <string name="title_recent_tasks_style">Előzmények elrendezése</string>
     <string name="title_set_fingerprint">Képernyőzár</string>
     <string name="title_setting_up_face">Arcadatok beállítása</string>
+    <string name="title_stacked_layout">Halmozott</string>
     <string name="title_vertical_layout">Függőleges</string>
     <string name="today">Ma</string>
     <string name="tomorrow">Holnap</string>

@@ -64,7 +64,7 @@
     <string name="back">Natrag</string>
     <string name="backup_introduction">Možete koristiti ovu aplikaciju za stvaranje sigurnosnih kopija i vraćanje stavki na Vašem uređaju.</string>
     <string name="bluetooth_introduction">Sustav koristi Bluetooth za bežičnu komunikaciju. Da bi mogao normalno raditi, Bluetooth treba sljedeće dozvole:</string>
-    <string name="bluetooth_usage_desc">Initial setup allows you to set your basic preferences for this device. To set up your device successfully, Bluetooth system services will use the following permissions:</string>
+    <string name="bluetooth_usage_desc">Početna postavka omogućuje vam postavljanje osnovnih postavki za ovaj uređaj. Za uspješno postavljanje uređaja potrebna su sljedeća dopuštenja:</string>
     <string name="boot_video_replay">Reproduciraj ponovno</string>
     <string name="boot_video_skip">Preskoči</string>
     <string name="calculator_introduction">Ovu aplikaciju možete koristiti za izračunavanje, pretvaranje jedinica i valuta i procjenu otplate hipoteke.</string>
@@ -76,10 +76,11 @@
     <string name="carousel_privacy"><Data>Trebate pročitati i pristati na &lt;a href=\"%1$s\">Odredbe o privatnosti&lt;/a> i &lt;a href=\"%2$s\">Korisnički ugovor&lt;/a> treće strane prije korištenja ove opcije.</Data></string>
     <string name="carousel_setting">Postavite vaš Zaključani ekran</string>
     <string name="carousel_setting_sub">Rotirajuća pozadina će pokazati nove priče svaki put kada otključate vaš uređaj</string>
-    <string name="carrier_introduction_china">Kako bismo vam pružili bolje usluge, procesi koji se izvode na vašem uređaju (uključujući SystemHelper, RegService i Carrier Services) mogu povremeno slati informacije povezane s vašim uređajem i SIM karticom (uključujući IMEI, IMSI, MSISDN, MEID, ICCID, MAC adresu , verzija sustava, verzija Androida, model uređaja i osnovne specifikacije hardvera), kao i informacije o približnoj lokaciji (uključujući regiju, koordinate, identifikator područja i ID bazne stanice) operateru putem WLAN-a, mobilne podatkovne mreže ili besplatnog SMS-a. Pružatelj usluge obećava da će analizirati relevantne informacije samo kako bi poboljšao kvalitetu usluga ili pružio prilagođene usluge ili tehnologije i neće otkriti relevantne informacije trećim stranama u bilo kojem obliku koji vas osobno identificira. Posebna izjava pružatelja usluga ima prednost. Posavjetujte se sa svojim operaterom o cijeni korištenja ove usluge.</string>
+    <string name="carrier_introduction_china">Kako bismo poboljšali kvalitetu usluga koje vam pružamo, programi koji su u pogonu na ovom uređaju (uključujući i programe „SystemHelper“, „RegService“ i „Carrier services“) mogu poslati podatke o ovom uređaju ili vašoj SIM kartici (uključujući IMEI, IMSI, MSISDN, MEID, ICCID, MAC adresu, verziju sustava, verziju Androida, model uređaja, osnovne postavke hardvera te telefonski broj), kao i vašu približnu lokaciju (uključujući regiju, koordinate, oznaku četvrti te ID oznaku bazne stanice) vašem pružatelju telekomunikacijskih usluga putem WLAN-a, mobilnih mreža ili SMS-a. Pružatelji mobilnih telekomunikacijskih usluga jamče da se ovi podaci koriste isključivo u svrhu analize, poboljšanja kvalitete usluge ili pružanje prilagođenih usluga ili tehnologija te da nikada neće biti dijeljeni ni s kime na bilo koji način kojim biste mogli biti osobno prepoznati. Za više pojedinosti pogledajte odgovarajuću izjavu svog pružatelja telekomunikacijskih usluga. Možete se raspitati o svim naknadama vezanim za uslugu direktno kod svog pružatelja telekomunikacijskih usluga.</string>
     <string name="carrier_introduction_china_rothko">Kako bismo poboljšali kvalitetu usluga koje vam pružamo, programi koji su u pogonu na ovom uređaju (uključujući i programe „SystemHelper“, „RegService“ i „Carrier services“) mogu poslati podatke o ovom uređaju ili vašoj SIM kartici (uključujući IMEI, IMSI, MSISDN, MEID, ICCID, MAC adresu, verziju sustava, verziju Androida, model uređaja, osnovne postavke hardvera te telefonski broj), kao i vašu približnu lokaciju (uključujući regiju, koordinate, oznaku četvrti te ID oznaku bazne stanice) vašem pružatelju telekomunikacijskih usluga putem WLAN-a, mobilnih mreža ili SMS-a. Tijekom obavljanja poziva, program „DCService“ spojit će se na mrežu. Pružatelji mobilnih telekomunikacijskih usluga jamče da se ovi podaci koriste isključivo u svrhu analize, poboljšanja kvalitete usluge ili pružanje prilagođenih usluga ili tehnologija te da nikada neće biti dijeljeni ni s kime na bilo koji način kojim biste mogli biti osobno prepoznati. Za više pojedinosti pogledajte odgovarajuću izjavu svog pružatelja telekomunikacijskih usluga. Možete se raspitati o svim naknadama vezanim za uslugu direktno kod svog pružatelja telekomunikacijskih usluga.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Pomoću Međusobnog povezivanja možete prenositi stavke između uređaja i koristiti kontrole na više uređaja. Uključivanjem ove značajke prihvaćate &lt;a href=%1$s>Pravila o privatnosti&lt;/a >. Ova usluga treba se povezati s internetom i pristupiti sljedećim dopuštenjima:</Data></string>
+    <string name="china_mobile_components_manager_app">AI upravitelj prilagođenih komponenti</string>
     <string name="clearable_edittext_clear_description">Očisti</string>
     <string name="clock_introduction">Ovu aplikaciju možete koristiti za prikaz vremena, kao i za korištenje brojača, svjetskog sata, štoperice, postavljanje alarma i još mnogo toga.</string>
     <string name="close">Zatvori</string>
@@ -438,12 +439,14 @@ Automatska ažuriranja možete isključiti u GetApps > Postavke > Automatska až
 Podaci koje ćete poslati sadržavat će opće informacije o ovom uređaju i načinu na koji ga koristite (npr. razina baterije, aktivnost sustava i aplikacija te pogreške). Podaci će se koristiti za poboljšanje naših uređaja.
 Isključivanje ove značajke ne utječe na sposobnost ovog uređaja da šalje informacije potrebne za bitne usluge kao što su ažuriranja sustava i sigurnost.
 Ovu značajku možete uključiti ili isključiti pretraživanjem stavke \"Upotreba i dijagnostika\" u Postavkama."</string>
-    <string name="other_settings_upload_debug_log_summary">Pomognite poboljšati svoje iskustvo korištenja automatskim slanjem podataka o dijagnostici, uređaju i korištenju aplikacija tvrtki Xiaomi. To će pomoći produžiti trajanje baterije, stabilnost sustava i aplikacija i još mnogo toga.</string>
+    <string name="other_settings_upload_debug_log_summary">"Pomognite poboljšati svoje iskustvo korištenja automatskim slanjem podataka o dijagnostici, uređaju i korištenju aplikacija tvrtki Xiaomi. To će pomoći produžiti trajanje baterije, stabilnost sustava i aplikacija i još mnogo toga. "</string>
     <string name="other_settings_upload_debug_log_title">Pošalji podatke korištenja i dijagnostike</string>
     <string name="other_settings_user_experience">Program iskustava korisnika</string>
-    <string name="other_settings_user_experience_summary">Pomozite nam poboljšati naše proizvode i usluge dijeljenjem podataka o korištenju i analiza s nama.</string>
+    <string name="other_settings_user_experience_summary">"Pomozite nam poboljšati naše proizvode i usluge dijeljenjem podataka o korištenju i analiza s nama. "</string>
     <string name="other_settings_user_experience_summary_index">Prikaži pojedinosti</string>
-    <string name="permission_MIUIDaemon_introduction">System Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="other_settings_xiaomi_share">Xiaomi Share</string>
+    <string name="other_settings_xiaomi_share_summary"><Data>Pomoću Xiaomi Sharea možete prenositi datoteke između uređaja. Uključivanjem prekidača prihvaćate Xiaomi Shareova &lt;a href=%1$s>Pravila o privatnosti&lt;/a>.&lt;br/>Zbog razlika među verzijama sustava i modelima uređaja, funkcionalnost Xiaomi Sharea za vaš trenutni uređaj može se razlikovati. Za više informacija posjetite službenu web stranicu.</Data></string>
+    <string name="permission_MIUIDaemon_introduction">Sustav Daemon omogućava Vam prijenos podataka s Vašeg uređaja kada mu je ostećen zaslon.</string>
     <string name="permission_access_calendar">Pristup kalendaru</string>
     <string name="permission_access_calendar_fast_application_summary">Za dopuštenje brzim aplikacijama da pristupe kalendaru;</string>
     <string name="permission_account">Pristupite računima na svojem uređaju</string>
@@ -457,6 +460,8 @@ Ovu značajku možete uključiti ili isključiti pretraživanjem stavke \"Upotre
     <string name="permission_call_records_describe_bluetooth_summary">Kako bi se Vaši drugi kompatibilni uređaji mogli spojiti na ovaj uređaj i pristupiti povijesti poziva. To će biti moguće samo kada proaktivno zahtijevate korištenje povijesti poziva putem drugog uređaja. Povijest poziva i kontakti koje sustav dijeli putem Bluetootha bit će spremljeni lokalno samo na Vašim uređajima i dijeljeni s njima uz Vaše dopuštenje.</string>
     <string name="permission_call_records_introduction">Za pristup povijesti poziva radi prikazivanja blokiranih stavki</string>
     <string name="permission_call_state_introduction">Za pristup statusu telefona, snimanje poziva i zaustavljanje snimanja tijekom dolaznih poziva</string>
+    <string name="permission_china_mobile_ai_function">Jedinstveni identifikator (IMEI) i broj telefona uređaja</string>
+    <string name="permission_china_mobile_ai_function_describe">Za prikaz prilagođenih podataka na prilagođenim pametnim terminalima China Mobile, sljedećim informacijama potrebno je pristupiti i sinkronizirati ih s China Mobileom tijekom početnog postupka postavljanja:</string>
     <string name="permission_clock_info_introduction">Za spremanje podataka alarma</string>
     <string name="permission_contact">Pristupi kontaktima</string>
     <string name="permission_contact_describe">Pristupite kontaktima</string>
@@ -627,7 +632,7 @@ Ovu značajku možete uključiti ili isključiti pretraživanjem stavke \"Upotre
     <string name="service_interconnection_communication">Xiaomi internetske komunikacijske usluge</string>
     <string name="service_location_share_policy">&lt;Data>Pročitajte i potvrdite &lt;a href=%1$s>Izjavu o privatnosti Usluge lokacije&lt;/a > prije nastavka.&lt;/Data></string>
     <string name="service_mi_account">Mi Račun</string>
-    <string name="service_name_MIUIDaemon">System Daemon</string>
+    <string name="service_name_MIUIDaemon">Sustav Daemon</string>
     <string name="service_name_address_dialing">Kontakti i Telefon</string>
     <string name="service_name_album">Galerija</string>
     <string name="service_name_application_package">Alat za instaliranje paketa</string>
@@ -726,8 +731,8 @@ Ovu značajku možete uključiti ili isključiti pretraživanjem stavke \"Upotre
     <string name="terms_of_use_label_landscape">Pejzažni prikaz</string>
     <string name="terms_of_use_label_mab">MAB</string>
     <string name="terms_of_use_label_mi_account">Mi Račun</string>
-    <string name="terms_of_use_label_miuiDaemon">System Daemon</string>
-    <string name="terms_of_use_label_miuisdk">System SDK</string>
+    <string name="terms_of_use_label_miuiDaemon">Sustav Daemon</string>
+    <string name="terms_of_use_label_miuisdk">Sustav SDK</string>
     <string name="terms_of_use_label_os">OS AI Postavke</string>
     <string name="terms_of_use_label_package">Instalator paketa</string>
     <string name="terms_of_use_label_parallel_windows">Paralelni prozori</string>
@@ -818,6 +823,7 @@ Prije korištenja ove značajke trebate prihvatiti Pravila o privatnosti Mint Ti
     <string name="title_recent_tasks_style">Nedavni raspored</string>
     <string name="title_set_fingerprint">Zaključavanje zaslona</string>
     <string name="title_setting_up_face">Postavite podatke lica</string>
+    <string name="title_stacked_layout">Slagano</string>
     <string name="title_vertical_layout">Okomito</string>
     <string name="today">Danas</string>
     <string name="tomorrow">Sutra</string>

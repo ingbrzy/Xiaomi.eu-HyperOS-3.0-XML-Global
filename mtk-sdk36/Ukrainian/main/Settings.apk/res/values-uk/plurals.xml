@@ -120,6 +120,30 @@
         <item quantity="many">%d пристроїв</item>
         <item quantity="other">%d пристроїв</item>
     </plurals>
+    <plurals name="enter_digit_password_max_length">
+        <item quantity="one">Ви можете ввести до %1$d цифри</item>
+        <item quantity="few">Ви можете ввести до %1$d цифр</item>
+        <item quantity="many">Ви можете ввести до %1$d цифр</item>
+        <item quantity="other">Ви можете ввести до %1$d цифр</item>
+    </plurals>
+    <plurals name="enter_digit_password_min_length">
+        <item quantity="one">Введіть принаймні %1$d цифру</item>
+        <item quantity="few">Введіть принаймні %1$d цифр</item>
+        <item quantity="many">Введіть принаймні %1$d цифр</item>
+        <item quantity="other">Введіть принаймні %1$d цифр</item>
+    </plurals>
+    <plurals name="enter_mix_password_max_length">
+        <item quantity="one">Ви можете ввести до %d символа</item>
+        <item quantity="few">Ви можете ввести до %d символів</item>
+        <item quantity="many">Ви можете ввести до %d символів</item>
+        <item quantity="other">Ви можете ввести до %d символів</item>
+    </plurals>
+    <plurals name="enter_mix_password_min_chars">
+        <item quantity="one">Введіть принаймні %1$d символ</item>
+        <item quantity="few">Введіть принаймні %1$d символа(-ів)</item>
+        <item quantity="many">Введіть принаймні %1$d символа(-ів)</item>
+        <item quantity="other">Введіть принаймні %1$d символа(-ів)</item>
+    </plurals>
     <plurals name="firewall_item_summary">
         <item quantity="one">Обмежено підключення для %s програми</item>
         <item quantity="few">Обмежено підключення для %s програм</item>
@@ -167,6 +191,12 @@
         <item quantity="few">через %d хв</item>
         <item quantity="many">через %d хв</item>
         <item quantity="other">через %d хв</item>
+    </plurals>
+    <plurals name="keyguard_lock_too_many_attempts">
+        <item quantity="one">Забагато спроб. Повторіть спробу через %d сек</item>
+        <item quantity="few">Забагато спроб. Повторіть спробу через %d сек</item>
+        <item quantity="many">Забагато спроб. Повторіть спробу через %d сек</item>
+        <item quantity="other">Забагато спроб. Повторіть спробу через %d сек</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="one">Тільки що</item>
@@ -282,6 +312,12 @@
         <item quantity="many">%d хв тому</item>
         <item quantity="other">%d хв тому</item>
     </plurals>
+    <plurals name="remaining_attempts_message">
+        <item quantity="one">Залишилося спроб: %1$d</item>
+        <item quantity="few">Залишилося спроб: %1$d</item>
+        <item quantity="many">Залишилося спроб: %1$d</item>
+        <item quantity="other">Залишилося спроб: %1$d</item>
+    </plurals>
     <plurals name="saved_network_checked_num">
         <item quantity="one">"Вибрано об'єктів: %d"</item>
         <item quantity="few">"Вибрано об'єктів: %d"</item>
@@ -377,6 +413,18 @@
         <item quantity="few">Отримувати сповіщення, коли один із навушників знаходиться поза футляром для заряджання більше %d хвилин.</item>
         <item quantity="many">Отримувати сповіщення, коли один із навушників знаходиться поза футляром для заряджання більше %d хвилин.</item>
         <item quantity="other">Отримувати сповіщення, коли один із навушників знаходиться поза футляром для заряджання більше %d хвилин.</item>
+    </plurals>
+    <plurals name="tiny_accessibility_battery_level">
+        <item quantity="one">Поточний рівень заряду %s процент.</item>
+        <item quantity="few">Поточний рівень заряду %s процента.</item>
+        <item quantity="many">Поточний рівень заряду %s процентів.</item>
+        <item quantity="other">Поточний рівень заряду %s процентів.</item>
+    </plurals>
+    <plurals name="tiny_accessibility_battery_level_charging">
+        <item quantity="one">Зараджається. Поточний рівень заряду %d процент.</item>
+        <item quantity="few">Зараджається. Поточний рівень заряду %d процента.</item>
+        <item quantity="many">Зараджається. Поточний рівень заряду %d процентів.</item>
+        <item quantity="other">Зараджається. Поточний рівень заряду %d процентів.</item>
     </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="one">Розблоковано %d раз</item>

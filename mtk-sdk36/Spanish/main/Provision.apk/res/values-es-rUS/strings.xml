@@ -64,7 +64,7 @@
     <string name="back">Atrás</string>
     <string name="backup_introduction">Puedes usar esta aplicación para hacer una copia de seguridad y restaurar elementos en su dispositivo.</string>
     <string name="bluetooth_introduction">El sistema utiliza Bluetooth para la comunicación inalámbrica. Para poder funcionar con normalidad, Bluetooth necesita los siguientes permisos:</string>
-    <string name="bluetooth_usage_desc">Initial setup allows you to set your basic preferences for this device. To set up your device successfully, Bluetooth system services will use the following permissions:</string>
+    <string name="bluetooth_usage_desc">La configuración inicial le permite establecer sus preferencias básicas para este dispositivo. Para configurar su dispositivo correctamente, son necesarios los siguientes permisos:</string>
     <string name="boot_video_replay">Volver a reproducir</string>
     <string name="boot_video_skip">Saltar</string>
     <string name="calculator_introduction">Puede usar esta aplicación para realizar cálculos, convertir unidades y divisas, y estimar sus pagos de hipoteca.</string>
@@ -76,10 +76,11 @@
     <string name="carousel_privacy"><Data>Lea y acepte la &lt;a href=\"%1$s\">Política de Privacidad&lt;/a> y el &lt;a href=\"%2$s\">Acuerdo de Usuario&lt;/a> de nuestro proveedor de servicios externo de confianza antes de usar el Carrusel de fondos de pantalla.</Data></string>
     <string name="carousel_setting">Configure su Pantalla de bloqueo</string>
     <string name="carousel_setting_sub">Carrusel de fondos de pantalla le mostrará nuevas historias cada vez que desbloquee su dispositivo</string>
-    <string name="carrier_introduction_china">Para brindarle mejores servicios, los procesos que se ejecutan en su dispositivo (incluidos SystemHelper, RegService y Servicios del operador) pueden enviar periódicamente información relacionada con su dispositivo y tarjeta SIM (incluidos IMEI, IMSI, MSISDN, MEID, ICCID, dirección MAC). , versión del sistema, versión de Android, modelo del dispositivo y especificaciones básicas de hardware), así como información de ubicación aproximada (incluida la región, las coordenadas, el identificador de área y el ID de la estación base) al operador a través de WLAN, red de datos móviles o SMS gratuitos. El operador se compromete a analizar información relevante solo para mejorar la calidad de los servicios o proporcionar servicios o tecnologías personalizados, y no divulgará información relevante a terceros de ninguna forma que lo identifique personalmente. Prevalecerá la declaración específica del operador. Consulte con su operador sobre el coste de utilizar este servicio.</string>
+    <string name="carrier_introduction_china">Para mejorar la calidad de los servicios que se le brindan, los programas que se ejecutan en este dispositivo (incluidos SystemHelper, RegService y los servicios del operador) podrían enviar información sobre este dispositivo o su tarjeta SIM (incluidos IMEI, IMSI, MSISDN, MEID, ICCID, dirección MAC, versión del sistema, versión de Android, modelo del dispositivo, configuración básica del hardware y número de teléfono), así como su ubicación aproximada (incluida la región, las coordenadas, el identificador de vecindario y el identificador de la estación base) a su operador a través de WLAN, redes móviles o SMS. Los operadores móviles garantizan que esta información solo se utilizará para análisis, mejoras de la calidad del servicio o para proporcionar servicios o tecnologías personalizados y nunca se compartirá con nadie de una manera que pueda permitir identificarle personalmente. Consulte la declaración correspondiente de su operador para obtener más detalles. Puede consultar todas las tarifas de servicio relacionadas directamente a su operador.</string>
     <string name="carrier_introduction_china_rothko">Para mejorar la calidad de los servicios que se le brindan, los programas que se ejecutan en este dispositivo (incluidos SystemHelper, RegService y los servicios del operador) podrían enviar información sobre este dispositivo o su tarjeta SIM (incluidos IMEI, IMSI, MSISDN, MEID, ICCID, dirección MAC, versión del sistema, versión de Android, modelo del dispositivo, configuración básica del hardware y número de teléfono), así como su ubicación aproximada (incluida la región, las coordenadas, el identificador de vecindario y el identificador de la estación base) a su operador a través de WLAN, redes móviles o SMS. Al realizar llamadas, DCService se conectará a la red. Los operadores móviles garantizan que esta información solo se utilizará para análisis, mejoras de la calidad del servicio o para proporcionar servicios o tecnologías personalizados y nunca se compartirá con nadie de una manera que pueda permitir identificarle personalmente. Consulte la declaración correspondiente de su operador para obtener más detalles. Puede consultar todas las tarifas de servicio relacionadas directamente a su operador.</string>
     <string name="check_box_label">"&lt;Data>By turning on this feature, you're agreeing to the &lt;a href=%1$s>Mi Smart Hub Privacy Policy&lt;/a >.&lt;/Data>"</string>
     <string name="check_box_label_new"><Data>Con Interconectividad, puede transferir elementos entre dispositivos y usar controles multidispositivo. Al activar esta función indica que acepta la &lt;a href=%1$s>Política de Privacidad&lt;/a >. Este servicio necesita conectarse a internet y acceder a los siguientes permisos:</Data></string>
+    <string name="china_mobile_components_manager_app">Administrador de componentes personalizados de IA</string>
     <string name="clearable_edittext_clear_description">Borrar</string>
     <string name="clock_introduction">Puede usar esta aplicación para ver la hora, usar el temporizador, cronómetro, consultar el reloj mundial, establecer alarmas y más.</string>
     <string name="close">Cerrar</string>
@@ -427,7 +428,7 @@ Para fines de prevención de riesgos, estadísticas y análisis, necesitamos per
     <string name="other_settings_enhanced_lockscreen_summary_index">Acuerdo de Licencia de Usuario Final</string>
     <string name="other_settings_get_apps">Actualizar aplicaciones automáticamente</string>
     <string name="other_settings_get_apps_summary">"Actualice las aplicaciones del sistema y terceros a través de GetApps para poder usar sus funciones más recientes.
-Puede desactivar las actualizaciones automáticas en GetApps > Ajustes > Actualizaciones automáticas."</string>
+Puede desactivar las actualizaciones automáticas en GetApps > Configuración > Actualizaciones automáticas."</string>
     <string name="other_settings_location">Ubicación</string>
     <string name="other_settings_location_summary">Permita que las aplicaciones y los sitios web accedan a la información de su ubicación para brindar servicios basados ​​en la ubicación</string>
     <string name="other_settings_minor_mode">Modo infantil</string>
@@ -438,12 +439,14 @@ Puede desactivar las actualizaciones automáticas en GetApps > Ajustes > Actuali
 Los datos que envíes contendrán información general sobre este dispositivo y cómo lo usas (por ejemplo, nivel de batería, actividad del sistema y de las apps, y errores). Los datos se utilizarán para mejorar nuestros dispositivos.
 Desactivar esta función no afecta la capacidad del dispositivo para enviar la información necesaria para servicios esenciales como actualizaciones del sistema y seguridad.
 Puede activar o desactivar esta función buscando \"Uso y diagnóstico\" en Configuración."</string>
-    <string name="other_settings_upload_debug_log_summary">Ayuda a mejorar su experiencia enviando automáticamente datos de diagnóstico, dispositivo y uso de aplicaciones a Xiaomi. Esto ayudará a mejorar la duración de la batería, el sistema, la estabilidad de la aplicación y mucho más.</string>
+    <string name="other_settings_upload_debug_log_summary">"Ayude a mejorar su experiencia enviando automáticamente datos de diagnóstico, dispositivo y uso de aplicaciones a Xiaomi. Esto ayudará a mejorar la duración de la batería, el sistema, la estabilidad de la aplicación y mucho más. "</string>
     <string name="other_settings_upload_debug_log_title">Enviar datos de uso y diagnóstico</string>
     <string name="other_settings_user_experience">Programa de Experiencia del Usuario</string>
-    <string name="other_settings_user_experience_summary">Ayúdenos a mejorar nuestros productos y servicios compartiendo sus estadísticas de uso y análisis con nosotros.</string>
+    <string name="other_settings_user_experience_summary">"Ayúdenos a mejorar nuestros productos y servicios compartiendo sus estadísticas de uso y análisis con nosotros. "</string>
     <string name="other_settings_user_experience_summary_index">Ver detalles</string>
-    <string name="permission_MIUIDaemon_introduction">System Daemon allows you to transfer data from your device when its screen is damaged.</string>
+    <string name="other_settings_xiaomi_share">Xiaomi Share</string>
+    <string name="other_settings_xiaomi_share_summary"><Data>Con Xiaomi Share puede transferir archivos entre dispositivos. Al activar el interruptor, acepta la &lt;a href=%1$s>Política de Privacidad&lt;/a> de Xiaomi Share.&lt;br/>Debido a las variaciones entre las versiones del sistema y los modelos de los dispositivos, la funcionalidad de Xiaomi Share en su dispositivo actual puede variar. Consulte el sitio web oficial para obtener más información.</Data></string>
+    <string name="permission_MIUIDaemon_introduction">Daemon del sistema le permite transferir datos desde su dispositivo cuando su pantalla está dañada.</string>
     <string name="permission_access_calendar">Acceder al calendario</string>
     <string name="permission_access_calendar_fast_application_summary">Para permitir que aplicaciones rápidas accedan al calendario;</string>
     <string name="permission_account">Acceder a cuentas en el dispositivo</string>
@@ -457,6 +460,8 @@ Puede activar o desactivar esta función buscando \"Uso y diagnóstico\" en Conf
     <string name="permission_call_records_describe_bluetooth_summary">Para permitir que sus otros dispositivos compatibles que conecte a este dispositivo accedan al historial de llamadas. Esto solo sucederá cuando requiera de manera proactiva el uso del historial de llamadas a través de otro dispositivo. El historial de llamadas y los contactos compartidos por el sistema a través de Bluetooth solo se almacenarán en caché localmente en sus dispositivos y se compartirán con ellos con su permiso.</string>
     <string name="permission_call_records_introduction">Para acceder al historial de llamadas con el fin de mostrar elementos bloqueados</string>
     <string name="permission_call_state_introduction">Para acceder al estado del teléfono, grabar llamadas y pausar grabaciones durante las llamadas entrantes</string>
+    <string name="permission_china_mobile_ai_function">Identificador único (IMEI) y número telefónico del dispositivo</string>
+    <string name="permission_china_mobile_ai_function_describe">Para mostrar información personalizada sobre terminales inteligentes personalizadas de China Mobile, se debe acceder a la siguiente información y sincronizarla con China Mobile durante la configuración inicial:</string>
     <string name="permission_clock_info_introduction">Para guardar datos de alarmas</string>
     <string name="permission_contact">Acceder a contactos</string>
     <string name="permission_contact_describe">Acceder a contactos</string>
@@ -627,7 +632,7 @@ Puede activar o desactivar esta función buscando \"Uso y diagnóstico\" en Conf
     <string name="service_interconnection_communication">Servicios de comunicación por Internet de Xiaomi</string>
     <string name="service_location_share_policy">&lt;Data>Lea y acepte la &lt;a href=%1$s>Declaración de Privacidad de los Servicios de Ubicación&lt;/a > antes de continuar.&lt;/Data></string>
     <string name="service_mi_account">Cuenta Mi</string>
-    <string name="service_name_MIUIDaemon">System Daemon</string>
+    <string name="service_name_MIUIDaemon">Daemon del sistema</string>
     <string name="service_name_address_dialing">Contactos y teléfono</string>
     <string name="service_name_album">Galería</string>
     <string name="service_name_application_package">Paquete de instalación</string>
@@ -726,8 +731,8 @@ Puede activar o desactivar esta función buscando \"Uso y diagnóstico\" en Conf
     <string name="terms_of_use_label_landscape">Vista horizontal</string>
     <string name="terms_of_use_label_mab">MAB</string>
     <string name="terms_of_use_label_mi_account">Cuenta Mi</string>
-    <string name="terms_of_use_label_miuiDaemon">System Daemon</string>
-    <string name="terms_of_use_label_miuisdk">System SDK</string>
+    <string name="terms_of_use_label_miuiDaemon">Daemon del sistema</string>
+    <string name="terms_of_use_label_miuisdk">SDK del sistema</string>
     <string name="terms_of_use_label_os">Ajustes OS IA</string>
     <string name="terms_of_use_label_package">Paquete de instalación</string>
     <string name="terms_of_use_label_parallel_windows">Ventanas paralelas</string>
@@ -818,6 +823,7 @@ Debe aceptar la Política de Privacidad del Teclado Mint antes de usar esta func
     <string name="title_recent_tasks_style">Diseño de Recientes</string>
     <string name="title_set_fingerprint">Pantalla de bloqueo</string>
     <string name="title_setting_up_face">Establecer datos faciales</string>
+    <string name="title_stacked_layout">Apilado</string>
     <string name="title_vertical_layout">Vertical</string>
     <string name="today">Hoy</string>
     <string name="tomorrow">Mañana</string>
