@@ -97,8 +97,8 @@
         <item quantity="other">%d WLAN-nätverk</item>
     </plurals>
     <plurals name="display_number_of_devices">
-        <item quantity="one">Visa endast den första icke-betrodda enheten.</item>
-        <item quantity="other">VIsa endast de första %s icke-betrodda enheterna.</item>
+        <item quantity="one">Visa endast den första icke-betrodda enheten. (%s)</item>
+        <item quantity="other">Visa endast de första %s icke-betrodda enheterna.</item>
     </plurals>
     <plurals name="e2ee_device_verification_num">
         <item quantity="one">%s ej verifierad enhet</item>
@@ -164,6 +164,14 @@
         <item quantity="one">För många försök. Försök igen om %s sekund.</item>
         <item quantity="other">För många försök. Försök igen om %s sekunder.</item>
     </plurals>
+    <plurals name="micloud_cloud_default_benefit_family_member_limit">
+        <item quantity="one">Dela med upp till %d familjemedlem</item>
+        <item quantity="other">Dela med upp till %d familjemedlemmar</item>
+    </plurals>
+    <plurals name="micloud_cloud_default_benefit_recover_days">
+        <item quantity="one">Återställ raderade objekt inom %d dag</item>
+        <item quantity="other">Återställ raderade objekt inom %d dagar</item>
+    </plurals>
     <plurals name="micloud_manual_pause_and_resume">
         <item quantity="one">Återuppta synkronisering om %d minut</item>
         <item quantity="other">Återuppta synkronisering om %d minuter</item>
@@ -199,10 +207,6 @@
     <plurals name="micloud_preference_record_detail">
         <item quantity="one">%s objekt</item>
         <item quantity="other">%s objekt</item>
-    </plurals>
-    <plurals name="micloud_preference_recover_deleted_data">
-        <item quantity="one">Medlemmar kan återställa raderade objekt inom %d dag</item>
-        <item quantity="other">Medlemmar kan återställa raderade objekt inom %d dagar</item>
     </plurals>
     <plurals name="micloud_preference_recover_summary">
         <item quantity="one">Användare utan medlemskap kan återställa sina kontakter till en version som sparats inom %d dag</item>

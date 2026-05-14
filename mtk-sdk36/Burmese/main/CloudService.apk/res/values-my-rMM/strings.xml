@@ -238,7 +238,7 @@
     <string name="find_device_dspt_provision">သင့်စက် ပျောက်သွားပါက စက်ရှာဖွေရန်၊ သော့ခတ်ရန် သို့မဟုတ် ပြန်သတ်မှတ်ရန် &lt;font color=#0097FF>%s&lt;/font>သို့ သွားပါ။ ဤလုပ်ဆောင်ချက်အား ဆက်တင်ထဲတွင် အချိန်မရွေး ဖွင့်/ပိတ် လုပ်နိုင်ပါသည်။</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">သင်သည် စက်ရှာဖွေစနစ်ကို ဖွင့်ခြင်းဖြင့် <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi ကလောက်ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ</u></a> ကို သဘောတူရာရောက်သည်။ ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒအပေါ် သဘောတူခွင့်ပြုချက်ရုပ်သိမ်းရန် ဤအင်္ဂါရပ်ကို ပိတ်ပါ။</string>
+    <string name="find_device_gdpr_prompt">သင်သည် စက်ရှာဖွေစနစ်ကို ဖွင့်ခြင်းဖြင့် <a href="app://com.miui.cloudservice.gdpr.license"><u> Xiaomi ကလောက်ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒ</u></a> ကို သဘောတူရာရောက်သည်။ ကိုယ်ရေးအချက်အလက်လုံခြုံမှုမူဝါဒအပေါ် သဘောတူခွင့်ပြုချက်ရုပ်သိမ်းရန် ဤအင်္ဂါရပ်ကို ပိတ်ပါ။</string>
     <string name="find_device_operation_failure_rpc">RPC အမှားကြောင့် လုပ်ငန်းစဉ်လုပ်ဆောင်၍မရပါ။</string>
     <string name="find_device_permissions_footer">ရွေးထားသောခွင့်ပြုချက်များ ပေးရန် \"ခွင့်ပြုရန်\" ကို တို့ပါ။</string>
     <string name="find_device_permissions_header">စက်ရှာဖွေစနစ်မှ ကြိုဆိုပါသည်။ သင့်စက်ပျောက်ဆုံးလျှင် စက်ကို ရှာရန်၊ ခြေရာခံရန်နှင့် သော့ချရန် ဤဝန်ဆောင်မှုကို သုံးနိုင်သည်။ အခြားသူများ၏ Xiaomi စက်များကို ရှာရန်လည်း အမည်မဖော်ဘဲ ကူညီနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်ရန် အောက်ပါခွင့်ပြုချက်များလိုသည် -</string>
@@ -417,9 +417,33 @@
     <string name="mi_drive_title">Mi ဒရိုက်</string>
     <string name="micloud_alert_dialog_positive">အိုကေ</string>
     <string name="micloud_all_sub_resend_common_sms_with_charge_hint">စက်ရှာဖွေစနစ်နှင့် Xiaomi ကလောက် ဝန်ဆောင်မှုများကို ဖွင့်ရန် &lt;font color=#0097FF>&lt;b>အခပေး SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> SIM ကတ် ပြောင်းလျှင် ပြန်အသက်သွင်းရန်အတွက် &lt;font color=#0097FF>&lt;b>အခပေး SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> အထက်ပါလုပ်ဆောင်ချက်များအတွက် SMS စရိတ်အားလုံးကို သင့်ဖုန်းလိုင်းကုမ္ပဏီက ကောက်ခံပါမည်။ Xiaomi က ၎င်းမက်ဆေ့(ချ်)များအတွက် ငွေမကောက်ပါ။</string>
+    <string name="micloud_all_sub_resend_common_sms_with_charge_hint_v2">Xiaomi ကလောက် ဝန်ဆောင်မှုများကို ဖွင့်ရန် &lt;font color=#0097FF>&lt;b>အခပေး SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> SIM ကတ် ပြောင်းလျှင် ပြန်အသက်သွင်းရန်အတွက် &lt;font color=#0097FF>&lt;b>အခပေး SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> အထက်ပါလုပ်ဆောင်ချက်များအတွက် SMS စရိတ်အားလုံးကို သင့်ဖုန်းလိုင်းကုမ္ပဏီက ကောက်ခံပါမည်။ Xiaomi က ၎င်းမက်ဆေ့(ချ်)များအတွက် ငွေမကောက်ပါ။</string>
     <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint">စက်ရှာဖွေစနစ်နှင့် Xiaomi ကလောက် ဝန်ဆောင်မှုများကို ဖွင့်ရန် &lt;font color=#0097FF>&lt;b>အခပေး ပြည်တွင်း SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> SIM ကတ် ပြောင်းလျှင် ပြန်အသက်သွင်းရန်အတွက် &lt;font color=#0097FF>&lt;b>အခပေး ပြည်တွင်း SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> အထက်ပါလုပ်ဆောင်ချက်များအတွက် SMS စရိတ်အားလုံးကို သင့်ဖုန်းလိုင်းကုမ္ပဏီက ကောက်ခံပါမည်။ Xiaomi က ၎င်းမက်ဆေ့(ချ်)များအတွက် ငွေမကောက်ပါ။</string>
+    <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint_v2">Xiaomi ကလောက် ဝန်ဆောင်မှုများကို ဖွင့်ရန် &lt;font color=#0097FF>&lt;b>အခပေး ပြည်တွင်း SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> SIM ကတ် ပြောင်းလျှင် ပြန်အသက်သွင်းရန်အတွက် &lt;font color=#0097FF>&lt;b>အခပေး ပြည်တွင်း SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> အထက်ပါလုပ်ဆောင်ချက်များအတွက် SMS စရိတ်အားလုံးကို သင့်ဖုန်းလိုင်းကုမ္ပဏီက ကောက်ခံပါမည်။ Xiaomi က ၎င်းမက်ဆေ့(ချ်)များအတွက် ငွေမကောက်ပါ။</string>
     <string name="micloud_all_sub_resend_inter_sms_with_charge_hint">စက်ရှာဖွေစနစ်နှင့် Xiaomi ကလောက် ဝန်ဆောင်မှုများကို ဖွင့်ရန် &lt;font color=#0097FF>&lt;b>အခပေး နိုင်ငံတကာ SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> SIM ကတ် ပြောင်းလျှင် ပြန်အသက်သွင်းရန်အတွက် &lt;font color=#0097FF>&lt;b>အခပေး နိုင်ငံတကာ SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> အထက်ပါလုပ်ဆောင်ချက်များအတွက် SMS စရိတ်အားလုံးကို သင့်ဖုန်းလိုင်းကုမ္ပဏီက ကောက်ခံပါမည်။ Xiaomi က ၎င်းမက်ဆေ့(ချ်)များအတွက် ငွေမကောက်ပါ။</string>
+    <string name="micloud_all_sub_resend_inter_sms_with_charge_hint_v2">Xiaomi ကလောက် ဝန်ဆောင်မှုများကို ဖွင့်ရန် &lt;font color=#0097FF>&lt;b>အခပေး နိုင်ငံတကာ SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> SIM ကတ် ပြောင်းလျှင် ပြန်အသက်သွင်းရန်အတွက် &lt;font color=#0097FF>&lt;b>အခပေး နိုင်ငံတကာ SMS&lt;/b>&lt;/font> &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> စောင် အလိုအလျောက် ပို့ပါမည်။&lt;br/> အထက်ပါလုပ်ဆောင်ချက်များအတွက် SMS စရိတ်အားလုံးကို သင့်ဖုန်းလိုင်းကုမ္ပဏီက ကောက်ခံပါမည်။ Xiaomi က ၎င်းမက်ဆေ့(ချ်)များအတွက် ငွေမကောက်ပါ။</string>
     <string name="micloud_check_account_toast">Xiaomi ကလောက် ဝန်ဆောင်မှုများကို အစမ်းအကောင့်များနှင့် သုံးမရပါ</string>
+    <string name="micloud_cloud_default_benefit_auto_backup">အလိုအလျောက် အရန်သိမ်းခြင်း</string>
+    <string name="micloud_cloud_default_benefit_daily_backup">နေ့စဉ် အလိုအလျောက် အရန်သိမ်းပါ</string>
+    <string name="micloud_cloud_default_benefit_data_recovery">ဖျက်ထားသောအကြောင်းအရာများ ပြန်ယူရန်</string>
+    <string name="micloud_cloud_default_benefit_expand_to_2tb">%d TB အထိ</string>
+    <string name="micloud_cloud_default_benefit_family_share">ကလောက်သိုလှောင်ခန်းကို မိသားစုဝင်များနှင့် မျှဝေပါ</string>
+    <string name="micloud_cloud_default_benefit_large_file_upload">ဖိုင်အကြီးတင်နိုင်ခြင်း</string>
+    <string name="micloud_cloud_default_benefit_large_storage">ကလောက်သိုလှောင်ခန်းနေရာလွတ်ချဲ့ထားသည်</string>
+    <string name="micloud_cloud_default_benefit_max_file_upload">တစ်ခုလျှင် %d GB အထိ ဖိုင်များတင်ပါ</string>
+    <string name="micloud_cloud_default_benefit_wechat_backup">WeChat အရန်သိမ်းခြင်းများ ပံ့ပိုးသည်</string>
+    <string name="micloud_cloud_default_benefit_wechat_migration">စက်များပြောင်းချိန် ချတ်မှတ်တမ်းသိမ်းပါ</string>
+    <string name="micloud_cloud_memberguide_default_title">အခြားခံစားခွင့်များသော့ဖွင့်ရန် အဖွဲ့ဝင်အဖြစ်ရယူပါ</string>
+    <string name="micloud_cloud_memberguide_default_title_normal">Xiaomi ကလောက် အဖွဲ့ဝင်ခံစားခွင့်များ</string>
+    <string name="micloud_cloud_memberguide_default_title_vip">အဖွဲ့ဝင်ခံစားခွင့်များ</string>
+    <string name="micloud_cloud_membership_default_subtitle">ကလောက်သိုလှောင်ခန်းနေရာများ ပိုရရန် အဖွဲ့ဝင်အဖြစ်ရယူပါ</string>
+    <string name="micloud_cloud_membership_default_subtitle_ThirdLevel">အထူးခံစားခွင့်များ ရယူရန် အဖွဲ့ဝင်ခွင့်ကို သက်တမ်းတိုးပါ</string>
+    <string name="micloud_cloud_membership_default_subtitle_normal">သိုလှောင်ခန်းပလန်နှင့် အဖွဲ့ဝင်ခံစားခွင့်အသစ်များ ပိုကြည့်ရန်</string>
+    <string name="micloud_cloud_membership_default_title">သင်သည် အဖွဲ့ဝင်မဟုတ်သေးပါ</string>
+    <string name="micloud_cloud_membership_default_title_normal">Xiaomi ကလောက် အဖွဲ့ဝင်ခွင့်</string>
+    <string name="micloud_cloud_space_almost_full_tips">သင့်ကလောက်သိုလှောင်ခန်း ပြည့်ခါနီးပါပြီ။ အကြောင်းအရာများအရန်သိမ်းရန် အဆင့်မြှင့်ပါ။</string>
+    <string name="micloud_cloud_space_full_tips">သင့်ကလောက်သိုလှောင်ခန်း ပြည့်ပါပြီ။ အကြောင်းအရာများအရန်သိမ်းရန် အဆင့်မြှင့်ပါ။</string>
+    <string name="micloud_cloudbackup_subtitle">ဤ %s</string>
     <string name="micloud_confusion_account_hint">ဤစက်ပေါ်တွင် ပြောင်းလဲလိုက်သည်များသည် အခြား သင့်စက်အားလုံးပေါ်တွင်လဲ ဆင့်ခ်လုပ်ပြောင်းလဲသွားပါလိမ့်မည်။ သင့်အကောင့်အား ကာကွယ်ရန်၊ သင်အကယ်၍အခြားစက်များအား မသုံးပါက အခြားစက်များနှင့် ဆင့်ခ်လုပ်ခြင်း လုပ်ဆောင်ချက်အား ပိတ်ထားရန် အကြံပြုပါသည်။</string>
     <string name="micloud_confusion_account_name">အကောင့်-</string>
     <string name="micloud_confusion_account_notify_text">သင့် Xiaomi အကောင့်ကို အခြားစက်တစ်လုံးမှ ပြင်နေသည်။ အကောင့်ကို ယခုစိစစ်ပါ။</string>
@@ -456,8 +480,12 @@
     <string name="micloud_dspt_provision_china_no_sms">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ ဖုန်းခေါ်မှတ်တမ်း၊ မှတ်စုများနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်၊ စက်ကိုရှာရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် WLAN ဖွင့်ရန် လိုနိုင်သည်။</string>
     <string name="micloud_dspt_provision_china_no_sms_and_call">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ မှတ်စုများ၊ အသံသွင်းဖိုင်များနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်၊ စက်ကိုရှာရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် WLAN ဖွင့်ရန် လိုနိုင်သည်။</string>
     <string name="micloud_dspt_provision_no_call">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ မက်ဆေ့(ချ်)များ၊ မှတ်စုများ၊ အသံသွင်းဖိုင်များနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်၊ စက်ကိုရှာရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် Wi-Fi ဖွင့်ရန် လိုနိုင်သည်။</string>
+    <string name="micloud_dspt_provision_no_call_v2">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ မက်ဆေ့(ချ်)များ၊ မှတ်စုများ၊ အသံသွင်းဖိုင်များနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် WLAN ဖွင့်ရန် လိုနိုင်သည်။</string>
     <string name="micloud_dspt_provision_no_sms">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ ဖုန်းခေါ်မှတ်တမ်း၊ မှတ်စုများ၊ အသံသွင်းဖိုင်များနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်၊ စက်ကိုရှာရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် Wi-Fi ဖွင့်ရန် လိုနိုင်သည်။</string>
     <string name="micloud_dspt_provision_no_sms_and_call">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ မှတ်စုများ၊ အသံသွင်းဖိုင်များနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်၊ စက်ကိုရှာရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် Wi-Fi ဖွင့်ရန် လိုနိုင်သည်။</string>
+    <string name="micloud_dspt_provision_no_sms_and_call_v2">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ မှတ်စုများ၊ အသံသွင်းဖိုင်များနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် WLAN ဖွင့်ရန် လိုနိုင်သည်။</string>
+    <string name="micloud_dspt_provision_no_sms_v2">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ ဖုန်းခေါ်မှတ်တမ်း၊ မှတ်စုများနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် WLAN ဖွင့်ရန် လိုနိုင်သည်။</string>
+    <string name="micloud_dspt_provision_v2">Xiaomi ကလောက်ကို ဓာတ်ပုံများ၊ အဆက်အသွယ်များ၊ မက်ဆေ့(ချ်)များ၊ ဖုန်းခေါ်မှတ်တမ်း၊ မှတ်စုများနှင့် အခြားဒေတာများ ဆင့်(ခ်)လုပ်ရန်နှင့် မိတ်ဆွေများနှင့် အကြောင်းအရာများမျှဝေရန် သုံးနိုင်သည်။ ဤအက်(ပ်)သည် ကောင်းစွာအလုပ်လုပ်နိုင်ရန်အတွက် အင်တာနက်ချိတ်ရန်လိုသည်။ အကြောင်းအရာများဆင့်(ခ်)လုပ်ရန် မိုဘိုင်းဒေတာချိတ်ရန်နှင့် WLAN ဖွင့်ရန် လိုနိုင်သည်။</string>
     <string name="micloud_find_device_close_alert_content">စက်ရှာဖွေးစနစ်ကို ပိတ်ထားပါက ၎င်းအင်္ဂါရပ်ဖြင့် သင့်စက်ကို မရှာနိုင်ပါ။ တည်နေရာမျှဝေထားသူများသည်လည်း သင်ရောက်နေသည့် နေရာကို အပ်ပဒိတ်မရတော့ပါ။</string>
     <string name="micloud_find_device_close_alert_negtive">မည်သို့မဆို ပိတ်မည်။</string>
     <string name="micloud_find_device_close_alert_positive">ဆက်လက် ဖွင့်ထားမည်။</string>
@@ -545,6 +573,12 @@
     <string name="micloud_member_net_error_alert_title">ကွန်ရက်သို့ ချိတ်ဆက်၍ မရပါ</string>
     <string name="micloud_member_pay_miid_error_toast">အကောင့် ချွတ်ယွင်းမှု</string>
     <string name="micloud_member_pay_order_error_toast">ဒေတာ ချွတ်ယွင်းမှု</string>
+    <string name="micloud_membership_benefit_recycle_bin">ဖျက်ထားသောအကြောင်းအရာများကို တိုးချဲ့သက်တမ်းကာလနှင့် ပြန်ယူပါ</string>
+    <string name="micloud_membership_benefit_storage">ဓာတ်ပုံနှင့် ဗီဒီယိုများကို တိုးချဲ့သိုလှောင်ခန်းနေရာနှင့် သိမ်းပါ</string>
+    <string name="micloud_membership_detail">အသေးစိတ်</string>
+    <string name="micloud_membership_level_diamond">အာထရာအဖွဲ့ဝင်ခွင့်</string>
+    <string name="micloud_membership_level_gold">ပရီမီယံအဖွဲ့ဝင်ခွင့်</string>
+    <string name="micloud_membership_level_platinum">မီဂါအဖွဲ့ဝင်ခွင့်</string>
     <string name="micloud_notif_content_battery_low">ဘက်ထရီအားနည်းနေပါသည်</string>
     <string name="micloud_notif_content_depend_wifi">ဆင့်ခ်လုပ်ရန် Wi-Fi သို့ချိတ်ဆက်ပါ</string>
     <string name="micloud_notif_content_depend_wifi_china">ဆင့်(ခ်)လုပ်ရန် WLAN ချိတ်ပါ။</string>
@@ -576,8 +610,6 @@
     <string name="micloud_preference_cloud_space_share">ကလောက်သိုလှောင်ခန်း မျှဝေရန်</string>
     <string name="micloud_preference_cloud_sync_wlan_only">Wi-Fi ချိတ်ချိန်သာ ဆင့်(ခ်)လုပ်ပါ</string>
     <string name="micloud_preference_cloud_sync_wlan_only_china">WLAN ချိတ်ချိန်သာ ဆင့်(ခ်)လုပ်ပါ</string>
-    <string name="micloud_preference_extended_recovery_time">ပြန်ဆယ်ချိန်တိုးချဲ့</string>
-    <string name="micloud_preference_family_sharing">မိသားစုသိုလှောင်ခန်းနေရာ စီမံခန့်ခွဲရန်</string>
     <string name="micloud_preference_gallery_detail">%1$s၊ %2$s</string>
     <string name="micloud_preference_get_more_cloud_space">အချိန်နှင့်တစ်ပြေးညီ အရန်သိမ်းခြင်းအတွက် ကလောက်သိုလှောင်ခန်း ပိုရယူပါ</string>
     <string name="micloud_preference_idle_sync">စက်မသုံးချိန် ဆင့်(ခ်)လုပ်ပါ</string>
@@ -585,6 +617,7 @@
     <string name="micloud_preference_last_sync_done_time">နောက်ဆုံးဆင့်(ခ်) - %1$s %2$s</string>
     <string name="micloud_preference_last_sync_time">နောက်ဆုံးဆင့်(ခ်) - %s</string>
     <string name="micloud_preference_last_sync_time_1">လတ်တလောအကျဆုံးဆင့်(ခ်)</string>
+    <string name="micloud_preference_look_vip">ကြည့်ရန်</string>
     <string name="micloud_preference_manage_cloud_data">ကလောက်ဒေတာ စီမံခန့်ခွဲရန်</string>
     <string name="micloud_preference_manage_membership">အဖွဲ့ဝင်ခွင့် စီမံခန့်ခွဲရန်</string>
     <string name="micloud_preference_max_storage">သိုလှောင်ခန်းနေရာ %d TB အထိ ရယူပါ</string>
@@ -628,7 +661,6 @@
     <string name="micloud_preference_view_cloud_shared_family">မိသားစုနှင့် မျှဝေထားသော ကလောက်အဖွဲ့ဝင်ခွင့်များ</string>
     <string name="micloud_preference_view_synced_contacts">ဆင့်(ခ်)လုပ်ထားသော အဆက်အသွယ်များကို ကြည့်ရန်</string>
     <string name="micloud_preference_view_synced_sms">ဆင့်(ခ်)လုပ်ထားသော မက်ဆေ့(ချ်)များကို ကြည့်ရန်</string>
-    <string name="micloud_preference_wechat_backup_1">WeChat အရန်သိမ်းဖိုင်များ</string>
     <string name="micloud_privacy_cloud_off">ဆင့်ခ် ပိတ်ထားသည်။</string>
     <string name="micloud_privacy_cloud_sync">Xiaomi ကလောက်ဝန်ဆောင်မှုများ ဖွင့်ရန်</string>
     <string name="micloud_privacy_explanation">Xiaomi ကလောက်ဝန်ဆောင်မှုများ ဖွင့်ခွင့်ပေးပါ</string>

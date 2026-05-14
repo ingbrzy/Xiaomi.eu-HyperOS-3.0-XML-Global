@@ -577,6 +577,7 @@ Podprt tako za skupinske kot individualne klepete"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Zaklenite aplikacije vsakič, ko zapustite, izstopite ali preklopite na drugo aplikacijo</string>
     <string name="applock_lock_mode_locked_summary">Ne zahtevaj preverjanja, dokler naprava ni zaklenjena</string>
     <string name="applock_login_and_add_account">Prijavite se in dodajte</string>
+    <string name="applock_mixed_input_password_hint_text">Vnesite geslo</string>
     <string name="applock_mixtype_hidepwd_icon">Skrij geslo</string>
     <string name="applock_mixtype_showpwd_icon">Prikaži geslo</string>
     <string name="applock_no_account_login">Niste vpisani v vaš Xiaomi Račun</string>
@@ -1016,8 +1017,6 @@ Vendar nekatere vaše transakcije še niso dokončane. Če želite preklicati so
     <string name="button_to_setting">Nastavitve</string>
     <string name="button_toll_correction">Uskladi stanje</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Spremeni na naslednji mesec</string>
-    <string name="calendar_date_picker_a11y_prev_month">Spremeni na prejšnji mesec</string>
     <string name="call_address">Seznam blokiranih lokacij</string>
     <string name="call_all_number_block">Blokiraj vse klice</string>
     <string name="call_and_contact">Klici in stiki</string>
@@ -1992,7 +1991,7 @@ Ko je vklopljena pametna hitrost sličic, orodja za zaznavanje hitrosti sličic 
     <string name="game_toolbox_performance_config_custom_notice_new">Funkciji Super ločljivost in Pametna hitrost sličic lahko prilagodite za upravljanje hitrosti sličic in kakovosti slike. &lt;font color=%s>Dejanska hitrost sličic je prikazana na nadzorni plošči za zmogljivost.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Ko je vklopljena prednostna nastavitev hitrosti sličic, je dejanska hitrost sličic prikazana na nadzorni plošči za zmogljivost</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Prednostna nastavitev hitrosti sličic izboljša hitrost sličic s pametno hitrostjo sličic. &lt;font color=%s>Dejanska hitrost sličic je prikazana na nadzorni plošči za zmogljivost.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Ko je vklopljena prednostna nastavitev slike, je dejanska hitrost sličic prikazana na nadzorni plošči za zmogljivost</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Prednostna nastavitev slike izboljša kakovost slike z možnostjo super ločljivosti in upravlja hitrost sličic s funkcijo Pametna hitrost sličic. &lt;font color=%s>Dejanska hitrost sličic je prikazana na nadzorni plošči za zmogljivost.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Svetlost zaslona</string>
@@ -3065,6 +3064,7 @@ Vaša naprava je zdaj hitrejša za %s."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s predstavlja neznana varnostna tveganja in lahko povzroči uhajanje osebnih podatkov ali finančno izgubo. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Če se ne strinjate s tem opozorilom, tapnite tukaj za pošiljanje povratnih informacij.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Ime aplikacije: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Če se s tem obvestilom ne strinjate, tapnite (kliknite) tukaj(/klik), da nam pošljete povratne informacije.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Ime paketa: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Podrobno opišite težavo: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Podpis aplikacije: %s</string>
@@ -6000,6 +6000,7 @@ Formatiranje bo izbrisalo vse obstoječe vsebine na ^2. Da bi preprečili izgubo
     <string name="toast_lockscreen_glogin_empty_password">Potrebno je geslo</string>
     <string name="toast_network_eror">Ni se mogoče povezati na omrežje</string>
     <string name="toast_network_switch">Ta aplikacija se lahko povezuje na splet</string>
+    <string name="toast_no_install_getapps">Namestite GetApps in poskusite ponovno</string>
     <string name="toast_reject_sms_read_permission_success">Uspešno nastavljeno</string>
     <string name="toast_removed_from_virus_white_list">Odstranjeno iz izjem. Predmet bo naslednjič skeniran.</string>
     <string name="toast_root_apply_accept">Korenski dostop odobren za %s</string>
@@ -6252,10 +6253,7 @@ Ta funkcija ne deluje z izboljšanimi videoposnetki.
     <string name="vb_video_effects_spatial_summary_new">Izkusite izboljšan občutek za prostor in smer za podprte zvoke med uporabo slušalk</string>
     <string name="vb_video_effects_srs_premium_sound">Zvok</string>
     <string name="vb_video_super_division">Povečaj ločljivost</string>
-    <string name="vb_video_super_division_desc">"Samodejno povečaj ločljivost, ko je ta ≤720 P.
-
-Uporaba te funkcije poveča porabo baterije.
-
+    <string name="vb_video_super_division_desc">"Uporaba te funkcije poveča porabo baterije.
 Te funkcije ne morete uporabiti istočasno s funkcijo gladenja gibanja.
 Vklop ene funkcije bo izklopil drugo."</string>
     <string name="vb_video_super_division_tips">"Ni dovolj jasno?

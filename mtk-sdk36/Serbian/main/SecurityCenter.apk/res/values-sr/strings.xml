@@ -577,6 +577,7 @@
     <string name="applock_lock_mode_locked_or_exit_summary">Закључајте апликације кад год напустите, изађете или пређете на другу апликацију</string>
     <string name="applock_lock_mode_locked_summary">Не захтевај потврду док се уређај не закључа</string>
     <string name="applock_login_and_add_account">Пријавите се и додај</string>
+    <string name="applock_mixed_input_password_hint_text">Унесите лозинку</string>
     <string name="applock_mixtype_hidepwd_icon">Сакриј лозинкy</string>
     <string name="applock_mixtype_showpwd_icon">Прикажи лозинку</string>
     <string name="applock_no_account_login">Нисте пријављени на свој Xiaomi Налог</string>
@@ -1016,8 +1017,6 @@
     <string name="button_to_setting">Подешавања</string>
     <string name="button_toll_correction">Калибрисање равнотеже</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Пређите на следећи месец</string>
-    <string name="calendar_date_picker_a11y_prev_month">Пређите на претходни месец</string>
     <string name="call_address">Листа блокираних подручја</string>
     <string name="call_all_number_block">Блокирај све позиве</string>
     <string name="call_and_contact">Позиви и Контакти</string>
@@ -1992,7 +1991,7 @@
     <string name="game_toolbox_performance_config_custom_notice_new">Можете прилагодити Супер-резолуцију и Паметну брзину кадрова да бисте управљали брзином кадрова и квалитетом слике. &lt;font color=%s>Стварна брзина кадрова је приказана на контролној табли перформанси.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Када је укључен приоритет броја слика у секунди, стварна брзина слика је онаква каква је приказана на контролној табли перформанси</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Приоритет броја кадрова у секунди побољшава број кадрова у секунди помоћу Паметне брзине кадрова. &lt;font color=%s>Стварна брзина кадрова је приказана на контролној табли перформанси.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Када је укључен приоритет слике, стварна брзина кадрова је онаква каква је приказана на контролној табли перформанси.</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Приоритет слике побољшава квалитет слике путем супер резолуције и управља брзином кадрова путем Паметне брзине кадрова. &lt;font color=%s>Стварна брзина кадрова се приказује на контролној табли перформанси.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Светлина екрана</string>
@@ -3065,6 +3064,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s представља непознате безбедносне ризике и може да доведе до цурења приватности или финансијског губитка. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Ако се не слажете са овим упозорењем, додирните овде да бисте послали повратне информације.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Назив апликације: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Ако се не слажете са овим упозорењем, додирните (click)овде(/click) да бисте послали повратне информације.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Назив пакета: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Опишите проблем детаљно: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Потпис апликације: %s</string>
@@ -6000,6 +6000,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="toast_lockscreen_glogin_empty_password">Потребна је лозинка</string>
     <string name="toast_network_eror">Не могу да се повежем на мрежу</string>
     <string name="toast_network_switch">Ова апликација може да се повеже на интернет</string>
+    <string name="toast_no_install_getapps">Инсталирајте GetApps и покушајте опет</string>
     <string name="toast_reject_sms_read_permission_success">Успешно постављено</string>
     <string name="toast_removed_from_virus_white_list">Уклоњено из изузетака. Ставка ће бити скениранa следећи пут.</string>
     <string name="toast_root_apply_accept">Root приступ одобрен за %s</string>
@@ -6252,12 +6253,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_effects_spatial_summary_new">Доживите побољшан осећај простора и правца за подржани звук када користите слушалице</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>
     <string name="vb_video_super_division">Повећај</string>
-    <string name="vb_video_super_division_desc">"Аутоматски повећај резолуцију када је ≤720P.
-
-Коришћење ове функције повећава потрошњу енергије.
-
+    <string name="vb_video_super_division_desc">"Коришћење ове функције повећава потрошњу енергије.
 Ова функција не ради са побољшањем покрета.
-Укључивање једне од ових функција ће искључити друге."</string>
+Укључивање једне од функција ће искључити другу."</string>
     <string name="vb_video_super_division_tips">"Није довољно јасно?
 Покушајте са повећањем резолуције!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Побољшане анимације су искључене</string>

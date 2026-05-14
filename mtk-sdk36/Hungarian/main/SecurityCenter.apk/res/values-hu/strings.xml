@@ -577,6 +577,7 @@ Csoportos és egyéni csevegésekhez egyaránt támogatott"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Zárolja az alkalmazásokat, amikor elhagyja, kilép vagy másik alkalmazásra vált</string>
     <string name="applock_lock_mode_locked_summary">Ne igényeljen hitelesítést, amíg a készülék nincs zárolva</string>
     <string name="applock_login_and_add_account">Belépés és hozzáadás</string>
+    <string name="applock_mixed_input_password_hint_text">Adja meg a jelszót</string>
     <string name="applock_mixtype_hidepwd_icon">Jelszó elrejtése</string>
     <string name="applock_mixtype_showpwd_icon">Jelszó megjelenítése</string>
     <string name="applock_no_account_login">Nincs bejelentkezve a Xiaomi Fiókjába</string>
@@ -1016,8 +1017,6 @@ Néhány tranzakciója azonban még nem fejeződött be. A hozzájárulás vissz
     <string name="button_to_setting">Beállítások</string>
     <string name="button_toll_correction">Egyenleg kalibrálása</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Váltás a következő hónapra</string>
-    <string name="calendar_date_picker_a11y_prev_month">Váltás az előző hónapra</string>
     <string name="call_address">Körzetszám tiltólista</string>
     <string name="call_all_number_block">Minden hívás letiltása</string>
     <string name="call_and_contact">Hívások és névjegyek</string>
@@ -1992,7 +1991,7 @@ Ha az Intelligens képkockasebesség be van kapcsolva, a játékban és harmadik
     <string name="game_toolbox_performance_config_custom_notice_new">A Szuperfelbontás és az Intelligens képkockasebesség beállításaival szabályozhatja a képkockasebességet és a képminőséget. &lt;font color=%s>A tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Ha a Képkockasebesség prioritás be van kapcsolva, a tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg</string>
     <string name="game_toolbox_performance_config_frc_notice_new">A képkockasebesség prioritás az Intelligens képkockasebesség segítségével javítja a képkockasebességet. &lt;font color=%s>A tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Ha a Kép prioritás be van kapcsolva, a tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">A kép prioritás a Szuperfelbontás segítségével javítja a képminőséget, és az Intelligens képkockasebesség segítségével kezeli a képkockasebességet. &lt;font color=%s>A tényleges képkockasebesség a teljesítmény-vezérlőpulton jelenik meg.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Fényerő</string>
@@ -3065,6 +3064,7 @@ Készüléke ennyivel gyorsabb: %s."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s poses unknown security risks and may lead to privacy leaks or financial loss. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Ha nem ért egyet ezzel a figyelmeztetéssel, érintse meg itt a visszajelzés küldéséhez.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Alkalmazás neve: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Ha nem ért egyet ezzel a figyelmeztetéssel, érintse meg (click)itt(/click) a visszajelzés küldéséhez.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Csomag neve: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Írja le részletesen a problémát: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Alkalmazás aláírás: %s</string>
@@ -6000,6 +6000,7 @@ A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak el
     <string name="toast_lockscreen_glogin_empty_password">Jelszó szükséges</string>
     <string name="toast_network_eror">Nem sikerült csatlakozni a hálózathoz</string>
     <string name="toast_network_switch">Ez az alkalmazás használhatja az internetet</string>
+    <string name="toast_no_install_getapps">Telepítse a GetApps-ot és próbálja újra</string>
     <string name="toast_reject_sms_read_permission_success">Beállítás kész</string>
     <string name="toast_removed_from_virus_white_list">Törölve a kivételek közül. A következő alkalommal ellenőrizve lesz.</string>
     <string name="toast_root_apply_accept">%s alkalmazás root jogosultságainak engedélyezése</string>
@@ -6252,10 +6253,8 @@ Az egyik bekapcsolása kikapcsolja a másikat."</string>
     <string name="vb_video_effects_spatial_summary_new">Fülhallgató használatakor élje át a fokozott tér- és irányérzetet a támogatott hangzáshoz</string>
     <string name="vb_video_effects_srs_premium_sound">Hang</string>
     <string name="vb_video_super_division">Növelés</string>
-    <string name="vb_video_super_division_desc">"A felbontás automatikus növelése, ha ≤720P.
-
+    <string name="vb_video_super_division_desc">"
  A funkció használata növeli az energiafogyasztást.
-
 Ez a funkció nem működik mozgáscsillapítással.
 Az egyik funkció bekapcsolásával a másik kikapcsol."</string>
     <string name="vb_video_super_division_tips">"Nem elég tiszta?

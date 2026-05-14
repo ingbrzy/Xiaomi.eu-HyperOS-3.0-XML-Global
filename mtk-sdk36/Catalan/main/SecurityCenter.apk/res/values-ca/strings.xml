@@ -577,6 +577,7 @@ Compatible tant amb xats en grup com individuals"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Bloqueja les aplicacions cada vegada que surtis, abandonis o canviïs a una altra aplicació</string>
     <string name="applock_lock_mode_locked_summary">No cal verificació fins que el dispositiu estigui bloquejat</string>
     <string name="applock_login_and_add_account">Inicia la sessió i afegeix</string>
+    <string name="applock_mixed_input_password_hint_text">Introduïu la contrasenya</string>
     <string name="applock_mixtype_hidepwd_icon">Amaga la contrasenya</string>
     <string name="applock_mixtype_showpwd_icon">Mostra la contrasenya</string>
     <string name="applock_no_account_login">No heu iniciat la sessió al vostre Compte Xiaomi</string>
@@ -1016,8 +1017,6 @@ No obstant això, algunes de les vostres transaccions encara no s'han completat.
     <string name="button_to_setting">Configuració</string>
     <string name="button_toll_correction">"Calibra l'equilibri"</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Canvia al mes següent</string>
-    <string name="calendar_date_picker_a11y_prev_month">Canvia al mes anterior</string>
     <string name="call_address">"Llista de bloqueig d'àrea"</string>
     <string name="call_all_number_block">Bloqueja totes les trucades</string>
     <string name="call_and_contact">Trucades i contactes</string>
@@ -1992,7 +1991,7 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="game_toolbox_performance_config_custom_notice_new">Podeu personalitzar la Superresolució i la Velocitat de fotogrames intel·ligent per gestionar la freqüència de fotogrames i la qualitat de la imatge. &lt;font color=%s>La freqüència de fotogrames real es mostra al tauler de control de rendiment.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Quan la prioritat de la freqüència de fotogrames està activada, la freqüència de fotogrames real és la que es mostra al tauler de control de rendiment.</string>
     <string name="game_toolbox_performance_config_frc_notice_new">La prioritat de la freqüència de fotogrames millora la freqüència de fotogrames mitjançant la Velocitat de fotogrames intel·ligent. &lt;font color=%s>La freqüència de fotogrames real es mostra al tauler de control de rendiment.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">"Quan la prioritat d'imatge està activada, la freqüència de fotogrames real és la que es mostra al tauler de control de rendiment."</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">"La prioritat d'imatge millora la qualitat de la imatge mitjançant la superresolució i gestiona la freqüència de fotogrames mitjançant la velocitat de fotogrames intel·ligent. &lt;font color=%s>La freqüència de fotogrames real es mostra al tauler de control de rendiment.&lt;/font>"</string>
     <string name="game_toolbox_screen_brightness_talkback">Brillantor de la pantalla</string>
@@ -3065,6 +3064,7 @@ El teu dispositiu va un %s més ràpid."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s presenta riscos de seguretat desconeguts i pot provocar filtracions de privadesa o pèrdues financeres. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">"Si no esteu d'acord amb aquesta alerta, toqueu aquí per enviar comentaris."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">"Nom de l'aplicació: %s"</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">"%s Si no esteu d'acord amb aquesta alerta, toqueu (click)aquí(/click) per enviar comentaris."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Nom del paquet: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Descriviu el problema detalladament: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">"Signatura de l'aplicació: %s"</string>
@@ -6001,6 +6001,7 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="toast_lockscreen_glogin_empty_password">Es requereix contrasenya</string>
     <string name="toast_network_eror">"No s'ha pogut connectar a la xarxa"</string>
     <string name="toast_network_switch">Aquesta aplicació pot connectar-se a internet</string>
+    <string name="toast_no_install_getapps">Instal·leu GetApps i proveu-ho de nou</string>
     <string name="toast_reject_sms_read_permission_success">"S'ha establert amb èxit"</string>
     <string name="toast_removed_from_virus_white_list">"S'ha eliminat de les excepcions. L'element serà escanejat la propera vegada."</string>
     <string name="toast_root_apply_accept">Accés arrel concedit a %s</string>
@@ -6253,10 +6254,7 @@ En activar-ne un, s'apagarà l'altre."</string>
     <string name="vb_video_effects_spatial_summary_new">"Experimenteu una sensació d'espai i direcció millorades per a l'àudio compatible quan feu servir auriculars"</string>
     <string name="vb_video_effects_srs_premium_sound">So</string>
     <string name="vb_video_super_division">Reescala</string>
-    <string name="vb_video_super_division_desc">"Reescala a de gamma alta automàticament quan és ≤720P.
-
-L'ús d'aquesta funció augmenta el consum d'energia.
-
+    <string name="vb_video_super_division_desc">"L'ús d'aquesta funció augmenta el consum d'energia.
 Aquesta funció no funciona amb el suavitzat del moviment.
 L'activació d'una de les funcions desactivarà l'altra."</string>
     <string name="vb_video_super_division_tips">"No ho teniu prou clar?
