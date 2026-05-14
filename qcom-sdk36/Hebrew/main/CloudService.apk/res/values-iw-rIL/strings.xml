@@ -238,7 +238,7 @@
     <string name="find_device_dspt_provision">אם תאבד את מכשירך תוכל להיכנס לכתובת &lt;font color=#0097FF>%s&lt;/font> כדי לאתר, לנעול או לאפס אותו. ניתן להפעיל או לכבות את המאפיין הזה בכל עת בהגדרות המכשיר.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">הפעלת איתור המכשיר מהווה הסכמה <a href="app://com.miui.cloudservice.gdpr.license"><u>למדיניות הפרטיות של Xiaomi Cloud</u></a>. לביטול ההסכמה למדיניות הפרטיות, יש להשבית את המאפיין הזה.</string>
+    <string name="find_device_gdpr_prompt">הפעלת איתור המכשיר מהווה הסכמה <a href="app://com.miui.cloudservice.gdpr.license"><u>למדיניות הפרטיות של Xiaomi Cloud</u></a>. לביטול ההסכמה למדיניות הפרטיות יש להשבית את המאפיין הזה.</string>
     <string name="find_device_operation_failure_rpc">לא ניתן היה לבצע את הפעולה עקב שגיאת RPC.</string>
     <string name="find_device_permissions_footer">הקש על \"הענק\" כדי להעניק את ההרשאות שבחרת.</string>
     <string name="find_device_permissions_header">ברוכים הבאים לאיתור המכשיר! ניתן להשתמש ביישום זה כדי לאתר את המכשיר שלכם, לעקוב אחריו ולנעול אותו אם הוא אבד. תוכלו גם לעזור לאחרים באופן אנונימי לאתר את מכשירי Xiaomi שלהם. יישום זה זקוק להרשאות הבאות כדי לעבוד כנדרש:</string>
@@ -417,9 +417,33 @@
     <string name="mi_drive_title">Mi Drive</string>
     <string name="micloud_alert_dialog_positive">אישור</string>
     <string name="micloud_all_sub_resend_common_sms_with_charge_hint">"&lt;font color=#0097FF>&lt;b>הודעת טקסט אחת (&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>) בתשלום&lt;/b>&lt;/font> תישלח באופן אוטומטי כדי להפעיל את שירות 'איתור המכשיר' ואת שירותי Xiaomi Cloud.&lt;br/>כאשר תחליף כרטיסי SIM, &lt;font color=#0097FF>&lt;b>הודעת טקסט אחת (&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>) בתשלום&lt;/b>&lt;/font> תישלח באופן אוטומטי כדי לבצע הפעלה מחדש.&lt;br/>כל החיובים על הודעת הטקסט שנוצרים בגין פעולות אלה ייגבו על ידי הספק שלך. Xiaomi לא תחייב אותך בגין הודעות אלה."</string>
+    <string name="micloud_all_sub_resend_common_sms_with_charge_hint_v2">כדי להפעיל את שירותי Xiaomi Cloud, תישלח באופן אוטומטי &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>הודעת טקסט&lt;/b>&lt;/font> בתשלום.&lt;br/>בהחלטפת כרטיסי SIM, תישלח באופן אוטומטי &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>הודעת טקסט בינלאומית בתשלום&lt;/b>&lt;/font> לצורך הפעלה מחדש.&lt;br/>כל החיובים עבור הודעות הטקסט שנוצרו עקב הפעולות הנל ייגבו על-ידי ספק הרשת. Xiaomi לא תחייב אותך עבור ההודעות הללו.</string>
     <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint">"&lt;font color=#0097FF>&lt;b>הודעת טקסט מקומית אחת (&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>) בתשלום&lt;/b>&lt;/font> תישלח באופן אוטומטי כדי להפעיל את שירות 'איתור המכשיר' ואת שירותי Xiaomi Cloud.&lt;br/>כאשר תחליף כרטיסי SIM, &lt;font color=#0097FF>&lt;b>הודעת טקסט מקומית אחת (&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>) בתשלום&lt;/b>&lt;/font> תישלח באופן אוטומטי כדי לבצע הפעלה מחדש.&lt;br/>כל החיובים על הודעת הטקסט שנוצרים בגין פעולות אלה ייגבו על ידי הספק שלך. Xiaomi לא תחייב אותך בגין הודעות אלה."</string>
+    <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint_v2">כדי להפעיל את שירותי Xiaomi Cloud, תישלח באופן אוטומטי &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>הודעת טקסט מקומית&lt;/b>&lt;/font> בתשלום.&lt;br/>בהחלטפת כרטיסי SIM, תישלח באופן אוטומטי &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>הודעת טקסט מקומית בתשלום&lt;/b>&lt;/font> לצורך הפעלה מחדש.&lt;br/>כל החיובים עבור הודעות הטקסט שנוצרו עקב הפעולות הנל ייגבו על-ידי ספק הרשת. Xiaomi לא תחייב אותך עבור ההודעות הללו.</string>
     <string name="micloud_all_sub_resend_inter_sms_with_charge_hint">"&lt;font color=#0097FF>&lt;b>הודעת טקסט בינלאומית אחת (&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>) בתשלום&lt;/b>&lt;/font> תישלח באופן אוטומטי כדי להפעיל את שירות 'איתור המכשיר' ואת שירותי Xiaomi Cloud.&lt;br/>כאשר תחליף כרטיסי SIM, &lt;font color=#0097FF>&lt;b>הודעת טקסט בינלאומית אחת (&lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>) בתשלום&lt;/b>&lt;/font> תישלח באופן אוטומטי כדי לבצע הפעלה מחדש.&lt;br/>כל החיובים על הודעת הטקסט שנוצרים בגין פעולות אלה ייגבו על ידי הספק שלך. Xiaomi לא תחייב אותך בגין הודעות אלה."</string>
+    <string name="micloud_all_sub_resend_inter_sms_with_charge_hint_v2">כדי להפעיל את שירותי Xiaomi Cloud, תישלח באופן אוטומטי &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>הודעת טקסט בינלאומית&lt;/b>&lt;/font> בתשלום.&lt;br/>בהחלטפת כרטיסי SIM, תישלח באופן אוטומטי &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>הודעת טקסט בינלאומית בתשלום&lt;/b>&lt;/font> לצורך הפעלה מחדש.&lt;br/>כל החיובים עבור הודעות הטקסט שנוצרו עקב הפעולות הנל ייגבו על-ידי ספק הרשת. Xiaomi לא תחייב אותך עבור ההודעות הללו.</string>
     <string name="micloud_check_account_toast">לא ניתן להשתמש בשירותי Xiaomi Cloud עם חשבון דמה</string>
+    <string name="micloud_cloud_default_benefit_auto_backup">גיבויים אוטומטיים</string>
+    <string name="micloud_cloud_default_benefit_daily_backup">גיבוי אוטומטי בכל יום</string>
+    <string name="micloud_cloud_default_benefit_data_recovery">שחזור תוכן שנמחק</string>
+    <string name="micloud_cloud_default_benefit_expand_to_2tb">עד %d TB</string>
+    <string name="micloud_cloud_default_benefit_family_share">שיתוף האחסון בענן עם בני משפחה</string>
+    <string name="micloud_cloud_default_benefit_large_file_upload">העלאת קבצים גדולים</string>
+    <string name="micloud_cloud_default_benefit_large_storage">הרחבת שטח האחסון בענן</string>
+    <string name="micloud_cloud_default_benefit_max_file_upload">העלאת קבצים בגודל עד %d GB לכל קובץ</string>
+    <string name="micloud_cloud_default_benefit_wechat_backup">תמיכה בגיבוי WeChat</string>
+    <string name="micloud_cloud_default_benefit_wechat_migration">שמירת היסטוריית השיחות כשמחליפים מכשיר</string>
+    <string name="micloud_cloud_memberguide_default_title">הצטרפו כמנויים כדי לקבל גישה להטבות נוספות</string>
+    <string name="micloud_cloud_memberguide_default_title_normal">ההטבות של מינוי ל-Xiaomi Cloud</string>
+    <string name="micloud_cloud_memberguide_default_title_vip">הטבות המינוי שלך</string>
+    <string name="micloud_cloud_membership_default_subtitle">רכשו מינוי כדי ליהנות משטח אחסון גדול יותר בענן</string>
+    <string name="micloud_cloud_membership_default_subtitle_ThirdLevel">חדשו את המינוי כדי ליהנות מהטבות בלעדיות</string>
+    <string name="micloud_cloud_membership_default_subtitle_normal">צפו בתוכניות אחסון ובהטבות מינוי נוספות</string>
+    <string name="micloud_cloud_membership_default_title">עדיין לא הצטרפת כמנוי</string>
+    <string name="micloud_cloud_membership_default_title_normal">מינוי ל-Xiaomi Cloud</string>
+    <string name="micloud_cloud_space_almost_full_tips">שטח האחסון שלך בענן כמעט מלא. יש לשדרג כדי לגבות את התוכן שלך.</string>
+    <string name="micloud_cloud_space_full_tips">שטח האחסון שלך בענן מלא. יש לשדרג כדי לגבות את התוכן שלך.</string>
+    <string name="micloud_cloudbackup_subtitle">%s זה</string>
     <string name="micloud_confusion_account_hint">שינויים שתבצע במכשיר זה יסונכרנו עם כל ההתקנים שלך. על מנת להגן על החשבון שלך, אנו ממליצים להפסיק סינכרון עם התקנים אחרים בעת שאינך משתמש בהם.</string>
     <string name="micloud_confusion_account_name">חשבון:</string>
     <string name="micloud_confusion_account_notify_text">מכשיר אחר מבצע שנויים בחשבון Xiaomi שלך. עליך לאמת את חשבונך כעת.</string>
@@ -456,8 +480,12 @@
     <string name="micloud_dspt_provision_china_no_sms">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, היסטוריית שיחות, פתקים ונתונים אחרים, לאתר את המכשיר שלך ולשתף פריטים עם חברים. אפליקציה זו צריכה להתחבר לאינטרנט כדי לעבוד כרגיל. סנכרון פריטים עשוי לדרוש חיבור נתונים ניידים והפעלת WLAN.</string>
     <string name="micloud_dspt_provision_china_no_sms_and_call">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, פתקים, הקלטות ונתונים אחרים, לאתר את המכשיר שלך ולשתף פריטים עם חברים. אפליקציה זו צריכה להתחבר לאינטרנט כדי לעבוד כרגיל. סנכרון פריטים עשוי לדרוש חיבור נתונים ניידים והפעלת WLAN.</string>
     <string name="micloud_dspt_provision_no_call">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, הודעות, פתקים, הקלטות ונתונים אחרים, לאתר את המכשיר שלך ולשתף פריטים עם חברים. אפליקציה זו צריכה להתחבר לאינטרנט כדי לעבוד כרגיל. סנכרון פריטים עשוי לדרוש חיבור נתונים ניידים והפעלת Wi-Fi.</string>
+    <string name="micloud_dspt_provision_no_call_v2">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, הודעות, פתקים, הקלטות, ונתונים אחרים ולשתף תוכן עם חברים. יישום זה צריך להתחבר לאינטרנט כדי לעבוד כנדרש. סנכרון תוכן עשוי לחייב חיבור לאינטרנט סלולרי והפעלת WLAN.</string>
     <string name="micloud_dspt_provision_no_sms">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, היסטוריית שיחות, פתקים, הקלטות ונתונים אחרים, לאתר את המכשיר שלך ולשתף פריטים עם חברים. אפליקציה זו צריכה להתחבר לאינטרנט כדי לעבוד כרגיל. סנכרון פריטים עשוי לדרוש חיבור נתונים ניידים והפעלת Wi-Fi.</string>
     <string name="micloud_dspt_provision_no_sms_and_call">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, פתקים, הקלטות ונתונים אחרים, לאתר את המכשיר שלך ולשתף פריטים עם חברים. אפליקציה זו צריכה להתחבר לאינטרנט כדי לעבוד כרגיל. סנכרון פריטים עשוי לדרוש חיבור נתונים ניידים והפעלת Wi-Fi.</string>
+    <string name="micloud_dspt_provision_no_sms_and_call_v2">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, פתקים, הקלטות, ונתונים אחרים ולשתף תוכן עם חברים. יישום זה צריך להתחבר לאינטרנט כדי לעבוד כנדרש. סנכרון תוכן עשוי לחייב חיבור לאינטרנט סלולרי והפעלת WLAN.</string>
+    <string name="micloud_dspt_provision_no_sms_v2">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, יומן שיחות, פתקים ונתונים אחרים ולשתף תוכן עם חברים. יישום זה צריך להתחבר לאינטרנט כדי לעבוד כנדרש. סנכרון תוכן עשוי לחייב חיבור לאינטרנט סלולרי והפעלת WLAN.</string>
+    <string name="micloud_dspt_provision_v2">ניתן להשתמש ב-Xiaomi Cloud כדי לסנכרן תמונות, אנשי קשר, הודעות, יומן שיחות, פתקים ונתונים אחרים ולשתף תוכן עם חברים. יישום זה צריך להתחבר לאינטרנט כדי לעבוד כנדרש. סנכרון תוכן עשוי לחייב חיבור לאינטרנט סלולרי והפעלת WLAN.</string>
     <string name="micloud_find_device_close_alert_content">אם פונקציית איתור המכשיר תושבת, לא ניתן יהיה לאתר את מכשירך באמצעות מאפיין זה. כמו כן, האנשים ששיתפת אתם את מיקומך לא יוכלו לקבל עדכונים לגבי המיקום שלך.</string>
     <string name="micloud_find_device_close_alert_negtive">כבה בכל זאת</string>
     <string name="micloud_find_device_close_alert_positive">השאר מופעל</string>
@@ -545,6 +573,12 @@
     <string name="micloud_member_net_error_alert_title">לא ניתן להתחבר לרשת</string>
     <string name="micloud_member_pay_miid_error_toast">שגיאת חשבון</string>
     <string name="micloud_member_pay_order_error_toast">שגיאת נתונים</string>
+    <string name="micloud_membership_benefit_recycle_bin">שחזור פריטים שנמחקו במשך תקופה ארוכה יותר</string>
+    <string name="micloud_membership_benefit_storage">שמירת תמונות וסרטונים עם הרחבת שטח האחסון</string>
+    <string name="micloud_membership_detail">פרטים</string>
+    <string name="micloud_membership_level_diamond">מינוי אולטרה</string>
+    <string name="micloud_membership_level_gold">מינוי פרמיום</string>
+    <string name="micloud_membership_level_platinum">מינוי מגה</string>
     <string name="micloud_notif_content_battery_low">הסוללה חלשה מדי.</string>
     <string name="micloud_notif_content_depend_wifi">התחבר לרשת אלחוטית על מנת לסנכרן.</string>
     <string name="micloud_notif_content_depend_wifi_china">יש להתחבר ל-WLAN כדי לסנכרן</string>
@@ -576,8 +610,6 @@
     <string name="micloud_preference_cloud_space_share">שיתוף האחסון בענן</string>
     <string name="micloud_preference_cloud_sync_wlan_only">לסנכרן רק כשיש חיבור ל-Wi-Fi</string>
     <string name="micloud_preference_cloud_sync_wlan_only_china">לסנכרן רק כשיש חיבור ל-WLAN</string>
-    <string name="micloud_preference_extended_recovery_time">תקופת שחזור מורחבת</string>
-    <string name="micloud_preference_family_sharing">ניהול שטח האחסון המשפחתי</string>
     <string name="micloud_preference_gallery_detail">%1$s, %2$s</string>
     <string name="micloud_preference_get_more_cloud_space">קבלו יותר אחסון בענן כדי לגבות בזמן</string>
     <string name="micloud_preference_idle_sync">לסנכרן כשאין שימוש</string>
@@ -585,6 +617,7 @@
     <string name="micloud_preference_last_sync_done_time">סנכרון אחרון: %1$s %2$s</string>
     <string name="micloud_preference_last_sync_time">סנכרון אחרון %s</string>
     <string name="micloud_preference_last_sync_time_1">הסנכרון האחרון</string>
+    <string name="micloud_preference_look_vip">צפייה</string>
     <string name="micloud_preference_manage_cloud_data">נהל נתוני Cloud</string>
     <string name="micloud_preference_manage_membership">ניהול המינוי</string>
     <string name="micloud_preference_max_storage">תיהנו משטח אחסון של עד %d TB</string>
@@ -628,7 +661,6 @@
     <string name="micloud_preference_view_cloud_shared_family">מינוי לאחסון ענן שמשותף עם המשפחה</string>
     <string name="micloud_preference_view_synced_contacts">צפייה באנשי הקשר המסונכרנים</string>
     <string name="micloud_preference_view_synced_sms">צפייה בהודעות המסונכרנות</string>
-    <string name="micloud_preference_wechat_backup_1">גיבויי WeChat</string>
     <string name="micloud_privacy_cloud_off">הסנכרון כבוי</string>
     <string name="micloud_privacy_cloud_sync">הפעל את שירותי Xiaomi Cloud</string>
     <string name="micloud_privacy_explanation">הענק הרשאה על מנת להפעיל את שירותי Xiaomi Cloud</string>

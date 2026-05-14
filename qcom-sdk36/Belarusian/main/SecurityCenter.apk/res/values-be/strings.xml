@@ -577,6 +577,7 @@
     <string name="applock_lock_mode_locked_or_exit_summary">Блакіраваць праграмы кожны раз, калі вы зачыняецеся, выходзіце з сістэмы або пераключаецеся на іншую праграму</string>
     <string name="applock_lock_mode_locked_summary">Не патрабаваць праверкі, пакуль прылада не будзе заблакаваная</string>
     <string name="applock_login_and_add_account">Увайсці і дадаць</string>
+    <string name="applock_mixed_input_password_hint_text">Увядзіце пароль</string>
     <string name="applock_mixtype_hidepwd_icon">Схаваць пароль</string>
     <string name="applock_mixtype_showpwd_icon">Паказаць пароль</string>
     <string name="applock_no_account_login">Вы не ўвайшлі ў свой Xiaomi Акаўнт</string>
@@ -982,7 +983,7 @@
     <string name="bubble_notification_switch">Паказваць бурбалкі дыялогаў</string>
     <string name="bubble_notification_switch_desc">Калі праграма для абмену паведамленнямі ўтоена ў плывучым акне ў краю экрана, уваходныя паведамленні будуць адлюстроўвацца ў бурбалках.</string>
     <string name="bubble_pickup_voice_print_auto">Запіс узору голасу…</string>
-    <string name="bubble_pickup_voice_print_success">Voiceprint recorded</string>
+    <string name="bubble_pickup_voice_print_success">Запісаны голас</string>
     <string name="button_background_connection">Дазволіць</string>
     <string name="button_block_calls_from_cantacts">Разблакаваць</string>
     <string name="button_block_calls_from_strangers">Разблакаваць</string>
@@ -1016,8 +1017,6 @@
     <string name="button_to_setting">Налады</string>
     <string name="button_toll_correction">Калібраваць баланс</string>
     <string name="byteShort">Б</string>
-    <string name="calendar_date_picker_a11y_next_month">Перайсці да наступнага месяца</string>
-    <string name="calendar_date_picker_a11y_prev_month">Перайсці да папярэдняга месяца</string>
     <string name="call_address">Чорны спіс рэгіёнаў</string>
     <string name="call_all_number_block">Блакаваць усе выклікі</string>
     <string name="call_and_contact">Выклікі і кантакты</string>
@@ -1893,7 +1892,7 @@
 %3$d. Гэтая функцыя падтрымліваецца толькі ў мацерыковым Кітаі.
 %4$d. Гэтая функцыя працуе толькі ў сетках 5G-SA."</string>
     <string name="function_shield_auto_bright">Адключыць аўтаяркасць</string>
-    <string name="function_shield_eye_shield">Turn off Eye comfort mode</string>
+    <string name="function_shield_eye_shield">Адключыць рэжым камфорту для вачэй</string>
     <string name="function_shield_pull_notification_bar">Не адкрываць панэль апавяшчэнняў</string>
     <string name="function_shield_settings_title">Абмежаваць наступныя функцыі падчас гульні</string>
     <string name="function_shield_summary">Абмежаваць наступныя функцыі сістэмы падчас гульні</string>
@@ -1992,7 +1991,7 @@
     <string name="game_toolbox_performance_config_custom_notice_new">Вы можаце наладзіць Супер разрознасць і Інтэлектуальную частату кадраў для кіравання частатой абнаўлення і якасцю адлюстравання.&lt;font color=%s>Фактычная частата абнаўлення адлюстроўваецца на панэлі прадукцыйнасці.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Калі ўключаны прыярытэт частаты кадраў, фактычная частата кадраў адпавядае частаце, якая адлюстроўваецца на панэлі прадукцыйнасці.</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Прыярытэт частаты кадраў паляпшае яе з дапамогай функцыі Інтэлектуальная частата кадраў. &lt;font color=%s>Фактычная частата абнаўлення паказана на панэлі прадукцыйнасці.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Калі ўключаны прыярытэт выявы, фактычная частата кадраў адпавядае частаце, якая адлюстроўваецца на панэлі прадукцыйнасці.</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Прыярытэт выявы паляпшае якасць малюнка з дапамогай Супер разрознасці і кіруе частатой кадраў з дапамогай функцыі «Інтэлектуальная частата кадраў». &lt;font color=%s>Фактычная частата абнаўлення адлюстроўваецца на панэлі прадукцыйнасці.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Яркасць экрана</string>
@@ -3065,6 +3064,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s стварае невядомыя рызыкі бяспекі і можа прывесці да ўцечкі прыватнасці або фінансавых страт. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Калі вы не згодныя з гэтым абвесткай, націсніце тут, каб адправіць водгук.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Імя праграмы: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Калі вы не згодныя з гэтым абвесткай, націсніце (click)тут(/click), каб адправіць водгук.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Назва пакета: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Падрабязна апішыце праблему: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Подпіс праграмы: %s</string>
@@ -3129,7 +3129,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="mic_noise_reduction_voiceprint_desc">Захоўваць аўдыё толькі ад указанага карыстальніка</string>
     <string name="midnight">Ноч</string>
     <string name="midrop_post_notification_contentTitle">Трэба перадаць файлы?</string>
-    <string name="milink_init_loading">Preparing to cast…</string>
+    <string name="milink_init_loading">Падрыхтоўка да трансляцыі…</string>
     <string name="miui_blur_location">Прыблізнае месцазнаходжанне</string>
     <string name="miui_optimization_close_final_tip">Адключыць аптымізацыю сістэмы?</string>
     <string name="miui_optimization_close_title">Гэтая функцыя прызначана для распрацоўшчыкаў і можа даставіць нязручнасці звычайным карыстальнікам. Адключэнне аптымізацыі сістэмы можа прывесці да наступных змен:</string>
@@ -4143,8 +4143,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pin_toast">Правядзіце уверх ад ніжняга краю экрана і затрымайце палец, каб адмацаваць гэтую праграму</string>
     <string name="pin_toast_nav">Нажыце і ўтрымлівайце кнопкі «Назад» і «Прагляд», каб адмацаваць гэтую праграму</string>
     <string name="pkg_traffic">Задаць ліміт трафіка</string>
-    <string name="pkg_traffic_settings_instruction">Attention</string>
-    <string name="pkg_traffic_settings_instruction_text">"Due to recent carrier updates, some info may not be available. Data shown in \"Traffic Advanced Settings\" is for reference only and may not match your carrier's records. Check your carrier's billing statement for the most accurate usage."</string>
+    <string name="pkg_traffic_settings_instruction">Увага</string>
+    <string name="pkg_traffic_settings_instruction_text">З-за нядаўніх абнаўленняў аператара частка інфармацыі можа быць недаступная. Даныя, паказаныя ў раздзеле «Пашыраныя налады трафіку», прыведзены толькі для даведкі і могуць не супадаць з данымі вашага аператара. Для атрымання найбольш дакладнай інфармацыі аб выкарыстанні праверце рахунак ад аператара.</string>
     <string name="pm">PM</string>
     <string name="pm_auto_start_by_other">Узаемны запуск</string>
     <string name="pm_auto_start_by_other_app">Дазволіць праграме запускацца іншымі праграмамі</string>
@@ -5588,7 +5588,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="storage_fbo_notification_start_content">Прылада можа завісаць падчас гэтага працэсу</string>
     <string name="storage_fbo_notification_start_title">Дэфрагментацыя сховішча...</string>
     <string name="storage_fbo_number_tip">Апрацавана %1$s</string>
-    <string name="storage_fbo_time_talkback">MMMM d</string>
+    <string name="storage_fbo_time_talkback">d MMMM</string>
     <string name="storage_fbo_tools">Аптымізацыя cховішча</string>
     <string name="storage_file_delete_tip">"Выдаліць выбраныя аб'екты назаўжды? Некаторыя з іх можна загрузіць зноў, калі спатрэбіцца."</string>
     <string name="storage_file_dialog_delete_title">"Выдаліць аб'екты"</string>
@@ -6000,6 +6000,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="toast_lockscreen_glogin_empty_password">Патрабуецца пароль</string>
     <string name="toast_network_eror">Немагчыма злучыцца з сеткай</string>
     <string name="toast_network_switch">Праграма можа злучацца з інтэрнэтам</string>
+    <string name="toast_no_install_getapps">Усталяваць GetApps і паспрабаваць зноў</string>
     <string name="toast_reject_sms_read_permission_success">Усталявана</string>
     <string name="toast_removed_from_virus_white_list">"Выдалена з выняткаў. Аб'ект будзе правераны ў наступны раз."</string>
     <string name="toast_root_apply_accept">Root-доступ прадастаўлены праграме %s</string>
@@ -6252,10 +6253,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_effects_spatial_summary_new">Выпрабуйце палепшанае адчуванне прасторы і напрамку для падтрымліваемага аўдыё пры выкарыстанні навушнікаў</string>
     <string name="vb_video_effects_srs_premium_sound">Гук</string>
     <string name="vb_video_super_division">Павялічыць</string>
-    <string name="vb_video_super_division_desc">"Upscale resolution automatically when it's ≤720P.
-
-Using this feature increases power consumption.
-
+    <string name="vb_video_super_division_desc">"Using this feature increases power consumption.
 This feature doesn't work with motion smoothing.
 Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"Недастаткова выразна?

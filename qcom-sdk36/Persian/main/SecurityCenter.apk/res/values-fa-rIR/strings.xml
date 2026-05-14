@@ -550,6 +550,7 @@
     <string name="applock_lock_mode_locked_or_exit_summary">قفل کردن برنامه‌ها هنگام ترک، خروج یا رفتن به برنامه دیگر</string>
     <string name="applock_lock_mode_locked_summary">تا زمانی که دستگاه قفل نشده است، نیازی به تأیید ندارید</string>
     <string name="applock_login_and_add_account">ورود به سیستم و افزودن</string>
+    <string name="applock_mixed_input_password_hint_text">گذرواژه را وارد کنید</string>
     <string name="applock_mixtype_hidepwd_icon">پنهان کردن گذرواژه</string>
     <string name="applock_mixtype_showpwd_icon">نمایش گذرواژه</string>
     <string name="applock_no_account_login">شما به سیستم حساب Xiaomi خود وارد نشده‌اید</string>
@@ -1875,7 +1876,7 @@
     <string name="game_toolbox_performance_config_custom_notice_new">شما می‌توانید وضوح بالای تصویر و نرخ فریم هوشمند را تنظیم کنید تا نرخ فریم و کیفیت عکس را مدیریت کنید. &lt;font color=%s>نرخ فریم واقعی در داشبورد کارایی نمایش داده می‌شود.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">وقتی اولویت نرخ فریم روشن باشد، نرخ فریم واقعی همان است که در داشبورد کارایی نمایش داده می‌شود</string>
     <string name="game_toolbox_performance_config_frc_notice_new">اولویت نرخ فریم، نرخ فریم را از طریق نرخ فریم هوشمند بهبود می‌بخشد. &lt;font color=%s>نرخ فریم واقعی در داشبورد کارایی نمایش داده می‌شود.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">وقتی اولویت عکس روشن باشد، نرخ فریم واقعی همان است که در داشبورد کارایی نمایش داده می‌شود</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">اولویت عکس کیفیت تصویر را از طریق وضوح فوق‌العاده بهبود می‌بخشد و نرخ فریم را با نرخ فریم هوشمند مدیریت می‌کند. &lt;font color=%s>نرخ فریم واقعی در داشبورد کارایی نمایش داده می‌شود.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">روشنایی نمایشگر</string>
@@ -2934,6 +2935,7 @@
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s خطر امنیتی ناشناخته‌ای دارد و می‌تواند باعث شود تا اطلاعات شخصی‌تان درز پیدا کند یا ضرر مالی ببینید. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">اگر با این هشدار موافق نیستید، اینجا را بزنید تا بازخورد ارسال شود.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">نام برنامه: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s اگر با این هشدار مخالفت دارید، روی (click)اینجا(/click) بزنید تا بازخورد ثبت کنید.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">نام بسته:%s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">مشکل‌تان را با جزئیات شرح دهید: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">امضای برنامه: %s</string>
@@ -5831,6 +5833,7 @@
     <string name="toast_lockscreen_glogin_empty_password">گذرواژه مورد نیاز است</string>
     <string name="toast_network_eror">به شبکه متصل نمی‌شود</string>
     <string name="toast_network_switch">این برنامه می‌تواند به اینترنت متصل شود</string>
+    <string name="toast_no_install_getapps">GetApps را نصب و دوباره سعی کنید</string>
     <string name="toast_reject_sms_read_permission_success">با موفقیت تنظیم شد</string>
     <string name="toast_removed_from_virus_white_list">از موارد استثنا حذف شد. مورد زمان بعدی اسکن خواهد شد.</string>
     <string name="toast_root_apply_accept">دسترسی روت به %s داده شد</string>
@@ -6081,12 +6084,9 @@
     <string name="vb_video_effects_spatial_summary_new">هنگام استفاده از هدفون، حس بهتر فضا و جهت را برای صدای پشتیبانی شده تجربه کنید</string>
     <string name="vb_video_effects_srs_premium_sound">صدا</string>
     <string name="vb_video_super_division">افزایش وضوح</string>
-    <string name="vb_video_super_division_desc">"افزایش وضوح به طور خودکار، وقتی از 720P کمتر می‌شود.
-
-استفاده از این امکان مصرف باتری را افزایش می‌دهد.
-
-استفاده از این امکان همزمان با هموارسازی حرکت ممکن نیست.
-هرکدام از این دو روشن شوند، دیگری خاموش خواهد شد."</string>
+    <string name="vb_video_super_division_desc">"Using this feature increases power consumption.
+This feature doesn't work with motion smoothing.
+Turning one of the features on will turn the other off."</string>
     <string name="vb_video_super_division_tips">"به اندازه کافی واضح نیستید؟
  مقیاس وضوح را امتحان کنید!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">انیمیشن‌های بهینه شده خاموشند</string>

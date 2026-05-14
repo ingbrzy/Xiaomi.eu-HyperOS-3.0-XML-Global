@@ -577,6 +577,7 @@ Podporováno pro skupinové i individuální chaty"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Zamknout aplikace pokaždé, když z nich odejdete, ukončíte je nebo přejdete do jiné aplikace</string>
     <string name="applock_lock_mode_locked_summary">Nevyžadovat ověření, dokud je zařízení zamknuto</string>
     <string name="applock_login_and_add_account">Přihlásit se a přidat</string>
+    <string name="applock_mixed_input_password_hint_text">Zadejte heslo</string>
     <string name="applock_mixtype_hidepwd_icon">Skrýt heslo</string>
     <string name="applock_mixtype_showpwd_icon">Zobrazit heslo</string>
     <string name="applock_no_account_login">Nejste přihlášeni ke svému Xiaomi účtu</string>
@@ -1016,8 +1017,6 @@ Některé z platebních transakcí však nebyly dokončeny. Pro odebrání souhl
     <string name="button_to_setting">Nastavení</string>
     <string name="button_toll_correction">Kalibrovat zůstatek</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Přejít na další měsíc</string>
-    <string name="calendar_date_picker_a11y_prev_month">Přejít na předchozí měsíc</string>
     <string name="call_address">Blokované oblasti</string>
     <string name="call_all_number_block">Blokovat všechny hovory</string>
     <string name="call_and_contact">Hovory a Kontakty</string>
@@ -1992,7 +1991,7 @@ Když je zapnutá funkce Chytrá snímková frekvence, nástroje pro pro měřen
     <string name="game_toolbox_performance_config_custom_notice_new">Snímkovou frekvenci a kvalitu obrazu můžete upravit přizpůsobením funkcí Super rozlišení a Chytrá snímková frekvence. &lt;font color=%s>Skutečná snímková frekvence se zobrazuje na panelu výkonu.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Když je zapnutá priorita snímkové frekvence, odpovídá skutečná snímková frekvence hodnotě zobrazené na panelu výkonu</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Priorita snímkové frekvence vylepšuje snímkovou frekvenci pomocí funkce Chytrá snímková frekvence. &lt;font color=%s>Skutečná snímková frekvence se zobrazuje na panelu výkonu.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Když je zapnutá priorita obrazu, odpovídá skutečná snímková frekvence hodnotě zobrazené na panelu výkonu</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Priorita obrazu vylepšuje pomocí funkce Super rozlišení kvalitu obrazu a upravuje snímkovou frekvenci pomocí funkce Chytrá snímková frekvence. &lt;font color=%s>Skutečná snímková frekvence se zobrazuje na panelu výkonu.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Jas displeje</string>
@@ -3065,6 +3064,7 @@ Vaše zařízení je nyní o %s rychlejší."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s představuje neznámá bezpečnostní rizika a může vést k úniku informací o soukromí nebo finanční ztrátě. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Pokud s tímto upozorněním nesouhlasíte, klepnutím sem odešlete zpětnou vazbu.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Název aplikace: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Pokud s tímto upozorněním nesouhlasíte, klepnutím (click)sem(/click) odešlete zpětnou vazbu.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Název balíčku: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Podrobně popište problém: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Podpis aplikace: %s</string>
@@ -6000,6 +6000,7 @@ Formátování vymaže veškerý obsah z ^2. Před zahájením formátování ul
     <string name="toast_lockscreen_glogin_empty_password">Je vyžadováno heslo</string>
     <string name="toast_network_eror">Nelze se připojit k síti</string>
     <string name="toast_network_switch">Tato aplikace se může připojit k internetu</string>
+    <string name="toast_no_install_getapps">Nainstalujte GetApps a zkuste to znovu</string>
     <string name="toast_reject_sms_read_permission_success">Úspěšně nastaveno</string>
     <string name="toast_removed_from_virus_white_list">Odebráno z výjimek. Položka bude zkontrolována při dalším testu.</string>
     <string name="toast_root_apply_accept">Přístup k ROOTování pro %s povolen</string>
@@ -6252,11 +6253,8 @@ Zapnutím jedné funkce vypnete druhou funkci."</string>
     <string name="vb_video_effects_spatial_summary_new">Vylepšený zvukový zážitek z prostoru a směru pro podporované audio soubory při využití sluchátek</string>
     <string name="vb_video_effects_srs_premium_sound">Zvuk</string>
     <string name="vb_video_super_division">Zvýšit</string>
-    <string name="vb_video_super_division_desc">"Automaticky zvýšit rozlišení při kvalitě obrazu ≤ 720 P.
-
-Spuštění této funkce rychleji vybíjí baterii.
-
-Tuto funkci nelze použít, pokud je zapnuto Zaostření pohybu.
+    <string name="vb_video_super_division_desc">"Používání této funkce zvyšuje spotřebu energie.
+Tuto funkci nelze použít, když je zapnuto Zaostření pohybu.
 Zapnutí jedné z těchto funkcí vypne tu druhou."</string>
     <string name="vb_video_super_division_tips">"Obraz stále není dost jasný?
 Zkuste zvýšit rozlišení!"</string>

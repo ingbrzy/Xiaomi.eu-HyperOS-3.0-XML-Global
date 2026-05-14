@@ -577,6 +577,7 @@ Unterstützt sowohl Gruppen- als auch individuelle Chats"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Apps sperren, wenn du sie verlässt, beendest oder zu einer anderen App wechselst</string>
     <string name="applock_lock_mode_locked_summary">Keine Verifizierung erforderlich, bis das Gerät gesperrt ist</string>
     <string name="applock_login_and_add_account">Anmelden und hinzufügen</string>
+    <string name="applock_mixed_input_password_hint_text">Passwort eingeben</string>
     <string name="applock_mixtype_hidepwd_icon">Passwort ausblenden</string>
     <string name="applock_mixtype_showpwd_icon">Passwort anzeigen</string>
     <string name="applock_no_account_login">Sie sind nicht bei Ihrem Xiaomi-Konto angemeldet.</string>
@@ -1016,8 +1017,6 @@ Jedoch sind einige deiner Transaktionen noch nicht abgeschlossen. Um deine Zusti
     <string name="button_to_setting">Einstellungen</string>
     <string name="button_toll_correction">Guthaben kalibrieren</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Zum nächsten Monat wechseln</string>
-    <string name="calendar_date_picker_a11y_prev_month">Zum vorherigen Monat wechseln</string>
     <string name="call_address">Ortssperrliste</string>
     <string name="call_all_number_block">Alle Anrufe blockieren</string>
     <string name="call_and_contact">Anrufe und Kontakte</string>
@@ -2199,7 +2198,7 @@ Wenn die intelligente Bildrate an ist, können Tools zur Erkennung der Bildrate 
     <string name="game_toolbox_performance_config_custom_notice_new">Du kannst die Superauflösung und die intelligente Bildrate anpassen, um die Bildrate und Bildqualität zu verbessern. &lt;font color=%s>Die tatsächliche Bildrate wird im Performance-Dashboard angezeigt.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Wenn die Bildratenpriorität an ist, wird die tatsächliche Bildrate im Performance-Dashboard angezeigt.</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Die Bildratenpriorität verbessert die Bildrate über die intelligente Bildrate. &lt;font color=%s>Die tatsächliche Bildrate wird im Performance-Dashboard angezeigt.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Wenn die Bildpriorität an ist, wird die tatsächliche Bildrate im Performance-Dashboard angezeigt.</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Die Bildpriorität verbessert die Bildqualität über die Superauflösung und verwaltet die Bildrate über die intelligente Bildrate. &lt;font color=%s>Die tatsächliche Bildrate wird im Performance-Dashboard angezeigt.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Bildschirmhelligkeit</string>
@@ -3292,6 +3291,7 @@ Dein Gerät ist jetzt %s schneller."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s birgt unbekannte Sicherheitsrisiken und kann zu Datenschutzverletzungen oder finanziellen Verlusten führen. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Wenn du mit dieser Warnung nicht einverstanden bist, tippe hier, um Feedback einzureichen.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">App-Name: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Wenn du mit dieser Warnung nicht einverstanden bist, tippe (click)hier(/click), um Feedback einzureichen.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paketname: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Beschreibe das Problem ausführlich: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">App-Signatur: %s</string>
@@ -6228,6 +6228,7 @@ Das Formatieren wird existierende Inhalte auf ^2 löschen. Um den Verlust von In
     <string name="toast_lockscreen_glogin_empty_password">Passwort erforderlich</string>
     <string name="toast_network_eror">Keine Netzwerkverbindung</string>
     <string name="toast_network_switch">Diese App darf sich verbinden mit dem Internet</string>
+    <string name="toast_no_install_getapps">GetApps installieren und erneut versuchen</string>
     <string name="toast_reject_sms_read_permission_success">Erfolgreich festgelegt</string>
     <string name="toast_removed_from_virus_white_list">Aus Ausnahmen entfernt. Das Element wird beim nächsten Mal gescannt.</string>
     <string name="toast_root_apply_accept">%s wurde Root-Zugriff gewährt</string>
@@ -6481,10 +6482,7 @@ Wenn du einen Effekt aktivierst, schalte den anderen aus."</string>
     <string name="vb_video_effects_spatial_summary_new">Verbessertes Raum- und Richtungsgefühl für unterstützte Audiosignale bei Verwendung von Kopfhörern.</string>
     <string name="vb_video_effects_srs_premium_sound">Ton</string>
     <string name="vb_video_super_division">Hochskalieren</string>
-    <string name="vb_video_super_division_desc">"Erhöht die Auflösung automatisch, wenn sie ≤720P ist.
-
-Die Verwendung dieser Funktion erhöht den Stromverbrauch.
-
+    <string name="vb_video_super_division_desc">"Das Verwenden dieser Funktion erhöht den Stromverbrauch.
 Diese Funktion funktioniert nicht mit Bewegungsglättung.
 Das Einschalten einer der Funktionen schaltet die andere aus."</string>
     <string name="vb_video_super_division_tips">"Nicht klar genug?

@@ -577,6 +577,7 @@ Supporta sia le chat di gruppo che quelle individuali"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">"Blocca le app ogni volta che ti disconnetti, esci o passi a un'altra app"</string>
     <string name="applock_lock_mode_locked_summary">Non richiedere la verifica finché il dispositivo non sarà bloccato</string>
     <string name="applock_login_and_add_account">Accedi e aggiungi</string>
+    <string name="applock_mixed_input_password_hint_text">Digita la password</string>
     <string name="applock_mixtype_hidepwd_icon">Nascondi password</string>
     <string name="applock_mixtype_showpwd_icon">Mostra password</string>
     <string name="applock_no_account_login">"Non hai effettuato l'accesso al tuo Xiaomi Account"</string>
@@ -1016,8 +1017,6 @@ Tuttavia, alcune delle tue transazioni non sono ancora state completate. Per rev
     <string name="button_to_setting">Impostazioni</string>
     <string name="button_toll_correction">Calibra saldo</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Passa al mese successivo</string>
-    <string name="calendar_date_picker_a11y_prev_month">Passa al mese precedente</string>
     <string name="call_address">Area lista blocchi</string>
     <string name="call_all_number_block">Blocca tutte le chiamate</string>
     <string name="call_and_contact">Chiamate e Contatti</string>
@@ -1992,7 +1991,7 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="game_toolbox_performance_config_custom_notice_new">"Puoi personalizzare Super risoluzione e Frequenza dei fotogrammi smart per gestire la frequenza dei fotogrammi e la qualità dell'immagine. &lt;font color=%s>La frequenza effettiva dei fotogrammi è mostrata nella dashboard delle prestazioni.&lt;/font>"</string>
     <string name="game_toolbox_performance_config_frc_notice">Quando è attiva la Priorità alla frequenza dei fotogrammi, la frequenza dei fotogrammi effettiva è quella mostrata nella dashboard delle prestazioni</string>
     <string name="game_toolbox_performance_config_frc_notice_new">La Priorità alla frequenza dei fotogrammi migliora la frequenza dei fotogrammi tramite la funzione Frequenza dei fotogrammi smart. &lt;font color=%s>La frequenza effettiva dei fotogrammi è mostrata nella dashboard delle prestazioni.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Quando è attiva la Priorità alle immagini, la frequenza dei fotogrammi effettiva è quella mostrata nella dashboard delle prestazioni</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">La Priorità alle immagini migliora la qualità delle immagini tramite la Super risoluzione e gestisce la frequenza dei fotogrammi tramite la funzione Frequenza dei fotogrammi smart. &lt;font color=%s>La frequenza effettiva dei fotogrammi è mostrata nella dashboard delle prestazioni.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Luminosità dello schermo</string>
@@ -2461,7 +2460,7 @@ ed esplora il nostro Cambia voce!"</string>
     <string name="gb_voice_changer_user_status_renew">Rinnova</string>
     <string name="gb_voice_changer_user_tips_info_vip_expire">Il tuo abbonamento è scaduto. Rinnovalo ora per non perdere i tuoi vantaggi!</string>
     <string name="gb_voice_changer_user_vip_expired">Scaduto</string>
-    <string name="gb_voice_changer_user_vip_loading">Un attimo…</string>
+    <string name="gb_voice_changer_user_vip_loading">Solo un secondo…</string>
     <string name="gb_voice_changer_user_vip_remain_time">Data di scadenza: %s</string>
     <string name="gb_wild_mode_game_performance_enhance">Migliora le prestazioni per i giochi</string>
     <string name="gb_wonderful_moment_toast_window_new_pop">"Registra i momenti chiave
@@ -3065,6 +3064,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s pone rischi di sicurezza sconosciuti e potrebbe portare a fughe di notizie sulla privacy o a perdite finanziarie. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">"Se non sei d'accordo con questo avviso, tocca qui per inviare un feedback."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Nome app: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">"%s Se non sei d'accordo con questo avviso, tocca (click)qui(/click) per inviare un feedback."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Nome pacchetto: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Descrivi il problema in dettaglio: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Firma app: %s</string>
@@ -3129,7 +3129,7 @@ Velocità dispositivo incrementata del %s."</string>
     <string name="mic_noise_reduction_voiceprint_desc">"Conserva l'audio soltanto da un utente specificato"</string>
     <string name="midnight">Notte</string>
     <string name="midrop_post_notification_contentTitle">Hai bisogno di condividere file?</string>
-    <string name="milink_init_loading">Preparazione alla trasmissione...…</string>
+    <string name="milink_init_loading">Preparazione alla trasmissione…</string>
     <string name="miui_blur_location">Posizione approssimativa</string>
     <string name="miui_optimization_close_final_tip">"Disattivare l'ottimizzazione del sistema?"</string>
     <string name="miui_optimization_close_title">"Questa funzionalità è destinata agli sviluppatori e potrebbe non risultare comoda per gli utenti generici. La disattivazione dell'ottimizzazione del sistema potrebbe comportare le seguenti modifiche:"</string>
@@ -6000,6 +6000,7 @@ La formattazione eliminerà i contenuti sulla ^2. Per evitare di perdere contenu
     <string name="toast_lockscreen_glogin_empty_password">Password richiesta</string>
     <string name="toast_network_eror">Impossibile connettersi alla rete</string>
     <string name="toast_network_switch">Questa applicazione può connettersi a internet</string>
+    <string name="toast_no_install_getapps">Installa GetApps e riprova</string>
     <string name="toast_reject_sms_read_permission_success">Impostato correttamente</string>
     <string name="toast_removed_from_virus_white_list">"Rimosso dalle eccezioni. L'elemento sarà scansionato la prossima volta."</string>
     <string name="toast_root_apply_accept">Accesso come root concesso a %s</string>
@@ -6252,11 +6253,8 @@ Attivarla li disattiverà e viceversa."</string>
     <string name="vb_video_effects_spatial_summary_new">"Sperimenta un maggiore senso dello spazio e della direzione l'audio supportato quando usi le cuffie"</string>
     <string name="vb_video_effects_srs_premium_sound">Audio</string>
     <string name="vb_video_super_division">Aumenta la risoluzione</string>
-    <string name="vb_video_super_division_desc">"Aumenta la risoluzione automaticamente quando pari a ≤720P.
-
-L'utilizzo di questa funzione aumenta il consumo di energia.
-
-Questa funzione non opera con i Movimenti fluidi.
+    <string name="vb_video_super_division_desc">"L'utilizzo di questa funzione aumenta il consumo energetico.
+Questa funzione non è compatibile con l'opzione Movimenti fluidi.
 L'attivazione di una delle funzioni disattiva l'altra."</string>
     <string name="vb_video_super_division_tips">"Non è abbastanza nitido?
 Prova ad aumentare la risoluzione!"</string>

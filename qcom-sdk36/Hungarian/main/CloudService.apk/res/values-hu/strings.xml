@@ -285,7 +285,7 @@
     <string name="find_device_dspt_provision">Elveszett készüléke helyének meghatározásához, zárolásához, illetve az adatok törléséhez látogasson el a(z) &lt;font color=#0097FF>%s&lt;/font> weboldalra. Ez a funkció bármikor ki- vagy bekapcsolható a Beállítások menüpontban.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">A Készülékkeresés bekapcsolásával Ön elfogadja a <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud Adatvédelmi irányelveket</u></a>. Ha szeretné visszavonni az Adatvédelmi irányelvekhez való hozzájárulását, kapcsolja ki ezt a funkciót.</string>
+    <string name="find_device_gdpr_prompt">A Készülékkeresés bekapcsolásával Ön elfogadja a <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud Adatvédelmi irányelveit</u></a>. Az adatvédelmi irányelvekhez való hozzájárulásának visszavonásához kapcsolja ki ezt a funkciót.</string>
     <string name="find_device_operation_failure_rpc">RPC hiba miatt nem sikerült végrehajtani a műveletet.</string>
     <string name="find_device_permissions_footer">Érintse meg az \"Engedélyezés\" gombot a kiválasztott engedélyek megadásához.</string>
     <string name="find_device_permissions_header">Üdvözöljük a Készülékkeresésben! Ezzel az alkalmazással megtalálhatja, nyomon követheti és zárolhatja készülékét, ha az eltűnt. Névtelenül is segíthet másoknak megtalálni Xiaomi-készülékeiket. Ennek az alkalmazásnak a normál működéshez a következő engedélyekre van szüksége:</string>
@@ -464,9 +464,33 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="mi_drive_title">Mi Drive</string>
     <string name="micloud_alert_dialog_positive">OK</string>
     <string name="micloud_all_sub_resend_common_sms_with_charge_hint">A Készülékkeresés és a Xiaomi Cloud szolgáltatások bekapcsolásához &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>fizetős SMS-t fog kapni&lt;/b>&lt;/font> automatikusan.&lt;br/>Amikor SIM-kártyát vált, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>fizetős SMS-t fog kapni&lt;/b>&lt;/font> automatikusan az újraaktiváláshoz.&lt;br/>A fent említett műveletek által generált összes SMS-díjat a szolgáltatója kiszámlázza. A Xiaomi nem számít fel díjat ezekért az üzenetekért.</string>
+    <string name="micloud_all_sub_resend_common_sms_with_charge_hint_v2">A Xiaomi Cloud szolgáltatások bekapcsolásához &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>fizetős SMS&lt;/b>&lt;/font> kerül automatikusan elküldésre. &lt;br/>SIM-kártya cseréje esetén automatikusan elküldésre kerül egy &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b> fizetős SMS&lt;/b>&lt;/font> az újraaktiváláshoz. &lt;br/>A fenti műveletekkel kapcsolatos összes SMS-díjat a szolgáltatója számlázza ki. A Xiaomi nem számol fel díjat ezekért az üzenetekért.</string>
     <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint">A Készülékkeresés és a Xiaomi Cloud szolgáltatások bekapcsolásához &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>belföldi fizetős SMS-t fog kapni&lt;/b>&lt;/font> automatikusan.&lt;br/>Amikor SIM-kártyát vált, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>belföldi fizetős SMS-t fog kapni&lt;/b>&lt;/font> automatikusan az újraaktiváláshoz.&lt;br/>A fent említett műveletek által generált összes SMS-díjat a szolgáltatója kiszámlázza. A Xiaomi nem számít fel díjat ezekért az üzenetekért.</string>
+    <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint_v2">A Xiaomi Cloud szolgáltatások bekapcsolásához &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>belföldi fizetős SMS&lt;/b>&lt;/font> kerül automatikusan elküldésre. &lt;br/>SIM-kártya cseréje esetén automatikusan elküldésre kerül egy &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>belföldi fizetős SMS&lt;/b>&lt;/font> az újraaktiváláshoz. &lt;br/>A fenti műveletekkel kapcsolatos összes SMS-díjat a szolgáltatója számlázza ki. A Xiaomi nem számol fel díjat ezekért az üzenetekért.</string>
     <string name="micloud_all_sub_resend_inter_sms_with_charge_hint">A Készülékkeresés és a Xiaomi Cloud szolgáltatások bekapcsolásához &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>nemzetközi fizetős SMS-t fog kapni&lt;/b>&lt;/font> automatikusan.&lt;br/>Amikor SIM-kártyát vált, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>nemzetközi fizetős SMS-t fog kapni&lt;/b>&lt;/font> automatikusan az újraaktiváláshoz.&lt;br/>A fent említett műveletek által generált összes SMS-díjat a szolgáltatója kiszámlázza. A Xiaomi nem számít fel díjat ezekért az üzenetekért.</string>
+    <string name="micloud_all_sub_resend_inter_sms_with_charge_hint_v2">A Xiaomi Cloud szolgáltatások bekapcsolásához &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>nemzetközi fizetős SMS&lt;/b>&lt;/font> kerül automatikusan elküldésre. &lt;br/>SIM-kártya cseréje esetén automatikusan elküldésre kerül egy &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>nemzetközi fizetős SMS&lt;/b>&lt;/font> az újraaktiváláshoz. &lt;br/>A fenti műveletekkel kapcsolatos összes SMS-díjat a szolgáltatója számlázza ki. A Xiaomi nem számol fel díjat ezekért az üzenetekért.</string>
     <string name="micloud_check_account_toast">A Xiaomi Cloud szolgáltatások nem használhatók demo fiókkal.</string>
+    <string name="micloud_cloud_default_benefit_auto_backup">Automatikus biztonsági mentések</string>
+    <string name="micloud_cloud_default_benefit_daily_backup">Automatikus biztonsági mentés minden nap</string>
+    <string name="micloud_cloud_default_benefit_data_recovery">Törölt elemek visszaállítása</string>
+    <string name="micloud_cloud_default_benefit_expand_to_2tb">Max. %d TB</string>
+    <string name="micloud_cloud_default_benefit_family_share">Felhőalapú tárhely megosztása családtagokkal</string>
+    <string name="micloud_cloud_default_benefit_large_file_upload">Nagy fájlfeltöltések</string>
+    <string name="micloud_cloud_default_benefit_large_storage">Kibővített felhőalapú tárhely</string>
+    <string name="micloud_cloud_default_benefit_max_file_upload">Fájlok feltöltése %d GB-ig</string>
+    <string name="micloud_cloud_default_benefit_wechat_backup">Támogatja a WeChat biztonsági mentéseket</string>
+    <string name="micloud_cloud_default_benefit_wechat_migration">Csevegési előzmények mentése eszközváltáskor</string>
+    <string name="micloud_cloud_memberguide_default_title">Váljon taggá és oldjon fel több előnyt</string>
+    <string name="micloud_cloud_memberguide_default_title_normal">Xiaomi Cloud-tagsági előnyök</string>
+    <string name="micloud_cloud_memberguide_default_title_vip">Az Ön tagsági előnyei</string>
+    <string name="micloud_cloud_membership_default_subtitle">Váljon taggá és tegyen szert több felhőtárhelyre</string>
+    <string name="micloud_cloud_membership_default_subtitle_ThirdLevel">Újítsa meg tagságát, és élvezze az exkluzív előnyöket</string>
+    <string name="micloud_cloud_membership_default_subtitle_normal">További tárhelycsomagok és tagsági előnyök megtekintése</string>
+    <string name="micloud_cloud_membership_default_title">Ön még nem tag</string>
+    <string name="micloud_cloud_membership_default_title_normal">Xiaomi Cloud-tagság</string>
+    <string name="micloud_cloud_space_almost_full_tips">A felhőalapú tárhely majdnem megtelt. Az elemek biztonsági mentéséhez frissítsen.</string>
+    <string name="micloud_cloud_space_full_tips">A felhőalapú tárhely megtelt. Az elemek biztonsági mentéséhez frissítsen.</string>
+    <string name="micloud_cloudbackup_subtitle">Ez a %s</string>
     <string name="micloud_confusion_account_hint">Ezen a készüléken végrehajtott módosítások szinkronizálva lesznek az összes készülékén. A fiókja védelme érdekében a nem használt készülékein kapcsolja ki a szinkronizálást.</string>
     <string name="micloud_confusion_account_name">Fiók:</string>
     <string name="micloud_confusion_account_notify_text">Egy másik készülék épp módosítja Xiaomi Fiókját. Ellenőrizze fiókját most.</string>
@@ -503,8 +527,12 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="micloud_dspt_provision_china_no_sms">A Xiaomi Cloud segítségével szinkronizálhat fényképeket, névjegyeket, hívásnaplót, jegyzeteket és egyéb adatokat, megkeresheti a készülékét, és elemeket oszthat meg a barátaival. Az alkalmazásnak internetkapcsolatra van szüksége a normális működéshez. Az elemek szinkronizálásához mobil adatkapcsolatra és a WLAN bekapcsolására lehet szükség.</string>
     <string name="micloud_dspt_provision_china_no_sms_and_call">A Xiaomi Cloud segítségével szinkronizálhat fényképeket, névjegyeket, jegyzeteket, felvételeket és egyéb adatokat, megkeresheti a készülékét, és elemeket oszthat meg a barátaival. Az alkalmazásnak internetkapcsolatra van szüksége a normális működéshez. Az elemek szinkronizálásához mobil adatkapcsolatra és a WLAN bekapcsolására lehet szükség.</string>
     <string name="micloud_dspt_provision_no_call">A Xiaomi Cloud segítségével szinkronizálhat fényképeket, névjegyeket, üzeneteket, jegyzeteket, felvételeket és egyéb adatokat, megkeresheti a készülékét, és elemeket oszthat meg a barátaival. Az alkalmazásnak internetkapcsolatra van szüksége a normális működéshez. Az elemek szinkronizálásához mobil adatkapcsolatra és a Wi-Fi bekapcsolására lehet szükség.</string>
+    <string name="micloud_dspt_provision_no_call_v2">A Xiaomi Cloud segítségével szinkronizálhatja fényképeit, névjegyzékét, üzeneteit, jegyzeteit, felvételeit és egyéb adatokat, valamint megoszthatja azokat ismerőseivel. Az alkalmazás normál működéséhez internetkapcsolatra van szükség. Az elemek szinkronizálásához mobiladat-kapcsolatra és a WLAN bekapcsolására lehet szükség.</string>
     <string name="micloud_dspt_provision_no_sms">A Xiaomi Cloud segítségével szinkronizálhat fényképeket, névjegyeket, hívásnaplót, jegyzeteket, felvételeket és egyéb adatokat, megkeresheti a készülékét, és elemeket oszthat meg a barátaival. Az alkalmazásnak internetkapcsolatra van szüksége a normális működéshez. Az elemek szinkronizálásához mobil adatkapcsolatra és a Wi-Fi bekapcsolására lehet szükség.</string>
     <string name="micloud_dspt_provision_no_sms_and_call">A Xiaomi Cloud segítségével szinkronizálhat fényképeket, névjegyeket, jegyzeteket, felvételeket és egyéb adatokat, megkeresheti a készülékét, és elemeket oszthat meg a barátaival. Az alkalmazásnak internetkapcsolatra van szüksége a normális működéshez. Az elemek szinkronizálásához mobil adatkapcsolatra és a Wi-Fi bekapcsolására lehet szükség.</string>
+    <string name="micloud_dspt_provision_no_sms_and_call_v2">A Xiaomi Cloud segítségével szinkronizálhatja fényképeit, névjegyzékét, jegyzeteit, felvételeit és egyéb adatokat, valamint megoszthatja azokat ismerőseivel. Az alkalmazás normál működéséhez internetkapcsolatra van szükség. Az elemek szinkronizálásához mobiladat-kapcsolatra és a WLAN bekapcsolására lehet szükség.</string>
+    <string name="micloud_dspt_provision_no_sms_v2">A Xiaomi Cloud segítségével szinkronizálhatja fényképeit, névjegyzékét, hívásnaplóit, jegyzeteit és egyéb adatokat, valamint megoszthatja azokat ismerőseivel. Az alkalmazás normál működéséhez internetkapcsolatra van szükség. Az elemek szinkronizálásához mobiladat-kapcsolatra és a WLAN bekapcsolására lehet szükség.</string>
+    <string name="micloud_dspt_provision_v2">A Xiaomi Cloud segítségével szinkronizálhatja fényképeit, névjegyzékét, üzeneteit, hívásnaplóit, jegyzeteit és egyéb adatokat, valamint megoszthatja azokat ismerőseivel. Az alkalmazás normál működéséhez internetkapcsolatra van szükség. Az elemek szinkronizálásához mobiladat-kapcsolatra és a WLAN bekapcsolására lehet szükség.</string>
     <string name="micloud_find_device_close_alert_content">Ha kikapcsolja a Készülékkeresés funkciót, akkor nem tudja majd megkeresni a készüléket ezzel a funkcióval. Azok az emberek, akikkel megosztja a tartózkodási helyét, szintén nem kapnak majd frissítéseket az Ön tartózkodási helyéről.</string>
     <string name="micloud_find_device_close_alert_negtive">Mindenképp kapcsolja ki</string>
     <string name="micloud_find_device_close_alert_positive">Tartsa bekapcsolva</string>
@@ -592,6 +620,12 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="micloud_member_net_error_alert_title">Nem tud csatlakozni a hálózathoz</string>
     <string name="micloud_member_pay_miid_error_toast">Fiókhiba</string>
     <string name="micloud_member_pay_order_error_toast">Adathiba</string>
+    <string name="micloud_membership_benefit_recycle_bin">Törölt elemek hosszabb ideig történő visszaállítása</string>
+    <string name="micloud_membership_benefit_storage">Fényképek és videók mentése a kibővített tárhely segítségével</string>
+    <string name="micloud_membership_detail">Részletek</string>
+    <string name="micloud_membership_level_diamond">Ultra tagság</string>
+    <string name="micloud_membership_level_gold">Prémium tagság</string>
+    <string name="micloud_membership_level_platinum">Mega tagság</string>
     <string name="micloud_notif_content_battery_low">Akkumulátorszint túl alacsony.</string>
     <string name="micloud_notif_content_depend_wifi">A szinkronizáláshoz csatlakozzon Wi-Fi-hez.</string>
     <string name="micloud_notif_content_depend_wifi_china">A szinkronizáláshoz csatlakozzon WLAN-ra.</string>
@@ -623,8 +657,6 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="micloud_preference_cloud_space_share">Felhőtárhely megosztása</string>
     <string name="micloud_preference_cloud_sync_wlan_only">Szinkronizálás csak Wi-Fi-csatlakozás esetén</string>
     <string name="micloud_preference_cloud_sync_wlan_only_china">Szinkronizálás csak WLAN-csatlakozás esetén</string>
-    <string name="micloud_preference_extended_recovery_time">Meghosszabbított visszaállítási idő</string>
-    <string name="micloud_preference_family_sharing">Családi tárhely kezelése</string>
     <string name="micloud_preference_gallery_detail">%1$s, %2$s</string>
     <string name="micloud_preference_get_more_cloud_space">Szerezzen több felhőtárhelyet az időben történő mentésekhez</string>
     <string name="micloud_preference_idle_sync">Szinkronizálás inaktív állapotban</string>
@@ -632,6 +664,7 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="micloud_preference_last_sync_done_time">Utolsó szinkronizálás: %1$s %2$s</string>
     <string name="micloud_preference_last_sync_time">Utoljára szinkronizálva: %s</string>
     <string name="micloud_preference_last_sync_time_1">Legutóbbi szinkrnizálás</string>
+    <string name="micloud_preference_look_vip">Megtekintés</string>
     <string name="micloud_preference_manage_cloud_data">A Xiaomi Cloud-adatok kezelése</string>
     <string name="micloud_preference_manage_membership">Tagság kezelése</string>
     <string name="micloud_preference_max_storage">Akár %d TB tárhelyet használhat</string>
@@ -675,7 +708,6 @@ Másoknak is segíthet névtelenül a Xiaomi-készülékeik helymeghatározásá
     <string name="micloud_preference_view_cloud_shared_family">A családdal megosztott Felhőtagságok</string>
     <string name="micloud_preference_view_synced_contacts">Szinkronizált névjegyek megtekintése</string>
     <string name="micloud_preference_view_synced_sms">Szinkronizált üzenetek megtekintése</string>
-    <string name="micloud_preference_wechat_backup_1">WeChat-mentések</string>
     <string name="micloud_privacy_cloud_off">Szinkronizálás kikapcsolva</string>
     <string name="micloud_privacy_cloud_sync">Kapcsolja be a Xiaomi Cloud szolgáltatást</string>
     <string name="micloud_privacy_explanation">Engedély megadása a Xiaomi Cloud szolgáltatások bekapcsolásához</string>

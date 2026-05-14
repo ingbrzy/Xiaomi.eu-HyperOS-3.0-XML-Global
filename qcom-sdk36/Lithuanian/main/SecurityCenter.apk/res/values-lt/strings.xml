@@ -578,6 +578,7 @@ Palaikomas tiek grupiniuose, tiek individualiuose pokalbiuose"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Užrakinti programas kaskart, kai išeinate iš programos, ją uždarote arba perjungiate į kitą</string>
     <string name="applock_lock_mode_locked_summary">Nereikalauti patvirtinimo, kol įrenginys neužrakintas</string>
     <string name="applock_login_and_add_account">Prisijungti ir pridėti</string>
+    <string name="applock_mixed_input_password_hint_text">Įveskite slaptažodį</string>
     <string name="applock_mixtype_hidepwd_icon">Slėpti slaptažodį</string>
     <string name="applock_mixtype_showpwd_icon">Rodyti slaptažodį</string>
     <string name="applock_no_account_login">Nesate prisijungę prie „Xiaomi“ paskyros</string>
@@ -1017,8 +1018,6 @@ Tačiau kai kurios jūsų transakcijos dar neužbaigtos. Norėdami atsisakyti su
     <string name="button_to_setting">Parametrai</string>
     <string name="button_toll_correction">Kalibruoti balansą</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Pakeisti į kitą mėnesį</string>
-    <string name="calendar_date_picker_a11y_prev_month">Pakeisti į ankstesnį mėnesį</string>
     <string name="call_address">Blokuojamų vietų sąrašas</string>
     <string name="call_all_number_block">Blokuoti visus skambučius</string>
     <string name="call_and_contact">Skambučiai ir Kontaktai</string>
@@ -1994,7 +1993,7 @@ kai įjungtas išmanusis kadrų dažnis, žaidimų ir trečiųjų šalių kadrų
     <string name="game_toolbox_performance_config_custom_notice_new">Galite tinkinti super skiriamąją gebą ir išmanųjį kadrų dažnį, kad valdytumėte kadrų dažnį ir vaizdo kokybę. &lt;font color=%s>Faktinis kadrų dažnis rodomas našumo skydelyje.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Kai įjungtas kadrų dažnio prioritetas, tikras kadrų dažnis rodomas našumo skydelyje</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Kadrų dažnio prioritetas pagerina dažnį per išmanųjį kadrų dažnį. &lt;font color=%s>Aktualus kadrų dažnis rodomas našumo skydelyje.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Kai įjungtas vaizdo prioritetas, tikras kadrų dažnis rodomas našumo skydelyje</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Vaizdo prioritetas pagerina vaizdo kokybę per super skiriamąją gebą ir valdo kadrų dažnį per išmanųjį kadrų dažnį. &lt;font color=%s>Faktinis kadrų dažnis rodomas našumo skydelyje.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Ekrano ryškumas</string>
@@ -3067,6 +3066,7 @@ Jūsų įrenginys dabar %s greitesnis."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s kelia nežinomą saugumo riziką, kuri gali lemti asmens duomenų nutekėjimą ar finansinius nuostolius. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Jei nesutinkate su šiuo perspėjimu, bakstelėkite čia, kad pateiktumėte atsiliepimą.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Programos pavadinimas: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Jei nesutinkate su šiuo perspėjimu, bakstelėkite (click)čia(/click), kad pateiktumėte atsiliepimą.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paketo pavadinimas: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Išsamiai apibūdinkite problemą: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Programos parašas: %s</string>
@@ -4992,7 +4992,7 @@ Atšaukti sutikimą dabar?"</string>
     <string name="risk_app_install_agree_message">Ši trečiosios šalies sukurta programa gali būti pažeidžianti vietos įstatymus ir kitus teisės aktus. „Xiaomi“ negali užtikrinti šios programos tekiamo turinio ir paslaugų prieinamumo, tęstinumo ar pasiekiamumo. Bet kokia šios programos naudojimo metu patirta žala ar praradimai tenka jums.</string>
     <string name="risk_app_install_agree_title">Atsakomybės apribojimas</string>
     <string name="risk_app_install_auth_result">Jūs įgaliojote %1$s diegimą. Galite tęsti diegimą, kai bus aptiktas diegimo paketas.</string>
-    <string name="risk_app_install_empty_text">Čia dar nėra elementų</string>
+    <string name="risk_app_install_empty_text">Čia yra tuščia</string>
     <string name="risk_app_install_history">Įgaliojimų istorija</string>
     <string name="risk_app_install_item_des">Versija: %1$s</string>
     <string name="risk_app_install_manager">Galinčios kelti grėsmę programos</string>
@@ -6003,6 +6003,7 @@ Formatavimas ištrins visus ^2 esančius duomenis. Siekdami išvengti duomenų p
     <string name="toast_lockscreen_glogin_empty_password">Reikalingas slaptažodis</string>
     <string name="toast_network_eror">Nepavyko prisijungti prie tinklo</string>
     <string name="toast_network_switch">Ši programa gali prisijungti prie interneto</string>
+    <string name="toast_no_install_getapps">Įdiekite „GetApps“ ir pabandykite dar kartą</string>
     <string name="toast_reject_sms_read_permission_success">Nustatyta sėkmingai</string>
     <string name="toast_removed_from_virus_white_list">Pašalinta iš išimčių. Elementas bus patikrintas kitą kartą.</string>
     <string name="toast_root_apply_accept">%s suteiktos šakninės teisės</string>
@@ -6255,12 +6256,9 @@ Perkelti papildomi duomenys"</string>
     <string name="vb_video_effects_spatial_summary_new">Naudodamiesi ausinėmis patirkite sustiprintą palaikomo garso erdvės ir krypties pojūtį</string>
     <string name="vb_video_effects_srs_premium_sound">Garsas</string>
     <string name="vb_video_super_division">Skir. gebos didinimas</string>
-    <string name="vb_video_super_division_desc">"Automatiškai didinti skiriamąją gebą, kai ji yra ≤720P.
-
-Šios funkcijos naudojimas padidina energijos sąnaudas.
-
-Ši funkcija negali būti naudojama kartu su judesio glotninimu.
-Vienos iš šių funkcijų įjungimas automatiškai išjungs kitą."</string>
+    <string name="vb_video_super_division_desc">"Naudojant šią funkciją padidėja energijos suvartojimas.
+Ši funkcija neveikia su judesių glotninimu.
+Įjungus vieną iš funkcijų, kita išsijungs."</string>
     <string name="vb_video_super_division_tips">"Nepakanka ryškumo?
 Išbandykite skiriamosios raiškos didinimą!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Patobulinta animacija išjungta</string>

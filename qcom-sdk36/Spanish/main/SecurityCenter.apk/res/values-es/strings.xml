@@ -577,6 +577,7 @@ Compatible con chats grupales e individuales"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Bloquea las aplicaciones cada vez que salgas, abandones o cambies a otra aplicación</string>
     <string name="applock_lock_mode_locked_summary">No se requiere verificación hasta que el dispositivo esté bloqueado</string>
     <string name="applock_login_and_add_account">Iniciar sesión y añadir</string>
+    <string name="applock_mixed_input_password_hint_text">Introducir contraseña</string>
     <string name="applock_mixtype_hidepwd_icon">Ocultar contraseña</string>
     <string name="applock_mixtype_showpwd_icon">Mostrar contraseña</string>
     <string name="applock_no_account_login">No has iniciado sesión en tu Cuenta Xiaomi</string>
@@ -1016,8 +1017,6 @@ Sin embargo, algunas de tus transacciones aún no se han completado. Para poder 
     <string name="button_to_setting">Configuración</string>
     <string name="button_toll_correction">Calibrar saldo</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Cambiar al mes siguiente</string>
-    <string name="calendar_date_picker_a11y_prev_month">Cambiar al mes anterior</string>
     <string name="call_address">Lista negra de área</string>
     <string name="call_all_number_block">Bloquear todas las llamadas</string>
     <string name="call_and_contact">Llamadas y Contactos</string>
@@ -2198,7 +2197,7 @@ Cuando la Tasa de fotogramas inteligente está activada, es posible que las herr
     <string name="game_toolbox_performance_config_custom_notice_new">Puedes personalizar la Superresolución y la velocidad de fotogramas inteligente para administrar la velocidad de fotogramas y la calidad de imagen. &lt;font color=%s>La velocidad de fotogramas real se muestra en el panel de rendimiento.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Cuando la Prioridad de tasa de fotogramas está activada, la velocidad de fotogramas real es la que se muestra en el panel de rendimiento</string>
     <string name="game_toolbox_performance_config_frc_notice_new">La Prioridad de tasa de fotogramas mejora la velocidad de fotogramas mediante la Tasa de fotogramas inteligente. &lt;font color=%s>La tasa de fotogramas real se muestra en el panel de rendimiento.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Cuando la Prioridad de imagen está activada, la velocidad de fotogramas real es la que se muestra en el panel de rendimiento</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">La Prioridad de imagen mejora la calidad de la imagen mediante la superresolución y administra la velocidad de fotogramas mediante la velocidad de fotogramas inteligente. &lt;font color=%s>La velocidad de fotogramas real se muestra en el panel de rendimiento.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Brillo de pantalla</string>
@@ -3291,6 +3290,7 @@ Tu dispositivo ahora es un %s más rápido."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s presenta riesgos de seguridad desconocidos y podría provocar filtraciones de privacidad o pérdidas financieras. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Si no estás de acuerdo con esta alerta, toca aquí para enviar comentarios.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Nombre de la aplicación: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Si no estás de acuerdo con esta alerta, pulsa (click)aquí(click) para enviar comentarios.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Nombre del paquete: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Describe el problema en detalle: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Firma de la aplicación: %s</string>
@@ -6227,6 +6227,7 @@ El formateo eliminará el contenido existente en la ^2. Para evitar perder conte
     <string name="toast_lockscreen_glogin_empty_password">Contraseña requerida</string>
     <string name="toast_network_eror">No se pudo conectar a la red</string>
     <string name="toast_network_switch">Esta aplicación puede conectarse a internet</string>
+    <string name="toast_no_install_getapps">Instala GetApps y vuelve a intentarlo</string>
     <string name="toast_reject_sms_read_permission_success">Establecido con éxito</string>
     <string name="toast_removed_from_virus_white_list">Eliminado de excepciones. El elemento será analizado la próxima vez.</string>
     <string name="toast_root_apply_accept">Permiso raíz otorgado a %s</string>
@@ -6480,11 +6481,8 @@ Activar una desactivará la otra."</string>
     <string name="vb_video_effects_spatial_summary_new">Experimenta una mayor sensación de espacio y dirección para audio y vídeo compatibles usando auriculares</string>
     <string name="vb_video_effects_srs_premium_sound">Sonido</string>
     <string name="vb_video_super_division">Reescalar</string>
-    <string name="vb_video_super_division_desc">"Mejora la resolución automáticamente cuando sea ≤720P.
-
-El uso de esta función aumenta el consumo de energía.
-
-Esta función no funciona con el suavizado de movimiento.
+    <string name="vb_video_super_division_desc">"El uso de esta función aumenta el consumo de energía.
+Esta función no funciona con la suavización de movimiento.
 Activar una de las funciones desactivará la otra."</string>
     <string name="vb_video_super_division_tips">"¿No es lo suficientemente nítido?
 ¡Prueba a reescalar la resolución!"</string>
