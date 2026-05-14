@@ -577,6 +577,7 @@ Hem grup hem bireysel sohbetler için desteklenir"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Ne zaman ayrılır, çıkış yapar veya başka bir uygulamaya geçerseniz uygulamaları kilitleyin</string>
     <string name="applock_lock_mode_locked_summary">Cihaz kilitlenene kadar doğrulama gerektirmez</string>
     <string name="applock_login_and_add_account">Oturum aç &amp; ekle</string>
+    <string name="applock_mixed_input_password_hint_text">Şifre girin</string>
     <string name="applock_mixtype_hidepwd_icon">Şifreyi gizle</string>
     <string name="applock_mixtype_showpwd_icon">Şifreyi göster</string>
     <string name="applock_no_account_login">Xiaomi Hesabınızda oturum açmadınız</string>
@@ -1016,8 +1017,6 @@ Ancak bazı işlemleriniz henüz tamamlanmadı. İzni geri çekebilmek için sip
     <string name="button_to_setting">Ayarlar</string>
     <string name="button_toll_correction">Bakiyeyi kalibre et</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Sonraki aya değiştir</string>
-    <string name="calendar_date_picker_a11y_prev_month">Önceki aya değiştir</string>
     <string name="call_address">Engellenen alan listesi</string>
     <string name="call_all_number_block">Tüm aramaları engelle</string>
     <string name="call_and_contact">Aramalar ve Kişiler</string>
@@ -1992,7 +1991,7 @@ Akıllı çerçeve oranı açıkken oyun içi ve üçüncü taraf çerçeve oran
     <string name="game_toolbox_performance_config_custom_notice_new">Çerçeve oranını ve resim kalitesini yönetmek için Süper çözünürlük ve Akıllı çerçeve oranını özelleştirebilirsiniz. &lt;font color=%s>Gerçek çerçeve oranı performans panosunda gösterilir.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Çerçeve oranı önceliği açıkken gerçek çerçeve oranı performans panosunda görüntülendiği gibidir</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Çerçeve oranı önceliği Akıllı çerçeve oranı ile çerçeve oranını geliştirir. &lt;font color=%s>Gerçek çerçeve oranı performans panosunda gösterilir.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Resim önceliği açıkken gerçek çerçeve oranı performans panosunda görüntülendiği gibidir</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Resim önceliği Süper çözünürlük ile resim kalitesini arttırır ve Akıllı çerçeve oranı ile çerçeve oranını yönetir. &lt;font color=%s>Gerçek çerçeve oranı performans tablosunda gösterilir.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Ekran parlaklığı</string>
@@ -3064,6 +3063,7 @@ Cihazınız şimdi %s daha hızlı."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s bilinmeyen güvenlik riskleri barındırıyor ve gizlilik ihlallerine veya finansal kayıplara neden olabilir. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Bu uyarıya katılmıyorsanız geri bildirim göndermek için buraya dokunun.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Uygulama adı: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Bu uyarıya katılmıyorsanız geri bildirim göndermek için (click)buraya(/click) dokunun.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paket adı: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Sorunu ayrıntılı olarak açıklayın: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Uygulama imzası: %s</string>
@@ -6027,6 +6027,7 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="toast_lockscreen_glogin_empty_password">Şifre gerekmektedir</string>
     <string name="toast_network_eror">Ağa bağlanılamıyor</string>
     <string name="toast_network_switch">Bu uygulama internete bağlanabilir</string>
+    <string name="toast_no_install_getapps">"GetApps'i yükleyin ve tekrar deneyin"</string>
     <string name="toast_reject_sms_read_permission_success">Başarıyla ayarlandı</string>
     <string name="toast_removed_from_virus_white_list">İstisnalardan kaldırıldı. Öge bir sonraki tarama işleminde taranacaktır.</string>
     <string name="toast_root_apply_accept">%s uygulamasına root erişimi sağlandı</string>
@@ -6279,10 +6280,7 @@ Birini açıldığında diğeri kapanır."</string>
     <string name="vb_video_effects_spatial_summary_new">Kulaklığı kullanıyorken desteklenen ses ve video için gelişmiş alan ve yön duygusunu deneyimleyin</string>
     <string name="vb_video_effects_srs_premium_sound">Ses</string>
     <string name="vb_video_super_division">Arttır</string>
-    <string name="vb_video_super_division_desc">"≤720P olduğunda çözünürlük otomatik olarak artar.
-
-Bu özelliği kullanmak güç tüketimini arttırır.
-
+    <string name="vb_video_super_division_desc">"Bu özelliği kullanmak güç tüketimini arttırır.
 Bu özellik, hareket yumuşatma özelliği ile birlikte çalışmaz.
 Özelliklerden birini açmak diğerini kapatacaktır."</string>
     <string name="vb_video_super_division_tips">"Yeterince net değil mi?

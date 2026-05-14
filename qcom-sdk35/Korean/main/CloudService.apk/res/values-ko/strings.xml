@@ -285,7 +285,7 @@
     <string name="find_device_dspt_provision">기기를 분실하신 경우, &lt;font color=#0097FF>%s&lt;/font>에서 기기의 위치를 찾거나, 잠그거나, 초기화할 수 있습니다. 설정에서 언제든지 이 기능을 켜거나 끌 수 있습니다.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">기기 찾기 기능을 켜시려면 <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud 개인 정보 보호 정책</u></a>에 동의하세요. 개인 정보 보호 정책에 대한 동의 철회를 원하시는 경우, 해당 기능을 꺼주세요.</string>
+    <string name="find_device_gdpr_prompt">기기 찾기를 켜면 <a href="app://com.miui.cloudservice.gdpr.license"><u>Xiaomi Cloud 개인 정보 보호 정책</u></a>에 동의하는 것으로 간주됩니다. 개인 정보 보호 정책에 대한 동의를 철회하려면 이 기능을 끄세요.</string>
     <string name="find_device_operation_failure_rpc">RPC 오류로 작업을 실행할 수 없습니다.</string>
     <string name="find_device_permissions_footer">선택한 권한을 부여하시려면 \"권한 부여\"를 탭하세요</string>
     <string name="find_device_permissions_header">기기 찾기에 오신 것을 환영합니다! 이 앱으로 기기 분실 시에 위치 찾기, 기기 추적 및 기기 잠금 등을 하실 수 있습니다. 익명으로 다른 사람이 Xiaomi 기기를 찾는 데 도움을 줄 수도 있습니다. 이 앱이 정상적으로 작동하려면 다음 권한이 필요합니다:</string>
@@ -464,9 +464,33 @@
     <string name="mi_drive_title">Mi 드라이브</string>
     <string name="micloud_alert_dialog_positive">확인</string>
     <string name="micloud_all_sub_resend_common_sms_with_charge_hint">기기 찾기 및 Xiaomi Cloud 서비스 활성화를 위해, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>개의 &lt;font color=#0097FF>&lt;b>유료 SMS&lt;/b>&lt;/font>가 자동으로 전송될 것입니다.&lt;br/> SIM 카드를 교체하실 시, 재활성화를 위해 &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>개의 &lt;font color=#0097FF>&lt;b>유료 SMS&lt;/b>&lt;/font>가 자동으로 전송될 것입니다.&lt;br/>위에 언급된 모든 SMS 비용은 통신사에 의해 청구될 것입니다. Xiaomi는 이러한 메시지에 대한 요금을 귀하에게 청구하지 않습니다.</string>
+    <string name="micloud_all_sub_resend_common_sms_with_charge_hint_v2">Xiaomi Cloud 서비스 활성화를 위한 &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>유료 SMS&lt;/b>&lt;/font>가 자동으로 전송됩니다.&lt;br/>SIM 카드를 교체하면 재활성화를 위한 &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>유료 SMS&lt;/b>&lt;/font>가 자동으로 전송됩니다.&lt;br/>이 과정에서 발생하는 모든 SMS 요금은 사용자의 통신사에서 부과하며, Xiaomi는 해당 메시지에 대해 별도로 요금을 청구하지 않습니다.</string>
     <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint">기기 찾기 및 Xiaomi Cloud 서비스 활성화를 위해, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>개의 &lt;font color=#0097FF>&lt;b>국내 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송될 것입니다.&lt;br/> SIM 카드를 교체하실 시, 재활성화를 위해 &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>개의 &lt;font color=#0097FF>&lt;b>국내 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송될 것입니다.&lt;br/>위에 언급된 모든 SMS 비용은 통신사에 의해 청구될 것입니다. Xiaomi는 이러한 메시지에 대한 요금을 귀하에게 청구하지 않습니다.</string>
+    <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint_v2">Xiaomi Cloud 서비스 활성화를 위한 &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>국내 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송됩니다.&lt;br/>SIM 카드를 교체하면 재활성화를 위한 &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>국내 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송됩니다.&lt;br/>이 과정에서 발생하는 모든 SMS 요금은 사용자의 통신사에서 부과하며, Xiaomi는 해당 메시지에 대해 별도로 요금을 청구하지 않습니다.</string>
     <string name="micloud_all_sub_resend_inter_sms_with_charge_hint">기기 찾기 및 Xiaomi Cloud 서비스 활성화를 위해, &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>개의 &lt;font color=#0097FF>&lt;b>국제 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송될 것입니다.&lt;br/> SIM 카드를 교체하실 시, 재활성화를 위해 &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g>개의 &lt;font color=#0097FF>&lt;b>국제 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송될 것입니다.&lt;br/>위에 언급된 모든 SMS 비용은 통신사에 의해 청구될 것입니다. Xiaomi는 이러한 메시지에 대한 요금을 귀하에게 청구하지 않습니다.</string>
+    <string name="micloud_all_sub_resend_inter_sms_with_charge_hint_v2">Xiaomi Cloud 서비스 활성화를 위한 &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>국제 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송됩니다.&lt;br/>SIM 카드를 교체하면 재활성화를 위한 &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>국제 유료 SMS&lt;/b>&lt;/font>가 자동으로 전송됩니다.&lt;br/>이 과정에서 발생하는 모든 SMS 요금은 사용자의 통신사에서 부과하며, Xiaomi는 해당 메시지에 대해 별도로 요금을 청구하지 않습니다.</string>
     <string name="micloud_check_account_toast">Xiaomi Cloud 서비스는 데모 계정으로 사용할 수 없음</string>
+    <string name="micloud_cloud_default_benefit_auto_backup">자동 백업</string>
+    <string name="micloud_cloud_default_benefit_daily_backup">매일 자동 백업</string>
+    <string name="micloud_cloud_default_benefit_data_recovery">삭제된 항목 복구</string>
+    <string name="micloud_cloud_default_benefit_expand_to_2tb">최대 %d TB</string>
+    <string name="micloud_cloud_default_benefit_family_share">가족과 클라우드 저장소 공유</string>
+    <string name="micloud_cloud_default_benefit_large_file_upload">대용량 파일 업로드</string>
+    <string name="micloud_cloud_default_benefit_large_storage">확장된 클라우드 저장 공간</string>
+    <string name="micloud_cloud_default_benefit_max_file_upload">파일당 최대 %d GB까지 업로드</string>
+    <string name="micloud_cloud_default_benefit_wechat_backup">WeChat 백업 지원</string>
+    <string name="micloud_cloud_default_benefit_wechat_migration">기기 변경 시 채팅 기록 저장</string>
+    <string name="micloud_cloud_memberguide_default_title">멤버십에 가입하면 더 많은 혜택을 누릴 수 있습니다.</string>
+    <string name="micloud_cloud_memberguide_default_title_normal">Xiaomi Cloud 멤버십 혜택</string>
+    <string name="micloud_cloud_memberguide_default_title_vip">멤버십 혜택</string>
+    <string name="micloud_cloud_membership_default_subtitle">멤버십에 가입하면 더 많은 클라우드 저장 공간을 사용할 수 있습니다.</string>
+    <string name="micloud_cloud_membership_default_subtitle_ThirdLevel">멤버십을 갱신하면 더 많은 혜택을 누릴 수 있습니다.</string>
+    <string name="micloud_cloud_membership_default_subtitle_normal">저장 공간 요금제 및 멤버십 혜택 더 보기</string>
+    <string name="micloud_cloud_membership_default_title">아직 멤버십에 가입하지 않으셨습니다.</string>
+    <string name="micloud_cloud_membership_default_title_normal">Xiaomi Cloud 멤버십</string>
+    <string name="micloud_cloud_space_almost_full_tips">클라우드 저장소가 거의 다 찼습니다. 항목을 백업하려면 업그레이드하세요.</string>
+    <string name="micloud_cloud_space_full_tips">클라우드 저장소가 가득 찼습니다. 항목을 백업하려면 업그레이드하세요.</string>
+    <string name="micloud_cloudbackup_subtitle">이 %s</string>
     <string name="micloud_confusion_account_hint">이 기기를 다른 모든 장치들과 동기화되도록 변경했습니다. 귀하의 계정 보안을 위해서 사용하지않을때의 기기에 대해서는 동기화 해제를 추천합니다.</string>
     <string name="micloud_confusion_account_name">계정:</string>
     <string name="micloud_confusion_account_notify_text">다른 기기에서 귀하의 Xiaomi 계정를 수정 중입니다. 바로 계정을 확인해 주세요.</string>
@@ -503,8 +527,12 @@
     <string name="micloud_dspt_provision_china_no_sms">Xiaomi Cloud를 사용하여 사진, 연락처, 통화 기록, 메모 및 기타 데이터를 공유하고 기기의 위치를 찾고 항목을 친구와 공유하실 수 있습니다. 이 앱은 정상 작동을 위해 인터넷 연결이 요구됩니다. 항목 동기화 진행 과정 중 모바일 데이터 연결 또는 Wi-Fi 실행이 요구됩니다.</string>
     <string name="micloud_dspt_provision_china_no_sms_and_call">Xiaomi Cloud를 사용하여 사진, 연락처, 메모, 녹음 및 기타 데이터를 공유하고 기기의 위치를 찾고 항목을 친구와 공유하실 수 있습니다. 이 앱은 정상 작동을 위해 인터넷 연결이 요구됩니다. 항목 동기화 진행 과정 중 모바일 데이터 연결 또는 Wi-Fi 실행이 요구됩니다.</string>
     <string name="micloud_dspt_provision_no_call">Xiaomi Cloud를 사용하여 사진, 연락처, 메시지, 메모, 녹음 및 기타 데이터를 공유하고 기기의 위치를 찾고 항목을 친구와 공유하실 수 있습니다. 이 앱은 정상 작동을 위해 인터넷 연결이 요구됩니다. 항목 동기화 진행 과정 중 모바일 데이터 연결 또는 Wi-Fi 실행이 요구됩니다.</string>
+    <string name="micloud_dspt_provision_no_call_v2">Xiaomi Cloud를 사용하여 사진, 연락처, 메시지, 메모, 녹음 파일, 기타 데이터를 동기화하고 다양한 항목을 친구와 공유할 수 있습니다. 이 앱은 인터넷에 연결되어야 정상적으로 작동합니다. 항목을 동기화하려면 모바일 데이터 연결을 사용하거나 WLAN을 켜야 할 수 있습니다.</string>
     <string name="micloud_dspt_provision_no_sms">Xiaomi Cloud를 사용하여 사진, 연락처, 통화 기록, 메모, 녹음 및 기타 데이터를 공유하고 기기의 위치를 찾고 항목을 친구와 공유하실 수 있습니다. 이 앱은 정상 작동을 위해 인터넷 연결이 요구됩니다. 항목 동기화 진행 과정 중 모바일 데이터 연결 또는 Wi-Fi 실행이 요구됩니다.</string>
     <string name="micloud_dspt_provision_no_sms_and_call">Xiaomi Cloud를 사용하여 사진, 연락처, 메모, 녹음 및 기타 데이터를 공유하고 기기의 위치를 찾고 항목을 친구와 공유하실 수 있습니다. 이 앱은 정상 작동을 위해 인터넷 연결이 요구됩니다. 항목 동기화 진행 과정 중 모바일 데이터 연결 또는 Wi-Fi 실행이 요구됩니다.</string>
+    <string name="micloud_dspt_provision_no_sms_and_call_v2">Xiaomi Cloud를 사용하여 사진, 연락처, 메모, 녹음 파일, 기타 데이터를 동기화하고 다양한 항목을 친구와 공유할 수 있습니다. 이 앱은 인터넷에 연결되어야 정상적으로 작동합니다. 항목을 동기화하려면 모바일 데이터 연결을 사용하거나 WLAN을 켜야 할 수 있습니다.</string>
+    <string name="micloud_dspt_provision_no_sms_v2">Xiaomi Cloud를 사용하여 사진, 연락처, 통화 기록, 메모, 기타 데이터를 동기화하고 다양한 항목을 친구와 공유할 수 있습니다. 이 앱은 인터넷에 연결되어야 정상적으로 작동합니다. 항목을 동기화하려면 모바일 데이터 연결을 사용하거나 WLAN을 켜야 할 수 있습니다.</string>
+    <string name="micloud_dspt_provision_v2">Xiaomi Cloud를 사용하여 사진, 연락처, 메시지, 통화 기록, 메모, 기타 데이터를 동기화하고 다양한 항목을 친구와 공유할 수 있습니다. 이 앱은 인터넷에 연결되어야 정상적으로 작동합니다. 항목을 동기화하려면 모바일 데이터 연결을 사용하거나 WLAN을 켜야 할 수 있습니다.</string>
     <string name="micloud_find_device_close_alert_content">기기 찾기를 끄시면, 기기 분실 시에 위치를 찾지 못하게 됩니다. 귀하와 위치를 공유한 사람들이 갱신된 위치 정보를 얻을 수 없게 될 것입니다.</string>
     <string name="micloud_find_device_close_alert_negtive">그래도 끄기</string>
     <string name="micloud_find_device_close_alert_positive">끄지않기</string>
@@ -592,6 +620,12 @@
     <string name="micloud_member_net_error_alert_title">네트워크 연결 실패</string>
     <string name="micloud_member_pay_miid_error_toast">계정 오류</string>
     <string name="micloud_member_pay_order_error_toast">데이터 오류</string>
+    <string name="micloud_membership_benefit_recycle_bin">삭제된 항목 복구 기간 연장</string>
+    <string name="micloud_membership_benefit_storage">확장된 저장 공간에 사진과 동영상을 보관하세요</string>
+    <string name="micloud_membership_detail">세부 정보</string>
+    <string name="micloud_membership_level_diamond">다이아몬드 멤버십</string>
+    <string name="micloud_membership_level_gold">프리미엄 멤버십</string>
+    <string name="micloud_membership_level_platinum">플래티넘 멤버십</string>
     <string name="micloud_notif_content_battery_low">배터리가 너무 적습니다.</string>
     <string name="micloud_notif_content_depend_wifi">동기화를 위해 Wi-Fi에 연결합니다.</string>
     <string name="micloud_notif_content_depend_wifi_china">동기화를 위해 WLAN에 연결합니다.</string>
@@ -623,8 +657,6 @@
     <string name="micloud_preference_cloud_space_share">클라우드 저장소 공유</string>
     <string name="micloud_preference_cloud_sync_wlan_only">Wi-Fi에 연결되었을 때만 동기화</string>
     <string name="micloud_preference_cloud_sync_wlan_only_china">WLAN에 연결되었을 때만 동기화</string>
-    <string name="micloud_preference_extended_recovery_time">복구 기간 연장됨</string>
-    <string name="micloud_preference_family_sharing">가족 저장 공간 관리</string>
     <string name="micloud_preference_gallery_detail">%1$s, %2$s</string>
     <string name="micloud_preference_get_more_cloud_space">적시에 백업하기 위해 더 많은 클라우드 저장 공간 얻기</string>
     <string name="micloud_preference_idle_sync">유휴 상태 시 동기화</string>
@@ -632,6 +664,7 @@
     <string name="micloud_preference_last_sync_done_time">마지막 동기화: %1$s %2$s</string>
     <string name="micloud_preference_last_sync_time">최근 동기화: %s</string>
     <string name="micloud_preference_last_sync_time_1">가장 최근 동기화</string>
+    <string name="micloud_preference_look_vip">보기</string>
     <string name="micloud_preference_manage_cloud_data">클라우드 데이터 관리</string>
     <string name="micloud_preference_manage_membership">멤버십 관리</string>
     <string name="micloud_preference_max_storage">최대 %d TB의 저장 공간을 즐겨보세요</string>
@@ -675,7 +708,6 @@
     <string name="micloud_preference_view_cloud_shared_family">가족과 공유되는 클라우드 멤버십</string>
     <string name="micloud_preference_view_synced_contacts">동기화된 연락처 보기</string>
     <string name="micloud_preference_view_synced_sms">동기화된 메시지 보기</string>
-    <string name="micloud_preference_wechat_backup_1">WeChat 백업</string>
     <string name="micloud_privacy_cloud_off">동기화 꺼짐</string>
     <string name="micloud_privacy_cloud_sync">Xiaomi Cloud 서비스 켜기</string>
     <string name="micloud_privacy_explanation">Xiaomi Cloud 서비스를 켜기 위해 권한을 부여하세요</string>

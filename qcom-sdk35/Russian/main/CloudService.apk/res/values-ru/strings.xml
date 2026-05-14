@@ -285,7 +285,7 @@
     <string name="find_device_dspt_provision">При утере устройства вы можете перейти на &lt;font color=#0097FF>%s&lt;/font> для его поиска, блокировки или сброса. Включить или отключить эту функцию можно в Настройках.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
-    <string name="find_device_gdpr_prompt">Включая функцию «Найти устройство», вы соглашаетесь с <a href="app://com.miui.cloudservice.gdpr.license"><u>Политикой конфиденциальности Xiaomi Cloud</u></a>. Чтобы отозвать свое согласие с Политикой конфиденциальности, отключите эту функцию.</string>
+    <string name="find_device_gdpr_prompt">Включая функцию «Поиск устройства», вы соглашаетесь с <a href="app://com.miui.cloudservice.gdpr.license"><u>Политикой конфиденциальности Xiaomi Cloud</u></a>. Чтобы отозвать свое согласие с Политикой конфиденциальности, отключите эту функцию.</string>
     <string name="find_device_operation_failure_rpc">Не удалось выполнить операцию из-за ошибки RPC.</string>
     <string name="find_device_permissions_footer">Нажмите \"Предоставить\", чтобы предоставить выбранные разрешения.</string>
     <string name="find_device_permissions_header">Добро пожаловать в Поиск устройства! Вы можете использовать это приложение для поиска, отслеживания и блокировки вашего устройства после его потери. Вы также можете анонимно помочь другим людям найти их устройства Xiaomi. Для нормальной работы этому приложению требуются следующие разрешения:</string>
@@ -464,9 +464,33 @@
     <string name="mi_drive_title">Mi Drive</string>
     <string name="micloud_alert_dialog_positive">OK</string>
     <string name="micloud_all_sub_resend_common_sms_with_charge_hint">Для активации функции Поиск устройства и служб Xiaomi Cloud будет автоматически отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное SMS&lt;/b>&lt;/font>.&lt;br/>При смене SIM-карты для повторной активации этих служб также будет отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное SMS&lt;/b>&lt;/font>.&lt;br/>Все сборы за отправку SMS, связанные с вышеупомянутыми действиями, будут взиматься вашим оператором связи. Xiaomi не взимает плату за такие сообщения.</string>
+    <string name="micloud_all_sub_resend_common_sms_with_charge_hint_v2">Для активации Служб Xiaomi Cloud будет автоматически отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное SMS&lt;/b>&lt;/font>.&lt;br/>При смене SIM-карты для повторной активации этих служб также будет отправлено &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное SMS&lt;/b>&lt;/font>.&lt;br/>Все сборы за отправку SMS, связанные с вышеупомянутыми действиями, будут взиматься вашим оператором связи. Xiaomi не взимает плату за такие сообщения.</string>
     <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint">Для активации функции Поиск устройства и служб Xiaomi Cloud будет автоматически отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное внутреннее SMS&lt;/b>&lt;/font>.&lt;br/>При смене SIM-карты для повторной активации этих служб также будет отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное внутреннее SMS&lt;/b>&lt;/font>.&lt;br/>Все сборы за отправку SMS, связанные с вышеупомянутыми действиями, будут взиматься вашим оператором связи. Xiaomi не взимает плату за такие сообщения.</string>
+    <string name="micloud_all_sub_resend_domestic_sms_with_charge_hint_v2">Для активации служб Xiaomi Cloud будет автоматически отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное внутреннее SMS&lt;/b>&lt;/font>.&lt;br/>При смене SIM-карты для повторной активации этих служб также будет отправлено &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное внутреннее SMS&lt;/b>&lt;/font>.&lt;br/>Все сборы за отправку SMS, связанные с вышеупомянутыми действиями, будут взиматься вашим оператором связи. Xiaomi не взимает плату за такие сообщения.</string>
     <string name="micloud_all_sub_resend_inter_sms_with_charge_hint">Для активации функции Поиск устройства и служб Xiaomi Cloud будет автоматически отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное международное SMS&lt;/b>&lt;/font>.&lt;br/>При смене SIM-карты для повторной активации этих служб также будет отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное международное SMS&lt;/b>&lt;/font>.&lt;br/>Все сборы за отправку SMS, связанные с вышеупомянутыми действиями, будут взиматься вашим оператором связи. Xiaomi не взимает плату за такие сообщения.</string>
+    <string name="micloud_all_sub_resend_inter_sms_with_charge_hint_v2">Для активации функции Служб Xiaomi Cloud будет автоматически отправлено &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное международное SMS&lt;/b>&lt;/font>.&lt;br/>При смене SIM-карты для повторной активации этих служб также будет отправлено &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>платное международное SMS&lt;/b>&lt;/font>.&lt;br/>Все сборы за отправку SMS, связанные с вышеупомянутыми действиями, будут взиматься вашим оператором связи. Xiaomi не взимает плату за такие сообщения.</string>
     <string name="micloud_check_account_toast">Службы Xiaomi Cloud нельзя использовать с демо-аккаунтами</string>
+    <string name="micloud_cloud_default_benefit_auto_backup">Автоматическое резервное копирование</string>
+    <string name="micloud_cloud_default_benefit_daily_backup">Автоматически выполняйте резервное копирование каждый день</string>
+    <string name="micloud_cloud_default_benefit_data_recovery">Восстановить удаленные объекты</string>
+    <string name="micloud_cloud_default_benefit_expand_to_2tb">До %d ТБ</string>
+    <string name="micloud_cloud_default_benefit_family_share">Совместное использование облачного хранилища с членами семьи</string>
+    <string name="micloud_cloud_default_benefit_large_file_upload">Отправка больших файлов</string>
+    <string name="micloud_cloud_default_benefit_large_storage">Больше места в облачном хранилище</string>
+    <string name="micloud_cloud_default_benefit_max_file_upload">Загружайте файлы до %d ГБ каждый</string>
+    <string name="micloud_cloud_default_benefit_wechat_backup">Поддержка резервного копирования WeChat</string>
+    <string name="micloud_cloud_default_benefit_wechat_migration">Сохраняйте историю чатов при смене устройств</string>
+    <string name="micloud_cloud_memberguide_default_title">Подпишитесь, чтобы получить больше преимуществ</string>
+    <string name="micloud_cloud_memberguide_default_title_normal">Преимущества подписки на Xiaomi Cloud</string>
+    <string name="micloud_cloud_memberguide_default_title_vip">Преимущества вашей подписки</string>
+    <string name="micloud_cloud_membership_default_subtitle">Подпишитесь, чтобы получить больше места для облачного хранения</string>
+    <string name="micloud_cloud_membership_default_subtitle_ThirdLevel">Продлите подписку, чтобы наслаждаться эксклюзивными преимуществами</string>
+    <string name="micloud_cloud_membership_default_subtitle_normal">Посмотрите другие планы хранения и преимущества подписки</string>
+    <string name="micloud_cloud_membership_default_title">Вы еще не являетесь подписчиком</string>
+    <string name="micloud_cloud_membership_default_title_normal">Подписка Xiaomi Cloud</string>
+    <string name="micloud_cloud_space_almost_full_tips">Ваше облачное хранилище почти заполнено. Повысьте уровень подписки, чтобы создать резервную копию объектов.</string>
+    <string name="micloud_cloud_space_full_tips">Ваше облачное хранилище заполнено. Повысьте уровень подписки, чтобы создать резервную копию объектов.</string>
+    <string name="micloud_cloudbackup_subtitle">Эта %s</string>
     <string name="micloud_confusion_account_hint">Изменения на этом устройстве будут синхронизированы со всеми вашими устройствами. В целях защиты аккаунта рекомендуем отключить синхронизацию для других устройств, если вы их не используете.</string>
     <string name="micloud_confusion_account_name">Аккаунт:</string>
     <string name="micloud_confusion_account_notify_text">Другое устройство пытается изменить данные вашего аккаунта Xiaomi. Проверьте свой аккаунт.</string>
@@ -503,8 +527,12 @@
     <string name="micloud_dspt_provision_china_no_sms">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, журнала вызовов, заметок и других данных, а также для определения местоположения своего устройства и обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение WLAN.</string>
     <string name="micloud_dspt_provision_china_no_sms_and_call">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, заметок, записей диктофона и других данных, а также для определения местоположения своего устройства и обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение WLAN.</string>
     <string name="micloud_dspt_provision_no_call">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, сообщений, заметок, записей диктофона и других данных, а также для определения местоположения своего устройства и обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение Wi-Fi.</string>
+    <string name="micloud_dspt_provision_no_call_v2">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, сообщений, заметок, записей и других данных, а также для обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение WLAN.</string>
     <string name="micloud_dspt_provision_no_sms">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, журнала вызовов, заметок, записей диктофона и других данных, а также для определения местоположения своего устройства и обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение Wi-Fi.</string>
     <string name="micloud_dspt_provision_no_sms_and_call">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, заметок, записей диктофона и других данных, а также для определения местоположения своего устройства и обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение Wi-Fi.</string>
+    <string name="micloud_dspt_provision_no_sms_and_call_v2">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, заметок, записей и других данных, а также для обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение WLAN.</string>
+    <string name="micloud_dspt_provision_no_sms_v2">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, журнала вызовов, заметок и других данных, а также для обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение WLAN.</string>
+    <string name="micloud_dspt_provision_v2">Вы можете использовать Xiaomi Cloud для синхронизации фото, списка контактов, сообщений, журнала вызовов, заметок и других данных, а также для обмена файлами с друзьями. Для правильной работы этому приложению требуется подкючение к интернету. Для синхронизации данных может потребоваться мобильный интернет и включение WLAN.</string>
     <string name="micloud_find_device_close_alert_content">После отключения функции \"Поиск устройства\" вы не сможете определять местоположение своего устройства при помощи этой функции. Люди, с которыми вы делитесь своим местоположением, также не смогут получать информацию о том, где вы находитесь.</string>
     <string name="micloud_find_device_close_alert_negtive">Отключить</string>
     <string name="micloud_find_device_close_alert_positive">Не отключать</string>
@@ -592,6 +620,12 @@
     <string name="micloud_member_net_error_alert_title">Не удалось подключиться к сети</string>
     <string name="micloud_member_pay_miid_error_toast">Ошибка аккаунта</string>
     <string name="micloud_member_pay_order_error_toast">Ошибка данных</string>
+    <string name="micloud_membership_benefit_recycle_bin">Восстанавливайте удаленные объекты в течение более длительного периода</string>
+    <string name="micloud_membership_benefit_storage">Сохраняйте фото и видео благодаря расширенному пространству для хранения</string>
+    <string name="micloud_membership_detail">Подробности</string>
+    <string name="micloud_membership_level_diamond">Подписка Ультра</string>
+    <string name="micloud_membership_level_gold">Подписка Премиум</string>
+    <string name="micloud_membership_level_platinum">Подписка Мега</string>
     <string name="micloud_notif_content_battery_low">Батарея разряжена.</string>
     <string name="micloud_notif_content_depend_wifi">Подключитесь к Wi-Fi.</string>
     <string name="micloud_notif_content_depend_wifi_china">Подключитесь к WLAN для синхронизации.</string>
@@ -623,8 +657,6 @@
     <string name="micloud_preference_cloud_space_share">Поделиться облачным хранилищем</string>
     <string name="micloud_preference_cloud_sync_wlan_only">Только по Wi-Fi: синхронизировать все данные только по сети Wi-Fi.</string>
     <string name="micloud_preference_cloud_sync_wlan_only_china">Синхронизировать только при подключении к WLAN</string>
-    <string name="micloud_preference_extended_recovery_time">Увеличенное время восстановления</string>
-    <string name="micloud_preference_family_sharing">Управление семейным хранилищем</string>
     <string name="micloud_preference_gallery_detail">%1$s, %2$s</string>
     <string name="micloud_preference_get_more_cloud_space">Получите больше места в облачном хранилище для своевременного резервного копирования</string>
     <string name="micloud_preference_idle_sync">Синхронизировать при простое</string>
@@ -632,6 +664,7 @@
     <string name="micloud_preference_last_sync_done_time">Последняя синхронизация: %1$s %2$s</string>
     <string name="micloud_preference_last_sync_time">Синхронизировано: %s</string>
     <string name="micloud_preference_last_sync_time_1">Последняя синхронизация</string>
+    <string name="micloud_preference_look_vip">Просмотр</string>
     <string name="micloud_preference_manage_cloud_data">Управление данными</string>
     <string name="micloud_preference_manage_membership">Управление подпиской</string>
     <string name="micloud_preference_max_storage">Получите до %d ТБ места для хранения</string>
@@ -675,7 +708,6 @@
     <string name="micloud_preference_view_cloud_shared_family">Подписки на облако, используемые совместно с семьей</string>
     <string name="micloud_preference_view_synced_contacts">Просмотр синхронизированных контактов</string>
     <string name="micloud_preference_view_synced_sms">Просмотр синхронизированных сообщений</string>
-    <string name="micloud_preference_wechat_backup_1">Копии WeChat</string>
     <string name="micloud_privacy_cloud_off">Синхронизация отключена</string>
     <string name="micloud_privacy_cloud_sync">Включить сервисы Xiaomi Cloud</string>
     <string name="micloud_privacy_explanation">Предоставьте разрешение для включения сервисов Xiaomi Cloud</string>

@@ -577,6 +577,7 @@
     <string name="applock_lock_mode_locked_or_exit_summary">Заключвай приложенията, когато излизаш от тях или превключваш към друго</string>
     <string name="applock_lock_mode_locked_summary">Не изисквай проверка докато у-то е заключено</string>
     <string name="applock_login_and_add_account">Вписване и добавяне</string>
+    <string name="applock_mixed_input_password_hint_text">Въведете парола</string>
     <string name="applock_mixtype_hidepwd_icon">Скриване на паролата</string>
     <string name="applock_mixtype_showpwd_icon">Показване на паролата</string>
     <string name="applock_no_account_login">Не сте вписани във Вашия Xiaomi Профил</string>
@@ -1016,8 +1017,6 @@
     <string name="button_to_setting">Настройки</string>
     <string name="button_toll_correction">Калибрирай баланса</string>
     <string name="byteShort">Б</string>
-    <string name="calendar_date_picker_a11y_next_month">Преминаване към следващия месец</string>
-    <string name="calendar_date_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="call_address">Списък с блокирани по място</string>
     <string name="call_all_number_block">Блокирай всички повиквания</string>
     <string name="call_and_contact">Обаждания и Контакти</string>
@@ -1992,7 +1991,7 @@
     <string name="game_toolbox_performance_config_custom_notice_new">Можете да персонализирате „Супер резолюция“ и „Интелигентна скорост на кадрите“, за да управлявате честотата на кадрите и качеството на картината. &lt;font color=%s>Действителната честота на кадрите е показана на таблото за управление на производителността.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Когато е включен приоритетът за честота на кадрите, действителната честота на кадрите е показана на таблото за управление на производителността</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Приоритетът върху честотата на кадрите подобрява честотата на кадрите чрез интелигентната скорост на кадрите. &lt;font color=%s>Действителната честота на кадрите е показана на таблото за управление на производителността.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Когато е включен приоритетът за картина, действителната честота на кадрите е показана на таблото за управление на производителността</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Приоритетът върху картината подобрява качеството на картината чрез супер резолюция и управлява честотата на кадрите чрез интелигентната скорост на кадрите. &lt;font color=%s>Действителната честота на кадрите е показана на таблото за управление на производителността.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Яркост на екрана</string>
@@ -3065,6 +3064,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s представлява неизвестни рискове за сигурността и може да доведе до изтичане на поверителност или финансови загуби. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Ако не сте съгласни с този сигнал, докоснете тук, за да изпратите обратна връзка.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Име на приложение: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s При несъгласие с този сигнал докосни (click)тук(/click) за изпращане на отзив.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Име на пакета: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Опишете проблема в детайли: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Подпис на приложението: %s</string>
@@ -4656,7 +4656,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_flares_recent_detail_mic_loc">Това приложение използва микрофона и получи достъп до Вашето местоположение</string>
     <string name="privacy_flares_recent_detail_more">Това приложение използва чувствително разрешение</string>
     <string name="privacy_global_guide_permission_guide_text">Ще получавате предупреждение в статус лентата когато приложение запише аудио или използва камерата. За да научите кое приложение извършва това действие натиснете предупреждението.</string>
-    <string name="privacy_guide_permission_guide_text">Можете да получавате известия в статус лентата когато приложения получат достъп до вашето местоположение, запишат аудио или направят снимки.</string>
+    <string name="privacy_guide_permission_guide_text">Можете да получавате известия в статус лентата когато приложения получат достъп до Вашето местоположение, запишат аудио или направят снимки.</string>
     <string name="privacy_hide_other_permissions">Скриване на други разрешения</string>
     <string name="privacy_hybrid_password_long">Въведи до %d символа</string>
     <string name="privacy_hybrid_password_too_short">Въведи мин. %d символа</string>
@@ -6000,6 +6000,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="toast_lockscreen_glogin_empty_password">Изисква се парола</string>
     <string name="toast_network_eror">Няма връзка с мрежата</string>
     <string name="toast_network_switch">Разрешено</string>
+    <string name="toast_no_install_getapps">Инсталирай GetApps и опитай отново</string>
     <string name="toast_reject_sms_read_permission_success">Настроено успешно</string>
     <string name="toast_removed_from_virus_white_list">Преместено от Изключенията. Елемента ще бъде сканиран следващият път.</string>
     <string name="toast_root_apply_accept">%s има ROOT достъп</string>
@@ -6252,10 +6253,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_effects_spatial_summary_new">Насладете се на потапяне и усещане за пространство и посока за поддържано аудио когато използвате слушалки</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>
     <string name="vb_video_super_division">Увеличаване</string>
-    <string name="vb_video_super_division_desc">"Автоматично увеличаване на резолюцията когато е ≤720P.
-
-Тази функция увеличава консумацията на енергия.
-
+    <string name="vb_video_super_division_desc">"Използването на тази функция увеличава консумацията на енергия.
 Тази функция не работи с изглаждане на движенията.
 Включването на една от двете функции ще изключи другата."</string>
     <string name="vb_video_super_division_tips">"Не е достатъчно ясно?

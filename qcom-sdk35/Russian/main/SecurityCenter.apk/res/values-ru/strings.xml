@@ -577,6 +577,7 @@
     <string name="applock_lock_mode_locked_or_exit_summary">Блокируйте приложения, когда вы выходите из них или переключаетесь на другое приложение</string>
     <string name="applock_lock_mode_locked_summary">Не требовать верификацию, пока устройство не заблокировано</string>
     <string name="applock_login_and_add_account">Войти и привязать</string>
+    <string name="applock_mixed_input_password_hint_text">Введите пароль</string>
     <string name="applock_mixtype_hidepwd_icon">Скрыть пароль</string>
     <string name="applock_mixtype_showpwd_icon">Показать пароль</string>
     <string name="applock_no_account_login">Вы не выполнили вход в аккаунт Xiaomi</string>
@@ -1016,8 +1017,6 @@
     <string name="button_to_setting">Настройки</string>
     <string name="button_toll_correction">Калибровать баланс</string>
     <string name="byteShort">Б</string>
-    <string name="calendar_date_picker_a11y_next_month">Перейти к следующему месяцу</string>
-    <string name="calendar_date_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
     <string name="call_address">Регионы</string>
     <string name="call_all_number_block">Блокировать все вызовы</string>
     <string name="call_and_contact">Контакты и вызовы</string>
@@ -1992,7 +1991,7 @@
     <string name="game_toolbox_performance_config_custom_notice_new">Вы можете настроить Суперразрешение и Интеллектуальную частоту обновления для управления частотой обновления и качеством изображения.&lt;font color=%s>Фактическая частота обновления отображается на панели производительности.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Если включен приоритет частоты обновления, фактическая частота обновления соответствует частоте, отображаемой на панели производительности</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Приоритет частоты обновления улучшает ее с помощью функции «Интеллектуальная частота обновления». &lt;font color=%s>Фактическая частота обновления показана на панели производительности.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Если включен приоритет изображения, фактическая частота обновления соответствует частоте, отображаемой на панели производительности.</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Приоритет изображения улучшает качество изображения с помощью Суперразрешения и управляет частотой обновления с помощью функции «Интеллектуальная частота обновления». &lt;font color=%s>Фактическая частота обновления отображается на панели производительности.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Яркость экрана</string>
@@ -3065,6 +3064,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s влечет неизвестные риски безопасности и может привести к утечке конфиденциальной информации или финансовым потерям. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Если вы не согласны с этим предупреждением, нажмите здесь, чтобы отправить отчет.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Имя приложения: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Если вы не согласны с этим предупреждением, нажмите (click)здесь(/click), чтобы отправить отчет.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Имя пакета: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Подробно опишите проблему: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Подпись приложения: %s</string>
@@ -6000,6 +6000,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="toast_lockscreen_glogin_empty_password">Введите пароль</string>
     <string name="toast_network_eror">Не удалось подключиться к сети</string>
     <string name="toast_network_switch">Приложение может подключаться к интернету</string>
+    <string name="toast_no_install_getapps">Установите GetApps и повторите попытку</string>
     <string name="toast_reject_sms_read_permission_success">Настройка завершена</string>
     <string name="toast_removed_from_virus_white_list">Удалено из исключений. Объект будет проверен в следующий раз.</string>
     <string name="toast_root_apply_accept">Приложению \"%s\" предоставлен ROOT доступ</string>
@@ -6252,12 +6253,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="vb_video_effects_spatial_summary_new">Улучшенный эффект ощущения пространства и направления для совместимых аудио и видео при использовании наушников.</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>
     <string name="vb_video_super_division">Масштабирование изображения</string>
-    <string name="vb_video_super_division_desc">"Автоматически масштабировать изображение, когда разрешение равно 720p и ниже.
-
-Использование этой функции увеличивает энергопотребление.
-
-Эта функция не работает вместе со «Сглаживанием движения».
-Включение одной из функций отключит другую."</string>
+    <string name="vb_video_super_division_desc">"Использование этой функции увеличивает энергопотребление.
+Эта функция не работает с функцией сглаживания движения.
+Включение одной из функций выключит другую."</string>
     <string name="vb_video_super_division_tips">"Недостаточно понятно?
 Попробуйте увеличить разрешение!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Улучшенная анимация откл.</string>

@@ -577,6 +577,7 @@ Tuettu sekä ryhmä- että yksityiskeskusteluissa"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Lukitse sovellukset aina, kun poistut, suljet ne tai vaihdat toiseen sovellukseen</string>
     <string name="applock_lock_mode_locked_summary">Älä vaadi vahvistusta ennen kuin laite on lukittu</string>
     <string name="applock_login_and_add_account">Kirjaudu ja lisää</string>
+    <string name="applock_mixed_input_password_hint_text">Syötä salasana</string>
     <string name="applock_mixtype_hidepwd_icon">Piilota salasana</string>
     <string name="applock_mixtype_showpwd_icon">Näytä salasana</string>
     <string name="applock_no_account_login">Et ole kirjautunut Xiaomi-tilillesi</string>
@@ -1016,8 +1017,6 @@ Jotkin tapahtumistasi eivät kuitenkaan ole vielä suoritettuja. Jos haluat peru
     <string name="button_to_setting">Asetukset</string>
     <string name="button_toll_correction">Kalibroi saldo</string>
     <string name="byteShort">t</string>
-    <string name="calendar_date_picker_a11y_next_month">Vaihda seuraavaan kuukauteen</string>
-    <string name="calendar_date_picker_a11y_prev_month">Vaihda edelliseen kuukauteen</string>
     <string name="call_address">Alueellinen estolista</string>
     <string name="call_all_number_block">Estä kaikki puhelut</string>
     <string name="call_and_contact">Puhelut ja yhteystiedot</string>
@@ -1992,7 +1991,7 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="game_toolbox_performance_config_custom_notice_new">Voit mukauttaa superresoluution ja älykkään kuvataajuuden hallitaksesi kuvataajuutta ja kuvanlaatua. &lt;font color=%s>Todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.&lt;/font>.</string>
     <string name="game_toolbox_performance_config_frc_notice">Kun kuvataajuuden prioriteetti on käytössä, todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Kuvataajuuden prioriteettu parantaa kuvataajuutta älykkään kuvataajuuden avulla. &lt;font color=%s>Todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Kun kuvaprioriteetti on käytössä, todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Kuvaprioriteetti parantaa kuvanlaatua superresoluution avulla ja hallitsee kuvataajuutta älykkään kuvataajuuden kautta. &lt;font color=%s>Todellinen kuvataajuus näkyy suorituskyvyn koontinäytöllä.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Näytön kirkkaus</string>
@@ -3065,6 +3064,7 @@ Laitteesi on %s nopeampi nyt."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s aiheuttaa tuntemattomia tietoturvariskejä ja voi johtaa tietosuojavuotoihin tai taloudellisiin menetyksiin. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Jos et hyväksy tätä ilmoitusta, lähetä palautetta napauttamalla tätä.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Sovelluksen nimi: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Jos et hyväksy tätä ilmoitusta, lähetä palautetta napauttamalla (click)tätä(/click).</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Paketin nimi: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Kuvaile ongelmaa yksityiskohtaisesti: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Sovelluksen allekirjoitus: %s</string>
@@ -6000,6 +6000,7 @@ Alustaminen poistaa nykyisen sisällön kohteesta ^2. Sisällön menettämisen v
     <string name="toast_lockscreen_glogin_empty_password">Salasana vaaditaan</string>
     <string name="toast_network_eror">Ei voi yhdistää verkkoon</string>
     <string name="toast_network_switch">Tämä sovellus voi yhdistää internettiin</string>
+    <string name="toast_no_install_getapps">Asenna GetApps ja yritä uudelleen</string>
     <string name="toast_reject_sms_read_permission_success">Asetettu onnistuneesti</string>
     <string name="toast_removed_from_virus_white_list">Poistettiin poikkeuksista. Kohde skannataan seuraavalla kerralla.</string>
     <string name="toast_root_apply_accept">Pääkäyttäjän oikeus sallittiin sovellukselle %s</string>
@@ -6252,10 +6253,7 @@ Yhden päälle kytkeminen sammuttaa toisen."</string>
     <string name="vb_video_effects_spatial_summary_new">Koe parannettu tilan ja suunnan tunne tuetulle äänelle, kun käytät kuulokkeita</string>
     <string name="vb_video_effects_srs_premium_sound">Ääni</string>
     <string name="vb_video_super_division">Korota</string>
-    <string name="vb_video_super_division_desc">"Kohenna resoluutiota automaattisesti, kun se on ≤720P.
-
-Tämän ominaisuuden käyttö lisää virrankulutusta.
-
+    <string name="vb_video_super_division_desc">"Tämän ominaisuuden käyttö lisää virrankulutusta.
 Tämä ominaisuus ei toimi liikkeen pehmennyksen kanssa.
 Yhden ominaisuuden kytkeminen päälle poistaa toisen käytöstä."</string>
     <string name="vb_video_super_division_tips">"Ei tarpeeksi selkeä?

@@ -577,6 +577,7 @@ Støttes for både gruppechat og individuelle chatter"</string>
     <string name="applock_lock_mode_locked_or_exit_summary">Lås apper når du avslutter, logger ut eller bytter til en annen app</string>
     <string name="applock_lock_mode_locked_summary">Ikke krev bekreftelse før enheten er låst</string>
     <string name="applock_login_and_add_account">Logg inn og legg til</string>
+    <string name="applock_mixed_input_password_hint_text">Skriv inn passord</string>
     <string name="applock_mixtype_hidepwd_icon">Skjul passord</string>
     <string name="applock_mixtype_showpwd_icon">Vis passord</string>
     <string name="applock_no_account_login">Du er ikke logget på Mi-kontoen din</string>
@@ -1016,8 +1017,6 @@ Men noen av transaksjonene dine er enda ikke fullført. For å kunne tilbakekall
     <string name="button_to_setting">Innstillinger</string>
     <string name="button_toll_correction">Kalibrer saldo</string>
     <string name="byteShort">B</string>
-    <string name="calendar_date_picker_a11y_next_month">Endre til neste måned</string>
-    <string name="calendar_date_picker_a11y_prev_month">Endre til forrige måned</string>
     <string name="call_address">Område-blokkeringsliste</string>
     <string name="call_all_number_block">Blokker alle anrop</string>
     <string name="call_and_contact">Samtaler og kontakter</string>
@@ -1992,7 +1991,7 @@ Når Smart bildefrekvens er aktivert, vil oppdagingsverktøyene for bildefrekven
     <string name="game_toolbox_performance_config_custom_notice_new">Du kan tilpasse Super oppløsning og Smart bildefrekvens for å administrere bildefrekvens og bildekvalitet. &lt;font color=%s>Faktisk bildefrekvens vises på ytelsespanelet.&lt;/font></string>
     <string name="game_toolbox_performance_config_frc_notice">Når bildefrekvensprioritet er aktivert, vises den faktiske bildefrekvensen som på ytelsespanelet</string>
     <string name="game_toolbox_performance_config_frc_notice_new">Bildefrekvensprioritet gir bedre bildefrekvens via Smart bildefrekvens. &lt;font color=%s>Den faktiske bildefrekvensen vises på ytelsespanelet.&lt;/font></string>
-    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#A09A97</string>
+    <string name="game_toolbox_performance_config_notice_highlight_color_hex">#80FFFFFF</string>
     <string name="game_toolbox_performance_config_resolution_notice">Når bildeprioritet er aktivert, vises den faktiske bildefrekvensen som på ytelsespanelet</string>
     <string name="game_toolbox_performance_config_resolution_notice_new">Bildeprioirtet gir bedre bildekvalitet via Super oppløsning og administrerer bildefrekvensen via Smart bildefrekvens. &lt;font color=%s>Den faktiske bildefrekvensen vises på ytelsespanelet.&lt;/font></string>
     <string name="game_toolbox_screen_brightness_talkback">Skjermlysstyrke</string>
@@ -3065,6 +3064,7 @@ Enheten din er %s raskere nå."</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_default_msg">"%s utgjør ukjente sikkerhetsrisikoer og kan medføre personvernlekkasjer eller økonomisk tap. "</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback">Hvis du er uenig i dette varselet, kan du trykke her for å sende tilbakemelding.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_name">Appnavn: %s</string>
+    <string name="menu_item_virus_risky_app_detect_risky_app_feedback_new">%s Hvis du er uenig i dette varselet, kan du trykke (click)her(/click) for å sende tilbakemelding.</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_packagename">Pakkenavn: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_problem">Beskriv problemet i detalj: %s</string>
     <string name="menu_item_virus_risky_app_detect_risky_app_feedback_sign">Appsignatur: %s</string>
@@ -6000,6 +6000,7 @@ Formatering vil slette alt eksisterende innhold på ^2. For å unngå å miste i
     <string name="toast_lockscreen_glogin_empty_password">Passord påkrevd</string>
     <string name="toast_network_eror">Kan ikke koble til nettverket</string>
     <string name="toast_network_switch">Denne appen kan koble seg til internett</string>
+    <string name="toast_no_install_getapps">Installer GetApps og prøv igjen</string>
     <string name="toast_reject_sms_read_permission_success">Vellykket</string>
     <string name="toast_removed_from_virus_white_list">Fjern fra unntak. Enheten vil bli skannet neste gang.</string>
     <string name="toast_root_apply_accept">Rottilgang gitt til %s</string>
@@ -6252,10 +6253,7 @@ Når du aktiverer én, deaktiveres den andre."</string>
     <string name="vb_video_effects_spatial_summary_new">Opplev en forbedret følelse av rom og retning for støttet lyd når du bruker hodetelefoner</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>
     <string name="vb_video_super_division">Oppskaler</string>
-    <string name="vb_video_super_division_desc">"Oppskaler oppløsningen automatisk når den er ≤ 720P.
-
-Bruk av denne funksjonen øker strømforbruket.
-
+    <string name="vb_video_super_division_desc">"Bruk av denne funksjonen øker strømforbruket.
 Denne funksjonen fungerer ikke med bevegelsesutjevning.
 Hvis du aktiverer én av funksjonene, deaktiveres de andre."</string>
     <string name="vb_video_super_division_tips">"Er det ikke klart nok?
