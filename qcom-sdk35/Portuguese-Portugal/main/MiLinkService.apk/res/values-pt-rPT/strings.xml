@@ -49,11 +49,13 @@
     <string name="app_casting">Transmissão de aplicações</string>
     <string name="app_name">Transmissão</string>
     <string name="app_name_call">Telefone</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Mensagens</string>
     <string name="app_name_vtcamera">Câmara entre dispositivos</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -713,7 +715,7 @@ Ligueo Wi-Fi e o Bluetooth antes de usar."</string>
     <string name="connect_settings_summary_share_notification_pad_v2">Mostrar notificações de telemóveis próximos ligados à sua Conta Xiaomi neste dispositivo</string>
     <string name="connect_settings_summary_share_notification_phone">Mostrar notificações em tablets ou computadores por perto em uso quando este dispositivo estiver bloqueado</string>
     <string name="connect_settings_summary_share_notification_phone_v2">Mostre notificações importantes do seu telemóvel na TV, no tablet e no computador</string>
-    <string name="connect_settings_summary_v2_china"><Data>Descubra automaticamente dispositivos próximos ligados à sua Conta Xiaomi e ligue-os uns aos outros para executar uma variedade de tarefas em vários dispositivos. &lt;br>Ligue o Wi-Fi e o Bluetooth antes de usar. &lt;a href=%1$s>Saiba mais&lt;/a></Data></string>
+    <string name="connect_settings_summary_v2_china"><Data>Descubra automaticamente dispositivos próximos ligados à sua Conta Xiaomi e ligue-os uns aos outros para executar uma variedade de tarefas em vários dispositivos. &lt;br>Ligue o WLAN e o Bluetooth antes de usar. &lt;a href=%1$s>Saiba mais&lt;/a></Data></string>
     <string name="connect_settings_user_agreement">Contrato do Utilizador</string>
     <string name="connect_settings_withdraw_consent">Retirada de consentimento</string>
     <string name="connection_failed">Não foi possível ligar à câmara</string>
@@ -787,11 +789,8 @@ Consulte a ajuda caso tenha problemas com a ligação."</string>
     <string name="dialog_recent_connected">Recente</string>
     <string name="dialog_remote_authorization">Conceda permissões no %1$s</string>
     <string name="dialog_remote_authorization_content">Conceda permissões de notificação à Interligação no seu %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Permitir notificações de %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s foi desinstalado anteriormente do seu %1$s. Não é possível receber notificações de aplicações neste dispositivo. Altere as suas definições e tente novamente.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Algumas aplicações foram desinstaladas anteriormente do seu %1$s e não receberá as notificações delas neste dispositivo. Configure novamente a sincronização de notificações.</string>
     <string name="dialog_reset_app_subscribe_multi">Alterar definições de notificação</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s e %3$s foram desinstaladas anteriormente do seu %1$s. Não é possível receber notificações de aplicações neste dispositivo. Altere as suas definições e tente novamente.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s, e %4$s foram desinstalados anteriormente do seu %1$s. Não é possível receber notificações de aplicações neste dispositivo. Altere as suas definições e tente novamente.</string>
     <string name="dialog_retry">Tentar novamente</string>
     <string name="dialog_scan_message">"%1$d. Conecte tanto o seu dispositivo móvel quanto a TV na mesma rede Wi-Fi.
 
@@ -1280,14 +1279,16 @@ Observação: Receberá um alerta de rotina do sistema quando ligar as funcional
     <string name="notification_cast_desc">A transmitir…</string>
     <string name="notification_channel_description">Selecione os tipos de notificações a sincronizar de outro dispositivo para o seu dispositivo Xiaomi</string>
     <string name="notification_channel_subtitle_ref_call">Chamada do iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Chamada do %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Mensagem do Lark do %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Chamada recebida no %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Notificação do DingTalk no %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Notificação do Lark no %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">Mensagem do QQ no iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Mensagem do QQ do %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Notificação do QQ no %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Mensagem do iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Mensagem do %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS no %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Notificação do WeCom no %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">Mensagem do WeChat no iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Mensagem do WeChat do %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Notificação do WeChat no %1$s</string>
     <string name="notification_channel_title_name">Notificações sincronizadas ao dispositivo Xiaomi</string>
     <string name="notification_desc_scanning">A procurar dispositivos por perto…</string>
     <string name="notification_incoming_call_to_reply">Chamada recebida. Atenda no %1$s.</string>
@@ -1609,6 +1610,7 @@ Leia e aceite o nosso &lt;a href=%1$s>Contrato do Utilizador&lt;/a> e a &lt;a hr
     <string name="screen_projection">Transmitir</string>
     <string name="screen_projection_characteristics">Funcionalidades especiais</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Pode alterar para a Transmissão de aplicação na Xiaomi HyperIsland para transmitir a aplicação atual para um monitor externo enquanto utiliza outras aplicações no seu telemóvel</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Pode alterar para a Transmissão de aplicação na Xiaomi HyperIsland para transmitir a aplicação atual para um monitor externo enquanto utiliza outras aplicações no seu tablet</string>
     <string name="screen_projection_characteristics_cast_summary">Transmitir o conteúdo do ecrã para uma TV próxima</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Desliga o ecrã do dispositivo móvel durante a transmissão para poupar bateria e evitar super aquecimento</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Desligue o ecrã durante transmissões para reduzir o consumo de energia e superaquecimento</string>

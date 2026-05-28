@@ -49,11 +49,13 @@
     <string name="app_casting">Трансляция через приложение</string>
     <string name="app_name">Трансляция</string>
     <string name="app_name_call">Телефон</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Сообщения</string>
     <string name="app_name_vtcamera">Камера для нескольких устройств</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@
     <string name="dialog_recent_connected">Недавнее</string>
     <string name="dialog_remote_authorization">Предоставить разрешения на %1$s</string>
     <string name="dialog_remote_authorization_content">Предоставьте разрешения на уведомления для Взаимосвязанности на вашем %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Разрешите уведомления от %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s был ранее удален с вашего %1$s. Не удается получать уведомления приложений на этом устройстве. Измените настройки и повторите попытку.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Некоторые приложения были ранее удалены с вашего %1$s, и вы не будете получать их уведомления на этом устройстве. Настройте синхронизацию уведомлений заново.</string>
     <string name="dialog_reset_app_subscribe_multi">Изменить настройки уведомлений</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s и %3$s были ранее удалены с вашего %1$s. Не удается получать уведомления приложений на этом устройстве. Измените настройки и повторите попытку.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s и %4$s были ранее удалены с вашего %1$s. Не удается получать уведомления приложений на этом устройстве. Измените настройки и повторите попытку.</string>
     <string name="dialog_retry">Повторить</string>
     <string name="dialog_scan_message">"%1$d. Подключите мобильное устройство и телевизор к одной сети Wi-Fi.
 
@@ -1280,14 +1279,16 @@
     <string name="notification_cast_desc">Трансляция…</string>
     <string name="notification_channel_description">Выберите типы уведомлений для синхронизации с другого устройства на ваше устройство Xiaomi</string>
     <string name="notification_channel_subtitle_ref_call">Вызов с iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Вызов от %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Сообщение Lark от %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Входящий вызов на %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Уведомление DingTalk на %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Уведомление Lark на %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">Сообщение QQ с iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Сообщение QQ от %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Уведомление QQ на %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Сообщение с iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Сообщение от %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS на %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Уведомление WeCom на %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">Сообщение WeChat с iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Сообщение WeChat от %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Уведомление WeChat на %1$s</string>
     <string name="notification_channel_title_name">Уведомления синхронизированы с устройством Xiaomi</string>
     <string name="notification_desc_scanning">Поиск устройств поблизости…</string>
     <string name="notification_incoming_call_to_reply">Входящий вызов. Ответить на %1$s.</string>
@@ -1609,6 +1610,7 @@
     <string name="screen_projection">Трансляция</string>
     <string name="screen_projection_characteristics">Особые возможности</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Вы можете переключиться на Трансляцию в приложении в Xiaomi HyperIsland, чтобы транслировать текущее приложение на внешний монитор при использовании других приложений на телефоне</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Вы можете переключиться на Трансляцию в приложении в Xiaomi HyperIsland, чтобы транслировать текущее приложение на внешний монитор при использовании других приложений на планшете</string>
     <string name="screen_projection_characteristics_cast_summary">Трансляция изображения с экрана устройства на телевизор.</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Выключите экран мобильного устройства во время трансляции, чтобы сэкономить заряд и избежать перегрева</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Выключайте экран во время трансляции, чтобы снизить расход энергии и перегрев</string>

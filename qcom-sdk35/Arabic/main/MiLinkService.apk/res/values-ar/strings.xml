@@ -49,11 +49,13 @@
     <string name="app_casting">بث التطبيق</string>
     <string name="app_name">بث الشاشة</string>
     <string name="app_name_call">الهاتف</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">الرسائل</string>
     <string name="app_name_vtcamera">كاميرا عبر الأجهزة</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">۱</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@
     <string name="dialog_recent_connected">متصل مؤخرًا</string>
     <string name="dialog_remote_authorization">منح أذونات لـ %1$s</string>
     <string name="dialog_remote_authorization_content">منح أذونات الإشعارات للاتصال المشترك على %1$s الخاص بك.</string>
-    <string name="dialog_reset_app_subscribe">السماح بالإشعارات من %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">تم إلغاء تثبيت %2$s مسبقًا من جهازك %1$s. لا يمكن تلقي إشعارات التطبيق على هذا الجهاز. غير إعداداتك ثم حاول مرة أخرى.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">تم حذف بعض التطبيقات مسبقًا من جهازك %1$s ولن تتلقى إشعاراتها على هذا الجهاز. أعد إعداد مزامنة الإشعارات.</string>
     <string name="dialog_reset_app_subscribe_multi">تغيير إعدادات الإشعارات</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">تم إلغاء تثبيت %2$s و%3$s مسبقًا من جهازك %1$s. لا يمكن تلقي إشعارات التطبيقات على هذا الجهاز. غير إعداداتك ثم حاول مرة أخرى.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">تم إلغاء تثبيت %2$s و%3$s و%4$s مسبقًا من جهازك %1$s. لا يمكن تلقي إشعارات التطبيقات على هذا الجهاز. غير إعداداتك ثم حاول مرة أخرى.</string>
     <string name="dialog_retry">إعادة المحاولة</string>
     <string name="dialog_scan_message">"%1$d. قم بتوصيل جهازك المحمول والتلفزيون بنفس شبكة Wi-Fi.
 
@@ -1280,14 +1279,16 @@
     <string name="notification_cast_desc">جارٍ بث الشاشة…</string>
     <string name="notification_channel_description">حدد أنواع الإشعارات التي سيتم مزامنتها من جهاز آخر إلى جهازك Xiaomi</string>
     <string name="notification_channel_subtitle_ref_call">اتصل من iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">مكالمة من %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">رسالة Lark من %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">مكالمة واردة على %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">إشعار DingTalk على %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">إشعار Lark على %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">رسالة QQ من iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">رسالة QQ من %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">إشعار QQ على %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">رسالة من iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">رسالة من %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">رسالة نصية قصيرة على %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">إشعار WeCom على %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">رسالة WeChat من iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">رسالة WeChat من %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">إشعار WeChat على %1$s</string>
     <string name="notification_channel_title_name">الإشعارات المتزامنة مع جهاز Xiaomi</string>
     <string name="notification_desc_scanning">جارٍ البحث عن أجهزة قريبة…</string>
     <string name="notification_incoming_call_to_reply">مكالمة واردة. يمكنك الرد على %1$s.</string>
@@ -1609,6 +1610,7 @@
     <string name="screen_projection">بث الشاشة</string>
     <string name="screen_projection_characteristics">الميزات الخاصة</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">يمكنك التبديل إلى بث التطبيق في Xiaomi HyperIsland لبث التطبيق الحالي إلى شاشة خارجية أثناء استخدام تطبيقات أخرى على هاتفك</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">يمكنك التبديل إلى App casting في Xiaomi HyperIsland لعرض التطبيق الحالي على شاشة خارجية، مع الاستمرار في استخدام تطبيقات أخرى على جهازك اللوحي.</string>
     <string name="screen_projection_characteristics_cast_summary">إرسال محتويات الشاشة إلى تلفزيون قريب</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">إيقاف تشغيل شاشة الجهاز المحمول أثناء البث لتوفير البطارية وتجنب ارتفاع درجة حرارتها</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">قم بإيقاف تشغيل الشاشة عند العرض لتقليل استهلاك الطاقة وارتفاع درجة الحرارة</string>

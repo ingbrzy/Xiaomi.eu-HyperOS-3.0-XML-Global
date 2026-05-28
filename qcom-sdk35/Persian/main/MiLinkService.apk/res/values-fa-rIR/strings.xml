@@ -22,11 +22,13 @@
     <string name="app_casting">بازتاباندن برنامه</string>
     <string name="app_name">بازتاباندن</string>
     <string name="app_name_call">گوشی</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">پیام‌رسانی</string>
     <string name="app_name_vtcamera">دوربین‌های بین دستگاهی</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">۱</string>
     <string name="app_ver_name">۱.۰</string>
@@ -682,11 +684,8 @@
     <string name="dialog_recent_connected">موارد تازه</string>
     <string name="dialog_remote_authorization">در %1$s مجوز‌ها را اعطا کنید</string>
     <string name="dialog_remote_authorization_content">مجوزهای اعلان را به هم‌اتصالی در %1$s خود اعطا کنید.</string>
-    <string name="dialog_reset_app_subscribe">اجازه اعلان‌ها از %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s پیش‌تر از %1$s شما حذف شده بود. اعلان‌های برنامه در این دستگاه دریافت نمی‌شوند. تنظیمات خود را تغییر دهید و سپس دوباره تلاش کنید.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">برخی برنامه‌ها قبلاً از %1$s حذف شده‌اند و اعلان‌هایشان را روی این دستگاه دریافت نخواهید کرد. همگام‌سازی اعلان را دوباره تنظیم کنید.</string>
     <string name="dialog_reset_app_subscribe_multi">تغییر تنظیمات اعلان</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s و %3$s پیش‌تر از %1$s شما حذف شده بودند. اعلان‌های برنامه در این دستگاه دریافت نمی‌شوند. تنظیمات خود را تغییر دهید و سپس دوباره تلاش کنید.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s، %3$s و %4$s پیش‌تر از %1$s شما حذف شده بودند. اعلان‌های برنامه در این دستگاه دریافت نمی‌شوند. تنظیمات خود را تغییر دهید و سپس دوباره تلاش کنید.</string>
     <string name="dialog_retry">تلاش دوباره</string>
     <string name="dialog_scan_message">"%1$d. دستگاه همراه و تلویزیون خود را به شبکه Wi-Fi مشابه متصل کنید.
 
@@ -1071,14 +1070,16 @@
     <string name="notification_cast_desc">درحال بازتاباندن…</string>
     <string name="notification_channel_description">نوع‌های اعلان‌هایی را که باید از دستگاه دیگری با دستگاه Xiaomi شما همگام‌سازی شوند، انتخاب کنید</string>
     <string name="notification_channel_subtitle_ref_call">تماس از iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">تماس از %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">پیام Lark از %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">تماس ورودی روی %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">اعلان DingTalk روی %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">اعلان Lark روی %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">پیام QQ از iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">پیام QQ از %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">اعلان QQ روی %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">پیام از iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">پیام از %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">پیامک روی %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">اعلان WeCom روی %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">پیام WeChat از iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">پیام WeChat از %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">اعلان WeChat روی %1$s</string>
     <string name="notification_channel_title_name">اعلان‌های همگام‌سازی شده در دستگاه Xiaomi</string>
     <string name="notification_desc_scanning">درحال جستجوی دستگاه‌های نزدیک…</string>
     <string name="notification_incoming_call_to_reply">تماس ورودی. پاسخ دادن در %1$s.</string>
@@ -1398,6 +1399,7 @@
     <string name="screen_projection">بازتاباندن</string>
     <string name="screen_projection_characteristics">ویژگی‌های خاص</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">شما در Xiaomi HyperIsland می‌توانید هنگام استفاده از سایر برنامه‌ها در گوشی خود با تعویض به بازتاباندن برنامه، برنامه کنونی را روی یک نمایشگر خارجی بازتاب دهید.</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">در Xiaomi HyperIsland می‌توانید بازتاباندن برنامه را تغییر دهید تا درحالی‌که در تبلت خودتان از سایر برنامه‌ها استفاده می‌کنید، برنامه فعلی روی یک نمایشگر بیرونی نمایش داده شود</string>
     <string name="screen_projection_characteristics_cast_summary">بازتاباندن محتوای صفحه روی یک تلویزیون نزدیک</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">هنگام بازتاباندن، صفحه نمایش گوشی را خاموش می‌کند تا در باتری صرفه‌جویی شده و از داغ کردن جلوگیری شود</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">برای کاهش مصرف برق و گرمای بیش از حد، صفحه نمایش را هنگام بازتاباندن فیلم خاموش کنید</string>

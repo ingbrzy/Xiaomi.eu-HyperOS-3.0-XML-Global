@@ -49,11 +49,13 @@
     <string name="app_casting">Prenášanie aplikácie</string>
     <string name="app_name">Prenos obrazu</string>
     <string name="app_name_call">Telefón</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Správy</string>
     <string name="app_name_vtcamera">Fotoaparát pre viacero zariadení</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Ak máte problémy s pripojením, otvorte pomocníka."</string>
     <string name="dialog_recent_connected">Nedávne</string>
     <string name="dialog_remote_authorization">Udeľte povolenia na zariadení %1$s</string>
     <string name="dialog_remote_authorization_content">Udeľte povolenia na upozornenia na Prepojenie na vašom zariadení %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Povoliť upozornenia z aplikácie %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">Aplikácia %2$s bola predtým odinštalovaná z vášho zariadenia %1$s. Na tomto zariadení nie je možné dostávať upozornenia aplikácií. Zmeňte nastavenia a skúste to znova.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Niektoré aplikácie boli predtým zo zariadenia %1$s odinštalované a ich upozornenia sa v tomto zariadení nebudú zobrazovať. Znovu si nastavte synchronizáciu upozornení.</string>
     <string name="dialog_reset_app_subscribe_multi">Zmeniť nastavenia upozornení</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">Aplikácie %2$s a %3$s boli predtým odinštalované z vášho zariadenia %1$s. Na tomto zariadení nie je možné dostávať upozornenia aplikácií. Zmeňte nastavenia a skúste to znova.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">Aplikácie %2$s, %3$s a %4$s boli predtým odinštalované z vášho zariadenia %1$s. Na tomto zariadení nie je možné dostávať upozornenia aplikácií. Zmeňte nastavenia a skúste to znova.</string>
     <string name="dialog_retry">Skúste to znovu</string>
     <string name="dialog_scan_message">"%1$d. Pripojte mobilné zariadenie aj televízor k rovnakej sieti Wi-Fi.
 
@@ -1280,14 +1279,16 @@ Poznámka: Po zapnutí funkcií prístupnosti sa zobrazí bežné systémové up
     <string name="notification_cast_desc">Prenáša sa…</string>
     <string name="notification_channel_description">Vyberte typy upozornení, ktoré sa majú synchronizovať z iného zariadenia do zariadenia Xiaomi</string>
     <string name="notification_channel_subtitle_ref_call">Hovor z iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Hovor zo zariadenia %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Lark správa zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Prichádzajúci hovor na zariadení %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Upozornenie DingTalk na %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Upozornenie Lark na %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">QQ správa z iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">QQ správa zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Upozornenie QQ na %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Správa z iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Správa zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS na %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Upozornenie WeCom na %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">WeChat správa z iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">WeChat správa zo zariadenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Upozornenie WeChatu na %1$s</string>
     <string name="notification_channel_title_name">Upozornenia synchronizované so zariadením Xiaomi</string>
     <string name="notification_desc_scanning">Vyhľadávajú sa zariadenia v okolí…</string>
     <string name="notification_incoming_call_to_reply">Prichádzajúci hovor. Odpovedať na zariadení %1$s.</string>
@@ -1609,6 +1610,7 @@ Pred použitím tejto funkcie si prečítajte a vyjadrite súhlas s našimi zmlu
     <string name="screen_projection">Prenos obrazu</string>
     <string name="screen_projection_characteristics">Špeciálne funkcie</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">V Xiaomi HyperIsland sa môžete prepnúť na funkciu prenášanie aplikácie, aby ste mohli aktuálnu aplikáciu preniesť na externý monitor a zároveň používať iné aplikácie v telefóne</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">V Xiaomi HyperIsland sa môžete prepnúť na funkciu prenášanie aplikácie, aby ste mohli aktuálnu aplikáciu preniesť na externý monitor a zároveň používať iné aplikácie v tablete</string>
     <string name="screen_projection_characteristics_cast_summary">Prenášať obsah obrazovky do blízkeho televízora</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Počas prenášania vypnite obrazovku mobilného zariadenia, aby ste šetrili batériu a predchádzali prehrievaniu.</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Vypnite obrazovku počas prenášania, aby ste znížili spotrebu energie a prehrievanie</string>

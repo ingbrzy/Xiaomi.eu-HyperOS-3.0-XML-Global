@@ -95,7 +95,7 @@
     <string name="btn_restore_resume">Настави</string>
     <string name="btn_restore_retry">Покушај опет</string>
     <string name="btn_restore_wait">Сачекај Wi-Fi</string>
-    <string name="btn_restore_wait_china">Wait for WLAN</string>
+    <string name="btn_restore_wait_china">Сачекај WLAN</string>
     <string name="btn_retry">Провери опет</string>
     <string name="btn_skip">Прескочи овај корак</string>
     <string name="button_cancel">Откажи</string>
@@ -128,12 +128,12 @@
 *\t\t\tПодешавање обавештења 
 *\t\t\tMIUI и подешавање система 
 Напомена: подаци апликација које сте инсталирали неће бити бекаповани на Xiaomi Cloud."</string>
-    <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
-*  Apps, Home screen layout, and wallpapers 
-*  Alarm, clock, and time settings 
-*  Notification settings 
-*  MIUI and system settings 
-Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
+    <string name="cloud_back_up_detail_discription_china">"Ове ставке ће бити бекаповане на Xiaomi Cloud када је уређај повезан на WLAN: 
+*\t\t\tАпликације, распоред Почетног екрана и позадине 
+*\t\t\tПодешавање аларма, сата и времена 
+*\t\t\tПодешавање обавештења 
+*\t\t\tMIUI и подешавање система 
+Напомена: подаци апликација које сте инсталирали неће бити бекаповани на Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Распоред бекапа</string>
     <string name="cloud_back_up_frequence_long">Сваких %d дана</string>
     <string name="cloud_back_up_frequence_short">Сваки дан</string>
@@ -150,8 +150,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_frequence">Распоред бекапа</string>
     <string name="cloud_backup_detail_frequence_every_7_day">Сваких %d дана</string>
     <string name="cloud_backup_detail_frequence_every_day">Сваки дан</string>
-    <string name="cloud_backup_detail_header_condition_battery">≥%s</string>
-    <string name="cloud_backup_detail_header_condition_battery_content_description">најмање %s</string>
+    <string name="cloud_backup_detail_header_condition_battery">≥ %s</string>
+    <string name="cloud_backup_detail_header_condition_battery_content_description">Батерија је на или изнад %s</string>
     <string name="cloud_backup_detail_header_condition_screen">Закључани екран</string>
     <string name="cloud_backup_detail_header_condition_wlan">Wi-Fi</string>
     <string name="cloud_backup_detail_header_condition_wlan_china">WLAN</string>
@@ -161,10 +161,10 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_manage">Управљај бекапима</string>
     <string name="cloud_backup_detail_no_time">Још нема бекапа</string>
     <string name="cloud_backup_detail_state">Аутоматски бекапи</string>
-    <string name="cloud_backup_detail_state_summary">Захтева везу са Wi-Fi мрежом, напајање батерије од најмање %s, док је екран искључен</string>
-    <string name="cloud_backup_detail_state_summary_china">Захтева везу са WLAN-ом, напајање батерије од најмање %s, док је екран искључен</string>
-    <string name="cloud_backup_detail_state_summary_china_content_description">Захтева везу са WLAN-ом, напајање батерије од најмање %s, док је екран искључен</string>
-    <string name="cloud_backup_detail_state_summary_content_description">Захтева везу са Wi-Fi мрежом, напајање батерије од најмање %s, док је екран искључен</string>
+    <string name="cloud_backup_detail_state_summary">Мора да буде повезан на Wi-Fi са искљученим екраном и батеријом ≥%s</string>
+    <string name="cloud_backup_detail_state_summary_china">Мора бити повезан на WLAN са искљученим екраном и батеријом ≥%s</string>
+    <string name="cloud_backup_detail_state_summary_china_content_description">Резервна копија података ће бити креирана када је уређај повезан на WLAN, има преко %s батерије и када је екран искључен</string>
+    <string name="cloud_backup_detail_state_summary_content_description">Резервна копија података ће бити креирана када је уређај повезан на Wi-Fi, има преко %s батерије и када је екран искључен</string>
     <string name="cloud_backup_detail_time">Последњи бекап:%1$s</string>
     <string name="cloud_backup_detail_title">Бекапуј ставке</string>
     <string name="cloud_backup_get_installed_apps_summary">За бекаповање и враћање апликација на Почетном екрану</string>
@@ -230,7 +230,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="dialog_get_installed_apps_consent_title">Потребне су дозволе</string>
     <string name="dialog_msg_overwrite_backup">Локални бекап се разликује од бекапа Xiaomi Cloud-а. Ако наставите, овај бекап ће записивати преко претходног.</string>
     <string name="dialog_msg_restore_require_wlan">Враћање бекапа захтева повезивање на Wi-Fi.</string>
-    <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
+    <string name="dialog_msg_restore_require_wlan_china">За враћање резервних копија потребно је повезивање на WLAN.</string>
     <string name="dialog_need_permission">Потребне су дозволе</string>
     <string name="dialog_negative_btn_cancel_backup">Откажи бекап</string>
     <string name="dialog_negative_btn_cancel_restore">Заустави враћање</string>
@@ -244,7 +244,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="dialog_title_cancel_backup">Откажи бекаповање</string>
     <string name="dialog_title_cancel_restore">Заустави враћање</string>
     <string name="dialog_title_require_wlan">Повежите се на Wi-Fi</string>
-    <string name="dialog_title_require_wlan_china">Connect to WLAN</string>
+    <string name="dialog_title_require_wlan_china">Повежите се на WLAN</string>
     <string name="dialog_wechat_data_close_agree">Настави</string>
     <string name="dialog_wechat_data_close_disagree">Искључи</string>
     <string name="dialog_wechat_data_close_message">Ако искључите ову функцију, WeChat подаци неће бити бекаповани када следећи пут будете користили бекап у cloud-у. Ово може довести до губитка података. Искључити WeChat бекапе сада?</string>
@@ -342,7 +342,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="manage_backups">Управљај бекапима</string>
     <string name="manage_cloud_backups">Управљајте cloud бекапима</string>
     <string name="managespace_delete_backup">Обриши</string>
-    <string name="manual_request_notification_permission_dialog_negative_button">Close</string>
+    <string name="manual_request_notification_permission_dialog_negative_button">Затвори</string>
     <string name="manual_request_notification_permission_dialog_positive_button">Подешавања</string>
     <string name="manual_request_permissions_dialog_description">Ако не дате дозволе за \"%s\", нећете добијати благовремена обавештења о неуспелим резервним копијама и другим важним радњама. Ову дозволу можете дати у Подешавањима.</string>
     <string name="manual_request_permissions_dialog_title">Потребне су дозволе</string>
@@ -467,6 +467,13 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="permission_to_use">Детаљи о дозволама</string>
     <string name="pm">После подне</string>
     <string name="preference_copied">Резиме „%1$s“ је копиран у привремену меморију.</string>
+    <string name="privacy_revoked_dialog_message">Повукли сте свој пристанак на Xiaomi Cloud Правила о приватности. Сви ваши подаци ускладиштени у cloud-у су обрисани.</string>
+    <string name="privacy_revoked_dialog_positive_btn">Назад</string>
+    <string name="privacy_revoked_dialog_title">Повлачење пристанка</string>
+    <string name="privacy_revoked_reactivation_dialog_message">Повукли сте свој пристанак на Xiaomi Cloud Правила о приватности и ваши подаци ускладиштени у cloud-у су обрисани. Ако желите поново да користите ову услугу, можете прихватити Правила о приватности и поново активирати свој налог на i.mi.com. Ради ваше безбедности, то можете учинити само једном дневно.</string>
+    <string name="privacy_revoked_reactivation_dialog_negative_btn">Откажи</string>
+    <string name="privacy_revoked_reactivation_dialog_positive_btn">Поново активирај</string>
+    <string name="privacy_revoked_reactivation_dialog_title">Пажња</string>
     <string name="process_whole_recovery">Враћање „%s“</string>
     <string name="provision_back">Назад</string>
     <string name="provision_background_restore_more_data">Врати више ставки у позадини</string>
@@ -524,6 +531,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="restore_from_cloud">Врати са бекапа cloud-а</string>
     <string name="restore_from_mimover">Пренос са старог уређаја преко Mi Mover-а</string>
     <string name="restore_from_this_device">Врати податке</string>
+    <string name="restore_from_this_device_unabled_talkback">Враћање података, недоступно</string>
     <string name="restore_header_backup_size">Величина</string>
     <string name="restore_header_msg">Пре него што вратите WeChat податке, уверите се да WeChat није инсталиран на овом уређају. Док се подаци враћају, немојте отварати нити користити WeChat.</string>
     <string name="restore_header_title">Величина бекапа</string>
@@ -590,14 +598,18 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="session_failed_no_server_response_title">Није повезано са сервером.</string>
     <string name="session_failed_override_detail">Локални бекап се разликује од оног у Xiaomi Cloud-у. Ако наставите, тренутни бекап ће заменити претходни. Заменити сада?</string>
     <string name="session_failed_override_title">Бекап преко записа</string>
+    <string name="session_failed_privacy_revoked_btn_text">Прикажи детаље</string>
+    <string name="session_failed_privacy_revoked_title">Повукли сте свој пристанак на Xiaomi Cloud Правила о приватности</string>
     <string name="session_failed_reason_invalid_token">Погрешни подаци за пријављивање. Пријавите се опет.</string>
     <string name="session_failed_restore_app_data_btn_text">Назад</string>
     <string name="session_failed_restore_app_data_detail">Уверите се да WeChat није инсталиран на овом уређају пре него што вратите ставке. Не отварајте и не користите WeChat док се подаци враћају.</string>
     <string name="session_failed_restore_app_data_title">Деинсталирај WeChat</string>
     <string name="session_failed_title_backup">Не може се бекаповати</string>
     <string name="session_failed_title_restore">Враћање није успело</string>
+    <string name="session_interrupted_title_backup">Бекап паузиран</string>
     <string name="session_ongoing_title_backup">Бекаповање</string>
     <string name="session_ongoing_title_restore">Враћање</string>
+    <string name="session_progress">%1$d процената</string>
     <string name="session_restore_apk_data_text">Враћање WeChat података…</string>
     <string name="session_restore_apk_text">Враћање распореда Почетног екрана и системских подешавања…</string>
     <string name="session_restore_success_date_format">d. M. yyyy.</string>

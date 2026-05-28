@@ -49,11 +49,13 @@
     <string name="app_casting">App-casting</string>
     <string name="app_name">Casting</string>
     <string name="app_name_call">Telefon</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Beskeder</string>
     <string name="app_name_vtcamera">Kamera på tværs af enheder</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Se hjælp, hvis du har problemer med at tilslutte."</string>
     <string name="dialog_recent_connected">Nyligt</string>
     <string name="dialog_remote_authorization">Giv tilladelser på %1$s</string>
     <string name="dialog_remote_authorization_content">Giv notifikationstilladelser til Interkonnektivitet på din %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Tillad notifikationer fra %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s blev tidligere afinstalleret fra din %1$s. Kan ikke modtage app-notifikationer på denne enhed. Skift dine indstillinger, og prøv igen.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Nogle apps er tidligere blevet afinstalleret fra din %1$s, og du vil ikke modtage deres notifikationer på denne enhed. Opsæt notifikationssynkronisering igen.</string>
     <string name="dialog_reset_app_subscribe_multi">Skift notifikationsindstillinger</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s og %3$s blev tidligere afinstalleret fra din %1$s. Kan ikke modtage app-notifikationer på denne enhed. Skift dine indstillinger, og prøv igen.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s og %4$s blev tidligere afinstalleret fra din %1$s. Kan ikke modtage app-notifikationer på denne enhed. Skift dine indstillinger, og prøv igen.</string>
     <string name="dialog_retry">Prøv igen</string>
     <string name="dialog_scan_message">"%1$d. Tilslut både din mobile enhed og dit tv til det samme Wi-Fi-netværk.
 
@@ -1280,14 +1279,16 @@ Bemærk: Du modtager en rutinemæssig systemadvarsel, når du slår tilgængelig
     <string name="notification_cast_desc">Caster…</string>
     <string name="notification_channel_description">Vælg, hvilke typer notifikationer der skal synkroniseres fra en anden enhed til din Xiaomi-enhed</string>
     <string name="notification_channel_subtitle_ref_call">Opkald fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Opkald fra %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Lark-besked fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Indgående opkald på %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">DingTalk-notifikation på %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Lark-notifikation på %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">QQ-besked fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">QQ-besked fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">QQ-notifikation på %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Besked fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Besked fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS på %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">WeCom-notifikation på %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">WeChat-besked fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">WeChat-besked fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">WeChat-notifikation på %1$s</string>
     <string name="notification_channel_title_name">Notifikationer synkroniseret til Xiaomi-enhed</string>
     <string name="notification_desc_scanning">Søger efter enheder i nærheden…</string>
     <string name="notification_incoming_call_to_reply">Indgående opkald. Svar på %1$s.</string>
@@ -1609,6 +1610,7 @@ Læs og accepter vores &lt;a href=%1$s>Brugeraftale&lt;/a> og &lt;a href=%2$s>Pr
     <string name="screen_projection">Cast</string>
     <string name="screen_projection_characteristics">Specielle funktioner</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Du kan skifte til App-casting i Xiaomi HyperIsland for at caste den aktuelle app til en ekstern skærm, mens du bruger andre apps på din telefon</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Du kan skifte til App-casting i Xiaomi HyperIsland for at caste den aktuelle app til en ekstern skærm, mens du bruger andre apps på din tablet</string>
     <string name="screen_projection_characteristics_cast_summary">Cast skærmindhold til et tv i nærheden</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Sluk mobilenhedens skærm, mens du caster, for at spare på batteriet og undgå overophedning</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Sluk skærmen under casting for at reducere strømforbrug og overophedning</string>

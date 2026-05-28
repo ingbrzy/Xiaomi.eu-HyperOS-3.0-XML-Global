@@ -49,11 +49,13 @@
     <string name="app_casting">Chiếu ứng dụng</string>
     <string name="app_name">Chiếu</string>
     <string name="app_name_call">Điện thoại</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Tin nhắn</string>
     <string name="app_name_vtcamera">Camera đa thiết bị</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Xem trợ giúp nếu bạn gặp sự cố khi kết nối."</string>
     <string name="dialog_recent_connected">Gần đây</string>
     <string name="dialog_remote_authorization">Cấp quyền trên %1$s</string>
     <string name="dialog_remote_authorization_content">Cấp quyền thông báo cho Liên thông trên %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Cho phép thông báo từ %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s trước đây đã bị gỡ cài đặt khỏi %1$s. Không thể nhận thông báo ứng dụng trên thiết bị này. Thay đổi cài đặt và thử lại.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Một số ứng dụng đã bị gỡ cài đặt trước đó khỏi %1$s và bạn sẽ không nhận được thông báo trên thiết bị này. Hãy thiết lập lại đồng bộ thông báo.</string>
     <string name="dialog_reset_app_subscribe_multi">Thay đổi cài đặt thông báo</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s và %3$s trước đây đã bị gỡ cài đặt khỏi %1$s. Không thể nhận thông báo ứng dụng trên thiết bị này. Thay đổi cài đặt và thử lại.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s, and %4$s trước đây đã bị gỡ cài đặt khỏi %1$s. Không thể nhận thông báo ứng dụng trên thiết bị này. Thay đổi cài đặt và thử lại.</string>
     <string name="dialog_retry">Thử lại</string>
     <string name="dialog_scan_message">"%1$d. Kết nối cả thiết bị di động và TV với cùng một mạng Wi-Fi.
 
@@ -1280,14 +1279,16 @@ Ghi chú: Bạn sẽ nhận được cảnh báo hệ thống thường lệ khi
     <string name="notification_cast_desc">Đang chiếu…</string>
     <string name="notification_channel_description">Chọn loại thông báo sẽ được đồng bộ từ thiết bị khác sang thiết bị Xiaomi của bạn</string>
     <string name="notification_channel_subtitle_ref_call">Cuộc gọi từ iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Cuộc gọi từ %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Tin nhắn Lark từ %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Cuộc gọi đến trên %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Thông báo DingTalk trên %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Thông báo Lark trên %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">Tin nhắn QQ từ iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Tin nhắn QQ từ %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Thông báo QQ trên %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Tin nhắn từ iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Tin nhắn từ %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS trên %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Thông báo WeCom trên %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">Tin nhắn WeChat từ iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Tin nhắn WeChat từ %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Thông báo WeChat trên %1$s</string>
     <string name="notification_channel_title_name">Thông báo được đồng bộ với thiết bị Xiaomi</string>
     <string name="notification_desc_scanning">Tìm kiếm thiết bị lân cận…</string>
     <string name="notification_incoming_call_to_reply">Cuộc gọi đến. Trả lời trên %1$s.</string>
@@ -1609,6 +1610,7 @@ Chúng tôi sẽ bảo vệ thông tin cá nhân của bạn theo luật, quy đ
     <string name="screen_projection">Chiếu</string>
     <string name="screen_projection_characteristics">Tính năng đặc biệt</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Bạn có thể chuyển sang Chiếu ứng dụng trong Xiaomi HyperIsland để chiếu ứng dụng hiện tại lên màn hình ngoài trong khi sử dụng các ứng dụng khác trên điện thoại</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Bạn có thể chuyển sang Chiếu ứng dụng trong Xiaomi HyperIsland để chiếu ứng dụng hiện tại lên màn hình ngoài trong khi sử dụng các ứng dụng khác trên máy tính bảng</string>
     <string name="screen_projection_characteristics_cast_summary">Chiếu nội dung màn hình lên TV lân cận</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Tắt màn hình thiết bị di động trong khi chiếu để tiết kiệm pin và tránh quá nhiệt</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Tắt màn hình khi chiếu để giảm mức tiêu thụ điện năng và tình trạng quá nhiệt</string>
