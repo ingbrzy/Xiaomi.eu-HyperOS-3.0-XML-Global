@@ -49,11 +49,13 @@
     <string name="app_casting">Прожекция на приложение</string>
     <string name="app_name">Прожекция</string>
     <string name="app_name_call">Телефон</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Съобщения</string>
     <string name="app_name_vtcamera">Камера за различни устройства</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@
     <string name="dialog_recent_connected">Последни</string>
     <string name="dialog_remote_authorization">Дай разрешения в %1$s</string>
     <string name="dialog_remote_authorization_content">Дай разрешения за известяване на „Взаимосвързаност“ на твоя %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Разрешете известия от %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s по-рано беше деинсталирано от Вашия %1$s. На това устройство не могат да се получават известия от приложения. Променете настройките си и опитайте отново.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Някои приложения преди са били деинсталирани от %1$s и няма да получаваш техните известия на това устройство. Настрой синхронизирането на известия отново.</string>
     <string name="dialog_reset_app_subscribe_multi">Променете настройките за известия</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s и %3$s по-рано бяха деинсталирани от Вашия %1$s. На това устройство не могат да се получават известия от приложения. Променете настройките си и опитайте отново.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s и %4$s по-рано бяха деинсталирани от Вашия %1$s. На това устройство не могат да се получават известия от приложения. Променете настройките си и опитайте отново.</string>
     <string name="dialog_retry">Опитайте отново</string>
     <string name="dialog_scan_message">"%1$d. Свържете и мобилното си устройство и вашия телевизор към същата Wi-Fi мрежа.
 
@@ -1280,14 +1279,16 @@
     <string name="notification_cast_desc">Прожектиране…</string>
     <string name="notification_channel_description">Изберете типове известия, които да бъдат синхронизирани от друго устройство на Вашето Xiaomi устройство</string>
     <string name="notification_channel_subtitle_ref_call">Обаждане от iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Повикване от %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Съобщение в Lark от %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Входящо повикване на %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">DingTalk известие на %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Известие от Lark на %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">QQ съобщение от iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">QQ съобщение от %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">QQ известие на %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Съобщение от iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Съобщение от %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS на %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">WeCom известие на %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">WeChat съобщение от iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">WeChat съобщение от %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">WeChat известие на %1$s</string>
     <string name="notification_channel_title_name">Известията са синхронизирани с Xiaomi устройство</string>
     <string name="notification_desc_scanning">Търсене на устройства наблизо…</string>
     <string name="notification_incoming_call_to_reply">Входящо повикване. Отговори на %1$s.</string>
@@ -1609,6 +1610,7 @@
     <string name="screen_projection">Прожекция</string>
     <string name="screen_projection_characteristics">Специални функции</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Можете да превключите към Прожекция на приложение в Xiaomi HyperIsland, за да проектирате текущото приложение на външен монитор, докато използвате други приложения на телефона си</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Можете да превключите към Прожекция на приложение в Xiaomi HyperIsland, за да проектирате текущото приложение на външен монитор, докато използвате други приложения на таблета си</string>
     <string name="screen_projection_characteristics_cast_summary">Прожектирайте съдържанието на екрана на телевизор наблизо</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Изключете екрана на мобилното устройство, докато прожектирате, за да пестите батерията и да избегнете прегряване</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Изключете екрана, докато предавате, за да намалите консумацията на енергия и прегряването</string>

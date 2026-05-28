@@ -49,11 +49,13 @@
     <string name="app_casting">"Diffusion d'application"</string>
     <string name="app_name">En cours de diffusion</string>
     <string name="app_name_call">Téléphone</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Larche</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Messagerie</string>
     <string name="app_name_vtcamera">Appareil photo multi-appareils</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Consultez l'aide si vous rencontrez des problèmes pour vous connecter."</string
     <string name="dialog_recent_connected">Récent</string>
     <string name="dialog_remote_authorization">Accorder les autorisations sur %1$s</string>
     <string name="dialog_remote_authorization_content">"Accorder les autorisations de notification à l'interconnectivité sur votre %1$s."</string>
-    <string name="dialog_reset_app_subscribe">Autoriser les notifications de %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">"%2$s a été désinstallé de votre %1$s. Vous ne pouvez pas recevoir de notifications d'applications sur cet appareil. Modifiez vos paramètres et réessayez."</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Certaines applications ont été désinstallées de votre %1$s et vous ne recevrez pas leurs notifications sur cet appareil. Configurez à nouveau la synchronisation des notifications.</string>
     <string name="dialog_reset_app_subscribe_multi">Modifier les paramètres de notification</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">"%2$s et %3$s ont été désinstallés de votre %1$s. Vous ne pouvez pas recevoir de notifications d'applications sur cet appareil. Modifiez vos paramètres et réessayez."</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">"%2$s, %3$s et %4$s ont été désinstallés de votre %1$s. Vous ne pouvez pas recevoir de notifications d'applications sur cet appareil. Modifiez vos paramètres et réessayez."</string>
     <string name="dialog_retry">Réessayer</string>
     <string name="dialog_scan_message">"%1$d. Connectez votre appareil mobile et votre téléviseur au même réseau Wi-Fi.
 
@@ -1280,14 +1279,16 @@ Remarque : Vous recevrez un avertissement de routine lorsque vous activez les f
     <string name="notification_cast_desc">Diffusion en cours…</string>
     <string name="notification_channel_description">Sélectionnez les types de notifications à synchroniser depuis un autre appareil vers votre appareil Xiaomi</string>
     <string name="notification_channel_subtitle_ref_call">"Appel depuis l'iPhone"</string>
-    <string name="notification_channel_subtitle_ref_call_1">Appel de %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Message Lark de %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Appel entrant sur %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Notification DingTalk sur %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Notification Lark sur %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">"Message QQ depuis l'iPhone"</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Message QQ de %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Notification QQ sur %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Message du iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Message de %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS sur %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Notification WeCom sur %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">"Message WeChat depuis l'iPhone"</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Message WeChat de %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Notification Wechat sur %1$s</string>
     <string name="notification_channel_title_name">"Notifications synchronisées avec l'appareil Xiaomi"</string>
     <string name="notification_desc_scanning">Rechercher des appareils à proximité…</string>
     <string name="notification_incoming_call_to_reply">Appel entrant. Répondez sur %1$s.</string>
@@ -1609,6 +1610,7 @@ Lisez et acceptez nos &lt;a href=%1$s>Accord Utilisateur&lt;/a> et &lt;a href=%2
     <string name="screen_projection">Diffuser</string>
     <string name="screen_projection_characteristics">Fonctionnalités spéciales</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">"Vous pouvez activer la diffusion d'applications dans Xiaomi HyperIsland pour diffuser l'application en cours sur un moniteur externe tout en utilisant d'autres applications sur votre téléphone"</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">"Vous pouvez activer la diffusion d'applications dans Xiaomi HyperIsland pour diffuser l'application en cours sur un moniteur externe tout en utilisant d'autres applications sur votre tablette"</string>
     <string name="screen_projection_characteristics_cast_summary">"Diffuser le contenu de l'écran sur une TV à proximité"</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">"Éteindre l'écran de l'appareil mobile pendant la diffusion pour économiser la batterie et éviter la surchauffe"</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">"Éteignez l'écran pendant la projection pour réduire la consommation d'énergie et la surchauffe"</string>

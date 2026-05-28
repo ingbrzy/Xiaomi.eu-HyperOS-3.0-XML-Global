@@ -49,11 +49,13 @@
     <string name="app_casting">Projekcja aplikacji</string>
     <string name="app_name">Projekcja</string>
     <string name="app_name_call">Telefon</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Wiadomości</string>
     <string name="app_name_vtcamera">Aparat na różnych urządzeniach</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Wyświetl Pomoc w przypadku problemów z połączeniem."</string>
     <string name="dialog_recent_connected">Ostatnio połączone</string>
     <string name="dialog_remote_authorization">Nadaj uprawnienia na urządzeniu %1$s</string>
     <string name="dialog_remote_authorization_content">Nadaj uprawnienia do powiadomień w Łączności na urządzeniu %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Zezwól na powiadomienia z urządzenia %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">Aplikacja %2$s została wcześniej odinstalowana z urządzenia %1$s. Nie można otrzymywać powiadomień aplikacji na tym urządzeniu. Zmień ustawienia i spróbuj ponownie.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Niektóre aplikacje zostały wcześniej odinstalowane z urządzenia %1$s, przez co nie będziesz otrzymywać ich powiadomień na tym urządzeniu. Skonfiguruj ponownie synchronizację powiadomień.</string>
     <string name="dialog_reset_app_subscribe_multi">Zmień ustawienia powiadomień</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">Aplikacje %2$s oraz %3$s zostały wcześniej odinstalowane z urządzenia %1$s. Nie można otrzymywać powiadomień aplikacji na tym urządzeniu. Zmień ustawienia i spróbuj ponownie.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">Aplikacje %2$s, %3$s, oraz %4$s zostały wcześniej odinstalowane z urządzenia %1$s. Nie można otrzymywać powiadomień aplikacji na tym urządzeniu. Zmień ustawienia i spróbuj ponownie.</string>
     <string name="dialog_retry">Spróbuj ponownie</string>
     <string name="dialog_scan_message">"%1$d. Połącz urządzenie mobilne i telewizor z tą samą siecią Wi-Fi.
 
@@ -1280,14 +1279,16 @@ Uwaga: Po włączeniu funkcji dostępności wyświetlą się standardowe ostrze�
     <string name="notification_cast_desc">Wyświetlanie…</string>
     <string name="notification_channel_description">Wybierz typ powiadomień, które zostaną zsynchronizowane razem z urządzeniem Xiaomi</string>
     <string name="notification_channel_subtitle_ref_call">"Połączenie z iPhone'a"</string>
-    <string name="notification_channel_subtitle_ref_call_1">Połączenie przychodzące z urządzenia %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Nowa wiadomość Lark z urządzenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Połączenie przychodzące na urządzeniu %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Powiadomienie aplikacji DingTalk na urządzeniu %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Powiadomienie aplikacji Lark na urządzeniu %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">"Wiadomość QQ z iPhone'a"</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Nowa wiadomość QQ z urządzenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Powiadomienie aplikacji QQ na urządzeniu %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">"Wiadomość z iPhone'a"</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Wiadomość z urządzenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">Wiadomość SMS na urządzeniu %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Powiadomienie aplikacji WeCom na urządzeniu %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">"Wiadomość WeChat z iPhone'a"</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Nowa wiadomość WeChat z urządzenia %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Powiadomienie aplikacji WeChat na urządzeniu %1$s</string>
     <string name="notification_channel_title_name">Powiadomienia zsynchronizowane z urządzeniem Xiaomi</string>
     <string name="notification_desc_scanning">Wyszukiwanie urządzeń w pobliżu…</string>
     <string name="notification_incoming_call_to_reply">Połączenie przychodzące. Odbierz na urządzeniu %1$s.</string>
@@ -1600,7 +1601,7 @@ Aby działać normalnie, aplikacja ta musi połączyć się z internetem i wymag
     <string name="saturday">Sobota</string>
     <string name="saturday_short">Sob</string>
     <string name="saturday_shortest">Sob</string>
-    <string name="scan_wifi_label_china">Połącz z siecią Wi-Fi</string>
+    <string name="scan_wifi_label_china">Połącz się z siecią WLAN</string>
     <string name="scan_wifi_label_global">Połącz z Wi-Fi</string>
     <string name="screen_arrangement">Układ ekranów</string>
     <string name="screen_arrangement_content">Dostosuj położenie tabletu i ekranu zewnętrznego</string>
@@ -1609,6 +1610,7 @@ Aby działać normalnie, aplikacja ta musi połączyć się z internetem i wymag
     <string name="screen_projection">Projekcja</string>
     <string name="screen_projection_characteristics">Specjalne funkcje</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Możesz przełączyć się na funkcję projekcji aplikacji w Xiaomi HyperIsland, aby przesyłać bieżącą aplikację na zewnętrzny monitor podczas korzystania z innych aplikacji w telefonie</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Możesz przełączyć się na funkcję projekcji aplikacji w Xiaomi HyperIsland, aby przesyłać bieżącą aplikację na zewnętrzny monitor podczas korzystania z innych aplikacji na tablecie</string>
     <string name="screen_projection_characteristics_cast_summary">Projektuj zawartość ekranu na pobliskim telewizorze</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Wyłącz ekran urządzenia mobilnego podczas projekcji, aby oszczędzać baterię i uniknąć przegrzania</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Wyłącz ekran podczas projekcji, aby zmniejszyć zużycie energii i ograniczyć nagrzewanie się urządzenia</string>

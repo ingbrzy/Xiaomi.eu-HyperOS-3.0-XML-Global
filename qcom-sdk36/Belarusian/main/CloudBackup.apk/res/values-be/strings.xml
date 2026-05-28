@@ -95,7 +95,7 @@
     <string name="btn_restore_resume">Працягнуць</string>
     <string name="btn_restore_retry">Паспрабаваць зноў</string>
     <string name="btn_restore_wait">Чаканне Wi-Fi</string>
-    <string name="btn_restore_wait_china">Wait for WLAN</string>
+    <string name="btn_restore_wait_china">Чаканне Wi-Fi</string>
     <string name="btn_retry">Праверце яшчэ раз</string>
     <string name="btn_skip">Прапусціць</string>
     <string name="button_cancel">Скасаваць</string>
@@ -128,12 +128,12 @@
 *  Налады апавяшчэнняў 
 *  Налады MIUI і сістэмы 
 Увага: рэзервовыя копіі дадзеных ўсталяваных праграм не будуць захоўвацца ў Xiaomi Cloud."</string>
-    <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
-*  Apps, Home screen layout, and wallpapers 
-*  Alarm, clock, and time settings 
-*  Notification settings 
-*  MIUI and system settings 
-Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
+    <string name="cloud_back_up_detail_discription_china">"Пры злучэнні праз WLAN ў Xiaomi Cloud будзе створана рэзервовае копія для наступных аб'ектаў: 
+*  Праграмы, выгляд Галоўнага экрана і шпалеры; 
+*  Будзільнік, гадзіннік і налады часу 
+*  Налады апавяшчэнняў 
+*  Налады MIUI і сістэмы 
+Увага: рэзервовыя копіі дадзеных ўсталяваных праграм не будуць захоўвацца ў Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Стварэнне рэзервовых копій па раскладу</string>
     <string name="cloud_back_up_frequence_long">Кожныя %d дні (дзён)</string>
     <string name="cloud_back_up_frequence_short">Штодня</string>
@@ -150,8 +150,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_frequence">Стварэнне рэзервовых копій па раскладу</string>
     <string name="cloud_backup_detail_frequence_every_7_day">Кожныя %d дні (дзён)</string>
     <string name="cloud_backup_detail_frequence_every_day">Штодзённа</string>
-    <string name="cloud_backup_detail_header_condition_battery">≥%s</string>
-    <string name="cloud_backup_detail_header_condition_battery_content_description">мінімум %s</string>
+    <string name="cloud_backup_detail_header_condition_battery">≥ %s</string>
+    <string name="cloud_backup_detail_header_condition_battery_content_description">Зарад акумулятара роўны ці больш за %s</string>
     <string name="cloud_backup_detail_header_condition_screen">Заблакаваць экран</string>
     <string name="cloud_backup_detail_header_condition_wlan">Wi-Fi</string>
     <string name="cloud_backup_detail_header_condition_wlan_china">WLAN</string>
@@ -161,10 +161,10 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_manage">Кіраванне рэзервовымі копіямі</string>
     <string name="cloud_backup_detail_no_time">Рэзервовых копій пакуль няма</string>
     <string name="cloud_backup_detail_state">Аўтарэзерваванне</string>
-    <string name="cloud_backup_detail_state_summary">Патрабуецца падлучэнне да сеткі Wi-Fi, узровень зарада не менш за %s і выключаны экран.</string>
-    <string name="cloud_backup_detail_state_summary_china">Патрабуецца падлучэнне да бесправадной сеткі, узровень зарада не менш за %s і выключаны экран.</string>
-    <string name="cloud_backup_detail_state_summary_china_content_description">Патрабуецца падлучэнне да бесправадной сеткі, узровень зарада не менш за %s і выключаны экран.</string>
-    <string name="cloud_backup_detail_state_summary_content_description">Патрабуецца падлучэнне да сеткі Wi-Fi, узровень зарада не менш за %s і выключаны экран.</string>
+    <string name="cloud_backup_detail_state_summary">Павінна быць падключана да Wi-Fi з выключаным экранам і зарадам акумулятара ≥%s</string>
+    <string name="cloud_backup_detail_state_summary_china">Павінна быць падключана да WLAN з выключаным экранам і зарадам акумулятара ≥%s</string>
+    <string name="cloud_backup_detail_state_summary_china_content_description">Рэзервовае капіраванне дадзеных будзе выконвацца, калі ваша прылада будзе падлучанае да WLAN, зарад яе акумулятара складае %s і яе экран выключаны</string>
+    <string name="cloud_backup_detail_state_summary_content_description">Рэзервовае капіраванне дадзеных будзе выконвацца, калі ваша прылада будзе падлучанае да Wi-Fi, зарад яе акумулятара складае %s і яе экран выключаны</string>
     <string name="cloud_backup_detail_time">Апошняя рэзервовая копія: %1$s</string>
     <string name="cloud_backup_detail_title">"Аб'екты для рэзервовага капіявання"</string>
     <string name="cloud_backup_get_installed_apps_summary">Для стварэння рэзервовых копій і аднаўлення праграм на Галоўным экране</string>
@@ -230,7 +230,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="dialog_get_installed_apps_consent_title">Патрабуюцца дазволы</string>
     <string name="dialog_msg_overwrite_backup">Лакальная рэзервовая копія адрозніваецца ад копіі ў Xiaomi Cloud. Калі вы працягнеце, бягучая копія перазапіша папярэднюю.</string>
     <string name="dialog_msg_restore_require_wlan">Каб аднавіць з рэзервовай копіі, патрабуецца злучэнне з Wi-Fi.</string>
-    <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
+    <string name="dialog_msg_restore_require_wlan_china">Каб аднавіць з рэзервовай копіі, патрабуецца злучэнне з WLAN.</string>
     <string name="dialog_need_permission">Патрабуюцца дазволы</string>
     <string name="dialog_negative_btn_cancel_backup">Скасаваць рэзервовае капіраванне</string>
     <string name="dialog_negative_btn_cancel_restore">Спыніць аднаўленне</string>
@@ -244,7 +244,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="dialog_title_cancel_backup">Скасаваць рэзервовае капіраванне</string>
     <string name="dialog_title_cancel_restore">Спыніць аднаўленне</string>
     <string name="dialog_title_require_wlan">Злучыцца з Wi-Fi</string>
-    <string name="dialog_title_require_wlan_china">Connect to WLAN</string>
+    <string name="dialog_title_require_wlan_china">Падключыцца да WLAN</string>
     <string name="dialog_wechat_data_close_agree">Не адключаць</string>
     <string name="dialog_wechat_data_close_disagree">Адключыць</string>
     <string name="dialog_wechat_data_close_message">Рэзервовыя копіі дадзеных WeChat не будуць стварацца пры наступным выкарыстанні хмарнага рэзервовага капіявання, калі вы адключыце гэтую функцыю. Гэта можа прывесці да страты даных. Адключыць рэзервовае капіяванне WeChat зараз?</string>
@@ -342,7 +342,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="manage_backups">Кіраванне рэзервовымі копіямі</string>
     <string name="manage_cloud_backups">Кіраванне воблачнымі рэзервовымі копіямі</string>
     <string name="managespace_delete_backup">Выдаліць</string>
-    <string name="manual_request_notification_permission_dialog_negative_button">Close</string>
+    <string name="manual_request_notification_permission_dialog_negative_button">Закрыць</string>
     <string name="manual_request_notification_permission_dialog_positive_button">Налады</string>
     <string name="manual_request_permissions_dialog_description">Калі вы не падасце дазволу для \"%s\", то не зможаце атрымліваць своечасовыя апавяшчэнні аб збоях рэзервовага капіявання і іншых важных дзеяннях. Вы можаце падаць гэты дазвол у Наладах.</string>
     <string name="manual_request_permissions_dialog_title">Патрабуюцца дазволы</string>
@@ -467,6 +467,13 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="permission_to_use">Інфармацыя пра дазволы</string>
     <string name="pm">PM</string>
     <string name="preference_copied">\"%1$s\": скапіравана ў буфер абмену.</string>
+    <string name="privacy_revoked_dialog_message">Вы адклікалі сваю згоду з Палітыкай прыватнасці Xiaomi Cloud. Усе вашыя дадзеныя, якія захоўваюцца ў воблаку, былі выдалены.</string>
+    <string name="privacy_revoked_dialog_positive_btn">Назад</string>
+    <string name="privacy_revoked_dialog_title">Адкліканне згоды</string>
+    <string name="privacy_revoked_reactivation_dialog_message">Вы адклікалі сваю згоду з Палітыкай прыватнасці Xiaomi Cloud, і вашы дадзеныя, якія захоўваюцца ў воблаку, былі выдалены. Калі вы хочаце зноў выкарыстоўваць гэтую службу, вы можаце пагадзіцца з Палітыкай прыватнасці і паўторна актываваць свой акаўнт i.mi.com. У мэтах бяспекі гэта можна зрабіць гэта толькі адзін раз у дзень.</string>
+    <string name="privacy_revoked_reactivation_dialog_negative_btn">Адмена</string>
+    <string name="privacy_revoked_reactivation_dialog_positive_btn">Актываваць зноў</string>
+    <string name="privacy_revoked_reactivation_dialog_title">Увага</string>
     <string name="process_whole_recovery">Аднаўленне \"%s\"</string>
     <string name="provision_back">Назад</string>
     <string name="provision_background_restore_more_data">"Аднавіць іншыя аб'екты ў фоне"</string>
@@ -524,6 +531,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="restore_from_cloud">Аднавіць з воблачнай рэзервовай копіі</string>
     <string name="restore_from_mimover">Перанесці са старой прылады пры дапамозе Mi Mover</string>
     <string name="restore_from_this_device">Аднаўленне дадзеных</string>
+    <string name="restore_from_this_device_unabled_talkback">Аднавіць дадзеныя, недаступна</string>
     <string name="restore_header_backup_size">Памер</string>
     <string name="restore_header_msg">Перш чым аднаўляць дадзеныя WeChat, пераканайцеся, што WeChat не ўсталяваны на гэтай прыладзе. Пакуль дадзеныя аднаўляюцца, не адкрывайце і не выкарыстоўвайце WeChat.</string>
     <string name="restore_header_title">Памер рэзервовай копіі</string>
@@ -590,14 +598,18 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="session_failed_no_server_response_title">Не атрымалася падлучыцца да сервера.</string>
     <string name="session_failed_override_detail">Лакальная рэзервовая копія адрозніваецца ад копіі ў Xiaomi Cloud. Калі вы працягнеце, бягучая копія перазапіша папярэднюю. Перазапісаць?</string>
     <string name="session_failed_override_title">Перазапіс рэзервовай копіі...</string>
+    <string name="session_failed_privacy_revoked_btn_text">Падрабязнасці</string>
+    <string name="session_failed_privacy_revoked_title">Вы адклікалі сваю згоду з Палітыкай прыватнасці Xiaomi Cloud</string>
     <string name="session_failed_reason_invalid_token">Няправільныя ўліковыя дадзеныя для ўваходу. Увайдзіце зноў.</string>
     <string name="session_failed_restore_app_data_btn_text">Назад</string>
     <string name="session_failed_restore_app_data_detail">"Перад аднаўленнем аб'ектаў пераканайцеся, што на гэтай прыладзе не ўсталяваны WeChat. Не адкрывайце і не выкарыстоўвайце WeChat падчас аднаўлення дадзеных."</string>
     <string name="session_failed_restore_app_data_title">Выдаліць WeChat</string>
     <string name="session_failed_title_backup">Немагчыма стварыць рэзервовую копію</string>
     <string name="session_failed_title_restore">Не атрымалася аднавіць</string>
+    <string name="session_interrupted_title_backup">Рэзервовае капіраванне прыпынена</string>
     <string name="session_ongoing_title_backup">Ствараецца рэзервовая копія</string>
     <string name="session_ongoing_title_restore">Аднаўленне...</string>
+    <string name="session_progress">%1$d працэнт</string>
     <string name="session_restore_apk_data_text">Аднаўленне дадзеных WeChat…</string>
     <string name="session_restore_apk_text">Выконваецца аднаўленне макета Галоўнага экрана і сістэмных налад…</string>
     <string name="session_restore_success_date_format">dd.MM.yyyy</string>

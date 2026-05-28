@@ -49,11 +49,13 @@
     <string name="app_casting">"Retransmissió d'aplicacions"</string>
     <string name="app_name">Emet</string>
     <string name="app_name_call">Telèfon</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Missatgeria</string>
     <string name="app_name_vtcamera">Càmera multidispositiu</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Consulta l'ajuda si tens problemes per a connectar-t'hi."</string>
     <string name="dialog_recent_connected">Recent</string>
     <string name="dialog_remote_authorization">Concediu els permisos a %1$s</string>
     <string name="dialog_remote_authorization_content">Concediu permisos de notificació a Interconnectivitat al vostre %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Permeteu notificacions de %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">"%2$s s'ha desinstal·lat anteriorment del vostre %1$s. No podeu rebre notificacions de l'aplicació en aquest dispositiu. Canvieu la configuració i torneu-ho a provar."</string>
+    <string name="dialog_reset_app_subscribe_content_v2">"Algunes aplicacions s'han desinstal·lat prèviament del vostre %1$s i no rebreu les seves notificacions en aquest dispositiu. Torneu a configurar la sincronització de notificacions."</string>
     <string name="dialog_reset_app_subscribe_multi">Canvia la configuració de notificacions</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">"%2$s i %3$s s'han desinstal·lat anteriorment del vostre %1$s. No podeu rebre notificacions de l'aplicació en aquest dispositiu. Canvieu la configuració i torneu-ho a provar."</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">"%2$s, %3$s i %4$s s'han desinstal·lat anteriorment del vostre %1$s. No podeu rebre notificacions de l'aplicació en aquest dispositiu. Canvieu la configuració i torneu-ho a provar."</string>
     <string name="dialog_retry">Proveu-ho de nou</string>
     <string name="dialog_scan_message">"%1$d. Connecteu tant el dispositiu mòbil com el televisor a la mateixa xarxa Wi-Fi.
 
@@ -1280,14 +1279,16 @@ Nota: rebreu un avís del sistema habitual quan activeu les funcions d'accessibi
     <string name="notification_cast_desc">Emetent…</string>
     <string name="notification_channel_description">"Seleccioneu els tipus de notificacions que es sincronitzaran des d'un altre dispositiu al vostre dispositiu Xiaomi"</string>
     <string name="notification_channel_subtitle_ref_call">"Trucades des de l'iPhone"</string>
-    <string name="notification_channel_subtitle_ref_call_1">Trucada de %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Missatge de Lark de %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Trucada entrant a %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Notificació a DingTalk de %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Notificació a Lark de %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">"Missatge QQ des de l'iPhone"</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Missatge de QQ de %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Notificació a QQ de %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">"Missatge des de l'iPhone"</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Missatge de %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS a %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Notificació a WeCom de %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">"Missatge de WeChat des de l'iPhone"</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Missatge de WeChat de %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Notificació a WeChat de %1$s</string>
     <string name="notification_channel_title_name">Notificacions sincronitzades amb el dispositiu Xiaomi</string>
     <string name="notification_desc_scanning">Cercant dispositius propers…</string>
     <string name="notification_incoming_call_to_reply">Trucada entrant. Respon a %1$s.</string>
@@ -1609,6 +1610,7 @@ Llegeix i accepta el nostre &lt;a href=%1$s>Acord d'usuari&lt;/a> i &lt;a href=%
     <string name="screen_projection">Emet</string>
     <string name="screen_projection_characteristics">Característiques especials</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">"Podeu canviar a App Casting a Xiaomi HyperIsland per emetre l'aplicació actual a un monitor extern mentre feu servir altres aplicacions al telèfon"</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">"Podeu canviar a App Casting a Xiaomi HyperIsland per emetre l'aplicació actual a un monitor extern mentre feu servir altres aplicacions a la tauleta"</string>
     <string name="screen_projection_characteristics_cast_summary">Emet contingut de la pantalla a un televisor proper</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">"Apagueu la pantalla del dispositiu mòbil durant l'emissió per estalviar bateria i evitar el sobreescalfament"</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">"Apagueu la pantalla durant l'emissió per reduir el consum d'energia i el sobreescalfament"</string>

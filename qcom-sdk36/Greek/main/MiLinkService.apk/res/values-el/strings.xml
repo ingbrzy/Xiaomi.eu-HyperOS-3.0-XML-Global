@@ -49,11 +49,13 @@
     <string name="app_casting">Μετάδοση εφαρμογής</string>
     <string name="app_name">Μετάδοση</string>
     <string name="app_name_call">Τηλέφωνο</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Μηνύματα</string>
     <string name="app_name_vtcamera">Κάμερα μεταξύ συσκευών</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@
     <string name="dialog_recent_connected">Πρόσφατα</string>
     <string name="dialog_remote_authorization">Παραχωρήστε άδειες στο %1$s</string>
     <string name="dialog_remote_authorization_content">Παραχώρηση αδειών ειδοποιήσεων για Διασυνδεσιμότητα στο %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Να επιτραπούν οι ειδοποιήσεις από την εφαρμογή %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">Η εφαρμογή %2$s έχει απεγκατασταθεί προηγουμένως από τη συσκευή %1$s σας. Δεν είναι δυνατή η λήψη ειδοποιήσεων εφαρμογών σε αυτήν τη συσκευή. Αλλάξτε τις ρυθμίσεις σας και προσπαθήστε ξανά.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Ορισμένες εφαρμογές είχαν απεγκατασταθεί προηγουμένως από τη συσκευή %1$s σας, και δεν θα λαμβάνετε τις ειδοποιήσεις της σε αυτήν τη συσκευή. Ρυθμίστε ξανά τον συγχρονισμό ειδοποιήσεων.</string>
     <string name="dialog_reset_app_subscribe_multi">Αλλαγή ρυθμίσεων ειδοποιήσεων</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">Η εφαρμογές %2$s και %3$s έχουν απεγκατασταθεί προηγουμένως από τη συσκευή %1$s σας. Δεν είναι δυνατή η λήψη ειδοποιήσεων εφαρμογών σε αυτήν τη συσκευή. Αλλάξτε τις ρυθμίσεις σας και προσπαθήστε ξανά.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">Η εφαρμογές %2$s, %3$s, και %4$s έχουν απεγκατασταθεί προηγουμένως από τη συσκευή %1$s σας. Δεν είναι δυνατή η λήψη ειδοποιήσεων εφαρμογών σε αυτήν τη συσκευή. Αλλάξτε τις ρυθμίσεις σας και προσπαθήστε ξανά.</string>
     <string name="dialog_retry">Προσπαθήστε ξανά</string>
     <string name="dialog_scan_message">"%1$d. Συνδέστε τόσο την κινητή συσκευή όσο και την τηλεόρασή σας στο ίδιο δίκτυο Wi-Fi.
 
@@ -1280,14 +1279,16 @@
     <string name="notification_cast_desc">Γίνεται μετάδοση…</string>
     <string name="notification_channel_description">Επιλέξτε τους τύπους ειδοποιήσεων που θα συγχρονιστούν από άλλη συσκευή στη συσκευή Xiaomi σας</string>
     <string name="notification_channel_subtitle_ref_call">Κλήση από iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Κλήση από %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Μήνυμα Lark από %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Εισερχόμενη κλήση στο %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">Ειδοποίηση DingTalk στη συσκευή %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Ειδοποίηση Lark στη συσκευή %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">Μήνυμα QQ από iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">Μήνυμα QQ από %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">Ειδοποίηση QQ στη συσκευή %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Μήνυμα από iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Μήνυμα από %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS στο %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">Ειδοποίηση WeCom στη συσκευή %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">Μήνυμα WeChat από iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">Μήνυμα WeChat από %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">Ειδοποίηση WeChat στη συσκευή %1$s</string>
     <string name="notification_channel_title_name">Ειδοποιήσεις συγχρονισμένες στη Συσκευή Xiaomi</string>
     <string name="notification_desc_scanning">Αναζήτηση για κοντινές συσκευές…</string>
     <string name="notification_incoming_call_to_reply">Εισερχόμενη κλήση. Απαντήστε στο %1$s.</string>
@@ -1609,6 +1610,7 @@
     <string name="screen_projection">Μετάδοση</string>
     <string name="screen_projection_characteristics">Ειδικές λειτουργίες</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Μπορείτε να μεταβείτε στη Μετάδοση εφαρμογών στο Xiaomi HyperIsland για να μεταδώσετε την τρέχουσα εφαρμογή σε μια εξωτερική οθόνη ενώ χρησιμοποιείτε άλλες εφαρμογές στο τηλέφωνό σας</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Μπορείτε να μεταβείτε στη Μετάδοση εφαρμογών στο Xiaomi HyperIsland για να μεταδώσετε την τρέχουσα εφαρμογή σε μια εξωτερική οθόνη ενώ χρησιμοποιείτε άλλες εφαρμογές στο τάμπλετ σας</string>
     <string name="screen_projection_characteristics_cast_summary">Μεταδώστε τα περιεχόμενα της οθόνης σε μια κοντινή τηλεόραση</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Απενεργοποιήστε την οθόνη της κινητής συσκευής κατά τη μετάδοση για να εξοικονομήσετε μπαταρία και να αποφύγετε την υπερθέρμανση</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Απενεργοποιήστε την οθόνη κατά τη μετάδοση για να μειώσετε την κατανάλωση ρεύματος και την υπερθέρμανση</string>
