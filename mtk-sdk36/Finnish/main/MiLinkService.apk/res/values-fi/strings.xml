@@ -49,11 +49,13 @@
     <string name="app_casting">Sovelluksen näytönjako</string>
     <string name="app_name">Peilaus</string>
     <string name="app_name_call">Puhelin</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Viestit</string>
     <string name="app_name_vtcamera">Laitteiden välinen kamera</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1,0</string>
@@ -787,11 +789,8 @@ Katso ohjeita, jos yhteyden muodostamisessa on ongelmia."</string>
     <string name="dialog_recent_connected">Viimeaikainen</string>
     <string name="dialog_remote_authorization">Myönnä käyttöluvat laitteella %1$s</string>
     <string name="dialog_remote_authorization_content">Myönnä ilmoitusten käyttöluvat yhteenliitettävyyteen laitteella %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Salli ilmoitukset kohteesta %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">Sovelluksen %2$s asennus poistettiin aikaisemmin laitteelta %1$s. Sovellusilmoituksia ei voi vastaanottaa tähän laitteeseen. Muuta asetuksia ja yritä uudelleen.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Joidenkin sovellusten asennukset poistettiin aiemmin laitteelta %1$s, etkä vastaanota niiden ilmoituksia tähän laitteeseen. Määritä ilmoitusten synkronointi uudelleen.</string>
     <string name="dialog_reset_app_subscribe_multi">Muuta ilmoitusasetuksia</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">Sovellusten %2$s ja %3$s asennukset poistettiin aikaisemmin laitteelta %1$s. Sovellusilmoituksia ei voi vastaanottaa tähän laitteeseen. Muuta asetuksia ja yritä uudelleen.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">Sovellusten %2$s, %3$s ja %4$s asennukset poistettiin aikaisemmin laitteelta %1$s. Sovellusilmoituksia ei voi vastaanottaa tähän laitteeseen. Muuta asetuksia ja yritä uudelleen.</string>
     <string name="dialog_retry">Yritä uudelleen</string>
     <string name="dialog_scan_message">"%1$d. Yhdistä mobiililaite ja televisio samaan Wi-Fi-verkkoon.
 
@@ -1280,14 +1279,16 @@ Huomautus: Saat rutiinijärjestelmän varoituksen, kun otat esteettömyysominais
     <string name="notification_cast_desc">Peilataan…</string>
     <string name="notification_channel_description">Valitse ilmoitustyypit, jotka synkronoidaan toisesta laitteesta Xiaomi-laitteeseen</string>
     <string name="notification_channel_subtitle_ref_call">Puhelu iPhonesta</string>
-    <string name="notification_channel_subtitle_ref_call_1">Puhelu laitteesta %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Lark-viesti laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Saapuva puhelu laitteella %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">DingTalk-ilmoitus laitteella %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Lark-ilmoitus laitteella %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">QQ-viesti iPhonesta</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">QQ-viesti laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">QQ-ilmoitus laitteella %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Viesti iPhonesta</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Viesti laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">Tekstiviesti laitteella %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">WeCom-ilmoitus laitteella %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">WeChat-viesti iPhonesta</string>
-    <string name="notification_channel_subtitle_ref_xin_1">WeChat-viesti laitteesta %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">WeChat-ilmoitus laitteella %1$s</string>
     <string name="notification_channel_title_name">Ilmoitukset synkronoitu Xiaomi-laitteeseen</string>
     <string name="notification_desc_scanning">Etsitään lähistöllä olevia laitteita…</string>
     <string name="notification_incoming_call_to_reply">Saapuva puhelu. Vastaa laitteella %1$s.</string>
@@ -1609,6 +1610,7 @@ Lue ja hyväksy meidän &lt;a href=%1$s>Käyttäjäsopimus&lt;/a> ja &lt;a href=
     <string name="screen_projection">Näytönjako</string>
     <string name="screen_projection_characteristics">Erityisominaisuudet</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Voit peilata nykyisen sovelluksen ulkoiseen näyttöön vaihtamalla sovelluksen peilaukseen Xiaomi HyperIslandissa ja käyttää sitten samanaikaisesti muita puhelimen sovelluksia</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Voit peilata nykyisen sovelluksen ulkoiseen näyttöön vaihtamalla sovelluksen peilaukseen Xiaomi HyperIslandissa ja käyttää sitten samanaikaisesti muita tabletin sovelluksia</string>
     <string name="screen_projection_characteristics_cast_summary">Jaa näytön sisältö läheiseen televisioon</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Sammuta mobiililaitteen näyttö suoratoiston ajaksi säästääksesi akkua ja välttääksesi ylikuumenemisen</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Sammuta näyttö suoratoiston ajaksi vähentääksesi virrankulutusta ja ylikuumenemista</string>

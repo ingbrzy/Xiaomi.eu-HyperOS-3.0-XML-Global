@@ -49,11 +49,13 @@
     <string name="app_casting">ฉายภาพแอป</string>
     <string name="app_name">ฉายภาพ</string>
     <string name="app_name_call">โทรศัพท์</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">ข้อความ</string>
     <string name="app_name_vtcamera">กล้องข้ามอุปกรณ์</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@
     <string name="dialog_recent_connected">ล่าสุด</string>
     <string name="dialog_remote_authorization">ให้สิทธิ์บน %1$s</string>
     <string name="dialog_remote_authorization_content">ให้สิทธิ์การแจ้งเตือนแก่ การเชื่อมต่อระหว่างกัน บน %1$s ของคุณ</string>
-    <string name="dialog_reset_app_subscribe">อนุญาตการแจ้งเตือนจาก %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s ถูกถอนการติดตั้งออกจาก %1$s ของคุณแล้ว ไม่สามารถรับการแจ้งเตือนจากแอปบนอุปกรณ์นี้ได้ โปรดเปลี่ยนการตั้งค่าแล้วลองใหม่อีกครั้ง</string>
+    <string name="dialog_reset_app_subscribe_content_v2">แอปบางแอปถูกถอนการติดตั้งไปก่อนหน้านี้จาก %1$s ของคุณแล้ว และคุณจะไม่ได้รับการแจ้งเตือนจากแอปเหล่านั้นบนอุปกรณ์นี้ โปรดตั้งค่าการซิงค์การแจ้งเตือนอีกครั้ง</string>
     <string name="dialog_reset_app_subscribe_multi">เปลี่ยนการตั้งค่าการแจ้งเตือน</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s และ %3$s ถูกถอนการติดตั้งออกจาก %1$s ของคุณก่อนหน้านี้แล้ว ไม่สามารถรับการแจ้งเตือนจากแอปบนอุปกรณ์นี้ได้ โปรดเปลี่ยนการตั้งค่าแล้วลองใหม่อีกครั้ง</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s และ %4$s ถูกถอนการติดตั้งออกจาก %1$s ของคุณก่อนหน้านี้แล้ว ไม่สามารถรับการแจ้งเตือนจากแอปบนอุปกรณ์นี้ได้ โปรดเปลี่ยนการตั้งค่าแล้วลองใหม่อีกครั้ง</string>
     <string name="dialog_retry">ลองอีกครั้ง</string>
     <string name="dialog_scan_message">"%1$d เชื่อมต่อทั้งอุปกรณ์เคลื่อนที่และทีวีกับเครือข่าย Wi-Fi เดียวกัน
 
@@ -1280,14 +1279,16 @@
     <string name="notification_cast_desc">กำลังฉายภาพ…</string>
     <string name="notification_channel_description">เลือกประเภทการแจ้งเตือนที่จะซิงค์จากอุปกรณ์อื่นไปยังอุปกรณ์ Xiaomi ของคุณ</string>
     <string name="notification_channel_subtitle_ref_call">โทรจาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">โทรจาก %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">ข้อความ Lark จาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">สายเรียกเข้าบน %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">การแจ้งเตือน DingTalk บน %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">การแจ้งเตือน Lark บน %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">ข้อความ QQ จาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">ข้อความ QQ จาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">การแจ้งเตือน QQ บน %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">ข้อความจาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">ข้อความจาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS บน %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">การแจ้งเตือน WeCom บน %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">ข้อความ WeChat จาก iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">ข้อความ WeChat จาก %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">การแจ้งเตือน WeChat บน %1$s</string>
     <string name="notification_channel_title_name">การแจ้งเตือนที่ซิงค์กับอุปกรณ์ Xiaomi</string>
     <string name="notification_desc_scanning">กำลังค้นหาอุปกรณ์ใกล้เคียง…</string>
     <string name="notification_incoming_call_to_reply">สายเรียกเข้า รับสายบน %1$s</string>
@@ -1609,6 +1610,7 @@
     <string name="screen_projection">ฉายภาพ</string>
     <string name="screen_projection_characteristics">คุณลักษณะพิเศษ</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">คุณสามารถสลับไปใช้การส่งแอปใน Xiaomi HyperIsland เพื่อส่งแอปปัจจุบันไปยังจอภาพภายนอกในขณะที่ใช้แอปอื่นบนโทรศัพท์ของคุณได้</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">คุณสามารถสลับไปใช้การส่งแอปใน Xiaomi HyperIsland เพื่อส่งแอปปัจจุบันไปยังจอภาพภายนอกในขณะที่ใช้แอปอื่นบนแท็บเล็ตของคุณได้</string>
     <string name="screen_projection_characteristics_cast_summary">ส่งเนื้อหาหน้าจอไปยังทีวีใกล้เคียง</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">ปิดหน้าจออุปกรณ์เคลื่อนที่ขณะฉายภาพเพื่อประหยัดแบตเตอรี่และหลีกเลี่ยงความร้อนสูงเกินไป</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">ปิดหน้าจอขณะแคสต์เพื่อลดการใช้พลังงานและความร้อนสูงเกินไป</string>

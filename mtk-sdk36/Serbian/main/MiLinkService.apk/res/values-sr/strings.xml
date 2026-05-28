@@ -49,11 +49,13 @@
     <string name="app_casting">Емитовање апликација</string>
     <string name="app_name">Емитовање</string>
     <string name="app_name_call">Телефон</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Поруке</string>
     <string name="app_name_vtcamera">Камера за више уређаја</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@
     <string name="dialog_recent_connected">Недавно</string>
     <string name="dialog_remote_authorization">Дајте дозволе на %1$s</string>
     <string name="dialog_remote_authorization_content">Доделите дозволе за обавештења функцији Интерконекција на вашем %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Дозволите обавештења са %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">Апликација %2$s је претходно деинсталирана са вашег %1$s. Не можете примати обавештења о апликацијама на овом уређају. Промените подешавања и покушајте опет.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Неке апликације су претходно деинсталиране са вашег %1$s и нећете примати њихова обавештења на овом уређају. Поново подесите синхронизацију обавештења.</string>
     <string name="dialog_reset_app_subscribe_multi">Промени подешавања обавештења</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">Апликације %2$s и %3$s су претходно деинсталиране са вашег %1$s. Не можете примати обавештења апликација на овом уређају. Промените подешавања и покушајте опет.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">Апликације %2$s, %3$s и %4$s су претходно деинсталиране са вашег %1$s. Не можете примати обавештења апликација на овом уређају. Промените подешавања и покушајте опет.</string>
     <string name="dialog_retry">Покушај опет</string>
     <string name="dialog_scan_message">"%1$d. Повежите мобилни уређај и TV на исту Wi-Fi мрежу.
 
@@ -1280,14 +1279,16 @@
     <string name="notification_cast_desc">Емитовање…</string>
     <string name="notification_channel_description">Изаберите типове обавештења која ће се синхронизовати са другог уређаја на ваш Xiaomi уређај</string>
     <string name="notification_channel_subtitle_ref_call">Позив са iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Позив од %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Lark порука од %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Долазни позив на %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">DingTalk обавештење на %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Lark обавештење на %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">QQ порука са iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">QQ порука од %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">QQ обавештење на %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Порука са iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Порука од %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS на %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">WeCom обавештење на %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">WeChat порука са iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">WeChat порука од %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">WeChat обавештење на %1$s</string>
     <string name="notification_channel_title_name">Обавештења синхронизована са Xiaomi уређајем</string>
     <string name="notification_desc_scanning">Тражење уређаја у близини…</string>
     <string name="notification_incoming_call_to_reply">Долазни позив. Одговорите на %1$s.</string>
@@ -1609,6 +1610,7 @@
     <string name="screen_projection">Емитовање</string>
     <string name="screen_projection_characteristics">Специјалне функције</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Можете прећи на пребацивање апликација у Xiaomi HyperIsland-у да бисте пребацили тренутну апликацију на спољни екран док користите друге апликације на телефону.</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Можете прећи на пребацивање апликација у Xiaomi HyperIsland-у да бисте емитовали тренутну апликацију на спољни монитор док користите друге апликације на таблету.</string>
     <string name="screen_projection_characteristics_cast_summary">Емитуј садржај екрана на телевизору у близини</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Искључите екран мобилног уређаја током пребацивања да бисте уштедели батерију и избегли прегревање</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Искључите екран током емитовања да бисте смањили потрошњу енергије и прегревање</string>

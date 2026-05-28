@@ -49,11 +49,13 @@
     <string name="app_casting">App-strømming</string>
     <string name="app_name">Casting</string>
     <string name="app_name_call">Telefon</string>
+    <string name="app_name_dingtalk">DingTalk</string>
     <string name="app_name_feishu">Lark</string>
     <string name="app_name_qq">QQ</string>
     <string name="app_name_sms">Meldinger</string>
     <string name="app_name_vtcamera">Kamera på tvers av enheter</string>
     <string name="app_name_wechat">WeChat</string>
+    <string name="app_name_wework">WeCom</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Se hjelp hvis du har problemer med å koble til."</string>
     <string name="dialog_recent_connected">Nylige</string>
     <string name="dialog_remote_authorization">Gi tillatelser på %1$s</string>
     <string name="dialog_remote_authorization_content">Gi varlsingstillatelser for Sammenkobling på %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Tillat varslinger fra %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s har tidligere blitt avinstallert fra %1$s. Kan ikke motta appvarsler på denne enheten. Endre innstillingene og prøv igjen.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Noen apper ble tidligere avinstallert fra %1$s, og du vil ikke motta varslinger fra disse på enheten. Aktiver varslingssynkronisering på nytt.</string>
     <string name="dialog_reset_app_subscribe_multi">Endre varslingsinnstillinger</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s og %3$s har tidligere blitt avinstallert fra %1$s. Kan ikke motta appvarsler på denne enheten. Endre innstillingene og prøv igjen.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s og %4$s har tidligere blitt avinstallert fra %1$s. Kan ikke motta appvarsler på denne enheten. Endre innstillingene og prøv igjen.</string>
     <string name="dialog_retry">Prøv igjen</string>
     <string name="dialog_scan_message">"%1$d. Koble både mobilenheten og TV-en til det samme Wi-Fi-nettverket.
 
@@ -1280,14 +1279,16 @@ Merk: Du vil motta en rutinemessig systemadvarsel når du aktiverer tilgjengelig
     <string name="notification_cast_desc">Strømmer…</string>
     <string name="notification_channel_description">Velg varslingstyper som skal synkroniseres fra en annen enhet til Xiaomi-enheten din</string>
     <string name="notification_channel_subtitle_ref_call">Anrop fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_call_1">Anrop fra %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">Lark-melding fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Innkommende anrop på %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">DingTalk-varsling på %1$s</string>
+    <string name="notification_channel_subtitle_ref_lary_2">Lark-varsling på %1$s</string>
     <string name="notification_channel_subtitle_ref_mqq">QQ-melding fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">QQ-melding fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">QQ-varsling på %1$s</string>
     <string name="notification_channel_subtitle_ref_sms">Melding fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Melding fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS på %1$s</string>
+    <string name="notification_channel_subtitle_ref_wework_2">WeCom-varsling på %1$s</string>
     <string name="notification_channel_subtitle_ref_xin">WeChat-melding fra iPhone</string>
-    <string name="notification_channel_subtitle_ref_xin_1">WeChat-melding fra %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">WeChat-varsling på %1$s</string>
     <string name="notification_channel_title_name">Varsler synkronisert til Xiaomi-enhet</string>
     <string name="notification_desc_scanning">Søker etter enheter i nærheten…</string>
     <string name="notification_incoming_call_to_reply">Innkommende anrop. Svar på %1$s.</string>
@@ -1301,7 +1302,7 @@ Merk: Du vil motta en rutinemessig systemadvarsel når du aktiverer tilgjengelig
     <string name="notify_wifiap_dialog_negative">Skjønner</string>
     <string name="notify_wifiap_dialog_title">Konfigurer nettverk</string>
     <string name="ok_button">Skjønner</string>
-    <string name="onehop_mirror_guide_message_button">Greit</string>
+    <string name="onehop_mirror_guide_message_button">Skjønner</string>
     <string name="onehop_mirror_guide_message_text_1">Strøm telefonens skjerm til datamaskinen din med ett trykk.</string>
     <string name="onehop_mirror_guide_message_text_2">Velg bilder, videoer og andre filer fra Galleri eller Filbelhandler for å overføre til datamaskinen din.</string>
     <string name="onehop_mirror_guide_message_title">Sammenkobling</string>
@@ -1609,6 +1610,7 @@ Les og godta &lt;a href=%1$s>brukeravtalen&lt;/a> og &lt;a href=%2$s>personverne
     <string name="screen_projection">Strøm</string>
     <string name="screen_projection_characteristics">Spesialfunksjoner</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">Du kan bytte til app-strømming i Xiaomi HyperIsland for å strømme den aktuelle appen til en ekstern skjerm mens du bruker andre apper på telefonen</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">Du kan bytte til app-strømming i Xiaomi HyperIsland for å strømme den aktuelle appen til en ekstern skjerm mens du bruker andre apper på nettbrettet</string>
     <string name="screen_projection_characteristics_cast_summary">Strøm skjermens innhold til en TV i nærheten</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Slå av skjermen på mobilenheten under strømming for å spare batteri og unngå overoppheting</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Slå av skjermen mens strømming pågår for å redusere strømforbruk og overoppheting</string>

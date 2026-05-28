@@ -49,11 +49,13 @@
     <string name="app_casting">Programos perdavimas</string>
     <string name="app_name">Perdavimas</string>
     <string name="app_name_call">Telefonas</string>
+    <string name="app_name_dingtalk">„DingTalk“</string>
     <string name="app_name_feishu">„Lark“</string>
     <string name="app_name_qq">„QQ“</string>
     <string name="app_name_sms">Žinutės</string>
     <string name="app_name_vtcamera">Kelių įrenginių fotoaparatas</string>
     <string name="app_name_wechat">„WeChat“</string>
+    <string name="app_name_wework">„WeCom“</string>
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
@@ -787,11 +789,8 @@ Jei kyla prisijungimo problemų, peržiūrėkite pagalbą."</string>
     <string name="dialog_recent_connected">Vėliausias</string>
     <string name="dialog_remote_authorization">Suteikite leidimus įrenginyje %1$s</string>
     <string name="dialog_remote_authorization_content">Suteikite sujungiamumo funkcijai pranešimu leidimus savo įrenginyje %1$s.</string>
-    <string name="dialog_reset_app_subscribe">Leisti pranešimus iš %1$s</string>
-    <string name="dialog_reset_app_subscribe_content">%2$s anksčiau buvo pašalinta iš jūsų %1$s. Negalima gauti programėlės pranešimų šiame įrenginyje. Pakeiskite nustatymus ir bandykite dar kartą.</string>
+    <string name="dialog_reset_app_subscribe_content_v2">Kai kurios programos anksčiau buvo išdiegtos iš jūsų %1$s ir šiame įrenginyje negausite jų pranešimų. Dar kartą nustatykite pranešimų sinchronizavimą.</string>
     <string name="dialog_reset_app_subscribe_multi">Keisti pranešimų parametrus</string>
-    <string name="dialog_reset_app_subscribe_multi_2_content">%2$s ir %3$s anksčiau buvo pašalintos iš jūsų %1$s. Negalima gauti programėlių pranešimų šiame įrenginyje. Pakeiskite nustatymus ir bandykite dar kartą.</string>
-    <string name="dialog_reset_app_subscribe_multi_3_content">%2$s, %3$s ir %4$s anksčiau buvo pašalintos iš jūsų %1$s. Negalima gauti programėlių pranešimų šiame įrenginyje. Pakeiskite nustatymus ir bandykite dar kartą.</string>
     <string name="dialog_retry">Pakartoti</string>
     <string name="dialog_scan_message">"%1$d. Prijunkite savo mobilųjį įrenginį ir televizorių prie to paties „Wi-Fi“ tinklo.
 
@@ -1280,14 +1279,16 @@ Pastaba: įjungus pritaikymo neįgaliesiems funkcijas, sulauksite sistemos įsp�
     <string name="notification_cast_desc">Perduodama…</string>
     <string name="notification_channel_description">Pasirinkite pranešimų tipus, kurie bus sinchronizuojami iš kito įrenginio į jūsų „Xiaomi“ įrenginį</string>
     <string name="notification_channel_subtitle_ref_call">Skambutis iš „iPhone“</string>
-    <string name="notification_channel_subtitle_ref_call_1">Skambutis iš %1$s</string>
-    <string name="notification_channel_subtitle_ref_lary_1">„Lark“ žinutė iš %1$s</string>
+    <string name="notification_channel_subtitle_ref_call_2">Įeinantis skambutis %1$s</string>
+    <string name="notification_channel_subtitle_ref_dingtalk_2">„DingTalk“ pranešimas %1$s įrenginyje</string>
+    <string name="notification_channel_subtitle_ref_lary_2">„Lark“ pranešimas %1$s įrenginyje</string>
     <string name="notification_channel_subtitle_ref_mqq">„QQ“ pranešimas iš „iPhone“</string>
-    <string name="notification_channel_subtitle_ref_mqq_1">„QQ“ žinutė nuo %1$s</string>
+    <string name="notification_channel_subtitle_ref_mqq_2">„QQ“ pranešimas %1$s įrenginyje</string>
     <string name="notification_channel_subtitle_ref_sms">Pranešimas iš „iPhone“</string>
-    <string name="notification_channel_subtitle_ref_sms_1">Žinutė iš %1$s</string>
+    <string name="notification_channel_subtitle_ref_sms_2">SMS %1$s įrenginyje</string>
+    <string name="notification_channel_subtitle_ref_wework_2">„WeCom“ pranešimas %1$s įrenginyje</string>
     <string name="notification_channel_subtitle_ref_xin">„WeChat“ pranešimas iš „iPhone“</string>
-    <string name="notification_channel_subtitle_ref_xin_1">„WeChat“ žinutė nuo %1$s</string>
+    <string name="notification_channel_subtitle_ref_xin_2">„WeChat“ pranešimas %1$s įrenginyje</string>
     <string name="notification_channel_title_name">Pranešimai sinchronizuoti su „Xiaomi“ įrenginiu</string>
     <string name="notification_desc_scanning">Ieškoma netoliese esančių įrenginių…</string>
     <string name="notification_incoming_call_to_reply">Įeinantis skambutis. Atsakykite %1$s.</string>
@@ -1609,6 +1610,7 @@ Prieš pradėdami naudoti šią funkciją, perskaitykite ir sutikite su mūsų &
     <string name="screen_projection">Perdavimas</string>
     <string name="screen_projection_characteristics">Specialiosios funkcijos</string>
     <string name="screen_projection_characteristics_app_casting_summary_new">„Xiaomi HyperIsland“ galite perjungti į programų perdavimą, kad galėtumėte transliuoti dabartinę programą į išorinį monitorių, tuo pačiu metu naudodami kitas programas telefone</string>
+    <string name="screen_projection_characteristics_app_casting_summary_pad">„Xiaomi HyperIsland“ galite perjungti į programų perdavimą, kad galėtumėte perduoti dabartinę programą į išorinį monitorių, tuo pačiu metu naudodami kitas programas planšetiniame kompiuteryje</string>
     <string name="screen_projection_characteristics_cast_summary">Perduoti ekrano turinį į netoliese esantį televizorių</string>
     <string name="screen_projection_characteristics_hang_up_summary_new">Perduodami išjunkite mobiliojo įrenginio ekraną, kad taupytumėte akumuliatorių ir išvengtumėte perkaitimo</string>
     <string name="screen_projection_characteristics_hang_up_summary_pad">Kol vyksta perdavimas, išjunkite ekraną, kad sumažintumėte galios sunaudojimą ir išvengtumėte perkaitimo</string>
