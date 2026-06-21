@@ -80,7 +80,7 @@
     <string name="abnormal_consume_type_wakelock">Systemet kan inte gå i viloläge</string>
     <string name="about_autostart">Om starta automatiskt</string>
     <string name="about_autostart_gloabl">Om automatisk start i bakgrunden</string>
-    <string name="about_securitycenter_phne">Telefon till kundtjänst: 400-100-5678</string>
+    <string name="about_securitycenter_phne">Customer service hotline: 950816</string>
     <string name="about_securitycenter_title">Om Säkerhet</string>
     <string name="ac_enter_applock">Gå in i Applås</string>
     <string name="ac_firstUseApplock_subTitle">Använd ett bättre säkerhetsverktyg på systemnivå</string>
@@ -319,9 +319,6 @@
     <string name="app_install_intercept">Blockera installation</string>
     <string name="app_install_tips_go_to">Öppen</string>
     <string name="app_install_tips_install_success">Installerade %1$s</string>
-    <string name="app_isolate_func_close_tip">Om du stänger av den här funktionen kan viss appdata gå förlorad. Säkerhetskopiera viktig data först. Avaktivera nu?</string>
-    <string name="app_isolate_func_closing">Stänger av…</string>
-    <string name="app_isolate_func_opening">Slår på…</string>
     <string name="app_lock_face_error_to_try">Tryck på ansiktsikonen för att använda Ansiktsupplåsning</string>
     <string name="app_lock_pwd">Ange ditt lösenord för att låsa upp</string>
     <string name="app_lock_pwd_forget">Glömt lösenord</string>
@@ -331,8 +328,6 @@
     <string name="app_management_for_chain_start_desc">Förhindra den här appen från att ansluta till, eller att öppna andra appar</string>
     <string name="app_management_for_device_id">Dölj identifierare och förhindra spårning</string>
     <string name="app_management_for_device_id_desc">Förhindra den här appen från att få åtkomst till ditt telefonnummer och identifierande personlig information</string>
-    <string name="app_management_for_independent_storage">Oberoende lagring</string>
-    <string name="app_management_for_independent_storage_desc">Lagra appdata oberoende och förhindra att appen från att komma åt extern data</string>
     <string name="app_management_for_install">Blockera app-nedladdningar</string>
     <string name="app_management_for_install_desc">Förhindra den här appen från att ladda ner eller installera andra appar</string>
     <string name="app_management_measures">Apphantering</string>
@@ -1017,6 +1012,8 @@ Men, vissa av dina transaktioner är einte genomförda än. För att kunna åter
     <string name="button_to_setting">Inställningar</string>
     <string name="button_toll_correction">Klibrera saldo</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Ändra till nästa månad</string>
+    <string name="calendar_date_picker_a11y_prev_month">Ändra till föregående månad</string>
     <string name="call_address">Blockeringslista för område</string>
     <string name="call_all_number_block">Blockera alla samtal</string>
     <string name="call_and_contact">Samtal och kontakter</string>
@@ -2334,6 +2331,7 @@ men ökar också strömförbrukningen och tillåter din enhet att överhettas"</
     <string name="gb_predownload_noti_message">%2$1.2f GB av uppdaterat innehåll finns redan på den här enheten. Du kommer att kunna använda den så snart den nya versionen lanseras.</string>
     <string name="gb_predownload_noti_small_size_message">%2$1.2f MB av nya resurser nedladdade. Du kommer att kunna använda dem så snart den nya versionen är släppt.</string>
     <string name="gb_predownload_noti_title">Uppdaterad %s i bakgrunden</string>
+    <string name="gb_predownload_page_title">Förhämtning av resurspaket</string>
     <string name="gb_predownload_receive">Få belöningar</string>
     <string name="gb_predownload_receive_error">Ett nätverksfel uppstod. Försök igen.</string>
     <string name="gb_predownload_receive_max">Kan inte få fler belöningar på den här enheten</string>
@@ -3648,6 +3646,34 @@ Försök med en annan nätverkskabel. Om du misstänker att det är ett problem 
     <string name="password_type_underline"><u>Ändra lösenord</u></string>
     <string name="password_unlock">Lås upp med lösenord</string>
     <string name="password_xspace_forget_pattern_message">För att ändra lösenord till det Sekundära utrymmet måste du ta bort det nuvarande Sekundära utrymmet och skapa ett nytt.</string>
+    <string name="pb_abnormal_battery_overvoltage">Cell %1$d överspänning</string>
+    <string name="pb_abnormal_charge_high_temp">Hög temperatur (laddar)</string>
+    <string name="pb_abnormal_discharge_high_temp">Hög temperatur (laddar ur)</string>
+    <string name="pb_abnormal_empty">Inget här än</string>
+    <string name="pb_abnormal_error">Kunde inte ladda. Vänta en minut eller två och försök igen.</string>
+    <string name="pb_abnormal_guide_text">Vanliga problem och felsökning</string>
+    <string name="pb_abnormal_header_time">Tid</string>
+    <string name="pb_abnormal_header_type">Typ</string>
+    <string name="pb_abnormal_header_value">Värde</string>
+    <string name="pb_abnormal_loading">Vänta en stund…</string>
+    <string name="pb_abnormal_record">Historik</string>
+    <string name="pb_activity_title">Information om PowerBank</string>
+    <string name="pb_battery_health">Hälsa</string>
+    <string name="pb_battery_model">Modell</string>
+    <string name="pb_cell_code">Cell-id</string>
+    <string name="pb_cell_detail">Cell %1$d</string>
+    <string name="pb_cycle_count">Cykelantal</string>
+    <string name="pb_data_fetch_all_error">Kunde inte läsa data. Powerbanken kan vara frånkopplad eller så stöds den inte.</string>
+    <string name="pb_data_fetch_partial_error">Vissa objekt är inte tillgängliga på grund av en fördröjning eller en powerbank som inte stöds</string>
+    <string name="pb_manufacturer">Tillverkare</string>
+    <string name="pb_measure_point">Sensor %1$d</string>
+    <string name="pb_production_date">Produktionsdatum</string>
+    <string name="pb_remain_battery">Återstående batteri</string>
+    <string name="pb_section_abnormal_info">Onormal status</string>
+    <string name="pb_section_battery_info">Batteriinformation</string>
+    <string name="pb_section_temperature">Temperatur</string>
+    <string name="pb_temperature_tip">Den normala driftstemperaturen är %1$d °C – %2$d °C. Det är normalt med något högre temperaturer under kortare perioder. Om powerbanken blir för varm kommer den att sluta ladda och ladda ur.</string>
+    <string name="pb_voltage">Volttal</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Ladda snabbare med hög strömförbrukning, omvänd laddning. USB-anslutning används endast för laddning.</string>
     <string name="pc_18W_high_power_reverse_charging_summary_new">Ladda snabbare med omvänd laddning med hög strömförbrukning.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Omvänd laddning</string>
@@ -4320,6 +4346,7 @@ Ultra batterisparare"</string>
     <string name="power_dialog_performance_mode_checkbox">Växla till %d Hx uppdateringsintervall</string>
     <string name="power_dialog_super_save_msg">Ultra batterisparare begränsar de flesta kraftkrävande funktionerna och minskar enhetens prestanda. Detta ger telefonen en grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket). Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra batterisparare begränsar de flesta strömförbrukande funktionerna (t. ex. 5G-anslutning) som minskar din enhets prestanda. Endast samtal, meddelanden och nätverksanslutning kommer inte att påverkas. Slå på Ultra batterisparare?</string>
+    <string name="power_dialog_super_save_msg_fan_enable">Ultra batterisparare begränsar de flesta kraftkrävande funktionerna, stänger av kylfläkten, och minskar enhetens prestanda för att lämna grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket) så länge som möjligt. Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_msg_p2">Ultra batterisparare stänger av bakre skärmen och begränsar de flesta kraftkrävande funktionerna, minskar enhetens prestanda för att lämna grundläggande funktionalitet (t.ex. samtal, SMS och anslutning till nätverket) så länge som möjligt. Slå på Ultra batterisparare?</string>
     <string name="power_dialog_super_save_title">Ultra Batterisparare</string>
     <string name="power_idle">Telefon inaktiv</string>
@@ -5600,6 +5627,7 @@ För att använda detta ^1 med denna enhet, måste du konfigurera det först."</
     <string name="storage_format_success">Formaterat %1$s</string>
     <string name="storage_item_apk_name">APK:er</string>
     <string name="storage_item_appdata_name">Appar och data</string>
+    <string name="storage_item_archive_name">Arkiv</string>
     <string name="storage_item_audio_name">Ljud</string>
     <string name="storage_item_clean_name">Frigör utrymme</string>
     <string name="storage_item_doc_name">Dokument</string>
@@ -5706,6 +5734,7 @@ Formateringen kommer att radera befintligt innehåll på ^2. För att undvika f�
     <string name="superpower_progress_switch_home">Byter till mörkt tema</string>
     <string name="superpower_progress_title">Återstående tid</string>
     <string name="superpower_progress_turndown_brightness">Minskar skärmens ljusstyrka</string>
+    <string name="superpower_progress_turnoff_fan">Stänga av kylfläkt</string>
     <string name="superpower_progress_turnoff_items">Begränsa kraftkrävande aktivitet</string>
     <string name="superpower_progress_turnoff_process">Begränsa bakgrundsaktivitet</string>
     <string name="superpower_savemode_description_title">Ultrabatterispararen aktiverar följande restriktioner:</string>
@@ -5820,20 +5849,12 @@ Formateringen kommer att radera befintligt innehåll på ^2. För att undvika f�
     <string name="tc_sms_report_upload_when_net">Tack för din feedback!</string>
     <string name="tc_web_correct_error">Kunde inte att kalibrera</string>
     <string name="ten_percent_total_pkg">%s (10%% av månatlig data)</string>
-    <string name="terminal_flares_current_camera_mic">Använda den här enhetens kamera och mikrofon</string>
-    <string name="terminal_flares_current_camera_mic_screen">Använda den här enhetens kamera, mikrofon och skärm</string>
-    <string name="terminal_flares_recent_camera_mic">Använde nyligen den här enhetens kamera och mikrofon</string>
-    <string name="terminal_flares_recent_camera_mic_screen">Använde nyligen den här enhetens kamera, mikrofon och skärm</string>
     <string name="terminal_flars_current_camera">Använda den här enhetens kamera</string>
-    <string name="terminal_flars_current_record">Använda den här enhetens mikrofon</string>
     <string name="terminal_flars_current_screen">Få åtkomst till den här enhetens skärm</string>
     <string name="terminal_flars_current_screen_camera">Använda den här enhetens kamera och skärm</string>
-    <string name="terminal_flars_current_screen_mic">Använda den här enhetens skärm och mikrofon</string>
     <string name="terminal_flars_recent_camera">Använde nyligen den här enhetens kamera</string>
-    <string name="terminal_flars_recent_record">Använde nyligen den här enhetens mikrofon</string>
     <string name="terminal_flars_recent_screen">Fick nyligen åtkomst till den här enhetens skärm</string>
     <string name="terminal_flars_recent_screen_camera">Använde nyligen den här enhetens kamera och skärm</string>
-    <string name="terminal_flars_recent_screen_mic">Använde nyligen den här enhetens skärm och mikrofon</string>
     <string name="tether_custom_dialog_title">Gräns för mobildata</string>
     <string name="tether_limit_dialog_title">Gräns för mobildata</string>
     <string name="tether_limit_value_custom">Anpassad</string>
@@ -6270,6 +6291,7 @@ Den här funktionen kräver högre strömkonsumtion.
 Den här funktionen kommer inte att fungera när batterispararen eller ultra batterispararen är aktiverade."</string>
     <string name="videobox_hangup_tips_content">Din skärm kommer att låsas, men appen kommer fortfarande att köras i bakgrunden när denna funktion är på. Tryck på strömknappen för att slå på skärmen igen. Slå på denna funktion nu?</string>
     <string name="videobox_hangup_tips_title">Observera</string>
+    <string name="videobox_settings_dolby_vision_effect">Dynamisk videoförbättring</string>
     <string name="videobox_settings_line_location">Genvägsplacering</string>
     <string name="videobox_settings_line_location_desc">Visa genvägen vid kanten av skärmen</string>
     <string name="videobox_settings_line_location_left">Vänster</string>

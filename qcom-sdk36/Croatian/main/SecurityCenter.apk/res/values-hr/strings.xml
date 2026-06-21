@@ -80,7 +80,7 @@
     <string name="abnormal_consume_type_wakelock">Sustav se ne može ugasiti</string>
     <string name="about_autostart">O autom. pokretanju</string>
     <string name="about_autostart_gloabl">O automatskom pokretanju u pozadini</string>
-    <string name="about_securitycenter_phne">Hotline korisničke službe: 400–100–5678</string>
+    <string name="about_securitycenter_phne">Hotline korisničke službe: 950816</string>
     <string name="about_securitycenter_title">O Sigurnosti</string>
     <string name="ac_enter_applock">Uđi u Zaključavanje aplikacija</string>
     <string name="ac_firstUseApplock_subTitle">Koristite bolje sigurnosne alate na razini sustava</string>
@@ -319,9 +319,6 @@
     <string name="app_install_intercept">Blokiraj instalaciju</string>
     <string name="app_install_tips_go_to">Otvori</string>
     <string name="app_install_tips_install_success">%1$s uspješno instaliran</string>
-    <string name="app_isolate_func_close_tip">Ako isključite ovu značajku, neki podaci aplikacije mogu biti izgubljeni. Prvo napravite sigurnosnu kopiju važnih podataka. Isključiti?</string>
-    <string name="app_isolate_func_closing">Isključivanje…</string>
-    <string name="app_isolate_func_opening">Uključivanje…</string>
     <string name="app_lock_face_error_to_try">Dodirnite ikonu lica za korištenje otključavanja licem</string>
     <string name="app_lock_pwd">Unesite zaporku za otključavanje</string>
     <string name="app_lock_pwd_forget">Zaboravili ste zaporku</string>
@@ -331,8 +328,6 @@
     <string name="app_management_for_chain_start_desc">Spriječite ovu aplikaciju da se poveže ili otvara druge aplikacije</string>
     <string name="app_management_for_device_id">Sakrijte identifikatore i spriječite praćenje</string>
     <string name="app_management_for_device_id_desc">Spriječite ovoj aplikaciji pristup vašem telefonskom broju i osobnim podacima</string>
-    <string name="app_management_for_independent_storage">Nezavisna pohrana</string>
-    <string name="app_management_for_independent_storage_desc">Nezavisno pohranjujte podatke aplikacije i spriječite aplikacijama pristup nekim vanjskim podacima</string>
     <string name="app_management_for_install">Blokirajte preuzimanja aplikacija</string>
     <string name="app_management_for_install_desc">Spriječite ovoj aplikaciji preuzimanje ili instaliranje drugih aplikacija</string>
     <string name="app_management_measures">Upravljanje aplikacijom</string>
@@ -1017,6 +1012,8 @@ Međutim, neke od vaših transakcija još nisu dovršene. Kako biste mogli povu�
     <string name="button_to_setting">Postavke</string>
     <string name="button_toll_correction">Kalibriraj balans</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Prijelaz na sljedeći mjesec</string>
+    <string name="calendar_date_picker_a11y_prev_month">Pomicanje na prethodni mjesec</string>
     <string name="call_address">Lista blokiranih područja</string>
     <string name="call_all_number_block">Blokiraj sve pozive</string>
     <string name="call_and_contact">Pozivi i Kontakti</string>
@@ -2335,6 +2332,7 @@ ali isto tako povećava i potrošnju baterije, te može doći do pregrijavanja u
     <string name="gb_predownload_noti_message">%2$1.2f GB ažuriranog sadržaja već je na ovom uređaju. Moći ćete ga koristiti čim bude objavljena nova verzija.</string>
     <string name="gb_predownload_noti_small_size_message">%2$1.2f novih resursa preuzeto. Moći ćete ih koristiti čim bude objavljena nova verzija.</string>
     <string name="gb_predownload_noti_title">Uspješno ažurirano %s u pozadini</string>
+    <string name="gb_predownload_page_title">Prethodno preuzimanje paketa resursa</string>
     <string name="gb_predownload_receive">Dobijte nagrade</string>
     <string name="gb_predownload_receive_error">Došlo je do mrežne pogreške. Pokušajte ponovo.</string>
     <string name="gb_predownload_receive_max">Ne možete dobiti više nagrada na ovom uređaju</string>
@@ -3649,6 +3647,34 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="password_type_underline"><u>Promijeni zaporku</u></string>
     <string name="password_unlock">Otključajte zaporkom</string>
     <string name="password_xspace_forget_pattern_message">Da biste promijenili zaporku Drugog prostora, trebali biste izbrisati trenutni Drugi prostor i izraditi novi.</string>
+    <string name="pb_abnormal_battery_overvoltage">Prenapon ćelije %1$d</string>
+    <string name="pb_abnormal_charge_high_temp">Visoka temperatura (punjenje)</string>
+    <string name="pb_abnormal_discharge_high_temp">Visoka temperatura (pražnjenje)</string>
+    <string name="pb_abnormal_empty">Ovdje još nema ničega</string>
+    <string name="pb_abnormal_error">Nije moguće učitati. Pričekajte minutu dvije, pa pokušajte ponovo.</string>
+    <string name="pb_abnormal_guide_text">Uobičajeni problemi i rješavanje problema</string>
+    <string name="pb_abnormal_header_time">Vrijeme</string>
+    <string name="pb_abnormal_header_type">Vrsta</string>
+    <string name="pb_abnormal_header_value">Vrijednost</string>
+    <string name="pb_abnormal_loading">Pričekajte trenutak…</string>
+    <string name="pb_abnormal_record">Povijest</string>
+    <string name="pb_activity_title">Pojedinosti o prijenosnoj bateriji</string>
+    <string name="pb_battery_health">Zdravlje</string>
+    <string name="pb_battery_model">Model</string>
+    <string name="pb_cell_code">ID Ćelije</string>
+    <string name="pb_cell_detail">Ćelija %1$d</string>
+    <string name="pb_cycle_count">Broj ciklusa</string>
+    <string name="pb_data_fetch_all_error">Podaci nisu pročitani. Prijenosna baterija je možda isključena ili nije podržana.</string>
+    <string name="pb_data_fetch_partial_error">Neki artikli nisu dostupni zbog kašnjenja ili nepodržane prijenosne baterije.</string>
+    <string name="pb_manufacturer">Proizvođač</string>
+    <string name="pb_measure_point">Senzor %1$d</string>
+    <string name="pb_production_date">Datum proizvodnje</string>
+    <string name="pb_remain_battery">Preostalo baterije</string>
+    <string name="pb_section_abnormal_info">Nenormalni status</string>
+    <string name="pb_section_battery_info">Podaci o bateriji</string>
+    <string name="pb_section_temperature">Temperatura</string>
+    <string name="pb_temperature_tip">Normalna radna temperatura je %1$d°C–%2$d°C. Nešto više temperature u kratkim razdobljima su normalne. Ako se prijenosna baterija previše zagrije, prestat će se puniti i prazniti.</string>
+    <string name="pb_voltage">Napon</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Punite brže uz obrnuto punjenje velike snage. USB veza služi samo za punjenje.</string>
     <string name="pc_18W_high_power_reverse_charging_summary_new">Punite brže uz obrnuto punjenje velike snage.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Obrnuto punjenje</string>
@@ -4321,6 +4347,7 @@ Ultra štednje baterije"</string>
     <string name="power_dialog_performance_mode_checkbox">Prebacite se na %d Hz brzinu osvježavanja</string>
     <string name="power_dialog_super_save_msg">Ultra štednja baterije ograničava značajke koje najviše troše energiju i smanjuje izvedbu uređaja kako bi osnovne funkcije (npr. Pozivi, SMS poruke i povezivanje s mrežom) bile dostupne koliko je god moguće. Uključite Ultra štednju bateriju?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra štednja baterije ograničava većinu funkcija koje troše veliku količinu energije (npr. 5G veza) i tako smanjuje izvedbu uređaja. Samo pozivi, poruke i povezanost na mrežu ne će biti ograničeni. Uključiti Ultra štednju baterije?</string>
+    <string name="power_dialog_super_save_msg_fan_enable">Ultra štednja baterije ograničava većinu značajki koje troše energiju, isključuje ventilator za hlađenje i smanjuje performanse uređaja kako bi osnovne funkcionalnosti (npr. pozivi, SMS i povezivanje s mrežom) ostale dostupne što je dulje moguće. Uključiti Ultra štednju baterije?</string>
     <string name="power_dialog_super_save_msg_p2">Ultra štednja baterije isključuje stražnji zaslon i ograničava većinu značajki koje troše energiju, smanjujući performanse uređaja kako bi osnovne funkcionalnosti (npr. pozivi, SMS i povezivanje s mrežom) ostale dostupne što je dulje moguće. Uključiti Ultra štednju baterije?</string>
     <string name="power_dialog_super_save_title">Ultra štednja baterije</string>
     <string name="power_idle">Uređaj u mirovanju</string>
@@ -5601,6 +5628,7 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="storage_format_success">%1$s formatirana</string>
     <string name="storage_item_apk_name">APKs</string>
     <string name="storage_item_appdata_name">Aplikac. i podaci</string>
+    <string name="storage_item_archive_name">Arhivi</string>
     <string name="storage_item_audio_name">Zvuk</string>
     <string name="storage_item_clean_name">Oslobodite prostor</string>
     <string name="storage_item_doc_name">Dokumenti</string>
@@ -5707,6 +5735,7 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="superpower_progress_switch_home">Prebacivanje na Tamnu temu</string>
     <string name="superpower_progress_title">Preostalo vrijeme</string>
     <string name="superpower_progress_turndown_brightness">Smanjenje osvjetljenje zaslona</string>
+    <string name="superpower_progress_turnoff_fan">Iskljulivanje ventilatora za hlađenje</string>
     <string name="superpower_progress_turnoff_items">Ograničavanje aktivnosti koje troše energiju</string>
     <string name="superpower_progress_turnoff_process">Ograniči aktivnosti u pozadini</string>
     <string name="superpower_savemode_description_title">Ultra štednja baterije aktivira sljedeća ograničenja:</string>
@@ -5821,20 +5850,12 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="tc_sms_report_upload_when_net">Hvala Vam za Vašu povratnu informaciju!</string>
     <string name="tc_web_correct_error">Ne mogu kalibrirati</string>
     <string name="ten_percent_total_pkg">%s (10%% od mjes. podataka)</string>
-    <string name="terminal_flares_current_camera_mic">Korištenje fotoaparata i mikrofona ovog uređaja</string>
-    <string name="terminal_flares_current_camera_mic_screen">Korištenje fotoaparata, mikrofona i zaslona ovog uređaja</string>
-    <string name="terminal_flares_recent_camera_mic">Nedavno korišten fotoaparat i mikrofon ovog uređaja</string>
-    <string name="terminal_flares_recent_camera_mic_screen">Nedavno korišten fotoaparat, mikrofon i zaslon ovog uređaja</string>
     <string name="terminal_flars_current_camera">Korištenje kamere ovog uređaja</string>
-    <string name="terminal_flars_current_record">Korištenje mikrofona ovog uređaja</string>
     <string name="terminal_flars_current_screen">Pristup zaslonu ovog uređaja</string>
     <string name="terminal_flars_current_screen_camera">Korištenje kamere i zaslona ovog uređaja</string>
-    <string name="terminal_flars_current_screen_mic">Korištenje zaslona i mikrofona ovog uređaja</string>
     <string name="terminal_flars_recent_camera">Nedavno korištena kameru ovog uređaja</string>
-    <string name="terminal_flars_recent_record">Nedavno korišten mikrofon ovog uređaja</string>
     <string name="terminal_flars_recent_screen">Nedavno pristupljeno zaslonu ovog uređaja</string>
     <string name="terminal_flars_recent_screen_camera">Nedavno korištena kameru i zaslon ovog uređaja</string>
-    <string name="terminal_flars_recent_screen_mic">Nedavno korišten zaslon i mikrofon ovog uređaja</string>
     <string name="tether_custom_dialog_title">Ograničenje mobilnih podataka</string>
     <string name="tether_limit_dialog_title">Ograničenje mobilnih podataka</string>
     <string name="tether_limit_value_custom">Prilagođeno</string>
@@ -6254,9 +6275,9 @@ Uključivanjem jednog isključit ćete drugi."</string>
     <string name="vb_video_effects_spatial_summary_new">Doživite poboljšani osjećaj prostora i smjera za podržani zvuk kada koristite slušalice</string>
     <string name="vb_video_effects_srs_premium_sound">Zvuk</string>
     <string name="vb_video_super_division">Povećaj</string>
-    <string name="vb_video_super_division_desc">"Using this feature increases power consumption.
-This feature doesn't work with motion smoothing.
-Turning one of the features on will turn the other off."</string>
+    <string name="vb_video_super_division_desc">"Korištenje ove značajke povećava korištenje baterije.
+Ova značajka ne radi s umekšavanjem pokreta.
+Uključivanje jednu od ovih značajki ugasiti će drugu."</string>
     <string name="vb_video_super_division_tips">"Nije dovoljno jasno?
 Pokušajte povećati rezoluciju!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Poboljšane animacije su ugašene</string>
@@ -6271,6 +6292,7 @@ Ova značajka zahtijeva veću potrošnju energije.
 Ova značajka neće raditi kada je uključena Štednja baterije ili Ultra štednja baterije."</string>
     <string name="videobox_hangup_tips_content">Vaš će zaslon biti zaključan, ali aplikacija će i dalje raditi u pozadini kada je ova značajka uključena. Pritisnite Gumb za napajanje da biste ponovo uključili zaslon. Želite li sada uključiti tu značajku?</string>
     <string name="videobox_hangup_tips_title">Pažnja</string>
+    <string name="videobox_settings_dolby_vision_effect">Dinamičko poboljšanje videozapisa</string>
     <string name="videobox_settings_line_location">Lokacija prečice</string>
     <string name="videobox_settings_line_location_desc">Prikaži prečicu na rubu zaslona</string>
     <string name="videobox_settings_line_location_left">Lijevo</string>

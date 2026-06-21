@@ -53,7 +53,7 @@
     <string name="abnormal_consume_type_wakelock">سیستم نمی‌تواند به خواب برود</string>
     <string name="about_autostart">درباره راه‌اندازی خودکار</string>
     <string name="about_autostart_gloabl">درباره آغاز خودکار در پس‌زمینه</string>
-    <string name="about_securitycenter_phne">تلفن خدمات مشتریان: ۴۰۰۱۰۰۵۶۷۸</string>
+    <string name="about_securitycenter_phne">Customer service hotline: 950816</string>
     <string name="about_securitycenter_title">درباره امنیت</string>
     <string name="ac_enter_applock">ورود به قفل برنامه</string>
     <string name="ac_firstUseApplock_subTitle">استفاده از ابزارهای بهتر امنیتی سطح سیستم</string>
@@ -292,9 +292,6 @@
     <string name="app_install_intercept">مسدود کردن نصب</string>
     <string name="app_install_tips_go_to">بازکردن</string>
     <string name="app_install_tips_install_success">%1$s با موفقیت نصب شد</string>
-    <string name="app_isolate_func_close_tip">اگر این ویژگی را خاموش کنید، ممکن است برخی از داده‌های برنامه از بین برود. ابتدا از اطلاعات مهم نسخه پشتیبان تهیه کنید. خاموش شود؟</string>
-    <string name="app_isolate_func_closing">درحال خاموش کردن…</string>
-    <string name="app_isolate_func_opening">درحال روشن کردن…</string>
     <string name="app_lock_face_error_to_try">برای استفاده از گشودن قفل با چهره روی آیکون چهره بزنید</string>
     <string name="app_lock_pwd">گذرواژه خود را برای گشودن قفل وارد کنید</string>
     <string name="app_lock_pwd_forget">گذرواژه را فراموش کرده‌ام</string>
@@ -304,8 +301,6 @@
     <string name="app_management_for_chain_start_desc">این برنامه را از اتصال و یا باز کردن سایر برنامه‌ها باز می‌دارد</string>
     <string name="app_management_for_device_id">پنهان کردن شناساگرها و جلوگیری از دنبال شدن</string>
     <string name="app_management_for_device_id_desc">این برنامه را از دسترسی به شماره تلفن و اطلاعات شناسایی شخصی شما باز می‌دارد</string>
-    <string name="app_management_for_independent_storage">حافظه مستقل</string>
-    <string name="app_management_for_independent_storage_desc">داده‌های برنامه را به طور مستقل ذخیره کنید و از دسترسی برنامه به برخی از داده‌های خارجی جلوگیری کنید</string>
     <string name="app_management_for_install">مسدود کردن دانلودهای برنامه</string>
     <string name="app_management_for_install_desc">این برنامه را از دانلود یا نصب سایر برنامه‌ها باز می‌دارد</string>
     <string name="app_management_measures">مدیریت برنامه</string>
@@ -2219,6 +2214,7 @@
     <string name="gb_predownload_noti_message">%2$1.2f گیگابایت از محتوای به‌روز شده در این دستگاه وجود دارد. به محض انتشار نسخه جدید می‌توانید از آن استفاده کنید.</string>
     <string name="gb_predownload_noti_small_size_message">%2$1.2f مگابایت منبع جدید دانلود شد. به محض انتشار نسخه جدید، می‌توانید از آن‌ها استفاده کنید.</string>
     <string name="gb_predownload_noti_title">%s در پس‌زمینه با موفقیت به‌روز شد</string>
+    <string name="gb_predownload_page_title">پیش‌دانلود بسته‌ی منبع</string>
     <string name="gb_predownload_receive">دریافت پاداش‌ها</string>
     <string name="gb_predownload_receive_error">یک خطای شبکه رخ داد. دوباره تلاش کنید.</string>
     <string name="gb_predownload_receive_max">نمی‌توانید در این دستگاه پاداش بیشتری دریافت کنید</string>
@@ -3485,6 +3481,34 @@
     <string name="password_type_underline"><u>تغییر گذرواژه</u></string>
     <string name="password_unlock">گشودن قفل با گذرواژه</string>
     <string name="password_xspace_forget_pattern_message">برای تغییر گذرواژه فضای دوم، شما باید فضای دوم کنونی خود را حذف کرده و یکی دیگر بسازید.</string>
+    <string name="pb_abnormal_battery_overvoltage">اضافه‌ولتاژ سلول %1$d</string>
+    <string name="pb_abnormal_charge_high_temp">دمای بالا (در حین شارژ)</string>
+    <string name="pb_abnormal_discharge_high_temp">دمای بالا (در حین تخلیه شارژ)</string>
+    <string name="pb_abnormal_empty">اینجا هنوز چیزی وجود ندارد</string>
+    <string name="pb_abnormal_error">بارگذاری نشد. چند دقیقه صبر کرده و سپس دوباره تلاش کنید.</string>
+    <string name="pb_abnormal_guide_text">مشکلات متداول و رفع اشکال</string>
+    <string name="pb_abnormal_header_time">زمان</string>
+    <string name="pb_abnormal_header_type">نوع</string>
+    <string name="pb_abnormal_header_value">ارزش</string>
+    <string name="pb_abnormal_loading">چند لحظه صبر کنید…</string>
+    <string name="pb_abnormal_record">تاریخچه</string>
+    <string name="pb_activity_title">اطلاعات پاور بانک</string>
+    <string name="pb_battery_health">سلامت</string>
+    <string name="pb_battery_model">مدل</string>
+    <string name="pb_cell_code">شناسه سلول</string>
+    <string name="pb_cell_detail">سلول %1$d</string>
+    <string name="pb_cycle_count">تعداد چرخه</string>
+    <string name="pb_data_fetch_all_error">خواندن داده‌ها امکان‌پذیر نیست. ممکن است اتصال پاور بانک قطع شده باشد یا پاور بانک پشتیبانی نشود.</string>
+    <string name="pb_data_fetch_partial_error">برخی موارد به دلیل تأخیر یا عدم پشتیبانی از پاور بانک، در دسترس نیستند</string>
+    <string name="pb_manufacturer">تولیدکننده</string>
+    <string name="pb_measure_point">حسگر %1$d</string>
+    <string name="pb_production_date">تاریخ تولید</string>
+    <string name="pb_remain_battery">باتری باقی‌مانده</string>
+    <string name="pb_section_abnormal_info">وضعیت غیرعادی</string>
+    <string name="pb_section_battery_info">اطلاعات باتری</string>
+    <string name="pb_section_temperature">دما</string>
+    <string name="pb_temperature_tip">دمای عملیاتی طبیعی از %1$d درجه تا %2$d درجه سانتیگراد است. دماهای کمی بالاتر در دوره‌های کوتاه، عادی محسوب می‌شوند. اگر پاور بانک بیش‌ازحد داغ شود، شارژ کردن و خالی‌کردن شارژ متوقف می‌شود.</string>
+    <string name="pb_voltage">ولتاژ</string>
     <string name="pc_18W_high_power_reverse_charging_summary">با شارژ معکوس با قدرت بالا سریع‌تر شارژ کنید. اتصال USB فقط برای شارژ استفاده می‌شود.</string>
     <string name="pc_18W_high_power_reverse_charging_summary_new">با شارژ معکوس با قدرت بالا سریع‌تر شارژ کنید.</string>
     <string name="pc_18W_high_power_reverse_charging_title">شارژ معکوس</string>
@@ -4157,6 +4181,7 @@
     <string name="power_dialog_performance_mode_checkbox">تعویض به نرخ تازه‌سازی %d هرتز</string>
     <string name="power_dialog_super_save_msg">بهینه‌ساز باتری فوق‌العاده ویژگی‌های پر مصرف را محدود کرده و کارایی دستگاه شما را کاهش می‌دهد تا امکانات پایه‌ای (مانند تماس، پیامک و اتصال به اینترنت) را تا جایی که امکان دارد در دسترس نگه دارد. بهینه‌ساز باتری فوق‌العاده روشن شود؟</string>
     <string name="power_dialog_super_save_msg_5g">بهینه‌ساز فوق‌العاده باتری بیشتر ویژگی‌های پر مصرف (همچون اتصال 5G) که کارایی دستگاه شما را کاهش می‌دهند را محدود می‌کند. فقط تماس‌ها، پیام‌ها و اتصال شبکه تحت تأثیر قرار نمی‌گیرند. بهینه‌ساز فوق‌العاده روشن شود؟</string>
+    <string name="power_dialog_super_save_msg_fan_enable">بهینه‌ساز باتری فوق‌العاده ویژگی‌های پر مصرف را محدود کرده، پنکه خنک‌کننده را خاموش کرده و کارایی دستگاه شما را کاهش می‌دهد تا امکانات پایه‌ای (مانند تماس، پیامک و اتصال به اینترنت) را تا جایی که امکان دارد در دسترس نگه دارد. بهینه‌ساز فوق‌العاده باتری روشن شود؟</string>
     <string name="power_dialog_super_save_msg_p2">بهینه‌ساز باتری فوق‌العاده نمایشگر پشتی را خاموش کرده، ویژگی‌های پر مصرف را محدود کرده و کارایی دستگاه شما را کاهش می‌دهد تا امکانات پایه‌ای (مانند تماس، پیامک و اتصال به اینترنت) را تا جایی که امکان دارد در دسترس نگه دارد. بهینه‌ساز فوق‌العاده باتری روشن شود؟</string>
     <string name="power_dialog_super_save_title">بهینه‌ساز فوق‌العاده باتری</string>
     <string name="power_idle">بی‌کار بودن گوشی</string>
@@ -5434,6 +5459,7 @@
     <string name="storage_format_success">%1$s با موفقیت فرمت شد</string>
     <string name="storage_item_apk_name">APK ها</string>
     <string name="storage_item_appdata_name">برنامه‌ها و داده‌ها</string>
+    <string name="storage_item_archive_name">بایگانی</string>
     <string name="storage_item_audio_name">صدا</string>
     <string name="storage_item_clean_name">آزاد کردن فضا</string>
     <string name="storage_item_doc_name">اسناد</string>
@@ -5539,6 +5565,7 @@
     <string name="superpower_progress_switch_home">درحال تعویض به تم تاریک</string>
     <string name="superpower_progress_title">زمان باقی مانده</string>
     <string name="superpower_progress_turndown_brightness">کاهش روشنایی نمایشگر</string>
+    <string name="superpower_progress_turnoff_fan">درحال خاموش کردن پنکه خنک‌کننده</string>
     <string name="superpower_progress_turnoff_items">محدود کردن فعالیت پر مصرف برق</string>
     <string name="superpower_progress_turnoff_process">محدود کردن فعالیت پس‌زمینه</string>
     <string name="superpower_savemode_description_title">بهینه‌ساز فوق‌العاده باتری محدودیت‌های زیر را فعال می‌کند:</string>
@@ -5653,20 +5680,12 @@
     <string name="tc_sms_report_upload_when_net">از ارائه بازخورد شما متشکریم!</string>
     <string name="tc_web_correct_error">یکسان‌سازی نشد</string>
     <string name="ten_percent_total_pkg">%s (۱۰%% اینترنت همراه ماهانه)</string>
-    <string name="terminal_flares_current_camera_mic">در حال استفاده از دوربین و میکروفن این دستگاه</string>
-    <string name="terminal_flares_current_camera_mic_screen">استفاده از دوربین، میکروفن و صفحه این دستگاه</string>
-    <string name="terminal_flares_recent_camera_mic">به تازگی از دوربین و میکروفن این دستگاه استفاده کرده است</string>
-    <string name="terminal_flares_recent_camera_mic_screen">به تازگی از دوربین، میکروفن و صفحه این دستگاه استفاده کرده است</string>
     <string name="terminal_flars_current_camera">در حال استفاده از دوربین این دستگاه</string>
-    <string name="terminal_flars_current_record">در حال استفاده از میکروفن این دستگاه</string>
     <string name="terminal_flars_current_screen">در حال دسترسی به صفحه این دستگاه است</string>
     <string name="terminal_flars_current_screen_camera">استفاده از دوربین و صفحه این دستگاه</string>
-    <string name="terminal_flars_current_screen_mic">در حال استفاده از صفحه و میکروفن این دستگاه</string>
     <string name="terminal_flars_recent_camera">به تازگی از دوربین این دستگاه استفاده کرده است</string>
-    <string name="terminal_flars_recent_record">به تازگی از میکروفن این دستگاه استفاده کرده است</string>
     <string name="terminal_flars_recent_screen">به تازگی به صفحه این دستگاه دسترسی پیدا کرد</string>
     <string name="terminal_flars_recent_screen_camera">به تازگی از دوربین و صفحه این دستگاه استفاده کرده است</string>
-    <string name="terminal_flars_recent_screen_mic">به تازگی از صفحه و میکروفن این دستگاه استفاده کرده است</string>
     <string name="tether_custom_dialog_title">سقف اینترنت همراه</string>
     <string name="tether_limit_dialog_title">سقف اینترنت همراه</string>
     <string name="tether_limit_value_custom">سفارشی</string>
@@ -6084,9 +6103,9 @@
     <string name="vb_video_effects_spatial_summary_new">هنگام استفاده از هدفون، حس بهتر فضا و جهت را برای صدای پشتیبانی شده تجربه کنید</string>
     <string name="vb_video_effects_srs_premium_sound">صدا</string>
     <string name="vb_video_super_division">افزایش وضوح</string>
-    <string name="vb_video_super_division_desc">"Using this feature increases power consumption.
-This feature doesn't work with motion smoothing.
-Turning one of the features on will turn the other off."</string>
+    <string name="vb_video_super_division_desc">"استفاده از این ویژگی، مصرف باتری را افزایش می‌دهد.
+این ویژگی با «هموارسازی حرکت» کار نمی‌کند.
+فعال‌کردن یکی از این ویژگی‌ها باعث غیرفعال شدن ویژگی دیگر می‌شود."</string>
     <string name="vb_video_super_division_tips">"به اندازه کافی واضح نیستید؟
  مقیاس وضوح را امتحان کنید!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">انیمیشن‌های بهینه شده خاموشند</string>
@@ -6101,6 +6120,7 @@ Turning one of the features on will turn the other off."</string>
 این ویژگی هنگام روشن بودن بهینه‌ساز باتری یا بهینه‌ساز فوق‌العاده باتری کار نمی‌کند."</string>
     <string name="videobox_hangup_tips_content">صفحه شما قفل خواهد شد، اما برنامه هنگام روشن بودن این ویژگی در پس‌زمینه همچنان اجرا خواهد شد. برای روشن کردن دوباره صفحه، دکمه روشن/خاموش را فشار دهید. این ویژگی روشن شود؟</string>
     <string name="videobox_hangup_tips_title">توجه</string>
+    <string name="videobox_settings_dolby_vision_effect">بهبود دینامیک ویدئو</string>
     <string name="videobox_settings_line_location">موقعیت میان‌بر</string>
     <string name="videobox_settings_line_location_desc">نمایش میان‌بر در لبه نمایشگر</string>
     <string name="videobox_settings_line_location_left">چپ</string>
