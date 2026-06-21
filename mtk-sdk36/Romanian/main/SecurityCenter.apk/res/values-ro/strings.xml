@@ -80,7 +80,7 @@
     <string name="abnormal_consume_type_wakelock">Sistemul nu se poate dezactiva</string>
     <string name="about_autostart">Despre pornire automată</string>
     <string name="about_autostart_gloabl">Despre pornirea automată în fundal</string>
-    <string name="about_securitycenter_phne">Linia de asistență pentru clienți: 400–100–5678</string>
+    <string name="about_securitycenter_phne">Linia de asistență pentru clienți: 950816</string>
     <string name="about_securitycenter_title">Despre Securitate</string>
     <string name="ac_enter_applock">Introduceți Blocare aplicație</string>
     <string name="ac_firstUseApplock_subTitle">Folosește instrumente mai bune de securitate la nivel de sistem</string>
@@ -319,9 +319,6 @@
     <string name="app_install_intercept">Blochează instalarea</string>
     <string name="app_install_tips_go_to">Deschide</string>
     <string name="app_install_tips_install_success">Instalat %1$s cu succes</string>
-    <string name="app_isolate_func_close_tip">Dacă dezactivați această funcție, unele date din aplicație se pot pierde. Mai întâi, creați copie de rezervă pentru datele importante. Dezactivați acum?</string>
-    <string name="app_isolate_func_closing">Se oprește…</string>
-    <string name="app_isolate_func_opening">Se pornește…</string>
     <string name="app_lock_face_error_to_try">Atingeți pictograma facială pentru a utiliza Deblocarea facială</string>
     <string name="app_lock_pwd">Introduceți parola pentru a debloca</string>
     <string name="app_lock_pwd_forget">Parola uitată</string>
@@ -331,8 +328,6 @@
     <string name="app_management_for_chain_start_desc">Împiedică această aplicație să se conecteze la sau să deschidă alte aplicații</string>
     <string name="app_management_for_device_id">Ascundeți identificatorii și împiedicați urmărirea</string>
     <string name="app_management_for_device_id_desc">Împiedicați această aplicație să vă acceseze numărul de telefon și informațiile de identificare personală</string>
-    <string name="app_management_for_independent_storage">Spațiu de stocare independent</string>
-    <string name="app_management_for_independent_storage_desc">Stocați datele aplicației în mod independent și împiedicați aplicația să acceseze unele date externe</string>
     <string name="app_management_for_install">Blocați descărcări de aplicații</string>
     <string name="app_management_for_install_desc">Împiedicați această aplicație să descarce sau să instaleze alte aplicații</string>
     <string name="app_management_measures">Gestionarea aplicație</string>
@@ -1017,6 +1012,8 @@ După aceasta, vom înceta colectarea și informațiile dvs. personale și vom �
     <string name="button_to_setting">Setări</string>
     <string name="button_toll_correction">Calibrați soldul</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="calendar_date_picker_a11y_prev_month">Treceți la luna anterioară</string>
     <string name="call_address">Lista neagră zonă</string>
     <string name="call_all_number_block">Blocați toate apelurile</string>
     <string name="call_and_contact">Apeluri și contacte</string>
@@ -2334,6 +2331,7 @@ dar crește și consumul de energie și permite supraîncălzirea dispozitivului
     <string name="gb_predownload_noti_message">%2$1.2f GB de conținut actualizat este deja pe acest dispozitiv. Îl vei putea folosi imediat ce noua versiune va fi lansată.</string>
     <string name="gb_predownload_noti_small_size_message">%2$1.2f MB de resurse noi descărcate. Le veți putea folosi de îndată ce noua versiune va fi lansată.</string>
     <string name="gb_predownload_noti_title">S-a actualizat %s în fundal cu succes</string>
+    <string name="gb_predownload_page_title">Predescărcare pachet de resurse</string>
     <string name="gb_predownload_receive">Obține recompense</string>
     <string name="gb_predownload_receive_error">A apărut o eroare de rețea. Încercați din nou.</string>
     <string name="gb_predownload_receive_max">Nu se pot obține mai multe recompense pe acest dispozitiv</string>
@@ -3646,6 +3644,34 @@ Citiți intrucțiunile care însoțesc routerul și restaurați routerul la set�
     <string name="password_type_underline"><u>Schimbă parola</u></string>
     <string name="password_unlock">Deblocați prin parolă</string>
     <string name="password_xspace_forget_pattern_message">Pentru a schimba parola la Al doilea spațiu, ar trebui să ștergeți Al doilea spațiu curent și să creați un nou spațiu.</string>
+    <string name="pb_abnormal_battery_overvoltage">Supratensiune a celulei %1$d</string>
+    <string name="pb_abnormal_charge_high_temp">Temperatură ridicată (încărcare)</string>
+    <string name="pb_abnormal_discharge_high_temp">Temperatură ridicată (descărcare)</string>
+    <string name="pb_abnormal_empty">Nimic încă aici</string>
+    <string name="pb_abnormal_error">Nu s-a putut încărca. Așteptați un minut sau două și încercați din nou.</string>
+    <string name="pb_abnormal_guide_text">Probleme frecvente și depanare</string>
+    <string name="pb_abnormal_header_time">Oră</string>
+    <string name="pb_abnormal_header_type">Tip</string>
+    <string name="pb_abnormal_header_value">Valoare</string>
+    <string name="pb_abnormal_loading">Doar o secundă…</string>
+    <string name="pb_abnormal_record">Istoric</string>
+    <string name="pb_activity_title">Detalii despre bateria externă</string>
+    <string name="pb_battery_health">Sănătate</string>
+    <string name="pb_battery_model">Model</string>
+    <string name="pb_cell_code">Celulă ID</string>
+    <string name="pb_cell_detail">Celulă %1$d</string>
+    <string name="pb_cycle_count">Număr de cicluri</string>
+    <string name="pb_data_fetch_all_error">Nu s-au putut citi datele. Este posibil ca bateria externă să fie deconectată sau să nu fie compatibilă.</string>
+    <string name="pb_data_fetch_partial_error">Unele elemente nu sunt disponibile din cauza unei întârzieri sau a unei baterii externă necompatibilă</string>
+    <string name="pb_manufacturer">Producător</string>
+    <string name="pb_measure_point">Senzor %1$d</string>
+    <string name="pb_production_date">Data producției</string>
+    <string name="pb_remain_battery">Baterie rămasă</string>
+    <string name="pb_section_abnormal_info">Stare anormală</string>
+    <string name="pb_section_battery_info">Informații baterie</string>
+    <string name="pb_section_temperature">Temperatură</string>
+    <string name="pb_temperature_tip">Temperatura normală de funcționare este între %1$d°C și %2$d°C. Temperaturile ușor mai ridicate pentru perioade scurte de timp sunt normale. Dacă bateria externă se încălzește prea tare, se va opri din încărcare și descărcare.</string>
+    <string name="pb_voltage">Voltaj</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Încărcați mai repede cu încărcarea inversă de mare putere. Conexiunea USB este folosită doar pentru încărcare.</string>
     <string name="pc_18W_high_power_reverse_charging_summary_new">Încărcați mai rapid cu încărcare inversă de mare putere.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Încărcare inversă</string>
@@ -4318,6 +4344,7 @@ Economizator baterie ultra"</string>
     <string name="power_dialog_performance_mode_checkbox">Schimbă rata de reîmprospătare la %d Hz</string>
     <string name="power_dialog_super_save_msg">Economizatorul de baterie ultra restricționează cele mai multe funcții consumatoare de energie și reduce performanța dispozitivului pentru a lăsa funcționalitatea de bază (de exemplu, apeluri, SMS și conectarea la rețea) disponibilă cât mai mult posibil.Porniți economizorul de baterie ultra?</string>
     <string name="power_dialog_super_save_msg_5g">Economizatorul de baterie ultra restricționează cele mai multe funcții consumatoare de baterie (de exemplu conectivitate 5G) scăzând performanțele dispozitivului? Doar apelurile, mesajele și conectivitatea rețelei nu vor fi afectate. Activați economizatorul de baterie ultra?</string>
+    <string name="power_dialog_super_save_msg_fan_enable">Economizator baterie ultra restricționează majoritatea funcțiilor care consumă multă energie, oprește ventilatorul de răcire și reduce performanța dispozitivului pentru a menține funcționalitățile de bază (de exemplu: apeluri, SMS-uri și conectarea la rețea) disponibile cât mai mult timp posibil. Activați Economizator baterie ultra?</string>
     <string name="power_dialog_super_save_msg_p2">Economizator baterie ultra dezactivează afișajul din spate și restricționează majoritatea funcțiilor consumatoare de energie, reducând performanța dispozitivului pentru a menține funcționalitățile de bază (de exemplu: apeluri, SMS-uri și conectarea la rețea) disponibile cât mai mult timp posibil. Activați Economizator baterie ultra?</string>
     <string name="power_dialog_super_save_title">Economizator baterie ultra</string>
     <string name="power_idle">Telefon inactiv</string>
@@ -5598,6 +5625,7 @@ Pentru a utiliza acest ^1 cu acest dispozitiv, trebuie să setați mai întâi."
     <string name="storage_format_success">Formatat %1$s cu succes</string>
     <string name="storage_item_apk_name">APK-uri</string>
     <string name="storage_item_appdata_name">Aplicații și date</string>
+    <string name="storage_item_archive_name">Arhive</string>
     <string name="storage_item_audio_name">Audio</string>
     <string name="storage_item_clean_name">Eliberează spațiu</string>
     <string name="storage_item_doc_name">Documente</string>
@@ -5704,6 +5732,7 @@ Formatarea va șterge conținutul existent pe ^2. Pentru a evita pierderea conț
     <string name="superpower_progress_switch_home">Se schimbă la Tema întunecată</string>
     <string name="superpower_progress_title">Timp rămas</string>
     <string name="superpower_progress_turndown_brightness">Scade luminozitatea ecranului</string>
+    <string name="superpower_progress_turnoff_fan">Se dezactivează ventilatorul de răcire</string>
     <string name="superpower_progress_turnoff_items">Restricționarea activității consumatoare de energie</string>
     <string name="superpower_progress_turnoff_process">Restricționează activitatea de fundal</string>
     <string name="superpower_savemode_description_title">Economizator baterie ultra activează următoarele restricții:</string>
@@ -5818,20 +5847,12 @@ Formatarea va șterge conținutul existent pe ^2. Pentru a evita pierderea conț
     <string name="tc_sms_report_upload_when_net">Mulțumim pentru feedback!</string>
     <string name="tc_web_correct_error">Nu s-a putut calibra</string>
     <string name="ten_percent_total_pkg">%s (10%% din traficul lunar)</string>
-    <string name="terminal_flares_current_camera_mic">Utilizarea camerei și microfonului acestui dispozitiv</string>
-    <string name="terminal_flares_current_camera_mic_screen">Utilizarea camerei, microfonului și ecranului acestui dispozitiv</string>
-    <string name="terminal_flares_recent_camera_mic">Ai folosit recent camera și microfonul acestui dispozitiv</string>
-    <string name="terminal_flares_recent_camera_mic_screen">Ai folosit recent camera, microfonul și ecranul acestui dispozitiv</string>
     <string name="terminal_flars_current_camera">Folosind camera acestui dispozitiv</string>
-    <string name="terminal_flars_current_record">Utilizarea microfonului acestui dispozitiv</string>
     <string name="terminal_flars_current_screen">Accesarea ecranului acestui dispozitiv</string>
     <string name="terminal_flars_current_screen_camera">Folosind camera acestui dispozitiv și ecranul</string>
-    <string name="terminal_flars_current_screen_mic">Utilizarea ecranului și microfonului acestui dispozitiv</string>
     <string name="terminal_flars_recent_camera">Recent a fost utilizat camera dispozitivului</string>
-    <string name="terminal_flars_recent_record">Ai folosit recent microfonul acestui dispozitiv</string>
     <string name="terminal_flars_recent_screen">Recent a fost accesat ecranul acestui dispozitiv</string>
     <string name="terminal_flars_recent_screen_camera">Recent a fost utilizat camera dispozitivului și ecranul</string>
-    <string name="terminal_flars_recent_screen_mic">Ai folosit recent ecranul și microfonul acestui dispozitiv</string>
     <string name="tether_custom_dialog_title">Limită date mobile</string>
     <string name="tether_limit_dialog_title">Limită date mobile</string>
     <string name="tether_limit_value_custom">Personalizați</string>
@@ -6251,9 +6272,9 @@ Pornirea unuia îl va dezactiva pe celălalt."</string>
     <string name="vb_video_effects_spatial_summary_new">Experimentați un sentiment îmbunătățit de spațiu și direcție pentru sunetul compatibil atunci când utilizați căștile</string>
     <string name="vb_video_effects_srs_premium_sound">Sunet</string>
     <string name="vb_video_super_division">Mărește rezoluția</string>
-    <string name="vb_video_super_division_desc">"Using this feature increases power consumption.
-This feature doesn't work with motion smoothing.
-Turning one of the features on will turn the other off."</string>
+    <string name="vb_video_super_division_desc">"Utilizarea acestei funcții crește consumul de energie.
+Această funcție nu funcționează cu mișcări netede.
+Activarea uneia dintre funcții o va dezactiva pe cealaltă."</string>
     <string name="vb_video_super_division_tips">"Nu este suficient de clar?
 Încercați să măriți rezoluția!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Animațiile îmbunătățite sunt oprite</string>
@@ -6268,6 +6289,7 @@ Această funcție necesită un consum mai mare de energie.
 Această funcție nu va funcționa când Economizator baterie sau Economizator baterie ultra sunt activate."</string>
     <string name="videobox_hangup_tips_content">Ecranul dvs. va fi blocat, dar aplicația va fi în continuare în fundal atunci când această funcție este activată. Apăsați butonul de pornire pentru a porni din nou ecranul. Activați această funcție acum?</string>
     <string name="videobox_hangup_tips_title">Atenție</string>
+    <string name="videobox_settings_dolby_vision_effect">Îmbunătățire dinamică a videoclipurilor</string>
     <string name="videobox_settings_line_location">Locația pentru comanda rapidă</string>
     <string name="videobox_settings_line_location_desc">Afișați comanda rapidă la marginea ecranului</string>
     <string name="videobox_settings_line_location_left">Stânga</string>
