@@ -80,7 +80,7 @@
     <string name="abnormal_consume_type_wakelock">Systemet kan ikke lukke ned</string>
     <string name="about_autostart">Om autostart</string>
     <string name="about_autostart_gloabl">Om autostart i baggrunden</string>
-    <string name="about_securitycenter_phne">Kundeservicehotline: 400–100–5678</string>
+    <string name="about_securitycenter_phne">Kundeservicehotline: 950816</string>
     <string name="about_securitycenter_title">Om Sikkerhed</string>
     <string name="ac_enter_applock">Indtast app-lås</string>
     <string name="ac_firstUseApplock_subTitle">Brug bedre sikkerhedsværktøjer på systemniveau</string>
@@ -319,9 +319,6 @@
     <string name="app_install_intercept">Bloker installation</string>
     <string name="app_install_tips_go_to">Åbn</string>
     <string name="app_install_tips_install_success">%1$s er nu installeret</string>
-    <string name="app_isolate_func_close_tip">Hvis du deaktiverer denne funktion, kan nogle appdata gå tabt. Tag backup af vigtige data først. Deaktivér nu?</string>
-    <string name="app_isolate_func_closing">Deaktivering…</string>
-    <string name="app_isolate_func_opening">Aktivering…</string>
     <string name="app_lock_face_error_to_try">Tryk på ansigtsikonet for at bruge ansigtsoplåsning</string>
     <string name="app_lock_pwd">Indtast adgangskode for at låse op</string>
     <string name="app_lock_pwd_forget">Glemt adgangskode</string>
@@ -331,8 +328,6 @@
     <string name="app_management_for_chain_start_desc">Forhindr denne app i at tilslutte til eller at åbne andre apps</string>
     <string name="app_management_for_device_id">Skjul identifikatorer og forhindr sporing</string>
     <string name="app_management_for_device_id_desc">Forhindr denne app i at få adgang til dit telefonnummer og personligt identificerende oplysninger</string>
-    <string name="app_management_for_independent_storage">Uafhængig lagerplads</string>
-    <string name="app_management_for_independent_storage_desc">Gem appdata uafhængigt, så appen ikke får adgang til nogle eksterne data</string>
     <string name="app_management_for_install">Blokér app-downloads</string>
     <string name="app_management_for_install_desc">Forhindr denne app i at downloade eller installere andre apps</string>
     <string name="app_management_measures">App-administration</string>
@@ -1017,6 +1012,8 @@ Nogle af dine transaktioner er dog ikke fuldført endnu. For at kunne trække sa
     <string name="button_to_setting">Indstillinger</string>
     <string name="button_toll_correction">Kalibrer saldo</string>
     <string name="byteShort">B</string>
+    <string name="calendar_date_picker_a11y_next_month">Skift til næste måned</string>
+    <string name="calendar_date_picker_a11y_prev_month">Skift til forrige måned</string>
     <string name="call_address">Områdeblokeringsliste</string>
     <string name="call_all_number_block">Bloker alle opkald</string>
     <string name="call_and_contact">Opkald og kontakter</string>
@@ -2334,6 +2331,7 @@ men øger også strømforbruget og bevirker, at din enhed kan blive overophedet"
     <string name="gb_predownload_noti_message">%2$1.2f GB opdateret indhold findes allerede på denne enhed. Du vil kunne bruge det, så snart den nye version er udgivet.</string>
     <string name="gb_predownload_noti_small_size_message">%2$1.2f MB af nye ressourcer er downloadet. Du kan bruge dem, så snart den nye version er frigivet.</string>
     <string name="gb_predownload_noti_title">%s blev opdateret i baggrunden</string>
+    <string name="gb_predownload_page_title">Forhåndsdownload af ressourcepakke</string>
     <string name="gb_predownload_receive">Få belønninger</string>
     <string name="gb_predownload_receive_error">Der opstod en netværksfejl. Prøv igen.</string>
     <string name="gb_predownload_receive_max">Kan ikke få flere belønninger på denne enhed</string>
@@ -3648,6 +3646,34 @@ Prøv at anvende et andet ethernet-kabel til at forbinde med din router. Hvis du
     <string name="password_type_underline"><u>Skift adgangskode</u></string>
     <string name="password_unlock">Lås op via adgangskode</string>
     <string name="password_xspace_forget_pattern_message">Hvis du vil ændre adgangskoden til det andet rum, skal du slette dit aktuelle andet rum og oprette et nyt.</string>
+    <string name="pb_abnormal_battery_overvoltage">Celle %1$d overspænding</string>
+    <string name="pb_abnormal_charge_high_temp">Høj temperatur (opladning)</string>
+    <string name="pb_abnormal_discharge_high_temp">Høj temperatur (afladning)</string>
+    <string name="pb_abnormal_empty">Intet her endnu</string>
+    <string name="pb_abnormal_error">Kunne ikke indlæse. Vent et minut eller to, og prøv så igen.</string>
+    <string name="pb_abnormal_guide_text">Almindelige problemer og fejlfinding</string>
+    <string name="pb_abnormal_header_time">Tid</string>
+    <string name="pb_abnormal_header_type">Type</string>
+    <string name="pb_abnormal_header_value">Værdi</string>
+    <string name="pb_abnormal_loading">Lige et øjeblik…</string>
+    <string name="pb_abnormal_record">Historik</string>
+    <string name="pb_activity_title">Powerbank-oplysninger</string>
+    <string name="pb_battery_health">Sundhed</string>
+    <string name="pb_battery_model">Model</string>
+    <string name="pb_cell_code">Celle-id</string>
+    <string name="pb_cell_detail">Celle %1$d</string>
+    <string name="pb_cycle_count">Antal opladningscyklusser</string>
+    <string name="pb_data_fetch_all_error">Kunne ikke læse data. Powerbanken er muligvis frakoblet eller ikke understøttet.</string>
+    <string name="pb_data_fetch_partial_error">Nogle elementer er ikke tilgængelige på grund af forsinkelse eller en powerbank, der ikke understøttes</string>
+    <string name="pb_manufacturer">Producent</string>
+    <string name="pb_measure_point">Sensor %1$d</string>
+    <string name="pb_production_date">Produktionsdato</string>
+    <string name="pb_remain_battery">Resterende batteri</string>
+    <string name="pb_section_abnormal_info">Unormal status</string>
+    <string name="pb_section_battery_info">Batterioplysninger</string>
+    <string name="pb_section_temperature">Temperatur</string>
+    <string name="pb_temperature_tip">Den normale driftstemperatur er %1$d °C – %2$d °C. Lidt højere temperaturer i korte perioder er normalt. Hvis powerbanken bliver for varm, stopper den med at oplade og aflade.</string>
+    <string name="pb_voltage">Spænding</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Oplad hurtigere med omvendt opladning ved højt strømforbrug. USB-forbindelsen bruges kun til opladning.</string>
     <string name="pc_18W_high_power_reverse_charging_summary_new">Oplad hurtigere med højtydende omvendt opladning.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Omvendt opladning</string>
@@ -4320,6 +4346,7 @@ slås fra"</string>
     <string name="power_dialog_performance_mode_checkbox">Skift til %d Hz opdateringsfrekvens</string>
     <string name="power_dialog_super_save_msg">Ultrabatteribesparelse begrænser de mest energiforbrugende funktioner og sænker din enheds præstation for at holde basisfunktionerne (f.eks. opkald, SMS og oprette forbindelse til netværk) tilgængelige længst muligt. Tænd for ultrabatteribesparelse?</string>
     <string name="power_dialog_super_save_msg_5g">Ultra batterisparer begrænser de funktioner, der bruger mest energi (f.eks. 5G-forbindelse) og mindsker din enheds præstation. Kun opkald, beskeder og netværksforbindelser påvirkes ikke. Tænd for Ultra batterisparer?</string>
+    <string name="power_dialog_super_save_msg_fan_enable">Ultra-batterisparer begrænser de fleste strømkrævende funktioner, slår køleblæseren fra og reducerer enhedens ydeevne for at bevare grundlæggende funktioner (f.eks. opkald, SMS og netværksforbindelse) så længe som muligt. Slå Ultra-batterisparer til?</string>
     <string name="power_dialog_super_save_msg_p2">Ultra-batterisparer lukker bagskærmen og begrænser de fleste funktioner, der bruger meget strøm. Det nedsætter enhedens ydeevne for at bevare de mest grundlæggende funktioner (f.eks. opkald, SMS og netværksforbindelse) så længe som muligt. Slå Ultra-batterisparer til?</string>
     <string name="power_dialog_super_save_title">Ultrabatteribesparelse</string>
     <string name="power_idle">Telefon inaktiv</string>
@@ -5600,6 +5627,7 @@ For at bruge dette ^1 med denne enhed skal du først konfigurere det."</string>
     <string name="storage_format_success">Formaterede %1$s</string>
     <string name="storage_item_apk_name">"APK'er"</string>
     <string name="storage_item_appdata_name">Apps og data</string>
+    <string name="storage_item_archive_name">Arkiv</string>
     <string name="storage_item_audio_name">Lyd</string>
     <string name="storage_item_clean_name">Frigør plads</string>
     <string name="storage_item_doc_name">Dokumenter</string>
@@ -5706,6 +5734,7 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="superpower_progress_switch_home">Skifter til mørkt tema</string>
     <string name="superpower_progress_title">Tilbageværende tid</string>
     <string name="superpower_progress_turndown_brightness">Formindsk skærmens lysstyrke</string>
+    <string name="superpower_progress_turnoff_fan">Slår køleblæseren fra</string>
     <string name="superpower_progress_turnoff_items">Begrænser strømforbrugende aktivitet</string>
     <string name="superpower_progress_turnoff_process">Begræns baggrundsaktivitet</string>
     <string name="superpower_savemode_description_title">Ultra-batterisparer aktiverer følgende begrænsninger:</string>
@@ -5820,20 +5849,12 @@ Formatering vil slette eksisterende indhold på ^2. For at undgå at miste indho
     <string name="tc_sms_report_upload_when_net">Tak for din feedback!</string>
     <string name="tc_web_correct_error">Kunne ikke kalibrere</string>
     <string name="ten_percent_total_pkg">%s (10%% af månedlig)</string>
-    <string name="terminal_flares_current_camera_mic">Bruger denne enheds kamera og mikrofon</string>
-    <string name="terminal_flares_current_camera_mic_screen">Bruger denne enheds kamera, mikrofon og skærm</string>
-    <string name="terminal_flares_recent_camera_mic">Har for nylig brugt denne enheds kamera og mikrofon</string>
-    <string name="terminal_flares_recent_camera_mic_screen">Har for nylig brugt denne enheds kamera, mikrofon og skærm</string>
     <string name="terminal_flars_current_camera">Brug af denne enheds kamera</string>
-    <string name="terminal_flars_current_record">Bruger af denne enheds mikrofon</string>
     <string name="terminal_flars_current_screen">Adgang til denne enheds skærm</string>
     <string name="terminal_flars_current_screen_camera">Brug af denne enheds kamera og skærm</string>
-    <string name="terminal_flars_current_screen_mic">Bruger denne enheds skærm og mikrofon</string>
     <string name="terminal_flars_recent_camera">Har for nylig brugt denne enheds kamera</string>
-    <string name="terminal_flars_recent_record">Har for nylig brugt denne enheds mikrofon</string>
     <string name="terminal_flars_recent_screen">Har for nylig haft adgang til denne enheds skærm</string>
     <string name="terminal_flars_recent_screen_camera">Har for nylig brugt denne enheds kamera og skærm</string>
-    <string name="terminal_flars_recent_screen_mic">Har for nylig brugt denne enheds skærm og mikrofon</string>
     <string name="tether_custom_dialog_title">Grænse for mobildata</string>
     <string name="tether_limit_dialog_title">Grænse for mobildata</string>
     <string name="tether_limit_value_custom">Brugertilpasset</string>
@@ -6253,9 +6274,9 @@ Hvis du tænder for den ene, deaktiveres den anden."</string>
     <string name="vb_video_effects_spatial_summary_new">Oplev forbedret følelse af rumlighed og retning af understøttet lyd, når du bruger hovedtelefoner</string>
     <string name="vb_video_effects_srs_premium_sound">Lyd</string>
     <string name="vb_video_super_division">Øg opløsningen</string>
-    <string name="vb_video_super_division_desc">"Using this feature increases power consumption.
-This feature doesn't work with motion smoothing.
-Turning one of the features on will turn the other off."</string>
+    <string name="vb_video_super_division_desc">"Brug af denne funktion øger strømforbruget.
+Denne funktion fungerer ikke med bevægelsesudjævning.
+Når der tændes for én funktion, slukkes den anden."</string>
     <string name="vb_video_super_division_tips">"Ikke tydelig nok?
 Prøv at øge opløsningen!"</string>
     <string name="vb_vison_dynamic_enhance_close_toast">Forbedrede animationer er deaktiveret</string>
@@ -6270,6 +6291,7 @@ Denne funktion kræver mere strømforbrug.
 Funktionen deaktiveres, når Batterisparer eller Ultra-batterisparer er slået til."</string>
     <string name="videobox_hangup_tips_content">Din skærm bliver låst, men appen kører stadig i baggrunden, når denne funktion er tændt. Tryk på afbryderen for at tænde for skærmen igen. Tænd for denne funktion nu?</string>
     <string name="videobox_hangup_tips_title">Bemærk</string>
+    <string name="videobox_settings_dolby_vision_effect">Dynamisk videoforbedring</string>
     <string name="videobox_settings_line_location">Genvejsplacering</string>
     <string name="videobox_settings_line_location_desc">Vis genvejen ved kanten af skærmen</string>
     <string name="videobox_settings_line_location_left">Venstre</string>
