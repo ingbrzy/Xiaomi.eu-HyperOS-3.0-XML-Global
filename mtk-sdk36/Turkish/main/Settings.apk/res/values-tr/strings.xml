@@ -550,6 +550,7 @@ Tasarımlar nasıl gidiyor diye sormak istedim. Yeni balonları üretmeye başla
     <string name="activity_title_root_note">Root erişimi hakkında</string>
     <string name="ad_service">Reklam hizmetleri</string>
     <string name="adapt_embedded">Paralel pencereler mevcut</string>
+    <string name="adapted_game_title">Desteklenen oyunlar</string>
     <string name="adaptive_brightness_main_switch_title">Otomatik parlaklık özelliğini kullan</string>
     <string name="adaptive_connectivity_main_switch_title">Uyarlanabilir bağlantıyı kullanın</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Ağ bağlantılarını otomatik yöneterek pil ömrünü uzatın.</string>
@@ -658,6 +659,7 @@ Yöneticiniz, ağ etkinliği ve cihazınızın konum bilgileri de dahil olmak ü
     <string name="advanced_battery_title">Pil kullanımı</string>
     <string name="advanced_gesture">Özel hareketler</string>
     <string name="advanced_screen_paper_mode_title">Okuma modu</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Göz rahatlığı</string>
     <string name="advanced_section_header">Genel</string>
     <string name="advanced_security_title">Gelişmiş</string>
@@ -3580,6 +3582,7 @@ Ayrıca birçok uygulama; tarihlerin, sayıların ve birimlerin biçimini belirl
     <string name="disable_overlays">Donanım katmanlarını devre dışı bırak</string>
     <string name="disable_overlays_summary">"Ekran oluştururken her zaman GPU'yu kullan"</string>
     <string name="disable_password_warning">Ekran kilidini kapattıktan sonra kayıtlı parmak izleri ve yüz verileri silinecektir. Parmak izinizi veya yüz tanımayı kullanarak cihazın kilidini açamayacak veya notlarda veya galeride bunları kullanamayacaksınız.</string>
+    <string name="disable_permission_text_by_hyper">Bu uygulama değerlendirmeyi geçemedi ve şu an kısıtlı</string>
     <string name="disable_phantom_process_monitor_summary">Uygulamadaki alt işlemlerin sistem kaynağı kullanımıyla ilgili kısıtlamaları devre dışı bırakın</string>
     <string name="disable_phantom_process_monitor_title">Alt işlem kısıtlamalarını devre dışı bırak</string>
     <string name="disable_power_key_long_press_under_keyguard">Güç tuşu menüsünü kapat</string>
@@ -3896,7 +3899,7 @@ Oluşturulan kayıtları Dosya Yöneticisi'nde görüntüleyebilirsiniz."</strin
     <string name="enable_adb_wireless">Kablosuz hata ayıklama</string>
     <string name="enable_adb_wireless_summary">Kablosuz bağlandığında hata ayıklama modu</string>
     <string name="enable_angle_as_system_driver">"Deneysel: ANGLE'ı etkinleştirin"</string>
-    <string name="enable_angle_as_system_driver_summary">"Uyarı: ANGLE'ı, varsayılan OpenGL ES sürücüsü olarak etkinleştirin. Bu özellik deneme aşamasında olduğu için bazı kamera ve video uygulamalarıyla uyumlu olmayabilir. Anahtarı açmadan önce lütfen cihaz verilerinizi yedekleyin"</string>
+    <string name="enable_angle_as_system_driver_summary">"Uyarı: ANGLE'ı, varsayılan OpenGL ES sürücüsü olarak etkinleştirin. Bu özellik deneme aşamasında olduğu için bazı kamera ve video uygulamalarıyla uyumlu olmayabilir."</string>
     <string name="enable_auto_data_switch_dialog_message">Cihazınızın, daha uygun olduğunda mobil veri için %1$s adlı operatöre otomatik olarak geçmesine izin verin.</string>
     <string name="enable_auto_data_switch_dialog_title">Mobil veri kapsamı iyileştirilsin mi?</string>
     <string name="enable_compatibility">Uygulamayı ölçeklendir</string>
@@ -4182,12 +4185,14 @@ Cihazınızı yeniden başlatıp tekrar deneyin."</string>
     <string name="eyes_protect_certification_summary_5">"Xiaomi'nin özel SVM telafisi, daha rahat bir görüntüleme deneyimi için SVM'yi herhangi bir parlaklıkta 1'in altında tutar"</string>
     <string name="eyes_protect_certification_summary_5_extended">Göz yorgunluğunu azaltmaya yardımcı olmak için tüm parlaklık seviyelerinde düşük SVM titremesi</string>
     <string name="eyes_protect_certification_summary_6">Düşük ışık koşullarında ve gece kullanımında donanım tabanlı göz komforu. Göz yorgunluğunu azaltmaya ve sağlıklı bir uyku düzenini desteklemeye yardımcı olur.</string>
+    <string name="eyes_protect_certification_summary_9">Düşük Mavi Işık (Donanım Çözümü), Sirkadiyen Dostu, Titreşimsiz ve Akıllı Göz Bakımı sertifikalı</string>
     <string name="eyes_protect_certification_title_1">Çin Kalite Sertifikasyon Merkezi</string>
     <string name="eyes_protect_certification_title_2">Üçlü TÜV Rheinland Göz Konforu Sertifikası</string>
     <string name="eyes_protect_certification_title_3">Daha doğal dairesel polarizasyon</string>
     <string name="eyes_protect_certification_title_4">Titreşimsiz DC karartma</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM karartma</string>
     <string name="eyes_protect_certification_title_6">%d nit minimum parlaklık</string>
+    <string name="eyes_protect_certification_title_9">Dörtlü TÜV Rheinland Göz Konforu Sertifikası</string>
     <string name="eyes_protect_game_title">Oyun sırasında göz komforu</string>
     <string name="face_data_apply_for_category_title">Yüz verilerini kullanarak kilit aç</string>
     <string name="face_data_apply_for_keyguard_title">Kilit ekranı</string>
@@ -4609,7 +4614,7 @@ Xiaomi, yenilikçi teknoloji sayesinde dünyanın her yerindeki herkesin daha iy
     <string name="footer_description_full_screen_intent">Bu uygulamanın, cihaz kilitlendiğinde ekranın tamamını kaplayan bildirimleri görüntülemesine izin verin. Uygulama, alarmları, gelen aramaları veya diğer acil bildirimleri görüntülemek için tam ekran bildirimlerini kullanabilir. Bu ayar, arka planda çalışıyorken yeni pencereleri açma iznine bağlıdır ve yalnızca bu izin verildiğinde kullanılabilir.</string>
     <string name="footer_learn_more_content_description">%1$s hakkında ek bilgi</string>
     <string name="forbidden_network">(yasak)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Onarım modu açık. Şu anda şifre ayarlanmıyor veya değiştirilemiyor.</string>
     <string name="forbidden_switch_apn_string">Seçili APN ayarları mevcut ağ türü ile eşleşmiyor</string>
     <string name="force_allow_on_external">Harici birimdeki uygulamalara izin vermeye zorla</string>
     <string name="force_allow_on_external_summary">Manifest değerlerinden bağımsız olarak uygulamaları harici depolamaya yazmak için uygun hale getirir</string>
@@ -4728,6 +4733,7 @@ Bu özellik yalnızca sistem navigasyonu hareketlere ayarlı olduğunda çalış
     <string name="friday_first_day_of_week">Cuma</string>
     <string name="friday_short">Cum</string>
     <string name="friday_shortest">Cum</string>
+    <string name="frp_status_activated">Fabrika ayarlarına sıfırlama koruması açık</string>
     <string name="fsg_mistake_touch_summary">Hareketlerin, tam ekran oyunlar ve videolar gibi bazı sahnelerde etkinleştirilmesi için iki defa kaydırılması gereklidir</string>
     <string name="fsg_mistake_touch_title">Hareketler için iki kez kontrol et</string>
     <string name="full_screen_display">Tam ekran modu</string>
@@ -4750,6 +4756,7 @@ Otomatik yedeklemeyi açtığınızda, cihaz ve uygulama verileri periyodik olar
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Oyun Denetleyici</string>
     <string name="game_delta_action_moments">Malzemelerin yağmalanması ve başarılı tahliye</string>
+    <string name="game_eyecare_empty_list_tip">Burada henüz hiçbir şey yok</string>
     <string name="game_king_of_glory_moments">Öldürmeler, kazanmalar ve diğer önemli anlar</string>
     <string name="game_parachute_moments">Paraşütle atlama</string>
     <string name="game_peacekeeper_elites_moments">Paraşütle atlama ve savaş</string>
@@ -6774,6 +6781,7 @@ Ek ayarlara erişmek için devam edin."</string>
     <string name="miui_master_clear_summary">Bu cihazdaki tüm verileri siler</string>
     <string name="miui_more_special_feature">Yeni özellikleri keşfet</string>
     <string name="miui_nfc_dialog_message">"NFC'yi kapatırsanız Mi Pay, ulaşım kartı, anahtar kartı ve daha fazlasını içeren NFC özelliklerini kullanamayacaksınız. Yine de kapatılsın mı?"</string>
+    <string name="miui_nfc_dialog_message_gl">"NFC'yi kapatırsanız NFC etiketlerini okuma ve yazma, ulaşım kartlarını kullanma ve daha fazlası dahil olmak üzere NFC özelliklerini kullanamayacaksınız. Yine de kapatılsın mı?"</string>
     <string name="miui_nfc_dialog_negative">Kapat</string>
     <string name="miui_nfc_dialog_positive">İptal</string>
     <string name="miui_nfc_dialog_title">"NFC'yi kapatma"</string>
@@ -7353,6 +7361,12 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="next_button_label">Sonraki</string>
     <string name="next_label">İleri</string>
     <string name="next_page_content_description">Sonraki</string>
+    <string name="nfc_ac_btn_no">İptal</string>
+    <string name="nfc_ac_btn_yes">Ayarla</string>
+    <string name="nfc_ac_confirm_ask">Erişim kartı varsayılan kart olarak ayarlansın mı?</string>
+    <string name="nfc_ac_confirm_desc">Telefonunuzu dokundurarak kapıları açmak için erişim kartını varsayılan dokundurma kartı olarak ayarlayın.</string>
+    <string name="nfc_ac_summary">Telefonunuzu bir erişim kartı olarak kullanın ve tek dokunuşla desteklenen kapıların kilidini açın</string>
+    <string name="nfc_ac_title">Erişim kartı</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Kullanmak için önce bir ödeme uygulaması yükleyin</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">NFC kapalı olduğundan kullanılamıyor</string>
     <string name="nfc_category_title">NFC</string>
@@ -7377,7 +7391,7 @@ Herhangi bir kullanıcı bu cihazda var olan tüm kullanıcı profilleri adına 
     <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Varsayılan olarak ayarla</string>
     <string name="nfc_payment_btn_text_update">Güncelle</string>
-    <string name="nfc_payment_default">Ödeme varsayılanı</string>
+    <string name="nfc_payment_default">Varsayılan kartı seçin</string>
     <string name="nfc_payment_default_not_set">Ayarlanmadı</string>
     <string name="nfc_payment_favor_default">Her zaman varsayılan uygulamayı kullan</string>
     <string name="nfc_payment_favor_open">Diğer ödeme uygulaması açıldığında varsayılan uygulamayı değiştir</string>
@@ -7446,6 +7460,8 @@ Bu seçenek, varsayılan ödeme uygulamanız olan %2$s uygulamasının yerini al
     <string name="night_display_temperature_title">Yoğunluk</string>
     <string name="night_display_text">Gece Işığı, ekranınızın renk tonunu amber yapar. Bu renk tonlaması, ekranınızı loş ışıkta daha iyi görmenizi sağlar ve daha kolay uyumanıza yardımcı olabilir.</string>
     <string name="night_display_title">Gece Işığı</string>
+    <string name="night_eye_protection_summary">Uykuya daldıktan sonra otomatik olarak parlaklığı azaltarak gece uyandığınızda cihazınıza bakarken rahat etmenizi sağlar.</string>
+    <string name="night_eye_protection_title">Gece göz konforu</string>
     <string name="night_light_main_switch_title">"Gece Işığı'nı kullan"</string>
     <string name="nls_feature_modes_settings_summary">"Modlar'ı yönetebilir, etkinleştirebilir ve ilgili ayarları değiştirebilir."</string>
     <string name="nls_feature_read_summary">Kişiler, mesajlar ve fotoğraflar gibi kişisel bilgiler de dahil olmak üzere bildirimlerinizi okuyabilir.</string>
@@ -8134,6 +8150,7 @@ Bu hizmeti kullanmadan önce %s sözleşmesini okuyun ve kabul edin."</string>
     <string name="popup_window">Kayan bildirimleri kısıtla</string>
     <string name="post_dsds_reboot_notification_text">SIM ayarlarını güncellemek için dokunun</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">"%1$s SIM'inizin aktif olduğundan emin olun."</string>
+    <string name="post_reset_google_verification">Fabrika ayarlarına sıfırladıktan sonra şifre belirlemek için bu cihazda daha önce kullanılan Google Hesabı ile oturum açın.</string>
     <string name="power_autorun_apps_empty">Burada uygulama yok</string>
     <string name="power_autorun_empty">Kullanılabilir uygulama yok</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8700,6 +8717,8 @@ Cihazınızı bilgisayara bağlayan veya cihazınıza kötü amaçlı uygulamala
     <string name="proxy_url_title">"PAC URL'si: "</string>
     <string name="proxy_warning_limited_support">HTTP proxy, tarayıcı tarafından kullanılır, ancak diğer uygulamalar tarafından kullanılmayabilir.</string>
     <string name="pss_profiling_disabled">Bellek kullanımının profilini çıkarma devre dışı bırakıldı</string>
+    <string name="qingcai_eye_care_summery">Ekrandaki içeriği otomatik olarak algılayın ve zararlı mavi ışığı filtreleyerek oyun renklerini canlı tutun</string>
+    <string name="qingcai_eye_care_title">Göz konforu (canlı)</string>
     <string name="qr_code_content_description">QR kodu</string>
     <string name="quick_button_check_app_activity_title">Hızlı başlatma için uygulama seçin</string>
     <string name="quick_button_check_app_not_found_txt">Sonuç bulunamadı</string>
@@ -8758,7 +8777,7 @@ Cihazınızı bilgisayara bağlayan veya cihazınıza kötü amaçlı uygulamala
     <string name="reading_data">Bilgi alınıyor…</string>
     <string name="really_remove_account_message">Bu hesabı kaldırmak mesajların, kişilerin ve diğer verilerin tümünü telefondan silecektir.</string>
     <string name="really_remove_account_title">Hesap kaldırılsın mı?</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver">Sistem OpenGL ES sürücüsünü değiştirmek için yeniden başlatma gerekir. Lütfen yeniden başlatmadan önce cihaz verilerinizi yedekleyin. Yeniden başlatma işlemi başarısız olursa cihazı geri yüklemek için fabrika ayarlarına sıfırlamanız gerekir.</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Sistem OpenGL ES sürücüsünü değiştirmek için yeniden başlatma gerekir</string>
     <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">Serbest biçimli pencerelerin ikincil ekranlarda etkinleştirilmesi için yeniden başlatma gerekir.</string>
     <string name="reboot_dialog_enable_freeform_support">Serbest biçimli desteğin etkinleştirilmesi için yeniden başlatma gerekir.</string>
     <string name="reboot_dialog_override_desktop_mode">Serbest biçimli pencerelerin kullanım durumunun güncellenmesi için yeniden başlatma gerekir.</string>
@@ -10873,6 +10892,8 @@ Daha hızlı bir ^3 kullanmayı deneyin veya bunun yerine bu ^4 birimini taşın
     <string name="sunlight_mode">Güneş ışığı modu</string>
     <string name="sunlight_mode_boost_summary">Parlak koşullarda parlaklık aralığını genişletin ve parlaklığı otomatik ayarlayın! Bu özellik cihazınızın ısınmasına ve dah fazla güç tüketmesine neden olacaktır.</string>
     <string name="sunlight_mode_summary">Ekranın çok karanlık olmasını engellemek için güçlü ortam ışığında parlaklığı ayarlayın</string>
+    <string name="super_sensory_night_vision_summery">Düşük ışıkta kontrastı iyileştirerek ayrıntıların net kalmasını ve daha iyi bir gece oyun deneyimi yaşamanızı sağlar</string>
+    <string name="super_sensory_night_vision_title">Gelişmiş gece görüşü</string>
     <string name="super_voice_assist">Süper Mi AI</string>
     <string name="super_volume_tip">Maksimum ses seviyesi %s</string>
     <string name="supervision_add_forgot_pin_preference_title">"PIN'i unuttum"</string>

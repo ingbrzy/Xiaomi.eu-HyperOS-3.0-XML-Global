@@ -550,6 +550,7 @@
     <string name="activity_title_root_note">За root достъпа</string>
     <string name="ad_service">Рекламни услуги</string>
     <string name="adapt_embedded">Паралелните прозорци са достъпни</string>
+    <string name="adapted_game_title">Поддържани игри</string>
     <string name="adaptive_brightness_main_switch_title">Използване на функцията за адаптивна яркост</string>
     <string name="adaptive_connectivity_main_switch_title">Използване на „Адаптивно свързване“</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Удължете живота на батерията чрез автоматично управление на връзките с мрежата</string>
@@ -658,6 +659,7 @@
     <string name="advanced_battery_title">Използване на батерията</string>
     <string name="advanced_gesture">Персонализирани жестове</string>
     <string name="advanced_screen_paper_mode_title">Режим четене</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Зрителен комфорт</string>
     <string name="advanced_section_header">Общи</string>
     <string name="advanced_security_title">Разширени</string>
@@ -3579,6 +3581,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="disable_overlays">Хардуерни наслагв.: Деактив.</string>
     <string name="disable_overlays_summary">Винаги да се използва GPU за изграждане на екрана</string>
     <string name="disable_password_warning">След като изключите Вашия код за заключване на екрана, записаните пръстови отпечатъци и лицеви данни ще бъдат изтрити. Няма да можете да отключвате устройството си чрез лицево разпознаване или пръстов отпечатък, както и да ги използвате в Бележки или в Галерията.</string>
+    <string name="disable_permission_text_by_hyper">Това разрешение не е преминало разглеждане и в момента е ограничено</string>
     <string name="disable_phantom_process_monitor_summary">Деактивиране на ограниченията за използването на системните ресурси за дъщерните процеси на приложението</string>
     <string name="disable_phantom_process_monitor_title">Деактивиране на ограниченията за дъщерните процеси</string>
     <string name="disable_power_key_long_press_under_keyguard">Изключи менюто за бутона за захранване</string>
@@ -3895,7 +3898,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="enable_adb_wireless">Безжично отстраняване на грешки</string>
     <string name="enable_adb_wireless_summary">Режим за отстраняване на грешки при връзка с Wi-Fi</string>
     <string name="enable_angle_as_system_driver">Експеримент: Активиране на ANGLE</string>
-    <string name="enable_angle_as_system_driver_summary">Предупреждение: Активиране на ANGLE като стандартен OpenGL ES драйвер. Тази функция е експериментална и може да не е съвместима с някои приложения за камера и видео. Създайте резервно копие на данните на устройството си, преди да включите превключвателя</string>
+    <string name="enable_angle_as_system_driver_summary">Предупреждение: Активиране на ANGLE като стандартен OpenGL ES драйвер. Тази функция е експериментална и може да не е съвместима с някои приложения за камера и видео.</string>
     <string name="enable_auto_data_switch_dialog_message">Разрешете на устройството си автоматично да превключва към %1$s, когато мрежата осигурява по-добри условия за мобилни данни.</string>
     <string name="enable_auto_data_switch_dialog_title">Да се подобри ли покритието?</string>
     <string name="enable_compatibility">Приложението да се мащабира</string>
@@ -4181,12 +4184,14 @@ aptX адаптивен: режим Кодек"</string>
     <string name="eyes_protect_certification_summary_5">Персонализираната SVM компенсация на Xiaomi поддържа SVM под 1 при всяка яркост за по-удобно изживяване при гледане</string>
     <string name="eyes_protect_certification_summary_5_extended">Ниското SVM трептене при всички нива на яркост, за да се намали напрежението в очите</string>
     <string name="eyes_protect_certification_summary_6">Хардуерна защита за очите при слабо осветление и използване нощем. Помага за намаляване на напрежението в очите и за поддържането на здравословен ритъм на съня.</string>
+    <string name="eyes_protect_certification_summary_9">Сертифициран за ниска синя светлина (хардуерно решение), щадене на циркадния ритъм, без трептене и интелигентна грижа за очите</string>
     <string name="eyes_protect_certification_title_1">Китайски център за сертифициране на качеството</string>
     <string name="eyes_protect_certification_title_2">Тройна сертификация за комфорт на очите на TÜV Rheinland</string>
     <string name="eyes_protect_certification_title_3">По-естествена кръгова поляризация</string>
     <string name="eyes_protect_certification_title_4">DC затъмнение без трептене</string>
     <string name="eyes_protect_certification_title_5">3840 Hz затъмняване чрез широчинно-импулсна модулация (PWM)</string>
     <string name="eyes_protect_certification_title_6">%d-нитова минимална яркост</string>
+    <string name="eyes_protect_certification_title_9">Четворен сертификация за комфорт на очите на TÜV Rheinland</string>
     <string name="eyes_protect_game_title">Комфорт на очите при гейминг</string>
     <string name="face_data_apply_for_category_title">Отключване чрез лицеви данни</string>
     <string name="face_data_apply_for_keyguard_title">Заключен екран</string>
@@ -4608,7 +4613,7 @@ Xiaomi неуморно създава впечатляващи продукти
     <string name="footer_description_full_screen_intent">Разрешете на това приложение да показва известия, които заемат целия екран, когато устройството е заключено. Приложението може да използва известия на цял екран, за да показва аларми, входящи повиквания или други спешни известия. Тази настройка разчита на разрешението за отваряне на нови прозорци, докато работи във фонов режим и може да се използва само когато това разрешение е дадено.</string>
     <string name="footer_learn_more_content_description">Научете повече за: %1$s</string>
     <string name="forbidden_network">(забранено)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Режим „Ремонт“ е включен. В момента не могат да се задават или променят пароли.</string>
     <string name="forbidden_switch_apn_string">Избраните APN настройки не съответстват на текущия тип мрежа</string>
     <string name="force_allow_on_external">Външно хран.: принуд. разрешаване на приложенията</string>
     <string name="force_allow_on_external_summary">Всички приложения ще отговарят на условията да бъдат записвани във външното хранилище независимо от стойностите в манифеста</string>
@@ -4727,6 +4732,7 @@ Xiaomi неуморно създава впечатляващи продукти
     <string name="friday_first_day_of_week">петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="frp_status_activated">Защитата за фабрични настройки е включена</string>
     <string name="fsg_mistake_touch_summary">В някои случаи, като например игрите на цял екран и видео, жестовете трябва да се извършват по два пъти преди да имат ефект</string>
     <string name="fsg_mistake_touch_title">Двойна проверка за жестовете</string>
     <string name="full_screen_display">Режим Цял екран</string>
@@ -4749,6 +4755,7 @@ Xiaomi неуморно създава впечатляващи продукти
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Контролер за игри</string>
     <string name="game_delta_action_moments">Събиране на припаси и успешна евакуация</string>
+    <string name="game_eyecare_empty_list_tip">Тук все още няма нищо</string>
     <string name="game_king_of_glory_moments">Убийства, победи и други ключови моменти</string>
     <string name="game_parachute_moments">Парашутизъм</string>
     <string name="game_peacekeeper_elites_moments">Парашутно скачане и бой</string>
@@ -6773,6 +6780,7 @@ Xiaomi Cloud
     <string name="miui_master_clear_summary">Изтрива всички данни от устройството</string>
     <string name="miui_more_special_feature">Открийте нови функции</string>
     <string name="miui_nfc_dialog_message">Ако изключите NFC няма да можете да използвате NFC функции, включително Mi Pay, карти за транспорт, карти ключ и още. Желаете ли да го изключите?</string>
+    <string name="miui_nfc_dialog_message_gl">Ако изключите NFC, няма да можете да използвате NFC функции, включително четене и записване на NFC тагове, използване на карти ключ и още. Желаете ли да го изключите въпреки това?</string>
     <string name="miui_nfc_dialog_negative">Изключване</string>
     <string name="miui_nfc_dialog_positive">Отказ</string>
     <string name="miui_nfc_dialog_title">Изключване на NFC</string>
@@ -7352,6 +7360,12 @@ Xiaomi Cloud
     <string name="next_button_label">Напред</string>
     <string name="next_label">Напред</string>
     <string name="next_page_content_description">Напред</string>
+    <string name="nfc_ac_btn_no">Отмяна</string>
+    <string name="nfc_ac_btn_yes">Задаване</string>
+    <string name="nfc_ac_confirm_ask">Задайте тази карта за достъп като Ваша карта по подразбиране?</string>
+    <string name="nfc_ac_confirm_desc">За да отключвате врати с едно докосване на телефона си, задайте картата за достъп като Ваша карта за докосване по подразбиране.</string>
+    <string name="nfc_ac_summary">Използвайте телефона си като карта за достъп и отключвайте поддържани врати с едно докосване</string>
+    <string name="nfc_ac_title">Карта за достъп</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">За да използвате, първо инсталирайте приложение за плащане</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Не е налице, защото функцията за NFC е изключена</string>
     <string name="nfc_category_title">NFC</string>
@@ -7376,7 +7390,7 @@ Xiaomi Cloud
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Задаване като основно</string>
     <string name="nfc_payment_btn_text_update">Актуализиране</string>
-    <string name="nfc_payment_default">Основно приложение за плащане</string>
+    <string name="nfc_payment_default">Изберете карта по подразбиране</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
     <string name="nfc_payment_favor_default">Винаги да се използва приложението по подразбиране</string>
     <string name="nfc_payment_favor_open">Замяна на приложението по подразбиране, когато е отворено друго приложение за плащане</string>
@@ -7445,6 +7459,8 @@ Xiaomi Cloud
     <string name="night_display_temperature_title">Наситеност</string>
     <string name="night_display_text">Функцията „Нощно осветление“ придава кехлибареножълт нюанс на екрана. Това подобрява видимостта му и четенето на него при слаба светлина и може да ви помогне да заспите по-лесно.</string>
     <string name="night_display_title">Нощно осветление</string>
+    <string name="night_eye_protection_summary">Автоматично намалява яркостта след като заспите, за да се чувствате комфортно, когато се събудите и погледнете устройството си през нощта</string>
+    <string name="night_eye_protection_title">Комфорт за очите през нощта</string>
     <string name="night_light_main_switch_title">Използване на „Нощно осветление“</string>
     <string name="nls_feature_modes_settings_summary">Може да управлява и активира режими и да променя свързаните с тях настройки.</string>
     <string name="nls_feature_read_summary">Може да чете известията ви, включително личната информация, като например контактите, съобщенията и снимките.</string>
@@ -8133,6 +8149,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="popup_window">Ограничаване на плаващи известия</string>
     <string name="post_dsds_reboot_notification_text">Докоснете, за да актуализирате настройките за SIM картата</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">SIM картата от %1$s е активирана</string>
+    <string name="post_reset_google_verification">След възстановяване на фабричните настройки се впишете с профила в Google, който преди това е бил използван на това устройство, за да зададете парола.</string>
     <string name="power_autorun_apps_empty">Тук няма приложения</string>
     <string name="power_autorun_empty">Няма налични приложения</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8699,6 +8716,8 @@ OTG се изключва автоматично след 10 минути неа
     <string name="proxy_url_title">"URL адрес на PAC файла: "</string>
     <string name="proxy_warning_limited_support">HTTP прокси сървърът се използва от браузъра, но не и от други приложения.</string>
     <string name="pss_profiling_disabled">Профилирането на паметта е деактивирано</string>
+    <string name="qingcai_eye_care_summery">Засичайте автоматично съдържание на екрана и филтрирайте вредната синя светлина, като същевременно запазите ярките цветове на играта</string>
+    <string name="qingcai_eye_care_title">Комфорт на очите (ярко)</string>
     <string name="qr_code_content_description">QR код</string>
     <string name="qtifeedback_settings_subtitle">Qualcomm Technologies, Inc доклади</string>
     <string name="qtifeedback_settings_title">Обратна връзка за хардуер</string>
@@ -8759,7 +8778,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="reading_data">Получаване на информация…</string>
     <string name="really_remove_account_message">Премахването на този профил ще изтрие всичките му съобщения, контакти и други данни от телефона.</string>
     <string name="really_remove_account_title">Да се премахне ли профилът?</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver">За промяна на системния OpenGL ES драйвер се изисква рестартиране. Моля, създайте резервно копие на данните на устройството си, преди да го рестартирате. В случай че рестартирането не е успешно, трябва да възстановите фабричните настройки, за да възстановите устройството</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">За промяна на системния OpenGL ES драйвер се изисква рестартиране</string>
     <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">За да се активират прозорците в свободна форма на вторични дисплеи, се изисква рестартиране.</string>
     <string name="reboot_dialog_enable_freeform_support">За да се активира поддръжката за прозорци в свободна форма, се изисква рестартиране.</string>
     <string name="reboot_dialog_override_desktop_mode">За да се актуализира наличността на прозорците в свободна форма, се изисква рестартиране.</string>
@@ -10871,6 +10890,8 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sunlight_mode">Режим Слънчева светлина</string>
     <string name="sunlight_mode_boost_summary">Разширете диапазона на яркост и регулирайте яркостта автоматично при ярки условия. Тази функция ще накара вашето устройство да се нагрее и да консумира повече енергия.</string>
     <string name="sunlight_mode_summary">Настройване на яркостта към силна околна светлина, с цел екрана да не бъде твърде тъмен</string>
+    <string name="super_sensory_night_vision_summery">Подобрете контраста при слаба светлина, така че детайлите да са ясно видими за по-добро изживяване при нощните игри</string>
+    <string name="super_sensory_night_vision_title">Подобрено нощно виждане</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Максимална сила на звука %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Забравен ПИН код</string>

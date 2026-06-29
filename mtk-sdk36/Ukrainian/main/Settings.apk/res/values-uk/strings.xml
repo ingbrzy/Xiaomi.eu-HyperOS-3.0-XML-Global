@@ -550,6 +550,7 @@
     <string name="activity_title_root_note">Про ROOT-доступ</string>
     <string name="ad_service">Рекламні послуги</string>
     <string name="adapt_embedded">Паралельні вікна доступні</string>
+    <string name="adapted_game_title">Підтримувані ігри</string>
     <string name="adaptive_brightness_main_switch_title">Використовувати адаптивну яскравість</string>
     <string name="adaptive_connectivity_main_switch_title">Використовувати адаптивне підключення</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Заощаджуйте заряд акумулятора завдяки автоматичному керуванню з’єднаннями з мережами</string>
@@ -658,6 +659,7 @@
     <string name="advanced_battery_title">Використання заряду</string>
     <string name="advanced_gesture">Власні жести</string>
     <string name="advanced_screen_paper_mode_title">Режим читання</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Комфорт для очей</string>
     <string name="advanced_section_header">Загальні</string>
     <string name="advanced_security_title">Додатково</string>
@@ -3580,6 +3582,7 @@
     <string name="disable_overlays">Вимк. апаратн. накладання</string>
     <string name="disable_overlays_summary">Завжди використовувати GPU для компонування екрана</string>
     <string name="disable_password_warning">Після відключення екрана блокування записані відбитки пальців та дані обличчя будуть видалені. Ви не зможете розблоковувати пристрій за допомогою обличчя або відбитків пальців, а також використовувати їх у програмах Нотатки або Галерея.</string>
+    <string name="disable_permission_text_by_hyper">Цей дозвіл не пройшов перевірку і тепер обмежений</string>
     <string name="disable_phantom_process_monitor_summary">Вимкнути обмеження на використання системних ресурсів дочірніми процесами додатка</string>
     <string name="disable_phantom_process_monitor_title">Вимкнути обмеження для дочірніх процесів</string>
     <string name="disable_power_key_long_press_under_keyguard">Вимкнути меню кнопки \"Живлення\"</string>
@@ -3896,7 +3899,7 @@
     <string name="enable_adb_wireless">Налагодження через Wi-Fi</string>
     <string name="enable_adb_wireless_summary">Вмикати режим налагодження, коли пристрій підключено до мережі Wi-Fi</string>
     <string name="enable_angle_as_system_driver">Експериментальна функція: увімкнути ANGLE</string>
-    <string name="enable_angle_as_system_driver_summary">Попередження. ANGLE буде ввімкнено як драйвер OpenGL ES за умовчанням. Це експериментальна функція. Вона може бути несумісна з деякими додатками для камери й відео. Перш ніж увімкнути перемикач, створіть резервну копію даних на пристрої.</string>
+    <string name="enable_angle_as_system_driver_summary">Попередження. ANGLE буде ввімкнено як драйвер OpenGL ES за умовчанням. Це експериментальна функція. Вона може бути несумісна з деякими додатками для камери й відео.</string>
     <string name="enable_auto_data_switch_dialog_message">Дозвольте пристрою автоматично перемикатися на мобільний Інтернет оператора %1$s, коли в його мережі краща якість зв’язку.</string>
     <string name="enable_auto_data_switch_dialog_title">Покращувати мобільний зв’язок?</string>
     <string name="enable_compatibility">Масштабувати програму</string>
@@ -4182,12 +4185,14 @@
     <string name="eyes_protect_certification_summary_5">Спеціальна компенсація SVM від Xiaomi підтримує SVM нижче 1 при будь-якій яскравості для більш комфортного перегляду</string>
     <string name="eyes_protect_certification_summary_5_extended">Низьке SVM-мерехтіння на всіх рівнях яскравості, щоб допомогти зменшити напругу на очі</string>
     <string name="eyes_protect_certification_summary_6">Комфорт для очей при слабкому освітленні та в нічний час на апаратному рівні. Допомагає знизити навантаження на очі і підтримує здоровий ритм сну.</string>
+    <string name="eyes_protect_certification_summary_9">Сертифіковано за такими параметрами: низький рівень синього світла (апаратне рішення), відповідність циркадним ритмам, відсутність мерехтіння та розумний захист зору</string>
     <string name="eyes_protect_certification_title_1">Китайський центр сертифікації якості</string>
     <string name="eyes_protect_certification_title_2">Потрійний сертифікат по комфорту для очей TÜV Rheinland</string>
     <string name="eyes_protect_certification_title_3">Більш природна кругова поляризація</string>
     <string name="eyes_protect_certification_title_4">DC-затемнення без мерехтіння</string>
     <string name="eyes_protect_certification_title_5">PWM-регулювання яскравості 3840 Гц</string>
     <string name="eyes_protect_certification_title_6">Мінімальна яскравість %d ніт</string>
+    <string name="eyes_protect_certification_title_9">Чотириразова сертифікація «Захист очей» TÜV Rheinland</string>
     <string name="eyes_protect_game_title">Комфорт для очей під час ігор</string>
     <string name="face_data_apply_for_category_title">Розблоковувати за допомогою даних про обличчя</string>
     <string name="face_data_apply_for_keyguard_title">Екран блокування</string>
@@ -4609,7 +4614,7 @@ Xiaomi невпинно створює дивовижні продукти за 
     <string name="footer_description_full_screen_intent">Дозвольте цій програмі відображати сповіщення, які займають весь екран, коли пристрій заблоковано. Програма може використовувати повноекранні сповіщення для відображення будильників, вхідних викликів або інших термінових сповіщень. Дане налаштування залежить від дозволу на відкриття нових вікон при роботі у фоновому режимі та може використовуватися тільки при наявності такого дозволу.</string>
     <string name="footer_learn_more_content_description">Докладніше про сервіс \"%1$s\"</string>
     <string name="forbidden_network">(заборонено)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Режим відновлення увімкнено. Не вдається задати або змінити паролі.</string>
     <string name="forbidden_switch_apn_string">Вибрані налаштування точки доступу не відповідають поточному типу мережі</string>
     <string name="force_allow_on_external">Примусово записувати додатки в зовнішню пам’ять</string>
     <string name="force_allow_on_external_summary">Можна записувати додатки в зовнішню пам’ять, незалежно від значень у маніфесті</string>
@@ -4728,6 +4733,7 @@ Xiaomi невпинно створює дивовижні продукти за 
     <string name="friday_first_day_of_week">П’ятниця</string>
     <string name="friday_short">Пт</string>
     <string name="friday_shortest">Пт</string>
+    <string name="frp_status_activated">Увімкнено захист від скидання налаштувань</string>
     <string name="fsg_mistake_touch_summary">В деяких випадках, наприклад, в повноекранних іграх та відео, жести буде необхідно повторити двічі</string>
     <string name="fsg_mistake_touch_title">Захист від помилкових жестів</string>
     <string name="full_screen_display">Повноекранний режим</string>
@@ -4750,6 +4756,7 @@ Xiaomi невпинно створює дивовижні продукти за 
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Ігровий контролер</string>
     <string name="game_delta_action_moments">Пограбування запасів та успішна евакуація</string>
+    <string name="game_eyecare_empty_list_tip">Тут ще нічого немає</string>
     <string name="game_king_of_glory_moments">Вбивства, перемоги та інші ключові моменти</string>
     <string name="game_parachute_moments">Парашутний спорт</string>
     <string name="game_peacekeeper_elites_moments">Стрибки з парашутом та бойові дії</string>
@@ -6774,6 +6781,7 @@ Xiaomi Cloud
     <string name="miui_master_clear_summary">Видаляє всі дані на пристрої</string>
     <string name="miui_more_special_feature">Додаткові функції</string>
     <string name="miui_nfc_dialog_message">Ви не зможете скористатися функціями NFC, включаючи Mi Pay, транспортні карти, ключ-карти та іншими функціями, якщо відключите NFC. Ви дійсно хочете відключити?</string>
+    <string name="miui_nfc_dialog_message_gl">Якщо вимкнути NFC, ви не зможете використовувати функції NFC, включаючи читання та запис тегів NFC, використання карт доступу тощо. Вимкнути?</string>
     <string name="miui_nfc_dialog_negative">Відключити</string>
     <string name="miui_nfc_dialog_positive">Скасувати</string>
     <string name="miui_nfc_dialog_title">Вимкнення NFC</string>
@@ -7353,6 +7361,12 @@ Xiaomi Cloud
     <string name="next_button_label">Далі</string>
     <string name="next_label">Далі</string>
     <string name="next_page_content_description">Далі</string>
+    <string name="nfc_ac_btn_no">Скасувати</string>
+    <string name="nfc_ac_btn_yes">Встановити</string>
+    <string name="nfc_ac_confirm_ask">Встановити карту доступу як карту за замовчуванням?</string>
+    <string name="nfc_ac_confirm_desc">Щоб розблоковувати двері натисненням на телефон, встановіть карту доступу в якості контактної карти за замовчуванням.</string>
+    <string name="nfc_ac_summary">Використовуйте свій телефон у якості карти доступу та відкривайте підтримувані двері одним дотиком</string>
+    <string name="nfc_ac_title">Карта доступу</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Щоб користуватись, установіть платіжний додаток</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Недоступно, оскільки вимкнено NFC</string>
     <string name="nfc_category_title">NFC</string>
@@ -7377,7 +7391,7 @@ Xiaomi Cloud
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Установити за умовчанням</string>
     <string name="nfc_payment_btn_text_update">Оновити</string>
-    <string name="nfc_payment_default">Додаток для платежів за умовчанням</string>
+    <string name="nfc_payment_default">Вибрати карту за замовчуванням</string>
     <string name="nfc_payment_default_not_set">Не вибрано</string>
     <string name="nfc_payment_favor_default">Завжди</string>
     <string name="nfc_payment_favor_open">Крім випадків, коли відкрита інша платіжна програма</string>
@@ -7446,6 +7460,8 @@ Xiaomi Cloud
     <string name="night_display_temperature_title">Інтенсивність</string>
     <string name="night_display_text">Завдяки жовтуватому відтінку нічний екран допомагає знизити напруження очей в умовах тьмяного освітлення й легше заснути.</string>
     <string name="night_display_title">Нічний екран</string>
+    <string name="night_eye_protection_summary">Автоматичне зниження яскравості після засипання, щоб збільшити комфорт при прокручуванні екрана пристрою, якщо ви прокинетеся вночі</string>
+    <string name="night_eye_protection_title">Захист очей вночі</string>
     <string name="night_light_main_switch_title">Використовувати нічний екран</string>
     <string name="nls_feature_modes_settings_summary">Додаток може керувати режимами, активувати їх і змінювати пов’язані з ними налаштування.</string>
     <string name="nls_feature_read_summary">Може переглядати ваші сповіщення, зокрема з особистою інформацією, такою як імена контактів, текст повідомлень і фотографії.</string>
@@ -8135,6 +8151,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="popup_window">Обмеження спливаючих сповіщень</string>
     <string name="post_dsds_reboot_notification_text">Натисніть, щоб оновити налаштування SIM-карти</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">SIM-карту оператора %1$s активовано</string>
+    <string name="post_reset_google_verification">Після скидання налаштувань виконайте вхід за допомогою Google Акаунту, який раніше використовувався на цьому пристрої.</string>
     <string name="power_autorun_apps_empty">Програми відсутні</string>
     <string name="power_autorun_empty">Немає доступних програм</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8701,6 +8718,8 @@ OTG автоматично відключається через 10 хвилин
     <string name="proxy_url_title">"URL-адреса PAC: "</string>
     <string name="proxy_warning_limited_support">Проксі-сервер HTTP використовується веб-переглядачем і не може використовуватися іншими додатками.</string>
     <string name="pss_profiling_disabled">Профілювання використання пам’яті вимкнено</string>
+    <string name="qingcai_eye_care_summery">Автоматично виявляти вміст на екрані та фільтрувати шкідливе синє світло, зберігаючи яскраві кольори гри</string>
+    <string name="qingcai_eye_care_title">Комфорт для очей (яскравий)</string>
     <string name="qr_code_content_description">QR-код</string>
     <string name="quick_button_check_app_activity_title">Виберіть програму для швидкого запуску</string>
     <string name="quick_button_check_app_not_found_txt">Не вдалося знайти результати</string>
@@ -8759,7 +8778,7 @@ OTG автоматично відключається через 10 хвилин
     <string name="reading_data">Отримання інформації…</string>
     <string name="really_remove_account_message">Видалення цього акаунту призведе до видалення всіх його повідомлень, контактів та інших даних з телефону.</string>
     <string name="really_remove_account_title">Видалити обліковий запис?</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver">Щоб змінити системний драйвер OpenGL ES, перезапустіть пристрій. Перш ніж зробити це, створіть резервну копію даних на пристрої. Якщо пристрій не вдасться перезапустити, скиньте його налаштування, щоб відновити дані на пристрої.</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Щоб змінити системний драйвер OpenGL ES, перезапустіть пристрій</string>
     <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">Щоб увімкнути вікна змінного розміру на додаткових екранах, перезапустіть пристрій.</string>
     <string name="reboot_dialog_enable_freeform_support">Щоб увімкнути підтримку вікон змінного розміру, перезапустіть пристрій.</string>
     <string name="reboot_dialog_override_desktop_mode">Щоб оновити доступність вікон змінного розміру, перезапустіть пристрій.</string>
@@ -10885,6 +10904,8 @@ OTG автоматично відключається через 10 хвилин
     <string name="sunlight_mode">Денний режим</string>
     <string name="sunlight_mode_boost_summary">Розширте діапазон яскравості та автоматично регулюйте яскравість при ясній погоді. Ця функція призведе до нагрівання пристрою і більшого споживання заряду батареї.</string>
     <string name="sunlight_mode_summary">Адаптувати яскравість екрана в залежності від зовнішньої оствіленості, щоб зображення на екрані не було занадто темним.</string>
+    <string name="super_sensory_night_vision_summery">Покращіть контраст при слабкому освітленні, щоб деталі залишалися чіткими та забезпечували більший комфорт під час гри вночі</string>
+    <string name="super_sensory_night_vision_title">Покращений нічний зір</string>
     <string name="super_voice_assist">Супер Mi AI</string>
     <string name="super_volume_tip">Максимальна гучність %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Не пам’ятаю PIN-код</string>

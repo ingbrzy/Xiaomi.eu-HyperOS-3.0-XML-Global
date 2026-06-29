@@ -550,6 +550,7 @@ Per canviar d'una funció a una altra, llisca cap amunt amb 3 dits i mantén pr
     <string name="activity_title_root_note">"Quant a l'accés arrel"</string>
     <string name="ad_service">Serveis de publicitat</string>
     <string name="adapt_embedded">Hi ha finestres paral·leles disponibles</string>
+    <string name="adapted_game_title">Jocs compatibles</string>
     <string name="adaptive_brightness_main_switch_title">Utilitza la brillantor adaptativa</string>
     <string name="adaptive_connectivity_main_switch_title">Utilitza la connectivitat adaptativa</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Allarga la durada de la bateria gestionant automàticament les connexions de xarxa</string>
@@ -658,6 +659,7 @@ L'administrador pot supervisar i gestionar la configuració, l'accés, les aplic
     <string name="advanced_battery_title">Ús de la bateria</string>
     <string name="advanced_gesture">Gestos personalitzats</string>
     <string name="advanced_screen_paper_mode_title">Mode lectura</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Confort ocular</string>
     <string name="advanced_section_header">General</string>
     <string name="advanced_security_title">Configuració avançada</string>
@@ -3580,6 +3582,7 @@ Moltes aplicacions també utilitzen la regió del teu idioma preferit per format
     <string name="disable_overlays">Desactiva superposicions de maquinari</string>
     <string name="disable_overlays_summary">Utilitza sempre GPU per a la composició de pantalles</string>
     <string name="disable_password_warning">"Després de desactivar el bloqueig de pantalla, s'eliminaran les empremtes dactilars i les dades de la cara. No podreu desbloquejar el dispositiu amb la vostra cara o feu-les servir a Notes o a la Galeria."</string>
+    <string name="disable_permission_text_by_hyper">Aquest permís no ha superat la revisió i ara està restringit</string>
     <string name="disable_phantom_process_monitor_summary">"Desactiva les restriccions de l'ús dels recursos del sistema dels processos secundaris de les aplicacions"</string>
     <string name="disable_phantom_process_monitor_title">Desactiva les restriccions dels processos secundaris</string>
     <string name="disable_power_key_long_press_under_keyguard">"Desactiva el menú del botó d'encesa"</string>
@@ -3896,7 +3899,7 @@ Podeu veure els registres generats al Gestor de fitxers."</string>
     <string name="enable_adb_wireless">Depuració sense fil</string>
     <string name="enable_adb_wireless_summary">Mode de depuració quan la Wi‑Fi està connectada</string>
     <string name="enable_angle_as_system_driver">Experimental: activa ANGLE</string>
-    <string name="enable_angle_as_system_driver_summary">"Advertiment: activa ANGLE com a controlador OpenGL ES predeterminat. Aquesta funció està en fase d'experimentació i és possible que no sigui compatible amb algunes aplicacions de càmera i vídeo. Crea una còpia de seguretat de les dades del dispositiu abans d'activar l'interruptor."</string>
+    <string name="enable_angle_as_system_driver_summary">"Advertiment: activa ANGLE com a controlador OpenGL ES predeterminat. Aquesta funció està en fase d'experimentació i és possible que no sigui compatible amb algunes aplicacions de càmera i vídeo."</string>
     <string name="enable_auto_data_switch_dialog_message">Permet que el dispositiu canviï a %1$s automàticament per a les dades mòbils quan tingui millor disponibilitat.</string>
     <string name="enable_auto_data_switch_dialog_title">Millorar la cobertura de dades?</string>
     <string name="enable_compatibility">"Escala l'aplicació"</string>
@@ -4182,12 +4185,14 @@ Reinicia el dispositiu i torna-ho a provar."</string>
     <string name="eyes_protect_certification_summary_5">"La compensació SVM personalitzada de Xiaomi manté l'SVM per sota d'1 amb qualsevol brillantor per a una experiència de visualització més còmoda"</string>
     <string name="eyes_protect_certification_summary_5_extended">Baix parpelleig de SVM a tots els nivells de brillantor per ajudar a reduir la fatiga ocular</string>
     <string name="eyes_protect_certification_summary_6">Comoditat ocular basada en maquinari per a ús nocturn i amb poca llum. Ajuda a reduir la fatiga ocular i afavoreix un ritme de son saludable.</string>
+    <string name="eyes_protect_certification_summary_9">Certificació en llum blava baixa (solució de maquinari), respecte al ritme circadiari, absència de parpelleig i cura ocular intel·ligent</string>
     <string name="eyes_protect_certification_title_1">Centre de Certificació de Qualitat de la Xina</string>
     <string name="eyes_protect_certification_title_2">Triple certificació TÜV Rheinland de confort de la vista</string>
     <string name="eyes_protect_certification_title_3">Polarització circular més natural</string>
     <string name="eyes_protect_certification_title_4">Atenuació de CC sense parpellejos</string>
     <string name="eyes_protect_certification_title_5">Regulació PWM de 3840 Hz</string>
     <string name="eyes_protect_certification_title_6">Brillantor mínima: %d nits</string>
+    <string name="eyes_protect_certification_title_9">Certificació quàdruple TÜV Rheinland de confort ocular</string>
     <string name="eyes_protect_game_title">Comoditat ocular per a jocs</string>
     <string name="face_data_apply_for_category_title">Desbloqueja amb dades facials</string>
     <string name="face_data_apply_for_keyguard_title">Pantalla de desbloqueig</string>
@@ -4609,7 +4614,7 @@ Xiaomi crea sense parar productes increïbles amb preus honestos per permetre qu
     <string name="footer_description_full_screen_intent">"Permet que aquesta aplicació mostri notificacions que ocupen tota la pantalla quan el dispositiu està bloquejat. L'aplicació pot utilitzar notificacions de pantalla completa per mostrar alarmes, trucades entrants o altres notificacions urgents. Aquesta configuració es basa en el permís per obrir finestres noves mentre s'executa en segon pla i només es pot utilitzar quan es concedeix aquest permís."</string>
     <string name="footer_learn_more_content_description">Més informació sobre %1$s</string>
     <string name="forbidden_network">(prohibida)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">El mode de reparació està activat. No es poden definir ni canviar les contrasenyes ara.</string>
     <string name="forbidden_switch_apn_string">"La configuració de l'APN seleccionada no coincideix amb el tipus de xarxa actual"</string>
     <string name="force_allow_on_external">Força permetre aplicacions de manera externa</string>
     <string name="force_allow_on_external_summary">Permet que qualsevol aplicació es pugui escriure en un dispositiu d’emmagatzematge extern, independentment dels valors del manifest</string>
@@ -4728,6 +4733,7 @@ Aquesta funció només funciona quan el sistema de navegació està configurat e
     <string name="friday_first_day_of_week">Divendres</string>
     <string name="friday_short">Dv</string>
     <string name="friday_shortest">Dv</string>
+    <string name="frp_status_activated">La protecció de restabliment de fàbrica està activada</string>
     <string name="fsg_mistake_touch_summary">En algunes ocasions, com videojocs o vídeos a pantalla completa, els gestos es necessitan realitzar dues vegades per que surgeixin efecte</string>
     <string name="fsg_mistake_touch_title">Comproveu dues vegades els gestos</string>
     <string name="full_screen_display">Mode de pantalla completa</string>
@@ -4750,6 +4756,7 @@ Quan activis les còpies de seguretat automàtiques, les dades dels dispositius 
     <string name="game_booster_title">Accelerador de Jocs</string>
     <string name="game_controller_settings_category">Controlador de joc</string>
     <string name="game_delta_action_moments">Saqueig de subministraments i evacuació reeixida</string>
+    <string name="game_eyecare_empty_list_tip">Encara no hi ha res</string>
     <string name="game_king_of_glory_moments">Assalts, victòries i altres moments clau</string>
     <string name="game_parachute_moments">Paracaigudisme</string>
     <string name="game_peacekeeper_elites_moments">Paracaigudisme i combat</string>
@@ -6774,6 +6781,7 @@ Continua per a accedir als ajustaments addicionals."</string>
     <string name="miui_master_clear_summary">"Elimina totes les dades d'aquest dispositiu"</string>
     <string name="miui_more_special_feature">Exploreu noves característiques</string>
     <string name="miui_nfc_dialog_message">No podreu utilitzar les funcions NFC que inclouen Mi Paga, targetes de transport, targetes clau i més si desactiveu NFC. Voleu desactivar-lo de totes maneres?</string>
+    <string name="miui_nfc_dialog_message_gl">"No podreu utilitzar les funcions NFC, com ara la lectura i l'escriptura d'etiquetes NFC, l'ús de targetes d'accés i molt més, si desactiveu l'NFC. Voleu desactivar-lo igualment?"</string>
     <string name="miui_nfc_dialog_negative">Desactiva</string>
     <string name="miui_nfc_dialog_positive">Cancel·la</string>
     <string name="miui_nfc_dialog_title">"S'està desactivant el NFC"</string>
@@ -7353,6 +7361,12 @@ Seleccioneu el sistema operatiu:"</string>
     <string name="next_button_label">Següent</string>
     <string name="next_label">Següent</string>
     <string name="next_page_content_description">Següent</string>
+    <string name="nfc_ac_btn_no">Cancel·la</string>
+    <string name="nfc_ac_btn_yes">Estableix</string>
+    <string name="nfc_ac_confirm_ask">"Voleu definir la targeta d'accés com a targeta predeterminada?"</string>
+    <string name="nfc_ac_confirm_desc">"Per desbloquejar portes tocant el telèfon, definiu la targeta d'accés com a targeta predeterminada."</string>
+    <string name="nfc_ac_summary">"Feu servir el telèfon com a targeta d'accés i desbloquegeu les portes compatibles amb un toc"</string>
+    <string name="nfc_ac_title">"Targeta d'accés"</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Per utilitzar aquesta funció, primer instal·la una aplicació de pagaments</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">No disponible perquè la funció NFC està desactivada</string>
     <string name="nfc_category_title">NFC</string>
@@ -7377,7 +7391,7 @@ Seleccioneu el sistema operatiu:"</string>
     <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Defineix com a predeterminada</string>
     <string name="nfc_payment_btn_text_update">Actualitza</string>
-    <string name="nfc_payment_default">Aplicació per pagar predeterminada</string>
+    <string name="nfc_payment_default">Seleccioneu la targeta predeterminada</string>
     <string name="nfc_payment_default_not_set">No definida</string>
     <string name="nfc_payment_favor_default">"Sempre utilitzar l'aplicació per defecte"</string>
     <string name="nfc_payment_favor_open">"Substituïu l'aplicació per defecte quan un altre mètode de pagament estigui oberta"</string>
@@ -7446,6 +7460,8 @@ Això substitueix %2$s com a aplicació de pagaments predeterminada."</string>
     <string name="night_display_temperature_title">Intensitat</string>
     <string name="night_display_text">"La funció Llum nocturna dona un to ambre a la pantalla. D'aquesta manera, costa menys mirar-la o llegir-hi amb poca llum i és més fàcil adormir-se."</string>
     <string name="night_display_title">Llum nocturna</string>
+    <string name="night_eye_protection_summary">"Reduïu automàticament la brillantor després d'adormir-vos per a la vostra comoditat quan us desperteu per mirar el dispositiu a la nit"</string>
+    <string name="night_eye_protection_title">Confort ocular nocturn</string>
     <string name="night_light_main_switch_title">Utilitza la funció Llum nocturna</string>
     <string name="nls_feature_modes_settings_summary">Pot gestionar i activar els modes, i canviar la configuració que hi estigui relacionada.</string>
     <string name="nls_feature_read_summary">Pot llegir les notificacions, inclosa la informació personal com ara els contactes, els missatges i les fotos.</string>
@@ -8134,6 +8150,7 @@ Llegiu i accepteu %s abans d'utilitzar aquest servei."</string>
     <string name="popup_window">Restringeix les notificacions flotants</string>
     <string name="post_dsds_reboot_notification_text">Toca per actualitzar la configuració de la targeta SIM</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">La SIM de %1$s està activa</string>
+    <string name="post_reset_google_verification">"Després d'un restabliment de fàbrica, inicia la sessió amb el compte de Google que feies servir anteriorment en aquest dispositiu per definir una contrasenya."</string>
     <string name="power_autorun_apps_empty">No hi ha aplicacions</string>
     <string name="power_autorun_empty">No hi ha aplicacions disponibles</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8700,6 +8717,8 @@ Qualsevol persona que connecti el teu dispositiu a un ordinador o instal·li apl
     <string name="proxy_url_title">"URL de PAC "</string>
     <string name="proxy_warning_limited_support">"El navegador utilitza un servidor intermediari HTTP, però pot ser que la resta d'aplicacions no."</string>
     <string name="pss_profiling_disabled">Elaboració de perfils de memòria desactivada</string>
+    <string name="qingcai_eye_care_summery">Detecta automàticament el contingut en pantalla i filtra la llum blava nociva mentre manté els colors del joc vius</string>
+    <string name="qingcai_eye_care_title">Confort ocular (vívid)</string>
     <string name="qr_code_content_description">Codi QR</string>
     <string name="quick_button_check_app_activity_title">"Seleccioneu l'aplicació per al llançament ràpid"</string>
     <string name="quick_button_check_app_not_found_txt">"No s'han pogut trobar resultats"</string>
@@ -8758,7 +8777,7 @@ Qualsevol persona que connecti el teu dispositiu a un ordinador o instal·li apl
     <string name="reading_data">"S'està obtenint informació…"</string>
     <string name="really_remove_account_message">"En eliminar aquest compte, s'eliminaran tots els seus missatges, contactes i altres dades del telèfon."</string>
     <string name="really_remove_account_title">Vols suprimir el compte?</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver">Cal reiniciar per canviar el controlador OpenGL ES del sistema. Crea una còpia de seguretat de les dades del dispositiu abans de reiniciar-lo. Si el reinici ha fallat, has de restablir les dades de fàbrica per restaurar el dispositiu.</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Cal reiniciar per canviar el controlador OpenGL ES del sistema</string>
     <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">Cal reiniciar per activar les finestres amb format lliure en pantalles secundàries.</string>
     <string name="reboot_dialog_enable_freeform_support">Cal reiniciar per activar la compatibilitat amb finestres de forma lliure.</string>
     <string name="reboot_dialog_override_desktop_mode">Cal reiniciar per actualitzar la disponibilitat de les finestres amb format lliure.</string>
@@ -10872,6 +10891,8 @@ Prova un altre suport (^3) més ràpid o fes servir aquest (^4) com a emmagatzem
     <string name="sunlight_mode">Mode diürn</string>
     <string name="sunlight_mode_boost_summary">"Amplieu el rang de brillantor i ajusteu la brillantor automàticament en condicions de brillantor. Aquesta funció farà que el vostre dispositiu s'escalfi i consumeixi més energia."</string>
     <string name="sunlight_mode_summary">Ajusteu la brillantor a una llum ambient forta per evitar que la pantalla es torni massa fosca</string>
+    <string name="super_sensory_night_vision_summery">Milloreu el contrast amb poca llum perquè els detalls es mantinguin nítids i tingueu una millor experiència de joc nocturn</string>
+    <string name="super_sensory_night_vision_title">Visió nocturna millorada</string>
     <string name="super_voice_assist">Super Mi IA</string>
     <string name="super_volume_tip">Volum màxim %s</string>
     <string name="supervision_add_forgot_pin_preference_title">He oblidat el PIN</string>

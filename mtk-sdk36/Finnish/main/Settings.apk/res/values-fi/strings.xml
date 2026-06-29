@@ -550,6 +550,7 @@ Vaihda ominaisuudesta toiseen pyyhkäisemällä ylös kolmella sormella ja koske
     <string name="activity_title_root_note">Tietoja pääkäyttäjän oikeuksista</string>
     <string name="ad_service">Mainospalvelut</string>
     <string name="adapt_embedded">Rinnakkaisikkunat ovat saatavilla</string>
+    <string name="adapted_game_title">Tuetut pelit</string>
     <string name="adaptive_brightness_main_switch_title">Käytä kirkkauden säätöä</string>
     <string name="adaptive_connectivity_main_switch_title">Käytä mukautuvaa yhdistettävyyttä</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Pidennä akunkestoa ylläpitämällä verkkoyhteyksiä automaattisesti</string>
@@ -658,6 +659,7 @@ Järjestelmänvalvoja voi valvoa tähän käyttäjäprofiiliin liittyviä asetuk
     <string name="advanced_battery_title">Akun käyttö</string>
     <string name="advanced_gesture">Mukautetut eleet</string>
     <string name="advanced_screen_paper_mode_title">Lukutila</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Silmien mukavuus</string>
     <string name="advanced_section_header">Yleiset</string>
     <string name="advanced_security_title">Lisäasetukset</string>
@@ -3580,6 +3582,7 @@ Monet sovellukset valitsevat myös päivämäärien, numeroiden ja yksiköiden m
     <string name="disable_overlays">Poista HW-peittokuvat käytöstä</string>
     <string name="disable_overlays_summary">Käytä GPU:ta näytön koostamiseen</string>
     <string name="disable_password_warning">Kun poistat näytön lukituksen käytöstä, tallennetut sormenjäljet ja kasvotiedot poistetaan. Et voi enää avata laitetta kasvoilla tai sormenjäljillä etkä käyttää niitä Muistiinpanoissa tai Galleriassa.</string>
+    <string name="disable_permission_text_by_hyper">Nämä käyttöluvat eivät ole läpäisseet tarkistusta ja niitä on nyt rajoitettu</string>
     <string name="disable_phantom_process_monitor_summary">Poista käytöstä rajoitukset, jotka liittyvät järjestelmäresurssin käyttöön sovelluksen alatason prosesseissa</string>
     <string name="disable_phantom_process_monitor_title">Poista käytöstä alatason prosessirajoitukset</string>
     <string name="disable_power_key_long_press_under_keyguard">Poista virtapainikkeen valikko käytöstä</string>
@@ -3896,7 +3899,7 @@ Voit tarkastella luotuja lokeja Tiedostonhallinnassa."</string>
     <string name="enable_adb_wireless">Langaton virheenkorjaus</string>
     <string name="enable_adb_wireless_summary">Virheenkorjaustila Wi-Fin ollessa käytössä</string>
     <string name="enable_angle_as_system_driver">Kokeellinen: Ota ANGLE käyttöön</string>
-    <string name="enable_angle_as_system_driver_summary">Varoitus: Ota ANGLE käyttöön OpenGL ES ‑oletusajurina. Ominaisuus on kokeiluvaiheessa, eikä se välttämättä ole yhteensopiva kaikkien kamera- ja videosovellusten kanssa. Varmuuskopioi laitteen data ennen kuin laitat kytkimen päälle</string>
+    <string name="enable_angle_as_system_driver_summary">Varoitus: Ota ANGLE käyttöön OpenGL ES ‑oletusajurina. Tämä ominaisuus on kokeiluvaiheessa, eikä se välttämättä ole yhteensopiva kaikkien kamera- ja videosovellusten kanssa.</string>
     <string name="enable_auto_data_switch_dialog_message">Salli laitteen ottaa %1$s automaattisesti käyttöön mobiilidataa varten, kun sen saatavuus on parempi.</string>
     <string name="enable_auto_data_switch_dialog_title">Parannetaanko mobiilidataa?</string>
     <string name="enable_compatibility">Muuta sovelluksen kokoa</string>
@@ -4182,12 +4185,14 @@ Käynnistä laite uudelleen ja yritä sitten uudelleen."</string>
     <string name="eyes_protect_certification_summary_5">Xiaomin räätälöity SVM-kompensointi pitää SVM-arvon &lt;1 kaikilla kirkkaustasoilla tarjotakseen miellyttävämmän katselukokemuksen</string>
     <string name="eyes_protect_certification_summary_5_extended">Vähäinen SVM-välkyntä kaikilla kirkkaustasoilla vähentää silmien rasitusta</string>
     <string name="eyes_protect_certification_summary_6">Laitteistopohjainen silmien mukavuus heikossa valossa ja yökäytössä. Auttaa vähentämään silmien rasitusta ja tukee terveellistä unirytmiä.</string>
+    <string name="eyes_protect_certification_summary_9">Sertifioitu matala sinivalo (laitteistototeutus), vuorokausirytmiystävällisyys, välkkymättömyys ja älykkään silmänhoidon sertifikaatti</string>
     <string name="eyes_protect_certification_title_1">Kiinan laadunsertifiointikeskus</string>
     <string name="eyes_protect_certification_title_2">TÜV Rheinland Eye Comfort -kolmoissertifiointi</string>
     <string name="eyes_protect_certification_title_3">Luonnollisempi ympyräpolarisaatio</string>
     <string name="eyes_protect_certification_title_4">Välkkymätön DC-himmennys</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM-himmennys</string>
     <string name="eyes_protect_certification_title_6">%d nitin vähimmäiskirkkaus</string>
+    <string name="eyes_protect_certification_title_9">Nelinkertainen TÜV Rheinland Eye Comfort -sertifiointi</string>
     <string name="eyes_protect_game_title">Silmien mukavuus pelatessa</string>
     <string name="face_data_apply_for_category_title">Poista lukitus kasvotiedoilla</string>
     <string name="face_data_apply_for_keyguard_title">Lukitusnäyttö</string>
@@ -4609,7 +4614,7 @@ Xiaomi rakentaa hellittämättä upeita tuotteita rehellisillä hinnoilla, jotta
     <string name="footer_description_full_screen_intent">Salli tämän sovelluksen näyttää ilmoituksia, jotka kattavat koko näytön, kun laite on lukittu. Sovellus voi käyttää koko näytön ilmoituksia näyttääkseen hälytyksiä, saapuvia puheluita tai muita kiireellisiä ilmoituksia. Tämä asetus perustuu oikeuteen avata uusia ikkunoita, kun se on käynnissä taustalla, ja sitä voidaan käyttää vain, kun tämä lupa on myönnetty.</string>
     <string name="footer_learn_more_content_description">Lue lisää: %1$s</string>
     <string name="forbidden_network">(kielletty)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Korjaustila on käytössä. Salasanoja ei voi määrittää tai vaihtaa nyt.</string>
     <string name="forbidden_switch_apn_string">Valitut APN-asetukset eivät täsmää nykyisen verkkotyypin kanssa</string>
     <string name="force_allow_on_external">Salli aina ulkoinen tallennus</string>
     <string name="force_allow_on_external_summary">Mahdollistaa sovelluksen tietojen tallentamisen ulkoiseen tallennustilaan luetteloarvoista riippumatta</string>
@@ -4728,6 +4733,7 @@ Tämä ominaisuus toimii vain, kun järjestelmän navigointi on asetettu eleille
     <string name="friday_first_day_of_week">Perjantai</string>
     <string name="friday_short">Pe</string>
     <string name="friday_shortest">Pe</string>
+    <string name="frp_status_activated">Tehdasasetusten palautussuoja on käytössä</string>
     <string name="fsg_mistake_touch_summary">Joissakin tilanteissa, kuten koko näytöllä toistettavissa peleissä ja videoissa, eleet on toistettava kaksi kertaa toiminnon suorittamiseksi</string>
     <string name="fsg_mistake_touch_title">Toista ele kaksi kertaa</string>
     <string name="full_screen_display">Koko näytön tila</string>
@@ -4750,6 +4756,7 @@ Kun otat automaattisen varmuuskopioinnin käyttöön, laitteen ja sovellusten ti
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Peliohjaimet</string>
     <string name="game_delta_action_moments">Tarvikkeiden ryöstely ja onnistunut evakuointi</string>
+    <string name="game_eyecare_empty_list_tip">Täällä ei ole vielä mitään</string>
     <string name="game_king_of_glory_moments">Tapot, voitot ja muut tärkeät hetket</string>
     <string name="game_parachute_moments">Laskuvarjohyppy</string>
     <string name="game_peacekeeper_elites_moments">Laskuvarjohypyt ja taistelu</string>
@@ -6774,6 +6781,7 @@ Jatka käyttääksesi lisäasetuksia."</string>
     <string name="miui_master_clear_summary">Poistaa laitteen kaikki tiedot</string>
     <string name="miui_more_special_feature">Tutki uusia ominaisuuksia</string>
     <string name="miui_nfc_dialog_message">Et voi käyttää NFC-ominaisuuksia, kuten Mi Payta, matkakortteja, avainkortteja ja muuta, jos poistat NFC:n käytöstä. Poistetaanko käytöstä silti?</string>
+    <string name="miui_nfc_dialog_message_gl">Et voi käyttää NFC-ominaisuuksia, kuten NFC-tunnisteiden lukemista ja kirjoittamista, kulkukorttien käyttöä ja muita ominaisuuksia, jos poistat NFC:n käytöstä. Haluatko kuitenkin poistaa sen käytöstä?</string>
     <string name="miui_nfc_dialog_negative">Poista käytöstä</string>
     <string name="miui_nfc_dialog_positive">Peruuta</string>
     <string name="miui_nfc_dialog_title">Poistetaan NFC käytöstä</string>
@@ -7353,6 +7361,12 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="next_button_label">Seuraava</string>
     <string name="next_label">Seuraava</string>
     <string name="next_page_content_description">Seuraava</string>
+    <string name="nfc_ac_btn_no">Peruuta</string>
+    <string name="nfc_ac_btn_yes">Aseta</string>
+    <string name="nfc_ac_confirm_ask">Haluatko asettaa kulkukortin oletuskortiksi?</string>
+    <string name="nfc_ac_confirm_desc">Jos haluat avata ovien lukituksen napauttamalla puhelinta, aseta kulkukortti oletusnapautuskortiksi.</string>
+    <string name="nfc_ac_summary">Käytä puhelinta kulkukorttina ja avaa tuetut ovet napauttamalla</string>
+    <string name="nfc_ac_title">Kulkukortti</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Aloita käyttö asentamalla ensin maksullinen sovellus</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Ei saatavilla, koska NFC on pois päältä</string>
     <string name="nfc_category_title">NFC</string>
@@ -7377,7 +7391,7 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Valitse oletukseksi</string>
     <string name="nfc_payment_btn_text_update">Päivitä</string>
-    <string name="nfc_payment_default">Oletusmaksusovellus</string>
+    <string name="nfc_payment_default">Valitse oletuskortti</string>
     <string name="nfc_payment_default_not_set">Ei asetettu</string>
     <string name="nfc_payment_favor_default">Käytä aina oletussovellusta</string>
     <string name="nfc_payment_favor_open">Vaihda oletussovellus, kun toinen maksusovellus on avoinna</string>
@@ -7446,6 +7460,8 @@ Valitse käyttöjärjestelmäsi:"</string>
     <string name="night_display_temperature_title">Voimakkuus</string>
     <string name="night_display_text">Yövalo tekee näytöstä keltasävyisen. Sen avulla näytön katselu heikossa valossa on helpompaa ja saatat nukahtaa helpommin.</string>
     <string name="night_display_title">Yövalo</string>
+    <string name="night_eye_protection_summary">Vähennä automaattisesti kirkkautta nukahtamisen jälkeen mukavuuden lisäämiseksi, kun heräät katsomaan laitetta yöllä</string>
+    <string name="night_eye_protection_title">Yöllinen silmäystävällisyys</string>
     <string name="night_light_main_switch_title">Käytä yövaloa</string>
     <string name="nls_feature_modes_settings_summary">Se voi ylläpitää tiloja, aktivoida ne ja muuttaa niihin liittyviä asetuksia.</string>
     <string name="nls_feature_read_summary">Se voi nähdä ilmoituksesi, myös henkilökohtaiset tiedot, esim. yhteystiedot, viestit ja kuvat.</string>
@@ -8134,6 +8150,7 @@ Lue ja hyväksy %s ennen kuin käytät tätä palvelua."</string>
     <string name="popup_window">Rajoita kelluvia ilmoituksia</string>
     <string name="post_dsds_reboot_notification_text">Päivitä SIM‑asetukset napauttamalla</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">SIM-kortti (%1$s) on aktiivinen</string>
+    <string name="post_reset_google_verification">Tehdasasetusten palauttamisen jälkeen kirjaudu sisään laitteessa aiemmin käytetyllä Google-tilillä ja määritä salasana.</string>
     <string name="power_autorun_apps_empty">Ei sovelluksia täällä</string>
     <string name="power_autorun_empty">Ei sovelluksia saatavilla</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8700,6 +8717,8 @@ Kuka tahansa, joka yhdistää laitteesi tietokoneeseen tai asentaa laitteelle ha
     <string name="proxy_url_title">"Välitysp. aut. määr. URL: "</string>
     <string name="proxy_warning_limited_support">Selain käyttää HTTP-välityspalvelinta, mutta muut sovellukset mahdollisesti eivät.</string>
     <string name="pss_profiling_disabled">Muistin käytön profilointi poissa käytöstä</string>
+    <string name="qingcai_eye_care_summery">Tunnista näytössä näkyvä sisältö automaattisesti ja suodata haitallinen sininen valo pitäen pelin värit eloisina</string>
+    <string name="qingcai_eye_care_title">Silmien mukavuus (elävä)</string>
     <string name="qr_code_content_description">QR-koodi</string>
     <string name="quick_button_check_app_activity_title">Valitse sovellus pikakäynnistystä varten</string>
     <string name="quick_button_check_app_not_found_txt">Tuloksia ei löytynyt</string>
@@ -8758,7 +8777,7 @@ Kuka tahansa, joka yhdistää laitteesi tietokoneeseen tai asentaa laitteelle ha
     <string name="reading_data">Noudetaan tietoja…</string>
     <string name="really_remove_account_message">Tämän tilin poistaminen poistaa puhelimesta kaikki sen viestit, yhteystiedot ja muut tiedot.</string>
     <string name="really_remove_account_title">Poistetaanko tili?</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver">Järjestelmän OpenGL ES ‑ajurin muuttaminen edellyttää uudelleenkäynnistystä. Varmuuskopioi laitteen data ennen uudelleenkäynnistystä. Jos uudelleenkäynnistys epäonnistui, sinun on palautettava laitteen tehdasasetukset</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Järjestelmän OpenGL ES ‑ajurin muuttaminen edellyttää uudelleenkäynnistystä</string>
     <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">Laite täytyy käynnistää uudelleen, jos haluat ottaa vapaamuotoiset ikkunat käyttöön toissijaisilla näytöillä.</string>
     <string name="reboot_dialog_enable_freeform_support">Laite täytyy käynnistää uudelleen, jos haluat ottaa vapaamuotoisten ikkunoiden tuen käyttöön.</string>
     <string name="reboot_dialog_override_desktop_mode">Laite täytyy käynnistää uudelleen, jos haluat päivittää vapaamuotoisten ikkunoiden saatavuuden.</string>
@@ -10872,6 +10891,8 @@ Kokeile ottaa käyttöön nopeampi ^3 tai käytä laitetta ^4 siirrettävänä t
     <string name="sunlight_mode">Auringonvalotila</string>
     <string name="sunlight_mode_boost_summary">Laajenna kirkkausaluetta ja säädä kirkkautta automaattisesti kirkkaissa olosuhteissa. Tämä ominaisuus saa laitteesi lämpenemään ja kuluttamaan enemmän virtaa.</string>
     <string name="sunlight_mode_summary">Säädä kirkkaus voimakkaaseen ympäröivään valoon, jotta näyttö ei tummu liikaa</string>
+    <string name="super_sensory_night_vision_summery">Paranna kontrastia heikossa valossa, jotta yksityiskohdat pysyvät selkeinä paremman yöpelikokemuksen takaamiseksi</string>
+    <string name="super_sensory_night_vision_title">Parannettu yönäkö</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maksimiäänenvoimakkuus %s</string>
     <string name="supervision_add_forgot_pin_preference_title">PIN-koodi unohtunut</string>

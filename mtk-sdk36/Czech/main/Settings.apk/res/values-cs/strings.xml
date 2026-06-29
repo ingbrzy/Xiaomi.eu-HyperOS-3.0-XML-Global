@@ -550,6 +550,7 @@ Chcete-li přepnout mezi funkcemi, přejeďte třemi prsty nahoru a podržte je
     <string name="activity_title_root_note">O ROOTování</string>
     <string name="ad_service">Reklamní služby</string>
     <string name="adapt_embedded">Paralelní okna jsou dostupná</string>
+    <string name="adapted_game_title">Podporované hry</string>
     <string name="adaptive_brightness_main_switch_title">Používat adaptivní jas</string>
     <string name="adaptive_connectivity_main_switch_title">Používat adaptivní připojení</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Prodloužit výdrž baterie automatickou správou síťových připojení</string>
@@ -658,6 +659,7 @@ Administrátor může sledovat a spravovat nastavení, přístup, aplikace a d
     <string name="advanced_battery_title">Využití baterie</string>
     <string name="advanced_gesture">Vlastní gesta</string>
     <string name="advanced_screen_paper_mode_title">Režim pro čtení</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Pohodlí pro oči</string>
     <string name="advanced_section_header">Obecné</string>
     <string name="advanced_security_title">Rozšířené nastavení</string>
@@ -3580,6 +3582,7 @@ Mnoho aplikací bude také formátovat data, čísla a jednotky na základě ob
     <string name="disable_overlays">Zakázat hardwarové vrstvy</string>
     <string name="disable_overlays_summary">Vždy použít GPU ke skládání obrazovky</string>
     <string name="disable_password_warning">Po vypnutí zámku obrazovky budou všechny uložené otisky prstu a tváře smazány. Nebudete tak moci odemknout zařízení pomocí otisku prstu nebo tváře ani je použít v aplikacích Poznámky nebo Galerie.</string>
+    <string name="disable_permission_text_by_hyper">Toto povolení neprošlo revizí a nyní je omezené</string>
     <string name="disable_phantom_process_monitor_summary">Deaktivovat omezení využití zdrojů systému podřízenými procesy aplikace</string>
     <string name="disable_phantom_process_monitor_title">Deaktivace omezení podřízených procesů</string>
     <string name="disable_power_key_long_press_under_keyguard">Deaktivovat menu tlačítka Napájení</string>
@@ -3896,7 +3899,7 @@ Vygenerované záznamy můžete zobrazit ve Správci souborů."</string>
     <string name="enable_adb_wireless">Bezdrátové ladění</string>
     <string name="enable_adb_wireless_summary">Režim ladění při připojení k Wi-Fi</string>
     <string name="enable_angle_as_system_driver">Experimentální: Povolit ANGLE</string>
-    <string name="enable_angle_as_system_driver_summary">Upozornění: Povolte ANGLE jako výchozí ovladač OpenGL ES. Tato funkce je experimentální a nemusí být kompatibilní s některými aplikacemi na ovládání kamery a tvorbu videa. Před zapnutím přepínače si zálohujte data ze zařízení</string>
+    <string name="enable_angle_as_system_driver_summary">Upozornění: Povolte ANGLE jako výchozí ovladač OpenGL ES. Tato funkce je experimentální a nemusí být kompatibilní s některými aplikacemi na ovládání kamery a tvorbu videa.</string>
     <string name="enable_auto_data_switch_dialog_message">Povolte zařízení, aby se pro mobilní data automaticky přepínalo na operátora %1$s, když bude mít lepší signál.</string>
     <string name="enable_auto_data_switch_dialog_title">Zlepšit pokrytí mobilních dat?</string>
     <string name="enable_compatibility">Upravit velikost aplikace</string>
@@ -4182,12 +4185,14 @@ Restartujte zařízení a zkuste to znovu."</string>
     <string name="eyes_protect_certification_summary_5">Vlastní kompenzace SVM od společnosti Xiaomi udržuje SVM pod hodnotou 1 při jakémkoli jasu, abys pro vás bylo sledování příjemnější.</string>
     <string name="eyes_protect_certification_summary_5_extended">Nízké blikání SVM při všech úrovních jasu pomáhá snižovat namáhání očí</string>
     <string name="eyes_protect_certification_summary_6">Hardwarové řešení pro zrakový komfort při slabém osvětlení a nočním používání. Snižuje namáhání očí a podporuje zdravý spánkový rytmus.</string>
+    <string name="eyes_protect_certification_summary_9">Certifikace Low Blue Light (hardwarové řešení), Circadian Friendly (šetrné k cirkadiánnímu rytmu), Flicker Free (bez blikání) a Intelligent Eye Care (inteligentní péče o oči)</string>
     <string name="eyes_protect_certification_title_1">Čínské centrum pro certifikaci kvality (CQC)</string>
     <string name="eyes_protect_certification_title_2">Trojnásobná certifikace TÜV Rheinland Eye Comfort (zrakový komfort)</string>
     <string name="eyes_protect_certification_title_3">Věrnější cirkulární polarizace</string>
     <string name="eyes_protect_certification_title_4">Funkce DC stmívání bez blikání</string>
     <string name="eyes_protect_certification_title_5">Stmívání pomocí PWM na frekvenci 3 840 Hz</string>
     <string name="eyes_protect_certification_title_6">%dnitový minimální jas</string>
+    <string name="eyes_protect_certification_title_9">Čtyřnásobná certifikace TÜV Rheinland Eye Comfort (zrakový komfort)</string>
     <string name="eyes_protect_game_title">Zrakový komfort při hraní</string>
     <string name="face_data_apply_for_category_title">Odemknout pomocí tváře</string>
     <string name="face_data_apply_for_keyguard_title">Zamykací obrazovka</string>
@@ -4609,7 +4614,7 @@ Společnost Xiaomi neustále přichází s úžasnými novými produkty za féro
     <string name="footer_description_full_screen_intent">Povolte, aby tato aplikace zobrazovala oznámení zabírající celou plochu obrazovky, když je zařízení uzamčeno. Aplikace může využívat celou plochu obrazovky k zobrazení alarmů, příchozích hovorů nebo jiných důležitých oznámení. Tato aplikace se spoléhá na oprávnění otevírat nová okna, když běží v pozadí, a může se používat, pouze, pokud je toto oprávnění uděleno.</string>
     <string name="footer_learn_more_content_description">Další informace o funkci %1$s</string>
     <string name="forbidden_network">(zakázáno)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Je zapnutý režim oprav. Nyní nemůžete nastavovat ani měnit hesla.</string>
     <string name="forbidden_switch_apn_string">Vybraná nastavení APN se neshodují se současným typem sítě</string>
     <string name="force_allow_on_external">Vynutit povolení aplikací na externím úložišti</string>
     <string name="force_allow_on_external_summary">Každou aplikaci bude možné zapsat do externího úložiště, bez ohledu na hodnoty manifestu</string>
@@ -4728,6 +4733,7 @@ Tato funkce je dostupná pouze, pokud je nastaveno ovládání systému pomocí 
     <string name="friday_first_day_of_week">pátek</string>
     <string name="friday_short">Pát</string>
     <string name="friday_shortest">Pát</string>
+    <string name="frp_status_activated">Ochrana obnovení továrního nastavení je zapnuta</string>
     <string name="fsg_mistake_touch_summary">V některých případech, jako jsou hry nebo videa na celou obrazovku, bude vyžadováno dvojité provedení gesta</string>
     <string name="fsg_mistake_touch_title">Kontrola gesta</string>
     <string name="full_screen_display">Režim celé obrazovky</string>
@@ -4750,6 +4756,7 @@ Když zapnete automatické zálohování, data zařízení a aplikací se budou 
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Herní ovladače</string>
     <string name="game_delta_action_moments">Sbírání zásob a úspěšná evakuace</string>
+    <string name="game_eyecare_empty_list_tip">Zatím zde nic není</string>
     <string name="game_king_of_glory_moments">Zásahy, vítězství a další klíčové okamžiky</string>
     <string name="game_parachute_moments">Seskok padákem</string>
     <string name="game_peacekeeper_elites_moments">Výsadek a boj</string>
@@ -6774,6 +6781,7 @@ Pokračujte pro další nastavení."</string>
     <string name="miui_master_clear_summary">Vymaže všechna data v zařízení</string>
     <string name="miui_more_special_feature">Objevujte nové funkce</string>
     <string name="miui_nfc_dialog_message">Po vypnutí nebudete moci využít NFC funkce jako jsou Mi Platby, transportní karty, přístupové karty apod. Přesto vypnout?</string>
+    <string name="miui_nfc_dialog_message_gl">Pokud vypnete NFC, nebudete moci používat NFC funkce, včetně čtení a zápisu NFC zpráv a přístupových karet apod. Přesto vypnout?</string>
     <string name="miui_nfc_dialog_negative">Vypnout</string>
     <string name="miui_nfc_dialog_positive">Zrušit</string>
     <string name="miui_nfc_dialog_title">Vypnutí NFC</string>
@@ -7353,6 +7361,12 @@ Zvolte váš operační systém:"</string>
     <string name="next_button_label">Další</string>
     <string name="next_label">Další</string>
     <string name="next_page_content_description">Další</string>
+    <string name="nfc_ac_btn_no">Zrušit</string>
+    <string name="nfc_ac_btn_yes">Nastavit</string>
+    <string name="nfc_ac_confirm_ask">Nastavit přístupovou kartu jako výchozí kartu?</string>
+    <string name="nfc_ac_confirm_desc">Abyste mohli demknout dveře klepnutím v telefonu, nastavte přístupovou kartu jako výchozí kartu.</string>
+    <string name="nfc_ac_summary">Používejte svůj telefon jako přístupovou kartu a odemykejte kompatibilní dveře přiložením telefonu</string>
+    <string name="nfc_ac_title">Přístupová karta</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Před použitím nejprve nainstalujte platební aplikaci</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Nejsou dostupné, protože funkce NFC je vypnutá</string>
     <string name="nfc_category_title">NFC</string>
@@ -7377,7 +7391,7 @@ Zvolte váš operační systém:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Výchozí nastavení</string>
     <string name="nfc_payment_btn_text_update">Aktualizovat</string>
-    <string name="nfc_payment_default">Výchozí platební aplikace</string>
+    <string name="nfc_payment_default">Vybrat výchozí kartu</string>
     <string name="nfc_payment_default_not_set">Nenastaveno</string>
     <string name="nfc_payment_favor_default">Vždy použít výchozí aplikaci</string>
     <string name="nfc_payment_favor_open">Nahradit výchozí aplikaci, pokud je otevřena jiná platební aplikace</string>
@@ -7446,6 +7460,8 @@ Bude tím nahrazena aplikace %2$s jako výchozí platební aplikace."</string>
     <string name="night_display_temperature_title">Intenzita</string>
     <string name="night_display_text">Noční režim obrazovku zbarví do oranžova. Čtení a sledování obrazovky při tlumeném osvětlení tak bude snazší a bude se vám lépe usínat.</string>
     <string name="night_display_title">Noční režim</string>
+    <string name="night_eye_protection_summary">Poté, co usnete, se automaticky sníží jas pro vaše pohodlí, když se probudíte a díváte se na zařízení v noci</string>
+    <string name="night_eye_protection_title">Noční pohodlí pro oči</string>
     <string name="night_light_main_switch_title">Používat noční režim</string>
     <string name="nls_feature_modes_settings_summary">Může spravovat a aktivovat režimy a měnit související nastavení.</string>
     <string name="nls_feature_read_summary">Může číst vaše oznámení, včetně osobních údajů, jako jsou kontakty, zprávy a fotky.</string>
@@ -8134,6 +8150,7 @@ Před použitím této služby si přečtěte a souhlaste se %s."</string>
     <string name="popup_window">Zakázat plovoucí oznámení</string>
     <string name="post_dsds_reboot_notification_text">Klepnutím aktualizujete nastavení SIM karty</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">SIM karta %1$s je aktivní</string>
+    <string name="post_reset_google_verification">Po obnovení továrního nastavení se přihlaste pomocí Google účtu, který jste dříve používali na tomto zařízení, a nastavte heslo.</string>
     <string name="power_autorun_apps_empty">Žádné aplikace</string>
     <string name="power_autorun_empty">Žádné dostupné aplikace</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8700,6 +8717,8 @@ Do soukromého prostoru se může dostat kdokoli, kdo zařízení připojí k p
     <string name="proxy_url_title">"Adresa URL PAC: "</string>
     <string name="proxy_warning_limited_support">Proxy server protokolu HTTP může používat prohlížeč, ale nesmí jej používat další aplikace.</string>
     <string name="pss_profiling_disabled">Profilování paměti vypnuto</string>
+    <string name="qingcai_eye_care_summery">Automaticky rozpozná obsah na obrazovce a filtruje škodlivé modré světlo při zachování živých herních barev</string>
+    <string name="qingcai_eye_care_title">Pohodlí pro oči (živé)</string>
     <string name="qr_code_content_description">QR kód</string>
     <string name="quick_button_check_app_activity_title">Vyberte aplikaci k rychlému spuštění</string>
     <string name="quick_button_check_app_not_found_txt">Nenalezeny žádné výsledky</string>
@@ -8758,7 +8777,7 @@ Do soukromého prostoru se může dostat kdokoli, kdo zařízení připojí k p
     <string name="reading_data">Získávání informací…</string>
     <string name="really_remove_account_message">Odebráním tohoto účtu odstraníte z telefonu všechny jeho zprávy, kontakty a další data.</string>
     <string name="really_remove_account_title">Chcete odebrat účet?</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver">Změna systémového ovladače OpenGL ES vyžaduje restart. Před restartováním zařízení si zálohujte data. Pokud se restart nezdaří, budete muset zařízení obnovit resetováním do továrního nastavení.</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Změna systémového ovladače OpenGL ES vyžaduje restart</string>
     <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">K aktivaci oken s volným tvarem na sekundárních displejích je potřeba restart.</string>
     <string name="reboot_dialog_enable_freeform_support">K zapnutí podpory plovoucích oken je potřeba restart.</string>
     <string name="reboot_dialog_override_desktop_mode">K aktualizaci dostupnosti oken s volným tvarem je potřeba restart.</string>
@@ -10880,6 +10899,8 @@ Zkuste použít rychlejší médium ^3 nebo toto médium ^4 použijte jako přen
     <string name="sunlight_mode">Režim Sluneční svit</string>
     <string name="sunlight_mode_boost_summary">Zvyšte rozsah jasu a upravte jas automaticky za jasných podmínek. Po zapnutí této funkce se bude spotřebovávat více energie a zahřívat zařízení.</string>
     <string name="sunlight_mode_summary">Přizpůsobit jas displeje ostrému okolnímu světlu a zabránit tak přílišnému ztmavení obrazovky</string>
+    <string name="super_sensory_night_vision_summery">Zvyšuje kontrast při slabém osvětlení, aby detaily zůstaly zřetelné a noční hraní bylo lepší</string>
+    <string name="super_sensory_night_vision_title">Vylepšené noční vidění</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maximální hlasitost %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Zapomenutý PIN</string>

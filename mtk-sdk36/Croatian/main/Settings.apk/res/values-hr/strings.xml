@@ -550,6 +550,7 @@ Da biste prešli na neku drugu značajku, prijeđite s tri prsta prema gore i za
     <string name="activity_title_root_note">O ROOT pristupu</string>
     <string name="ad_service">Usluge oglasa</string>
     <string name="adapt_embedded">Paralelni prozori su dostupni</string>
+    <string name="adapted_game_title">Podržane igre</string>
     <string name="adaptive_brightness_main_switch_title">Koristi prilagodljivu svjetlinu</string>
     <string name="adaptive_connectivity_main_switch_title">Koristi prilagodljivo povezivanje</string>
     <string name="adaptive_connectivity_mobile_network_switch_summary">Produljuje trajanje baterije automatskim upravljanjem mrežnim vezama</string>
@@ -658,6 +659,7 @@ Vaš administrator može nadzirati postavke, pristup, aplikacije i podatke povez
     <string name="advanced_battery_title">Potrošnja baterije</string>
     <string name="advanced_gesture">Prilagodi pokrete</string>
     <string name="advanced_screen_paper_mode_title">Način čitanja</string>
+    <string name="advanced_screen_paper_mode_title_eye_protection">Xiaomi Vision Care</string>
     <string name="advanced_screen_paper_mode_title_new">Ugodno za oči</string>
     <string name="advanced_section_header">Općenito</string>
     <string name="advanced_security_title">Dodatne postavke</string>
@@ -3580,6 +3582,7 @@ Mnoge aplikacije upotrebljavat će i regiju preferiranog jezika za odabir format
     <string name="disable_overlays">Onemogući hardverska preklapanja</string>
     <string name="disable_overlays_summary">Uvijek se koristi GPU za slaganje zaslona</string>
     <string name="disable_password_warning">Nakon što isključite zaključavanje zaslona, ​​snimljeni otisci prstiju i podaci o licu bit će izbrisani. Nećete moći otključati uređaj licem ili otiscima prstiju niti ih koristiti u Bilješkama ili Galeriji.</string>
+    <string name="disable_permission_text_by_hyper">Ovo dopuštenje nije prošlo pregled i sada je ograničeno</string>
     <string name="disable_phantom_process_monitor_summary">Onemogućite ograničenja upotrebe resursa sustava za podređene postupke aplikacija</string>
     <string name="disable_phantom_process_monitor_title">Onemogući ograničenja za podređene postupke</string>
     <string name="disable_power_key_long_press_under_keyguard">Isključi izbornik tipke Napajanja</string>
@@ -3896,7 +3899,7 @@ Možete vidjeti stvorene zapise u Upravitelju datoteka."</string>
     <string name="enable_adb_wireless">Bežično otklanjanje pogrešaka</string>
     <string name="enable_adb_wireless_summary">Način otklanjanja pogrešaka kad je Wi-Fi povezan</string>
     <string name="enable_angle_as_system_driver">Eksperimentalno: omogućite ANGLE</string>
-    <string name="enable_angle_as_system_driver_summary">Upozorenje: omogućite ANGLE kao zadani upravljački program ES OpenGL-a. Značajka je eksperimentalna i možda nije kompatibilna s nekim aplikacijama za kamere i videozapise. Prije uključivanja prekidača sigurnosno kopirajte podatke s uređaja</string>
+    <string name="enable_angle_as_system_driver_summary">Upozorenje: omogućite ANGLE kao zadani upravljački program ES OpenGL-a. Značajka je eksperimentalna i možda nije kompatibilna s nekim aplikacijama za kamere i videozapise.</string>
     <string name="enable_auto_data_switch_dialog_message">Omogućite uređaju da se automatski prebaci na mobilnog operatera %1$s za mobilne podatke u slučaju bolje dostupnosti.</string>
     <string name="enable_auto_data_switch_dialog_title">Poboljšati pokrivenost mob. podacima?</string>
     <string name="enable_compatibility">Skaliranje aplikacije</string>
@@ -4182,12 +4185,14 @@ Ponovno pokrenite uređaj i pokušajte ponovno."</string>
     <string name="eyes_protect_certification_summary_5">Xiaomijeva prilagođena SVM kompenzacija održava SVM ispod 1 pri bilo kojoj svjetlini za ugodnije iskustvo gledanja.</string>
     <string name="eyes_protect_certification_summary_5_extended">Nisko treperenje SVM-a na svim razinama svjetline kako bi se smanjilo naprezanje očiju</string>
     <string name="eyes_protect_certification_summary_6">Udobnost za oči temeljena na hardveru za korištenje pri slabom osvjetljenju i po noću. Pomaže u smanjenju naprezanja očiju i podržava zdrav ritam spavanja.</string>
+    <string name="eyes_protect_certification_summary_9">Niska plava svjetlost (hardversko rješenje), prilagođeno cirkadijalnom ritmu, bez treperenja i s certifikatom Intelligent Eye Care</string>
     <string name="eyes_protect_certification_title_1">Kineski centar za certifikaciju kvalitete</string>
     <string name="eyes_protect_certification_title_2">Trostruki TÜV Rheinland certifikat za udobnost očiju</string>
     <string name="eyes_protect_certification_title_3">Prirodnija kružna polarizacija</string>
     <string name="eyes_protect_certification_title_4">DC zatamnjivanje bez treperenja</string>
     <string name="eyes_protect_certification_title_5">3840 Hz PWM zatamnjenje</string>
     <string name="eyes_protect_certification_title_6">%d-nit minimalna svjetlina</string>
+    <string name="eyes_protect_certification_title_9">Četverostruki TÜV Rheinland certifikat za udobnost očiju</string>
     <string name="eyes_protect_game_title">Udobnost za oči pri igranju</string>
     <string name="face_data_apply_for_category_title">Otključajte koristeći podatke lica</string>
     <string name="face_data_apply_for_keyguard_title">Zaključani zaslon</string>
@@ -4609,7 +4614,7 @@ Xiaomi neumorno izrađuje nevjerojatne proizvode po poštenim cijenama kako bi o
     <string name="footer_description_full_screen_intent">Dopusti ovoj aplikaciji prikaz obavijesti koje zauzimaju cijeli zaslon kada je uređaj zaključan. Aplikacija može koristiti obavijesti preko cijelog zaslona za prikaz alarma, dolaznih poziva ili drugih hitnih obavijesti. Ova se postavka oslanja na dopuštenje za otvaranje novih prozora dok radi u pozadini i može se koristiti samo kada je to dopuštenje dodijeljeno.</string>
     <string name="footer_learn_more_content_description">Saznajte više o usluzi %1$s</string>
     <string name="forbidden_network">(zabranjeno)</string>
-    <string name="forbidden_set_unlock_password_msg">Currently in maintenance mode, password cannot be set or changed.</string>
+    <string name="forbidden_set_unlock_password_msg">Način popravka je uključen. Zaporke se sada ne mogu postaviti niti promijeniti.</string>
     <string name="forbidden_switch_apn_string">Odabrane APN postavke ne podudaraju se s trenutnom vrstom mreže</string>
     <string name="force_allow_on_external">Prisilno dopusti aplikacije u vanjskoj pohrani</string>
     <string name="force_allow_on_external_summary">Aplikacije se mogu zapisivati u vanjsku pohranu neovisno o vrijednostima manifesta</string>
@@ -4728,6 +4733,7 @@ Ova značajka radi samo kada je navigacija sustava postavljena na pokrete."</str
     <string name="friday_first_day_of_week">Petak</string>
     <string name="friday_short">Pet</string>
     <string name="friday_shortest">Pet</string>
+    <string name="frp_status_activated">Zaštita od vraćanja na tvorničke postavke je uključena</string>
     <string name="fsg_mistake_touch_summary">U nekim prizorima, kao što su igre i videozapisi na cijelom zaslonu, pokreti moraju biti dvostruko povlačenje kako bi imali učinak</string>
     <string name="fsg_mistake_touch_title">Dvaput provjeri za pokrete</string>
     <string name="full_screen_display">Prikaz na cijelom zaslonu</string>
@@ -4750,6 +4756,7 @@ Kada uključite automatsku izradu sigurnosnih kopija, podaci uređaja i aplikaci
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Upravljač igrama</string>
     <string name="game_delta_action_moments">Pljačka zaliha i uspješna evakuacija</string>
+    <string name="game_eyecare_empty_list_tip">Ovdje još nema ničega</string>
     <string name="game_king_of_glory_moments">Eliminacije, pobjede i drugi ključni trenuci</string>
     <string name="game_parachute_moments">Padobranstvo</string>
     <string name="game_peacekeeper_elites_moments">Padobranstvo i borba</string>
@@ -6774,6 +6781,7 @@ Nastavite za pristup dodatnim postavkama."</string>
     <string name="miui_master_clear_summary">Briše sve podatke na ovom uređaju</string>
     <string name="miui_more_special_feature">Istražite nove značajke</string>
     <string name="miui_nfc_dialog_message">Ako isključite NFC, nećete moći koristiti značajke NFC-a koje uključuju Mi Pay, prijevozne kartice, ključ-kartice i drugo. Ipak isključiti?</string>
+    <string name="miui_nfc_dialog_message_gl">Nećete moći koristiti NFC značajke, uključujući čitanje i pisanje NFC oznaka, korištenje pristupnih kartica i ostalo, ako isključite NFC. Želite li ga ipak isključiti?</string>
     <string name="miui_nfc_dialog_negative">Isključi</string>
     <string name="miui_nfc_dialog_positive">Odustani</string>
     <string name="miui_nfc_dialog_title">Gašenje NFC-a</string>
@@ -7353,6 +7361,12 @@ Odaberite operativni sustav vašeg računala:"</string>
     <string name="next_button_label">Sljedeće</string>
     <string name="next_label">Dalje</string>
     <string name="next_page_content_description">Dalje</string>
+    <string name="nfc_ac_btn_no">Otkaži</string>
+    <string name="nfc_ac_btn_yes">Postavi</string>
+    <string name="nfc_ac_confirm_ask">Postaviti pristupnu karticu kao zadanu karticu?</string>
+    <string name="nfc_ac_confirm_desc">Za otključavanje vrata dodirom telefona, postavite pristupnu karticu kao zadanu karticu za dodir.</string>
+    <string name="nfc_ac_summary">Koristite telefon kao pristupnu karticu i otključajte podržana vrata jednim dodirom</string>
+    <string name="nfc_ac_title">Pristupna kartica</string>
     <string name="nfc_and_payment_settings_no_payment_installed_summary">Za upotrebu najprije instalirajte aplikaciju za plaćanje</string>
     <string name="nfc_and_payment_settings_payment_off_nfc_off_summary">Nije dostupno jer je NFC isključen</string>
     <string name="nfc_category_title">NFC</string>
@@ -7377,7 +7391,7 @@ Odaberite operativni sustav vašeg računala:"</string>
     <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Postavi zadano</string>
     <string name="nfc_payment_btn_text_update">Ažuriraj</string>
-    <string name="nfc_payment_default">Zadano plaćanje</string>
+    <string name="nfc_payment_default">Odaberi zadanu karticu</string>
     <string name="nfc_payment_default_not_set">Nije postavljeno</string>
     <string name="nfc_payment_favor_default">Uvijek koristite zadanu aplikaciju</string>
     <string name="nfc_payment_favor_open">Zamijenite zadanu aplikaciju kada je druga aplikacija za plaćanje otvorena</string>
@@ -7446,6 +7460,8 @@ To znači da %2$s više neće biti vaša zadana aplikacija za plaćanje."</strin
     <string name="night_display_temperature_title">Intenzitet</string>
     <string name="night_display_text">Noćno svjetlo boji zaslon uređaja u jantarnu nijansu. To olakšava gledanje zaslona i čitanje pri slabom svjetlu i može vam pomoći da lakše zaspite.</string>
     <string name="night_display_title">Noćno svjetlo</string>
+    <string name="night_eye_protection_summary">Automatski smanjite svjetlinu nakon što zaspite radi vaše udobnosti kada se probudite i noću pogledate u svoj uređaj</string>
+    <string name="night_eye_protection_title">Noćna udobnost za oči</string>
     <string name="night_light_main_switch_title">Koristi noćno svjetlo</string>
     <string name="nls_feature_modes_settings_summary">Može upravljati načinima, aktivirati ih i izmijeniti povezane postavke.</string>
     <string name="nls_feature_read_summary">Može čitati vaše obavijesti, uključujući osobne podatke kao što su kontakti, poruke i fotografije.</string>
@@ -8134,6 +8150,7 @@ Pročitajte i prihvatite %s prije korištenja ove usluge."</string>
     <string name="popup_window">Ograniči plutajuće obavijesti</string>
     <string name="post_dsds_reboot_notification_text">Dodirnite da biste ažurirali postavke SIM-a</string>
     <string name="post_dsds_reboot_notification_title_with_carrier">Vaš SIM mobilnog operatera %1$s je aktivan</string>
+    <string name="post_reset_google_verification">Nakon vraćanja na tvorničke postavke, prijavite se s Google računom koji ste prethodno koristili na ovom uređaju da biste postavili zaporku.</string>
     <string name="power_autorun_apps_empty">Ovdje nema aplikacija</string>
     <string name="power_autorun_empty">Nema dostupnih aplikacija</string>
     <string name="power_bluetooth">Bluetooth</string>
@@ -8700,6 +8717,8 @@ Svatko tko poveže vaš uređaj s računalom ili instalira zlonamjerne aplikacij
     <string name="proxy_url_title">"URL za PAC: "</string>
     <string name="proxy_warning_limited_support">Preglednik upotrebljava HTTP proxy poslužitelj, ali druge aplikacije ne mogu ga upotrebljavati.</string>
     <string name="pss_profiling_disabled">Profiliranje memorije je onemogućeno</string>
+    <string name="qingcai_eye_care_summery">Automatski otkriva sadržaj na zaslonu i filtrira štetno plavo svjetlo dok boje slike održava živima</string>
+    <string name="qingcai_eye_care_title">Udobnost za oko (živo)</string>
     <string name="qr_code_content_description">QR kôd</string>
     <string name="quick_button_check_app_activity_title">Odaberite aplikaciju za brzo pokretanje</string>
     <string name="quick_button_check_app_not_found_txt">Ne mogu pronaći rezultate</string>
@@ -8758,7 +8777,7 @@ Svatko tko poveže vaš uređaj s računalom ili instalira zlonamjerne aplikacij
     <string name="reading_data">Dobivanje informacija…</string>
     <string name="really_remove_account_message">Uklanjanje ovog računa izbrisat će sve njegove poruke, kontakte i druge podatke s telefona.</string>
     <string name="really_remove_account_title">Želite li ukloniti račun?</string>
-    <string name="reboot_dialog_enable_angle_as_system_driver">Potrebno je ponovno pokretanje za promjenu upravljačkog programa sistemskog ES OpenGL-a. Prije ponovnog pokretanja sigurnosno kopirajte podatke s uređaja. Ako ponovno pokretanje nije uspjelo, trebate vratiti uređaj na tvorničke postavke da biste ga vratili</string>
+    <string name="reboot_dialog_enable_angle_as_system_driver">Potrebno je ponovno pokretanje za promjenu upravljačkog programa sistemskog ES OpenGL-a</string>
     <string name="reboot_dialog_enable_desktop_mode_on_secondary_display">Za omogućivanje prikaza u prozorima slobodnog oblika na sekundarnim zaslonima potrebno je ponovno pokretanje.</string>
     <string name="reboot_dialog_enable_freeform_support">Za omogućivanje podrške za prozore slobodnog oblika potrebno je ponovno pokretanje.</string>
     <string name="reboot_dialog_override_desktop_mode">Za ažuriranje dostupnosti prikaza u prozorima slobodnog oblika potrebno je ponovno pokretanje.</string>
@@ -10880,6 +10899,8 @@ Pokušajte upotrijebiti brži medij ^3 ili upotrebljavajte ovaj medij ^4 za prij
     <string name="sunlight_mode">Sunčani način</string>
     <string name="sunlight_mode_boost_summary">Proširite raspon svjetline i automatski prilagodite svjetlinu u svijetlim uvjetima. Ova značajka će uzrokovati zagrijavanje vašeg uređaja i potrošnju energije.</string>
     <string name="sunlight_mode_summary">Prilagodite osvjetljenje jakom ambijentalnom svjetlu kako Vam se telefon ne bi previše zacrnio</string>
+    <string name="super_sensory_night_vision_summery">Poboljšan kontrast pri niskom osvjetljenju kako bi pojedinosti ostale jasnije za bolje noćno iskustvo igranja</string>
+    <string name="super_sensory_night_vision_title">Poboljšan noćni vid</string>
     <string name="super_voice_assist">Super Mi AI</string>
     <string name="super_volume_tip">Maksimalna glasnoće %s</string>
     <string name="supervision_add_forgot_pin_preference_title">Zaboravljen PIN</string>
