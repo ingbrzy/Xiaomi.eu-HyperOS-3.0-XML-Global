@@ -80,7 +80,7 @@
     <string name="abnormal_consume_type_wakelock">Järjestelmä ei voi mennä nukkumaan</string>
     <string name="about_autostart">Tietoja automaattisesta käynnistyksestä</string>
     <string name="about_autostart_gloabl">Tietoja automaattisesta käynnistyksestä taustalla</string>
-    <string name="about_securitycenter_phne">Customer service hotline: 950816</string>
+    <string name="about_securitycenter_phne">Asiakaspalvelun palvelunumero: 950816</string>
     <string name="about_securitycenter_title">Tietoja tietoturvasta</string>
     <string name="ac_enter_applock">Syötä sovelluslukko</string>
     <string name="ac_firstUseApplock_subTitle">Käytä parempia järjestelmätason turvallisuustyökaluja</string>
@@ -163,6 +163,7 @@
     <string name="add_done">Lisätty onnistuneesti</string>
     <string name="add_game">Lisää peli</string>
     <string name="add_game_notification_summary">Napauta käynnistääksesi ja lisänopeus</string>
+    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
     <string name="add_miservice_dialog_content">%s vaatii, että voit lisätä Xiaomi-palvelukehyksen poikkeuksiin. Voit saada ilmoituksia meidän sisäänrakennetuista sovelluksista ja muista kolmannen osapuolen sovelluksista.</string>
     <string name="add_miservice_dialog_title">Xiaomi-palvelukehys</string>
     <string name="add_to_whitelist_button">Datan verkkovierailun poikkeukset</string>
@@ -1558,6 +1559,7 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="dynamic_performance_optimization_title">Dynaaminen suorituskyky</string>
     <string name="early_morning">Aamu</string>
     <string name="edit_phone_num">Muokkaa SIM-puhelinnumeroa</string>
+    <string name="eletric_card_two_identification_risk_mms_summary_description">Saat muistutuksia petosriskeistä, kun lähetät tekstiviestivahvistuskoodeja kommunikaatiosovelluksiin</string>
     <string name="ellipsis">…</string>
     <string name="email">Sähköposti</string>
     <string name="empty" />
@@ -1904,7 +1906,9 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="gallery_confirm_start_activity">%s ei saa käyttää Galleriaasi ja sosiaalisen median sovelluksiasi. Tämä sovellus haluaa käyttää laitteeseen tallennettuja kuvia kohteiden jakamiseen. Sallitaanko?</string>
     <string name="game_ad_recommendation">Kaikki pelaavat</string>
     <string name="game_anti_disturb_msg">Pelien DND</string>
+    <string name="game_balance_gpu_enhance_title">Erillisen näytönohjaimen tehostus</string>
     <string name="game_balance_more_setting_title">Lisäasetukset</string>
+    <string name="game_balance_none_gpu_enhance_subtitle">Parannettu graafinen suorituskyky</string>
     <string name="game_balance_vision_enhance_subtitle">Lisää kontrastia ja parantaa pelien yksityiskohtia</string>
     <string name="game_balance_vision_enhance_subtitle_xring_sr">Käytettävissä vain, kun pelin resoluutio on asetettu korkeimpaan arvoon</string>
     <string name="game_balance_vision_enhance_subtitle_xring_ys">Käytettävissä vain, kun pelin kuvantamistarkkuus on asetettu korkeimpaan arvoon</string>
@@ -1949,6 +1953,13 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_toolbox_auto_brightness_talkback">Automaattinen kirkkaudensäätö</string>
     <string name="game_toolbox_btn_back_talkback">Takaisin</string>
     <string name="game_toolbox_cellular_network">Mobiiliverkon nopeuden lisääminen</string>
+    <string name="game_toolbox_cooling_fan_enabled_performance_mode">Jäähdytystuuletin on nyt asetettu tilaan \"Suorituskyky\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_quiet_mode">Jäähdytystuuletin on nyt asetettu tilaan \"Hiljainen\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_smart_mode">Jäähdytystuuletin on nyt asetettu tilaan \"Älykäs\"</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_confirm">Asetukset</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_message">Ota \"Pelaaminen\" käyttöön kohdassa Aserukset > Jäähdytystuuletin tai aseta käyttötilanteeksi \"Kaikki\", jos haluat käyttää jäähdytystuuletinta pelaamisen aikana.</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_title">Huomio</string>
+    <string name="game_toolbox_cooling_fan_title">Jäähdytystuuletin</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">d.M.yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Peruuta</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">VPN-yhteys luodaan automaattisesti reaaliaikaisen viiveen perusteella verkon vakauden parantamiseksi. Lunastamisen jälkeen saat %d vuoden ilmaisen käyttöoikeuden.</string>
@@ -1964,6 +1975,9 @@ Se lisätään poikkeuksiin, mutta aiemmin estetyt kohteet eivät näy puheluhis
     <string name="game_toolbox_display_avrs_desc">Kytke päälle vähentääksesi kuvanlaatua hieman ja virrankulutusta merkittävästi</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Huomio:
 Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen kuvataajuuden havainnointityökalut eivät ehkä toimi täsmällisesti. Katso todellinen kuvataajuus suorituskyvyn hallintapaneelista."</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice_new">"Huomaa:
+%1$d. Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen ruudunpäivitysnopeuden tunnistustyökalut eivät välttämättä tunnista ruudunpäivitysnopeutta tarkasti. Tarkista todellinen ruudunpäivitysnopeus suorituskykypaneelista.
+%2$d. Älykäs kuvataajuus ei toimi puhelun aikana, Virransäästön ollessa käytössä tai jos laitteen lämpötila on liian korkea tai akun varaustaso liian alhainen. Toiminto otetaan taas käyttöön, kun olosuhteet palautuvat normaaleiksi."</string>
     <string name="game_toolbox_display_style_desc">Säädä visuaalista tyyliä (tukee pelin HDR:ää)</string>
     <string name="game_toolbox_display_style_game_hdr">Pelin HDR</string>
     <string name="game_toolbox_display_style_not_hdr_desc">Voit vaihtaa eri näkymätyylien välillä</string>
@@ -1974,6 +1988,15 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="game_toolbox_fps_realtime_nodata">Noudetaan reaaliaikainen FPS…</string>
     <string name="game_toolbox_fps_shake">Värinä %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Noudetaan kuvan värinää…</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_des">Vältä kelluvien ikkunoiden avaamista pyyhkäisemällä reunoista</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_title">Poista kelluvan ikkunan skaalaaminen käytöstä</string>
+    <string name="game_toolbox_gesture_control_main_switch_des">Muutoksia sovelletaan vain nykyiseen peliin</string>
+    <string name="game_toolbox_gesture_control_main_switch_title">Ohita tahaton kosketus peleissä</string>
+    <string name="game_toolbox_gesture_control_multi_finger_des">Eleet, kuten kuvakaappausten ottaminen kolmen sormen pyyhkäisyllä, ohitetaan</string>
+    <string name="game_toolbox_gesture_control_multi_finger_title">Ohita usean sormen eleet</string>
+    <string name="game_toolbox_gesture_control_title">Ohita tahaton kosketus</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_des">Pienennä siirtymiseleiden ja tilarivin laukaisualueita maisematilassa</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_title">Pienennä laukaisualuetta</string>
     <string name="game_toolbox_gyro_boost_title">Gyro-tehoste</string>
     <string name="game_toolbox_gyro_boost_toast">Ota gyroskooppi käyttöön pelin asetuksissa käyttääksesi tätä ominaisuutta</string>
     <string name="game_toolbox_immersion_sound_desc">Kun käytät kuulokkeita, sieppaa äänitehosteita, kuten askeleita ja ääniä, mikä parantaa pelien immersiota</string>
@@ -1981,6 +2004,8 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="game_toolbox_item_joystick_key_mapping">Ohjaimen painike</string>
     <string name="game_toolbox_margin_restrain_description">Määritä kosketuksen hylkäysalue vähentääksesi tahattomia kosketuksia</string>
     <string name="game_toolbox_mem_clean_desc">Tyhjennä muisti nopeuden lisäämiseksi</string>
+    <string name="game_toolbox_mem_clean_desc_new">Vapauta järjestelmän muistia</string>
+    <string name="game_toolbox_memory">Muisti</string>
     <string name="game_toolbox_more_tools_title">Lisää työkaluja</string>
     <string name="game_toolbox_overtemp_click_toast">Odota, kunnes laitteesi jäähtyy, jotta voit käyttää tätä ominaisuutta</string>
     <string name="game_toolbox_perf_config_desc">Määritä pelin suorituskykyasetukset</string>
@@ -2082,6 +2107,7 @@ Kun Älykäs kuvataajuus on käytössä, pelin sisäiset ja kolmannen osapuolen 
     <string name="gamebox_macro">Yhdistelmät</string>
     <string name="gamebox_manual_record">Nauhoita</string>
     <string name="gamebox_mem_clean">Tyhjennä muisti</string>
+    <string name="gamebox_mem_clean_new">Muistin optimointi</string>
     <string name="gamebox_mem_filter">Pelisuodattimet</string>
     <string name="gamebox_member">Jäsenyys</string>
     <string name="gamebox_milink">Peilaa</string>
@@ -2308,6 +2334,7 @@ Tallenna sekvenssit ja käytä niitä milloin tahansa!"</string>
     <string name="gb_new_feature">Uusi ominaisuus</string>
     <string name="gb_not_support_on_device">Tätä sovellusta ei voi käyttää ulkoisella näytöllä</string>
     <string name="gb_operat_frequently">Ei niin nopeasti!</string>
+    <string name="gb_perf_display_enhance_update_toast">Parannettu grafiikka on päivitetty. Asetukset säilytetään.</string>
     <string name="gb_performace_guide_disable_desc"><Data>Ei voi vaihtaa Tasapainotettuun tilaan Game Turbossa, kun järjestelmälaajuinen suorituskykytila on päällä. Voit muuttaa akun asetuksia Tietoturvassa.&lt;br>&lt;a href=\"#\">Avaa Tietoturva&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Vaihdettu suorituskykytilaan. Laitteesi saattaa lämmetä ja kuluttaa enemmän virtaa.</string>
     <string name="gb_performace_tips_button">Vaihda</string>
@@ -3392,6 +3419,7 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="normal4" formatted="false">%1s, %2s, %3s, %4s. Muuta napauttamalla.</string>
     <string name="normal_package_usage_summary" formatted="false">%2s/%1s (%3s)</string>
     <string name="not_closed">Pidä päällä</string>
+    <string name="not_found_apps_title">Tuloksia ei löytynyt</string>
     <string name="not_limited_brand">Rajoittamaton</string>
     <string name="not_set">Aseta napauttamalla</string>
     <string name="not_settled">Ei asetettu</string>
@@ -3664,10 +3692,12 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pb_cell_detail">Solu %1$d</string>
     <string name="pb_cycle_count">Lataussyklien lukumäärä</string>
     <string name="pb_data_fetch_all_error">Tietoja ei voitu lukea. Virtapankki saattaa olla irrotettu tai sitä ei tueta.</string>
+    <string name="pb_data_fetch_all_error_new">Tietojen lukeminen epäonnistui. Varavirtalähde on ehkä irrotettu tai sitä ei tueta. Jos se on irrotettu, kytke latauskaapeli uudelleen ja yritä uudelleen.</string>
     <string name="pb_data_fetch_partial_error">Jotkin kohteet eivät ole saatavilla viivästyksen tai tukemattoman virtapankin vuoksi</string>
     <string name="pb_manufacturer">Valmistaja</string>
     <string name="pb_measure_point">Anturi %1$d</string>
     <string name="pb_production_date">Tuotantopäivämäärä</string>
+    <string name="pb_prompt_update_system">Nykyinen järjestelmäsi ei tue tätä ominaisuutta. Päivitä järjestelmäsi asetuksissa ja yritä uudelleen.</string>
     <string name="pb_remain_battery">Akkua jäljellä</string>
     <string name="pb_section_abnormal_info">Epänormaali tila</string>
     <string name="pb_section_battery_info">Akun tiedot</string>
@@ -3763,6 +3793,8 @@ Kokeile käyttää toista Ethernet-kaapelia reitittimen liittämiseen. Jos epäi
     <string name="pc_continuity_open_save_mode_notifi_title">Laitteen %s akku on vähissä</string>
     <string name="pc_current_power_mode">Nykyinen tila</string>
     <string name="pc_cycle_count_protect_title">Syklit</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_message">Vain yksi datalaite voidaan lukea kerrallaan molempien porttien ollessa käytössä. Irrota kytketty laite ennen toisen liittämistä.</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_title">Huomio</string>
     <string name="pc_dialog_dual_type_c_port_reminder_btn">Selvä</string>
     <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Älä näytä uudelleen</string>
     <string name="pc_dialog_dual_type_c_port_reminder_message">Laitteen lyhyen puolen tyypin C-portti ei tue tiedonsiirtoa. Yhdistä tietokoneeseen toisen portin kanssa.</string>

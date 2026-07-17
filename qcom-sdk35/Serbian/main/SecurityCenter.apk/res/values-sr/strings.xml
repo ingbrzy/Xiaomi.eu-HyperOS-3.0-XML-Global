@@ -163,6 +163,7 @@
     <string name="add_done">Успешно додано</string>
     <string name="add_game">Додај игру</string>
     <string name="add_game_notification_summary">Додирните за покретање и повећавање брзине</string>
+    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
     <string name="add_miservice_dialog_content">%s захтева да додате Xiaomi сервисни оквир у изузетке. Можда ћете добијати обавештења од наших уграђених апликација и других апликација трећих страна.</string>
     <string name="add_miservice_dialog_title">Xiaomi поредак услуга</string>
     <string name="add_to_whitelist_button">Изузеци роминга података</string>
@@ -1558,6 +1559,7 @@
     <string name="dynamic_performance_optimization_title">Динамичке перформансе</string>
     <string name="early_morning">Јутро</string>
     <string name="edit_phone_num">Уреди SIM број телефона</string>
+    <string name="eletric_card_two_identification_risk_mms_summary_description">Добијајте подсетнике о ризицима од преваре приликом прослеђивања SMS кодова за потврду друштвеним апликацијама</string>
     <string name="ellipsis">…</string>
     <string name="email">Е-пошта</string>
     <string name="empty" />
@@ -1904,7 +1906,9 @@
     <string name="gallery_confirm_start_activity">%s није добио приступ вашој Галерији и апликацијама друштвених мрежа. Ова апликација тражи приступ сликама сачуваним на овом уређају за дељење ставки. Дозволити?</string>
     <string name="game_ad_recommendation">Сви играју</string>
     <string name="game_anti_disturb_msg">Не ометај за игре</string>
+    <string name="game_balance_gpu_enhance_title">Побољшање дискретне графичке картице (GPU)</string>
     <string name="game_balance_more_setting_title">Додатна подешавања</string>
+    <string name="game_balance_none_gpu_enhance_subtitle">Перформансе Побољшаног приказа</string>
     <string name="game_balance_vision_enhance_subtitle">Повећајте контраст и детаље код игара</string>
     <string name="game_balance_vision_enhance_subtitle_xring_sr">Доступно само када је резолуција игре подешена на највишу вредност</string>
     <string name="game_balance_vision_enhance_subtitle_xring_ys">Доступно само када је прецизност рендеровања игре подешена на највишу вредност</string>
@@ -1949,6 +1953,13 @@
     <string name="game_toolbox_auto_brightness_talkback">Аутоматска светлина</string>
     <string name="game_toolbox_btn_back_talkback">Назад</string>
     <string name="game_toolbox_cellular_network">Убрзавање мобилне мреже</string>
+    <string name="game_toolbox_cooling_fan_enabled_performance_mode">Вентилатор за хлађење је сада подешен на „Перформансе“</string>
+    <string name="game_toolbox_cooling_fan_enabled_quiet_mode">Вентилатор за хлађење је сада подешен на „Тихо“</string>
+    <string name="game_toolbox_cooling_fan_enabled_smart_mode">Вентилатор за хлађење је сада подешен на „Паметно“</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_confirm">Подешавања</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_message">Укључите „Игре“ у Подешавања > Вентилатор за хлађење или подесите сценарије коришћења на „Све“ да бисте користили вентилатор за хлађење током играња.</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_title">Пажња</string>
+    <string name="game_toolbox_cooling_fan_title">Вентилатор за хлађење</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">d. M. yyyy.</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Откажи</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">VPN веза ће бити аутоматски креирана на основу латенције у реалном времену ради побољшања стабилности мреже. Након што је затражите, добићете %d године бесплатног приступа.</string>
@@ -1964,6 +1975,9 @@
     <string name="game_toolbox_display_avrs_desc">Укључите да бисте мало смањили квалитет слике и значајно смањили потрошњу енергије</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Напомена:
 Када је Паметна брзина кадрова укључена, алати за детекцију брзине кадрова у игри и алати трећих страна можда неће тачно детектовати брзину кадрова. Погледајте контролну таблу перформанси за стварну брзину кадрова."</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice_new">"Напомена:
+%1$d. Када је укључена Паметна брзина кадрова, алати за детекцију брзине кадрова у игри и алати трећих страна за детекцију можда неће тачно препознати брзину кадрова. Погледајте контролну таблу перформанси за стварну брзину кадрова.
+%2$d. Паметна брзина кадрова се не примењује када је температура уређаја превисока, батерија прениска, када је укључена Уштеда батерије или током позива. Поново ће почети да ради након што се услови врате у нормалу."</string>
     <string name="game_toolbox_display_style_desc">Подесите визуелни стил (подржава HDR игре)</string>
     <string name="game_toolbox_display_style_game_hdr">HDR игра</string>
     <string name="game_toolbox_display_style_not_hdr_desc">Можете прелазити између различитих визуелних стилова</string>
@@ -1974,6 +1988,15 @@
     <string name="game_toolbox_fps_realtime_nodata">Добијање броја кадрова у реалном времену…</string>
     <string name="game_toolbox_fps_shake">Треперење %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Добија се подрхтавање кадра…</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_des">Избегавајте отварање плутајућих прозора превлачењем од ивица</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_title">Искључи скалирање плутајућег прозора</string>
+    <string name="game_toolbox_gesture_control_main_switch_des">Промене ће бити примењене само на тренутну игру</string>
+    <string name="game_toolbox_gesture_control_main_switch_title">Игноришите случајни додир у играма</string>
+    <string name="game_toolbox_gesture_control_multi_finger_des">Покрети попут превлачења са три прста за сликање екрана ће бити игнорисани</string>
+    <string name="game_toolbox_gesture_control_multi_finger_title">Игноришите покрете са више прстију</string>
+    <string name="game_toolbox_gesture_control_title">Игнориши случајни додир</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_des">Смањите подручја окидача за навигационе гестове и статусну траку у режиму панораме</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_title">Смањи подручја окидача</string>
     <string name="game_toolbox_gyro_boost_title">Појачање жироскопа</string>
     <string name="game_toolbox_gyro_boost_toast">Укључите жироскоп у подешавањима игре да бисте користили ову функцију</string>
     <string name="game_toolbox_immersion_sound_desc">Када користите слушалице, прецизно снимите звучне ефекте попут корака и гласова, побољшавајући урањање у игру</string>
@@ -1981,6 +2004,8 @@
     <string name="game_toolbox_item_joystick_key_mapping">Тастер контролора</string>
     <string name="game_toolbox_margin_restrain_description">Подесите опсег одбијања додира да бисте смањили случајне додире</string>
     <string name="game_toolbox_mem_clean_desc">Очисти меморију и повећај брзину</string>
+    <string name="game_toolbox_mem_clean_desc_new">Ослободи системску меморију</string>
+    <string name="game_toolbox_memory">Меморија</string>
     <string name="game_toolbox_more_tools_title">Више алата</string>
     <string name="game_toolbox_overtemp_click_toast">Сачекајте да се уређај охлади да бисте могли да користите ову функцију</string>
     <string name="game_toolbox_perf_config_desc">Конфигуришите подешавање перформанси игре</string>
@@ -2082,6 +2107,7 @@
     <string name="gamebox_macro">Комбинације</string>
     <string name="gamebox_manual_record">Сними</string>
     <string name="gamebox_mem_clean">Очисти меморију</string>
+    <string name="gamebox_mem_clean_new">Оптимизација меморије</string>
     <string name="gamebox_mem_filter">Филтери за игре</string>
     <string name="gamebox_member">Чланство</string>
     <string name="gamebox_milink">Емитуј</string>
@@ -2308,6 +2334,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_new_feature">Нова услуга</string>
     <string name="gb_not_support_on_device">Ова апликација се не може користити на спољном екрану</string>
     <string name="gb_operat_frequently">Не тако брзо!</string>
+    <string name="gb_perf_display_enhance_update_toast">Побољшани визуелни елементи су надограђени. Ваша подешавања су сачувана.</string>
     <string name="gb_performace_guide_disable_desc"><Data>Не може се пребацити на Балансирани режим у Game Turbo when system-wide Performance mode is on. када је укључен режим перформанси на нивоу целог система. Можете да промените подешавања батерије у Безбедност.&lt;br>&lt;a href=\"#\">Отвори Безбедност&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Пребачено у Режим перформанси. Уређај се може загрејати и трошити више енергије.</string>
     <string name="gb_performace_tips_button">Пребаци</string>
@@ -3392,6 +3419,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="normal4" formatted="false">%1s, %2s, %3s, %4s. Додирните да бисте променили.</string>
     <string name="normal_package_usage_summary" formatted="false">%2s од %1s (%3s)</string>
     <string name="not_closed">Задржи</string>
+    <string name="not_found_apps_title">Резултати нису пронађени</string>
     <string name="not_limited_brand">Неограничено</string>
     <string name="not_set">Додирните да подесите</string>
     <string name="not_settled">Није подешено</string>
@@ -3664,10 +3692,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_cell_detail">Ћелија %1$d</string>
     <string name="pb_cycle_count">Бројање циклуса</string>
     <string name="pb_data_fetch_all_error">Читање података није успело. Преносива батерија је можда искључена или није подржана.</string>
+    <string name="pb_data_fetch_all_error_new">Читање података није успело. Преносна батерија је можда искључена или није подржана. Ако је искључена, поново повежите кабел за пуњење и покушајте опет.</string>
     <string name="pb_data_fetch_partial_error">Неке ставке нису доступне због кашњења или неподржаног преносивог пуњача</string>
     <string name="pb_manufacturer">Произвођач</string>
     <string name="pb_measure_point">Сензор %1$d</string>
     <string name="pb_production_date">Датум производње</string>
+    <string name="pb_prompt_update_system">Ваш тренутни систем не подржава ову функцију. Ажурирајте систем у Подешавањима и покушајте опет.</string>
     <string name="pb_remain_battery">Преостало батерије</string>
     <string name="pb_section_abnormal_info">Абнормални статус</string>
     <string name="pb_section_battery_info">Информације о батерији</string>
@@ -3763,6 +3793,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_continuity_open_save_mode_notifi_title">Ниво батерије %s је низак</string>
     <string name="pc_current_power_mode">Тренутни режим</string>
     <string name="pc_cycle_count_protect_title">Циклуси</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_message">Само један уређај за пренос података може се читати истовремено када су оба порта у употреби. Искључите тренутно повезани уређај пре него што повежете други.</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_title">Пажња</string>
     <string name="pc_dialog_dual_type_c_port_reminder_btn">Схватам</string>
     <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Више не приказуј</string>
     <string name="pc_dialog_dual_type_c_port_reminder_message">Порт Type-C на краћој страни уређаја не подржава пренос података. Повежите се са рачунаром преко другог порта.</string>
