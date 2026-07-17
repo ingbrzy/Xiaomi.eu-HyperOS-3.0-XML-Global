@@ -127,8 +127,8 @@
     <string name="activity_title_antispam">Liste Noire</string>
     <string name="activity_title_antivirus">Analyse de sécurité</string>
     <string name="activity_title_antivirus_kddi">Analyse de sécurité</string>
-    <string name="activity_title_apps_manager">Apps</string>
-    <string name="activity_title_apps_settings">Applis</string>
+    <string name="activity_title_apps_manager">Applications</string>
+    <string name="activity_title_apps_settings">Applications</string>
     <string name="activity_title_auto_start_manager">Démarrage automatique</string>
     <string name="activity_title_auto_start_manager_global">Démarrage automatique en arrière-plan</string>
     <string name="activity_title_garbage_cleanup">Nettoyeur</string>
@@ -163,6 +163,7 @@
     <string name="add_done">Ajouté avec succès</string>
     <string name="add_game">Ajouter un jeu</string>
     <string name="add_game_notification_summary">Appuyez pour lancer et augmenter la vitesse</string>
+    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
     <string name="add_miservice_dialog_content">%s a besoin que vous ajoutiez le Cadre de service Xiaomi aux exceptions. Vous pourrez recevoir des notifications des applications intégrées et autres applications tierces.</string>
     <string name="add_miservice_dialog_title">Cadre de service Xiaomi</string>
     <string name="add_to_whitelist_button">Exceptions des données en itinérance</string>
@@ -1560,6 +1561,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="early_morning">Matin</string>
     <string name="edit_phone_num">Modifier le numéro de téléphone SIM</string>
     <string name="eew_privacy_revoke_title">"Retirer son consentement à la Politique de Confidentialité de l'Alerte de tremblement de terre"</string>
+    <string name="eletric_card_two_identification_risk_mms_summary_description">Recevez des alertes concernant les risques de fraude lorsque vous transférez des codes de vérification SMS vers des applications de réseaux sociaux</string>
     <string name="ellipsis">…</string>
     <string name="email">E-mail</string>
     <string name="empty" />
@@ -1582,7 +1584,7 @@ Il sera ajouté aux exceptions, mais les éléments bloqués précédemment n'ap
     <string name="ew_action_subscribed">Abonné</string>
     <string name="ew_action_subscribed_area">Régions abonnées</string>
     <string name="ew_action_unsubscribe">Se désabonner</string>
-    <string name="ew_alert_arrive_location">"L'onde sismique est arrivée en %s"</string>
+    <string name="ew_alert_arrive_location">"L'onde sismique est arrivée à %s"</string>
     <string name="ew_alert_dial_text">"Appeler le contact
 d'urgence"</string>
     <string name="ew_alert_earthquake_cancel">Annulé</string>
@@ -2111,7 +2113,9 @@ de surveillance de séisme"</string>
     <string name="gallery_confirm_start_activity">"%s n'est pas autorisé à accéder à votre galerie et à vos applications de réseaux sociaux. Cette application souhaite accéder aux images stockées sur cet appareil pour partager des éléments. Autoriser ?"</string>
     <string name="game_ad_recommendation">Tout le monde joue</string>
     <string name="game_anti_disturb_msg">NPD en mode Jeu</string>
+    <string name="game_balance_gpu_enhance_title">Amélioration du GPU discret</string>
     <string name="game_balance_more_setting_title">Paramètres supplémentaires</string>
+    <string name="game_balance_none_gpu_enhance_subtitle">Performances visuelles améliorées</string>
     <string name="game_balance_vision_enhance_subtitle">Augmenter le contraste et améliorer les détails pour les jeux</string>
     <string name="game_balance_vision_enhance_subtitle_xring_sr">Disponible uniquement lorsque la résolution du jeu est définie sur la valeur la plus élevée</string>
     <string name="game_balance_vision_enhance_subtitle_xring_ys">Disponible uniquement lorsque la précision de rendu du jeu est définie sur la valeur la plus élevée</string>
@@ -2156,6 +2160,13 @@ de surveillance de séisme"</string>
     <string name="game_toolbox_auto_brightness_talkback">Luminosité auto</string>
     <string name="game_toolbox_btn_back_talkback">Retour</string>
     <string name="game_toolbox_cellular_network">Augmentation de la vitesse du réseau mobile</string>
+    <string name="game_toolbox_cooling_fan_enabled_performance_mode">Le ventilateur de refroidissement est actuellement réglé sur \"Performance\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_quiet_mode">Le ventilateur de refroidissement est maintenant réglé sur \"Silencieux\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_smart_mode">Le ventilateur de refroidissement est maintenant réglé sur \"Intelligent\"</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_confirm">Paramètres</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_message">"Activez le mode \"Jeu\" dans Paramètres > Ventilateur de refroidissement ou définissez les scénarios d'utilisation sur \"Tous\" pour utiliser le ventilateur de refroidissement pendant que vous jouez."</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_title">Attention</string>
+    <string name="game_toolbox_cooling_fan_title">Ventilateur de refroidissement</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Annuler</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">"Une connexion VPN sera automatiquement créée en fonction de la latence en temps réel afin d'améliorer la stabilité du réseau. Après votre demande, vous bénéficierez de %d années d'accès gratuites."</string>
@@ -2171,6 +2182,9 @@ de surveillance de séisme"</string>
     <string name="game_toolbox_display_avrs_desc">"Activez pour réduire légèrement la qualité de l'image et réduire considérablement la consommation d'énergie"</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Remarque : 
 Lorsque la fréquence d'images intelligente est activée, les outils de détection de fréquence d'images du jeu et des logiciels tiers peuvent ne pas la détecter correctement. Consultez le tableau de bord des performances pour connaître la fréquence d'images réelle."</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice_new">"Remarque :
+%1$d. Lorsque la fréquence d'images intelligente est activée, les outils de détection de fréquence d'images intégrés au jeu et les outils tiers peuvent ne pas afficher une fréquence d'images inteliigente. Consultez le tableau de bord des performances pour connaître la fréquence d'images réelle.
+%2$d. La fréquence d'images intelligente est désactivée lorsque la température de l'appareil est trop élevée, que la batterie est trop faible, que l'économiseur de batterie est activé ou pendant les appels. Elle se réactivera une fois les conditions normales rétablies."</string>
     <string name="game_toolbox_display_style_desc">Ajuster le style visuel (prend en charge le jeu HDR)</string>
     <string name="game_toolbox_display_style_game_hdr">Jeu HDR</string>
     <string name="game_toolbox_display_style_not_hdr_desc">Vous pouvez basculer entre différents styles visuels</string>
@@ -2181,6 +2195,15 @@ Lorsque la fréquence d'images intelligente est activée, les outils de détecti
     <string name="game_toolbox_fps_realtime_nodata">"Obtention d'un FPS en temps réel…"</string>
     <string name="game_toolbox_fps_shake">Gigue %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">"Obtention d'une trame de gigue…"</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_des">"Évitez d'ouvrir les fenêtres flottantes en faisant glisser votre doigt depuis les bords"</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_title">"Désactiver la mise à l'échelle des fenêtres flottantes"</string>
+    <string name="game_toolbox_gesture_control_main_switch_des">"Les modifications ne seront appliquées qu'au jeu actuel"</string>
+    <string name="game_toolbox_gesture_control_main_switch_title">Ignorez les contacts accidentels dans les jeux</string>
+    <string name="game_toolbox_gesture_control_multi_finger_des">"Les gestes tels que le balayage à trois doigts pour prendre des captures d'écran seront ignorés"</string>
+    <string name="game_toolbox_gesture_control_multi_finger_title">Ignorer les gestes à plusieurs doigts</string>
+    <string name="game_toolbox_gesture_control_title">Ignorez les contacts accidentels</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_des">"Réduire les zones de déclenchement des gestes de navigation et de la barre d'état en mode paysage"</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_title">Réduire les zones de déclenchement</string>
     <string name="game_toolbox_gyro_boost_title">Boost gyroscopique</string>
     <string name="game_toolbox_gyro_boost_toast">Activez le gyroscope dans les paramètres du jeu pour utiliser cette fonctionnalité</string>
     <string name="game_toolbox_immersion_sound_desc">"Lorsque vous utilisez des écouteurs, capturez avec précision les effets sonores tels que les pas et les voix, améliorant l'immersion dans le jeu"</string>
@@ -2188,6 +2211,8 @@ Lorsque la fréquence d'images intelligente est activée, les outils de détecti
     <string name="game_toolbox_item_joystick_key_mapping">Bouton du contrôleur</string>
     <string name="game_toolbox_margin_restrain_description">Régler la plage de rejet des touches pour réduire les touches accidentelles</string>
     <string name="game_toolbox_mem_clean_desc">Vider la mémoire et augmenter la vitesse</string>
+    <string name="game_toolbox_mem_clean_desc_new">Libérer de la mémoire système</string>
+    <string name="game_toolbox_memory">Mémoire</string>
     <string name="game_toolbox_more_tools_title">"Plus d'outils"</string>
     <string name="game_toolbox_overtemp_click_toast">Attendez que votre appareil se refroidisse pour pouvoir utiliser cette fonctionnalité</string>
     <string name="game_toolbox_perf_config_desc">Configurer les paramètres de performance du jeu</string>
@@ -2289,6 +2314,7 @@ Lorsque la fréquence d'images intelligente est activée, les outils de détecti
     <string name="gamebox_macro">Combos</string>
     <string name="gamebox_manual_record">Enregistrer</string>
     <string name="gamebox_mem_clean">Vider la mémoire</string>
+    <string name="gamebox_mem_clean_new">Optimisation de la mémoire</string>
     <string name="gamebox_mem_filter">Filtres de jeu</string>
     <string name="gamebox_member">Abonnement</string>
     <string name="gamebox_milink">Diffuser</string>
@@ -2515,6 +2541,7 @@ Enregistrez des séquences et utilisez-les à tout moment!"</string>
     <string name="gb_new_feature">Nouvelle fonctionnalité</string>
     <string name="gb_not_support_on_device">"Cette application ne peut pas être utilisée sur l'écran externe"</string>
     <string name="gb_operat_frequently">Pas si vite!</string>
+    <string name="gb_perf_display_enhance_update_toast">Les graphismes ont été améliorés. Vos paramètres sont conservés.</string>
     <string name="gb_performace_guide_disable_desc"><Data>Impossible de passer en Mode équilibré dans Game Turbo lorsque le Mode performance du système est activé. Vous pouvez modifier les paramètres de la batterie dans Sécurité.&lt;br>&lt;a href=\"#\">Securité Ouverte&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">"Basculé en mode Performance. Votre appareil peut chauffer et consommer plus d'énergie."</string>
     <string name="gb_performace_tips_button">Basculer</string>
@@ -3619,6 +3646,7 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="normal4" formatted="false">%1s, %2s, %3s, %4s. Appuyez pour modifier.</string>
     <string name="normal_package_usage_summary" formatted="false">%2s de %1s(%3s)</string>
     <string name="not_closed">Maintenir</string>
+    <string name="not_found_apps_title">Impossible de trouver des résultats</string>
     <string name="not_limited_brand">Illimité</string>
     <string name="not_set">Appuyer pour définir</string>
     <string name="not_settled">Non définies</string>
@@ -3891,10 +3919,12 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pb_cell_detail">Cellulaire %1$d</string>
     <string name="pb_cycle_count">Comptage cyclique</string>
     <string name="pb_data_fetch_all_error">Impossible de lire les données. La batterie externe est peut-être déconnectée ou non prise en charge.</string>
+    <string name="pb_data_fetch_all_error_new">Impossible de lire les données. La batterie externe est peut-être déconnectée ou non compatible. Si elle est déconnectée, rebranchez le câble de charge et réessayez.</string>
     <string name="pb_data_fetch_partial_error">"Certains éléments ne sont pas disponibles en raison d'un retard ou d'une batterie externe non compatible"</string>
     <string name="pb_manufacturer">Fabricant</string>
     <string name="pb_measure_point">Capteur %1$d</string>
     <string name="pb_production_date">Date de production</string>
+    <string name="pb_prompt_update_system">"Cette fonctionnalité n'est pas prise en charge par votre système actuel. Mettez à jour votre système dans les paramètres et réessayez."</string>
     <string name="pb_remain_battery">Batterie restante</string>
     <string name="pb_section_abnormal_info">État anormal</string>
     <string name="pb_section_battery_info">Informations de la batterie</string>
@@ -3990,6 +4020,8 @@ Essayez d'utiliser un autre câble Ethernet pour connecter votre routeur. Si vou
     <string name="pc_continuity_open_save_mode_notifi_title">La batterie de %s est faible</string>
     <string name="pc_current_power_mode">Mode actuel</string>
     <string name="pc_cycle_count_protect_title">Cycles</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_message">"Lorsque les deux ports sont utilisés, une seule donnée peut être lue à la fois. Déconnectez l'appareil connecté avant d'en connecter un autre."</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_title">Attention</string>
     <string name="pc_dialog_dual_type_c_port_reminder_btn">"C'est compris"</string>
     <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Ne plus afficher</string>
     <string name="pc_dialog_dual_type_c_port_reminder_message">"Le port de type C du côté court de l'appareil ne prend pas en charge le transfert de données. Connectez-vous à l'ordinateur avec l'autre port."</string>
@@ -4561,7 +4593,7 @@ de l'économiseur de batterie Ultra"</string>
     <string name="power_consume_hardware_total_format">Matériel : %s</string>
     <string name="power_consume_other">Autre</string>
     <string name="power_consume_rank_hardware">Matériel</string>
-    <string name="power_consume_rank_software">Applis</string>
+    <string name="power_consume_rank_software">Applications</string>
     <string name="power_consume_rank_title">"Détails de l'utilisation de la batterie"</string>
     <string name="power_consume_software_total_format">Applications : %s</string>
     <string name="power_customize_giveup_change">Annuler les modifications ?</string>

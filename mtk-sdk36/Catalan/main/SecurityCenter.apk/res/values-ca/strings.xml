@@ -163,6 +163,7 @@
     <string name="add_done">"S'ha afegit amb èxit"</string>
     <string name="add_game">Afegeix un joc</string>
     <string name="add_game_notification_summary">Toqueu per iniciar i augmentar la velocitat</string>
+    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
     <string name="add_miservice_dialog_content">"%s requereix que afegiu el Marc de serveis Xiaomi a excepcions. És possible que rebeu notificacions de les nostres aplicacions integrades i d'altres aplicacions de tercers."</string>
     <string name="add_miservice_dialog_title">Marc de serveis Xiaomi</string>
     <string name="add_to_whitelist_button">"Excepcions d'itinerància de dades"</string>
@@ -1558,6 +1559,7 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="dynamic_performance_optimization_title">Rendiment dinàmic</string>
     <string name="early_morning">Matí</string>
     <string name="edit_phone_num">Editeu el número de telèfon de la SIM</string>
+    <string name="eletric_card_two_identification_risk_mms_summary_description">Rebeu recordatoris sobre riscos de frau en reenviar codis de verificació per SMS a aplicacions socials</string>
     <string name="ellipsis">…</string>
     <string name="email">Correu electrònic</string>
     <string name="empty" />
@@ -1904,7 +1906,9 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="gallery_confirm_start_activity">%s no està permès accedir a la vostra Galeria ni a les vostres aplicacions de xarxes socials. Aquesta aplicació vol accedir a les imatges emmagatzemades en aquest dispositiu per compartir elements. Voleu permetre-ho?</string>
     <string name="game_ad_recommendation">Tothom està jugant</string>
     <string name="game_anti_disturb_msg">Joc Mode no molesteu</string>
+    <string name="game_balance_gpu_enhance_title">Millora discreta de la GPU</string>
     <string name="game_balance_more_setting_title">Configuració addicional</string>
+    <string name="game_balance_none_gpu_enhance_subtitle">Rendiment visual millorat</string>
     <string name="game_balance_vision_enhance_subtitle">Augmenta el contrast i millora els detalls dels jocs</string>
     <string name="game_balance_vision_enhance_subtitle_xring_sr">Només disponible quan la resolució del joc està definida al valor més alt</string>
     <string name="game_balance_vision_enhance_subtitle_xring_ys">Només disponible quan la precisió de renderització del joc està definida al valor més alt</string>
@@ -1949,6 +1953,13 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="game_toolbox_auto_brightness_talkback">Brillantor automàtica</string>
     <string name="game_toolbox_btn_back_talkback">Enrere</string>
     <string name="game_toolbox_cellular_network">Augment de velocitat de la xarxa mòbil</string>
+    <string name="game_toolbox_cooling_fan_enabled_performance_mode">El ventilador de refrigeració està configurat ara a \"Rendiment\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_quiet_mode">El ventilador de refrigeració està ara en mode \"Silenci\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_smart_mode">El ventilador de refrigeració està ara en mode \"Intel·ligent\"</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_confirm">Configuració</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_message">"Activeu \"Jocs\" a Configuració > Ventilador de refrigeració o definiu els escenaris d'ús a \"Tot\" per utilitzar el ventilador de refrigeració mentre jugueu."</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_title">Atenció</string>
+    <string name="game_toolbox_cooling_fan_title">Ventilador de refrigeració</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Cancel·la</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">"Es crearà automàticament una connexió VPN basada en la latència en temps real per millorar l'estabilitat de la xarxa. Després de reclamar-la, obtindreu %d anys d'accés gratuït."</string>
@@ -1964,6 +1975,9 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="game_toolbox_display_avrs_desc">"Activeu-lo per reduir lleugerament la qualitat de la imatge i reduir significativament el consum d'energia"</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Nota:
 Quan la velocitat de fotogrames intel·ligent està activada, és possible que les eines de detecció de freqüència de fotogrames del joc i de tercers no detectin amb precisió la freqüència de fotogrames. Consulteu el tauler de control de rendiment per conèixer la freqüència de fotogrames real."</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice_new">"Nota:
+%1$d. Quan la velocitat de fotogrames intel·ligent està activada, és possible que les eines de detecció de freqüència de fotogrames del joc i de tercers no detectin amb precisió la freqüència de fotogrames. Consulteu el tauler de rendiment per conèixer la freqüència de fotogrames real.
+%2$d. La velocitat de fotogrames intel·ligent no tindrà efecte quan la temperatura del dispositiu sigui massa alta, la bateria estigui massa baixa, l'estalvi de bateria estigui activat o durant les trucades. Tornarà a funcionar quan les condicions tornin a la normalitat."</string>
     <string name="game_toolbox_display_style_desc">"Ajusta l'estil visual (compatible amb HDR a jocs)"</string>
     <string name="game_toolbox_display_style_game_hdr">HDR a jocs</string>
     <string name="game_toolbox_display_style_not_hdr_desc">Podeu canviar entre diferents estils visuals</string>
@@ -1974,6 +1988,15 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="game_toolbox_fps_realtime_nodata">Obtenir FPS en temps real…</string>
     <string name="game_toolbox_fps_shake">%d FPS de fluctuació</string>
     <string name="game_toolbox_fps_shake_nodata">"S'està produint tremolor de fotograma…"</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_des">Evita obrir finestres flotants lliscant des de les vores</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_title">"Desactiva l'escala flotant de la finestra"</string>
+    <string name="game_toolbox_gesture_control_main_switch_des">"Els canvis només s'aplicaran a la partida actual"</string>
+    <string name="game_toolbox_gesture_control_main_switch_title">Ignora els tocs accidentals als jocs</string>
+    <string name="game_toolbox_gesture_control_multi_finger_des">"Els gestos com ara lliscar amb tres dits per fer captures de pantalla s'ignoraran"</string>
+    <string name="game_toolbox_gesture_control_multi_finger_title">Ignora els gestos amb diversos dits</string>
+    <string name="game_toolbox_gesture_control_title">Ignora el toc accidental</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_des">"Redueix les àrees de desencadenament dels gestos de navegació i la barra d'estat en mode paisatge"</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_title">Redueix les zones desencadenants</string>
     <string name="game_toolbox_gyro_boost_title">Impuls de giroscopi</string>
     <string name="game_toolbox_gyro_boost_toast">Activa el giroscopi a la configuració del joc per utilitzar aquesta funció</string>
     <string name="game_toolbox_immersion_sound_desc">Quan utilitzeu auriculars, captureu amb precisió efectes de so com passos i veus, millorant la immersió en el joc</string>
@@ -1981,6 +2004,8 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="game_toolbox_item_joystick_key_mapping">Botó del controlador</string>
     <string name="game_toolbox_margin_restrain_description">Estableix el rang de rebuig tàctil per reduir els tocs accidentals</string>
     <string name="game_toolbox_mem_clean_desc">Esborreu la memòria i augmenteu la velocitat</string>
+    <string name="game_toolbox_mem_clean_desc_new">Allibera memòria del sistema</string>
+    <string name="game_toolbox_memory">Memòria</string>
     <string name="game_toolbox_more_tools_title">Més eines</string>
     <string name="game_toolbox_overtemp_click_toast">Espereu fins que el dispositiu es refredi per poder utilitzar aquesta funció</string>
     <string name="game_toolbox_perf_config_desc">Ajusta la configuració del rendiment del joc</string>
@@ -2082,6 +2107,7 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="gamebox_macro">Combinats</string>
     <string name="gamebox_manual_record">Enregistra</string>
     <string name="gamebox_mem_clean">Esborra la memòria</string>
+    <string name="gamebox_mem_clean_new">Optimització de memòria del sistema</string>
     <string name="gamebox_mem_filter">Filtres de joc</string>
     <string name="gamebox_member">Membresía</string>
     <string name="gamebox_milink">Emetre</string>
@@ -2308,6 +2334,7 @@ Enregistreu seqüències i feu-les servir en qualsevol moment."</string>
     <string name="gb_new_feature">Nova característica</string>
     <string name="gb_not_support_on_device">Aquesta aplicació no es pot utilitzar a la pantalla exterior</string>
     <string name="gb_operat_frequently">No tan ràpid!</string>
+    <string name="gb_perf_display_enhance_update_toast">"S'han actualitzat els elements visuals millorats. Es conserva la configuració."</string>
     <string name="gb_performace_guide_disable_desc"><Data>No es pot canviar al mode equilibrat a Accelerador de Jocs quan el Mode rendiment de tot el sistema està activat. Pots canviar la configuració de la bateria a Seguretat.&lt;br>&lt;a href=\"#\">Obre Seguretat&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">"S'ha canviat al Mode rendiment. És possible que el vostre dispositiu s'escalfi i consumeixi més energia."</string>
     <string name="gb_performace_tips_button">Canvia</string>
@@ -3392,6 +3419,7 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="normal4" formatted="false">%1s, %2s, %3s, %4s. Toca per canviar.</string>
     <string name="normal_package_usage_summary" formatted="false">%2s de %1s (%3s)</string>
     <string name="not_closed">Mantén</string>
+    <string name="not_found_apps_title">"No s'han pogut trobar resultats"</string>
     <string name="not_limited_brand">Il·limitat</string>
     <string name="not_set">Toca per establir</string>
     <string name="not_settled">No establert</string>
@@ -3664,10 +3692,12 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="pb_cell_detail">Cel·la %1$d</string>
     <string name="pb_cycle_count">Recompte de cicle</string>
     <string name="pb_data_fetch_all_error">"No s'han pogut llegir les dades. Pot ser que el carregador portàtil estigui desconnectat o no sigui compatible."</string>
+    <string name="pb_data_fetch_all_error_new">"No s'han pogut llegir les dades. Pot ser que el banc d'alimentació estigui desconnectat o no sigui compatible. Si estava desconnectat, torneu a connectar el cable de càrrega i torneu-ho a provar."</string>
     <string name="pb_data_fetch_partial_error">"Alguns articles no estan disponibles a causa d'un retard o d'un carregador portàtil no compatible"</string>
     <string name="pb_manufacturer">Fabricant</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Data de producció</string>
+    <string name="pb_prompt_update_system">Aquesta funció no és compatible amb el vostre sistema actual. Actualitzeu el sistema a Configuració i torneu-ho a provar.</string>
     <string name="pb_remain_battery">Bateria restant</string>
     <string name="pb_section_abnormal_info">Estat anormal</string>
     <string name="pb_section_battery_info">Informació de la bateria</string>
@@ -3763,6 +3793,8 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="pc_continuity_open_save_mode_notifi_title">%s bateria baixa</string>
     <string name="pc_current_power_mode">Mode actual</string>
     <string name="pc_cycle_count_protect_title">Cicle</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_message">Només es pot llegir un dispositiu de dades alhora quan els dos ports estan en ús. Desconnecteu el dispositiu connectat actualment abans de connectar-ne un altre.</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_title">Atenció</string>
     <string name="pc_dialog_dual_type_c_port_reminder_btn">Entesos</string>
     <string name="pc_dialog_dual_type_c_port_reminder_checkbox">No ho tornis a mostrar</string>
     <string name="pc_dialog_dual_type_c_port_reminder_message">"El port tipus C a la part curta del dispositiu no admet la transferència de dades. Connecteu-vos a l'ordinador amb l'altre port."</string>
