@@ -163,6 +163,7 @@
     <string name="add_done">Aggiunto correttamente</string>
     <string name="add_game">Aggiungi gioco</string>
     <string name="add_game_notification_summary">Tocca per avviare e aumentare la velocità</string>
+    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
     <string name="add_miservice_dialog_content">%s necessita di aggiungere Framework dei servizi Xiaomi alla lista delle eccezioni. Potresti ricevere notifiche dalle nostre app integrate e altre app di terze parti.</string>
     <string name="add_miservice_dialog_title">Framework dei servizi Xiaomi</string>
     <string name="add_to_whitelist_button">Eccezioni al roaming dati</string>
@@ -1558,6 +1559,7 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="dynamic_performance_optimization_title">Prestazioni dinamiche</string>
     <string name="early_morning">Mattino</string>
     <string name="edit_phone_num">Modifica il numero della SIM</string>
+    <string name="eletric_card_two_identification_risk_mms_summary_description">"Ricevi promemoria sui rischi di frode durante l'inoltro dei codici di verifica SMS alle app social"</string>
     <string name="ellipsis">…</string>
     <string name="email">E-mail</string>
     <string name="empty" />
@@ -1904,7 +1906,9 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="gallery_confirm_start_activity">%s non è autorizzata ad accedere alla Galleria e alle app dei social media. Questa app vuole accedere alle immagini archiviate su questo dispositivo per condividere elementi. Consentire?</string>
     <string name="game_ad_recommendation">Tutti stanno giocando</string>
     <string name="game_anti_disturb_msg">ND Giochi</string>
+    <string name="game_balance_gpu_enhance_title">Miglioramento GPU discreto</string>
     <string name="game_balance_more_setting_title">Impostazioni aggiuntive</string>
+    <string name="game_balance_none_gpu_enhance_subtitle">Prestazioni visive migliorate</string>
     <string name="game_balance_vision_enhance_subtitle">Aumenta il contrasto e migliora i dettagli per i giochi</string>
     <string name="game_balance_vision_enhance_subtitle_xring_sr">Disponibile solo quando la risoluzione del gioco è impostata sul valore massimo</string>
     <string name="game_balance_vision_enhance_subtitle_xring_ys">Disponibile solo quando la precisione di rendering del gioco è impostata sul valore massimo</string>
@@ -1949,6 +1953,13 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="game_toolbox_auto_brightness_talkback">Luminosità automatica</string>
     <string name="game_toolbox_btn_back_talkback">Indietro</string>
     <string name="game_toolbox_cellular_network">Aumento di velocità della rete mobile</string>
+    <string name="game_toolbox_cooling_fan_enabled_performance_mode">La ventola di raffreddamento è impostata su \"Prestazioni\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_quiet_mode">La ventola di raffreddamento è impostata su \"Silenziosa\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_smart_mode">La ventola di raffreddamento è impostata su \"Smart\"</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_confirm">Impostazioni</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_message">Attiva \"Gioco\" in Impostazioni > Ventola di raffreddamento o imposta gli scenari di utilizzo su \"Tutti\" per utilizzare la ventola di raffreddamento durante il gioco.</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_title">Attenzione</string>
+    <string name="game_toolbox_cooling_fan_title">Ventola di raffreddamento</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Annulla</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">Una connessione VPN verrà creata automaticamente in base alla latenza in tempo reale per migliorare la stabilità della rete. Dopo la richiesta, potrai usufruire di %d anni di accesso gratuito.</string>
@@ -1964,6 +1975,9 @@ Verrà aggiunto alle eccezioni, ma gli elementi bloccati in precedenza non appar
     <string name="game_toolbox_display_avrs_desc">"Attiva per ridurre leggermente la qualità dell'immagine e diminuire sensibilmente il consumo di energia"</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Nota:
 Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di rilevamento della frequenza dei fotogrammi del gioco e di terze parti potrebbero non rilevare con precisione la frequenza dei fotogrammi. Consulta la dashboard delle prestazioni per conoscere la frequenza dei fotogrammi effettiva."</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice_new">"Nota:
+%1$d. Quando la funzione Frequenza fotogrammi smart è attiva, gli strumenti di rilevamento della frequenza dei fotogrammi integrati nel gioco o di terze parti potrebbero non rilevarla con precisione. Controlla la dashboard delle prestazioni per verificare la frequenza dei fotogrammi effettiva.
+%2$d. La funzione Frequenza fotogrammi smart non è attiva se la temperatura del dispositivo è troppo alta, la batteria è in esaurimento, la modalità Risparmio energetico è attiva o durante le chiamate. Tornerà a funzionare una volta che le condizioni saranno tornate alla normalità."</string>
     <string name="game_toolbox_display_style_desc">"Regola lo stile visivo (supporta l'HDR dei giochi)"</string>
     <string name="game_toolbox_display_style_game_hdr">HDR dei giochi</string>
     <string name="game_toolbox_display_style_not_hdr_desc">"Puoi passare da un stile visivo all'altro"</string>
@@ -1974,6 +1988,15 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="game_toolbox_fps_realtime_nodata">Acquisizione FPS in tempo reale…</string>
     <string name="game_toolbox_fps_shake">Jitter %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Acquisizione jitter del frame…</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_des">Evita di aprire finestre mobili scorrendo dai bordi</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_title">Disattiva ridimensionamento finestre mobili</string>
+    <string name="game_toolbox_gesture_control_main_switch_des">I cambiamenti verranno applicati solo al gioco corrente</string>
+    <string name="game_toolbox_gesture_control_main_switch_title">Ignora tocco accidentale nei giochi</string>
+    <string name="game_toolbox_gesture_control_multi_finger_des">I gesti come lo scorrimento con tre dita per acquisire screenshot verranno ignorati</string>
+    <string name="game_toolbox_gesture_control_multi_finger_title">Ignora gesti con più dita</string>
+    <string name="game_toolbox_gesture_control_title">Ignora tocco accidentale</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_des">Riduci le aree di attivazione per i gesti di navigazione e la barra di stato in modalità orizzontale</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_title">Riduci aree di attivazione</string>
     <string name="game_toolbox_gyro_boost_title">Boost giroscopio</string>
     <string name="game_toolbox_gyro_boost_toast">Attiva il giroscopio nelle impostazioni del gioco per utilizzare questa funzione</string>
     <string name="game_toolbox_immersion_sound_desc">"Quando utilizzi gli auricolari, cattura con precisione effetti sonori come passi e voci, migliorando l'immersione nel gioco"</string>
@@ -1981,6 +2004,8 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="game_toolbox_item_joystick_key_mapping">Pulsante del controller</string>
     <string name="game_toolbox_margin_restrain_description">"Imposta l'intervallo di respingimento del tocco per ridurre i tocchi accidentali"</string>
     <string name="game_toolbox_mem_clean_desc">Svuota la memoria e aumenta la velocità</string>
+    <string name="game_toolbox_mem_clean_desc_new">Libera memoria di sistema</string>
+    <string name="game_toolbox_memory">Memoria</string>
     <string name="game_toolbox_more_tools_title">Altri strumenti</string>
     <string name="game_toolbox_overtemp_click_toast">Attendi che il dispositivo si raffreddi per poter utilizzare questa funzionalità</string>
     <string name="game_toolbox_perf_config_desc">Configura le impostazioni delle prestazioni di gioco</string>
@@ -2082,6 +2107,7 @@ Quando la funzione Frequenza dei fotogrammi smart è attiva, gli strumenti di ri
     <string name="gamebox_macro">Combo</string>
     <string name="gamebox_manual_record">Registra</string>
     <string name="gamebox_mem_clean">Libera memoria</string>
+    <string name="gamebox_mem_clean_new">Ottimizzazione della memoria</string>
     <string name="gamebox_mem_filter">Filtri di gioco</string>
     <string name="gamebox_member">Abbonamento</string>
     <string name="gamebox_milink">Proiezione</string>
@@ -2308,6 +2334,7 @@ Registra sequenze e usale in qualsiasi momento!"</string>
     <string name="gb_new_feature">Nuova funzionalità</string>
     <string name="gb_not_support_on_device">"Quest'app non può essere utilizzata sullo schermo esterno"</string>
     <string name="gb_operat_frequently">Troppo veloce!</string>
+    <string name="gb_perf_display_enhance_update_toast">La grafica è stata migliorata. Le tue impostazioni sono state mantenute.</string>
     <string name="gb_performace_guide_disable_desc"><Data>Impossibile passare alla modalità bilanciata in Game Turbo quando la modalità prestazioni a livello di sistema è attiva. Puoi modificare le impostazioni della batteria in Sicurezza.&lt;br>&lt;a href=\"#\">Apri Sicurezza&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">Passato alla modalità prestazioni. Il tuo dispositivo potrebbe surriscaldarsi e consumare più energia.</string>
     <string name="gb_performace_tips_button">Continua</string>
@@ -3392,6 +3419,7 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="normal4" formatted="false">%1s, %2s, %3s, %4s. Premi per cambiare.</string>
     <string name="normal_package_usage_summary" formatted="false">%2s di %1s (%3s)</string>
     <string name="not_closed">Mantieni attiva</string>
+    <string name="not_found_apps_title">Non è stato possibile trovare risultati</string>
     <string name="not_limited_brand">Illimitato</string>
     <string name="not_set">Tocca per impostare</string>
     <string name="not_settled">Non impostato</string>
@@ -3664,10 +3692,12 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pb_cell_detail">Cella %1$d</string>
     <string name="pb_cycle_count">Conteggio cicli</string>
     <string name="pb_data_fetch_all_error">Non è stato possibile leggere i dati. Il power bank potrebbe essere scollegato o non supportato.</string>
+    <string name="pb_data_fetch_all_error_new">Non è stato possibile leggere i dati. Il power bank potrebbe essere scollegato o non essere supportato. Se è stato scollegato, ricollega il cavo di ricarica e riprova.</string>
     <string name="pb_data_fetch_partial_error">Alcuni elementi non sono disponibili a causa di un ritardo o di un power bank non supportato</string>
     <string name="pb_manufacturer">Produttore</string>
     <string name="pb_measure_point">Sensore %1$d</string>
     <string name="pb_production_date">Data di produzione</string>
+    <string name="pb_prompt_update_system">Questa funzione non è supportata dal tuo sistema attuale. Aggiorna il sistema nelle Impostazioni e riprova.</string>
     <string name="pb_remain_battery">Batteria residua</string>
     <string name="pb_section_abnormal_info">Stato anomalo</string>
     <string name="pb_section_battery_info">Informazioni sulla batteria</string>
@@ -3763,6 +3793,8 @@ Prova ad utilizzare un altro cavo Ethernet per collegare il router. Se sospetti 
     <string name="pc_continuity_open_save_mode_notifi_title">%s: la batteria è quasi scarica</string>
     <string name="pc_current_power_mode">Modalità attuale</string>
     <string name="pc_cycle_count_protect_title">Cicli</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_message">Quando entrambe le porte sono in uso, può essere letto un solo dispositivo dati alla volta. Scollega il dispositivo attualmente collegato prima di collegarne un altro.</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_title">Attenzione</string>
     <string name="pc_dialog_dual_type_c_port_reminder_btn">Ho capito</string>
     <string name="pc_dialog_dual_type_c_port_reminder_checkbox">Non mostrare più</string>
     <string name="pc_dialog_dual_type_c_port_reminder_message">"La porta di tipo C sul lato corto del dispositivo non supporta il trasferimento dei dati. Collegati al computer con l'altra porta."</string>

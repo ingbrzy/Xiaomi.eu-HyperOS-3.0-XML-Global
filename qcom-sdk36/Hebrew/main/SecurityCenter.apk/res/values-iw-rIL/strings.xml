@@ -136,6 +136,7 @@
     <string name="add_done">נוסף בהצלחה</string>
     <string name="add_game">הוספת משחק</string>
     <string name="add_game_notification_summary">לחץ להתחלה והאצת המהירות</string>
+    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
     <string name="add_miservice_dialog_content">"%s מחייב הוספה של 'מסגרת שירותי Xiaomi' לרשימת החריגים. ייתכן שיישלחו התראות מהיישומים המובנים שלנו ומיישומי צד שלישי אחרים."</string>
     <string name="add_miservice_dialog_title">מסגרת שירותי Xiaomi</string>
     <string name="add_to_whitelist_button">חריגי נדידת נתונים</string>
@@ -1499,6 +1500,7 @@
     <string name="dynamic_performance_optimization_title">ביצועים דינמיים</string>
     <string name="early_morning">מוקדם בבוקר</string>
     <string name="edit_phone_num">ערוך את מספר הטלפון של ה-SIM</string>
+    <string name="eletric_card_two_identification_risk_mms_summary_description">לקבל תזכורות על חשד להונאה בהעברת קודי אימות שהתקבלו בהודעת טקסט ליישומי רשתות חברתיות</string>
     <string name="ellipsis">…</string>
     <string name="email">דוא\"ל</string>
     <string name="empty" />
@@ -1787,7 +1789,9 @@
     <string name="gallery_confirm_start_activity">%s אינו מורשה לגשת ליישומי הגלריה והמדיה החברתית שלך. יישום זה רוצה לגשת לתמונות המאוחסנות במכשיר זה כדי לשתף פריטים. לאפשר?</string>
     <string name="game_ad_recommendation">כולם משחקים</string>
     <string name="game_anti_disturb_msg">"'נא לא להפריע' עבור משחקים"</string>
+    <string name="game_balance_gpu_enhance_title">שיפור ביצועים באמצעות GPU נפרד</string>
     <string name="game_balance_more_setting_title">הגדרות נוספות</string>
+    <string name="game_balance_none_gpu_enhance_subtitle">ביצועים חזותיים משופרים</string>
     <string name="game_balance_vision_enhance_subtitle">הגדל את הניגודיות ושפר את הפרטים עבור משחקים</string>
     <string name="game_balance_vision_enhance_subtitle_xring_sr">זמין רק כאשר רזולוציית המשחק מוגדרת לערך הגבוה ביותר</string>
     <string name="game_balance_vision_enhance_subtitle_xring_ys">זמין רק כאשר דיוק הרנדור של המשחק מוגדר לערך הגבוה ביותר</string>
@@ -1832,6 +1836,13 @@
     <string name="game_toolbox_auto_brightness_talkback">בהירות אוטומטית</string>
     <string name="game_toolbox_btn_back_talkback">חזרה</string>
     <string name="game_toolbox_cellular_network">האצת מהירות הרשת הסלולרית</string>
+    <string name="game_toolbox_cooling_fan_enabled_performance_mode">כעת מאוורר הקירור מוגדר למצב \"ביצועים\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_quiet_mode">כעת מאוורר הקירור מוגדר למצב \"שקט\"</string>
+    <string name="game_toolbox_cooling_fan_enabled_smart_mode">כעת מאוורר הקירור מוגדר למצב \"חכם\"</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_confirm">הגדרות</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_message">יש להפעיל את \"גיימינג\" בהגדרות > מאוורר קירור, או להגדיר \"הכול\" עבור תרחישי השימוש כדי להשתמש במאוורר הקירור בזמן שימוש במשחקים.</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_title">לתשומת ליבכם</string>
+    <string name="game_toolbox_cooling_fan_title">מאוורר קירור</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">dd/MM/yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">ביטול</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">ייווצר חיבור VPN אוטומטי בהתבסס על זמן השהיה בזמן אמת כדי לשפר את יציבות הרשת. אחרי המימוש, תקבלו %d שנים של גישה בחינם.</string>
@@ -1847,6 +1858,9 @@
     <string name="game_toolbox_display_avrs_desc">יש להפעיל לירידה קלה באיכות התמונה ולירידה משמעותית בצריכת החשמל</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"הערה:
 כאשר מופעל קצב פריימים חכם, ייתכן שכלי הזיהוי של קצב הפריימים במשחק וכלי זיהוי של קצב הפריימים של צד שלישי לא יזהו את קצב הפריימים בצורה מדויקת. לקצב הפריימים בפועל, עיינו בלוח הביצועים."</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice_new">"הערה:
+%1$d. כאשר קצב פריימים חכם מופעל, ייתכן שכלים לזיהוי קצב הפריימים בתוך משחק או של צד שלישי לא יזהו את קצב הפריימים בצורה מדויקת. לקצב הפריימים בפועל, ראו את לוח הביצועים.
+%2$d. קצב פריימים חכם לא יעבוד כאשר טמפרטורת המכשיר גבוהה מדי, רמת הסוללה נמוכה מדי, כאשר מופעל מצב חיסכון בסוללה או בזמן שיחות. הוא יחזור לפעול אחרי חזרה לתנאי העבודה הרגילים."</string>
     <string name="game_toolbox_display_style_desc">כוונון הסגנון החזותי (תומך ב-HDR למשחקים)</string>
     <string name="game_toolbox_display_style_game_hdr">HDR למשחקים</string>
     <string name="game_toolbox_display_style_not_hdr_desc">ניתן לעבור בין סגנונות חזותיים שונים</string>
@@ -1857,6 +1871,15 @@
     <string name="game_toolbox_fps_realtime_nodata">מקבל את ה-FPS בזמן אמת…</string>
     <string name="game_toolbox_fps_shake">ריצוד %d פריימים לשנייה</string>
     <string name="game_toolbox_fps_shake_nodata">מקבל את ריצוד הפריימים…</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_des">מניעה של פתיחת חלונות צפים על-ידי החלקה מהשוליים</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_title">השבתת שינוי הגודל של חלונות צפים</string>
+    <string name="game_toolbox_gesture_control_main_switch_des">השינויים יוחלו רק על המשחק הנוכחי</string>
+    <string name="game_toolbox_gesture_control_main_switch_title">להתעלם מנגיעות לא מכוונות במשחקים</string>
+    <string name="game_toolbox_gesture_control_multi_finger_des">המכשיר יתעלם ממחוות כמו החלקת שלוש אצבעות לצילום המסך</string>
+    <string name="game_toolbox_gesture_control_multi_finger_title">להתעלם ממחוות עם מספר אצבעות</string>
+    <string name="game_toolbox_gesture_control_title">להתעלם מנגיעות לא מכוונות</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_des">לצמצם את אזורי המגע הפעילים עבור מחוות ניווט ושורת המצב במצב תצוגה לרוחב</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_title">צמצום אזורי המגע הפעילים</string>
     <string name="game_toolbox_gyro_boost_title">האצת ג׳יירו</string>
     <string name="game_toolbox_gyro_boost_toast">"יש להפעיל את הג'יירוסקופ בהגדרות המשחק כדי להשתמש במאפיין זה"</string>
     <string name="game_toolbox_immersion_sound_desc">תיעוד מדויק של אפקטים קוליים, כמו צעדים וקולות, בשימוש באוזניות. זה תורם לשיפור ההשתקעות במשחק</string>
@@ -1864,6 +1887,8 @@
     <string name="game_toolbox_item_joystick_key_mapping">כפתור הבקר</string>
     <string name="game_toolbox_margin_restrain_description">הגדרת טווח דחיית מגע כדי לצמצם תגובה למגע מקרי</string>
     <string name="game_toolbox_mem_clean_desc">ניקוי הזיכרון והאצת המהירות</string>
+    <string name="game_toolbox_mem_clean_desc_new">פינוי זיכרון מערכת</string>
+    <string name="game_toolbox_memory">זיכרון</string>
     <string name="game_toolbox_more_tools_title">כלים נוספים</string>
     <string name="game_toolbox_overtemp_click_toast">נא להמתין עד שהמכשיר שלך יתקרר במידה מספקת כדי להשתמש במאפיין זה</string>
     <string name="game_toolbox_perf_config_desc">קביעת התצורה של הגדרות הביצועים במשחקים</string>
@@ -1965,6 +1990,7 @@
     <string name="gamebox_macro">קומבינציות</string>
     <string name="gamebox_manual_record">הקלטה</string>
     <string name="gamebox_mem_clean">נקה זיכרון</string>
+    <string name="gamebox_mem_clean_new">אופטימיזציית הזיכרון</string>
     <string name="gamebox_mem_filter">מסנני משחקים</string>
     <string name="gamebox_member">חברות</string>
     <string name="gamebox_milink">שידור</string>
@@ -2191,6 +2217,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="gb_new_feature">תכונה חדשה</string>
     <string name="gb_not_support_on_device">לא ניתן להשתמש ביישום זה במסך החיצוני</string>
     <string name="gb_operat_frequently">לא כל כך מהר!</string>
+    <string name="gb_perf_display_enhance_update_toast">מרכיבים חזותיים משופרים שודרגו. ההגדרות שלך נשמרו.</string>
     <string name="gb_performace_guide_disable_desc"><Data>לא ניתן לעבור למצב מאוזן במאיץ המשחקים כאשר מצב הביצועים מופעל עבור כל המערכת. ניתן לשנות את הגדרות הסוללה תחת אבטחה.&lt;br>&lt;a href=\"#\">לפתוח את האבטחה&lt;/a></Data></string>
     <string name="gb_performace_switch_toast">המכשיר הועבר למצב ביצועים. ייתכן שהמכשיר יתחמם ויצרוך יותר חשמל.</string>
     <string name="gb_performace_tips_button">עבור</string>
@@ -3228,6 +3255,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="normal4" formatted="false">%1s, %2s, %3s, %4s. הקישו כדי לשנות.</string>
     <string name="normal_package_usage_summary" formatted="false">%2s מתוך %1s (%3s)</string>
     <string name="not_closed">השאר פועל</string>
+    <string name="not_found_apps_title">לא נמצאו תוצאות</string>
     <string name="not_limited_brand">ללא הגבלה</string>
     <string name="not_set">הקש כדי להגדיר</string>
     <string name="not_settled">לא הוגדר</string>
@@ -3499,10 +3527,12 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_cell_detail">תא %1$d</string>
     <string name="pb_cycle_count">מספר המחזורים</string>
     <string name="pb_data_fetch_all_error">לא ניתן לקרוא נתונים. ייתכן שסוללת הגיבוי מנותקת או אינה נתמכת.</string>
+    <string name="pb_data_fetch_all_error_new">לא ניתן לקרוא נתונים. ייתכן שסוללת הגיבוי מנותקת או אינה נתמכת. אם היא הייתה מנותקת, יש לחבר את כבל הטעינה ולנסות שוב.</string>
     <string name="pb_data_fetch_partial_error">חלק מהפריטים אינם זמינים בגלל עיכוב או בגלל סוללת גיבוי שאינה נתמכת</string>
     <string name="pb_manufacturer">יצרן</string>
     <string name="pb_measure_point">חיישן %1$d</string>
     <string name="pb_production_date">תאריך ייצור</string>
+    <string name="pb_prompt_update_system">מאפיין זה אינו נתמך על-ידי המערכת הנוכחית. יש לעדכן את המערכת בהגדרות ולנסות שוב.</string>
     <string name="pb_remain_battery">אחוז הסוללה שנותר</string>
     <string name="pb_section_abnormal_info">סטטוס חריג</string>
     <string name="pb_section_battery_info">מידע על הסוללה</string>
@@ -3598,6 +3628,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_continuity_open_save_mode_notifi_title">הסוללה של %s חלשה</string>
     <string name="pc_current_power_mode">מצב נוכחי</string>
     <string name="pc_cycle_count_protect_title">מחזורים</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_message">כאשר שתי היציאות נמצאות בשימוש, ניתן לקרוא רק התקן נתונים אחד. יש לנתק את המכשיר המחובר כרגע לפני חיבור של מכשיר אחר.</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_title">לתשומת ליבכם</string>
     <string name="pc_dialog_dual_type_c_port_reminder_btn">הבנתי</string>
     <string name="pc_dialog_dual_type_c_port_reminder_checkbox">לא להציג שוב</string>
     <string name="pc_dialog_dual_type_c_port_reminder_message">פתחת Type-C בצדו הקצר של המכשיר לא תומכת בהעברת נתונים. יש להתחבר למחשב באמצעות הפתחה השנייה.</string>

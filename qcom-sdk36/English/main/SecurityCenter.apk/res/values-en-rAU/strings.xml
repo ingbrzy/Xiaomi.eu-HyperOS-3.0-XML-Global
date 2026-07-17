@@ -162,6 +162,7 @@
     <string name="add_done">Added successfully</string>
     <string name="add_game">Add game</string>
     <string name="add_game_notification_summary">Tap to launch &amp; boost speed</string>
+    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
     <string name="add_miservice_dialog_content">%s requires you to add Xiaomi service framework to exceptions. You may receive notifications from our built-in apps and other third party apps.</string>
     <string name="add_miservice_dialog_title">Xiaomi service framework</string>
     <string name="add_to_whitelist_button">Data roaming exceptions</string>
@@ -1526,6 +1527,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="dynamic_performance_optimization_summary">Adjust resolution dynamically during gaming sessions</string>
     <string name="dynamic_performance_optimization_title">Dynamic performance</string>
     <string name="edit_phone_num">Edit SIM phone number</string>
+    <string name="eletric_card_two_identification_risk_mms_summary_description">Get reminders about fraud risks when forwarding SMS verification codes to social apps</string>
     <string name="ellipsis">…</string>
     <string name="email">Email</string>
     <string name="empty_app">No apps</string>
@@ -1862,7 +1864,9 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="gallery_confirm_start_activity">"%s isn't allowed to access your Gallery and social media apps. This app wants to access images stored on this device to share items. Allow?"</string>
     <string name="game_ad_recommendation">Everybody is playing</string>
     <string name="game_anti_disturb_msg">Game DND</string>
+    <string name="game_balance_gpu_enhance_title">Discrete GPU enhancement</string>
     <string name="game_balance_more_setting_title">Additional settings</string>
+    <string name="game_balance_none_gpu_enhance_subtitle">Enhanced visual performance</string>
     <string name="game_balance_vision_enhance_subtitle">Increase contrast and enhance details for games</string>
     <string name="game_balance_vision_enhance_subtitle_xring_sr">"Only available when the game's resolution is set to the highest value"</string>
     <string name="game_balance_vision_enhance_subtitle_xring_ys">"Only available when the game's rendering precision is set to the highest value"</string>
@@ -1907,6 +1911,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="game_toolbox_auto_brightness_talkback">Auto brightness</string>
     <string name="game_toolbox_btn_back_talkback">Back</string>
     <string name="game_toolbox_cellular_network">Mobile network speed boost</string>
+    <string name="game_toolbox_cooling_fan_enabled_performance_mode">Cooling fan is set to \"Performance\" now</string>
+    <string name="game_toolbox_cooling_fan_enabled_quiet_mode">Cooling fan is set to \"Quiet\" now</string>
+    <string name="game_toolbox_cooling_fan_enabled_smart_mode">Cooling fan is set to \"Smart\" now</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_confirm">Settings</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_message">Turn on \"Gaming\" in Settings > Cooling fan or set usage scenarios to \"All\" to use cooling fan while gaming.</string>
+    <string name="game_toolbox_cooling_fan_settings_guide_title">Attention</string>
+    <string name="game_toolbox_cooling_fan_title">Cooling fan</string>
     <string name="game_toolbox_dedicated_network_booster_date_format">MM/dd/yyyy</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_cancel">Cancel</string>
     <string name="game_toolbox_dedicated_network_booster_dialog_msg">"A VPN connection will be automatically created based on real-time latency to improve network stability. After claiming, you'll get %d years of free access."</string>
@@ -1922,6 +1933,9 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="game_toolbox_display_avrs_desc">Turn on to slightly reduce picture quality and significantly lower power consumption</string>
     <string name="game_toolbox_display_enhance_view_frc_notice">"Note:
 When Smart frame rate is on, in-game and third-party frame rate detection tools may not accurately detect frame rate. Refer to the performance dashboard for the actual frame rate."</string>
+    <string name="game_toolbox_display_enhance_view_frc_notice_new">"Note:
+%1$d. When Smart frame rate is on, in-game and third-party frame rate detection tools may not accurately detect frame rate. Refer to the performance dashboard for the actual frame rate.
+%2$d. Smart frame rate won't take effect when device temperature is too high, battery is too low, Battery saver is on, or during calls. It will start working again after conditions return to normal."</string>
     <string name="game_toolbox_display_style_desc">Adjust visual style (supports game HDR)</string>
     <string name="game_toolbox_display_style_game_hdr">Game HDR</string>
     <string name="game_toolbox_display_style_not_hdr_desc">You can switch between different visual styles</string>
@@ -1932,6 +1946,15 @@ When Smart frame rate is on, in-game and third-party frame rate detection tools 
     <string name="game_toolbox_fps_realtime_nodata">Getting real-time FPS…</string>
     <string name="game_toolbox_fps_shake">Jitter %d FPS</string>
     <string name="game_toolbox_fps_shake_nodata">Getting frame jitter…</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_des">Avoid opening floating windows by swiping from the edges</string>
+    <string name="game_toolbox_gesture_control_infinity_mode_title">Turn off floating window scaling</string>
+    <string name="game_toolbox_gesture_control_main_switch_des">The changes will only be applied to the current game</string>
+    <string name="game_toolbox_gesture_control_main_switch_title">Ignore accidental touch in games</string>
+    <string name="game_toolbox_gesture_control_multi_finger_des">Gestures such as three-finger swipe to take screenshots will be ignored</string>
+    <string name="game_toolbox_gesture_control_multi_finger_title">Ignore multi-finger gestures</string>
+    <string name="game_toolbox_gesture_control_title">Ignore accidental touch</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_des">Reduce the trigger areas for navigation gestures and status bar in landscape mode</string>
+    <string name="game_toolbox_gesture_control_transient_bars_size_title">Reduce trigger areas</string>
     <string name="game_toolbox_gyro_boost_title">Gyro boost</string>
     <string name="game_toolbox_gyro_boost_toast">"Turn on the gyroscope in the game's settings to use this feature"</string>
     <string name="game_toolbox_immersion_sound_desc">When using earphones, accurately capture sound effects like footsteps and voices, enhancing game immersion</string>
@@ -1939,6 +1962,8 @@ When Smart frame rate is on, in-game and third-party frame rate detection tools 
     <string name="game_toolbox_item_joystick_key_mapping">Controller button</string>
     <string name="game_toolbox_margin_restrain_description">Set touch rejection range to reduce accidental touches</string>
     <string name="game_toolbox_mem_clean_desc">Clear memory and boost speed</string>
+    <string name="game_toolbox_mem_clean_desc_new">Free up system memory</string>
+    <string name="game_toolbox_memory">Memory</string>
     <string name="game_toolbox_more_tools_title">More tools</string>
     <string name="game_toolbox_overtemp_click_toast">Wait until your device cools down to be able to use this feature</string>
     <string name="game_toolbox_perf_config_desc">Configure game performance settings</string>
@@ -2040,6 +2065,7 @@ When Smart frame rate is on, in-game and third-party frame rate detection tools 
     <string name="gamebox_macro">Combos</string>
     <string name="gamebox_manual_record">Record</string>
     <string name="gamebox_mem_clean">Clear memory</string>
+    <string name="gamebox_mem_clean_new">Memory optimisation</string>
     <string name="gamebox_mem_filter">Game filters</string>
     <string name="gamebox_member">Membership</string>
     <string name="gamebox_milink">Cast</string>
@@ -2266,6 +2292,7 @@ Record sequences and use them anytime!"</string>
     <string name="gb_new_feature">New feature</string>
     <string name="gb_not_support_on_device">"This app can't be used on the outer screen"</string>
     <string name="gb_operat_frequently">Not so fast!</string>
+    <string name="gb_perf_display_enhance_update_toast">Enhanced visuals have been upgraded. Your settings are preserved.</string>
     <string name="gb_performace_guide_disable_desc"><Data>"Can't switch to Balanced mode in Game Turbo when system-wide Performance mode is on. You can change battery settings in Security.&lt;br>&lt;a href=\"#\">Open Security&lt;/a>"</Data></string>
     <string name="gb_performace_switch_toast">Switched to Performance mode. Your device might heat up and consume more power.</string>
     <string name="gb_performace_tips_button">Switch</string>
@@ -3240,6 +3267,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="normal4" formatted="false">%1s, %2s, %3s, %4s. Tap to change.</string>
     <string name="normal_package_usage_summary" formatted="false">%2s of %1s (%3s)</string>
     <string name="not_closed">Keep on</string>
+    <string name="not_found_apps_title">"Couldn't find results"</string>
     <string name="not_limited_brand">Unlimited</string>
     <string name="not_set">Tap to set</string>
     <string name="not_settled">Not set</string>
@@ -3511,10 +3539,12 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pb_cell_detail">Cell %1$d</string>
     <string name="pb_cycle_count">Cycle count</string>
     <string name="pb_data_fetch_all_error">"Couldn't read data. The power bank may be disconnected or not supported."</string>
+    <string name="pb_data_fetch_all_error_new">"Couldn't read data. The power bank may be disconnected or not supported. If it was disconnected, reconnect the charging cable and try again."</string>
     <string name="pb_data_fetch_partial_error">"Some items aren't available due to a delay or an unsupported power bank"</string>
     <string name="pb_manufacturer">Manufacturer</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Production date</string>
+    <string name="pb_prompt_update_system">"This feature isn't supported by your current system. Update your system in Settings and try again."</string>
     <string name="pb_remain_battery">Remaining battery</string>
     <string name="pb_section_abnormal_info">Abnormal status</string>
     <string name="pb_section_battery_info">Battery info</string>
@@ -3610,6 +3640,8 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pc_continuity_open_save_mode_notifi_title">%s battery is low</string>
     <string name="pc_current_power_mode">Current mode</string>
     <string name="pc_cycle_count_protect_title">Cycles</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_message">Only one data device can be read at a time when both ports are in use. Disconnect the device currently connected before connecting another.</string>
+    <string name="pc_dialog_dual_type_c_port_device_in_reminder_title">Attention</string>
     <string name="pc_dialog_dual_type_c_port_reminder_btn">Got it</string>
     <string name="pc_dialog_dual_type_c_port_reminder_checkbox">"Don't show again"</string>
     <string name="pc_dialog_dual_type_c_port_reminder_message">"The Type-C port on the short side of the device doesn't support data transfer. Connect to the computer with the other port."</string>
