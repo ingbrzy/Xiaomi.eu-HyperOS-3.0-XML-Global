@@ -163,7 +163,7 @@
     <string name="add_done">"S'ha afegit amb èxit"</string>
     <string name="add_game">Afegeix un joc</string>
     <string name="add_game_notification_summary">Toqueu per iniciar i augmentar la velocitat</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">"S'ha afegit \"%s\" a l'Espai de joc"</string>
     <string name="add_miservice_dialog_content">"%s requereix que afegiu el Marc de serveis Xiaomi a excepcions. És possible que rebeu notificacions de les nostres aplicacions integrades i d'altres aplicacions de tercers."</string>
     <string name="add_miservice_dialog_title">Marc de serveis Xiaomi</string>
     <string name="add_to_whitelist_button">"Excepcions d'itinerància de dades"</string>
@@ -719,6 +719,9 @@ Si encara no heu definit un bloqueig de pantalla, seguiu les instruccions per co
     <string name="back_sound_support_china">Primer desactiva el WLAN</string>
     <string name="background_restrict_app_dialog_message">"La restricció de l'accés a la xarxa en segon pla per a aquesta aplicació pot fer que l'aplicació no funcioni correctament, rebre missatges, baixar contingut, etc. Voleu restringir-lo de totes maneres?"</string>
     <string name="background_traffic">Segon pla %s</string>
+    <string name="background_virus_scan_notification_summary">Diverses aplicacions, inclosa %s. Toqueu per veure-les.</string>
+    <string name="background_virus_scan_notification_summary_one">Toqueu per veure</string>
+    <string name="background_virus_scan_notification_title_one">Aplicació maliciosa %s detectada</string>
     <string name="backsound_set_hint">"Voleu configurar un missatge d'absència per a %s?"</string>
     <string name="banner_optimizemanage_summary">Allibereu memòria</string>
     <string name="banner_red_money_assist_button">Activa</string>
@@ -1244,7 +1247,7 @@ Podeu activar i desactivar aquesta funció al Centre de control."</string>
     <string name="connected_devices_permission">Interconnectivitat i permisos</string>
     <string name="connected_devices_permission_settings">Interconnectivitat i permisos</string>
     <string name="connected_devices_permission_summary">"Gestiona l'accés a aquest dispositiu"</string>
-    <string name="connected_devices_record">Enregistra</string>
+    <string name="connected_devices_record">Grava</string>
     <string name="connected_devices_record_desc">Permet que els dispositius propers amb la sessió iniciada al mateix compte enregistrin àudio en aquest dispositiu</string>
     <string name="connected_devices_record_title">Vols permetre que el dispositiu anterior enregistri àudio en aquest dispositiu?</string>
     <string name="connected_devices_screen">Pantalla</string>
@@ -1252,6 +1255,7 @@ Podeu activar i desactivar aquesta funció al Centre de control."</string>
     <string name="connected_devices_screen_title">"Vols permetre que el dispositiu de dalt vegi i interactuï amb el contingut de la pantalla d'aquest dispositiu?"</string>
     <string name="connected_interconnection">Interconnectivitat</string>
     <string name="connecting">"S'està connectant…"</string>
+    <string name="contacts_will_also_be_blocked">Incloent-hi contactes</string>
     <string name="continue_install">Instal·leu</string>
     <string name="continue_set">Continua</string>
     <string name="convenient_mode">Desbloqueja totes les aplicacions alhora</string>
@@ -1906,6 +1910,7 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="gallery_confirm_start_activity">%s no està permès accedir a la vostra Galeria ni a les vostres aplicacions de xarxes socials. Aquesta aplicació vol accedir a les imatges emmagatzemades en aquest dispositiu per compartir elements. Voleu permetre-ho?</string>
     <string name="game_ad_recommendation">Tothom està jugant</string>
     <string name="game_anti_disturb_msg">Joc Mode no molesteu</string>
+    <string name="game_audio_label_international">Àudio de jocs</string>
     <string name="game_balance_gpu_enhance_title">Millora discreta de la GPU</string>
     <string name="game_balance_more_setting_title">Configuració addicional</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Rendiment visual millorat</string>
@@ -1947,7 +1952,7 @@ S'afegirà a les excepcions, però els elements bloquejats anterioment no aparei
     <string name="game_toolbox_ai_qa_title">"Guia d'IA"</string>
     <string name="game_toolbox_ai_service_desc">Experiència de joc millorada amb IA</string>
     <string name="game_toolbox_ai_service_title">Serveis de jocs amb IA</string>
-    <string name="game_toolbox_ai_upgrade_dialog_btn">Actualitzeu</string>
+    <string name="game_toolbox_ai_upgrade_dialog_btn">Actualitza</string>
     <string name="game_toolbox_ai_upgrade_dialog_desc">"Hi ha disponible una actualització per als serveis de jocs amb IA. Actualitzeu abans d'utilitzar les funcions relacionades."</string>
     <string name="game_toolbox_ai_upgrade_dialog_title">Cerca actualitzacions</string>
     <string name="game_toolbox_auto_brightness_talkback">Brillantor automàtica</string>
@@ -2023,7 +2028,7 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="game_toolbox_slow_charge_negative_btn">Cancel·la</string>
     <string name="game_toolbox_slow_charge_notification_msg">"Aquesta funció millora l'experiència de joc durant la càrrega alentint la velocitat de càrrega. Això pot evitar que el dispositiu s'escalfi massa."</string>
     <string name="game_toolbox_slow_charge_notification_title">Càrrega lenta en curs</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Activa</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Activeu</string>
     <string name="game_toolbox_slow_charge_title">Càrrega lenta</string>
     <string name="game_toolbox_slow_charge_toast">La càrrega lenta està activada</string>
     <string name="game_toolbox_smart_charge_title">Càrrega intel·ligent</string>
@@ -2090,12 +2095,14 @@ Quan la velocitat de fotogrames intel·ligent està activada, és possible que l
     <string name="gamebox_func_antimsg_open">Les notificacions flotants estan restringides</string>
     <string name="gamebox_func_immersion_close">Mode immersiu desactivat</string>
     <string name="gamebox_func_immersion_open">Mode immersiu activat</string>
+    <string name="gamebox_func_start_gyroscope_international">Activeu el giroscopi a la configuració del joc per utilitzar aquesta funció</string>
     <string name="gamebox_func_switch_simcard">"S'ha canviat a la targeta SIM %1$d per dades"</string>
     <string name="gamebox_func_switch_simcard_immersion">No es poden canviar les targetes SIM en mode immersiu</string>
     <string name="gamebox_func_wlan_close">Wi-Fi desactivat</string>
     <string name="gamebox_func_wlan_open">Wi-Fi activat</string>
     <string name="gamebox_game_center_app_not_find">Instal·la Jocs primer</string>
     <string name="gamebox_gift_pack">Regals</string>
+    <string name="gamebox_gyroscope_acceleration_international">Impuls de giroscopi</string>
     <string name="gamebox_hangup">Apaga la pantalla</string>
     <string name="gamebox_hangup_new">Apaga la pantalla</string>
     <string name="gamebox_hangup_tips_content">Aquesta funció us permet apagar la pantalla, però mantenir el joc en segon pla. Es desactiva automàticament una vegada desbloquegeu el dispositiu.</string>
@@ -2802,6 +2809,9 @@ per unir-vos a la nostra caça d'ous!"</string>
     <string name="install_title">"Instal·la a través d'USB"</string>
     <string name="install_type_instant">Aplicació instantània</string>
     <string name="installing">"S'està instal·lant"</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">"Diverses aplicacions, inclosa %s, estan fent un ús abusiu dels permisos d'accessibilitat"</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">"Aquesta aplicació està fent un ús abusiu dels permisos d'accessibilitat. Toqueu per veure-la."</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Aplicació maliciosa bloquejada %s</string>
     <string name="intercept_all_mark_calls">Voleu bloquejar totes les trucades etiquetades com a \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">Per definir regles de bloqueig per a altres números etiquetats, toqueu aquí</string>
     <string name="intercept_calls_notify_title">Les trucades amb aquesta etiqueta finalitzaran automàticament. Voleu bloquejar-les ara?</string>
@@ -3598,8 +3608,6 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">"L'ús d'aplicacions malicioses comporta riscos de seguretat"</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s pot ser una aplicació maliciosa</string>
     <string name="optimize_manage_title">Augment de velocitat</string>
     <string name="optimize_result_available_memory_info">Memòria disponible</string>
     <string name="optimize_result_button_cloudspace">"Aconsegueix més espai d'emmagatzematge al núvol"</string>
@@ -3683,6 +3691,7 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="pb_abnormal_header_time">Data</string>
     <string name="pb_abnormal_header_type">Tipus</string>
     <string name="pb_abnormal_header_value">Valor</string>
+    <string name="pb_abnormal_idle_high_temp">Sobreescalfament en repòs</string>
     <string name="pb_abnormal_loading">Un moment…</string>
     <string name="pb_abnormal_record">Historial</string>
     <string name="pb_activity_title">Detalls del carregador portàtil</string>
@@ -3694,6 +3703,7 @@ Proveu a fer servir un altre cable Ethernet per connectar l'encaminador. Si sosp
     <string name="pb_data_fetch_all_error">"No s'han pogut llegir les dades. Pot ser que el carregador portàtil estigui desconnectat o no sigui compatible."</string>
     <string name="pb_data_fetch_all_error_new">"No s'han pogut llegir les dades. Pot ser que el banc d'alimentació estigui desconnectat o no sigui compatible. Si estava desconnectat, torneu a connectar el cable de càrrega i torneu-ho a provar."</string>
     <string name="pb_data_fetch_partial_error">"Alguns articles no estan disponibles a causa d'un retard o d'un carregador portàtil no compatible"</string>
+    <string name="pb_data_fetch_partial_error_new">"Alguns articles no estan disponibles a causa d'un retard o d'un carregador portàtil no compatible"</string>
     <string name="pb_manufacturer">Fabricant</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Data de producció</string>
@@ -4067,6 +4077,7 @@ l'Estalvi de bateria ultra"</string>
     <string name="permission_action_virtual">Tornar missatges en blanc</string>
     <string name="permission_action_virtual_common_summary">Atorga a les aplicacions els permisos necessaris, però retorna missatges buits per protegir la vostra privadesa</string>
     <string name="permission_action_virtual_phone_summary">Concediu a les aplicacions els permisos pertinents, però no els permetis accedir al número de telèfon real de la targeta SIM</string>
+    <string name="permission_changed_retry">Permisos canviats. Reinicieu les aplicacions.</string>
     <string name="permission_close_permission_control_dialog_msg">"Quan l'administrador de permisos està desactivat, les aplicacions no li demanaran permís per llegir els seus contactes, veure el seu historial de trucades, canviar paràmetres del sistema o accedir a la càmera i altres recursos."</string>
     <string name="permission_close_permission_control_dialog_title">Apagar?</string>
     <string name="permission_exception_title">Connexió restringida per a aplicacions</string>
@@ -4881,6 +4892,10 @@ Voleu retirar el consentiment ara?"</string>
     <string name="privacy_screen_share_notification_title">Emet contingut de la pantalla</string>
     <string name="privacy_screen_share_protect_tip">Protegit</string>
     <string name="privacy_screen_share_tip">Emetent</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s“ està accedint al contingut de la pantalla</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">El contingut de la pantalla està protegit</string>
+    <string name="privacy_screen_share_v2_notification_title">Emet contingut de la pantalla</string>
+    <string name="privacy_screen_share_v2_small_island_title">Compartint pantalla</string>
     <string name="privacy_search_key_1">Privadesa</string>
     <string name="privacy_search_key_10">ID de dispositiu</string>
     <string name="privacy_search_key_2">Intercepció de xarxa</string>
@@ -5006,6 +5021,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="repeat_type">Repeteix</string>
     <string name="repeated_marked_number_summary">No bloquegeu una segona trucada des del mateix número notificat en menys de %d minuts</string>
     <string name="repeated_marked_number_title">No bloquegis trucades repetides des de números notificats</string>
+    <string name="repeated_stranger_number_summary">No bloquegeu una segona trucada des del mateix número desconegut en menys de %d minuts</string>
     <string name="repeated_unknown_number_summary">No bloquegeu una segona trucada des del mateix número desconegut en menys de %d minuts</string>
     <string name="replace_dns">Substitueix DNS automàticament</string>
     <string name="report">Notifica</string>
@@ -5091,6 +5107,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="safe_result_item_info_system_version">El sistema ja està actualitzat</string>
     <string name="safepay_alert_dialog_button_continue">Continua</string>
     <string name="safepay_alert_dialog_button_fix">Aprèn més</string>
+    <string name="safety">Seguretat</string>
     <string name="saturday">dissabte</string>
     <string name="saturday_short">ds.</string>
     <string name="saturday_shortest">ds.</string>
@@ -5105,6 +5122,11 @@ Voleu retirar el consentiment ara?"</string>
     <string name="scan_status_risk">Arriscat</string>
     <string name="scan_status_safe">Segur</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Protecció antifrau</string>
+    <string name="screen_share_search_keyword_1">Compartint pantalla</string>
+    <string name="screen_share_search_keyword_2">Comparteix la pantalla</string>
+    <string name="screen_share_search_title">Protecció per compartir pantalla</string>
+    <string name="screen_share_warning_positive_button">Aturar</string>
     <string name="screenrecord_not_find">"Instal·leu l'última versió de la Gravadora de Pantalla i proveu-ho de nou."</string>
     <string name="sd_eject">Desmuntar targeta SD</string>
     <string name="sd_eject_summary">Desmunta la targeta SD per a retirar-la de forma segura</string>
@@ -5570,6 +5592,7 @@ Voleu retirar el consentiment ara?"</string>
     <string name="status_bar_network_flow_purchase">"   Compra >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Configuració del pla de dades >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Bloqueja</string>
     <string name="still_retain_btn">Mantén</string>
     <string name="stop_milink_connect">"S'ha aturat l'emissió"</string>
     <string name="storage_activity_title">"Espai d'emmagatzematge"</string>
@@ -5809,7 +5832,7 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>"Llegiu i accepteu el nostre &lt;a href=\"%1$s\">Acord d'usuari&lt;/a> abans de continuar."</Data></string>
     <string name="system_permission_declare_no_say_no">Si trieu no donar els permisos requerits o no ens permeten recopilar i utilitzar les vostres dades, aquesta aplicació no podrà funcionar normalment.</string>
     <string name="system_permission_declare_no_say_no_analytics">"Si no voleu concedir aquests permisos, podeu donar-vos de baixa a Configuració > Configuracions addicionals > Privadesa > Programa d'experiència d'usuari."</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Si trieu no donar els permisos requerits o no ens permeten recopilar i utilitzar les vostres dades, aquesta aplicació no podrà funcionar parcialment.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Si decidiu no donar els permisos necessaris o no ens permeteu recopilar i utilitzar les vostres dades, no podreu utilitzar les funcions relacionades.</string>
     <string name="system_permission_declare_optional">"Per proporcionar-vos serveis addicionals mentre utilitzeu l'aplicació, és possible que necessitem els permisos següents:%s. Sempre podeu ajustar les preferències de permisos a Configuració."</string>
     <string name="system_permission_declare_optional_default_grant"><Data>"Per oferir una millor experiència d'usuari, aquesta aplicació necessita els permisos addicionals següents: %1s. Per obtenir més detalls sobre com processem la vostra informació personal, toqueu &lt;a href=\"test\">aquí&lt;/a>. Podeu gestionar els vostres permisos en qualsevol moment a Configuració."</Data></string>
     <string name="system_permission_declare_privacy_declare">Aquesta aplicació necessita connectar-se a internet i els següents permisos per a poder treballar correctament:</string>
@@ -5972,8 +5995,8 @@ La formatació esborrarà tots els continguts de ^2. Per a evitar la pèrdua de 
     <string name="title_auto_update">Actualització automàtica</string>
     <string name="title_background_connection">No es pot utilitzar %s en segon pla</string>
     <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Trobeu a faltar trucades de la vostra llista de contactes</string>
-    <string name="title_block_calls_from_strangers">Trobeu a faltar trucades importants</string>
+    <string name="title_block_calls_from_cantacts">Trobeu a faltar trucades de la vostra llista de contactes?</string>
+    <string name="title_block_calls_from_strangers">Trobeu a faltar trucades importants?</string>
     <string name="title_chain_start">"Restringeix l'inici en cadena"</string>
     <string name="title_cleaner_cloudscan">Puja noms de carpeta</string>
     <string name="title_cloud_account">Compte Xiaomi</string>

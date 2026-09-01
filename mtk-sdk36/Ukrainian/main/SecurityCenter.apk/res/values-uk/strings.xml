@@ -163,7 +163,7 @@
     <string name="add_done">Додано успішно</string>
     <string name="add_game">Додати гру</string>
     <string name="add_game_notification_summary">Натисніть для запуску та збільшення швидкості</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">Гра \"%s\" додана до Ігрового простору</string>
     <string name="add_miservice_dialog_content">%s вимагає додати Xiaomi service framework до списку винятків. Ви можете отримувати сповіщення від вбудованих та сторонніх програм.</string>
     <string name="add_miservice_dialog_title">Xiaomi Service Framework</string>
     <string name="add_to_whitelist_button">Винятки</string>
@@ -719,6 +719,9 @@
     <string name="back_sound_support_china">Спочатку вимкніть WLAN</string>
     <string name="background_restrict_app_dialog_message">Обмеження фонового доступу до мережі для цієї програми може призвести до того, що ця програма буде працювати неправильно, не зможе отримувати повідомлення, завантажувати зміст і т.д. Обмежити все одно?</string>
     <string name="background_traffic">Фоновий режим: %s</string>
+    <string name="background_virus_scan_notification_summary">Багато програм, включаючи %s. Натисніть для перегляду.</string>
+    <string name="background_virus_scan_notification_summary_one">Натисніть, щоб переглянути</string>
+    <string name="background_virus_scan_notification_title_one">Виявлено шкідливу програму %s</string>
     <string name="backsound_set_hint">Встановити сигнал про відсутність на \"%s\"?</string>
     <string name="banner_optimizemanage_summary">"Звільніть пам'ять"</string>
     <string name="banner_red_money_assist_button">Увімкнути</string>
@@ -1252,6 +1255,7 @@
     <string name="connected_devices_screen_title">Дозволити вказаному пристрою переглядати та взаємодіяти із вмістом екрана цього пристрою?</string>
     <string name="connected_interconnection">"Взаємопов'язаність"</string>
     <string name="connecting">Підключення…</string>
+    <string name="contacts_will_also_be_blocked">Включаючи контакти</string>
     <string name="continue_install">Встановити</string>
     <string name="continue_set">Продовжити</string>
     <string name="convenient_mode">Відразу розблоковувати всі програми</string>
@@ -1906,6 +1910,7 @@
     <string name="gallery_confirm_start_activity">Програмі %s заборонено доступ до Галереї та програмам соціальних мереж. Дозволити програмі передачу зображень, які збергіаються на цьому пристрої?</string>
     <string name="game_ad_recommendation">Всі грають</string>
     <string name="game_anti_disturb_msg">Гра в режимі \"Не турбувати\"</string>
+    <string name="game_audio_label_international">Звук в грі</string>
     <string name="game_balance_gpu_enhance_title">Розширення виділеного графічного процесора</string>
     <string name="game_balance_more_setting_title">Додаткові налаштування</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Покращена візуалізація</string>
@@ -1923,7 +1928,7 @@
     <string name="game_center_more">Ще</string>
     <string name="game_center_network_setting_tip">Надайте програмі \"Безпека\" дозвіл на доступ до інтернету в Налаштуваннях</string>
     <string name="game_center_network_setting_tip_pad">Надайте програмі \"Безпека\" дозвіл на доступ до інтернету в Налаштуваннях</string>
-    <string name="game_center_recommend">Рекомендується</string>
+    <string name="game_center_recommend">Рекомендовано</string>
     <string name="game_else_function">Інші</string>
     <string name="game_manual_record_setting_setting">Налаштування</string>
     <string name="game_manual_record_setting_title">Ключові моменти</string>
@@ -1935,7 +1940,7 @@
     <string name="game_perf_config_motion_desc">Налаштуйте чутливість дотику в іграх</string>
     <string name="game_perf_config_network_desc">Зменшіть затримку мережі та тремтіння</string>
     <string name="game_perf_config_network_title">Збільшення швидкості мережі</string>
-    <string name="game_perf_config_strategy_diy">Користувальницький</string>
+    <string name="game_perf_config_strategy_diy">Власний</string>
     <string name="game_perf_config_strategy_fps_first">Частота кадрів</string>
     <string name="game_perf_config_strategy_picture_first">Якість</string>
     <string name="game_perf_config_strategy_title">Стратегія збільшення продуктивності</string>
@@ -1943,7 +1948,7 @@
     <string name="game_performance_wild_mode_tips">"Увімкніть, щоб підвищити продуктивність пристрою
 (пристрій може нагріватися і споживати більше енергії)"</string>
     <string name="game_setting">Налаштування ігор</string>
-    <string name="game_toolbox_ai_qa_desc">Питання і відповіді по великій моделі</string>
+    <string name="game_toolbox_ai_qa_desc">Запитання та відповіді по великій моделі</string>
     <string name="game_toolbox_ai_qa_title">ШI-керівництво</string>
     <string name="game_toolbox_ai_service_desc">Геймплей, покращений за допомогою ШI</string>
     <string name="game_toolbox_ai_service_title">Ігрові послуги з ШІ</string>
@@ -2023,7 +2028,7 @@
     <string name="game_toolbox_slow_charge_negative_btn">Скасувати</string>
     <string name="game_toolbox_slow_charge_notification_msg">Ця функція покращує ігровий досвід під час заряджання, сповільнюючи швидкість заряджання. Це може запобігти перегріванню пристрою.</string>
     <string name="game_toolbox_slow_charge_notification_title">Виконується повільне заряджання</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Увімкнути</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Початок</string>
     <string name="game_toolbox_slow_charge_title">Повільне заряджання</string>
     <string name="game_toolbox_slow_charge_toast">Повільне заряджання увімкнено</string>
     <string name="game_toolbox_smart_charge_title">Розумне заряджання</string>
@@ -2040,7 +2045,7 @@
     <string name="game_toolbox_title_wild">Режим максимальної продуктивності</string>
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost увімкнено</string>
     <string name="game_toolbox_wild_mode_toast_tip">Продуктивність пристрою значно підвищилася</string>
-    <string name="game_toolbox_wild_mode_toast_title">Режим максимальної продуктивності увімк.</string>
+    <string name="game_toolbox_wild_mode_toast_title">Режим Ultimate увімк.</string>
     <string name="game_turbo_custom_subtitle">Ви можете налаштувати надвисоку роздільну здатність та розумну частота кадрів, щоб керувати частотою оновлення та якістю зображення</string>
     <string name="game_turbo_frame_rate_priority_subtitle">Інтелектуально покращувати частоту кадрів</string>
     <string name="game_turbo_image_quality_priority_subtitle">\"Покращення якості зображення\" покращує якість зображення за рахунок надвисокої роздільної здатності та керує частотою оновлення кадрів за допомогою функції розумна частота кадрів.</string>
@@ -2090,12 +2095,14 @@
     <string name="gamebox_func_antimsg_open">Спливаючі сповіщення відключені</string>
     <string name="gamebox_func_immersion_close">Режим занурення зараз вимкнено</string>
     <string name="gamebox_func_immersion_open">Режим занурення зараз увімкнено</string>
+    <string name="gamebox_func_start_gyroscope_international">Щоб використовувати цю функцію, увімкніть гіроскоп у налаштуваннях гри</string>
     <string name="gamebox_func_switch_simcard">Переключено на SIM-карту %1$d</string>
     <string name="gamebox_func_switch_simcard_immersion">Неможливо змінювати SIM-карти в режимі занурення</string>
     <string name="gamebox_func_wlan_close">Wi-Fi зараз вимкнено</string>
     <string name="gamebox_func_wlan_open">Wi-Fi зараз увімкнено</string>
     <string name="gamebox_game_center_app_not_find">Спочатку встановіть програму \"Ігри\"</string>
     <string name="gamebox_gift_pack">Подарунки</string>
+    <string name="gamebox_gyroscope_acceleration_international">Гіроскопічне збільшення швидкості</string>
     <string name="gamebox_hangup">Вимкнути екран</string>
     <string name="gamebox_hangup_new">Вимкнути екран</string>
     <string name="gamebox_hangup_tips_content">Ця функція дозволяє вимкнути екран, але гра буде працювати у фоновому режимі. Вона автоматично вимкнеться після розблокування пристрою.</string>
@@ -2802,6 +2809,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">Встановити, використовуючи USB</string>
     <string name="install_type_instant">Миттєва програма</string>
     <string name="installing">Встановлення</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Декілька програм, включаючи %s, порушують дозволи спеціальних можливостей</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Ця програма порушує дозволи спеціальних можливостей. Натисніть для перегляду.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Заблокована шкідлива програма %s</string>
     <string name="intercept_all_mark_calls">Заблокувати всі виклики, відмічені як \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">Щоб встановити правила блокування для інших відмічених номерів, натисніть тут</string>
     <string name="intercept_calls_notify_title">Виклики з цією міткою будуть автоматично завершені. Заблокувати зараз?</string>
@@ -3598,8 +3608,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Використання шкідливих програм створює ризики для безпеки системи</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">\"%s\" може бути шкідливою програмою</string>
     <string name="optimize_manage_title">Збільшити швидкість</string>
     <string name="optimize_result_available_memory_info">"Доступна пам'ять"</string>
     <string name="optimize_result_button_cloudspace">Отримати більше місця</string>
@@ -3683,6 +3691,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_abnormal_header_time">Час</string>
     <string name="pb_abnormal_header_type">Тип</string>
     <string name="pb_abnormal_header_value">Значення</string>
+    <string name="pb_abnormal_idle_high_temp">Перегрівання в режимі очікування</string>
     <string name="pb_abnormal_loading">Секунду…</string>
     <string name="pb_abnormal_record">Історія</string>
     <string name="pb_activity_title">Деталі про портативну батарею</string>
@@ -3694,6 +3703,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_data_fetch_all_error">Не вдалося зчитати дані. Можливо, портативна батарея відключена або не підтримується.</string>
     <string name="pb_data_fetch_all_error_new">Не вдалося прочитати дані. Можливо, зовнішній акумулятор відключений або не підтримується. Якщо він був відключений, підключіть зарядний кабель та повторіть спробу.</string>
     <string name="pb_data_fetch_partial_error">"Деякі об'єкти недоступні через затримку або непідтримувану портативну батарею"</string>
+    <string name="pb_data_fetch_partial_error_new">"Деякі об'єкти недоступні через затримку або непідтримувану портативну батарею"</string>
     <string name="pb_manufacturer">Виробник</string>
     <string name="pb_measure_point">Сенсор %1$d</string>
     <string name="pb_production_date">Дата виробництва</string>
@@ -3707,7 +3717,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pc_18W_high_power_reverse_charging_summary">Заряджайте швидше завдяки потужній реверсивній зарядці. USB-підключення використовується тільки для зарядки.</string>
     <string name="pc_18W_high_power_reverse_charging_summary_new">Заряджайте швидше за допомогою зворотнього заряджання.</string>
     <string name="pc_18W_high_power_reverse_charging_title">Зворотня зарядка</string>
-    <string name="pc_abnormal_scan_button_text">Закриваються додатки</string>
+    <string name="pc_abnormal_scan_button_text">Закриваються програми</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Система не переходить у режим очікування</string>
     <string name="pc_abnormal_scan_reason_reconnect">Система надто часто намагається підключитися до мережі</string>
     <string name="pc_abnormal_scan_reason_runtime_exception">Робота з помилками</string>
@@ -4066,6 +4076,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_action_virtual">Повертати порожні повідомлення</string>
     <string name="permission_action_virtual_common_summary">Надати програмам необхідні дозволи, але для захисту конфіденційності повертати порожні повідомлення.</string>
     <string name="permission_action_virtual_phone_summary">Надайте програмам відповідні дозволи, але не дозволяйте їм отримати доступ до дійсного номера телефону SIM-карти</string>
+    <string name="permission_changed_retry">Дозволи змінено. Перезапустіть програми.</string>
     <string name="permission_close_permission_control_dialog_msg">Коли керування дозволами вимкнено, програми не будуть запитувати доступ до ваших даних та функцій.</string>
     <string name="permission_close_permission_control_dialog_title">Вимкнути?</string>
     <string name="permission_exception_title">Обмежити підключення для програм</string>
@@ -4140,7 +4151,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_instruction_scoped">Новий механізм захисту сховища дозволяє краще контролювати те, як сумісні програми використовують дозволи на доступ до сховища.</string>
     <string name="permission_instruction_send_mms">Цей дозвіл дозволяє застосункам надсилати мультимедійні повідомлення, що може призвести до додаткових витрат. Шкідливі застосунки можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
     <string name="permission_instruction_send_payment_sms">Цей дозвіл надає програмам дозвіл на відправлення платних повідомлень.</string>
-    <string name="permission_instruction_send_sms">Цей дозвіл дозволяє застосункам надсилати текстові повідомлення, що може призвести до додаткових витрат. Шкідливі додатки можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
+    <string name="permission_instruction_send_sms">Цей дозвіл дозволяє програмам надсилати текстові повідомлення, що може призвести до додаткових витрат. Шкідливі програми можуть використовувати цей дозвіл для надсилання платних повідомлень без вашої згоди.</string>
     <string name="permission_instruction_shake">Цей дозвіл дозволяє програмам визначати положення пристрою в просторі, розпізнавати тремтіння, визначати орієнтацію екрана, а також використовувати елементи керування грою та навігацію по карті.</string>
     <string name="permission_instruction_show_locked">Цей дозвіл дозволяє програмам відображати елементи на екрані блокування. Шкідливі програми можуть використовувати цей дозвіл для показу реклами.</string>
     <string name="permission_instruction_sociality">Якщо ви дозволите програмам доступ до файлів у власних папках, з метою захисту конфіденційності система дозволить вам вирішити, чи хочете ви, щоб ці програми також отримували доступ до файлів, створених програмами соціальних мереж. Оскільки програми з Android API 29 рівня і вище вже підтримують поділ сховища, цей перемикач залишається для них недоступним.</string>
@@ -4880,6 +4891,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_screen_share_notification_title">Трансляція змісту екрана</string>
     <string name="privacy_screen_share_protect_tip">Захищено</string>
     <string name="privacy_screen_share_tip">Трансляція</string>
+    <string name="privacy_screen_share_v2_land_subtitle">\"%s\" отримує доступ до змісту екрана</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Контент екрана захищено</string>
+    <string name="privacy_screen_share_v2_notification_title">Трансляція змісту екрана</string>
+    <string name="privacy_screen_share_v2_small_island_title">Спільний екран</string>
     <string name="privacy_search_key_1">Конфіденційність</string>
     <string name="privacy_search_key_10">Ідентифікатор пристрою</string>
     <string name="privacy_search_key_2">Перехоплення мережі</string>
@@ -5005,6 +5020,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="repeat_type">Повтор</string>
     <string name="repeated_marked_number_summary">Не блокувати повторний дзвінок від того ж відміченого номера впродовж %d хвилин</string>
     <string name="repeated_marked_number_title">Не блокувати повторні дзвінки від відмічених номерів</string>
+    <string name="repeated_stranger_number_summary">Не блокувати повторний виклик від того ж невідомого номера впродовж %d хвилин</string>
     <string name="repeated_unknown_number_summary">Не блокувати повторний виклик від того ж невідомого номера впродовж %d хвилин</string>
     <string name="replace_dns">Автоматична заміна DNS</string>
     <string name="report">Звіт</string>
@@ -5090,6 +5106,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="safe_result_item_info_system_version">Оновлення не потрібне</string>
     <string name="safepay_alert_dialog_button_continue">Продовжити</string>
     <string name="safepay_alert_dialog_button_fix">Дізнатися більше</string>
+    <string name="safety">Безпека</string>
     <string name="saturday">Субота</string>
     <string name="saturday_short">Сб</string>
     <string name="saturday_shortest">Сб</string>
@@ -5104,6 +5121,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="scan_status_risk">Знайдені загрози</string>
     <string name="scan_status_safe">Система захищена</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Захист від шахрайства</string>
+    <string name="screen_share_search_keyword_1">Спільний екран</string>
+    <string name="screen_share_search_keyword_2">Поділитися екраном</string>
+    <string name="screen_share_search_title">Захист функції \"Поділитися екраном\"</string>
+    <string name="screen_share_warning_positive_button">Стоп</string>
     <string name="screenrecord_not_find">Встановіть останню версію програми Запис екрана та повторіть спробу.</string>
     <string name="sd_eject">Вилучити SD-карту</string>
     <string name="sd_eject_summary">Відключити SD-карту для безпечного вилучення</string>
@@ -5569,6 +5591,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="status_bar_network_flow_purchase">"   Придбати >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Налаштувати тариф >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Заблокувати</string>
     <string name="still_retain_btn">Залишити</string>
     <string name="stop_milink_connect">Зупинити трансляцію</string>
     <string name="storage_activity_title">"Пам'ять"</string>
@@ -5808,7 +5831,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Перед продовженням ознайомтеся та погодьтеся з нашою &lt;a href=\"%1$s\">Угодою користувача&lt;/a>.</Data></string>
     <string name="system_permission_declare_no_say_no">Якщо ви вирішите не надавати необхідні дозволи чи не дозволите нам збирати і використовувати ваші дані, ця програма не зможе нормально працювати.</string>
     <string name="system_permission_declare_no_say_no_analytics">Якщо ви відмовляєтеся надавати дозволи, ви можете відмовитися від участі у розділі Налаштування > Розширені налаштування > Конфіденційність > Програма покращення якості.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Якщо ви вирішите не надавати необхідні дозволи чи не дозволите нам збирати і використовувати ваші дані, ця програма не зможе нормально працювати.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">"Якщо ви не надасте необхідних дозволів або не дозволите нам збирати та використовувати ваші дані, ви не зможете використовувати пов'язані функції."</string>
     <string name="system_permission_declare_optional">Щоб надавати вам додаткові послуги під час використання програми, нам можуть знадобитися наступні дозволи: %s. Ви завжди можете змінити параметри дозволів у Налаштуваннях.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Щоб забезпечити кращу взаємодію з користувачем, цій програмі потрібні такі додаткові дозволи: %1s. Щоб дізнатися більше про те, як ми обробляємо вашу особисту інформацію, торкніться &lt;a href=\"test\">тут&lt;/a>. Ви можете будь-коли керувати своїми дозволами в налаштуваннях.</Data></string>
     <string name="system_permission_declare_privacy_declare">Для нормальної роботи цій програмі необхідне підключення до інтернету та отримання наступних дозволів:</string>
@@ -5971,8 +5994,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="title_auto_update">Автооновлення</string>
     <string name="title_background_connection">Не можете використовувати %s у фоновому режимі</string>
     <string name="title_bill_balance_inquiry">Баланс (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Пропускаєте дзвінки від контактів</string>
-    <string name="title_block_calls_from_strangers">Пропускаєте важливі дзвінки</string>
+    <string name="title_block_calls_from_cantacts">Пропускаєте дзвінки від контактів?</string>
+    <string name="title_block_calls_from_strangers">Пропускаєте важливі дзвінки?</string>
     <string name="title_chain_start">Обмежити взаємний запуск</string>
     <string name="title_cleaner_cloudscan">Сканування смітника у Xiaomi Cloud</string>
     <string name="title_cloud_account">Xiaomi акаунт</string>
