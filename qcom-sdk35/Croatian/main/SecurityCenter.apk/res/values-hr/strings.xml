@@ -163,7 +163,7 @@
     <string name="add_done">Uspješno dodano</string>
     <string name="add_game">Dodaj igru</string>
     <string name="add_game_notification_summary">Dodirni za pokretanje i ubrzanje brzine</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">\"%s\" dodano u Game Space</string>
     <string name="add_miservice_dialog_content">%s zahtijeva od vas da dodate Xiaomi service framework na popis iznimaka. Možete primiti obavijesti od naših ugrađenih aplikacija i aplikacija drugih proizvođača.</string>
     <string name="add_miservice_dialog_title">Xiaomi service framework</string>
     <string name="add_to_whitelist_button">Iznimke podataka roaminga</string>
@@ -719,6 +719,9 @@ Ako još niste postavili zaključavanje zaslona, ​​slijedite upute za postav
     <string name="back_sound_support_china">Prvo isključite WLAN</string>
     <string name="background_restrict_app_dialog_message">Ograničavanje pristupa mreži u pozadini ovoj aplikaciji može onemogućiti da funkcionira normalno, prima poruke, preuzima sadržaj itd. Ograničiti svejedno?</string>
     <string name="background_traffic">Pozadina %s</string>
+    <string name="background_virus_scan_notification_summary">Više aplikacija, uključujući %s. Dodirnite za prikaz.</string>
+    <string name="background_virus_scan_notification_summary_one">Dodirnite za pregled</string>
+    <string name="background_virus_scan_notification_title_one">Otkrivena zlonamjerna aplikacija %s</string>
     <string name="backsound_set_hint">Postaviti svoju poruku \"Odsutan sam\" za %s?</string>
     <string name="banner_optimizemanage_summary">Oslobodite memoriju</string>
     <string name="banner_red_money_assist_button">Uključi</string>
@@ -1238,13 +1241,13 @@ Ovu značajku možete uključiti i isključiti u Kontrolnom centru."</string>
     <string name="connected_devices_for_screen">Dopustiti %1$s pregled i interakciju sa sadržajem zaslona ovog uređaja?</string>
     <string name="connected_devices_for_screen_desc">Za prikaz i interakciju sa sadržajem zaslona</string>
     <string name="connected_devices_header_title">Povezani uređaji</string>
-    <string name="connected_devices_notification">Obavjesti</string>
+    <string name="connected_devices_notification">Obavijesti</string>
     <string name="connected_devices_notification_desc">Prikaži obavijesti ovog uređaja na uređajima u blizini koji su prijavljeni na isti račun</string>
     <string name="connected_devices_notification_title">Dopustiti gornjem uređaju da prikazuje obavijesti ovog uređaja?</string>
     <string name="connected_devices_permission">Međusobno povezivanje i dopuštenja</string>
     <string name="connected_devices_permission_settings">Međusobno povezivanje i dopuštenja</string>
     <string name="connected_devices_permission_summary">Upravljajte pristupom ovom uređaju</string>
-    <string name="connected_devices_record">Snimi</string>
+    <string name="connected_devices_record">Snimi poziv</string>
     <string name="connected_devices_record_desc">Dopusti uređajima u blizini koji su prijavljeni na isti račun da snimaju zvuk na ovom uređaju</string>
     <string name="connected_devices_record_title">Dopustiti gornjem uređaju snimanje zvuka na ovom uređaju?</string>
     <string name="connected_devices_screen">Zaslon</string>
@@ -1252,6 +1255,7 @@ Ovu značajku možete uključiti i isključiti u Kontrolnom centru."</string>
     <string name="connected_devices_screen_title">Dopustiti gornjem uređaju pregled i interakciju sa sadržajem zaslona ovog uređaja?</string>
     <string name="connected_interconnection">Međusobno povezivanje</string>
     <string name="connecting">Povezivanje…</string>
+    <string name="contacts_will_also_be_blocked">Uključujući kontakte</string>
     <string name="continue_install">Instaliraj</string>
     <string name="continue_set">Nastavi</string>
     <string name="convenient_mode">Otključaj sve aplikacije odjednom</string>
@@ -1907,6 +1911,7 @@ Biti će dodani u iznimke, ali prethodno blokirane stavke neće se prikazivati u
     <string name="gallery_confirm_start_activity">%s nema dopuštenje za pristup Vašoj Galeriji niti aplikacijama društvenih medija. Ova aplikacija traži pristup slikama pohranjenim na ovom uređaji kako bi dijelila stavke. Dopustiti?</string>
     <string name="game_ad_recommendation">Svi igraju</string>
     <string name="game_anti_disturb_msg">DND Igre</string>
+    <string name="game_audio_label_international">Zvuk igre</string>
     <string name="game_balance_gpu_enhance_title">Diskretno poboljšanje GPU-a</string>
     <string name="game_balance_more_setting_title">Dodatne postavke</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Poboljšana vizualna izvedba</string>
@@ -2021,7 +2026,7 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="game_toolbox_settings_talkback">Postavke</string>
     <string name="game_toolbox_slow_charge_desc">Uključite ovu značajku kako biste poboljšali iskustvo igranja tijekom punjenja usporavanjem brzine punjenja. To može spriječiti pregrijavanje vašeg uređaja. Uključiti sada?</string>
     <string name="game_toolbox_slow_charge_dialog_btn">Razumijem</string>
-    <string name="game_toolbox_slow_charge_negative_btn">Otkaži</string>
+    <string name="game_toolbox_slow_charge_negative_btn">Odustani</string>
     <string name="game_toolbox_slow_charge_notification_msg">Ova značajka poboljšava iskustvo igranja tijekom punjenja usporavanjem brzine punjenja. To može spriječiti pregrijavanje vašeg uređaja.</string>
     <string name="game_toolbox_slow_charge_notification_title">U tijeku je sporo punjenje</string>
     <string name="game_toolbox_slow_charge_positive_btn">Uključi</string>
@@ -2091,12 +2096,14 @@ Kada je uključena pametna brzina kadrova, alati za detekciju brzine kadrova u i
     <string name="gamebox_func_antimsg_open">Plutajuće obavijesti sada su ograničene</string>
     <string name="gamebox_func_immersion_close">Imersivni način je sada isključen</string>
     <string name="gamebox_func_immersion_open">Imersivni način je sada uključen</string>
+    <string name="gamebox_func_start_gyroscope_international">Uključite žiroskop u postavkama igre da biste koristili ovu značajku</string>
     <string name="gamebox_func_switch_simcard">Prebačeno na SIM karticu %1$d za podatke</string>
     <string name="gamebox_func_switch_simcard_immersion">SIM kartice se ne mogu zamijeniti u Imersivnom načinu rada</string>
     <string name="gamebox_func_wlan_close">Wi-Fi je sada isključen</string>
     <string name="gamebox_func_wlan_open">Wi-Fi je sada uključen</string>
     <string name="gamebox_game_center_app_not_find">Prvo instalirajte Igre</string>
     <string name="gamebox_gift_pack">Pokloni</string>
+    <string name="gamebox_gyroscope_acceleration_international">Ubrzanje žiroskopa</string>
     <string name="gamebox_hangup">Isključi zaslon</string>
     <string name="gamebox_hangup_new">Isključi zaslon</string>
     <string name="gamebox_hangup_tips_content">Ova značajka omogućuje vam da isključite zaslon, ali igru zadržite u pozadini. On se automatski isključuje nakon otključavanja uređaja.</string>
@@ -2803,6 +2810,9 @@ pridružite se našem lovu na jaja!"</string>
     <string name="install_title">Instaliraj putem USB-a</string>
     <string name="install_type_instant">Instant apikacija</string>
     <string name="installing">Instaliranje</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Više aplikacija, uključujući %s, zloupotrebljavaju dopuštenja za pristup</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Ova aplikacija zloupotrebljava dopuštenja za pristup. Dodirnite za prikaz.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Blokirana zlonamjerna aplikacija %s</string>
     <string name="intercept_all_mark_calls">Blokirati sve pozive označene kao \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">Za postavljanje pravila blokiranja za ostale označene brojeve dodirnite ovdje</string>
     <string name="intercept_calls_notify_title">Pozivi s ovom oznakom bit će automatski prekinuti. Želite li ih blokirati sada?</string>
@@ -3599,8 +3609,6 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Upotrebljavanje malicioznih aplikacija predstavlja sigurnosni rizik</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s može biti maliciozna aplikacija</string>
     <string name="optimize_manage_title">Povećaj brzinu</string>
     <string name="optimize_result_available_memory_info">Dostupna memorija</string>
     <string name="optimize_result_button_cloudspace">Nabavite više prostora za pohranu u cloud-u</string>
@@ -3684,6 +3692,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="pb_abnormal_header_time">Vrijeme</string>
     <string name="pb_abnormal_header_type">Vrsta</string>
     <string name="pb_abnormal_header_value">Vrijednost</string>
+    <string name="pb_abnormal_idle_high_temp">Pregrijavanje tijekom mirovanja</string>
     <string name="pb_abnormal_loading">Pričekajte trenutak…</string>
     <string name="pb_abnormal_record">Povijest</string>
     <string name="pb_activity_title">Pojedinosti o prijenosnoj bateriji</string>
@@ -3695,6 +3704,7 @@ Pokušajte povezati router s drugim Ethernet kabelom. Ako sumnjate da postoji pr
     <string name="pb_data_fetch_all_error">Podaci nisu pročitani. Prijenosna baterija je možda isključena ili nije podržana.</string>
     <string name="pb_data_fetch_all_error_new">Podaci nisu pročitani. Powerbank je možda isključen ili nije podržan. Ako je isključen, ponovno spojite kabel za punjenje i pokušajte ponovno.</string>
     <string name="pb_data_fetch_partial_error">Neki artikli nisu dostupni zbog kašnjenja ili nepodržane prijenosne baterije.</string>
+    <string name="pb_data_fetch_partial_error_new">Neki artikli nisu dostupni zbog kašnjenja ili nepodržane prijenosne baterije.</string>
     <string name="pb_manufacturer">Proizvođač</string>
     <string name="pb_measure_point">Senzor %1$d</string>
     <string name="pb_production_date">Datum proizvodnje</string>
@@ -4067,6 +4077,7 @@ Ultra štednje baterije"</string>
     <string name="permission_action_virtual">Vrati praznu poruku</string>
     <string name="permission_action_virtual_common_summary">Dajte aplikacijama potrebna dopuštenja, ali vraćajte prazne poruke kako biste zaštitili svoju privatnost</string>
     <string name="permission_action_virtual_phone_summary">Dodijelite aplikacijama relevantna dopuštenja, ali im nemojte dopustiti pristup stvarnom telefonskom broju SIM kartice</string>
+    <string name="permission_changed_retry">Promijenjena dopuštenja. Ponovno pokrenite aplikacije.</string>
     <string name="permission_close_permission_control_dialog_msg">Kada je Upravitelj dopuštenja isključen, aplikacije neće pitati za vaše dopuštenje pristupu vašim kontaktima, povijesti poziva, postavkama promjene sustava ili pristupu kameri i ostalim resursima uređaja.</string>
     <string name="permission_close_permission_control_dialog_title">Isključiti?</string>
     <string name="permission_exception_title">Ograničena veza za aplikacije</string>
@@ -4881,6 +4892,10 @@ Povući suglasnost odmah?"</string>
     <string name="privacy_screen_share_notification_title">Emitiranje sadržaja zaslona</string>
     <string name="privacy_screen_share_protect_tip">Zaštićeno</string>
     <string name="privacy_screen_share_tip">Emitiranje</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s” pristupa sadržaju zaslona</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Sadržaj zaslona je zaštićen</string>
+    <string name="privacy_screen_share_v2_notification_title">Emitiranje sadržaja zaslona</string>
+    <string name="privacy_screen_share_v2_small_island_title">Dijeljenje zaslona</string>
     <string name="privacy_search_key_1">Privatnost</string>
     <string name="privacy_search_key_10">ID Uređaja</string>
     <string name="privacy_search_key_2">Presretanje mreže</string>
@@ -5006,6 +5021,7 @@ Povući suglasnost odmah?"</string>
     <string name="repeat_type">Ponovi</string>
     <string name="repeated_marked_number_summary">Ne blokiraj drugi poziv s istog prijavljenog broja unutar %d minute</string>
     <string name="repeated_marked_number_title">Ne blokiraj ponovljene pozive s prijavljenih brojeva</string>
+    <string name="repeated_stranger_number_summary">Ne blokiraj drugi poziv s istog nepoznatog broja unutar %d minute</string>
     <string name="repeated_unknown_number_summary">Ne blokiraj drugi poziv s istog nepoznatog broja unutar %d minute</string>
     <string name="replace_dns">Zamjeni DNS automatski</string>
     <string name="report">Prijavi</string>
@@ -5091,6 +5107,7 @@ Povući suglasnost odmah?"</string>
     <string name="safe_result_item_info_system_version">Sustav je ažuriran</string>
     <string name="safepay_alert_dialog_button_continue">Nastavi</string>
     <string name="safepay_alert_dialog_button_fix">Saznajte više</string>
+    <string name="safety">Sigurnost</string>
     <string name="saturday">Subota</string>
     <string name="saturday_short">Sub</string>
     <string name="saturday_shortest">Sub</string>
@@ -5105,6 +5122,11 @@ Povući suglasnost odmah?"</string>
     <string name="scan_status_risk">Rizično</string>
     <string name="scan_status_safe">Osiguraj</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Zaštita od prijevara</string>
+    <string name="screen_share_search_keyword_1">Dijeljenje zaslona</string>
+    <string name="screen_share_search_keyword_2">Podijeli zaslon</string>
+    <string name="screen_share_search_title">Zaštita dijeljenja zaslona</string>
+    <string name="screen_share_warning_positive_button">Zaustavi</string>
     <string name="screenrecord_not_find">Instalirajte zadnju verziju Snimača Zaslona i pokušajte ponovno.</string>
     <string name="sd_eject">Uklonite SD karticu</string>
     <string name="sd_eject_summary">Uklonite SD karticu za sigurno uklanjanje</string>
@@ -5570,6 +5592,7 @@ Povući suglasnost odmah?"</string>
     <string name="status_bar_network_flow_purchase">"   Kupuj >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Postavi podatkovni plan >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Blokiraj</string>
     <string name="still_retain_btn">Zadrži</string>
     <string name="stop_milink_connect">Zaustavi emitiranje</string>
     <string name="storage_activity_title">Prostor za pohranu</string>
@@ -5809,7 +5832,7 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Pročitajte i potvrdite naš &lt;a href=\"%1$s\">Korisnički ugovor&lt;/a> prije nastavka.</Data></string>
     <string name="system_permission_declare_no_say_no">Ako ne želite dati potrebne dozvole ili nam ne dopustite da prikupljamo i koristimo vaše podatke, ova aplikacija neće moći normalno raditi.</string>
     <string name="system_permission_declare_no_say_no_analytics">Ako ne želite odobriti ta dopuštenja, možete se poništiti iz Postavke > Dodatne postavke > Privatnost > Program iskustava korisnika.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Ako odlučite ne dati potrebne dozvole ili nam ne dopustite da prikupljamo i koristimo vaše podatke, ova aplikacija neće moći djelomično raditi.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Ako odlučite ne dati potrebna dopuštenja ili nam ne dopustite prikupljanje i upotrebu vaših podataka, nećete moći koristiti povezane značajke.</string>
     <string name="system_permission_declare_optional">Da bismo vam pružili dodatne usluge dok koristite aplikaciju, možda će nam trebati sljedeća dopuštenja: %s. Uvijek možete prilagoditi svoje postavke dopuštenja u Postavkama.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Kako bismo Vam pružili bolje korisničko iskustvo, ova aplikacija treba sljedeće dodatna dopuštenja: %1s Za više pojedinosti o tome kako obrađujemo vaše osobne podatke, dodirnite &lt;a href=\"test\"> ovdje&lt;/a>. Svojim dopuštenjima možete upravljati u bilo kojem trenutku u Postavkama.</Data></string>
     <string name="system_permission_declare_privacy_declare">Ova se aplikacija mora povezati na internet i zahtijeva sljedeća dopuštenja kako bi mogla normalno raditi:</string>
@@ -5972,8 +5995,8 @@ Za korištenje ^1 na ovom uređaju, prvo ju morate postaviti."</string>
     <string name="title_auto_update">Ažuriraj automatski</string>
     <string name="title_background_connection">Ne možete koristiti %s u pozadini</string>
     <string name="title_bill_balance_inquiry">Ravnoteža (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Propušteni pozivi iz vaših kontakata</string>
-    <string name="title_block_calls_from_strangers">Nedostaju važni pozivi</string>
+    <string name="title_block_calls_from_cantacts">Propušteni pozivi iz vaših kontakata?</string>
+    <string name="title_block_calls_from_strangers">Nedostaju važni pozivi?</string>
     <string name="title_chain_start">Ograniči lančano pokretanje</string>
     <string name="title_cleaner_cloudscan">Skeniraj cloud smeće</string>
     <string name="title_cloud_account">Xiaomi Račun</string>

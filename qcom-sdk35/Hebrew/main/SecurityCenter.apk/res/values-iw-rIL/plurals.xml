@@ -92,7 +92,7 @@
     </plurals>
     <plurals name="app_behavior_record_close_content_text">
         <item quantity="one">רשומות התנהגות של יישומים יאוחסנו במכשיר זה למשך יום אחד (%d). כיבוי תכונה זו ימחק את כל רשומות ההתנהגות של יישומים ואינו מומלץ.</item>
-        <item quantity="two">רשומות התנהגות של יישומים יאוחסנו במכשיר זה למשך יומיים (%d). כיבוי תכונה זו ימחק את כל רשומות ההתנהגות של יישומים ואינו מומלץ.</item>
+        <item quantity="two">רשומות התנהגות של יישומים יאוחסנו במכשיר זה למשך %d ימים. כיבוי תכונה זו ימחק את כל רשומות ההתנהגות של יישומים ואינו מומלץ.</item>
         <item quantity="many">רשומות התנהגות של יישומים יאוחסנו במכשיר זה למשך %d ימים. כיבוי תכונה זו ימחק את כל רשומות ההתנהגות של יישומים ואינו מומלץ.</item>
         <item quantity="other">רשומות התנהגות של יישומים יאוחסנו במכשיר זה למשך %d ימים. כיבוי תכונה זו ימחק את כל רשומות ההתנהגות של יישומים ואינו מומלץ.</item>
     </plurals>
@@ -161,6 +161,12 @@
         <item quantity="two">%s יישומים יהיו מוגנים על-ידי נועל היישומים</item>
         <item quantity="many">%s יישומים יהיו מוגנים על-ידי נועל היישומים</item>
         <item quantity="other">%s יישומים יהיו מוגנים על-ידי נועל היישומים</item>
+    </plurals>
+    <plurals name="background_virus_scan_notification_title">
+        <item quantity="one">זוהה יישום זדוני %d</item>
+        <item quantity="two">זוהו %d יישומים זדוניים</item>
+        <item quantity="many">זוהו %d יישומים זדוניים</item>
+        <item quantity="other">זוהו %d יישומים זדוניים</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
         <item quantity="one">יישום %2$d כולל %1$s</item>
@@ -644,6 +650,12 @@
         <item quantity="many">%d משחקים נוספו</item>
         <item quantity="other">%d משחקים נוספו</item>
     </plurals>
+    <plurals name="intercept_accessibility_virus_notifiction_title">
+        <item quantity="one">נחסם יישום זדוני %d</item>
+        <item quantity="two">נחסמו %d יישומים זדוניים</item>
+        <item quantity="many">נחסמו %d יישומים זדוניים</item>
+        <item quantity="other">נחסמו %d יישומים זדוניים</item>
+    </plurals>
     <plurals name="intl_perm_privacy_control_message_count">
         <item quantity="one">באפשרותך להגן על פריט %d</item>
         <item quantity="two">באפשרותך להגן על %d פריטים</item>
@@ -865,12 +877,6 @@
         <item quantity="two">%d יישומים</item>
         <item quantity="many">%d יישומים</item>
         <item quantity="other">%d יישומים</item>
-    </plurals>
-    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
-        <item quantity="one">יישום %2$d, כולל %1$s, עלול להיות זדוני</item>
-        <item quantity="two">%2$d יישומים, כולל %1$s, עלולים להיות זדוניים</item>
-        <item quantity="many">%2$d יישומים, כולל %1$s, עלולים להיות זדוניים</item>
-        <item quantity="other">%2$d יישומים, כולל %1$s, עלולים להיות זדוניים</item>
     </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="one">+%d</item>
