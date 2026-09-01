@@ -719,6 +719,9 @@ If you haven't set a screen lock yet, follow the instructions to set one."</stri
     <string name="back_sound_support_china">Turn off WLAN first</string>
     <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
     <string name="background_traffic">Background %s</string>
+    <string name="background_virus_scan_notification_summary">Multiple apps including %s. Tap to view.</string>
+    <string name="background_virus_scan_notification_summary_one">Tap to view</string>
+    <string name="background_virus_scan_notification_title_one">Malicious app %s detected</string>
     <string name="backsound_set_hint">Set your away message to %s?</string>
     <string name="banner_optimizemanage_summary">Free up memory</string>
     <string name="banner_red_money_assist_button">Turn on</string>
@@ -1250,6 +1253,7 @@ You can turn this feature on and off in Control centre."</string>
     <string name="connected_devices_screen_title">"Allow the device above to view and interact with this device's screen content?"</string>
     <string name="connected_interconnection">Interconnectivity</string>
     <string name="connecting">Connecting…</string>
+    <string name="contacts_will_also_be_blocked">Including contacts</string>
     <string name="continue_install">Install</string>
     <string name="continue_set">Continue</string>
     <string name="convenient_mode">Unlock all apps at once</string>
@@ -1904,6 +1908,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="gallery_confirm_start_activity">"%s isn't allowed to access your Gallery and social media apps. This app wants to access images stored on this device to share items. Allow?"</string>
     <string name="game_ad_recommendation">Everybody is playing</string>
     <string name="game_anti_disturb_msg">Game DND</string>
+    <string name="game_audio_label_international">Game audio</string>
     <string name="game_balance_gpu_enhance_title">Discrete GPU enhancement</string>
     <string name="game_balance_more_setting_title">Additional settings</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Enhanced visual performance</string>
@@ -2088,12 +2093,14 @@ When Smart frame rate is on, in-game and third-party frame rate detection tools 
     <string name="gamebox_func_antimsg_open">Floating notifications are restricted now</string>
     <string name="gamebox_func_immersion_close">Immersive mode is off now</string>
     <string name="gamebox_func_immersion_open">Immersive mode is on now</string>
+    <string name="gamebox_func_start_gyroscope_international">Turn on gyroscope in game settings to use this feature</string>
     <string name="gamebox_func_switch_simcard">Switched to SIM card %1$d for data</string>
     <string name="gamebox_func_switch_simcard_immersion">"Can't switch SIM cards in Immersive mode"</string>
     <string name="gamebox_func_wlan_close">Wi-Fi is off now</string>
     <string name="gamebox_func_wlan_open">Wi-Fi is on now</string>
     <string name="gamebox_game_center_app_not_find">Install Games first</string>
     <string name="gamebox_gift_pack">Gifts</string>
+    <string name="gamebox_gyroscope_acceleration_international">Gyro boost</string>
     <string name="gamebox_hangup">Turn off screen</string>
     <string name="gamebox_hangup_new">Turn off screen</string>
     <string name="gamebox_hangup_tips_content">This feature allows you to turn off screen, but keep the game running in the background. It turns off automatically once you unlock your device.</string>
@@ -2800,6 +2807,9 @@ to join our egg hunt!"</string>
     <string name="install_title">Install via USB</string>
     <string name="install_type_instant">Instant app</string>
     <string name="installing">Installing</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Multiple apps including %s are abusing accessibility permissions</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">This app is abusing accessibility permissions. Tap to view.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Blocked malicious app %s</string>
     <string name="intercept_all_mark_calls">Block all calls labelled as \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">To set blocking rules for other labelled numbers, tap here</string>
     <string name="intercept_calls_notify_title">Calls with this label will be ended automatically. Block now?</string>
@@ -3596,8 +3606,6 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Using malicious apps poses security risks</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s might be a malicious app</string>
     <string name="optimize_manage_title">Boost speed</string>
     <string name="optimize_result_available_memory_info">Available memory</string>
     <string name="optimize_result_button_cloudspace">Get more cloud storage space</string>
@@ -3681,6 +3689,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pb_abnormal_header_time">Time</string>
     <string name="pb_abnormal_header_type">Type</string>
     <string name="pb_abnormal_header_value">Value</string>
+    <string name="pb_abnormal_idle_high_temp">Overheating while idle</string>
     <string name="pb_abnormal_loading">Just a sec…</string>
     <string name="pb_abnormal_record">History</string>
     <string name="pb_activity_title">Power bank details</string>
@@ -3692,6 +3701,7 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
     <string name="pb_data_fetch_all_error">"Couldn't read data. The power bank may be disconnected or not supported."</string>
     <string name="pb_data_fetch_all_error_new">"Couldn't read data. The power bank may be disconnected or not supported. If it was disconnected, reconnect the charging cable and try again."</string>
     <string name="pb_data_fetch_partial_error">"Some items aren't available due to a delay or an unsupported power bank"</string>
+    <string name="pb_data_fetch_partial_error_new">"Some items aren't available due to a delay or an unsupported power bank"</string>
     <string name="pb_manufacturer">Manufacturer</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Production date</string>
@@ -4064,6 +4074,7 @@ Ultra battery saver"</string>
     <string name="permission_action_virtual">Return blank messages</string>
     <string name="permission_action_virtual_common_summary">Grant apps the necessary permissions but return empty messages to protect your privacy</string>
     <string name="permission_action_virtual_phone_summary">"Grant apps the relevant permissions, but don't allow them to access the SIM card's real phone number"</string>
+    <string name="permission_changed_retry">Changed permissions. Restart apps.</string>
     <string name="permission_close_permission_control_dialog_msg">"When permission manager is off, apps won't ask your permission before reading your contacts, viewing your call history, changing system settings, or accessing camera and other device resources."</string>
     <string name="permission_close_permission_control_dialog_title">Turn off?</string>
     <string name="permission_exception_title">Restricted connection for apps</string>
@@ -4151,7 +4162,7 @@ Ultra battery saver"</string>
     <string name="permission_instruction_write_calllog">This permission allows apps to add or delete call history records.</string>
     <string name="permission_instruction_write_clipboard">This permission allows apps to save items to the clipboard. Spam messages may affect your normal use of the clipboard.</string>
     <string name="permission_instruction_write_contacts">This permission allows apps to add, delete, and edit contacts.</string>
-    <string name="permission_instruction_write_settings">This permission allows apps to modify system settings. Malicious apps might use this permission temper with your system settings and affect the normal use of your device.</string>
+    <string name="permission_instruction_write_settings">This permission allows apps to modify system settings. Malicious apps might use this permission to tamper with your system settings and affect the normal use of your device.</string>
     <string name="permission_legacy_storage">Access photos, videos, audio, and files</string>
     <string name="permission_oaid_desc">Allow %1$s to track your activities on other apps and websites?</string>
     <string name="permission_only_opening_screen">Restrict access during app launch</string>
@@ -4797,7 +4808,7 @@ Ultra battery saver"</string>
     <string name="privacy_recommend_category">Personalisation</string>
     <string name="privacy_recommend_summary">Receive personalised content recommendations</string>
     <string name="privacy_recommend_title">Personalised recommendations</string>
-    <string name="privacy_revoke_category_title">Withdrawal of consent and service cancelation</string>
+    <string name="privacy_revoke_category_title">Withdrawal of consent and service cancellation</string>
     <string name="privacy_revoke_dialog_content">By toggling off the switch, you withdraw your consent to the Privacy Policy of Security. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period as required by applicable laws. Security needs to collect necessary personal information to provide you with basic services. Your withdrawal of consent to its Privacy Policy will be held as refusing to accept its services based on collected personal information.</string>
     <string name="privacy_revoke_dialog_content_cn">"If you continue, you'll withdraw your consent to the Privacy Policy of %1$s. We will cease to collect your personal information. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise.
 As %2$s provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept %3$s services.
@@ -4878,6 +4889,10 @@ Withdraw consent now?"</string>
     <string name="privacy_screen_share_notification_title">Casting screen content</string>
     <string name="privacy_screen_share_protect_tip">Protected</string>
     <string name="privacy_screen_share_tip">Casting</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s” is accessing screen content</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Screen content is protected</string>
+    <string name="privacy_screen_share_v2_notification_title">Casting screen content</string>
+    <string name="privacy_screen_share_v2_small_island_title">Sharing screen</string>
     <string name="privacy_search_key_1">Privacy</string>
     <string name="privacy_search_key_10">Device ID</string>
     <string name="privacy_search_key_2">Network interception</string>
@@ -5003,6 +5018,7 @@ Withdraw consent now?"</string>
     <string name="repeat_type">Repeat</string>
     <string name="repeated_marked_number_summary">"Don't block a second call from the same reported number within %d minutes"</string>
     <string name="repeated_marked_number_title">"Don't block repeated calls from reported numbers"</string>
+    <string name="repeated_stranger_number_summary">"Don't block a second call from the same unknown number within %d minutes"</string>
     <string name="repeated_unknown_number_summary">"Don't block a second call from the same unknown number within %d minutes"</string>
     <string name="replace_dns">Replace DNS automatically</string>
     <string name="report">Report</string>
@@ -5088,6 +5104,7 @@ Withdraw consent now?"</string>
     <string name="safe_result_item_info_system_version">The system is up to date</string>
     <string name="safepay_alert_dialog_button_continue">Continue</string>
     <string name="safepay_alert_dialog_button_fix">Learn more</string>
+    <string name="safety">Security</string>
     <string name="saturday">Saturday</string>
     <string name="saturday_short">Sat</string>
     <string name="saturday_shortest">Sat</string>
@@ -5102,6 +5119,11 @@ Withdraw consent now?"</string>
     <string name="scan_status_risk">Risky</string>
     <string name="scan_status_safe">Secure</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Anti-fraud protection</string>
+    <string name="screen_share_search_keyword_1">Sharing screen</string>
+    <string name="screen_share_search_keyword_2">Share screen</string>
+    <string name="screen_share_search_title">Screen share protection</string>
+    <string name="screen_share_warning_positive_button">Stop</string>
     <string name="screenrecord_not_find">Install the latest version of Screen Recorder and try again.</string>
     <string name="sd_eject">Unmount SD card</string>
     <string name="sd_eject_summary">Unmount SD card to safely remove it</string>
@@ -5567,6 +5589,7 @@ Withdraw consent now?"</string>
     <string name="status_bar_network_flow_purchase">"   Purchase >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Block</string>
     <string name="still_retain_btn">Keep</string>
     <string name="stop_milink_connect">Stopped casting</string>
     <string name="storage_activity_title">Storage space</string>
@@ -5677,7 +5700,7 @@ To use this ^1 with this device, you have to set it up first."</string>
     <string name="storage_system_log_tip">System logs will be cleared automatically when necessary</string>
     <string name="storage_system_memory_expansion">Memory extension</string>
     <string name="storage_system_memory_expansion_tip">Extend RAM by occupying storage</string>
-    <string name="storage_system_other_tip">Data necessary for the system to work normally (filesize may change over time)</string>
+    <string name="storage_system_other_tip">Data necessary for the system to work normally (file size may change over time)</string>
     <string name="storage_system_other_tip_new">Includes the storage space necessary for system operation and upgrades. The size of this partition will fluctuate according to system status.</string>
     <string name="storage_ufs_msg">You can add up to %1$s of storage to this device using our UFS storage extension technology and storage optimisation algorithms.</string>
     <string name="storage_ufs_tip">Additional storage</string>
@@ -5806,7 +5829,7 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Read and agree to our &lt;a href=\"%1$s\">User Agreement&lt;/a> before you continue.</Data></string>
     <string name="system_permission_declare_no_say_no">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work normally."</string>
     <string name="system_permission_declare_no_say_no_analytics">"If you don't want to grant these permissions, you can unenrol in Settings > Additional settings > Privacy > User Experience Program."</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">"If you choose not to give the required permissions or don't allow us to collect and use your data, this app won't be able to work partially."</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">"If you choose not to give the required permissions or don't allow us to collect and use your data, you won't be able to use the related features."</string>
     <string name="system_permission_declare_optional">"To provide you with additional services while you're using the app, we might need the following permissions: %s. You can always adjust your permissions preferences in the Settings."</string>
     <string name="system_permission_declare_optional_default_grant"><Data>In order to provide a better user experience, this app needs the following additional permissions: %1s. For more details on how we process your personal information, tap &lt;a href=\"test\">here&lt;/a>. You can manage your permissions at any time in Settings.</Data></string>
     <string name="system_permission_declare_privacy_declare">This app needs to connect to the internet and requires the following permissions to be able to work normally:</string>
@@ -5969,8 +5992,8 @@ Formatting will erase existing content on the ^2. To avoid losing content, back 
     <string name="title_auto_update">Update automatically</string>
     <string name="title_background_connection">"Can't use %s in the background"</string>
     <string name="title_bill_balance_inquiry">Balance (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Miss calls from your contacts</string>
-    <string name="title_block_calls_from_strangers">Miss important calls</string>
+    <string name="title_block_calls_from_cantacts">Miss calls from your contacts?</string>
+    <string name="title_block_calls_from_strangers">Miss important calls?</string>
     <string name="title_chain_start">Restrict chain start</string>
     <string name="title_cleaner_cloudscan">Cloud trash scan</string>
     <string name="title_cloud_account">Xiaomi Account</string>

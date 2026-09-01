@@ -163,7 +163,7 @@
     <string name="add_done">Adicionado com sucesso</string>
     <string name="add_game">Adicionar jogo</string>
     <string name="add_game_notification_summary">Toque para executar e acelerar a velocidade</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">\"%s\" adicionado ao Game Space</string>
     <string name="add_miservice_dialog_content">%s necessita que adicione a Estrutura de Serviços Xiaomi à lista de exceções. Pode receber notificações de nossas aplicações embutidas e outras aplicações de terceiros.</string>
     <string name="add_miservice_dialog_title">Estrutura de Serviços Xiaomi</string>
     <string name="add_to_whitelist_button">Exceções de dados em roaming</string>
@@ -719,6 +719,9 @@ Se ainda não definiu um bloqueio do ecrã, siga as instruções para definir um
     <string name="back_sound_support_china">Desligue a WLAN primeiro</string>
     <string name="background_restrict_app_dialog_message">Restringir o acesso à rede em segundo plano a esta aplicação fará com que esta não funcione normalmente, ou deixe de receber mensagens, transferir conteúdo, etc. Restringir mesmo assim?</string>
     <string name="background_traffic">Segundo plano %s</string>
+    <string name="background_virus_scan_notification_summary">Várias aplicações, incluindo %s. Toque para ver.</string>
+    <string name="background_virus_scan_notification_summary_one">Toque para ver</string>
+    <string name="background_virus_scan_notification_title_one">Aplicação maliciosa %s detetada</string>
     <string name="backsound_set_hint">Definir a sua mensagem de ausência para %s?</string>
     <string name="banner_optimizemanage_summary">Libertar memória</string>
     <string name="banner_red_money_assist_button">Ligar</string>
@@ -1241,10 +1244,10 @@ Pode ativar ou desativar este recurso no Centro de controlo."</string>
     <string name="connected_devices_notification">Notificações</string>
     <string name="connected_devices_notification_desc">Mostrar as notificações deste dispositivo em dispositivos próximos com sessão iniciada na mesma conta</string>
     <string name="connected_devices_notification_title">Permitir que o dispositivo acima apresente as notificações deste dispositivo?</string>
-    <string name="connected_devices_permission">Interconectividade e permissões</string>
-    <string name="connected_devices_permission_settings">Interconectividade e permissões</string>
+    <string name="connected_devices_permission">Interligação e permissões</string>
+    <string name="connected_devices_permission_settings">Interligação e permissões</string>
     <string name="connected_devices_permission_summary">Gerir o acesso a este dispositivo</string>
-    <string name="connected_devices_record">Gravar</string>
+    <string name="connected_devices_record">Registar</string>
     <string name="connected_devices_record_desc">Permitir que dispositivos próximos com sessão iniciada na mesma conta gravem áudio neste dispositivo</string>
     <string name="connected_devices_record_title">Permitir que o dispositivo acima grave áudio neste dispositivo?</string>
     <string name="connected_devices_screen">Ecrã</string>
@@ -1252,6 +1255,7 @@ Pode ativar ou desativar este recurso no Centro de controlo."</string>
     <string name="connected_devices_screen_title">Permitir que o dispositivo acima veja e interaja com o conteúdo do ecrã deste dispositivo?</string>
     <string name="connected_interconnection">Interligação</string>
     <string name="connecting">A ligar…</string>
+    <string name="contacts_will_also_be_blocked">Incluir contactos</string>
     <string name="continue_install">Instalar</string>
     <string name="continue_set">Continuar</string>
     <string name="convenient_mode">Desbloquear todas as aplicações de uma vez</string>
@@ -1869,19 +1873,19 @@ de terramotos"</string>
     <string name="face_too_many_filed_locked">Muitas tentativas. Bloqueado temporariamente.</string>
     <string name="face_unlock">Desbloquear com dados faciais</string>
     <string name="face_unlock_be_on_the_screen">Mantenha o dispositivo à frente do seu rosto</string>
-    <string name="face_unlock_check_failed">O reconhecimento não foi possível</string>
+    <string name="face_unlock_check_failed">Não foi possível reconhecer o rosto</string>
     <string name="face_unlock_face_auth_failed_title">Impossível verificar os dados faciais. Tente outro método de desbloqueio…</string>
     <string name="face_unlock_face_start_title">A verificar os dados faciais…</string>
     <string name="face_unlock_finger_or_password_switch">Utilize a sua impressão digital ou introduza a palavra-passe para desbloquear</string>
     <string name="face_unlock_guide_confirm">Utilizar desbloqueio facial</string>
     <string name="face_unlock_guide_dialog_summary">Pode utilizar dados faciais para desbloquear seu dispositivo. Ativar o Desbloqueio facial?</string>
-    <string name="face_unlock_not_found">O reconhecimento não foi possível</string>
+    <string name="face_unlock_not_found">Não foi possível reconhecer o rosto</string>
     <string name="face_unlock_open_eye">Abra um pouco mais os olhos</string>
     <string name="face_unlock_reveal_eye">Mantenha os olhos visíveis</string>
     <string name="face_unlock_reveal_mouth">Mantenha os lábios visíveis</string>
     <string name="face_unlock_toast_verity_failed">Não foi possível verificar os dados faciais. Vá para as definições do Bloqueio de aplicações e tente verificar os dados faciais novamente.</string>
     <string name="face_unlock_verity_dialog_summary">Verificar dados faciais</string>
-    <string name="face_unlock_verity_dialog_title_failed">O reconhecimento não foi possível</string>
+    <string name="face_unlock_verity_dialog_title_failed">Não foi possível reconhecer o rosto</string>
     <string name="face_unlock_verity_dialog_title_succeed">Verificado com sucesso</string>
     <string name="fallback_menu_item_copy_link">Copiar link</string>
     <string name="fallback_menu_item_open_in_browser">Abrir no navegador</string>
@@ -2106,13 +2110,14 @@ de terramotos"</string>
     <string name="function_shield_title">Experiência melhorada</string>
     <string name="function_shield_voice_trigger">Não acordar o Mi AI com voz</string>
     <string name="fw_blocked">Lista de bloqueio</string>
-    <string name="fw_blocked_count">"Bloqueado "</string>
+    <string name="fw_blocked_count">"Bloqueada "</string>
     <string name="fw_blocked_join">" e "</string>
     <string name="fw_oversea">Bloquear chamadas internacionais</string>
     <string name="fw_oversea_content">Bloquear chamadas recebidas de números internacionais</string>
     <string name="gallery_confirm_start_activity">%s não tem permissão para aceder à sua Galeria e aplicações de redes sociais. Esta aplicação deseja aceder a imagens armazenadas neste dispositivo para partilhar itens. Permitir?</string>
     <string name="game_ad_recommendation">Todos estão a jogar</string>
     <string name="game_anti_disturb_msg">Não incomodar para jogos</string>
+    <string name="game_audio_label_international">Áudio do jogo</string>
     <string name="game_balance_gpu_enhance_title">Aprimoramento discreto da GPU</string>
     <string name="game_balance_more_setting_title">Definições adicionais</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Desempenho visual aprimorado</string>
@@ -2137,7 +2142,7 @@ de terramotos"</string>
     <string name="game_more_improve">Restringir atividades em segundo plano e velocidade de transferências para poupar banda e bateria para jogar</string>
     <string name="game_perf_config_audio_desc">Ajustar estilo do áudio do jogo</string>
     <string name="game_perf_config_audio_title">Áudio do jogo</string>
-    <string name="game_perf_config_display_desc_disabled">Indisponível</string>
+    <string name="game_perf_config_display_desc_disabled">Não disponível</string>
     <string name="game_perf_config_display_desc_enabled">Ajustar resolução e taxa de quadros</string>
     <string name="game_perf_config_motion_desc">Ajustar sensibilidade do toque em jogos</string>
     <string name="game_perf_config_network_desc">Reduzir atraso de rede e jitter</string>
@@ -2230,7 +2235,7 @@ Quando a Taxa de quadros inteligente está ativada, as ferramentas de deteção 
     <string name="game_toolbox_slow_charge_negative_btn">Cancelar</string>
     <string name="game_toolbox_slow_charge_notification_msg">Esta funcionalidade melhora a experiência de jogo durante o carregamento, reduzindo a velocidade de carregamento. Isto pode evitar que o dispositivo sobreaqueça.</string>
     <string name="game_toolbox_slow_charge_notification_title">Carregamento lento em progresso</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Ligar</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Ativar</string>
     <string name="game_toolbox_slow_charge_title">Carregamento lento</string>
     <string name="game_toolbox_slow_charge_toast">Carregamento lento ligado</string>
     <string name="game_toolbox_smart_charge_title">Carregamento inteligente</string>
@@ -2297,12 +2302,14 @@ Quando a Taxa de quadros inteligente está ativada, as ferramentas de deteção 
     <string name="gamebox_func_antimsg_open">As notificações flutuantes estão restritas agora</string>
     <string name="gamebox_func_immersion_close">O Modo imersivo está desligado agora</string>
     <string name="gamebox_func_immersion_open">O Modo imersivo está ligado agora</string>
+    <string name="gamebox_func_start_gyroscope_international">Ative o giroscópio nas configurações do jogo para usar este recurso</string>
     <string name="gamebox_func_switch_simcard">Alternado para cartão SIM %1$d para dados</string>
     <string name="gamebox_func_switch_simcard_immersion">Não é possível alternar cartões SIM no Modo imersivo</string>
     <string name="gamebox_func_wlan_close">O Wi-Fi está desligado agora</string>
     <string name="gamebox_func_wlan_open">O Wi-Fi está ligado agora</string>
     <string name="gamebox_game_center_app_not_find">Instale Jogos primeiro</string>
     <string name="gamebox_gift_pack">Presentes</string>
+    <string name="gamebox_gyroscope_acceleration_international">Otimizar giroscópio</string>
     <string name="gamebox_hangup">Desligar ecrã</string>
     <string name="gamebox_hangup_new">Desligar ecrã</string>
     <string name="gamebox_hangup_tips_content">Esta funcionalidade permite que desligue o ecrã, mas mantendo o jogo a correr em segundo plano. É desativada automaticamente uma vez que o dispositivo for desbloqueado.</string>
@@ -3009,6 +3016,9 @@ para aproveitar a nossa caça aos ovos!"</string>
     <string name="install_title">Instalação via USB</string>
     <string name="install_type_instant">Aplicação instantânea</string>
     <string name="installing">A instalar</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Várias aplicações, incluindo %s estão a utilizar indevidamente as permissões de acessibilidade</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Esta aplicação está a utilizar indevidamente as permissões de acessibilidade. Toque para ver.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Aplicação maliciosa %s bloqueada</string>
     <string name="intercept_all_mark_calls">Bloquear chamadas rotuladas como \"%s\"?</string>
     <string name="intercept_calls_nofify_hide_text">Para definir as regras de bloqueio para outrros números rotulados, toque aqui</string>
     <string name="intercept_calls_notify_title">Chamadas com este rótulo serão encerradas automaticamente. Bloquear agora?</string>
@@ -3101,7 +3111,7 @@ Pode ter custos adicionais se utilizar a ligação de dados móveis novamente."<
     <string name="lockpattern_access_need_to_unlock_wrong_pattern">A palavra-passe que introduziu está incorreta.</string>
     <string name="lockpattern_confirm_button_text">OK</string>
     <string name="lockpattern_continue_button_text">Seguinte</string>
-    <string name="lockpattern_need_to_confirm">Desenhar o padrão novamente para confirmar</string>
+    <string name="lockpattern_need_to_confirm">Desenhe o padrão novamente para confirmar</string>
     <string name="lockpattern_need_to_unlock_wrong">As palavras-passe não coincidem. Tente novamente.</string>
     <string name="lockpattern_pattern_confirmed_header">Novo padrão de desbloqueio</string>
     <string name="lockpattern_pattern_entered_header">Padrão adicionado</string>
@@ -3825,8 +3835,6 @@ Tente utilizar outro cabo Ethernet para ligar o seu router. Se suspeitar que há
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Utilizar aplicações maliciosas pode comprometer a sua segurança</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s pode ser uma aplicação maliciosa</string>
     <string name="optimize_manage_title">Aumentar velocidade</string>
     <string name="optimize_result_available_memory_info">Memória disponível</string>
     <string name="optimize_result_button_cloudspace">Obter mais espaço na nuvem</string>
@@ -3910,6 +3918,7 @@ Tente utilizar outro cabo Ethernet para ligar o seu router. Se suspeitar que há
     <string name="pb_abnormal_header_time">Hora</string>
     <string name="pb_abnormal_header_type">Tipo</string>
     <string name="pb_abnormal_header_value">Valor</string>
+    <string name="pb_abnormal_idle_high_temp">A superaquecer quando ocioso</string>
     <string name="pb_abnormal_loading">Um momento…</string>
     <string name="pb_abnormal_record">Histórico</string>
     <string name="pb_activity_title">Detalhes da bateria externa</string>
@@ -3921,6 +3930,7 @@ Tente utilizar outro cabo Ethernet para ligar o seu router. Se suspeitar que há
     <string name="pb_data_fetch_all_error">Não foi possível ler os dados. O carregador portátil pode estar desligado ou não ser compatível.</string>
     <string name="pb_data_fetch_all_error_new">Não foi possível ler os dados. A bateria externa pode estar desligada ou não ser suportada. Se foi desligada, religue o cabo de carregamento e tente novamente.</string>
     <string name="pb_data_fetch_partial_error">Alguns itens não estão disponíveis devido a um atraso ou a um carregador portátil não compatível</string>
+    <string name="pb_data_fetch_partial_error_new">Alguns itens não estão disponíveis devido a um atraso ou a um carregador portátil não compatível</string>
     <string name="pb_manufacturer">Fabricante</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Data de fabricação</string>
@@ -4293,6 +4303,7 @@ a Ultra poupança de bateria"</string>
     <string name="permission_action_virtual">Retornar mensagens em branco</string>
     <string name="permission_action_virtual_common_summary">Concede às aplicações as permissões necessárias, mas devolve mensagens vazias para proteger a sua privacidade</string>
     <string name="permission_action_virtual_phone_summary">Conceder às aplicações as permissões relevantes, mas não permitir que acedam ao número de telefone real do cartão SIM</string>
+    <string name="permission_changed_retry">Permissões alteradas. Reinicie as aplicações.</string>
     <string name="permission_close_permission_control_dialog_msg">Quando o gestor de permissões está inativo, as aplicações não vão pedir a sua permissão para lerem os seus contactos, verem o seu histórico de chamadas, modificarem definições de sistema, acederem à câmara ou a outros recursos do dispositivo</string>
     <string name="permission_close_permission_control_dialog_title">Desligar?</string>
     <string name="permission_exception_title">Ligação restringida para aplicações</string>
@@ -4328,7 +4339,7 @@ a Ultra poupança de bateria"</string>
     <string name="permission_instruction_draw_overlay">Esta permissão permite que as aplicações exibam janelas flutuantes sobre qualquer outra interface em seu dispositivo, o que pode afetar a utilização normal de outras aplicações. Aplicações maliciosas podem utilizar esta permissão para ler ou recolher informações privadas (por exemplo, palavras-passe) através de janelas flutuantes transparentes.</string>
     <string name="permission_instruction_external_storage">Esta permissão permite que as aplicações acedam a fotos, multimédia e ficheiros em seu dispositivo. Tenha cuidado com esta permissão para evitar a divulgação desnecessária de informações privadas.</string>
     <string name="permission_instruction_gallery">Se permitir que as aplicações acedam a ficheiros em suas próprias pastas, o sistema deixará que decida se deseja que estas aplicações acedam a itens em sua Galeria para proteger a sua privacidade. Como as aplicações com API Android nível 29 ou superiores já suportam a partição de armazenamento, este seletor não será disponibilizado para elas.</string>
-    <string name="permission_instruction_get_accounts">Esta permissão permite às aplicações aceder à lista de contas armazenadas em seu dispositivo. Esta lista pode conter todas as suas contas pessoais criadas por aplicações instaladas, bem como as contas de plataformas de mídia social e ferramentas de comunicação.</string>
+    <string name="permission_instruction_get_accounts">Esta permissão permite às aplicações aceder à lista de contas armazenadas no seu dispositivo. Esta lista pode conter todas as suas contas pessoais criadas por aplicações instaladas, bem como as contas de plataformas de redes sociais e ferramentas de comunicação.</string>
     <string name="permission_instruction_get_identifier">Aceder ao identificador de dispositivo</string>
     <string name="permission_instruction_install_shortcuts">Esta permissão permite que as aplicações criem atalhos para o Ecrã inicial.</string>
     <string name="permission_instruction_install_unknown_source">Esta permissão permite que as aplicações instalem outras aplicações em seu dispositivo. Aplicações maliciosas utilizam esta permissão para instalar aplicações sem a sua confirmação.</string>
@@ -4343,7 +4354,7 @@ a Ultra poupança de bateria"</string>
     <string name="permission_instruction_package_usage_stat">Esta permissão permite que as aplicações rastreiem o comportamento de outras aplicações no seu dispositivo e obtenham as informações que podem incluir o seu operador e definições de idioma. Esta é uma permissão de alto risco. O seu dispositivo pode ser monitorizado, e a segurança de suas informações pessoais também pode estar em risco.</string>
     <string name="permission_instruction_picture_in_picture">Esta permissão permite que as aplicações apresentem itens no seu ecrã inicial ou sobre outras aplicações através da interface picture-in-picture.</string>
     <string name="permission_instruction_popup_window">Esta permissão permite que as aplicações exibam janelas flutuantes sobre qualquer outra interface em seu dispositivo, o que pode afetar a utilização normal de outras aplicações. Aplicações maliciosas podem utilizar esta permissão para ler ou recolher informações privadas (por exemplo, palavras-passe) através de janelas flutuantes transparentes.</string>
-    <string name="permission_instruction_read_appplication_list">Esta permissão permite que as aplicações acedam às informações sobre todas as aplicações instaladas em seu dispositivo. Aplicações maliciosas podem utilizar esta permissão para analisar as suas preferências pessoais.</string>
+    <string name="permission_instruction_read_appplication_list">Esta permissão permite que as aplicações acedam às informações sobre todas as aplicações instaladas no seu dispositivo. Aplicações maliciosas podem utilizar esta permissão para analisar as suas preferências pessoais.</string>
     <string name="permission_instruction_read_calllog">Esta permissão permite que as aplicações acedam ao histórico de chamadas.</string>
     <string name="permission_instruction_read_clipboard">Esta permissão permite que aplicações leiam qualquer conteúdo que copiar, que pode incluir informações pessoais (ex.: detalhes de contas, números de cartões bancários, e palavras-passe).</string>
     <string name="permission_instruction_read_contacts">Esta permissão permite que as aplicações acedam aos contactos. As aplicações maliciosas podem utilizar esta permissão para guardar ou partilhar contactos sem o seu consentimento.</string>
@@ -4945,7 +4956,7 @@ a Ultra poupança de bateria"</string>
     <string name="privacy_guide_permission_guide_text">Pode receber um alerta na barra de estado quando aplicações acederem à sua localização, gravarem áudio ou tirarem fotos.</string>
     <string name="privacy_hide_other_permissions">Ocultar outras permissões</string>
     <string name="privacy_hybrid_password_long">Introduza até %d caracteres</string>
-    <string name="privacy_hybrid_password_too_short">Introduza pelo menos %d caracteres</string>
+    <string name="privacy_hybrid_password_too_short">Introduza, pelo menos, %d caracteres</string>
     <string name="privacy_informed_title">Estatísticas</string>
     <string name="privacy_input_mode">Entrada segura</string>
     <string name="privacy_input_model_tips">A entrada segura está ligada. O seu teclado não pode exibir janelas pop-up ou aceder aos contactos, informações de localização, e o histórico de chamadas.</string>
@@ -5107,6 +5118,10 @@ Retirar o consentimento agora?"</string>
     <string name="privacy_screen_share_notification_title">A transmitir o conteúdo do ecrã</string>
     <string name="privacy_screen_share_protect_tip">Protegido</string>
     <string name="privacy_screen_share_tip">A transmitir</string>
+    <string name="privacy_screen_share_v2_land_subtitle">“%s” está a aceder o conteúdo do ecrã</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">O conteúdo do ecrã está protegido</string>
+    <string name="privacy_screen_share_v2_notification_title">A transmitir o conteúdo do ecrã</string>
+    <string name="privacy_screen_share_v2_small_island_title">A partilhar o ecrã</string>
     <string name="privacy_search_key_1">Privacidade</string>
     <string name="privacy_search_key_10">ID do Dispositivo</string>
     <string name="privacy_search_key_2">Interceptação de rede</string>
@@ -5232,6 +5247,7 @@ Retirar o consentimento agora?"</string>
     <string name="repeat_type">Repetir</string>
     <string name="repeated_marked_number_summary">Não bloquear a segunda chamada do mesmo número reportado dentro de %d minutos</string>
     <string name="repeated_marked_number_title">Não bloquear chamadas repetidas de números reportados</string>
+    <string name="repeated_stranger_number_summary">Não bloquear a segunda chamada do mesmo número desconhecido dentro de %d minutos</string>
     <string name="repeated_unknown_number_summary">Não bloquear a segunda chamada do mesmo número desconhecido dentro de %d minutos</string>
     <string name="replace_dns">Substituir DNS automaticamente</string>
     <string name="report">Reportar</string>
@@ -5317,6 +5333,7 @@ Retirar o consentimento agora?"</string>
     <string name="safe_result_item_info_system_version">O sistema está atualizado</string>
     <string name="safepay_alert_dialog_button_continue">Continuar</string>
     <string name="safepay_alert_dialog_button_fix">Saiba mais</string>
+    <string name="safety">Segurança</string>
     <string name="saturday">Sábado</string>
     <string name="saturday_short">Sáb</string>
     <string name="saturday_shortest">Sáb</string>
@@ -5331,6 +5348,11 @@ Retirar o consentimento agora?"</string>
     <string name="scan_status_risk">Perigoso</string>
     <string name="scan_status_safe">Seguro</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Proteção antifraude</string>
+    <string name="screen_share_search_keyword_1">A partilhar o ecrã</string>
+    <string name="screen_share_search_keyword_2">Partilhar o ecrã</string>
+    <string name="screen_share_search_title">Proteção de partilha de ecrã</string>
+    <string name="screen_share_warning_positive_button">Parar</string>
     <string name="screenrecord_not_find">Instale a última versão do Gravador de Ecrã e tente novamente.</string>
     <string name="sd_eject">Desmontar cartão SD</string>
     <string name="sd_eject_summary">Desmonte o cartão SD para removê-lo com segurança</string>
@@ -5797,6 +5819,7 @@ Retirar o consentimento agora?"</string>
     <string name="status_bar_network_flow_purchase">"   Comprar >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Definir plano de dados >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Bloquear</string>
     <string name="still_retain_btn">Manter</string>
     <string name="stop_milink_connect">A transmissão parou</string>
     <string name="storage_activity_title">Espaço de armazenamento</string>
@@ -6036,7 +6059,7 @@ A formatação vai apagar o conteúdo existente no ^2. Para evitar a perda de da
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Leia e aceite o nosso &lt;a href=\"%1$s\">Contrato do Utilizador&lt;/a> antes de continuar.</Data></string>
     <string name="system_permission_declare_no_say_no">Se escolher não dar as permissões necessárias ou não permitir que os seus dados sejam recolhidos, esta aplicação poderá não funcionar corretamente.</string>
     <string name="system_permission_declare_no_say_no_analytics">Se não deseja conceder estas permissões, pode remover sua participação em Definições > Definições adicionais > Privacidade > Programa de Experiência do Utilizador.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Se escolher não dar as permissões necessárias ou não permitir que os seus dados sejam recolhidos, esta aplicação poderá não funcionar totalmente.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Se escolher não dar as permissões necessárias ou não permitir que os seus dados sejam recolhidos, não poderá utilizar as funcionalidades relacionadas.</string>
     <string name="system_permission_declare_optional">Para lhe fornecer serviços adicionais quando estiver a utilizar a aplicação, podemos precisar das seguintes permissões: %s. Pode ajustar as suas preferências de permissões a qualquer altura nas Definições.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Para fornecer uma melhor experiência ao utilizador, esta aplicação precisa das seguintes permissões adicionais: %1s. Para mais detalhes sobre como processamos as suas informações pessoais, toque &lt;a href=\"test\">aqui&lt;/a>. Pode gerir as suas permissões a qualquer altura nas Definições.</Data></string>
     <string name="system_permission_declare_privacy_declare">Esta aplicação precisa de se ligar à Internet e requer as seguintes permissões para poder funcionar normalmente:</string>
@@ -6199,8 +6222,8 @@ A formatação vai apagar o conteúdo existente no ^2. Para evitar a perda de da
     <string name="title_auto_update">Atualizar automaticamente</string>
     <string name="title_background_connection">Não pode utilizar %s em segundo plano</string>
     <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Perdeu chamadas dos seus contactos</string>
-    <string name="title_block_calls_from_strangers">Perdeu uma chamada importante</string>
+    <string name="title_block_calls_from_cantacts">Perdeu chamadas dos seus contactos?</string>
+    <string name="title_block_calls_from_strangers">Perdeu uma chamada importante?</string>
     <string name="title_chain_start">Restringir início sequencial</string>
     <string name="title_cleaner_cloudscan">Verificação de lixo na nuvem</string>
     <string name="title_cloud_account">Conta Xiaomi</string>

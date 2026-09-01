@@ -121,12 +121,12 @@
         <item quantity="other">مستخدم لمدة %1$d دقيقة حتى %2$s</item>
     </plurals>
     <plurals name="app_behavior_record_close_content_text">
-        <item quantity="zero">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d يوم. سيؤدي تعطيل هذه الميزة إلى إزالة كافة سجلات سلوك التطبيق ولا يوصى به.</item>
-        <item quantity="one">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d يوم. سيؤدي تعطيل هذه الميزة إلى إزالة كافة سجلات سلوك التطبيق ولا يوصى به.</item>
-        <item quantity="two">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d أيام. سيؤدي تعطيل هذه الميزة إلى إزالة كافة سجلات سلوك التطبيق ولا يوصى به.</item>
-        <item quantity="few">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d أيام. سيؤدي تعطيل هذه الميزة إلى إزالة كافة سجلات سلوك التطبيق ولا يوصى به.</item>
-        <item quantity="many">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d يوم. سيؤدي تعطيل هذه الميزة إلى إزالة كافة سجلات سلوك التطبيق ولا يوصى به.</item>
-        <item quantity="other">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d يوم. سيؤدي تعطيل هذه الميزة إلى إزالة كافة سجلات سلوك التطبيق ولا يوصى به.</item>
+        <item quantity="zero">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d أيام. إيقاف هذه الميزة سيحذف جميع سجلات السلوك، وهذا غير مستحسن.</item>
+        <item quantity="one">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d يومًا. إيقاف هذه الميزة سيحذف جميع سجلات السلوك، وهذا غير مستحسن.</item>
+        <item quantity="two">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d أيام. إيقاف هذه الميزة سيحذف جميع سجلات السلوك، وهذا غير مستحسن.</item>
+        <item quantity="few">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d أيام. إيقاف هذه الميزة سيحذف جميع سجلات السلوك، وهذا غير مستحسن.</item>
+        <item quantity="many">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d أيام. إيقاف هذه الميزة سيحذف جميع سجلات السلوك، وهذا غير مستحسن.</item>
+        <item quantity="other">سيتم تخزين سجلات سلوك التطبيق على هذا الجهاز لمدة %d أيام. إيقاف هذه الميزة سيحذف جميع سجلات السلوك، وهذا غير مستحسن.</item>
     </plurals>
     <plurals name="app_manager_permission_summary_accept">
         <item quantity="zero">تم السماح لـ%d إذن</item>
@@ -215,6 +215,14 @@
         <item quantity="few">احمي %s تطبيقات مع ميزة قفل التطبيقات</item>
         <item quantity="many">احمي %s تطبيق مع ميزة قفل التطبيقات</item>
         <item quantity="other">احمي %s تطبيق مع ميزة قفل التطبيقات</item>
+    </plurals>
+    <plurals name="background_virus_scan_notification_title">
+        <item quantity="zero">%d تم اكتشاف تطبيق ضار</item>
+        <item quantity="one">%d تم اكتشاف تطبيق ضار</item>
+        <item quantity="two">%d تم اكتشاف تطبيقات ضارة</item>
+        <item quantity="few">%d تم اكتشاف تطبيقات ضارة</item>
+        <item quantity="many">%d تم اكتشاف تطبيق ضار</item>
+        <item quantity="other">%d تم اكتشاف تطبيق ضار</item>
     </plurals>
     <plurals name="behavior_widget_app_text">
         <item quantity="zero">%1$s و %2$d تطبيق آخر</item>
@@ -896,6 +904,14 @@
         <item quantity="many">تمت إضافة %d لعبة</item>
         <item quantity="other">تمت إضافة %d لعبة</item>
     </plurals>
+    <plurals name="intercept_accessibility_virus_notifiction_title">
+        <item quantity="zero">تم حظر %d تطبيق ضار</item>
+        <item quantity="one">تم حظر %d تطبيق ضار</item>
+        <item quantity="two">تم حظر %d تطبيقات ضارة</item>
+        <item quantity="few">تم حظر %d تطبيقات ضارة</item>
+        <item quantity="many">تم حظر %d تطبيق ضار</item>
+        <item quantity="other">تم حظر %d تطبيق ضار</item>
+    </plurals>
     <plurals name="intl_perm_privacy_control_message_count">
         <item quantity="zero">يمكنك حماية %d عنصر</item>
         <item quantity="one">يمكنك حماية %d عنصر</item>
@@ -1231,14 +1247,6 @@
         <item quantity="few">%d تطبيقات</item>
         <item quantity="many">%d تطبيق</item>
         <item quantity="other">%d تطبيق</item>
-    </plurals>
-    <plurals name="opt_antivirus_scan_multi_antivirus_notification_title">
-        <item quantity="zero">قد يكون %2$d تطبيق بما في ذلك %1$s ضار</item>
-        <item quantity="one">قد يكون %2$d تطبيق بما في ذلك %1$s ضار</item>
-        <item quantity="two">قد يكون %2$d تطبيقات بما في ذلك %1$s ضار</item>
-        <item quantity="few">قد يكون %2$d تطبيقات بما في ذلك %1$s ضار</item>
-        <item quantity="many">قد يكون %2$d تطبيق بما في ذلك %1$s ضار</item>
-        <item quantity="other">قد يكون %2$d تطبيق بما في ذلك %1$s ضار</item>
     </plurals>
     <plurals name="optimize_result_button_add_score">
         <item quantity="zero">+%d</item>

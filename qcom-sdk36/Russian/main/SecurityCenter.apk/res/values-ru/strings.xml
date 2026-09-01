@@ -163,7 +163,7 @@
     <string name="add_done">Успешно добавлено</string>
     <string name="add_game">Добавить</string>
     <string name="add_game_notification_summary">Нажмите для запуска и ускорения.</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">Игра «%s» добавлена в Игровое пространство</string>
     <string name="add_miservice_dialog_content">%s требует добавить Xiaomi Service Framework в список исключений. Вы можете получать уведомления от системных и сторонних приложений.</string>
     <string name="add_miservice_dialog_title">Xiaomi Service Framework</string>
     <string name="add_to_whitelist_button">Исключения</string>
@@ -719,6 +719,9 @@
     <string name="back_sound_support_china">Сначала выключите WLAN</string>
     <string name="background_restrict_app_dialog_message">Ограничение фонового подключения для этого приложения может привести к тому, что приложение не сможет нормально работать, получать сообщения, загружать данные и т. д. Ограничить подключение?</string>
     <string name="background_traffic">Фоновый: %s</string>
+    <string name="background_virus_scan_notification_summary">Множество приложений, включая %s. Нажмите для просмотра.</string>
+    <string name="background_virus_scan_notification_summary_one">Нажмите для просмотра</string>
+    <string name="background_virus_scan_notification_title_one">Обнаружено вредоносное приложение %s</string>
     <string name="backsound_set_hint">Установить сообщение об отсутствии на \"%s\"?</string>
     <string name="banner_optimizemanage_summary">Очистка</string>
     <string name="banner_red_money_assist_button">Включить</string>
@@ -1252,6 +1255,7 @@
     <string name="connected_devices_screen_title">Разрешить указанному устройству просмотр и взаимодействие с содержимым экрана этого устройства?</string>
     <string name="connected_interconnection">Взаимосвязанность</string>
     <string name="connecting">Подключение…</string>
+    <string name="contacts_will_also_be_blocked">Включая контакты</string>
     <string name="continue_install">Установить</string>
     <string name="continue_set">Продолжить</string>
     <string name="convenient_mode">Групповая разблокировка</string>
@@ -1906,6 +1910,7 @@
     <string name="gallery_confirm_start_activity">Приложению %s запрещен доступ к Галерее и приложениям соцсетей. Разрешить приложению передачу изображений, сохраненных на этом устройстве?</string>
     <string name="game_ad_recommendation">Игры для всех</string>
     <string name="game_anti_disturb_msg">Не беспокоить</string>
+    <string name="game_audio_label_international">Звук в игре</string>
     <string name="game_balance_gpu_enhance_title">Расширение выделенного графического процессора</string>
     <string name="game_balance_more_setting_title">Расширенные настройки</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Улучшенная визуализация</string>
@@ -1920,7 +1925,7 @@
     <string name="game_booster_tab_top">Лучшее</string>
     <string name="game_booster_title">Ускорение</string>
     <string name="game_bootser_tab_settings">Настройки</string>
-    <string name="game_center_more">Еще</string>
+    <string name="game_center_more">Больше</string>
     <string name="game_center_network_setting_tip">Разрешите приложению «Безопасность» доступ в интернет в Настройках</string>
     <string name="game_center_network_setting_tip_pad">Разрешите приложению «Безопасность» доступ в интернет в Настройках</string>
     <string name="game_center_recommend">Рекомендовано</string>
@@ -2023,7 +2028,7 @@
     <string name="game_toolbox_slow_charge_negative_btn">Отмена</string>
     <string name="game_toolbox_slow_charge_notification_msg">Эта функция улучшает впечатления от игр во время зарядки, замедляя скорость зарядки. Это может предотвратить перегрев устройства.</string>
     <string name="game_toolbox_slow_charge_notification_title">Выполняется медленная зарядка</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Включить</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Начало</string>
     <string name="game_toolbox_slow_charge_title">Медленная зарядка</string>
     <string name="game_toolbox_slow_charge_toast">Медленная зарядка включена</string>
     <string name="game_toolbox_smart_charge_title">Смарт-зарядка</string>
@@ -2090,12 +2095,14 @@
     <string name="gamebox_func_antimsg_open">Всплывающие уведомления отключены</string>
     <string name="gamebox_func_immersion_close">Режим погружения отключен</string>
     <string name="gamebox_func_immersion_open">Режим погружения включен</string>
+    <string name="gamebox_func_start_gyroscope_international">Чтобы использовать эту функцию, включите гироскоп в настройках игры</string>
     <string name="gamebox_func_switch_simcard">Переключено на SIM-карту %1$d для данных</string>
     <string name="gamebox_func_switch_simcard_immersion">Нельзя менять SIM-карты в режиме погружения</string>
     <string name="gamebox_func_wlan_close">Wi-Fi отключен</string>
     <string name="gamebox_func_wlan_open">Wi-Fi включен</string>
     <string name="gamebox_game_center_app_not_find">Сначала установите \"Игры\"</string>
     <string name="gamebox_gift_pack">Подарки</string>
+    <string name="gamebox_gyroscope_acceleration_international">Гироскопическое усиление</string>
     <string name="gamebox_hangup">Отключить экран</string>
     <string name="gamebox_hangup_new">Выключить экран</string>
     <string name="gamebox_hangup_tips_content">Эта функция позволяет выключить экран, сохраняя игру работающей в фоновом режиме. Она автоматически отключится после разблокировки устройства.</string>
@@ -2802,6 +2809,9 @@ Xiaomi Gaming Cooler"</string>
     <string name="install_title">Установка через USB</string>
     <string name="install_type_instant">Мгновенное приложение</string>
     <string name="installing">Установка</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Несколько приложений, включая %s, нарушают разрешения специальных возможностей</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Это приложение нарушает разрешения специальных возможностей. Нажмите для просмотра.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Заблокировано вредоносное приложение %s</string>
     <string name="intercept_all_mark_calls">Заблокировать все вызовы, помеченные как «%s»?</string>
     <string name="intercept_calls_nofify_hide_text">Чтобы задать правила блокировки для других помеченных номеров, нажмите здесь</string>
     <string name="intercept_calls_notify_title">Вызовы с этой меткой будут автоматически завершены. Заблокировать сейчас?</string>
@@ -3598,8 +3608,6 @@ Xiaomi Gaming Cooler"</string>
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Использование вредоносных приложений создает угрозу безопасности системы</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">\"%s\" может являться вредоносным приложением</string>
     <string name="optimize_manage_title">Ускорение</string>
     <string name="optimize_result_available_memory_info">Доступная память</string>
     <string name="optimize_result_button_cloudspace">Получить больше места</string>
@@ -3683,6 +3691,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_abnormal_header_time">Время</string>
     <string name="pb_abnormal_header_type">Тип</string>
     <string name="pb_abnormal_header_value">Значение</string>
+    <string name="pb_abnormal_idle_high_temp">Перегрев на холостом ходу</string>
     <string name="pb_abnormal_loading">Секунду…</string>
     <string name="pb_abnormal_record">История</string>
     <string name="pb_activity_title">Сведения о внешнем аккумуляторе</string>
@@ -3694,6 +3703,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="pb_data_fetch_all_error">Не удалось считать данные. Возможно, внешний аккумулятор отключен или не поддерживается.</string>
     <string name="pb_data_fetch_all_error_new">Не удалось прочитать данные. Возможно, внешний аккмулятор отключен или не поддерживается. Если он был отключен, подключите зарядный кабель и повторите попытку.</string>
     <string name="pb_data_fetch_partial_error">Некоторые объекты недоступны из-за задержки или неподдерживаемого внешнего аккумулятора</string>
+    <string name="pb_data_fetch_partial_error_new">Некоторые объекты недоступны из-за задержки или неподдерживаемого внешнего аккумулятора</string>
     <string name="pb_manufacturer">Производитель</string>
     <string name="pb_measure_point">Датчик %1$d</string>
     <string name="pb_production_date">Дата производства</string>
@@ -4066,6 +4076,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="permission_action_virtual">Возвращать пустые сообщения</string>
     <string name="permission_action_virtual_common_summary">Предоставить приложениям необходимые разрешения, но для защиты конфиденциальности возвращать пустые сообщения.</string>
     <string name="permission_action_virtual_phone_summary">Предоставить приложениям соответствующие разрешения, но запретить им доступ к реальному номеру телефона SIM-карты.</string>
+    <string name="permission_changed_retry">Разрешения изменены. Перезапустите приложения.</string>
     <string name="permission_close_permission_control_dialog_msg">Если управление разрешениями отключено, приложения не будут запрашивать разрешения на доступ к вашим данным и изменение настроек системы.</string>
     <string name="permission_close_permission_control_dialog_title">Отключить управление разрешениями?</string>
     <string name="permission_exception_title">Трафик приложений</string>
@@ -4880,6 +4891,10 @@ Xiaomi Gaming Cooler"</string>
     <string name="privacy_screen_share_notification_title">Содержание транслируемого экрана</string>
     <string name="privacy_screen_share_protect_tip">Защищено</string>
     <string name="privacy_screen_share_tip">Трансляция</string>
+    <string name="privacy_screen_share_v2_land_subtitle">«%s» получает доступ к содержанию экрана</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Содержимое экрана защищено</string>
+    <string name="privacy_screen_share_v2_notification_title">Содержание транслируемого экрана</string>
+    <string name="privacy_screen_share_v2_small_island_title">Дублирование экрана</string>
     <string name="privacy_search_key_1">Конфиденциальность</string>
     <string name="privacy_search_key_10">Идентификатор устройства</string>
     <string name="privacy_search_key_2">Перехват сети</string>
@@ -5005,6 +5020,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="repeat_type">Повтор</string>
     <string name="repeated_marked_number_summary">Не блокировать второй вызов от одного и того же абонента в течение %d минут.</string>
     <string name="repeated_marked_number_title">Не блокировать повторные вызовы</string>
+    <string name="repeated_stranger_number_summary">Не блокировать второй вызов с одного и того же неизвестного номера в течение %d минут</string>
     <string name="repeated_unknown_number_summary">Не блокировать второй вызов с одного и того же неизвестного номера в течение %d минут</string>
     <string name="replace_dns">Автоматическая замена DNS</string>
     <string name="report">Отчет</string>
@@ -5090,6 +5106,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="safe_result_item_info_system_version">Обновление не требуется</string>
     <string name="safepay_alert_dialog_button_continue">Продолжить</string>
     <string name="safepay_alert_dialog_button_fix">Подробнее</string>
+    <string name="safety">Безопасность</string>
     <string name="saturday">Суббота</string>
     <string name="saturday_short">Сб</string>
     <string name="saturday_shortest">Сб</string>
@@ -5104,6 +5121,11 @@ Xiaomi Gaming Cooler"</string>
     <string name="scan_status_risk">Найдены угрозы</string>
     <string name="scan_status_safe">Система защищена</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Защита от мошенничества</string>
+    <string name="screen_share_search_keyword_1">Дублирование экрана</string>
+    <string name="screen_share_search_keyword_2">Поделиться экраном</string>
+    <string name="screen_share_search_title">Защита функции «Поделиться экраном»</string>
+    <string name="screen_share_warning_positive_button">Прекратить</string>
     <string name="screenrecord_not_find">Установите последнюю версию Записи экрана и повторите попытку.</string>
     <string name="sd_eject">Извлечь SD-карту</string>
     <string name="sd_eject_summary">Отключить SD-карту для безопасного извлечения.</string>
@@ -5569,6 +5591,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="status_bar_network_flow_purchase">"   Купить >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Настроить тариф >"</string>
     <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="still_need_start">Заблокировать</string>
     <string name="still_retain_btn">Оставить</string>
     <string name="stop_milink_connect">Трансляция остановлена</string>
     <string name="storage_activity_title">Место в хранилище</string>
@@ -5808,7 +5831,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Прежде чем продолжить, ознакомьтесь и согласитесь с нашими &lt;a href=\"%1$s\">Условиями использования&lt;/a>.</Data></string>
     <string name="system_permission_declare_no_say_no">Если вы решите не предоставлять необходимые разрешения или не позволите нам собирать и использовать ваши данные, это приложение не сможет нормально работать.</string>
     <string name="system_permission_declare_no_say_no_analytics">Если вы отказываетесь предоставлять данные разрешения, вы можете отказаться от участия в разделе Настройки > Расширенные настройки > Конфиденциальность > Программа улучшения качества.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Если вы решите не предоставлять необходимые разрешения или не позволите нам собирать и использовать ваши данные, это приложение частично не сможет работать.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Если вы не предоставите необходимые разрешения или не разрешите нам собирать и использовать ваши данные, вы не сможете использовать связанные функции.</string>
     <string name="system_permission_declare_optional">Чтобы предоставить вам дополнительные службы во время использования приложения, нам могут потребоваться следующие разрешения: %s. Вы в любое время можете изменить разрешения в Настройках.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Чтобы обеспечить лучшее взаимодействие с пользователем, этому приложению необходимы следующие дополнительные разрешения: %1s. Для получения более подробных сведений о том, как мы обрабатываем вашу личную информацию, нажмите &lt;a href=\"test\">здесь&lt;/a>. Вы можете изменять разрешения в любое время в Настройках.</Data></string>
     <string name="system_permission_declare_privacy_declare">Для правильной работы этому приложению требуется подключение к интернету, а также следующие разрешения:</string>
@@ -5971,8 +5994,8 @@ Xiaomi Gaming Cooler"</string>
     <string name="title_auto_update">Обновлять автоматически</string>
     <string name="title_background_connection">%s не работает в фоновом режиме</string>
     <string name="title_bill_balance_inquiry">Баланс (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Пропускаете звонки от контактов</string>
-    <string name="title_block_calls_from_strangers">Пропускаете важные звонки</string>
+    <string name="title_block_calls_from_cantacts">Пропускаете вызовы от контактов?</string>
+    <string name="title_block_calls_from_strangers">Пропускаете важные звонки?</string>
     <string name="title_chain_start">Взаимный запуск ограничен</string>
     <string name="title_cleaner_cloudscan">Облачная проверка мусора</string>
     <string name="title_cloud_account">Аккаунт Xiaomi</string>

@@ -163,7 +163,7 @@
     <string name="add_done">Met succes toegevoegd</string>
     <string name="add_game">Game toevoegen</string>
     <string name="add_game_notification_summary">Tik om te starten en de snelheid te boosten</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">"'%s' is toegevoegd aan Game Space"</string>
     <string name="add_miservice_dialog_content">%s vereist dat u het Xiaomi-serviceraamwerk aan uitzonderingen toevoegt. Mogelijk ontvangt u meldingen van onze ingebouwde apps en andere apps van derden.</string>
     <string name="add_miservice_dialog_title">Xiaomi-serviceraamwerk</string>
     <string name="add_to_whitelist_button">Uitzonderingen voor dataroaming</string>
@@ -719,6 +719,9 @@ Als u nog geen schermvergrendeling hebt ingesteld, volgt u de instructies om er 
     <string name="back_sound_support_china">Schakel eerst WLAN uit</string>
     <string name="background_restrict_app_dialog_message">Als je de achtergrondnetwerktoegang voor deze app beperkt, is het mogelijk dat de app niet normaal werkt, geen berichten ontvangt, geen inhoud downloadt, enzovoort. Toch beperken?</string>
     <string name="background_traffic">Achtergrond %s</string>
+    <string name="background_virus_scan_notification_summary">Meerdere apps, waaronder %s. Tik om te zien.</string>
+    <string name="background_virus_scan_notification_summary_one">Tik om te bekijken</string>
+    <string name="background_virus_scan_notification_title_one">Schadelijke app %s gedetecteerd</string>
     <string name="backsound_set_hint">Stel je afwezigheidsbericht in op %s?</string>
     <string name="banner_optimizemanage_summary">Geheugen vrijmaken</string>
     <string name="banner_red_money_assist_button">Inschakelen</string>
@@ -1252,6 +1255,7 @@ U kunt deze functie in- en uitschakelen in Controlecentrum."</string>
     <string name="connected_devices_screen_title">Toestaan dat het bovenstaande apparaat de scherminhoud van dit apparaat bekijkt en ermee werkt?</string>
     <string name="connected_interconnection">Interconnectiviteit</string>
     <string name="connecting">Verbinden…</string>
+    <string name="contacts_will_also_be_blocked">Inclusief contacten</string>
     <string name="continue_install">Installeren</string>
     <string name="continue_set">Doorgaan</string>
     <string name="convenient_mode">Alle apps tegelijk ontgrendelen</string>
@@ -1906,6 +1910,7 @@ Het nummer zal worden toegevoegd aan de uitzonderingen, maar eerder geblokkeerde
     <string name="gallery_confirm_start_activity">%s heeft geen toegang tot uw Gallerij en apps voor sociale media. Deze app wil toegang krijgen tot afbeeldingen die op dit apparaat zijn opgeslagen om items te delen. Toestaan?</string>
     <string name="game_ad_recommendation">Iedereen speelt</string>
     <string name="game_anti_disturb_msg">Game Niet storen</string>
+    <string name="game_audio_label_international">Gameaudio</string>
     <string name="game_balance_gpu_enhance_title">Discrete GPU-verbetering</string>
     <string name="game_balance_more_setting_title">Aanvullende instellingen</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Verbeterde visuele prestaties</string>
@@ -2023,7 +2028,7 @@ Wanneer Slimme framesnelheid is ingeschakeld, kunnen in-game en externe tools vo
     <string name="game_toolbox_slow_charge_negative_btn">Annuleren</string>
     <string name="game_toolbox_slow_charge_notification_msg">Deze functie verbetert de game-ervaring tijdens het opladen door de laadsnelheid te vertragen. Dit kan oververhitting van uw apparaat voorkomen.</string>
     <string name="game_toolbox_slow_charge_notification_title">Langzaam opladen bezig</string>
-    <string name="game_toolbox_slow_charge_positive_btn">Inschakelen</string>
+    <string name="game_toolbox_slow_charge_positive_btn">Aanzetten</string>
     <string name="game_toolbox_slow_charge_title">Langzaam opladen</string>
     <string name="game_toolbox_slow_charge_toast">Langzaam opladen is ingeschakeld</string>
     <string name="game_toolbox_smart_charge_title">Slim opladen</string>
@@ -2036,7 +2041,7 @@ Wanneer Slimme framesnelheid is ingeschakeld, kunnen in-game en externe tools vo
     <string name="game_toolbox_super_shake_msg">Verminder tik- en veegbewegingen, waardoor de stabiliteit van de bediening wordt verbeterd</string>
     <string name="game_toolbox_super_shake_msg_4.5">Stel de gevoeligheid van de besturing in: Hoog voor een snellere reactie, laag voor meer stabiliteit</string>
     <string name="game_toolbox_title">Gaming-hulpmiddelen</string>
-    <string name="game_toolbox_title_game_center">Games</string>
+    <string name="game_toolbox_title_game_center">Spellen</string>
     <string name="game_toolbox_title_wild">Ultieme modus</string>
     <string name="game_toolbox_wild_mode_toast_global">Wild Boost is ingeschakeld</string>
     <string name="game_toolbox_wild_mode_toast_tip">De prestaties van het apparaat zijn aanzienlijk verbeterd</string>
@@ -2090,12 +2095,14 @@ Wanneer Slimme framesnelheid is ingeschakeld, kunnen in-game en externe tools vo
     <string name="gamebox_func_antimsg_open">Zwevende meldingen zijn nu beperkt</string>
     <string name="gamebox_func_immersion_close">Levendige modus is nu uitgeschakeld</string>
     <string name="gamebox_func_immersion_open">Levendige modus is nu ingeschakeld</string>
+    <string name="gamebox_func_start_gyroscope_international">Schakel de gyroscoop in de instellingen van het spel in om deze functie te gebruiken</string>
     <string name="gamebox_func_switch_simcard">Gewisseld naar simkaart %1$d voor data</string>
     <string name="gamebox_func_switch_simcard_immersion">In Levendige modus kan niet van simkaart gewisseld worden</string>
     <string name="gamebox_func_wlan_close">Wifi is nu uitgeschakeld</string>
     <string name="gamebox_func_wlan_open">Wifi is nu ingeschakeld</string>
     <string name="gamebox_game_center_app_not_find">Installeer eerst Games</string>
     <string name="gamebox_gift_pack">Cadeaus</string>
+    <string name="gamebox_gyroscope_acceleration_international">Gyro-boost</string>
     <string name="gamebox_hangup">Scherm uitschakelen</string>
     <string name="gamebox_hangup_new">Scherm uitschakelen</string>
     <string name="gamebox_hangup_tips_content">Met deze functie kunt u het scherm uitschakelen, maar de game blijven uitvoeren op de achtergrond. Deze functie wordt automatisch uitgeschakeld wanneer u uw apparaat ontgrendelt.</string>
@@ -2802,6 +2809,9 @@ om mee te doen aan onze eierenjacht!"</string>
     <string name="install_title">Installeren via USB</string>
     <string name="install_type_instant">Instant-app</string>
     <string name="installing">Aan het installeren</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">Meerdere apps, waaronder %s, maken misbruik van toegangstoestemmingen</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Deze app maakt misbruik van toegangstoestemmingen. Tik om te zien.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Schadelijke app %s geblokkeerd</string>
     <string name="intercept_all_mark_calls">Alle oproepen met het label \"%s\" blokkeren?</string>
     <string name="intercept_calls_nofify_hide_text">Om blokkeringsregels in te stellen voor andere nummers met labels, tik hier</string>
     <string name="intercept_calls_notify_title">Gesprekken met dit label worden automatisch beëindigd. Nu blokkeren?</string>
@@ -3598,8 +3608,6 @@ Probeer een andere ethernetkabel om je router aan te sluiten. Als je vermoedt da
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">"Het gebruik van schadelijke apps brengt beveiligingsrisico's met zich mee"</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s is mogelijk een schadelijke app</string>
     <string name="optimize_manage_title">Verhoog de snelheid</string>
     <string name="optimize_result_available_memory_info">Beschikbaar geheugen</string>
     <string name="optimize_result_button_cloudspace">Krijg meer cloud opslagruimte</string>
@@ -3683,6 +3691,7 @@ Probeer een andere ethernetkabel om je router aan te sluiten. Als je vermoedt da
     <string name="pb_abnormal_header_time">Tijd</string>
     <string name="pb_abnormal_header_type">Type</string>
     <string name="pb_abnormal_header_value">Waarde</string>
+    <string name="pb_abnormal_idle_high_temp">Oververhitting tijdens inactiviteit</string>
     <string name="pb_abnormal_loading">Een ogenblik geduld…</string>
     <string name="pb_abnormal_record">Geschiedenis</string>
     <string name="pb_activity_title">Details van de powerbank</string>
@@ -3694,6 +3703,7 @@ Probeer een andere ethernetkabel om je router aan te sluiten. Als je vermoedt da
     <string name="pb_data_fetch_all_error">Gegevens konden niet worden gelezen. De powerbank is mogelijk losgekoppeld of wordt niet ondersteund.</string>
     <string name="pb_data_fetch_all_error_new">Kon gegevens niet lezen. De powerbank is mogelijk losgekoppeld of wordt niet ondersteund. Als deze is losgekoppeld, sluit dan de oplaadkabel opnieuw aan en probeer het opnieuw.</string>
     <string name="pb_data_fetch_partial_error">Sommige items zijn niet beschikbaar vanwege een vertraging of omdat de powerbank niet wordt ondersteund</string>
+    <string name="pb_data_fetch_partial_error_new">Sommige items zijn niet beschikbaar vanwege een vertraging of omdat de powerbank niet wordt ondersteund</string>
     <string name="pb_manufacturer">Fabrikant</string>
     <string name="pb_measure_point">Sensor %1$d</string>
     <string name="pb_production_date">Productiedatum</string>
@@ -4066,6 +4076,7 @@ Ultra batterijbesparing"</string>
     <string name="permission_action_virtual">Lege berichten retourneren</string>
     <string name="permission_action_virtual_common_summary">Verleen apps de benodigde toestemmingen, maar retourneer lege berichten om uw privacy te beschermen</string>
     <string name="permission_action_virtual_phone_summary">Geef apps de relevante toestemmingen, maar geef ze geen toegang tot het echte telefoonnummer van de SIM-kaart</string>
+    <string name="permission_changed_retry">Toestemmingen gewijzigd. Apps opnieuw opstarten.</string>
     <string name="permission_close_permission_control_dialog_msg">Als toestemmingsbeheer uitgeschakeld is, zullen apps u niet om toestemming vragen voor het lezen van uw contacten, het bekijken van uw gespreksgeschiedenis, het wijzigen van uw systeeminstellingen of het openen van uw camera en andere toestelfuncties.</string>
     <string name="permission_close_permission_control_dialog_title">Uitschakelen?</string>
     <string name="permission_exception_title">Beperkte verbinding voor apps</string>
@@ -4799,7 +4810,7 @@ Ultra batterijbesparing"</string>
     <string name="privacy_recommend_category">Personalisatie</string>
     <string name="privacy_recommend_summary">Ontvang gepersonaliseerde inhoudsaanbevelingen</string>
     <string name="privacy_recommend_title">Gepersonaliseerde aanbevelingen</string>
-    <string name="privacy_revoke_category_title">Intrekking van toestemming en opzegging van de dienst</string>
+    <string name="privacy_revoke_category_title">Intrekking van toestemming en opzegging van de service</string>
     <string name="privacy_revoke_dialog_content">Door de schakelaar uit te zetten, trekt u uw toestemming voor het Privacybeleid van Beveiliging in. We zullen stoppen met het verzamelen van uw persoonlijke informatie. De persoonlijke informatie die al is verzameld en bewaard, wordt binnen de specifieke periode verwijderd zoals vereist door de toepasselijke wetgeving. Beveiliging moet de nodige persoonlijke informatie verzamelen om u basisdiensten te kunnen bieden. Als u uw toestemming voor het Privacybeleid intrekt, wordt dit beschouwd als een weigering om haar diensten te accepteren op basis van verzamelde persoonlijke informatie.</string>
     <string name="privacy_revoke_dialog_content_cn">"Als u doorgaat, trekt u uw toestemming voor het Privacybeleid van %1$s in. We zullen stoppen met het verzamelen van uw persoonlijke informatie. De persoonlijke informatie die al is verzameld en bewaard, wordt binnen de specifieke periode verwijderd in overeenstemming met de toepasselijke wet- en regelgeving, tenzij anders vereist.
 Aangezien %2$s zijn diensten levert op basis van het verzamelen van de benodigde persoonlijke informatie, wordt uw intrekking van toestemming beschouwd als een weigering om %3$s diensten te accepteren.
@@ -4880,6 +4891,10 @@ Toestemming nu intrekken?"</string>
     <string name="privacy_screen_share_notification_title">Scherminhoud casten</string>
     <string name="privacy_screen_share_protect_tip">Beschermd</string>
     <string name="privacy_screen_share_tip">Casten</string>
+    <string name="privacy_screen_share_v2_land_subtitle">\"%s\" heeft toegang tot scherminhoud</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Scherminhoud is beschermd</string>
+    <string name="privacy_screen_share_v2_notification_title">Scherminhoud casten</string>
+    <string name="privacy_screen_share_v2_small_island_title">Scherm delen</string>
     <string name="privacy_search_key_1">Privacy</string>
     <string name="privacy_search_key_10">Apparaat ID</string>
     <string name="privacy_search_key_2">Netwerk onderschepping</string>
@@ -5005,6 +5020,7 @@ Toestemming nu intrekken?"</string>
     <string name="repeat_type">Herhalen</string>
     <string name="repeated_marked_number_summary">Blokkeer geen tweede oproep van hetzelfde gerapporteerde nummer binnen %d minuten</string>
     <string name="repeated_marked_number_title">Blokkeer geen herhaalde oproepen van gerapporteerde nummers</string>
+    <string name="repeated_stranger_number_summary">Blokkeer geen tweede oproep van hetzelfde onbekende nummer binnen %d minuten</string>
     <string name="repeated_unknown_number_summary">Blokkeer geen tweede oproep van hetzelfde onbekende nummer binnen %d minuten</string>
     <string name="replace_dns">Vervang DNS automatisch</string>
     <string name="report">Rapporteren</string>
@@ -5090,6 +5106,7 @@ Toestemming nu intrekken?"</string>
     <string name="safe_result_item_info_system_version">Het systeem is up-to-date</string>
     <string name="safepay_alert_dialog_button_continue">Doorgaan</string>
     <string name="safepay_alert_dialog_button_fix">Meer informatie</string>
+    <string name="safety">Beveiliging</string>
     <string name="saturday">Zaterdag</string>
     <string name="saturday_short">Za</string>
     <string name="saturday_shortest">Za</string>
@@ -5104,6 +5121,11 @@ Toestemming nu intrekken?"</string>
     <string name="scan_status_risk">Risicovol</string>
     <string name="scan_status_safe">Veilig</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Anti-fraude bescherming</string>
+    <string name="screen_share_search_keyword_1">Scherm delen</string>
+    <string name="screen_share_search_keyword_2">Scherm delen</string>
+    <string name="screen_share_search_title">Beveiliging voor scherm delen</string>
+    <string name="screen_share_warning_positive_button">Stoppen</string>
     <string name="screenrecord_not_find">Installeer de nieuwste versie van Schermrecorder en probeer het opnieuw.</string>
     <string name="sd_eject">SD-kaart uitnemen</string>
     <string name="sd_eject_summary">SD-kaart uitnemen om deze veilig te verwijderen</string>
@@ -5569,6 +5591,7 @@ Toestemming nu intrekken?"</string>
     <string name="status_bar_network_flow_purchase">"   Kopen >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Stel data-abonnement in >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Blokkeren</string>
     <string name="still_retain_btn">Bewaren</string>
     <string name="stop_milink_connect">Casten gestopt</string>
     <string name="storage_activity_title">Opslagruimte</string>
@@ -5679,7 +5702,7 @@ Om te gebruiken deze ^1 bij dit apparaat moet u het eerst instellen."</string>
     <string name="storage_system_log_tip">Systeemlogboeken worden indien nodig automatisch gewist</string>
     <string name="storage_system_memory_expansion">Geheugenuitbreiding</string>
     <string name="storage_system_memory_expansion_tip">RAM uitbreiden door opslagruimte in te nemen</string>
-    <string name="storage_system_other_tip">Gegevens die nodig zijn om het systeem normaal te laten werken (bestandsgrootte kan in de loop van de tijd veranderen)</string>
+    <string name="storage_system_other_tip">Gegevens die nodig zijn om het systeem normaal te laten werken (de bestandsgrootte kan in de loop van de tijd veranderen)</string>
     <string name="storage_system_other_tip_new">Bevat de opslagruimte die nodig is voor de werking van het systeem en upgrades. De grootte van deze partitie hangt af van de systeemstatus.</string>
     <string name="storage_ufs_msg">U kunt tot %1$s aan opslagruimte toevoegen aan dit apparaat met behulp van onze UFS-opslaguitbreidingstechnologie en opslagoptimalisatie-algoritmen.</string>
     <string name="storage_ufs_tip">Extra opslag</string>
@@ -5808,7 +5831,7 @@ Formatteren wist bestaande inhoud op de ^2. Om te voorkomen dat u inhoud verlies
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>Lees en ga akkoord met onze &lt;a href=\"%1$s\">Gebruikersovereenkomst&lt;/a> voordat u doorgaat.</Data></string>
     <string name="system_permission_declare_no_say_no">Als u ervoor kiest de vereiste toestemmingen niet te geven of ons niet toestaat uw gegevens te verzamelen en gebruiken, dan kan deze app niet normaal werken.</string>
     <string name="system_permission_declare_no_say_no_analytics">Als u deze toestemmingen niet wilt verlenen, kunt u zich afmelden in Instellingen > Aanvullende instellingen > Privacy > Gebruikerservaringprogramma.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Als u ervoor kiest de vereiste toestemmingen niet te geven of ons niet toestaat uw gegevens te verzamelen en gebruiken, dan kan deze app deels niet werken.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Als je de vereiste machtigingen niet verleent of ons niet toestaat je gegevens te verzamelen of gebruiken, kun je de bijbehorende functies niet gebruiken.</string>
     <string name="system_permission_declare_optional">Om u aanvullende services te bieden terwijl u de app gebruikt, hebben we mogelijk de volgende toestemmingen nodig: %s. U kunt uw toestemmingen voorkeuren altijd aanpassen in de Instellingen.</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Om een ​​betere gebruikerservaring te bieden, heeft deze app de volgende aanvullende toestemmingen nodig: %1s. Voor meer informatie over hoe we uw persoonlijke informatie verwerken, tikt u &lt;a href=\"test\">hier&lt;/a>. U kunt uw toestemmingen op elk gewenst moment beheren in Instellingen.</Data></string>
     <string name="system_permission_declare_privacy_declare">Deze app moet verbinding maken met het internet en heeft de volgende toestemmingen nodig om normaal te kunnen werken:</string>
@@ -5971,8 +5994,8 @@ Formatteren wist bestaande inhoud op de ^2. Om te voorkomen dat u inhoud verlies
     <string name="title_auto_update">Automatisch bijwerken</string>
     <string name="title_background_connection">Kan%s niet gebruikt worden op de achtergrond</string>
     <string name="title_bill_balance_inquiry">Saldo (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Gemiste oproepen van uw contacten</string>
-    <string name="title_block_calls_from_strangers">Miss belangrijke oproepen</string>
+    <string name="title_block_calls_from_cantacts">Mis je oproepen van je contacten?</string>
+    <string name="title_block_calls_from_strangers">Mis je belangrijke oproepen?</string>
     <string name="title_chain_start">Ketenstart beperken</string>
     <string name="title_cleaner_cloudscan">Cloud rommel scan</string>
     <string name="title_cloud_account">Xiaomi Account</string>

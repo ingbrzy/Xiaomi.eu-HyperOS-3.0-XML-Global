@@ -163,7 +163,7 @@
     <string name="add_done">Başarıyla eklendi</string>
     <string name="add_game">Oyun ekle</string>
     <string name="add_game_notification_summary">Başlatmak &amp; hızı arttırmak için dokunun</string>
-    <string name="add_game_notification_title">\"%s\" added to Game Space</string>
+    <string name="add_game_notification_title">"''%s'' Oyun Alanı'na eklendi"</string>
     <string name="add_miservice_dialog_content">%s, Xiaomi hizmet çerçevesini istisnalar listesine eklemek istiyor. Dahili uygulamalarımızdan ya da üçüncü parti uygulamalardan bildirimler alabilirsiniz.</string>
     <string name="add_miservice_dialog_title">Xiaomi hizmet çerçevesi</string>
     <string name="add_to_whitelist_button">Veri dolaşım istisnaları</string>
@@ -719,6 +719,9 @@ Henüz bir ekran kilidi ayarlamadıysanız bir tane ayarlamak için talimatları
     <string name="back_sound_support_china">"Önce WLAN'ı kapatın"</string>
     <string name="background_restrict_app_dialog_message">Bu uygulamanın arka plan ağ erişimini kısıtlamanız uygulamanın normal olarak çalışmasına, mesaj almasına, içerik indirmesine vb. engel olabilir. Erişim yine de kısıtlansın mı?</string>
     <string name="background_traffic">Arka plan %s</string>
+    <string name="background_virus_scan_notification_summary">%s dahil birden fazla uygulama. Görüntülemek için dokunun.</string>
+    <string name="background_virus_scan_notification_summary_one">Görüntülemek için dokunun</string>
+    <string name="background_virus_scan_notification_title_one">Kötü niyetli uygulama %s tespit edildi</string>
     <string name="backsound_set_hint">Sesli uzakta bilgi mesajı %s olarak ayarlansın mı?</string>
     <string name="banner_optimizemanage_summary">Depolama alanı aç</string>
     <string name="banner_red_money_assist_button">Aç</string>
@@ -1244,7 +1247,7 @@ Bu özelliği Kontrol Merkezi'nden açıp kapatabilirsiniz."</string>
     <string name="connected_devices_permission">Ara bağlantı ve izinler</string>
     <string name="connected_devices_permission_settings">Ara bağlantı ve izinler</string>
     <string name="connected_devices_permission_summary">Bu cihaza erişimi yönet</string>
-    <string name="connected_devices_record">Kayıt</string>
+    <string name="connected_devices_record">Kaydet</string>
     <string name="connected_devices_record_desc">Aynı hesapta oturum açmış yakındaki cihazların bu cihazda ses kaydetmesine izin verin</string>
     <string name="connected_devices_record_title">Yukarıdaki cihazın bu cihazda ses kaydetmesine izin verilsin mi?</string>
     <string name="connected_devices_screen">Ekran</string>
@@ -1252,6 +1255,7 @@ Bu özelliği Kontrol Merkezi'nden açıp kapatabilirsiniz."</string>
     <string name="connected_devices_screen_title">Yukarıdaki cihazın bu cihazın ekran içeriğini görüntülemesine ve etkileşime geçmesine izin verilsin mi?</string>
     <string name="connected_interconnection">Ara bağlantı</string>
     <string name="connecting">Bağlanılıyor…</string>
+    <string name="contacts_will_also_be_blocked">Kişiler dahil</string>
     <string name="continue_install">Yükle</string>
     <string name="continue_set">Devam et</string>
     <string name="convenient_mode">Tüm uygulamaların kilitlerini tek seferde aç</string>
@@ -1906,6 +1910,7 @@ Numara istisnalara eklenecek, ancak daha önce engellenen ögeler arama geçmiş
     <string name="gallery_confirm_start_activity">%s uygulamasının Galeri ve sosyal medya uygulamalarınıza erişimesine izin verilmiyor. Bu uygulama, ögeleri paylaşmak için bu cihazda depolanan resimlere erişmek istiyor. İzin verilsin mi?</string>
     <string name="game_ad_recommendation">Herkes oynuyor</string>
     <string name="game_anti_disturb_msg">Oyun Rahatsız Etme Modu</string>
+    <string name="game_audio_label_international">Oyun sesi</string>
     <string name="game_balance_gpu_enhance_title">Ayrı GPU geliştirmesi</string>
     <string name="game_balance_more_setting_title">Ek ayarlar</string>
     <string name="game_balance_none_gpu_enhance_subtitle">Geliştirilmiş görsel performansı</string>
@@ -2090,12 +2095,14 @@ Akıllı çerçeve oranı açıkken oyun içi ve üçüncü taraf çerçeve oran
     <string name="gamebox_func_antimsg_open">Kayan bildirimler şimdi kısıtlandı</string>
     <string name="gamebox_func_immersion_close">Kapsamlı mod şu anda kapalı</string>
     <string name="gamebox_func_immersion_open">Kapsamlı mod şu anda açık</string>
+    <string name="gamebox_func_start_gyroscope_international">Bu özelliği kullanmak için oyun ayarlarında jiroskopu açın</string>
     <string name="gamebox_func_switch_simcard">Veri için %1$d SIM kartına geçildi</string>
     <string name="gamebox_func_switch_simcard_immersion">Kapsamlı modda SIM kart değiştirilemiyor</string>
     <string name="gamebox_func_wlan_close">Wi-Fi şu anda kapalı</string>
     <string name="gamebox_func_wlan_open">Wi-Fi şu anda açık</string>
     <string name="gamebox_game_center_app_not_find">"Önce Oyunlar'ı yükleyin"</string>
     <string name="gamebox_gift_pack">Hediyeler</string>
+    <string name="gamebox_gyroscope_acceleration_international">Jiroskopik güçlendirme</string>
     <string name="gamebox_hangup">Ekranı kapat</string>
     <string name="gamebox_hangup_new">Ekranı kapat</string>
     <string name="gamebox_hangup_tips_content">Bu özellik ekranınızı kapatmanızı ve aynı zamanda oyunu arka planda çalıştırmanızı sağlar. Cihaz kilidini açtığınızda otomatik olarak kapanır.</string>
@@ -2801,6 +2808,9 @@ Manzara moduna geç"</string>
     <string name="install_title">USB üzerinden yükle</string>
     <string name="install_type_instant">Hızlı uygulama</string>
     <string name="installing">Yükleniyor</string>
+    <string name="intercept_accessibility_virus_notifiction_summary">%s dahil birden fazla uygulama erişilebilirlik izinlerini kötüye kullanıyor</string>
+    <string name="intercept_accessibility_virus_notifiction_summary_one">Bu uygulama erişilebilirlik izinlerini kötüye kullanıyor. Görüntülemek için dokunun.</string>
+    <string name="intercept_accessibility_virus_notifiction_title_one">Kötü niyetli uygulama %s engellendi</string>
     <string name="intercept_all_mark_calls">"''%s'' olarak etiketlenen tüm aramalar engellensin mi?"</string>
     <string name="intercept_calls_nofify_hide_text">Diğer etiketli numaralar için engelleme kuralları belirlemek için buraya dokunun</string>
     <string name="intercept_calls_notify_title">Bu etiketle olan aramalar otomatik olarak sonlandırılacak. Şimdi engellensin mi?</string>
@@ -3625,8 +3635,6 @@ Yönlendiriciniz ile bağlantı için kullandığınız Ethernet kablosunu deği
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_telcom">10000</string>
     <string name="operator_number_unicom">10010</string>
-    <string name="opt_antivirus_scan_antivirus_notification_summary">Kötü amaçlı uygulamalar kullanmak güvenlik riskleri oluşturur</string>
-    <string name="opt_antivirus_scan_single_antivirus_notification_title">%s kötü amaçlı bir uygulama olabilir</string>
     <string name="optimize_manage_title">Hızı arttır</string>
     <string name="optimize_result_available_memory_info">Kullanılabilir bellek</string>
     <string name="optimize_result_button_cloudspace">Daha fazla cloud depolama alanı al</string>
@@ -3710,6 +3718,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız Ethernet kablosunu deği
     <string name="pb_abnormal_header_time">Saat</string>
     <string name="pb_abnormal_header_type">Tür</string>
     <string name="pb_abnormal_header_value">Değer</string>
+    <string name="pb_abnormal_idle_high_temp">Boştayken aşırı ısınma</string>
     <string name="pb_abnormal_loading">Yalnızca bir sn.…</string>
     <string name="pb_abnormal_record">Geçmiş</string>
     <string name="pb_activity_title">Powerbank ayrıntıları</string>
@@ -3721,6 +3730,7 @@ Yönlendiriciniz ile bağlantı için kullandığınız Ethernet kablosunu deği
     <string name="pb_data_fetch_all_error">Veriler okunamadı. Powerbank bağlantısı kesilmiş veya desteklenmiyor olabilir.</string>
     <string name="pb_data_fetch_all_error_new">Veriler okunamadı. Güç bankası bağlantısı kesilmiş veya desteklenmiyor. Bağlantı kesildiyse şarj kablosunu yeniden bağlayın ve tekrar deneyin.</string>
     <string name="pb_data_fetch_partial_error">Bazı ögeler gecikme veya desteklenmeyen bir powerbank nedeniyle kullanılamıyor</string>
+    <string name="pb_data_fetch_partial_error_new">Bazı ögeler gecikme veya desteklenmeyen bir powerbank nedeniyle kullanılamıyor</string>
     <string name="pb_manufacturer">Üretici</string>
     <string name="pb_measure_point">Sensör %1$d</string>
     <string name="pb_production_date">Üretim tarihi</string>
@@ -4093,6 +4103,7 @@ kapatılıyor"</string>
     <string name="permission_action_virtual">Boş mesajları iade edin</string>
     <string name="permission_action_virtual_common_summary">Uygulamalara gerekli izinleri verin ancak gizliliğinizi korumak için boş mesajlara çevirin</string>
     <string name="permission_action_virtual_phone_summary">Uygulamalara ilgili izinleri verin ancak SIM kartın gerçek telefon numarasına erişmelerine izin vermeyin</string>
+    <string name="permission_changed_retry">İzin değiştirildi. Uygulamaları yeniden başlatın.</string>
     <string name="permission_close_permission_control_dialog_msg">İzin yöneticisi kapatıldığında, uygulamalar kişilerinizi okumadan, arama kaydınızı görüntülemeden, sistem ayarlarını değiştirmeden ya da kamera ve diğer kaynaklara erişmeden önce izninizi istemeyecektir.</string>
     <string name="permission_close_permission_control_dialog_title">Kapat?</string>
     <string name="permission_exception_title">Uygulamalar için sınırlı ağ bağlantısı</string>
@@ -4907,6 +4918,10 @@ kapatılıyor"</string>
     <string name="privacy_screen_share_notification_title">Ekran içeriğini yansıtmak</string>
     <string name="privacy_screen_share_protect_tip">Korumalı</string>
     <string name="privacy_screen_share_tip">Yansıtılıyor</string>
+    <string name="privacy_screen_share_v2_land_subtitle">"''%s'' ekran içeriğine erişiyor"</string>
+    <string name="privacy_screen_share_v2_notification_protect_title">Ekran içeriği korumalı</string>
+    <string name="privacy_screen_share_v2_notification_title">Ekran içeriğini yansıtmak</string>
+    <string name="privacy_screen_share_v2_small_island_title">Ekran paylaşma</string>
     <string name="privacy_search_key_1">Gizlilik</string>
     <string name="privacy_search_key_10">Cihaz Kimliği</string>
     <string name="privacy_search_key_2">Aü müdahalesi</string>
@@ -5032,6 +5047,7 @@ kapatılıyor"</string>
     <string name="repeat_type">Tekrarla</string>
     <string name="repeated_marked_number_summary">%d dakika içinde bildirilen aynı numaradan ikinci bir aramayı engelleme</string>
     <string name="repeated_marked_number_title">Bildirilmiş numaralardan gelen tekrarlanan aramaları engelleme</string>
+    <string name="repeated_stranger_number_summary">%d dakika içinde aynı bilinmeyen numaradan ikinci bir aramayı engelleme</string>
     <string name="repeated_unknown_number_summary">%d dakika içinde aynı bilinmeyen numaradan ikinci bir aramayı engelleme</string>
     <string name="replace_dns">"DNS'i otomatik olarak değiştir"</string>
     <string name="report">Bildir</string>
@@ -5117,6 +5133,7 @@ kapatılıyor"</string>
     <string name="safe_result_item_info_system_version">Sistem güncel</string>
     <string name="safepay_alert_dialog_button_continue">Devam et</string>
     <string name="safepay_alert_dialog_button_fix">Daha fazla bilgi edinin</string>
+    <string name="safety">Güvenlik</string>
     <string name="saturday">Cumartesi</string>
     <string name="saturday_short">Cts</string>
     <string name="saturday_shortest">Cts</string>
@@ -5131,6 +5148,11 @@ kapatılıyor"</string>
     <string name="scan_status_risk">Riskli</string>
     <string name="scan_status_safe">Güvenli</string>
     <string name="scanning_bar_number_new">%s</string>
+    <string name="screen_share_protection_warning_icon_title">Dolandırıcılığa karşı koruma</string>
+    <string name="screen_share_search_keyword_1">Ekran paylaşma</string>
+    <string name="screen_share_search_keyword_2">Ekranı paylaş</string>
+    <string name="screen_share_search_title">Ekran paylaşımı koruması</string>
+    <string name="screen_share_warning_positive_button">Dur</string>
     <string name="screenrecord_not_find">Ekran kaydedicinin en yeni sürümünü yükleyin ve yeniden deneyin.</string>
     <string name="sd_eject">SD kartı çıkart</string>
     <string name="sd_eject_summary">Güvenli bir şekilde kaldırmak için SD kartı çıkartın</string>
@@ -5596,6 +5618,7 @@ kapatılıyor"</string>
     <string name="status_bar_network_flow_purchase">"   Satın al >"</string>
     <string name="status_bar_network_flow_setup_data_plan">"   Tarife ayarla >"</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="still_need_start">Engelle</string>
     <string name="still_retain_btn">Sakla</string>
     <string name="stop_milink_connect">Yansıtma durduruldu</string>
     <string name="storage_activity_title">Depolama alanı</string>
@@ -5835,7 +5858,7 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="system_permission_declare_meanwhile_user_agreement"><Data>"Devam etmeden önce &lt;a href=\"%1$s\">Kullanıcı Sözleşmesi'ni&lt;/a> okuyun ve kabul edin."</Data></string>
     <string name="system_permission_declare_no_say_no">Gerekli izinleri vermezseniz veya verilerinizi toplamamıza ve kullanmamıza izin vermezseniz bu uygulama düzgün çalışmayabilir.</string>
     <string name="system_permission_declare_no_say_no_analytics">Bu izinleri vermek istemiyorsanız, Ayarlar > Ek ayarlar > Gizlilik > Kullanıcı Deneyimi Programı menüsünde programdan ayrılabilirsiniz.</string>
-    <string name="system_permission_declare_no_say_no_non_mandatory">Gerekli izinleri vermezseniz veya verilerinizi toplamamıza ve kullanmamıza izin vermezseniz bu uygulama kısmi olarak çalışmayabilir.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Gerekli izinleri vermezseniz veya verilerinizi toplamamıza ve kullanmamıza izin vermezseniz ilgili özellikleri kullanamayacaksınız.</string>
     <string name="system_permission_declare_optional">"Uygulamayı kullanıyorken ek hizmetleri sağlamak için aşağıdaki izinlere ihtiyaç duyabiliriz: %s. İstediğiniz zaman Ayarlar'da izin tercihlerini ayarlayabilirsiniz."</string>
     <string name="system_permission_declare_optional_default_grant"><Data>Daha iyi bir kullanıcı deneyimi için bu uygulamaya aşağıdaki ek izinler gereklidir: %1s. Kişisel bilgilerinizi nasıl toplayacağımıza dair daha fazla ayrıntı için &lt;a href=\"test\">buraya&lt;/a> dokunun. İzinlerinizi istediğiniz zaman Ayarlar menüsünde yönetebilirsiniz.</Data></string>
     <string name="system_permission_declare_privacy_declare">Bu uygulama normal çalışabilmek için internete bağlanmaya ve aşağıdaki izinlere ihtiyaç duyar:</string>
@@ -5998,8 +6021,8 @@ Biçimlendirme ^2daki var olan içeriği silecektir. İçerik kaybını önlemek
     <string name="title_auto_update">Otomatik güncelle</string>
     <string name="title_background_connection">%s arka planda kullanılamıyor</string>
     <string name="title_bill_balance_inquiry">Bakiye (SIM %1$s)</string>
-    <string name="title_block_calls_from_cantacts">Kişilerinizden gelen cevapsız aramalar</string>
-    <string name="title_block_calls_from_strangers">Önemli cevapsız aramalar</string>
+    <string name="title_block_calls_from_cantacts">Kişilerinizden gelen aramaları kaçırıyor musunuz?</string>
+    <string name="title_block_calls_from_strangers">Önemli aramaları kaçırıyor musunuz?</string>
     <string name="title_chain_start">Zincir başlatmayı kısıtla</string>
     <string name="title_cleaner_cloudscan">Bulut çöp taraması</string>
     <string name="title_cloud_account">Xiaomi Hesabı</string>
