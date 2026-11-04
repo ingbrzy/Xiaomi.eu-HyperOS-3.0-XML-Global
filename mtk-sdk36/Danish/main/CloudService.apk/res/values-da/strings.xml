@@ -152,6 +152,7 @@
     <string name="device_activation_card_no_network_error">Kunne ikke oprette forbindelse til netværket. Kontroller dine netværksindstillinger og prøv igen.</string>
     <string name="device_activation_card_title">Første aktivering</string>
     <string name="device_activation_page_title">Aktivering af enhed</string>
+    <string name="device_location_tip">*Den viste placering bestemmes af netværket og er ikke nøjagtig. Hvis du selv foretog denne anmodning om login, skal du trykke på \"Tillad\" for at se verifikationskode.</string>
     <string name="dialog_btn_yes_install_icon">Installer</string>
     <string name="dialog_msg_install_manager_content">Installer \"Find enhed\" igen?</string>
     <string name="dialog_storage_full_title">Cloudlager er fuldt</string>
@@ -897,6 +898,10 @@ Sørg for, at du bruger den tilknyttede Xiaomi-konto som din systemkonto."</stri
     <string name="passkeeper_install_keybag_title">Indtast din adgangskode for Password-manager</string>
     <string name="passkeeper_sync_off_confirm_content">Du kan ikke synkronisere nye adgangskoder med clouden, hvis du slår denne funktion fra.</string>
     <string name="passkeeper_sync_on">Slår til…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Hvis denne anmodning ikke blev foretaget af dig, anbefaler vi, at du ændrer din adgangskode.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Annuller</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Skift</string>
+    <string name="passport_two_factor_change_password_dialog_title">Skift adgangskode?</string>
     <string name="pay_info_dialog_confirm_to_pay">Betal %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Brug tilbageværende Mi Coins: %s</string>
     <string name="pay_info_dialog_title">Vælg betalingsmetode</string>
@@ -1245,11 +1250,18 @@ Placeringsinfo rapporteres muligvis ikke, når netværksforbindelsen er dårlig.
     <string name="verify_camera_permission_title">Tilladelser er påkrævet</string>
     <string name="verify_code_btn_negative">Annuller</string>
     <string name="verify_code_btn_positive">Næste</string>
+    <string name="verify_code_device_list_title">Koden er sendt til disse enheder</string>
     <string name="verify_code_dialog_message_default">Indtast denne kode på din nye enhed</string>
     <string name="verify_code_dialog_title_default">Enhedsverifikationskode</string>
     <string name="verify_code_error_textView">Forkert adgangsnøgle. Prøv igen.</string>
     <string name="verify_code_error_view">Forkert kode. Prøv igen.</string>
+    <string name="verify_code_send_desc_1">Indtast verifikationskoden, der er sendt til %1$s, for at fortsætte</string>
+    <string name="verify_code_send_desc_2">Indtast verifikationskoden, der er sendt til %1$s og %2$s, for at fortsætte</string>
+    <string name="verify_code_send_desc_3">Indtast verifikationskoden, der er sendt til %1$s, %2$s og %3$s, for at fortsætte</string>
+    <string name="verify_code_send_desc_4">Indtast verifikationskoden, der er sendt til %1$s, %2$s, %3$s og %4$s, for at fortsætte</string>
+    <string name="verify_code_send_desc_5">Indtast verifikationskoden, der er sendt til %1$s, %2$s, %3$s, %4$s og %5$s, for at fortsætte</string>
     <string name="verify_code_success_textView">Opdater sikkerhedsadgangsnøgle</string>
+    <string name="verify_code_view_all_devices">Vis alle enheder</string>
     <string name="verify_code_warning_dialog_message_default">Tillad, at din nye enhed får adgang til krypteret data?</string>
     <string name="verify_code_warning_dialog_title">Verifikationskode</string>
     <string name="verify_code_warning_dialog_title_default">Ny enhed anmoder om adgang</string>
@@ -1313,6 +1325,7 @@ Placeringsinfo rapporteres muligvis ikke, når netværksforbindelsen er dårlig.
     <string name="verify_warning_dialog_message_pc">Avanceret databeskyttelse er slået til. Giv de nødvendige tilladelser via din computer for at få adgang til krypterede data.</string>
     <string name="verify_warning_dialog_message_web">Avanceret databeskyttelse er slået til. Giv de nødvendige tilladelser via i.mi.com for at få adgang til krypterede data.</string>
     <string name="verify_warning_dialog_negative_btn">Tillad ikke</string>
+    <string name="verify_warning_dialog_negative_btn_new">Tillad ikke</string>
     <string name="verify_warning_dialog_positive_btn">Tillad</string>
     <string name="verify_warning_dialog_title">En anden enhed har aktiveret end-to-end-kryptering</string>
     <string name="verify_warning_dialog_title_find_device">\"Offlineplacering\" er slået til for en anden enhed</string>

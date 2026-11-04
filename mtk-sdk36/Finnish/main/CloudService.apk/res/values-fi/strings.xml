@@ -152,6 +152,7 @@
     <string name="device_activation_card_no_network_error">Ei voitu yhdistää verkkoon. Tarkista verkkoasetuksesi ja yritä uudelleen.</string>
     <string name="device_activation_card_title">Ensimmäinen aktivointi</string>
     <string name="device_activation_page_title">Laitteen aktivointi</string>
+    <string name="device_location_tip">*Näytetty sijainti määräytyy verkon mukaan, eikä se ole tarkka. Jos lähetit tämän kirjautumispyynnön, napauta \"Salli\" nähdäksesi vahvistuskoodin.</string>
     <string name="dialog_btn_yes_install_icon">Asenna</string>
     <string name="dialog_msg_install_manager_content">Asennetaanko Etsi laite uudelleen?</string>
     <string name="dialog_storage_full_title">Pilvitallennustila täynnä</string>
@@ -897,6 +898,10 @@ Varmista, että käytät siihen liittyvää Xiaomi-tiliä järjestelmätilinä."
     <string name="passkeeper_install_keybag_title">Syötä Salasanojen hallinnan salasana</string>
     <string name="passkeeper_sync_off_confirm_content">Et voi synkronoida uusia salasanojasi Xiaomi Cloudiin, jos poistat tämän ominaisuuden käytöstä.</string>
     <string name="passkeeper_sync_on">Otetaan käyttöön…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Jos et lähettänyt tätä pyyntöä, suosittelemme salasanan vaihtamista.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Peruuta</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Vaihda</string>
+    <string name="passport_two_factor_change_password_dialog_title">Vaihda salasana?</string>
     <string name="pay_info_dialog_confirm_to_pay">Maksa %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Käytä jäljellä olevat Mi-kolikot: %s</string>
     <string name="pay_info_dialog_title">Valitse maksutapa</string>
@@ -1245,11 +1250,18 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="verify_camera_permission_title">Käyttöoikeuksia vaaditaan</string>
     <string name="verify_code_btn_negative">Peruuta</string>
     <string name="verify_code_btn_positive">Seuraava</string>
+    <string name="verify_code_device_list_title">Koodi lähetetty näihin laitteisiin</string>
     <string name="verify_code_dialog_message_default">Syötä tämä koodi uudella laitteellasi</string>
     <string name="verify_code_dialog_title_default">Laitteen vahvistuskoodi</string>
     <string name="verify_code_error_textView">Virheellinen salasana. Yritä uudelleen.</string>
     <string name="verify_code_error_view">Virheellinen koodi. Yritä uudelleen.</string>
+    <string name="verify_code_send_desc_1">Jatka syöttämällä vahvistuskoodi, joka on lähetetty laitteeseen %1$s</string>
+    <string name="verify_code_send_desc_2">Jatka syöttämällä vahvistuskoodi, joka lähetettiin laitteisiin %1$s ja %2$s</string>
+    <string name="verify_code_send_desc_3">Jatka syöttämällä vahvistuskoodi, joka lähetettiin laitteisiin %1$s, %2$s ja %3$s</string>
+    <string name="verify_code_send_desc_4">Jatka syöttämällä vahvistuskoodi, joka lähetettiin laitteisiin %1$s, %2$s, %3$s ja %4$s</string>
+    <string name="verify_code_send_desc_5">Jatka syöttämällä vahvistuskoodi, joka lähetettiin laitteisiin %1$s, %2$s, %3$s, %4$s ja %5$s</string>
     <string name="verify_code_success_textView">Päivitä suojausavainta</string>
+    <string name="verify_code_view_all_devices">Näytä kaikki laitteet</string>
     <string name="verify_code_warning_dialog_message_default">Sallitko uuden laitteen käyttää salattuja tietoja?</string>
     <string name="verify_code_warning_dialog_title">Vahvistuskoodi</string>
     <string name="verify_code_warning_dialog_title_default">Uusi laite pyytää käyttöoikeutta</string>
@@ -1313,6 +1325,7 @@ Sijaintitietoja ei ehkä ilmoiteta, kun verkkoyhteys on heikko."</string>
     <string name="verify_warning_dialog_message_pc">Lisätietosuoja on käytössä. Myönnä tietokoneellesi tarvittavat käyttöoikeudet, jotta voit käyttää salattuja tietoja.</string>
     <string name="verify_warning_dialog_message_web">Lisätietosuoja on käytössä. Myönnä tarvittavat käyttöoikeudet i.mi.com-sivustolle, jotta voit käyttää salattuja tietoja.</string>
     <string name="verify_warning_dialog_negative_btn">Älä salli</string>
+    <string name="verify_warning_dialog_negative_btn_new">Älä salli</string>
     <string name="verify_warning_dialog_positive_btn">Salli</string>
     <string name="verify_warning_dialog_title">Toinen laite otti päittäin salauksen käyttöön</string>
     <string name="verify_warning_dialog_title_find_device">\"Offline-sijainti\" on päällä toisessa laitteessa</string>

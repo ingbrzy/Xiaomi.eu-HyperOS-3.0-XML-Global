@@ -152,6 +152,7 @@
     <string name="device_activation_card_no_network_error">Nem tud csatlakozni a hálózathoz. Ellenőrizze a beállításokat, próbálja újra.</string>
     <string name="device_activation_card_title">Első aktiválás</string>
     <string name="device_activation_page_title">Készülék aktiválása</string>
+    <string name="device_location_tip">*A megjelenített hely a hálózat által van meghatározva, és nem pontos. Ha Ön kezdeményezte ezt a bejelentkezési kérést, érintse meg az „Engedélyezés” gombot az ellenőrzőkód megtekintéséhez.</string>
     <string name="dialog_btn_yes_install_icon">Telepítés</string>
     <string name="dialog_msg_install_manager_content">Újratelepíti a Készülékkeresést?</string>
     <string name="dialog_storage_full_title">A felhő tárhely megtelt</string>
@@ -897,6 +898,10 @@ Ellenőrizze, hogy a társított Xiaomi Fiókot használja rendszerfiókként."<
     <string name="passkeeper_install_keybag_title">Adja meg a jelkódját a Jelszókezelőhöz</string>
     <string name="passkeeper_sync_off_confirm_content">Ha kikapcsolja ezt a funkcióta, akkor nem tudja szinkronizálni az új jelszavakat a felhővel.</string>
     <string name="passkeeper_sync_on">Bekapcsolás…</string>
+    <string name="passport_two_factor_change_password_dialog_message">Ha nem Ön kezdeményezte ezt a kérést, javasoljuk, hogy módosítsa a jelszót.</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Mégse</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Módosítás</string>
+    <string name="passport_two_factor_change_password_dialog_title">Jelszó módosítása?</string>
     <string name="pay_info_dialog_confirm_to_pay">Fizessen %s összeget</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Hátralévő Mi érmék felhasználása: %s</string>
     <string name="pay_info_dialog_title">Válasszon fizetési módot</string>
@@ -1245,11 +1250,18 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="verify_camera_permission_title">Engedélyek szükségesek</string>
     <string name="verify_code_btn_negative">Mégse</string>
     <string name="verify_code_btn_positive">Következő</string>
+    <string name="verify_code_device_list_title">Kód elküldve ezekre a készülékekre</string>
     <string name="verify_code_dialog_message_default">Adja meg ezt a kódot az új készülékén</string>
     <string name="verify_code_dialog_title_default">Készülék ellenőrző kód</string>
     <string name="verify_code_error_textView">Hibás jelkód. Próbálja újra.</string>
     <string name="verify_code_error_view">Helytelen kód. Próbálja újra.</string>
+    <string name="verify_code_send_desc_1">A folytatáshoz írja be a %1$s készülékre elküldött ellenőrző kódot</string>
+    <string name="verify_code_send_desc_2">A folytatáshoz írja be a %1$s és a %2$s készülékekre elküldött ellenőrző kódot</string>
+    <string name="verify_code_send_desc_3">A folytatáshoz írja be a %1$s, %2$s és a %3$s készülékekre elküldött ellenőrző kódot</string>
+    <string name="verify_code_send_desc_4">A folytatáshoz írja be a %1$s, %2$s, %3$s és a %4$s készülékekre elküldött ellenőrző kódot</string>
+    <string name="verify_code_send_desc_5">A folytatáshoz írja be a %1$s, %2$s, %3$s, %4$s és a %5$s készülékekre elküldött ellenőrző kódot</string>
     <string name="verify_code_success_textView">Biztonsági jelkód frissítése</string>
+    <string name="verify_code_view_all_devices">Összes készülék megtekintése</string>
     <string name="verify_code_warning_dialog_message_default">Engedélyezi az új készülék hozzáférését a titkosított adatokhoz?</string>
     <string name="verify_code_warning_dialog_title">Hitelesítő kód</string>
     <string name="verify_code_warning_dialog_title_default">Új késuülék kér hozzáférést</string>
@@ -1313,6 +1325,7 @@ Előfordulhat, hogy gyenge hálózati kapcsolat esetén nem jelenik meg a helyin
     <string name="verify_warning_dialog_message_pc">A speciális adatvédelem bekapcsolva. Adja meg a szükséges engedélyeket a számítógépén a titkosított adatok eléréséhez.</string>
     <string name="verify_warning_dialog_message_web">A speciális adatvédelem bekapcsolva. Adja meg a szükséges engedélyeket az i.mi.com oldalon a titkosított adatok eléréséhez.</string>
     <string name="verify_warning_dialog_negative_btn">Nem engedélyezem</string>
+    <string name="verify_warning_dialog_negative_btn_new">Nem engedélyezem</string>
     <string name="verify_warning_dialog_positive_btn">Engedélyezem</string>
     <string name="verify_warning_dialog_title">Egy másik készülék bekapcsolta a végponttól végpontig titkosítást</string>
     <string name="verify_warning_dialog_title_find_device">Az „Offline helymeghatározás” egy másik készüléken be van kapcsolva</string>
