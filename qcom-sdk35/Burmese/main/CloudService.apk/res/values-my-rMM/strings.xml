@@ -99,6 +99,7 @@
     <string name="device_activation_card_no_network_error">ကွန်ရက်ချိတ်မရပါ။ ကွန်ရက်ဆက်တင်ကိုစစ်ပြီး ပြန်လုပ်ကြည့်ပါ။</string>
     <string name="device_activation_card_title">ကနဦးအသက်သွင်းခြင်း</string>
     <string name="device_activation_page_title">စက်အသက်သွင်းခြင်း</string>
+    <string name="device_location_tip">*ပြထားသောတည်နေရာကို ကွန်ရက်မှဆုံးဖြတ်ခြင်းဖြစ်ပြီး မတိကျပါ။ ၎င်းအကောင့်ဝင်တောင်းဆိုချက်ကို သင်လုပ်ထားခြင်းဖြစ်ပါက အတည်ပြုကုဒ်ကြည့်ရန် \"ခွင့်ပြုရန်\" ကို တို့ပါ။</string>
     <string name="dialog_btn_yes_install_icon">ထည့်ရန်</string>
     <string name="dialog_msg_install_manager_content">စက်ရှာဖွေစနစ် ထပ်ထည့်လိုသလား။</string>
     <string name="dialog_storage_full_title">ကလောက်သိုလှောင်ခန်းပြည့်နေသည်</string>
@@ -842,6 +843,10 @@
     <string name="passkeeper_install_keybag_title">စကားဝှက်မန်နေဂျာအတွက် ဝင်ခွင့်ကုဒ်ကို ထည့်ပါ</string>
     <string name="passkeeper_sync_off_confirm_content">ဤအင်္ဂါရပ်ကိုပိတ်လျှင် စကားဝှက်အသစ်များကို ကလောက်နှင့် ဆင့်(ခ်)လုပ်နိုင်တော့မည်မဟုတ်ပါ။</string>
     <string name="passkeeper_sync_on">ဖွင့်နေသည်…</string>
+    <string name="passport_two_factor_change_password_dialog_message">ဤတောင်းဆိုချက်ကို သင်မလုပ်ထားပါက စကားဝှက်ပြောင်းရန် အကြံပြုပါသည်။</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">မလုပ်တော့ရန်</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">ပြောင်းရန်</string>
+    <string name="passport_two_factor_change_password_dialog_title">စကားဝှက်ပြောင်းလိုသလား။</string>
     <string name="pay_info_dialog_confirm_to_pay">%s ပေးချေရန်</string>
     <string name="pay_info_dialog_mibi_balance_prefix">လက်ကျန် Mi ဒင်္ဂါးပြားများကို အသုံးပြုရန် - %s</string>
     <string name="pay_info_dialog_title">ငွေပေးချေနည်းလမ်းရွေးပါ</string>
@@ -1184,11 +1189,18 @@
     <string name="verify_camera_permission_title">ခွင့်ပြုချက်များလိုသည်</string>
     <string name="verify_code_btn_negative">မလုပ်တော့ရန်</string>
     <string name="verify_code_btn_positive">နောက်တစ်ဆင့်</string>
+    <string name="verify_code_device_list_title">ကုဒ်ကို ဤစက်များသို့ ပို့ထားသည်</string>
     <string name="verify_code_dialog_message_default">ဤကုဒ်ကို သင့်စက်အသစ်တွင် ထည့်ပါ</string>
     <string name="verify_code_dialog_title_default">စက်အတည်ပြုကုဒ်</string>
     <string name="verify_code_error_textView">ဝင်ခွင့်သော့မှားသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
     <string name="verify_code_error_view">ကုဒ်မှားသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="verify_code_send_desc_1">ရှေ့ဆက်ရန် %1$s သို့ ပို့ထားသော အတည်ပြုကုဒ်ကိုထည့်ပါ</string>
+    <string name="verify_code_send_desc_2">ရှေ့ဆက်ရန် %1$s နှင့် %2$s သို့ ပို့ထားသော အတည်ပြုကုဒ်ကိုထည့်ပါ</string>
+    <string name="verify_code_send_desc_3">ရှေ့ဆက်ရန် %1$s၊ %2$s နှင့် %3$s သို့ ပို့ထားသော အတည်ပြုကုဒ်ကိုထည့်ပါ</string>
+    <string name="verify_code_send_desc_4">ရှေ့ဆက်ရန် %1$s၊ %2$s၊ %3$s နှင့် %4$s သို့ ပို့ထားသော အတည်ပြုကုဒ်ကိုထည့်ပါ</string>
+    <string name="verify_code_send_desc_5">ရှေ့ဆက်ရန် %1$s၊ %2$s၊ %3$s၊ %4$s နှင့် %5$s သို့ ပို့ထားသော အတည်ပြုကုဒ်ကိုထည့်ပါ</string>
     <string name="verify_code_success_textView">လုံခြုံရေးဝင်ခွင့်သော့ အပ်ပဒိတ်လုပ်ရန်</string>
+    <string name="verify_code_view_all_devices">စက်အားလုံးကို ကြည့်ရန်</string>
     <string name="verify_code_warning_dialog_message_default">သင့်စက်အသစ်အား ကုဒ်ဖွဲ့ထားသောဒေတာများကို ဖတ်ခွင့်ပေးလိုသလား။</string>
     <string name="verify_code_warning_dialog_title">အတည်ပြုကုဒ်</string>
     <string name="verify_code_warning_dialog_title_default">စက်အသစ်က ဝင်ခွင့်တောင်းနေသည်</string>
@@ -1252,6 +1264,7 @@
     <string name="verify_warning_dialog_message_pc">အဆင့်မြင့်ဒေတာအကာအကွယ် ဖွင့်ထားသည်။ ကုဒ်ဖွဲ့ထားသော ဒေတာများကို ဝင်နိုင်ရန် သင့်ကွန်ပျူတာတွင် လိုအပ်သောခွင့်ပြုချက်များပေးပါ။</string>
     <string name="verify_warning_dialog_message_web">အဆင့်မြင့်ဒေတာအကာအကွယ် ဖွင့်ထားသည်။ ကုဒ်ဖွဲ့ထားသော ဒေတာများကို ဝင်နိုင်ရန် i.mi.com တွင် လိုအပ်သောခွင့်ပြုချက်များပေးပါ။</string>
     <string name="verify_warning_dialog_negative_btn">ခွင့်မပြုရန်</string>
+    <string name="verify_warning_dialog_negative_btn_new">ခွင့်မပြုရန်</string>
     <string name="verify_warning_dialog_positive_btn">ခွင့်ပြုရန်</string>
     <string name="verify_warning_dialog_title">အခြားစက်တွင် နှစ်ဦးနှစ်ဘက်ကုဒ်ဖွဲ့စနစ် ဖွင့်ထားသည်</string>
     <string name="verify_warning_dialog_title_find_device">\"အော့(ဖ်)လိုင်းတည်နေရာ\" အခြားစက်အတွက် ဖွင့်ထားသည်</string>

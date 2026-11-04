@@ -152,6 +152,7 @@
     <string name="device_activation_card_no_network_error">Impossible de se connecter au réseau. Vérifiez vos paramètres réseau et réessayez.</string>
     <string name="device_activation_card_title">Première activation</string>
     <string name="device_activation_page_title">"Activation de l'appareil"</string>
+    <string name="device_location_tip">"*La localisation affichée est déterminée par le réseau et n'est pas exacte. Si vous avez effectué cette demande de connexion, appuyez sur \"Autoriser\" pour afficher le code de vérification."</string>
     <string name="dialog_btn_yes_install_icon">Installer</string>
     <string name="dialog_msg_install_manager_content">"Installer Localiser l'appareil à nouveau ?"</string>
     <string name="dialog_storage_full_title">Le stockage cloud est plein</string>
@@ -897,6 +898,10 @@ Assurez-vous que vous utilisez le Compte Xiaomi associé comme votre compte syst
     <string name="passkeeper_install_keybag_title">Entrez votre mot de passe pour le Gestionnaire de mots de passe</string>
     <string name="passkeeper_sync_off_confirm_content">Vous ne pourrez pas synchroniser vos nouveaux mots de passe avec le cloud si vous désactivez cette fonctionnalité.</string>
     <string name="passkeeper_sync_on">Activation…</string>
+    <string name="passport_two_factor_change_password_dialog_message">"Si vous n'êtes pas à l'origine de cette demande, nous vous recommandons de modifier votre mot de passe."</string>
+    <string name="passport_two_factor_change_password_dialog_negative_btn">Annuler</string>
+    <string name="passport_two_factor_change_password_dialog_positive_btn">Modifier</string>
+    <string name="passport_two_factor_change_password_dialog_title">Changer de mot de passe ?</string>
     <string name="pay_info_dialog_confirm_to_pay">Payer %s</string>
     <string name="pay_info_dialog_mibi_balance_prefix">Utiliser les Mi Coins restant: %s</string>
     <string name="pay_info_dialog_title">Sélectionnez la méthode de paiement</string>
@@ -1245,11 +1250,18 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="verify_camera_permission_title">Autorisations requises</string>
     <string name="verify_code_btn_negative">Annuler</string>
     <string name="verify_code_btn_positive">Suivant</string>
+    <string name="verify_code_device_list_title">Code envoyé à ces appareils</string>
     <string name="verify_code_dialog_message_default">Saisir ce code sur votre nouvel appareil</string>
     <string name="verify_code_dialog_title_default">"Code de vérification de l'appareil"</string>
     <string name="verify_code_error_textView">"Clé d'accès incorrecte. Réessayez."</string>
     <string name="verify_code_error_view">Code incorrect. Réessayer.</string>
+    <string name="verify_code_send_desc_1">Saisissez le code de vérification envoyé à %1$s pour continuer</string>
+    <string name="verify_code_send_desc_2">Saisissez le code de vérification envoyé à %1$s et %2$s pour continuer</string>
+    <string name="verify_code_send_desc_3">Saisissez le code de vérification envoyé à %1$s, %2$s, et %3$s pour continuer</string>
+    <string name="verify_code_send_desc_4">Saisissez le code de vérification envoyé à %1$s, %2$s, %3$s, et %4$s pour continuer</string>
+    <string name="verify_code_send_desc_5">Saisissez le code de vérification envoyé à %1$s, %2$s, %3$s, %4$s, et %5$s pour continuer</string>
     <string name="verify_code_success_textView">"Mettre à jour la clé d'accès de sécurité"</string>
+    <string name="verify_code_view_all_devices">Afficher tous les appareils</string>
     <string name="verify_code_warning_dialog_message_default">Autoriser votre nouvel appareil à accéder aux données cryptées ?</string>
     <string name="verify_code_warning_dialog_title">Code de vérification</string>
     <string name="verify_code_warning_dialog_title_default">"Un nouvel appareil demande l'accès"</string>
@@ -1313,6 +1325,7 @@ Les informations de localisation peuvent ne pas être signalées lorsque la conn
     <string name="verify_warning_dialog_message_pc">La protection avancée des données est activée. Accordez les autorisations requises sur votre ordinateur pour pouvoir accéder aux données chiffrées.</string>
     <string name="verify_warning_dialog_message_web">La protection avancée des données est activée. Accordez les autorisations requises sur i.mi.com pour pouvoir accéder aux données chiffrées.</string>
     <string name="verify_warning_dialog_negative_btn">Ne pas autoriser</string>
+    <string name="verify_warning_dialog_negative_btn_new">Ne pas autoriser</string>
     <string name="verify_warning_dialog_positive_btn">Autoriser</string>
     <string name="verify_warning_dialog_title">Un autre appareil a activé le chiffrement de bout en bout</string>
     <string name="verify_warning_dialog_title_find_device">\"Localisation hors ligne\" est activée pour un autre appareil</string>
